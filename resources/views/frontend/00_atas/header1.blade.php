@@ -9,7 +9,7 @@
         font-family: Arial, sans-serif;">
         <p id="jam" style="
             font-size: 14px;
-            background: #00820d;
+            background: #000000;
             color: #fff;
             padding: 2px 10px;
             border-radius: 15px;
