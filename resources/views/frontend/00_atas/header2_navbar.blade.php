@@ -55,17 +55,17 @@
             {{-- <i class="fas fa-chevron-down arrow"></i> --}}
             <div class="dropdown-content" style="min-width: 400px;">
                 <div style="display: inline-flex; align-items: center; color: black; text-decoration: none;">
-                    <i class="fas fa-building" style="margin-left: 3px; margin-right: 0px; background: linear-gradient(90deg, black, yellow);"></i>
+                    <i class="fas fa-building" style="margin-left: 3px; margin-right: 0px; background: linear-gradient(90deg, black, green);"></i>
                     <a href="/profil/struktur" style="color: black; text-decoration: none; text-align:left">STRUKTUR DINAS PEKERJAAN UMUM DAN PENATAAN RUANG PEMERINTAH KABUPATEN BANDUNG BARAT</a>
                 </div>
                 
                 <div style="display: inline-flex; align-items: center; color: black; text-decoration: none;">
-                    <i class="fas fa-tasks" style="margin-left: 3px; margin-right: 0px; background: linear-gradient(90deg, black, yellow);"></i>
+                    <i class="fas fa-tasks" style="margin-left: 3px; margin-right: 0px; background: linear-gradient(90deg, black, green);"></i>
                     <a href="/profil/rencanastrategis" style="color: black; text-decoration: none; text-align:left">RENSTRA PROGRAM DAN JASA KONSTRUKSI</a>
                 </div>
                 
                 <div style="display: inline-flex; align-items: center; color: black; text-decoration: none;">
-                    <i class="fas fa-clipboard-list" style="margin-left: 3px; margin-right: 0px; background: linear-gradient(90deg, black, yellow);"></i>
+                    <i class="fas fa-clipboard-list" style="margin-left: 3px; margin-right: 0px; background: linear-gradient(90deg, black, white);"></i>
                     <a href="/profil/tupoksi" style="color: black; text-decoration: none; text-align:left">TUPOKSI PROGRAM DAN JASA KONSTRUKSI</a>
                 </div>
             </div>
