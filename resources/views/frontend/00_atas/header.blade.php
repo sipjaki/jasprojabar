@@ -34,7 +34,7 @@
     {{-- <title>Construction Company</title> --}}
     <title>{{$title}}</title>
     
-    <link rel="icon" href="{{ asset('icon/logokabupatenblora.png') }}" type="image/x-icon">
+    <link rel="icon" href="/assets/icon/logokabupatenblora.png"  type="image/x-icon">
 
   
 </head>
