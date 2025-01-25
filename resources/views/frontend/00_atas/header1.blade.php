@@ -9,7 +9,7 @@
         font-family: Arial, sans-serif;">
         <p id="jam" style="
             font-size: 14px;
-            background: #00008b;
+            background: #06f933;
             color: #fff;
             padding: 2px 10px;
             border-radius: 15px;
@@ -49,7 +49,7 @@
             margin-top: 2.5px;
             margin-bottom: 2px;
             border-radius: 20px;
-            background: #00008b;
+            background: #06f933;
             
         }
         .marquee {
@@ -68,7 +68,7 @@
         }
     </style>
      <div class="marquee-container" style="margin-left: 150px;">
-        <div class="marquee" style="color: white">Selamat Datang ! di Web Resmi Sistem Informasi Pembina Jasa Konstruksi Pemerintah Kabupaten Bandung Barat</div>
+        <div class="marquee" style="color: white">Selamat Datang ! di Web Resmi Sistem Informasi Pembina Jasa Konstruksi Pemerintah Kabupaten Blora</div>
     </div>
     
         {{-- <p>Jam </p> --}}
