@@ -9,7 +9,7 @@
         font-family: Arial, sans-serif;">
         <p id="jam" style="
             font-size: 14px;
-            background: #06f933;
+            background: #00820d;
             color: #fff;
             padding: 2px 10px;
             border-radius: 15px;
@@ -49,7 +49,7 @@
             margin-top: 2.5px;
             margin-bottom: 2px;
             border-radius: 20px;
-            background: #06f933;
+            background: #000000;
             
         }
         .marquee {
@@ -68,7 +68,7 @@
         }
     </style>
      <div class="marquee-container" style="margin-left: 150px;">
-        <div class="marquee" style="color: white">Selamat Datang ! di Web Resmi Sistem Informasi Pembina Jasa Konstruksi Pemerintah Kabupaten Blora</div>
+        <div class="marquee" style="color: white">Selamat Datang ! di Web Resmi Mas Jaki Blora Sistem Informasi Pembina Jasa Konstruksi Pemerintah Kabupaten Blora Jawa Tengah</div>
     </div>
     
         {{-- <p>Jam </p> --}}
