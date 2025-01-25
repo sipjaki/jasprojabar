@@ -288,4 +288,4 @@ public function createstoredokumentasipelatihan(Request $request)
 
 {{-- #06f933 --}}
 
-KODE WARNA HIJAU :  #06f933
+KODE WARNA HIJAU :  #00820d
