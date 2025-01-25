@@ -284,3 +284,8 @@ public function createstoredokumentasipelatihan(Request $request)
 @endforeach
 
 </div>
+
+
+{{-- #06f933 --}}
+
+KODE WARNA HIJAU :  #06f933
