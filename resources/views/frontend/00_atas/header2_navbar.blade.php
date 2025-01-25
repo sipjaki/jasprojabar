@@ -120,7 +120,7 @@
         </div>                    {{-- <a href="#">PROFIL</a> --}}
 
         <div class="dropdown">
-            <a href="#" class="dropdown-toggle" style="text-align: left">PEMBINAAN JAKON</a>
+            <a href="#" class="dropdown-toggle" style="text-align: left">PEMBINAAN</a>
             <div class="dropdown-content" style="min-width: 320px;">
                 
                 <div style="display: inline-flex; align-items: center; color: black; text-decoration: none;">
