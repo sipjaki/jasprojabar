@@ -26,12 +26,12 @@
                     Semoga sesuai dengan yang Anda inginkan!
                 </p>
                 <br><br><br><br><br>
-                <a href="mailto:your-email@example.com"><i class="fas fa-envelope"></i></a>
-                <a href="https://www.facebook.com/your-facebook" target="_blank"><i class="fab fa-facebook-f"></i></a>
-                <a href="https://www.instagram.com/your-instagram" target="_blank"><i class="fab fa-instagram"></i></a>
-                <a href="https://twitter.com/your-twitter" target="_blank"><i class="fab fa-twitter"></i></a>
-                <a href="https://www.tiktok.com/@your-tiktok" target="_blank"><i class="fab fa-tiktok"></i></a>
-                <a href="https://www.youtube.com/your-youtube" target="_blank"><i class="fab fa-youtube"></i></a>
+                <a href="mailto:your-email@example.com"><i style="color: green" class="fas fa-envelope"></i></a>
+                <a href="https://www.facebook.com/your-facebook" target="_blank"><i style="color: green" class="fab fa-facebook-f"></i></a>
+                <a href="https://www.instagram.com/your-instagram" target="_blank"><i style="color: green" class="fab fa-instagram"></i></a>
+                <a href="https://twitter.com/your-twitter" target="_blank"><i style="color: green" class="fab fa-twitter"></i></a>
+                <a href="https://www.tiktok.com/@your-tiktok" target="_blank"><i style="color: green" class="fab fa-tiktok"></i></a>
+                <a href="https://www.youtube.com/your-youtube" target="_blank"><i style="color: green" class="fab fa-youtube"></i></a>
             
             </div>
             <div class="links">
