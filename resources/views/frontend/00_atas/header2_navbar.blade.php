@@ -143,8 +143,6 @@
                     <i class="fas fa-eye" style="margin-left: 3px; margin-right: 10px; background: linear-gradient(90deg, black, green);"></i>
                     <a href="/404" style="color: black; text-decoration: none; text-align:left">KECELAKAAN TENAGA KERJA</a>
                 </div>
-
-                
             </div>
         </div>
 
@@ -379,7 +377,7 @@
         </div>                    {{-- <a href="#">PROFIL</a> --}}
         
         
-        <a href="/login">LOGIN</a>
+        {{-- <a href="/login">LOGIN</a> --}}
        
     
     </nav>
