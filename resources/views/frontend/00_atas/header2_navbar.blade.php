@@ -190,29 +190,6 @@
             </div>
         </div>            
 
-        <div class="dropdown">
-            <a href="#" class="dropdown-toggle" style="text-align: left">HARGA</a>
-            <div class="dropdown-content" style="min-width: 320px;">
-                
-                <div style="display: inline-flex; align-items: center; color: black; text-decoration: none;">
-                    <i class="fas fa-eye" style="margin-left: 3px; margin-right: 10px; background: linear-gradient(90deg, black, green);"></i>
-                    <a href="/404" style="color: black; text-decoration: none; text-align:left">HARGA SATUAN E-KATALOG</a>
-                </div>
-                <div style="display: inline-flex; align-items: center; color: black; text-decoration: none;">
-                    <i class="fas fa-eye" style="margin-left: 3px; margin-right: 10px; background: linear-gradient(90deg, black, green);"></i>
-                    <a href="/404" style="color: black; text-decoration: none; text-align:left">HARGA SATUAN PERKECAMATAN</a>
-                </div>
-                <div style="display: inline-flex; align-items: center; color: black; text-decoration: none;">
-                    <i class="fas fa-eye" style="margin-left: 3px; margin-right: 10px; background: linear-gradient(90deg, black, green);"></i>
-                    <a href="/404" style="color: black; text-decoration: none; text-align:left">HARGA SATUAN DATA STATISTIK</a>
-                </div>
-                <div style="display: inline-flex; align-items: center; color: black; text-decoration: none;">
-                    <i class="fas fa-eye" style="margin-left: 3px; margin-right: 10px; background: linear-gradient(90deg, black, green);"></i>
-                    <a href="/404" style="color: black; text-decoration: none; text-align:left">BUSSINESS INTELLIGENCE</a>
-                </div>
-                
-            </div>
-        </div>                    
         
         {{-- <a href="#">PROFIL</a> --}}
 {{--     
@@ -375,6 +352,31 @@
             </div>
             
         </div>                    {{-- <a href="#">PROFIL</a> --}}
+
+        <div class="dropdown">
+            <a href="#" class="dropdown-toggle" style="text-align: left">HARGA</a>
+            <div class="dropdown-content" style="min-width: 320px;">
+                
+                <div style="display: inline-flex; align-items: center; color: black; text-decoration: none;">
+                    <i class="fas fa-eye" style="margin-left: 3px; margin-right: 10px; background: linear-gradient(90deg, black, green);"></i>
+                    <a href="/404" style="color: black; text-decoration: none; text-align:left">HARGA SATUAN E-KATALOG</a>
+                </div>
+                <div style="display: inline-flex; align-items: center; color: black; text-decoration: none;">
+                    <i class="fas fa-eye" style="margin-left: 3px; margin-right: 10px; background: linear-gradient(90deg, black, green);"></i>
+                    <a href="/404" style="color: black; text-decoration: none; text-align:left">HARGA SATUAN PERKECAMATAN</a>
+                </div>
+                <div style="display: inline-flex; align-items: center; color: black; text-decoration: none;">
+                    <i class="fas fa-eye" style="margin-left: 3px; margin-right: 10px; background: linear-gradient(90deg, black, green);"></i>
+                    <a href="/404" style="color: black; text-decoration: none; text-align:left">HARGA SATUAN DATA STATISTIK</a>
+                </div>
+                <div style="display: inline-flex; align-items: center; color: black; text-decoration: none;">
+                    <i class="fas fa-eye" style="margin-left: 3px; margin-right: 10px; background: linear-gradient(90deg, black, green);"></i>
+                    <a href="/404" style="color: black; text-decoration: none; text-align:left">BUSSINESS INTELLIGENCE</a>
+                </div>
+                
+            </div>
+        </div>                    
+
         
         
         {{-- <a href="/login">LOGIN</a> --}}
