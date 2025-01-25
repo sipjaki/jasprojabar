@@ -2,8 +2,8 @@
     <div style="display: flex; align-items: center; ">
         <img src="/assets/icon/pupr.png" alt="Logo SIPJAKIKBB" style="width: 50px; height: 50px; object-fit: cover; padding: 0;">
         <h1 style="margin: 0;">
-            <span>SIPJAKI</span>KBB
-            <p style="margin: 0; font-size: 16px; color: white" >Dinas Pekerjaan Umum & Tata Ruang</p>
+            <span>MASJAKI</span>BLORA
+            <p style="margin: 0; font-size: 16px; color: white" >Dinas Pekerjaan Umum & Penataan Ruang</p>
         </h1>
     </div>
 
