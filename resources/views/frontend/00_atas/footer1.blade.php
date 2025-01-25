@@ -10,10 +10,10 @@
                 <img src="/assets/icon/sipjakikbb.png" alt="Logo SIPJAKIKBB" style="margin-bottom: 10px; width: 58px; height: 58px; object-fit: cover; margin-right: 10px; padding: 0;">
                     
                 <h2 style="margin: 0;">
-                    <span style="color: white">SIPJAKI</span>KBB
+                    <span style="color: white">Mas Jaki</span><span style="color: #28a745;">Blora</span>
                 </h2>
                 <p style="margin: 0; font-size: 16px; color: white" >Dinas Pekerjaan Umum & Penataan Ruang</p>
-                <p style="margin: 0; font-size: 16px; color: white" >Pemerintah Kabupaten Bandung Barat</p>
+                <p style="margin: 0; font-size: 16px; color: white" >Pemerintah Kabupaten Blora</p>
                         <br>
                     
                 {{-- <br><br><br><br><br> --}}
