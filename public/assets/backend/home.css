@@ -529,9 +529,9 @@ h2 {
   
   .hero-subtitle {
     color: var(--chrome-yellow);s
-    font-family: var(--ff-source-sans-pro);
-    font-size: var(--fs-7);
-    margin-block-end: 15px;
+    /* font-family: var(--ff-source-sans-pro); */
+    /* font-size: var(--fs-7); */
+    /* margin-block-end: 15px; */
   }
   
   .hero-title {
