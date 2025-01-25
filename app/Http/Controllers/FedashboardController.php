@@ -37,7 +37,7 @@ class FedashboardController extends Controller
 
 
         return view('frontend.00_full.index', [
-            'title' => 'Mas Jaki Blora | Sistem Informasi Jasa Konstruksi Kabupaten Blora',
+            'title' => 'Mas Jaki Blora',
             'data' => $data, // Mengirimkan data paginasi ke view
             'dataqapertanyaan' => $dataqapertanyaan, // Mengirimkan data paginasi ke view
             'data_layanankami' => $data_layanankami, // Mengirimkan data paginasi ke view
