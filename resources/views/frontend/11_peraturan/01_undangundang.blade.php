@@ -52,7 +52,7 @@ Undang Undang Jasa Konstruksi
 <div class="container" style="
     display: flex;
     flex-direction: column;
-    background-color: #FFCB0F;
+    background-color: #00820d;
     padding: 10px;
     border: 1px solid black;
     margin-bottom: 0px;
@@ -60,13 +60,13 @@ Undang Undang Jasa Konstruksi
     text-align: center;
     width: 100%;
     height: 120vh;
-    background: linear-gradient(to bottom, yellow, white, black);
+    background: linear-gradient(to bottom, #00820d, white, black);
     align-items: center;
     position: relative;
 ">
   <div style="display: flex; align-items: center;">
     <img src="/assets/icon/pupr.png" alt="Logo SIPJAKIKBB" style="width: 50px; height: 50px; object-fit: cover; margin: 0 10px;">
-    <img src="/assets/icon/sipjakikbb.png" alt="Logo SIPJAKIKBB" style="width: 70px; height: 70px; object-fit: cover; margin: 0 10px;">
+    <img src="/assets/icon/logokabupatenblora.png" alt="Logo SIPJAKIKBB" style="width: 70px; height: 70px; object-fit: cover; margin: 0 10px;">
 </div>
 
 
@@ -84,8 +84,8 @@ Undang Undang Jasa Konstruksi
             border: 1px solid black;
             border-radius: 25px;
             overflow: hidden;
-            background-color: #FFCB0F;
-            background: linear-gradient(to bottom, yellow, white, black);
+            background-color: #00820d;
+            background: linear-gradient(to bottom, #00820d, white, black);
         }
         .pdf-frame {
             width: 100%;
