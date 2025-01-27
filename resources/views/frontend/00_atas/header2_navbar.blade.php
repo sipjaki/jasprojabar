@@ -130,13 +130,13 @@
         
         {{-- <a href="#">PROFIL</a> --}}
         
-        {{-- <div class="dropdown">
+        <div class="dropdown">
             <a href="#" class="dropdown-toggle">BERITA</a>
            
             <div class="dropdown-content" style="min-width: 280px;">
                 <div style="display: inline-flex; align-items: center; color: black; text-decoration: none;">
                     <i class="fas fa-bullhorn" style="margin-left: 3px; margin-right: 8px; background: linear-gradient(90deg, black, green);"></i>
-                    <a href="/berita" style="color: black; text-decoration: none; text-align:left">BERITA</a>
+                    <a href="/berita" style="color: black; text-decoration: none; text-align:left">BERITA JASA KONSTRUKSI</a>
                 </div>
                 
                 <div style="display: inline-flex; align-items: center; color: black; text-decoration: none;">
@@ -150,7 +150,7 @@
                 </div>
             </div>
             
-        </div>                     --}}
+        </div>                    
         
         <div class="dropdown">
             <a href="#" class="dropdown-toggle" style="text-align: left">DATA JAKON </a>
@@ -344,9 +344,8 @@
         {{-- <a href="/tdup">TDUP</a> --}}
         
         
-        <div class="dropdown">
+        {{-- <div class="dropdown">
             <a href="#" class="dropdown-toggle" style="text-align: left">PELATIHAN</a>
-            {{-- <i class="fas fa-chevron-down arrow"></i> --}}
             <div class="dropdown-content" style="min-width: 210px;">
                 <div style="display: inline-flex; align-items: center; color: black; text-decoration: none;">
                     <i class="fas fa-chalkboard-teacher" style="margin-left: 3px; margin-right: 10px; background: linear-gradient(90deg, black, green);"></i>
@@ -371,7 +370,8 @@
 
             </div>
         </div>
-        
+         --}}
+
         <div class="dropdown">
             <a href="#" class="dropdown-toggle" style="text-align: left">PERATURAN</a>
             {{-- <i class="fas fa-chevron-down arrow"></i> --}}
