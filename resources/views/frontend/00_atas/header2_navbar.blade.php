@@ -243,21 +243,25 @@
             <div class="dropdown-content" style="min-width: 320px;">
                 
                 <div style="display: inline-flex; align-items: center; color: black; text-decoration: none;">
-                    <i class="fas fa-eye" style="margin-left: 3px; margin-right: 10px; background: linear-gradient(90deg, black, green);"></i>
+                    <i class="fas fa-cogs" style="margin-left: 3px; margin-right: 10px; background: linear-gradient(90deg, black, green); color: white;"></i>
                     <a href="/404" style="color: black; text-decoration: none; text-align:left">MATERIAL BANGUNAN GEDUNG</a>
                 </div>
+                
                 <div style="display: inline-flex; align-items: center; color: black; text-decoration: none;">
-                    <i class="fas fa-eye" style="margin-left: 3px; margin-right: 10px; background: linear-gradient(90deg, black, green);"></i>
+                    <i class="fas fa-tools" style="margin-left: 3px; margin-right: 10px; background: linear-gradient(90deg, black, green); color: white;"></i>
                     <a href="/404" style="color: black; text-decoration: none; text-align:left">PERALATAN KONSTRUKSI</a>
                 </div>
+                
                 <div style="display: inline-flex; align-items: center; color: black; text-decoration: none;">
-                    <i class="fas fa-eye" style="margin-left: 3px; margin-right: 10px; background: linear-gradient(90deg, black, green);"></i>
+                    <i class="fas fa-store" style="margin-left: 3px; margin-right: 10px; background: linear-gradient(90deg, black, green); color: white;"></i>
                     <a href="/404" style="color: black; text-decoration: none; text-align:left">TOKO BANGUNAN KAB BLORA</a>
                 </div>
+                
                 <div style="display: inline-flex; align-items: center; color: black; text-decoration: none;">
-                    <i class="fas fa-eye" style="margin-left: 3px; margin-right: 10px; background: linear-gradient(90deg, black, green);"></i>
+                    <i class="fas fa-truck" style="margin-left: 3px; margin-right: 10px; background: linear-gradient(90deg, black, green); color: white;"></i>
                     <a href="/404" style="color: black; text-decoration: none; text-align:left">DISTRIBUTOR KAB BLORA</a>
                 </div>
+                
                 
             </div>
         </div>            
