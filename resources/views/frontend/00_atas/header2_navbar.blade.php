@@ -155,7 +155,7 @@
             
         </div>                     --}}
         
-        {{-- <div class="dropdown">
+        <div class="dropdown">
             <a href="#" class="dropdown-toggle" style="text-align: left">DATA JAKON </a>
             <i class="fas fa-chevron-down arrow"></i>
             <div class="dropdown-content" style="min-width: 320px;">
@@ -178,7 +178,7 @@
                     <a href="/datajakon/paketpekerjaan" style="color: black; text-decoration: none; text-align:left">PROGRESS PAKET PEKERJAAN</a>
                 </div>
             </div>
-        </div>                     --}}
+        </div>                    
 
         {{-- =========================================================================================================================================================== --}}
         {{-- =========================================================================================================================================================== --}}
@@ -186,7 +186,7 @@
 
         {{-- MAS BLORA SIPJAKI KABUPATEN BLORA  --}}
         
-        <div class="dropdown">
+        {{-- <div class="dropdown">
             <a href="#" class="dropdown-toggle" style="text-align: left">DATA JAKON </a>
             <i class="fas fa-chevron-down arrow"></i>
             <div class="dropdown-content" style="min-width: 320px;">
@@ -209,7 +209,7 @@
                     <a href="/datajakon/paketpekerjaan" style="color: black; text-decoration: none; text-align:left">PROGRESS PAKET PEKERJAAN</a>
                 </div>
             </div>
-        </div>                    
+        </div>                     --}}
 
          {{-- MAS BLORA SIPJAKI KABUPATEN BLORA  --}}
         
