@@ -187,27 +187,31 @@
         <div class="dropdown">
             <a href="#" class="dropdown-toggle" style="text-align: left">PEMBINAAN</a>
             <div class="dropdown-content" style="min-width: 320px;">
+                <div style="display: inline-flex; align-items: center; color: black; text-decoration: none;">
+                    <i class="fas fa-chalkboard-teacher" style="margin-left: 3px; margin-right: 10px; background: linear-gradient(90deg, black, green);"></i>
+                    <a href="/404" style="color: black; text-decoration: none; text-align:left">PELATIHAN</a>
+                </div>
                 
                 <div style="display: inline-flex; align-items: center; color: black; text-decoration: none;">
-                    <i class="fas fa-eye" style="margin-left: 3px; margin-right: 10px; background: linear-gradient(90deg, black, green);"></i>
-                    <a href="/404" style="color: black; text-decoration: none; text-align:left">PELATIHAN </a>
+                    <i class="fas fa-cogs" style="margin-left: 3px; margin-right: 10px; background: linear-gradient(90deg, black, green);"></i>
+                    <a href="/404" style="color: black; text-decoration: none; text-align:left">BIMTEK</a>
                 </div>
+                
                 <div style="display: inline-flex; align-items: center; color: black; text-decoration: none;">
-                    <i class="fas fa-eye" style="margin-left: 3px; margin-right: 10px; background: linear-gradient(90deg, black, green);"></i>
-                    <a href="/404" style="color: black; text-decoration: none; text-align:left">BIMTEK </a>
-                </div>
-                <div style="display: inline-flex; align-items: center; color: black; text-decoration: none;">
-                    <i class="fas fa-eye" style="margin-left: 3px; margin-right: 10px; background: linear-gradient(90deg, black, green);"></i>
+                    <i class="fas fa-id-badge" style="margin-left: 3px; margin-right: 10px; background: linear-gradient(90deg, black, green);"></i>
                     <a href="/404" style="color: black; text-decoration: none; text-align:left">SKK TENAGA AHLI</a>
                 </div>
+                
                 <div style="display: inline-flex; align-items: center; color: black; text-decoration: none;">
-                    <i class="fas fa-eye" style="margin-left: 3px; margin-right: 10px; background: linear-gradient(90deg, black, green);"></i>
+                    <i class="fas fa-wrench" style="margin-left: 3px; margin-right: 10px; background: linear-gradient(90deg, black, green);"></i>
+                    <a href="/404" style="color: black; text-decoration: none; text-align:left">WORKSHOP</a>
+                </div>
+                
+                <div style="display: inline-flex; align-items: center; color: black; text-decoration: none;">
+                    <i class="fas fa-list-alt" style="margin-left: 3px; margin-right: 10px; background: linear-gradient(90deg, black, green);"></i>
                     <a href="/404" style="color: black; text-decoration: none; text-align:left">DAFTAR TENAGA AHLI</a>
                 </div>
-                <div style="display: inline-flex; align-items: center; color: black; text-decoration: none;">
-                    <i class="fas fa-eye" style="margin-left: 3px; margin-right: 10px; background: linear-gradient(90deg, black, green);"></i>
-                    <a href="/404" style="color: black; text-decoration: none; text-align:left">KECELAKAAN TENAGA KERJA</a>
-                </div>
+                
             </div>
         </div>
 
