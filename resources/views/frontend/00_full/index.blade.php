@@ -178,7 +178,7 @@
                     <div class="mb-3 mt-0">
                         <div class="section-title mb-0">
                             <h4 class="m-0 text-uppercase font-weight-bold">
-                               <img src="/assets/icon/sipjakikbb.png" alt="/assets/icon/sipjakikbb.png" style="width: 40px;"> KEGIATAN SERTIFIKASI JASA KONSTRUKSI </h4>
+                               <img src="/assets/icon/logokabupatenblora.png" alt="/assets/icon/sipjakikbb.png" style="width: 40px;"> KEGIATAN SERTIFIKASI JASA KONSTRUKSI </h4>
                         </div>
                         <div class="bg-white border border-top-0 p-3">
                                
