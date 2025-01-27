@@ -220,17 +220,20 @@
             <div class="dropdown-content" style="min-width: 320px;">
                 
                 <div style="display: inline-flex; align-items: center; color: black; text-decoration: none;">
-                    <i class="fas fa-eye" style="margin-left: 3px; margin-right: 10px; background: linear-gradient(90deg, black, green);"></i>
-                    <a href="/404" style="color: black; text-decoration: none; text-align:left">PENGAWASAN PROYEK</a>
+                    <i class="fas fa-shield-alt" style="margin-left: 3px; margin-right: 10px; background: linear-gradient(90deg, black, green);"></i>
+                    <a href="/404" style="color: black; text-decoration: none; text-align:left">PENGAWASAN BUJK</a>
                 </div>
+                
                 <div style="display: inline-flex; align-items: center; color: black; text-decoration: none;">
-                    <i class="fas fa-eye" style="margin-left: 3px; margin-right: 10px; background: linear-gradient(90deg, black, green);"></i>
+                    <i class="fas fa-exclamation-triangle" style="margin-left: 3px; margin-right: 10px; background: linear-gradient(90deg, black, green);"></i>
                     <a href="/404" style="color: black; text-decoration: none; text-align:left">KECELAKAAN KERJA</a>
                 </div>
+                
                 <div style="display: inline-flex; align-items: center; color: black; text-decoration: none;">
-                    <i class="fas fa-eye" style="margin-left: 3px; margin-right: 10px; background: linear-gradient(90deg, black, green);"></i>
-                    <a href="/404" style="color: black; text-decoration: none; text-align:left">TERTIB JASA KONSTRUKSI </a>
+                    <i class="fas fa-balance-scale" style="margin-left: 3px; margin-right: 10px; background: linear-gradient(90deg, black, green);"></i>
+                    <a href="/404" style="color: black; text-decoration: none; text-align:left">TERTIB JASA KONSTRUKSI</a>
                 </div>
+                        
                 
             </div>
         </div>                    
@@ -241,43 +244,43 @@
                 
                 <div style="display: inline-flex; align-items: center; color: black; text-decoration: none;">
                     <i class="fas fa-eye" style="margin-left: 3px; margin-right: 10px; background: linear-gradient(90deg, black, green);"></i>
-                    <a href="/404" style="color: black; text-decoration: none; text-align:left">MATERIAL</a>
+                    <a href="/404" style="color: black; text-decoration: none; text-align:left">MATERIAL BANGUNAN GEDUNG</a>
                 </div>
                 <div style="display: inline-flex; align-items: center; color: black; text-decoration: none;">
                     <i class="fas fa-eye" style="margin-left: 3px; margin-right: 10px; background: linear-gradient(90deg, black, green);"></i>
-                    <a href="/404" style="color: black; text-decoration: none; text-align:left">PERALATAN</a>
+                    <a href="/404" style="color: black; text-decoration: none; text-align:left">PERALATAN KONSTRUKSI</a>
                 </div>
                 <div style="display: inline-flex; align-items: center; color: black; text-decoration: none;">
                     <i class="fas fa-eye" style="margin-left: 3px; margin-right: 10px; background: linear-gradient(90deg, black, green);"></i>
-                    <a href="/404" style="color: black; text-decoration: none; text-align:left">TOKO BANGUNAN </a>
+                    <a href="/404" style="color: black; text-decoration: none; text-align:left">TOKO BANGUNAN KAB BLORA</a>
                 </div>
                 <div style="display: inline-flex; align-items: center; color: black; text-decoration: none;">
                     <i class="fas fa-eye" style="margin-left: 3px; margin-right: 10px; background: linear-gradient(90deg, black, green);"></i>
-                    <a href="/404" style="color: black; text-decoration: none; text-align:left">DISTRIBUTOR</a>
+                    <a href="/404" style="color: black; text-decoration: none; text-align:left">DISTRIBUTOR KAB BLORA</a>
                 </div>
                 
             </div>
         </div>            
 
         <div class="dropdown">
-            <a href="#" class="dropdown-toggle" style="text-align: left">HARGA</a>
+            <a href="#" class="dropdown-toggle" style="text-align: left">AHSP</a>
             <div class="dropdown-content" style="min-width: 320px;">
                 
                 <div style="display: inline-flex; align-items: center; color: black; text-decoration: none;">
                     <i class="fas fa-eye" style="margin-left: 3px; margin-right: 10px; background: linear-gradient(90deg, black, green);"></i>
-                    <a href="/404" style="color: black; text-decoration: none; text-align:left">HARGA SATUAN E-KATALOG</a>
+                    <a href="/404" style="color: black; text-decoration: none; text-align:left">HARGA SATUAN DASAR</a>
                 </div>
                 <div style="display: inline-flex; align-items: center; color: black; text-decoration: none;">
                     <i class="fas fa-eye" style="margin-left: 3px; margin-right: 10px; background: linear-gradient(90deg, black, green);"></i>
-                    <a href="/404" style="color: black; text-decoration: none; text-align:left">HARGA SATUAN PERKECAMATAN</a>
+                    <a href="/404" style="color: black; text-decoration: none; text-align:left">HSP KONSTRUKSI UMUM</a>
                 </div>
                 <div style="display: inline-flex; align-items: center; color: black; text-decoration: none;">
                     <i class="fas fa-eye" style="margin-left: 3px; margin-right: 10px; background: linear-gradient(90deg, black, green);"></i>
-                    <a href="/404" style="color: black; text-decoration: none; text-align:left">HARGA SATUAN DATA STATISTIK</a>
+                    <a href="/404" style="color: black; text-decoration: none; text-align:left">SHST KONSTRUKSI</a>
                 </div>
                 <div style="display: inline-flex; align-items: center; color: black; text-decoration: none;">
                     <i class="fas fa-eye" style="margin-left: 3px; margin-right: 10px; background: linear-gradient(90deg, black, green);"></i>
-                    <a href="/404" style="color: black; text-decoration: none; text-align:left">BUSSINESS INTELLIGENCE</a>
+                    <a href="/404" style="color: black; text-decoration: none; text-align:left">DAFTAR MATERIAL</a>
                 </div>
                 
             </div>
