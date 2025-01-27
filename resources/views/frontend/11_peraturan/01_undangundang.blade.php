@@ -44,7 +44,7 @@
     width: 500px;
     background: linear-gradient(to right, #f0f0f0, #e0e0e0);
     transition: background 0.5s ease, color 0.5s ease;
-    " onmouseover="this.style.background='linear-gradient(to right, #f0f0f0, #e0e0e0)'; this.style.color='black';" onmouseout="this.style.background='linear-gradient(to right, black, yellow )'; this.style.color='white';">
+    " onmouseover="this.style.background='linear-gradient(to right, #f0f0f0, #e0e0e0)'; this.style.color='black';" onmouseout="this.style.background='linear-gradient(to right, black, green )'; this.style.color='white';">
 
 Undang Undang Jasa Konstruksi
 </h2>
@@ -70,7 +70,7 @@ Undang Undang Jasa Konstruksi
 </div>
 
 
-    <h1 style="margin-top:10px; font-size: 16px; font-family: 'Lato', sans-serif; font-weight: 700;">Dinas Pekerjaan Umum Dan Tata Ruang </h1>
+    <h1 style="margin-top:10px; font-size: 16px; font-family: 'Lato', sans-serif; font-weight: 700;">Dinas Pekerjaan Umum Dan Penataan Ruang </h1>
     <div class="container" style="margin-top: 20px;">
     <style>
         .pdf-container {
