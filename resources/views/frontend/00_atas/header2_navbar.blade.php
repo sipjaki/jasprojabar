@@ -308,11 +308,10 @@
                     <i class="fas fa-eye" style="margin-left: 3px; margin-right: 10px; background: linear-gradient(90deg, black, green);"></i>
                     <a href="/404" style="color: black; text-decoration: none; text-align:left">SHST</a>
                 </div>
-                {{-- <div style="display: inline-flex; align-items: center; color: black; text-decoration: none;">
+                <div style="display: inline-flex; align-items: center; color: black; text-decoration: none;">
                     <i class="fas fa-eye" style="margin-left: 3px; margin-right: 10px; background: linear-gradient(90deg, black, green);"></i>
                     <a href="/404" style="color: black; text-decoration: none; text-align:left">BUSSINESS INTELLIGENCE</a>
-                </div> --}}
-                
+                </div>
             </div>
         </div>                    
         
@@ -388,9 +387,8 @@
         {{-- <a href="/tdup">TDUP</a> --}}
         
         
-        <div class="dropdown">
+        {{-- <div class="dropdown">
             <a href="#" class="dropdown-toggle" style="text-align: left">PELATIHAN</a>
-            {{-- <i class="fas fa-chevron-down arrow"></i> --}}
             <div class="dropdown-content" style="min-width: 210px;">
                 <div style="display: inline-flex; align-items: center; color: black; text-decoration: none;">
                     <i class="fas fa-chalkboard-teacher" style="margin-left: 3px; margin-right: 10px; background: linear-gradient(90deg, black, green);"></i>
@@ -411,10 +409,8 @@
                     <i class="fas fa-exclamation-triangle" style="margin-left: 3px; margin-right: 10px; background: linear-gradient(90deg, black, green);"></i>
                     <a href="/404" style="color: black; text-decoration: none; text-align:left">WORKSHOP</a>
                 </div>
-                
-
             </div>
-        </div>
+        </div> --}}
         
         <div class="dropdown">
             <a href="#" class="dropdown-toggle" style="text-align: left">PERATURAN</a>
