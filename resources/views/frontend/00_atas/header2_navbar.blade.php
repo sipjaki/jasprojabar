@@ -141,7 +141,7 @@
             <a href="#" class="dropdown-toggle" style="text-align: left">DATA JAKON </a>
             {{-- <i class="fas fa-chevron-down arrow"></i> --}}
             <div class="dropdown-content" style="min-width: 320px;">
-                <div style="display: inline-flex; align-items: center; color: black; text-decoration: none;">
+                {{-- <div style="display: inline-flex; align-items: center; color: black; text-decoration: none;">
                     <i class="fas fa-eye" style="margin-left: 3px; margin-right: 10px; background: linear-gradient(90deg, black, green);"></i>
                     <a href="/datajakon/pengawasan" style="color: black; text-decoration: none; text-align:left">PENGAWASAN DAN KETERTIBAN</a>
                 </div>
@@ -159,6 +159,28 @@
                     <i class="fas fa-tasks" style="margin-left: 3px; margin-right: 10px; background: linear-gradient(90deg, black, green);"></i>
                     <a href="/datajakon/paketpekerjaan" style="color: black; text-decoration: none; text-align:left">PROGRESS PAKET PEKERJAAN</a>
                 </div>
+                 --}}
+                 <div style="display: inline-flex; align-items: center; color: black; text-decoration: none;">
+                    <i class="fas fa-hard-hat" style="margin-left: 3px; margin-right: 10px; background: linear-gradient(90deg, black, green);"></i>
+                    <a href="/404" style="color: black; text-decoration: none; text-align:left">BUJK KONTRAKTOR</a>
+                </div>
+                
+                <div style="display: inline-flex; align-items: center; color: black; text-decoration: none;">
+                    <i class="fas fa-pencil-alt" style="margin-left: 3px; margin-right: 10px; background: linear-gradient(90deg, black, green);"></i>
+                    <a href="/404" style="color: black; text-decoration: none; text-align:left">BUJK KONSULTAN</a>
+                </div>
+                
+                <div style="display: inline-flex; align-items: center; color: black; text-decoration: none;">
+                    <i class="fas fa-users" style="margin-left: 3px; margin-right: 10px; background: linear-gradient(90deg, black, green);"></i>
+                    <a href="/404" style="color: black; text-decoration: none; text-align:left">TENAGA KERJA</a>
+                </div>
+                
+                <div style="display: inline-flex; align-items: center; color: black; text-decoration: none;">
+                    <i class="fas fa-building" style="margin-left: 3px; margin-right: 10px; background: linear-gradient(90deg, black, green);"></i>
+                    <a href="/404" style="color: black; text-decoration: none; text-align:left">ASOSIASI KONSTRUKSI</a>
+                </div>
+                
+
             </div>
         </div>                    {{-- <a href="#">PROFIL</a> --}}
 
