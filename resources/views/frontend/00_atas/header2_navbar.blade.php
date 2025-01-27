@@ -189,12 +189,12 @@
             <div class="dropdown-content" style="min-width: 320px;">
                 <div style="display: inline-flex; align-items: center; color: black; text-decoration: none;">
                     <i class="fas fa-chalkboard-teacher" style="margin-left: 3px; margin-right: 10px; background: linear-gradient(90deg, black, green);"></i>
-                    <a href="/404" style="color: black; text-decoration: none; text-align:left">PELATIHAN</a>
+                    <a href="/404" style="color: black; text-decoration: none; text-align:left">PELATIHAN </a>
                 </div>
                 
                 <div style="display: inline-flex; align-items: center; color: black; text-decoration: none;">
                     <i class="fas fa-cogs" style="margin-left: 3px; margin-right: 10px; background: linear-gradient(90deg, black, green);"></i>
-                    <a href="/404" style="color: black; text-decoration: none; text-align:left">BIMTEK</a>
+                    <a href="/404" style="color: black; text-decoration: none; text-align:left">BIMBINGAN TEKNIS</a>
                 </div>
                 
                 <div style="display: inline-flex; align-items: center; color: black; text-decoration: none;">
