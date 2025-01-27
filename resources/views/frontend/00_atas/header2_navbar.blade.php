@@ -203,11 +203,11 @@
                     <i class="fas fa-money-bill-wave" style="margin-left: 3px; margin-right: 10px; background: linear-gradient(90deg, black, green);"></i>
                     <a href="/datajakon/standarbiayaumum" style="color: black; text-decoration: none; text-align:left">ASOSIASI PENGUSAHA</a>
                 </div>
-{{--                 
+                
                 <div style="display: inline-flex; align-items: center; color: black; text-decoration: none;">
                     <i class="fas fa-tasks" style="margin-left: 3px; margin-right: 10px; background: linear-gradient(90deg, black, green);"></i>
                     <a href="/datajakon/paketpekerjaan" style="color: black; text-decoration: none; text-align:left">PROGRESS PAKET PEKERJAAN</a>
-                </div> --}}
+                </div>
             </div>
         </div>                    
 
