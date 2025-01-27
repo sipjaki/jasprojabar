@@ -70,7 +70,7 @@ Undang Undang Jasa Konstruksi
 </div>
 
 
-    <h1 style="margin-top:10px; font-size: 16px; font-family: 'Lato', sans-serif; font-weight: 700;">Dinas Pekerjaan Umum Dan Penataan Ruang </h1>
+    <h1 style="margin-top:10px; font-size: 16px; font-family: 'Lato', sans-serif; font-weight: 700;">Dinas Pekerjaan Umum Dan Penataan Ruang <br>Pemerintah Kabupaten Blora </h1>
     <div class="container" style="margin-top: 20px;">
     <style>
         .pdf-container {
