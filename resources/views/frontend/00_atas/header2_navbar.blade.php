@@ -271,21 +271,25 @@
             <div class="dropdown-content" style="min-width: 320px;">
                 
                 <div style="display: inline-flex; align-items: center; color: black; text-decoration: none;">
-                    <i class="fas fa-eye" style="margin-left: 3px; margin-right: 10px; background: linear-gradient(90deg, black, green);"></i>
+                    <i class="fas fa-tags" style="margin-left: 3px; margin-right: 10px; background: linear-gradient(90deg, black, green); color: white;"></i>
                     <a href="/404" style="color: black; text-decoration: none; text-align:left">HARGA SATUAN DASAR</a>
                 </div>
+                
                 <div style="display: inline-flex; align-items: center; color: black; text-decoration: none;">
-                    <i class="fas fa-eye" style="margin-left: 3px; margin-right: 10px; background: linear-gradient(90deg, black, green);"></i>
+                    <i class="fas fa-clipboard-list" style="margin-left: 3px; margin-right: 10px; background: linear-gradient(90deg, black, green); color: white;"></i>
                     <a href="/404" style="color: black; text-decoration: none; text-align:left">HSP KONSTRUKSI UMUM</a>
                 </div>
+                
                 <div style="display: inline-flex; align-items: center; color: black; text-decoration: none;">
-                    <i class="fas fa-eye" style="margin-left: 3px; margin-right: 10px; background: linear-gradient(90deg, black, green);"></i>
+                    <i class="fas fa-tools" style="margin-left: 3px; margin-right: 10px; background: linear-gradient(90deg, black, green); color: white;"></i>
                     <a href="/404" style="color: black; text-decoration: none; text-align:left">SHST KONSTRUKSI</a>
                 </div>
+                
                 <div style="display: inline-flex; align-items: center; color: black; text-decoration: none;">
-                    <i class="fas fa-eye" style="margin-left: 3px; margin-right: 10px; background: linear-gradient(90deg, black, green);"></i>
+                    <i class="fas fa-list-alt" style="margin-left: 3px; margin-right: 10px; background: linear-gradient(90deg, black, green); color: white;"></i>
                     <a href="/404" style="color: black; text-decoration: none; text-align:left">DAFTAR MATERIAL</a>
                 </div>
+                
                 
             </div>
         </div>                    
@@ -395,59 +399,60 @@
             {{-- <i class="fas fa-chevron-down arrow"></i> --}}
             <div class="dropdown-content" style="min-width: 250px;">
                 <div style="display: inline-flex; align-items: center; color: black; text-decoration: none;">
-                    <i class="fas fa-file-alt" style="margin-left: 3px; margin-right: 10px; background: linear-gradient(90deg, black, green);"></i>
+                    <i class="fas fa-gavel" style="margin-left: 3px; margin-right: 10px; background: linear-gradient(90deg, black, green); color: white;"></i>
                     <a href="/peraturan/undangundang" style="color: black; text-decoration: none; text-align:left">UNDANG UNDANG</a>
                 </div>
                 
                 <div style="display: inline-flex; align-items: center; color: black; text-decoration: none;">
-                    <i class="fas fa-file-alt" style="margin-left: 3px; margin-right: 10px; background: linear-gradient(90deg, black, green);"></i>
+                    <i class="fas fa-scroll" style="margin-left: 3px; margin-right: 10px; background: linear-gradient(90deg, black, green); color: white;"></i>
                     <a href="/peraturan/pemerintah" style="color: black; text-decoration: none; text-align:left">PERATURAN PEMERINTAH</a>
                 </div>
                 
                 <div style="display: inline-flex; align-items: center; color: black; text-decoration: none;">
-                    <i class="fas fa-file-alt" style="margin-left: 3px; margin-right: 10px; background: linear-gradient(90deg, black, green);"></i>
+                    <i class="fas fa-scroll" style="margin-left: 3px; margin-right: 10px; background: linear-gradient(90deg, black, green); color: white;"></i>
                     <a href="/peraturan/presiden" style="color: black; text-decoration: none; text-align:left">PERATURAN PRESIDEN</a>
                 </div>
                 
                 <div style="display: inline-flex; align-items: center; color: black; text-decoration: none;">
-                    <i class="fas fa-file-alt" style="margin-left: 3px; margin-right: 10px; background: linear-gradient(90deg, black, green);"></i>
+                    <i class="fas fa-scroll" style="margin-left: 3px; margin-right: 10px; background: linear-gradient(90deg, black, green); color: white;"></i>
                     <a href="/peraturan/menteri" style="color: black; text-decoration: none; text-align:left">PERATURAN MENTERI</a>
                 </div>
                 
                 <div style="display: inline-flex; align-items: center; color: black; text-decoration: none;">
-                    <i class="fas fa-file-alt" style="margin-left: 3px; margin-right: 10px; background: linear-gradient(90deg, black, green);"></i>
+                    <i class="fas fa-scroll" style="margin-left: 3px; margin-right: 10px; background: linear-gradient(90deg, black, green); color: white;"></i>
                     <a href="/peraturan/keputusanmenteri" style="color: black; text-decoration: none; text-align:left">KEPUTUSAN MENTERI</a>
                 </div>
                 
                 <div style="display: inline-flex; align-items: center; color: black; text-decoration: none;">
-                    <i class="fas fa-file-alt" style="margin-left: 3px; margin-right: 10px; background: linear-gradient(90deg, black, green);"></i>
+                    <i class="fas fa-scroll" style="margin-left: 3px; margin-right: 10px; background: linear-gradient(90deg, black, green); color: white;"></i>
                     <a href="/peraturan/suratedaranmenteri" style="color: black; text-decoration: none; text-align:left">SURAT EDARAN MENTERI</a>
                 </div>
                 
                 <div style="display: inline-flex; align-items: center; color: black; text-decoration: none;">
-                    <i class="fas fa-file-alt" style="margin-left: 3px; margin-right: 10px; background: linear-gradient(90deg, black, green);"></i>
+                    <i class="fas fa-book" style="margin-left: 3px; margin-right: 10px; background: linear-gradient(90deg, black, green); color: white;"></i>
                     <a href="/peraturan/referensi" style="color: black; text-decoration: none; text-align:left">REFERENSI</a>
                 </div>
                 
                 <div style="display: inline-flex; align-items: center; color: black; text-decoration: none;">
-                    <i class="fas fa-file-alt" style="margin-left: 3px; margin-right: 10px; background: linear-gradient(90deg, black, green);"></i>
+                    <i class="fas fa-landmark" style="margin-left: 3px; margin-right: 10px; background: linear-gradient(90deg, black, green); color: white;"></i>
                     <a href="/peraturan/daerah" style="color: black; text-decoration: none; text-align:left">PERATURAN DAERAH</a>
                 </div>
                 
                 <div style="display: inline-flex; align-items: center; color: black; text-decoration: none;">
-                    <i class="fas fa-file-alt" style="margin-left: 3px; margin-right: 10px; background: linear-gradient(90deg, black, green);"></i>
+                    <i class="fas fa-landmark" style="margin-left: 3px; margin-right: 10px; background: linear-gradient(90deg, black, green); color: white;"></i>
                     <a href="/peraturan/gubernur" style="color: black; text-decoration: none; text-align:left">PERATURAN GUBERNUR</a>
                 </div>
                 
                 <div style="display: inline-flex; align-items: center; color: black; text-decoration: none;">
-                    <i class="fas fa-file-alt" style="margin-left: 3px; margin-right: 10px; background: linear-gradient(90deg, black, green);"></i>
+                    <i class="fas fa-landmark" style="margin-left: 3px; margin-right: 10px; background: linear-gradient(90deg, black, green); color: white;"></i>
                     <a href="/peraturan/walikotadanbupati" style="color: black; text-decoration: none; text-align:left">PERATURAN WALIKOTA/ BUPATI</a>
                 </div>
                 
                 <div style="display: inline-flex; align-items: center; color: black; text-decoration: none;">
-                    <i class="fas fa-file-alt" style="margin-left: 3px; margin-right: 10px; background: linear-gradient(90deg, black, green);"></i>
+                    <i class="fas fa-file-signature" style="margin-left: 3px; margin-right: 10px; background: linear-gradient(90deg, black, green); color: white;"></i>
                     <a href="/peraturan/suratkeputusan" style="color: black; text-decoration: none; text-align:left">SURAT KEPUTUSAN</a>
                 </div>
+                
             </div>
             
         </div>                    {{-- <a href="#">PROFIL</a> --}}
