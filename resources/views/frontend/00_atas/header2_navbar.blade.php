@@ -90,7 +90,7 @@
         
 
         {{-- DASHBOARD MENU SIPJAKI KABUPATEN BLORA  --}}
-        <div class="dropdown">
+        {{-- <div class="dropdown">
             <a href="#" class="dropdown-toggle">PROFIL</a>
             <div class="dropdown-content" style="min-width: 400px;">
                 <div style="display: inline-flex; align-items: center; color: black; text-decoration: none;">
@@ -126,7 +126,7 @@
 
             </div>
             
-        </div>                    
+        </div>                     --}}
         
         
         
