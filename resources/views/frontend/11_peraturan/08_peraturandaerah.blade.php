@@ -142,7 +142,7 @@ Peraturan Daerah Tentang Jasa Konstruksi
     th {
         /* background-color: #4CAF50; */
         /* background: linear-gradient(to bottom, #000000, #FFCB0F); */
-        background-color:  #FFCB0F;
+        background-color:  #00820d;
         color: black;
         font-size: 14px;
     }

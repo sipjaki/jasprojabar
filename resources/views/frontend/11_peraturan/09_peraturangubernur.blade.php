@@ -52,7 +52,7 @@ Peraturan Gubernur Tentang Jasa Konstruksi
 <div class="container" style="
     display: flex;
     flex-direction: column;
-    background-color: #FFCB0F;
+    background-color: #00820d;
     padding: 10px;
     border: 1px solid black;
     margin-bottom: 0px;
@@ -60,7 +60,7 @@ Peraturan Gubernur Tentang Jasa Konstruksi
     text-align: center;
     width: 100%;
     height: 120vh;
-    background: linear-gradient(to bottom, yellow, white, black);
+    background: linear-gradient(to bottom, green, white, black);
     align-items: center;
     position: relative;
 ">
