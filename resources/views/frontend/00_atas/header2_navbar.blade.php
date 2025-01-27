@@ -19,11 +19,11 @@
                 display: flex;
                 align-items: center;
                 text-decoration: none;
-                color: black; /* Warna teks untuk tautan PROFIL */
+                color: slategray; /* Warna teks untuk tautan PROFIL */
             }
             .dropdown .arrow {
                 margin-left: 5px;
-                color: black; /* Warna teks untuk panah */
+                color: slategray; /* Warna teks untuk panah */
                 font-size: 0.8em; /* Ukuran ikon panah */
             }
             .dropdown-content {
@@ -35,7 +35,7 @@
                 z-index: 1;
             }
             .dropdown-content a {
-                color: black; /* Warna teks untuk menu dropdown */
+                color: slategray; /* Warna teks untuk menu dropdown */
                 padding: 12px 16px;
                 text-decoration: none;
                 display: block;
