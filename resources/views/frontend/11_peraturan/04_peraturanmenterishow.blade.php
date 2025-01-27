@@ -193,7 +193,7 @@ border: 1px solid black;
 border-radius: 25px;
 overflow: hidden; /* Menyembunyikan konten yang meluber */
 background-color: #00820d;
-background: linear-gradient(to bottom, yellow, white, black);
+background: linear-gradient(to bottom, green, white, white);
 position: relative; /* Mengatur posisi relatif untuk container */
 }
 .pdf-frame {
