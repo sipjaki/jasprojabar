@@ -51,12 +51,11 @@
         <a href="/">DASHBOARD</a>
         
         <div class="dropdown">
-            <a href="#" class="dropdown-toggle">PROFIL</a>
-            {{-- <i class="fas fa-chevron-down arrow"></i> --}}
+            <a href="#" class="dropdown-toggle">KELEMBAGAAN</a>
             <div class="dropdown-content" style="min-width: 400px;">
                 <div style="display: inline-flex; align-items: center; color: black; text-decoration: none;">
                     <i class="fas fa-building" style="margin-left: 3px; margin-right: 0px; background: linear-gradient(90deg, black, green);"></i>
-                    <a href="/profil/struktur" style="color: black; text-decoration: none; text-align:left">STRUKTUR DINAS PEKERJAAN UMUM DAN PENATAAN RUANG PEMERINTAH KABUPATEN BANDUNG BARAT</a>
+                    <a href="/profil/struktur" style="color: black; text-decoration: none; text-align:left">STRUKTUR DPUPR KABUPATEN BLORA</a>
                 </div>
                 
                 <div style="display: inline-flex; align-items: center; color: black; text-decoration: none;">
@@ -66,7 +65,7 @@
                 
                 <div style="display: inline-flex; align-items: center; color: black; text-decoration: none;">
                     <i class="fas fa-clipboard-list" style="margin-left: 3px; margin-right: 0px; background: linear-gradient(90deg, black, green);"></i>
-                    <a href="/profil/tupoksi" style="color: black; text-decoration: none; text-align:left">TUPOKSI PROGRAM DAN JASA KONSTRUKSI</a>
+                    <a href="/profil/tupoksi" style="color: black; text-decoration: none; text-align:left">SDM</a>
                 </div>
                
                 <div style="display: inline-flex; align-items: center; color: black; text-decoration: none;">
@@ -87,7 +86,52 @@
 
             </div>
             
-        </div>                    {{-- <a href="#">PROFIL</a> --}}
+        </div>                    
+        
+
+        {{-- DASHBOARD MENU SIPJAKI KABUPATEN BLORA  --}}
+        <div class="dropdown">
+            <a href="#" class="dropdown-toggle">PROFIL</a>
+            <div class="dropdown-content" style="min-width: 400px;">
+                <div style="display: inline-flex; align-items: center; color: black; text-decoration: none;">
+                    <i class="fas fa-building" style="margin-left: 3px; margin-right: 0px; background: linear-gradient(90deg, black, green);"></i>
+                    <a href="/profil/struktur" style="color: black; text-decoration: none; text-align:left">STRUKTUR DINAS PEKERJAAN UMUM DAN PENATAAN RUANG PEMERINTAH KABUPATEN BANDUNG BARAT</a>
+                </div>
+                
+                <div style="display: inline-flex; align-items: center; color: black; text-decoration: none;">
+                    <i class="fas fa-tasks" style="margin-left: 3px; margin-right: 0px; background: linear-gradient(90deg, black, green);"></i>
+                    <a href="/profil/rencanastrategis" style="color: black; text-decoration: none; text-align:left">PROGRAM JASA KONSTRUKSI</a>
+                </div>
+                
+                <div style="display: inline-flex; align-items: center; color: black; text-decoration: none;">
+                    <i class="fas fa-clipboard-list" style="margin-left: 3px; margin-right: 0px; background: linear-gradient(90deg, black, green);"></i>
+                    <a href="/profil/tupoksi" style="color: black; text-decoration: none; text-align:left">SDM JASA KONSTRUKSI</a>
+                </div>
+               
+                <div style="display: inline-flex; align-items: center; color: black; text-decoration: none;">
+                    <i class="fas fa-clipboard-list" style="margin-left: 3px; margin-right: 0px; background: linear-gradient(90deg, black, green);"></i>
+                    <a href="/berita" style="color: black; text-decoration: none; text-align:left">BERITA JASA KONSTRUKSI</a>
+                </div>
+                
+                <div style="display: inline-flex; align-items: center; color: black; text-decoration: none;">
+                    <i class="fas fa-clipboard-list" style="margin-left: 3px; margin-right: 0px; background: linear-gradient(90deg, black, green);"></i>
+                    <a href="/kegiatansertifikasi" style="color: black; text-decoration: none; text-align:left">DOKUMENTASI SERTIFIKASI</a>
+                </div>
+                
+                <div style="display: inline-flex; align-items: center; color: black; text-decoration: none;">
+                    <i class="fas fa-clipboard-list" style="margin-left: 3px; margin-right: 0px; background: linear-gradient(90deg, black, green);"></i>
+                    <a href="/feagendasertifikasi" style="color: black; text-decoration: none; text-align:left">AGENDA SERTIFIKASI</a>
+                </div>
+
+            </div>
+            
+        </div>                    
+        
+        
+        {{-- DATABASE SIPJAKI KABUPATEN BANDUNG BARAT  --}}
+        {{-- =========================================================================================================================================================== --}}
+        {{-- =========================================================================================================================================================== --}}
+        {{-- <a href="#">PROFIL</a> --}}
         
         {{-- <div class="dropdown">
             <a href="#" class="dropdown-toggle">BERITA</a>
@@ -111,9 +155,9 @@
             
         </div>                     --}}
         
-        <div class="dropdown">
+        {{-- <div class="dropdown">
             <a href="#" class="dropdown-toggle" style="text-align: left">DATA JAKON </a>
-            {{-- <i class="fas fa-chevron-down arrow"></i> --}}
+            <i class="fas fa-chevron-down arrow"></i>
             <div class="dropdown-content" style="min-width: 320px;">
                 <div style="display: inline-flex; align-items: center; color: black; text-decoration: none;">
                     <i class="fas fa-eye" style="margin-left: 3px; margin-right: 10px; background: linear-gradient(90deg, black, green);"></i>
@@ -134,7 +178,45 @@
                     <a href="/datajakon/paketpekerjaan" style="color: black; text-decoration: none; text-align:left">PROGRESS PAKET PEKERJAAN</a>
                 </div>
             </div>
-        </div>                    {{-- <a href="#">PROFIL</a> --}}
+        </div>                     --}}
+
+        {{-- =========================================================================================================================================================== --}}
+        {{-- =========================================================================================================================================================== --}}
+        
+
+        {{-- MAS BLORA SIPJAKI KABUPATEN BLORA  --}}
+        
+        <div class="dropdown">
+            <a href="#" class="dropdown-toggle" style="text-align: left">DATA JAKON </a>
+            <i class="fas fa-chevron-down arrow"></i>
+            <div class="dropdown-content" style="min-width: 320px;">
+                <div style="display: inline-flex; align-items: center; color: black; text-decoration: none;">
+                    <i class="fas fa-eye" style="margin-left: 3px; margin-right: 10px; background: linear-gradient(90deg, black, green);"></i>
+                    <a href="/datajakon/pengawasan" style="color: black; text-decoration: none; text-align:left">BUJK KONTRAKTOR</a>
+                </div>
+                <div style="display: inline-flex; align-items: center; color: black; text-decoration: none;">
+                    <i class="fas fa-users" style="margin-left: 3px; margin-right: 10px; background: linear-gradient(90deg, black, green);"></i>
+                    <a href="/datajakon/asosiasi" style="color: black; text-decoration: none; text-align:left">BUJK KONSULTAN</a>
+                </div>
+                
+                <div style="display: inline-flex; align-items: center; color: black; text-decoration: none;">
+                    <i class="fas fa-money-bill-wave" style="margin-left: 3px; margin-right: 10px; background: linear-gradient(90deg, black, green);"></i>
+                    <a href="/datajakon/standarbiayaumum" style="color: black; text-decoration: none; text-align:left">ASOSIASI PENGUSAHA</a>
+                </div>
+{{--                 
+                <div style="display: inline-flex; align-items: center; color: black; text-decoration: none;">
+                    <i class="fas fa-tasks" style="margin-left: 3px; margin-right: 10px; background: linear-gradient(90deg, black, green);"></i>
+                    <a href="/datajakon/paketpekerjaan" style="color: black; text-decoration: none; text-align:left">PROGRESS PAKET PEKERJAAN</a>
+                </div> --}}
+            </div>
+        </div>                    
+
+         {{-- MAS BLORA SIPJAKI KABUPATEN BLORA  --}}
+        
+        {{-- =========================================================================================================================================================== --}}
+        {{-- =========================================================================================================================================================== --}}
+        
+        {{-- <a href="#">PROFIL</a> --}}
 
         <div class="dropdown">
             <a href="#" class="dropdown-toggle" style="text-align: left">PEMBINAAN</a>
@@ -150,16 +232,20 @@
                 </div>
                 <div style="display: inline-flex; align-items: center; color: black; text-decoration: none;">
                     <i class="fas fa-eye" style="margin-left: 3px; margin-right: 10px; background: linear-gradient(90deg, black, green);"></i>
-                    <a href="/404" style="color: black; text-decoration: none; text-align:left">SKK TENAGA AHLI</a>
+                    <a href="/404" style="color: black; text-decoration: none; text-align:left">WORKSHOP</a>
                 </div>
                 <div style="display: inline-flex; align-items: center; color: black; text-decoration: none;">
                     <i class="fas fa-eye" style="margin-left: 3px; margin-right: 10px; background: linear-gradient(90deg, black, green);"></i>
-                    <a href="/404" style="color: black; text-decoration: none; text-align:left">DAFTAR TENAGA AHLI</a>
+                    <a href="/404" style="color: black; text-decoration: none; text-align:left">SERTIFIKASI SKK</a>
                 </div>
                 <div style="display: inline-flex; align-items: center; color: black; text-decoration: none;">
+                    <i class="fas fa-eye" style="margin-left: 3px; margin-right: 10px; background: linear-gradient(90deg, black, green);"></i>
+                    <a href="/404" style="color: black; text-decoration: none; text-align:left">UJI KOMPENTENSI</a>
+                </div>
+                {{-- <div style="display: inline-flex; align-items: center; color: black; text-decoration: none;">
                     <i class="fas fa-eye" style="margin-left: 3px; margin-right: 10px; background: linear-gradient(90deg, black, green);"></i>
                     <a href="/404" style="color: black; text-decoration: none; text-align:left">KECELAKAAN TENAGA KERJA</a>
-                </div>
+                </div> --}}
             </div>
         </div>
 
@@ -169,7 +255,7 @@
                 
                 <div style="display: inline-flex; align-items: center; color: black; text-decoration: none;">
                     <i class="fas fa-eye" style="margin-left: 3px; margin-right: 10px; background: linear-gradient(90deg, black, green);"></i>
-                    <a href="/404" style="color: black; text-decoration: none; text-align:left">PENGAWASAN PROYEK</a>
+                    <a href="/404" style="color: black; text-decoration: none; text-align:left">BUJK KONTRAKTOR</a>
                 </div>
                 <div style="display: inline-flex; align-items: center; color: black; text-decoration: none;">
                     <i class="fas fa-eye" style="margin-left: 3px; margin-right: 10px; background: linear-gradient(90deg, black, green);"></i>
@@ -199,34 +285,33 @@
                     <i class="fas fa-eye" style="margin-left: 3px; margin-right: 10px; background: linear-gradient(90deg, black, green);"></i>
                     <a href="/404" style="color: black; text-decoration: none; text-align:left">TOKO BANGUNAN </a>
                 </div>
-                <div style="display: inline-flex; align-items: center; color: black; text-decoration: none;">
+                {{-- <div style="display: inline-flex; align-items: center; color: black; text-decoration: none;">
                     <i class="fas fa-eye" style="margin-left: 3px; margin-right: 10px; background: linear-gradient(90deg, black, green);"></i>
                     <a href="/404" style="color: black; text-decoration: none; text-align:left">DISTRIBUTOR</a>
-                </div>
-                
+                </div> --}}
             </div>
         </div>            
 
         <div class="dropdown">
-            <a href="#" class="dropdown-toggle" style="text-align: left">HARGA</a>
+            <a href="#" class="dropdown-toggle" style="text-align: left">AHSP</a>
             <div class="dropdown-content" style="min-width: 320px;">
                 
                 <div style="display: inline-flex; align-items: center; color: black; text-decoration: none;">
                     <i class="fas fa-eye" style="margin-left: 3px; margin-right: 10px; background: linear-gradient(90deg, black, green);"></i>
-                    <a href="/404" style="color: black; text-decoration: none; text-align:left">HARGA SATUAN E-KATALOG</a>
+                    <a href="/404" style="color: black; text-decoration: none; text-align:left">HSP KONSTRUKSI UMUM</a>
                 </div>
                 <div style="display: inline-flex; align-items: center; color: black; text-decoration: none;">
                     <i class="fas fa-eye" style="margin-left: 3px; margin-right: 10px; background: linear-gradient(90deg, black, green);"></i>
-                    <a href="/404" style="color: black; text-decoration: none; text-align:left">HARGA SATUAN PERKECAMATAN</a>
+                    <a href="/404" style="color: black; text-decoration: none; text-align:left">DAFTAR BAHAN MATERIAL</a>
                 </div>
                 <div style="display: inline-flex; align-items: center; color: black; text-decoration: none;">
                     <i class="fas fa-eye" style="margin-left: 3px; margin-right: 10px; background: linear-gradient(90deg, black, green);"></i>
-                    <a href="/404" style="color: black; text-decoration: none; text-align:left">HARGA SATUAN DATA STATISTIK</a>
+                    <a href="/404" style="color: black; text-decoration: none; text-align:left">SHST</a>
                 </div>
-                <div style="display: inline-flex; align-items: center; color: black; text-decoration: none;">
+                {{-- <div style="display: inline-flex; align-items: center; color: black; text-decoration: none;">
                     <i class="fas fa-eye" style="margin-left: 3px; margin-right: 10px; background: linear-gradient(90deg, black, green);"></i>
                     <a href="/404" style="color: black; text-decoration: none; text-align:left">BUSSINESS INTELLIGENCE</a>
-                </div>
+                </div> --}}
                 
             </div>
         </div>                    
