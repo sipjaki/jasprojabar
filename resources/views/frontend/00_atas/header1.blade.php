@@ -7,13 +7,7 @@
         align-items: center;
         height: 6vh;
         font-family: Arial, sans-serif;">
-        <p id="jam" style="
-            font-size: 14px;
-            background: #000000;
-            color: #fff;
-            padding: 2px 10px;
-            border-radius: 15px;
-            text-align: center;"></p>
+        
     </div>
 
     <script>
@@ -34,6 +28,15 @@
         setInterval(updateClock, 1000); // Update every second
         updateClock(); // Initial call to set the time immediately
     </script>
+    
+    <p id="jam" style="
+            font-size: 14px;
+            background: #000000;
+            color: #fff;
+            padding: 2px 10px;
+            border-radius: 15px;
+            text-align: center;"></p>
+            
      <p>
         <a href="https://wa.me/6281321455855" style="color: black">+6281 321 455 855</a>
     </p>
