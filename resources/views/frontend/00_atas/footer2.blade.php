@@ -1,5 +1,5 @@
 
-<section style="height: 12vh; margin-top: 0px; background-color: #06f933;">
+<section style="height: 12vh; margin-top: -100px; background-color: #06f933;">
     <div class="container" style="display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; height: 100%;">
         <img src="/assets/icon/pusipjaki.png" alt="Logo SIPJAKIKBB" style="margin-bottom: 5px; width: 10%; padding: 0;">
         <p style="color: darkblue; font-size: 16px; font-family: 'Lato', sans-serif; font-weight: 400; margin: 0;">@2025 | Designed by <a href="https://wa.me/6281321455855" style="color: black"> CV. Angkasa Raya Teknik</a></p>
