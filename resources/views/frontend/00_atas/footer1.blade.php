@@ -36,7 +36,7 @@
             
             </div>
             <div class="links">
-                <h1 style="color: green">Jelajah Menu</h1>
+                <h1 style="color: white">Jelajah Menu</h1>
                 <a href="#">Struktur Dinas PUPR </a>
                 <a href="#">Rencana Strategis PUPR </a>
                 <a href="#">Tupoksi Program & Jasa Konstruksi</a>
@@ -68,8 +68,8 @@
             </div> --}}
 
             
-            <div class="contact" style="color: green">
-                <h1 style="color: green">Kontak Kami</h1>
+            <div class="contact" style="color: white">
+                <h1 style="color: white">Kontak Kami</h1>
                 <div style="width: 250px; height: 250px; margin-bottom: 10px;">
                     <iframe
                         width="250"
@@ -79,11 +79,11 @@
                         allowfullscreen>
                     </iframe>
                 </div>
-                <p> <a href="https://https://www.blorakab.go.id" style="color: green">Pemerintah Kabupaten Blora</a></p>
+                <p> <a href="https://https://www.blorakab.go.id" style="color: white">Pemerintah Kabupaten Blora</a></p>
                 <p style="text-align: left">Jl. Nusantara No.62, Jetis, Kauman, Kec. Blora, Kabupaten Blora, Jawa Tengah 58214</p>
                 {{-- <p>Hello@contact-us.com</p> --}}
                 {{-- <p><a href=""></a> +6281 321 455 855</p> --}}
-                <p><a href="https://wa.me/6281321455855" style="color: green"><i class="fab fa-whatsapp me-2"></i>081321455855</a></p>
+                <p><a href="https://wa.me/6281321455855" style="color: white"><i class="fab fa-whatsapp me-2"></i>081321455855</a></p>
                </div>
         </div>
     </section>
