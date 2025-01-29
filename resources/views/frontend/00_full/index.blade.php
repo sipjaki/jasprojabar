@@ -361,22 +361,16 @@
 PENDAFTARAN TENAGA KERJA</h1>
     <p>
         Kami informasikan bahwa Sistem Informasi Pembina Jasa Konstruksi kini menyediakan layanan pendaftaran tenaga kerja yang mencakup sertifikasi, bimbingan teknis, dan workshop. Melalui sistem ini, Anda dapat mengakses informasi terkait pelatihan dan sertifikasi tenaga kerja, serta berbagai kegiatan bimbingan teknis dan workshop yang mendukung pengembangan kompetensi di bidang konstruksi. Silakan kunjungi platform ini untuk memperoleh informasi lebih lanjut dan mendaftar sesuai kebutuhan Anda.
-        <div class="cont">
-            @foreach ($datahimbauandinas as $item )
+        <div class="container">
                 
             <article class="quoteblock">
-                <div class="quotetxt arrow">
-                    <p><img style="width:10%" src="{{asset('storage/' . $item->foto_pejabat)}}" alt="{{asset('storage/' . $item->foto_pejabat)}}"></p>
-                    <p><span style="color: black">{!! $item->himbauan !!}</span></p>
-                </div>
                 <figure>
-                    <img style="width:30%" class="customer" src="{{ asset('storage/' . $item->foto_pejabat)}}" alt="Dinas Terkait">
-                    <figcaption>{{$item->nama_lengkap}}</figcaption>
-                    <figcaption>{{$item->jabatan}}</figcaption>
+                    <img style="width:30%" class="customer" src="/assets/icon/logokabupatenblora.png" alt="Dinas Terkait">
+                    <figcaption>PELATIHAN</figcaption>
                 </figure>
             </article>
             
-            @endforeach
+            
     </div>
 </div>
 </section>
