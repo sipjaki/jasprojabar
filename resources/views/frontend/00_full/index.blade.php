@@ -358,9 +358,9 @@
     transition: background 0.5s ease, color 0.5s ease;
 " onmouseover="this.style.background='linear-gradient(to right, #f0f0f0, #e0e0e0)'; this.style.color='black';" onmouseout="this.style.background='linear-gradient(to right, black, green )'; this.style.color='white';">
 
-Himbauan Dinas Terkait</h1>
+PENDAFTARAN TENAGA KERJA</h1>
     <p>
-        Kami informasikan bahwa Sistem Informasi Pembina Jasa Konstruksi kini tersedia untuk memudahkan akses informasi terkait jasa konstruksi. Sistem ini menyediakan data terpercaya, regulasi terbaru, dan informasi penting lainnya mengenai layanan konstruksi. Silakan kunjungi platform ini untuk mendapatkan informasi yang Anda butuhkan dan memastikan kepatuhan terhadap peraturan yang berlaku.
+        Kami informasikan bahwa Sistem Informasi Pembina Jasa Konstruksi kini menyediakan layanan pendaftaran tenaga kerja yang mencakup sertifikasi, bimbingan teknis, dan workshop. Melalui sistem ini, Anda dapat mengakses informasi terkait pelatihan dan sertifikasi tenaga kerja, serta berbagai kegiatan bimbingan teknis dan workshop yang mendukung pengembangan kompetensi di bidang konstruksi. Silakan kunjungi platform ini untuk memperoleh informasi lebih lanjut dan mendaftar sesuai kebutuhan Anda.
         <div class="cont">
             @foreach ($datahimbauandinas as $item )
                 
