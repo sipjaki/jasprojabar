@@ -1,14 +1,4 @@
 <header class="top">
-    <div class="container">
-        {{-- <p>081321455855</p> --}}
-        <div id="clock-container" style="
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 6vh;
-        font-family: Arial, sans-serif;">
-        
-    </div>
 
     <script>
         function updateClock() {
@@ -36,8 +26,20 @@
             padding: 2px 10px;
             border-radius: 15px;
             text-align: center;"></p>
-            
+
      <p>
+
+    <div class="container">
+            {{-- <p>081321455855</p> --}}
+            <div id="clock-container" style="
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 6vh;
+            font-family: Arial, sans-serif;">
+            
+    </div>
+    
         <a href="https://wa.me/6281321455855" style="color: black">+6281 321 455 855</a>
     </p>
      {{-- <p>support@Construct.com</p> --}}
