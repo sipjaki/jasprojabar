@@ -85,7 +85,7 @@ Undang Undang Jasa Konstruksi
             border-radius: 25px;
             overflow: hidden;
             background-color: #00820d;
-            background: linear-gradient(to bottom, #00820d, white, black);
+            background: linear-gradient(to bottom, #00820d, white, white);
         }
         .pdf-frame {
             width: 100%;
@@ -93,7 +93,7 @@ Undang Undang Jasa Konstruksi
             border: none;
         }
         .badgedownload {
-                background: linear-gradient(to right, navy, black);
+                background: linear-gradient(to right, orange, orange);
                 color: white;
                 padding: 10px 20px;
                 border-radius: 10px;
