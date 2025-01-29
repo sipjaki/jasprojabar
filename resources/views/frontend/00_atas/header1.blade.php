@@ -1,4 +1,22 @@
 <header class="top">
+    <div class="container">
+        {{-- <p>081321455855</p> --}}
+        <div id="clock-container" style="
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 6vh;
+        font-family: Arial, sans-serif;"> <a href="https://wa.me/6281321455855" style="color: black">+6281 321 455 855</a>
+        <p id="jam" style="
+            font-size: 14px;
+            background: #000000;
+            color: #fff;
+            padding: 2px 10px;
+            border-radius: 15px;
+            text-align: center;"></p>
+                 {{-- <p style="color: black"></p> --}}
+
+    </div>
 
     <script>
         function updateClock() {
@@ -18,30 +36,6 @@
         setInterval(updateClock, 1000); // Update every second
         updateClock(); // Initial call to set the time immediately
     </script>
-    
-    <p id="jam" style="
-            font-size: 14px;
-            background: #000000;
-            color: #fff;
-            padding: 2px 10px;
-            border-radius: 15px;
-            text-align: center;"></p>
-
-     <p>
-
-    <div class="container">
-            {{-- <p>081321455855</p> --}}
-            <div id="clock-container" style="
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 6vh;
-            font-family: Arial, sans-serif;">
-            
-    </div>
-    
-        <a href="https://wa.me/6281321455855" style="color: black">+6281 321 455 855</a>
-    </p>
      {{-- <p>support@Construct.com</p> --}}
      {{-- <p>Senin-Jumat 9:00-16:00</p> --}}
      <style>
@@ -75,7 +69,7 @@
         }
     </style>
      <div class="marquee-container" style="margin-left: 150px;">
-        <div class="marquee" style="color: white">Selamat Datang ! di Web Resmi Mas Jaki DPUPR Blora, Sistem Informasi Pembina Jasa Konstruksi Pemerintah Kabupaten Blora Provinsi Jawa Tengah</div>
+        <div class="marquee" style="color: white">Selamat Datang ! di Web Resmi Mas Jaki Dinas Pekerjaan Umum & Penataan Ruang Blora, Sistem Informasi Pembina Jasa Konstruksi Pemerintah Kabupaten Blora Provinsi Jawa Tengah</div>
     </div>
     
         {{-- <p>Jam </p> --}}
