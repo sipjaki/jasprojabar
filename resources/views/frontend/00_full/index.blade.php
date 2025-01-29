@@ -375,7 +375,7 @@ PENDAFTARAN TENAGA KERJA</h1>
                         }
                     
                         a:hover .customer {
-                            filter: brightness(0) saturate(100%) invert(49%) sepia(83%) saturate(1913%) hue-rotate(108deg) brightness(105%) contrast(108%);
+                            filter: brightness(50%) saturate(100%) invert(49%) sepia(83%) saturate(1913%) hue-rotate(108deg) brightness(105%) contrast(108%);
                         }
                     </style>
                        <figcaption>MENU PENDAFTARAN</figcaption>
@@ -395,7 +395,7 @@ PENDAFTARAN TENAGA KERJA</h1>
                         }
                     
                         a:hover .customer {
-                            filter: brightness(0) saturate(100%) invert(49%) sepia(83%) saturate(1913%) hue-rotate(108deg) brightness(105%) contrast(108%);
+                            filter: brightness(50%) saturate(100%) invert(49%) sepia(83%) saturate(1913%) hue-rotate(108deg) brightness(105%) contrast(108%);
                         }
                     </style>
                     <figcaption>MENU PENDAFTARAN</figcaption>
@@ -415,7 +415,7 @@ PENDAFTARAN TENAGA KERJA</h1>
                         }
                     
                         a:hover .customer {
-                            filter: brightness(0) saturate(100%) invert(49%) sepia(83%) saturate(1913%) hue-rotate(108deg) brightness(105%) contrast(108%);
+                            filter: brightness(50%) saturate(100%) invert(49%) sepia(83%) saturate(1913%) hue-rotate(108deg) brightness(105%) contrast(108%);
                         }
                     </style>
                     <figcaption>MENU PENDAFTARAN</figcaption>
