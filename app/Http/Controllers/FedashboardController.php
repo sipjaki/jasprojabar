@@ -109,7 +109,7 @@ class FedashboardController extends Controller
 
 
         return view('frontend.02_berita.01_portalberita.navbarberita', [
-            'title' => 'Berita KBB',
+            'title' => 'Berita Jasa Konstruksi Kabupaten Blora',
             'data' => $data, // Mengirimkan data paginasi ke view
             'user' => $user, // Mengirimkan data paginasi ke view
         ]);
@@ -126,7 +126,7 @@ class FedashboardController extends Controller
         $user = Auth::user();
 
         return view('frontend.02_berita.02_sertifikasi.index', [
-            'title' => 'Kegiatan Sertifikasi oleh Pemerintah Kabupaten Bandung Barat',
+            'title' => 'Kegiatan Sertifikasi oleh Pemerintah Kabupaten Blora',
             'data' => $data, // Mengirimkan data paginasi ke view
             'data_layanankami' => $data_layanankami, // Mengirimkan data paginasi ke view
             'data_jaskon' => $data_kegiatanjaskon, // Mengirimkan data paginasi ke view
@@ -197,7 +197,7 @@ class FedashboardController extends Controller
         $user = Auth::user();
 
         return view('frontend.02_berita.03_agendasertifikasi.index', [
-            'title' => 'Agenda Sertifikasi Pekerja Konstruksi Kabupaten Bandung Barat',
+            'title' => 'Agenda Sertifikasi Pekerja Konstruksi Pemerintah Kabupaten Blora',
             'user' => $user, // Mengirimkan data paginasi ke view
             'data' => $data, // Mengirimkan data paginasi ke view
             'datapengawasanlokasi' => $datapengawasanlokasi, // Mengirimkan data paginasi ke view
