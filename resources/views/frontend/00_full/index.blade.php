@@ -355,7 +355,7 @@
             margin-left: 325px;
             background: linear-gradient(to right, #f0f0f0, #e0e0e0);
             transition: background 0.5s ease, color 0.5s ease;
-        " onmouseover="this.style.background='linear-gradient(to right, #f0f0f0, #e0e0e0)'; this.style.color='black';" onmouseout="this.style.background='linear-gradient(to right, black, yellow )'; this.style.color='white';">
+        " onmouseover="this.style.background='linear-gradient(to right, #f0f0f0, #e0e0e0)'; this.style.color='black';" onmouseout="this.style.background='linear-gradient(to right, black, green )'; this.style.color='white';">
         
         Himbauan Dinas Terkait</h1>
             <p>
@@ -396,7 +396,7 @@
                     border-radius: 25px;
 
                     transition: background 0.5s ease, color 0.5s ease;
-                " onmouseover="this.style.background='linear-gradient(to right, black, yellow)'; this.style.color='white';" onmouseout="this.style.background='linear-gradient(to right, #f0f0f0, #e0e0e0)'; this.style.color='#333';">Informasi Lebih Lanjut <i class="fas fa-arrow-right ml-2"></i></h1>
+                " onmouseover="this.style.background='linear-gradient(to right, black, green)'; this.style.color='white';" onmouseout="this.style.background='linear-gradient(to right, #f0f0f0, #e0e0e0)'; this.style.color='#333';">Informasi Lebih Lanjut <i class="fas fa-arrow-right ml-2"></i></h1>
                     <h2 style="
                     font-family: 'Lato', sans-serif;
                     font-weight: 700;
