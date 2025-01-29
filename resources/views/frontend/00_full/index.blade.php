@@ -76,7 +76,7 @@
                         </a>
                         <div class="overlay">
                             <div class="mb-2">
-                                <a class="badge badge-primary text-uppercase font-weight-semi-bold p-2 mr-2"
+                                <a class="badge badge-success text-uppercase font-weight-semi-bold p-2 mr-2"
                                 href="/portalberita/{{ $item->judul}}">News</a>
                                 {{-- <a class="text-white" href="">Jan 01, 2045</a> --}}
                             </div>
@@ -103,7 +103,7 @@
                                     <img class="img-fluid w-100 h-100" src="{{ asset('storage/'. $item->gambar )}}" style="object-fit: cover;">
                                     <div class="overlay">
                                     <div class="mb-2">
-                                        <a class="badge badge-primary text-uppercase font-weight-semi-bold p-2 mr-2" href="/portalberita/{{$item->judul}}">News</a>
+                                        <a class="badge badge-success text-uppercase font-weight-semi-bold p-2 mr-2" href="/portalberita/{{$item->judul}}">News</a>
                                         {{-- <a class="text-white" href=""><small>Jan 01, 2045</small></a> --}}
                                     </div>
                                     <a class="h6 m-0 text-white text-uppercase font-weight-semi-bold" href="/portalberita/{{$item->judul}}">{{ $item->judul }}</a>
@@ -128,7 +128,7 @@
                 <div class="col-12">
                     <a href="">
                         <div class="d-flex justify-content-between">
-                            <div class="bg-primary text-dark text-center font-weight-medium py-2" style="width: 170px;">News</div>
+                            <div class="bg-success text-dark text-center font-weight-medium py-2" style="width: 170px;">News</div>
                             <div class="owl-carousel tranding-carousel position-relative d-inline-flex align-items-center ml-3"
                             style="width: calc(100% - 170px); padding-right: 90px;">
                             @foreach ($data as $item)
