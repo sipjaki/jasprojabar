@@ -366,7 +366,7 @@ PENDAFTARAN TENAGA KERJA</h1>
             <article class="quoteblock">
                 <figure>
                     <a href="/">
-                        <img style="width:30%" class="customer" src="/assets/logopendaftaran/logopendaftaran.png" alt="Dinas Terkait">
+                        <img style="width:50%" class="customer" src="/assets/logopendaftaran/logopendaftaran.png" alt="Dinas Terkait">
                     </a>
                     <figcaption>PELATIHAN</figcaption>
                 </figure>
@@ -375,18 +375,18 @@ PENDAFTARAN TENAGA KERJA</h1>
             <article class="quoteblock">
                 <figure>
                     <a href="/">
-                        <img style="width:30%" class="customer" src="/assets/logopendaftaran/logopendaftaran.png" alt="Dinas Terkait">
+                        <img style="width:50%" class="customer" src="/assets/logopendaftaran/logopendaftaran.png" alt="Dinas Terkait">
                     </a>
-                    <figcaption>PELATIHAN</figcaption>
+                    <figcaption>BIMBINGAN TEKNIS</figcaption>
                 </figure>
             </article>
                 
             <article class="quoteblock">
                 <figure>
                     <a href="/">
-                        <img style="width:30%" class="customer" src="/assets/logopendaftaran/logopendaftaran.png" alt="Dinas Terkait">
+                        <img style="width:50%" class="customer" src="/assets/logopendaftaran/logopendaftaran.png" alt="Dinas Terkait">
                     </a>
-                    <figcaption>PELATIHAN</figcaption>
+                    <figcaption>WORKSHOP</figcaption>
                 </figure>
             </article>
                 
