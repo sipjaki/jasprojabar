@@ -185,7 +185,7 @@
                             @foreach ($data_jaskon as $item )
                             <div class="w-100 h-100 d-flex flex-column justify-content-center border border-left-0" style="margin-bottom:10px;">
                                 <div class="mb-2">
-                                    <a class="badge badge-primary text-uppercase font-weight-semi-bold p-1 mr-2 mr-2 ml-2" href="/kegiatansertifikasi" style="margin-top:15px;"><span style="color: #000000; font-size:16px;">{{$item->judul_kegiatan}}</span></a>
+                                    <a class="badge badge-success text-uppercase font-weight-semi-bold p-1 mr-2 mr-2 ml-2" href="/kegiatansertifikasi" style="margin-top:15px;"><span style="color: #000000; font-size:16px;">{{$item->judul_kegiatan}}</span></a>
                                 </div>
                                 <div class="mb-2">
                                     <a href="/kegiatansertifikasi">
