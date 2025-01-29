@@ -6,7 +6,7 @@
         justify-content: center;
         align-items: center;
         height: 6vh;
-        font-family: Arial, sans-serif;"> <a href="https://wa.me/6281321455855" style="color: black">+6281 321 455 855</a>
+        font-family: Arial, sans-serif;"> 
         <p id="jam" style="
             font-size: 14px;
             background: #000000;
@@ -15,7 +15,7 @@
             border-radius: 15px;
             text-align: center;"></p>
                  {{-- <p style="color: black"></p> --}}
-
+                 <i class="fas fa-phone mr-2"></i><a href="https://wa.me/6281321455855" style="color: black">+6281 321 455 855</a></p>
     </div>
 
     <script>
