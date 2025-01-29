@@ -365,19 +365,39 @@ PENDAFTARAN TENAGA KERJA</h1>
                 
             <article class="quoteblock">
                 <figure>
-                    <a href="/">
-                        <img style="width:50%" class="customer" src="/assets/logopendaftaran/logopendaftaran.png" alt="Dinas Terkait">
+                    <a href="/" style="display: inline-block; width: 50%; transition: background-color 0.3s ease;">
+                        <img class="customer" src="/assets/logopendaftaran/logopendaftaran.png" alt="Dinas Terkait" style="width: 100%; transition: filter 0.3s ease;">
                     </a>
-                    <figcaption>MENU PENDAFTARAN</figcaption>
+                    
+                    <style>
+                        a:hover {
+                            background-color: lightgreen; /* Mengubah warna background saat hover */
+                        }
+                    
+                        a:hover .customer {
+                            filter: brightness(0) saturate(100%) invert(49%) sepia(83%) saturate(1913%) hue-rotate(108deg) brightness(105%) contrast(108%);
+                        }
+                    </style>
+                       <figcaption>MENU PENDAFTARAN</figcaption>
                     <figcaption>PELATIHAN</figcaption>
                 </figure>
             </article>
                 
             <article class="quoteblock">
                 <figure>
-                    <a href="/">
-                        <img style="width:50%" class="customer" src="/assets/logopendaftaran/logopendaftaran.png" alt="Dinas Terkait">
+                    <a href="/" style="display: inline-block; width: 50%; transition: background-color 0.3s ease;">
+                        <img class="customer" src="/assets/logopendaftaran/logopendaftaran.png" alt="Dinas Terkait" style="width: 100%; transition: filter 0.3s ease;">
                     </a>
+                    
+                    <style>
+                        a:hover {
+                            background-color: lightgreen; /* Mengubah warna background saat hover */
+                        }
+                    
+                        a:hover .customer {
+                            filter: brightness(0) saturate(100%) invert(49%) sepia(83%) saturate(1913%) hue-rotate(108deg) brightness(105%) contrast(108%);
+                        }
+                    </style>
                     <figcaption>MENU PENDAFTARAN</figcaption>
                     <figcaption>BIMBINGAN TEKNIS</figcaption>
                 </figure>
@@ -385,9 +405,19 @@ PENDAFTARAN TENAGA KERJA</h1>
                 
             <article class="quoteblock">
                 <figure>
-                    <a href="/">
-                        <img style="width:50%" class="customer" src="/assets/logopendaftaran/logopendaftaran.png" alt="Dinas Terkait">
+                    <a href="/" style="display: inline-block; width: 50%; transition: background-color 0.3s ease;">
+                        <img class="customer" src="/assets/logopendaftaran/logopendaftaran.png" alt="Dinas Terkait" style="width: 100%; transition: filter 0.3s ease;">
                     </a>
+                    
+                    <style>
+                        a:hover {
+                            background-color: lightgreen; /* Mengubah warna background saat hover */
+                        }
+                    
+                        a:hover .customer {
+                            filter: brightness(0) saturate(100%) invert(49%) sepia(83%) saturate(1913%) hue-rotate(108deg) brightness(105%) contrast(108%);
+                        }
+                    </style>
                     <figcaption>MENU PENDAFTARAN</figcaption>
                     <figcaption>WORKSHOP</figcaption>
                 </figure>
