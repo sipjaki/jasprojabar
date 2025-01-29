@@ -93,7 +93,7 @@ Keputusan Menteri Tentang Jasa Konstruksi
             border: none;
         }
         .badgedownload {
-                background: linear-gradient(to right, navy, black);
+                background: linear-gradient(to right, orange, black);
                 color: white;
                 padding: 10px 20px;
                 border-radius: 10px;
@@ -245,7 +245,7 @@ Keputusan Menteri Tentang Jasa Konstruksi
         margin-left: -1px;
         line-height: 1.25;
         color: white;
-        background: navy;
+        background: orange;
         border: 1px solid #dee2e6;
         font-size: 12px;
         border-radius: 5px;

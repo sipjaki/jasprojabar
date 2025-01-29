@@ -108,7 +108,7 @@ border-radius:5px;
 
 
 .badgedownload {
-    background: linear-gradient(to right, navy, black);
+    background: linear-gradient(to right, orange, black);
     color: white;
     padding: 8px 20px;
     border-radius: 10px;
