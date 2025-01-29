@@ -9,32 +9,7 @@
             <section id="sec-6" style="background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url('/assets/bahan1/Images/alunalunblora.jpg') no-repeat center center/cover; padding-top: 2rem; padding-bottom: 4rem; font-size: 0.8rem;">
 
         <div class="container" style="margin-bottom: 0px;">
-            <div class="about">
-                {{-- <h1>About Company</h1> --}}
-                <img src="/assets/icon/pupr.png" alt="Logo SIPJAKIKBB" style="margin-bottom: 10px; width: 50px; height: 50px; object-fit: cover; margin-right: 10px; padding: 0;">
-                <img src="/assets/icon/logokabupatenblora.png" alt="Logo Pemerintah Kabupaten Blora" style="margin-bottom: 10px; width: 58px; height: 58px; object-fit: cover; margin-right: 10px; padding: 0;">
-                    
-                <h2 style="margin-top: 0;">
-                    <span style="color: white">Mas Jaki</span><strong style="color: #28a745;"> Blora</strong>
-                </h2>
-                <p style="margin: 0; font-size: 16px; color: white" >Dinas Pekerjaan Umum & Penataan Ruang</p>
-                <p style="margin: 0; font-size: 16px; color: white" >Pemerintah Kabupaten Blora</p>
-                <p style="margin: 0; font-size: 16px; color: white" >Bidang Bangunan Gedung</p>
-                        <br>
-                    
-                {{-- <br><br><br><br><br> --}}
-                <p style="text-align: left">
-                    Web Mas Jaki DPUPR Blora adalah Sistem Informasi Pembina Jasa Konstruksi Pemerintah Kabupaten Blora adalah platform digital untuk meningkatkan efisiensi dan transparansi dalam pengelolaan proyek konstruksi. Sistem ini memantau pelaksanaan proyek, memastikan kepatuhan terhadap standar, dan memfasilitasi komunikasi antara pemerintah, kontraktor, pengawas, tenaga ahli, dan masyarakat. Hal ini diharapkan dapat meningkatkan kualitas infrastruktur dan mempercepat proses administrasi.
-                </p>
-                <br><br><br><br><br>
-                <a href="mailto:your-email@example.com"><i class="fas fa-envelope"></i></a>
-                <a href="https://www.facebook.com/your-facebook" target="_blank"><i class="fab fa-facebook-f"></i></a>
-                <a href="https://www.instagram.com/your-instagram" target="_blank"><i class="fab fa-instagram"></i></a>
-                <a href="https://twitter.com/your-twitter" target="_blank"><i class="fab fa-twitter"></i></a>
-                <a href="https://www.tiktok.com/@your-tiktok" target="_blank"><i class="fab fa-tiktok"></i></a>
-                <a href="https://www.youtube.com/your-youtube" target="_blank"><i class="fab fa-youtube"></i></a>
-            
-            </div>
+         
             <div class="links">
                 <h1 style="color: white">Jelajah Menu</h1>
                 <a href="#">Struktur Dinas PUPR </a>
@@ -85,6 +60,33 @@
                 {{-- <p><a href=""></a> +6281 321 455 855</p> --}}
                 <p><a href="https://wa.me/6281321455855" style="color: white"><i class="fab fa-whatsapp me-2"></i>081321455855</a></p>
                </div>
+
+               <div class="about">
+                {{-- <h1>About Company</h1> --}}
+                <img src="/assets/icon/pupr.png" alt="Logo SIPJAKIKBB" style="margin-bottom: 10px; width: 50px; height: 50px; object-fit: cover; margin-right: 10px; padding: 0;">
+                <img src="/assets/icon/logokabupatenblora.png" alt="Logo Pemerintah Kabupaten Blora" style="margin-bottom: 10px; width: 58px; height: 58px; object-fit: cover; margin-right: 10px; padding: 0;">
+                    
+                <h2 style="margin-top: 0;">
+                    <span style="color: white">Mas Jaki</span><strong style="color: #28a745;"> Blora</strong>
+                </h2>
+                <p style="margin: 0; font-size: 16px; color: white" >Dinas Pekerjaan Umum & Penataan Ruang</p>
+                <p style="margin: 0; font-size: 16px; color: white" >Pemerintah Kabupaten Blora</p>
+                <p style="margin: 0; font-size: 16px; color: white" >Bidang Bangunan Gedung</p>
+                        <br>
+                    
+                {{-- <br><br><br><br><br> --}}
+                <p style="text-align: left">
+                    Web Mas Jaki DPUPR Blora adalah Sistem Informasi Pembina Jasa Konstruksi Pemerintah Kabupaten Blora adalah platform digital untuk meningkatkan efisiensi dan transparansi dalam pengelolaan proyek konstruksi. Sistem ini memantau pelaksanaan proyek, memastikan kepatuhan terhadap standar, dan memfasilitasi komunikasi antara pemerintah, kontraktor, pengawas, tenaga ahli, dan masyarakat. Hal ini diharapkan dapat meningkatkan kualitas infrastruktur dan mempercepat proses administrasi.
+                </p>
+                <br><br><br><br><br>
+                <a href="mailto:your-email@example.com"><i class="fas fa-envelope"></i></a>
+                <a href="https://www.facebook.com/your-facebook" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://www.instagram.com/your-instagram" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://twitter.com/your-twitter" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.tiktok.com/@your-tiktok" target="_blank"><i class="fab fa-tiktok"></i></a>
+                <a href="https://www.youtube.com/your-youtube" target="_blank"><i class="fab fa-youtube"></i></a>
+            
+            </div>
         </div>
     </section>
     {{-- ------------------------------------------------------------------------------- --}}
