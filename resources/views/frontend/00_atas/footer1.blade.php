@@ -19,11 +19,7 @@
                     
                 {{-- <br><br><br><br><br> --}}
                 <p style="text-align: left">
-                    Tentu! Berikut adalah versi yang telah diperbarui dengan "Pemerintah Kabupaten Blora":
-
                     Sistem Informasi Pembina Jasa Konstruksi Pemerintah Kabupaten Blora adalah platform digital untuk meningkatkan efisiensi dan transparansi dalam pengelolaan proyek konstruksi. Sistem ini memantau pelaksanaan proyek, memastikan kepatuhan terhadap standar, dan memfasilitasi komunikasi antara pemerintah, kontraktor, pengawas, tenaga ahli, dan masyarakat. Hal ini diharapkan dapat meningkatkan kualitas infrastruktur dan mempercepat proses administrasi.
-                    
-                    Semoga sesuai dengan yang Anda inginkan!
                 </p>
                 <br><br><br><br><br>
                 <a href="mailto:your-email@example.com"><i class="fas fa-envelope"></i></a>
