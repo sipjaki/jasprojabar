@@ -427,10 +427,10 @@ PENDAFTARAN TENAGA KERJA</h1>
                     @foreach ($datahimbauandinas as $item )
                         
                     <article class="quoteblock">
-                        <div class="quotetxt arrow">
+                        {{-- <div class="quotetxt arrow">
                             <p><img style="width:10%" src="{{asset('storage/' . $item->foto_pejabat)}}" alt="{{asset('storage/' . $item->foto_pejabat)}}"></p>
                             <p><span style="color: black">{!! $item->himbauan !!}</span></p>
-                        </div>
+                        </div> --}}
                         <figure>
                             <img style="width:30%" class="customer" src="{{ asset('storage/' . $item->foto_pejabat)}}" alt="Dinas Terkait">
                             <figcaption>{{$item->nama_lengkap}}</figcaption>
