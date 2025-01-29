@@ -49,7 +49,7 @@
             }
         </style>
     
-        <a href="/">DASHBOARD</a>
+        <a href="/">BERANDA</a>
         
         <div class="dropdown">
             <a href="#" class="dropdown-toggle">KELEMBAGAAN</a>
