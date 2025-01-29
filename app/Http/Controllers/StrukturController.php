@@ -25,7 +25,7 @@ class StrukturController extends Controller
         $user = Auth::user();
 
         return view('backend.01_struktur.01_kedinasan.index', [
-            'title' => 'Struktur Kedinasan PUPR Kabupaten Bandung Barat',
+            'title' => 'Struktur Kedinasan PUPR Kabupaten Blora Provinsi Jawa Tengah',
             'data' => $data, // Mengirimkan data paginasi ke view
             'user' => $user, // Mengirimkan data paginasi ke view
         ]);
@@ -462,7 +462,7 @@ public function tupoksifekbb()
     $user = Auth::user();
 
     return view('frontend.01_profil.03_tupoksi', [
-        'title' => 'Tupoksi PUPR Kabupaten Bandung Barat',
+        'title' => 'Tupoksi Dinas PUPR Kabupaten Blora',
         'data' => $data, // Mengirimkan data paginasi ke view
         'user' => $user, // Mengirimkan data paginasi ke view
     ]);
