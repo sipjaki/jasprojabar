@@ -2,9 +2,11 @@
     {{-- ---------------------------------------------------------------------------- --}}
     {{-- ---------------------------------------------------------------------------- --}}
     {{-- ---------------------------------------------------------------------------- --}}
-    <section id="sec-6">
+    {{-- <section id="sec-6"> --}}
         
         {{-- <section id="sec-6" style="background-image: url('/assets/bahan1/Images/alunalunblora.jpg'); background-size: cover; background-position: center; background-attachment: fixed;"> --}}
+
+            <section id="sec-6" style="background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url('/assets/bahan1/Images/alunalunblora.jpg') no-repeat center center/cover; padding-top: 2rem; padding-bottom: 4rem; font-size: 0.8rem;">
 
         <div class="container">
             <div class="about">
