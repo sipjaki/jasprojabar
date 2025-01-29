@@ -32,7 +32,7 @@
     {{-- <title>Construction Company</title> --}}
     <title>Silahkan Login !</title>
 
-    <link rel="icon" href="/assets/icon/sipjakikbb.png" type="image/x-icon">
+    <link rel="icon" href="/assets/icon/logokabupatenblora.png" type="image/x-icon">
   
 </head>
 
