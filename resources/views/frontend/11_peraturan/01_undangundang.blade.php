@@ -60,7 +60,7 @@ Undang Undang Jasa Konstruksi
     text-align: center;
     width: 100%;
     height: 120vh;
-    background: linear-gradient(to bottom, #00820d, white, black);
+    background: linear-gradient(to bottom, #00820d, white, white);
     align-items: center;
     position: relative;
 ">
