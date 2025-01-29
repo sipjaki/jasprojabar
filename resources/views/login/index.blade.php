@@ -76,7 +76,7 @@
     width: 500px;
     background: linear-gradient(to right, #f0f0f0, #e0e0e0);
     transition: background 0.5s ease, color 0.5s ease;
-    " onmouseover="this.style.background='linear-gradient(to right, #f0f0f0, #e0e0e0)'; this.style.color='black';" onmouseout="this.style.background='linear-gradient(to right, black, yellow )'; this.style.color='white';">
+    " onmouseover="this.style.background='linear-gradient(to right, #f0f0f0, #e0e0e0)'; this.style.color='black';" onmouseout="this.style.background='linear-gradient(to right, black, green )'; this.style.color='white';">
 
 Silahkan Login !
 </h2>
@@ -84,7 +84,7 @@ Silahkan Login !
 <div class="container" style="
      display: flex;
     flex-direction: column;
-    background-color: #FFCB0F;
+    background-color: #00820d;
     padding: 10px;
     border: 1px solid black;
     margin-bottom: 0px;
@@ -92,12 +92,13 @@ Silahkan Login !
     text-align: center;
     width: 100%;
     height: 85vh;
-    background: linear-gradient(to bottom, yellow, white, black);
+    background: linear-gradient(to bottom, green, white, white);
     align-items: center;
     position: relative;
 ">
     <img src="/assets/icon/pupr.png" alt="Logo SIPJAKIKBB" style="width: 50px; height: 50px; object-fit: cover; padding: 0; margin-top: 10px;">
-<h1 style="margin-top:10px; font-size: 16px; font-family: 'Lato', sans-serif; font-weight: 700;">Kementrian Pekerjaan Umum Dan Perumahan Rakyat </h1>
+    <img src="/assets/icon/logokabupatenblora.png" alt="Logo SIPJAKIKBB" style="width: 50px; height: 50px; object-fit: cover; padding: 0; margin-top: 10px;">
+<h1 style="margin-top:10px; font-size: 16px; font-family: 'Lato', sans-serif; font-weight: 700;">Dinas Pekerjaan Umum Dan Penataan Ruang <br> Pemerintah Kabupaten Blora </h1>
     <div class="container">
         <div class="card" style="
             background-color: white;
@@ -122,7 +123,7 @@ Silahkan Login !
     <label for="entries" style="margin-right: 5px;">
         <style>
             .badge {
-                background: linear-gradient(to right, yellow, black);
+                background: linear-gradient(to right, green, black);
                 color: white;
                 padding: 10px 20px;
                 border-radius: 10px;
@@ -252,7 +253,7 @@ Silahkan Login !
     <div class="form-group mt-4 text-center" style="background-color: white;">
     <style>
             .masuk {
-                background: linear-gradient(to right, yellow, black);
+                background: linear-gradient(to right, green, black);
                 color: white;
                 padding: 10px 20px;
                 border-radius: 35px;
@@ -271,7 +272,7 @@ Silahkan Login !
                 color: black;
             }
         </style>
-        <button type="submit" class="masuk" style="width: 300px; background-color: #FFCB0F; color: white; font-family: 'Lato', sans-serif; font-weight: 700;"><i class="fab fa-telegram" style="color: white; font-size: 16px; margin-right: 10px;"></i>Login</button>
+        <button type="submit" class="masuk" style="width: 300px; background-color: #00820d; color: white; font-family: 'Lato', sans-serif; font-weight: 700;"><i class="fab fa-telegram" style="color: white; font-size: 16px; margin-right: 10px;"></i>Login</button>
         <div style="margin-top: 10px;">
             <a href="/404" class="text-black" style="font-family: 'Lato', sans-serif; font-weight: 700;">Register Here?</a>
         </div>
