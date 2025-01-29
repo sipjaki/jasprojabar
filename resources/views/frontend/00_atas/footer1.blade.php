@@ -8,7 +8,7 @@
 
             <section id="sec-6" style="background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url('/assets/bahan1/Images/alunalunblora.jpg') no-repeat center center/cover; padding-top: 2rem; padding-bottom: 4rem; font-size: 0.8rem;">
 
-        <div class="container" style="margin-bottom: -20px;">
+        <div class="container" style="margin-bottom: -100px;">
             <div class="about">
                 {{-- <h1>About Company</h1> --}}
                 <img src="/assets/icon/pupr.png" alt="Logo SIPJAKIKBB" style="margin-bottom: 10px; width: 50px; height: 50px; object-fit: cover; margin-right: 10px; padding: 0;">
