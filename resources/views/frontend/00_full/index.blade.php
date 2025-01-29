@@ -379,7 +379,7 @@
             </div>
         </div>
 
-        <div class="contactUs" style="background-color: #00820d; height: 60vh; margin-bottom: 0px;">
+        <div class="contactUs" style="background-color: #45c952; height: 60vh; margin-bottom: 0px;">
             <div class="container" >
             {{-- <div class="container"> --}}
                 <aside>
