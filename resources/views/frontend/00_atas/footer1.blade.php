@@ -70,13 +70,13 @@
             
             <div class="contact" style="color: green">
                 <h1 style="color: green">Kontak Kami</h1>
-                <div style="width: 250px; height: 250px; margin-bottom: 10px;">
+                <div style="width: 100%; max-width: 600px; height: 400px; margin-bottom: 10px;">
                     <iframe
-                        width="250"
-                        height="250"
+                        width="100%"
+                        height="100%"
                         frameborder="0"
-                        style="border:0"
-                        src="https://www.google.com/maps/place/Dinas+Pekerjaan+Umum+dan+Penataan+Ruang+(DPUPR)+Kabupaten+Blora/@-6.9771767,111.4085298,806m/data=!3m2!1e3!4b1!4m6!3m5!1s0x2e77411bc797c1ed:0x5ddba5997190e35c!8m2!3d-6.977182!4d111.4111047!16s%2Fg%2F11b6dpfgz4!5m1!1e1?entry=ttu"
+                        style="border:0; width: 100%; height: 100%;"
+                        src="https://www.google.com/maps/place/Dinas+Pekerjaan+Umum+dan+Penataan+Ruang+(DPUPR)+Kabupaten+Blora/@-6.9771767,111.4085298,17z/data=!3m1!4b1!4m6!3m5!1s0x2e77411bc797c1ed:0x5ddba5997190e35c!8m2!3d-6.977182!4d111.4111047!16s%2Fg%2F11b6dpfgz4?entry=ttu"
                         allowfullscreen>
                     </iframe>
                 </div>
