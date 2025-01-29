@@ -337,6 +337,51 @@
   {{-- --------------------------------------------------------------------------------------- --}}
   {{-- ------------------------------------------------------------------------------------------ --}}
   {{-- ------------------------------------------------------------------------------------------ --}}
+{{-- PENAMBAHAN MENU BARU  --}}
+{{-- =========================================================================================================================== --}}
+
+<div class="container">
+    <h1 style="
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 25px;
+    width: 500px;
+    margin-left: 325px;
+    background: linear-gradient(to right, #f0f0f0, #e0e0e0);
+    transition: background 0.5s ease, color 0.5s ease;
+" onmouseover="this.style.background='linear-gradient(to right, #f0f0f0, #e0e0e0)'; this.style.color='black';" onmouseout="this.style.background='linear-gradient(to right, black, green )'; this.style.color='white';">
+
+Himbauan Dinas Terkait</h1>
+    <p>
+        Kami informasikan bahwa Sistem Informasi Pembina Jasa Konstruksi kini tersedia untuk memudahkan akses informasi terkait jasa konstruksi. Sistem ini menyediakan data terpercaya, regulasi terbaru, dan informasi penting lainnya mengenai layanan konstruksi. Silakan kunjungi platform ini untuk mendapatkan informasi yang Anda butuhkan dan memastikan kepatuhan terhadap peraturan yang berlaku.
+        <div class="cont">
+            @foreach ($datahimbauandinas as $item )
+                
+            <article class="quoteblock">
+                <div class="quotetxt arrow">
+                    <p><img style="width:10%" src="{{asset('storage/' . $item->foto_pejabat)}}" alt="{{asset('storage/' . $item->foto_pejabat)}}"></p>
+                    <p><span style="color: black">{!! $item->himbauan !!}</span></p>
+                </div>
+                <figure>
+                    <img style="width:30%" class="customer" src="{{ asset('storage/' . $item->foto_pejabat)}}" alt="Dinas Terkait">
+                    <figcaption>{{$item->nama_lengkap}}</figcaption>
+                    <figcaption>{{$item->jabatan}}</figcaption>
+                </figure>
+            </article>
+            
+            @endforeach
+    </div>
+</div>
+
+{{-- =========================================================================================================================== --}}
+
 
      <section id="sec-5">
         <div class="container">
