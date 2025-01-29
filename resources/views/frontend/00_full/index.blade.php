@@ -64,14 +64,14 @@
     <div class="container-fluid" style="margin-top: 160px;">
         <div class="row">
             <div class="col-lg-7 px-0">
-                <div class="owl-carousel main-carousel position-relative" style="background: green">
+                <div class="owl-carousel main-carousel position-relative" style="color: green">
                   
                     @foreach ($data as $item )
                         
                     
                     <div class="position-relative overflow-hidden" style="height: 500px;">
                         <a href="/portalberita/{{ $item->judul}}">
-                            {{-- <img class="img-fluid h-100" src="{{ asset('storage/' . $item->gambar) }}" style="object-fit: cover;"> --}}
+                            <img class="img-fluid h-100" src="{{ asset('storage/' . $item->gambar) }}" style="object-fit: cover;">
                         
                         </a>
                         <div class="overlay">
