@@ -116,8 +116,8 @@
             <button type="button" class="btnalert-view" onclick="document.querySelector('.modal-alert-verifikasi').style.display='none';">
                 &times;
             </button>
-            <img src="/assets/icon/sipjakikbb.png" alt="Logo SIPJAKIKBB" style="width: 70px; height: 70px; object-fit: cover; margin: 20px;">
-            <p style="color: black;">Pemerintah Kabupaten Bandung Barat</p>
+            <img src="/assets/icon/logokabupatenblora.png" alt="Logo SIPJAKIKBB" style="width: 70px; height: 70px; object-fit: cover; margin: 20px;">
+            <p style="color: black;">Pemerintah Kabupaten Blora</p>
             <div class="success-text">Success</div>
             <br>
             <button class="button-text" style="color: white;">{{ session('create') }}</button> <!-- Wrapped text in a styled button -->
@@ -131,8 +131,8 @@
             <button type="button" class="btnalert-view" onclick="document.querySelector('.modal-alert-verifikasi').style.display='none';">
                 &times;
             </button>
-            <img src="/assets/icon/sipjakikbb.png" alt="Logo SIPJAKIKBB" style="width: 70px; height: 70px; object-fit: cover; margin: 20px;">
-            <p style="color: black;">Pemerintah Kabupaten Bandung Barat</p>
+            <img src="/assets/icon/logokabupatenblora.png" alt="Logo SIPJAKIKBB" style="width: 70px; height: 70px; object-fit: cover; margin: 20px;">
+            <p style="color: black;">Pemerintah Kabupaten Blora</p>
             <div class="success-textupdate">Update Success</div>
             <br>
             <button class="button-textupdate" style="color: white;">{{ session('update') }}</button> <!-- Wrapped text in a styled button -->
@@ -146,8 +146,8 @@
             <button type="button" class="btnalert-view" onclick="document.querySelector('.modal-alert-verifikasi').style.display='none';">
                 &times;
             </button>
-            <img src="/assets/icon/sipjakikbb.png" alt="Logo SIPJAKIKBB" style="width: 70px; height: 70px; object-fit: cover; margin: 20px;">
-            <p style="color: black;">Pemerintah Kabupaten Bandung Barat</p>
+            <img src="/assets/icon/logokabupatenblora.png" alt="Logo SIPJAKIKBB" style="width: 70px; height: 70px; object-fit: cover; margin: 20px;">
+            <p style="color: black;">Pemerintah Kabupaten Blora</p>
             <div style="
             font-size: 36px;
             color: red; /* Green color */
@@ -202,8 +202,8 @@
 @if (session('pertanyaan')) 
     <div class="modal-alert-pertanyaan">
         <div class="modal-content-pertanyaan">
-            <img src="/assets/icon/sipjakikbb.png" alt="Logo SIPJAKIKBB" style="width: 70px; height: 70px; object-fit: cover; margin: 20px;">
-            <p style="color: black;">Pemerintah Kabupaten Bandung Barat</p>
+            <img src="/assets/icon/logokabupatenblora.png" alt="Logo SIPJAKIKBB" style="width: 70px; height: 70px; object-fit: cover; margin: 20px;">
+            <p style="color: black;">Pemerintah Kabupaten Blora</p>
             <div class="success-text" style="font-size: 18px;">Admin Kami Akan Menghubungi Saudara, Harap Menunggu !
                 <button type="button" class="btnalert-view" onclick="document.querySelector('.modal-alert-pertanyaan').style.display='none';" style="float: right;">
                     &times;
