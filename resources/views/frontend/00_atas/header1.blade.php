@@ -34,7 +34,9 @@
         setInterval(updateClock, 1000); // Update every second
         updateClock(); // Initial call to set the time immediately
     </script>
-     <p style="color: black"><a href="https://wa.me/6281321455855" style="color: black">+6281 321 455 855</a></p>
+     <p>
+        <a href="https://wa.me/6281321455855" style="color: black">+6281 321 455 855</a>
+    </p>
      {{-- <p>support@Construct.com</p> --}}
      {{-- <p>Senin-Jumat 9:00-16:00</p> --}}
      <style>
