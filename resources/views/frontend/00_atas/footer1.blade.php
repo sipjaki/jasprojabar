@@ -10,28 +10,6 @@
 
         <div class="container" style="margin-bottom: 0px;">
          
-            <div class="links">
-                <h1 style="color: white">Jelajah Menu</h1>
-                <a href="#">Struktur Dinas PUPR </a>
-                <a href="#">Rencana Strategis PUPR </a>
-                <a href="#">Tupoksi Program & Jasa Konstruksi</a>
-                <a href="#">Berita Sipjaki</a>
-                <a href="#">Agenda Sertifikasi  </a>
-                <a href="#">Dokumentasi Sertifikasi</a>
-                <a href="#">Pengawasan & Ketertiban </a>
-                <a href="#">Asosiasi Pengusaha</a>
-                <a href="#">Standar Biaya Umum</a>
-                <a href="#">Progress Paket Pekerjaan</a>
-                <a href="#">Sertifikat Keterampilan Kerja</a>
-                <a href="#">Penanggung Jawab Teknis</a>
-                <a href="#">Pembina Jasa Konstruksi</a>
-                <a href="#">Informasi SPM</a>
-                <a href="#">SBU/IUJK</a>
-                <a href="#">Pelatihan</a>
-                <a href="#">Pengawasan</a>
-                <a href="#">Kecelakaan</a>
-                
-            </div>
 
             {{-- <div class="posts">     
                 <h1 style="color: yellow">Berita Terakhir</h1>
@@ -60,6 +38,30 @@
                 {{-- <p><a href=""></a> +6281 321 455 855</p> --}}
                 <p><a href="https://wa.me/6281321455855" style="color: white"><i class="fab fa-whatsapp me-2"></i>081321455855</a></p>
                </div>
+
+               <div class="links">
+                <h1 style="color: white">Jelajah Menu</h1>
+                <a href="#">Struktur Dinas PUPR </a>
+                <a href="#">Rencana Strategis PUPR </a>
+                <a href="#">Tupoksi Program & Jasa Konstruksi</a>
+                <a href="#">Berita Sipjaki</a>
+                <a href="#">Agenda Sertifikasi  </a>
+                <a href="#">Dokumentasi Sertifikasi</a>
+                <a href="#">Pengawasan & Ketertiban </a>
+                <a href="#">Asosiasi Pengusaha</a>
+                <a href="#">Standar Biaya Umum</a>
+                <a href="#">Progress Paket Pekerjaan</a>
+                <a href="#">Sertifikat Keterampilan Kerja</a>
+                <a href="#">Penanggung Jawab Teknis</a>
+                <a href="#">Pembina Jasa Konstruksi</a>
+                <a href="#">Informasi SPM</a>
+                <a href="#">SBU/IUJK</a>
+                <a href="#">Pelatihan</a>
+                <a href="#">Pengawasan</a>
+                <a href="#">Kecelakaan</a>
+                
+            </div>
+
 
                <div class="about">
                 {{-- <h1>About Company</h1> --}}
