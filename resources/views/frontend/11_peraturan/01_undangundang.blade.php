@@ -93,7 +93,7 @@ Undang Undang Jasa Konstruksi
             border: none;
         }
         .badgedownload {
-                background: linear-gradient(to right, orange, orange;
+                background: linear-gradient(to right, orange, black;
                 color: white;
                 padding: 10px 20px;
                 border-radius: 10px;
