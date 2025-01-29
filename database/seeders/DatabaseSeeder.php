@@ -4977,224 +4977,227 @@ uijk::create([
 // ]);
 
 // ============================== ============================================================
-kegiatanjaskon::create([
-                // 'laporankegiatan_id' => 2, // Ganti dengan ID yang sesuai jika menggunakan foreign key
-                'id' => 1,           // Ganti dengan ID yang sesuai jika menggunakan foreign key
-                'user_id' => 1,           // Ganti dengan ID yang sesuai jika menggunakan foreign key
-                'judul_kegiatan' => '11 - 12 AGUSTUS 2024, KECAMATAN CILILIN BIMBINGAN TEKNIS KESELAMATAN DAN KESEHATAN KERJA PARA PEKERJA KONSTRUKSI',
-                'alamat_kegiatan' => 'DESA BATULAYANG 40562 JAWA BARAT INDONESIA',
-                'pengawasanlokasi_id' => '11',
-                'tanggal' => '',
-                'berita1' => 'dokumentasipelatihan/new/BERITA1.jpg',
-                'berita2' => 'dokumentasipelatihan/new/BERITA2.jpg',
-                'berita3' => 'dokumentasipelatihan/new/BERITA3.jpg',
-                'berita4' => 'dokumentasipelatihan/new/BERITA4.jpg',
-                'berita5' => 'dokumentasipelatihan/new/BERITA5.jpg',
-                'berita6' => 'dokumentasipelatihan/new/BERITA6.jpg',
-                'berita7' => 'dokumentasipelatihan/new/BERITA7.jpg',
-                'berita8' => 'dokumentasipelatihan/new/BERITA8.jpg',
-                'berita9' => 'dokumentasipelatihan/new/BERITA9.jpg',
-                'berita10' => 'dokumentasipelatihan/new/BERITA10.jpg',
-                'berita11' => 'dokumentasipelatihan/new/BERITA11.jpg',
-                'berita12' => 'dokumentasipelatihan/new/BERITA12.jpg',
-                'berita13' => 'dokumentasipelatihan/new/BERITA13.jpg',
-                'berita14' => 'dokumentasipelatihan/new/BERITA14.jpg',
-                'berita15' => 'dokumentasipelatihan/new/BERITA15.jpg',
-                'berita16' => 'dokumentasipelatihan/new/BERITA16.jpg',
-                'berita17' => 'dokumentasipelatihan/new/BERITA17.jpg',
-                'berita18' => 'dokumentasipelatihan/new/BERITA18.jpg',
-                'berita19' => 'dokumentasipelatihan/new/BERITA19.jpg',
-                'berita20' => 'dokumentasipelatihan/new/BERITA20.jpg',
-             
-                'tanggal' => '2024-08-14', // Format tanggal YYYY-MM-DD
-                'created_at' => now(),
-                'updated_at' => now(),
-]);
 
-kegiatanjaskon::create([
-                // 'laporankegiatan_id' => 2, // Ganti dengan ID yang sesuai jika menggunakan foreign key
-                'id' => 2,           // Ganti dengan ID yang sesuai jika menggunakan foreign key
-                'user_id' => 1,           // Ganti dengan ID yang sesuai jika menggunakan foreign key
-                'judul_kegiatan' => '2 - 3 DESEMBER 2024, KECAMATAN CIKALONG WETAN BIMBINGAN TEKNIS KESELAMATAN DAN KESEHATAN KERJA PARA PEKERJA KONSTRUKSI',
-                'alamat_kegiatan' => 'DESA CISOMANG BARAT 40556 JAWA BARAT INDONESIA',
-                'pengawasanlokasi_id' => '11',
-                'tanggal' => '',
-                'berita1' => 'dokumentasipelatihan/new/01_CB.jpg',
-                'berita2' => 'dokumentasipelatihan/new/02_CB.jpg',
-                'berita3' => 'dokumentasipelatihan/new/03_CB.jpg',
-                'berita4' => 'dokumentasipelatihan/new/04_CB.jpg',
-                'berita5' => 'dokumentasipelatihan/new/05_CB.jpg',
-                'berita6' => 'dokumentasipelatihan/new/06_CB.jpg',
-                'berita7' => 'dokumentasipelatihan/new/07_CB.jpg',
-                'berita8' => 'dokumentasipelatihan/new/08_CB.jpg',
-                'berita9' => 'dokumentasipelatihan/new/09_CB.jpg',
-                'berita10' => 'dokumentasipelatihan/new/10_CB.jpg',
-                'berita11' => 'dokumentasipelatihan/new/11_CB.jpg',
-                'berita12' => 'dokumentasipelatihan/new/12_CB.jpg',
-                'berita13' => 'dokumentasipelatihan/new/13_CB.jpg',
-                'berita14' => 'dokumentasipelatihan/new/14_CB.jpg',
-                'berita15' => 'dokumentasipelatihan/new/15_CB.jpg',
-                'berita16' => 'dokumentasipelatihan/new/16_CB.jpg',
-                'berita17' => 'dokumentasipelatihan/new/17_CB.jpg',
-                'berita18' => 'dokumentasipelatihan/new/18_CB.jpg',
-                'berita19' => 'dokumentasipelatihan/new/19_CB.jpg',
-                'berita20' => 'dokumentasipelatihan/new/20_CB.jpg',
+// DATA YANG DIRUBAH DARI PEMERINTAH KABUPATEN BANDUNG BARAT 
+// kegiatanjaskon::create([
+//                 // 'laporankegiatan_id' => 2, // Ganti dengan ID yang sesuai jika menggunakan foreign key
+//                 'id' => 1,           // Ganti dengan ID yang sesuai jika menggunakan foreign key
+//                 'user_id' => 1,           // Ganti dengan ID yang sesuai jika menggunakan foreign key
+//                 'judul_kegiatan' => '11 - 12 AGUSTUS 2024, KECAMATAN CILILIN BIMBINGAN TEKNIS KESELAMATAN DAN KESEHATAN KERJA PARA PEKERJA KONSTRUKSI',
+//                 'alamat_kegiatan' => 'DESA BATULAYANG 40562 JAWA BARAT INDONESIA',
+//                 'pengawasanlokasi_id' => '11',
+//                 'tanggal' => '',
+//                 'berita1' => 'dokumentasipelatihan/new/BERITA1.jpg',
+//                 'berita2' => 'dokumentasipelatihan/new/BERITA2.jpg',
+//                 'berita3' => 'dokumentasipelatihan/new/BERITA3.jpg',
+//                 'berita4' => 'dokumentasipelatihan/new/BERITA4.jpg',
+//                 'berita5' => 'dokumentasipelatihan/new/BERITA5.jpg',
+//                 'berita6' => 'dokumentasipelatihan/new/BERITA6.jpg',
+//                 'berita7' => 'dokumentasipelatihan/new/BERITA7.jpg',
+//                 'berita8' => 'dokumentasipelatihan/new/BERITA8.jpg',
+//                 'berita9' => 'dokumentasipelatihan/new/BERITA9.jpg',
+//                 'berita10' => 'dokumentasipelatihan/new/BERITA10.jpg',
+//                 'berita11' => 'dokumentasipelatihan/new/BERITA11.jpg',
+//                 'berita12' => 'dokumentasipelatihan/new/BERITA12.jpg',
+//                 'berita13' => 'dokumentasipelatihan/new/BERITA13.jpg',
+//                 'berita14' => 'dokumentasipelatihan/new/BERITA14.jpg',
+//                 'berita15' => 'dokumentasipelatihan/new/BERITA15.jpg',
+//                 'berita16' => 'dokumentasipelatihan/new/BERITA16.jpg',
+//                 'berita17' => 'dokumentasipelatihan/new/BERITA17.jpg',
+//                 'berita18' => 'dokumentasipelatihan/new/BERITA18.jpg',
+//                 'berita19' => 'dokumentasipelatihan/new/BERITA19.jpg',
+//                 'berita20' => 'dokumentasipelatihan/new/BERITA20.jpg',
              
-                'tanggal' => '2024-12-02', // Format tanggal YYYY-MM-DD
-                'created_at' => now(),
-                'updated_at' => now(),
-]);
+//                 'tanggal' => '2024-08-14', // Format tanggal YYYY-MM-DD
+//                 'created_at' => now(),
+//                 'updated_at' => now(),
+// ]);
+
+// kegiatanjaskon::create([
+//                 // 'laporankegiatan_id' => 2, // Ganti dengan ID yang sesuai jika menggunakan foreign key
+//                 'id' => 2,           // Ganti dengan ID yang sesuai jika menggunakan foreign key
+//                 'user_id' => 1,           // Ganti dengan ID yang sesuai jika menggunakan foreign key
+//                 'judul_kegiatan' => '2 - 3 DESEMBER 2024, KECAMATAN CIKALONG WETAN BIMBINGAN TEKNIS KESELAMATAN DAN KESEHATAN KERJA PARA PEKERJA KONSTRUKSI',
+//                 'alamat_kegiatan' => 'DESA CISOMANG BARAT 40556 JAWA BARAT INDONESIA',
+//                 'pengawasanlokasi_id' => '11',
+//                 'tanggal' => '',
+//                 'berita1' => 'dokumentasipelatihan/new/01_CB.jpg',
+//                 'berita2' => 'dokumentasipelatihan/new/02_CB.jpg',
+//                 'berita3' => 'dokumentasipelatihan/new/03_CB.jpg',
+//                 'berita4' => 'dokumentasipelatihan/new/04_CB.jpg',
+//                 'berita5' => 'dokumentasipelatihan/new/05_CB.jpg',
+//                 'berita6' => 'dokumentasipelatihan/new/06_CB.jpg',
+//                 'berita7' => 'dokumentasipelatihan/new/07_CB.jpg',
+//                 'berita8' => 'dokumentasipelatihan/new/08_CB.jpg',
+//                 'berita9' => 'dokumentasipelatihan/new/09_CB.jpg',
+//                 'berita10' => 'dokumentasipelatihan/new/10_CB.jpg',
+//                 'berita11' => 'dokumentasipelatihan/new/11_CB.jpg',
+//                 'berita12' => 'dokumentasipelatihan/new/12_CB.jpg',
+//                 'berita13' => 'dokumentasipelatihan/new/13_CB.jpg',
+//                 'berita14' => 'dokumentasipelatihan/new/14_CB.jpg',
+//                 'berita15' => 'dokumentasipelatihan/new/15_CB.jpg',
+//                 'berita16' => 'dokumentasipelatihan/new/16_CB.jpg',
+//                 'berita17' => 'dokumentasipelatihan/new/17_CB.jpg',
+//                 'berita18' => 'dokumentasipelatihan/new/18_CB.jpg',
+//                 'berita19' => 'dokumentasipelatihan/new/19_CB.jpg',
+//                 'berita20' => 'dokumentasipelatihan/new/20_CB.jpg',
+             
+//                 'tanggal' => '2024-12-02', // Format tanggal YYYY-MM-DD
+//                 'created_at' => now(),
+//                 'updated_at' => now(),
+// ]);
 
 
 // ==========================================================================================================
-laporankegiatan::create([
-                    // Ganti dengan ID yang sesuai jika menggunakan foreign key
-                'kegiatanjaskon_id' => '1',
-                'user_id' => '1',
-                'judul_kegiatan' => 'sambutan oleh bapak sekdis pupr kabupaten bandung barat  ',
-                'jabatan' => 'sekertaris dinas PUPR pemerintah kabupaten bandung barat',
-                'gambar' => 'acarasertifikasi/beritaacara/PA_SEKDIS.jpeg',
-                'keterangan_berita' => '
+// DATA YANG DIRUBAH DARI PEMERINTAH KABUPATEN BANDUNG BARAT 
+// laporankegiatan::create([
+//                     // Ganti dengan ID yang sesuai jika menggunakan foreign key
+//                 'kegiatanjaskon_id' => '1',
+//                 'user_id' => '1',
+//                 'judul_kegiatan' => 'sambutan oleh bapak sekdis pupr kabupaten bandung barat  ',
+//                 'jabatan' => 'sekertaris dinas PUPR pemerintah kabupaten bandung barat',
+//                 'gambar' => 'acarasertifikasi/beritaacara/PA_SEKDIS.jpeg',
+//                 'keterangan_berita' => '
 
-<p>**Rabu, 14 Agustus 2024 - Desa Batulayang, Kecamatan Cililin, Kabupaten Bandung Barat**</p>
+// <p>**Rabu, 14 Agustus 2024 - Desa Batulayang, Kecamatan Cililin, Kabupaten Bandung Barat**</p>
 
-<p>Dinas Pekerjaan Umum dan Perumahan Rakyat (PUPR) menggelar acara bimbingan teknis dan Keselamatan dan Kesehatan Kerja (K3) di Desa Batulayang, Kecamatan Cililin, Kabupaten Bandung Barat. Acara ini dilaksanakan sebagai bagian dari komitmen PUPR untuk meningkatkan kualitas serta keselamatan dalam industri konstruksi. Kegiatan ini diharapkan dapat memastikan bahwa setiap pekerjaan konstruksi dilaksanakan dengan standar yang tinggi dan mematuhi semua regulasi yang berlaku.</p>
+// <p>Dinas Pekerjaan Umum dan Perumahan Rakyat (PUPR) menggelar acara bimbingan teknis dan Keselamatan dan Kesehatan Kerja (K3) di Desa Batulayang, Kecamatan Cililin, Kabupaten Bandung Barat. Acara ini dilaksanakan sebagai bagian dari komitmen PUPR untuk meningkatkan kualitas serta keselamatan dalam industri konstruksi. Kegiatan ini diharapkan dapat memastikan bahwa setiap pekerjaan konstruksi dilaksanakan dengan standar yang tinggi dan mematuhi semua regulasi yang berlaku.</p>
 
-<p>Dalam sambutannya, Sekretaris Dinas PUPR menekankan pentingnya keselamatan kerja di sektor konstruksi, yang tidak dapat ditawar. Bimbingan teknis ini dirancang untuk memberikan pemahaman mendalam mengenai praktik terbaik dalam keselamatan kerja serta penerapan standar K3 yang efektif. Peserta diharapkan memperoleh pengetahuan dan keterampilan praktis yang diperlukan untuk mengelola risiko dan mencegah kecelakaan di lokasi kerja.</p>
+// <p>Dalam sambutannya, Sekretaris Dinas PUPR menekankan pentingnya keselamatan kerja di sektor konstruksi, yang tidak dapat ditawar. Bimbingan teknis ini dirancang untuk memberikan pemahaman mendalam mengenai praktik terbaik dalam keselamatan kerja serta penerapan standar K3 yang efektif. Peserta diharapkan memperoleh pengetahuan dan keterampilan praktis yang diperlukan untuk mengelola risiko dan mencegah kecelakaan di lokasi kerja.</p>
 
-<p>Selama sesi bimbingan, berbagai aspek teknis terkait konstruksi yang berhubungan dengan keselamatan akan dibahas. Narasumber berpengalaman diundang untuk berbagi wawasan dan solusi mengenai tantangan dalam pelaksanaan proyek konstruksi. Tujuan utama dari kegiatan ini adalah meningkatkan kesadaran dan kompetensi semua pihak terkait, guna menciptakan lingkungan kerja yang aman dan produktif.</p>
+// <p>Selama sesi bimbingan, berbagai aspek teknis terkait konstruksi yang berhubungan dengan keselamatan akan dibahas. Narasumber berpengalaman diundang untuk berbagi wawasan dan solusi mengenai tantangan dalam pelaksanaan proyek konstruksi. Tujuan utama dari kegiatan ini adalah meningkatkan kesadaran dan kompetensi semua pihak terkait, guna menciptakan lingkungan kerja yang aman dan produktif.</p>
 
-<p>Penutupan acara diwarnai dengan ucapan terima kasih kepada semua pihak yang berkontribusi dalam penyelenggaraan bimbingan teknis ini. Diharapkan, bimbingan dan pelatihan ini akan memberikan manfaat signifikan yang dapat diterapkan dalam setiap proyek konstruksi, serta mendukung komitmen bersama untuk mencapai standar keselamatan yang tinggi. Acara ini merupakan langkah penting menuju keselamatan dan kesuksesan dalam industri konstruksi di wilayah Kabupaten Bandung Barat.</p>',
-                'tanggal' => '2024-08-14', // Format tanggal YYYY-MM-DD
-                'created_at' => now(),
-                'updated_at' => now(),
-]);
+// <p>Penutupan acara diwarnai dengan ucapan terima kasih kepada semua pihak yang berkontribusi dalam penyelenggaraan bimbingan teknis ini. Diharapkan, bimbingan dan pelatihan ini akan memberikan manfaat signifikan yang dapat diterapkan dalam setiap proyek konstruksi, serta mendukung komitmen bersama untuk mencapai standar keselamatan yang tinggi. Acara ini merupakan langkah penting menuju keselamatan dan kesuksesan dalam industri konstruksi di wilayah Kabupaten Bandung Barat.</p>',
+//                 'tanggal' => '2024-08-14', // Format tanggal YYYY-MM-DD
+//                 'created_at' => now(),
+//                 'updated_at' => now(),
+// ]);
 
-laporankegiatan::create([
-                    // Ganti dengan ID yang sesuai jika menggunakan foreign key
-                    'kegiatanjaskon_id' => '1',
-                    'user_id' => '1',
-                    'judul_kegiatan' => 'sambutan oleh camat cililin kabupaten bandung barat  ',
-                'jabatan' => 'camat kecamatan cililin kabupaten bandung barat',
-                'gambar' => 'acarasertifikasi/beritaacara/PA_CAMAT.jpeg',
-                'keterangan_berita' => '
+// laporankegiatan::create([
+//                     // Ganti dengan ID yang sesuai jika menggunakan foreign key
+//                     'kegiatanjaskon_id' => '1',
+//                     'user_id' => '1',
+//                     'judul_kegiatan' => 'sambutan oleh camat cililin kabupaten bandung barat  ',
+//                 'jabatan' => 'camat kecamatan cililin kabupaten bandung barat',
+//                 'gambar' => 'acarasertifikasi/beritaacara/PA_CAMAT.jpeg',
+//                 'keterangan_berita' => '
 
-<p>**Rabu, 14 Agustus 2024 - Desa Batulayang, Kecamatan Cililin, Kabupaten Bandung Barat**</p>
+// <p>**Rabu, 14 Agustus 2024 - Desa Batulayang, Kecamatan Cililin, Kabupaten Bandung Barat**</p>
 
-<p>Camat Cililin, dalam sambutannya, mengapresiasi penyelenggaraan acara bimbingan teknis dan Keselamatan dan Kesehatan Kerja (K3) yang diadakan di Desa Batulayang. Acara ini merupakan inisiatif penting dari Dinas Pekerjaan Umum dan Perumahan Rakyat (PUPR) untuk mendukung peningkatan kualitas dan keselamatan dalam proyek-proyek konstruksi di wilayah kami. Dengan adanya bimbingan teknis ini, diharapkan semua pihak dapat memahami dan menerapkan standar keselamatan yang tinggi serta mengikuti semua regulasi yang berlaku.</p>
+// <p>Camat Cililin, dalam sambutannya, mengapresiasi penyelenggaraan acara bimbingan teknis dan Keselamatan dan Kesehatan Kerja (K3) yang diadakan di Desa Batulayang. Acara ini merupakan inisiatif penting dari Dinas Pekerjaan Umum dan Perumahan Rakyat (PUPR) untuk mendukung peningkatan kualitas dan keselamatan dalam proyek-proyek konstruksi di wilayah kami. Dengan adanya bimbingan teknis ini, diharapkan semua pihak dapat memahami dan menerapkan standar keselamatan yang tinggi serta mengikuti semua regulasi yang berlaku.</p>
 
-<p>Dalam sambutannya, Camat Cililin menegaskan betapa pentingnya implementasi standar K3 dalam sektor konstruksi untuk mencegah risiko dan kecelakaan kerja. Pelatihan ini dirancang untuk memberi peserta pengetahuan mendalam tentang praktik terbaik dalam keselamatan kerja dan bagaimana cara mengelola risiko secara efektif. Peserta diharapkan tidak hanya mendapatkan informasi teoritis, tetapi juga keterampilan praktis yang berguna dalam menghadapi tantangan di lapangan.</p>
+// <p>Dalam sambutannya, Camat Cililin menegaskan betapa pentingnya implementasi standar K3 dalam sektor konstruksi untuk mencegah risiko dan kecelakaan kerja. Pelatihan ini dirancang untuk memberi peserta pengetahuan mendalam tentang praktik terbaik dalam keselamatan kerja dan bagaimana cara mengelola risiko secara efektif. Peserta diharapkan tidak hanya mendapatkan informasi teoritis, tetapi juga keterampilan praktis yang berguna dalam menghadapi tantangan di lapangan.</p>
 
-<p>Selama bimbingan, berbagai topik teknis yang berkaitan dengan keselamatan konstruksi dibahas secara mendetail. Narasumber yang berpengalaman diundang untuk memberikan wawasan dan solusi terhadap berbagai masalah yang sering muncul dalam proyek konstruksi. Tujuan dari kegiatan ini adalah untuk meningkatkan kesadaran dan kemampuan semua peserta sehingga dapat menciptakan lingkungan kerja yang lebih aman dan produktif di wilayah Kecamatan Cililin.</p>
+// <p>Selama bimbingan, berbagai topik teknis yang berkaitan dengan keselamatan konstruksi dibahas secara mendetail. Narasumber yang berpengalaman diundang untuk memberikan wawasan dan solusi terhadap berbagai masalah yang sering muncul dalam proyek konstruksi. Tujuan dari kegiatan ini adalah untuk meningkatkan kesadaran dan kemampuan semua peserta sehingga dapat menciptakan lingkungan kerja yang lebih aman dan produktif di wilayah Kecamatan Cililin.</p>
 
-<p>Di akhir acara, Camat Cililin menyampaikan terima kasih kepada semua pihak yang telah berkontribusi dalam pelaksanaan bimbingan teknis ini. Diharapkan bahwa pelatihan ini memberikan manfaat besar dan dapat diterapkan dalam setiap proyek konstruksi yang dilakukan. Komitmen bersama untuk mencapai standar keselamatan yang tinggi akan mendukung kesuksesan proyek dan meningkatkan keselamatan kerja di Kabupaten Bandung Barat.</p>
-
-
-
-',
-                'tanggal' => '2024-08-14', // Format tanggal YYYY-MM-DD
-                'created_at' => now(),
-                'updated_at' => now(),
-]);
-
-laporankegiatan::create([
-                    // Ganti dengan ID yang sesuai jika menggunakan foreign key
-                    'kegiatanjaskon_id' => '1',
-                    'user_id' => '1',
-                    'judul_kegiatan' => 'sambutan oleh bpk yuyu yuhana, ST., MM pembina jasa konstruksi ahli muda pemerintah kabupaten bandung barat',
-                'jabatan' => 'kepala putr kabupaten bandung barat',
-                'gambar' => 'acarasertifikasi/beritaacara/PA_YUYU.jpeg',
-                'keterangan_berita' => '
-<p>**Rabu, 14 Agustus 2024 - Desa Batulayang, Kecamatan Cililin, Kabupaten Bandung Barat**</p>
-
-<p>Kepala Dinas Pekerjaan Umum dan Tata Ruang (PUTR) Kabupaten Bandung Barat, dalam sambutannya, mengapresiasi pelaksanaan acara bimbingan teknis dan Keselamatan dan Kesehatan Kerja (K3) yang diselenggarakan di Desa Batulayang. Acara ini merupakan bagian dari upaya berkelanjutan Dinas PUTR untuk meningkatkan kualitas dan keselamatan di sektor konstruksi. Kegiatan ini bertujuan memastikan bahwa semua aspek pekerjaan konstruksi dilakukan sesuai dengan standar yang tinggi dan mematuhi regulasi yang berlaku.</p>
-
-<p>Dalam sambutannya, Kepala Dinas PUTR menekankan betapa pentingnya penerapan standar K3 dalam industri konstruksi untuk mencegah risiko dan kecelakaan di tempat kerja. Bimbingan teknis ini dirancang untuk memberikan peserta pengetahuan mendalam mengenai praktik terbaik dalam keselamatan kerja serta cara-cara efektif untuk mengelola risiko. Harapannya, peserta dapat memperoleh keterampilan praktis yang diperlukan untuk menghadapi berbagai tantangan di lapangan dan mencegah terjadinya kecelakaan.</p>
-
-<p>Selama sesi bimbingan, berbagai topik teknis yang berkaitan dengan keselamatan dalam konstruksi akan dibahas secara komprehensif. Narasumber berpengalaman akan berbagi wawasan dan solusi terkait tantangan dalam pelaksanaan proyek konstruksi. Kegiatan ini bertujuan untuk meningkatkan kesadaran dan kompetensi semua pihak terkait, sehingga dapat menciptakan lingkungan kerja yang lebih aman dan produktif.</p>
-
-<p>Penutupan acara ditandai dengan ucapan terima kasih dari Kepala Dinas PUTR kepada semua pihak yang telah berkontribusi dalam penyelenggaraan bimbingan teknis ini. Diharapkan, hasil dari pelatihan ini akan memberikan manfaat yang signifikan dan dapat diterapkan dalam setiap proyek konstruksi. Komitmen bersama untuk mencapai standar keselamatan yang tinggi merupakan langkah penting menuju kesuksesan dan keamanan dalam industri konstruksi di Kabupaten Bandung Barat.</p>
+// <p>Di akhir acara, Camat Cililin menyampaikan terima kasih kepada semua pihak yang telah berkontribusi dalam pelaksanaan bimbingan teknis ini. Diharapkan bahwa pelatihan ini memberikan manfaat besar dan dapat diterapkan dalam setiap proyek konstruksi yang dilakukan. Komitmen bersama untuk mencapai standar keselamatan yang tinggi akan mendukung kesuksesan proyek dan meningkatkan keselamatan kerja di Kabupaten Bandung Barat.</p>
 
 
-',
-                'tanggal' => '2024-08-14', // Format tanggal YYYY-MM-DD
-                'created_at' => now(),
-                'updated_at' => now(),
-]);
 
-laporankegiatan::create([
-                    // Ganti dengan ID yang sesuai jika menggunakan foreign key
-                    'kegiatanjaskon_id' => '1',
-                    'user_id' => '1',
-                    'judul_kegiatan' => 'Sambutan oleh bpk Laswono, ST PEMBEKALAN PEKERJA/TUKANG KONSTRUKSI REGULASI SERTIFIKASI KOMPETENSI KERJA (SKK) ',
-                'jabatan' => 'Pembina Jasa Konstruksi Ahli Muda Dinas Bina Marga dan Tata Ruang Provinsi Jawa Barat',
-                'gambar' => 'acarasertifikasi/beritaacara/PA_LASWONO.jpeg',
-                'keterangan_berita' => '
-<p>**Rabu, 14 Agustus 2024 - Desa Batulayang, Kecamatan Cililin, Kabupaten Bandung Barat**</p>
+// ',
+//                 'tanggal' => '2024-08-14', // Format tanggal YYYY-MM-DD
+//                 'created_at' => now(),
+//                 'updated_at' => now(),
+// ]);
 
-<p>Pembina Jasa Konstruksi Ahli Muda Dinas Bina Marga dan Tata Ruang Provinsi Jawa Barat, Bapak Laswono, ST, memberikan sambutan pada acara bimbingan teknis dan Keselamatan dan Kesehatan Kerja (K3) yang diselenggarakan di Desa Batulayang, Kecamatan Cililin, Kabupaten Bandung Barat. Acara ini merupakan bagian dari upaya Dinas Bina Marga dan Tata Ruang Provinsi Jawa Barat untuk meningkatkan kualitas serta keselamatan dalam industri konstruksi. Kegiatan ini diharapkan dapat memastikan bahwa semua pekerjaan konstruksi dilakukan dengan mematuhi standar yang tinggi dan regulasi yang berlaku.</p>
+// laporankegiatan::create([
+//                     // Ganti dengan ID yang sesuai jika menggunakan foreign key
+//                     'kegiatanjaskon_id' => '1',
+//                     'user_id' => '1',
+//                     'judul_kegiatan' => 'sambutan oleh bpk yuyu yuhana, ST., MM pembina jasa konstruksi ahli muda pemerintah kabupaten bandung barat',
+//                 'jabatan' => 'kepala putr kabupaten bandung barat',
+//                 'gambar' => 'acarasertifikasi/beritaacara/PA_YUYU.jpeg',
+//                 'keterangan_berita' => '
+// <p>**Rabu, 14 Agustus 2024 - Desa Batulayang, Kecamatan Cililin, Kabupaten Bandung Barat**</p>
 
-<p>Dalam sambutannya, Bapak Laswono menekankan pentingnya penerapan regulasi dan sertifikasi kompetensi kerja (SKK) dalam industri konstruksi. Bimbingan teknis ini dirancang untuk memberikan pemahaman mendalam mengenai praktik terbaik dalam keselamatan kerja serta penerapan standar K3 yang efektif. Peserta diharapkan memperoleh pengetahuan dan keterampilan praktis yang diperlukan untuk mengelola risiko dan mencegah kecelakaan di lokasi kerja.</p>
+// <p>Kepala Dinas Pekerjaan Umum dan Tata Ruang (PUTR) Kabupaten Bandung Barat, dalam sambutannya, mengapresiasi pelaksanaan acara bimbingan teknis dan Keselamatan dan Kesehatan Kerja (K3) yang diselenggarakan di Desa Batulayang. Acara ini merupakan bagian dari upaya berkelanjutan Dinas PUTR untuk meningkatkan kualitas dan keselamatan di sektor konstruksi. Kegiatan ini bertujuan memastikan bahwa semua aspek pekerjaan konstruksi dilakukan sesuai dengan standar yang tinggi dan mematuhi regulasi yang berlaku.</p>
 
-<p>Selama bimbingan, berbagai topik teknis yang berkaitan dengan keselamatan dalam konstruksi dan regulasi SKK akan dibahas secara mendalam. Narasumber berpengalaman akan memberikan wawasan dan solusi mengenai tantangan dalam pelaksanaan proyek konstruksi. Kegiatan ini bertujuan untuk meningkatkan kesadaran dan kompetensi semua pihak terkait sehingga dapat menciptakan lingkungan kerja yang aman dan produktif.</p>
+// <p>Dalam sambutannya, Kepala Dinas PUTR menekankan betapa pentingnya penerapan standar K3 dalam industri konstruksi untuk mencegah risiko dan kecelakaan di tempat kerja. Bimbingan teknis ini dirancang untuk memberikan peserta pengetahuan mendalam mengenai praktik terbaik dalam keselamatan kerja serta cara-cara efektif untuk mengelola risiko. Harapannya, peserta dapat memperoleh keterampilan praktis yang diperlukan untuk menghadapi berbagai tantangan di lapangan dan mencegah terjadinya kecelakaan.</p>
 
-<p>Penutupan acara diwarnai dengan ucapan terima kasih dari Bapak Laswono kepada semua pihak yang telah berkontribusi dalam penyelenggaraan bimbingan teknis ini. Diharapkan, pelatihan dan bimbingan ini akan memberikan manfaat yang signifikan dan dapat diterapkan dalam setiap proyek konstruksi, serta mendukung komitmen bersama untuk mencapai standar keselamatan dan kualitas yang tinggi di Kabupaten Bandung Barat.</p>
+// <p>Selama sesi bimbingan, berbagai topik teknis yang berkaitan dengan keselamatan dalam konstruksi akan dibahas secara komprehensif. Narasumber berpengalaman akan berbagi wawasan dan solusi terkait tantangan dalam pelaksanaan proyek konstruksi. Kegiatan ini bertujuan untuk meningkatkan kesadaran dan kompetensi semua pihak terkait, sehingga dapat menciptakan lingkungan kerja yang lebih aman dan produktif.</p>
 
-',
-                'tanggal' => '2024-08-14', // Format tanggal YYYY-MM-DD
-                'created_at' => now(),
-                'updated_at' => now(),
-]);
+// <p>Penutupan acara ditandai dengan ucapan terima kasih dari Kepala Dinas PUTR kepada semua pihak yang telah berkontribusi dalam penyelenggaraan bimbingan teknis ini. Diharapkan, hasil dari pelatihan ini akan memberikan manfaat yang signifikan dan dapat diterapkan dalam setiap proyek konstruksi. Komitmen bersama untuk mencapai standar keselamatan yang tinggi merupakan langkah penting menuju kesuksesan dan keamanan dalam industri konstruksi di Kabupaten Bandung Barat.</p>
 
-laporankegiatan::create([
-                    // Ganti dengan ID yang sesuai jika menggunakan foreign key
-                    'kegiatanjaskon_id' => '1',
-                    'user_id' => '1',
-                    'judul_kegiatan' => 'sambutan oleh ibu Dra. Fauzia Mulyawati, ST., MT tentang Pembekalan Pekerja/Tukang Konstruksi Terkait Keselamatan Kerja dan Kesehatan (K3)',
-                'jabatan' => 'Dosen Universitas Langlangbuana Bandung',
-                'gambar' => 'acarasertifikasi/beritaacara/BU_FAUZIA.jpeg',
-                'keterangan_berita' => '
 
-<p>**Rabu, 14 Agustus 2024 - Desa Batulayang, Kecamatan Cililin, Kabupaten Bandung Barat**</p>
+// ',
+//                 'tanggal' => '2024-08-14', // Format tanggal YYYY-MM-DD
+//                 'created_at' => now(),
+//                 'updated_at' => now(),
+// ]);
 
-<p>Dra. Fauzia Mulyawati, ST., MT, Dosen Universitas Langlangbuana Bandung, memberikan bimbingan dan pengarahan pada acara bimbingan teknis dan Keselamatan dan Kesehatan Kerja (K3) yang diselenggarakan di Desa Batulayang, Kecamatan Cililin, Kabupaten Bandung Barat. Acara ini merupakan bagian dari upaya untuk meningkatkan kualitas serta keselamatan dalam industri konstruksi. Kegiatan ini bertujuan memastikan bahwa semua pekerjaan konstruksi dilakukan dengan mematuhi standar tinggi dan regulasi yang berlaku.</p>
+// laporankegiatan::create([
+//                     // Ganti dengan ID yang sesuai jika menggunakan foreign key
+//                     'kegiatanjaskon_id' => '1',
+//                     'user_id' => '1',
+//                     'judul_kegiatan' => 'Sambutan oleh bpk Laswono, ST PEMBEKALAN PEKERJA/TUKANG KONSTRUKSI REGULASI SERTIFIKASI KOMPETENSI KERJA (SKK) ',
+//                 'jabatan' => 'Pembina Jasa Konstruksi Ahli Muda Dinas Bina Marga dan Tata Ruang Provinsi Jawa Barat',
+//                 'gambar' => 'acarasertifikasi/beritaacara/PA_LASWONO.jpeg',
+//                 'keterangan_berita' => '
+// <p>**Rabu, 14 Agustus 2024 - Desa Batulayang, Kecamatan Cililin, Kabupaten Bandung Barat**</p>
 
-<p>Dalam sambutannya, Dra. Fauzia Mulyawati menekankan pentingnya pemahaman mengenai Keselamatan Kerja dan Kesehatan (K3) di sektor konstruksi. Bimbingan teknis ini dirancang untuk memberikan pemahaman mendalam mengenai penerapan praktik K3 yang efektif. Peserta diharapkan memperoleh pengetahuan dan keterampilan praktis yang diperlukan untuk mengelola risiko serta menerapkan standar keselamatan dan kesehatan di lokasi kerja.</p>
+// <p>Pembina Jasa Konstruksi Ahli Muda Dinas Bina Marga dan Tata Ruang Provinsi Jawa Barat, Bapak Laswono, ST, memberikan sambutan pada acara bimbingan teknis dan Keselamatan dan Kesehatan Kerja (K3) yang diselenggarakan di Desa Batulayang, Kecamatan Cililin, Kabupaten Bandung Barat. Acara ini merupakan bagian dari upaya Dinas Bina Marga dan Tata Ruang Provinsi Jawa Barat untuk meningkatkan kualitas serta keselamatan dalam industri konstruksi. Kegiatan ini diharapkan dapat memastikan bahwa semua pekerjaan konstruksi dilakukan dengan mematuhi standar yang tinggi dan regulasi yang berlaku.</p>
 
-<p>Selama bimbingan, berbagai topik teknis terkait K3 akan dibahas secara mendalam. Narasumber berpengalaman akan memberikan wawasan dan solusi mengenai tantangan dalam penerapan K3 serta praktik keselamatan yang efektif di industri konstruksi. Kegiatan ini bertujuan untuk meningkatkan kesadaran dan kompetensi semua pihak terkait, sehingga dapat menciptakan lingkungan kerja yang aman dan produktif.</p>
+// <p>Dalam sambutannya, Bapak Laswono menekankan pentingnya penerapan regulasi dan sertifikasi kompetensi kerja (SKK) dalam industri konstruksi. Bimbingan teknis ini dirancang untuk memberikan pemahaman mendalam mengenai praktik terbaik dalam keselamatan kerja serta penerapan standar K3 yang efektif. Peserta diharapkan memperoleh pengetahuan dan keterampilan praktis yang diperlukan untuk mengelola risiko dan mencegah kecelakaan di lokasi kerja.</p>
 
-<p>Penutupan acara diwarnai dengan ucapan terima kasih dari Dra. Fauzia Mulyawati kepada semua pihak yang telah berkontribusi dalam penyelenggaraan bimbingan teknis ini. Diharapkan, pelatihan dan bimbingan ini akan memberikan manfaat signifikan dan dapat diterapkan dalam setiap proyek konstruksi, serta mendukung komitmen bersama untuk mencapai standar keselamatan dan kesehatan kerja yang tinggi di Kabupaten Bandung Barat.</p>
+// <p>Selama bimbingan, berbagai topik teknis yang berkaitan dengan keselamatan dalam konstruksi dan regulasi SKK akan dibahas secara mendalam. Narasumber berpengalaman akan memberikan wawasan dan solusi mengenai tantangan dalam pelaksanaan proyek konstruksi. Kegiatan ini bertujuan untuk meningkatkan kesadaran dan kompetensi semua pihak terkait sehingga dapat menciptakan lingkungan kerja yang aman dan produktif.</p>
 
-',
-                'tanggal' => '2024-08-14', // Format tanggal YYYY-MM-DD
-                'created_at' => now(),
-                'updated_at' => now(),
-]);
+// <p>Penutupan acara diwarnai dengan ucapan terima kasih dari Bapak Laswono kepada semua pihak yang telah berkontribusi dalam penyelenggaraan bimbingan teknis ini. Diharapkan, pelatihan dan bimbingan ini akan memberikan manfaat yang signifikan dan dapat diterapkan dalam setiap proyek konstruksi, serta mendukung komitmen bersama untuk mencapai standar keselamatan dan kualitas yang tinggi di Kabupaten Bandung Barat.</p>
 
-laporankegiatan::create([
-                    // Ganti dengan ID yang sesuai jika menggunakan foreign key
-                    'kegiatanjaskon_id' => '1',
-                    'user_id' => '1',
-                    'judul_kegiatan' => 'sambutan oleh ibu Rosita, SE., MM tentang Pembekalan Pekerja/Tukang Konstruksi Terkait Regulasi Badan Penjaminan Jaminan Sosial (BPJS) Ketenagakerjaan',
-                'jabatan' => 'Badan Penyelenggara Jaminan Sosial',
-                'gambar' => 'acarasertifikasi/beritaacara/BU_ROSITA.jpg',
-                'keterangan_berita' => '
+// ',
+//                 'tanggal' => '2024-08-14', // Format tanggal YYYY-MM-DD
+//                 'created_at' => now(),
+//                 'updated_at' => now(),
+// ]);
+
+// laporankegiatan::create([
+//                     // Ganti dengan ID yang sesuai jika menggunakan foreign key
+//                     'kegiatanjaskon_id' => '1',
+//                     'user_id' => '1',
+//                     'judul_kegiatan' => 'sambutan oleh ibu Dra. Fauzia Mulyawati, ST., MT tentang Pembekalan Pekerja/Tukang Konstruksi Terkait Keselamatan Kerja dan Kesehatan (K3)',
+//                 'jabatan' => 'Dosen Universitas Langlangbuana Bandung',
+//                 'gambar' => 'acarasertifikasi/beritaacara/BU_FAUZIA.jpeg',
+//                 'keterangan_berita' => '
+
+// <p>**Rabu, 14 Agustus 2024 - Desa Batulayang, Kecamatan Cililin, Kabupaten Bandung Barat**</p>
+
+// <p>Dra. Fauzia Mulyawati, ST., MT, Dosen Universitas Langlangbuana Bandung, memberikan bimbingan dan pengarahan pada acara bimbingan teknis dan Keselamatan dan Kesehatan Kerja (K3) yang diselenggarakan di Desa Batulayang, Kecamatan Cililin, Kabupaten Bandung Barat. Acara ini merupakan bagian dari upaya untuk meningkatkan kualitas serta keselamatan dalam industri konstruksi. Kegiatan ini bertujuan memastikan bahwa semua pekerjaan konstruksi dilakukan dengan mematuhi standar tinggi dan regulasi yang berlaku.</p>
+
+// <p>Dalam sambutannya, Dra. Fauzia Mulyawati menekankan pentingnya pemahaman mengenai Keselamatan Kerja dan Kesehatan (K3) di sektor konstruksi. Bimbingan teknis ini dirancang untuk memberikan pemahaman mendalam mengenai penerapan praktik K3 yang efektif. Peserta diharapkan memperoleh pengetahuan dan keterampilan praktis yang diperlukan untuk mengelola risiko serta menerapkan standar keselamatan dan kesehatan di lokasi kerja.</p>
+
+// <p>Selama bimbingan, berbagai topik teknis terkait K3 akan dibahas secara mendalam. Narasumber berpengalaman akan memberikan wawasan dan solusi mengenai tantangan dalam penerapan K3 serta praktik keselamatan yang efektif di industri konstruksi. Kegiatan ini bertujuan untuk meningkatkan kesadaran dan kompetensi semua pihak terkait, sehingga dapat menciptakan lingkungan kerja yang aman dan produktif.</p>
+
+// <p>Penutupan acara diwarnai dengan ucapan terima kasih dari Dra. Fauzia Mulyawati kepada semua pihak yang telah berkontribusi dalam penyelenggaraan bimbingan teknis ini. Diharapkan, pelatihan dan bimbingan ini akan memberikan manfaat signifikan dan dapat diterapkan dalam setiap proyek konstruksi, serta mendukung komitmen bersama untuk mencapai standar keselamatan dan kesehatan kerja yang tinggi di Kabupaten Bandung Barat.</p>
+
+// ',
+//                 'tanggal' => '2024-08-14', // Format tanggal YYYY-MM-DD
+//                 'created_at' => now(),
+//                 'updated_at' => now(),
+// ]);
+
+// laporankegiatan::create([
+//                     // Ganti dengan ID yang sesuai jika menggunakan foreign key
+//                     'kegiatanjaskon_id' => '1',
+//                     'user_id' => '1',
+//                     'judul_kegiatan' => 'sambutan oleh ibu Rosita, SE., MM tentang Pembekalan Pekerja/Tukang Konstruksi Terkait Regulasi Badan Penjaminan Jaminan Sosial (BPJS) Ketenagakerjaan',
+//                 'jabatan' => 'Badan Penyelenggara Jaminan Sosial',
+//                 'gambar' => 'acarasertifikasi/beritaacara/BU_ROSITA.jpg',
+//                 'keterangan_berita' => '
               
-<p>**Rabu, 14 Agustus 2024 - Desa Batulayang, Kecamatan Cililin, Kabupaten Bandung Barat**</p>
+// <p>**Rabu, 14 Agustus 2024 - Desa Batulayang, Kecamatan Cililin, Kabupaten Bandung Barat**</p>
 
-<p>Ibu Rosita, SE., MM, dari BPJS Ketenagakerjaan, memberikan bimbingan dan pengarahan dalam acara bimbingan teknis mengenai Regulasi Badan Penjaminan Jaminan Sosial (BPJS) Ketenagakerjaan yang diselenggarakan di Desa Batulayang, Kecamatan Cililin, Kabupaten Bandung Barat. Acara ini merupakan bagian dari komitmen untuk meningkatkan pemahaman tentang regulasi dan jaminan sosial di sektor konstruksi, serta memastikan bahwa setiap pekerja konstruksi memahami hak dan kewajiban mereka di bawah BPJS Ketenagakerjaan.</p>
+// <p>Ibu Rosita, SE., MM, dari BPJS Ketenagakerjaan, memberikan bimbingan dan pengarahan dalam acara bimbingan teknis mengenai Regulasi Badan Penjaminan Jaminan Sosial (BPJS) Ketenagakerjaan yang diselenggarakan di Desa Batulayang, Kecamatan Cililin, Kabupaten Bandung Barat. Acara ini merupakan bagian dari komitmen untuk meningkatkan pemahaman tentang regulasi dan jaminan sosial di sektor konstruksi, serta memastikan bahwa setiap pekerja konstruksi memahami hak dan kewajiban mereka di bawah BPJS Ketenagakerjaan.</p>
 
-<p>Dalam sambutannya, Ibu Rosita menekankan pentingnya pemahaman mengenai regulasi BPJS Ketenagakerjaan untuk pekerja dan tukang konstruksi. Bimbingan ini dirancang untuk memberikan informasi mendalam mengenai cara BPJS Ketenagakerjaan berfungsi dan bagaimana pekerja dapat memanfaatkan jaminan sosial untuk perlindungan mereka. Peserta diharapkan memperoleh pengetahuan dan keterampilan yang diperlukan untuk mengelola dan memanfaatkan manfaat BPJS secara efektif.</p>
+// <p>Dalam sambutannya, Ibu Rosita menekankan pentingnya pemahaman mengenai regulasi BPJS Ketenagakerjaan untuk pekerja dan tukang konstruksi. Bimbingan ini dirancang untuk memberikan informasi mendalam mengenai cara BPJS Ketenagakerjaan berfungsi dan bagaimana pekerja dapat memanfaatkan jaminan sosial untuk perlindungan mereka. Peserta diharapkan memperoleh pengetahuan dan keterampilan yang diperlukan untuk mengelola dan memanfaatkan manfaat BPJS secara efektif.</p>
 
-<p>Selama sesi bimbingan, berbagai aspek teknis terkait regulasi BPJS Ketenagakerjaan akan dibahas secara rinci. Ibu Rosita akan membagikan wawasan mengenai hak-hak pekerja, prosedur klaim, serta mekanisme perlindungan yang disediakan oleh BPJS. Tujuan utama dari kegiatan ini adalah untuk meningkatkan pemahaman dan kesadaran semua pihak terkait, sehingga mereka dapat memanfaatkan perlindungan sosial dengan maksimal.</p>
+// <p>Selama sesi bimbingan, berbagai aspek teknis terkait regulasi BPJS Ketenagakerjaan akan dibahas secara rinci. Ibu Rosita akan membagikan wawasan mengenai hak-hak pekerja, prosedur klaim, serta mekanisme perlindungan yang disediakan oleh BPJS. Tujuan utama dari kegiatan ini adalah untuk meningkatkan pemahaman dan kesadaran semua pihak terkait, sehingga mereka dapat memanfaatkan perlindungan sosial dengan maksimal.</p>
 
-<p>Penutupan acara diwarnai dengan ucapan terima kasih dari Ibu Rosita kepada semua pihak yang berkontribusi dalam penyelenggaraan bimbingan ini. Diharapkan, pelatihan dan bimbingan ini akan memberikan manfaat signifikan yang dapat diterapkan dalam setiap proyek konstruksi, serta mendukung kepatuhan terhadap regulasi BPJS Ketenagakerjaan di Kabupaten Bandung Barat.</p>
+// <p>Penutupan acara diwarnai dengan ucapan terima kasih dari Ibu Rosita kepada semua pihak yang berkontribusi dalam penyelenggaraan bimbingan ini. Diharapkan, pelatihan dan bimbingan ini akan memberikan manfaat signifikan yang dapat diterapkan dalam setiap proyek konstruksi, serta mendukung kepatuhan terhadap regulasi BPJS Ketenagakerjaan di Kabupaten Bandung Barat.</p>
 
-',
-                'tanggal' => '2024-08-14', // Format tanggal YYYY-MM-DD
-                'created_at' => now(),
-                'updated_at' => now(),
-            ]);
+// ',
+//                 'tanggal' => '2024-08-14', // Format tanggal YYYY-MM-DD
+//                 'created_at' => now(),
+//                 'updated_at' => now(),
+//             ]);
 
 // ============== ============== ============== ============== ============== ============== ==============
 //             laporankegiatan::create([
