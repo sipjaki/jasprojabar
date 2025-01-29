@@ -70,21 +70,21 @@
             
             <div class="contact" style="color: green">
                 <h1 style="color: green">Kontak Kami</h1>
-                <div style="width: 100%; max-width: 600px; height: 400px; margin-bottom: 10px;">
+                <div style="width: 250px; height: 250px; margin-bottom: 10px;">
                     <iframe
-                        width="100%"
-                        height="100%"
-                        frameborder="0"
-                        style="border:0; width: 100%; height: 100%;"
-                        src="https://www.google.com/maps/place/Dinas+Pekerjaan+Umum+dan+Penataan+Ruang+(DPUPR)+Kabupaten+Blora/@-6.9771767,111.4085298,17z/data=!3m1!4b1!4m6!3m5!1s0x2e77411bc797c1ed:0x5ddba5997190e35c!8m2!3d-6.977182!4d111.4111047!16s%2Fg%2F11b6dpfgz4?entry=ttu"
+                        width="250"
+                        height="250"
+                        frameborder="0" style="border:0"
+                        src="https://www.google.com/maps/place/Dinas+Pekerjaan+Umum+dan+Penataan+Ruang+(DPUPR)+Kabupaten+Blora/@-6.9771767,111.4085298,806m/data=!3m2!1e3!4b1!4m6!3m5!1s0x2e77411bc797c1ed:0x5ddba5997190e35c!8m2!3d-6.977182!4d111.4111047!16s%2Fg%2F11b6dpfgz4!5m1!1e1?entry=ttu&g_ep=EgoyMDI1MDEyMi4wIKXMDSoASAFQAw%3D%3D"
                         allowfullscreen>
                     </iframe>
                 </div>
-                <p><a href="https://www.blorakab.go.id" style="color: green">Pemerintah Kabupaten Blora</a></p>
+                <p> <a href="https://https://www.blorakab.go.id" style="color: green">Pemerintah Kabupaten Blora</a></p>
                 <p style="text-align: left">Jl. Nusantara No.62, Jetis, Kauman, Kec. Blora, Kabupaten Blora, Jawa Tengah 58214</p>
+                {{-- <p>Hello@contact-us.com</p> --}}
+                {{-- <p><a href=""></a> +6281 321 455 855</p> --}}
                 <p><a href="https://wa.me/6281321455855" style="color: green"><i class="fab fa-whatsapp me-2"></i>081321455855</a></p>
-            </div>
-            
+               </div>
         </div>
     </section>
     {{-- ------------------------------------------------------------------------------- --}}
