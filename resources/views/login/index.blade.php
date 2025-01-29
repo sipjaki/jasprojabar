@@ -273,9 +273,9 @@ Silahkan Login !
             }
         </style>
         <button type="submit" class="masuk" style="width: 300px; background-color: #00820d; color: white; font-family: 'Lato', sans-serif; font-weight: 700;"><i class="fab fa-telegram" style="color: white; font-size: 16px; margin-right: 10px;"></i>Login</button>
-        <div style="margin-top: 10px;">
+        {{-- <div style="margin-top: 10px;">
             <a href="/404" class="text-black" style="font-family: 'Lato', sans-serif; font-weight: 700;">Register Here?</a>
-        </div>
+        </div> --}}
     </div>
 </form>
 
