@@ -361,7 +361,7 @@
 PENDAFTARAN TENAGA KERJA</h1>
     <p>
         Kami informasikan bahwa Sistem Informasi Pembina Jasa Konstruksi kini menyediakan layanan pendaftaran tenaga kerja yang mencakup sertifikasi, bimbingan teknis, dan workshop. Melalui sistem ini, Anda dapat mengakses informasi terkait pelatihan dan sertifikasi tenaga kerja, serta berbagai kegiatan bimbingan teknis dan workshop yang mendukung pengembangan kompetensi di bidang konstruksi. Silakan kunjungi platform ini untuk memperoleh informasi lebih lanjut dan mendaftar sesuai kebutuhan Anda.
-        <div class="container">
+        <div class="cont">
                 
             <article class="quoteblock">
                 <figure>
@@ -377,10 +377,7 @@ PENDAFTARAN TENAGA KERJA</h1>
                     <figcaption>PELATIHAN</figcaption>
                 </figure>
             </article>
-            
-        
-            
-            
+                
     </div>
 </div>
 </section>
