@@ -472,7 +472,7 @@ PENDAFTARAN TENAGA KERJA</h1>
             </div>
         </div>
 
-        <div class="contactUs" style="background-color: #45c952; height: 60vh; margin-bottom: -25px;">
+        <div class="contactUs" style="background-color: #45c952; height: 60vh; margin-bottom: -30px;">
             <div class="container" >
             {{-- <div class="container"> --}}
                 <aside>
