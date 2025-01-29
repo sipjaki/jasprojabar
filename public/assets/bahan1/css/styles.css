@@ -92,7 +92,7 @@ html {
 }
 /* SECTION ZERO = LANDING VIEW */
 #sec-0{
-    background: linear-gradient(rgba(1, 143, 6, 0.8),rgba(0,0,0,0.8)), url(assets/bahan1/Images/banner.jpg) no-repeat top center/cover;
+    background: linear-gradient(rgba(37, 15, 182, 0.8),rgba(0,0,0,0.8)), url(../Images/banner.jpg) no-repeat top center/cover;
 }
 #sec-0 header.top {
     background-color: var(--haccent);
@@ -340,7 +340,7 @@ html {
 }
 
 #sec-2{
-    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(../Images/b4.jpg) no-repeat center center/cover;
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(../Images/bg4.jpg) no-repeat center center/cover;
     text-align: center;
     padding: 3rem 0px 1.8rem;
 }
