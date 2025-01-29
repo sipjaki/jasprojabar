@@ -43,7 +43,7 @@
 
     <div class="div" style="z-index: 9999; position: fixed;
             top: 0; left: 0; width: 100%; z-index: 9999;
-            background-color: white; border-bottom: 1px solid orange; 
+            background-color: white; border-bottom: 1px solid black; 
             ">
 
         @include('frontend.00_atas.header1')
