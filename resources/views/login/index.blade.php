@@ -91,7 +91,7 @@ Silahkan Login !
     border-radius: 25px;
     text-align: center;
     width: 100%;
-    height: 85vh;
+    height: 70vh;
     background: linear-gradient(to bottom, green, white, white);
     align-items: center;
     position: relative;
