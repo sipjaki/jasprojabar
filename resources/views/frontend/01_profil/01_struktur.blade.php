@@ -66,7 +66,7 @@ Struktur Dinas Pekerjaan Umum Dan Penataan Ruang Kabupaten Blora
 ">
   <div style="display: flex; align-items: center;">
     <img src="/assets/icon/pupr.png" alt="Logo SIPJAKIKBB" style="width: 50px; height: 50px; object-fit: cover; margin: 0 10px;">
-    <img src="/assets/icon/logokabupatenblora.png" alt="Logo SIPJAKIKBB" style="width: 50px; height: 50px; object-fit: cover; margin: 0 10px;">
+    <img src="/assets/icon/logokabupatenblora.png" alt="Logo SIPJAKIKBB" style="width: 55px; height: 55px; object-fit: cover; margin: 0 10px;">
 </div>
 
 
