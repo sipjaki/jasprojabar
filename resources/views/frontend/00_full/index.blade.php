@@ -344,7 +344,7 @@
     <h1 style="
     font-family: 'Lato', sans-serif;
     font-weight: 700;
-    font-size: 1.5rem;
+    font-size: 1rem;
     color: #333;
     margin-bottom: 20px;
     text-transform: uppercase;
@@ -389,7 +389,7 @@ Himbauan Dinas Terkait</h1>
             <h1 style="
             font-family: 'Lato', sans-serif;
             font-weight: 700;
-            font-size: 1.5rem;
+            font-size: 1rem;
             color: #333;
             margin-bottom: 20px;
             text-transform: uppercase;
