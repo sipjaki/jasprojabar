@@ -365,24 +365,31 @@ PENDAFTARAN TENAGA KERJA</h1>
                 
             <article class="quoteblock">
                 <figure>
-                    <img style="width:30%" class="customer" src="/assets/icon/logokabupatenblora.png" alt="Dinas Terkait">
+                    <a href="/">
+                        <img style="width:30%" class="customer" src="/assets/icon/logokabupatenblora.png" alt="Dinas Terkait">
+                    </a>
                     <figcaption>PELATIHAN</figcaption>
                 </figure>
             </article>
                 
             <article class="quoteblock">
                 <figure>
-                    <img style="width:30%" class="customer" src="/assets/icon/logokabupatenblora.png" alt="Dinas Terkait">
+                    <a href="/">
+                        <img style="width:30%" class="customer" src="/assets/icon/logokabupatenblora.png" alt="Dinas Terkait">
+                    </a>
                     <figcaption>PELATIHAN</figcaption>
                 </figure>
             </article>
                 
             <article class="quoteblock">
                 <figure>
-                    <img style="width:30%" class="customer" src="/assets/icon/logokabupatenblora.png" alt="Dinas Terkait">
+                    <a href="/">
+                        <img style="width:30%" class="customer" src="/assets/icon/logokabupatenblora.png" alt="Dinas Terkait">
+                    </a>
                     <figcaption>PELATIHAN</figcaption>
                 </figure>
             </article>
+                
                 
     </div>
 </div>
