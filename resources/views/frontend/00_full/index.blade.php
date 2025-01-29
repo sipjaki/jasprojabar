@@ -366,7 +366,7 @@ PENDAFTARAN TENAGA KERJA</h1>
             <article class="quoteblock">
                 <figure>
                     <a href="/">
-                        <img style="width:30%" class="customer" src="/assets/icon/logokabupatenblora.png" alt="Dinas Terkait">
+                        <img style="width:30%" class="customer" src="/assets/logopendaftaran/logopendaftaran.png" alt="Dinas Terkait">
                     </a>
                     <figcaption>PELATIHAN</figcaption>
                 </figure>
@@ -375,7 +375,7 @@ PENDAFTARAN TENAGA KERJA</h1>
             <article class="quoteblock">
                 <figure>
                     <a href="/">
-                        <img style="width:30%" class="customer" src="/assets/icon/logokabupatenblora.png" alt="Dinas Terkait">
+                        <img style="width:30%" class="customer" src="/assets/logopendaftaran/logopendaftaran.png" alt="Dinas Terkait">
                     </a>
                     <figcaption>PELATIHAN</figcaption>
                 </figure>
@@ -384,7 +384,7 @@ PENDAFTARAN TENAGA KERJA</h1>
             <article class="quoteblock">
                 <figure>
                     <a href="/">
-                        <img style="width:30%" class="customer" src="/assets/icon/logokabupatenblora.png" alt="Dinas Terkait">
+                        <img style="width:30%" class="customer" src="/assets/logopendaftaran/logopendaftaran.png" alt="Dinas Terkait">
                     </a>
                     <figcaption>PELATIHAN</figcaption>
                 </figure>
