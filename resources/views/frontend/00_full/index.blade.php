@@ -368,6 +368,7 @@ PENDAFTARAN TENAGA KERJA</h1>
                     <a href="/">
                         <img style="width:50%" class="customer" src="/assets/logopendaftaran/logopendaftaran.png" alt="Dinas Terkait">
                     </a>
+                    <figcaption>MENU PENDAFTARAN</figcaption>
                     <figcaption>PELATIHAN</figcaption>
                 </figure>
             </article>
@@ -377,6 +378,7 @@ PENDAFTARAN TENAGA KERJA</h1>
                     <a href="/">
                         <img style="width:50%" class="customer" src="/assets/logopendaftaran/logopendaftaran.png" alt="Dinas Terkait">
                     </a>
+                    <figcaption>MENU PENDAFTARAN</figcaption>
                     <figcaption>BIMBINGAN TEKNIS</figcaption>
                 </figure>
             </article>
@@ -386,6 +388,7 @@ PENDAFTARAN TENAGA KERJA</h1>
                     <a href="/">
                         <img style="width:50%" class="customer" src="/assets/logopendaftaran/logopendaftaran.png" alt="Dinas Terkait">
                     </a>
+                    <figcaption>MENU PENDAFTARAN</figcaption>
                     <figcaption>WORKSHOP</figcaption>
                 </figure>
             </article>
