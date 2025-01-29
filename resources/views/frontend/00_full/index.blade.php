@@ -260,10 +260,10 @@
                                 <img class="img-fluid" src="img/news-110x110-1.jpg" alt="">
                                 <div class="w-100 h-100 px-3 d-flex flex-column justify-content-center border border-left-0">
                                     <div class="mb-2">
-                                        <a class="badge badge-primary text-uppercase font-weight-semi-bold p-1 mr-2" href="">Comming Soon</a>
-                                        <a class="text-body" href=""><small>Agustus 10, 2024</small></a>
+                                        <a class="badge badge-success text-uppercase font-weight-semi-bold p-1 mr-2" href="">Comming Soon</a>
+                                        {{-- <a class="text-body" href=""><small>Agustus 10, 2024</small></a> --}}
                                     </div>
-                                    <a class="h6 m-0 text-secondary text-uppercase font-weight-bold" href="">PELATIHAN BIMBINGAN TEKNIS TENAGA KONSTRUKSI KABUPATEN BANDUNG BARAT .....</a>
+                                    <a class="h6 m-0 text-secondary text-uppercase font-weight-bold" href="">PELATIHAN BIMBINGAN TEKNIS TENAGA KONSTRUKSI PEMERINTAH KABUPATEN BLORA  .....</a>
                                 </div>
                             </div>
                             
