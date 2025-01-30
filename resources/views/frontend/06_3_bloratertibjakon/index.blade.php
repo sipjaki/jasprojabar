@@ -294,7 +294,7 @@ Pemerintah Kabupaten Bandung
 
 
     <div class="container" style="display:flex; justify-content: flex-end;">
-        <div class="badge"><i class="fas fa-users me-2"></i><span>{{ $totaldata}}</span> Daftar Pekerja Tukang Terampil (SKK)</div>
+        {{-- <div class="badge"><i class="fas fa-users me-2"></i><span>{{ $totaldata}}</span> Daftar Pekerja Tukang Terampil (SKK)</div> --}}
         {{-- Menampilkan data kecamatan --}}
             {{-- Debugging untuk memastikan data dikirim ke view --}}
 {{-- {{ dd($data_kecamatan) }} --}}
