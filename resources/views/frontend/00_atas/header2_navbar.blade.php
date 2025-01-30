@@ -56,17 +56,20 @@
             <div class="dropdown-content" style="min-width: 400px;">
                 <div style="display: inline-flex; align-items: center; color: black; text-decoration: none;">
                     <i class="fas fa-sitemap" style="margin-left: 3px; margin-right: 0px; background: linear-gradient(90deg, black, green); color:white;"></i>
-                    <a href="/profil/struktur" style="color: black; text-decoration: none; text-align:left">STRUKTUR DPUPR KABUPATEN BLORA</a>
+                    {{-- <a href="/profil/struktur" style="color: black; text-decoration: none; text-align:left">STRUKTUR DPUPR KABUPATEN BLORA</a> --}}
+                    <a href="/404" style="color: black; text-decoration: none; text-align:left">STRUKTUR DPUPR KABUPATEN BLORA</a>
                 </div>
         
                 <div style="display: inline-flex; align-items: center; color: black; text-decoration: none;">
                     <i class="fas fa-project-diagram" style="margin-left: 3px; margin-right: 0px; background: linear-gradient(90deg, black, green); color:white;"></i>
-                    <a href="/profil/rencanastrategis" style="color: black; text-decoration: none; text-align:left">RENSTRA PROGRAM JASA KONSTRUKSI</a>
+                    {{-- <a href="/profil/rencanastrategis" style="color: black; text-decoration: none; text-align:left">RENSTRA PROGRAM JASA KONSTRUKSI</a> --}}
+                    <a href="/404" style="color: black; text-decoration: none; text-align:left">RENSTRA PROGRAM JASA KONSTRUKSI</a>
                 </div>
         
                 <div style="display: inline-flex; align-items: center; color: black; text-decoration: none;">
                     <i class="fas fa-tasks" style="margin-left: 3px; margin-right: 0px; background: linear-gradient(90deg, black, green); color:white;"></i>
-                    <a href="/profil/tupoksi" style="color: black; text-decoration: none; text-align:left">TUPOKSI PROGRAM JASA KONSTRUKSI</a>
+                    {{-- <a href="/profil/tupoksi" style="color: black; text-decoration: none; text-align:left">TUPOKSI PROGRAM JASA KONSTRUKSI</a> --}}
+                    <a href="/404" style="color: black; text-decoration: none; text-align:left">TUPOKSI PROGRAM JASA KONSTRUKSI</a>
                 </div>
             </div>
         </div>
@@ -132,7 +135,8 @@
                 
                 <div style="display: inline-flex; align-items: center; color: black; text-decoration: none;">
                     <i class="fas fa-calendar-alt" style="margin-left: 3px; margin-right: 8px; background: linear-gradient(90deg, black, green); color:white;"></i>
-                    <a href="/feagendasertifikasi" style="color: black; text-decoration: none; text-align:left">AGENDA SERTIFIKASI</a>
+                    {{-- <a href="/feagendasertifikasi" style="color: black; text-decoration: none; text-align:left">AGENDA SERTIFIKASI</a> --}}
+                    <a href="/404" style="color: black; text-decoration: none; text-align:left">AGENDA SERTIFIKASI</a>
                 </div>
             </div>
             
