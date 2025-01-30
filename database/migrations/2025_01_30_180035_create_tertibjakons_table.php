@@ -15,7 +15,7 @@ return new class extends Migration
             $table->id();
             $table->foreignId('statustertibjakon_id');
             $table->string('namabadanusaha');
-            $table->string('nib');
+            $table->bigInteger('nib');
             $table->string('pjbu');
             // Kesesuaian Kegiatan Konstruksi 
             $table->string('jenis');
@@ -29,7 +29,7 @@ return new class extends Migration
             $table->string('sbu');
             $table->string('nib');
             // Pelaksanaan Pengambangan 
-            $table->string('statustertibjakon');
+            $table->string('statustertib');
             $table->softDeletes();
             $table->timestamps();
         });
