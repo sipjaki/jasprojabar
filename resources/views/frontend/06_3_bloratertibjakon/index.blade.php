@@ -84,14 +84,14 @@ Pemerintah Kabupaten Blora
     text-align: center;
     width: 100%;
     height: 26vh;
-    background: linear-gradient(to bottom, green, white, white);
+    background: linear-gradient(to bottom, white, white, white);
     align-items: center;
     position: relative;
 ">
 
 <div style="display: flex; align-items: center;">
     <img src="/assets/icon/pupr.png" alt="Logo SIPJAKIKBB" style="width: 50px; height: 50px; object-fit: cover; margin: 0 10px;">
-    <img src="/assets/icon/logokabupatenblora.png" alt="Logo SIPJAKIKBB" style="width: 70px; height: 70px; object-fit: cover; margin: 0 10px;">
+    <img src="/assets/icon/logokabupatenblora.png" alt="Logo SIPJAKIKBB" style="width: 55px; height: 55px; object-fit: cover; margin: 0 10px;">
 </div>
 
 
@@ -121,7 +121,7 @@ Pemerintah Kabupaten Blora
 
 .badgekementrian {
                 background: linear-gradient(to right, #00820d, #00820d);
-                color: black;
+                color: white;
                 padding: 10px 20px;
                 text-transform: uppercase;
                 border-radius: 10px;
@@ -159,7 +159,7 @@ Pemerintah Kabupaten Blora
     width: 100%;
     height: 9vh;
     margin-top:5px;
-    background: linear-gradient(to bottom, green, white, white);
+    background: linear-gradient(to bottom, white, white, white);
     align-items: center;
     position: relative;
 ">
@@ -258,7 +258,7 @@ Pemerintah Kabupaten Blora
     width: 100%;
     margin-top:5px;
     height: 125vh;
-    background: linear-gradient(to bottom, green, white, white);
+    background: linear-gradient(to bottom, white, white, white);
     align-items: center;
     position: relative;
 ">
@@ -417,7 +417,8 @@ Pemerintah Kabupaten Blora
         th {
             /* background-color: #4CAF50; */
             /* background: linear-gradient(to bottom, #000000, #FFCB0F); */
-            background-color:  #00820d;
+            /* background-color:  #00820d; */
+            background-color:  white;
             color: black;
             font-size: 14px;
         }
