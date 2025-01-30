@@ -14,8 +14,7 @@ class TertibjakonController extends Controller
         $data_tertibjakon = tertibjakon::paginate(10); // Menggunakan paginate() untuk pagination
         $data_total = tertibjakon::count(); // Menggunakan paginate() untuk pagination
         $data_statustertibjakon = statustertibjakon::all(); // Menggunakan paginate() untuk pagination
-
-
+        
         return view('frontend.06_3_bloratertibjakon.index', [
             'title' => 'Tertib Jasa Konstruksi',
             'data' => $data_tertibjakon, // Mengirimkan data paginasi ke view

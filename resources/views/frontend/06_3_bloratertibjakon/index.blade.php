@@ -426,11 +426,11 @@ Pemerintah Kabupaten Bandung
         <thead>
             <tr>
                 <th style="width:45px;">No</th>
-                <th style="width:200px;">NAMA LENGKAP</th>
-                <th style="width:150px;">KECAMATAN/KOTA</th>
-                <th style="width:200px;">KETERAMPILAN</th>
-                <th style="width:125px;">TAHUN BIMTEK</th>
-                <th style="width:125px;">KUALIFIKASI</th>
+                <th style="width:200px;">BADAN USAHA</th>
+                <th style="width:150px;">NIB</th>
+                <th style="width:200px;">PJBU</th>
+                <th style="width:125px;">STATUS</th>
+                {{-- <th style="width:125px;">KUALIFIKASI</th> --}}
                 <th style="width:100px;">VIEW SKK</th>
             </tr>
         </thead>
@@ -445,11 +445,10 @@ Pemerintah Kabupaten Bandung
             
             <tr>
                 <td style="font-size: 12px; text-transform: uppercase; text-align:center;">{{ $loop->iteration + $start - 1 }}</td>
-                <td style="font-size: 12px; text-transform: uppercase; text-align:left;">{{ $item->nama }}</td>
-                <td style="font-size: 12px; text-transform: uppercase; text-align:center;">{{ $item->pengawasanlokasi->kota }}</td>
-                <td style="font-size: 12px; text-transform: uppercase; text-align:center;">{{ $item->keterampilanpekerja->keterampilan }}</td>
-                <td style="font-size: 12px; text-transform: uppercase; text-align:center;">{{ $item->tahunpilihan->tahun }}</td>
-                <td style="font-size: 12px; text-transform: uppercase; text-align:center;">{{ $item->kualifikasi }}</td>
+                <td style="font-size: 12px; text-transform: uppercase; text-align:left;">{{ $item->namabadanusaha }}</td>
+                <td style="font-size: 12px; text-transform: uppercase; text-align:center;">{{ $item->nib }}</td>
+                <td style="font-size: 12px; text-transform: uppercase; text-align:center;">{{ $item->pjbu }}</td>
+                <td style="font-size: 12px; text-transform: uppercase; text-align:center;">{{ $item->statustertibjakon->mitra }}</td>
                 
                 <td>
                     
