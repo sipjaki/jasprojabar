@@ -59,7 +59,7 @@ Tupoksi Seksi Program Dan Jasa Konstruksi Kabupaten Blora
     border-radius: 25px;
     text-align: center;
     width: 100%;
-    height: 175vh;
+    height: 170vh;
     background: linear-gradient(to bottom, green, white, white);
     align-items: center;
     position: relative;
