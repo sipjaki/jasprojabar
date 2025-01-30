@@ -259,7 +259,7 @@ Pemerintah Kabupaten Blora
     width: 100%;
     margin-top:5px;
     height: 125vh;
-    background: linear-gradient(to bottom, green,white, white, white, white, white);
+    background: linear-gradient(to bottom, green,white, white, white, white, white, white);
     align-items: center;
     position: relative;
 ">
