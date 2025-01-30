@@ -57,7 +57,7 @@ use App\Models\statusadmin;
 use App\Models\statustertibjakon;
 use App\Models\strukturdinas;
 use App\Models\tahunpilihan;
-use App\Models\Tertibjakon;
+use App\Models\tertibjakon;
 use App\Models\timpembina;
 use App\Models\tupoksi;
 use App\Models\uijk;
