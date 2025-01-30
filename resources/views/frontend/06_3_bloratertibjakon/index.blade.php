@@ -92,10 +92,11 @@ Pemerintah Kabupaten Blora
 <div style="display: flex; align-items: center;">
     <img src="/assets/icon/pupr.png" alt="Logo SIPJAKIKBB" style="width: 50px; height: 50px; object-fit: cover; margin: 0 10px;">
     <img src="/assets/icon/logokabupatenblora.png" alt="Logo SIPJAKIKBB" style="width: 55px; height: 55px; object-fit: cover; margin: 0 10px;">
+    <br>    
 </div>
 
 
-{{-- <h1 style="font-size: 16px; font-family: 'Lato', sans-serif; font-weight: 700;"><button class="badgekementrian">Dinas Pekerjaan Umum Dan Penataan Ruang </button> </h1> --}}
+<h1 style="font-size: 16px; font-family: 'Lato', sans-serif; font-weight: 700; color:white"><button class="badgekementrian">Dinas Pekerjaan Umum Dan Penataan Ruang </button> </h1>
 
 
 <style>
