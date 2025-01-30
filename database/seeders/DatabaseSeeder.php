@@ -3748,6 +3748,42 @@ berita::create([
     'user_id' => rand(1,5),
     'gambar' => 'berita/databerita/blora1.jpg',
     'keteranganberita' => '
+    <p>Pemerintah Kabupaten Blora, melalui Dinas Pekerjaan Umum dan Penataan Ruang (DPUPR), tengah melakukan transformasi digital dalam pengelolaan sistem informasi pembinaan jasa konstruksi di wilayah tersebut. Inisiatif ini bertujuan untuk meningkatkan efisiensi, transparansi, dan akuntabilitas dalam proses sertifikasi serta pengawasan pekerja konstruksi di Kabupaten Blora. Dengan penerapan teknologi digital, diharapkan dapat mempermudah akses informasi bagi para pelaku industri konstruksi serta mendukung pembangunan yang lebih terstruktur dan terencana dengan baik, sejalan dengan visi Pemerintah Provinsi Jawa Tengah dalam mendorong kemajuan sektor konstruksi yang profesional dan berstandar.</p>',
+    'tanggal' => Carbon::now()->toDateString(), // Atau gunakan tanggal yang spesifik
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+]);
+
+berita::create([
+    'judul' => 'Pemerintah Kabupaten Blora Melaksanakan Sertifikasi Pekerja Tenaga Konstruksi',
+    'user_id' => rand(1,5),
+    'gambar' => 'berita/databerita/blora2.jpg',
+    'keteranganberita' => '
+    <p>Pemerintah Kabupaten Blora melalui Dinas Pekerjaan Umum dan Penataan Ruang (DPUPR) telah melaksanakan sertifikasi bagi pekerja tenaga konstruksi sebagai upaya untuk meningkatkan kualitas dan kompetensi sumber daya manusia di sektor konstruksi. Program sertifikasi ini bertujuan untuk memastikan bahwa para pekerja konstruksi memiliki keterampilan dan pengetahuan yang sesuai dengan standar yang berlaku, sehingga dapat menghasilkan pekerjaan konstruksi yang lebih aman, efisien, dan berkualitas. Dengan adanya sertifikasi ini, diharapkan akan mendukung pembangunan infrastruktur yang lebih baik di Kabupaten Blora serta meningkatkan daya saing tenaga kerja konstruksi di tingkat regional maupun nasional.</p>
+',
+    'tanggal' => Carbon::now()->toDateString(), // Atau gunakan tanggal yang spesifik
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+]);
+
+berita::create([
+    'judul' => 'Peningkatan Kompetensi Tenaga Konstruksi Melalui Pelatihan Sertifikasi di Kabupaten Blora',
+    'user_id' => rand(1,5),
+    'gambar' => 'berita/databerita/blora3.jpg',
+    'keteranganberita' => '
+    <p>Pemerintah Kabupaten Blora Provinsi Jawa Tengah telah meluncurkan inisiatif transformasi digital dalam sistem informasi pembina jasa konstruksi sebagai langkah penting untuk meningkatkan efisiensi dan transparansi dalam sektor konstruksi. Program ini bertujuan untuk memodernisasi cara pemerintah mengelola dan mengawasi proyek-proyek konstruksi di daerahnya, dengan memanfaatkan teknologi informasi terkini untuk mempermudah akses, pelaporan, dan monitoring. Transformasi ini diharapkan dapat membawa perubahan positif dalam cara proyek konstruksi dikelola dan dievaluasi, serta meningkatkan kualitas layanan kepada masyarakat.
+    </p>
+    ',
+    'tanggal' => Carbon::now()->toDateString(), // Atau gunakan tanggal yang spesifik
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+]);
+
+berita::create([
+    'judul' => 'Pemerintah Kabupaten Blora Gelar Pelatihan Sertifikasi untuk Pekerja Tenaga Konstruksi',
+    'user_id' => rand(1,5),
+    'gambar' => 'berita/databerita/blora4.jpg',
+    'keteranganberita' => '
     <p>Pemerintah Kabupaten Blora Provinsi Jawa Tengah telah meluncurkan inisiatif transformasi digital dalam sistem informasi pembina jasa konstruksi sebagai langkah penting untuk meningkatkan efisiensi dan transparansi dalam sektor konstruksi. Program ini bertujuan untuk memodernisasi cara pemerintah mengelola dan mengawasi proyek-proyek konstruksi di daerahnya, dengan memanfaatkan teknologi informasi terkini untuk mempermudah akses, pelaporan, dan monitoring. Transformasi ini diharapkan dapat membawa perubahan positif dalam cara proyek konstruksi dikelola dan dievaluasi, serta meningkatkan kualitas layanan kepada masyarakat.</p>
 
 <p>Sistem informasi baru ini dirancang untuk menyediakan platform terintegrasi yang memungkinkan pemantauan real-time atas proyek konstruksi, pengelolaan data secara efisien, dan komunikasi yang lebih baik antara pihak terkait. Melalui sistem ini, setiap tahap proyek konstruksi, mulai dari perencanaan hingga pelaksanaan, dapat dipantau secara langsung oleh pihak berwenang. Hal ini bertujuan untuk memastikan bahwa semua proyek memenuhi standar kualitas dan regulasi yang ditetapkan, serta meminimalkan potensi penyelewengan atau kesalahan yang mungkin terjadi.</p>
@@ -3761,12 +3797,10 @@ berita::create([
     'updated_at' => Carbon::now(),
 ]);
 
-
-
 berita::create([
-    'judul' => 'Pemerintah Kabupaten Blora Melaksanakan Sertifikasi Pekerja Tenaga Konstruksi ',
+    'judul' => 'Meningkatkan Profesionalisme Tenaga Konstruksi di Kabupaten Blora Melalui Pelatihan Sertifikasi',
     'user_id' => rand(1,5),
-    'gambar' => 'berita/databerita/blora2.jpg',
+    'gambar' => 'berita/databerita/blora5.jpg',
     'keteranganberita' => '
     <p>Pemerintah Kabupaten Blora Provinsi Jawa Tengah telah meluncurkan inisiatif transformasi digital dalam sistem informasi pembina jasa konstruksi sebagai langkah penting untuk meningkatkan efisiensi dan transparansi dalam sektor konstruksi. Program ini bertujuan untuk memodernisasi cara pemerintah mengelola dan mengawasi proyek-proyek konstruksi di daerahnya, dengan memanfaatkan teknologi informasi terkini untuk mempermudah akses, pelaporan, dan monitoring. Transformasi ini diharapkan dapat membawa perubahan positif dalam cara proyek konstruksi dikelola dan dievaluasi, serta meningkatkan kualitas layanan kepada masyarakat.</p>
 
