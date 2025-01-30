@@ -2301,8 +2301,8 @@ qa::create([
 //======================== ===================================================================================
 //======================== ===================================================================================
 strukturdinas::create([
-    'judul' => 'Struktur Dinas Pekerjaan Umum Dan Tata Ruang Kabupaten Bandung Barat',
-    'peraturan' => 'struktur/01_dinas/BAGAN_DPUTR.pdf',
+    'judul' => 'Struktur Dinas Pekerjaan Umum Dan Penataan Ruang Pemerintah Kabupaten Blora',
+    'peraturan' => 'struktur/01_dinas/STRUKTUR_DPUPR_KABUPATEN_BLORA.pdf',
     'created_at' => Carbon::now(),
     'updated_at' => Carbon::now(),
     'deleted_at' => null, // Jika Anda menggunakan soft deletes
