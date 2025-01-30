@@ -112,7 +112,7 @@ class DatabaseSeeder extends Seeder
             'bentuk' => 'Tertib',
             'kualifikasi' => 'Tertib',
             'sbu' => 'Tertib',
-            'nib' => 'Tertib',
+            'statusnib' => 'Tertib',
             'statustertib' => 'Belum Terbit',
         ]);
 
