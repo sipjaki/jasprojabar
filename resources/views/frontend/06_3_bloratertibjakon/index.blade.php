@@ -83,7 +83,7 @@ Pemerintah Kabupaten Blora
     border-radius: 25px;
     text-align: center;
     width: 100%;
-    height: 26vh;
+    height: 15vh;
     background: linear-gradient(to bottom, white, white, white);
     align-items: center;
     position: relative;
@@ -96,7 +96,7 @@ Pemerintah Kabupaten Blora
 </div>
 
 
-<h1 style="font-size: 16px; font-family: 'Lato', sans-serif; font-weight: 700; color:white"><button class="badgekementrian">Dinas Pekerjaan Umum Dan Penataan Ruang </button> </h1>
+{{-- <h1 style="font-size: 16px; font-family: 'Lato', sans-serif; font-weight: 700; color:white"><button class="badgekementrian">Dinas Pekerjaan Umum Dan Penataan Ruang </button> </h1> --}}
 
 
 <style>
