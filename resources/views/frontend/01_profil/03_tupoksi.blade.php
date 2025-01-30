@@ -87,113 +87,23 @@ Tupoksi Seksi Program Dan Jasa Konstruksi Kabupaten Blora
                     font-size: 16px;
                     ">
 
-                    <span style="color: darkblue;"><strong>Direktorat Jenderal Bina Konstruksi</strong></span> mempunyai tugas menyelenggarakan perumusan dan pelaksanaan kebijakan di bidang pembinaan jasa konstruksi sesuai dengan ketentuan peraturan perundang-undangan. <br>
-                </h4>
-                <br>
-                    <h4 style=" 
-                    text-align: justify;
-                    font-family: 'Lato', sans-serif;
-                    font-weight: 700;
-                    font-size: 16px;
-                    margin-bottom: 15px;
-                    ">
-                        <span style="color: darkblue"></span>Dalam melaksanakan tugas Direktorat Jenderal Bina Konstruksi menyelenggarakan fungsi:
+                    <span style="color: darkblue;"><strong>Dinas Pekerjaan Umum Dan Penataan Ruang Kabupaten Blora</strong> <br>  
+                        Mempunyai tugas melaksanakan Tugas di bidang pekerjaan umum dan penataan ruang</span>
+                        <br>
+                        Dalam melaksanakan tugas sebagaimana dimaksud dalam
+                        <br>
+                        Perbup No 66 Tahun 2021  Dinas mempunyai fungsi:
+                        <br>
+                        a. perumusan kebijakan di bidang pekerjaan umum dan penataan ruang;
+                        <br>
+                        b. pelaksanaan kebijakan di bidang pekerjaan umum dan penataan ruang;
+                        <br>
+                        c. pelaksanaan evaluasi dan pelaporan di bidang pekerjaan umum dan penataan ruang;
+                        <br>
+                        d. pelaksanaan administrasi dinas di bidang pekerjaan umum dan penataan ruang; dan
+                        <br>
+                        e. pelaksanaan fungsi kedinasan lain yang diberikan oleh Bupati terkait dengan tugas dan fungsinya.
                     </h4>
-        
-                    <h4 style=" 
-                    text-align: justify;
-                    font-family: 'Lato', sans-serif;
-                    font-weight: 700;
-                    font-size: 16px;
-                    margin-bottom: 10px;
-                    ">
-                    <span style="column-rule: darkblue">1. </span>Perumusan kebijakan di bidang pembinaan penyelenggaraan, kelembagaan, dan sumber daya jasa konstruksi.
-                    
-                    </h4>
-                    
-                    <h4 style=" 
-                    text-align: justify;
-                    font-family: 'Lato', sans-serif;
-                    font-weight: 700;
-                    font-size: 16px;
-                    margin-bottom: 10px;
-                    ">
-                    <span style="color: darkblue">2. </span>Pelaksanaan kebijakan di bidang pembinaan penyelenggaraan, kelembagaan, dan sumber daya jasa konstruksi.
-                    
-                    </h4>
-                    
-                    <h4 style=" 
-                    text-align: left;
-                    font-family: 'Lato', sans-serif;
-                    font-weight: 700;
-                    font-size: 16px;
-                    margin-bottom: 10px;
-                    ">
-                    
-                    <span style="color: darkblue">3. </span>Pelaksanaan kebijakan di bidang pemberdayaan dan pengawasan penyelenggaraan jasa konstruksi yang dilaksanakan oleh masyarakat dan pemerintah daerah.
-                    
-                    </h4>
-
-                    <h4 style=" 
-                    text-align: left;
-                    font-family: 'Lato', sans-serif;
-                    font-weight: 700;
-                    font-size: 16px;
-                    margin-bottom: 10px;
-                    ">
-                    
-                    <span style="color: darkblue">4. </span>
-                    Penyusunan norma, standar, prosedur, dan kriteria di bidang pembinaan jasa konstruksi.
-                    
-                    </h4>
-                    
-                    <h4 style=" 
-                    text-align: left;
-                    font-family: 'Lato', sans-serif;
-                    font-weight: 700;
-                    font-size: 16px;
-                    margin-bottom: 10px;
-                    ">
-                    
-                    <span style="color: darkblue">5. </span>
-                  Pelaksanaan bimbingan teknis dan supervisi di bidang pembinaan penyelenggaraan, kelembagaan, dan sumber daya jasa konstruksi.
-                    </h4>
-                    
-                    <h4 style=" 
-                    text-align: left;
-                    font-family: 'Lato', sans-serif;
-                    font-weight: 700;
-                    font-size: 16px;
-                    margin-bottom: 10px;
-                    ">
-                    
-                    <span style="color: darkblue">6. </span>
-                    Pelaksanaan evaluasi dan pelaporan di bidang pembinaan penyelenggaraan, kelembagaan, dan sumber daya jasa konstruksi.
-                </h4>
-
-                    <h4 style=" 
-                    text-align: left;
-                    font-family: 'Lato', sans-serif;
-                    font-weight: 700;
-                    font-size: 16px;
-                    margin-bottom: 10px;
-                    ">
-                    
-                    <span style="color: darkblue">7. </span>
-                                    Pelaksanaan administrasi Direktorat Jenderal Bina Konstruksi. 
-                </h4>
-                <h4 style=" 
-                    text-align: left;
-                    font-family: 'Lato', sans-serif;
-                    font-weight: 700;
-                    font-size: 16px;
-                    margin-bottom: 10px;
-                    ">
-                    
-                    <span style="color: darkblue">8. </span>
-                    Pelaksanaan fungsi lain yang diberikan oleh Menteri.
-                
-                                </h4>
             </p>
         </div>
         <div class="container" style="margin-top: 20px;">
