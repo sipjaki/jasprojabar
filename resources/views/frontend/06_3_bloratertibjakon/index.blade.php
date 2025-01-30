@@ -148,7 +148,7 @@ Pemerintah Kabupaten Blora
 </div>
 
 {{-- ====================== ====================== --}}
-<div class="container" style="
+{{-- <div class="container" style="
     display: flex;
     flex-direction: column;
     background-color: #00820d;
@@ -163,7 +163,7 @@ Pemerintah Kabupaten Blora
     background: linear-gradient(to bottom, white, white, white);
     align-items: center;
     position: relative;
-">
+"> --}}
 
 <style>
 
@@ -230,7 +230,7 @@ Pemerintah Kabupaten Blora
 
     {{-- <h1 style="margin-top:10px; font-size: 16px; font-family: 'Lato', sans-serif; font-weight: 700;">Kementrian Pekerjaan Umum Dan Penataan Ruang </h1> --}}
     
-</div>
+{{-- </div> --}}
 
 
 
