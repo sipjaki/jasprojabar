@@ -47,8 +47,8 @@
     transition: background 0.5s ease, color 0.5s ease;
     " onmouseover="this.style.background='linear-gradient(to right, #f0f0f0, #e0e0e0)'; this.style.color='black';" onmouseout="this.style.background='linear-gradient(to right, black, yellow )'; this.style.color='white';">
 
-Daftar Sertifikat Keterampilan Kerja <br> 
-Pemerintah Kabupaten Bandung
+Daftar Badan Usaha Jasa Konstruksi <br> 
+Pemerintah Kabupaten Blora
 </h2>
 </div>
 <style>
@@ -56,14 +56,14 @@ Pemerintah Kabupaten Bandung
         .container-bagan {
                 display: flex;
                 flex-direction: column;
-                background-color: #FFCB0F;
+                background-color: #00820d;
                 padding: 10px;
                 border: 1px solid black;
                 border-radius: 25px;
                 text-align: center;
                 width: 100%;
                 height: 50vh;
-                background: linear-gradient(to bottom, yellow, white, white);
+                background: linear-gradient(to bottom, green, white, white);
                 align-items: center;
                 position: relative;
             }
@@ -77,25 +77,25 @@ Pemerintah Kabupaten Bandung
     style="
     display: flex;
     flex-direction: column;
-    background-color: #FFCB0F;
+    background-color: #00820d;
     padding: 10px;
     border: 1px solid black;
     border-radius: 25px;
     text-align: center;
     width: 100%;
     height: 26vh;
-    background: linear-gradient(to bottom, yellow, white, white);
+    background: linear-gradient(to bottom, green, white, white);
     align-items: center;
     position: relative;
 ">
 
 <div style="display: flex; align-items: center;">
     <img src="/assets/icon/pupr.png" alt="Logo SIPJAKIKBB" style="width: 50px; height: 50px; object-fit: cover; margin: 0 10px;">
-    <img src="/assets/icon/sipjakikbb.png" alt="Logo SIPJAKIKBB" style="width: 70px; height: 70px; object-fit: cover; margin: 0 10px;">
+    <img src="/assets/icon/logokabupatenblora.png" alt="Logo SIPJAKIKBB" style="width: 70px; height: 70px; object-fit: cover; margin: 0 10px;">
 </div>
 
 
-<h1 style="font-size: 16px; font-family: 'Lato', sans-serif; font-weight: 700;"><button class="badgekementrian">Dinas Pekerjaan Umum Dan Tata Ruang</button> </h1>
+<h1 style="font-size: 16px; font-family: 'Lato', sans-serif; font-weight: 700;"><button class="badgekementrian">Dinas Pekerjaan Umum Dan Penataan Ruang </button> </h1>
 
 
 <style>
@@ -120,7 +120,7 @@ Pemerintah Kabupaten Bandung
             }    
 
 .badgekementrian {
-                background: linear-gradient(to right, #FFD700, #FFD700);
+                background: linear-gradient(to right, #00820d, #00820d);
                 color: black;
                 padding: 10px 20px;
                 text-transform: uppercase;
@@ -150,7 +150,7 @@ Pemerintah Kabupaten Bandung
 <div class="container" style="
     display: flex;
     flex-direction: column;
-    background-color: #FFCB0F;
+    background-color: #00820d;
     padding: 10px;
     border: 1px solid black;
     margin-bottom: 0px;
@@ -159,7 +159,7 @@ Pemerintah Kabupaten Bandung
     width: 100%;
     height: 9vh;
     margin-top:5px;
-    background: linear-gradient(to bottom, yellow, white, white);
+    background: linear-gradient(to bottom, green, white, white);
     align-items: center;
     position: relative;
 ">
@@ -186,7 +186,7 @@ Pemerintah Kabupaten Bandung
             }    
 
 .badgekementrian {
-                background: linear-gradient(to right, #FFD700, #FFD700);
+                background: linear-gradient(to right, #00820d, #00820d);
                 color: black;
                 padding: 10px 20px;
                 text-transform: uppercase;
@@ -205,7 +205,7 @@ Pemerintah Kabupaten Bandung
             }    
 
 .badgepencarian {
-                background: linear-gradient(to right, #FFD700, #FFD700);
+                background: linear-gradient(to right, #00820d, #00820d);
                 color: black;
                 padding: 10px 20px;
                 text-transform: uppercase;
@@ -249,7 +249,7 @@ Pemerintah Kabupaten Bandung
 <div class="container" style="
     display: flex;
     flex-direction: column;
-    background-color: #FFCB0F;
+    background-color: #00820d;
     padding: 10px;
     border: 1px solid black;
     margin-bottom: 0px;
@@ -258,7 +258,7 @@ Pemerintah Kabupaten Bandung
     width: 100%;
     margin-top:5px;
     height: 125vh;
-    background: linear-gradient(to bottom, yellow, white, white);
+    background: linear-gradient(to bottom, green, white, white);
     align-items: center;
     position: relative;
 ">
@@ -294,7 +294,7 @@ Pemerintah Kabupaten Bandung
 
 
     <div class="container" style="display:flex; justify-content: flex-end;">
-        <div class="badge"><i class="fas fa-users me-2"></i><span>{{ $totaldata}}</span> Daftar Pekerja Tukang Terampil (SKK)</div>
+        <div class="badge"><i class="fas fa-users me-2"></i><span>{{ $totaldata}}</span> Daftar Badan Usaha Jasa Konstruksi</div>
         {{-- Menampilkan data kecamatan --}}
             {{-- Debugging untuk memastikan data dikirim ke view --}}
 {{-- {{ dd($data_kecamatan) }} --}}
@@ -417,7 +417,7 @@ Pemerintah Kabupaten Bandung
         th {
             /* background-color: #4CAF50; */
             /* background: linear-gradient(to bottom, #000000, #FFCB0F); */
-            background-color:  #FFCB0F;
+            background-color:  #00820d;
             color: black;
             font-size: 14px;
         }
@@ -520,7 +520,7 @@ Pemerintah Kabupaten Bandung
 </style>
 
 <div class="pagination-container" style="margin-top: 20px; display: flex; flex-direction: column; align-items: center; color:black; ">
-        <div class="pagination-info mb-2" style="margin-bottom: 10px; color:orange;">
+        <div class="pagination-info mb-2" style="margin-bottom: 10px; color:navy;">
             Data Ke {{ $data->firstItem() }} Sampai {{ $data->lastItem() }} Dari {{ $data->total() }} Jumlah Data
         </div>
             <ul class="pagination" style="display: flex; padding-left: 0; list-style: none; color: black;">
