@@ -59,7 +59,7 @@ Tupoksi Seksi Program Dan Jasa Konstruksi Kabupaten Blora
     border-radius: 25px;
     text-align: center;
     width: 100%;
-    height: 195vh;
+    height: 175vh;
     background: linear-gradient(to bottom, green, white, white);
     align-items: center;
     position: relative;
@@ -103,6 +103,8 @@ Tupoksi Seksi Program Dan Jasa Konstruksi Kabupaten Blora
                         d. pelaksanaan administrasi dinas di bidang pekerjaan umum dan penataan ruang; dan
                         <br>
                         e. pelaksanaan fungsi kedinasan lain yang diberikan oleh Bupati terkait dengan tugas dan fungsinya.
+                        <br><br><br>
+                        Uraian Tupoksi DPUPR Pemerintah Kabupaten Blora Sebagai berikut 
                     </h4>
             </p>
         </div>
