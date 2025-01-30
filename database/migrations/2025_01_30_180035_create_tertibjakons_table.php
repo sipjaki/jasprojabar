@@ -27,7 +27,7 @@ return new class extends Migration
             $table->string('kualifikasi');
             // Pemenuhan Persyaratan Usaha   
             $table->string('sbu');
-            $table->string('nib');
+            $table->string('statusnib');
             // Pelaksanaan Pengambangan 
             $table->string('statustertib');
             $table->softDeletes();

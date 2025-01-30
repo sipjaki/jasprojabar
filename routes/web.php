@@ -248,9 +248,9 @@ Route::get('/peraturan/suratkeputusan/{judul}', [PeraturanController::class, 'fe
 
 // BAGIAN 06
 // PENGAWASAN TERTIB JASA KONSTRUKSI 
-Route::get('/blora/tertibjakon', [SkktenagakerjaController::class, 'feskktenagakerja']);  
-Route::get('/blora/tertibjakon/{nama}', [SkktenagakerjaController::class, 'feskktenagakerjashowByName']);
-Route::get('/blora/tertibjakon/{nama}', [SkktenagakerjaController::class, 'feskktenagakerjadokumentasishowByName']);
+Route::get('/blora/tertibjakon', [::class, '']);  
+Route::get('/blora/tertibjakon/{nama_perusahaan}', [::class, 'feskktenagakerjashowByName']);
+Route::get('/blora/tertibjakon/{nama_perusahaan}', [::class, 'feskktenagakerjadokumentasishowByName']);
 
 
 
