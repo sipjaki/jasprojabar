@@ -56,8 +56,8 @@
             <div class="dropdown-content" style="min-width: 400px;">
                 <div style="display: inline-flex; align-items: center; color: black; text-decoration: none;">
                     <i class="fas fa-sitemap" style="margin-left: 3px; margin-right: 0px; background: linear-gradient(90deg, black, green); color:white;"></i>
-                    {{-- <a href="/profil/struktur" style="color: black; text-decoration: none; text-align:left">STRUKTUR DPUPR KABUPATEN BLORA</a> --}}
-                    <a href="/404" style="color: black; text-decoration: none; text-align:left">STRUKTUR DPUPR KABUPATEN BLORA</a>
+                    <a href="/profil/struktur" style="color: black; text-decoration: none; text-align:left">STRUKTUR DPUPR KABUPATEN BLORA</a>
+                    {{-- <a href="/404" style="color: black; text-decoration: none; text-align:left">STRUKTUR DPUPR KABUPATEN BLORA</a> --}}
                 </div>
         
                 <div style="display: inline-flex; align-items: center; color: black; text-decoration: none;">
