@@ -14,6 +14,7 @@ use App\Http\Controllers\UijkController;
 use App\Http\Controllers\AdministratorController;
 use App\Http\Controllers\BeritaController;
 use App\Http\Controllers\SettingmenuController;
+use App\Http\Controllers\TertibjakonController;
 use App\Http\Controllers\UndangundangController;
 use Database\Factories\DatajakonFactory;
 use Database\Factories\SkktenagakerjaFactory;
@@ -248,9 +249,9 @@ Route::get('/peraturan/suratkeputusan/{judul}', [PeraturanController::class, 'fe
 
 // BAGIAN 06
 // PENGAWASAN TERTIB JASA KONSTRUKSI 
-Route::get('/blora/tertibjakon', [::class, '']);  
-Route::get('/blora/tertibjakon/{nama_perusahaan}', [::class, 'feskktenagakerjashowByName']);
-Route::get('/blora/tertibjakon/{nama_perusahaan}', [::class, 'feskktenagakerjadokumentasishowByName']);
+Route::get('/blora/tertibjakon', [TertibjakonController::class, 'fetertibjakon']);  
+Route::get('/blora/tertibjakon/{nama_perusahaan}', [TertibjakonController::class, 'fetertibjakonshowByBadanusaha']);
+// Route::get('/blora/tertibjakon/{nama_perusahaan}', [TertibjakonController::class, 'feskktenagakerjadokumentasishowByName']);
 
 
 
