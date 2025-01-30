@@ -84,7 +84,7 @@ Pemerintah Kabupaten Blora
     text-align: center;
     width: 100%;
     height: 20vh;
-    background: linear-gradient(to bottom, white, white, white);
+    background: linear-gradient(to bottom, green, white, white);
     align-items: center;
     position: relative;
 ">
@@ -259,7 +259,7 @@ Pemerintah Kabupaten Blora
     width: 100%;
     margin-top:5px;
     height: 125vh;
-    background: linear-gradient(to bottom, white, white, white);
+    background: linear-gradient(to bottom, green, white, white);
     align-items: center;
     position: relative;
 ">
