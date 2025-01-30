@@ -140,7 +140,7 @@ Pemerintah Kabupaten Blora
             }    
 </style>
 
-@include('tambahan.pencarianskk.menunavigasi')
+@include('frontend.06_3_bloratertibjakon.menunavigasitertibjakon')
 
 
     {{-- <h1 style="margin-top:10px; font-size: 16px; font-family: 'Lato', sans-serif; font-weight: 700;">Kementrian Pekerjaan Umum Dan Penataan Ruang </h1> --}}
