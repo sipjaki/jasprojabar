@@ -68,8 +68,8 @@
         
                 <div style="display: inline-flex; align-items: center; color: black; text-decoration: none;">
                     <i class="fas fa-tasks" style="margin-left: 3px; margin-right: 0px; background: linear-gradient(90deg, black, green); color:white;"></i>
-                    {{-- <a href="/profil/tupoksi" style="color: black; text-decoration: none; text-align:left">TUPOKSI PROGRAM JASA KONSTRUKSI</a> --}}
-                    <a href="/404" style="color: black; text-decoration: none; text-align:left">TUPOKSI PROGRAM JASA KONSTRUKSI</a>
+                    <a href="/profil/tupoksi" style="color: black; text-decoration: none; text-align:left">TUPOKSI PROGRAM JASA KONSTRUKSI</a>
+                    {{-- <a href="/404" style="color: black; text-decoration: none; text-align:left">TUPOKSI PROGRAM JASA KONSTRUKSI</a> --}}
                 </div>
             </div>
         </div>

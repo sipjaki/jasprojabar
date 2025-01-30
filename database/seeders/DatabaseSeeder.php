@@ -2320,8 +2320,8 @@ renstra::create([
 
 //======================== ===================================================================================
 tupoksi::create([
-    'judul' => 'Tupoksi Program Dan Jasa Konstruksi',
-    'peraturan' => 'struktur/03_tupoksi/SOTK_DPUTR.pdf',
+    'judul' => 'Tupoksi Program Dan Jasa Konstruksi DPUPR Kab Blora',
+    'peraturan' => 'struktur/03_tupoksi/TUPOKSI_DPUPR_KAB_BLORA.pdf',
     'created_at' => Carbon::now(),
     'updated_at' => Carbon::now(),
     'deleted_at' => null, // Jika Anda menggunakan soft deletes
