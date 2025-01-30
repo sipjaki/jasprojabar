@@ -54,8 +54,10 @@ use App\Models\sbulampiran3;
 // use App\Models\sertifikasiagenda;
 use App\Models\standarbiayaumum;
 use App\Models\statusadmin;
+use App\Models\statustertibjakon;
 use App\Models\strukturdinas;
 use App\Models\tahunpilihan;
+use App\Models\Tertibjakon;
 use App\Models\timpembina;
 use App\Models\tupoksi;
 use App\Models\uijk;
@@ -94,6 +96,36 @@ class DatabaseSeeder extends Seeder
         // Qa::factory(15)->create();
         // BAHAN TUKANG TERAMPIL BLORA
         // Tukangterampil::factory(994)->create();
+
+
+        // BAGIAN KE 6 TERTIB JASA KONSTRUKSI 
+        // =====================================================================================
+        tertibjakon::create([
+            'statustertibjakon_id' => '1',
+            'namabadanusaha' => 'CV. Mandara Kanta Unggul',
+            'nib' => '0208220001109',
+            'pjbu' => 'Muhammad Abdul Rozak',
+            'jenis' => 'Tertib',
+            'sifat' => 'Tertib',
+            'klasifikasi' => 'Tertib',
+            'layanan' => 'Tertib',
+            'bentuk' => 'Tertib',
+            'kualifikasi' => 'Tertib',
+            'sbu' => 'Tertib',
+            'nib' => 'Tertib',
+            'statustertib' => 'Belum Terbit',
+        ]);
+
+        statustertibjakon::create([
+            'id' => '1',
+            'mitra' => 'Pemerintah',
+        ]);
+
+        statustertibjakon::create([
+            'id' => '2',
+            'mitra' => 'Swasta',
+        ]);
+ 
                        
 // =============== CREATE TIM ASOSIASI PENGUSAHA 
 asosiasipengusaha::create([
@@ -5382,4 +5414,9 @@ giskbb::create([
     {
         return Carbon::parse($birthDate)->age;
     }
+
+
+    // PEMERINTAH KABUPATEN BLORA PROVINSI JAWA TENGAH 
+
+    
 }

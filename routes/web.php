@@ -244,6 +244,23 @@ Route::get('/peraturan/suratkeputusan/{judul}', [PeraturanController::class, 'fe
 
 // ================================================================================================================================================
 // ================================================================================================================================================
+// APLIKASI SIPJAKI DINAS PUPR PEMERINTAH KABUPATEN BLORA PROVINSI JAWA TENGAH 
+
+// BAGIAN 06
+// PENGAWASAN TERTIB JASA KONSTRUKSI 
+Route::get('/blora/tertibjakon', [SkktenagakerjaController::class, 'feskktenagakerja']);  
+Route::get('/blora/tertibjakon/{nama}', [SkktenagakerjaController::class, 'feskktenagakerjashowByName']);
+Route::get('/blora/tertibjakon/{nama}', [SkktenagakerjaController::class, 'feskktenagakerjadokumentasishowByName']);
+
+
+
+
+
+
+
+// ================================================================================================================================================
+// ================================================================================================================================================
+// ================================================================================================================================================
 // ================================================================================================================================================
 
 Route::get('/dashboard', [AdminDashboardController::class, 'index'])->middleware('auth');  
