@@ -3744,7 +3744,7 @@ suratkeputusan::create([
 
 
 berita::create([
-    'judul' => 'Tansformasi Digital Sistem Informasi Pembina Jasa Konstruksi Pemerintah Kabupaten Bandung Barat',
+    'judul' => 'Tansformasi Digital Mas Jaki DPUPR Blora, Sistem Informasi Pembina Jasa Konstruksi Pemerintah Kabupaten Blora Provinsi Jawa Tengah',
     'user_id' => rand(1,5),
     'gambar' => 'berita/databerita/blora1.jpg',
     'keteranganberita' => '
