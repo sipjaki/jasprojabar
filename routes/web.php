@@ -44,13 +44,14 @@ Route::get('/', [FedashboardController::class, 'index']);
 
 
 
-// Route::get('/portalberita', function () {
-//     // return view('welcome');
-//     return view('portalberita', [
-//         'title' => 'Portal Berita',
-//     ]);
-// });
 
+
+Route::get('/percobaankamera', function () {
+    // return view('welcome');
+    return view('percobaankamera', [
+        'title' => 'percobaan',
+    ]);
+});
 
 Route::get('/404', function () {
     // return view('welcome');
@@ -721,3 +722,6 @@ Route::post('/logout', [LoginController::class, 'logout']);
 // });
 
 require __DIR__.'/auth.php';
+
+
+
