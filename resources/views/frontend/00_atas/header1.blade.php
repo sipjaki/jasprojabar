@@ -15,7 +15,7 @@
             border-radius: 15px;
             text-align: center;"></p>
                  {{-- <p style="color: black"></p> --}}
-                 <i class="fas fa-phone mr-2"></i><a href="https://wa.me/6281321455855" style="color: black">+6281 321 455 855</a></p>
+                 <i class="fas fa-phone mr-2 p4"></i><a href="https://wa.me/6281321455855" class="bg-red-600 text-white">+6281 321 455 855</a></p>
     </div>
 
     <script>
