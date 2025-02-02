@@ -1,4 +1,8 @@
 <header class="top">
+    <div class="bg-red-600 text-white text-lg font-semibold p-4 rounded-lg shadow-md">
+        Ini adalah container dengan background merah dan tulisan besar berwarna putih.
+    </div>
+    
     <div class="container">
         {{-- <p>081321455855</p> --}}
         <div id="clock-container" style="
