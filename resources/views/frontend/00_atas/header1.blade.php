@@ -76,12 +76,12 @@
             }
         }
     </style>
-     <div class="marquee-container" style="margin-left: 150px;">
+     {{-- <div class="marquee-container" style="margin-left: 150px;">
         <div class="marquee" style="color: white">Selamat Datang ! di Web Resmi Mas Jaki Dinas Pekerjaan Umum & Penataan Ruang Blora, Sistem Informasi Pembina Jasa Konstruksi Pemerintah Kabupaten Blora Provinsi Jawa Tengah</div>
-    </div>
+    </div> --}}
     
         {{-- <p>Jam </p> --}}
-        <div class="social">
+        {{-- <div class="social">
             <a href="/" title=""><i class="fas fa-envelope"></i></a>
             <a href="/" title="Facebook"><i class="fab fa-facebook-f"></i></a>
             <a href="/" title="Instagram"><i class="fab fa-instagram"></i></a>
@@ -94,4 +94,68 @@
 
         </div>
     </div>
+
+    <div class="relative w-[375px] overflow-hidden p-2.5 m-2 rounded-lg border border-black bg-black mx-auto">
+    <div class="inline-block text-white pl-full animate-marquee">
+        Selamat Datang ! di Web Resmi Mas Jaki Dinas Pekerjaan Umum & Penataan Ruang Blora, Sistem Informasi Pembina Jasa Konstruksi Pemerintah Kabupaten Blora Provinsi Jawa Tengah
+    </div>
+</div>
+
+<div class="flex space-x-4 mt-4">
+    <a href="/" title="" class="text-lg"><i class="fas fa-envelope"></i></a>
+    <a href="/" title="Facebook" class="text-lg"><i class="fab fa-facebook-f"></i></a>
+    <a href="/" title="Instagram" class="text-lg"><i class="fab fa-instagram"></i></a>
+    <a href="/" title="Twitter" class="text-lg"><i class="fab fa-twitter"></i></a>
+    <a href="/" title="TikTok" class="text-lg"><i class="fab fa-tiktok"></i></a>
+    <a href="/" title="YouTube" class="text-lg"><i class="fab fa-youtube"></i></a>
+    <a href="/login" class="text-lg"><i class="fa-solid fa-sign-in-alt"></i></a>
+</div>
+
+<style>
+    @keyframes marquee {
+        from {
+            transform: translateX(0);
+        }
+        to {
+            transform: translateX(-100%);
+        }
+    }
+    .animate-marquee {
+        animation: marquee 15s linear infinite;
+    }
+</style> --}}
+
+
+{{-- ===============================  --}}
+
+<div class="relative w-[375px] overflow-hidden p-2.5 m-2 rounded-lg border border-black bg-black mx-auto">
+    <div class="inline-block text-white pl-full animate-marquee">
+        Selamat Datang ! di Web Resmi Mas Jaki Dinas Pekerjaan Umum & Penataan Ruang Blora, Sistem Informasi Pembina Jasa Konstruksi Pemerintah Kabupaten Blora Provinsi Jawa Tengah
+    </div>
+</div>
+
+<div class="flex space-x-4 mt-4">
+    <a href="/" title="" class="text-lg"><i class="fas fa-envelope"></i></a>
+    <a href="/" title="Facebook" class="text-lg"><i class="fab fa-facebook-f"></i></a>
+    <a href="/" title="Instagram" class="text-lg"><i class="fab fa-instagram"></i></a>
+    <a href="/" title="Twitter" class="text-lg"><i class="fab fa-twitter"></i></a>
+    <a href="/" title="TikTok" class="text-lg"><i class="fab fa-tiktok"></i></a>
+    <a href="/" title="YouTube" class="text-lg"><i class="fab fa-youtube"></i></a>
+    <a href="/login" class="text-lg"><i class="fa-solid fa-sign-in-alt"></i></a>
+</div>
+
+<style>
+    @keyframes marquee {
+        from {
+            transform: translateX(0);
+        }
+        to {
+            transform: translateX(-100%);
+        }
+    }
+    .animate-marquee {
+        animation: marquee 15s linear infinite;
+    }
+</style>
+
 </header>
