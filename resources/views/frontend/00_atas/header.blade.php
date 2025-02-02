@@ -10,6 +10,20 @@
     <link href="/assets/bahan1/css/styles.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400&display=swap" rel="stylesheet">
 
+    {{-- TAILWINDCSS --}}
+ 
+    {{-- @vite('resources/css/app.css') --}}
+    {{-- @vite('resources/css/tailwind.css') --}}
+    {{-- @vite('resources/js/app.css') --}}
+
+    <!-- Laravel dengan Vite -->
+@vite('resources/js/app.js')
+
+    
+    <link href="{{ mix('resources/app.css') }}" rel="stylesheet">
+    <script type="module" src="{{ mix('resources/js/app.js') }}"></script>
+    
+
     {{-- TEMPLATE 2 --}}
       <!-- Bootstrap CSS -->
       <link rel="stylesheet" href="/assets/bahan2/css/bootstrap.min.css">

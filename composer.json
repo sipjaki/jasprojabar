@@ -13,7 +13,8 @@
         "laravel/framework": "^10.10",
         "laravel/sanctum": "^3.3",
         "laravel/tinker": "^2.8",
-        "nesbot/carbon": "^2.72"
+        "nesbot/carbon": "^2.72",
+        "tightenco/ziggy": "^2.5"
     },
     "require-dev": {
         "laravel/pint": "^1.0",
@@ -64,6 +65,6 @@
             "php-http/discovery": true
         }
     },
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "prefer-stable": true
 }

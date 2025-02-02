@@ -289,3 +289,26 @@ public function createstoredokumentasipelatihan(Request $request)
 {{-- #06f933 --}}
 
 KODE WARNA HIJAU :  #00820d
+
+
+
+{
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build"
+    },
+    "devDependencies": {
+        "@tailwindcss/forms": "^0.5.2",
+        "@vitejs/plugin-vue": "^5.2.1",
+        "alpinejs": "^3.4.2",
+        "autoprefixer": "^10.4.20",
+        "axios": "^1.6.4",
+        "laravel-vite-plugin": "^1.0.0",
+        "postcss": "^8.5.1",
+        "tailwindcss": "^3.4.17",
+        "vite": "^5.4.14",
+        "vite-plugin-laravel": "^0.3.1"
+    }
+}
