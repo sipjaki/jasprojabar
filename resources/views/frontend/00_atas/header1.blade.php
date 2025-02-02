@@ -1,6 +1,5 @@
 <header class="top">
-    <div class="container">
-        {{-- <p>081321455855</p> --}}
+    {{-- <div class="container">
         <div id="clock-container" style="
         display: flex;
         justify-content: center;
@@ -14,10 +13,19 @@
             padding: 2px 10px;
             border-radius: 15px;
             text-align: center;"></p>
-                 {{-- <p style="color: black"></p> --}}
                  <i class="fas fa-phone mr-2"></i><a href="https://wa.me/6281321455855" style="color: black">+6281 321 455 855</a></p>
-    </div>
+    </div> --}}
 
+    <div class="container">
+        <div id="clock-container" class="flex flex-col sm:flex-row justify-center items-center h-[6vh] font-sans text-center space-y-2 sm:space-y-0 sm:space-x-3">
+            <p id="jam" class="text-sm bg-black text-white px-4 py-1 rounded-full"></p>
+            <div class="flex items-center space-x-2">
+                <i class="fas fa-phone text-black"></i>
+                <a href="https://wa.me/6281321455855" class="text-black text-sm sm:text-base">+6281 321 455 855</a>
+            </div>
+        </div>
+    </div>
+    
     <script>
         function updateClock() {
             const now = new Date();
