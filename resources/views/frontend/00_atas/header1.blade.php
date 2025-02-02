@@ -1,5 +1,6 @@
 <header class="top">
     <div class="container">
+        {{-- <p>081321455855</p> --}}
         <div id="clock-container" style="
         display: flex;
         justify-content: center;
@@ -13,19 +14,10 @@
             padding: 2px 10px;
             border-radius: 15px;
             text-align: center;"></p>
+                 {{-- <p style="color: black"></p> --}}
                  <i class="fas fa-phone mr-2"></i><a href="https://wa.me/6281321455855" style="color: black">+6281 321 455 855</a></p>
     </div>
 
-    {{-- <div class="container">
-        <div id="clock-container" class="flex flex-col sm:flex-row justify-center items-center h-[4vh] font-sans text-center space-y-2 sm:space-y-0 sm:space-x-3">
-            <p id="jam" class="text-sm bg-black text-white px-4 py-1 rounded-full"></p>
-            <div class="flex items-center space-x-2">
-                <i class="fas fa-phone text-black"></i>
-                <a href="https://wa.me/6281321455855" class="text-black text-sm sm:text-base">+6281 321 455 855</a>
-            </div>
-        </div>
-    </div> --}}
-    
     <script>
         function updateClock() {
             const now = new Date();
@@ -94,68 +86,4 @@
 
         </div>
     </div>
-
-    <div class="relative w-[375px] overflow-hidden p-2.5 m-2 rounded-lg border border-black bg-black mx-auto">
-    <div class="inline-block text-white pl-full animate-marquee">
-        Selamat Datang ! di Web Resmi Mas Jaki Dinas Pekerjaan Umum & Penataan Ruang Blora, Sistem Informasi Pembina Jasa Konstruksi Pemerintah Kabupaten Blora Provinsi Jawa Tengah
-    </div>
-</div>
-
-<div class="flex space-x-4 mt-4">
-    <a href="/" title="" class="text-lg"><i class="fas fa-envelope"></i></a>
-    <a href="/" title="Facebook" class="text-lg"><i class="fab fa-facebook-f"></i></a>
-    <a href="/" title="Instagram" class="text-lg"><i class="fab fa-instagram"></i></a>
-    <a href="/" title="Twitter" class="text-lg"><i class="fab fa-twitter"></i></a>
-    <a href="/" title="TikTok" class="text-lg"><i class="fab fa-tiktok"></i></a>
-    <a href="/" title="YouTube" class="text-lg"><i class="fab fa-youtube"></i></a>
-    <a href="/login" class="text-lg"><i class="fa-solid fa-sign-in-alt"></i></a>
-</div>
-
-<style>
-    @keyframes marquee {
-        from {
-            transform: translateX(0);
-        }
-        to {
-            transform: translateX(-100%);
-        }
-    }
-    .animate-marquee {
-        animation: marquee 15s linear infinite;
-    }
-</style>
-
-
-{{-- ===============================  --}}
-
-{{-- <div class="relative w-[375px] overflow-hidden p-2.5 m-2 rounded-lg border border-black bg-black mx-auto">
-    <div class="inline-block text-white pl-full animate-marquee">
-        Selamat Datang ! di Web Resmi Mas Jaki Dinas Pekerjaan Umum & Penataan Ruang Blora, Sistem Informasi Pembina Jasa Konstruksi Pemerintah Kabupaten Blora Provinsi Jawa Tengah
-    </div>
-</div>
-
-<div class="flex space-x-4 mt-4">
-    <a href="/" title="" class="text-lg"><i class="fas fa-envelope"></i></a>
-    <a href="/" title="Facebook" class="text-lg"><i class="fab fa-facebook-f"></i></a>
-    <a href="/" title="Instagram" class="text-lg"><i class="fab fa-instagram"></i></a>
-    <a href="/" title="Twitter" class="text-lg"><i class="fab fa-twitter"></i></a>
-    <a href="/" title="TikTok" class="text-lg"><i class="fab fa-tiktok"></i></a>
-    <a href="/" title="YouTube" class="text-lg"><i class="fab fa-youtube"></i></a>
-    <a href="/login" class="text-lg"><i class="fa-solid fa-sign-in-alt"></i></a>
-</div>
-
-<style>
-    @keyframes marquee {
-        from {
-            transform: translateX(0);
-        }
-        to {
-            transform: translateX(-100%);
-        }
-    }
-    .animate-marquee {
-        animation: marquee 15s linear infinite;
-    }
-</style> --}}
-
 </header>
