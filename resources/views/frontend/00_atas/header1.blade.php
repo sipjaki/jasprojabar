@@ -1,5 +1,5 @@
 <header class="top">
-    {{-- <div class="container">
+    <div class="container">
         <div id="clock-container" style="
         display: flex;
         justify-content: center;
@@ -14,17 +14,17 @@
             border-radius: 15px;
             text-align: center;"></p>
                  <i class="fas fa-phone mr-2"></i><a href="https://wa.me/6281321455855" style="color: black">+6281 321 455 855</a></p>
-    </div> --}}
+    </div>
 
-    <div class="container">
-        <div id="clock-container" class="flex flex-col sm:flex-row justify-center items-center h-[6vh] font-sans text-center space-y-2 sm:space-y-0 sm:space-x-3">
+    {{-- <div class="container">
+        <div id="clock-container" class="flex flex-col sm:flex-row justify-center items-center h-[4vh] font-sans text-center space-y-2 sm:space-y-0 sm:space-x-3">
             <p id="jam" class="text-sm bg-black text-white px-4 py-1 rounded-full"></p>
             <div class="flex items-center space-x-2">
                 <i class="fas fa-phone text-black"></i>
                 <a href="https://wa.me/6281321455855" class="text-black text-sm sm:text-base">+6281 321 455 855</a>
             </div>
         </div>
-    </div>
+    </div> --}}
     
     <script>
         function updateClock() {
@@ -76,12 +76,12 @@
             }
         }
     </style>
-     {{-- <div class="marquee-container" style="margin-left: 150px;">
+     <div class="marquee-container" style="margin-left: 150px;">
         <div class="marquee" style="color: white">Selamat Datang ! di Web Resmi Mas Jaki Dinas Pekerjaan Umum & Penataan Ruang Blora, Sistem Informasi Pembina Jasa Konstruksi Pemerintah Kabupaten Blora Provinsi Jawa Tengah</div>
-    </div> --}}
+    </div>
     
         {{-- <p>Jam </p> --}}
-        {{-- <div class="social">
+        <div class="social">
             <a href="/" title=""><i class="fas fa-envelope"></i></a>
             <a href="/" title="Facebook"><i class="fab fa-facebook-f"></i></a>
             <a href="/" title="Instagram"><i class="fab fa-instagram"></i></a>
@@ -123,12 +123,12 @@
     .animate-marquee {
         animation: marquee 15s linear infinite;
     }
-</style> --}}
+</style>
 
 
 {{-- ===============================  --}}
 
-<div class="relative w-[375px] overflow-hidden p-2.5 m-2 rounded-lg border border-black bg-black mx-auto">
+{{-- <div class="relative w-[375px] overflow-hidden p-2.5 m-2 rounded-lg border border-black bg-black mx-auto">
     <div class="inline-block text-white pl-full animate-marquee">
         Selamat Datang ! di Web Resmi Mas Jaki Dinas Pekerjaan Umum & Penataan Ruang Blora, Sistem Informasi Pembina Jasa Konstruksi Pemerintah Kabupaten Blora Provinsi Jawa Tengah
     </div>
@@ -156,6 +156,6 @@
     .animate-marquee {
         animation: marquee 15s linear infinite;
     }
-</style>
+</style> --}}
 
 </header>
