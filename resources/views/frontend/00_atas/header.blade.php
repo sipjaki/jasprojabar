@@ -12,9 +12,9 @@
 
     {{-- TAILWINDCSS --}}
  
-    @vite('resources/css/app.css')
-    @vite('resources/css/tailwind.css')
-    @vite('resources/js/app.css')
+    {{-- @vite('resources/css/app.css') --}}
+    {{-- @vite('resources/css/tailwind.css') --}}
+    {{-- @vite('resources/js/app.css') --}}
 
     <!-- Laravel dengan Vite -->
 @vite('/resources/js/app.js')
