@@ -1,10 +1,10 @@
-{{-- <div class="bg-red-600 text-black text-lg font-semibold p-4 rounded-lg shadow-md">
+<div class="bg-red-600 text-black text-lg font-semibold p-4 rounded-lg shadow-md">
     Ini adalah container dengan background merah dan tulisan besar berwarna putih.
 </div>
 
 <div class=" text-blue-500 bg-fuchsia-500 p-4">
     Hello, World!
-  </div> --}}
+  </div>
   
 
 <header class="top">

@@ -12,16 +12,15 @@
 
     {{-- TAILWINDCSS --}}
  
-    {{-- @vite('resources/css/app.css') --}}
-    {{-- @vite('resources/css/tailwind.css') --}}
-    {{-- @vite('resources/js/app.css') --}}
+    @vite('resources/css/app.css')
+    @vite('resources/css/tailwind.css')
+    @vite('resources/js/app.css')
 
     <!-- Laravel dengan Vite -->
-@vite('resources/js/app.js')
+@vite('/resources/js/app.js')
 
-    
-    <link href="{{ mix('resources/app.css') }}" rel="stylesheet">
-    <script type="module" src="{{ mix('resources/js/app.js') }}"></script>
+    <link href="{{ mix('/resources/app.css') }}" rel="stylesheet">
+    <script type="module" src="{{ mix('/resources/js/app.js') }}"></script>
     
 
     {{-- TEMPLATE 2 --}}
