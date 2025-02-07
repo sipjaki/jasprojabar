@@ -28,24 +28,9 @@
                   Kelembagaan
                 </a>
                 <ul class="dropdown-menu">
-                    
-                    <li>
-                        <a class="dropdown-item custom-hover" href="about.html">
-                          Struktur DPUPR Kab Blora
-                        </a>
-                      </li>
-                    
-                      <li>
-                        <a class="dropdown-item custom-hover" href="about.html">
-                          Renstra Jasa Konstruksi Kab Blora
-                        </a>
-                      </li>
-                      
-                      <li>
-                        <a class="dropdown-item custom-hover" href="about.html">
-                          Tupoksi Jasa Konstruksi 
-                        </a>
-                      </li>
+                    <li><a class="dropdown-item" href="about.html">Struktur DPUPR Kab Blora</a></li>    
+                    <li><a class="dropdown-item" href="about.html">Renstra Program Jasa Konstruksi</a></li>    
+                    <li><a class="dropdown-item" href="about.html">Tupoksi Jasa Konstruksi</a></li>    
                 </ul>
               </li>
             
