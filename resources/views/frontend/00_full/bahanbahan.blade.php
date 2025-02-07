@@ -41,7 +41,7 @@
             </li>
 
             <li class="nav-item dropdown" style="font-size:14px;">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                <a class="nav-link dropdown-toggle" href="/404" role="button" data-bs-toggle="dropdown"
                   aria-expanded="false">
                   Kelembagaan
                 </a>
