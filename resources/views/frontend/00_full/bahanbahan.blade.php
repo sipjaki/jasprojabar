@@ -137,21 +137,15 @@
               <span style="color: green;">Sistem Informasi Pembina Jasa Konstruksi <br> Pemerinah Kabupaten Blora Provinsi Jawa Tengah</span>
               <span class="circle" data-aos="fade-right" data-aos-delay="600">.</span>
             </h2>
-            <p data-aos="fade-up" data-aos-delay="400" class="">You can easily change any design to
+            {{-- <p data-aos="fade-up" data-aos-delay="400" class="">You can easily change any design to
               your
               own. It is also highly customizable SEO friendly template.</p>
-            <div class="social" data-aos="fade-up" data-aos-delay="600">
-              <a href="https://github.com/GziXnine" target="_blank"><i class="fa-brands fa-github"></i></a>
-              <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
-              <a href="https://www.linkedin.com/in/1ahmed-allam/" target="_blank"><i
-                  class="fa-brands fa-linkedin"></i></a>
-              <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
-            </div>
+             --}}
             <div class="d-flex justify-content-start buttons">
               <button style="--ripples: 12;" class="btn-custom" data-aos="fade-up" data-aos-delay="700"
-                onclick="scrollToSection('#contact-us')">Get Quotes</button>
+                onclick="scrollToSection('#contact-us')">Daftar</button>
               <button style="--ripples: 12;" class="btn-custom" data-aos="fade-up" data-aos-delay="700"
-                onclick="scrollToSection('#services')">Get Started</button>
+                onclick="scrollToSection('#services')">Contact Us</button>
             </div>
           </div>
         </div>
