@@ -521,7 +521,7 @@
             style="transform: translate3d(-1593.6px, 0px, 0px); transition-duration: 0ms;">
             <div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-active" role="group"
               aria-label="4 / 8" style="width: 139.2px; margin-right: 60px;" data-swiper-slide-index="3"><img
-                src="images/client-4.png" class="img-fluid" alt=""></div>
+                src="/assets/masjakiblora/images/client-4.png" class="img-fluid" alt=""></div>
             <div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-next" role="group" aria-label="5 / 8"
               style="width: 139.2px; margin-right: 60px;" data-swiper-slide-index="4"><img src="/assets/masjakiblora/images/client-5.png"
                 class="img-fluid" alt=""></div>
@@ -535,9 +535,9 @@
               style="width: 139.2px; margin-right: 60px;" data-swiper-slide-index="7"><img src="/assets/masjakiblora/images/client-8.png"
                 class="img-fluid" alt=""></div>
             <div class="swiper-slide" role="group" aria-label="1 / 8" style="width: 139.2px; margin-right: 60px;"
-              data-swiper-slide-index="0"><img src="images/client-1.png" class="img-fluid" alt=""></div>
+              data-swiper-slide-index="0"><img src="/assets/masjakiblora/images/client-1.png" class="img-fluid" alt=""></div>
             <div class="swiper-slide" role="group" aria-label="2 / 8" style="width: 139.2px; margin-right: 60px;"
-              data-swiper-slide-index="1"><img src="images/client-2.png" class="img-fluid" alt=""></div>
+              data-swiper-slide-index="1"><img src="/assets/masjakiblora/images/client-2.png" class="img-fluid" alt=""></div>
             <div class="swiper-slide swiper-slide-prev" role="group" aria-label="3 / 8"
               style="width: 139.2px; margin-right: 60px;" data-swiper-slide-index="2"><img src="/assets/masjakiblora/images/client-3.png"
                 class="img-fluid" alt=""></div>
@@ -548,11 +548,11 @@
               style="width: 139.2px; margin-right: 60px;" data-swiper-slide-index="4"><img src="/assets/masjakiblora/images/client-5.png"
                 class="img-fluid" alt=""></div>
             <div class="swiper-slide" role="group" aria-label="6 / 8" style="width: 139.2px; margin-right: 60px;"
-              data-swiper-slide-index="5"><img src="images/client-6.png" class="img-fluid" alt=""></div>
+              data-swiper-slide-index="5"><img src="/assets/masjakiblora/images/client-6.png" class="img-fluid" alt=""></div>
             <div class="swiper-slide" role="group" aria-label="7 / 8" style="width: 139.2px; margin-right: 60px;"
-              data-swiper-slide-index="6"><img src="images/client-7.png" class="img-fluid" alt=""></div>
+              data-swiper-slide-index="6"><img src="/assets/masjakiblora/images/client-7.png" class="img-fluid" alt=""></div>
             <div class="swiper-slide" role="group" aria-label="8 / 8" style="width: 139.2px; margin-right: 60px;"
-              data-swiper-slide-index="7"><img src="images/client-8.png" class="img-fluid" alt=""></div>
+              data-swiper-slide-index="7"><img src="/assets/masjakiblora/images/client-8.png" class="img-fluid" alt=""></div>
             <div class="swiper-slide swiper-slide-duplicate" role="group" aria-label="1 / 8"
               style="width: 139.2px; margin-right: 60px;" data-swiper-slide-index="0"><img src="/assets/masjakiblora/images/client-1.png"
                 class="img-fluid" alt=""></div>
@@ -564,7 +564,7 @@
                 class="img-fluid" alt=""></div>
             <div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-active" role="group"
               aria-label="4 / 8" style="width: 139.2px; margin-right: 60px;" data-swiper-slide-index="3"><img
-                src="images/client-4.png" class="img-fluid" alt=""></div>
+                src="/assets/masjakiblora/images/client-4.png" class="img-fluid" alt=""></div>
             <div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-next" role="group" aria-label="5 / 8"
               style="width: 139.2px; margin-right: 60px;" data-swiper-slide-index="4"><img src="/assets/masjakiblora/images/client-5.png"
                 class="img-fluid" alt=""></div>
