@@ -848,8 +848,7 @@
         <div class="row">
           <div class="col-xl-6 col-lg-6 text-left text-lg-left">
             <div class="copyright-text">
-              <p>&copy; 2024 <a href="https://github.com/GziXnine" target="_blank"><span>Allam</span></a> All Right
-                Reserved
+              <p>&copy; 2025 Dinas Pekerjaan Umum dan Penataan Ruang Pemerintah Kabupaten Blora
               </p>
             </div>
           </div>
@@ -857,26 +856,4 @@
       </div>
     </div>
 
-    <button id="darkmode-button" class="btn rounded-circle">
-        <i class="fa-solid fa-moon"></i>
-      </button>
-
-  </footer>
-  <!-- ! End Footer -->
-  <!-- ! Start Scroll Button -->
-  <!-- TODO:-  -->
-  <a id="top" style="right: 20px;" href="#">
-    <i class="top fas fa-chevron-up"></i>
-  </a>
-  <!-- ! End Scroll Button -->
-  <!---------------------------------------------------------------------------->
-  <script src="/assets/masjakiblora/js/bootstrap.bundle.min.js"></script>
-  <!-- ! This Render Icon As SVG... -->
-  <script src="/assets/masjakiblora/js/all.min.js"></script>
-  <!-- ! JavaScript File -->
-  <script src="/assets/masjakiblora/js/main.js"></script>
-  <script src="/assets/masjakiblora/js/landing.js"></script>
-  <script src="/assets/masjakiblora/js/aos.js"></script>
-</body>
-
-</html>
+    @include('frontend.00_masjakibloraweb.footer')
