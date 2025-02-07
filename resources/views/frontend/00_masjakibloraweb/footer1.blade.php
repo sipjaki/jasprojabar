@@ -17,8 +17,7 @@
                 </p>
               </div>
               <div class="footer-social-icon">
-                <span>Follow us</span><a href="https://github.com/GziXnine" target="_blank"><i
-                    class="fa-brands fa-github"></i></a>
+                <span>Media Sosial</span>
                 <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
                 <a href="https://www.linkedin.com/in/1ahmed-allam/" target="_blank"><i
                     class="fa-brands fa-linkedin"></i></a>
