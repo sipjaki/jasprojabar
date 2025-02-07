@@ -26,14 +26,14 @@
           /* Ukuran lebih kecil untuk tablet */
           @media (max-width: 768px) {
               .logo {
-                  width: 40%;
+                  width: 20%;
               }
           }
         
           /* Ukuran lebih kecil untuk ponsel */
           @media (max-width: 480px) {
               .logo {
-                  width: 30%;
+                  width: 10%;
               }
           }
         </style>
