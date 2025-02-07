@@ -136,9 +136,14 @@
                     <li><a class="dropdown-item" href="about.html">Surat Keputusan</a></li>    
                 </ul>
               </li>
+
+              <li class="nav-item" style="font-size: 14px;">
+                <a class="nav-link" aria-current="page" href="index.html">Login</a>
+              </li>
+  
             
-          <button type="button" class="btn btn-primary rounded-pill get-quotes"><a href="contact.html">
-              Login</a></button>
+          {{-- <button type="button" class="btn btn-primary rounded-pill get-quotes"><a href="contact.html">
+              Login</a></button> --}}
           
         </div>
       </div>
