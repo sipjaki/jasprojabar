@@ -178,12 +178,12 @@
               <span style="color: green;">Sistem Informasi Pembina Jasa Konstruksi <br> Pemerinah Kabupaten Blora Provinsi Jawa Tengah</span>
               <span class="circle" data-aos="fade-right" data-aos-delay="800">.</span>
             </h2>
-            <p data-aos="fade-up" data-aos-delay="800" class="">Sistem ini dirancang untuk mendukung pengelolaan dan pembinaan jasa konstruksi di Kabupaten Blora, Provinsi Jawa Tengah</p>
+            <p data-aos="fade-up" data-aos-delay="200" class="">Sistem ini dirancang untuk mendukung pengelolaan dan pembinaan jasa konstruksi di Kabupaten Blora, Provinsi Jawa Tengah</p>
 
             <div class="d-flex justify-content-start buttons">
-              <button style="--ripples: 12;" class="btn-custom" data-aos="fade-up" data-aos-delay="800"
-                onclick="scrollToSection('#contact-us')">Daftar</button>
-              <button style="--ripples: 12;" class="btn-custom" data-aos="fade-up" data-aos-delay="800"
+              {{-- <button style="--ripples: 12;" class="btn-custom" data-aos="fade-up" data-aos-delay="800"
+                onclick="scrollToSection('#contact-us')">Daftar</button> --}}
+              <button style="--ripples: 12;" class="btn-custom" data-aos="fade-up" data-aos-delay="200"
                 onclick="scrollToSection('#services')">Contact Us</button>
                 <button id="darkmode-button" class="btn rounded-circle">
                     <i class="fa-solid fa-moon"></i>
