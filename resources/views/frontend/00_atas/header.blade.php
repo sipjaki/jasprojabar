@@ -17,11 +17,11 @@
     {{-- @vite('resources/js/app.css') --}}
 
     <!-- Laravel dengan Vite -->
-@vite('/resources/js/app.js')
+{{-- @vite('/resources/js/app.js') --}}
 
-    <link href="{{ mix('/resources/app.css') }}" rel="stylesheet">
+    {{-- <link href="{{ mix('/resources/app.css') }}" rel="stylesheet">
     <script type="module" src="{{ mix('/resources/js/app.js') }}"></script>
-    
+     --}}
 
     {{-- TEMPLATE 2 --}}
       <!-- Bootstrap CSS -->
