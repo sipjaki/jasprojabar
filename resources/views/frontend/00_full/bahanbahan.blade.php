@@ -23,7 +23,7 @@
               <a class="nav-link" aria-current="page" href="index.html">Beranda</a>
             </li>
 
-            <li class="nav-item dropdown" style="font-size:14px;">
+            <li class="nav-item dropdown" style="font-size:12px;">
                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                   aria-expanded="false">
                   Kelembagaan
@@ -35,7 +35,7 @@
                 </ul>
               </li>
 
-              <li class="nav-item dropdown" style="font-size:14px;">
+              <li class="nav-item dropdown" style="font-size:12px;">
                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                   aria-expanded="false">
                   Berita
@@ -47,7 +47,7 @@
                 </ul>
               </li>
             
-              <li class="nav-item dropdown" style="font-size:14px;">
+              <li class="nav-item dropdown" style="font-size:12px;">
                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                   aria-expanded="false">
                   Data Jakon
@@ -59,7 +59,7 @@
                 </ul>
               </li>
             
-              <li class="nav-item dropdown" style="font-size:14px;">
+              <li class="nav-item dropdown" style="font-size:12px;">
                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                   aria-expanded="false">
                   Pembinaan
@@ -73,7 +73,7 @@
                 </ul>
               </li>
             
-              <li class="nav-item dropdown" style="font-size:14px;">
+              <li class="nav-item dropdown" style="font-size:12px;">
                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                   aria-expanded="false">
                   Pengawasan
@@ -87,26 +87,56 @@
                 </ul>
               </li>
             
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                aria-expanded="false">
-                Menu
-              </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="about.html">About</a></li>
-                <li><a class="dropdown-item" href="packages.html">Pricing</a></li>
-                <li><a class="dropdown-item" href="faqs.html">FAQs</a></li>
-                <li><a class="dropdown-item" href="privacy-policy.html">Terms & Conditions</a></li>
-                <li><a class="dropdown-item" href="privacy-policy.html">Privacy Policy</a></li>
-                <li><a class="dropdown-item" href="blogs.html">Blogs</a></li>
-                <li><a class="dropdown-item" href="blog-details.html">Blog Detail Page</a></li>
-              </ul>
-            </li>
-
-            <li class="nav-item">
-              <a class="nav-link" href="blogs.html">News</a>
-            </li>
-          </ul>
+              <li class="nav-item dropdown" style="font-size:12px;">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Rantai Pasok
+                </a>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="about.html">Material Bangunan Gedung</a></li>    
+                    <li><a class="dropdown-item" href="about.html">Peralatan Konstruksi</a></li>    
+                    <li><a class="dropdown-item" href="about.html">Toko Bangunan Kab Blora</a></li>    
+                    <li><a class="dropdown-item" href="about.html">Distribusi Kab Blora</a></li>    
+                    {{-- <li><a class="dropdown-item" href="about.html">Workshop</a></li>    
+                    <li><a class="dropdown-item" href="about.html">Daftar Tenaga Ahli</a></li>     --}}
+                </ul>
+              </li>
+            
+              <li class="nav-item dropdown" style="font-size:12px;">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  AHSP
+                </a>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="about.html">Harga Satuan Dasar</a></li>    
+                    <li><a class="dropdown-item" href="about.html">HSP Konstruksi Umum</a></li>    
+                    <li><a class="dropdown-item" href="about.html">SHST Konstruksi</a></li>    
+                    <li><a class="dropdown-item" href="about.html">Daftar Material</a></li>    
+                    {{-- <li><a class="dropdown-item" href="about.html">Workshop</a></li>    
+                    <li><a class="dropdown-item" href="about.html">Daftar Tenaga Ahli</a></li>     --}}
+                </ul>
+              </li>
+             
+              <li class="nav-item dropdown" style="font-size:12px;">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Peraturan
+                </a>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="about.html">Undang - Undang</a></li>    
+                    <li><a class="dropdown-item" href="about.html">Peraturan Pemerintah</a></li>    
+                    <li><a class="dropdown-item" href="about.html">Peraturan Presiden </a></li>    
+                    <li><a class="dropdown-item" href="about.html">Peraturan Menteri</a></li>    
+                    <li><a class="dropdown-item" href="about.html">Keputusan Menteri</a></li>    
+                    <li><a class="dropdown-item" href="about.html">Surat Edaran Menteri</a></li>    
+                    <li><a class="dropdown-item" href="about.html">Referensi</a></li>    
+                    <li><a class="dropdown-item" href="about.html">Peraturan Daerah</a></li>    
+                    <li><a class="dropdown-item" href="about.html">Peraturan Gubernur</a></li>    
+                    <li><a class="dropdown-item" href="about.html">Peraturan Walikota/Bupati</a></li>    
+                    <li><a class="dropdown-item" href="about.html">Surat Keputusan</a></li>    
+                </ul>
+              </li>
+            
           <button type="button" class="btn btn-primary rounded-pill get-quotes"><a href="contact.html">
               Login</a></button>
           <button id="darkmode-button" class="btn rounded-circle">
