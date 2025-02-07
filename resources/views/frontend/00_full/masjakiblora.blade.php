@@ -47,7 +47,7 @@
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
           <ul class="navbar-nav">
             {{-- ================================================================ --}}
-            <li class="nav-item">
+            <li class="nav-item" style="margin-left: 20px;">
               <a style="font-size: 14px;" class="nav-link" aria-current="page" href="/">Beranda</a>
             </li>
 
