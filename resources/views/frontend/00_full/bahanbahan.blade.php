@@ -4,47 +4,8 @@
   <!-- ! Start Header -->
   <header class="d-flex align-items-center fixed-top justify-content-around bg-transparent">
     <!-- ! Start Navbar -->
-
-
     <nav class="navbar navbar-expand-lg">
       <div class="container">
-        
-    <style>
-        .marquee-container {
-            width: 250px;
-            overflow: hidden;
-            white-space: nowrap;
-            box-sizing: border-box;
-            border: 1px solid #000;
-            width: 375px;
-            padding: 5px 10px;
-            margin-top: 2.5px;
-            margin-bottom: 2px;
-            border-radius: 20px;
-            background: #000000;
-            
-        }
-        .marquee {
-            display: inline-block;
-            padding-left: 100%;
-            animation: marquee 15s linear infinite;
-        }
-
-        @keyframes marquee {
-            from {
-                transform: translateX(0);
-            }
-            to {
-                transform: translateX(-100%);
-            }
-        }
-    </style>
-    
-<div class="marquee-container" style="position: absolute; top: 0; right: 0; width: auto;">
-    <div class="marquee" style="color: white; white-space: nowrap;">
-        Selamat Datang! di Web Resmi Mas Jaki Dinas Pekerjaan Umum & Penataan Ruang Blora, Sistem Informasi Pembina Jasa Konstruksi Pemerintah Kabupaten Blora Provinsi Jawa Tengah
-    </div>
-</div>
         <a class="navbar-brand" href="index.html">
           <img src="/assets/icon/pupr.png" alt="Technoit" class="img-fluid" style="margin-right:5px; width:55%;">
           <img src="/assets/icon/logokabupatenblora.png" alt="Technoit" class="img-fluid" style="width:55%; margin-right:7px;">
@@ -55,8 +16,6 @@
             <i class="fa-solid fa-sliders"></i>
           </span>
         </button>
-
-
 
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
           <ul class="navbar-nav">
@@ -212,9 +171,6 @@
       </div>
       <div class="container letters">
         <div class="row gy-5">
-           
-        
-
           <div
             class="col-lg-7 offset-lg-5 dark-bg order-lg-1 d-flex flex-column justify-content-start text-left caption">
             <h2 data-aos="fade-up" class="">Selamat Datang ! di 
