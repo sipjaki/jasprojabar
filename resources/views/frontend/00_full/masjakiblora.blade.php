@@ -6,15 +6,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Technoit</title>
   <!-- ! Page Title Icon -->
-  <link rel="icon" href="/assets/masjakiblora/images/microchip-solid.svg" type="/assets/masjakiblora/image/svg+xml">
+  <link rel="icon" href="public/assets/masjakiblora/images/microchip-solid.svg" type="image/svg+xml">
   <!-- ! Font Awesome Library -->
-  <link rel="stylesheet" href="/assets/masjakiblora/css/all.min.css">
+  <link rel="stylesheet" href="public/assets/masjakiblora/css/all.min.css">
   <!-- ! Bootstrap -->
-  <link rel="stylesheet" href="/assets/masjakiblora/css/bootstrap.min.css">
+  <link rel="stylesheet" href="public/assets/masjakiblora/css/bootstrap.min.css">
   <!-- ! Main Template CSS File -->
-  <link rel="stylesheet" href="/assets/masjakiblora/css/style.css">
-  <link rel="stylesheet" href="/assets/masjakiblora/css/darkMode.css">
-  <link rel="stylesheet" href="/assets/masjakiblora/css/aos.css">
+  <link rel="stylesheet" href="public/assets/masjakiblora/css/style.css">
+  <link rel="stylesheet" href="public/assets/masjakiblora/css/darkMode.css">
+  <link rel="stylesheet" href="public/assets/masjakiblora/css/aos.css">
   <!-- ! Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
@@ -34,7 +34,7 @@
     <nav class="navbar navbar-expand-lg">
       <div class="container">
         <a class="navbar-brand" href="index.html">
-          <img src="/assets/masjakiblora/images/logo.png" alt="Technoit" class="img-fluid">
+          <img src="public/assets/masjakiblora/images/logo.png" alt="Technoit" class="img-fluid">
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
           aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -108,7 +108,7 @@
               your
               own. It is also highly customizable SEO friendly template.</p>
             <div class="social" data-aos="fade-up" data-aos-delay="600">
-              {{-- <a href="https://github.com/GziXnine" target="_blank"><i class="fa-brands fa-github"></i></a> --}}
+              <a href="https://github.com/GziXnine" target="_blank"><i class="fa-brands fa-github"></i></a>
               <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
               <a href="https://www.linkedin.com/in/1ahmed-allam/" target="_blank"><i
                   class="fa-brands fa-linkedin"></i></a>
@@ -129,32 +129,32 @@
     <div class="services py-5" id="services">
       <div class="container">
         <div data-aos="fade-up" data-aos-delay="100">
-          <img src="/assets/masjakiblora/images/service-design.svg" alt="">
+          <img src="public/assets/masjakiblora/images/service-design.svg" alt="">
           <h4>Application Design</h4>
           <p>Ronsectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
         </div>
         <div data-aos="fade-up" data-aos-delay="200">
-          <img src="/assets/masjakiblora/images/service-hosting.svg" alt="">
+          <img src="public/assets/masjakiblora/images/service-hosting.svg" alt="">
           <h4>Web Hosting</h4>
           <p>Ronsectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
         </div>
         <div data-aos="fade-up" data-aos-delay="500">
-          <img src="/assets/masjakiblora/images/service-social.svg" alt="">
+          <img src="public/assets/masjakiblora/images/service-social.svg" alt="">
           <h4>Social Media</h4>
           <p>Ronsectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
         </div>
         <div data-aos="fade-up" data-aos-delay="100">
-          <img src="/assets/masjakiblora/images/service-seo.svg" alt="">
+          <img src="public/assets/masjakiblora/images/service-seo.svg" alt="">
           <h4>SEO Optimization</h4>
           <p>Ronsectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
         </div>
         <div data-aos="fade-up" data-aos-delay="200">
-          <img src="/assets/masjakiblora/images/service-cloud.svg" alt="">
+          <img src="public/assets/masjakiblora/images/service-cloud.svg" alt="">
           <h4>Cloud Server</h4>
           <p>Ronsectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
         </div>
         <div data-aos="fade-up" data-aos-delay="500">
-          <img src="/assets/masjakiblora/images/service-secure.svg" alt="">
+          <img src="public/assets/masjakiblora/images/service-secure.svg" alt="">
           <h4>Data Security</h4>
           <p>Ronsectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
         </div>
@@ -176,49 +176,49 @@
                   <h4>Experience</h4>
                   <p>Ronsectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
                 </div>
-                <img src="/assets/masjakiblora/images/icon-1.svg" alt="">
+                <img src="public/assets/masjakiblora/images/icon-1.svg" alt="">
               </div>
               <div class="col-lg-12 box" data-aos="fade-up" data-aos-delay="400">
                 <div class="text">
                   <h4>Products</h4>
                   <p>Ronsectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
                 </div>
-                <img src="/assets/masjakiblora/images/icon-2.svg" alt="">
+                <img src="public/assets/masjakiblora/images/icon-2.svg" alt="">
               </div>
               <div class="col-lg-12 box" data-aos="fade-up" data-aos-delay="500">
                 <div class="text">
                   <h4>Approach</h4>
                   <p>Ronsectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
                 </div>
-                <img src="/assets/masjakiblora/images/icon-3.svg" alt="">
+                <img src="public/assets/masjakiblora/images/icon-3.svg" alt="">
               </div>
             </div>
           </div>
           <div class="col-lg-4 col-sm-12 center">
             <div class="row">
               <div class="col-lg-4 col-sm-12" data-aos="fade-up" data-aos-delay="500">
-                <img src="/assets/masjakiblora/images/features.jpg" alt="" class="middle">
+                <img src="public/assets/masjakiblora/images/features.jpg" alt="" class="middle">
               </div>
             </div>
           </div>
           <div class="col-lg-4 col-sm-12 right">
             <div class="row">
               <div class="col-lg-12 box" data-aos="fade-up" data-aos-delay="100">
-                <img src="/assets/masjakiblora/images/icon-4.svg" alt="">
+                <img src="public/assets/masjakiblora/images/icon-4.svg" alt="">
                 <div class="text">
                   <h4>Pricing</h4>
                   <p>Ronsectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
                 </div>
               </div>
               <div class="col-lg-12 box" data-aos="fade-up" data-aos-delay="400">
-                <img src="/assets/masjakiblora/images/icon-5.svg" alt="">
+                <img src="public/assets/masjakiblora/images/icon-5.svg" alt="">
                 <div class="text">
                   <h4>Delivery</h4>
                   <p>Ronsectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
                 </div>
               </div>
               <div class="col-lg-12 box" data-aos="fade-up" data-aos-delay="500">
-                <img src="/assets/masjakiblora/images/icon-6.svg" alt="">
+                <img src="public/assets/masjakiblora/images/icon-6.svg" alt="">
                 <div class="text">
                   <h4>Support</h4>
                   <p>Ronsectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
@@ -248,22 +248,22 @@
         <div class="photos">
           <div class="container">
             <div class="photo all app-des" data-aos="fade-up" data-aos-delay="100">
-              <img src="/assets/masjakiblora/images/product-1.jpg" alt="">
+              <img src="public/assets/masjakiblora/images/product-1.jpg" alt="">
             </div>
             <div class="photo all app-dev" data-aos="fade-up" data-aos-delay="200">
-              <img src="/assets/masjakiblora/images/product-2.jpg" alt="">
+              <img src="public/assets/masjakiblora/images/product-2.jpg" alt="">
             </div>
             <div class="photo all brand" data-aos="fade-up" data-aos-delay="400">
-              <img src="/assets/masjakiblora/images/product-3.jpg" alt="">
+              <img src="public/assets/masjakiblora/images/product-3.jpg" alt="">
             </div>
             <div class="photo all it-sol" data-aos="fade-up" data-aos-delay="100">
-              <img src="/assets/masjakiblora/images/product-4.jpg" alt="">
+              <img src="public/assets/masjakiblora/images/product-4.jpg" alt="">
             </div>
             <div class="photo all app-des" data-aos="fade-up" data-aos-delay="200">
-              <img src="/assets/masjakiblora/images/product-5.jpg" alt="">
+              <img src="public/assets/masjakiblora/images/product-5.jpg" alt="">
             </div>
             <div class="photo all brand" data-aos="fade-up" data-aos-delay="500">
-              <img src="/assets/masjakiblora/images/product-6.jpg" alt="">
+              <img src="public/assets/masjakiblora/images/product-6.jpg" alt="">
             </div>
           </div>
         </div>
@@ -370,7 +370,7 @@
               <div class="testimonial-wrap">
                 <div class="testimonial-item">
                   <div class="d-flex align-items-center info-box">
-                    <img src="/assets/masjakiblora/images/testimonial-4.jpg" class="testimonial-img flex-shrink-0" alt="">
+                    <img src="public/assets/masjakiblora/images/testimonial-4.jpg" class="testimonial-img flex-shrink-0" alt="">
                     <div>
                       <h3>Fizzi Brandon</h3>
                       <h4>Freelancer</h4>
@@ -399,7 +399,7 @@
               <div class="testimonial-wrap">
                 <div class="testimonial-item">
                   <div class="d-flex align-items-center info-box">
-                    <img src="/assets/masjakiblora/images/testimonial-1.jpg" class="testimonial-img flex-shrink-0" alt="">
+                    <img src="public/assets/masjakiblora/images/testimonial-1.jpg" class="testimonial-img flex-shrink-0" alt="">
                     <div>
                       <h3>Jhone Doe</h3>
                       <h4>CFO</h4>
@@ -428,7 +428,7 @@
               <div class="testimonial-wrap">
                 <div class="testimonial-item">
                   <div class="d-flex align-items-center info-box">
-                    <img src="/assets/masjakiblora/images/testimonial-2.jpg" class="testimonial-img flex-shrink-0" alt="">
+                    <img src="public/assets/masjakiblora/images/testimonial-2.jpg" class="testimonial-img flex-shrink-0" alt="">
                     <div>
                       <h3>Afa Rose</h3>
                       <h4>Web Designer</h4>
@@ -457,7 +457,7 @@
               <div class="testimonial-wrap">
                 <div class="testimonial-item">
                   <div class="d-flex align-items-center info-box">
-                    <img src="/assets/masjakiblora/images/testimonial-3.jpg" class="testimonial-img flex-shrink-0" alt="">
+                    <img src="public/assets/masjakiblora/images/testimonial-3.jpg" class="testimonial-img flex-shrink-0" alt="">
                     <div>
                       <h3>Keena Lara</h3>
                       <h4>Store Owner</h4>
@@ -489,21 +489,21 @@
       <div class="container" data-aos="fade-up">
         <div class="row">
           <div class="col-lg-4 col-md-6 col-sm-12 box">
-            <img src="/assets/masjakiblora/images/happy-clients.svg" alt="">
+            <img src="public/assets/masjakiblora/images/happy-clients.svg" alt="">
             <span class="number" data-prog="232">0
             </span>
             <h4>Happy Clients</h4>
             <p>consequuntur quae diredo</p>
           </div>
           <div class="col-lg-4 col-md-6 col-sm-12 box">
-            <img src="/assets/masjakiblora/images/complete-projects.svg" alt="">
+            <img src="public/assets/masjakiblora/images/complete-projects.svg" alt="">
             <span class="number" data-prog="521">0
             </span>
             <h4>Completed Projects</h4>
             <p>adipisci atque quia aut</p>
           </div>
           <div class="col-lg-4 col-md-6 col-sm-12 box">
-            <img src="/assets/masjakiblora/images/hours-support.svg" alt="">
+            <img src="public/assets/masjakiblora/images/hours-support.svg" alt="">
             <span class="number" data-prog="453">0
             </span>
             <h4>Hours Of Support</h4>
@@ -521,52 +521,52 @@
             style="transform: translate3d(-1593.6px, 0px, 0px); transition-duration: 0ms;">
             <div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-active" role="group"
               aria-label="4 / 8" style="width: 139.2px; margin-right: 60px;" data-swiper-slide-index="3"><img
-                src="/assets/masjakiblora/images/client-4.png" class="img-fluid" alt=""></div>
+                src="public/assets/masjakiblora/images/client-4.png" class="img-fluid" alt=""></div>
             <div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-next" role="group" aria-label="5 / 8"
-              style="width: 139.2px; margin-right: 60px;" data-swiper-slide-index="4"><img src="/assets/masjakiblora/images/client-5.png"
+              style="width: 139.2px; margin-right: 60px;" data-swiper-slide-index="4"><img src="public/assets/masjakiblora/images/client-5.png"
                 class="img-fluid" alt=""></div>
             <div class="swiper-slide swiper-slide-duplicate" role="group" aria-label="6 / 8"
-              style="width: 139.2px; margin-right: 60px;" data-swiper-slide-index="5"><img src="/assets/masjakiblora/images/client-6.png"
+              style="width: 139.2px; margin-right: 60px;" data-swiper-slide-index="5"><img src="public/assets/masjakiblora/images/client-6.png"
                 class="img-fluid" alt=""></div>
             <div class="swiper-slide swiper-slide-duplicate" role="group" aria-label="7 / 8"
-              style="width: 139.2px; margin-right: 60px;" data-swiper-slide-index="6"><img src="/assets/masjakiblora/images/client-7.png"
+              style="width: 139.2px; margin-right: 60px;" data-swiper-slide-index="6"><img src="public/assets/masjakiblora/images/client-7.png"
                 class="img-fluid" alt=""></div>
             <div class="swiper-slide swiper-slide-duplicate" role="group" aria-label="8 / 8"
-              style="width: 139.2px; margin-right: 60px;" data-swiper-slide-index="7"><img src="/assets/masjakiblora/images/client-8.png"
+              style="width: 139.2px; margin-right: 60px;" data-swiper-slide-index="7"><img src="public/assets/masjakiblora/images/client-8.png"
                 class="img-fluid" alt=""></div>
             <div class="swiper-slide" role="group" aria-label="1 / 8" style="width: 139.2px; margin-right: 60px;"
-              data-swiper-slide-index="0"><img src="/assets/masjakiblora/images/client-1.png" class="img-fluid" alt=""></div>
+              data-swiper-slide-index="0"><img src="public/assets/masjakiblora/images/client-1.png" class="img-fluid" alt=""></div>
             <div class="swiper-slide" role="group" aria-label="2 / 8" style="width: 139.2px; margin-right: 60px;"
-              data-swiper-slide-index="1"><img src="/assets/masjakiblora/images/client-2.png" class="img-fluid" alt=""></div>
+              data-swiper-slide-index="1"><img src="public/assets/masjakiblora/images/client-2.png" class="img-fluid" alt=""></div>
             <div class="swiper-slide swiper-slide-prev" role="group" aria-label="3 / 8"
-              style="width: 139.2px; margin-right: 60px;" data-swiper-slide-index="2"><img src="/assets/masjakiblora/images/client-3.png"
+              style="width: 139.2px; margin-right: 60px;" data-swiper-slide-index="2"><img src="public/assets/masjakiblora/images/client-3.png"
                 class="img-fluid" alt=""></div>
             <div class="swiper-slide swiper-slide-active" role="group" aria-label="4 / 8"
-              style="width: 139.2px; margin-right: 60px;" data-swiper-slide-index="3"><img src="/assets/masjakiblora/images/client-4.png"
+              style="width: 139.2px; margin-right: 60px;" data-swiper-slide-index="3"><img src="public/assets/masjakiblora/images/client-4.png"
                 class="img-fluid" alt=""></div>
             <div class="swiper-slide swiper-slide-next" role="group" aria-label="5 / 8"
-              style="width: 139.2px; margin-right: 60px;" data-swiper-slide-index="4"><img src="/assets/masjakiblora/images/client-5.png"
+              style="width: 139.2px; margin-right: 60px;" data-swiper-slide-index="4"><img src="public/assets/masjakiblora/images/client-5.png"
                 class="img-fluid" alt=""></div>
             <div class="swiper-slide" role="group" aria-label="6 / 8" style="width: 139.2px; margin-right: 60px;"
-              data-swiper-slide-index="5"><img src="/assets/masjakiblora/images/client-6.png" class="img-fluid" alt=""></div>
+              data-swiper-slide-index="5"><img src="public/assets/masjakiblora/images/client-6.png" class="img-fluid" alt=""></div>
             <div class="swiper-slide" role="group" aria-label="7 / 8" style="width: 139.2px; margin-right: 60px;"
-              data-swiper-slide-index="6"><img src="/assets/masjakiblora/images/client-7.png" class="img-fluid" alt=""></div>
+              data-swiper-slide-index="6"><img src="public/assets/masjakiblora/images/client-7.png" class="img-fluid" alt=""></div>
             <div class="swiper-slide" role="group" aria-label="8 / 8" style="width: 139.2px; margin-right: 60px;"
-              data-swiper-slide-index="7"><img src="/assets/masjakiblora/images/client-8.png" class="img-fluid" alt=""></div>
+              data-swiper-slide-index="7"><img src="public/assets/masjakiblora/images/client-8.png" class="img-fluid" alt=""></div>
             <div class="swiper-slide swiper-slide-duplicate" role="group" aria-label="1 / 8"
-              style="width: 139.2px; margin-right: 60px;" data-swiper-slide-index="0"><img src="/assets/masjakiblora/images/client-1.png"
+              style="width: 139.2px; margin-right: 60px;" data-swiper-slide-index="0"><img src="public/assets/masjakiblora/images/client-1.png"
                 class="img-fluid" alt=""></div>
             <div class="swiper-slide swiper-slide-duplicate" role="group" aria-label="2 / 8"
-              style="width: 139.2px; margin-right: 60px;" data-swiper-slide-index="1"><img src="/assets/masjakiblora/images/client-2.png"
+              style="width: 139.2px; margin-right: 60px;" data-swiper-slide-index="1"><img src="public/assets/masjakiblora/images/client-2.png"
                 class="img-fluid" alt=""></div>
             <div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-prev" role="group" aria-label="3 / 8"
-              style="width: 139.2px; margin-right: 60px;" data-swiper-slide-index="2"><img src="/assets/masjakiblora/images/client-3.png"
+              style="width: 139.2px; margin-right: 60px;" data-swiper-slide-index="2"><img src="public/assets/masjakiblora/images/client-3.png"
                 class="img-fluid" alt=""></div>
             <div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-active" role="group"
               aria-label="4 / 8" style="width: 139.2px; margin-right: 60px;" data-swiper-slide-index="3"><img
-                src="/assets/masjakiblora/images/client-4.png" class="img-fluid" alt=""></div>
+                src="public/assets/masjakiblora/images/client-4.png" class="img-fluid" alt=""></div>
             <div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-next" role="group" aria-label="5 / 8"
-              style="width: 139.2px; margin-right: 60px;" data-swiper-slide-index="4"><img src="/assets/masjakiblora/images/client-5.png"
+              style="width: 139.2px; margin-right: 60px;" data-swiper-slide-index="4"><img src="public/assets/masjakiblora/images/client-5.png"
                 class="img-fluid" alt=""></div>
           </div>
           <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>
@@ -583,7 +583,7 @@
       <div class="container" data-aos="fade-up">
         <div class="row">
           <div class="col-lg-3 col-md-6 col-sm-12 box" data-aos="fade-up">
-            <img src="/assets/masjakiblora/images/team-1.jpg" alt="">
+            <img src="public/assets/masjakiblora/images/team-1.jpg" alt="">
             <h5>Jhone Bi</h5>
             <p>Application Manager</p>
             <div class="social" data-aos="fade-up" data-aos-delay="400">
@@ -595,7 +595,7 @@
             </div>
           </div>
           <div class="col-lg-3 col-md-6 col-sm-12 box" data-aos="fade-up">
-            <img src="/assets/masjakiblora/images/team-2.jpg" alt="">
+            <img src="public/assets/masjakiblora/images/team-2.jpg" alt="">
             <h5>Sani Awesome</h5>
             <p>Social Media</p>
             <div class="social" data-aos="fade-up" data-aos-delay="400">
@@ -607,7 +607,7 @@
             </div>
           </div>
           <div class="col-lg-3 col-md-6 col-sm-12 box" data-aos="fade-up">
-            <img src="/assets/masjakiblora/images/team-3.jpg" alt="">
+            <img src="public/assets/masjakiblora/images/team-3.jpg" alt="">
             <h5>Andrio Willi</h5>
             <p>Content Writer</p>
             <div class="social" data-aos="fade-up" data-aos-delay="400">
@@ -619,7 +619,7 @@
             </div>
           </div>
           <div class="col-lg-3 col-md-6 col-sm-12 box" data-aos="fade-up">
-            <img src="/assets/masjakiblora/images/team-4.jpg" alt="">
+            <img src="public/assets/masjakiblora/images/team-4.jpg" alt="">
             <h5>Afa Jonson</h5>
             <p>Business Manager</p>
             <div class="social" data-aos="fade-up" data-aos-delay="400">
@@ -773,7 +773,7 @@
           <div class="col-lg-4 col-md-6 col-sm-12">
             <div class="card" data-aos="fade-up" data-aos-delay="100">
               <div class="box">
-                <img src="/assets/masjakiblora/images/blog-1.jpg" class="card-img-top" alt="...">
+                <img src="public/assets/masjakiblora/images/blog-1.jpg" class="card-img-top" alt="...">
               </div>
               <div class="card-body">
                 <p>Domain & Hosting</p>
@@ -787,7 +787,7 @@
           <div class="col-lg-4 col-md-6 col-sm-12">
             <div class="card" data-aos="fade-up" data-aos-delay="400">
               <div class="box">
-                <img src="/assets/masjakiblora/images/blog-2.jpg" class="card-img-top" alt="...">
+                <img src="public/assets/masjakiblora/images/blog-2.jpg" class="card-img-top" alt="...">
               </div>
               <div class="card-body">
                 <p>Advertisement</p>
@@ -801,7 +801,7 @@
           <div class="col-lg-4 col-md-6 col-sm-12">
             <div class="card" data-aos="fade-up" data-aos-delay="600">
               <div class="box">
-                <img src="/assets/masjakiblora/images/blog-3.jpg" class="card-img-top" alt="...">
+                <img src="public/assets/masjakiblora/images/blog-3.jpg" class="card-img-top" alt="...">
               </div>
               <div class="card-body">
                 <p>Marketing</p>
@@ -905,7 +905,7 @@
             <div class="footer-widget">
               <div class="footer-logo">
                 <a href="index.html" class="logo d-flex align-items-center">
-                  <img src="/assets/masjakiblora/images/logo.png" alt="logo">
+                  <img src="public/assets/masjakiblora/images/logo.png" alt="logo">
                 </a>
               </div>
               <div class="footer-text">
@@ -914,8 +914,8 @@
                   elit,Lorem ipsum dolor sit amet.</p>
               </div>
               <div class="footer-social-icon">
-                {{-- <span>Follow us</span><a href="https://github.com/GziXnine" target="_blank"><i
-                    class="fa-brands fa-github"></i></a> --}}
+                <span>Follow us</span><a href="https://github.com/GziXnine" target="_blank"><i
+                    class="fa-brands fa-github"></i></a>
                 <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
                 <a href="https://www.linkedin.com/in/1ahmed-allam/" target="_blank"><i
                     class="fa-brands fa-linkedin"></i></a>
@@ -988,13 +988,13 @@
           </div>
         </div>
         <div class="row">
-          {{-- <div class="col-xl-6 col-lg-6 text-left text-lg-left">
+          <div class="col-xl-6 col-lg-6 text-left text-lg-left">
             <div class="copyright-text">
               <p>&copy; 2024 <a href="https://github.com/GziXnine" target="_blank"><span>Allam</span></a> All Right
                 Reserved
               </p>
             </div>
-          </div> --}}
+          </div>
         </div>
       </div>
     </div>
@@ -1007,13 +1007,13 @@
   </a>
   <!-- ! End Scroll Button -->
   <!---------------------------------------------------------------------------->
-  <script src="/assets/masjakiblorajs/bootstrap.bundle.min.js"></script>
+  <script src="public/assets/masjakiblora/js/bootstrap.bundle.min.js"></script>
   <!-- ! This Render Icon As SVG... -->
-  <script src="/assets/masjakiblorajs/all.min.js"></script>
+  <script src="public/assets/masjakiblora/js/all.min.js"></script>
   <!-- ! JavaScript File -->
-  <script src="/assets/masjakiblorajs/main.js"></script>
-  <script src="/assets/masjakiblorajs/landing.js"></script>
-  <script src="/assets/masjakiblorajs/aos.js"></script>
+  <script src="public/assets/masjakiblora/js/main.js"></script>
+  <script src="public/assets/masjakiblora/js/landing.js"></script>
+  <script src="public/assets/masjakiblora/js/aos.js"></script>
 </body>
 
 </html>
