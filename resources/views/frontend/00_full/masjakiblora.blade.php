@@ -50,7 +50,7 @@
             </li>
 
             <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                <a style="font-size: 14px;" class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                   aria-expanded="false">
                   Kelembagaan
                 </a>
@@ -65,184 +65,122 @@
                 </ul>
               </li>
 
-
-              {{-- =================================================================== --}}
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+            
+              <li class="nav-item dropdown">
+                <a style="font-size: 14px;" class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                   aria-expanded="false">
                   Berita
                 </a>
-                
                 <ul class="dropdown-menu">
                   <li><a class="dropdown-item" href="about.html">Jasa Konstruksi</a></li>
+                  <li><a class="dropdown-item" href="packages.html">Dokumentasi Sertifikasi</a></li>
+                  <li><a class="dropdown-item" href="faqs.html">Agenda Sertifikasi</a></li>
+                  {{-- <li><a class="dropdown-item" href="privacy-policy.html">Terms & Conditions</a></li>
+                  <li><a class="dropdown-item" href="privacy-policy.html">Privacy Policy</a></li>
+                  <li><a class="dropdown-item" href="blogs.html">Blogs</a></li>
+                  <li><a class="dropdown-item" href="blog-details.html">Blog Detail Page</a></li> --}}
                 </ul>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="about.html">Dokumentasi Sertifikasi</a></li>
-                </ul>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="about.html">Agenda Sertifikasi</a></li>
-                </ul>
-
               </li>
-            
-              
-              {{-- =================================================================== --}}
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+
+              <li class="nav-item dropdown">
+                <a style="font-size: 14px;" class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                   aria-expanded="false">
-                  Data Jakon
+                  Data Jakon 
                 </a>
-                
                 <ul class="dropdown-menu">
                   <li><a class="dropdown-item" href="about.html">BUJK Kontraktor</a></li>
+                  <li><a class="dropdown-item" href="packages.html">BUJK Konsultan</a></li>
+                  <li><a class="dropdown-item" href="faqs.html">Tenaga Kerja</a></li>
+                  {{-- <li><a class="dropdown-item" href="privacy-policy.html">Terms & Conditions</a></li>
+                  <li><a class="dropdown-item" href="privacy-policy.html">Privacy Policy</a></li>
+                  <li><a class="dropdown-item" href="blogs.html">Blogs</a></li>
+                  <li><a class="dropdown-item" href="blog-details.html">Blog Detail Page</a></li> --}}
                 </ul>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="about.html">BUJK Konsultan</a></li>
-                </ul>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="about.html">Tenaga Kerja</a></li>
-                </ul>
-
               </li>
-            
-              {{-- =================================================================== --}}
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+           
+              <li class="nav-item dropdown">
+                <a style="font-size: 14px;" class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                   aria-expanded="false">
-                  Pembinaan
+                  Pembinaan 
                 </a>
-                
                 <ul class="dropdown-menu">
                   <li><a class="dropdown-item" href="about.html">Pelatihan</a></li>
+                  <li><a class="dropdown-item" href="packages.html">Bimbingan Teknis</a></li>
+                  <li><a class="dropdown-item" href="faqs.html">SKK Tenaga Ahli</a></li>
+                  <li><a class="dropdown-item" href="privacy-policy.html">Workshop</a></li>
+                  <li><a class="dropdown-item" href="privacy-policy.html">Daftar Tenaga Ahli</a></li>
+                  {{-- <li><a class="dropdown-item" href="blogs.html">Blogs</a></li>
+                  <li><a class="dropdown-item" href="blog-details.html">Blog Detail Page</a></li> --}}
                 </ul>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="about.html">Bimbingan Teknis</a></li>
-                </ul>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="about.html">SKK Tenaga Ahli</a></li>
-                </ul>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="about.html">Workshop</a></li>
-                </ul>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="about.html">Daftar Tenaga Ahli</a></li>
-                </ul>
-
               </li>
-            
-              {{-- =================================================================== --}}
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+           
+              <li class="nav-item dropdown">
+                <a style="font-size: 14px;" class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                   aria-expanded="false">
                   Pengawasan 
                 </a>
-                
                 <ul class="dropdown-menu">
                   <li><a class="dropdown-item" href="about.html">Pengawasan BUJK</a></li>
+                  <li><a class="dropdown-item" href="packages.html">Kecelakaan Kerja</a></li>
+                  <li><a class="dropdown-item" href="faqs.html">Tertib Jasa Konstruksi</a></li>
+                  {{-- <li><a class="dropdown-item" href="privacy-policy.html">Workshop</a></li>
+                  <li><a class="dropdown-item" href="privacy-policy.html">Daftar Tenaga Ahli</a></li>
+                  <li><a class="dropdown-item" href="blogs.html">Blogs</a></li>
+                  <li><a class="dropdown-item" href="blog-details.html">Blog Detail Page</a></li> --}}
                 </ul>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="about.html">Kecelakaan Kerja</a></li>
-                </ul>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="about.html">Tertib Jasa Konstruksi</a></li>
-                </ul>
-                
               </li>
-            
-            
-              {{-- =================================================================== --}}
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+
+              <li class="nav-item dropdown">
+                <a style="font-size: 14px;" class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                   aria-expanded="false">
                   Rantai Pasok  
                 </a>
-                
                 <ul class="dropdown-menu">
                   <li><a class="dropdown-item" href="about.html">Material Bangunan Gedung</a></li>
+                  <li><a class="dropdown-item" href="packages.html">Peralatan Konstruksi</a></li>
+                  <li><a class="dropdown-item" href="faqs.html">Toko Bangunan Kab Blora</a></li>
+                  <li><a class="dropdown-item" href="privacy-policy.html">Distribusi Kab Blora</a></li>
+                  {{-- <li><a class="dropdown-item" href="privacy-policy.html">Daftar Tenaga Ahli</a></li>
+                  <li><a class="dropdown-item" href="blogs.html">Blogs</a></li>
+                  <li><a class="dropdown-item" href="blog-details.html">Blog Detail Page</a></li> --}}
                 </ul>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="about.html">Peralatan Konstruksi</a></li>
-                </ul>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="about.html">Toko Bangunan Kab Blora</a></li>
-                </ul>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="about.html">Distributor Kab Blora</a></li>
-                </ul>
-                
               </li>
             
-              {{-- =================================================================== --}}
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+              <li class="nav-item dropdown">
+                <a style="font-size: 14px;" class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                   aria-expanded="false">
                   AHSP  
                 </a>
-                
                 <ul class="dropdown-menu">
                   <li><a class="dropdown-item" href="about.html">Harga Satuan Dasar</a></li>
+                  <li><a class="dropdown-item" href="packages.html">HSP Konstruksi Umum</a></li>
+                  <li><a class="dropdown-item" href="faqs.html">SHST Konstruksi</a></li>
+                  <li><a class="dropdown-item" href="privacy-policy.html">Daftar Material</a></li>
+                  {{-- <li><a class="dropdown-item" href="privacy-policy.html">Daftar Tenaga Ahli</a></li>
+                  <li><a class="dropdown-item" href="blogs.html">Blogs</a></li>
+                  <li><a class="dropdown-item" href="blog-details.html">Blog Detail Page</a></li> --}}
                 </ul>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="about.html">HSP Konstruksi Umum</a></li>
-                </ul>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="about.html">SHST Konstruksi    </a></li>
-                </ul>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="about.html">Daftar Material</a></li>
-                </ul>
-                
               </li>
             
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+              <li class="nav-item dropdown">
+                <a style="font-size: 14px;" class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                   aria-expanded="false">
-                  Peraturan  
+                  Peraturan   
                 </a>
-                
                 <ul class="dropdown-menu">
                   <li><a class="dropdown-item" href="about.html">Undang - Undang</a></li>
+                  <li><a class="dropdown-item" href="packages.html">Peraturan Pemerintah</a></li>
+                  <li><a class="dropdown-item" href="faqs.html">Peraturan Presiden</a></li>
+                  <li><a class="dropdown-item" href="privacy-policy.html">Peraturan Menteri</a></li>
+                  <li><a class="dropdown-item" href="privacy-policy.html">Keputusan Menteri</a></li>
+                  <li><a class="dropdown-item" href="blogs.html">Surat Edaran Menteri</a></li>
+                  <li><a class="dropdown-item" href="blog-details.html">Referensi</a></li>
+                  <li><a class="dropdown-item" href="blog-details.html">Peraturan Daerah</a></li>
+                  <li><a class="dropdown-item" href="blog-details.html">Peraturan Gubernur</a></li>
+                  <li><a class="dropdown-item" href="blog-details.html">Peraturan Walikota/Bupati</a></li>
+                  <li><a class="dropdown-item" href="blog-details.html">Surat Keputusan</a></li>
                 </ul>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="about.html">Peraturan Pemerintah</a></li>
-                </ul>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="about.html">Peraturan Presiden </a></li>
-                </ul>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="about.html">Peraturan Menteri</a></li>
-                </ul>
-                
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="about.html">Keputusan Menteri</a></li>
-                </ul>
-                
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="about.html">Surat Edaran Menteri </a></li>
-                </ul>
-                
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="about.html">Referensi</a></li>
-                </ul>
-                
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="about.html">Peraturan Daerah</a></li>
-                </ul>
-                
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="about.html">Peraturan Gubernur </a></li>
-                </ul>
-                
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="about.html">Peraturan Walikota/Bupati</a></li>
-                </ul>
-                
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="about.html">Surat Keputusan</a></li>
-                </ul>
-                
               </li>
-            
 
           </ul>
           <button type="button" class="btn btn-success rounded-pill get-quotes"><a href="/login">
