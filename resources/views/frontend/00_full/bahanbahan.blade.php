@@ -1,4 +1,6 @@
-@include('frontend.00_atas.header1')
+<div class="container">
+    @include('frontend.00_atas.header1')
+</div>
 @include('frontend.00_masjakibloraweb.header')
 
 <body data-aos-easing="ease-in-out" data-aos-duration="1000" data-aos-delay="0">
