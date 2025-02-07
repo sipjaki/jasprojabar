@@ -1,6 +1,3 @@
-<div class="container">
-    @include('frontend.00_atas.header1')
-</div>
 @include('frontend.00_masjakibloraweb.header')
 
 <body data-aos-easing="ease-in-out" data-aos-duration="1000" data-aos-delay="0">
@@ -174,6 +171,40 @@
       </div>
       <div class="container letters">
         <div class="row gy-5">
+            <style>
+                .marquee-container {
+                    width: 250px;
+                    overflow: hidden;
+                    white-space: nowrap;
+                    box-sizing: border-box;
+                    border: 1px solid #000;
+                    width: 375px;
+                    padding: 5px 10px;
+                    margin-top: 2.5px;
+                    margin-bottom: 2px;
+                    border-radius: 20px;
+                    background: #000000;
+                    
+                }
+                .marquee {
+                    display: inline-block;
+                    padding-left: 100%;
+                    animation: marquee 15s linear infinite;
+                }
+        
+                @keyframes marquee {
+                    from {
+                        transform: translateX(0);
+                    }
+                    to {
+                        transform: translateX(-100%);
+                    }
+                }
+            </style>
+            
+             <div class="marquee-container" style="margin-left: 150px;">
+                <div class="marquee" style="color: white">Selamat Datang ! di Web Resmi Mas Jaki Dinas Pekerjaan Umum & Penataan Ruang Blora, Sistem Informasi Pembina Jasa Konstruksi Pemerintah Kabupaten Blora Provinsi Jawa Tengah</div>
+            </div>
           <div
             class="col-lg-7 offset-lg-5 dark-bg order-lg-1 d-flex flex-column justify-content-start text-left caption">
             <h2 data-aos="fade-up" class="">Selamat Datang ! di 
