@@ -43,20 +43,6 @@
           </span>
         </button>
 
-        <style>
-            .custom-hover {
-              color: black; /* Warna dasar teks hitam */
-              text-decoration: none; /* Menghilangkan garis bawah */
-              display: block; /* Memastikan elemen bisa diberi hover dengan benar */
-              padding: 5px 10px; /* Memberikan sedikit padding */
-            }
-          
-            .custom-hover:hover {
-              color: white; /* Warna teks saat hover menjadi putih */
-              background-color: lightgreen; /* Warna latar belakang saat hover hijau muda */
-            }
-          </style>
-
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
           <ul class="navbar-nav">
             <li class="nav-item" style="font-size: 14px;">
@@ -146,8 +132,8 @@
         <div class="row gy-5">
           <div
             class="col-lg-7 offset-lg-5 dark-bg order-lg-1 d-flex flex-column justify-content-start text-left caption">
-            <h2 data-aos="fade-up" class="">Delivering Superior Services
-              <span>IT Solutions</span>
+            <h2 data-aos="fade-up" class="">Selamat Datang ! di 
+              <span>Sistem Informasi Pembina Jasa Konstruksi <br> Pemerinah Kabupaten Blora Provinsi Jawa Tengah</span>
               <span class="circle" data-aos="fade-right" data-aos-delay="800">.</span>
             </h2>
             <p data-aos="fade-up" data-aos-delay="400" class="">You can easily change any design to
