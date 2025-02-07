@@ -165,13 +165,10 @@
                 </ul>
               </li>
 
-              {{-- <li class="nav-item" style="font-size: 14px;">
-                <a class="nav-link" aria-current="page" href="index.html">Login</a>
-              </li> --}}
-  
-            
-          {{-- <button type="button" class="btn btn-primary rounded-pill get-quotes"><a href="contact.html">
-              Login</a></button> --}}
+              <button id="darkmode-button" class="btn rounded-circle">
+                <i class="fa-solid fa-moon"></i>
+              </button>
+
           
         </div>
       </div>
@@ -202,9 +199,7 @@
                 onclick="scrollToSection('#contact-us')">Daftar</button> --}}
               <button style="--ripples: 12;" class="btn-custom" data-aos="fade-up" data-aos-delay="200"
                 onclick="scrollToSection('#services')">Contact Us</button>
-                <button id="darkmode-button" class="btn rounded-circle">
-                    <i class="fa-solid fa-moon"></i>
-                  </button>
+              
             </div>
           </div>
         </div>
