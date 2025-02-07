@@ -42,6 +42,21 @@
             <i class="fa-solid fa-sliders"></i>
           </span>
         </button>
+
+        <style>
+            .custom-hover {
+              color: black; /* Warna dasar teks hitam */
+              text-decoration: none; /* Menghilangkan garis bawah */
+              display: block; /* Memastikan elemen bisa diberi hover dengan benar */
+              padding: 5px 10px; /* Memberikan sedikit padding */
+            }
+          
+            .custom-hover:hover {
+              color: white; /* Warna teks saat hover menjadi putih */
+              background-color: lightgreen; /* Warna latar belakang saat hover hijau muda */
+            }
+          </style>
+
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
           <ul class="navbar-nav">
             <li class="nav-item" style="font-size: 14px;">
@@ -54,13 +69,24 @@
                   Kelembagaan
                 </a>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="about.html"><span style="color: black;">Struktur DPUPR Kab Blora</span></a></li>
-                  <li><a class="dropdown-item" href="packages.html">Pricing</a></li>
-                  <li><a class="dropdown-item" href="faqs.html">FAQs</a></li>
-                  <li><a class="dropdown-item" href="privacy-policy.html">Terms & Conditions</a></li>
-                  <li><a class="dropdown-item" href="privacy-policy.html">Privacy Policy</a></li>
-                  <li><a class="dropdown-item" href="blogs.html">Blogs</a></li>
-                  <li><a class="dropdown-item" href="blog-details.html">Blog Detail Page</a></li>
+                    
+                    <li>
+                        <a class="dropdown-item custom-hover" href="about.html">
+                          Struktur DPUPR Kab Blora
+                        </a>
+                      </li>
+                    
+                      <li>
+                        <a class="dropdown-item custom-hover" href="about.html">
+                          Renstra Jasa Konstruksi Kab Blora
+                        </a>
+                      </li>
+                      
+                      <li>
+                        <a class="dropdown-item custom-hover" href="about.html">
+                          Tupoksi Jasa Konstruksi 
+                        </a>
+                      </li>
                 </ul>
               </li>
             
