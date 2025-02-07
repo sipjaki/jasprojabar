@@ -47,6 +47,24 @@
             <li class="nav-item" style="font-size: 14px;">
               <a class="nav-link" aria-current="page" href="index.html">Beranda</a>
             </li>
+
+            <li class="nav-item dropdown" style="font-size:14px;">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Kelembagaan
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="about.html">About</a></li>
+                  <li><a class="dropdown-item" href="packages.html">Pricing</a></li>
+                  <li><a class="dropdown-item" href="faqs.html">FAQs</a></li>
+                  <li><a class="dropdown-item" href="privacy-policy.html">Terms & Conditions</a></li>
+                  <li><a class="dropdown-item" href="privacy-policy.html">Privacy Policy</a></li>
+                  <li><a class="dropdown-item" href="blogs.html">Blogs</a></li>
+                  <li><a class="dropdown-item" href="blog-details.html">Blog Detail Page</a></li>
+                </ul>
+              </li>
+            
+              
             <li class="nav-item">
               <a class="nav-link" href="services.html">Services</a>
             </li>
@@ -59,6 +77,7 @@
             <li class="nav-item">
               <a class="nav-link" href="team.html">Team</a>
             </li>
+
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                 aria-expanded="false">
@@ -74,6 +93,7 @@
                 <li><a class="dropdown-item" href="blog-details.html">Blog Detail Page</a></li>
               </ul>
             </li>
+
             <li class="nav-item">
               <a class="nav-link" href="blogs.html">News</a>
             </li>
