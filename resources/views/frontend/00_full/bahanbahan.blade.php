@@ -344,8 +344,8 @@
     <section id="testimonials" class="testimonials">
       <div class="container" data-aos="fade-up">
         <div class="header" data-aos="fade-up" data-aos-delay="100">
-          <div class="title">Testimonials</div>
-          <p class="para">Lorem ipsum dolor sit amet</p>
+          <div class="title">Himbauan Dinas Terkait</div>
+          <p class="para">Dinas Pekerjaan Umum dan Penataan Ruang Kabupaten Blora mengimbau kepada seluruh pelaku usaha jasa konstruksi untuk secara aktif memanfaatkan **Sistem Informasi Pembina Jasa Konstruksi** sebagai sarana utama dalam mendapatkan informasi terkait regulasi, pembinaan, dan pemantauan proyek konstruksi. Sistem ini dirancang untuk meningkatkan transparansi, efisiensi, serta akurasi dalam pengelolaan data penyedia jasa, sehingga dapat mendukung terciptanya ekosistem konstruksi yang profesional, tertib, dan sesuai dengan peraturan perundang-undangan yang berlaku.</p>
         </div>
         <div class="swiper slides-3 swiper-initialized swiper-horizontal swiper-pointer-events swiper-backface-hidden"
           data-aos="fade-up" data-aos-delay="100">
