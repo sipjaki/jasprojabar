@@ -6,15 +6,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Technoit</title>
   <!-- ! Page Title Icon -->
-  <link rel="icon" href="public/assets/masjakiblora/images/microchip-solid.svg" type="image/svg+xml">
+  <link rel="icon" href="/assets/masjakiblora/images/microchip-solid.svg" type="image/svg+xml">
   <!-- ! Font Awesome Library -->
-  <link rel="stylesheet" href="public/assets/masjakiblora/css/all.min.css">
+  <link rel="stylesheet" href="/assets/masjakiblora/css/all.min.css">
   <!-- ! Bootstrap -->
-  <link rel="stylesheet" href="public/assets/masjakiblora/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/assets/masjakiblora/css/bootstrap.min.css">
   <!-- ! Main Template CSS File -->
-  <link rel="stylesheet" href="public/assets/masjakiblora/css/style.css">
-  <link rel="stylesheet" href="public/assets/masjakiblora/css/darkMode.css">
-  <link rel="stylesheet" href="public/assets/masjakiblora/css/aos.css">
+  <link rel="stylesheet" href="/assets/masjakiblora/css/style.css">
+  <link rel="stylesheet" href="/assets/masjakiblora/css/darkMode.css">
+  <link rel="stylesheet" href="/assets/masjakiblora/css/aos.css">
   <!-- ! Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
@@ -34,7 +34,7 @@
     <nav class="navbar navbar-expand-lg">
       <div class="container">
         <a class="navbar-brand" href="index.html">
-          <img src="public/assets/masjakiblora/images/logo.png" alt="Technoit" class="img-fluid">
+          <img src="/assets/masjakiblora/images/logo.png" alt="Technoit" class="img-fluid">
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
           aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -44,42 +44,210 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
           <ul class="navbar-nav">
+            {{-- ================================================================ --}}
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="index.html">Home</a>
+              <a class="nav-link" aria-current="page" href="/">Beranda</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="services.html">Services</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="protofolio.html">Portfolio</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="testimonials.html">Testimonials</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="team.html">Team</a>
-            </li>
+
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                aria-expanded="false">
-                Menu
-              </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="about.html">About</a></li>
-                <li><a class="dropdown-item" href="packages.html">Pricing</a></li>
-                <li><a class="dropdown-item" href="faqs.html">FAQs</a></li>
-                <li><a class="dropdown-item" href="privacy-policy.html">Terms & Conditions</a></li>
-                <li><a class="dropdown-item" href="privacy-policy.html">Privacy Policy</a></li>
-                <li><a class="dropdown-item" href="blogs.html">Blogs</a></li>
-                <li><a class="dropdown-item" href="blog-details.html">Blog Detail Page</a></li>
-              </ul>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="blogs.html">News</a>
-            </li>
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Kelembagaan
+                </a>
+                
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="about.html">Struktur DPUPR Kab Blora</a></li>
+                </ul>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="about.html">Renstra Program Jasa Konstruksi</a></li>
+                </ul>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="about.html">Tupoksi Program Jasa Konstruksi</a></li>
+                </ul>
+
+              </li>
+            
+              {{-- =================================================================== --}}
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Berita
+                </a>
+                
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="about.html">Jasa Konstruksi</a></li>
+                </ul>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="about.html">Dokumentasi Sertifikasi</a></li>
+                </ul>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="about.html">Agenda Sertifikasi</a></li>
+                </ul>
+
+              </li>
+            
+              
+              {{-- =================================================================== --}}
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Data Jakon
+                </a>
+                
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="about.html">BUJK Kontraktor</a></li>
+                </ul>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="about.html">BUJK Konsultan</a></li>
+                </ul>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="about.html">Tenaga Kerja</a></li>
+                </ul>
+
+              </li>
+            
+              {{-- =================================================================== --}}
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Pembinaan
+                </a>
+                
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="about.html">Pelatihan</a></li>
+                </ul>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="about.html">Bimbingan Teknis</a></li>
+                </ul>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="about.html">SKK Tenaga Ahli</a></li>
+                </ul>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="about.html">Workshop</a></li>
+                </ul>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="about.html">Daftar Tenaga Ahli</a></li>
+                </ul>
+
+              </li>
+            
+              {{-- =================================================================== --}}
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Pengawasan 
+                </a>
+                
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="about.html">Pengawasan BUJK</a></li>
+                </ul>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="about.html">Kecelakaan Kerja</a></li>
+                </ul>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="about.html">Tertib Jasa Konstruksi</a></li>
+                </ul>
+                
+              </li>
+            
+            
+              {{-- =================================================================== --}}
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Rantai Pasok  
+                </a>
+                
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="about.html">Material Bangunan Gedung</a></li>
+                </ul>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="about.html">Peralatan Konstruksi</a></li>
+                </ul>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="about.html">Toko Bangunan Kab Blora</a></li>
+                </ul>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="about.html">Distributor Kab Blora</a></li>
+                </ul>
+                
+              </li>
+            
+              {{-- =================================================================== --}}
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  AHSP  
+                </a>
+                
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="about.html">Harga Satuan Dasar</a></li>
+                </ul>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="about.html">HSP Konstruksi Umum</a></li>
+                </ul>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="about.html">SHST Konstruksi    </a></li>
+                </ul>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="about.html">Daftar Material</a></li>
+                </ul>
+                
+              </li>
+            
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Peraturan  
+                </a>
+                
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="about.html">Undang - Undang</a></li>
+                </ul>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="about.html">Peraturan Pemerintah</a></li>
+                </ul>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="about.html">Peraturan Presiden </a></li>
+                </ul>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="about.html">Peraturan Menteri</a></li>
+                </ul>
+                
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="about.html">Keputusan Menteri</a></li>
+                </ul>
+                
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="about.html">Surat Edaran Menteri </a></li>
+                </ul>
+                
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="about.html">Referensi</a></li>
+                </ul>
+                
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="about.html">Peraturan Daerah</a></li>
+                </ul>
+                
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="about.html">Peraturan Gubernur </a></li>
+                </ul>
+                
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="about.html">Peraturan Walikota/Bupati</a></li>
+                </ul>
+                
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="about.html">Surat Keputusan</a></li>
+                </ul>
+                
+              </li>
+            
+
           </ul>
-          <button type="button" class="btn btn-primary rounded-pill get-quotes"><a href="contact.html">Get
-              Quotes</a></button>
+          <button type="button" class="btn btn-success rounded-pill get-quotes"><a href="/login">
+              Login</a></button>
           <button id="darkmode-button" class="btn rounded-circle">
             <i class="fa-solid fa-moon"></i>
           </button>
@@ -129,32 +297,32 @@
     <div class="services py-5" id="services">
       <div class="container">
         <div data-aos="fade-up" data-aos-delay="100">
-          <img src="public/assets/masjakiblora/images/service-design.svg" alt="">
+          <img src="/assets/masjakiblora/images/service-design.svg" alt="">
           <h4>Application Design</h4>
           <p>Ronsectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
         </div>
         <div data-aos="fade-up" data-aos-delay="200">
-          <img src="public/assets/masjakiblora/images/service-hosting.svg" alt="">
+          <img src="/assets/masjakiblora/images/service-hosting.svg" alt="">
           <h4>Web Hosting</h4>
           <p>Ronsectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
         </div>
         <div data-aos="fade-up" data-aos-delay="500">
-          <img src="public/assets/masjakiblora/images/service-social.svg" alt="">
+          <img src="/assets/masjakiblora/images/service-social.svg" alt="">
           <h4>Social Media</h4>
           <p>Ronsectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
         </div>
         <div data-aos="fade-up" data-aos-delay="100">
-          <img src="public/assets/masjakiblora/images/service-seo.svg" alt="">
+          <img src="/assets/masjakiblora/images/service-seo.svg" alt="">
           <h4>SEO Optimization</h4>
           <p>Ronsectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
         </div>
         <div data-aos="fade-up" data-aos-delay="200">
-          <img src="public/assets/masjakiblora/images/service-cloud.svg" alt="">
+          <img src="/assets/masjakiblora/images/service-cloud.svg" alt="">
           <h4>Cloud Server</h4>
           <p>Ronsectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
         </div>
         <div data-aos="fade-up" data-aos-delay="500">
-          <img src="public/assets/masjakiblora/images/service-secure.svg" alt="">
+          <img src="/assets/masjakiblora/images/service-secure.svg" alt="">
           <h4>Data Security</h4>
           <p>Ronsectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
         </div>
@@ -176,49 +344,49 @@
                   <h4>Experience</h4>
                   <p>Ronsectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
                 </div>
-                <img src="public/assets/masjakiblora/images/icon-1.svg" alt="">
+                <img src="/assets/masjakiblora/images/icon-1.svg" alt="">
               </div>
               <div class="col-lg-12 box" data-aos="fade-up" data-aos-delay="400">
                 <div class="text">
                   <h4>Products</h4>
                   <p>Ronsectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
                 </div>
-                <img src="public/assets/masjakiblora/images/icon-2.svg" alt="">
+                <img src="/assets/masjakiblora/images/icon-2.svg" alt="">
               </div>
               <div class="col-lg-12 box" data-aos="fade-up" data-aos-delay="500">
                 <div class="text">
                   <h4>Approach</h4>
                   <p>Ronsectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
                 </div>
-                <img src="public/assets/masjakiblora/images/icon-3.svg" alt="">
+                <img src="/assets/masjakiblora/images/icon-3.svg" alt="">
               </div>
             </div>
           </div>
           <div class="col-lg-4 col-sm-12 center">
             <div class="row">
               <div class="col-lg-4 col-sm-12" data-aos="fade-up" data-aos-delay="500">
-                <img src="public/assets/masjakiblora/images/features.jpg" alt="" class="middle">
+                <img src="/assets/masjakiblora/images/features.jpg" alt="" class="middle">
               </div>
             </div>
           </div>
           <div class="col-lg-4 col-sm-12 right">
             <div class="row">
               <div class="col-lg-12 box" data-aos="fade-up" data-aos-delay="100">
-                <img src="public/assets/masjakiblora/images/icon-4.svg" alt="">
+                <img src="/assets/masjakiblora/images/icon-4.svg" alt="">
                 <div class="text">
                   <h4>Pricing</h4>
                   <p>Ronsectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
                 </div>
               </div>
               <div class="col-lg-12 box" data-aos="fade-up" data-aos-delay="400">
-                <img src="public/assets/masjakiblora/images/icon-5.svg" alt="">
+                <img src="/assets/masjakiblora/images/icon-5.svg" alt="">
                 <div class="text">
                   <h4>Delivery</h4>
                   <p>Ronsectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
                 </div>
               </div>
               <div class="col-lg-12 box" data-aos="fade-up" data-aos-delay="500">
-                <img src="public/assets/masjakiblora/images/icon-6.svg" alt="">
+                <img src="/assets/masjakiblora/images/icon-6.svg" alt="">
                 <div class="text">
                   <h4>Support</h4>
                   <p>Ronsectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
@@ -248,22 +416,22 @@
         <div class="photos">
           <div class="container">
             <div class="photo all app-des" data-aos="fade-up" data-aos-delay="100">
-              <img src="public/assets/masjakiblora/images/product-1.jpg" alt="">
+              <img src="/assets/masjakiblora/images/product-1.jpg" alt="">
             </div>
             <div class="photo all app-dev" data-aos="fade-up" data-aos-delay="200">
-              <img src="public/assets/masjakiblora/images/product-2.jpg" alt="">
+              <img src="/assets/masjakiblora/images/product-2.jpg" alt="">
             </div>
             <div class="photo all brand" data-aos="fade-up" data-aos-delay="400">
-              <img src="public/assets/masjakiblora/images/product-3.jpg" alt="">
+              <img src="/assets/masjakiblora/images/product-3.jpg" alt="">
             </div>
             <div class="photo all it-sol" data-aos="fade-up" data-aos-delay="100">
-              <img src="public/assets/masjakiblora/images/product-4.jpg" alt="">
+              <img src="/assets/masjakiblora/images/product-4.jpg" alt="">
             </div>
             <div class="photo all app-des" data-aos="fade-up" data-aos-delay="200">
-              <img src="public/assets/masjakiblora/images/product-5.jpg" alt="">
+              <img src="/assets/masjakiblora/images/product-5.jpg" alt="">
             </div>
             <div class="photo all brand" data-aos="fade-up" data-aos-delay="500">
-              <img src="public/assets/masjakiblora/images/product-6.jpg" alt="">
+              <img src="/assets/masjakiblora/images/product-6.jpg" alt="">
             </div>
           </div>
         </div>
@@ -370,7 +538,7 @@
               <div class="testimonial-wrap">
                 <div class="testimonial-item">
                   <div class="d-flex align-items-center info-box">
-                    <img src="public/assets/masjakiblora/images/testimonial-4.jpg" class="testimonial-img flex-shrink-0" alt="">
+                    <img src="/assets/masjakiblora/images/testimonial-4.jpg" class="testimonial-img flex-shrink-0" alt="">
                     <div>
                       <h3>Fizzi Brandon</h3>
                       <h4>Freelancer</h4>
@@ -399,7 +567,7 @@
               <div class="testimonial-wrap">
                 <div class="testimonial-item">
                   <div class="d-flex align-items-center info-box">
-                    <img src="public/assets/masjakiblora/images/testimonial-1.jpg" class="testimonial-img flex-shrink-0" alt="">
+                    <img src="/assets/masjakiblora/images/testimonial-1.jpg" class="testimonial-img flex-shrink-0" alt="">
                     <div>
                       <h3>Jhone Doe</h3>
                       <h4>CFO</h4>
@@ -428,7 +596,7 @@
               <div class="testimonial-wrap">
                 <div class="testimonial-item">
                   <div class="d-flex align-items-center info-box">
-                    <img src="public/assets/masjakiblora/images/testimonial-2.jpg" class="testimonial-img flex-shrink-0" alt="">
+                    <img src="/assets/masjakiblora/images/testimonial-2.jpg" class="testimonial-img flex-shrink-0" alt="">
                     <div>
                       <h3>Afa Rose</h3>
                       <h4>Web Designer</h4>
@@ -457,7 +625,7 @@
               <div class="testimonial-wrap">
                 <div class="testimonial-item">
                   <div class="d-flex align-items-center info-box">
-                    <img src="public/assets/masjakiblora/images/testimonial-3.jpg" class="testimonial-img flex-shrink-0" alt="">
+                    <img src="/assets/masjakiblora/images/testimonial-3.jpg" class="testimonial-img flex-shrink-0" alt="">
                     <div>
                       <h3>Keena Lara</h3>
                       <h4>Store Owner</h4>
@@ -489,21 +657,21 @@
       <div class="container" data-aos="fade-up">
         <div class="row">
           <div class="col-lg-4 col-md-6 col-sm-12 box">
-            <img src="public/assets/masjakiblora/images/happy-clients.svg" alt="">
+            <img src="/assets/masjakiblora/images/happy-clients.svg" alt="">
             <span class="number" data-prog="232">0
             </span>
             <h4>Happy Clients</h4>
             <p>consequuntur quae diredo</p>
           </div>
           <div class="col-lg-4 col-md-6 col-sm-12 box">
-            <img src="public/assets/masjakiblora/images/complete-projects.svg" alt="">
+            <img src="/assets/masjakiblora/images/complete-projects.svg" alt="">
             <span class="number" data-prog="521">0
             </span>
             <h4>Completed Projects</h4>
             <p>adipisci atque quia aut</p>
           </div>
           <div class="col-lg-4 col-md-6 col-sm-12 box">
-            <img src="public/assets/masjakiblora/images/hours-support.svg" alt="">
+            <img src="/assets/masjakiblora/images/hours-support.svg" alt="">
             <span class="number" data-prog="453">0
             </span>
             <h4>Hours Of Support</h4>
@@ -521,52 +689,52 @@
             style="transform: translate3d(-1593.6px, 0px, 0px); transition-duration: 0ms;">
             <div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-active" role="group"
               aria-label="4 / 8" style="width: 139.2px; margin-right: 60px;" data-swiper-slide-index="3"><img
-                src="public/assets/masjakiblora/images/client-4.png" class="img-fluid" alt=""></div>
+                src="/assets/masjakiblora/images/client-4.png" class="img-fluid" alt=""></div>
             <div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-next" role="group" aria-label="5 / 8"
-              style="width: 139.2px; margin-right: 60px;" data-swiper-slide-index="4"><img src="public/assets/masjakiblora/images/client-5.png"
+              style="width: 139.2px; margin-right: 60px;" data-swiper-slide-index="4"><img src="/assets/masjakiblora/images/client-5.png"
                 class="img-fluid" alt=""></div>
             <div class="swiper-slide swiper-slide-duplicate" role="group" aria-label="6 / 8"
-              style="width: 139.2px; margin-right: 60px;" data-swiper-slide-index="5"><img src="public/assets/masjakiblora/images/client-6.png"
+              style="width: 139.2px; margin-right: 60px;" data-swiper-slide-index="5"><img src="/assets/masjakiblora/images/client-6.png"
                 class="img-fluid" alt=""></div>
             <div class="swiper-slide swiper-slide-duplicate" role="group" aria-label="7 / 8"
-              style="width: 139.2px; margin-right: 60px;" data-swiper-slide-index="6"><img src="public/assets/masjakiblora/images/client-7.png"
+              style="width: 139.2px; margin-right: 60px;" data-swiper-slide-index="6"><img src="/assets/masjakiblora/images/client-7.png"
                 class="img-fluid" alt=""></div>
             <div class="swiper-slide swiper-slide-duplicate" role="group" aria-label="8 / 8"
-              style="width: 139.2px; margin-right: 60px;" data-swiper-slide-index="7"><img src="public/assets/masjakiblora/images/client-8.png"
+              style="width: 139.2px; margin-right: 60px;" data-swiper-slide-index="7"><img src="/assets/masjakiblora/images/client-8.png"
                 class="img-fluid" alt=""></div>
             <div class="swiper-slide" role="group" aria-label="1 / 8" style="width: 139.2px; margin-right: 60px;"
-              data-swiper-slide-index="0"><img src="public/assets/masjakiblora/images/client-1.png" class="img-fluid" alt=""></div>
+              data-swiper-slide-index="0"><img src="/assets/masjakiblora/images/client-1.png" class="img-fluid" alt=""></div>
             <div class="swiper-slide" role="group" aria-label="2 / 8" style="width: 139.2px; margin-right: 60px;"
-              data-swiper-slide-index="1"><img src="public/assets/masjakiblora/images/client-2.png" class="img-fluid" alt=""></div>
+              data-swiper-slide-index="1"><img src="/assets/masjakiblora/images/client-2.png" class="img-fluid" alt=""></div>
             <div class="swiper-slide swiper-slide-prev" role="group" aria-label="3 / 8"
-              style="width: 139.2px; margin-right: 60px;" data-swiper-slide-index="2"><img src="public/assets/masjakiblora/images/client-3.png"
+              style="width: 139.2px; margin-right: 60px;" data-swiper-slide-index="2"><img src="/assets/masjakiblora/images/client-3.png"
                 class="img-fluid" alt=""></div>
             <div class="swiper-slide swiper-slide-active" role="group" aria-label="4 / 8"
-              style="width: 139.2px; margin-right: 60px;" data-swiper-slide-index="3"><img src="public/assets/masjakiblora/images/client-4.png"
+              style="width: 139.2px; margin-right: 60px;" data-swiper-slide-index="3"><img src="/assets/masjakiblora/images/client-4.png"
                 class="img-fluid" alt=""></div>
             <div class="swiper-slide swiper-slide-next" role="group" aria-label="5 / 8"
-              style="width: 139.2px; margin-right: 60px;" data-swiper-slide-index="4"><img src="public/assets/masjakiblora/images/client-5.png"
+              style="width: 139.2px; margin-right: 60px;" data-swiper-slide-index="4"><img src="/assets/masjakiblora/images/client-5.png"
                 class="img-fluid" alt=""></div>
             <div class="swiper-slide" role="group" aria-label="6 / 8" style="width: 139.2px; margin-right: 60px;"
-              data-swiper-slide-index="5"><img src="public/assets/masjakiblora/images/client-6.png" class="img-fluid" alt=""></div>
+              data-swiper-slide-index="5"><img src="/assets/masjakiblora/images/client-6.png" class="img-fluid" alt=""></div>
             <div class="swiper-slide" role="group" aria-label="7 / 8" style="width: 139.2px; margin-right: 60px;"
-              data-swiper-slide-index="6"><img src="public/assets/masjakiblora/images/client-7.png" class="img-fluid" alt=""></div>
+              data-swiper-slide-index="6"><img src="/assets/masjakiblora/images/client-7.png" class="img-fluid" alt=""></div>
             <div class="swiper-slide" role="group" aria-label="8 / 8" style="width: 139.2px; margin-right: 60px;"
-              data-swiper-slide-index="7"><img src="public/assets/masjakiblora/images/client-8.png" class="img-fluid" alt=""></div>
+              data-swiper-slide-index="7"><img src="/assets/masjakiblora/images/client-8.png" class="img-fluid" alt=""></div>
             <div class="swiper-slide swiper-slide-duplicate" role="group" aria-label="1 / 8"
-              style="width: 139.2px; margin-right: 60px;" data-swiper-slide-index="0"><img src="public/assets/masjakiblora/images/client-1.png"
+              style="width: 139.2px; margin-right: 60px;" data-swiper-slide-index="0"><img src="/assets/masjakiblora/images/client-1.png"
                 class="img-fluid" alt=""></div>
             <div class="swiper-slide swiper-slide-duplicate" role="group" aria-label="2 / 8"
-              style="width: 139.2px; margin-right: 60px;" data-swiper-slide-index="1"><img src="public/assets/masjakiblora/images/client-2.png"
+              style="width: 139.2px; margin-right: 60px;" data-swiper-slide-index="1"><img src="/assets/masjakiblora/images/client-2.png"
                 class="img-fluid" alt=""></div>
             <div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-prev" role="group" aria-label="3 / 8"
-              style="width: 139.2px; margin-right: 60px;" data-swiper-slide-index="2"><img src="public/assets/masjakiblora/images/client-3.png"
+              style="width: 139.2px; margin-right: 60px;" data-swiper-slide-index="2"><img src="/assets/masjakiblora/images/client-3.png"
                 class="img-fluid" alt=""></div>
             <div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-active" role="group"
               aria-label="4 / 8" style="width: 139.2px; margin-right: 60px;" data-swiper-slide-index="3"><img
-                src="public/assets/masjakiblora/images/client-4.png" class="img-fluid" alt=""></div>
+                src="/assets/masjakiblora/images/client-4.png" class="img-fluid" alt=""></div>
             <div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-next" role="group" aria-label="5 / 8"
-              style="width: 139.2px; margin-right: 60px;" data-swiper-slide-index="4"><img src="public/assets/masjakiblora/images/client-5.png"
+              style="width: 139.2px; margin-right: 60px;" data-swiper-slide-index="4"><img src="/assets/masjakiblora/images/client-5.png"
                 class="img-fluid" alt=""></div>
           </div>
           <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>
@@ -583,7 +751,7 @@
       <div class="container" data-aos="fade-up">
         <div class="row">
           <div class="col-lg-3 col-md-6 col-sm-12 box" data-aos="fade-up">
-            <img src="public/assets/masjakiblora/images/team-1.jpg" alt="">
+            <img src="/assets/masjakiblora/images/team-1.jpg" alt="">
             <h5>Jhone Bi</h5>
             <p>Application Manager</p>
             <div class="social" data-aos="fade-up" data-aos-delay="400">
@@ -595,7 +763,7 @@
             </div>
           </div>
           <div class="col-lg-3 col-md-6 col-sm-12 box" data-aos="fade-up">
-            <img src="public/assets/masjakiblora/images/team-2.jpg" alt="">
+            <img src="/assets/masjakiblora/images/team-2.jpg" alt="">
             <h5>Sani Awesome</h5>
             <p>Social Media</p>
             <div class="social" data-aos="fade-up" data-aos-delay="400">
@@ -607,7 +775,7 @@
             </div>
           </div>
           <div class="col-lg-3 col-md-6 col-sm-12 box" data-aos="fade-up">
-            <img src="public/assets/masjakiblora/images/team-3.jpg" alt="">
+            <img src="/assets/masjakiblora/images/team-3.jpg" alt="">
             <h5>Andrio Willi</h5>
             <p>Content Writer</p>
             <div class="social" data-aos="fade-up" data-aos-delay="400">
@@ -619,7 +787,7 @@
             </div>
           </div>
           <div class="col-lg-3 col-md-6 col-sm-12 box" data-aos="fade-up">
-            <img src="public/assets/masjakiblora/images/team-4.jpg" alt="">
+            <img src="/assets/masjakiblora/images/team-4.jpg" alt="">
             <h5>Afa Jonson</h5>
             <p>Business Manager</p>
             <div class="social" data-aos="fade-up" data-aos-delay="400">
@@ -773,7 +941,7 @@
           <div class="col-lg-4 col-md-6 col-sm-12">
             <div class="card" data-aos="fade-up" data-aos-delay="100">
               <div class="box">
-                <img src="public/assets/masjakiblora/images/blog-1.jpg" class="card-img-top" alt="...">
+                <img src="/assets/masjakiblora/images/blog-1.jpg" class="card-img-top" alt="...">
               </div>
               <div class="card-body">
                 <p>Domain & Hosting</p>
@@ -787,7 +955,7 @@
           <div class="col-lg-4 col-md-6 col-sm-12">
             <div class="card" data-aos="fade-up" data-aos-delay="400">
               <div class="box">
-                <img src="public/assets/masjakiblora/images/blog-2.jpg" class="card-img-top" alt="...">
+                <img src="/assets/masjakiblora/images/blog-2.jpg" class="card-img-top" alt="...">
               </div>
               <div class="card-body">
                 <p>Advertisement</p>
@@ -801,7 +969,7 @@
           <div class="col-lg-4 col-md-6 col-sm-12">
             <div class="card" data-aos="fade-up" data-aos-delay="600">
               <div class="box">
-                <img src="public/assets/masjakiblora/images/blog-3.jpg" class="card-img-top" alt="...">
+                <img src="/assets/masjakiblora/images/blog-3.jpg" class="card-img-top" alt="...">
               </div>
               <div class="card-body">
                 <p>Marketing</p>
@@ -905,7 +1073,7 @@
             <div class="footer-widget">
               <div class="footer-logo">
                 <a href="index.html" class="logo d-flex align-items-center">
-                  <img src="public/assets/masjakiblora/images/logo.png" alt="logo">
+                  <img src="/assets/masjakiblora/images/logo.png" alt="logo">
                 </a>
               </div>
               <div class="footer-text">
@@ -1007,13 +1175,13 @@
   </a>
   <!-- ! End Scroll Button -->
   <!---------------------------------------------------------------------------->
-  <script src="public/assets/masjakiblora/js/bootstrap.bundle.min.js"></script>
+  <script src="/assets/masjakiblora/js/bootstrap.bundle.min.js"></script>
   <!-- ! This Render Icon As SVG... -->
-  <script src="public/assets/masjakiblora/js/all.min.js"></script>
+  <script src="/assets/masjakiblora/js/all.min.js"></script>
   <!-- ! JavaScript File -->
-  <script src="public/assets/masjakiblora/js/main.js"></script>
-  <script src="public/assets/masjakiblora/js/landing.js"></script>
-  <script src="public/assets/masjakiblora/js/aos.js"></script>
+  <script src="/assets/masjakiblora/js/main.js"></script>
+  <script src="/assets/masjakiblora/js/landing.js"></script>
+  <script src="/assets/masjakiblora/js/aos.js"></script>
 </body>
 
 </html>
