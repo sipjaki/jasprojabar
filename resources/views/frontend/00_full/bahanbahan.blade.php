@@ -137,10 +137,8 @@
               <span style="color: green;">Sistem Informasi Pembina Jasa Konstruksi <br> Pemerinah Kabupaten Blora Provinsi Jawa Tengah</span>
               <span class="circle" data-aos="fade-right" data-aos-delay="600">.</span>
             </h2>
-            {{-- <p data-aos="fade-up" data-aos-delay="400" class="">You can easily change any design to
-              your
-              own. It is also highly customizable SEO friendly template.</p>
-             --}}
+            <p data-aos="fade-up" data-aos-delay="400" class="">Sistem ini dirancang untuk mendukung pengelolaan dan pembinaan jasa konstruksi di Kabupaten Blora, Provinsi Jawa Tengah. Mudah disesuaikan, user-friendly, dan mendukung transparansi serta efisiensi.</p>
+
             <div class="d-flex justify-content-start buttons">
               <button style="--ripples: 12;" class="btn-custom" data-aos="fade-up" data-aos-delay="700"
                 onclick="scrollToSection('#contact-us')">Daftar</button>
