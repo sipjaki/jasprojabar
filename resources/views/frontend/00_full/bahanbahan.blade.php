@@ -848,7 +848,7 @@
         <div class="row">
           <div class="col-xl-6 col-lg-6 text-left text-lg-left">
             <div class="copyright-text">
-              <p>&copy; 2025 Dinas Pekerjaan Umum dan Penataan Ruang Pemerintah Kabupaten Blora
+              <p>&copy; 2025 Dinas Pekerjaan Umum dan Penataan Ruang <br>Pemerintah Kabupaten Blora
               </p>
             </div>
           </div>
