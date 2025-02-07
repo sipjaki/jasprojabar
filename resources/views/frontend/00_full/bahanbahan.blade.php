@@ -97,12 +97,14 @@
                     <li><a class="dropdown-item" href="about.html">Peralatan Konstruksi</a></li>    
                     <li><a class="dropdown-item" href="about.html">Toko Bangunan Kab Blora</a></li>    
                     <li><a class="dropdown-item" href="about.html">Distribusi Kab Blora</a></li>    
-                    {{-- <li><a class="dropdown-item" href="about.html">Workshop</a></li>    
-                    <li><a class="dropdown-item" href="about.html">Daftar Tenaga Ahli</a></li>     --}}
+                    <li><a class="dropdown-item" href="about.html">Harga Satuan Dasar</a></li>    
+                    <li><a class="dropdown-item" href="about.html">HSP Konstruksi Umum</a></li>    
+                    <li><a class="dropdown-item" href="about.html">SHST Konstruksi</a></li>    
+                    <li><a class="dropdown-item" href="about.html">Daftar Material</a></li>    
                 </ul>
               </li>
             
-              <li class="nav-item dropdown" style="font-size:14px;">
+              {{-- <li class="nav-item dropdown" style="font-size:14px;">
                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                   aria-expanded="false">
                   AHSP
@@ -112,10 +114,8 @@
                     <li><a class="dropdown-item" href="about.html">HSP Konstruksi Umum</a></li>    
                     <li><a class="dropdown-item" href="about.html">SHST Konstruksi</a></li>    
                     <li><a class="dropdown-item" href="about.html">Daftar Material</a></li>    
-                    {{-- <li><a class="dropdown-item" href="about.html">Workshop</a></li>    
-                    <li><a class="dropdown-item" href="about.html">Daftar Tenaga Ahli</a></li>     --}}
                 </ul>
-              </li>
+              </li> --}}
              
               <li class="nav-item dropdown" style="font-size:14px;">
                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
