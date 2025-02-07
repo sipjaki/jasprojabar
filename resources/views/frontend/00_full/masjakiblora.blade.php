@@ -162,7 +162,7 @@
                 </ul>
               </li>
             
-              <li class="nav-item dropdown">
+              {{-- <li class="nav-item dropdown">
                 <a style="font-size: 14px;" class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                   aria-expanded="false">
                   Peraturan   
@@ -180,7 +180,7 @@
                   <li><a class="dropdown-item" href="blog-details.html">Peraturan Walikota/Bupati</a></li>
                   <li><a class="dropdown-item" href="blog-details.html">Surat Keputusan</a></li>
                 </ul>
-              </li>
+              </li> --}}
 
           </ul>
           <button type="button" class="btn btn-success rounded-pill get-quotes"><a href="/login">
