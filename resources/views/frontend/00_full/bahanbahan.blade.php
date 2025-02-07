@@ -15,7 +15,7 @@
             <img src="/assets/icon/pupr.png" 
                  alt="Technoit" 
                  class="img-fluid" 
-                 style="margin-right: 5px; width: 40%; max-width: 100%; height: auto; 
+                 style="margin-right: 5px; width: 55%; max-width: 100%; height: auto; 
                         @media (max-width: 768px) { width: 20%; } 
                         @media (max-width: 480px) { width: 10%; }">
         
