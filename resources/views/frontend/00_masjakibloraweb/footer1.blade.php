@@ -85,11 +85,17 @@
           <div class="col-xl-4 col-lg-4 col-md-6 mb-50">
             <div class="contact-widget footer-widget">
               <div class="footer-widget-heading">
-                <h3>Contacts</h3>
+                <h3>Kontak Kami</h3>
               </div>
               <div class="footer-text">
-                <p><i class="fa-solid fa-location-dot"></i> 101 West Town , PBO 12345, United States</p>
-                <p><i class="fa-solid fa-phone"></i></i> +1 1234 56 789</p>
+                <p><i class="fa-solid fa-location-dot"></i> Jl. Nusantara No.62, Jetis, Kauman, Kec. Blora, Kabupaten Blora, Jawa Tengah 58214</p>
+                
+                <p>
+                    <a href="https://wa.me/6281321455855" target="_blank" style="text-decoration: none; color: inherit;">
+                        <i class="fa-solid fa-phone"></i> 0813-2145-5855
+                    </a>
+                </p>
+                
                 <p><i class="fa-solid fa-envelope"></i> contact@example.com</p>
               </div>
             </div>
