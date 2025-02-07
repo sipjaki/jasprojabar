@@ -7,8 +7,8 @@
     <nav class="navbar navbar-expand-lg">
       <div class="container">
         <a class="navbar-brand" href="index.html">
-          <img src="/assets/icon/pupr.png" alt="Technoit" class="img-fluid" style="margin-right:5px; width:55%;">
-          <img src="/assets/icon/logokabupatenblora.png" alt="Technoit" class="img-fluid" style="width:55%;">
+          <img src="/assets/icon/pupr.png" alt="Technoit" class="img-fluid" style="margin-right:5px; width:45%;">
+          <img src="/assets/icon/logokabupatenblora.png" alt="Technoit" class="img-fluid" style="width:45%; margin-right:10px;">
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
           aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
