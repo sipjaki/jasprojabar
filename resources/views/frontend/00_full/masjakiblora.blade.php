@@ -54,19 +54,18 @@
                   aria-expanded="false">
                   Kelembagaan
                 </a>
-                
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="about.html">Struktur DPUPR Kab Blora</a></li>
+                  <li><a class="dropdown-item" href="about.html">About</a></li>
+                  <li><a class="dropdown-item" href="packages.html">Pricing</a></li>
+                  <li><a class="dropdown-item" href="faqs.html">FAQs</a></li>
+                  <li><a class="dropdown-item" href="privacy-policy.html">Terms & Conditions</a></li>
+                  <li><a class="dropdown-item" href="privacy-policy.html">Privacy Policy</a></li>
+                  <li><a class="dropdown-item" href="blogs.html">Blogs</a></li>
+                  <li><a class="dropdown-item" href="blog-details.html">Blog Detail Page</a></li>
                 </ul>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="about.html">Renstra Program Jasa Konstruksi</a></li>
-                </ul>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="about.html">Tupoksi Program Jasa Konstruksi</a></li>
-                </ul>
-
               </li>
-            
+
+
               {{-- =================================================================== --}}
             <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
