@@ -46,7 +46,7 @@
           <ul class="navbar-nav">
             {{-- ================================================================ --}}
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="/">Beranda</a>
+              <a style="font-size: 14px;" class="nav-link" aria-current="page" href="/">Beranda</a>
             </li>
 
             <li class="nav-item dropdown">
