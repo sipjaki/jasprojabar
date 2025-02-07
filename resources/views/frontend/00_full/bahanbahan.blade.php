@@ -54,7 +54,7 @@
                   Kelembagaan
                 </a>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="about.html" style="color:black">Struktur DPUPR Kab Blora</a></li>
+                  <li><a class="dropdown-item" href="about.html"><span style="color: black;">Struktur DPUPR Kab Blora</span></a></li>
                   <li><a class="dropdown-item" href="packages.html">Pricing</a></li>
                   <li><a class="dropdown-item" href="faqs.html">FAQs</a></li>
                   <li><a class="dropdown-item" href="privacy-policy.html">Terms & Conditions</a></li>
