@@ -18,7 +18,7 @@
         
         <style>
           .logo {
-              width: 55%; /* Ukuran default */
+              width: 40%; /* Ukuran default */
               max-width: 100%;
               height: auto;
           }
