@@ -8,13 +8,13 @@
   <!-- ! Page Title Icon -->
   <link rel="icon" href="/assets/masjakiblora/images/microchip-solid.svg" type="/assets/masjakiblora/image/svg+xml">
   <!-- ! Font Awesome Library -->
-  <link rel="stylesheet" href="/assets/masjakibloracss/all.min.css">
+  <link rel="stylesheet" href="/assets/masjakiblora/css/all.min.css">
   <!-- ! Bootstrap -->
-  <link rel="stylesheet" href="/assets/masjakibloracss/bootstrap.min.css">
+  <link rel="stylesheet" href="/assets/masjakiblora/css/bootstrap.min.css">
   <!-- ! Main Template CSS File -->
-  <link rel="stylesheet" href="/assets/masjakibloracss/style.css">
-  <link rel="stylesheet" href="/assets/masjakibloracss/darkMode.css">
-  <link rel="stylesheet" href="/assets/masjakibloracss/aos.css">
+  <link rel="stylesheet" href="/assets/masjakiblora/css/style.css">
+  <link rel="stylesheet" href="/assets/masjakiblora/css/darkMode.css">
+  <link rel="stylesheet" href="/assets/masjakiblora/css/aos.css">
   <!-- ! Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
