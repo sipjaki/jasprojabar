@@ -202,9 +202,12 @@
                 }
             </style>
             
-             <div class="marquee-container" style="position: fixed;">
-                <div class="marquee" style="color: white">Selamat Datang ! di Web Resmi Mas Jaki Dinas Pekerjaan Umum & Penataan Ruang Blora, Sistem Informasi Pembina Jasa Konstruksi Pemerintah Kabupaten Blora Provinsi Jawa Tengah</div>
+        <div class="marquee-container" style="position: absolute; top: 0; right: 0; width: auto;">
+            <div class="marquee" style="color: white; white-space: nowrap;">
+                Selamat Datang! di Web Resmi Mas Jaki Dinas Pekerjaan Umum & Penataan Ruang Blora, Sistem Informasi Pembina Jasa Konstruksi Pemerintah Kabupaten Blora Provinsi Jawa Tengah
             </div>
+        </div>
+        
 
           <div
             class="col-lg-7 offset-lg-5 dark-bg order-lg-1 d-flex flex-column justify-content-start text-left caption">
