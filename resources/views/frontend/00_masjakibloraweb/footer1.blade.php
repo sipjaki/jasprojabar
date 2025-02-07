@@ -30,15 +30,15 @@
           <div class="col-lg-2 col-md-6 col-sm-12 footer-column">
             <div class="service-widget footer-widget">
               <div class="footer-widget-heading">
-                <h3>Services</h3>
+                <h3>Layanan Kami</h3>
               </div>
               <ul class="list">
-                <li><a href="services.html">Web Design</a></li>
-                <li><a href="services.html">App Developemnt</a></li>
-                <li><a href="services.html">Cloud Services</a></li>
-                <li><a href="services.html">Domain adn Hosting</a></li>
-                <li><a href="services.html">Seo Optimization</a></li>
-                <li><a href="services.html">Social Media</a></li>
+                <li><a href="/404">Pelatihan</a></li>
+                <li><a href="/404">Sertifikasi</a></li>
+                <li><a href="/404">Bimbingan Teknis</a></li>
+                <li><a href="/404">Workshop</a></li>
+                <li><a href="/404">BUJK Kontraktor</a></li>
+                <li><a href="/404">BUJK Konsultan</a></li>
               </ul>
             </div>
           </div>
