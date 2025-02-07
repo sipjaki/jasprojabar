@@ -134,8 +134,8 @@
             class="col-lg-7 offset-lg-5 dark-bg order-lg-1 d-flex flex-column justify-content-start text-left caption">
             <h2 data-aos="fade-up" class="">Selamat Datang ! di 
                 <br>
-              <span style="color: green; font-size:40px;">Sistem Informasi Pembina Jasa Konstruksi <br> Pemerinah Kabupaten Blora Provinsi Jawa Tengah</span>
-              <span class="circle" data-aos="fade-right" data-aos-delay="800">.</span>
+              <span style="color: green;">Sistem Informasi Pembina Jasa Konstruksi <br> Pemerinah Kabupaten Blora Provinsi Jawa Tengah</span>
+              <span class="circle" data-aos="fade-right" data-aos-delay="600">.</span>
             </h2>
             <p data-aos="fade-up" data-aos-delay="400" class="">You can easily change any design to
               your
