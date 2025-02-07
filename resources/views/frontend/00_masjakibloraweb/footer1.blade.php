@@ -41,6 +41,20 @@
                 <li><a href="/404">BUJK Konsultan</a></li>
               </ul>
             </div>
+            
+            <div class="service-widget footer-widget">
+              <div class="footer-widget-heading">
+                <h3>Layanan Kami</h3>
+              </div>
+              <ul class="list">
+                <li><a href="/404">Pelatihan</a></li>
+                <li><a href="/404">Sertifikasi</a></li>
+                <li><a href="/404">Bimbingan Teknis</a></li>
+                <li><a href="/404">Workshop</a></li>
+                <li><a href="/404">BUJK Kontraktor</a></li>
+                <li><a href="/404">BUJK Konsultan</a></li>
+              </ul>
+            </div>
           </div>
           <div class="col-lg-2 col-md-6 col-sm-12 footer-column">
             <div class="service-widget footer-widget">
