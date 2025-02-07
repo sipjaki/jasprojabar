@@ -34,7 +34,7 @@
     <nav class="navbar navbar-expand-lg">
       <div class="container">
         <a class="navbar-brand" href="index.html">
-          <img src="/assets/masjakiblora/images/logo.png" alt="Technoit" class="img-fluid">
+          <img src="/assets/icon/logokabupatenblora.png" alt="Technoit" class="img-fluid">
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
           aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
