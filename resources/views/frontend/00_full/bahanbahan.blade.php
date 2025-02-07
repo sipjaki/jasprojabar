@@ -165,9 +165,9 @@
                 </ul>
               </li>
 
-              <button id="darkmode-button" class="btn rounded-circle">
+              {{-- <button id="darkmode-button" class="btn rounded-circle">
                 <i class="fa-solid fa-moon"></i>
-              </button>
+              </button> --}}
 
           
         </div>
