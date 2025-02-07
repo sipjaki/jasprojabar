@@ -34,6 +34,18 @@
                     <li><a class="dropdown-item" href="about.html">Tupoksi Jasa Konstruksi</a></li>    
                 </ul>
               </li>
+
+              <li class="nav-item dropdown" style="font-size:14px;">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Berita
+                </a>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="about.html">Jasa Konstruksi</a></li>    
+                    <li><a class="dropdown-item" href="about.html">Dokumen Sertifikasi</a></li>    
+                    <li><a class="dropdown-item" href="about.html">Agenda Sertifikasi</a></li>    
+                </ul>
+              </li>
             
               
             <li class="nav-item">
