@@ -12,9 +12,9 @@
                 
               </div>
               <div class="footer-text">
-                <p>Lorem ipsum dolor sit amet, consec tetur adipisicing elit, sed do eiusmod tempor incididuntut consec
-                  tetur adipisicing
-                  elit,Lorem ipsum dolor sit amet.</p>
+                <p>
+                    Sistem Informasi Pembina Jasa Konstruksi Pemerintah Kabupaten Blora, Provinsi Jawa Tengah adalah platform digital yang dirancang untuk mendukung transparansi dan efisiensi dalam pembinaan jasa konstruksi. Sistem ini menyediakan informasi terkait regulasi, sertifikasi, serta pemantauan kinerja penyedia jasa, guna memastikan pembangunan yang berkualitas dan sesuai dengan ketentuan yang berlaku.
+                </p>
               </div>
               <div class="footer-social-icon">
                 <span>Follow us</span><a href="https://github.com/GziXnine" target="_blank"><i
