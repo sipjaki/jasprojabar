@@ -137,9 +137,20 @@
                 </ul>
               </li>
 
-              <li class="nav-item" style="font-size: 14px;">
-                <a class="nav-link" aria-current="page" href="index.html">Login</a>
+              <li class="nav-item dropdown" style="font-size:14px;">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Masuk
+                </a>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="about.html">Login</a></li>    
+                    <li><a class="dropdown-item" href="about.html">Register</a></li>        
+                </ul>
               </li>
+
+              {{-- <li class="nav-item" style="font-size: 14px;">
+                <a class="nav-link" aria-current="page" href="index.html">Login</a>
+              </li> --}}
   
             
           {{-- <button type="button" class="btn btn-primary rounded-pill get-quotes"><a href="contact.html">
