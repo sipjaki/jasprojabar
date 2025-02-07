@@ -34,8 +34,8 @@
     <nav class="navbar navbar-expand-lg">
       <div class="container">
         <a class="navbar-brand" href="index.html">
-            <img src="/assets/icon/pupr.png" alt="PUPR" class="img-fluid" style="width: 60%; margin-right: 5px;">
-            <img src="/assets/icon/logokabupatenblora.png" alt="KabBlora" class="img-fluid" style="width: 60%;">
+            <img src="/assets/icon/pupr.png" alt="PUPR" class="img-fluid" style="width: 62%; margin-right: 5px;">
+            <img src="/assets/icon/logokabupatenblora.png" alt="KabBlora" class="img-fluid" style="width: 62%;">
           </a>
           
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
@@ -47,7 +47,7 @@
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
           <ul class="navbar-nav">
             {{-- ================================================================ --}}
-            <li class="nav-item" style="margin-left: 20px;">
+            <li class="nav-item" style="margin-left: 18px;">
               <a style="font-size: 14px;" class="nav-link" aria-current="page" href="/">Beranda</a>
             </li>
 
