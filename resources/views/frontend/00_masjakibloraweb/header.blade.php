@@ -4,9 +4,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Technoit</title>
+  <title>{{ $title }}</title>
   <!-- ! Page Title Icon -->
-  <link rel="icon" href="/assets/masjakiblora/images/microchip-solid.svg" type="image/svg+xml">
+  {{-- <link rel="icon" href="/assets/masjakiblora/images/microchip-solid.svg" type="image/svg+xml"> --}}
+  <link rel="icon" href="/assets/icon/logokabupatenblora.png"  type="image/x-icon">
+
   <!-- ! Font Awesome Library -->
   <link rel="stylesheet" href="/assets/masjakiblora/css/all.min.css">
   <!-- ! Bootstrap -->
@@ -25,4 +27,5 @@
   <!-- ! AOS Library -->
   <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
   <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
 </head>
