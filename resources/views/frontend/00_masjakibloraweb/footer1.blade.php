@@ -6,8 +6,8 @@
             <div class="footer-widget">
               <div class="footer-logo">
                 <a href="index.html" class="logo d-flex align-items-center">
-                  <img src="/assets/icon/pupr.png" alt="logo" style="margin-right:5px;">
-                  <img src="/assets/icon/logokabupatenblora.png" alt="logo">
+                  <img src="/assets/icon/pupr.png" alt="logo" style="margin-right:5px; width:55%;">
+                  <img src="/assets/icon/logokabupatenblora.png" alt="logo" style="width:55%;">
                 </a>
               </div>
               <div class="footer-text">
