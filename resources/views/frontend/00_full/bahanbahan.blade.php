@@ -566,7 +566,7 @@
     <div class="faqs" id="faqs">
       <div class="header" data-aos="fade-up" data-aos-delay="100">
         <div class="title">FAQ's Jasa Konstruksi</div>
-        <p class="para">Pertanyaan Seputar Jasa Konstruksi Kabupaten Blora Provinsi Jawa Tengah</p>
+        <p class="para">Pertanyaan Seputar Jasa Konstruksi Pemerintah Kabupaten Blora Provinsi Jawa Tengah</p>
       </div>
       <div class="container" data-aos="fade-up">
         <div class="row gy-4">
