@@ -139,9 +139,7 @@
             
           <button type="button" class="btn btn-primary rounded-pill get-quotes"><a href="contact.html">
               Login</a></button>
-          <button id="darkmode-button" class="btn rounded-circle">
-            <i class="fa-solid fa-moon"></i>
-          </button>
+          
         </div>
       </div>
     </nav>
@@ -171,6 +169,9 @@
                 onclick="scrollToSection('#contact-us')">Daftar</button>
               <button style="--ripples: 12;" class="btn-custom" data-aos="fade-up" data-aos-delay="800"
                 onclick="scrollToSection('#services')">Contact Us</button>
+                <button id="darkmode-button" class="btn rounded-circle">
+                    <i class="fa-solid fa-moon"></i>
+                  </button>
             </div>
           </div>
         </div>
