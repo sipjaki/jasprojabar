@@ -87,6 +87,17 @@
               <div class="footer-widget-heading">
                 <h3>Kontak Kami</h3>
               </div>
+
+              <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d989.3533074939935!2d111.4085298!3d-6.9771767!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e77411bc797c1ed%3A0x5ddba5997190e35c!2sDinas%20Pekerjaan%20Umum%20dan%20Penataan%20Ruang%20(DPUPR)%20Kabupaten%20Blora!5e0!3m2!1sen!2sid!4v1707285952681!5m2!1sen!2sid" 
+                    width="300" 
+                    height="300" 
+                    style="border:0;" 
+                    allowfullscreen="" 
+                    loading="lazy" 
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+
               <div class="footer-text">
                 <p><i class="fa-solid fa-location-dot"></i> Jl. Nusantara No.62, Jetis, Kauman, Kec. Blora, Kabupaten Blora, Jawa Tengah 58214</p>
                 
