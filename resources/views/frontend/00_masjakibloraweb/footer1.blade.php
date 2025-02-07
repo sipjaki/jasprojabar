@@ -44,15 +44,17 @@
             
             <div class="service-widget footer-widget">
               <div class="footer-widget-heading">
-                <h3>Layanan Kami</h3>
+                <h3>Data Jakon</h3>
               </div>
               <ul class="list">
-                <li><a href="/404">Pelatihan</a></li>
-                <li><a href="/404">Sertifikasi</a></li>
-                <li><a href="/404">Bimbingan Teknis</a></li>
-                <li><a href="/404">Workshop</a></li>
                 <li><a href="/404">BUJK Kontraktor</a></li>
                 <li><a href="/404">BUJK Konsultan</a></li>
+                <li><a href="/404">Tenaga Kerja</a></li>
+                <li><a href="/404">Pelatihan</a></li>
+                <li><a href="/404">BUJK Kontraktor</a></li>
+                <li><a href="/404">BUJK Konsultan</a></li>
+                <li><a href="/404">Pengawasan BUJK</a></li>
+                <li><a href="/404">SKK Tenaga Ahli</a></li>
               </ul>
             </div>
           </div>
@@ -66,24 +68,18 @@
                 <li><a href="/404">Struktur DPUPR Kab Blora</a></li>
                 <li><a href="/404">Renstra Jasa Konstruksi</a></li>
                 <li><a href="/404">Tupoksi Jasa Konstruksi</a></li>
-                <li><a href="/404">BUJK Kontraktor</a></li>
-                <li><a href="/404">BUJK Konsultan</a></li>
-                <li><a href="/404">Tenaga Kerja</a></li>
-                <li><a href="/404">Pelatihan</a></li>
                 <li><a href="/404">Bimbingan Teknis</a></li>
-                <li><a href="/404">SKK Tenaga Ahli</a></li>
                 <li><a href="/404">Workshop</a></li>
                 <li><a href="/404">Daftar Tenaga Ahli</a></li>
-                <li><a href="/404">Pengawasan BUJK</a></li>
                 <li><a href="/404">Kecelakaan Kerja</a></li>
-                <li><a href="/404">Tata Tertib Jasa Konstruksi</a></li>
+                {{-- <li><a href="/404">Tata Tertib Jasa Konstruksi</a></li>
                 <li><a href="/404">Material Bangunan</a></li>
                 <li><a href="/404">Peralatan Konstruksi</a></li>
                 <li><a href="/404">Toko Bangunan Kab Blora</a></li>
                 <li><a href="/404">Harga Satuan Dasar</a></li>
                 <li><a href="/404">HSP Konstruksi Umum</a></li>
                 <li><a href="/404">SHST Konstruksi</a></li>
-                <li><a href="/404">Daftar Material</a></li>
+                <li><a href="/404">Daftar Material</a></li> --}}
               </ul>
             </div>
           </div>
