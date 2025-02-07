@@ -96,10 +96,10 @@
                     </a>
                 </p>
                 
-                <p><i class="fa-solid fa-envelope"></i> contact@example.com</p>
+                <p><i class="fa-solid fa-envelope"></i> jasakonstruksi@masjakidpuprblora.go.id</p>
               </div>
             </div>
-            <div class="footer-widget">
+            {{-- <div class="footer-widget">
               <div class="footer-widget-heading">
                 <h3>Newsletter</h3>
               </div>
@@ -114,7 +114,7 @@
                   </button>
                 </form>
               </div>
-            </div>
+            </div> --}}
           </div>
         </div>
         <div class="row">
