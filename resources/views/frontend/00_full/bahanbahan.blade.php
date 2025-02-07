@@ -6,10 +6,38 @@
     <!-- ! Start Navbar -->
     <nav class="navbar navbar-expand-lg">
       <div class="container">
-        <a class="navbar-brand" href="index.html">
+        {{-- <a class="navbar-brand" href="index.html">
           <img src="/assets/icon/pupr.png" alt="Technoit" class="img-fluid" style="margin-right:5px; width:55%;">
           <img src="/assets/icon/logokabupatenblora.png" alt="Technoit" class="img-fluid" style="width:55%; margin-right:7px;">
+        </a> --}}
+
+        <a class="navbar-brand" href="index.html">
+            <img src="/assets/icon/pupr.png" alt="Technoit" class="img-fluid logo" style="margin-right: 5px;">
+            <img src="/assets/icon/logokabupatenblora.png" alt="Technoit" class="img-fluid logo" style="margin-right: 7px;">
         </a>
+        
+        <style>
+          .logo {
+              width: 55%; /* Ukuran default */
+              max-width: 100%;
+              height: auto;
+          }
+        
+          /* Ukuran lebih kecil untuk tablet */
+          @media (max-width: 768px) {
+              .logo {
+                  width: 40%;
+              }
+          }
+        
+          /* Ukuran lebih kecil untuk ponsel */
+          @media (max-width: 480px) {
+              .logo {
+                  width: 30%;
+              }
+          }
+        </style>
+        
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
           aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
           <span>
@@ -744,85 +772,6 @@
       </div>
     </div>
     <!-- ! End Blogs -->
-    <!-- ! Start Contact Us -->
-    <div class="contact-us" id="contact-us">
-      <div class="header" data-aos="fade-up" data-aos-delay="100">
-        <div class="title">Contact Us</div>
-        <p class="para">Lorem ipsum dolor sit amet</p>
-      </div>
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-4 col-sm-12" data-aos="fade-up" data-aos-delay="400">
-            <div class="address">
-              <h5>Address:</h5>
-              <p class="text-black-50 fw-normal" style="font-size: 15px; margin-bottom: 30px;">11 West Town<br>PBo
-                12345,
-                United States</p>
-            </div>
-            <div class="phone">
-              <h5>Phone:</h5>
-              <p class="text-black-50 fw-normal" style="font-size: 15px; margin-bottom: 30px;">+1 1234 56 780<br>+1
-                1234
-                56 780</p>
-            </div>
-            <div class="email">
-              <h5>Email:</h5>
-              <p class="text-black-50 fw-normal" style="font-size: 15px; margin-bottom: 30px;">
-                info@example.com<br>email@example.com</p>
-            </div>
-          </div>
-          <div class="col-lg-8 col-sm-12">
-            <form id="contact-form">
-              <div class="row">
-                <!-- ! Username Field -->
-                <div class="col-lg-6 col-sm-12 mb-3" data-aos="fade-up" data-aos-delay="100">
-                  <div class="input-group has-validation">
-                    <span class="input-group-text">@</span>
-                    <div class="form-floating flex-grow-1">
-                      <input type="text" class="form-control" id="floatingInputGroup1" placeholder="Username" required>
-                      <label for="floatingInputGroup1">Username</label>
-                    </div>
-                    <div class="invalid-feedback">
-                      Please Enter Your Username.
-                    </div>
-                  </div>
-                </div>
-                <!-- ! Email Field -->
-                <div class="col-lg-6 col-sm-12 mb-3" data-aos="fade-up" data-aos-delay="400">
-                  <div class="input-group has-validation">
-                    <div class="form-floating flex-grow-1">
-                      <input type="email" class="form-control" id="floatingInputGroup2" placeholder="Email" required>
-                      <label for="floatingInputGroup2">Email</label>
-                    </div>
-                    <div class="invalid-feedback">
-                      Please Enter Your Email.
-                    </div>
-                  </div>
-                </div>
-                <!-- ! Subject Field -->
-                <div class="form-floating col-lg-12 mb-3 flex-grow-1" data-aos="fade-up" data-aos-delay="800">
-                  <input type="text" class="form-control" id="floatingSubject" placeholder="Subject" required>
-                  <label for="floatingSubject" class="ps-4">Subject</label>
-                </div>
-                <!-- ! Comments Field -->
-                <div class="col-lg-12 mb-3" data-aos="fade-up" data-aos-delay="1000">
-                  <div class="form-floating">
-                    <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2"
-                      style="height: 200px" required></textarea>
-                    <label for="floatingTextarea2">Comments</label>
-                  </div>
-                </div>
-                <!-- ! Submit Button -->
-                <div class="col-lg-8 col-md-12" data-aos="fade-up" data-aos-delay="1200">
-                  <button type="submit" class="btn btn-primary rounded-pill">Send Message</button>
-                </div>
-              </div>
-            </form>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- ! End Contact Us -->
   </main>
   <!-- ! Start Footer -->
   <footer id="footer" class="footer-section">
