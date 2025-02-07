@@ -34,8 +34,8 @@
     <nav class="navbar navbar-expand-lg">
       <div class="container">
         <a class="navbar-brand" href="index.html">
-            <img src="/assets/icon/pupr.png" alt="PUPR" class="img-fluid" style="width: 80%; margin-right: 5px;">
-            <img src="/assets/icon/logokabupatenblora.png" alt="KabBlora" class="img-fluid" style="width: 80%;">
+            <img src="/assets/icon/pupr.png" alt="PUPR" class="img-fluid" style="width: 65%; margin-right: 5px;">
+            <img src="/assets/icon/logokabupatenblora.png" alt="KabBlora" class="img-fluid" style="width: 65%;">
           </a>
           
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
@@ -187,9 +187,9 @@
           </ul>
           <button type="button" class="btn btn-success rounded-pill get-quotes"><a href="/login">
               Login</a></button>
-          <button id="darkmode-button" class="btn rounded-circle">
+          {{-- <button id="darkmode-button" class="btn rounded-circle">
             <i class="fa-solid fa-moon"></i>
-          </button>
+          </button> --}}
         </div>
       </div>
     </nav>
