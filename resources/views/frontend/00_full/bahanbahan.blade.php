@@ -44,8 +44,8 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
           <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="index.html">Home</a>
+            <li class="nav-item" style="font-size: 14px;">
+              <a class="nav-link" aria-current="page" href="index.html">Beranda</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="services.html">Services</a>
