@@ -37,7 +37,7 @@
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
           <ul class="navbar-nav">
             <li class="nav-item" style="font-size: 14px;">
-              <a class="nav-link" aria-current="page" href="index.html">Beranda</a>
+              <a class="nav-link" aria-current="page" href="/">Beranda</a>
             </li>
 
             <li class="nav-item dropdown" style="font-size:14px;">
@@ -46,9 +46,9 @@
                   Kelembagaan
                 </a>
                 <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="about.html">Struktur DPUPR Kab Blora</a></li>    
-                    <li><a class="dropdown-item" href="about.html">Renstra Program Jasa Konstruksi</a></li>    
-                    <li><a class="dropdown-item" href="about.html">Tupoksi Jasa Konstruksi</a></li>    
+                    <li><a class="dropdown-item" href="/404">Struktur DPUPR Kab Blora</a></li>    
+                    <li><a class="dropdown-item" href="/404">Renstra Program Jasa Konstruksi</a></li>    
+                    <li><a class="dropdown-item" href="/404">Tupoksi Jasa Konstruksi</a></li>    
                 </ul>
               </li>
 
@@ -58,9 +58,9 @@
                   Berita
                 </a>
                 <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="about.html">Jasa Konstruksi</a></li>    
-                    <li><a class="dropdown-item" href="about.html">Dokumen Sertifikasi</a></li>    
-                    <li><a class="dropdown-item" href="about.html">Agenda Sertifikasi</a></li>    
+                    <li><a class="dropdown-item" href="/404">Jasa Konstruksi</a></li>    
+                    <li><a class="dropdown-item" href="/404">Dokumen Sertifikasi</a></li>    
+                    <li><a class="dropdown-item" href="/404">Agenda Sertifikasi</a></li>    
                 </ul>
               </li>
             
@@ -70,9 +70,9 @@
                   Data Jakon
                 </a>
                 <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="about.html">BUJK Kontraktor</a></li>    
-                    <li><a class="dropdown-item" href="about.html">BUJK Konsultan</a></li>    
-                    <li><a class="dropdown-item" href="about.html">Tenaga Kerja</a></li>    
+                    <li><a class="dropdown-item" href="/404">BUJK Kontraktor</a></li>    
+                    <li><a class="dropdown-item" href="/404">BUJK Konsultan</a></li>    
+                    <li><a class="dropdown-item" href="/404">Tenaga Kerja</a></li>    
                 </ul>
               </li>
             
@@ -82,11 +82,11 @@
                   Pembinaan
                 </a>
                 <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="about.html">Pelatihan</a></li>    
-                    <li><a class="dropdown-item" href="about.html">Bimbingan Teknis</a></li>    
-                    <li><a class="dropdown-item" href="about.html">SKK Tenaga Ahli</a></li>    
-                    <li><a class="dropdown-item" href="about.html">Workshop</a></li>    
-                    <li><a class="dropdown-item" href="about.html">Daftar Tenaga Ahli</a></li>    
+                    <li><a class="dropdown-item" href="/404">Pelatihan</a></li>    
+                    <li><a class="dropdown-item" href="/404">Bimbingan Teknis</a></li>    
+                    <li><a class="dropdown-item" href="/404">SKK Tenaga Ahli</a></li>    
+                    <li><a class="dropdown-item" href="/404">Workshop</a></li>    
+                    <li><a class="dropdown-item" href="/404">Daftar Tenaga Ahli</a></li>    
                 </ul>
               </li>
             
@@ -96,9 +96,9 @@
                   Pengawasan
                 </a>
                 <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="about.html">Pengawasan BUJK</a></li>    
-                    <li><a class="dropdown-item" href="about.html">Kecelakaan Kerja</a></li>    
-                    <li><a class="dropdown-item" href="about.html">Tertib Jasa Konstruksi</a></li>    
+                    <li><a class="dropdown-item" href="/404">Pengawasan BUJK</a></li>    
+                    <li><a class="dropdown-item" href="/404">Kecelakaan Kerja</a></li>    
+                    <li><a class="dropdown-item" href="/404">Tertib Jasa Konstruksi</a></li>    
                     {{-- <li><a class="dropdown-item" href="about.html">Workshop</a></li>    
                     <li><a class="dropdown-item" href="about.html">Daftar Tenaga Ahli</a></li>     --}}
                 </ul>
@@ -110,14 +110,14 @@
                   Rantai Pasok
                 </a>
                 <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="about.html">Material Bangunan Gedung</a></li>    
-                    <li><a class="dropdown-item" href="about.html">Peralatan Konstruksi</a></li>    
-                    <li><a class="dropdown-item" href="about.html">Toko Bangunan Kab Blora</a></li>    
-                    <li><a class="dropdown-item" href="about.html">Distribusi Kab Blora</a></li>    
-                    <li><a class="dropdown-item" href="about.html">Harga Satuan Dasar</a></li>    
-                    <li><a class="dropdown-item" href="about.html">HSP Konstruksi Umum</a></li>    
-                    <li><a class="dropdown-item" href="about.html">SHST Konstruksi</a></li>    
-                    <li><a class="dropdown-item" href="about.html">Daftar Material</a></li>    
+                    <li><a class="dropdown-item" href="/404">Material Bangunan Gedung</a></li>    
+                    <li><a class="dropdown-item" href="/404">Peralatan Konstruksi</a></li>    
+                    <li><a class="dropdown-item" href="/404">Toko Bangunan Kab Blora</a></li>    
+                    <li><a class="dropdown-item" href="/404">Distribusi Kab Blora</a></li>    
+                    <li><a class="dropdown-item" href="/404">Harga Satuan Dasar</a></li>    
+                    <li><a class="dropdown-item" href="/404">HSP Konstruksi Umum</a></li>    
+                    <li><a class="dropdown-item" href="/404">SHST Konstruksi</a></li>    
+                    <li><a class="dropdown-item" href="/404">Daftar Material</a></li>    
                 </ul>
               </li>
             
@@ -140,17 +140,17 @@
                   Peraturan
                 </a>
                 <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="about.html">Undang - Undang</a></li>    
-                    <li><a class="dropdown-item" href="about.html">Peraturan Pemerintah</a></li>    
-                    <li><a class="dropdown-item" href="about.html">Peraturan Presiden </a></li>    
-                    <li><a class="dropdown-item" href="about.html">Peraturan Menteri</a></li>    
-                    <li><a class="dropdown-item" href="about.html">Keputusan Menteri</a></li>    
-                    <li><a class="dropdown-item" href="about.html">Surat Edaran Menteri</a></li>    
-                    <li><a class="dropdown-item" href="about.html">Referensi</a></li>    
-                    <li><a class="dropdown-item" href="about.html">Peraturan Daerah</a></li>    
-                    <li><a class="dropdown-item" href="about.html">Peraturan Gubernur</a></li>    
-                    <li><a class="dropdown-item" href="about.html">Peraturan Walikota/Bupati</a></li>    
-                    <li><a class="dropdown-item" href="about.html">Surat Keputusan</a></li>    
+                    <li><a class="dropdown-item" href="/404">Undang - Undang</a></li>    
+                    <li><a class="dropdown-item" href="/404">Peraturan Pemerintah</a></li>    
+                    <li><a class="dropdown-item" href="/404">Peraturan Presiden </a></li>    
+                    <li><a class="dropdown-item" href="/404">Peraturan Menteri</a></li>    
+                    <li><a class="dropdown-item" href="/404">Keputusan Menteri</a></li>    
+                    <li><a class="dropdown-item" href="/404">Surat Edaran Menteri</a></li>    
+                    <li><a class="dropdown-item" href="/404">Referensi</a></li>    
+                    <li><a class="dropdown-item" href="/404">Peraturan Daerah</a></li>    
+                    <li><a class="dropdown-item" href="/404">Peraturan Gubernur</a></li>    
+                    <li><a class="dropdown-item" href="/404">Peraturan Walikota/Bupati</a></li>    
+                    <li><a class="dropdown-item" href="/404">Surat Keputusan</a></li>    
                 </ul>
               </li>
 
@@ -160,8 +160,8 @@
                   Masuk
                 </a>
                 <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="about.html">Login</a></li>    
-                    <li><a class="dropdown-item" href="about.html">Register</a></li>        
+                    <li><a class="dropdown-item" href="/404">Login</a></li>    
+                    <li><a class="dropdown-item" href="/404">Register</a></li>        
                 </ul>
               </li>
 
