@@ -54,7 +54,7 @@
                   Kelembagaan
                 </a>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="about.html">About</a></li>
+                  <li><a class="dropdown-item" href="about.html" style="color:black">Struktur DPUPR Kab Blora</a></li>
                   <li><a class="dropdown-item" href="packages.html">Pricing</a></li>
                   <li><a class="dropdown-item" href="faqs.html">FAQs</a></li>
                   <li><a class="dropdown-item" href="privacy-policy.html">Terms & Conditions</a></li>
@@ -98,8 +98,8 @@
               <a class="nav-link" href="blogs.html">News</a>
             </li>
           </ul>
-          <button type="button" class="btn btn-primary rounded-pill get-quotes"><a href="contact.html">Get
-              Quotes</a></button>
+          <button type="button" class="btn btn-primary rounded-pill get-quotes"><a href="contact.html">
+              Login</a></button>
           <button id="darkmode-button" class="btn rounded-circle">
             <i class="fa-solid fa-moon"></i>
           </button>
