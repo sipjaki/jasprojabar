@@ -34,8 +34,8 @@
     <nav class="navbar navbar-expand-lg">
       <div class="container">
         <a class="navbar-brand" href="index.html">
-            <img src="/assets/icon/pupr.png" alt="PUPR" class="img-fluid" style="width: 65%; margin-right: 5px;">
-            <img src="/assets/icon/logokabupatenblora.png" alt="KabBlora" class="img-fluid" style="width: 65%;">
+            <img src="/assets/icon/pupr.png" alt="PUPR" class="img-fluid" style="width: 60%; margin-right: 5px;">
+            <img src="/assets/icon/logokabupatenblora.png" alt="KabBlora" class="img-fluid" style="width: 60%;">
           </a>
           
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
@@ -164,7 +164,7 @@
                 </ul>
               </li>
             
-              {{-- <li class="nav-item dropdown">
+              <li class="nav-item dropdown">
                 <a style="font-size: 14px;" class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                   aria-expanded="false">
                   Peraturan   
@@ -182,7 +182,7 @@
                   <li><a class="dropdown-item" href="blog-details.html">Peraturan Walikota/Bupati</a></li>
                   <li><a class="dropdown-item" href="blog-details.html">Surat Keputusan</a></li>
                 </ul>
-              </li> --}}
+              </li>
 
           </ul>
           <button type="button" class="btn btn-success rounded-pill get-quotes"><a href="/login">
