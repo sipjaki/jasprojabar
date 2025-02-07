@@ -531,49 +531,49 @@
             <img src="/assets/masjakiblora/images/team-1.jpg" alt="">
             <h5>Jhone Bi</h5>
             <p>Application Manager</p>
-            <div class="social" data-aos="fade-up" data-aos-delay="400">
+            {{-- <div class="social" data-aos="fade-up" data-aos-delay="400">
               <a href="https://github.com/GziXnine" target="_blank"><i class="fa-brands fa-github"></i></a>
               <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
               <a href="https://www.linkedin.com/in/1ahmed-allam/" target="_blank"><i
                   class="fa-brands fa-linkedin"></i></a>
               <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
-            </div>
+            </div> --}}
           </div>
           <div class="col-lg-3 col-md-6 col-sm-12 box" data-aos="fade-up">
             <img src="/assets/masjakiblora/images/team-2.jpg" alt="">
             <h5>Sani Awesome</h5>
             <p>Social Media</p>
-            <div class="social" data-aos="fade-up" data-aos-delay="400">
+            {{-- <div class="social" data-aos="fade-up" data-aos-delay="400">
               <a href="https://github.com/GziXnine" target="_blank"><i class="fa-brands fa-github"></i></a>
               <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
               <a href="https://www.linkedin.com/in/1ahmed-allam/" target="_blank"><i
                   class="fa-brands fa-linkedin"></i></a>
               <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
-            </div>
+            </div> --}}
           </div>
           <div class="col-lg-3 col-md-6 col-sm-12 box" data-aos="fade-up">
             <img src="/assets/masjakiblora/images/team-3.jpg" alt="">
             <h5>Andrio Willi</h5>
             <p>Content Writer</p>
-            <div class="social" data-aos="fade-up" data-aos-delay="400">
+            {{-- <div class="social" data-aos="fade-up" data-aos-delay="400">
               <a href="https://github.com/GziXnine" target="_blank"><i class="fa-brands fa-github"></i></a>
               <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
               <a href="https://www.linkedin.com/in/1ahmed-allam/" target="_blank"><i
                   class="fa-brands fa-linkedin"></i></a>
               <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
-            </div>
+            </div> --}}
           </div>
           <div class="col-lg-3 col-md-6 col-sm-12 box" data-aos="fade-up">
             <img src="/assets/masjakiblora/images/team-4.jpg" alt="">
             <h5>Afa Jonson</h5>
             <p>Business Manager</p>
-            <div class="social" data-aos="fade-up" data-aos-delay="400">
+            {{-- <div class="social" data-aos="fade-up" data-aos-delay="400">
               <a href="https://github.com/GziXnine" target="_blank"><i class="fa-brands fa-github"></i></a>
               <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
               <a href="https://www.linkedin.com/in/1ahmed-allam/" target="_blank"><i
                   class="fa-brands fa-linkedin"></i></a>
               <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
-            </div>
+            </div> --}}
           </div>
         </div>
       </div>
