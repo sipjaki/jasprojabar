@@ -5,10 +5,11 @@
           <div class="col-xl-4 col-lg-4 mb-50">
             <div class="footer-widget">
               <div class="footer-logo">
-                <a href="index.html" class="logo d-flex align-items-center">
-                  <img src="/assets/icon/pupr.png" alt="logo" style="margin-right:5px; width: 55%; max-width: 100%; height: auto">
-                  <img src="/assets/icon/logokabupatenblora.png" alt="logo" style="width: 55%; max-width: 100%; height: auto">
-                </a>
+                <div class="container">
+                    <img src="/assets/icon/pupr.png" alt="Logo SIPJAKIKBB" style="margin-bottom: 10px; width: 50px; height: 50px; object-fit: cover; margin-right: 10px; padding: 0;">
+                    <img src="/assets/icon/logokabupatenblora.png" alt="Logo Pemerintah Kabupaten Blora" style="margin-bottom: 10px; width: 58px; height: 58px; object-fit: cover; margin-right: 10px; padding: 0;">
+                </div>
+                
               </div>
               <div class="footer-text">
                 <p>Lorem ipsum dolor sit amet, consec tetur adipisicing elit, sed do eiusmod tempor incididuntut consec
