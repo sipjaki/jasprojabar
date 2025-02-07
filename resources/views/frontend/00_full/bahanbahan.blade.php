@@ -5,6 +5,10 @@
   <header class="d-flex align-items-center fixed-top justify-content-around bg-transparent">
     <!-- ! Start Navbar -->
 
+
+    <nav class="navbar navbar-expand-lg">
+      <div class="container">
+        
     <style>
         .marquee-container {
             width: 250px;
@@ -41,9 +45,6 @@
         Selamat Datang! di Web Resmi Mas Jaki Dinas Pekerjaan Umum & Penataan Ruang Blora, Sistem Informasi Pembina Jasa Konstruksi Pemerintah Kabupaten Blora Provinsi Jawa Tengah
     </div>
 </div>
-
-    <nav class="navbar navbar-expand-lg">
-      <div class="container">
         <a class="navbar-brand" href="index.html">
           <img src="/assets/icon/pupr.png" alt="Technoit" class="img-fluid" style="margin-right:5px; width:55%;">
           <img src="/assets/icon/logokabupatenblora.png" alt="Technoit" class="img-fluid" style="width:55%; margin-right:7px;">
