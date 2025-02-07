@@ -522,8 +522,8 @@
     <!-- ! Start Team -->
     <div class="team" id="team">
       <div class="header" data-aos="fade-up" data-aos-delay="100">
-        <div class="title">Team</div>
-        <p class="para">Lorem ipsum dolor sit amet</p>
+        <div class="title">Dinas Pekerjaan Umum & Penataan Ruang Pemerintah Kab Blora</div>
+        {{-- <p class="para">Lorem ipsum dolor sit amet</p> --}}
       </div>
       <div class="container" data-aos="fade-up">
         <div class="row">
