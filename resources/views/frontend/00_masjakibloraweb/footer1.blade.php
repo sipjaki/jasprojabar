@@ -72,14 +72,14 @@
                 <li><a href="/404">Workshop</a></li>
                 <li><a href="/404">Daftar Tenaga Ahli</a></li>
                 <li><a href="/404">Kecelakaan Kerja</a></li>
-                {{-- <li><a href="/404">Tata Tertib Jasa Konstruksi</a></li>
+                <li><a href="/404">Tata Tertib Jasa Konstruksi</a></li>
                 <li><a href="/404">Material Bangunan</a></li>
                 <li><a href="/404">Peralatan Konstruksi</a></li>
                 <li><a href="/404">Toko Bangunan Kab Blora</a></li>
                 <li><a href="/404">Harga Satuan Dasar</a></li>
                 <li><a href="/404">HSP Konstruksi Umum</a></li>
                 <li><a href="/404">SHST Konstruksi</a></li>
-                <li><a href="/404">Daftar Material</a></li> --}}
+                <li><a href="/404">Daftar Material</a></li>
               </ul>
             </div>
           </div>
