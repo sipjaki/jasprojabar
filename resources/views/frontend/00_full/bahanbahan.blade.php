@@ -23,7 +23,7 @@
               <a class="nav-link" aria-current="page" href="index.html">Beranda</a>
             </li>
 
-            <li class="nav-item dropdown" style="font-size:12px;">
+            <li class="nav-item dropdown" style="font-size:14px;">
                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                   aria-expanded="false">
                   Kelembagaan
@@ -35,7 +35,7 @@
                 </ul>
               </li>
 
-              <li class="nav-item dropdown" style="font-size:12px;">
+              <li class="nav-item dropdown" style="font-size:14px;">
                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                   aria-expanded="false">
                   Berita
@@ -47,7 +47,7 @@
                 </ul>
               </li>
             
-              <li class="nav-item dropdown" style="font-size:12px;">
+              <li class="nav-item dropdown" style="font-size:14px;">
                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                   aria-expanded="false">
                   Data Jakon
@@ -59,7 +59,7 @@
                 </ul>
               </li>
             
-              <li class="nav-item dropdown" style="font-size:12px;">
+              <li class="nav-item dropdown" style="font-size:14px;">
                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                   aria-expanded="false">
                   Pembinaan
@@ -73,7 +73,7 @@
                 </ul>
               </li>
             
-              <li class="nav-item dropdown" style="font-size:12px;">
+              <li class="nav-item dropdown" style="font-size:14px;">
                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                   aria-expanded="false">
                   Pengawasan
@@ -87,7 +87,7 @@
                 </ul>
               </li>
             
-              <li class="nav-item dropdown" style="font-size:12px;">
+              <li class="nav-item dropdown" style="font-size:14px;">
                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                   aria-expanded="false">
                   Rantai Pasok
@@ -102,7 +102,7 @@
                 </ul>
               </li>
             
-              <li class="nav-item dropdown" style="font-size:12px;">
+              <li class="nav-item dropdown" style="font-size:14px;">
                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                   aria-expanded="false">
                   AHSP
@@ -117,7 +117,7 @@
                 </ul>
               </li>
              
-              <li class="nav-item dropdown" style="font-size:12px;">
+              <li class="nav-item dropdown" style="font-size:14px;">
                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                   aria-expanded="false">
                   Peraturan
