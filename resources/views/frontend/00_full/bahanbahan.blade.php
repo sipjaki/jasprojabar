@@ -47,13 +47,18 @@
                 </ul>
               </li>
             
-              
-            <li class="nav-item">
-              <a class="nav-link" href="services.html">Services</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="protofolio.html">Portfolio</a>
-            </li>
+              <li class="nav-item dropdown" style="font-size:14px;">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Data Jakon
+                </a>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="about.html">BUJK Kontraktor</a></li>    
+                    <li><a class="dropdown-item" href="about.html">BUJK Konsultan</a></li>    
+                    <li><a class="dropdown-item" href="about.html">Tenaga Kerja</a></li>    
+                </ul>
+              </li>
+            
             <li class="nav-item">
               <a class="nav-link" href="testimonials.html">Testimonials</a>
             </li>
