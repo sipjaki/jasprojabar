@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Technoit</title>
   <!-- ! Page Title Icon -->
-  <link rel="icon" href="/assets/masjakiblora/images/microchip-solid.svg" type="image/svg+xml">
+  <link rel="icon" href="/assets/masjakiblora/images/microchip-solid.svg" type="/assets/masjakiblora/image/svg+xml">
   <!-- ! Font Awesome Library -->
   <link rel="stylesheet" href="/assets/masjakibloracss/all.min.css">
   <!-- ! Bootstrap -->
@@ -34,7 +34,7 @@
     <nav class="navbar navbar-expand-lg">
       <div class="container">
         <a class="navbar-brand" href="index.html">
-          <img src="images/logo.png" alt="Technoit" class="img-fluid">
+          <img src="/assets/masjakiblora/images/logo.png" alt="Technoit" class="img-fluid">
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
           aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -988,13 +988,13 @@
           </div>
         </div>
         <div class="row">
-          <div class="col-xl-6 col-lg-6 text-left text-lg-left">
+          {{-- <div class="col-xl-6 col-lg-6 text-left text-lg-left">
             <div class="copyright-text">
               <p>&copy; 2024 <a href="https://github.com/GziXnine" target="_blank"><span>Allam</span></a> All Right
                 Reserved
               </p>
             </div>
-          </div>
+          </div> --}}
         </div>
       </div>
     </div>
