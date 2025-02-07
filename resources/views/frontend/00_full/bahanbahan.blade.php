@@ -345,7 +345,7 @@
       <div class="container" data-aos="fade-up">
         <div class="header" data-aos="fade-up" data-aos-delay="100">
           {{-- <div class="title">Himbauan Dinas Terkait</div> --}}
-          <button type="submit" class="title btn btn-success rounded-pill"><span style="color:white">Himbauan Dinas Terkait</span></button>
+          <button type="submit" class="title btn btn-success rounded-pill"><span style="color:white; font-size:16px;">Himbauan Dinas Terkait</span></button>
 
 <p style="color: black;">Dinas PUPR Blora mengimbau pelaku usaha jasa konstruksi untuk memanfaatkan Sistem Informasi Pembina Jasa Konstruksi sebagai sumber utama informasi regulasi, pembinaan, dan pemantauan proyek. Sistem ini mendukung transparansi dan efisiensi dalam pengelolaan data jasa konstruksi sesuai peraturan yang berlaku.</p>
         </div>
