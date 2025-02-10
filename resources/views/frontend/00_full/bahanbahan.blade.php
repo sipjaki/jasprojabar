@@ -36,11 +36,11 @@
 
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
           <ul class="navbar-nav">
-            <li class="nav-item" style="font-size: 14px;">
+            <li class="nav-item" style="font-size: 15px;">
               <a class="nav-link" aria-current="page" href="/">Beranda</a>
             </li>
 
-            <li class="nav-item dropdown" style="font-size:14px;">
+            <li class="nav-item dropdown" style="font-size:15px;">
                 <a class="nav-link dropdown-toggle" href="/404" role="button" data-bs-toggle="dropdown"
                   aria-expanded="false">
                   Kelembagaan
@@ -52,7 +52,7 @@
                 </ul>
               </li>
 
-              <li class="nav-item dropdown" style="font-size:14px;">
+              <li class="nav-item dropdown" style="font-size:15px;">
                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                   aria-expanded="false">
                   Berita
@@ -64,7 +64,7 @@
                 </ul>
               </li>
             
-              <li class="nav-item dropdown" style="font-size:14px;">
+              <li class="nav-item dropdown" style="font-size:15px;">
                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                   aria-expanded="false">
                   Data Jakon
@@ -76,7 +76,7 @@
                 </ul>
               </li>
             
-              <li class="nav-item dropdown" style="font-size:14px;">
+              <li class="nav-item dropdown" style="font-size:15px;">
                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                   aria-expanded="false">
                   Pembinaan
@@ -90,7 +90,7 @@
                 </ul>
               </li>
             
-              <li class="nav-item dropdown" style="font-size:14px;">
+              <li class="nav-item dropdown" style="font-size:15px;">
                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                   aria-expanded="false">
                   Pengawasan
@@ -104,7 +104,7 @@
                 </ul>
               </li>
             
-              <li class="nav-item dropdown" style="font-size:14px;">
+              <li class="nav-item dropdown" style="font-size:15px;">
                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                   aria-expanded="false">
                   Rantai Pasok
@@ -114,14 +114,14 @@
                     <li><a class="dropdown-item" href="/404">Peralatan Konstruksi</a></li>    
                     <li><a class="dropdown-item" href="/404">Toko Bangunan Kab Blora</a></li>    
                     <li><a class="dropdown-item" href="/404">Distribusi Kab Blora</a></li>    
-                    <li><a class="dropdown-item" href="/404">Harga Satuan Dasar</a></li>    
+                    {{-- <li><a class="dropdown-item" href="/404">Harga Satuan Dasar</a></li>    
                     <li><a class="dropdown-item" href="/404">HSP Konstruksi Umum</a></li>    
                     <li><a class="dropdown-item" href="/404">SHST Konstruksi</a></li>    
-                    <li><a class="dropdown-item" href="/404">Daftar Material</a></li>    
+                    <li><a class="dropdown-item" href="/404">Daftar Material</a></li>     --}}
                 </ul>
               </li>
             
-              {{-- <li class="nav-item dropdown" style="font-size:14px;">
+              <li class="nav-item dropdown" style="font-size:15px;">
                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                   aria-expanded="false">
                   AHSP
@@ -132,9 +132,9 @@
                     <li><a class="dropdown-item" href="about.html">SHST Konstruksi</a></li>    
                     <li><a class="dropdown-item" href="about.html">Daftar Material</a></li>    
                 </ul>
-              </li> --}}
+              </li>
              
-              <li class="nav-item dropdown" style="font-size:14px;">
+              <li class="nav-item dropdown" style="font-size:15px;">
                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                   aria-expanded="false">
                   Peraturan
@@ -154,7 +154,7 @@
                 </ul>
               </li>
 
-              <li class="nav-item dropdown" style="font-size:14px;">
+              <li class="nav-item dropdown" style="font-size:15px;">
                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                   aria-expanded="false">
                   Masuk
