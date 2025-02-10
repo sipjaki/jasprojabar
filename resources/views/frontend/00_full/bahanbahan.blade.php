@@ -22,7 +22,7 @@
             <img src="/assets/icon/logokabupatenblora.png" 
                  alt="Technoit" 
                  class="img-fluid" 
-                 style="margin-right: 7px; width: 70%; max-width: 100%; height: auto; 
+                 style="margin-right: 20px; width: 70%; max-width: 100%; height: auto; 
                         @media (max-width: 768px) { width: 20%; } 
                         @media (max-width: 480px) { width: 10%; }">
         </a>
