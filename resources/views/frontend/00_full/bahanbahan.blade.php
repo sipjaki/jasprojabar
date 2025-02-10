@@ -486,25 +486,25 @@
       <div class="container" data-aos="fade-up">
         <div class="row">
           <div class="col-lg-4 col-md-6 col-sm-12 box">
-            <img src="/assets/masjakiblora/images/happy-clients.svg" alt="">
+            <img src="/assets/masjakiblora/images/complete-projects.svg" alt="">
             <span class="number" data-prog="232">0
             </span>
-            <h4>Happy Clients</h4>
-            <p>consequuntur quae diredo</p>
+            {{-- <h4>Pelatihan</h4> --}}
+            <p>Pelatihan</p>
           </div>
           <div class="col-lg-4 col-md-6 col-sm-12 box">
             <img src="/assets/masjakiblora/images/complete-projects.svg" alt="">
             <span class="number" data-prog="521">0
             </span>
-            <h4>Completed Projects</h4>
-            <p>adipisci atque quia aut</p>
+            {{-- <h4>Bimbingan Teknis</h4> --}}
+            <p>Bimbingan Teknis</p>
           </div>
           <div class="col-lg-4 col-md-6 col-sm-12 box">
             <img src="/assets/masjakiblora/images/hours-support.svg" alt="">
             <span class="number" data-prog="453">0
             </span>
-            <h4>Hours Of Support</h4>
-            <p>aut commodi quaerat</p>
+            {{-- <h4>Hours Of Support</h4> --}}
+            <p>Workshop</p>
           </div>
         </div>
       </div>
