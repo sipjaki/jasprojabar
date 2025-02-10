@@ -240,7 +240,7 @@
     </div>
     <!-- ! End Services -->
     <!-- ! Start About Us -->
-    <div class="about-us" id="about-us">
+    {{-- <div class="about-us" id="about-us">
       <div class="header" data-aos="fade-up" data-aos-delay="100">
         <div class="title">Why Choose Us</div>
         <p class="para">Lorem ipsum dolor sit amet</p>
@@ -306,7 +306,7 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> --}}
     <!-- ! End About Us -->
     <!-- ! Start Protfolio -->
     {{-- <div class="protofolio" id="protofolio">
