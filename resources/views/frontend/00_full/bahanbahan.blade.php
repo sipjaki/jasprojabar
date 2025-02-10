@@ -6,12 +6,12 @@
     <!-- ! Start Navbar -->
     <nav class="navbar navbar-expand-lg">
       <div class="container">
-        {{-- <a class="navbar-brand" href="index.html">
+        <a class="navbar-brand" href="index.html">
           <img src="/assets/icon/pupr.png" alt="Technoit" class="img-fluid" style="margin-right:5px; width:55%;">
           <img src="/assets/icon/logokabupatenblora.png" alt="Technoit" class="img-fluid" style="width:55%; margin-right:7px;">
-        </a> --}}
+        </a>
 
-        <a class="navbar-brand" href="index.html">
+        {{-- <a class="navbar-brand" href="index.html">
             <img src="/assets/icon/pupr.png" 
                  alt="Technoit" 
                  class="img-fluid" 
@@ -25,7 +25,7 @@
                  style="margin-right: 20px; width: 70%; max-width: 100%; height: auto; 
                         @media (max-width: 768px) { width: 20%; } 
                         @media (max-width: 480px) { width: 10%; }">
-        </a>
+        </a> --}}
         
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
           aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
