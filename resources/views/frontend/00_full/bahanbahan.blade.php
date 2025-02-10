@@ -203,6 +203,59 @@
       </div>
     </div>
     <!-- ! End Landing -->
+
+    <div class="blogs" id="blogs">
+      <div class="header" data-aos="fade-up" data-aos-delay="100">
+        <div class="title">Blogs</div>
+        <p class="para">Lorem ipsum dolor sit amet</p>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="card" data-aos="fade-up" data-aos-delay="100">
+              <div class="box">
+                <img src="/assets/masjakiblora/images/blog-1.jpg" class="card-img-top" alt="...">
+              </div>
+              <div class="card-body">
+                <p>Domain & Hosting</p>
+                <p class="card-text">How to host website on any hosting provider?
+                </p>
+                <p>William Bla</p>
+                <p>Feb 1, 2022</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="card" data-aos="fade-up" data-aos-delay="400">
+              <div class="box">
+                <img src="/assets/masjakiblora/images/blog-2.jpg" class="card-img-top" alt="...">
+              </div>
+              <div class="card-body">
+                <p>Advertisement</p>
+                <p class="card-text">How to create add on google adwords?
+                </p>
+                <p>Jobi Ret</p>
+                <p>Oct 5, 2022</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="card" data-aos="fade-up" data-aos-delay="600">
+              <div class="box">
+                <img src="/assets/masjakiblora/images/blog-3.jpg" class="card-img-top" alt="...">
+              </div>
+              <div class="card-body">
+                <p>Marketing</p>
+                <p class="card-text">What is digital marketing and why is important?
+                </p>
+                <p>Main Dow</p>
+                <p>Dec 22, 2022</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
     <!-- ! Start Services -->
     <div class="services py-5" id="services">
       <div class="container">
@@ -500,7 +553,7 @@
             <p>Bimbingan Teknis</p>
           </div>
           <div class="col-lg-4 col-md-6 col-sm-12 box">
-            <img src="/assets/masjakiblora/images/hours-support.svg" alt="">
+            <img src="/assets/masjakiblora/images/complete-projects.svg" alt="">
             <span class="number" data-prog="453">0
             </span>
             {{-- <h4>Hours Of Support</h4> --}}
@@ -700,58 +753,7 @@
     </div>
     <!-- ! End Discuss -->
     <!-- ! Start Blogs -->
-    <div class="blogs" id="blogs">
-      <div class="header" data-aos="fade-up" data-aos-delay="100">
-        <div class="title">Blogs</div>
-        <p class="para">Lorem ipsum dolor sit amet</p>
-      </div>
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-4 col-md-6 col-sm-12">
-            <div class="card" data-aos="fade-up" data-aos-delay="100">
-              <div class="box">
-                <img src="/assets/masjakiblora/images/blog-1.jpg" class="card-img-top" alt="...">
-              </div>
-              <div class="card-body">
-                <p>Domain & Hosting</p>
-                <p class="card-text">How to host website on any hosting provider?
-                </p>
-                <p>William Bla</p>
-                <p>Feb 1, 2022</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 col-sm-12">
-            <div class="card" data-aos="fade-up" data-aos-delay="400">
-              <div class="box">
-                <img src="/assets/masjakiblora/images/blog-2.jpg" class="card-img-top" alt="...">
-              </div>
-              <div class="card-body">
-                <p>Advertisement</p>
-                <p class="card-text">How to create add on google adwords?
-                </p>
-                <p>Jobi Ret</p>
-                <p>Oct 5, 2022</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 col-sm-12">
-            <div class="card" data-aos="fade-up" data-aos-delay="600">
-              <div class="box">
-                <img src="/assets/masjakiblora/images/blog-3.jpg" class="card-img-top" alt="...">
-              </div>
-              <div class="card-body">
-                <p>Marketing</p>
-                <p class="card-text">What is digital marketing and why is important?
-                </p>
-                <p>Main Dow</p>
-                <p>Dec 22, 2022</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+   
     <!-- ! End Blogs -->
   </main>
   <!-- ! Start Footer -->
