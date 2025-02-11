@@ -38,7 +38,7 @@ html body #top {
   width: 40px;
   height: 40px;
   cursor: pointer;
-  background-color: #025add;
+  background-color: #09ff00d7;
   opacity: 0.7;
   z-index: 9999;
   border-radius: 15px;
@@ -91,7 +91,7 @@ canvas {
   padding-bottom: 50px;
 }
 .header .title {
-  color: #025add;
+  color: #09ff00d7;
   font-size: 34px;
 }
 .header .para {
@@ -151,7 +151,7 @@ canvas {
 
 /** @format */
 .landing .letters .btn-custom {
-  --button-bg: #025add;
+  --button-bg: #09ff00d7;
   font-size: 14px;
   margin-right: 20px;
   margin-top: 20px;
@@ -297,7 +297,7 @@ header nav .navbar-collapse ul li a {
   }
 }
 header nav .navbar-collapse ul li a.active, header nav .navbar-collapse ul li a:hover, header nav .navbar-collapse ul li a:focus {
-  color: #025add !important;
+  color: #09ff00d7 !important;
 }
 header nav .navbar-collapse ul li.dropdown ul li a {
   color: rgba(128, 128, 128, 0.829) !important;
@@ -306,7 +306,7 @@ header nav .navbar-collapse ul li.dropdown ul li a {
   font-size: 14px !important;
 }
 header nav .navbar-collapse ul li.dropdown ul li a:hover {
-  color: #0c6de0 !important;
+  color: #09ff00d7 !important;
   background-color: transparent;
 }
 header nav .get-quotes {
@@ -353,7 +353,7 @@ header nav [id=darkmode-button] {
   }
 }
 header nav [id=darkmode-button]:hover svg {
-  color: #025add !important;
+  color: #09ff00d7 !important;
 }
 header nav [id=darkmode-button]:hover svg.fa-sun {
   color: #ffc107 !important;
@@ -428,7 +428,7 @@ header nav [id=darkmode-button]:hover {
   }
 }
 .landing .letters h2 span {
-  color: #025add;
+  color: #09ff00d7;
 }
 .landing .letters p {
   font-size: 16px;
@@ -440,7 +440,7 @@ header nav [id=darkmode-button]:hover {
 }
 .landing .letters .social a svg {
   font-size: 14px;
-  color: #025add;
+  color: #09ff00d7;
 }
 @media (max-width: 767px) {
   .landing .letters .social a svg {
@@ -488,7 +488,7 @@ header nav [id=darkmode-button]:hover {
   content: "";
   position: absolute;
   width: 1px;
-  background-color: #025add;
+  background-color: #09ff00d7;
   transition: 1s;
   height: 0;
 }
@@ -515,7 +515,7 @@ header nav [id=darkmode-button]:hover {
   width: 80px;
 }
 .services .container div h4 {
-  color: #025add;
+  color: #09ff00d7;
   margin: 29px 0 20px;
   font-size: 26px;
   cursor: pointer;
@@ -715,7 +715,7 @@ header nav [id=darkmode-button]:hover {
   -o-transform: scale(1.1);
 }
 .pricing .row .card:hover li .fa-circle-check {
-  color: #025add;
+  color: #09ff00d7;
 }
 .pricing .row .card:hover li .fa-circle-xmark {
   color: red;
@@ -790,7 +790,7 @@ header nav [id=darkmode-button]:hover {
   font-size: 18px;
   font-weight: bold;
   margin: 10px 0 5px 0;
-  color: #025add;
+  color: #09ff00d7;
 }
 .testimonials .container .swiper .swiper-slide .testimonial-item .info-box h4 {
   font-size: 14px;
@@ -811,7 +811,7 @@ header nav [id=darkmode-button]:hover {
   color: #3a3a3a;
 }
 .testimonials .container .swiper .swiper-slide .testimonial-item p svg {
-  color: #025add;
+  color: #09ff00d7;
 }
 .testimonials .container .swiper .swiper-slide .testimonial-item p svg::before {
   content: "\f6b0";
@@ -879,7 +879,7 @@ header nav [id=darkmode-button]:hover {
   margin: 6px 0;
 }
 .status .container .box h4 {
-  color: #025add;
+  color: #09ff00d7;
 }
 .status .container .box p {
   font-size: 15px;
@@ -954,7 +954,7 @@ header nav [id=darkmode-button]:hover {
 }
 .team .container .box h5 {
   margin: 20px 0;
-  color: #025add;
+  color: #09ff00d7;
   font-weight: 500;
 }
 .team .container .box p {
@@ -965,7 +965,7 @@ header nav [id=darkmode-button]:hover {
 }
 .team .container .box .social a {
   margin: 0 4px;
-  color: #025add;
+  color: #09ff00d7;
   border-radius: 50%;
   border: 2px solid #c9c6c6;
   -webkit-border-radius: 50%;
@@ -981,7 +981,7 @@ header nav [id=darkmode-button]:hover {
   -o-transition: 0.25s;
 }
 .team .container .box .social a:hover {
-  border-color: #025add;
+  border-color: #09ff00d7;
 }
 
 .faqs {
@@ -1007,10 +1007,10 @@ header nav [id=darkmode-button]:hover {
 }
 .faqs .container .accordion-item .accordion-header button {
   background-color: #f8f8f8;
-  color: #025add;
+  color: #09ff00d7;
 }
 .faqs .container .accordion-item .accordion-header button::after {
-  color: #025add !important;
+  color: #09ff00d7 !important;
 }
 .faqs .container .accordion-item .accordion-header button span svg {
   padding-right: 10px;
@@ -1105,7 +1105,7 @@ header nav [id=darkmode-button]:hover {
   color: rgba(58, 58, 58, 0.6588235294);
 }
 .blogs .container .card .card-body .card-text {
-  color: #025add;
+  color: #09ff00d7;
   padding: 10px 0;
   font-size: 22px;
   font-weight: 500;
@@ -1198,7 +1198,7 @@ footer .container .footer-social-icon {
   margin-bottom: 50px;
 }
 footer .container .footer-social-icon span {
-  color: #025add;
+  color: #09ff00d7;
   font-size: 20px;
   display: block;
 }
@@ -1215,7 +1215,7 @@ footer .container .footer-column {
 }
 footer .container .footer-column h3 {
   font-size: 20px;
-  color: #025add;
+  color: #09ff00d7;
   margin-bottom: 20px;
 }
 footer .container .footer-column ul li {
@@ -1227,11 +1227,11 @@ footer .container .footer-column ul li a {
   font-size: 14px;
 }
 footer .container .footer-column ul li a:hover {
-  color: #025add;
+  color: #09ff00d7;
 }
 footer .container .footer-widget h3 {
   font-size: 20px;
-  color: #025add;
+  color: #09ff00d7;
   margin-bottom: 20px;
 }
 footer .container .footer-widget .footer-text svg {
@@ -1273,13 +1273,13 @@ footer .container .footer-widget form button {
 }
 footer .container .footer-widget form button svg {
   font-size: 50px;
-  color: #0088cc;
+  color: #09ff00d7;
 }
 footer .container .copyright-text {
   font-size: 14px;
   margin-top: 30px;
 }
 footer .container .copyright-text span {
-  color: #025add;
+  color: #09ff00d7;
   font-weight: bold;
 }/*# sourceMappingURL=style.css.map */

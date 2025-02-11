@@ -275,7 +275,7 @@ public function createstoredokumentasipelatihan(Request $request)
 
 <div class="posts">
                 
-    <h1 style="color: yellow">Berita Terakhir</h1>
+    <h1 style="color: #09ff00d7">Berita Terakhir</h1>
     @foreach ($databerita->slice(-4) as $item)
     <a href="#">
         <span style="font-size: 9px;">{{ \Carbon\Carbon::parse($item->tanggal)->translatedFormat('j F Y') }}</span>
@@ -286,7 +286,7 @@ public function createstoredokumentasipelatihan(Request $request)
 </div>
 
 
-{{-- #06f933 --}}
+#06f933
 
 KODE WARNA HIJAU :  #00820d
 
@@ -394,3 +394,7 @@ KODE WARNA HIJAU :  #00820d
       </div>
       <!-- ! End Contact Us -->
   
+
+      {{-- kode warna hijau  --}}
+
+      #09ff00d7
