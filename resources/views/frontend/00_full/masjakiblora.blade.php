@@ -50,14 +50,52 @@
           </div>
         </div>
       </div>
-      <nav aria-label="breadcrumb" style="background: #09ff00d7">
+      {{-- <nav aria-label="breadcrumb" style="background: #09ff00d7">
         <div class="container">
           <ol class="breadcrumb" data-aos="fade-up" data-aos-delay="700">
             <li class="breadcrumb-item Home"><a href="index.html">Home</a></li>
             <li class="breadcrumb-item active" aria-current="page">Our Blogs</li>
           </ol>
         </div>
-      </nav>
+      </nav> --}}
+      <div class="container">
+        <ol class="breadcrumb" data-aos="fade-up" data-aos-delay="700">
+          <!-- Breadcrumb navigation (commented out) -->
+        </ol>
+      
+        <!-- Running Text / Marquee Effect -->
+        <div class="running-text" style="background-color: #f8f9fa; padding: 10px;">
+          <p style="font-size: 18px; font-weight: bold; color: #007bff; margin: 0;">
+            <span class="marquee-text">
+              Selamat Datang di Mas Jaki
+            </span>
+          </p>
+        </div>
+      </div>
+      
+      <!-- CSS for running text effect -->
+      <style>
+        .running-text {
+          overflow: hidden;
+          white-space: nowrap;
+          width: 100%;
+        }
+      
+        .marquee-text {
+          display: inline-block;
+          animation: marquee 10s linear infinite;
+        }
+      
+        @keyframes marquee {
+          0% {
+            transform: translateX(100%);
+          }
+          100% {
+            transform: translateX(-100%);
+          }
+        }
+      </style>
+      
     </div>
     <!-- ! Start Blogs -->
     <div class="blogs" id="blogs">
