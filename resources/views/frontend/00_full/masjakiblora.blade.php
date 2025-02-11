@@ -8,34 +8,7 @@
   <!-- ! End Header -->
   <!-- ! Start Landing -->
   <main>
-    {{-- <div class="landing">
-      <div class="overlay"></div>
-      <div id="particles-js">
-        <canvas width="1170" height="2532" style="width: 100%; height: 100%;"></canvas>
-      </div>
-      <div class="container letters">
-        <div class="row gy-5">
-          <div
-            class="col-lg-7 offset-lg-5 dark-bg order-lg-1 d-flex flex-column justify-content-start text-left caption">
-            <h2 data-aos="fade-up" class="">Selamat Datang ! di 
-                <br>
-              <span style="color: green;">Sistem Informasi Pembina Jasa Konstruksi <br> Pemerintah Kabupaten Blora Provinsi Jawa Tengah</span>
-              <span class="circle" data-aos="fade-right" data-aos-delay="800">.</span>
-            </h2>
-            <p data-aos="fade-up" data-aos-delay="200" class="">Sistem ini dirancang untuk mendukung pengelolaan dan pembinaan jasa konstruksi di Kabupaten Blora, Provinsi Jawa Tengah</p>
-
-            <div class="d-flex justify-content-start buttons">
-              <button style="--ripples: 12;" class="btn-custom" data-aos="fade-up" data-aos-delay="800"
-                onclick="scrollToSection('#contact-us')">Daftar</button>
-              <button style="--ripples: 12;" class="btn-custom" data-aos="fade-up" data-aos-delay="200"
-                onclick="scrollToSection('#services')">Contact Us</button>
-              
-            </div>
-          </div>
-        </div>
-      </div>
-    </div> --}}
-    <!-- ! End Landing -->
+   
 
     <div class="breadcrumbs sticked-header-offset" style="background: url(/assets/masjakiblora/images/hero-bg.jpg) center left;" >
       <div class="page-header d-flex align-items-center">
@@ -442,7 +415,7 @@
     </section>
     <!-- ! End Testimonials -->
     <!-- ! Start Status -->
-    <div class="status">
+    <div class="status" style="background: url(/assets/masjakiblora/images/hero-bg.jpg) center left;">
       <div class="container" data-aos="fade-up">
         <div class="row">
           <div class="col-lg-4 col-md-6 col-sm-12 box">
