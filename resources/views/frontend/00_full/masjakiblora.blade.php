@@ -18,7 +18,7 @@
               <img src="/assets/icon/pupr.png" alt="Technoit" class="img-fluid" style="margin-right:5px; width:12%;">
               <img src="/assets/icon/logokabupatenblora.png" alt="Technoit" class="img-fluid" style="width:12%; margin-right:7px;">
               {{-- <h2 data-aos="fade-up" data-aos-delay="300">Our Blogs</h2> --}} <br>
-              <p data-aos="fade-up" data-aos-delay="400">Dinas Pekerjaan Umum dan Penataan Ruang <br> Pemerintah Kabupaten Blora Provinsi Jawa Tengah </p>
+              <p style="color: green;" data-aos="fade-up" data-aos-delay="400">Dinas Pekerjaan Umum dan Penataan Ruang <br> Pemerintah Kabupaten Blora Provinsi Jawa Tengah </p>
             </div>
           </div>
         </div>
