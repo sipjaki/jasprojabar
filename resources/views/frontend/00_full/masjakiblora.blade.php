@@ -90,7 +90,7 @@
       </div>
     </div>
     <!-- ! Start Services -->
-    <div class="services py-5" id="services">
+    {{-- <div class="services py-5" id="services">
       <div class="container">
         <div data-aos="fade-up" data-aos-delay="100">
           <img src="/assets/masjakiblora/images/service-design.svg" alt="">
@@ -123,7 +123,7 @@
           <p>Ronsectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
         </div>
       </div>
-    </div>
+    </div> --}}
     <!-- ! End Services -->
     <!-- ! Start About Us -->
     {{-- <div class="about-us" id="about-us">
