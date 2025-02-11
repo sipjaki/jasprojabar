@@ -467,24 +467,24 @@
         <div class="row gy-4">
           <div class="col-lg-12">
             <div class="accordion accordion-flush" id="faqlist">
+              
               <div class="accordion-item" data-aos="fade-up" data-aos-delay="100">
                 <h3 class="accordion-header">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#faq-content-1">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-1">
                     <span class="num"><i class="fa-solid fa-circle-arrow-right"></i></span>
                     Apa itu Sistem Informasi Pembina Jasa Konstruksi Pemerintah Kabupaten Blora?
                   </button>
                 </h3>
-                <div id="faq-content-1" class="accordion-collapse collapse show" data-bs-parent="#faqlist">
+                <div id="faq-content-1" class="accordion-collapse collapse" data-bs-parent="#faqlist">
                   <div class="accordion-body">
                     Sistem ini adalah platform digital yang digunakan untuk mempermudah pengelolaan dan pengawasan sektor jasa konstruksi di Kabupaten Blora, termasuk pelaksanaan proyek dan pembinaan pelaku usaha konstruksi.
                   </div>
                 </div>
-              </div><!-- TODO Faq item-->
+              </div>
+      
               <div class="accordion-item" data-aos="fade-up" data-aos-delay="300">
                 <h3 class="accordion-header">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#faq-content-2">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-2">
                     <span class="num"><i class="fa-solid fa-circle-arrow-right"></i></span>
                     Siapa yang dapat menggunakan sistem ini?
                   </button>
@@ -494,11 +494,11 @@
                     Sistem ini dapat digunakan oleh Pemerintah Kabupaten Blora, pelaku usaha jasa konstruksi, serta masyarakat yang membutuhkan informasi terkait sektor konstruksi di daerah.
                   </div>
                 </div>
-              </div><!-- TODO Faq item-->
+              </div>
+      
               <div class="accordion-item" data-aos="fade-up" data-aos-delay="500">
                 <h3 class="accordion-header">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#faq-content-3">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-3">
                     <span class="num"><i class="fa-solid fa-circle-arrow-right"></i></span>
                     Apa tujuan utama dari sistem ini?
                   </button>
@@ -508,11 +508,11 @@
                     Tujuan utama sistem ini adalah untuk meningkatkan transparansi, akuntabilitas, dan efisiensi dalam pengelolaan sektor jasa konstruksi serta mendukung peningkatan kualitas proyek konstruksi di Kabupaten Blora.
                   </div>
                 </div>
-              </div><!-- TODO Faq item-->
+              </div>
+      
               <div class="accordion-item" data-aos="fade-up" data-aos-delay="600">
                 <h3 class="accordion-header">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#faq-content-4">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-4">
                     <span class="num"><i class="fa-solid fa-circle-arrow-right"></i></span>
                     Bagaimana cara mendaftar sebagai pelaku usaha konstruksi?
                   </button>
@@ -522,54 +522,56 @@
                     Pelaku usaha dapat mendaftar dengan mengunjungi situs resmi, mengisi formulir pendaftaran, dan mengunggah dokumen yang diperlukan seperti izin usaha dan sertifikat keahlian.
                   </div>
                 </div>
-              </div><!-- TODO Faq item-->
-
-              <div class="accordion-item" data-aos="fade-up" data-aos-delay="100">
+              </div>
+      
+              <div class="accordion-item" data-aos="fade-up" data-aos-delay="700">
                 <h3 class="accordion-header">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#faq-content-5">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-5">
                     <span class="num"><i class="fa-solid fa-circle-arrow-right"></i></span>
                     Apakah data yang dimasukkan dalam sistem ini aman?
                   </button>
                 </h3>
-                <div id="faq-content-5" class="accordion-collapse collapse show" data-bs-parent="#faqlist">
+                <div id="faq-content-5" class="accordion-collapse collapse" data-bs-parent="#faqlist">
                   <div class="accordion-body">
                     Ya, sistem ini dilengkapi dengan teknologi keamanan untuk menjaga kerahasiaan dan integritas data pribadi pengguna sesuai dengan regulasi perlindungan data yang berlaku.
                   </div>
                 </div>
-              </div><!-- TODO Faq item-->
-              
-              <div class="accordion-item" data-aos="fade-up" data-aos-delay="100">
+              </div>
+      
+              <div class="accordion-item" data-aos="fade-up" data-aos-delay="800">
                 <h3 class="accordion-header">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#faq-content-6">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-6">
                     <span class="num"><i class="fa-solid fa-circle-arrow-right"></i></span>
                     Bagaimana cara memberikan umpan balik atau melaporkan pengaduan terkait proyek konstruksi?
                   </button>
                 </h3>
-                <div id="faq-content-6" class="accordion-collapse collapse show" data-bs-parent="#faqlist">
+                <div id="faq-content-6" class="accordion-collapse collapse" data-bs-parent="#faqlist">
                   <div class="accordion-body">
                     Masyarakat dan pelaku usaha dapat memberikan umpan balik atau melaporkan pengaduan melalui fitur pengaduan yang tersedia dalam sistem untuk ditindaklanjuti oleh pihak berwenang.
                   </div>
                 </div>
-              </div><!-- TODO Faq item-->
-              
-              <div class="accordion-item" data-aos="fade-up" data-aos-delay="100">
+              </div>
+      
+              <div class="accordion-item" data-aos="fade-up" data-aos-delay="900">
                 <h3 class="accordion-header">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#faq-content-7">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-7">
                     <span class="num"><i class="fa-solid fa-circle-arrow-right"></i></span>
                     Apakah sistem ini dapat diakses melalui perangkat mobile?
                   </button>
                 </h3>
-                <div id="faq-content-7" class="accordion-collapse collapse show" data-bs-parent="#faqlist">
+                <div id="faq-content-7" class="accordion-collapse collapse" data-bs-parent="#faqlist">
                   <div class="accordion-body">
                     Ya, sistem ini dapat diakses melalui perangkat mobile baik Android maupun iOS, dengan antarmuka yang memudahkan pengguna untuk mengakses berbagai fitur secara praktis.
                   </div>
                 </div>
-              </div><!-- TODO Faq item-->
+              </div>
+      
             </div>
           </div>
+        </div>
+      </div>
+      
+
         </div>
         </section>
       </div>
