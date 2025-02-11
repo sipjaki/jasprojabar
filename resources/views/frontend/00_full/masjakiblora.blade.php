@@ -51,7 +51,7 @@
         </div>
       </div>
       <nav aria-label="breadcrumb" style="background: #09ff00d7;">
-        <div class="container" style="height: 0vh; width:0vh;">
+        <div class="container" style="height: 0vh; width:10vh;">
           <!-- Running Text / Marquee Effect in Breadcrumb -->
           <div class="running-text" style="background: #F7D300; overflow: hidden;">
             <p style="font-size: 14px; font-weight: bold; color: black; margin: 0;">
