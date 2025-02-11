@@ -65,31 +65,29 @@
       
       <!-- CSS for running text effect -->
       <style>
-                .running-text {
-            white-space: nowrap;
-            width: 100%;
-            overflow: hidden;
-            /* padding: 3px; */
-            border-radius: 20px;
+        .running-text {
+          white-space: nowrap;
+          width: 100%;
+          border-radius: 20pz;
+        }
+      
+        .marquee-text {
+          display: inline-block;
+          animation: marquee 15s linear infinite;
+        }
+      
+        @keyframes marquee {
+          0% {
+            transform: translateX(100%);
           }
-
-          .marquee-text {
-            display: inline-block;
-            animation: marquee 15s linear infinite;
+          100% {
+            transform: translateX(-100%);
           }
-
-          @keyframes marquee {
-            0% {
-              transform: translateX(100%);
-            }
-            100% {
-              transform: translateX(-100%);
-            }
-          }
+        }
       </style>
       
       
-    
+    ]
 
     <div class="blogs" id="blogs">
       <div class="header" data-aos="fade-up" data-aos-delay="100">
