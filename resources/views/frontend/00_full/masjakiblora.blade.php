@@ -581,7 +581,9 @@
         <p>
           Menu Pendaftaran Sertifikasi Tenaga Ahli Kabupaten Blora adalah sistem pendaftaran bagi warga Kabupaten Blora yang ingin mendapatkan sertifikat keahlian di bidang tertentu. Peserta hanya perlu mengisi formulir, mengunggah dokumen, dan memberikan informasi tentang keahlian yang dimiliki. Sertifikasi ini bertujuan untuk meningkatkan kualitas tenaga kerja di Kabupaten Blora dan memberikan pengakuan resmi atas kemampuan yang dimiliki.
         </p>
+        <a href="/">
         <button type="submit" class="btn btn-success rounded-pill"><i class="fas fa-users mr-2" style="margin-right: 5px"></i> Pendaftaran</button>
+      </a>
       </div>
     </div>
     <!-- ! End Discuss -->
