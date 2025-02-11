@@ -50,8 +50,8 @@
           </div>
         </div>
       </div>
-      <nav aria-label="breadcrumb" style="background: #09ff00d7;">
-        <div class="container" style="width:auto; margin-top:15px;">
+      <nav aria-label="breadcrumb" style="background: #09ff00d7; margin-top:100px;">
+        <div class="container" style="height:5vh; width:auto; margin-top:15px;">
           <!-- Running Text / Marquee Effect in Breadcrumb -->
           <div class="running-text" style="background: #F7D300;">
             <p style="font-size: 14px; font-weight: bold; color: black; margin: 0;">
