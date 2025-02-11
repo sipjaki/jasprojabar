@@ -55,8 +55,8 @@
         <div class="container">
           <ol class="breadcrumb" data-aos="fade-up" data-aos-delay="700">
             <li class="breadcrumb-item Home">
-              <a href="/">
-                <marquee behavior="scroll" direction="left" scrollamount="10" scrolldelay="100">
+              <a href="/" style="color: black">
+                <marquee behavior="scroll" direction="left" scrollamount="15" scrolldelay="0">
                   Selamat Datang di Mas Jaki DPUPR Kabupaten Blora | Sistem Informasi Pembina Jasa Konsrtuksi Kabupaten Blora
                 </marquee>
               </a>
