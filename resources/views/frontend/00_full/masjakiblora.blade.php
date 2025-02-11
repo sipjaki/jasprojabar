@@ -60,7 +60,7 @@
                       <img src="/assets/masjakiblora/images/blog-1.jpg" class="card-img-top" alt="...">
                     </div>
                     <div class="card-body">
-                      <p>Domain & Hosting</p>
+                      <p>Berita 1</p>
                       <p class="card-text">How to host website on any hosting provider?</p>
                       <p>William Bla</p>
                       <p>Feb 1, 2022</p>
@@ -74,7 +74,7 @@
                       <img src="/assets/masjakiblora/images/blog-1.jpg" class="card-img-top" alt="...">
                     </div>
                     <div class="card-body">
-                      <p>Domain & Hosting</p>
+                      <p>Berita 2</p>
                       <p class="card-text">How to host website on any hosting provider?</p>
                       <p>William Bla</p>
                       <p>Feb 1, 2022</p>
@@ -88,7 +88,7 @@
                       <img src="/assets/masjakiblora/images/blog-1.jpg" class="card-img-top" alt="...">
                     </div>
                     <div class="card-body">
-                      <p>Domain & Hosting</p>
+                      <p>Berita 3</p>
                       <p class="card-text">How to host website on any hosting provider?</p>
                       <p>William Bla</p>
                       <p>Feb 1, 2022</p>
@@ -109,7 +109,7 @@
                       <img src="/assets/masjakiblora/images/blog-1.jpg" class="card-img-top" alt="...">
                     </div>
                     <div class="card-body">
-                      <p>Domain & Hosting</p>
+                      <p>Berita 4</p>
                       <p class="card-text">How to host website on any hosting provider?</p>
                       <p>William Bla</p>
                       <p>Feb 1, 2022</p>
@@ -123,7 +123,7 @@
                       <img src="/assets/masjakiblora/images/blog-1.jpg" class="card-img-top" alt="...">
                     </div>
                     <div class="card-body">
-                      <p>Domain & Hosting</p>
+                      <p>Berita 5</p>
                       <p class="card-text">How to host website on any hosting provider?</p>
                       <p>William Bla</p>
                       <p>Feb 1, 2022</p>
@@ -137,7 +137,21 @@
                       <img src="/assets/masjakiblora/images/blog-1.jpg" class="card-img-top" alt="...">
                     </div>
                     <div class="card-body">
-                      <p>Domain & Hosting</p>
+                      <p>Berita 6</p>
+                      <p class="card-text">How to host website on any hosting provider?</p>
+                      <p>William Bla</p>
+                      <p>Feb 1, 2022</p>
+                    </div>
+                  </div>
+                </div>
+                <!-- Card 7 -->
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                  <div class="card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="box">
+                      <img src="/assets/masjakiblora/images/blog-1.jpg" class="card-img-top" alt="...">
+                    </div>
+                    <div class="card-body">
+                      <p>Berita 7</p>
                       <p class="card-text">How to host website on any hosting provider?</p>
                       <p>William Bla</p>
                       <p>Feb 1, 2022</p>
