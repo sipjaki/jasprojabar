@@ -53,7 +53,7 @@
       <nav aria-label="breadcrumb" style="background: #09ff00d7;">
         <div class="container" style="height: 5vh; padding: 0;">
           <!-- Running Text / Marquee Effect in Breadcrumb -->
-          <div class="running-text" style="background: #F7D300; width: 100%; overflow: hidden;">
+          <div class="running-text" style="background: #F7D300; overflow: hidden;">
             <p style="font-size: 14px; font-weight: bold; color: black; margin: 0;">
               <span class="marquee-text">
                 Selamat Datang di Mas Jaki Dinas Pekerjaan Umum dan Penataan Ruang Pemerintah Kabupaten Blora Provinsi Jawa Tengah, Sistem Informasi Pembina Jasa Konstruksi Kabupaten Blora
@@ -86,56 +86,7 @@
       </style>
       
       
-    <!-- ! Start Blogs -->
-    <div class="blogs" id="blogs">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-4 col-md-6 col-sm-12">
-            <div class="card" data-aos="fade-up" data-aos-delay="100">
-              <div class="box">
-                <img src="images/blog-1.jpg" class="card-img-top" alt="...">
-              </div>
-              <div class="card-body">
-                <p>Domain & Hosting</p>
-                <p class="card-text">How to host website on any hosting provider?
-                </p>
-                <p>William Bla</p>
-                <p>Feb 1, 2022</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 col-sm-12">
-            <div class="card" data-aos="fade-up" data-aos-delay="400">
-              <div class="box">
-                <img src="images/blog-2.jpg" class="card-img-top" alt="...">
-              </div>
-              <div class="card-body">
-                <p>Advertisement</p>
-                <p class="card-text">How to create add on google adwords?
-                </p>
-                <p>Jobi Ret</p>
-                <p>Oct 5, 2022</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 col-sm-12">
-            <div class="card" data-aos="fade-up" data-aos-delay="600">
-              <div class="box">
-                <img src="images/blog-3.jpg" class="card-img-top" alt="...">
-              </div>
-              <div class="card-body">
-                <p>Marketing</p>
-                <p class="card-text">What is digital marketing and why is important?
-                </p>
-                <p>Main Dow</p>
-                <p>Dec 22, 2022</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- ! End Blogs -->
+    ]
 
     <div class="blogs" id="blogs">
       <div class="header" data-aos="fade-up" data-aos-delay="100">
