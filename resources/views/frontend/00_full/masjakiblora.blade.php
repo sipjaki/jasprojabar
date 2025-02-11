@@ -42,8 +42,8 @@
         <div class="container position-relative">
           <div class="row d-flex justify-content-center">
             <div class="col-lg-6 text-center">
-              <img src="/assets/icon/pupr.png" alt="Technoit" class="img-fluid" style="margin-right:5px; width:30%;">
-              <img src="/assets/icon/logokabupatenblora.png" alt="Technoit" class="img-fluid" style="width:30%; margin-right:7px;">
+              <img src="/assets/icon/pupr.png" alt="Technoit" class="img-fluid" style="margin-right:5px; width:5%;">
+              <img src="/assets/icon/logokabupatenblora.png" alt="Technoit" class="img-fluid" style="width:5%; margin-right:7px;">
               {{-- <h2 data-aos="fade-up" data-aos-delay="300">Our Blogs</h2> --}}
               <p data-aos="fade-up" data-aos-delay="400">Lorem ipsum dolor sit amet consectetur adipiscing elit</p>
             </div>
