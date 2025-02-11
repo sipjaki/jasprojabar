@@ -50,14 +50,28 @@
           </div>
         </div>
       </div>
+      
+      {{-- <nav aria-label="breadcrumb" style="background: #09ff00d7;">
+        <ol>
+        <div class="container" style="width: 100%; margin-top: 5px; padding: 0;"> --}}
+          {{-- <!-- Running Text / Marquee Effect in Breadcrumb --> --}}
+          {{-- <div class="running-text" style="background: #F7D300; overflow: hidden; width: 100%; border-radius: 20px;">
+            <p style="font-size: 14px; font-weight: bold; color: black; margin: 0;">
+              <span class="marquee-text">
+                Selamat Datang di Mas Jaki Dinas Pekerjaan Umum dan Penataan Ruang Pemerintah Kabupaten Blora Provinsi Jawa Tengah, Sistem Informasi Pembina Jasa Konstruksi Kabupaten Blora
+              </span>
+            </p>
+          </div>
+        </div>
+      </ol>
+      </nav> --}}
+
         
-      <nav aria-label="breadcrumb">
-        <div class="container">
-          <ol class="breadcrumb" data-aos="fade-up" data-aos-delay="700">
-            <li class="breadcrumb-item Home">
-              <a href="index.html">
-                <!-- Running Text / Marquee Effect in Breadcrumb -->
-                <div class="running-text" style="background: #09ff00d7; overflow: hidden; width: 100%; border-radius: 20px; padding: 5px 0;">
+        <nav aria-label="breadcrumb">
+          <div class="container">
+            <ol class="breadcrumb" data-aos="fade-up" data-aos-delay="700">
+              <li class="breadcrumb-item Home"><a href="index.html">
+                <div class="running-text" style="background: #09ff00d7; overflow: hidden; width: 100%; border-radius: 20px;">
                   <p style="font-size: 14px; font-weight: bold; color: black; margin: 0;">
                     <span class="marquee-text">
                       Selamat Datang di Mas Jaki Dinas Pekerjaan Umum dan Penataan Ruang Pemerintah Kabupaten Blora Provinsi Jawa Tengah, Sistem Informasi Pembina Jasa Konstruksi Kabupaten Blora
@@ -65,19 +79,23 @@
                   </p>
                 </div>
               </a>
-            </li>
-          </ol>
-        </div>
-      </nav>
+              </li>
+              <li>
+                .
+              </li>
+              
+            </ol>
+          </div>
+        </nav>
+      </div>
       
       <!-- CSS for running text effect -->
       <style>
         .running-text {
           white-space: nowrap;
           width: 100%;
-          height: 30px; /* Increase height for better readability */
-          border-radius: 20px;
-          padding: 5px 0; /* Add some padding for spacing */
+          height: 20px;;
+          border-radius: 20px; /* Add border radius */
         }
       
         .marquee-text {
