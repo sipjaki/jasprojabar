@@ -44,7 +44,7 @@
 
     <div class="blogs" id="blogs">
       <div class="header" data-aos="fade-up" data-aos-delay="100">
-        <div class="title">Berita Jasa Konstruksi Kab Blora </div>
+        <div class="title" style="color: green">Berita Jasa Konstruksi Kab Blora </div>
         {{-- <p class="para">Lorem ipsum dolor sit amet</p> --}}
       </div>
       <div class="container">
