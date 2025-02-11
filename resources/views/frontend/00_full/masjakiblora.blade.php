@@ -54,8 +54,10 @@
       <nav aria-label="breadcrumb">
         <div class="container">
           <ol class="breadcrumb" data-aos="fade-up" data-aos-delay="700">
-            <li class="breadcrumb-item Home"><a href="index.html">Home</a></li>
-            <li class="breadcrumb-item active" aria-current="page">Our Blogs</li>
+            <li class="breadcrumb-item Home"><a href="index.html">
+              <marquee behavior="" direction="">Selamat Datang di Mas Jaki DPUPR Kabupaten Blora | Sistem Informasi Pembina Jasa Konsrtuksi Kabupaten Blora </marquee>
+            </a>
+            </li>
           </ol>
         </div>
       </nav>
