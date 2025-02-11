@@ -50,7 +50,7 @@
           </div>
         </div>
       </div>
-      <nav aria-label="breadcrumb">
+      <nav aria-label="breadcrumb" style="background: green">
         <div class="container">
           <ol class="breadcrumb" data-aos="fade-up" data-aos-delay="700">
             <li class="breadcrumb-item Home"><a href="index.html">Home</a></li>
