@@ -652,7 +652,7 @@
     </div>
     <!-- ! End FAQ's -->
     <!-- ! Start Discuss -->
-    <div class="discuss">
+    <div class="discuss" style="background: url(/assets/masjakiblora/images/hero-bg.jpg) center left;">
       <div class="container" data-aos="fade-up" data-aos-delay="100">
         <h3>Pendaftaran Sertifikasi Tenaga Ahli</h3>
         <p>
