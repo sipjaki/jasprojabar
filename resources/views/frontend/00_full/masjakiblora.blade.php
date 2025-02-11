@@ -531,6 +531,21 @@
       </div>
     </div>
     <!-- ! End Team -->
+    
+    <!-- ! Start Discuss -->
+    <div class="discuss" style="background: url(/assets/masjakiblora/images/hero-bg.jpg) center left;">
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <h3>Pendaftaran Sertifikasi Tenaga Ahli</h3>
+        <p>
+          Pendaftaran Sertifikasi Tenaga Ahli Kabupaten Blora adalah sistem pendaftaran bagi warga Kabupaten Blora yang ingin mendapatkan sertifikat keahlian di bidang tertentu. Peserta hanya perlu mengisi formulir, mengunggah dokumen, dan memberikan informasi tentang keahlian yang dimiliki. Sertifikasi ini bertujuan untuk meningkatkan kualitas tenaga kerja di Kabupaten Blora dan memberikan pengakuan resmi atas kemampuan yang dimiliki.
+        </p>
+        <a href="/">
+        <button type="submit" class="btn btn-success rounded-pill"><i class="fas fa-users mr-2" style="margin-right: 5px"></i> Daftar</button>
+      </a>
+      </div>
+    </div>
+    <!-- ! End Discuss -->
+
     <!-- ! Start FAQ's -->
     <div class="faqs" id="faqs">
       <div class="header" data-aos="fade-up" data-aos-delay="100">
@@ -651,19 +666,6 @@
       </div>
     </div>
     <!-- ! End FAQ's -->
-    <!-- ! Start Discuss -->
-    <div class="discuss" style="background: url(/assets/masjakiblora/images/hero-bg.jpg) center left;">
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-        <h3>Pendaftaran Sertifikasi Tenaga Ahli</h3>
-        <p>
-          Pendaftaran Sertifikasi Tenaga Ahli Kabupaten Blora adalah sistem pendaftaran bagi warga Kabupaten Blora yang ingin mendapatkan sertifikat keahlian di bidang tertentu. Peserta hanya perlu mengisi formulir, mengunggah dokumen, dan memberikan informasi tentang keahlian yang dimiliki. Sertifikasi ini bertujuan untuk meningkatkan kualitas tenaga kerja di Kabupaten Blora dan memberikan pengakuan resmi atas kemampuan yang dimiliki.
-        </p>
-        <a href="/">
-        <button type="submit" class="btn btn-success rounded-pill"><i class="fas fa-users mr-2" style="margin-right: 5px"></i> Daftar</button>
-      </a>
-      </div>
-    </div>
-    <!-- ! End Discuss -->
     <!-- ! Start Blogs -->
    
     <!-- ! End Blogs -->
