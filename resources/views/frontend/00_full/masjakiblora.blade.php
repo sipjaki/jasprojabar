@@ -59,6 +59,48 @@
             </div>
           </div>
           <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="card" data-aos="fade-up" data-aos-delay="100">
+              <div class="box">
+                <img src="/assets/masjakiblora/images/blog-1.jpg" class="card-img-top" alt="...">
+              </div>
+              <div class="card-body">
+                <p>Domain & Hosting</p>
+                <p class="card-text">How to host website on any hosting provider?
+                </p>
+                <p>William Bla</p>
+                <p>Feb 1, 2022</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="card" data-aos="fade-up" data-aos-delay="100">
+              <div class="box">
+                <img src="/assets/masjakiblora/images/blog-1.jpg" class="card-img-top" alt="...">
+              </div>
+              <div class="card-body">
+                <p>Domain & Hosting</p>
+                <p class="card-text">How to host website on any hosting provider?
+                </p>
+                <p>William Bla</p>
+                <p>Feb 1, 2022</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="card" data-aos="fade-up" data-aos-delay="100">
+              <div class="box">
+                <img src="/assets/masjakiblora/images/blog-1.jpg" class="card-img-top" alt="...">
+              </div>
+              <div class="card-body">
+                <p>Domain & Hosting</p>
+                <p class="card-text">How to host website on any hosting provider?
+                </p>
+                <p>William Bla</p>
+                <p>Feb 1, 2022</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12">
             <div class="card" data-aos="fade-up" data-aos-delay="400">
               <div class="box">
                 <img src="/assets/masjakiblora/images/blog-2.jpg" class="card-img-top" alt="...">
