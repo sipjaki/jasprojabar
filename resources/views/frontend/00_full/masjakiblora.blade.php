@@ -51,7 +51,7 @@
         </div>
       </div>
       <nav aria-label="breadcrumb" style="background: #09ff00d7">
-        <div class="container" style="height: 100vh">
+        <div class="container" style="height: 20vh">
           <div class="running-text" style="background-color: #f8f9fa; padding: 10px;">
             <p style="font-size: 18px; font-weight: bold; color: #007bff; margin: 0;">
               <span class="marquee-text">
