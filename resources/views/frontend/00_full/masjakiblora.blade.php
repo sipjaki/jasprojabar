@@ -527,12 +527,12 @@
               <div class="accordion-item" data-aos="fade-up" data-aos-delay="100">
                 <h3 class="accordion-header">
                   <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#faq-content-1">
+                    data-bs-target="#faq-content-5">
                     <span class="num"><i class="fa-solid fa-circle-arrow-right"></i></span>
                     Apakah data yang dimasukkan dalam sistem ini aman?
                   </button>
                 </h3>
-                <div id="faq-content-1" class="accordion-collapse collapse show" data-bs-parent="#faqlist">
+                <div id="faq-content-5" class="accordion-collapse collapse show" data-bs-parent="#faqlist">
                   <div class="accordion-body">
                     Ya, sistem ini dilengkapi dengan teknologi keamanan untuk menjaga kerahasiaan dan integritas data pribadi pengguna sesuai dengan regulasi perlindungan data yang berlaku.
                   </div>
@@ -542,12 +542,12 @@
               <div class="accordion-item" data-aos="fade-up" data-aos-delay="100">
                 <h3 class="accordion-header">
                   <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#faq-content-1">
+                    data-bs-target="#faq-content-6">
                     <span class="num"><i class="fa-solid fa-circle-arrow-right"></i></span>
                     Bagaimana cara memberikan umpan balik atau melaporkan pengaduan terkait proyek konstruksi?
                   </button>
                 </h3>
-                <div id="faq-content-1" class="accordion-collapse collapse show" data-bs-parent="#faqlist">
+                <div id="faq-content-6" class="accordion-collapse collapse show" data-bs-parent="#faqlist">
                   <div class="accordion-body">
                     Masyarakat dan pelaku usaha dapat memberikan umpan balik atau melaporkan pengaduan melalui fitur pengaduan yang tersedia dalam sistem untuk ditindaklanjuti oleh pihak berwenang.
                   </div>
@@ -557,12 +557,12 @@
               <div class="accordion-item" data-aos="fade-up" data-aos-delay="100">
                 <h3 class="accordion-header">
                   <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#faq-content-1">
+                    data-bs-target="#faq-content-7">
                     <span class="num"><i class="fa-solid fa-circle-arrow-right"></i></span>
                     Apakah sistem ini dapat diakses melalui perangkat mobile?
                   </button>
                 </h3>
-                <div id="faq-content-1" class="accordion-collapse collapse show" data-bs-parent="#faqlist">
+                <div id="faq-content-7" class="accordion-collapse collapse show" data-bs-parent="#faqlist">
                   <div class="accordion-body">
                     Ya, sistem ini dapat diakses melalui perangkat mobile baik Android maupun iOS, dengan antarmuka yang memudahkan pengguna untuk mengakses berbagai fitur secara praktis.
                   </div>
