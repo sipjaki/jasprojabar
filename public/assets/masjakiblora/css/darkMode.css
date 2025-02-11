@@ -126,8 +126,8 @@ header.bg-dark .navbar-collapse ul li.dropdown ul {
   color: white;
 }
 .team.bg-dark .container .box .social a:hover {
-  border-color: #025add;
-  background-color: #025add;
+  border-color: #09ff00d7;
+  background-color: #09ff00d7;
 }
 
 .faqs {
@@ -137,15 +137,15 @@ header.bg-dark .navbar-collapse ul li.dropdown ul {
   background-color: #202124 !important;
 }
 .faqs.bg-dark .container .accordion-item {
-  border: 1px solid #025add;
+  border: 1px solid #09ff00d7;
   background-color: #181818;
 }
 .faqs.bg-dark .container .accordion-item .accordion-header button {
   background-color: #181818;
-  color: #025add;
+  color: #09ff00d7;
 }
 .faqs.bg-dark .container .accordion-item .accordion-header button::after {
-  color: #025add !important;
+  color: #09ff00d7 !important;
 }
 .faqs.bg-dark .container .accordion-item .accordion-body {
   color: white;
@@ -177,7 +177,7 @@ header.bg-dark .navbar-collapse ul li.dropdown ul {
   color: white;
 }
 .blogs.bg-dark .container .card .card-body .card-text {
-  color: #025add;
+  color: #09ff00d7;
 }
 .blogs.bg-dark .container .card .card-body .card-text:hover {
   color: white;
@@ -203,7 +203,7 @@ header.bg-dark .navbar-collapse ul li.dropdown ul {
   background-color: #181818;
 }
 .blog-details.bg-dark .blog-sidbar .search-form button {
-  background-color: #025add;
+  background-color: #09ff00d7;
   color: #181818;
 }
 .blog-details.bg-dark .blog-sidbar .photos {
@@ -213,7 +213,7 @@ header.bg-dark .navbar-collapse ul li.dropdown ul {
   border: 2px solid black;
 }
 .blog-details.bg-dark .blog-sidbar ul li a {
-  color: #025add;
+  color: #09ff00d7;
 }
 .blog-details.bg-dark .blog-sidbar ul li a:hover {
   color: white;
