@@ -70,8 +70,17 @@
         <nav aria-label="breadcrumb">
           <div class="container">
             <ol class="breadcrumb" data-aos="fade-up" data-aos-delay="700">
-              <li class="breadcrumb-item Home"><a href="index.html">Home</a></li>
-              <li class="breadcrumb-item active" aria-current="page">Our Blogs</li>
+              <li class="breadcrumb-item Home"><a href="index.html">
+                <div class="running-text" style="background: #F7D300; overflow: hidden; width: 100%; border-radius: 20px;">
+                  <p style="font-size: 14px; font-weight: bold; color: black; margin: 0;">
+                    <span class="marquee-text">
+                      Selamat Datang di Mas Jaki Dinas Pekerjaan Umum dan Penataan Ruang Pemerintah Kabupaten Blora Provinsi Jawa Tengah, Sistem Informasi Pembina Jasa Konstruksi Kabupaten Blora
+                    </span>
+                  </p>
+                </div>
+              </a>
+              </li>
+              
             </ol>
           </div>
         </nav>
