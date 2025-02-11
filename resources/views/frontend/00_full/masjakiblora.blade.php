@@ -37,20 +37,19 @@
     </div> --}}
     <!-- ! End Landing -->
 
-    <div class="breadcrumbs sticked-header-offset" style="background: url('/assets/masjakiblora/images/sisteminformasi.jpg') center/cover;">
+    <div class="breadcrumbs sticked-header-offset" style="background: url(/assets/masjakiblora/images/hero-bg.jpg) center left;" >
       <div class="page-header d-flex align-items-center">
         <div class="container position-relative">
           <div class="row d-flex justify-content-center">
             <div class="col-lg-6 text-center">
               <img src="/assets/icon/pupr.png" alt="Technoit" class="img-fluid" style="margin-right:5px; width:12%;">
               <img src="/assets/icon/logokabupatenblora.png" alt="Technoit" class="img-fluid" style="width:12%; margin-right:7px;">
-              <p data-aos="fade-up" data-aos-delay="400">Dinas Pekerjaan Umum dan Penataan Ruang <br> Pemerintah Kabupaten Blora Provinsi Jawa Tengah</p>
+              {{-- <h2 data-aos="fade-up" data-aos-delay="300">Our Blogs</h2> --}} <br>
+              <p data-aos="fade-up" data-aos-delay="400">Dinas Pekerjaan Umum dan Penataan Ruang <br> Pemerintah Kabupaten Blora Provinsi Jawa Tengah </p>
             </div>
           </div>
         </div>
       </div>
-    </div>
-    
 
       <nav aria-label="breadcrumb" style="background:#09ff00d7 ">
         <div class="container">
