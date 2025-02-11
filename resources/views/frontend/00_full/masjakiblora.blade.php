@@ -68,7 +68,8 @@
         .running-text {
           white-space: nowrap;
           width: 100%;
-          border-radius: 20pz;
+          overflow: hidden;
+          border-radius: 20px;
         }
       
         .marquee-text {
