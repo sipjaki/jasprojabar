@@ -69,7 +69,7 @@
             white-space: nowrap;
             width: 100%;
             overflow: hidden;
-            padding: 3px;
+            /* padding: 3px; */
             border-radius: 20px;
           }
 
