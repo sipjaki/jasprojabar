@@ -366,7 +366,7 @@ header nav [id=darkmode-button]:hover {
 }
 
 .landing {
-  /* background: url(../images/hero-bg.png) center left; */
+  background: url(../images/hero-bg.jpg) center left;
   background-size: cover;
   overflow: hidden;
   position: relative;
@@ -1028,7 +1028,7 @@ header nav [id=darkmode-button]:hover {
 
 .discuss {
   padding: 150px 0;
-  background: url(../images/hero-bg.png) center left;
+  background: url(../images/hero-bg.jpg) center left;
   background-size: cover;
   overflow: hidden;
   position: relative;
@@ -1152,7 +1152,7 @@ header nav [id=darkmode-button]:hover {
 
 footer {
   padding: 50px 0;
-  background: url(../images/hero-bg.png) center left;
+  background: url(../images/hero-bg.jpg) center left;
   background-size: cover;
   overflow: hidden;
   position: relative;
