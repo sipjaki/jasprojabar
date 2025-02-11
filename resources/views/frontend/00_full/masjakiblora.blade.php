@@ -577,11 +577,11 @@
     <!-- ! Start Discuss -->
     <div class="discuss">
       <div class="container" data-aos="fade-up" data-aos-delay="100">
-        <h3>Let's Discuss your Projects</h3>
-        <p>We pride ourselves with our ability to perform and deliver results. Use the form below to discuss your
-          project needs
-          with our team, we will get back asap</p>
-        <button type="submit" class="btn btn-primary rounded-pill">Contact Us</button>
+        <h3>Menu Pendaftaran Sertifikasi Tenaga Ahli</h3>
+        <p>
+          Menu Pendaftaran Sertifikasi Tenaga Ahli Kabupaten Blora adalah sistem pendaftaran bagi warga Kabupaten Blora yang ingin mendapatkan sertifikat keahlian di bidang tertentu. Peserta hanya perlu mengisi formulir, mengunggah dokumen, dan memberikan informasi tentang keahlian yang dimiliki. Sertifikasi ini bertujuan untuk meningkatkan kualitas tenaga kerja di Kabupaten Blora dan memberikan pengakuan resmi atas kemampuan yang dimiliki.
+        </p>
+        <button type="submit" class="btn btn-success rounded-pill"><i class="fas fa-home"></i>Pendaftaran</button>
       </div>
     </div>
     <!-- ! End Discuss -->
