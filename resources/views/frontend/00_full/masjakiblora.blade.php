@@ -80,10 +80,6 @@
                 </div>
               </a>
               </li>
-              <li>
-                .
-              </li>
-              
             </ol>
           </div>
         </nav>
@@ -93,7 +89,7 @@
       <style>
         .running-text {
           white-space: nowrap;
-          width: 100%;
+          width: 20px;
           height: 20px;;
           border-radius: 20px; /* Add border radius */
         }
