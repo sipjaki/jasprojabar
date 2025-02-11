@@ -87,9 +87,7 @@
         }
       </style>
       
-      
-    ]
-
+    
     <div class="blogs" id="blogs">
       <div class="header" data-aos="fade-up" data-aos-delay="100">
         <div class="title">Berita Jasa Konstruksi Kab Blora </div>
