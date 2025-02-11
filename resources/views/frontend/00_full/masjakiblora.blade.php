@@ -47,11 +47,13 @@
         <div class="title" style="color: green">Berita Jasa Konstruksi Kab Blora </div>
         {{-- <p class="para">Lorem ipsum dolor sit amet</p> --}}
       </div>
-      <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+      <div id="carouselExample" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
         <div class="carousel-inner">
+          <!-- Slide 1 -->
           <div class="carousel-item active">
             <div class="container">
               <div class="row">
+                <!-- Card 1 -->
                 <div class="col-lg-4 col-md-6 col-sm-12">
                   <div class="card" data-aos="fade-up" data-aos-delay="100">
                     <div class="box">
@@ -65,6 +67,7 @@
                     </div>
                   </div>
                 </div>
+                <!-- Card 2 -->
                 <div class="col-lg-4 col-md-6 col-sm-12">
                   <div class="card" data-aos="fade-up" data-aos-delay="100">
                     <div class="box">
@@ -78,6 +81,7 @@
                     </div>
                   </div>
                 </div>
+                <!-- Card 3 -->
                 <div class="col-lg-4 col-md-6 col-sm-12">
                   <div class="card" data-aos="fade-up" data-aos-delay="100">
                     <div class="box">
@@ -94,9 +98,11 @@
               </div>
             </div>
           </div>
+          <!-- Slide 2 -->
           <div class="carousel-item">
             <div class="container">
               <div class="row">
+                <!-- Card 4 -->
                 <div class="col-lg-4 col-md-6 col-sm-12">
                   <div class="card" data-aos="fade-up" data-aos-delay="100">
                     <div class="box">
@@ -110,6 +116,7 @@
                     </div>
                   </div>
                 </div>
+                <!-- Card 5 -->
                 <div class="col-lg-4 col-md-6 col-sm-12">
                   <div class="card" data-aos="fade-up" data-aos-delay="100">
                     <div class="box">
@@ -123,6 +130,7 @@
                     </div>
                   </div>
                 </div>
+                <!-- Card 6 -->
                 <div class="col-lg-4 col-md-6 col-sm-12">
                   <div class="card" data-aos="fade-up" data-aos-delay="100">
                     <div class="box">
@@ -140,6 +148,8 @@
             </div>
           </div>
         </div>
+      
+        <!-- Carousel controls -->
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Previous</span>
@@ -150,7 +160,7 @@
         </button>
       </div>
       
-
+      
     </div>
     <!-- ! Start Services -->
     {{-- <div class="services py-5" id="services">
