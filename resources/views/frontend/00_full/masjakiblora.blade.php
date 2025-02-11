@@ -50,9 +50,10 @@
           </div>
         </div>
       </div>
-      <nav aria-label="breadcrumb" style="background: #09ff00d7">
-        <div class="container" style="height: 5vh">
-          <div class="running-text" style="background-color: #F7D300.;">
+      <nav aria-label="breadcrumb" style="background: #09ff00d7;">
+        <div class="container" style="height: 5vh; padding: 0;">
+          <!-- Running Text / Marquee Effect in Breadcrumb -->
+          <div class="running-text" style="background: #F7D300; width: 100%; overflow: hidden;">
             <p style="font-size: 14px; font-weight: bold; color: black; margin: 0;">
               <span class="marquee-text">
                 Selamat Datang di Mas Jaki Dinas Pekerjaan Umum dan Penataan Ruang Pemerintah Kabupaten Blora Provinsi Jawa Tengah, Sistem Informasi Pembina Jasa Konstruksi Kabupaten Blora
@@ -65,14 +66,13 @@
       <!-- CSS for running text effect -->
       <style>
         .running-text {
-          overflow: hidden;
           white-space: nowrap;
           width: 100%;
         }
       
         .marquee-text {
           display: inline-block;
-          animation: marquee 10s linear infinite;
+          animation: marquee 15s linear infinite;
         }
       
         @keyframes marquee {
@@ -84,6 +84,7 @@
           }
         }
       </style>
+      
       
     <!-- ! Start Blogs -->
     <div class="blogs" id="blogs">
