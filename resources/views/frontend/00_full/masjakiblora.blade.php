@@ -47,94 +47,110 @@
         <div class="title" style="color: green">Berita Jasa Konstruksi Kab Blora </div>
         {{-- <p class="para">Lorem ipsum dolor sit amet</p> --}}
       </div>
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-4 col-md-6 col-sm-12">
-            <div class="card" data-aos="fade-up" data-aos-delay="100">
-              <div class="box">
-                <img src="/assets/masjakiblora/images/blog-1.jpg" class="card-img-top" alt="...">
-              </div>
-              <div class="card-body">
-                <p>Domain & Hosting</p>
-                <p class="card-text">How to host website on any hosting provider?
-                </p>
-                <p>William Bla</p>
-                <p>Feb 1, 2022</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 col-sm-12">
-            <div class="card" data-aos="fade-up" data-aos-delay="100">
-              <div class="box">
-                <img src="/assets/masjakiblora/images/blog-1.jpg" class="card-img-top" alt="...">
-              </div>
-              <div class="card-body">
-                <p>Domain & Hosting</p>
-                <p class="card-text">How to host website on any hosting provider?
-                </p>
-                <p>William Bla</p>
-                <p>Feb 1, 2022</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 col-sm-12">
-            <div class="card" data-aos="fade-up" data-aos-delay="100">
-              <div class="box">
-                <img src="/assets/masjakiblora/images/blog-1.jpg" class="card-img-top" alt="...">
-              </div>
-              <div class="card-body">
-                <p>Domain & Hosting</p>
-                <p class="card-text">How to host website on any hosting provider?
-                </p>
-                <p>William Bla</p>
-                <p>Feb 1, 2022</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 col-sm-12">
-            <div class="card" data-aos="fade-up" data-aos-delay="100">
-              <div class="box">
-                <img src="/assets/masjakiblora/images/blog-1.jpg" class="card-img-top" alt="...">
-              </div>
-              <div class="card-body">
-                <p>Domain & Hosting</p>
-                <p class="card-text">How to host website on any hosting provider?
-                </p>
-                <p>William Bla</p>
-                <p>Feb 1, 2022</p>
+      <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                  <div class="card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="box">
+                      <img src="/assets/masjakiblora/images/blog-1.jpg" class="card-img-top" alt="...">
+                    </div>
+                    <div class="card-body">
+                      <p>Domain & Hosting</p>
+                      <p class="card-text">How to host website on any hosting provider?</p>
+                      <p>William Bla</p>
+                      <p>Feb 1, 2022</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                  <div class="card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="box">
+                      <img src="/assets/masjakiblora/images/blog-1.jpg" class="card-img-top" alt="...">
+                    </div>
+                    <div class="card-body">
+                      <p>Domain & Hosting</p>
+                      <p class="card-text">How to host website on any hosting provider?</p>
+                      <p>William Bla</p>
+                      <p>Feb 1, 2022</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                  <div class="card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="box">
+                      <img src="/assets/masjakiblora/images/blog-1.jpg" class="card-img-top" alt="...">
+                    </div>
+                    <div class="card-body">
+                      <p>Domain & Hosting</p>
+                      <p class="card-text">How to host website on any hosting provider?</p>
+                      <p>William Bla</p>
+                      <p>Feb 1, 2022</p>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
-          <div class="col-lg-4 col-md-6 col-sm-12">
-            <div class="card" data-aos="fade-up" data-aos-delay="400">
-              <div class="box">
-                <img src="/assets/masjakiblora/images/blog-2.jpg" class="card-img-top" alt="...">
-              </div>
-              <div class="card-body">
-                <p>Advertisement</p>
-                <p class="card-text">How to create add on google adwords?
-                </p>
-                <p>Jobi Ret</p>
-                <p>Oct 5, 2022</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 col-sm-12">
-            <div class="card" data-aos="fade-up" data-aos-delay="600">
-              <div class="box">
-                <img src="/assets/masjakiblora/images/blog-3.jpg" class="card-img-top" alt="...">
-              </div>
-              <div class="card-body">
-                <p>Marketing</p>
-                <p class="card-text">What is digital marketing and why is important?
-                </p>
-                <p>Main Dow</p>
-                <p>Dec 22, 2022</p>
+          <div class="carousel-item">
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                  <div class="card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="box">
+                      <img src="/assets/masjakiblora/images/blog-1.jpg" class="card-img-top" alt="...">
+                    </div>
+                    <div class="card-body">
+                      <p>Domain & Hosting</p>
+                      <p class="card-text">How to host website on any hosting provider?</p>
+                      <p>William Bla</p>
+                      <p>Feb 1, 2022</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                  <div class="card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="box">
+                      <img src="/assets/masjakiblora/images/blog-1.jpg" class="card-img-top" alt="...">
+                    </div>
+                    <div class="card-body">
+                      <p>Domain & Hosting</p>
+                      <p class="card-text">How to host website on any hosting provider?</p>
+                      <p>William Bla</p>
+                      <p>Feb 1, 2022</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                  <div class="card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="box">
+                      <img src="/assets/masjakiblora/images/blog-1.jpg" class="card-img-top" alt="...">
+                    </div>
+                    <div class="card-body">
+                      <p>Domain & Hosting</p>
+                      <p class="card-text">How to host website on any hosting provider?</p>
+                      <p>William Bla</p>
+                      <p>Feb 1, 2022</p>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
         </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
       </div>
+      
+
     </div>
     <!-- ! Start Services -->
     {{-- <div class="services py-5" id="services">
