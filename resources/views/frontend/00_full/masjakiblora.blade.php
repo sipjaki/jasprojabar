@@ -67,11 +67,13 @@
       </nav> --}}
 
         
-        <nav aria-label="breadcrumb" style="background: #09ff00d7;">
-          <div class="container">
-            <ol class="breadcrumb" data-aos="fade-up" data-aos-delay="700">
-              <li class="breadcrumb-item Home"><a href="index.html">
-                <div class="running-text" style="background: #F7D300; overflow: hidden; width: 100%; border-radius: 20px;">
+      <nav aria-label="breadcrumb" style="background: #09ff00d7;">
+        <div class="container">
+          <ol class="breadcrumb" data-aos="fade-up" data-aos-delay="700">
+            <li class="breadcrumb-item Home">
+              <a href="index.html">
+                <!-- Running Text / Marquee Effect in Breadcrumb -->
+                <div class="running-text" style="background: #F7D300; overflow: hidden; width: 100%; border-radius: 20px; display: flex; align-items: center; justify-content: center;">
                   <p style="font-size: 14px; font-weight: bold; color: black; margin: 0;">
                     <span class="marquee-text">
                       Selamat Datang di Mas Jaki Dinas Pekerjaan Umum dan Penataan Ruang Pemerintah Kabupaten Blora Provinsi Jawa Tengah, Sistem Informasi Pembina Jasa Konstruksi Kabupaten Blora
@@ -79,20 +81,22 @@
                   </p>
                 </div>
               </a>
-              </li>
-            </ol>
-          </div>
-        </nav>
-      </div>
+            </li>
+          </ol>
+        </div>
+      </nav>
       
       <!-- CSS for running text effect -->
       <style>
         .running-text {
           white-space: nowrap;
-          margin-right: 200px;
-          width: 20px;
-          height: 20px;;
+          width: 100%; /* Make the container full width */
+          height: 30px; /* Increase height for better readability */
           border-radius: 20px; /* Add border radius */
+          padding: 5px 0; /* Padding for spacing */
+          display: flex; /* Use flexbox to center content */
+          align-items: center; /* Vertically center content */
+          justify-content: center; /* Horizontally center content */
         }
       
         .marquee-text {
