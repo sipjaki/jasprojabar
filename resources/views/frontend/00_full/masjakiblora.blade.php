@@ -39,8 +39,8 @@
 
     <div class="blogs" id="blogs">
       <div class="header" data-aos="fade-up" data-aos-delay="100">
-        <div class="title">Blogs</div>
-        <p class="para">Lorem ipsum dolor sit amet</p>
+        <div class="title">Berita Jasa Konstruksi Kab Blora </div>
+        {{-- <p class="para">Lorem ipsum dolor sit amet</p> --}}
       </div>
       <div class="container">
         <div class="row">
