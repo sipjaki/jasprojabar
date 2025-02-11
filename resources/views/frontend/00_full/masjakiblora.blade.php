@@ -37,7 +37,7 @@
     </div> --}}
     <!-- ! End Landing -->
 
-    <div class="breadcrumbs sticked-header-offset" >
+    <div class="breadcrumbs sticked-header-offset" style="background: url(/assets/masjakiblora/images/hero-bg.jpg) center left;" >
       <div class="page-header d-flex align-items-center">
         <div class="container position-relative">
           <div class="row d-flex justify-content-center">
