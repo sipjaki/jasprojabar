@@ -450,21 +450,21 @@
             <span class="number" data-prog="232">0
             </span>
             {{-- <h4>Pelatihan</h4> --}}
-            <p>Pelatihan</p>
+            <p>Jumlah Pelatihan Pekerja</p>
           </div>
           <div class="col-lg-4 col-md-6 col-sm-12 box">
             <img src="/assets/masjakiblora/images/complete-projects.svg" alt="">
             <span class="number" data-prog="521">0
             </span>
             {{-- <h4>Bimbingan Teknis</h4> --}}
-            <p>Bimbingan Teknis</p>
+            <p>Jumlah Bimbingan Teknis Pekerja</p>
           </div>
           <div class="col-lg-4 col-md-6 col-sm-12 box">
             <img src="/assets/masjakiblora/images/complete-projects.svg" alt="">
             <span class="number" data-prog="453">0
             </span>
             {{-- <h4>Hours Of Support</h4> --}}
-            <p>Workshop</p>
+            <p>Jumlah Workshop Pekerja</p>
           </div>
         </div>
       </div>
