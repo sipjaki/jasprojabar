@@ -55,12 +55,11 @@
         <div class="container">
           <ol class="breadcrumb" data-aos-delay="700">
             <li class="breadcrumb-item Home">
-              <div style="display: flex; justify-content: center; align-items: center; height: 50px; overflow: hidden;">
-                <marquee behavior="scroll" direction="left" scrollamount="10">
-                    Selamat Datang di Mas Jaki DPUPR Kabupaten Blora | Sistem Informasi Pembina Jasa Konstruksi Kabupaten Blora
+              <a href="/" style="color: black">
+                <marquee style="width: 100%;" behavior="scroll" direction="center" scrollamount="15" scrolldelay="0">
+                  Selamat Datang di Mas Jaki DPUPR Kabupaten Blora | Sistem Informasi Pembina Jasa Konsrtuksi Kabupaten Blora
                 </marquee>
-            </div>
-            
+              </a>
               
             </li>
           </ol>
