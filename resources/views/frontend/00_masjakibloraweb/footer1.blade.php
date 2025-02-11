@@ -1,4 +1,4 @@
-<footer id="footer" class="footer-section" style="background: url('/assets/masjakiblora/images/sisteminformasi.jpg') center/cover;">
+<footer id="footer" class="footer-section" style="background: url('/assets/masjakiblora/images/sisteminformasi.jpg') no-repeat center center; background-size: cover;">
     <div class="container">
       <div class="footer-content pt-5 pb-5">
         <div class="row">
