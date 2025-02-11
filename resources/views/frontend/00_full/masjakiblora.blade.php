@@ -30,7 +30,7 @@
             <li class="breadcrumb-item Home">
               <a href="/" style="color: black">
                 <marquee style="width: 100%;" behavior="scroll" direction="center" scrollamount="12" scrolldelay="0">
-                  Selamat Datang di Mas Jaki DPUPR Kabupaten Blora | Sistem Informasi Pembina Jasa Konsrtuksi Kabupaten Blora
+                  Selamat Datang di Mas Jaki DPUPR Kabupaten Blora | Sistem Informasi Pembina Jasa Konstruksi Kabupaten Blora
                 </marquee>
               </a>
               
