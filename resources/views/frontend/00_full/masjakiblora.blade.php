@@ -8,7 +8,7 @@
   <!-- ! End Header -->
   <!-- ! Start Landing -->
   <main>
-    <div class="landing">
+    {{-- <div class="landing">
       <div class="overlay"></div>
       <div id="particles-js">
         <canvas width="1170" height="2532" style="width: 100%; height: 100%;"></canvas>
@@ -25,8 +25,8 @@
             <p data-aos="fade-up" data-aos-delay="200" class="">Sistem ini dirancang untuk mendukung pengelolaan dan pembinaan jasa konstruksi di Kabupaten Blora, Provinsi Jawa Tengah</p>
 
             <div class="d-flex justify-content-start buttons">
-              {{-- <button style="--ripples: 12;" class="btn-custom" data-aos="fade-up" data-aos-delay="800"
-                onclick="scrollToSection('#contact-us')">Daftar</button> --}}
+              <button style="--ripples: 12;" class="btn-custom" data-aos="fade-up" data-aos-delay="800"
+                onclick="scrollToSection('#contact-us')">Daftar</button>
               <button style="--ripples: 12;" class="btn-custom" data-aos="fade-up" data-aos-delay="200"
                 onclick="scrollToSection('#services')">Contact Us</button>
               
@@ -34,8 +34,79 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> --}}
     <!-- ! End Landing -->
+
+    <div class="breadcrumbs sticked-header-offset">
+      <div class="page-header d-flex align-items-center">
+        <div class="container position-relative">
+          <div class="row d-flex justify-content-center">
+            <div class="col-lg-6 text-center">
+              <h2 data-aos="fade-up" data-aos-delay="300">Our Blogs</h2>
+              <p data-aos="fade-up" data-aos-delay="400">Lorem ipsum dolor sit amet consectetur adipiscing elit</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <nav aria-label="breadcrumb">
+        <div class="container">
+          <ol class="breadcrumb" data-aos="fade-up" data-aos-delay="700">
+            <li class="breadcrumb-item Home"><a href="index.html">Home</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Our Blogs</li>
+          </ol>
+        </div>
+      </nav>
+    </div>
+    <!-- ! Start Blogs -->
+    <div class="blogs" id="blogs">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="card" data-aos="fade-up" data-aos-delay="100">
+              <div class="box">
+                <img src="images/blog-1.jpg" class="card-img-top" alt="...">
+              </div>
+              <div class="card-body">
+                <p>Domain & Hosting</p>
+                <p class="card-text">How to host website on any hosting provider?
+                </p>
+                <p>William Bla</p>
+                <p>Feb 1, 2022</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="card" data-aos="fade-up" data-aos-delay="400">
+              <div class="box">
+                <img src="images/blog-2.jpg" class="card-img-top" alt="...">
+              </div>
+              <div class="card-body">
+                <p>Advertisement</p>
+                <p class="card-text">How to create add on google adwords?
+                </p>
+                <p>Jobi Ret</p>
+                <p>Oct 5, 2022</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="card" data-aos="fade-up" data-aos-delay="600">
+              <div class="box">
+                <img src="images/blog-3.jpg" class="card-img-top" alt="...">
+              </div>
+              <div class="card-body">
+                <p>Marketing</p>
+                <p class="card-text">What is digital marketing and why is important?
+                </p>
+                <p>Main Dow</p>
+                <p>Dec 22, 2022</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ! End Blogs -->
 
     <div class="blogs" id="blogs">
       <div class="header" data-aos="fade-up" data-aos-delay="100">
