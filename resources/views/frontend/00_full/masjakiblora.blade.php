@@ -68,7 +68,7 @@
         .running-text {
           white-space: nowrap;
           width: 100%;
-          overflow: hidden;
+          /* overflow: hidden; */
           border-radius: 20px;
         }
       
