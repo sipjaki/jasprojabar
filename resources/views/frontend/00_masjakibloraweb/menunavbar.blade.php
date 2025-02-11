@@ -18,11 +18,11 @@
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
           <ul class="navbar-nav">
             <li class="nav-item" style="font-size: 14px;">
-              <a style="margin-left: 20px;" class="nav-link" aria-current="page" href="/">Beranda</a>
+              <a style="color:green" class="nav-link" aria-current="page" href="/">Beranda</a>
             </li>
 
             <li class="nav-item dropdown" style="font-size:14px;">
-                <a class="nav-link dropdown-toggle" href="/404" role="button" data-bs-toggle="dropdown"
+                <a style="color: green;" class="nav-link dropdown-toggle" href="/404" role="button" data-bs-toggle="dropdown"
                   aria-expanded="false">
                   Kelembagaan
                 </a>
@@ -34,7 +34,7 @@
               </li>
 
               <li class="nav-item dropdown" style="font-size:14px;">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                <a style="color: green;" class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                   aria-expanded="false">
                   Berita
                 </a>
@@ -46,7 +46,7 @@
               </li>
             
               <li class="nav-item dropdown" style="font-size:14px;">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                <a style="color: green;" class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                   aria-expanded="false">
                   Data Jakon
                 </a>
@@ -58,7 +58,7 @@
               </li>
             
               <li class="nav-item dropdown" style="font-size:14px;">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                <a style="color: green;" class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                   aria-expanded="false">
                   Pembinaan
                 </a>
@@ -72,7 +72,7 @@
               </li>
             
               <li class="nav-item dropdown" style="font-size:14px;">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                <a style="color: green;" class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                   aria-expanded="false">
                   Pengawasan
                 </a>
@@ -86,7 +86,7 @@
               </li>
             
               <li class="nav-item dropdown" style="font-size:14px;">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                <a style="color: green;" class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                   aria-expanded="false">
                   Rantai Pasok
                 </a>
@@ -103,7 +103,7 @@
               </li>
             
               <li class="nav-item dropdown" style="font-size:14px;">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                <a style="color: green;" class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                   aria-expanded="false">
                   AHSP
                 </a>
@@ -116,7 +116,7 @@
               </li>
              
               <li class="nav-item dropdown" style="font-size:14px;">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                <a style="color: green;" class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                   aria-expanded="false">
                   Peraturan
                 </a>
@@ -136,7 +136,7 @@
               </li>
 
               <li class="nav-item dropdown" style="font-size:14px;">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                <a style="color: green;" class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                   aria-expanded="false">
                   Masuk
                 </a>
