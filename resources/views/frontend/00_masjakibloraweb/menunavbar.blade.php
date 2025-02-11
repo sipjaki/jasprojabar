@@ -95,14 +95,14 @@
                     <li><a class="dropdown-item" href="/404">Peralatan Konstruksi</a></li>    
                     <li><a class="dropdown-item" href="/404">Toko Bangunan Kab Blora</a></li>    
                     <li><a class="dropdown-item" href="/404">Distribusi Kab Blora</a></li>    
-                    <li><a class="dropdown-item" href="/404">Harga Satuan Dasar</a></li>    
+                    {{-- <li><a class="dropdown-item" href="/404">Harga Satuan Dasar</a></li>    
                     <li><a class="dropdown-item" href="/404">HSP Konstruksi Umum</a></li>    
                     <li><a class="dropdown-item" href="/404">SHST Konstruksi</a></li>    
-                    <li><a class="dropdown-item" href="/404">Daftar Material</a></li>    
+                    <li><a class="dropdown-item" href="/404">Daftar Material</a></li>     --}}
                 </ul>
               </li>
             
-              {{-- <li class="nav-item dropdown" style="font-size:14px;">
+              <li class="nav-item dropdown" style="font-size:14px;">
                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                   aria-expanded="false">
                   AHSP
@@ -113,7 +113,7 @@
                     <li><a class="dropdown-item" href="about.html">SHST Konstruksi</a></li>    
                     <li><a class="dropdown-item" href="about.html">Daftar Material</a></li>    
                 </ul>
-              </li> --}}
+              </li>
              
               <li class="nav-item dropdown" style="font-size:14px;">
                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
@@ -146,8 +146,10 @@
                 </ul>
               </li>
 
-
-          
+              <button id="darkmode-button" class="btn rounded-circle">
+                <i class="fa-solid fa-moon"></i>
+              </button>
+            
         </div>
       </div>
     </nav>
