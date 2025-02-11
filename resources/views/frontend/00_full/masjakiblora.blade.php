@@ -89,6 +89,7 @@
       <style>
         .running-text {
           white-space: nowrap;
+          margin-right: 200px;
           width: 20px;
           height: 20px;;
           border-radius: 20px; /* Add border radius */
