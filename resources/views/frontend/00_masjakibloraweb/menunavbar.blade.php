@@ -108,10 +108,10 @@
                   AHSP
                 </a>
                 <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="about.html">Harga Satuan Dasar</a></li>    
-                    <li><a class="dropdown-item" href="about.html">HSP Konstruksi Umum</a></li>    
-                    <li><a class="dropdown-item" href="about.html">SHST Konstruksi</a></li>    
-                    <li><a class="dropdown-item" href="about.html">Daftar Material</a></li>    
+                    <li><a class="dropdown-item" href="/404">Harga Satuan Dasar</a></li>    
+                    <li><a class="dropdown-item" href="/404">HSP Konstruksi Umum</a></li>    
+                    <li><a class="dropdown-item" href="/404">SHST Konstruksi</a></li>    
+                    <li><a class="dropdown-item" href="/404">Daftar Material</a></li>    
                 </ul>
               </li>
              
