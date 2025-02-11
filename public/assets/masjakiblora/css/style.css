@@ -366,7 +366,7 @@ header nav [id=darkmode-button]:hover {
 }
 
 .landing {
-  background: url(../images/hero-bg.png) center left;
+  /* background: url(../images/hero-bg.png) center left; */
   background-size: cover;
   overflow: hidden;
   position: relative;
