@@ -52,8 +52,8 @@
       </div>
       <nav aria-label="breadcrumb" style="background: #09ff00d7">
         <div class="container" style="height: 5vh">
-          <div class="running-text" style="background-color: #f8f9fa; padding: 10px;">
-            <p style="font-size: 18px; font-weight: bold; color: black; margin: 0;">
+          <div class="running-text" style="background-color: #F7D300.;">
+            <p style="font-size: 14px; font-weight: bold; color: black; margin: 0;">
               <span class="marquee-text">
                 Selamat Datang di Mas Jaki Dinas Pekerjaan Umum dan Penataan Ruang Pemerintah Kabupaten Blora Provinsi Jawa Tengah, Sistem Informasi Pembina Jasa Konstruksi Kabupaten Blora
               </span>
@@ -72,7 +72,7 @@
       
         .marquee-text {
           display: inline-block;
-          animation: marquee 5s linear infinite;
+          animation: marquee 10s linear infinite;
         }
       
         @keyframes marquee {
