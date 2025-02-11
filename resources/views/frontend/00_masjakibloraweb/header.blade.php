@@ -17,6 +17,11 @@
   <link rel="stylesheet" href="/assets/masjakiblora/css/style.css">
   <link rel="stylesheet" href="/assets/masjakiblora/css/darkMode.css">
   <link rel="stylesheet" href="/assets/masjakiblora/css/aos.css">
+
+
+   <link rel="stylesheet" href="/assets/masjakiblora/css/singlePage.css">
+   <link rel="stylesheet" href="/assets/masjakiblora/css/darkMode.css">
+   <link rel="stylesheet" href="/assets/masjakiblora/css/aos.css">
   <!-- ! Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
