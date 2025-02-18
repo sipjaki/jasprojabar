@@ -39,13 +39,13 @@
 				<div class="col-lg-2">
 					<div class="footer-widget">
 						<div class="footer-widget-department">
-							<h4 class="footer-widget-title">Departments</h4>
+							<h4 class="footer-widget-title">Layanan Kami</h4>
 							<ul class="list-unstyled">
-								<li><a href="department-details.html">Health & Safety</a></li>
-								<li><a href="department-details.html">Housing & Land</a></li>
-								<li><a href="department-details.html">Legal & Finance</a></li>
-								<li><a href="department-details.html">Transport & Traffic</a></li>
-								<li><a href="department-details.html">Arts & Culture</a></li>
+								<li><a href="department-details.html">Pelatihan</a></li>
+								<li><a href="department-details.html">Bimbingan Teknis</a></li>
+								<li><a href="department-details.html">Workshop</a></li>
+								<li><a href="department-details.html">SKK Tenaga Ahli</a></li>
+								{{-- <li><a href="department-details.html"></a></li> --}}
 							</ul><!-- list-unstyled -->
 						</div><!-- footer-widget-department -->
 					</div><!--footer-widget-->
@@ -53,19 +53,19 @@
 				<div class="col-lg-3">
 					<div class="footer-widget">
 						<div class="footer-widget-contact">
-							<h4 class="footer-widget-title">Contact</h4>
-							<p>88 Broklyn Golden Road Street,<br>New York. USA</p>
+							<h4 class="footer-widget-title">Kontak Kami</h4>
+							<p>Jl. Nusantara No.62, Jetis, Kauman, Kec. Blora, Kabupaten Blora, Jawa Tengah 58214<br>Kabupaten Blora Provinsi Jawa Tengah</p>
 						</div><!-- footer-widget-contact -->
 						<div class="footer-widget-contact-list">
 							<i class="fa-solid fa-envelope"></i>
 							<div class="footer-widget-contact-item">
-								<a href="mailto:needhelp@company.com">needhelp@company.com</a>
+								<a href="mailto:needhelp@company.com">kontraktor@masjakidpuprblora.co.id</a>
 							</div><!-- footer-widget-contact-item -->
 						</div><!-- footer-widget-contact-list -->
 						<div class="footer-widget-contact-list">
 							<i class="fa-solid fa-phone"></i>
 							<div class="footer-widget-contact-item">
-								<a href="tel:+92-003-68-090">+92 (003) 68-090</a>
+								<a href="tel:+92-003-68-090">0813 2145 5855</a>
 							</div><!-- footer-widget-contact-item -->
 						</div><!-- footer-widget-contact-list -->
 					</div><!--footer-widget-->
@@ -75,7 +75,7 @@
 	</div><!--footer-inner-->
 	<div class="bottom-footer">
 		<div class="conatiner">
-			<p>© Copyright 2023 by Company.com</p>
+			<p>© Dinas Pekerjaan Umum dan Penataan Ruang Pemerintah Kabupaten Blora Provinsi Jawa Tengah | 2025 </p>
 		</div><!-- container -->
 	</div><!--bottom-footer-->
 </section><!--footer-->
