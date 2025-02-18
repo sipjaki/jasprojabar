@@ -1,5 +1,4 @@
-
-
+@include('frontend.00_approve.01_cssterpisah.header')
 
 <body>
 <div id="pre-loader">
@@ -969,3 +968,6 @@
 </div><!-- search-popup -->
 <a href="#" class="scroll-to-top scroll-to-target" data-target="html"><i class="fa-solid fa-arrow-up"></i></a>
 <!-- plugins js -->
+
+
+@include('frontend.00_approve.01_cssterpisah.footer')
