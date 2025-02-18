@@ -38,7 +38,7 @@
 				</div><!-- container -->
 			</div><!--item-->
 			<div class="item">
-				<div class="item-slider-bg"  style="background-image: url(assets/00_dokmasjaki/01_beranda/jakon3.png)"></div>
+				<div class="item-slider-bg"  style="background-image: url(assets/00_dokmasjaki/01_beranda/jakon3.jpg)"></div>
 				<div class="container">
 					<div class="row">
 						<div class="col-md-12">
