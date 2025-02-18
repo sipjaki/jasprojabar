@@ -49,7 +49,8 @@
 		<div class="main-menu-inner">
 			<div class="main-menu-left">
 				<div class="main-menu-logo">
-					<a href="index.html"><img src="/assets/icon/logokabupatenblora.png" alt="img-145" width="80"></a>
+					<a href="index.html"><img src="/assets/icon/logokabupatenblora.png" alt="img-145" width="45"></a>
+					<a href="index.html"><img src="/assets/icon/pupr.png" alt="img-145" width="45"></a>
 				</div><!--main-menu-logo-->
 				<div class="navigation">
 					<ul class="main-menu-list list-unstyled">
