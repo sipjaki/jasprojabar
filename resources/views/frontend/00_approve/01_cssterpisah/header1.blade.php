@@ -54,14 +54,15 @@
 				</div><!--main-menu-logo-->
 				<div class="navigation">
 					<ul class="main-menu-list list-unstyled">
-						<li class="has-dropdown">
+                        <li><a href="/">Beranda</a>
+						{{-- <li class="has-dropdown">
 							<a href="/">Beranda</a>
 							{{-- <ul class="list-unstyled">
 								<li><a href="index.html">Home 1</a></li>
 								<li><a href="index-2.html">Home 2</a></li>
 							</ul> --}}
                             <!-- list-unstyled -->
-						</li><!--has-dropdown-->
+						</li><!--has-dropdown--> --}}
 						<li class="has-dropdown">
 							<a href="#">Pages</a>
 							<ul class="list-unstyled">
