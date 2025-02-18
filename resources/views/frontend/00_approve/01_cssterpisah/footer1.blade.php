@@ -55,7 +55,7 @@
 					<div class="footer-widget">
 						<div class="footer-widget-contact">
 							<h4 class="footer-widget-title">Kontak Kami</h4>
-							<p>Jl. Nusantara No.62, Jetis, Kauman, Kec. Blora, Kabupaten Blora, Jawa Tengah 58214<br>Kabupaten Blora Provinsi Jawa Tengah</p>
+							<p>Jl. Nusantara No.62, Jetis, Kauman, Kec. Blora<br>Kabupaten Blora 58214 Provinsi Jawa Tengah </p>
 						</div><!-- footer-widget-contact -->
 						<div class="footer-widget-contact-list">
 							<i class="fa-solid fa-envelope"></i>
@@ -88,21 +88,21 @@
 			<span></span>
 		</a><!-- mobile-nav-close -->
 		<div class="logo-box">
-			<a href="index.html"><img src="/assets/approve/image/logo-light.png" width="160" height="40" alt="26"></a>
+			<a href="/"><img src="/assets/icon/logokabupatenblora.png" width="160" height="40" alt="26"></a>
 		</div><!-- logo-box -->
 		<div class="mobile-nav-container"></div><!-- mobile-nav-container -->
 		<ul class="mobile-nav-contact list-unstyled">
 			<li>
 				<i class="fa-solid fa-phone"></i>
-				<a href="tel:+8898006802">+ 88 ( 9800 ) 6802</a>
+				<a href="tel:+8898006802">0813 2145 5855</a>
 			</li><!-- li -->
 			<li>
 				<i class="fa-solid fa-envelope"></i>
-				<a href="mailto:needhelp@company.com">needhelp@company.com</a>
+				<a href="mailto:needhelp@company.com">kontraktor@masjakidpuprblora.co.id</a>
 			</li><!-- li -->
 			<li>
 				<i class="fa-solid fa-map-marker-alt"></i>
-				88 Broklyn Golden Road Street <br> New York. USA
+				Jl. Nusantara No.62, Jetis, Kauman, Kec. Blora<br>Kabupaten Blora 58214 Provinsi Jawa Tengah
 			</li><!-- li -->
 		</ul><!-- mobile-nav-contact -->
 		<ul class="mobile-nav-social list-unstyled">
