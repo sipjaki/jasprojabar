@@ -109,7 +109,7 @@
 		<ul class="mobile-nav-social list-unstyled">
 			<li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
 			<li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
-			<li><a href="#"><i class="fa-brands fa-pinterest-p"></i></a></li>
+			{{-- <li><a href="#"><i class="fa-brands fa-pinterest-p"></i></a></li> --}}
 			<li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
 		</ul><!-- mobile-nav-social -->
 	</div><!-- mobile-nav-content -->
