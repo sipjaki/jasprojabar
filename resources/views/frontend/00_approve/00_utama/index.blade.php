@@ -9,7 +9,7 @@
 	<section class="main-slider">
 		<div class="main-slider-swiper owl-carousel owl-theme">
 			<div class="item">
-				<div class="item-slider-bg"  style="background-image: url(assets/image/bg/slider-bg-1.png)"></div>
+				<div class="item-slider-bg"  style="background-image: url(assets/00_dokmasjaki/01_beranda/jakon1.jpg)"></div>
 				<div class="container">
 					<div class="row">
 						<div class="col-md-12">
