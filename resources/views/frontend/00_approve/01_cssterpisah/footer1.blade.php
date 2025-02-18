@@ -88,7 +88,7 @@
 			<span></span>
 		</a><!-- mobile-nav-close -->
 		<div class="logo-box">
-			<a href="/"><img src="/assets/icon/logokabupatenblora.png" width="160" height="40" alt="26"></a>
+			<a href="/"><img src="/assets/icon/logokabupatenblora.png" width="40" height="40" alt="26"></a>
 		</div><!-- logo-box -->
 		<div class="mobile-nav-container"></div><!-- mobile-nav-container -->
 		<ul class="mobile-nav-contact list-unstyled">
