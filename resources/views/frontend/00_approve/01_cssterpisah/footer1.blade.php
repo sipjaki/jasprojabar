@@ -5,28 +5,33 @@
 			<div class="row">
 				<div class="col-lg-4">
 					<div class="footer-widget-logo">
-						<a href="index.html"><img src="/assets/icon/logokabupatenblora.png" class="img-fluid" alt="img-25"></a>
+						<a href="index.html"><img src="/assets/icon/logokabupatenblora.png" class="img-fluid" alt="img-25" width="40"></a>
 					</div><!-- footer-widget-logo -->
 					<div class="footer-widget-text">
-						<p>The gowrnx official guide to living, working, visiting and investing in the Texas</p>
+						<p>Dinas Pekerjaan Umum dan Penataan Ruang Pemerintah Kabupaten Blora</p>
 					</div><!-- footer-widget-text -->
 					<div class="footer-widget-socials">
-						<a href="#"><i class="fa-brands fa-twitter"></i></a>
-						<a href="#"><i class="fa-brands fa-facebook"></i></a>
-						<a href="#"><i class="fa-brands fa-pinterest-p"></i></a>
-						<a href="#"><i class="fa-brands fa-instagram"></i></a>
+						<a href="/404"><i class="fa-brands fa-twitter"></i></a>
+						<a href="/404"><i class="fa-brands fa-facebook"></i></a>
+						{{-- <a href="/404"><i class="fa-brands fa-pinterest-p"></i></a> --}}
+						<a href="/404"><i class="fa-brands fa-instagram"></i></a>
 					</div><!-- footer-widget-socials -->
 				</div><!--col-lg-4-->
 				<div class="col-lg-3">
 					<div class="footer-widget">
 						<div class="footer-widget-explore">
-							<h4 class="footer-widget-title">Explore</h4>
+							<h4 class="footer-widget-title">Jelajah Menu</h4>
 							<ul class="list-unstyled">
-								<li><a href="department-details.html">Administration</a></li>
-								<li><a href="service-details.html">Fire Services</a></li>
-								<li><a href="event-details.html">Business & Taxation</a></li>
-								<li><a href="team-details.html">Circular’s And Go’s</a></li>
-								<li><a href="contact.html">Contact Us</a></li>
+								<li><a href="/">Beranda</a></li>
+								<li><a href="/">Kelembagaan</a></li>
+								<li><a href="/">Berita</a></li>
+								<li><a href="/">Data Jakon</a></li>
+								<li><a href="/">Pembinaan</a></li>
+								<li><a href="/">Pengawasan</a></li>
+								<li><a href="/">Rantai Pasok</a></li>
+								<li><a href="/">AHSP</a></li>
+								<li><a href="/">Peraturan</a></li>
+								<li><a href="/">Login</a></li>
 							</ul><!-- list-unstyled -->
 						</div><!-- footer-widget-explore -->
 					</div><!--footer-widget-->
