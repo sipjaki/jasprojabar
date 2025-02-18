@@ -74,6 +74,71 @@
 							</ul><!-- list-unstyled -->
 						</li><!--has-dropdown-->
 
+                        <li class="has-dropdown">
+							<a href="#">Data Jakon</a>
+							<ul class="list-unstyled">
+								<li><a href="/404">BUJK Kontraktor</a></li>
+								<li><a href="/404">BUJK Konsultan</a></li>
+								<li><a href="/404">Tenaga Kerja</a></li>
+							</ul><!-- list-unstyled -->
+						</li><!--has-dropdown-->
+
+                        <li class="has-dropdown">
+							<a href="#">Pembinaan</a>
+							<ul class="list-unstyled">
+								<li><a href="/404">Pelatihan</a></li>
+								<li><a href="/404">Bimbingan Teknis</a></li>
+								<li><a href="/404">SKK Tenaga Ahli</a></li>
+								<li><a href="/404">Workshop</a></li>
+								<li><a href="/404">Daftar Tenaga Ahli</a></li>
+							</ul><!-- list-unstyled -->
+						</li><!--has-dropdown-->
+
+                        <li class="has-dropdown">
+							<a href="#">Pengawasan</a>
+							<ul class="list-unstyled">
+								<li><a href="/404">Pengawasan BUJK</a></li>
+								<li><a href="/404">Kecelakaan Kerja</a></li>
+								<li><a href="/404">Tertib Jasa Konstruksi</a></li>
+							</ul><!-- list-unstyled -->
+						</li><!--has-dropdown-->
+
+                        <li class="has-dropdown">
+							<a href="#">Rantai Pasok </a>
+							<ul class="list-unstyled">
+								<li><a href="/404">Material Bangunan Gedung </a></li>
+								<li><a href="/404">Peralatan Konstruksi</a></li>
+								<li><a href="/404">Toko Bangunan Kab Blora</a></li>
+							</ul><!-- list-unstyled -->
+						</li><!--has-dropdown-->
+
+                        <li class="has-dropdown">
+							<a href="#">AHSP</a>
+							<ul class="list-unstyled">
+								<li><a href="/404">Harga Satuan Dasar </a></li>
+								<li><a href="/404">HSP Konstruksi Umum </a></li>
+								<li><a href="/404">SHST Konstruksi</a></li>
+								<li><a href="/404">Daftar Material</a></li>
+							</ul><!-- list-unstyled -->
+						</li><!--has-dropdown-->
+
+                        <li class="has-dropdown">
+							<a href="#">Peraturan</a>
+							<ul class="list-unstyled">
+								<li><a href="/404">Undang - Undang </a></li>
+								<li><a href="/404">Peraturan Pemerintah</a></li>
+								<li><a href="/404">Peraturan Presiden</a></li>
+								<li><a href="/404">Peraturan Menteri</a></li>
+								<li><a href="/404">Keputusan Menteri</a></li>
+								<li><a href="/404">Surat Edaran Menteri</a></li>
+								<li><a href="/404">Referensi</a></li>
+								<li><a href="/404">Peraturan Daerah</a></li>
+								<li><a href="/404">Peraturan Gubernur</a></li>
+								<li><a href="/404">Peraturan Walikota/Bupati</a></li>
+								<li><a href="/404">Surat Keputusan</a></li>
+							</ul><!-- list-unstyled -->
+						</li><!--has-dropdown-->
+
 					</ul><!-- main-menu-list -->
 				</div><!--navigation-->
 			</div><!--main-menu-left-->
