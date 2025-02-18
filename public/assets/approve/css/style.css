@@ -280,6 +280,7 @@ a{
 		box-shadow: 0 0 0 0px rgba(255, 255, 255, 0);
 	}
 }
+
 /***********************
 * Pre-loader
 ***********************/
@@ -308,7 +309,8 @@ a{
   #pre-loader .loader-section.section-right {
     right: 0;
 }
-#loader-logo {
+
+/* #loader-logo {
   display: block;
   position: relative;
   left: calc(50% - 20em/2);
@@ -318,7 +320,22 @@ a{
   background-repeat: no-repeat;
   background-position: center;
   background-image: url("/assets/icon/pupr.png");
-  z-index: 1001; }
+  z-index: 1001; } */
+
+  #loader-logo {
+    display: block;
+    position: relative;
+    left: calc(50% - 20em / 2);
+    top: 15%;
+    width: 20em;
+    height: 9.375em;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("/assets/icon/pupr.png");
+    background-size: contain; /* Menyesuaikan ukuran gambar agar tidak terpotong */
+    z-index: 1001;
+  }
+
 #loader-circle {
   display: block;
   position: relative;
