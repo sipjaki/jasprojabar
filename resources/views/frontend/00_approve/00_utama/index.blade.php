@@ -1,19 +1,16 @@
 @include('frontend.00_approve.01_cssterpisah.header')
 
 <body>
-<div id="pre-loader">
-    <div id="loader-logo"></div><!-- loader-logo -->
-    <div id="loader-circle"></div><!-- loader-circle -->
-    <div class="loader-section section-left"></div><!-- loader-section -->
-    <div class="loader-section section-right"></div><!-- loader-section -->
-</div><!-- pre-loader -->
+
+    @include('frontend.00_approve.01_cssterpisah.loader')
+
 <header class="header">
 	<div class="topbar">
 		<div class="topbar-inner">
 			<div class="topbar-left">
 				<div class="topbar-socials">
 					<a href="#"><i class="fa-brands fa-twitter"></i></a>
-					<a href="#"><i class="fa-brands fa-facebook"></i></a>
+					<a href="#"><i class="fa-brands fa-tiktok"></i></a>
 					<a href="#"><i class="fa-brands fa-pinterest-p"></i></a>
 					<a href="#"><i class="fa-brands fa-instagram"></i></a>
 				</div><!--topbar-socials-->
@@ -24,7 +21,7 @@
 								<i class="fa-solid fa-envelope"></i>
 							</div><!-- topbar-icon -->
 							<div class="topbar-text">
-								<a href="mailto:needhelp@company.com">needhelp@company.com</a>
+								<a href="mailto:needhelp@company.com">konstruksi@masjakidpuprblora.co.id</a>
 							</div><!-- topbar-text -->
 						</li><!-- li -->
 						<li>
@@ -32,7 +29,7 @@
 								<i class="fa-solid fa-clock"></i>
 							</div><!-- topbar-icon -->
 							<div class="topbar-text">
-								<span>Open Hours: Mon - Fri 8.00 am - 6.00 pm</span>
+								<span>Senin - Jum`at 09.00 - 15.30 pm</span>
 							</div><!-- topbar-text -->
 						</li><!-- li -->
 					</ul><!-- ul -->
@@ -40,9 +37,10 @@
 			</div><!-- topbar-left -->
 			<div class="topbar-right">
 				<ul>
-					<li><a href="department-details.html">Council</a></li>
+					<li><a href="/404"><i class="fas fa-phone mr-2"> 081321455855</i></a></li>
+					{{-- <li><a href="department-details.html">Council</a></li>
 					<li><a href="departments.html">Government</a></li>
-					<li><a href="contact.html">Complaints</a></li>
+					<li><a href="contact.html">Complaints</a></li> --}}
 				</ul><!-- ul -->
 			</div><!--topbar-right-->
 		</div><!-- topbar-inner -->
