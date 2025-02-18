@@ -57,7 +57,7 @@
                         <li class="active"><a href="/">Beranda</a>
 
 						<li class="has-dropdown">
-							<a href="/404">Kelembagaan</a>
+							<a href="#">Kelembagaan</a>
 							<ul class="list-unstyled">
 								<li><a href="/404">Struktur DPUPR Kab Blora</a></li>
 								<li><a href="/404">Renstra Program Kab Blora</a></li>
@@ -66,7 +66,7 @@
 						</li><!--has-dropdown-->
 
 						<li class="has-dropdown">
-							<a href="/404">Berita</a>
+							<a href="#">Berita</a>
 							<ul class="list-unstyled">
 								<li><a href="/404">Jasa Konstruksi</a></li>
 								<li><a href="/404">Dokumen Sertifikasi</a></li>
