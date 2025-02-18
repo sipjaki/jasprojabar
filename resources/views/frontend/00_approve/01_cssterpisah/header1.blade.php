@@ -54,7 +54,7 @@
 				</div><!--main-menu-logo-->
 				<div class="navigation">
 					<ul class="main-menu-list list-unstyled">
-                        <li><a href="/">Beranda</a>
+                        <li class="active"><a href="/">Beranda</a>
 
 						<li class="has-dropdown">
 							<a href="#">Kelembagaan</a>
@@ -62,10 +62,9 @@
 								<li><a href="/404">Struktur DPUPR Kab Blora</a></li>
 								<li><a href="/404">Renstra Program Kab Blora</a></li>
 								<li><a href="/404">Tupoksi Program Jasa Konstruksi</a></li>
-
 							</ul><!-- list-unstyled -->
 						</li><!--has-dropdown-->
-						<li class="active has-dropdown">
+						<li class="has-dropdown">
 							<a href="#">Services</a>
 							<ul class="list-unstyled">
 								<li><a href="services.html">Services</a></li>
