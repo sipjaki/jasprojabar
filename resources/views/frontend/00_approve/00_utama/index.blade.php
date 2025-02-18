@@ -29,7 +29,7 @@
 								<i class="fa-solid fa-clock"></i>
 							</div><!-- topbar-icon -->
 							<div class="topbar-text">
-								<span>Senin - Jum`at 09.00 - 15.30 pm</span>
+								<span>Senin - Jum`at 09.00 - 15.30</span>
 							</div><!-- topbar-text -->
 						</li><!-- li -->
 					</ul><!-- ul -->
