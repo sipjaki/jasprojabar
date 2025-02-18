@@ -57,43 +57,23 @@
                         <li class="active"><a href="/">Beranda</a>
 
 						<li class="has-dropdown">
-							<a href="#">Kelembagaan</a>
+							<a href="/404">Kelembagaan</a>
 							<ul class="list-unstyled">
 								<li><a href="/404">Struktur DPUPR Kab Blora</a></li>
 								<li><a href="/404">Renstra Program Kab Blora</a></li>
 								<li><a href="/404">Tupoksi Program Jasa Konstruksi</a></li>
 							</ul><!-- list-unstyled -->
 						</li><!--has-dropdown-->
+
 						<li class="has-dropdown">
-							<a href="#">Services</a>
+							<a href="/404">Berita</a>
 							<ul class="list-unstyled">
-								<li><a href="services.html">Services</a></li>
-								<li><a href="service-details.html">Service Details</a></li>
+								<li><a href="/404">Jasa Konstruksi</a></li>
+								<li><a href="/404">Dokumen Sertifikasi</a></li>
+								<li><a href="/404">Agenda Sertifikasi</a></li>
 							</ul><!-- list-unstyled -->
 						</li><!--has-dropdown-->
-						<li class="has-dropdown">
-							<a href="#">Departments</a>
-							<ul class="list-unstyled">
-								<li><a href="departments.html">Departments</a></li>
-								<li><a href="department-details.html">Department Details</a></li>
-							</ul><!-- list-unstyled -->
-						</li><!--has-dropdown-->
-						<li class="has-dropdown">
-							<a href="#">Events</a>
-							<ul class="list-unstyled">
-								<li><a href="events.html">Events</a></li>
-								<li><a href="event-details.html">Event Details</a></li>
-							</ul><!-- list-unstyled -->
-						</li><!--has-dropdown-->
-						<li class="has-dropdown">
-							<a href="#">News</a>
-							<ul class="list-unstyled">
-								<li><a href="news.html">News</a></li>
-								<li><a href="news-details.html">News Details</a></li>
-							</ul><!-- list-unstyled -->
-						</li><!--has-dropdown-->
-						<li><a href="contact.html">Contact</a>
-						</li><!-- li -->
+
 					</ul><!-- main-menu-list -->
 				</div><!--navigation-->
 			</div><!--main-menu-left-->
