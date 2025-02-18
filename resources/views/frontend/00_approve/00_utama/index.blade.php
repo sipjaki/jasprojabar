@@ -18,13 +18,13 @@
 					<ul>
 						<li>
 							<div class="topbar-icon">
-								<i class="fa-solid fa-hammer"></i>
+								<i class="fa-solid fa-database"></i>
 							</div><!-- topbar-icon -->
 							<div class="topbar-text">
 								<a href="/404">Sistem Informasi Pembina Jasa Konstruksi Pemerintah Kabupaten Blora Provinsi Jawa Tengah</a>
 							</div><!-- topbar-text -->
                             <div class="topbar-icon">
-								<i class="fa-solid fa-envolve"></i>
+								<i class="fa-solid fa-envelope"></i>
 							</div><!-- topbar-icon -->
 							<div class="topbar-text">
 								<a href="/404">konstruksi@masjakidpuprblora.co.id</a>
