@@ -14,8 +14,8 @@
 					<div class="row">
 						<div class="col-md-12">
 							<div class="slider-content">
-								<div class="slider-tagline">City Goverment Online Services</div>
-								<h1 class="section-title">Fastest Growing<br> City Rome</h1>
+								<div class="slider-tagline">Selamat Datang ! di </div>
+								<h1 class="section-title">Sistem Informasi Pembina Jasa Konstruksi<br> DPUPR Pemerintah Kabupaten Blora</h1>
 								<a href="index-2.html" class="btn btn-primary">Discover More</a>
 							</div><!-- slider-content -->
 						</div><!-- col-md-12 -->
