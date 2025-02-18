@@ -7,6 +7,7 @@
 
 <div class="page-wrapper">
 	<section class="main-slider">
+
 		<div class="main-slider-swiper owl-carousel owl-theme">
 			<div class="item">
 				<div class="item-slider-bg"  style="background-image: url(assets/00_dokmasjaki/01_beranda/jakon1.jpg)"></div>
@@ -23,14 +24,28 @@
 				</div><!-- container -->
 			</div><!--item-->
 			<div class="item">
-				<div class="item-slider-bg"  style="background-image: url(assets/image/bg/slider-two-bg-1.png)"></div>
+				<div class="item-slider-bg"  style="background-image: url(assets/00_dokmasjaki/01_beranda/jakon2.jpg)"></div>
 				<div class="container">
 					<div class="row">
 						<div class="col-md-12">
 							<div class="slider-content">
-								<div class="slider-tagline">City Goverment Online Services</div>
-								<h1 class="section-title">Fastest Growing <br>City Rome</h1>
-								<a href="index-2.html" class="btn btn-primary">Discover More</a>
+								{{-- <div class="slider-tagline">City Goverment Online Services</div> --}}
+								<h1 class="section-title">Sasarengan mBangun Blora Unggul dan <br>Berdaya Saing</h1>
+								{{-- <a href="index-2.html" class="btn btn-primary">Discover More</a> --}}
+							</div><!-- slider-content -->
+						</div><!-- col-md-12 -->
+					</div><!-- row -->
+				</div><!-- container -->
+			</div><!--item-->
+			<div class="item">
+				<div class="item-slider-bg"  style="background-image: url(assets/00_dokmasjaki/01_beranda/jakon3.jpg)"></div>
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12">
+							<div class="slider-content">
+								{{-- <div class="slider-tagline">City Goverment Online Services</div> --}}
+								<h1 class="section-title">Blora Mustika<br>Cacana Jaya Kerta Bhumi</h1>
+								{{-- <a href="index-2.html" class="btn btn-primary">Discover More</a> --}}
 							</div><!-- slider-content -->
 						</div><!-- col-md-12 -->
 					</div><!-- row -->
