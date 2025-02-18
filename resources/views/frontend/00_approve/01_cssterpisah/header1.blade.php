@@ -55,11 +55,12 @@
 				<div class="navigation">
 					<ul class="main-menu-list list-unstyled">
 						<li class="has-dropdown">
-							<a href="#">Home</a>
-							<ul class="list-unstyled">
+							<a href="/">Beranda</a>
+							{{-- <ul class="list-unstyled">
 								<li><a href="index.html">Home 1</a></li>
 								<li><a href="index-2.html">Home 2</a></li>
-							</ul><!-- list-unstyled -->
+							</ul> --}}
+                            <!-- list-unstyled -->
 						</li><!--has-dropdown-->
 						<li class="has-dropdown">
 							<a href="#">Pages</a>
