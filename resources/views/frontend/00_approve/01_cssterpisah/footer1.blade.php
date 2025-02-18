@@ -5,7 +5,7 @@
 			<div class="row">
 				<div class="col-lg-4">
 					<div class="footer-widget-logo">
-						<a href="index.html"><img src="/assets/approve/image/logo-light.png" class="img-fluid" alt="img-25"></a>
+						<a href="index.html"><img src="/assets/icon/logokabupatenblora.png" class="img-fluid" alt="img-25"></a>
 					</div><!-- footer-widget-logo -->
 					<div class="footer-widget-text">
 						<p>The gowrnx official guide to living, working, visiting and investing in the Texas</p>
