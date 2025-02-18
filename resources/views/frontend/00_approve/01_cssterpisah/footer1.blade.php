@@ -5,7 +5,8 @@
 			<div class="row">
 				<div class="col-lg-4">
 					<div class="footer-widget-logo">
-						<a href="index.html"><img src="/assets/icon/logokabupatenblora.png" class="img-fluid" alt="img-25" width="65"></a>
+						<a href="/"><img src="/assets/icon/logokabupatenblora.png" class="img-fluid" alt="img-25" width="65" style="margin-right: 10px;"></a>
+						<a href="/"><img src="/assets/icon/pupr.png" class="img-fluid" alt="img-25" width="65"></a>
 					</div><!-- footer-widget-logo -->
 					<div class="footer-widget-text">
 						<p>Dinas Pekerjaan Umum dan Penataan Ruang Pemerintah Kabupaten Blora</p>
