@@ -100,7 +100,7 @@
 
         <div class="pagination-container" style="text-align: center; margin-top: 30px;">
             <div style="display: inline-block; padding: 10px; background-color: #f7f7f7; border-radius: 8px; box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);">
-                {{ $data->links('pagination::bootstrap-4') }}
+                {{ $data->links}}
             </div>
         </div>
 
