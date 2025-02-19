@@ -360,7 +360,9 @@
 						<div class="section-title-box">
 							<div class="section-tagline">DPUPR Kab Blora</div><!-- section-tagline -->
 							<h2 class="section-title">Kepala Bidang Bangunan Gedung</h2>
-							{{-- <p>There cursus massa at urnaaculis estie. Sed aliquamellus vitae ultrs condmentum leo massa mollis estiegittis miristum nulla sed medy fringilla vitae.</p> --}}
+							<p>
+                                "Membangun masa depan dimulai dari langkah pertama yang bijak. Melalui Mas Jaki, kita hadirkan kemudahan, transparansi, dan keandalan dalam dunia konstruksi. Bersama, kita pastikan setiap proyek berjalan dengan profesional, berkualitas, dan terukur."
+                            </p>
 						</div><!--section-title-box-->
 						{{-- <div class="mayor-icon-box">
 							<div class="mayor-icon">
