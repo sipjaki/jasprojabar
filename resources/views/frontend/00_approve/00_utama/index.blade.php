@@ -653,7 +653,7 @@
 					<i class="flaticon-file"></i>
 				</div><!-- cta-five-card-icon -->
 				<div class="cta-five-content">
-					<h4>Download Persyaratan Pelatihan, Bimbingan Teknin, dan Workshop</h4>
+					<h4>Download Persyaratan Pelatihan, Bimbingan Teknis, dan Workshop</h4>
 					<p>
                         Brosur ini berisi persyaratan untuk pelatihan, bimbingan teknis, dan workshop yang ditujukan untuk meningkatkan kompetensi tenaga ahli dalam bidang konstruksi, sebagai bagian dari upaya pengembangan sistem informasi pembina jasa konstruksi. </p>
 				</div><!-- cta-five-content -->
