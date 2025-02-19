@@ -58,10 +58,11 @@
 		<div class="container">
 			<div class="department-section-inner">
 				<div class="row row-gutter-y-40">
-					<div class="col-xl-2 col-lg-4 col-md-6">
+
+                    <div class="col-xl-2 col-lg-4 col-md-6">
                         <div class="department-card">
                             <div class="department-card-icon">
-                                <a href="https://dpupr.blorakab.go.id"><i class="flaticon-parthenon"></i></a>
+                                <a href="https://dpupr.blorakab.go.id"><i class="fas fa-building"></i></a>
                             </div><!-- department-card-icon -->
                             <div class="department-card-content">
                                 <h5><a href="department-details.html">DPUPR Kab Blora</a></h5>
@@ -72,7 +73,7 @@
                     <div class="col-xl-2 col-lg-4 col-md-6">
                         <div class="department-card">
                             <div class="department-card-icon">
-                                <a href="https://abgdpuprblora.co.id"><i class="flaticon-suitcase"></i></a>
+                                <a href="https://abgdpuprblora.co.id"><i class="fas fa-briefcase"></i></a>
                             </div><!-- department-card-icon -->
                             <div class="department-card-content">
                                 <h5><a href="https://abgdpuprblora.co.id">Abg Blora BG</a></h5>
@@ -83,7 +84,7 @@
                     <div class="col-xl-2 col-lg-4 col-md-6">
                         <div class="department-card">
                             <div class="department-card-icon">
-                                <a href="departments.html"><i class="flaticon-education"></i></a>
+                                <a href="departments.html"><i class="fas fa-graduation-cap"></i></a>
                             </div><!-- department-card-icon -->
                             <div class="department-card-content">
                                 <h5><a href="department-details.html">Pelatihan</a></h5>
@@ -94,7 +95,7 @@
                     <div class="col-xl-2 col-lg-4 col-md-6">
                         <div class="department-card">
                             <div class="department-card-icon">
-                                <a href="departments.html"><i class="flaticon-people"></i></a>
+                                <a href="departments.html"><i class="fas fa-users"></i></a>
                             </div><!-- department-card-icon -->
                             <div class="department-card-content">
                                 <h5><a href="department-details.html">Bimbingan Teknis</a></h5>
@@ -105,7 +106,7 @@
                     <div class="col-xl-2 col-lg-4 col-md-6">
                         <div class="department-card">
                             <div class="department-card-icon">
-                                <a href="departments.html"><i class="flaticon-certificate"></i></a>
+                                <a href="departments.html"><i class="fas fa-certificate"></i></a>
                             </div><!-- department-card-icon -->
                             <div class="department-card-content">
                                 <h5><a href="department-details.html">Sertifikasi</a></h5>
@@ -116,7 +117,7 @@
                     <div class="col-xl-2 col-lg-4 col-md-6">
                         <div class="department-card">
                             <div class="department-card-icon">
-                                <a href="departments.html"><i class="flaticon-tools"></i></a>
+                                <a href="departments.html"><i class="fas fa-tools"></i></a>
                             </div><!-- department-card-icon -->
                             <div class="department-card-content">
                                 <h5><a href="department-details.html">Workshop</a></h5>
