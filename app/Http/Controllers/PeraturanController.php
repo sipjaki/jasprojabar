@@ -1071,7 +1071,7 @@ public function createstoreperdaerah(Request $request)
 
                 public function feperaturangubernur()
                         {
-                            $data= pergubernur::all(); // Menggunakan paginate() untuk pagination
+                            $data= pergubernur::paginate(); // Menggunakan paginate() untuk pagination
                             $user = Auth::user();
 
                             return view('frontend.09_masjaki_peraturan.09_peraturangubernur.index', [
