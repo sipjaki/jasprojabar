@@ -74,7 +74,7 @@
 								<a href="departments.html"><i class="flaticon-suitcase"></i></a>
 							</div><!-- department-card-icon -->
 							<div class="department-card-content">
-								<h5><a href="department-details.html">Jobs & Unemployment</a></h5>
+								<h5><a href="/404">Informasi Bangunan Gedung</a></h5>
 							</div><!-- department-card-content -->
 						</div><!--department-card-->
 					</div><!--col-xl-2 col-lg-4 col-md-6-->
@@ -84,7 +84,7 @@
 								<a href="departments.html"><i class="flaticon-industry"></i></a>
 							</div><!-- department-card-icon -->
 							<div class="department-card-content">
-								<h5><a href="department-details.html">Business & Industry</a></h5>
+								<h5><a href="department-details.html">Pelatihan</a></h5>
 							</div><!-- department-card-content -->
 						</div><!--department-card-->
 					</div><!--col-xl-2 col-lg-4 col-md-6-->
@@ -94,7 +94,7 @@
 								<a href="departments.html"><i class="flaticon-bus"></i></a>
 							</div><!-- department-card-icon -->
 							<div class="department-card-content">
-								<h5><a href="department-details.html">Roads & Transport</a></h5>
+								<h5><a href="department-details.html">Bimbingan Teknis</a></h5>
 							</div><!-- department-card-content -->
 						</div><!--department-card-->
 					</div><!--col-xl-2 col-lg-4 col-md-6-->
@@ -104,7 +104,7 @@
 								<a href="departments.html"><i class="flaticon-lotus"></i></a>
 							</div><!-- department-card-icon -->
 							<div class="department-card-content">
-								<h5><a href="department-details.html">Culture & Recreation</a></h5>
+								<h5><a href="department-details.html">Sertifikasi</a></h5>
 							</div><!-- department-card-content -->
 						</div><!--department-card-->
 					</div><!--col-xl-2 col-lg-4 col-md-6-->
@@ -114,7 +114,7 @@
 								<a href="departments.html"><i class="flaticon-balance-1"></i></a>
 							</div><!-- department-card-icon -->
 							<div class="department-card-content">
-								<h5><a href="department-details.html">Justice, Safety Law</a></h5>
+								<h5><a href="department-details.html">Workshop</a></h5>
 							</div><!-- department-card-content -->
 						</div><!--department-card-->
 					</div><!--col-xl-2 col-lg-4 col-md-6-->
