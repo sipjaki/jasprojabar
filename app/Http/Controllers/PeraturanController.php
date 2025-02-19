@@ -1069,7 +1069,7 @@ public function createstoreperdaerah(Request $request)
 
 // --------------------------------------- DATABASE SURAT PERATURAN GUBERNUR
 
-                public function fegubernur()
+                public function feperaturangubernur()
                         {
                             $data= pergubernur::all(); // Menggunakan paginate() untuk pagination
                             $user = Auth::user();
