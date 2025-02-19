@@ -38,9 +38,11 @@
         <li class="nav-item" role="presentation">
           <button class="nav-link" id="pills-business-tab" data-bs-toggle="pill" data-bs-target="#pills-business" type="button" role="tab" aria-controls="pills-business" aria-selected="false"><i class="flaticon-home"></i>Housing & Land</button>
         </li>
+
         <li class="nav-item" role="presentation">
           <button class="nav-link" id="pills-transport-tab" data-bs-toggle="pill" data-bs-target="#pills-transport" type="button" role="tab" aria-controls="pills-transport" aria-selected="false"><i class="flaticon-art"></i>Public & Culture</button>
         </li>
+
         <li class="nav-item" role="presentation">
           <button class="nav-link" id="pills-culture-tab" data-bs-toggle="pill" data-bs-target="#pills-culture" type="button" role="tab" aria-controls="pills-culture" aria-selected="false"><i class="flaticon-transportation"></i>Road & Transport</button>
         </li>
