@@ -61,10 +61,10 @@
 					<div class="col-xl-2 col-lg-4 col-md-6">
 						<div class="department-card">
 							<div class="department-card-icon">
-								<a href="departments.html"><i class="flaticon-parthenon"></i></a>
+								<a href="https://dpupr.blorakab.go.id"><i class="flaticon-parthenon"></i></a>
 							</div><!-- department-card-icon -->
 							<div class="department-card-content">
-								<h5><a href="department-details.html">Your Government</a></h5>
+								<h5><a href="department-details.html">DPUPR Kab Blora</a></h5>
 							</div><!-- department-card-content -->
 						</div><!--department-card-->
 					</div><!--col-xl-2 col-lg-4 col-md-6-->
