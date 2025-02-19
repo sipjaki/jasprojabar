@@ -20,6 +20,9 @@
 	<link rel="stylesheet" type="text/css" href="/assets/approve/css/style.css">
 
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+        <!-- Import Flaticon CSS -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flaticon/1.0.0/flaticon.css">
+
 
 	<!-- favicons Icons -->
 	{{-- <link rel="apple-touch-icon" sizes="180x180" href="/assets/approve/image/favicon/apple-touch-icon.png">

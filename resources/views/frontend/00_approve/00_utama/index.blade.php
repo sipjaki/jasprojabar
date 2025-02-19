@@ -58,73 +58,77 @@
 		<div class="container">
 			<div class="department-section-inner">
 				<div class="row row-gutter-y-40">
+                    <head>
+                        <!-- Import Font Awesome CSS -->
+                        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+                    </head>
 
-					<div class="col-xl-2 col-lg-4 col-md-6">
-    <div class="department-card">
-        <div class="department-card-icon">
-            <a href="/404"><i class="flaticon-home"></i></a>
-        </div><!-- department-card-icon -->
-        <div class="department-card-content">
-            <h5><a href="/404">DPUPR Kab Blora</a></h5>
-        </div><!-- department-card-content -->
-    </div><!--department-card-->
-</div><!--col-xl-2 col-lg-4 col-md-6-->
+                    <body>
+                        <div class="col-xl-2 col-lg-4 col-md-6">
+                            <div class="department-card">
+                                <div class="department-card-icon">
+                                    <a href="/404"><i class="fa fa-home"></i></a>
+                                </div><!-- department-card-icon -->
+                                <div class="department-card-content">
+                                    <h5><a href="/404">DPUPR Kab Blora</a></h5>
+                                </div><!-- department-card-content -->
+                            </div><!--department-card-->
+                        </div><!--col-xl-2 col-lg-4 col-md-6-->
 
-<div class="col-xl-2 col-lg-4 col-md-6">
-    <div class="department-card">
-        <div class="department-card-icon">
-            <a href="/404"><i class="flaticon-building"></i></a>
-        </div><!-- department-card-icon -->
-        <div class="department-card-content">
-            <h5><a href="/404">Abg Blora Bangunan Gedung</a></h5>
-        </div><!-- department-card-content -->
-    </div><!--department-card-->
-</div><!--col-xl-2 col-lg-4 col-md-6-->
+                        <div class="col-xl-2 col-lg-4 col-md-6">
+                            <div class="department-card">
+                                <div class="department-card-icon">
+                                    <a href="/404"><i class="fa fa-building"></i></a>
+                                </div><!-- department-card-icon -->
+                                <div class="department-card-content">
+                                    <h5><a href="/404">Abg Blora Bangunan Gedung</a></h5>
+                                </div><!-- department-card-content -->
+                            </div><!--department-card-->
+                        </div><!--col-xl-2 col-lg-4 col-md-6-->
 
-<div class="col-xl-2 col-lg-4 col-md-6">
-    <div class="department-card">
-        <div class="department-card-icon">
-            <a href="/404"><i class="flaticon-book"></i></a>
-        </div><!-- department-card-icon -->
-        <div class="department-card-content">
-            <h5><a href="/404">Pelatihan</a></h5>
-        </div><!-- department-card-content -->
-    </div><!--department-card-->
-</div><!--col-xl-2 col-lg-4 col-md-6-->
+                        <div class="col-xl-2 col-lg-4 col-md-6">
+                            <div class="department-card">
+                                <div class="department-card-icon">
+                                    <a href="/404"><i class="fa fa-book"></i></a>
+                                </div><!-- department-card-icon -->
+                                <div class="department-card-content">
+                                    <h5><a href="/404">Pelatihan</a></h5>
+                                </div><!-- department-card-content -->
+                            </div><!--department-card-->
+                        </div><!--col-xl-2 col-lg-4 col-md-6-->
 
-<div class="col-xl-2 col-lg-4 col-md-6">
-    <div class="department-card">
-        <div class="department-card-icon">
-            <a href="/404"><i class="flaticon-tools"></i></a>
-        </div><!-- department-card-icon -->
-        <div class="department-card-content">
-            <h5><a href="/404">Bimbingan Teknis</a></h5>
-        </div><!-- department-card-content -->
-    </div><!--department-card-->
-</div><!--col-xl-2 col-lg-4 col-md-6-->
+                        <div class="col-xl-2 col-lg-4 col-md-6">
+                            <div class="department-card">
+                                <div class="department-card-icon">
+                                    <a href="/404"><i class="fa fa-tools"></i></a>
+                                </div><!-- department-card-icon -->
+                                <div class="department-card-content">
+                                    <h5><a href="/404">Bimbingan Teknis</a></h5>
+                                </div><!-- department-card-content -->
+                            </div><!--department-card-->
+                        </div><!--col-xl-2 col-lg-4 col-md-6-->
 
-<div class="col-xl-2 col-lg-4 col-md-6">
-    <div class="department-card">
-        <div class="department-card-icon">
-            <a href="/404"><i class="flaticon-gear"></i></a>
-        </div><!-- department-card-icon -->
-        <div class="department-card-content">
-            <h5><a href="/404">Workshop</a></h5>
-        </div><!-- department-card-content -->
-    </div><!--department-card-->
-</div><!--col-xl-2 col-lg-4 col-md-6-->
+                        <div class="col-xl-2 col-lg-4 col-md-6">
+                            <div class="department-card">
+                                <div class="department-card-icon">
+                                    <a href="/404"><i class="fa fa-cogs"></i></a>
+                                </div><!-- department-card-icon -->
+                                <div class="department-card-content">
+                                    <h5><a href="/404">Workshop</a></h5>
+                                </div><!-- department-card-content -->
+                            </div><!--department-card-->
+                        </div><!--col-xl-2 col-lg-4 col-md-6-->
 
-<div class="col-xl-2 col-lg-4 col-md-6">
-    <div class="department-card">
-        <div class="department-card-icon">
-            <a href="/404"><i class="flaticon-certificate"></i></a>
-        </div><!-- department-card-icon -->
-        <div class="department-card-content">
-            <h5><a href="/404">Sertifikasi</a></h5>
-        </div><!-- department-card-content -->
-    </div><!--department-card-->
-</div><!--col-xl-2 col-lg-4 col-md-6-->
-
+                        <div class="col-xl-2 col-lg-4 col-md-6">
+                            <div class="department-card">
+                                <div class="department-card-icon">
+                                    <a href="/404"><i class="fa fa-certificate"></i></a>
+                                </div><!-- department-card-icon -->
+                                <div class="department-card-content">
+                                    <h5><a href="/404">Sertifikasi</a></h5>
+                                </div><!-- department-card-content -->
+                            </div><!--department-card-->
+                        </div><!--col-xl-2 col-lg-4 col-md-6-->
 				</div><!-- row -->
 			</div><!--department-section-inner-->
 		</div><!-- container -->
