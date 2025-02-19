@@ -624,7 +624,8 @@
 			</div><!--cta-five-card-->
 		</div><!-- container -->
 	</section><!--cta-five-section-->
-	<section class="blog-section">
+
+    {{-- <section class="blog-section">
 		<div class="container">
 			<div class="blog-box">
 				<div class="section-title-box text-center">
@@ -704,8 +705,9 @@
 				</div><!-- col-lg-4 -->
 			</div><!-- row -->
 		</div><!-- container -->
-	</section><!-- blog-section -->
-	<section class="cta-two-section">
+	</section><!-- blog-section --> --}}
+
+    <section class="cta-two-section">
 		<div class="container">
 			<div class="cta-two-section-inner">
 				<div class="row">
