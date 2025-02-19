@@ -358,11 +358,11 @@
 				<div class="col-lg-6">
 					<div class="mayor-box">
 						<div class="section-title-box">
-							<div class="section-tagline">MAYOR OF GOWRNX</div><!-- section-tagline -->
-							<h2 class="section-title">Major Voice of City Government</h2>
-							<p>There cursus massa at urnaaculis estie. Sed aliquamellus vitae ultrs condmentum leo massa mollis estiegittis miristum nulla sed medy fringilla vitae.</p>
+							<div class="section-tagline">DPUPR Kab Blora</div><!-- section-tagline -->
+							<h2 class="section-title">Kepala Bidang Bangunan Gedung</h2>
+							{{-- <p>There cursus massa at urnaaculis estie. Sed aliquamellus vitae ultrs condmentum leo massa mollis estiegittis miristum nulla sed medy fringilla vitae.</p> --}}
 						</div><!--section-title-box-->
-						<div class="mayor-icon-box">
+						{{-- <div class="mayor-icon-box">
 							<div class="mayor-icon">
 								<i class="flaticon-professor"></i>
 							</div><!-- mayor-icon -->
@@ -381,7 +381,7 @@
 								<i class="fa-solid fa-circle-check"></i>
 								<p>If you are going to use a passage</p>
 							</li><!-- li -->
-						</ul><!-- ul -->
+						</ul><!-- ul --> --}}
 					</div><!--mayor-box-->
 				</div><!-- col-lg-6 -->
 				<div class="col-lg-6">
@@ -389,7 +389,7 @@
 						<img src="/assets/approve/image/shapes/shape-1.png" class="floated-image-one" alt="img-7">
 						<img src="/assets/approve/image/gallery/mayor-2.jpg" alt="img-8">
 						<div class="mayor-name">
-							Mr. Kevin Martin
+							Mohamad Arif Hidayat, ST
 						</div><!-- mayor-name -->
 					</div><!--mayor-img-->
 				</div><!--col-lg-6"-->
