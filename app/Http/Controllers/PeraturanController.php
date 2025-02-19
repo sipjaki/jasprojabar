@@ -55,7 +55,7 @@ class PeraturanController extends Controller
 
     public function undangundangshowByJudul($judul)
     {
-        $data = permenteri::where('judul', $judul)->firstOrFail();
+        $data = peraturan::where('judul', $judul)->firstOrFail();
         $user = Auth::user();
 
         return view('frontend.09_masjaki_peraturan.01_undangundang.show', [
