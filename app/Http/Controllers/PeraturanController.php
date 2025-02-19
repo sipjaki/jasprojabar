@@ -245,7 +245,7 @@ class PeraturanController extends Controller
 
         return view('frontend.09_masjaki_peraturan.03_peraturanpresiden.show', [
             // 'title' => 'Details Undang - Undang Jasa Konstruksi',
-            'title' => 'Details Undang-Undang Jasa Konstruksi',
+            'title' => 'Peraturan Presiden ',
             'data' => $data,
             'user' => $user,
         ]);
