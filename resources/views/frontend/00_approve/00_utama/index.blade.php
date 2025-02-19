@@ -348,21 +348,6 @@
 					</div><!--funfact-counter-item-->
 				</div><!--col-xl-3 col-md-6-->
 
-                <div class="col-xl-3 col-md-6">
-					<div class="funfact-counter-item">
-						<div class="funfact-counter-box">
-							<div class="funfact-counter-icon">
-								<i class="flaticon-coverage"></i>
-							</div><!-- funfact-counter-icon -->
-							<div class="funfact-counter-number">
-								<h3 class="counter-number">1242</h3>
-								<span class="funfact-counter-number-postfix"></span>
-							</div><!-- funfact-counter-number -->
-						</div><!-- funfact-counter-box -->
-						<p class="funfact-text">Tenaga Ahli<br></p>
-					</div><!--funfact-counter-item-->
-				</div><!--col-xl-3 col-md-6-->
-
 
 			</div><!-- row -->
 		</div><!-- container -->
