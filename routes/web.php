@@ -215,6 +215,7 @@ Route::get('/peraturan/pemerintah/{judul}', [PeraturanController::class, 'pemeri
 
 // -------- BAGIAN 3 ---------------------------------
 Route::get('/peraturan/presiden', [PeraturanController::class, 'fepresiden']);
+Route::get('/peraturan/presiden/{judul}', [PeraturanController::class, 'presidenshowByJudul']);
 
 // -------- BAGIAN 4 ---------------------------------
 Route::get('/peraturan/menteri', [PeraturanController::class, 'fementeri']);

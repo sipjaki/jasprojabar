@@ -231,12 +231,26 @@ class PeraturanController extends Controller
         $data= perpresiden::all(); // Menggunakan paginate() untuk pagination
         $user = Auth::user();
 
-        return view('frontend.11_peraturan.03_peraturanpresiden', [
+        return view('frontend.09_masjaki_peraturan.03_peraturanpresiden.index', [
             'title' => 'Peraturan Presiden',
             'data' => $data, // Mengirimkan data paginasi ke view
             'user' => $user, // Mengirimkan data paginasi ke view
         ]);
     }
+
+    public function presidenshowByJudul($judul)
+    {
+        $data = peraturan::where('judul', $judul)->firstOrFail();
+        $user = Auth::user();
+
+        return view('frontend.09_masjaki_peraturan.03_peraturanpresiden.show', [
+            // 'title' => 'Details Undang - Undang Jasa Konstruksi',
+            'title' => 'Details Undang-Undang Jasa Konstruksi',
+            'data' => $data,
+            'user' => $user,
+        ]);
+    }
+
 
 
 
