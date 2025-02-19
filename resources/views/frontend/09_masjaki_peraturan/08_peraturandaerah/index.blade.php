@@ -78,8 +78,8 @@
         <i class="flaticon-pdf"></i>
             </div><!-- service-three-icon -->
                 <div class="service-three-card-content">
-                            <h3><a href="/peraturan/peraturandaerah/{{$item->judul}}">{{$item->judul}}</a></h3>
-                            <a href="/peraturan/peraturandaerah/{{$item->judul}}">
+                            <h3><a href="/peraturan/daerah/{{$item->judul}}">{{$item->judul}}</a></h3>
+                            <a href="/peraturan/daerah/{{$item->judul}}">
                             <p>{{$title}}</p>
                             <div class="service-three-detail">
                                     <span>Show Here</span><i class="fa-solid fa-arrow-right-long"></i>
