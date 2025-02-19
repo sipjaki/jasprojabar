@@ -125,7 +125,7 @@
                         <li class="has-dropdown">
 							<a href="#">Peraturan</a>
 							<ul class="list-unstyled">
-								<li><a href="/404">Undang - Undang </a></li>
+								<li><a href="/peraturan/undangundang">Undang - Undang </a></li>
 								<li><a href="/404">Peraturan Pemerintah</a></li>
 								<li><a href="/404">Peraturan Presiden</a></li>
 								<li><a href="/404">Peraturan Menteri</a></li>
