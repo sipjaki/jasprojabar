@@ -80,7 +80,7 @@
                 <div class="service-three-card-content">
                             <h3><a href="/peraturan/undangundang/{{$item->judul}}">{{$item->judul}}</a></h3>
                             <a href="/peraturan/undangundang/{{$item->judul}}">
-                            <p>Undang - Undang Jasa Konstruksi</p>
+                            <p>{{$title}}</p>
                             <div class="service-three-detail">
                                     <span>Show Here</span><i class="fa-solid fa-arrow-right-long"></i>
                                 </a>
