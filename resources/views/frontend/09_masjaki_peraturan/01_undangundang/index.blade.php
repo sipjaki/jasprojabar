@@ -95,7 +95,7 @@
 
           </div><!-- row -->
         </div><!-- tab-pane -->
-        <div class="pagination-container" style="margin-top: 25px; margin-bottom: 200px; display: flex; flex-direction: column; align-items: center;">
+        <div class="pagination-container" style="margin-top: 50px; margin-bottom: 10px; display: flex; flex-direction: column; align-items: center;">
             <div class="pagination-info mb-2" style="margin-bottom: 100px; color: black; font-weight: 500;">
                 Data Ke {{ $data->firstItem() }} Sampai {{ $data->lastItem() }} Dari {{ $data->total() }} Jumlah {{$title}}
             </div>
