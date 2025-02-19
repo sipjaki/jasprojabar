@@ -1425,7 +1425,7 @@ public function createstoreperwalikotabupati(Request $request)
                             $data = suratkeputusan::where('judul', $judul)->firstOrFail();
                             $user = Auth::user();
 
-                            return view('frontend.11_peraturan.11_suratkeputusanshow', [
+                            return view('frontend.09_masjaki_peraturan.11_suratkeputusan.show', [
                                 'data' => $data,
                                 'user' => $user,
                                 'title' => 'Details Surat Keputusan Jasa Konstruksi',
