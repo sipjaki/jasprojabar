@@ -129,7 +129,9 @@
 			</div><!-- container -->
 		</div><!-- department-search-section -->
 	</section><!--department-section-->
-	<section class="about-section">
+
+    {{-- ============================================================================================== --}}
+	{{-- <section class="about-section">
 		<div class="container">
 			<div class="row justify-content-between">
 				<div class="col-lg-6">
@@ -184,8 +186,10 @@
 				</div><!--col-lg-6-->
 			</div><!-- row -->
 		</div><!-- container -->
-	</section><!--about-section-->
-	<section class="service-section">
+	</section><!--about-section--> --}}
+
+    {{-- ============================================================================================ --}}
+	{{-- <section class="service-section">
 		<div class="container">
 			<div class="row justify-content-between">
 				<div class="col-lg-6">
@@ -222,7 +226,9 @@
 				</div><!--col-lg-5-->
 			</div><!-- row -->
 		</div><!-- container -->
-	</section><!--service-section-->
+	</section><!--service-section--> --}}
+
+    {{-- =========================================================== --}}
 	<section class="funfact-section">
 		<div class="container">
 			<div class="row">
