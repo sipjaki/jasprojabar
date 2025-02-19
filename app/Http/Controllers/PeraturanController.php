@@ -240,7 +240,7 @@ class PeraturanController extends Controller
 
     public function presidenshowByJudul($judul)
     {
-        $data = peraturan::where('judul', $judul)->firstOrFail();
+        $data = perpresiden::where('judul', $judul)->firstOrFail();
         $user = Auth::user();
 
         return view('frontend.09_masjaki_peraturan.03_peraturanpresiden.show', [
