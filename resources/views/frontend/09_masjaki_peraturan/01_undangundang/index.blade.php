@@ -11,12 +11,12 @@
     <div class="container">
       <div class="page-breadcrumbs">
         <ul class="list-unstyled">
-          <li><a href="index.html">Home</a></li>
+          {{-- <li><a href="index.html">Home</a></li> --}}
           <li>Documents</li>
         </ul><!-- list-unstyled -->
       </div><!-- page-breadcrumbs -->
       <div class="page-banner-title">
-        <h3>Documents</h3>
+        <h3 style="color: black;">Undang Undang Jasa Konstruksi</h3>
       </div><!-- page-banner-title -->
     </div><!-- container -->
   </section><!--page-banner-->
