@@ -325,7 +325,7 @@ class PeraturanController extends Controller
         $data= permenteri::paginate(15); // Menggunakan paginate() untuk pagination
         $user = Auth::user();
 
-        return view('frontend.11_peraturan.04_peraturanmenteri', [
+        return view('frontend.09_masjaki_peraturan.04_peraturanmenteri.index', [
             'title' => 'Peraturan Menteri PUPR Tentang Jasa Konstruksi',
             'data' => $data, // Mengirimkan data paginasi ke view
             'user' => $user, // Mengirimkan data paginasi ke view
@@ -350,10 +350,10 @@ class PeraturanController extends Controller
                 $data = permenteri::where('judul', $judul)->firstOrFail();
                 $user = Auth::user();
 
-                return view('frontend.11_peraturan.04_peraturanmenterishow', [
+                return view('frontend.09_masjaki_peraturan.04_peraturanmenteri.show', [
                     'data' => $data,
                     'user' => $user,
-                    'title' => 'Details Data Peraturan Menteri',
+                    'title' => 'Peraturan Menteri',
                 ]);
             }
             // ------------------------------
