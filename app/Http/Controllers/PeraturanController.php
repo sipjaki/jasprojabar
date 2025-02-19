@@ -1074,12 +1074,25 @@ public function createstoreperdaerah(Request $request)
                             $data= pergubernur::all(); // Menggunakan paginate() untuk pagination
                             $user = Auth::user();
 
-                            return view('frontend.11_peraturan.09_peraturangubernur', [
+                            return view('frontend.09_masjaki_peraturan.09_peraturangubernur', [
                                 'title' => 'Peraturan Gubernur Jasa Konstruksi',
                                 'data' => $data, // Mengirimkan data paginasi ke view
                                 'user' => $user, // Mengirimkan data paginasi ke view
                             ]);
                         }
+
+
+            public function gubernurshowByJudul($judul)
+            {
+                $data = pergubernur::where('judul', $judul)->firstOrFail();
+                $user = Auth::user();
+
+                return view('frontend.09_masjaki_peraturan.09_peraturangubernur.show', [
+                    'data' => $data,
+                    'user' => $user,
+                    'title' => 'Peraturan Gubernur Jasa Konstruksi',
+                ]);
+            }
 
 
 

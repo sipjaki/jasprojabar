@@ -239,6 +239,7 @@ Route::get('/peraturan/daerah/{judul}', [PeraturanController::class, 'feperdaera
 
 // -------- BAGIAN 9 ---------------------------------
 Route::get('/peraturan/gubernur', [PeraturanController::class, 'fegubernur']);
+Route::get('/peraturan/gubernur/{judul}', [PeraturanController::class, 'gubernurshowByJudul']);
 
 // -------- BAGIAN 10 ---------------------------------
 Route::get('/peraturan/walikotadanbupati', [PeraturanController::class, 'feperbupatiwalikota']);
