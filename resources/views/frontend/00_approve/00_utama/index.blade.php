@@ -586,7 +586,9 @@
 		</div><!-- container -->
 	</section><!--testimonial-section--> --}}
 
-    <section class="event-section">
+
+    {{-- REKOMENDASI BERITA HIGHLIGHT --}}
+    {{-- <section class="event-section">
 		<div class="container">
 			<div class="event-section-inner">
 				<div class="row">
@@ -695,7 +697,7 @@
 				</div><!-- row -->
 			</div><!--event-section-inner-->
 		</div><!--container-->
-	</section><!--event-section-->
+	</section><!--event-section--> --}}
 
 	<section class="cta-five-section">
 		<div class="container">
@@ -718,7 +720,7 @@
 		</div><!-- container -->
 	</section><!--cta-five-section-->
 
-    {{-- <section class="blog-section">
+    <section class="blog-section">
 		<div class="container">
 			<div class="blog-box">
 				<div class="section-title-box text-center">
@@ -798,7 +800,7 @@
 				</div><!-- col-lg-4 -->
 			</div><!-- row -->
 		</div><!-- container -->
-	</section><!-- blog-section --> --}}
+	</section><!-- blog-section -->
 
     {{-- <section class="cta-two-section">
 		<div class="container">
