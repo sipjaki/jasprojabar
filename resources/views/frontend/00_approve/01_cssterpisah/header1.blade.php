@@ -129,7 +129,7 @@
 								<li><a href="/peraturan/pemerintah">Peraturan Pemerintah</a></li>
 								<li><a href="/peraturan/presiden">Peraturan Presiden</a></li>
 								<li><a href="/peraturan/menteri">Peraturan Menteri</a></li>
-								<li><a href="/404">Keputusan Menteri</a></li>
+								<li><a href="/peraturan/keputusanmenteri">Keputusan Menteri</a></li>
 								<li><a href="/404">Surat Edaran Menteri</a></li>
 								<li><a href="/404">Referensi</a></li>
 								<li><a href="/404">Peraturan Daerah</a></li>

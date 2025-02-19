@@ -506,8 +506,8 @@ public function feskmenteri()
                 $data= keputusanmenteri::paginate(15); // Menggunakan paginate() untuk pagination
                 $user = Auth::user();
 
-                return view('frontend.11_peraturan.05_keputusanmenteri', [
-                    'title' => 'Surat Keputusan Menteri Jasa Konstruksi',
+                return view('frontend.09_masjaki_peraturan.05_keputusanmenteri.index', [
+                    'title' => 'Surat Keputusan Menteri',
                     'data' => $data, // Mengirimkan data paginasi ke view
                     'user' => $user, // Mengirimkan data paginasi ke view
                 ]);
@@ -519,10 +519,10 @@ public function feskmenteri()
                 $data = keputusanmenteri::where('judul', $judul)->firstOrFail();
                 $user = Auth::user();
 
-                return view('frontend.11_peraturan.05_keputusanmenterishow', [
+                return view('frontend.09_masjaki_peraturan.05_keputusanmenteri.index', [
                     'data' => $data,
                     'user' => $user,
-                    'title' => 'Details Data Keputusan Menteri',
+                    'title' => 'Surat Keputusan Menteri',
                 ]);
             }
 
