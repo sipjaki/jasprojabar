@@ -134,8 +134,8 @@
 
     <section class="portfolio-section">
 		<div class="section-title-box text-center">
-			<div class="section-tagline">recent work portfolio</div>
-			<h2 class="section-title">Explore City Highlights <br>Portfolios</h2>
+			<div class="section-tagline">Berita Jasa Konstruksi Dinas Pekerjaan Umum dan Penataan Ruang Pemerintah Kabupaten Blora</div>
+			<h2 class="section-title">Sistem Informasi Pembina Jasa Konstruksi</h2>
 		</div><!-- section-title-box -->
 		<div class="portfolio-content conatainer-fluid">
 			<div class="portfolio-carousel owl-carousel owl-theme">
