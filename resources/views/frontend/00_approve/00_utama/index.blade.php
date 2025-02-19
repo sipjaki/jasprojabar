@@ -397,7 +397,7 @@
 		</div><!-- container -->
 	</section><!--mayor-section-->
 
-	<section class="client-section">
+	{{-- <section class="client-section">
 		<h5 class="client-text">Our partners & suppoters</h5>
 		<div class="container">
 			<div class="client-carousel owl-carousel owl-theme">
@@ -415,7 +415,7 @@
 				</div><!--item-->
 			</div><!--client-carousel owl-carousel owl-theme-->
 		</div><!--container-->
-	</section><!--client-section-->
+	</section><!--client-section--> --}}
 
 
 	{{-- <section class="testimonial-section">
