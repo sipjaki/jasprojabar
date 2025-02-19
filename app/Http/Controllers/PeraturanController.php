@@ -53,6 +53,19 @@ class PeraturanController extends Controller
         ]);
     }
 
+    public function undangundangshowByJudul($judul)
+    {
+        $data = permenteri::where('judul', $judul)->firstOrFail();
+        $user = Auth::user();
+
+        return view('frontend.09_masjaki_peraturan.01_undangundang.show', [
+            // 'title' => 'Details Undang - Undang Jasa Konstruksi',
+            'title' => 'Details Undang-Undang Jasa Konstruksi',
+            'data' => $data,
+            'user' => $user,
+        ]);
+    }
+
 
     // -------------------- UPDATE DATA UNDANG UNDANG JASA KONSTRUKSI ----------------------
     public function updateundangundang($judul)
