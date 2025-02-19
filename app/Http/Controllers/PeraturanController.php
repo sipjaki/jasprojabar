@@ -135,7 +135,7 @@ class PeraturanController extends Controller
 
         public function fepemerintah()
         {
-            $data= perpemerintah::all(); // Menggunakan paginate() untuk pagination
+            $data= perpemerintah::paginate(15); // Menggunakan paginate() untuk pagination
             $user = Auth::user();
 
             return view('frontend.09_masjaki_peraturan.02_peraturanpemerintah.index', [
