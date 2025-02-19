@@ -127,7 +127,7 @@
 							<ul class="list-unstyled">
 								<li><a href="/peraturan/undangundang">Undang - Undang </a></li>
 								<li><a href="/peraturan/pemerintah">Peraturan Pemerintah</a></li>
-								<li><a href="/404">Peraturan Presiden</a></li>
+								<li><a href="/peraturan/presiden">Peraturan Presiden</a></li>
 								<li><a href="/404">Peraturan Menteri</a></li>
 								<li><a href="/404">Keputusan Menteri</a></li>
 								<li><a href="/404">Surat Edaran Menteri</a></li>
