@@ -420,7 +420,7 @@
 				</div><!-- col-lg-6 -->
 				<div class="col-lg-6">
 					<div class="mayor-img">
-						<img src="/assets/approve/image/shapes/shape-1.png" class="floated-image-one" alt="img-7">
+						{{-- <img src="/assets/approve/image/shapes/shape-1.png" class="floated-image-one" alt="img-7"> --}}
 						<img src="/assets/approve/image/gallery/mayor-2.jpg" alt="img-8">
 						<div class="mayor-name">
 							Mohamad Arif Hidayat, ST
