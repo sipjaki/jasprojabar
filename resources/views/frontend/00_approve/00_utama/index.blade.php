@@ -121,14 +121,14 @@
 				</div><!-- row -->
 			</div><!--department-section-inner-->
 		</div><!-- container -->
-		<div class="department-search-section">
+		{{-- <div class="department-search-section">
 			<div class="container">
 				<form class="department-search-form">
 					<input type="text" placeholder="Get our quick services from the city municipal" name="search">
 					<button type="submit">View All Services</button>
 				</form><!-- department-search-form -->
 			</div><!-- container -->
-		</div><!-- department-search-section -->
+		</div><!-- department-search-section --> --}}
 	</section><!--department-section-->
 
 
