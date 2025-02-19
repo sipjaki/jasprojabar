@@ -47,7 +47,7 @@
 				<div class="col-lg-8">
 
                     <div class="department-details-imgbox">
-                        <iframe src="{{ asset('storage/' . $data->peraturan) }}" width="100%" height="100%" style="border: none;"></iframe>
+                        <iframe src="{{ asset('storage/' . $data->peraturan) }}" width="100%" height="600" style="border: none;"></iframe>
                         <a href="assets/pdf/sample.pdf" target="_blank"></a>
                     </div><!-- department-details-imgbox -->
 
