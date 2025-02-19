@@ -211,6 +211,7 @@ Route::get('/peraturan/undangundang/{judul}', [PeraturanController::class, 'unda
 
 // -------- BAGIAN 2 ---------------------------------
 Route::get('/peraturan/pemerintah', [PeraturanController::class, 'fepemerintah']);
+Route::get('/peraturan/pemerintah/{judul}', [PeraturanController::class, 'pemerintahshowByJudul']);
 
 // -------- BAGIAN 3 ---------------------------------
 Route::get('/peraturan/presiden', [PeraturanController::class, 'fepresiden']);

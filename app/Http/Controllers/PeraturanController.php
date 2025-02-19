@@ -138,12 +138,26 @@ class PeraturanController extends Controller
             $data= perpemerintah::all(); // Menggunakan paginate() untuk pagination
             $user = Auth::user();
 
-            return view('frontend.11_peraturan.02_peraturanpemerintah', [
+            return view('frontend.09_masjaki_peraturan.02_peraturanpemerintah.index', [
                 'title' => 'Peraturan Pemerintah',
                 'data' => $data, // Mengirimkan data paginasi ke view
                 'user' => $user, // Mengirimkan data paginasi ke view
             ]);
         }
+
+        public function pemerintahshowByJudul($judul)
+    {
+        $data = perpemerintah::where('judul', $judul)->firstOrFail();
+        $user = Auth::user();
+
+        return view('frontend.09_masjaki_peraturan.02_peraturanpemerintah.show', [
+            // 'title' => 'Details Undang - Undang Jasa Konstruksi',
+            'title' => 'Peraturan Pemerintah Tentang Jasa Konstruksi',
+            'data' => $data,
+            'user' => $user,
+        ]);
+    }
+
 
 
 
