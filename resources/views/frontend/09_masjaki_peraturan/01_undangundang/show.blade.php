@@ -55,52 +55,7 @@
 						<h4 class="department-details-title">{{ $data->judul}}</h4>
 					</div><!-- department-details-content-box -->
 
-                    <div class="document-details-inner">
-						<h3>Download Documents</h3>
-						<div class="document-details">
-							<div class="document-details-list">
-								<div class="document-details-icon">
-									<i class="flaticon-pdf"></i>
-								</div><!-- document-details-icon -->
-								<div class="document-details-content">
-									<h5><a href="department-details.html">Birthdate Certificate</a></h5>
-									<p>Pdf (194kb)</p>
-								</div><!-- document-details-content -->
-							</div><!-- document-details-list -->
-							<div class="document-details-button">
-								<a href="assets/inc/sample.pdf" title="download"><i class="fa-solid fa-arrow-down"></i></a>
-							</div><!-- document-details-button -->
-						</div><!-- document-details -->
-						<div class="document-details">
-							<div class="document-details-list">
-								<div class="document-details-icon">
-									<i class="flaticon-pdf"></i>
-								</div><!-- document-details-icon -->
-								<div class="document-details-content">
-									<h5><a href="department-details.html">Birthdate modification verification</a></h5>
-									<p>Pdf (194kb)</p>
-								</div><!-- document-box-content -->
-							</div><!-- document-box-list -->
-							<div class="document-details-button">
-								<a href="assets/inc/sample.pdf" title="download"><i class="fa-solid fa-arrow-down"></i></a>
-							</div><!-- document-details-button -->
-						</div><!-- document-details -->
-						<div class="document-details">
-							<div class="document-details-list">
-								<div class="document-details-icon">
-									<i class="flaticon-pdf"></i>
-								</div><!-- document-details-icon -->
-								<div class="document-details-content">
-									<h5><a href="department-details.html">Death Certificate</a></h5>
-									<p>Jpg (103kb)</p>
-								</div><!-- document-details-content -->
-							</div><!-- document-details-list -->
-							<div class="document-details-button">
-								<a href="assets/inc/sample.pdf" title="download"><i class="fa-solid fa-arrow-down"></i></a>
-							</div><!-- document-details-button -->
-						</div><!-- document-details -->
-					</div><!-- document-details-inner -->
-				</div><!-- col-lg-8 -->
+                </div><!-- col-lg-8 -->
 			</div><!-- row -->
 		</div><!-- container -->
 	</section><!-- department-details-section -->
