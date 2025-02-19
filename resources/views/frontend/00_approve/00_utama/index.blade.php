@@ -53,6 +53,56 @@
 			</div><!--item-->
 		</div><!-- main-slider-swiper -->
 	</section><!--main-slider-->
+
+
+    <section class="portfolio-section">
+		<div class="section-title-box text-center">
+			<div class="section-tagline">recent work portfolio</div>
+			<h2 class="section-title">Explore City Highlights <br>Portfolios</h2>
+		</div><!-- section-title-box -->
+		<div class="portfolio-content conatainer-fluid">
+			<div class="portfolio-carousel owl-carousel owl-theme">
+				<div class="item">
+					<div class="portfolio-card">
+						<img src="/assets/approve/image/portfolio/portfolio-1.jpg" class="img-fluid" alt="img-9">
+						<div class="portfolio-card-meta">
+							<div class="portfolio-card-text"><a href="portfolio-details.html">Places</a></div>
+							<div class="portfolio-card-title"><a href="portfolio-details.html">Broadway Road</a></div>
+						</div><!-- portfolio-card-meta -->
+					</div><!--portfolio-card-->
+				</div><!-- item -->
+				<div class="item">
+					<div class="portfolio-card">
+						<img src="/assets/approve/image/portfolio/portfolio-2.jpg" class="img-fluid" alt="img-10">
+						<div class="portfolio-card-meta">
+							<div class="portfolio-card-text"><a href="portfolio-details.html">Intercity</a></div>
+							<div class="portfolio-card-title"><a href="portfolio-details.html"> Grand Central Terminal</a></div>
+						</div><!-- portfolio-card-meta -->
+					</div><!--portfolio-card-->
+				</div><!-- item -->
+				<div class="item">
+					<div class="portfolio-card">
+						<img src="/assets/approve/image/portfolio/portfolio-3.jpg" class="img-fluid" alt="img-11">
+						<div class="portfolio-card-meta">
+							<div class="portfolio-card-text"><a href="portfolio-details.html">Business</a></div>
+							<div class="portfolio-card-title"><a href="portfolio-details.html">Empire State Building</a></div>
+						</div><!-- portfolio-card-meta -->
+					</div><!--portfolio-card-->
+				</div><!-- item -->
+				<div class="item">
+					<div class="portfolio-card">
+						<img src="/assets/approve/image/portfolio/portfolio-4.jpg" class="img-fluid" alt="img-12">
+						<div class="portfolio-card-meta">
+							<div class="portfolio-card-text"><a href="portfolio-details.html">Travel</a></div>
+							<div class="portfolio-card-title"><a href="portfolio-details.html">Fulton Center</a></div>
+						</div><!-- portfolio-card-meta -->
+					</div><!--portfolio-card-->
+				</div><!-- item -->
+			</div><!--portfolio-carousel-->
+		</div><!--portfolio-content-->
+	</section><!--portfolio-section-->
+
+
 	<section class="department-section">
 		<div class="container">
 			<div class="department-section-inner">
@@ -335,52 +385,7 @@
 			</div><!-- row -->
 		</div><!-- container -->
 	</section><!--mayor-section-->
-	<section class="portfolio-section">
-		<div class="section-title-box text-center">
-			<div class="section-tagline">recent work portfolio</div>
-			<h2 class="section-title">Explore City Highlights <br>Portfolios</h2>
-		</div><!-- section-title-box -->
-		<div class="portfolio-content conatainer-fluid">
-			<div class="portfolio-carousel owl-carousel owl-theme">
-				<div class="item">
-					<div class="portfolio-card">
-						<img src="/assets/approve/image/portfolio/portfolio-1.jpg" class="img-fluid" alt="img-9">
-						<div class="portfolio-card-meta">
-							<div class="portfolio-card-text"><a href="portfolio-details.html">Places</a></div>
-							<div class="portfolio-card-title"><a href="portfolio-details.html">Broadway Road</a></div>
-						</div><!-- portfolio-card-meta -->
-					</div><!--portfolio-card-->
-				</div><!-- item -->
-				<div class="item">
-					<div class="portfolio-card">
-						<img src="/assets/approve/image/portfolio/portfolio-2.jpg" class="img-fluid" alt="img-10">
-						<div class="portfolio-card-meta">
-							<div class="portfolio-card-text"><a href="portfolio-details.html">Intercity</a></div>
-							<div class="portfolio-card-title"><a href="portfolio-details.html"> Grand Central Terminal</a></div>
-						</div><!-- portfolio-card-meta -->
-					</div><!--portfolio-card-->
-				</div><!-- item -->
-				<div class="item">
-					<div class="portfolio-card">
-						<img src="/assets/approve/image/portfolio/portfolio-3.jpg" class="img-fluid" alt="img-11">
-						<div class="portfolio-card-meta">
-							<div class="portfolio-card-text"><a href="portfolio-details.html">Business</a></div>
-							<div class="portfolio-card-title"><a href="portfolio-details.html">Empire State Building</a></div>
-						</div><!-- portfolio-card-meta -->
-					</div><!--portfolio-card-->
-				</div><!-- item -->
-				<div class="item">
-					<div class="portfolio-card">
-						<img src="/assets/approve/image/portfolio/portfolio-4.jpg" class="img-fluid" alt="img-12">
-						<div class="portfolio-card-meta">
-							<div class="portfolio-card-text"><a href="portfolio-details.html">Travel</a></div>
-							<div class="portfolio-card-title"><a href="portfolio-details.html">Fulton Center</a></div>
-						</div><!-- portfolio-card-meta -->
-					</div><!--portfolio-card-->
-				</div><!-- item -->
-			</div><!--portfolio-carousel-->
-		</div><!--portfolio-content-->
-	</section><!--portfolio-section-->
+
 	<section class="client-section">
 		<h5 class="client-text">Our partners & suppoters</h5>
 		<div class="container">
