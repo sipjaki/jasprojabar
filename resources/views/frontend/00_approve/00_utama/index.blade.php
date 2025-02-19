@@ -385,7 +385,7 @@
 		</div><!-- container -->
 	</section><!-- /.funfact-section -->
 
-    <section class="mayor-section">
+    {{-- <section class="mayor-section">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-6">
@@ -397,7 +397,7 @@
                                 "Membangun masa depan dimulai dari langkah pertama yang bijak. Melalui Mas Jaki, kita hadirkan kemudahan, transparansi, dan keandalan dalam dunia konstruksi. Bersama, kita pastikan setiap proyek berjalan dengan profesional, berkualitas, dan terukur."
                             </p>
 						</div><!--section-title-box-->
-						{{-- <div class="mayor-icon-box">
+						<div class="mayor-icon-box">
 							<div class="mayor-icon">
 								<i class="flaticon-professor"></i>
 							</div><!-- mayor-icon -->
@@ -416,7 +416,7 @@
 								<i class="fa-solid fa-circle-check"></i>
 								<p>If you are going to use a passage</p>
 							</li><!-- li -->
-						</ul><!-- ul --> --}}
+						</ul><!-- ul -->
 					</div><!--mayor-box-->
 				</div><!-- col-lg-6 -->
 				<div class="col-lg-6">
@@ -430,57 +430,7 @@
 				</div><!--col-lg-6"-->
 			</div><!-- row -->
 		</div><!-- container -->
-	</section><!--mayor-section-->
-
-    <section class="mayor-section">
-		<div class="container">
-			<div class="row">
-
-                <div class="col-lg-6">
-					<div class="mayor-img">
-						<img src="/assets/approve/image/shapes/shape-1.png" class="floated-image-one" alt="img-7">
-						<img src="/assets/00_dokmasjaki/01_berita/arifhidayat.jpg" alt="img-8" width="900">
-						<div class="mayor-name">
-							Anex Fachrian, S.T, M.T
-						</div><!-- mayor-name -->
-					</div><!--mayor-img-->
-				</div><!--col-lg-6"-->
-
-				<div class="col-lg-6" style="margin-left: 50px;">
-					<div class="mayor-box">
-						<div class="section-title-box">
-							{{-- <div class="section-tagline">DPUPR Kab Blora</div><!-- section-tagline --> --}}
-							<h2 class="section-title">Sub Koordinator Bina Jasa Konstruksi</h2>
-							{{-- <p>
-                                "Membangun masa depan dimulai dari langkah pertama yang bijak. Melalui Mas Jaki, kita hadirkan kemudahan, transparansi, dan keandalan dalam dunia konstruksi. Bersama, kita pastikan setiap proyek berjalan dengan profesional, berkualitas, dan terukur."
-                            </p> --}}
-						</div><!--section-title-box-->
-						{{-- <div class="mayor-icon-box">
-							<div class="mayor-icon">
-								<i class="flaticon-professor"></i>
-							</div><!-- mayor-icon -->
-							<h4 class="mayor-icon-title">Meet Ideological Leader for Youth Generation</h4>
-						</div><!--mayor-icon-box-->
-						<ul class="list-unstyled list-style-one">
-							<li>
-								<i class="fa-solid fa-circle-check"></i>
-								<p>Making this the first true generator on the Internet</p>
-							</li><!-- li -->
-							<li>
-								<i class="fa-solid fa-circle-check"></i>
-								<p>Lorem Ipsum is not simply random text</p>
-							</li><!-- li -->
-							<li>
-								<i class="fa-solid fa-circle-check"></i>
-								<p>If you are going to use a passage</p>
-							</li><!-- li -->
-						</ul><!-- ul --> --}}
-					</div><!--mayor-box-->
-				</div><!-- col-lg-6 -->
-
-			</div><!-- row -->
-		</div><!-- container -->
-	</section><!--mayor-section-->
+	</section><!--mayor-section--> --}}
 
 	{{-- <section class="client-section">
 		<h5 class="client-text">Our partners & suppoters</h5>
@@ -699,7 +649,7 @@
 		</div><!--container-->
 	</section><!--event-section--> --}}
 
-	<section class="cta-five-section">
+	{{-- <section class="cta-five-section">
 		<div class="container">
 			<div class="cta-five-card">
 				<div class="cta-five-card-icon">
@@ -718,7 +668,7 @@
 				</div><!-- cta-five-img -->
 			</div><!--cta-five-card-->
 		</div><!-- container -->
-	</section><!--cta-five-section-->
+	</section><!--cta-five-section--> --}}
 
     <section class="blog-section">
 		<div class="container">
