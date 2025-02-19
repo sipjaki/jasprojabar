@@ -11,12 +11,12 @@
 		<div class="container">
 			<div class="page-breadcrumbs">
 				<ul class="list-unstyled">
-					<li><a href="index.html">Home</a></li>
-					<li>Document-details</li>
+					{{-- <li><a href="index.html">Home</a></li> --}}
+					{{-- <li>Document-details</li> --}}
 				</ul><!-- list-unstyled -->
 			</div><!-- page-breadcrumbs -->
 			<div class="page-banner-title">
-				<h3>Document-details</h3>
+				<h3>{{ $title }}</h3>
 			</div><!-- page-banner-title -->
 		</div><!-- container -->
 	</section><!--page-banner-->
@@ -27,6 +27,7 @@
 					<div class="sidebar">
 						<div class="sidebar-widget-list-inner">
 							<ul>
+								<li><a href="services.html"><i class="fa-solid fa-arrow-left-long"></i>Kembali</a></li>
 								<li><a href="services.html">All Document<i class="fa-solid fa-arrow-right-long"></i></a></li>
 								<li><a href="services.html">Policing and Crime<i class="fa-solid fa-arrow-right-long"></i></a></li>
 								<li><a href="services.html">Agriculture and Food<i class="fa-solid fa-arrow-right-long"></i></a></li>
