@@ -132,7 +132,7 @@
 								<li><a href="/peraturan/keputusanmenteri">Keputusan Menteri</a></li>
 								<li><a href="/peraturan/suratedaranmenteri">Surat Edaran Menteri</a></li>
 								<li><a href="/peraturan/referensi">Referensi</a></li>
-								<li><a href="/404">Peraturan Daerah</a></li>
+								<li><a href="/peraturan/daerah">Peraturan Daerah</a></li>
 								<li><a href="/404">Peraturan Gubernur</a></li>
 								<li><a href="/404">Peraturan Walikota/Bupati</a></li>
 								<li><a href="/404">Surat Keputusan</a></li>

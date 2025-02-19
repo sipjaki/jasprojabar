@@ -907,7 +907,7 @@ public function fereferensi()
                 $data= perdaerah::paginate(15); // Menggunakan paginate() untuk pagination
                 $user = Auth::user();
 
-                return view('frontend.11_peraturan.08_peraturandaerah', [
+                return view('frontend.09_masjaki_peraturan.08_peraturandaerah.index', [
                     'title' => 'Peraturan Daerah Jasa Konstruksi',
                     'data' => $data, // Mengirimkan data paginasi ke view
                     'user' => $user, // Mengirimkan data paginasi ke view
@@ -921,10 +921,10 @@ public function fereferensi()
                 $data = perdaerah::where('judul', $judul)->firstOrFail();
                 $user = Auth::user();
 
-                return view('frontend.11_peraturan.08_peraturandaerahshow', [
+                return view('frontend.09_masjaki_peraturan.08_peraturandaerah.show', [
                     'data' => $data,
                     'user' => $user,
-                    'title' => 'Details Peraturan Daerah Jasa Konstruksi',
+                    'title' => 'Peraturan Daerah Jasa Konstruksi',
                 ]);
             }
 
