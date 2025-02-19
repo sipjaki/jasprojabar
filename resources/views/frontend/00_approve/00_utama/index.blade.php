@@ -146,42 +146,67 @@
 		</div><!-- section-title-box -->
 		<div class="portfolio-content conatainer-fluid">
 			<div class="portfolio-carousel owl-carousel owl-theme">
-				<div class="item">
+
+                <div class="item">
 					<div class="portfolio-card">
-						<img src="/assets/approve/image/portfolio/portfolio-1.jpg" class="img-fluid" alt="img-9">
+						<img src="/assets/00_dokmasjaki/01_berita/berita1.JPG" class="img-fluid" alt="img-9">
 						<div class="portfolio-card-meta">
-							<div class="portfolio-card-text"><a href="portfolio-details.html">Places</a></div>
-							<div class="portfolio-card-title"><a href="portfolio-details.html">Broadway Road</a></div>
+							<div class="portfolio-card-text"><a href="portfolio-details.html">Jasa Konstruksi</a></div>
+							<div class="portfolio-card-title"><a href="portfolio-details.html">Kabupaten Blora</a></div>
 						</div><!-- portfolio-card-meta -->
 					</div><!--portfolio-card-->
 				</div><!-- item -->
-				<div class="item">
+
+                <div class="item">
 					<div class="portfolio-card">
-						<img src="/assets/approve/image/portfolio/portfolio-2.jpg" class="img-fluid" alt="img-10">
+						<img src="/assets/00_dokmasjaki/01_berita/berita2.JPG" class="img-fluid" alt="img-10">
 						<div class="portfolio-card-meta">
-							<div class="portfolio-card-text"><a href="portfolio-details.html">Intercity</a></div>
-							<div class="portfolio-card-title"><a href="portfolio-details.html"> Grand Central Terminal</a></div>
+							<div class="portfolio-card-text"><a href="portfolio-details.html">Jasa Konstruksi</a></div>
+							<div class="portfolio-card-title"><a href="portfolio-details.html">Kabupaten Blora</a></div>
 						</div><!-- portfolio-card-meta -->
 					</div><!--portfolio-card-->
 				</div><!-- item -->
-				<div class="item">
+
+                <div class="item">
 					<div class="portfolio-card">
-						<img src="/assets/approve/image/portfolio/portfolio-3.jpg" class="img-fluid" alt="img-11">
+						<img src="/assets/00_dokmasjaki/01_berita/berita3.JPG" class="img-fluid" alt="img-10">
 						<div class="portfolio-card-meta">
-							<div class="portfolio-card-text"><a href="portfolio-details.html">Business</a></div>
-							<div class="portfolio-card-title"><a href="portfolio-details.html">Empire State Building</a></div>
+							<div class="portfolio-card-text"><a href="portfolio-details.html">Jasa Konstruksi</a></div>
+							<div class="portfolio-card-title"><a href="portfolio-details.html">Kabupaten Blora</a></div>
 						</div><!-- portfolio-card-meta -->
 					</div><!--portfolio-card-->
 				</div><!-- item -->
-				<div class="item">
+
+                <div class="item">
 					<div class="portfolio-card">
-						<img src="/assets/approve/image/portfolio/portfolio-4.jpg" class="img-fluid" alt="img-12">
+						<img src="/assets/00_dokmasjaki/01_berita/berita4.JPG" class="img-fluid" alt="img-10">
 						<div class="portfolio-card-meta">
-							<div class="portfolio-card-text"><a href="portfolio-details.html">Travel</a></div>
-							<div class="portfolio-card-title"><a href="portfolio-details.html">Fulton Center</a></div>
+							<div class="portfolio-card-text"><a href="portfolio-details.html">Jasa Konstruksi</a></div>
+							<div class="portfolio-card-title"><a href="portfolio-details.html">Kabupaten Blora</a></div>
 						</div><!-- portfolio-card-meta -->
 					</div><!--portfolio-card-->
 				</div><!-- item -->
+
+                <div class="item">
+					<div class="portfolio-card">
+						<img src="/assets/00_dokmasjaki/01_berita/berita5.jpg" class="img-fluid" alt="img-10">
+						<div class="portfolio-card-meta">
+							<div class="portfolio-card-text"><a href="portfolio-details.html">Jasa Konstruksi</a></div>
+							<div class="portfolio-card-title"><a href="portfolio-details.html">Kabupaten Blora</a></div>
+						</div><!-- portfolio-card-meta -->
+					</div><!--portfolio-card-->
+				</div><!-- item -->
+
+                <div class="item">
+					<div class="portfolio-card">
+						<img src="/assets/00_dokmasjaki/01_berita/berita6.jpg" class="img-fluid" alt="img-10">
+						<div class="portfolio-card-meta">
+							<div class="portfolio-card-text"><a href="portfolio-details.html">Jasa Konstruksi</a></div>
+							<div class="portfolio-card-title"><a href="portfolio-details.html">Kabupaten Blora</a></div>
+						</div><!-- portfolio-card-meta -->
+					</div><!--portfolio-card-->
+				</div><!-- item -->
+
 			</div><!--portfolio-carousel-->
 		</div><!--portfolio-content-->
 	</section><!--portfolio-section-->
