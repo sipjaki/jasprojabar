@@ -2944,7 +2944,7 @@ a.search-toggler{
 * Page banner
 ***********************/
 .page-banner{
-	background-image: url("../image/bg/jakon4.jpeg");
+	background-image: url("/assets/approve/image/bg/page-banner.png");
 	background-repeat: no-repeat;
 	background-color: var(--thm-black);
 	background-size: cover;
