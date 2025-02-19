@@ -37,7 +37,7 @@
 			</div><!-- topbar-left -->
 			<div class="topbar-right">
 				<ul>
-					<li><a href="/404"><i class="fas fa-phone mr-2"> 0813 2145 5855</i></a></li>
+					{{-- <li><a href="/404"><i class="fas fa-phone mr-2"> 0813 2145 5855</i></a></li> --}}
 					{{-- <li><a href="department-details.html">Council</a></li>
 					<li><a href="departments.html">Government</a></li>
 					<li><a href="contact.html">Complaints</a></li> --}}

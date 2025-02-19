@@ -66,7 +66,7 @@
 						<div class="footer-widget-contact-list">
 							<i class="fa-solid fa-phone"></i>
 							<div class="footer-widget-contact-item">
-								<a href="tel:+92-003-68-090">0813 2145 5855</a>
+								{{-- <a href="tel:+92-003-68-090">0813 2145 5855</a> --}}
 							</div><!-- footer-widget-contact-item -->
 						</div><!-- footer-widget-contact-list -->
 					</div><!--footer-widget-->
@@ -95,7 +95,7 @@
 		<ul class="mobile-nav-contact list-unstyled">
 			<li>
 				<i class="fa-solid fa-phone"></i>
-				<a href="tel:+8898006802">0813 2145 5855</a>
+				{{-- <a href="tel:+8898006802">0813 2145 5855</a> --}}
 			</li><!-- li -->
 			<li>
 				<i class="fa-solid fa-envelope"></i>
