@@ -817,12 +817,26 @@ public function fereferensi()
                 $data= referensi::all(); // Menggunakan paginate() untuk pagination
                 $user = Auth::user();
 
-                return view('frontend.11_peraturan.07_suratreferensi', [
+                return view('frontend.09_masjaki_peraturan.07_suratreferensi.index', [
                     'title' => 'Surat Referensi Jasa Konstruksi',
                     'data' => $data, // Mengirimkan data paginasi ke view
                     'user' => $user, // Mengirimkan data paginasi ke view
                 ]);
             }
+
+            public function referensishowByJudul($judul)
+            {
+                $data = referensi::where('judul', $judul)->firstOrFail();
+                $user = Auth::user();
+
+                return view('frontend.09_masjaki_peraturan.07_suratreferensi.show', [
+                    'data' => $data,
+                    'user' => $user,
+                    'title' => 'Surat Referensi Jasa Konstruksi',
+                ]);
+            }
+
+
 
 
             // BACKEND SURAT REFERENSI --------------------------------------------------

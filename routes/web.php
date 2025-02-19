@@ -231,6 +231,7 @@ Route::get('/peraturan/suratedaranmenteri/{judul}', [PeraturanController::class,
 
 // -------- BAGIAN 7 ---------------------------------
 Route::get('/peraturan/referensi', [PeraturanController::class, 'fereferensi']);
+Route::get('/peraturan/referensi/{judul}', [PeraturanController::class, 'referensishowByJudul']);
 
 // -------- BAGIAN 8 ---------------------------------
 Route::get('/peraturan/daerah', [PeraturanController::class, 'feperdaerah']);
