@@ -649,7 +649,7 @@ public function suratedaranmenteri()
                 $user = Auth::user();
 
                 return view('frontend.09_masjaki_peraturan.06_suratedaranmenteri.index', [
-                    'title' => 'Surat Edatan Menteri Jasa Konstruksi',
+                    'title' => 'Surat Edaran Menteri',
                     'data' => $data, // Mengirimkan data paginasi ke view
                     'user' => $user, // Mengirimkan data paginasi ke view
                 ]);
@@ -664,7 +664,7 @@ public function suratedaranmenteri()
                 return view('frontend.09_masjaki_peraturan.06_suratedaranmenteri.show', [
                     'data' => $data,
                     'user' => $user,
-                    'title' => 'Details Data Surat Edaran Menteri',
+                    'title' => 'Surat Edaran Menteri',
                 ]);
             }
 
