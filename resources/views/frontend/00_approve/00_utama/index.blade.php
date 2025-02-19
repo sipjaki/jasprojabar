@@ -132,7 +132,7 @@
 	</section><!--department-section-->
 
 
-    <section class="portfolio-section">
+    <section class="portfolio-section" style="margin-top: -100px;">
 		<div class="section-title-box text-center">
 			<div class="section-tagline">Berita Jasa Konstruksi Dinas Pekerjaan Umum dan Penataan Ruang Pemerintah Kabupaten Blora</div>
 			<h2 class="section-title">Sistem Informasi Pembina Jasa Konstruksi</h2>
