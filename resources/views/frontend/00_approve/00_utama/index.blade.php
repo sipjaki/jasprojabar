@@ -802,7 +802,7 @@
 		</div><!-- container -->
 	</section><!-- blog-section -->
 
-    {{-- <section class="cta-two-section">
+    <section class="cta-two-section">
 		<div class="container">
 			<div class="cta-two-section-inner">
 				<div class="row">
@@ -828,7 +828,7 @@
 				</div><!-- row -->
 			</div><!-- cta-two-section-inner -->
 		</div><!-- container -->
-	</section><!--cta-two-section--> --}}
+	</section><!--cta-two-section-->
 </div><!--page-wrapper-->
 
 
