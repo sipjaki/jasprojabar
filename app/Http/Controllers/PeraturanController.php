@@ -1074,7 +1074,7 @@ public function createstoreperdaerah(Request $request)
                             $data= pergubernur::all(); // Menggunakan paginate() untuk pagination
                             $user = Auth::user();
 
-                            return view('frontend.09_masjaki_peraturan.09_peraturangubernur', [
+                            return view('frontend.09_masjaki_peraturan.09_peraturangubernur.index', [
                                 'title' => 'Peraturan Gubernur Jasa Konstruksi',
                                 'data' => $data, // Mengirimkan data paginasi ke view
                                 'user' => $user, // Mengirimkan data paginasi ke view
