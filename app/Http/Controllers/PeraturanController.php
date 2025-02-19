@@ -1243,7 +1243,7 @@ public function createstorepergubernur(Request $request)
                             $data= perbupatiwalikota::paginate(15); // Menggunakan paginate() untuk pagination
                             $user = Auth::user();
 
-                            return view('frontend.11_peraturan.10_peraturanwalikota', [
+                            return view('frontend.09_masjaki_peraturan.10_peraturanwalikota.index', [
                                 'title' => 'Peraturan Bupati/Walikota Jasa Konstruksi',
                                 'data' => $data, // Mengirimkan data paginasi ke view
                                 'user' => $user, // Mengirimkan data paginasi ke view
@@ -1256,10 +1256,10 @@ public function createstorepergubernur(Request $request)
                             $data = perbupatiwalikota::where('judul', $judul)->firstOrFail();
                             $user = Auth::user();
 
-                            return view('frontend.11_peraturan.10_peraturanwalikotashow', [
+                            return view('frontend.09_masjaki_peraturan.10_peraturanwalikota.show', [
                                 'data' => $data,
                                 'user' => $user,
-                                'title' => 'Details Peraturan Bupati/Walikota Jasa Konstruksi',
+                                'title' => 'Peraturan Bupati/Walikota Jasa Konstruksi',
                             ]);
                         }
 

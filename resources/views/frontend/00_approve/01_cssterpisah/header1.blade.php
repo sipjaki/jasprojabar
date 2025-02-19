@@ -134,7 +134,7 @@
 								<li><a href="/peraturan/referensi">Referensi</a></li>
 								<li><a href="/peraturan/daerah">Peraturan Daerah</a></li>
 								<li><a href="/peraturan/peraturangubernur">Peraturan Gubernur</a></li>
-								<li><a href="/404">Peraturan Walikota/Bupati</a></li>
+								<li><a href="/peraturan/walikotadanbupati">Peraturan Walikota/Bupati</a></li>
 								<li><a href="/404">Surat Keputusan</a></li>
 							</ul><!-- list-unstyled -->
 						</li><!--has-dropdown-->
