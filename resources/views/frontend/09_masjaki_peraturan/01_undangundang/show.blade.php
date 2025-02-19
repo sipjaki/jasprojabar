@@ -45,20 +45,17 @@
 					</div><!--sidebar-->
 				</div><!--col-12 col-lg-4 col-xl-4-->
 				<div class="col-lg-8">
-					<div class="department-details-imgbox">
-						<img src="assets/image/gallery/about-7.jpg" alt="img-159">
-						<a href="#"></a>
-					</div><!-- department-details-imgbox -->
-					<div class="department-details-content-box">
-						<h4 class="department-details-title">Birth & Date Registration</h4>
-						<p>There are many variations of passages of lorem ipsum is simply free text available in the market, but the majority time you put aside to be in our office. Lorem ipsum dolor sit amet, consectetLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+                    <div class="department-details-imgbox">
+                        <iframe src="{{ $data->peraturan }}" width="100%" height="100%" style="border: none;"></iframe>
+                        <a href="assets/pdf/sample.pdf" target="_blank"></a>
+                    </div><!-- department-details-imgbox -->
+
+                    <div class="department-details-content-box">
+						<h4 class="department-details-title">{{ $data->judul}}</h4>
 					</div><!-- department-details-content-box -->
-					<div class="department-details-box">
-						<p>Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur iste natus error sit voluptatem accusantium totam rem aperiam, eaque ipsa quae.</p>
-						<p>Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur iste natus error sit voluptatem accusantium totam rem aperiam, eaque ipsa quae.</p>
-						<p>Thomas Edison may have been behind the invention of the electric light bulb, but he did not work alone. Edison worked alongside partners, both financial and commercial, to get his inventions off the ground. It was installed globally, an annual market growth of 22 percent. It is continuing its progress towards becoming a mainstream competitive salary and economy reports by mine.</p>
-					</div><!-- department-details-box -->
-					<div class="document-details-inner">
+
+                    <div class="document-details-inner">
 						<h3>Download Documents</h3>
 						<div class="document-details">
 							<div class="document-details-list">
