@@ -302,6 +302,7 @@
 		</div><!-- container -->
 	</section><!-- /.funfact-section -->
 
+    {{--
     <section class="mayor-section">
 		<div class="container">
 			<div class="row">
@@ -347,7 +348,7 @@
 				</div><!--col-lg-6"-->
 			</div><!-- row -->
 		</div><!-- container -->
-	</section><!--mayor-section-->
+	</section><!--mayor-section--> --}}
 
 	{{-- <section class="client-section">
 		<h5 class="client-text">Our partners & suppoters</h5>
