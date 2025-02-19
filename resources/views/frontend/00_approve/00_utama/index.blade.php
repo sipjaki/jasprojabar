@@ -74,7 +74,7 @@
 								<a href="departments.html"><i class="flaticon-suitcase"></i></a>
 							</div><!-- department-card-icon -->
 							<div class="department-card-content">
-								<h5><a href="/404">Informasi Bangunan Gedung</a></h5>
+								<h5><a href="https://abgdpuprblora.co.id">Abg Blora BG</a></h5>
 							</div><!-- department-card-content -->
 						</div><!--department-card-->
 					</div><!--col-xl-2 col-lg-4 col-md-6-->
