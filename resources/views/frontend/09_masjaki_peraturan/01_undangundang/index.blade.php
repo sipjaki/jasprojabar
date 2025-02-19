@@ -23,9 +23,9 @@
   <section class="document-section">
     <div class="container">
       <ul class="nav nav-pills" id="pills-tab" role="tablist">
-        <li class="nav-item" role="presentation">
+        {{-- <li class="nav-item" role="presentation">
           <button class="nav-link active" id="pills-all-tab" data-bs-toggle="pill" data-bs-target="#pills-all" type="button" role="tab" aria-controls="pills-all" aria-selected="true">All</button>
-        </li>
+        </li> --}}
         <li class="nav-item" role="presentation">
           <button class="nav-link" id="pills-education-tab" data-bs-toggle="pill" data-bs-target="#pills-education" type="button" role="tab" aria-controls="pills-education" aria-selected="false"><i class="flaticon-team"></i>Business & Industry</button>
         </li>
