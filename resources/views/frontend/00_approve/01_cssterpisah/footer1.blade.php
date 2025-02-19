@@ -5,8 +5,8 @@
 			<div class="row">
 				<div class="col-lg-4">
 					<div class="footer-widget-logo">
-						<a href="/"><img src="/assets/icon/logokabupatenblora.png" class="img-fluid" alt="img-25" width="50" style="margin-right: 5px;"></a>
-						<a href="/"><img src="/assets/icon/pupr.png" class="img-fluid" alt="img-25" width="50"></a>
+						<a href="/"><img src="/assets/icon/logokabupatenblora.png" class="img-fluid" alt="img-25" width="50" style="margin-right: 5px;" loading="lazy"></a>
+						<a href="/"><img src="/assets/icon/pupr.png" class="img-fluid" alt="img-25" width="50" loading="lazy"></a>
 					</div><!-- footer-widget-logo -->
 					<div class="footer-widget-text">
 						<p>Dinas Pekerjaan Umum dan Penataan Ruang Pemerintah Kabupaten Blora</p>
@@ -88,8 +88,8 @@
 			<span></span>
 		</a><!-- mobile-nav-close -->
 		<div class="logo-box">
-			<a href="#"><img src="/assets/icon/logokabupatenblora.png" width="50" height="50" alt="26" style="margin-right: 5px;"></a>
-			<a href="#"><img src="/assets/icon/pupr.png" width="50" height="50" alt="26"></a>
+			<a href="#"><img src="/assets/icon/logokabupatenblora.png" width="50" height="50" alt="26" style="margin-right: 5px;" loading="lazy"></a>
+			<a href="#"><img src="/assets/icon/pupr.png" width="50" height="50" alt="26" loading="lazy"></a>
 		</div><!-- logo-box -->
 		<div class="mobile-nav-container"></div><!-- mobile-nav-container -->
 		<ul class="mobile-nav-contact list-unstyled">

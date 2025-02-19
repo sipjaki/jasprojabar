@@ -24,7 +24,7 @@
 				</div><!-- container -->
 			</div><!--item-->
 			<div class="item">
-				<div class="item-slider-bg"  style="background-image: url(assets/00_dokmasjaki/01_beranda/jakon2.jpg)"></div>
+				<div class="item-slider-bg"  style="background-image: url(assets/00_dokmasjaki/01_beranda/jakon3.jpg)"></div>
 				<div class="container">
 					<div class="row">
 						<div class="col-md-12">
@@ -148,7 +148,17 @@
 
                 <div class="item">
 					<div class="portfolio-card">
-						<img src="/assets/00_dokmasjaki/01_berita/berita1.JPG" class="img-fluid" alt="img-9">
+                        <img src="/assets/00_dokmasjaki/01_berita/berita1.JPG" class="img-fluid" alt="img-9" loading="lazy">
+                        <div class="portfolio-card-meta">
+							<div class="portfolio-card-text"><a href="portfolio-details.html">Jasa Konstruksi</a></div>
+							<div class="portfolio-card-title"><a href="portfolio-details.html">Kabupaten Blora</a></div>
+						</div><!-- portfolio-card-meta -->
+					</div><!--portfolio-card-->
+				</div><!-- item -->
+
+                <div class="item">
+					<div class="portfolio-card">
+						<img src="/assets/00_dokmasjaki/01_berita/berita2.JPG" class="img-fluid" alt="img-10" loading="lazy">
 						<div class="portfolio-card-meta">
 							<div class="portfolio-card-text"><a href="portfolio-details.html">Jasa Konstruksi</a></div>
 							<div class="portfolio-card-title"><a href="portfolio-details.html">Kabupaten Blora</a></div>
@@ -158,7 +168,7 @@
 
                 <div class="item">
 					<div class="portfolio-card">
-						<img src="/assets/00_dokmasjaki/01_berita/berita2.JPG" class="img-fluid" alt="img-10">
+						<img src="/assets/00_dokmasjaki/01_berita/berita3.JPG" class="img-fluid" alt="img-10" loading="lazy">
 						<div class="portfolio-card-meta">
 							<div class="portfolio-card-text"><a href="portfolio-details.html">Jasa Konstruksi</a></div>
 							<div class="portfolio-card-title"><a href="portfolio-details.html">Kabupaten Blora</a></div>
@@ -168,7 +178,7 @@
 
                 <div class="item">
 					<div class="portfolio-card">
-						<img src="/assets/00_dokmasjaki/01_berita/berita3.JPG" class="img-fluid" alt="img-10">
+						<img src="/assets/00_dokmasjaki/01_berita/berita4.JPG" class="img-fluid" alt="img-10" loading="lazy">
 						<div class="portfolio-card-meta">
 							<div class="portfolio-card-text"><a href="portfolio-details.html">Jasa Konstruksi</a></div>
 							<div class="portfolio-card-title"><a href="portfolio-details.html">Kabupaten Blora</a></div>
@@ -178,7 +188,7 @@
 
                 <div class="item">
 					<div class="portfolio-card">
-						<img src="/assets/00_dokmasjaki/01_berita/berita4.JPG" class="img-fluid" alt="img-10">
+						<img src="/assets/00_dokmasjaki/01_berita/berita5.jpg" class="img-fluid" alt="img-10" loading="lazy">
 						<div class="portfolio-card-meta">
 							<div class="portfolio-card-text"><a href="portfolio-details.html">Jasa Konstruksi</a></div>
 							<div class="portfolio-card-title"><a href="portfolio-details.html">Kabupaten Blora</a></div>
@@ -188,17 +198,7 @@
 
                 <div class="item">
 					<div class="portfolio-card">
-						<img src="/assets/00_dokmasjaki/01_berita/berita5.jpg" class="img-fluid" alt="img-10">
-						<div class="portfolio-card-meta">
-							<div class="portfolio-card-text"><a href="portfolio-details.html">Jasa Konstruksi</a></div>
-							<div class="portfolio-card-title"><a href="portfolio-details.html">Kabupaten Blora</a></div>
-						</div><!-- portfolio-card-meta -->
-					</div><!--portfolio-card-->
-				</div><!-- item -->
-
-                <div class="item">
-					<div class="portfolio-card">
-						<img src="/assets/00_dokmasjaki/01_berita/berita6.JPG" class="img-fluid" alt="img-10">
+						<img src="/assets/00_dokmasjaki/01_berita/berita6.JPG" class="img-fluid" alt="img-10" loading="lazy">
 						<div class="portfolio-card-meta">
 							<div class="portfolio-card-text"><a href="portfolio-details.html">Jasa Konstruksi</a></div>
 							<div class="portfolio-card-title"><a href="portfolio-details.html">Kabupaten Blora</a></div>
