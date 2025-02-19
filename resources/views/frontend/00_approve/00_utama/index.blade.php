@@ -199,7 +199,7 @@
 
                 <div class="item">
 					<div class="portfolio-card">
-						<img src="/assets/00_dokmasjaki/01_berita/berita6.jpg" class="img-fluid" alt="img-10">
+						<img src="/assets/00_dokmasjaki/01_berita/berita6.JPG" class="img-fluid" alt="img-10">
 						<div class="portfolio-card-meta">
 							<div class="portfolio-card-text"><a href="portfolio-details.html">Jasa Konstruksi</a></div>
 							<div class="portfolio-card-title"><a href="portfolio-details.html">Kabupaten Blora</a></div>
