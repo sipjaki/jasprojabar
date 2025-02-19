@@ -46,8 +46,9 @@
 								<i class="flaticon-question"></i>
 							</div><!-- sidebar-widget-card-icon -->
 							<div class="sidebar-widget-card-content">
-								<h3><a href="contact.html">Get Any Help?</a></h3>
-								<p>There are many variations of passages of lorem ipsum is simply free text available in the marke.</p>
+                                <h3><a href="https://wa.me/6281321455855" target="_blank">Butuh Bantuan?</a></h3>
+								<p>
+                                    Kami siap membantu! Klik tombol di bawah untuk terhubung langsung dengan tim kami.</p>
 							</div><!-- sidebar-widget-card-content -->
 						</div><!-- sidebar-widget sidebar-widget-card -->
 					</div><!--sidebar-->
