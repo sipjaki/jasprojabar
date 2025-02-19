@@ -7,7 +7,7 @@
     @include('frontend.00_approve.01_cssterpisah.header1')
 
 <div class="page-wrapper">
-	<section class="page-banner">
+	<section class="page-banner" style="background-image: url('/assets/approve/image/bg/page-banner.png')">
 		<div class="container">
 			<div class="page-breadcrumbs">
 				<ul class="list-unstyled">
