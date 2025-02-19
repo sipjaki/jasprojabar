@@ -69,22 +69,27 @@
         <div class="tab-pane fade show active" id="pills-all" role="tabpanel" aria-labelledby="pills-all-tab">
           <div class="row row-gutter-30">
 
-            <div class="col-xxl-4 col-xl-6">
-              <div class="service-three-card">
-                <div class="service-three-icon">
-                  <i class="flaticon-pdf"></i>
-                </div><!-- service-three-icon -->
-                <div class="service-three-card-content">
-                  <h3><a href="documentation-details.html">Birth & Death Registration</a></h3>
-                  <p>When nothing prevents our being able to we like best every.</p>
-                  <div class="service-three-detail">
-                    <a href="documentation-details.html"><span>Read More</span><i class="fa-solid fa-arrow-right-long"></i></a>
-                    <i class="flaticon-pdf"></i>
-                  </div><!-- service-three-detail -->
-                </div><!-- service-three-card-content -->
-              </div><!-- service-three-card -->
-            </div><!-- col-xxl-4 col-xl-6 -->
 
+@foreach ($data as $item )
+
+<div class="col-xxl-4 col-xl-6">
+    <div class="service-three-card">
+        <div class="service-three-icon">
+                            <i class="flaticon-pdf"></i>
+                        </div><!-- service-three-icon -->
+                        <div class="service-three-card-content">
+                            <h3><a href="documentation-details.html">{{$item->judul}}</a></h3>
+                            <p>When nothing prevents our being able to we like best every.</p>
+                            <div class="service-three-detail">
+                                <a href="documentation-details.html"><span>Read More</span><i class="fa-solid fa-arrow-right-long"></i></a>
+                                <i class="flaticon-pdf"></i>
+                            </div><!-- service-three-detail -->
+                        </div><!-- service-three-card-content -->
+                    </div><!-- service-three-card -->
+                </div><!-- col-xxl-4 col-xl-6 -->
+
+
+@endforeach
 
           </div><!-- row -->
         </div><!-- tab-pane -->
