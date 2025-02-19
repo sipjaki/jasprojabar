@@ -10,7 +10,7 @@
 
 		<div class="main-slider-swiper owl-carousel owl-theme">
 			<div class="item">
-				<div class="item-slider-bg"  style="background-image: url(assets/00_dokmasjaki/01_beranda/jakon1.jpg)"></div>
+				<div class="item-slider-bg"  style="background-image: url(assets/00_dokmasjaki/01_beranda/jakon4.jpeg)"></div>
 				<div class="container">
 					<div class="row">
 						<div class="col-md-12">
