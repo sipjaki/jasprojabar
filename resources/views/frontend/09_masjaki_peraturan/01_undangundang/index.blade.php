@@ -72,23 +72,23 @@
 
 @foreach ($data as $item )
 
-<a href="/peraturan/undangundang/{{$item->judul}}">
 <div class="col-xxl-4 col-xl-6">
     <div class="service-three-card">
         <div class="service-three-icon">
         <i class="flaticon-pdf"></i>
             </div><!-- service-three-icon -->
                 <div class="service-three-card-content">
-                            <h3><a href="documentation-details.html">{{$item->judul}}</a></h3>
+                            <h3><a href="/peraturan/undangundang/{{$item->judul}}">{{$item->judul}}</a></h3>
+                            <a href="/peraturan/undangundang/{{$item->judul}}">
                             <p>Undang - Undang Jasa Konstruksi</p>
                             <div class="service-three-detail">
                                     <span>Show Here</span><i class="fa-solid fa-arrow-right-long"></i>
-                                    <i class="flaticon-pdf"></i>
-                                </div><!-- service-three-detail -->
-                            </div><!-- service-three-card-content -->
+                                </a>
+                                <i class="flaticon-pdf"></i>
+                            </div><!-- service-three-detail -->
+                        </div><!-- service-three-card-content -->
                     </div><!-- service-three-card -->
                 </div><!-- col-xxl-4 col-xl-6 -->
-            </a>
 
 
 @endforeach
