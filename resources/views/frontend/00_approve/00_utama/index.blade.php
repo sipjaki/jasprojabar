@@ -409,7 +409,9 @@
 			</div><!--client-carousel owl-carousel owl-theme-->
 		</div><!--container-->
 	</section><!--client-section-->
-	<section class="testimonial-section">
+
+
+	{{-- <section class="testimonial-section">
 		<div class="container">
 			<div class="testimonial-name">TESTIMONIALS</div>
 			<div class="testimonial-slider">
@@ -490,7 +492,7 @@
 				</div><!--testimonial-thumb-->
 			</div><!--testimonial-slider-->
 		</div><!-- container -->
-	</section><!--testimonial-section-->
+	</section><!--testimonial-section--> --}}
 
     {{-- <section class="event-section">
 		<div class="container">
