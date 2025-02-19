@@ -519,7 +519,7 @@ public function feskmenteri()
                 $data = keputusanmenteri::where('judul', $judul)->firstOrFail();
                 $user = Auth::user();
 
-                return view('frontend.09_masjaki_peraturan.05_keputusanmenteri.index', [
+                return view('frontend.09_masjaki_peraturan.05_keputusanmenteri.show', [
                     'data' => $data,
                     'user' => $user,
                     'title' => 'Surat Keputusan Menteri',
