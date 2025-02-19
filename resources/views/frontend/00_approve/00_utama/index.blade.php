@@ -762,8 +762,8 @@
 								<i class="flaticon-envelope-2"></i>
 							</div><!-- cta-two-card-icon -->
 							<div class="cta-two-card-content">
-								<p>Stay Connected</p>
-								<h3>Join Our Newsletter</h3>
+								{{-- <p>Stay Connected</p> --}}
+								<h3>Kritik dan Saran </h3>
 							</div><!-- cta-two-card-content -->
 						</div><!--cta-two-title-->
 					</div><!--col-xl-5-->
@@ -772,7 +772,7 @@
 							<div class="cta-two-form-group">
 								<input type="email" id="email" class="input-text" placeholder="Email address" name="email" required>
 							</div><!-- cta-two-card-form -->
-							<button class="btn btn-primary">Subscribe</button>
+							<button class="btn btn-primary">Form Saran</button>
 						</form><!-- cta-two-form -->
 					</div><!-- col-xl-7-->
 				</div><!-- row -->
