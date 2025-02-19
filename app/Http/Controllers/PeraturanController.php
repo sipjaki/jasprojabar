@@ -1412,7 +1412,7 @@ public function createstoreperwalikotabupati(Request $request)
                             $data= suratkeputusan::paginate(15); // Menggunakan paginate() untuk pagination
                             $user = Auth::user();
 
-                            return view('frontend.11_peraturan.11_suratkeputusan', [
+                            return view('frontend.09_masjaki_peraturan.11_suratkeputusan.index', [
                                 'title' => 'Surat Keputusan Jasa Konstruksi',
                                 'data' => $data, // Mengirimkan data paginasi ke view
                                 'user' => $user, // Mengirimkan data paginasi ke view
