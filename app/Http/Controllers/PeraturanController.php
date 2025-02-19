@@ -43,7 +43,7 @@ class PeraturanController extends Controller
 
     public function feundangundang()
     {
-        $data= peraturan::all(); // Menggunakan paginate() untuk pagination
+        $data= peraturan::paginate(15); // Menggunakan paginate() untuk pagination
         $user = Auth::user();
 
         return view('frontend.09_masjaki_peraturan.01_undangundang.index', [
