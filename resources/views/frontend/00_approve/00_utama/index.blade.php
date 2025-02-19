@@ -286,20 +286,7 @@
 	<section class="funfact-section">
 		<div class="container">
 			<div class="row">
-				<div class="col-xl-3 col-md-6">
-					<div class="funfact-counter-item">
-						<div class="funfact-counter-box">
-							<div class="funfact-counter-icon">
-								<i class="flaticon-running-man"></i>
-							</div><!-- funfact-counter-icon -->
-							<div class="funfact-counter-number">
-								<h3 class="counter-number">231</h3>
-								<span class="funfact-counter-number-postfix"></span>
-							</div><!-- funfact-counter-number -->
-						</div><!-- funfact-counter-box -->
-						<p class="funfact-text">Pelatihan<br></p>
-					</div><!--funfact-counter-item-->
-				</div><!--col-xl-3 col-md-6-->
+
 				<div class="col-xl-3 col-md-6">
 					<div class="funfact-counter-item">
 						<div class="funfact-counter-box">
@@ -311,37 +298,57 @@
 								<span class="funfact-counter-number-postfix"></span>
 							</div><!-- funfact-counter-number -->
 						</div><!-- funfact-counter-box -->
-						<p class="funfact-text">Bimbinan Teknis<br></p>
+						<p class="funfact-text">Pelatihan<br></p>
 					</div><!--funfact-counter-item-->
 				</div><!--col-xl-3 col-md-6-->
+
+
 				<div class="col-xl-3 col-md-6">
 					<div class="funfact-counter-item">
 						<div class="funfact-counter-box">
 							<div class="funfact-counter-icon">
-								<i class="flaticon-landscape"></i>
+								<i class="flaticon-coverage"></i>
 							</div><!-- funfact-counter-icon -->
 							<div class="funfact-counter-number">
-								<h3 class="counter-number">213</h3>
-								<span class="funfact-counter-number-postfix"></span>
-							</div><!-- funfact-counter-number -->
-						</div><!-- funfact-counter-box -->
-						<p class="funfact-text">Workshop<br></p>
-					</div><!--funfact-counter-item-->
-				</div><!--col-xl-3 col-md-6-->
-				<div class="col-xl-3 col-md-6">
-					<div class="funfact-counter-item">
-						<div class="funfact-counter-box">
-							<div class="funfact-counter-icon">
-								<i class="flaticon-barn-3"></i>
-							</div><!-- funfact-counter-icon -->
-							<div class="funfact-counter-number">
-								<h3 class="counter-number">32</h3>
+								<h3 class="counter-number">878</h3>
 								<span class="funfact-counter-number-postfix"></span>
 							</div><!-- funfact-counter-number -->
 						</div><!-- funfact-counter-box -->
 						<p class="funfact-text">Sertifikasi<br></p>
 					</div><!--funfact-counter-item-->
 				</div><!--col-xl-3 col-md-6-->
+
+				<div class="col-xl-3 col-md-6">
+					<div class="funfact-counter-item">
+						<div class="funfact-counter-box">
+							<div class="funfact-counter-icon">
+								<i class="flaticon-coverage"></i>
+							</div><!-- funfact-counter-icon -->
+							<div class="funfact-counter-number">
+								<h3 class="counter-number">324</h3>
+								<span class="funfact-counter-number-postfix"></span>
+							</div><!-- funfact-counter-number -->
+						</div><!-- funfact-counter-box -->
+						<p class="funfact-text">Pelatihan<br></p>
+					</div><!--funfact-counter-item-->
+				</div><!--col-xl-3 col-md-6-->
+
+				<div class="col-xl-3 col-md-6">
+					<div class="funfact-counter-item">
+						<div class="funfact-counter-box">
+							<div class="funfact-counter-icon">
+								<i class="flaticon-coverage"></i>
+							</div><!-- funfact-counter-icon -->
+							<div class="funfact-counter-number">
+								<h3 class="counter-number">12</h3>
+								<span class="funfact-counter-number-postfix"></span>
+							</div><!-- funfact-counter-number -->
+						</div><!-- funfact-counter-box -->
+						<p class="funfact-text">Workshop<br></p>
+					</div><!--funfact-counter-item-->
+				</div><!--col-xl-3 col-md-6-->
+
+
 			</div><!-- row -->
 		</div><!-- container -->
 	</section><!-- /.funfact-section -->
