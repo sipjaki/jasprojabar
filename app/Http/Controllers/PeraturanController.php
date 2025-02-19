@@ -121,7 +121,7 @@ class PeraturanController extends Controller
 
     public function pemerintah()
     {
-        $data= perpemerintah::all(); // Menggunakan paginate() untuk pagination
+        $data= perpemerintah::paginate(15); // Menggunakan paginate() untuk pagination
         $user = Auth::user();
 
         return view('backend.14_peraturan.02_pemerintah.index', [
@@ -213,7 +213,7 @@ class PeraturanController extends Controller
 
     public function presiden()
     {
-        $data= perpresiden::all(); // Menggunakan paginate() untuk pagination
+        $data= perpresiden::paginate(15); // Menggunakan paginate() untuk pagination
         $user = Auth::user();
 
         return view('backend.14_peraturan.03_presiden.index', [
@@ -228,7 +228,7 @@ class PeraturanController extends Controller
 
     public function fepresiden()
     {
-        $data= perpresiden::all(); // Menggunakan paginate() untuk pagination
+        $data= perpresiden::paginate(15); // Menggunakan paginate() untuk pagination
         $user = Auth::user();
 
         return view('frontend.09_masjaki_peraturan.03_peraturanpresiden.index', [
