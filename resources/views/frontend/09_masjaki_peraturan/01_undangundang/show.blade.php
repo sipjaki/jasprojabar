@@ -46,9 +46,9 @@
 								<i class="flaticon-question"></i>
 							</div><!-- sidebar-widget-card-icon -->
 							<div class="sidebar-widget-card-content">
-                                <h3><a href="https://wa.me/6281321455855" target="_blank">Butuh Bantuan?</a></h3>
+                                <h3><a href="https://wa.me/6281321455855" target="_blank">Butuh Bantuan? Klik </a></h3>
 								<p>
-                                    Kami siap membantu! Klik tombol di bawah untuk terhubung langsung dengan tim kami.</p>
+                                    Kami siap membantu! Klik di atas  untuk terhubung langsung dengan tim kami.</p>
 							</div><!-- sidebar-widget-card-content -->
 						</div><!-- sidebar-widget sidebar-widget-card -->
 					</div><!--sidebar-->
