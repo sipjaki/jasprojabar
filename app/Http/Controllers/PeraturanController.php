@@ -648,7 +648,7 @@ public function suratedaranmenteri()
                 $data= suratedaran::paginate(15); // Menggunakan paginate() untuk pagination
                 $user = Auth::user();
 
-                return view('frontend.11_peraturan.06_suratedaranmenteri', [
+                return view('frontend.09_masjaki_peraturan.06_suratedaranmenteri.index', [
                     'title' => 'Surat Edatan Menteri Jasa Konstruksi',
                     'data' => $data, // Mengirimkan data paginasi ke view
                     'user' => $user, // Mengirimkan data paginasi ke view
@@ -661,7 +661,7 @@ public function suratedaranmenteri()
                 $data = suratedaran::where('judul', $judul)->firstOrFail();
                 $user = Auth::user();
 
-                return view('frontend.11_peraturan.06_suratedaranmenterishow', [
+                return view('frontend.09_masjaki_peraturan.06_suratedaranmenteri.show', [
                     'data' => $data,
                     'user' => $user,
                     'title' => 'Details Data Surat Edaran Menteri',
