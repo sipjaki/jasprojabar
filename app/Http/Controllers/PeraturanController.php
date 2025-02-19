@@ -814,7 +814,7 @@ public function suratedaranmenteri()
 
 public function fereferensi()
             {
-                $data= referensi::all(); // Menggunakan paginate() untuk pagination
+                $data= referensi::paginate(); // Menggunakan paginate() untuk pagination
                 $user = Auth::user();
 
                 return view('frontend.09_masjaki_peraturan.07_suratreferensi.index', [
