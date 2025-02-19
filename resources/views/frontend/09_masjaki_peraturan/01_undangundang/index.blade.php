@@ -44,23 +44,23 @@
           <button class="nav-link" id="pills-health-tab" data-bs-toggle="pill" data-bs-target="#pills-health" type="button" role="tab" aria-controls="pills-health" aria-selected="false"><i class="flaticon-police-badge-1"></i>Surat Edaran Menteri</button>
         </li>
 
-        <li class="nav-item" role="presentation" style="margin-top: 100px;">
+        <li class="nav-item" role="presentation" style="margin-top: 5px;">
           <button class="nav-link" id="pills-health-tab" data-bs-toggle="pill" data-bs-target="#pills-health" type="button" role="tab" aria-controls="pills-health" aria-selected="false"><i class="flaticon-police-badge-1"></i>Referensi</button>
         </li>
 
-        <li class="nav-item" role="presentation">
+        <li class="nav-item" role="presentation" style="margin-top: 5px;">
           <button class="nav-link" id="pills-health-tab" data-bs-toggle="pill" data-bs-target="#pills-health" type="button" role="tab" aria-controls="pills-health" aria-selected="false"><i class="flaticon-police-badge-1"></i>Peraturan Daerah</button>
         </li>
 
-        <li class="nav-item" role="presentation">
+        <li class="nav-item" role="presentation" style="margin-top: 5px;">
           <button class="nav-link" id="pills-health-tab" data-bs-toggle="pill" data-bs-target="#pills-health" type="button" role="tab" aria-controls="pills-health" aria-selected="false"><i class="flaticon-police-badge-1"></i>Peraturan Gubernur</button>
         </li>
 
-        <li class="nav-item" role="presentation">
+        <li class="nav-item" role="presentation" style="margin-top: 5px;">
           <button class="nav-link" id="pills-health-tab" data-bs-toggle="pill" data-bs-target="#pills-health" type="button" role="tab" aria-controls="pills-health" aria-selected="false"><i class="flaticon-police-badge-1"></i>Peraturan Walikota/Bupati</button>
         </li>
 
-        <li class="nav-item" role="presentation">
+        <li class="nav-item" role="presentation" style="margin-top: 5px;">
           <button class="nav-link" id="pills-health-tab" data-bs-toggle="pill" data-bs-target="#pills-health" type="button" role="tab" aria-controls="pills-health" aria-selected="false"><i class="flaticon-police-badge-1"></i>Surat Keputusan</button>
         </li>
 
