@@ -446,7 +446,7 @@
 					</div><!--mayor-img-->
 				</div><!--col-lg-6"-->
 
-				<div class="col-lg-6">
+				<div class="col-lg-6" style="margin-left: 100px;">
 					<div class="mayor-box">
 						<div class="section-title-box">
 							<div class="section-tagline">DPUPR Kab Blora</div><!-- section-tagline -->
