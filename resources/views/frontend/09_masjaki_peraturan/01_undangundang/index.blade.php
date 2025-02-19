@@ -79,7 +79,7 @@
                         </div><!-- service-three-icon -->
                         <div class="service-three-card-content">
                             <h3><a href="documentation-details.html">{{$item->judul}}</a></h3>
-                            <p>When nothing prevents our being able to we like best every.</p>
+                            <p>Undang - Undang Jasa Konstruksi</p>
                             <div class="service-three-detail">
                                 <a href="documentation-details.html"><span>Read More</span><i class="fa-solid fa-arrow-right-long"></i></a>
                                 <i class="flaticon-pdf"></i>
