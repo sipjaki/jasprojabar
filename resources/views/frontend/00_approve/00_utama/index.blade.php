@@ -422,7 +422,7 @@
 				<div class="col-lg-6">
 					<div class="mayor-img">
 						<img src="/assets/approve/image/shapes/shape-1.png" class="floated-image-one" alt="img-7">
-						<img src="/assets/00_dokmasjaki/01_berita/arifhidayat.jpg" alt="img-8" width="1000">
+						<img src="/assets/00_dokmasjaki/01_berita/arifhidayat.jpg" alt="img-8" width="850">
 						<div class="mayor-name">
 							Mohamad Arif Hidayat, ST
 						</div><!-- mayor-name -->
@@ -439,7 +439,7 @@
                 <div class="col-lg-6">
 					<div class="mayor-img">
 						<img src="/assets/approve/image/shapes/shape-1.png" class="floated-image-one" alt="img-7">
-						<img src="/assets/00_dokmasjaki/01_berita/arifhidayat.jpg" alt="img-8" width="1000">
+						<img src="/assets/00_dokmasjaki/01_berita/arifhidayat.jpg" alt="img-8" width="850">
 						<div class="mayor-name">
 							Anex Fachrian, S.T., M.T
 						</div><!-- mayor-name -->
