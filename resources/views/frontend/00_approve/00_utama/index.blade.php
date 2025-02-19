@@ -449,8 +449,8 @@
 				<div class="col-lg-6" style="margin-left: 50px;">
 					<div class="mayor-box">
 						<div class="section-title-box">
-							<div class="section-tagline">DPUPR Kab Blora</div><!-- section-tagline -->
-							<h2 class="section-title">Kepala Bidang Bangunan Gedung</h2>
+							{{-- <div class="section-tagline">DPUPR Kab Blora</div><!-- section-tagline --> --}}
+							<h2 class="section-title">Sub Koordinator Bina Jasa Konstruksi</h2>
 							<p>
                                 "Membangun masa depan dimulai dari langkah pertama yang bijak. Melalui Mas Jaki, kita hadirkan kemudahan, transparansi, dan keandalan dalam dunia konstruksi. Bersama, kita pastikan setiap proyek berjalan dengan profesional, berkualitas, dan terukur."
                             </p>
