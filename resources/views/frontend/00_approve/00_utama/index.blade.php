@@ -612,8 +612,9 @@
 					<i class="flaticon-file"></i>
 				</div><!-- cta-five-card-icon -->
 				<div class="cta-five-content">
-					<h4>Download Recent Documents</h4>
-					<p>There are many variations of passages of Lorem Ipsum available, but the majority<br> have suffered in some form, by injected humour words.</p>
+					<h4>Download Persyaratan Pelatihan, Bimbingan Teknin, dan Workshop</h4>
+					<p>
+                        Brosur ini berisi persyaratan untuk pelatihan, bimbingan teknis, dan workshop yang ditujukan untuk meningkatkan kompetensi tenaga ahli dalam bidang konstruksi, sebagai bagian dari upaya pengembangan sistem informasi pembina jasa konstruksi. </p>
 				</div><!-- cta-five-content -->
 				<div class="cta-five-button">
 					<a href="#" class="btn btn-primary">Download Files</a>
