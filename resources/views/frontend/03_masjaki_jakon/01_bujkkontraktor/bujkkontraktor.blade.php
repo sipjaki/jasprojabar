@@ -133,10 +133,10 @@
         @foreach ($data as $item )
         <tr>
             <td>{{ $loop->iteration + $start - 1 }}</td>
-            <td>Content</td>
-            <td>Content</td>
-            <td>Content</td>
-            <td>
+            <td>{{$item->namalengkap}}</td>
+            <td>{{$item->no_telepon}}</td>
+            <td>{{$item->email}}</td>
+            <td style="text-align: center">
                 <a href="/">
                 <i class="fas fa-eye view-icon" onclick="alert('View clicked!')"></i></td>
                 </a>
