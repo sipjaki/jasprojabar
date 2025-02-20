@@ -208,16 +208,16 @@
         @foreach ($data as $item )
         <tr>
             {{-- <td>{{ $loop->iteration + $start - 1 }}</td> --}}
-            <td>{{$item->nama_pengurus}}</td>
-            <td>{{$item->sub_klasifikasi_layanan}}</td>
-            <td>{{$item->sub_klasifikasi_layanan}}</td>
-            <td>{{$item->kode}}</td>
-            <td>{{$item->kualifikasi}}</td>
-            <td>{{$item->penerbit}}</td>
-            <td>{{$item->tanggal_terbit}}</td>
-            <td>{{$item->masa_berlaku}}</td>
-            <td>{{$item->nama_psjk}}</td>
-            <td>{{$item->sub_kualifikasi_bu}}</td>
+            <td>{{$item->bujkkontraktorsub->nama_pengurus}}</td>
+            <td>{{$item->bujkkontraktorsub->sub_klasifikasi_layanan}}</td>
+            <td>{{$item->bujkkontraktorsub->sub_klasifikasi_layanan}}</td>
+            <td>{{$item->bujkkontraktorsub->kode}}</td>
+            <td>{{$item->bujkkontraktorsub->kualifikasi}}</td>
+            <td>{{$item->bujkkontraktorsub->penerbit}}</td>
+            <td>{{$item->bujkkontraktorsub->tanggal_terbit}}</td>
+            <td>{{$item->bujkkontraktorsub->masa_berlaku}}</td>
+            <td>{{$item->bujkkontraktorsub->nama_psjk}}</td>
+            <td>{{$item->bujkkontraktorsub->sub_kualifikasi_bu}}</td>
         </tr>
 
         @endforeach
