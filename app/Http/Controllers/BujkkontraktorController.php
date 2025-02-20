@@ -40,15 +40,15 @@ class BujkkontraktorController extends Controller
 
     public function bujkkontraktorshow($namalengkap)
     {
-        $data = bujkkontraktor::where('namalengkap', $namalengkap)->first();
+        $databujkkontraktor = bujkkontraktor::where('namalengkap', $namalengkap)->first();
 
-        // if (!$bujkkontraktor) {
-        //     // Tangani jika kegiatan tidak ditemukan
-        //     return redirect()->back()->with('error', 'Kegiatan tidak ditemukan.');
-        // }
+        if (!$databujkkontraktor) {
+            // Tangani jika kegiatan tidak ditemukan
+            return redirect()->back()->with('error', 'Kegiatan tidak ditemukan.');
+        }
 
         // Menggunakan paginate() untuk pagination
-        $subdata = bujkkontraktorsub::where('bujkkontraktor_id', $namalengkap->id)->paginate(10);
+        $subdata = bujkkontraktorsub::where('bujkkontraktor_id', $databujkkontraktor->id)->paginate(10);
 
     // Ambil data user saat ini
     $user = Auth::user();
