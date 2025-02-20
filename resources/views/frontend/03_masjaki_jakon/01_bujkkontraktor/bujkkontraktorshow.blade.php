@@ -40,8 +40,8 @@
 						<div class="document-details">
 							<div class="document-details-list">
 								<div class="document-details-icon">
-									<i class="flaticon-pdf"></i>
-								</div><!-- document-details-icon -->
+                                    <i class="flaticon-construction"></i> <!-- Ganti dengan ikon konstruksi -->
+                                </div><!-- document-details-icon -->
                                 <div class="document-details-content">
                                     <h5><i class="fa fa-phone"></i> Telepon</h5>
                                     <p>{{$data->no_telepon}}</p>
