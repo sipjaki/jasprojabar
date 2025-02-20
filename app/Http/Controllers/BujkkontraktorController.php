@@ -49,7 +49,7 @@ class BujkkontraktorController extends Controller
     // Ambil data user saat ini
     $user = Auth::user();
 
-    return view('frontend.03_masjaki_jakon.01_bujkkontraktor.bujkkontraktor', [
+    return view('frontend.03_masjaki_jakon.01_bujkkontraktor.bujkkontraktorshow', [
         'title' => 'Data Bujk Kontraktor',
         'data' => $data,
         'subData' => $subData,  // Jika Anda ingin mengirimkan data sub kontraktor juga
