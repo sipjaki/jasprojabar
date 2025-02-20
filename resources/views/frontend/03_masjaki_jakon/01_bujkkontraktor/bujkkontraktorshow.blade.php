@@ -23,28 +23,8 @@
 	<section class="department-details-section">
 		<div class="container">
 			<div class="row">
-				<div class="col-12 col-lg-4 col-xl-4">
-					<div class="sidebar">
-						<div class="sidebar-widget-list-inner">
-							<ul>
 
-                                @include('frontend.00_approve.01_cssterpisah.peraturanjasakonstruksi')
-
-							</ul><!-- ul -->
-						</div><!-- sidebar-widget-list-inner -->
-						<div class="sidebar-widget sidebar-widget-card">
-							<div class="sidebar-widget-card-icon">
-								<i class="flaticon-question"></i>
-							</div><!-- sidebar-widget-card-icon -->
-							<div class="sidebar-widget-card-content">
-                                <h3><a href="https://wa.me/6281321455855" target="_blank">Butuh Bantuan? Klik </a></h3>
-								<p>
-                                    Kami siap membantu! Klik di atas  untuk terhubung langsung dengan tim kami.</p>
-							</div><!-- sidebar-widget-card-content -->
-						</div><!-- sidebar-widget sidebar-widget-card -->
-					</div><!--sidebar-->
-				</div><!--col-12 col-lg-4 col-xl-4-->
-				<div class="col-lg-8">
+                <div class="col-lg-8">
 
                     <div class="department-details-imgbox">
                         {{-- <iframe src="{{ asset('storage/' . $data->peraturan) }}" width="100%" height="750" style="border: none;"></iframe> --}}
