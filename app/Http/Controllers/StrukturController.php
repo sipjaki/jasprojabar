@@ -434,7 +434,7 @@ public function strukturdpuprkabblora()
     $user = Auth::user();
 
     return view('frontend.01_masjaki_kelembagaan.01_strukturdpuprblora.index', [
-        'title' => 'Struktur Organisai DPUPR Kabupaten Blora',
+        'title' => 'Struktur Organisasi DPUPR Kabupaten Blora',
         'data' => $data, // Mengirimkan data paginasi ke view
         'user' => $user, // Mengirimkan data paginasi ke view
     ]);
