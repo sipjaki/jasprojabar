@@ -117,17 +117,17 @@
 <table class="fl-table">
     <thead>
         <tr>
-            <th style="width: 50px; text-align:center" >No</th>
-            <th style="width: 200px text-align:center">Nama Lengkap</th>
-            <th style="width: 100px text-align:center" >Telepon</th>
-            <th style="width: 100px text-align:center" >Email</th>
-            <th style="width: 100px text-align:center" >NIB</th>
-            <th style="width: 100px text-align:center" >PJU</th>
-            <th style="width: 100px text-align:center" >No Akte</th>
-            <th style="width: 100px text-align:center" >Tanggal</th>
-            <th style="width: 100px text-align:center" >Notaris</th>
-            <th style="width: 100px text-align:center" >No Pengesahan</th>
-            <th style="width: 75px text-align:center" >View Data</th>
+            <th style="text-align:center" >No</th>
+            <th style="text-align:center">Nama Lengkap</th>
+            <th style="text-align:center" >Telepon</th>
+            <th style="text-align:center" >Email</th>
+            <th style="text-align:center" >NIB</th>
+            <th style="text-align:center" >PJU</th>
+            <th style="text-align:center" >No Akte</th>
+            <th style="text-align:center" >Tanggal</th>
+            <th style="text-align:center" >Notaris</th>
+            <th style="text-align:center" >No Pengesahan</th>
+            <th style="text-align:center" >View Data</th>
         </tr>
     </thead>
     <tbody>
