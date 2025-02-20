@@ -35,7 +35,7 @@
 						{{-- <h4 class="department-details-title" style="font-size: 20px;">{{ $data->judul}}</h4> --}}
 					</div><!-- department-details-content-box -->
                     <div class="document-details-inner">
-						<h3><i class="fas fa-building mr-2" style="margin-right: 10px;"></i>{{$data->namalengkap}}</h3>
+						<h3><i class="fas fa-building mr-2" style="margin-right: 10px;"></i>Informasi : {{$data->namalengkap}}</h3>
 
 						<div class="document-details">
 							<div class="document-details-list">
@@ -44,42 +44,42 @@
                                 </div><!-- document-details-icon -->
 
                                 <div class="document-details-content">
-                                    <h5><i class="fa fa-phone">:</i> Telepon</h5>
+                                    <h5><i class="fa fa-phone"> :</i> Telepon</h5>
                                     <p>{{$data->no_telepon}}</p>
                                 </div><!-- document-box-content -->
 
                                 <div class="document-details-content">
-                                    <h5><i class="fa fa-envelope">:</i> Email</h5>
+                                    <h5><i class="fa fa-envelope"> :</i> Email</h5>
                                     <p>{{$data->email}}</p>
                                 </div><!-- document-box-content -->
 
                                 <div class="document-details-content">
-                                    <h5><i class="fa fa-id-card">:</i> Nomor Induk Berusaha</h5>
+                                    <h5><i class="fa fa-id-card"> :</i> Nomor Induk Berusaha</h5>
                                     <p>{{$data->nib}}</p>
                                 </div><!-- document-box-content -->
 
                                 <div class="document-details-content">
-                                    <h5><i class="fa fa-user-tie">:</i> Penanggung Jawab Umum</h5>
+                                    <h5><i class="fa fa-user-tie"> :</i> Penanggung Jawab Umum</h5>
                                     <p>{{$data->pju}}</p>
                                 </div><!-- document-box-content -->
 
                                 <div class="document-details-content">
-                                    <h5><i class="fa fa-certificate">:</i> No Akte</h5>
+                                    <h5><i class="fa fa-certificate"> :</i> No Akte</h5>
                                     <p>{{$data->no_akte}}</p>
                                 </div><!-- document-box-content -->
 
                                 <div class="document-details-content">
-                                    <h5><i class="fa fa-calendar">:</i> Tanggal</h5>
+                                    <h5><i class="fa fa-calendar"> :</i> Tanggal</h5>
                                     <p>{{$data->tanggal}}</p>
                                 </div><!-- document-box-content -->
 
                                 <div class="document-details-content">
-                                    <h5><i class="fa fa-user-secret">:</i> Notaris</h5>
+                                    <h5><i class="fa fa-user-secret"> :</i> Notaris</h5>
                                     <p>{{$data->nama_notaris}}</p>
                                 </div><!-- document-box-content -->
 
                                 <div class="document-details-content">
-                                    <h5><i class="fa fa-pencil-alt">:</i> No Pengesahan</h5>
+                                    <h5><i class="fa fa-pencil-alt"> :</i> No Pengesahan</h5>
                                     <p>{{$data->nama_notaris}}</p>
                                 </div><!-- document-box-content -->
 
