@@ -24,6 +24,8 @@
 		<div class="container">
 			<div class="row">
 
+                <h3><i class="fas fa-building mr-2" style="margin-right: 10px;"></i>Informasi : {{$data->namalengkap}}</h3>
+
                 <div class="col-lg-12">
 
                     <div class="department-details-imgbox">
@@ -35,7 +37,6 @@
 						{{-- <h4 class="department-details-title" style="font-size: 20px;">{{ $data->judul}}</h4> --}}
 					</div><!-- department-details-content-box -->
                     <div class="document-details-inner">
-						<h3><i class="fas fa-building mr-2" style="margin-right: 10px;"></i>Informasi : {{$data->namalengkap}}</h3>
 
 						<div class="document-details">
 							<div class="document-details-list">
