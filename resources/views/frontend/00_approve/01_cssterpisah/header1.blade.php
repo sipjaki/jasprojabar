@@ -78,8 +78,9 @@
 							<a href="#">Data Jakon</a>
 							<ul class="list-unstyled">
 								<li><a href="/404">BUJK Kontraktor</a></li>
-								<li><a href="/404">BUJK Konsultan</a></li>
-								<li><a href="/404">Tenaga Kerja</a></li>
+								{{-- <li><a href="/404">BUJK Konsultan</a></li> --}}
+								<li><a href="/404">Tenaga Kerja Konstruksi</a></li>
+								<li><a href="/404">Profil Paket Pekerjaan</a></li>
 							</ul><!-- list-unstyled -->
 						</li><!--has-dropdown-->
 
@@ -88,9 +89,9 @@
 							<ul class="list-unstyled">
 								<li><a href="/404">Pelatihan</a></li>
 								<li><a href="/404">Bimbingan Teknis</a></li>
-								<li><a href="/404">SKK Tenaga Ahli</a></li>
 								<li><a href="/404">Workshop</a></li>
-								<li><a href="/404">Daftar Tenaga Ahli</a></li>
+								<li><a href="/404">SKK Tenaga Ahli</a></li>
+								{{-- <li><a href="/404">Daftar Tenaga Ahli</a></li> --}}
 							</ul><!-- list-unstyled -->
 						</li><!--has-dropdown-->
 
