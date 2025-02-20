@@ -9,14 +9,8 @@
     <div class="page-wrapper">
 	<section class="page-banner">
 		<div class="container">
-			<div class="page-breadcrumbs">
-				<ul class="list-unstyled">
-					<li><a href="index.html">Home</a></li>
-					<li>Donate</li>
-				</ul><!-- list-unstyled -->
-			</div><!-- page-breadcrumbs -->
 			<div class="page-banner-title">
-				<h3>Donate</h3>
+				<h3>{{$title}}</h3>
 			</div><!-- page-banner-title -->
 		</div><!-- container -->
 	</section><!--page-banner-->
@@ -106,113 +100,9 @@
 				</div><!-- col-lg-4 -->
 			</div><!-- row -->
 		</div><!-- container -->
-	</section><!-- donate-section -->
-	<section class="causes-section causes-section-two">
-		<div class="container">
-			<div class="row row-gutter-30">
-				<div class="col-xxl-12 col-lg-12">
-					<div class="causes-two-box text-center">
-						<h3>Raise your funds for a cause <br>that you care</h3>
-					</div><!-- causes-two-box -->
-				</div><!-- col-xxl-6 col-lg-12 -->
-				<div class="col-xxl-4 col-lg-12">
-					<div class="causes-card">
-						<div class="causes-card-imgbox">
-							<img src="assets/image/causes/causes-1.jpg" class="img-fluid" alt="img-117">
-						</div><!-- causes-card-imgbox -->
-						<div class="causes-content">
-							<div class="causes-card-funding">
-								<div class="causes-card-progressbar">
-									<div class="causes-card-progressbar-inner count-box" data-percentage="36%">
-										<div class="causes-card-progressbar-text count-text"></div><!-- causes-card-progressbar-text -->
-									</div><!-- causes-card-progressbar-inner -->
-								</div><!-- causes-card-progressbar -->
-								<div class="causes-card-funding-list">
-									<div class="causes-card-funding-item">
-										<div class="causes-card-funding-amount">$25,487</div><!-- causes-card-funding-amount -->
-										<div class="causes-card-funding-text">Raised</div><!-- causes-card-funding-text -->
-									</div><!-- causes-card-funding-item -->
-									<div class="causes-card-funding-item">
-										<div class="causes-card-funding-amount">$30,000</div><!-- causes-card-funding-amount -->
-										<div class="causes-card-funding-text">Goal</div><!-- causes-card-funding-text -->
-									</div><!-- causes-card-funding-item -->
-								</div><!-- causes-card-funding-list -->
-							</div><!-- causes-card-funding -->
-							<h4> <a href="cause-details.html">Your little help can heal their pains</a> </h4>
-							<p>Aellentesque porttitor lacus quis enim varius sed efficitur...</p>
-							<a href="cause-details.html" class="btn btn-primary">Donate Now</a>
-						</div><!-- causes-content -->
-					</div><!-- causes-card -->
-				</div><!-- col-xxl-4 col-lg-12 -->
-				<div class="col-xxl-4 col-lg-12">
-					<div class="causes-card">
-						<div class="causes-card-imgbox">
-							<img src="assets/image/causes/causes-2.jpg" class="img-fluid" alt="img-118">
-						</div><!-- causes-card-imgbox -->
-						<div class="causes-content">
-							<div class="causes-card-funding">
-								<div class="causes-card-progressbar">
-									<div class="causes-card-progressbar-inner count-box" data-percentage="36%">
-										<div class="causes-card-progressbar-text count-text"></div><!-- causes-card-progressbar-text -->
-									</div><!-- causes-card-progressbar-inner -->
-								</div><!-- causes-card-progressbar -->
-								<div class="causes-card-funding-list">
-									<div class="causes-card-funding-item">
-										<div class="causes-card-funding-amount">$25,487</div><!-- causes-card-funding-amount -->
-										<div class="causes-card-funding-text">Raised</div><!-- causes-card-funding-text -->
-									</div><!-- causes-card-funding-item -->
-									<div class="causes-card-funding-item">
-										<div class="causes-card-funding-amount">$30,000</div><!-- causes-card-funding-amount -->
-										<div class="causes-card-funding-text">Goal</div><!-- causes-card-funding-text -->
-									</div><!-- causes-card-funding-item -->
-								</div><!-- causes-card-funding-list -->
-							</div><!-- causes-card-funding -->
-							<h4> <a href="cause-details.html">Your little help can heal their pains</a> </h4>
-							<p>Aellentesque porttitor lacus quis enim varius sed efficitur...</p>
-							<a href="cause-details.html" class="btn btn-primary">Donate Now</a>
-						</div><!-- causes-content -->
-					</div><!-- causes-card -->
-				</div><!-- col-xxl-4 col-lg-12 -->
-				<div class="col-xxl-4 col-lg-12">
-					<div class="causes-card">
-						<div class="causes-card-imgbox">
-							<img src="assets/image/causes/causes-3.jpg" class="img-fluid" alt="img-119">
-						</div><!-- causes-card-imgbox -->
-						<div class="causes-content">
-							<div class="causes-card-funding">
-								<div class="causes-card-progressbar">
-									<div class="causes-card-progressbar-inner count-box" data-percentage="36%">
-										<div class="causes-card-progressbar-text count-text"></div><!-- causes-card-progressbar-text -->
-									</div><!-- causes-card-progressbar-inner -->
-								</div><!-- causes-card-progressbar -->
-								<div class="causes-card-funding-list">
-									<div class="causes-card-funding-item">
-										<div class="causes-card-funding-amount">$25,487</div><!-- causes-card-funding-amount -->
-										<div class="causes-card-funding-text">Raised</div><!-- causes-card-funding-text -->
-									</div><!-- causes-card-funding-item -->
-									<div class="causes-card-funding-item">
-										<div class="causes-card-funding-amount">$30,000</div><!-- causes-card-funding-amount -->
-										<div class="causes-card-funding-text">Goal</div><!-- causes-card-funding-text -->
-									</div><!-- causes-card-funding-item -->
-								</div><!-- causes-card-funding-list -->
-							</div><!-- causes-card-funding -->
-							<h4> <a href="cause-details.html">Your little help can heal their pains</a> </h4>
-							<p>Aellentesque porttitor lacus quis enim varius sed efficitur...</p>
-							<a href="cause-details.html" class="btn btn-primary">Donate Now</a>
-						</div><!-- causes-content -->
-					</div><!-- causes-card -->
-				</div><!-- col-xxl-4 col-lg-12 -->
-				<div class="col-xl-12 col-lg-12">
-					<div class="cause-two-box-button">
-						<a href="#" class="btn btn-primary">See all Causes</a>
-					</div><!-- cause-two-box-button -->
-				</div><!-- col-xxl-6 col-lg-12 -->
-			</div><!-- row -->
-		</div><!-- container -->
-
         @include('frontend.00_approve.01_cssterpisah.paginator')
+	</section><!-- donate-section -->
 
-	</section><!-- causes-section-two  -->
 
 </div><!--page-wrapper-->
 @include('frontend.00_approve.01_cssterpisah.footer1')
