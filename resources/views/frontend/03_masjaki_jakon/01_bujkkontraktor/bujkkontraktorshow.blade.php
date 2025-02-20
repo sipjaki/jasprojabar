@@ -42,15 +42,46 @@
 								<div class="document-details-icon">
 									<i class="flaticon-pdf"></i>
 								</div><!-- document-details-icon -->
-								<div class="document-details-content">
-                                    <h5>Telepon</h5>
+                                <div class="document-details-content">
+                                    <h5><i class="fa fa-phone"></i> Telepon</h5>
                                     <p>{{$data->no_telepon}}</p>
-								</div><!-- document-box-content -->
+                                </div><!-- document-box-content -->
 
                                 <div class="document-details-content">
-                                    <h5>Telepon</h5>
-                                    <p>{{$data->no_telepon}}</p>
-								</div><!-- document-box-content -->
+                                    <h5><i class="fa fa-envelope"></i> Email</h5>
+                                    <p>{{$data->email}}</p>
+                                </div><!-- document-box-content -->
+
+                                <div class="document-details-content">
+                                    <h5><i class="fa fa-id-card"></i> Nomor Induk Berusaha</h5>
+                                    <p>{{$data->nib}}</p>
+                                </div><!-- document-box-content -->
+
+                                <div class="document-details-content">
+                                    <h5><i class="fa fa-user-tie"></i> Penanggung Jawab Umum</h5>
+                                    <p>{{$data->pju}}</p>
+                                </div><!-- document-box-content -->
+
+                                <div class="document-details-content">
+                                    <h5><i class="fa fa-certificate"></i> No Akte</h5>
+                                    <p>{{$data->no_akte}}</p>
+                                </div><!-- document-box-content -->
+
+                                <div class="document-details-content">
+                                    <h5><i class="fa fa-calendar"></i> Tanggal</h5>
+                                    <p>{{$data->tanggal}}</p>
+                                </div><!-- document-box-content -->
+
+                                <div class="document-details-content">
+                                    <h5><i class="fa fa-user-secret"></i> Notaris</h5>
+                                    <p>{{$data->nama_notaris}}</p>
+                                </div><!-- document-box-content -->
+
+                                <div class="document-details-content">
+                                    <h5><i class="fa fa-pencil-alt"></i> No Pengesahan</h5>
+                                    <p>{{$data->nama_notaris}}</p>
+                                </div><!-- document-box-content -->
+
 							</div><!-- document-box-list -->
 						</div><!-- document-details -->
 
