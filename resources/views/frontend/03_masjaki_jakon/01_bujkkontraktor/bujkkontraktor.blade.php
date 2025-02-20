@@ -17,11 +17,11 @@
 	<section class="donate-section">
 		<div class="container">
 			<div class="row row-gutter-30">
-				<div class="col-lg-12">
+				{{-- <div class="col-lg-12">
 					<div class="donate-box-content text-center">
 						<span>{{$title}}</span>
 					</div><!-- donate-box-content -->
-				</div><!-- col-lg-12 -->
+				</div><!-- col-lg-12 --> --}}
 				<div class="col-xxl-12 col-lg-12">
 					<div class="donate-box-inner">
 
