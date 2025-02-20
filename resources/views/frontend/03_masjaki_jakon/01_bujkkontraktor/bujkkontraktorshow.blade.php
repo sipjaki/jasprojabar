@@ -80,7 +80,7 @@
 
                                 <div class="document-details-content">
                                     <h5><i class="fa fa-pencil-alt"> :</i> No Pengesahan</h5>
-                                    <p>{{$data->nama_notaris}}</p>
+                                    <p>{{$data->no_pengesahan}}</p>
                                 </div><!-- document-box-content -->
 
 							</div><!-- document-box-list -->
