@@ -95,6 +95,7 @@ Route::get('/feagendasertifikasi', [FedashboardController::class, 'feagendaserti
 // ---------------------- 03 DATA JAKON -----------------------//
 // BUAT BARU UNTUK APLIKASI MAS JAKI DATA JAKON BLORA
 Route::get('/datajakon/bujk', [BujkkontraktorController::class, 'index']);
+Route::get('/datajakon/bujkkontraktor', [BujkkontraktorController::class, 'bujkkontraktor']);
 
 // -------- BAGIAN 01 PENGAWASAN DAN KETERTIBAN  ---------------------------------
 Route::get('/datajakon/pengawasan', [DatajakonController::class, 'pengawasan']);

@@ -96,7 +96,8 @@
           </div><!-- row -->
         </div><!-- tab-pane -->
         @include('frontend.00_approve.01_cssterpisah.paginator')
-      </div><!-- tab-content -->
+
+    </div><!-- tab-content -->
     </div><!-- container -->
   </section><!-- document-section  -->
 </div><!--page-wrapper-->
