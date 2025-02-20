@@ -442,13 +442,13 @@ public function strukturdpuprkabblora()
 
 // ==============================================================================================================
 
-public function rencanastrategispuprbandungbarat()
+public function rencanastrategisdpuprkabblora()
 {
     $data= renstra::all(); // Menggunakan paginate() untuk pagination
     $user = Auth::user();
 
-    return view('frontend.01_profil.02_rencanastrategis', [
-        'title' => 'Rencana Strategis PUPR Kabupaten Bandung Barat',
+    return view('frontend.01_masjaki_kelembagaan.02_rencanaprogram.index', [
+        'title' => 'Rencana Strategis DPUPR Kabupaten Blora',
         'data' => $data, // Mengirimkan data paginasi ke view
         'user' => $user, // Mengirimkan data paginasi ke view
     ]);

@@ -71,7 +71,7 @@ Route::get('/profil/struktur', [StrukturController::class, 'strukturdpuprkabblor
 
 // =============================================================================================
 // -------- BAGIAN 2 ---------------------------------
-Route::get('/profil/rencanastrategis', [StrukturController::class, 'rencanastrategispuprbandungbarat']);
+Route::get('/profil/rencanastrategis', [StrukturController::class, 'rencanastrategisdpuprkabblora']);
 
 // =============================================================================================
 // -------- BAGIAN 3 ---------------------------------

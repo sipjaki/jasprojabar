@@ -60,7 +60,7 @@
 							<a href="#">Kelembagaan</a>
 							<ul class="list-unstyled">
 								<li><a href="/profil/struktur">Struktur DPUPR Kab Blora</a></li>
-								<li><a href="/404">Renstra Program Kab Blora</a></li>
+								<li><a href="/profil/rencanastrategis">Renstra Program Kab Blora</a></li>
 								<li><a href="/404">Tupoksi Program Jasa Konstruksi</a></li>
 							</ul><!-- list-unstyled -->
 						</li><!--has-dropdown-->
