@@ -67,7 +67,7 @@ Route::get('/bahan2', function () {
 
 // ---------------------- 01 PROFIL FRONTEND SIPJAKI KBB -----------------------//
 // -------- BAGIAN 1 ---------------------------------
-Route::get('/profil/struktur', [StrukturController::class, 'strukturpuprbandungbarat']);
+Route::get('/profil/struktur', [StrukturController::class, 'strukturdpuprkabblora']);
 
 // =============================================================================================
 // -------- BAGIAN 2 ---------------------------------
