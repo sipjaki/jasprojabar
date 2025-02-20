@@ -44,7 +44,7 @@ class BujkkontraktorController extends Controller
     $data = bujkkontraktor::where('namalengkap', $namalengkap)->firstOrFail();
 
     // Ambil data terkait lainnya jika diperlukan (bujkkontraktorsub)
-    $subData = bujkkontraktorsub::where('bujkkontraktorsub_id', $data->id)->get();  // Misal, menghubungkan dengan ID kontraktor
+    $subData = bujkkontraktorsub::where('bujkkontraktor_id', $data->id)->get();  // Misal, menghubungkan dengan ID kontraktor
 
     // Ambil data user saat ini
     $user = Auth::user();
