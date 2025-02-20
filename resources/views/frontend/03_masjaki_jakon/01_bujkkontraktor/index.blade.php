@@ -30,13 +30,13 @@
                     <div class="service-two-imgbox">
                         <div class="service-two-image">
                             <img src="/assets/03_datajakon/bujkkontraktor.jpg" class="img-fluid" alt="img-28" loading="lazy">
-                            <a href="/404"></a>
+                            <a href="/datajakon/bujkkontraktor"></a>
                         </div><!-- service-two-image -->
                     </div><!-- service-two-imgbox -->
                     <div class="service-two-card-content">
                         <h4>BUJK Kontraktor</h4>
                         <p>Dinas Pekerjaan Umum dan Penataan Ruang <br> Pemerintah Kabupaten Blora Provinsi Jawa Tengah</p>
-                        <a href="service-details.html">
+                        <a href="/datajakon/bujkkontraktor">
                             <i class="fa-solid fa-arrow-right-long"></i>
                             <span>Read More</span>
                         </a>
@@ -48,13 +48,13 @@
                     <div class="service-two-imgbox">
                         <div class="service-two-image">
                             <img src="/assets/03_datajakon/bujkkonsultan.jpg" class="img-fluid" alt="img-29"  loading="lazy">
-                            <a href="/404"></a>
+                            <a href="/datajakon/bujkkontraktor"></a>
                         </div><!-- service-two-image -->
                     </div><!-- service-two-imgbox -->
                     <div class="service-two-card-content">
                         <h4>BUJK Konsultan</h4>
                         <p>Dinas Pekerjaan Umum dan Penataan Ruang <br> Pemerintah Kabupaten Blora Provinsi Jawa Tengah</p>
-                        <a href="service-details.html">
+                        <a href="/datajakon/bujkkontraktor">
                             <i class="fa-solid fa-arrow-right-long"></i>
                             <span>Read More</span>
                         </a>
