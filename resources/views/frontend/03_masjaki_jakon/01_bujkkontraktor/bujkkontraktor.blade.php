@@ -117,21 +117,31 @@
 <table class="fl-table">
     <thead>
         <tr>
-            <th style="width: 100px;">Header 1</th>
-            <th>Header 2</th>
-            <th>Header 3</th>
-            <th>Header 4</th>
-            <th>Header 5</th>
+            <th style="width: 50px;">No</th>
+            <th style="width: 200px">Nama Lengkap</th>
+            <th style="width: 100px" >Telepon</th>
+            <th style="width: 100px" >Email</th>
         </tr>
     </thead>
     <tbody>
+
+        @php
+        $start = ($data->currentPage() - 1) * $data->perPage() + 1;
+            @endphp
+
+        @foreach ($data as $item )
         <tr>
-            <td>7</td>
+            <td>{{ $loop->iteration + $start - 1 }}</td>
             <td>Content</td>
             <td>Content</td>
             <td>Content</td>
-            <td><i class="fas fa-eye view-icon" onclick="alert('View clicked!')"></i></td>
+            <td>
+                <a href="/">
+                <i class="fas fa-eye view-icon" onclick="alert('View clicked!')"></i></td>
+                </a>
         </tr>
+
+        @endforeach
     </tbody>
 </table>
 </div>
