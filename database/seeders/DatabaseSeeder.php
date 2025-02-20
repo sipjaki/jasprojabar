@@ -2334,6 +2334,14 @@ qa::create([
 //======================== ===================================================================================
 strukturdinas::create([
     'judul' => 'Struktur Dinas Pekerjaan Umum Dan Penataan Ruang Pemerintah Kabupaten Blora',
+    'peraturan' => 'struktur/01_dinas/STRUKTUR_KEDINASAN.pdf',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+strukturdinas::create([
+    'judul' => 'Struktur Dinas Pekerjaan Umum Dan Penataan Ruang Pemerintah Kabupaten Blora',
     'peraturan' => 'struktur/01_dinas/STRUKTUR_DPUPR_KABUPATEN_BLORA.pdf',
     'created_at' => Carbon::now(),
     'updated_at' => Carbon::now(),
