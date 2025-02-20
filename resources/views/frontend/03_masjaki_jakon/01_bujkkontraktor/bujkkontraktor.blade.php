@@ -121,6 +121,12 @@
             <th style="width: 200px text-align:center">Nama Lengkap</th>
             <th style="width: 100px text-align:center" >Telepon</th>
             <th style="width: 100px text-align:center" >Email</th>
+            <th style="width: 100px text-align:center" >NIB</th>
+            <th style="width: 100px text-align:center" >PJU</th>
+            <th style="width: 100px text-align:center" >No Akte</th>
+            <th style="width: 100px text-align:center" >Tanggal</th>
+            <th style="width: 100px text-align:center" >Notaris</th>
+            <th style="width: 100px text-align:center" >No Pengesahan</th>
             <th style="width: 75px text-align:center" >View Data</th>
         </tr>
     </thead>
@@ -136,6 +142,12 @@
             <td>{{$item->namalengkap}}</td>
             <td>{{$item->no_telepon}}</td>
             <td>{{$item->email}}</td>
+            <td>{{$item->nib}}</td>
+            <td>{{$item->pju}}</td>
+            <td>{{$item->no_akte}}</td>
+            <td>{{$item->tanggal}}</td>
+            <td>{{$item->nama_notaris}}</td>
+            <td>{{$item->no_pengesahan}}</td>
             <td style="text-align: center">
                 <a href="/">
                 <i class="fas fa-eye view-icon" onclick="alert('View clicked!')"></i></td>
