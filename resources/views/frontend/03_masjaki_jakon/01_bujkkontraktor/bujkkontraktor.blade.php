@@ -150,8 +150,9 @@
             <td>{{$item->no_pengesahan}}</td>
             <td style="text-align: center">
                 <a href="/datajakon/bujkkontraktor/{{$item->namalengkap}}">
-                <i class="fas fa-eye view-icon" onclick="alert('View clicked!')">Lihat Data</i></td>
+                    <i class="fas fa-eye view-icon" onclick="alert('View clicked!')">Lihat Data</i>
                 </a>
+            </td>
         </tr>
 
         @endforeach
