@@ -34,8 +34,8 @@
                         </div><!-- service-two-image -->
                     </div><!-- service-two-imgbox -->
                     <div class="service-two-card-content">
-                        <h4>City Visitor Guide</h4>
-                        <p>This present moment is perfect simply due to the fact you’re experiencing it.</p>
+                        <h4>BUJK Kontraktor</h4>
+                        <p>Pemerintah Kabupaten Blora Provinsi Jawa Tengah</p>
                         <a href="service-details.html">
                             <i class="fa-solid fa-arrow-right-long"></i>
                             <span>Read More</span>
@@ -52,8 +52,8 @@
                         </div><!-- service-two-image -->
                     </div><!-- service-two-imgbox -->
                     <div class="service-two-card-content">
-                        <h4>Mayor's Priorities</h4>
-                        <p>This present moment is perfect simply due to the fact you’re experiencing it.</p>
+                        <h4>BUJK Konsultan</h4>
+                        <p>Pemerintah Kabupaten Blora Provinsi Jawa Tengah</p>
                         <a href="service-details.html">
                             <i class="fa-solid fa-arrow-right-long"></i>
                             <span>Read More</span>
