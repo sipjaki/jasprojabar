@@ -205,7 +205,7 @@
         $start = ($data->currentPage() - 1) * $data->perPage() + 1;
             @endphp --}}
 
-        @foreach ($data as $item )
+        @foreach ($subData as $item )
         <tr>
             {{-- <td>{{ $loop->iteration + $start - 1 }}</td> --}}
             <td>{{$item->nama_pengurus}}</td>
