@@ -807,7 +807,7 @@ public function deletepaketpekerjaan($instansi)
         return view('frontend.03_masjaki_jakon.01_bujkkontraktor.index', [
             'data' => $dataketertiban,
             'user' => $user,
-            'title' => 'Badan Usaha Jasa Konstruksi <br> Kontraktor Konsultan',
+            'title' => 'Badan Usaha Jasa Konstruksi Kontraktor Konsultan',
 
         ]);
 
