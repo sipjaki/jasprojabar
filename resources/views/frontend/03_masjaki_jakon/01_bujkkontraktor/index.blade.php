@@ -73,67 +73,33 @@
 @foreach ($data as $item )
 
 <div class="col-xxl-4 col-xl-6">
+    <div class="service-three-card">
+        <div class="service-three-icon">
+        <i class="flaticon-pdf"></i>
+            </div><!-- service-three-icon -->
+                <div class="service-three-card-content">
+                            <h3><a href="/peraturan/suratedaranmenteri/{{$item->judul}}">{{$item->judul}}</a></h3>
+                            <a href="/peraturan/suratedaranmenteri/{{$item->judul}}">
+                            <p>{{$title}}</p>
+                            <div class="service-three-detail">
+                                    <span>Show Here</span><i class="fa-solid fa-arrow-right-long"></i>
+                                </a>
+                                <i class="flaticon-pdf"></i>
+                            </div><!-- service-three-detail -->
+                        </div><!-- service-three-card-content -->
+                    </div><!-- service-three-card -->
+                </div><!-- col-xxl-4 col-xl-6 -->
 
+
+@endforeach
+
+          </div><!-- row -->
+        </div><!-- tab-pane -->
+        @include('frontend.00_approve.01_cssterpisah.paginator')
+      </div><!-- tab-content -->
+    </div><!-- container -->
   </section><!-- document-section  -->
 
-
-
-  <section class="service-two-section">
-    <div class="container">
-        <div class="row row-gutter-y-40">
-            <div class="col-12 col-lg-4 col-xl-4">
-                <div class="service-two-card">
-                    <div class="service-two-imgbox">
-                        <div class="service-two-image">
-                            <img src="assets/image/services/service-4.jpg" class="img-fluid" alt="img-28">
-                            <a href="service-details.html"></a>
-                        </div><!-- service-two-image -->
-                    </div><!-- service-two-imgbox -->
-                    <div class="service-two-card-content">
-                        <h4>City Visitor Guide</h4>
-                        <p>This present moment is perfect simply due to the fact you’re experiencing it.</p>
-                        <a href="service-details.html">
-                            <i class="fa-solid fa-arrow-right-long"></i>
-                            <span>Read More</span>
-                        </a>
-                    </div><!--service-two-card-content-->
-                </div><!--service-two-card-->
-            </div><!--col-12 col-lg-4 col-xl-4-->
-            <div class="col-12 col-lg-4 col-xl-4">
-                <div class="service-two-card">
-                    <div class="service-two-imgbox">
-                        <div class="service-two-image">
-                            <img src="assets/image/services/service-5.jpg" class="img-fluid" alt="img-29">
-                            <a href="service-details.html"></a>
-                        </div><!-- service-two-image -->
-                    </div><!-- service-two-imgbox -->
-                    <div class="service-two-card-content">
-                        <h4>Mayor's Priorities</h4>
-                        <p>This present moment is perfect simply due to the fact you’re experiencing it.</p>
-                        <a href="service-details.html">
-                            <i class="fa-solid fa-arrow-right-long"></i>
-                            <span>Read More</span>
-                        </a>
-                    </div><!--service-two-card-content-->
-                </div><!--service-two-card-->
-            </div><!--col-12 col-lg-4 col-xl-4-->
-            <div class="col-12 col-lg-4 col-xl-4">
-                <div class="service-link-box">
-                    <h4 class="section-title">Government <br>Services</h4>
-                    <ul>
-                        <li><a href="service-details.html">Public Service Identity<i class="fa-solid fa-chevron-right"></i></a></li>
-                        <li><a href="service-details.html">Apply for a City Job <i class="fa-solid fa-chevron-right"></i></a></li>
-                        <li><a href="service-details.html">Order Birth Certificate <i class="fa-solid fa-chevron-right"></i></a></li>
-                        <li><a href="service-details.html">National Planning Framework<i class="fa-solid fa-chevron-right"></i></a></li>
-                        <li><a href="service-details.html">Apply for Driving License <i class="fa-solid fa-chevron-right"></i></a></li>
-                        <li><a href="service-details.html">Get Parking Permit<i class="fa-solid fa-chevron-right"></i></a></li>
-                        <li><a href="service-details.html">Get Hosing Permition <i class="fa-solid fa-chevron-right"></i></a></li>
-                    </ul><!-- ul -->
-                </div><!--service-link-box-->
-            </div><!--col-12 col-lg-4 col-xl-4-->
-        </div><!-- row -->
-    </div><!-- container -->
-</section><!-- service-two-section -->
 
 </div><!--page-wrapper-->
 
