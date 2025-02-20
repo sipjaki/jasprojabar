@@ -48,13 +48,13 @@
                     <div class="service-two-imgbox">
                         <div class="service-two-image">
                             <img src="/assets/03_datajakon/bujkkonsultan.jpg" class="img-fluid" alt="img-29"  loading="lazy">
-                            <a href="/datajakon/bujkkontraktor"></a>
+                            <a href="/datajakon/bujkkonsultan"></a>
                         </div><!-- service-two-image -->
                     </div><!-- service-two-imgbox -->
                     <div class="service-two-card-content">
                         <h4>BUJK Konsultan</h4>
                         <p>Dinas Pekerjaan Umum dan Penataan Ruang <br> Pemerintah Kabupaten Blora Provinsi Jawa Tengah</p>
-                        <a href="/datajakon/bujkkontraktor">
+                        <a href="/datajakon/bujkkonsultan">
                             <i class="fa-solid fa-arrow-right-long"></i>
                             <span>Read More</span>
                         </a>
