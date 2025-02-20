@@ -15,6 +15,7 @@ use App\Http\Controllers\AdministratorController;
 use App\Http\Controllers\BeritaController;
 use App\Http\Controllers\SettingmenuController;
 use App\Http\Controllers\TertibjakonController;
+use App\Http\Controllers\BujkkontraktorController;
 use App\Http\Controllers\UndangundangController;
 use Database\Factories\DatajakonFactory;
 use Database\Factories\SkktenagakerjaFactory;
@@ -92,8 +93,8 @@ Route::get('/detailskegiatan/{jabatan}', [FedashboardController::class, 'details
 Route::get('/feagendasertifikasi', [FedashboardController::class, 'feagendasertifikasipekerja']);
 
 // ---------------------- 03 DATA JAKON -----------------------//
-// BUAT BARU UNTUK APLIKASI MAS JAKI BLORA
-Route::get('/datajakon/bujkkontraktor', [DatajakonController::class, 'pengawasan']);
+// BUAT BARU UNTUK APLIKASI MAS JAKI DATA JAKON BLORA
+Route::get('/datajakon/bujk', [BujkkontraktorController::class, 'index']);
 
 // -------- BAGIAN 01 PENGAWASAN DAN KETERTIBAN  ---------------------------------
 Route::get('/datajakon/pengawasan', [DatajakonController::class, 'pengawasan']);
