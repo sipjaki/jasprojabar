@@ -48,7 +48,7 @@
 			</div><!--/.portfolio-details-info-->
 			<div class="portfolio-details-content">
 				<div class="portfolio-details-content-title">
-					<h3>Metro Train Station</h3>
+					<h3>Struktur Dinas PekerjaanUmum dan Penataan Ruang Pemerintah Kabupaten Blora</h3>
 				</div><!-- portfolio-details-content-title -->
 				<div class="portfolio-details-content-text">
 					<p>Tincidunt elit magnis nulla facilisis sagittis sapien nunc amet ultrices dolores sit ipsum velit purus aliquet massa fringilla leo orci. Sapien nunc amet ultrices, dolores sit ipsum velit massa fringilla leo orci dolors sit amet elit amet. </p>
