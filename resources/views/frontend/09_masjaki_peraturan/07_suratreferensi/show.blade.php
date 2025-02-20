@@ -48,6 +48,7 @@
 
                     <div class="department-details-imgbox">
                         <iframe src="{{ asset('storage/' . $data->peraturan) }}" width="100%" height="750" style="border: none;"></iframe>
+
                         {{-- <a href="assets/pdf/sample.pdf" target="_blank"></a> --}}
                     </div><!-- department-details-imgbox -->
 
