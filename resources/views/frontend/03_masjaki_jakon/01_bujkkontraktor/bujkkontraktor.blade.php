@@ -25,8 +25,7 @@
                         {{-- TABLE DATA  --}}
                         <style>
                             /* Import font Poppins */
-
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+                            @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 
 /* Wrapper untuk tabel */
 .table-wrapper {
@@ -100,52 +99,42 @@
     }
 }
 
-                        </style>
-                                <div class="table-wrapper">
-                                    <table class="fl-table">
-                                        <thead>
-                                        <tr>
-                                            <th>Header 1</th>
-                                            <th>Header 2</th>
-                                            <th>Header 3</th>
-                                            <th>Header 4</th>
-                                            <th>Header 5</th>
-                                        </tr>
-                                        </thead>
-                                        <tbody>
+/* Style untuk ikon view */
+.view-icon {
+    color: #4CAF50;
+    cursor: pointer;
+    font-size: 18px;
+}
 
-                                        <tr>
-                                            <td>7</td>
-                                            <td>Content</td>
-                                            <td>Content</td>
-                                            <td>Content</td>
-                                            <td>Content</td>
-                                        </tr>
-                                        <tr>
-                                            <td>8</td>
-                                            <td>Content</td>
-                                            <td>Content</td>
-                                            <td>Content</td>
-                                            <td>Content</td>
-                                        </tr>
-                                        <tr>
-                                            <td>9</td>
-                                            <td>Content</td>
-                                            <td>Content</td>
-                                            <td>Content</td>
-                                            <td>Content</td>
-                                        </tr>
-                                        <tr>
-                                            <td>10</td>
-                                            <td><i class="fas fa-eye">View</i></td>
-                                            <td>Content</td>
-                                            <td>Content</td>
-                                            <td>Content</td>
-                                        </tr>
-                                        <tbody>
-                                    </table>
-                                </div>
+.view-icon:hover {
+    color: #45a049;
+}
+</style>
+</head>
 
+<body>
+<div class="table-wrapper">
+<table class="fl-table">
+    <thead>
+        <tr>
+            <th>Header 1</th>
+            <th>Header 2</th>
+            <th>Header 3</th>
+            <th>Header 4</th>
+            <th>Header 5</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>7</td>
+            <td>Content</td>
+            <td>Content</td>
+            <td>Content</td>
+            <td><i class="fas fa-eye view-icon" onclick="alert('View clicked!')"></i></td>
+        </tr>
+    </tbody>
+</table>
+</div>
                     </div><!-- donate-box-inner -->
 				</div><!-- col-xl-8 col-lg-12 -->
 			</div><!-- row -->
