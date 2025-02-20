@@ -14,7 +14,7 @@ return new class extends Migration
         Schema::create('bujkkontraktors', function (Blueprint $table) {
             $table->id();
             // $table->foreignId('bujkkontraktorsub_id');
-            $table->foreignId('bujkkontraktorsub_id')->constrained()->onDelete('cascade');
+            $table->foreignId('bujkkontraktorsub_id');
             $table->string('namalengkap')->nullable();
             $table->text('alamat')->nullable();
             $table->string('no_telepon')->nullable();
