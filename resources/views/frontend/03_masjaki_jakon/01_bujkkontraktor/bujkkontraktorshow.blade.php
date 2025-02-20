@@ -200,10 +200,10 @@
              </tr>
     </thead>
     <tbody>
-
+{{--
         @php
         $start = ($data->currentPage() - 1) * $data->perPage() + 1;
-            @endphp
+            @endphp --}}
 
         @foreach ($data as $item )
         <tr>
