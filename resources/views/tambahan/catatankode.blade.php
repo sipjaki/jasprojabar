@@ -16,6 +16,7 @@ App\Models\Qa::first();
 = null
 
 > $user = App\Models\User::first();
+> $bujkkontraktor = App\Models\bujkkontraktor::first();
 
 = App\Models\User {#6182
     id: 1,

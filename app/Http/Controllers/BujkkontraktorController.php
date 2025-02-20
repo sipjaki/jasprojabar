@@ -40,11 +40,15 @@ class BujkkontraktorController extends Controller
 
     public function bujkkontraktorshow($namalengkap)
     {
-    // Ambil data kontraktor berdasarkan namalengkap
-    $data = bujkkontraktor::where('namalengkap', $namalengkap)->firstOrFail();
+        $data = bujkkontraktor::where('namalengkap', $namalengkap)->first();
 
-    // Ambil data terkait lainnya jika diperlukan (bujkkontraktorsub)
-    $subData = bujkkontraktorsub::where('bujkkontraktor_id', $data->id)->get();  // Misal, menghubungkan dengan ID kontraktor
+        // if (!$bujkkontraktor) {
+        //     // Tangani jika kegiatan tidak ditemukan
+        //     return redirect()->back()->with('error', 'Kegiatan tidak ditemukan.');
+        // }
+
+        // Menggunakan paginate() untuk pagination
+        $subdata = bujkkontraktorsub::where('bujkkontraktor_id', $namalengkap->id)->paginate(10);
 
     // Ambil data user saat ini
     $user = Auth::user();
@@ -52,7 +56,7 @@ class BujkkontraktorController extends Controller
     return view('frontend.03_masjaki_jakon.01_bujkkontraktor.bujkkontraktorshow', [
         'title' => 'Data Bujk Kontraktor',
         'data' => $data,
-        'subData' => $subData,  // Jika Anda ingin mengirimkan data sub kontraktor juga
+        'subData' => $subdata,  // Jika Anda ingin mengirimkan data sub kontraktor juga
         'user' => $user,
     ]);
     }
