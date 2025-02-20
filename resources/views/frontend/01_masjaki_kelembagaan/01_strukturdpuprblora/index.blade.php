@@ -17,7 +17,7 @@
 		<div class="container">
 			{{-- <img src="assets/image/portfolio/portfolio-details-1.jpg" class="img-fluid" alt="img-109"> --}}
             @foreach ($data as $item )
-            <iframe src="{{ asset('storage/' . $item->peraturan) }}" width="100%" height="750" style="border: none;"></iframe>
+            <iframe src="{{ asset('storage/' . $item->peraturan) }}" width="100%" height="750" style="border: none; margin-bottom:100px;"></iframe>
             @endforeach
 			{{-- <div class="portfolio-details-info">
 				<div class="portfolio-details-info-item">
