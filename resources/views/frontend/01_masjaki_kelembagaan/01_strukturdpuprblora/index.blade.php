@@ -6,7 +6,7 @@
     @include('frontend.00_approve.01_cssterpisah.header1')
 
     <div class="page-wrapper">
-	<section class="page-banner">
+	<section class="page-banner" style="background-image: url('/assets/approve/image/bg/page-banner.png')">
 		<div class="container">
 			<div class="page-breadcrumbs">
 				<ul class="list-unstyled">
@@ -21,8 +21,9 @@
 	</section><!--page-banner-->
 	<section class="portfolio-details">
 		<div class="container">
-			<img src="assets/image/portfolio/portfolio-details-1.jpg" class="img-fluid" alt="img-109">
-			<div class="portfolio-details-info">
+			{{-- <img src="assets/image/portfolio/portfolio-details-1.jpg" class="img-fluid" alt="img-109"> --}}
+            <iframe src="{{ asset('storage/' . $data->peraturan) }}" width="100%" height="750" style="border: none;"></iframe>
+			{{-- <div class="portfolio-details-info">
 				<div class="portfolio-details-info-item">
 					<span>Category:</span>
 					<p>Business</p>
@@ -45,7 +46,7 @@
 					<a href="#"><i class="fa-brands fa-pinterest-p"></i></a>
 					<a href="#"><i class="fa-brands fa-instagram"></i></a>
 				</div><!-- portfolio-details-info-socials -->
-			</div><!--/.portfolio-details-info-->
+			</div><!--/.portfolio-details-info--> --}}
 			<div class="portfolio-details-content">
 				<div class="portfolio-details-content-title">
 					<h3>Struktur Dinas Pekerjaan Umum dan Penataan Ruang Pemerintah Kabupaten Blora</h3>
