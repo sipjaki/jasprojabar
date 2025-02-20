@@ -141,20 +141,8 @@
                     </div><!--service-two-card-content-->
                 </div><!--service-two-card-->
             </div><!--col-12 col-lg-4 col-xl-4-->
-            <div class="col-12 col-lg-4 col-xl-4">
-                <div class="service-link-box">
-                    <h4 class="section-title">Government <br>Services</h4>
-                    <ul>
-                        <li><a href="service-details.html">Public Service Identity<i class="fa-solid fa-chevron-right"></i></a></li>
-                        <li><a href="service-details.html">Apply for a City Job <i class="fa-solid fa-chevron-right"></i></a></li>
-                        <li><a href="service-details.html">Order Birth Certificate <i class="fa-solid fa-chevron-right"></i></a></li>
-                        <li><a href="service-details.html">National Planning Framework<i class="fa-solid fa-chevron-right"></i></a></li>
-                        <li><a href="service-details.html">Apply for Driving License <i class="fa-solid fa-chevron-right"></i></a></li>
-                        <li><a href="service-details.html">Get Parking Permit<i class="fa-solid fa-chevron-right"></i></a></li>
-                        <li><a href="service-details.html">Get Hosing Permition <i class="fa-solid fa-chevron-right"></i></a></li>
-                    </ul><!-- ul -->
-                </div><!--service-link-box-->
-            </div><!--col-12 col-lg-4 col-xl-4-->
+
+
         </div><!-- row -->
     </div><!-- container -->
 </section><!-- service-two-section -->
