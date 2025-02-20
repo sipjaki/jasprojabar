@@ -48,13 +48,17 @@
 			</div><!--/.portfolio-details-info-->
 			<div class="portfolio-details-content">
 				<div class="portfolio-details-content-title">
-					<h3>Struktur Dinas PekerjaanUmum dan Penataan Ruang Pemerintah Kabupaten Blora</h3>
+					<h3>Struktur Dinas Pekerjaan Umum dan Penataan Ruang Pemerintah Kabupaten Blora</h3>
 				</div><!-- portfolio-details-content-title -->
 				<div class="portfolio-details-content-text">
-					<p>Tincidunt elit magnis nulla facilisis sagittis sapien nunc amet ultrices dolores sit ipsum velit purus aliquet massa fringilla leo orci. Sapien nunc amet ultrices, dolores sit ipsum velit massa fringilla leo orci dolors sit amet elit amet. </p>
-					<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, humour and the like.</p>
-					<p>All you need to do is unlock the riches that have been locked away with-in you. Being lucky in life is the result of putting yourself into action for good luck to happen to you. You’ve probably heard the statement “The harder I work the luckier I get”. </p>
-				</div><!-- portfolio-details-content-text -->
+					<p>
+                        Dinas Pekerjaan Umum dan Penataan Ruang (PUPR) Pemerintah Kabupaten Blora memiliki peran vital dalam pengelolaan infrastruktur dan penataan ruang yang mendukung pembangunan daerah. Dinas ini bertanggung jawab dalam merencanakan, melaksanakan, serta mengawasi pembangunan berbagai infrastruktur seperti jalan, jembatan, dan gedung, serta fasilitas publik lainnya. Selain itu, Dinas PUPR juga berperan dalam penataan ruang yang berfokus pada pengembangan wilayah yang terencana dan berkelanjutan. Struktur organisasi Dinas PUPR Kabupaten Blora dibangun dengan sistem yang terstruktur dan terorganisir guna memastikan efektivitas dalam pelaksanaan tugas-tugasnya.
+                    </p>
+
+                    <p>
+                        Di bawah pimpinan Kepala Dinas, setiap unit kerja dalam Dinas PUPR memiliki peran yang jelas, mulai dari Sekretariat yang mendukung administrasi hingga berbagai bidang teknis seperti Bidang Bina Marga yang mengelola pembangunan dan pemeliharaan jalan serta jembatan, Bidang Cipta Karya yang berfokus pada pembangunan sarana prasarana publik, hingga Bidang Penataan Ruang yang bertanggung jawab atas pengelolaan tata ruang wilayah. Selain itu, Bidang Sumber Daya Air menangani pengelolaan sumber daya air dan sistem irigasi, sementara Unit Pelaksana Teknis (UPT) bertugas melaksanakan proyek-proyek terkait dan memastikan kelancaran operasional di lapangan. Dengan struktur yang jelas, Dinas PUPR Kabupaten Blora berkomitmen untuk mendukung pembangunan infrastruktur yang berkualitas dan memberikan manfaat maksimal bagi masyarakat.
+                    </p>
+                </div><!-- portfolio-details-content-text -->
 			</div><!-- portfolio-details-content -->
 		</div><!-- container -->
 	</section><!-- portfolio-details -->
