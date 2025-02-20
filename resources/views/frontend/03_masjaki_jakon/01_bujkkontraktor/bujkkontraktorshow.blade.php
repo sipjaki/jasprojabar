@@ -24,7 +24,7 @@
 		<div class="container">
 			<div class="row">
 
-                <div class="col-lg-8">
+                <div class="col-lg-12">
 
                     <div class="department-details-imgbox">
                         {{-- <iframe src="{{ asset('storage/' . $data->peraturan) }}" width="100%" height="750" style="border: none;"></iframe> --}}
@@ -36,35 +36,23 @@
 					</div><!-- department-details-content-box -->
                     <div class="document-details-inner">
 						<h3><i class="fas fa-building mr-2" style="margin-right: 10px;"></i>{{$data->namalengkap}}</h3>
-						<div class="document-details">
-							<div class="document-details-list">
-                                <div class="document-details-icon">
-                                    <i class="flaticon-contractor"></i> <!-- Ganti dengan ikon kontraktor -->
-                                </div><!-- document-details-icon -->
 
-                                <div class="document-details-content">
-									<h5>Birthdate Certificate</a></h5>
-								</div><!-- document-details-content -->
-							</div><!-- document-details-list -->
-							<div class="document-details-button">
-								<a href="assets/inc/sample.pdf" title="download"><i class="fa-solid fa-arrow-down"></i></a>
-							</div><!-- document-details-button -->
-						</div><!-- document-details -->
 						<div class="document-details">
 							<div class="document-details-list">
 								<div class="document-details-icon">
 									<i class="flaticon-pdf"></i>
 								</div><!-- document-details-icon -->
 								<div class="document-details-content">
-									<h5><a href="department-details.html">Birthdate modification verification</a></h5>
-									<p>Pdf (194kb)</p>
+                                    <h5><a href="department-details.html"></a></h5>
+                                    <p>Pdf (194kb)</p>
 								</div><!-- document-box-content -->
 							</div><!-- document-box-list -->
 							<div class="document-details-button">
 								<a href="assets/inc/sample.pdf" title="download"><i class="fa-solid fa-arrow-down"></i></a>
 							</div><!-- document-details-button -->
 						</div><!-- document-details -->
-						<div class="document-details">
+
+                        <div class="document-details">
 							<div class="document-details-list">
 								<div class="document-details-icon">
 									<i class="flaticon-pdf"></i>
