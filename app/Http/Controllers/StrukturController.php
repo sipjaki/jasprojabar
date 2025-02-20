@@ -461,7 +461,7 @@ public function tupoksifekbb()
     $data= tupoksi::all(); // Menggunakan paginate() untuk pagination
     $user = Auth::user();
 
-    return view('frontend.01_profil.03_tupoksi', [
+    return view('frontend.01_masjaki_kelembagaan.03_tupoksi.index', [
         'title' => 'Tupoksi Dinas PUPR Kabupaten Blora',
         'data' => $data, // Mengirimkan data paginasi ke view
         'user' => $user, // Mengirimkan data paginasi ke view
