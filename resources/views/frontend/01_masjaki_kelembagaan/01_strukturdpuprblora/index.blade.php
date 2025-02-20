@@ -58,76 +58,7 @@
 			</div><!-- portfolio-details-content -->
 		</div><!-- container -->
 	</section><!-- portfolio-details -->
-	<section class="portfolio-details-nav">
-		<div class="container">
-			<div class="portfolio-details-nav-inner">
-				<div class="portfolio-details-nav-item prev-item">
-					<div class="portfolio-details-nav-icon">
-						<a href="portfolio-details.html"><i class="fa-solid fa-arrow-left-long"></i></a>
-					</div><!-- portfolio-details-nav-icon -->
-					<div class="portfolio-details-nav-content">
-						<span>Previous Post</span>
-						<h5><a href="portfolio-details.html">Room Art Museum</a></h5>
-					</div><!-- portfolio-details-nav-content -->
-				</div><!-- portfolio-details-nav-item prev-item -->
-				<div class="portfolio-details-nav-item next-item">
-					<div class="portfolio-details-nav-icon">
-						<a href="portfolio-details.html"><i class="fa-solid fa-arrow-right-long"></i></a>
-					</div><!-- portfolio-details-nav-icon -->
-					<div class="portfolio-details-nav-content">
-						<span>Next Post</span>
-						<h5><a href="portfolio-details.html">Spring Conference</a></h5>
-					</div><!-- portfolio-details-nav-content -->
-				</div><!-- portfolio-details-nav-item next-item -->
-			</div><!-- portfolio-details-nav-inner -->
-		</div><!-- container -->
-	</section><!-- portfolio-details-nav -->
-	<section class="portfolio-section">
-		<div class="section-title-box text-center">
-			<div class="section-tagline">recent work portfolio</div>
-			<h2 class="section-title">Explore City Highlights <br>Portfolios</h2>
-		</div><!-- section-title-box -->
-		<div class="portfolio-content conatainer-fluid">
-			<div class="portfolio-carousel owl-carousel owl-theme">
-				<div class="item">
-					<div class="portfolio-card">
-						<img src="assets/image/portfolio/portfolio-1.jpg" class="img-fluid" alt="img-110">
-						<div class="portfolio-card-meta">
-							<div class="portfolio-card-text"><a href="portfolio-details.html">Places</a></div>
-							<div class="portfolio-card-title"><a href="portfolio-details.html">Broadway Road</a></div>
-						</div><!-- portfolio-card-meta -->
-					</div><!--portfolio-card-->
-				</div><!-- item -->
-				<div class="item">
-					<div class="portfolio-card">
-						<img src="assets/image/portfolio/portfolio-2.jpg" class="img-fluid" alt="img-111">
-						<div class="portfolio-card-meta">
-							<div class="portfolio-card-text"><a href="portfolio-details.html">Intercity</a></div>
-							<div class="portfolio-card-title"><a href="portfolio-details.html">Grand Central Terminal</a></div>
-						</div><!-- portfolio-card-meta -->
-					</div><!--portfolio-card-->
-				</div><!-- item -->
-				<div class="item">
-					<div class="portfolio-card">
-						<img src="assets/image/portfolio/portfolio-3.jpg" class="img-fluid" alt="img-112">
-						<div class="portfolio-card-meta">
-							<div class="portfolio-card-text"><a href="portfolio-details.html">Business</a></div>
-							<div class="portfolio-card-title"><a href="portfolio-details.html">Empire State Building</a></div>
-						</div><!-- portfolio-card-meta -->
-					</div><!--portfolio-card-->
-				</div><!-- item -->
-				<div class="item">
-					<div class="portfolio-card">
-						<img src="assets/image/portfolio/portfolio-4.jpg" class="img-fluid" alt="img-113">
-						<div class="portfolio-card-meta">
-							<div class="portfolio-card-text"><a href="portfolio-details.html">Travel</a></div>
-							<div class="portfolio-card-title"><a href="portfolio-details.html">Fulton Center</a></div>
-						</div><!-- portfolio-card-meta -->
-					</div><!--portfolio-card-->
-				</div><!-- item -->
-			</div><!--portfolio-carousel-->
-		</div><!--portfolio-content-->
-	</section><!--portfolio-section-->
+
 </div><!--page-wrapper-->
 
 @include('frontend.00_approve.01_cssterpisah.footer1')
