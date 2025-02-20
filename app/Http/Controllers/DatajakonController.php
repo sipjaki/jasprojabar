@@ -804,7 +804,7 @@ public function deletepaketpekerjaan($instansi)
         $dataketertiban = ketertiban::paginate(6);
         $user = Auth::user();
 
-        return view('frontend.03_masjaki_datajakon.01_bujkkontraktor.index', [
+        return view('frontend.03_masjaki_jakon.01_bujkkontraktor.index', [
             'data' => $dataketertiban,
             'user' => $user,
             'title' => 'Pengawasan & Ketertiban',
