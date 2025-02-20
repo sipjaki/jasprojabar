@@ -35,15 +35,15 @@
 						{{-- <h4 class="department-details-title" style="font-size: 20px;">{{ $data->judul}}</h4> --}}
 					</div><!-- department-details-content-box -->
                     <div class="document-details-inner">
-						<h3>{{$data->namalengkap}}</h3>
+						<h3><i class="fas fa-users mr-2"></i>{{$data->namalengkap}}</h3>
 						<div class="document-details">
 							<div class="document-details-list">
-								<div class="document-details-icon">
-									<i class="flaticon-pdf"></i>
-								</div><!-- document-details-icon -->
-								<div class="document-details-content">
-									<h5><a href="department-details.html">Birthdate Certificate</a></h5>
-									<p>Pdf (194kb)</p>
+                                <div class="document-details-icon">
+                                    <i class="flaticon-contractor"></i> <!-- Ganti dengan ikon kontraktor -->
+                                </div><!-- document-details-icon -->
+
+                                <div class="document-details-content">
+									<h5>Birthdate Certificate</a></h5>
 								</div><!-- document-details-content -->
 							</div><!-- document-details-list -->
 							<div class="document-details-button">
