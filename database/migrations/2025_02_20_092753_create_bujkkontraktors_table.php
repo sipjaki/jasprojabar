@@ -13,6 +13,7 @@ return new class extends Migration
     {
         Schema::create('bujkkontraktors', function (Blueprint $table) {
             $table->id();
+            $table->foreignId('bujkkontraktorsub_id');
             $table->string('namalengkap');
             $table->text('alamat');
             $table->string('no_telepon');
