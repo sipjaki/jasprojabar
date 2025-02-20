@@ -117,7 +117,7 @@
 <table class="fl-table">
     <thead>
         <tr>
-            <th>Header 1</th>
+            <th style="width: 100px;">Header 1</th>
             <th>Header 2</th>
             <th>Header 3</th>
             <th>Header 4</th>
