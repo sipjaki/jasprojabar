@@ -29,8 +29,8 @@
                 <div class="service-two-card">
                     <div class="service-two-imgbox">
                         <div class="service-two-image">
-                            <img src="assets/image/services/service-4.jpg" class="img-fluid" alt="img-28">
-                            <a href="service-details.html"></a>
+                            <img src="/assets/03_datajakon/bujkkontraktor.jpg" class="img-fluid" alt="img-28" loading="lazy">
+                            {{-- <a href="service-details.html"></a> --}}
                         </div><!-- service-two-image -->
                     </div><!-- service-two-imgbox -->
                     <div class="service-two-card-content">
@@ -47,7 +47,7 @@
                 <div class="service-two-card">
                     <div class="service-two-imgbox">
                         <div class="service-two-image">
-                            <img src="assets/image/services/service-5.jpg" class="img-fluid" alt="img-29">
+                            <img src="/assets/03_datajakon/bujkkonsultan.jpg" class="img-fluid" alt="img-29"  loading="lazy">
                             <a href="service-details.html"></a>
                         </div><!-- service-two-image -->
                     </div><!-- service-two-imgbox -->
