@@ -10,7 +10,7 @@
 	<section class="page-banner">
 		<div class="container">
 			<div class="page-banner-title">
-				<h3>{{$title}}</h3>
+				<h3 style="color: black;">{{$title}}</h3>
 			</div><!-- page-banner-title -->
 		</div><!-- container -->
 	</section><!--page-banner-->
@@ -19,12 +19,10 @@
 			<div class="row row-gutter-30">
 				<div class="col-lg-12">
 					<div class="donate-box-content text-center">
-						<span>KNOW MORE DONATE</span>
-						<h3>Thank you for supporting !</h3>
-						<p>Together we the people achieve more than any single <br>person could ever do alone.</p>
+						<span>{{$title}}</span>
 					</div><!-- donate-box-content -->
 				</div><!-- col-lg-12 -->
-				<div class="col-xxl-8 col-lg-12">
+				<div class="col-xxl-12 col-lg-12">
 					<div class="donate-box-inner">
 
 						<div class="donate-box-list">
@@ -93,11 +91,6 @@
 						</form><!-- contact-form -->
 					</div><!-- donate-box-inner -->
 				</div><!-- col-xl-8 col-lg-12 -->
-				<div class="col-xxl-4 col-lg-12">
-					<div class="donate-box-image">
-						<img src="assets/image/gallery/about-1.jpg" class="img-fluid" alt="img-176">
-					</div><!-- donate-box-image -->
-				</div><!-- col-lg-4 -->
 			</div><!-- row -->
 		</div><!-- container -->
         @include('frontend.00_approve.01_cssterpisah.paginator')
