@@ -13,17 +13,18 @@ return new class extends Migration
     {
         Schema::create('bujkkontraktors', function (Blueprint $table) {
             $table->id();
-            $table->foreignId('bujkkontraktorsub_id');
-            $table->string('namalengkap');
-            $table->text('alamat');
-            $table->string('no_telepon');
-            $table->string('email')->unique();
-            $table->string('nib')->unique();
-            $table->string('pju');
-            $table->string('no_akte');
-            $table->date('tanggal');
-            $table->string('nama_notaris');
-            $table->string('no_pengesahan');
+            // $table->foreignId('bujkkontraktorsub_id');
+            $table->foreignId('bujkkontraktorsub_id')->constrained()->onDelete('cascade');
+            $table->string('namalengkap')->nullable();
+            $table->text('alamat')->nullable();
+            $table->string('no_telepon')->nullable();
+            $table->string('email')->unique()->nullable();
+            $table->string('nib')->unique()->nullable();
+            $table->string('pju')->nullable();
+            $table->string('no_akte')->nullable();
+            $table->date('tanggal')->nullable();
+            $table->string('nama_notaris')->nullable();
+            $table->string('no_pengesahan')->nullable();
             $table->softDeletes();
             $table->timestamps();
         });

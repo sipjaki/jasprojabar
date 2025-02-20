@@ -13,16 +13,17 @@ return new class extends Migration
     {
         Schema::create('bujkkontraktorsubs', function (Blueprint $table) {
             $table->id();
-            $table->foreignId('bujkkontraktor_id');
-            $table->string('nama_pengurus');
-            $table->string('sub_klasifikasi_layanan');
-            $table->string('kode');
-            $table->string('kualifikasi');
-            $table->string('penerbit');
-            $table->date('tanggal_terbit');
-            $table->date('masa_berlaku');
-            $table->string('nama_psjk');
-            $table->string('sub_kualifikasi_bu');
+            // $table->foreignId('bujkkontraktor_id');
+            $table->foreignId('bujkkontraktor_id')->constrained()->onDelete('cascade');
+            $table->string('nama_pengurus')->nullable();
+            $table->string('sub_klasifikasi_layanan')->nullable();
+            $table->string('kode')->nullable();
+            $table->string('kualifikasi')->nullable();
+            $table->string('penerbit')->nullable();
+            $table->date('tanggal_terbit')->nullable();
+            $table->date('masa_berlaku')->nullable();
+            $table->string('nama_psjk')->nullable();
+            $table->string('sub_kualifikasi_bu')->nullable();
             $table->softDeletes();
             $table->timestamps();
         });
