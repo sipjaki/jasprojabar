@@ -9,7 +9,7 @@
 	<section class="page-banner" style="background-image: url('/assets/approve/image/bg/page-banner.png')">
 		<div class="container">
 			<div class="page-banner-title">
-				<h3>{{$title}}</h3>
+				<h3 style="color: black">{{$title}}</h3>
 			</div><!-- page-banner-title -->
 		</div><!-- container -->
 	</section><!--page-banner-->
