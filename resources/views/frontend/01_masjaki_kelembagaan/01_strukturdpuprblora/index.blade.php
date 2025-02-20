@@ -22,7 +22,9 @@
 	<section class="portfolio-details">
 		<div class="container">
 			{{-- <img src="assets/image/portfolio/portfolio-details-1.jpg" class="img-fluid" alt="img-109"> --}}
-            <iframe src="{{ asset('storage/' . $data->peraturan) }}" width="100%" height="750" style="border: none;"></iframe>
+            @foreach ($data as $item )
+            <iframe src="{{ asset('storage/' . $item->peraturan) }}" width="100%" height="750" style="border: none;"></iframe>
+            @endforeach
 			{{-- <div class="portfolio-details-info">
 				<div class="portfolio-details-info-item">
 					<span>Category:</span>
