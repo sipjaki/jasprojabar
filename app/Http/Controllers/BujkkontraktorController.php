@@ -55,7 +55,7 @@ class BujkkontraktorController extends Controller
 
     return view('frontend.03_masjaki_jakon.01_bujkkontraktor.bujkkontraktorshow', [
         'title' => 'Data Bujk Kontraktor',
-        'data' => $data,
+        'data' => $databujkkontraktor,
         'subData' => $subdata,  // Jika Anda ingin mengirimkan data sub kontraktor juga
         'user' => $user,
     ]);
