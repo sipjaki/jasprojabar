@@ -21,7 +21,6 @@
 				<div class="col-xxl-12 col-lg-12">
 					<div class="donate-box-inner">
 
-                        <h2>Responsive Table</h2>
                                 <div class="table-wrapper">
                                     <table class="fl-table">
                                         <thead>
