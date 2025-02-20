@@ -77,7 +77,7 @@
                         <li class="has-dropdown">
 							<a href="#">Data Jakon</a>
 							<ul class="list-unstyled">
-								<li><a href="/404">BUJK Kontraktor</a></li>
+								<li><a href="/404">BUJK Kontraktor dan Konsultan</a></li>
 								{{-- <li><a href="/404">BUJK Konsultan</a></li> --}}
 								<li><a href="/404">Tenaga Kerja Konstruksi</a></li>
 								<li><a href="/404">Profil Paket Pekerjaan</a></li>
