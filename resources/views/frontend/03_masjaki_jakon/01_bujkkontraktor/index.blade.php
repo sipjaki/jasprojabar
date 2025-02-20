@@ -30,7 +30,7 @@
                     <div class="service-two-imgbox">
                         <div class="service-two-image">
                             <img src="/assets/03_datajakon/bujkkontraktor.jpg" class="img-fluid" alt="img-28" loading="lazy">
-                            {{-- <a href="service-details.html"></a> --}}
+                            <a href="/404"></a>
                         </div><!-- service-two-image -->
                     </div><!-- service-two-imgbox -->
                     <div class="service-two-card-content">
@@ -48,7 +48,7 @@
                     <div class="service-two-imgbox">
                         <div class="service-two-image">
                             <img src="/assets/03_datajakon/bujkkonsultan.jpg" class="img-fluid" alt="img-29"  loading="lazy">
-                            <a href="service-details.html"></a>
+                            <a href="/404"></a>
                         </div><!-- service-two-image -->
                     </div><!-- service-two-imgbox -->
                     <div class="service-two-card-content">
