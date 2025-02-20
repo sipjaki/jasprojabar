@@ -45,15 +45,15 @@
 			</div><!--/.portfolio-details-info--> --}}
 			<div class="portfolio-details-content">
 				<div class="portfolio-details-content-title">
-					<h3>Rencana Strategis DPUPR Pemerintah Kabupaten Blora</h3>
+					<h3>Tupoksi DPUPR Pemerintah Kabupaten Blora</h3>
 				</div><!-- portfolio-details-content-title -->
 				<div class="portfolio-details-content-text">
 					<p style="text-align: justify" >
-                        Rencana Strategis Dinas Pekerjaan Umum dan Penataan Ruang (DPUPR) Pemerintah Kabupaten Blora dirancang untuk mencapai visi pembangunan infrastruktur yang berkualitas dan berkelanjutan, seiring dengan kebutuhan masyarakat yang terus berkembang. Rencana ini bertujuan untuk meningkatkan efisiensi dan efektivitas dalam pelaksanaan tugas-tugas Dinas PUPR melalui berbagai program yang mencakup pembangunan dan pemeliharaan infrastruktur seperti jalan, jembatan, dan fasilitas umum lainnya. Selain itu, penataan ruang wilayah yang terencana menjadi fokus utama dalam rangka menciptakan keseimbangan antara pembangunan fisik dan pelestarian lingkungan.
+                        Dinas Pekerjaan Umum dan Penataan Ruang (DPUPR) Kabupaten Blora memiliki peran penting dalam perencanaan, pelaksanaan, dan pengendalian pembangunan infrastruktur di wilayah Kabupaten Blora. Tupoksi DPUPR mencakup berbagai kegiatan seperti pengelolaan jalan, jembatan, sumber daya air, dan jaringan air bersih, serta penataan ruang wilayah untuk memastikan pembangunan yang terstruktur dan berkelanjutan. DPUPR bertugas merumuskan kebijakan teknis, menyediakan standar dan pedoman pembangunan, serta melakukan evaluasi terhadap setiap program yang dijalankan.
                     </p>
 
                     <p style="text-align: justify">
-                        Dalam rencana strategis ini, DPUPR Kabupaten Blora akan memprioritaskan pembangunan yang berbasis pada kebutuhan masyarakat, dengan memperhatikan potensi sumber daya yang ada serta menjamin keberlanjutan pembangunan di masa depan. Program-program unggulan seperti pengelolaan sumber daya air, pengembangan sistem transportasi yang terintegrasi, serta pembangunan infrastruktur yang ramah lingkungan akan dijalankan dengan melibatkan berbagai pihak, baik itu pemerintah pusat, daerah, maupun masyarakat. Dengan landasan tersebut, DPUPR Kabupaten Blora berkomitmen untuk mempercepat pencapaian pembangunan yang merata dan meningkatkan kualitas hidup masyarakat Blora secara keseluruhan.
+                        Selain itu, DPUPR Kabupaten Blora juga berperan dalam mendukung tercapainya kesejahteraan masyarakat melalui penyediaan fasilitas publik yang memadai. Dinas ini memastikan agar setiap kegiatan pembangunan sesuai dengan peraturan yang berlaku dan memperhatikan prinsip-prinsip keberlanjutan serta keamanan. DPUPR terus berkomitmen dalam meningkatkan kualitas infrastruktur dan tata ruang yang dapat menunjang pertumbuhan ekonomi serta meningkatkan kualitas hidup masyarakat Blora.
                     </p >
                 </div><!-- portfolio-details-content-text -->
 			</div><!-- portfolio-details-content -->
