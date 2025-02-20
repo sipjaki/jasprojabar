@@ -121,6 +121,7 @@
             <th style="width: 200px">Nama Lengkap</th>
             <th style="width: 100px" >Telepon</th>
             <th style="width: 100px" >Email</th>
+            <th style="width: 75px" >View Data</th>
         </tr>
     </thead>
     <tbody>
