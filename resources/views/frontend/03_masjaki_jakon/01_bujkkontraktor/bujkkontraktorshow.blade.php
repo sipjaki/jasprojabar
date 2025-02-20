@@ -187,7 +187,7 @@
 <table class="fl-table">
     <thead>
         <tr>
-            <th style="text-align:center" >No</th>
+            {{-- <th style="text-align:center" >No</th> --}}
             <th style="text-align:center">Nama Pengurus</th>
             <th style="text-align:center" >Sub Klasifikasi Layanan</th>
             <th style="text-align:center" >Kode</th>
@@ -207,7 +207,7 @@
 
         @foreach ($data as $item )
         <tr>
-            <td>{{ $loop->iteration + $start - 1 }}</td>
+            {{-- <td>{{ $loop->iteration + $start - 1 }}</td> --}}
             <td>{{$item->bujkkontraktorsub->nama_pengurus}}</td>
             <td>{{$item->bujkkontraktorsub->sub_klasifikasi_layanan}}</td>
             <td>{{$item->bujkkontraktorsub->sub_klasifikasi_layanan}}</td>
