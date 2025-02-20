@@ -43,13 +43,15 @@
 									<i class="flaticon-pdf"></i>
 								</div><!-- document-details-icon -->
 								<div class="document-details-content">
-                                    <h5><a href="department-details.html"></a></h5>
-                                    <p>Pdf (194kb)</p>
+                                    <h5>Telepon</h5>
+                                    <p>{{$data->no_telepon}}</p>
+								</div><!-- document-box-content -->
+
+                                <div class="document-details-content">
+                                    <h5>Telepon</h5>
+                                    <p>{{$data->no_telepon}}</p>
 								</div><!-- document-box-content -->
 							</div><!-- document-box-list -->
-							<div class="document-details-button">
-								<a href="assets/inc/sample.pdf" title="download"><i class="fa-solid fa-arrow-down"></i></a>
-							</div><!-- document-details-button -->
 						</div><!-- document-details -->
 
                         <div class="document-details">
