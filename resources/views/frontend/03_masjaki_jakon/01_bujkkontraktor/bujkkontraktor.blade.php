@@ -117,11 +117,11 @@
 <table class="fl-table">
     <thead>
         <tr>
-            <th style="width: 50px;">No</th>
-            <th style="width: 200px">Nama Lengkap</th>
-            <th style="width: 100px" >Telepon</th>
-            <th style="width: 100px" >Email</th>
-            <th style="width: 75px" >View Data</th>
+            <th style="width: 50px; text-align:center" >No</th>
+            <th style="width: 200px text-align:center">Nama Lengkap</th>
+            <th style="width: 100px text-align:center" >Telepon</th>
+            <th style="width: 100px text-align:center" >Email</th>
+            <th style="width: 75px text-align:center" >View Data</th>
         </tr>
     </thead>
     <tbody>
