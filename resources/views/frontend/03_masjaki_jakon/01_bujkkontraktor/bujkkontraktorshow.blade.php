@@ -35,7 +35,7 @@
 						{{-- <h4 class="department-details-title" style="font-size: 20px;">{{ $data->judul}}</h4> --}}
 					</div><!-- department-details-content-box -->
                     <div class="document-details-inner">
-						<h3>Download Documents</h3>
+						<h3>{{$data->namalengkap}}</h3>
 						<div class="document-details">
 							<div class="document-details-list">
 								<div class="document-details-icon">
