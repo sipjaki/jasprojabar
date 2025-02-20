@@ -38,4 +38,19 @@ class BujkkontraktorController extends Controller
         ]);
     }
 
+    public function bujkkontraktorshow($namalengkap)
+    {
+        $data = bujkkontraktor::where('namalengkap', $namalengkap)->firstOrFail();
+        $data = bujkkontraktorsub::all()->firstOrFail();
+        $user = Auth::user();
+
+        return view('frontend.03_masjaki_jakon.01_bujkkontraktor.bujkkontraktor', [
+            // 'title' => 'Details Undang - Undang Jasa Konstruksi',
+            'title' => 'Data Bujk Kontraktor',
+            'data' => $data,
+            'user' => $user,
+        ]);
+    }
+
+
 }
