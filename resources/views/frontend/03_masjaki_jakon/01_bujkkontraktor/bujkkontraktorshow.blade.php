@@ -49,11 +49,10 @@
         <i class="flaticon-pdf"></i>
             </div><!-- service-three-icon -->
                 <div class="service-three-card-content">
-                    <h3>dhfkjghfdkjghfd</h3>
+                    <h3>Nama Pemilik Badan Usaha Jasa Konstruksi</h3>
                     <a href="/">
-                    <p>Undang - Undang Jasa Konstruksi</p>
+                    <p>{{$data->namalengkap}}</p>
                     <div class="service-three-detail">
-                        <span>Show Here</span><i class="fa-solid fa-arrow-right-long"></i>
                         </a>
                         <i class="flaticon-pdf"></i>
                     </div><!-- service-three-detail -->
