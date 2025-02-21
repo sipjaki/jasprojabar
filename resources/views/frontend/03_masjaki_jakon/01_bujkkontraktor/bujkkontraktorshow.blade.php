@@ -35,30 +35,57 @@
 					<div class="donate-box-inner" style="margin-top: -20px;">
 						<form action="#" class="contact-form donation" method="post">
 							<div class="row row-gutter-10">
+
                                 <div class="col-lg-6">
                                     <h5><i class="fas fa-home mr-2" style="margin-right: 5px;"></i>Nama Pemilik </h5>
 									<input type="text" id="fname"  class="input-text" placeholder="{{$data->namalengkap}}*" name="fname" aria-required="true">
 								</div><!-- col-lg-6 -->
-								<div class="col-lg-6">
-									<input type="text" id="lname" class="input-text" placeholder="Last Name" name="lname" aria-required="true">
+
+                                <div class="col-lg-3">
+                                    <h5><i class="fas fa-home mr-2" style="margin-right: 5px;"></i>No Telepon</h5>
+									<input type="text" id="fname"  class="input-text" placeholder="{{$data->no_telepon}}*" name="fname" aria-required="true">
 								</div><!-- col-lg-6 -->
-								<div class="col-lg-12">
-									<input type="email" id="email" class="input-text" placeholder="Email Address*" name="email" aria-required="true">
-								</div><!-- col-lg-12 -->
-								<div class="col-lg-12">
-									<div class="donate-card">
-										<p>To make an offline donation toward this cause, follow these steps:: </p>
-										<ol>
-											<li>Write a check payable to "City Government & Municipal WordPress Theme"</li>
-											<li>On the memo line of the check, indicate that the donation is for "City Government & Municipal WordPress Theme"</li>
-											<li>Mail your check to:</li>
-										</ol><!-- ol -->
-										<p>City Government & Municipal WordPress Theme</p>
-										<p>111 Not A Real St.</p>
-										<p>Anytown, CA 12345 </p>
-										<span>Your tax-deductible donation is greatly appreciated!</span>
-									</div><!-- donate-card -->
-								</div><!-- col-lg-12 -->
+
+                                <div class="col-lg-3">
+                                    <h5><i class="fas fa-home mr-2" style="margin-right: 5px;"></i>Email</h5>
+									<input type="text" id="fname"  class="input-text" placeholder="{{$data->email}}*" name="fname" aria-required="true">
+								</div><!-- col-lg-6 -->
+
+
+                                <div class="col-lg-12">
+                                    <h5><i class="fas fa-home mr-2" style="margin-right: 5px;"></i>Alamat</h5>
+									<input type="text" id="fname"  class="input-text" placeholder="{{$data->alamat}}*" name="fname" aria-required="true">
+								</div><!-- col-lg-6 -->
+
+                                <div class="col-lg-6">
+                                    <h5><i class="fas fa-home mr-2" style="margin-right: 5px;"></i>Nomor Induk Berusaha</h5>
+									<input type="text" id="fname"  class="input-text" placeholder="{{$data->nib}}*" name="fname" aria-required="true">
+								</div><!-- col-lg-6 -->
+
+                                <div class="col-lg-6">
+                                    <h5><i class="fas fa-home mr-2" style="margin-right: 5px;"></i>Penanggung Jawab Umum</h5>
+									<input type="text" id="fname"  class="input-text" placeholder="{{$data->pju}}*" name="fname" aria-required="true">
+								</div><!-- col-lg-6 -->
+
+                                <div class="col-lg-6">
+                                    <h5><i class="fas fa-home mr-2" style="margin-right: 5px;"></i>No Akte</h5>
+									<input type="text" id="fname"  class="input-text" placeholder="{{$data->no_akte}}*" name="fname" aria-required="true">
+								</div><!-- col-lg-6 -->
+
+                                <div class="col-lg-6">
+                                    <h5><i class="fas fa-home mr-2" style="margin-right: 5px;"></i>Tanggal</h5>
+									<input type="text" id="fname"  class="input-text" placeholder="{{$data->tanggal}}*" name="fname" aria-required="true">
+								</div><!-- col-lg-6 -->
+
+                                <div class="col-lg-6">
+                                    <h5><i class="fas fa-home mr-2" style="margin-right: 5px;"></i>Notaris</h5>
+									<input type="text" id="fname"  class="input-text" placeholder="{{$data->nama_notaris}}*" name="fname" aria-required="true">
+								</div><!-- col-lg-6 -->
+
+                                <div class="col-lg-6">
+                                    <h5><i class="fas fa-home mr-2" style="margin-right: 5px;"></i>No Pengesahan </h5>
+									<input type="text" id="fname"  class="input-text" placeholder="{{$data->no_pengesahan}}*" name="fname" aria-required="true">
+								</div><!-- col-lg-6 -->
 
 
 							</div><!-- row row-gutter-10 -->
