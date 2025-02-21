@@ -43,7 +43,7 @@
 
 {{-- @foreach ($data as $item ) --}}
 
-<div class="col-xxl-4 col-xl-6">
+<div class="col-xxl-12 col-xl-6">
     <div class="service-three-card">
         <div class="service-three-icon">
         <i class="flaticon-pdf"></i>
