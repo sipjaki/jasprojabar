@@ -167,7 +167,7 @@
 
                                         /* Header styling */
                                         .fl-table thead {
-                                            background: #f8f8f8;
+                                            background: #22f007;
                                             text-transform: uppercase;
                                             font-weight: 600;
                                             letter-spacing: 0.5px;
