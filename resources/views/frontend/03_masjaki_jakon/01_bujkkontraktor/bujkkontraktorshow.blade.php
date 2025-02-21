@@ -251,9 +251,9 @@
                         </thead>
                         <tbody>
 
-                        @php
+                        {{-- @php
                         $start = ($data->currentPage() - 1) * $data->perPage() + 1;
-                            @endphp
+                            @endphp --}}
 
                             @foreach ($subData as $item )
                             <tr>
