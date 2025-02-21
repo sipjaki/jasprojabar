@@ -47,7 +47,7 @@
 						<a href="#"></a>
                     </div><!-- department-details-imgbox -->
 					<div class="department-details-content-box">
-						<h4 class="department-details-title">Data Statistika</h4>
+						<h4 style="font-size: 20px;" class="department-details-title">{{$title}}</h4>
 
                         <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
                               <script type="text/javascript">
