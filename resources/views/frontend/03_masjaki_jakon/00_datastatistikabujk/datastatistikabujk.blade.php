@@ -49,6 +49,7 @@
 				<div class="col-lg-8">
 					<div class="department-details-imgbox">
                         <!DOCTYPE html>
+                        <!DOCTYPE html>
 
                         <head>
                             <script type='text/javascript' src='https://www.gstatic.com/charts/loader.js'></script>
@@ -61,28 +62,28 @@
                               google.charts.setOnLoadCallback(drawMarkersMap);
 
                               function drawMarkersMap() {
-                                // Data untuk Kabupaten Blora
                                 var data = google.visualization.arrayToDataTable([
                                   ['City', 'Population', 'Area'],
-                                  ['Kabupaten Blora', 2300000, 1500] // Populasi dan area Kabupaten Blora
+                                  ['Blora, Indonesia', 884333, 1820] // Data lebih spesifik untuk Blora
                                 ]);
 
                                 var options = {
-                                  region: 'ID', // Mengatur region ke Indonesia
-                                  displayMode: 'markers', // Menampilkan marker
-                                  colorAxis: {colors: ['green', 'blue']}, // Mengatur warna
-                                  sizeAxis: {minSize: 5, maxSize: 10}, // Menyesuaikan ukuran marker
-                                  tooltip: { isHtml: true } // Tooltip HTML untuk informasi tambahan
+                                  region: 'ID-JT', // Fokus pada Jawa Tengah
+                                  displayMode: 'markers',
+                                  colorAxis: {colors: ['yellow', 'red']}, // Mengubah skema warna
+                                  sizeAxis: {minSize: 10, maxSize: 20}, // Menyesuaikan ukuran marker
+                                  resolution: 'provinces', // Menyesuaikan resolusi ke tingkat provinsi
+                                  tooltip: { isHtml: true },
+                                  backgroundColor: '#f8f9fa', // Mengatur warna latar belakang
                                 };
 
                                 var chart = new google.visualization.GeoChart(document.getElementById('chart_div'));
                                 chart.draw(data, options);
-                              };
+                              }
                             </script>
                           </head>
-
                           <body>
-                            <div id="chart_div" style="width: 900px; height: 500px;"></div>
+                            <div id="chart_div" style="width: 100%; height: 600px;"></div>
                           </body>
 
                     </div><!-- department-details-imgbox -->
