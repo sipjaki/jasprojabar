@@ -79,7 +79,7 @@ class DatastatistikajakonbloraController extends Controller
         // ---------------------------------
 
 
-        return view('frontend.03_masjaki_jakon.00_datastatistikabujk.datastatistikaskktenagakerja', [
+        return view('frontend.03_masjaki_jakon.00_datastatistikabujk.datastatistikaskktenagakerja',   [
             'title' => 'Data Statistika SKK Tenaga Ahli Berdasarkan Jabatan Kerja',
             'user' => $user,
             'data' => $data,
@@ -90,6 +90,7 @@ class DatastatistikajakonbloraController extends Controller
             'datajabatankerja' => $datajabatankerja,
             'datajenjang' => $datajenjang,
             'datalpspenerbit' => $datalpspenerbit,
+            'persentaseJabatan' => $persentaseJabatan,
 
         ]);
     }
