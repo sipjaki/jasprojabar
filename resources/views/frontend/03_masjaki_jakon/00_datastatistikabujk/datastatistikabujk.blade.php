@@ -10,7 +10,7 @@
 	<section class="page-banner">
 		<div class="container">
 			<div class="page-banner-title">
-				<h3 style="font-size: 25px; color:black;">{{$title}}</h3>
+				<h3 style="font-size: 30px; color:black;">{{$title}}</h3>
 			</div><!-- page-banner-title -->
 		</div><!-- container -->
 	</section><!--page-banner-->
@@ -46,6 +46,7 @@
 						<img src="/assets/00_dokmasjaki/03_datajakon/petaindonesiabaru.png" alt="img-159">
 						<a href="#"></a>
                     </div><!-- department-details-imgbox -->
+
 					<div class="department-details-content-box">
 						<h4 style="font-size: 20px;" class="department-details-title">{{$title}}</h4>
 
