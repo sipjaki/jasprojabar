@@ -57,8 +57,8 @@
                           function drawChart() {
                             var data = google.visualization.arrayToDataTable([
                               ['Jabatan Kerja', 'Persentase'],
-                              @foreach($persentaseJabatan as $jabatankerja => $persentase)
-                                ['{{ $jabatankerja }}', {{ $persentase }}],
+                              @foreach($persentaseJabatan as $namaJabatan => $persentase)
+                                ['{{ $namaJabatan }}', {{ $persentase }}],
                               @endforeach
                             ]);
 
@@ -73,6 +73,7 @@
                         </script>
 
                         <div id="piechart" style="width: 900px; height: 500px;"></div>
+
 
                     </div><!-- department-details-content-box -->
 

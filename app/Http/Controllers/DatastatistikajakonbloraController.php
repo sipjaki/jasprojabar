@@ -58,25 +58,24 @@ class DatastatistikajakonbloraController extends Controller
         $datalpspenerbit = lpspenerbit::all();
 
         // ---------------------------------
-        $totalData = skktenagakerjablora::count();
+        $totalData = SkkTenagaKerjaBlora::count();
 
         // Mengambil semua jenis jabatan kerja
-        $dataJabatanKerja = jabatankerja::all();
+        $dataJabatanKerja = JabatanKerja::all();
 
         // Menyiapkan array untuk menyimpan persentase tiap jabatan kerja
         $persentaseJabatan = [];
 
         foreach ($dataJabatanKerja as $jabatankerja) {
             // Hitung jumlah tenaga kerja berdasarkan jabatan kerja
-            $jumlah = skktenagakerjablora::where('jabatankerja_id', $jabatankerja->id)->count();
+            $jumlah = SkkTenagaKerjaBlora::where('jabatankerja_id', $jabatankerja->id)->count();
 
             // Hitung persentase
             $persentase = $totalData > 0 ? ($jumlah / $totalData) * 100 : 0;
 
             // Simpan dalam array dengan format ['Nama Jabatan' => Persentase]
-            $persentaseJabatan[$jabatankerja->id] = $persentase;
+            $persentaseJabatan[$jabatankerja->nama_jabatan] = $persentase;
         }
-
         // ---------------------------------
 
 
