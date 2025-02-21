@@ -49,7 +49,7 @@
 
 				</div><!-- col-lg-8 -->
 
-                <div class="col-lg-12">
+                <div class="col-12 col-lg-12 col-xl-12">
 
 					<div class="department-details-content-box">
 						<h4 style="font-size: 20px;" class="department-details-title">{{$title}}</h4>
