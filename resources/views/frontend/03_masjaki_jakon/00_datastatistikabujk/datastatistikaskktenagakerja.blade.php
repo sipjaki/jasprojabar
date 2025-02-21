@@ -76,7 +76,9 @@
 
 {{-- ============================= --}}
 
-<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+<html>
+  <head>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
     <script type="text/javascript">
       google.charts.load('current', {'packages':['bar']});
       google.charts.setOnLoadCallback(drawChart);
@@ -84,8 +86,9 @@
       function drawChart() {
         var data = google.visualization.arrayToDataTable([
           ['Jabatan Kerja', 'Jumlah Tenaga Kerja'],
-          @foreach($jumlahDatabaru as $jabatanId => $jumlah)
-            ['{{ $jabatankerja->find($jabatanId)->jabatankerja }}', {{ $jumlah }}],
+          @foreach($jumlahData as $jabatanId => $jumlah)
+            @php $jabatan = App\Models\jabatankerja::find($jabatanId); @endphp
+            ['{{ $jabatan ? $jabatan->jabatankerja : "Unknown" }}', {{ $jumlah }}],
           @endforeach
         ]);
 
@@ -103,10 +106,11 @@
         chart.draw(data, google.charts.Bar.convertOptions(options));
       }
     </script>
-
-<body>
+  </head>
+  <body>
     <div id="columnchart_material" style="width: 800px; height: 500px;"></div>
   </body>
+</html>
 
                     </div><!-- department-details-content-box -->
 
