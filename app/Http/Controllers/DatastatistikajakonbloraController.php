@@ -63,10 +63,10 @@ class DatastatistikajakonbloraController extends Controller
         // Buat array persentase berdasarkan jumlah tenaga kerja
         $persentaseJabatan = jabatankerja::whereIn('id', $jumlahData->keys())
             ->get()
-            ->map(function ($jabatan) use ($jumlahData, $totalTenagaKerja) {
-                $jumlah = $jumlahData[$jabatan->id] ?? 0;
+            ->map(function ($jabatankerja) use ($jumlahData, $totalTenagaKerja) {
+                $jumlah = $jumlahData[$jabatankerja->id] ?? 0;
                 return [
-                    'jabatan' => $jabatan->nama,
+                    'jabatan' => $jabatankerja->jabatankerja,
                     'persentase' => $totalTenagaKerja > 0 ? round(($jumlah / $totalTenagaKerja) * 100, 2) : 0
                 ];
             });
