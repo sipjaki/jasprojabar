@@ -237,16 +237,16 @@
                         <thead>
                             <tr>
                                 {{-- <th style="text-align:center" >No</th> --}}
-                                <th style="text-align:center">No</th>
-                                <th style="text-align:center">Nama Pengurus</th>
-                                <th style="text-align:center" >Sub Klasifikasi Layanan</th>
-                                <th style="text-align:center" >Kode</th>
-                                <th style="text-align:center" >Kualifikasi</th>
-                                <th style="text-align:center" >Penerbit</th>
-                                <th style="text-align:center" >Tanggal Terbit</th>
-                                <th style="text-align:center" >Masa Berlaku</th>
-                                <th style="text-align:center" >Nama PSJK</th>
-                                <th style="text-align:center" >Sub Kualifikasi Badan Usaha</th>
+                                <th style="text-align:center" style="color: black" >No</th>
+                                <th style="text-align:center" style="color: black">Nama Pengurus</th>
+                                <th style="text-align:center" style="color: black" >Sub Klasifikasi Layanan</th>
+                                <th style="text-align:center" style="color: black" >Kode</th>
+                                <th style="text-align:center" style="color: black" >Kualifikasi</th>
+                                <th style="text-align:center" style="color: black">Penerbit</th>
+                                <th style="text-align:center" style="color: black">Tanggal Terbit</th>
+                                <th style="text-align:center" style="color: black">Masa Berlaku</th>
+                                <th style="text-align:center" style="color: black">Nama PSJK</th>
+                                <th style="text-align:center" style="color: black">Sub Kualifikasi Badan Usaha</th>
                                 </tr>
                         </thead>
                         <tbody>
