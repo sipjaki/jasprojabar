@@ -135,7 +135,7 @@
 							<div class="document-details-list">
                                 <div class="centered-button">
                                     <button class="green-button" style="margin-bottom:10px;">
-                                        <i class="fas fa-list mr-2"></i> Sub Klasifikasi Layanan
+                                        <i class="fas fa-file mr-2" style="margin-right:5px;"></i> SUB KLASIFIKASI LAYANAN
                                     </button>
 
                                 </div>
