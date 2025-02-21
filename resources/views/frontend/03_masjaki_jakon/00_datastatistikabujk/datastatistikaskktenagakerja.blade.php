@@ -97,7 +97,7 @@
             title: 'Statistik SKK Tenaga Ahli Berdasarkan Jabatan Kerja',
             subtitle: 'Jumlah tenaga kerja per jabatan',
           },
-          bars: 'horizontal', // Bisa diubah ke 'vertical' jika ingin tampilan vertikal
+          bars: 'vertical', // Bisa diubah ke 'vertical' jika ingin tampilan vertikal
           height: 500,
           colors: ['#fdba00']
         };
