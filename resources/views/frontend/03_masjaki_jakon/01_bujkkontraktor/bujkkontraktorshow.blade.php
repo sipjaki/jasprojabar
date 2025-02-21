@@ -185,7 +185,7 @@
                                         .fl-table thead {
                                             background: #ffd000;
                                             text-transform: uppercase;
-                                            font-weight: 600;
+                                            font-weight: 800;
                                             letter-spacing: 0.5px;
                                         }
 
