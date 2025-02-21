@@ -3377,6 +3377,21 @@ skktenagakerjablora::create([
     'statusterbit' => 'TERBIT',
 ]);
 
+skktenagakerjablora::create([
+    'nama' => 'AHMAD FAHRUDIN', // Ganti dengan ID yang sesuai
+    'alamat' => 'Dk.sendang klampok rt.01 rw.09 tempurejo blora',
+    'namasekolah_id' => 34,
+    'jenjangpendidikan_id' => 4,
+    'jurusan_id' => 13,
+    'tahunlulus' => '2010',
+    'jabatankerja_id' => 4,
+    'jenjang_id' => 4,
+    'lpspenerbit_id' => 1,
+    'tanggalterbit' => '2024-03-16',
+    'tanggalhabis' => '2029-03-15',
+    'statusterbit' => 'TERBIT',
+]);
+
 //======================== ===================================================================================
 //======================== ===================================================================================
 //======================== ===================================================================================
