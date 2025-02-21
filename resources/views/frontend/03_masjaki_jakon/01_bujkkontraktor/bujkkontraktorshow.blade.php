@@ -35,7 +35,7 @@
 					<div class="donate-box-inner">
 
 
-						{{-- <form action="assets/inc/sendemail.php" class="contact-form donation" method="post"> --}}
+						<form action="#" class="contact-form donation" method="post">
 							<div class="row row-gutter-10">
 								<h3>Personal Info</h3>
 								<div class="col-lg-6">
