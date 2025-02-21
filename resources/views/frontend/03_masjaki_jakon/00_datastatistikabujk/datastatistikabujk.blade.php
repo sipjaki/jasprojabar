@@ -48,7 +48,7 @@
 				</div><!--col-12 col-lg-4 col-xl-4-->
 				<div class="col-lg-8">
 					<div class="department-details-imgbox">
-						<img src="/assets/oo_dokmasjaki/03_datajakon/petaindonesia.png" alt="img-159">
+						<img src="/assets/00_dokmasjaki/03_datajakon/petaindonesia.png" alt="img-159">
 						<a href="#"></a>
                     </div><!-- department-details-imgbox -->
 					<div class="department-details-content-box">
