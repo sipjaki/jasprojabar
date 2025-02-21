@@ -26,6 +26,8 @@
 
                 <h3><i class="fas fa-building mr-2" style="margin-right: 10px;"></i>Informasi : {{$data->namalengkap}}</h3>
 
+
+                {{-- ------------------------------------------------------------------------------------------ --}}
                 <div class="col-lg-12">
 
                     <div class="department-details-imgbox">
