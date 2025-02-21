@@ -30,8 +30,9 @@
                 <div class="col-lg-12">
 
                     <div class="department-details-imgbox">
+                        <i class="flaticon-pdf"></i>
                         {{-- <iframe src="{{ asset('storage/' . $data->peraturan) }}" width="100%" height="750" style="border: none;"></iframe> --}}
-                        <a href="assets/pdf/sample.pdf" target="_blank"></a>
+                        {{-- <a href="assets/pdf/sample.pdf" target="_blank"></a> --}}
                     </div><!-- department-details-imgbox -->
 
                     <div class="department-details-content-box">
@@ -87,6 +88,27 @@
 
 							</div><!-- document-box-list -->
 						</div><!-- document-details -->
+
+
+                                    </div><!-- col-lg-8 -->
+                                </div><!-- row -->
+                            </div><!-- container -->
+                        </div><!--page-wrapper-->
+                    </div><!--page-wrapper-->
+                </div><!--page-wrapper-->
+
+                <div class="col-lg-12">
+
+                    <div class="department-details-imgbox">
+                        {{-- <iframe src="{{ asset('storage/' . $data->peraturan) }}" width="100%" height="750" style="border: none;"></iframe> --}}
+                        <a href="assets/pdf/sample.pdf" target="_blank"></a>
+                    </div><!-- department-details-imgbox -->
+
+                    <div class="department-details-content-box">
+						{{-- <h4 class="department-details-title" style="font-size: 20px;">{{ $data->judul}}</h4> --}}
+					</div><!-- department-details-content-box -->
+                    <div class="document-details-inner">
+
 
                         <div class="document-details">
 							<div class="document-details-list">
@@ -227,7 +249,6 @@
                     </table>
                     </div>
 
-
                                                 </div><!-- document-details-list -->
 
                                             </div><!-- document-details -->
@@ -240,6 +261,7 @@
                         </div><!--page-wrapper-->
                     </div><!--page-wrapper-->
                 </div><!--page-wrapper-->
+
             </div><!--page-wrapper-->
         </div><!--page-wrapper-->
     </section><!-- department-details-section -->
