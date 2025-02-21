@@ -63,6 +63,8 @@ use App\Models\tupoksi;
 use App\Models\uijk;
 use App\Models\bujkkontraktor;
 use App\Models\bujkkontraktorsub;
+use App\Models\bujkkonsultan;
+use App\Models\bujkkonsultansub;
 
 // use App\Models\paketpekerjaan;
 use Database\Factories\SkktenagakerjaFactory;
@@ -2372,6 +2374,7 @@ tupoksi::create([
 
 
 // MAS JAKI DATA JASA KONSTRUKSI
+//======================== ===================================================================================
 bujkkontraktor::create([
     'bujkkontraktorsub_id' => 1, // Ganti dengan ID yang sesuai
     'namalengkap' => 'Mandra Kanta Unggul',
@@ -2464,6 +2467,73 @@ bujkkontraktorsub::create([
     'sub_kualifikasi_bu' => null
 ]);
 
+// DATA BUJK KONSULTAN MAS JAKI APLIKASI
+//======================== ===================================================================================
+bujkkonsultan::create([
+    'bujkkonsultansub_id' => 1, // Ganti dengan ID yang sesuai
+    'namalengkap' => 'Tiara Energi',
+    'alamat' => 'Desa Gersi, Desa/Kelurahan Gersi, Kec. Jepon, Kab. Blora, Provinsi Jawa Tengah',
+    'no_telepon' => '081325657254',
+    'email' => 'tiarasinergi@gmail.com ',
+    'nib' => '9120312062216',
+    'pju' => 'MOCHAMAD ARIANTO',
+    'no_akte' => '03',
+    'tanggal' => '2024-06-10',
+    'nama_notaris' => 'Selamet Mulyono M.Kn.',
+    'no_pengesahan' => 'AHU-0030674-AH.01.16 Tahun 2022'
+]);
+
+bujkkonsultansub ::create([
+    'bujkkonsultan_id' => 1, // Ganti dengan ID yang sesuai
+    'nama_pengurus' => 'MOCHAMAD ARIANTO',
+    'sub_klasifikasi_layanan' => 'Jasa Rekayasa Konstruksi Bangunan Gedung Hunian dan Non Hunian',
+    'kode' => ' RK001',
+    'kualifikasi' => 'Kecil',
+    'penerbit' => 'Lembaga Sertiﬁkasi INKINDO',
+    'tanggal_terbit' => '2024-12-23',
+    'masa_berlaku' => '2026-12-22',
+    'nama_psjk' => 'SITI JUMROK ATUN MUALIMAH, ST',
+    'sub_kualifikasi_bu' => 'Jasa Rekayasa Konstruksi Bangunan Gedung Hunian dan Non Hunian'
+]);
+
+bujkkonsultansub::create([
+    'bujkkonsultan_id' => 1, // Ganti dengan ID yang sesuai
+    'nama_pengurus' => null, // Kosong tapi tetap ada
+    'sub_klasifikasi_layanan' => 'Aktivitas Arsitektur',
+    'kode' => null,
+    'kualifikasi' => 'Belum Memenuhi Syarat',
+    'penerbit' => null,
+    'tanggal_terbit' => null,
+    'masa_berlaku' => null,
+    'nama_psjk' => null,
+    'sub_kualifikasi_bu' => null
+]);
+
+bujkkonsultansub::create([
+    'bujkkonsultan_id' => 1, // Ganti dengan ID yang sesuai
+    'nama_pengurus' => null, // Kosong tapi tetap ada
+    'sub_klasifikasi_layanan' => 'Aktivitas Keinsinyuran dan Konsultasi Teknis YBDI',
+    'kode' => null,
+    'kualifikasi' => 'Belum Memenuhi Syarat',
+    'penerbit' => null,
+    'tanggal_terbit' => null,
+    'masa_berlaku' => null,
+    'nama_psjk' => null,
+    'sub_kualifikasi_bu' => null
+]);
+
+bujkkonsultansub::create([
+    'bujkkonsultan_id' => 1, // Ganti dengan ID yang sesuai
+    'nama_pengurus' => null, // Kosong tapi tetap ada
+    'sub_klasifikasi_layanan' => 'Aktivitas Desain Interior',
+    'kode' => null,
+    'kualifikasi' => 'Belum Memenuhi Syarat',
+    'penerbit' => null,
+    'tanggal_terbit' => null,
+    'masa_berlaku' => null,
+    'nama_psjk' => null,
+    'sub_kualifikasi_bu' => null
+]);
 
 //======================== ===================================================================================
 standarbiayaumum::create([
