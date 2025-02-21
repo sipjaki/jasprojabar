@@ -134,8 +134,8 @@
                         <div class="document-details">
 							<div class="document-details-list">
                                 <div class="centered-button">
-                                    <button class="green-button" style="margin-bottom:10px;">
-                                        <i class="fas fa-file mr-2" style="margin-right:5px;"></i> SUB KLASIFIKASI LAYANAN
+                                    <button class="green-button" style="margin-bottom:10px; text-transform:uppercase">
+                                        <i class="fas fa-file mr-2" style="margin-right:5px;"></i> SUB KLASIFIKASI LAYANAN : {{$data->namalengkap}}
                                     </button>
 
                                 </div>
