@@ -106,19 +106,19 @@
                                     <input type="text" id="fname" class="input-text" placeholder="{{$data->alamat}}" name="fname" aria-required="true" readonly>
                                 </div><!-- col-lg-12 -->
 
-                                <div class="col-lg-6">
-                                    <h6><i class="fas fa-envelope mr-2" style="margin-right: 5px;"></i>Email</h6>
-                                    <input type="text" id="fname" class="input-text" placeholder="{{$data->email}}" name="fname" aria-required="true" readonly>
+                                <div class="col-lg-4">
+                                    <h6><i class="fas fa-envelope mr-2" style="margin-right: 5px;"></i>Jurusan</h6>
+                                    <input type="text" id="fname" class="input-text" placeholder="{{$data->jurusan->jurusan}}" name="fname" aria-required="true" readonly>
                                 </div><!-- col-lg-6 -->
 
-                                <div class="col-lg-6">
-                                    <h6><i class="fas fa-user-tie mr-2" style="margin-right: 5px;"></i>Penanggung Jawab Umum</h6>
-                                    <input type="text" id="fname" class="input-text" placeholder="{{$data->pju}}" name="fname" aria-required="true" readonly>
+                                <div class="col-lg-4">
+                                    <h6><i class="fas fa-user-tie mr-2" style="margin-right: 5px;"></i>Tahun Lulus</h6>
+                                    <input type="text" id="fname" class="input-text" placeholder="{{$data->tahunlulus}}" name="fname" aria-required="true" readonly>
                                 </div><!-- col-lg-6 -->
 
-                                <div class="col-lg-6">
-                                    <h6><i class="fas fa-file-alt mr-2" style="margin-right: 5px;"></i>No Akte</h6>
-                                    <input type="text" id="fname" class="input-text" placeholder="{{$data->no_akte}}" name="fname" aria-required="true" readonly>
+                                <div class="col-lg-4">
+                                    <h6><i class="fas fa-file-alt mr-2" style="margin-right: 5px;"></i>Jabatan Kerja</h6>
+                                    <input type="text" id="fname" class="input-text" placeholder="{{$data->jabatankerja->jabatankerja}}" name="fname" aria-required="true" readonly>
                                 </div><!-- col-lg-6 -->
 
                                 <div class="col-lg-6">
