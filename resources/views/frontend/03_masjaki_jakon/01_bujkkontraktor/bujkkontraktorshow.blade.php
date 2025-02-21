@@ -28,17 +28,6 @@
 
                 {{-- ------------------------------------------------------------------------------------------ --}}
                 <div class="col-lg-12">
-
-                    <div class="department-details-imgbox">
-                        {{-- <iframe src="{{ asset('storage/' . $data->peraturan) }}" width="100%" height="750" style="border: none;"></iframe> --}}
-                        <a href="assets/pdf/sample.pdf" target="_blank"></a>
-                    </div><!-- department-details-imgbox -->
-
-                    <div class="department-details-content-box">
-						{{-- <h4 class="department-details-title" style="font-size: 20px;">{{ $data->judul}}</h4> --}}
-					</div><!-- department-details-content-box -->
-                    <div class="document-details-inner">
-
 						<div class="document-details">
 							<div class="document-details-list">
 								<div class="document-details-icon">
