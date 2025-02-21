@@ -130,7 +130,22 @@
                                     <h6><i class="fas fa-pencil-alt mr-2" style="margin-right: 5px;"></i>LPS Penerbit</h6>
                                     <input type="text" id="fname" class="input-text" placeholder="{{$data->lpspenerbit->lpspenerbit}}" name="fname" aria-required="true" readonly>
                                 </div><!-- col-lg-6 -->
->
+
+                                <div class="col-lg-4">
+                                    <h6><i class="fas fa-pencil-alt mr-2" style="margin-right: 5px;"></i>Tanggal Terbit</h6>
+                                    <input type="text" id="fname" class="input-text" placeholder="{{$data->tanggalterbit}}" name="fname" aria-required="true" readonly>
+                                </div><!-- col-lg-6 -->
+
+                                <div class="col-lg-4">
+                                    <h6><i class="fas fa-pencil-alt mr-2" style="margin-right: 5px;"></i>Masa Berlaku</h6>
+                                    <input type="text" id="fname" class="input-text" placeholder="{{$data->tanggalhabis}}" name="fname" aria-required="true" readonly>
+                                </div><!-- col-lg-6 -->
+
+                                <div class="col-lg-4">
+                                    <h6><i class="fas fa-pencil-alt mr-2" style="margin-right: 5px;"></i>Status</h6>
+                                    <input type="text" id="fname" class="input-text" placeholder="{{$data->statusterbit}}" name="fname" aria-required="true" readonly>
+                                </div><!-- col-lg-6 -->
+
                         </div><!-- row row-gutter-10 -->
 						</form><!-- contact-form -->
 					</div><!-- donate-box-inner -->
