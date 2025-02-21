@@ -60,7 +60,6 @@ class SkktenagakerjabloraController extends Controller
     {
         $dataskk = skktenagakerjablora::where('nama', $nama)->first();
 
-        $data = skktenagakerjablora::paginate(15);
         $datanamasekolah = namasekolah::all();
         $datajenjangpendidikan = jenjangpendidikan::all();
         $datajurusan = jurusan::all();
