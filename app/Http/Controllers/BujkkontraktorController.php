@@ -62,6 +62,7 @@ class BujkkontraktorController extends Controller
         'data' => $databujkkontraktor,
         'subData' => $subdata,  // Jika Anda ingin mengirimkan data sub kontraktor juga
         'user' => $user,
+        'start' => $start,
     ]);
     }
 

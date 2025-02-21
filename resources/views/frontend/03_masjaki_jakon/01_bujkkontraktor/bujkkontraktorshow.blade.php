@@ -251,10 +251,10 @@
                         </thead>
                         <tbody>
 
-                        @php
+                        {{-- @php
                             // Pastikan $data tidak null atau tidak terdefinisi
                             $start = ($data && $data->currentPage()) ? ($data->currentPage() - 1) * $data->perPage() + 1 : 1;
-                        @endphp
+                        @endphp --}}
 
                         @foreach ($subData as $item)
                         <tr>
