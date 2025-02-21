@@ -30,10 +30,6 @@
                 <div class="col-lg-12">
 						<div class="document-details">
 							<div class="document-details-list">
-								<div class="document-details-icon">
-                                    <i class="fa fa-hard-hat"></i> <!-- Ikon helm konstruksi -->
-                                </div><!-- document-details-icon -->
-
                                 <div class="document-details-content">
                                     <h5><i class="fa fa-phone"> :</i> Telepon</h5>
                                     <p>{{$data->no_telepon}}</p>
