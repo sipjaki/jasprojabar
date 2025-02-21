@@ -18,6 +18,7 @@ use App\Http\Controllers\TertibjakonController;
 use App\Http\Controllers\BujkkontraktorController;
 use App\Http\Controllers\BujkkonsultanController;
 use App\Http\Controllers\DatastatistikajakonbloraController;
+use App\Http\Controllers\SkktenagakerjabloraController;
 use App\Http\Controllers\UndangundangController;
 use Database\Factories\DatajakonFactory;
 use Database\Factories\SkktenagakerjaFactory;
@@ -106,6 +107,14 @@ Route::get('/datajakon/bujkkonsultan/{namalengkap}', [BujkkonsultanController::c
 
 // BUAT BARU UNTUK APLIKASI MAS JAKI DATA JAKON DATA STATISTIKA
 Route::get('/datajakon/statistikabujkblora', [DatastatistikajakonbloraController::class, 'databujk']);
+
+// BUAT BARU UNTUK APLIKASI DATA SKK TENAGA KERJA BLORA
+Route::get('/datajakon/skktenagakerjablora', [SkktenagakerjabloraController::class, 'index']);
+Route::get('/datajakon/skktenagakerjablora', [SkktenagakerjabloraController::class, 'listskktenagakerjablora']);
+Route::get('/datajakon/skktenagakerjablora/{nama}', [SkktenagakerjabloraController::class, 'listskktenagakerjablorashow']);
+
+
+// ------------- HALAMAN UNTUK DATA SERTIFIKASI TENAGA KERJA AHLI -----------------
 
 // -------- BAGIAN 01 PENGAWASAN DAN KETERTIBAN  ---------------------------------
 Route::get('/datajakon/pengawasan', [DatajakonController::class, 'pengawasan']);
