@@ -28,10 +28,9 @@
 					<div class="sidebar">
 						<div class="sidebar-widget-list-inner">
 							<ul>
-								<li><a href="/datajakon/bujk"><i class="fa-solid fa-arrow-left-long"></i>Kembali</a></li>
-								<li style="text-align: center"><a style="text-align: center;" href="#">Data Statistika<i class="fa-solid fa-database" style="margin-left: 10px;"></i></a></li>
-								<li style="text-align: center"><a style="text-align: center;" href="#">Total Data Kontraktor : {{ $datakontraktor }}<i class="fa-solid fa-edit" style="margin-left: 10px;"></i></li>
-								<li style="text-align: center"><a style="text-align: center;" href="#">Total Data Konsultan : {{ $datakonsultan }}<i class="fa-solid fa-edit" style="margin-left: 10px;"></i></li>
+								<li><a href="/datajakon/skktenagakerja"><i class="fa-solid fa-arrow-left-long"></i>Kembali</a></li>
+								<li style="text-align: center"><a style="text-align: center;" href="#"> Tenaga Ahli Berdasarkan Jabatan Kerja<i class="fa-solid fa-database" style="margin-left: 10px;"></i></a></li>
+								<li style="text-align: center"><a style="text-align: center;" href="#">Total Tenaga Ahli : {{ $data }}<i class="fa-solid fa-edit" style="margin-left: 10px;"></i></li>
 
 							</ul><!-- ul -->
 						</div><!-- sidebar-widget-list-inner -->
