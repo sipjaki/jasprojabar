@@ -50,6 +50,10 @@ class BujkkontraktorController extends Controller
         // Menggunakan paginate() untuk pagination
         $subdata = bujkkontraktorsub::where('bujkkontraktor_id', $databujkkontraktor->id)->paginate(10);
 
+          // Menghitung nomor urut mulai
+            $start = ($subdata->currentPage() - 1) * $subdata->perPage() + 1;
+
+
     // Ambil data user saat ini
     $user = Auth::user();
 
