@@ -49,15 +49,16 @@
         <i class="flaticon-pdf"></i>
             </div><!-- service-three-icon -->
                 <div class="service-three-card-content">
-                            <h3>Nama Lengkap Badan Usaha Jasa Konstruksi </h3>
-                            <p>{{$data->namalengkap}}</p>
-                            <div class="service-three-detail">
-                            </div><!-- service-three-detail -->
-                        </div><!-- service-three-card-content -->
-                    </div><!-- service-three-card -->
-                </div><!-- col-xxl-4 col-xl-6 -->
-
-
+                    <h3><a href="/peraturan/undangundang/{{$item->judul}}">{{$item->judul}}</a></h3>
+                    <a href="/peraturan/undangundang/{{$item->judul}}">
+                    <p>Undang - Undang Jasa Konstruksi</p>
+                    <div class="service-three-detail">
+                            <span>Show Here</span><i class="fa-solid fa-arrow-right-long"></i>
+                        </a>
+                        <i class="flaticon-pdf"></i>
+                    </div><!-- service-three-detail -->
+                </div><!-- service-three-card -->
+            </div><!-- col-xxl-4 col-xl-6 -->
 {{-- @endforeach --}}
 
           </div><!-- row -->
