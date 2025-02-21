@@ -46,11 +46,11 @@
 									<input type="text" id="fname"  class="input-text" placeholder="{{$data->no_telepon}}" name="fname" aria-required="true" readonly>
 								</div><!-- col-lg-6 -->
 
-                                <div class="col-lg-3">
-                                    <h5><i class="fas fa-home mr-2" style="margin-right: 5px;"></i>Email</h5>
-									<input type="text" id="fname"  class="input-text" placeholder="{{$data->email}}" name="fname" aria-required="true" readonly>
-								</div><!-- col-lg-6 -->
 
+                                <div class="col-lg-3">
+                                    <h5><i class="fas fa-home mr-2" style="margin-right: 5px;"></i>Nomor Induk Berusaha</h5>
+									<input type="text" id="fname"  class="input-text" placeholder="{{$data->nib}}" name="fname" aria-required="true" readonly>
+								</div><!-- col-lg-6 -->
 
                                 <div class="col-lg-12">
                                     <h5><i class="fas fa-home mr-2" style="margin-right: 5px;"></i>Alamat</h5>
@@ -58,8 +58,8 @@
 								</div><!-- col-lg-6 -->
 
                                 <div class="col-lg-6">
-                                    <h5><i class="fas fa-home mr-2" style="margin-right: 5px;"></i>Nomor Induk Berusaha</h5>
-									<input type="text" id="fname"  class="input-text" placeholder="{{$data->nib}}" name="fname" aria-required="true" readonly>
+                                    <h5><i class="fas fa-home mr-2" style="margin-right: 5px;"></i>Email</h5>
+									<input type="text" id="fname"  class="input-text" placeholder="{{$data->email}}" name="fname" aria-required="true" readonly>
 								</div><!-- col-lg-6 -->
 
                                 <div class="col-lg-6">
