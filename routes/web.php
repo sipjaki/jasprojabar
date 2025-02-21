@@ -17,6 +17,7 @@ use App\Http\Controllers\SettingmenuController;
 use App\Http\Controllers\TertibjakonController;
 use App\Http\Controllers\BujkkontraktorController;
 use App\Http\Controllers\BujkkonsultanController;
+use App\Http\Controllers\DatastatistikajakonbloraController;
 use App\Http\Controllers\UndangundangController;
 use Database\Factories\DatajakonFactory;
 use Database\Factories\SkktenagakerjaFactory;
@@ -102,6 +103,9 @@ Route::get('/datajakon/bujkkontraktor/{namalengkap}', [BujkkontraktorController:
 // BUAT BARU UNTUK APLIKASI MAS JAKI DATA JAKON BLORA BUJK KONSULTAN
 Route::get('/datajakon/bujkkonsultan', [BujkkonsultanController::class, 'bujkkonsultan']);
 Route::get('/datajakon/bujkkonsultan/{namalengkap}', [BujkkonsultanController::class, 'bujkkonsultanshow']);
+
+// BUAT BARU UNTUK APLIKASI MAS JAKI DATA JAKON DATA STATISTIKA
+Route::get('/datajakon/statistikabujkblora', [DatastatistikajakonbloraController::class, 'databujk']);
 
 // -------- BAGIAN 01 PENGAWASAN DAN KETERTIBAN  ---------------------------------
 Route::get('/datajakon/pengawasan', [DatajakonController::class, 'pengawasan']);
