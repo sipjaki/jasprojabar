@@ -251,14 +251,13 @@
                         </thead>
                         <tbody>
 
-                        {{-- @php
+                        @php
                         $start = ($data->currentPage() - 1) * $data->perPage() + 1;
-                            @endphp --}}
+                            @endphp
 
                             @foreach ($subData as $item )
                             <tr>
                                 <td>{{ $loop->iteration + $start - 1 }}</td>
-                                {{-- <td>{{ $loop->iteration + $start - 1 }}</td> <!-- Nomor urut otomatis --> --}}
                                 <td>{{$item->nama_pengurus}}</td>
                                 <td>{{$item->nama_pengurus}}</td>
                                 <td>{{$item->sub_klasifikasi_layanan}}</td>
