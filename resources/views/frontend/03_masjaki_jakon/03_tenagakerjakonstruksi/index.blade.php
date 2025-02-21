@@ -29,14 +29,14 @@
                 <div class="service-two-card">
                     <div class="service-two-imgbox">
                         <div class="service-two-image" style="display: flex; justify-content: center;">
-                            <img src="/assets/03_datajakon/kontraktor.png" class="img-fluid" alt="img-28" loading="lazy" style="width: 70%  ">
-                            <a href="/datajakon/bujkkontraktor"></a>
+                            <img src="/assets/03_datajakon/skktenagaahli.png" class="img-fluid" alt="img-28" loading="lazy" style="width: 70%  ">
+                            <a href="/datajakon/skktenagakerjablora"></a>
                         </div><!-- service-two-image -->
                     </div><!-- service-two-imgbox -->
                     <div class="service-two-card-content">
-                        <h4>BUJK Kontraktor</h4>
+                        <h4>SKK Tenaga Ahli</h4>
                         <p>Dinas Pekerjaan Umum dan Penataan Ruang <br> Pemerintah Kabupaten Blora Provinsi Jawa Tengah</p>
-                        <a href="/datajakon/bujkkontraktor">
+                        <a href="/datajakon/skktenagakerjablora">
                             <i class="fa-solid fa-arrow-right-long"></i>
                             <span>Lihat Data</span>
                         </a>
@@ -47,39 +47,20 @@
                 <div class="service-two-card">
                     <div class="service-two-imgbox" >
                         <div class="service-two-image" style="display: flex; justify-content: center;">
-                            <img src="/assets/03_datajakon/konsultan.png"  class="img-fluid" alt="img-29"  loading="lazy" style="width:70% ">
-                            <a href="/datajakon/bujkkonsultan"></a>
+                            <img src="/assets/03_datajakon/datastatistikaskk.png"  class="img-fluid" alt="img-29"  loading="lazy" style="width:70% ">
+                            <a href="/404"></a>
                         </div><!-- service-two-image -->
                     </div><!-- service-two-imgbox -->
                     <div class="service-two-card-content">
-                        <h4>BUJK Konsultan</h4>
+                        <h4>Data Statistika SKK Tenaga Ahli</h4>
                         <p>Dinas Pekerjaan Umum dan Penataan Ruang <br> Pemerintah Kabupaten Blora Provinsi Jawa Tengah</p>
-                        <a href="/datajakon/bujkkonsultan">
+                        <a href="/404">
                             <i class="fa-solid fa-arrow-right-long"></i>
                             <span>Lihat Data</span>
                         </a>
                     </div><!--service-two-card-content-->
                 </div><!--service-two-card-->
             </div><!--col-12 col-lg-4 col-xl-4-->
-            <div class="col-12 col-lg-4 col-xl-4">
-                <div class="service-two-card">
-                    <div class="service-two-imgbox">
-                        <div class="service-two-image" style="display: flex; justify-content: center;">
-                            <img src="/assets/03_datajakon/datastatistika.png" class="img-fluid" alt="img-29"  loading="lazy" style="width: 70%">
-                            <a href="/datajakon/statistikabujkblora"></a>
-                        </div><!-- service-two-image -->
-                    </div><!-- service-two-imgbox -->
-                    <div class="service-two-card-content">
-                        <h4>Data Statistika</h4>
-                        <p>Dinas Pekerjaan Umum dan Penataan Ruang <br> Pemerintah Kabupaten Blora Provinsi Jawa Tengah</p>
-                        <a href="/datajakon/statistikabujkblora">
-                            <i class="fa-solid fa-arrow-right-long"></i>
-                            <span>Lihat Data</span>
-                        </a>
-                    </div><!--service-two-card-content-->
-                </div><!--service-two-card-->
-            </div><!--col-12 col-lg-4 col-xl-4-->
-
 
         </div><!-- row -->
     </div><!-- container -->
