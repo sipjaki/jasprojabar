@@ -34,16 +34,12 @@
 				<div class="col-xxl-12 col-lg-12">
 					<div class="donate-box-inner">
 
-						<div class="donate-amount">
-							<span>$</span>
-							<input class="give-amount" type="text" autocomplete="off" id="sd">
-						</div><!-- donate-amount -->
 
-						<form action="assets/inc/sendemail.php" class="contact-form donation" method="post">
+						{{-- <form action="assets/inc/sendemail.php" class="contact-form donation" method="post"> --}}
 							<div class="row row-gutter-10">
-								<h3>Personal Info</h3>
+								<h3>Nama Pemilik</h3>
 								<div class="col-lg-6">
-									<input type="text" id="fname"  class="input-text" placeholder="First Name*" name="fname" aria-required="true">
+									<input type="text" id="fname"  class="input-text" placeholder="First Name*" name="fname" aria-required="true" readonly>
 								</div><!-- col-lg-6 -->
 								<div class="col-lg-6">
 									<input type="text" id="lname" class="input-text" placeholder="Last Name" name="lname" aria-required="true">
@@ -68,7 +64,7 @@
 
 
 							</div><!-- row row-gutter-10 -->
-						</form><!-- contact-form -->
+						{{-- </form><!-- contact-form --> --}}
 					</div><!-- donate-box-inner -->
 				</div><!-- col-xl-8 col-lg-12 -->
 
