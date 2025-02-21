@@ -144,6 +144,7 @@
             <th style="text-align:center" >Terbit</th>
             <th style="text-align:center" >Masa Berlaku</th>
             <th style="text-align:center" >Status</th>
+            <th style="text-align:center" >View</th>
         </tr>
     </thead>
     <tbody>
