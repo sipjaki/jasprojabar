@@ -45,8 +45,7 @@
 				</div><!-- col-lg-12 -->
 				<div class="col-xxl-12 col-lg-12">
 					<div class="donate-box-inner" style="margin-top: -20px;">
-
-                        <div class="centered-button">
+                        <div class="centered-button" style="margin-top: -50px;">
                             <button class="green-button" style="margin-bottom:10px; text-transform:uppercase">
                                 <i class="fas fa-file mr-2" style="margin-right:5px;"></i> INFORMASI BUJK KONTRAKTOR : {{$data->namalengkap}}
                             </button>
@@ -122,14 +121,14 @@
                     <style>
 
                         .centered-button {
-                            text-align: center;
+                            text-align: left;
                             margin-top: 50px; /* Adjusts vertical position */
                         }
 
                         .green-button {
                             background-color: #28a745; /* Light green background */
                             color: white; /* White text */
-                            padding: 10px 20px; /* Adds padding around the text */
+                            padding: 10px 30px; /* Adds padding around the text */
                             font-size: 14px; /* Smaller text size */
                             border: none;
                             border-radius: 5px; /* Rounded corners */
@@ -143,7 +142,7 @@
                         }
 
                         .green-button:hover {
-                            background-color: #218838; /* Darker green on hover */
+                            background-color: #929693; /* Darker green on hover */
                         }
 
                     </style>
