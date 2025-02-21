@@ -101,41 +101,44 @@
 			<div class="row">
                 {{-- ------------------------------------------------------------------------------------------ --}}
                 <div class="col-lg-12">
-						<div class="document-details">
-							<div class="document-details-list">
-                                <div class="document-details-content">
-                                    <h5><i class="fa fa-user-tie"> :</i> Penanggung Jawab Umum</h5>
-                                    <p>{{$data->pju}}</p>
-                                </div><!-- document-box-content -->
 
-                                <div class="document-details-content">
-                                    <h5><i class="fa fa-certificate"> :</i> No Akte</h5>
-                                    <p>{{$data->no_akte}}</p>
-                                </div><!-- document-box-content -->
+                    <style>
 
-                                <div class="document-details-content">
-                                    <h5><i class="fa fa-calendar"> :</i> Tanggal</h5>
-                                    <p>{{$data->tanggal}}</p>
-                                </div><!-- document-box-content -->
+                        .centered-button {
+                            text-align: center;
+                            margin-top: 50px; /* Adjusts vertical position */
+                        }
 
-                                <div class="document-details-content">
-                                    <h5><i class="fa fa-user-secret"> :</i> Notaris</h5>
-                                    <p>{{$data->nama_notaris}}</p>
-                                </div><!-- document-box-content -->
+                        .green-button {
+                            background-color: #28a745; /* Light green background */
+                            color: white; /* White text */
+                            padding: 10px 20px; /* Adds padding around the text */
+                            font-size: 14px; /* Smaller text size */
+                            border: none;
+                            border-radius: 5px; /* Rounded corners */
+                            display: inline-flex;
+                            align-items: center; /* Centers the text and icon vertically */
+                            cursor: pointer;
+                        }
 
-                                <div class="document-details-content">
-                                    <h5><i class="fa fa-pencil-alt"> :</i> No Pengesahan</h5>
-                                    <p>{{$data->no_pengesahan}}</p>
-                                </div><!-- document-box-content -->
+                        .green-button i {
+                            font-size: 16px; /* Icon size */
+                        }
 
-							</div><!-- document-box-list -->
-						</div><!-- document-details -->
+                        .green-button:hover {
+                            background-color: #218838; /* Darker green on hover */
+                        }
+
+                    </style>
 
                         <div class="document-details">
 							<div class="document-details-list">
-                                <div class="document-details-icon">
-                                    <i class="flaticon-list">Sub Klasifikasi Layanan</i> <!-- Ikon daftar layanan -->
-                                </div><!-- document-details-icon -->
+                                <div class="centered-button">
+                                    <button class="green-button">
+                                        <i class="flaticon-list mr-2"></i> Sub Klasifikasi Layanan
+                                    </button>
+                                </div>
+
 
                                                         {{-- TABLE DATA  --}}
                         <style>
