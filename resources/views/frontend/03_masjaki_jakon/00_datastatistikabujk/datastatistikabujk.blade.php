@@ -10,7 +10,7 @@
 	<section class="page-banner">
 		<div class="container">
 			<div class="page-banner-title">
-				<h3 style="font-size: 30px; color:black;">{{$title}}</h3>
+				<h3 style="font-size: 25px; color:black;">{{$title}}</h3>
 			</div><!-- page-banner-title -->
 		</div><!-- container -->
 	</section><!--page-banner-->
