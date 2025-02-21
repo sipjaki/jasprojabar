@@ -26,13 +26,15 @@
 			<div class="row row-gutter-30">
 				<div class="col-lg-12">
 
+				</div><!-- col-lg-12 -->
+				<div class="col-xxl-12 col-lg-12">
+					<div class="donate-box-inner" style="margin-top: -20px;">
+
+
 					<div class="col-lg-12">
                         <button class="btn btn-primary">Informasi BUJK Kontraktor : {{$data->namalengkap}}</button>
                     </div><!-- col-lg-12 -->
 
-				</div><!-- col-lg-12 -->
-				<div class="col-xxl-12 col-lg-12">
-					<div class="donate-box-inner" style="margin-top: -20px;">
 						<form action="#" class="contact-form donation" method="post">
 							<div class="row row-gutter-10">
                                 <div class="col-lg-6">
