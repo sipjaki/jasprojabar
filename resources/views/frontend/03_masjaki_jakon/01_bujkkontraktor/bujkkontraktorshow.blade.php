@@ -260,7 +260,6 @@
                         <tr>
                             <td>{{ $loop->iteration + $start - 1 }}</td>
                             <td>{{$item->nama_pengurus}}</td>
-                            <td>{{$item->nama_pengurus}}</td>
                             <td>{{$item->sub_klasifikasi_layanan}}</td>
                             <td>{{$item->kode}}</td>
                             <td>{{$item->kualifikasi}}</td>
