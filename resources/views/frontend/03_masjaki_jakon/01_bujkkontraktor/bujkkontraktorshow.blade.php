@@ -23,6 +23,12 @@
 
     <section class="donate-section">
 		<div class="container">
+            <div class="col-lg-12">
+                <button class="btn btn-primary" style="display: flex; align-items: center;">
+                    <i class="fas fa-arrow-left" style="margin-right: 8px;"></i>Kembali
+                </button>
+            </div><!-- col-lg-12 -->
+
 			<div class="row row-gutter-30">
 				<div class="col-lg-12">
 
