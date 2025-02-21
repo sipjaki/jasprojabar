@@ -16,7 +16,7 @@
         </ul><!-- list-unstyled -->
       </div><!-- page-breadcrumbs -->
       <div class="page-banner-title">
-        <h3 style="color: black;">{{$title}}</h3>
+        <h3 style="color: black; font-size:25px;">{{$title}}</h3>
       </div><!-- page-banner-title -->
     </div><!-- container -->
   </section><!--page-banner-->
