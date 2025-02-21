@@ -35,9 +35,9 @@
 					<div class="donate-box-inner" style="margin-top: -20px;">
 						<form action="#" class="contact-form donation" method="post">
 							<div class="row row-gutter-10">
-								<h3>Nama Pemilik</h3>
+								<h3><i class="fas fa-home mr-2" style="margin-right: 5px;"></i>Nama Pemilik </h3>
 								<div class="col-lg-6">
-									<input type="text" id="fname"  class="input-text" placeholder="First Name*" name="fname" aria-required="true">
+									<input type="text" id="fname"  class="input-text" placeholder="{{$data->namalengkap}}*" name="fname" aria-required="true">
 								</div><!-- col-lg-6 -->
 								<div class="col-lg-6">
 									<input type="text" id="lname" class="input-text" placeholder="Last Name" name="lname" aria-required="true">
