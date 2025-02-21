@@ -37,7 +37,7 @@
 
 						{{-- <form action="assets/inc/sendemail.php" class="contact-form donation" method="post"> --}}
 							<div class="row row-gutter-10">
-								<h3>Nama Pemilik</h3>
+								<h3>Personal Info</h3>
 								<div class="col-lg-6">
 									<input type="text" id="fname"  class="input-text" placeholder="First Name*" name="fname" aria-required="true">
 								</div><!-- col-lg-6 -->
@@ -64,7 +64,7 @@
 
 
 							</div><!-- row row-gutter-10 -->
-						{{-- </form><!-- contact-form --> --}}
+						</form><!-- contact-form -->
 					</div><!-- donate-box-inner -->
 				</div><!-- col-xl-8 col-lg-12 -->
 
