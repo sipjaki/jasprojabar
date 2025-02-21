@@ -56,14 +56,14 @@
 
                           function drawChart() {
                             var data = google.visualization.arrayToDataTable([
-                              ['Jenis Jabatan', 'Persentase'],
-                              @foreach($persentaseJabatan as $namaJabatan => $persentase)
-                                ['{{ $namaJabatan }}', {{ $persentase }}],
+                              ['Jabatan Kerja', 'Persentase'],
+                              @foreach($persentaseJabatan as $jabatankerja => $persentase)
+                                ['{{ $jabatankerja }}', {{ $persentase }}],
                               @endforeach
                             ]);
 
                             var options = {
-                              title: 'Persentase Tenaga Kerja Berdasarkan Jabatan',
+                              title: 'Persentase Tenaga Kerja Berdasarkan Jabatan Kerja',
                               is3D: true
                             };
 
