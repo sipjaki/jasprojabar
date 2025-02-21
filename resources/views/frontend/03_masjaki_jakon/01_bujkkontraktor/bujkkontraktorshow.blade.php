@@ -59,14 +59,14 @@
                 </div><!-- tab-pane -->
             </div><!-- tab-content -->
 <br>
-            <div class="col-xxl-12 col-xl-6">
+            <div class="col-xxl-4 col-xl-6">
                 <div class="service-three-card">
                     <div class="service-three-icon">
                         </div><!-- service-three-icon -->
                             <div class="service-three-card-content">
-                                <h4>Nama Pemilik Badan Usaha Jasa Konstruksi</h3>
+                                <h4>Telepon</h3>
                                 <a href="/">
-                                <h5 style="color: orange">{{$data->namalengkap}}</h5>
+                                <h5 style="color: orange">{{$data->no_telepon}}</h5>
                                     <div class="service-three-detail">
                                         </a>
                                         {{-- <i class="flaticon-pdf"></i> --}}
@@ -77,6 +77,47 @@
                     </div><!-- row -->
                 </div><!-- tab-pane -->
             </div><!-- tab-content -->
+
+<br>
+            <div class="col-xxl-4 col-xl-6">
+                <div class="service-three-card">
+                    <div class="service-three-icon">
+                        </div><!-- service-three-icon -->
+                            <div class="service-three-card-content">
+                                <h4>Email</h3>
+                                <a href="/">
+                                <h5 style="color: orange">{{$data->email}}</h5>
+                                    <div class="service-three-detail">
+                                        </a>
+                                        {{-- <i class="flaticon-pdf"></i> --}}
+                                    </div><!-- service-three-detail -->
+                            </div><!-- service-three-card -->
+                        </div><!-- col-xxl-4 col-xl-6 -->
+
+                    </div><!-- row -->
+                </div><!-- tab-pane -->
+            </div><!-- tab-content -->
+
+<br>
+            <div class="col-xxl-4 col-xl-6">
+                <div class="service-three-card">
+                    <div class="service-three-icon">
+                        </div><!-- service-three-icon -->
+                            <div class="service-three-card-content">
+                                <h4>Nomor Induk Berusaha</h3>
+                                <a href="/">
+                                <h5 style="color: orange">{{$data->nib}}</h5>
+                                    <div class="service-three-detail">
+                                        </a>
+                                        {{-- <i class="flaticon-pdf"></i> --}}
+                                    </div><!-- service-three-detail -->
+                            </div><!-- service-three-card -->
+                        </div><!-- col-xxl-4 col-xl-6 -->
+
+                    </div><!-- row -->
+                </div><!-- tab-pane -->
+            </div><!-- tab-content -->
+
 
         </div><!-- container -->
 
@@ -98,20 +139,8 @@
                 <div class="col-lg-12">
 						<div class="document-details">
 							<div class="document-details-list">
-                                <div class="document-details-content">
-                                    <h5><i class="fa fa-phone"> :</i> Telepon</h5>
-                                    <p>{{$data->no_telepon}}</p>
-                                </div><!-- document-box-content -->
 
-                                <div class="document-details-content">
-                                    <h5><i class="fa fa-envelope"> :</i> Email</h5>
-                                    <p>{{$data->email}}</p>
-                                </div><!-- document-box-content -->
 
-                                <div class="document-details-content">
-                                    <h5><i class="fa fa-id-card"> :</i> Nomor Induk Berusaha</h5>
-                                    <p>{{$data->nib}}</p>
-                                </div><!-- document-box-content -->
 
                                 <div class="document-details-content">
                                     <h5><i class="fa fa-user-tie"> :</i> Penanggung Jawab Umum</h5>
