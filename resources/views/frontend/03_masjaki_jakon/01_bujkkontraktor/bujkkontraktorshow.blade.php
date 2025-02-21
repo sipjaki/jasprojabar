@@ -34,6 +34,7 @@
                                        display: flex;
                                        align-items: center;
                                        border: none;
+                                       border-radius:10px;
                                        transition: all 0.3s ease;
                                        cursor: pointer;"
                                 onmouseover="this.style.backgroundColor='white'; this.style.color='black'; this.querySelector('i').style.color='black';"
