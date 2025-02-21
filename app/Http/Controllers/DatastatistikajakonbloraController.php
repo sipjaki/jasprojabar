@@ -71,11 +71,20 @@ class DatastatistikajakonbloraController extends Controller
                 ];
             });
 
+            // ------------------
+
+            $jumlahDatabaru = skktenagakerjablora::select('jabatankerja_id')
+            ->selectRaw('COUNT(*) as total')
+            ->groupBy('jabatankerja_id')
+            ->get()
+            ->pluck('total', 'jabatankerja_id');
+
         return view('frontend.03_masjaki_jakon.00_datastatistikabujk.datastatistikaskktenagakerja', [
             'title' => 'Data Statistika SKK Tenaga Ahli Berdasarkan Jabatan Kerja',
             'user' => $user,
             'data' => $data,
             'persentaseJabatan' => $persentaseJabatan,
+            'jumlahDatabaru' => $jumlahDatabaru, // Pastikan data ini dikirim ke view
         ]);
     }
 

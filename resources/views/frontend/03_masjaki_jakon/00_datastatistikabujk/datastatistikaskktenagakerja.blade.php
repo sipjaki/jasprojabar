@@ -84,7 +84,7 @@
       function drawChart() {
         var data = google.visualization.arrayToDataTable([
           ['Jabatan Kerja', 'Jumlah Tenaga Kerja'],
-          @foreach($jumlahData as $jabatanId => $jumlah)
+          @foreach($jumlahDatabaru as $jabatanId => $jumlah)
             ['{{ $jabatankerja->find($jabatanId)->jabatankerja }}', {{ $jumlah }}],
           @endforeach
         ]);
