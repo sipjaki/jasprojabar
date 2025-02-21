@@ -45,8 +45,8 @@
             </div><!--col-12 col-lg-4 col-xl-4-->
             <div class="col-12 col-lg-4 col-xl-4">
                 <div class="service-two-card">
-                    <div class="service-two-imgbox" style="display: flex; justify-content: center;">
-                        <div class="service-two-image">
+                    <div class="service-two-imgbox" >
+                        <div class="service-two-image" style="display: flex; justify-content: center;">
                             <img src="/assets/03_datajakon/konsultan.png"  class="img-fluid" alt="img-29"  loading="lazy" style="width:70% ">
                             <a href="/datajakon/bujkkonsultan"></a>
                         </div><!-- service-two-image -->
@@ -63,8 +63,8 @@
             </div><!--col-12 col-lg-4 col-xl-4-->
             <div class="col-12 col-lg-4 col-xl-4">
                 <div class="service-two-card">
-                    <div class="service-two-imgbox" style="display: flex; justify-content: center;">
-                        <div class="service-two-image">
+                    <div class="service-two-imgbox">
+                        <div class="service-two-image" style="display: flex; justify-content: center;">
                             <img src="/assets/03_datajakon/datastatistika.png" class="img-fluid" alt="img-29"  loading="lazy" style="width: 70%">
                             <a href="/datajakon/statistikabujkblora"></a>
                         </div><!-- service-two-image -->
