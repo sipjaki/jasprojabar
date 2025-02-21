@@ -84,51 +84,6 @@
 						<p>Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur iste natus error sit voluptatem accusantium totam rem aperiam, eaque ipsa quae.</p>
 						<p>Thomas Edison may have been behind the invention of the electric light bulb, but he did not work alone. Edison worked alongside partners, both financial and commercial, to get his inventions off the ground. It was installed globally, an annual market growth of 22 percent. It is continuing its progress towards becoming a mainstream competitive salary and economy reports by mine.</p>
 					</div><!-- department-details-box -->
-					<div class="document-details-inner">
-						<h3>Download Documents</h3>
-						<div class="document-details">
-							<div class="document-details-list">
-								<div class="document-details-icon">
-									<i class="flaticon-pdf"></i>
-								</div><!-- document-details-icon -->
-								<div class="document-details-content">
-									<h5><a href="department-details.html">Birthdate Certificate</a></h5>
-									<p>Pdf (194kb)</p>
-								</div><!-- document-details-content -->
-							</div><!-- document-details-list -->
-							<div class="document-details-button">
-								<a href="assets/inc/sample.pdf" title="download"><i class="fa-solid fa-arrow-down"></i></a>
-							</div><!-- document-details-button -->
-						</div><!-- document-details -->
-						<div class="document-details">
-							<div class="document-details-list">
-								<div class="document-details-icon">
-									<i class="flaticon-pdf"></i>
-								</div><!-- document-details-icon -->
-								<div class="document-details-content">
-									<h5><a href="department-details.html">Birthdate modification verification</a></h5>
-									<p>Pdf (194kb)</p>
-								</div><!-- document-box-content -->
-							</div><!-- document-box-list -->
-							<div class="document-details-button">
-								<a href="assets/inc/sample.pdf" title="download"><i class="fa-solid fa-arrow-down"></i></a>
-							</div><!-- document-details-button -->
-						</div><!-- document-details -->
-						<div class="document-details">
-							<div class="document-details-list">
-								<div class="document-details-icon">
-									<i class="flaticon-pdf"></i>
-								</div><!-- document-details-icon -->
-								<div class="document-details-content">
-									<h5><a href="department-details.html">Death Certificate</a></h5>
-									<p>Jpg (103kb)</p>
-								</div><!-- document-details-content -->
-							</div><!-- document-details-list -->
-							<div class="document-details-button">
-								<a href="assets/inc/sample.pdf" title="download"><i class="fa-solid fa-arrow-down"></i></a>
-							</div><!-- document-details-button -->
-						</div><!-- document-details -->
-					</div><!-- document-details-inner -->
 				</div><!-- col-lg-8 -->
 			</div><!-- row -->
 		</div><!-- container -->
