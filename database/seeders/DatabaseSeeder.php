@@ -3512,6 +3512,21 @@ skktenagakerjablora::create([
     'statusterbit' => 'TERBIT',
 ]);
 
+skktenagakerjablora::create([
+    'nama' => 'AGUS KURNIAWAN', // Ganti dengan ID yang sesuai
+    'alamat' => 'Dk. Pesantren Rt.01/04 Ds. Sembongin Banjarejo Blora',
+    'namasekolah_id' => 5,
+    'jenjangpendidikan_id' => 3,
+    'jurusan_id' => 5,
+    'tahunlulus' => '2009',
+    'jabatankerja_id' => 5,
+    'jenjang_id' => 4,
+    'lpspenerbit_id' => 1,
+    'tanggalterbit' => '2024-03-11',
+    'tanggalhabis' => '2029-03-10',
+    'statusterbit' => 'TERBIT',
+]);
+
 //======================== ===================================================================================
 //======================== ===================================================================================
 //======================== ===================================================================================
