@@ -49,37 +49,39 @@
 				<div class="col-lg-8">
 					<div class="department-details-imgbox">
 
-                            <head>
-                              <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
-                              <script type="text/javascript">
-                                google.charts.load('current', {
-                                  'packages':['geochart'],
-                                });
-                                google.charts.setOnLoadCallback(drawRegionsMap);
+                        <head>
+                            <script type='text/javascript' src='https://www.gstatic.com/charts/loader.js'></script>
+                            <script type='text/javascript'>
+                              google.charts.load('current', {
+                                'packages': ['geochart'],
+                                'mapsApiKey': 'AIzaSyD-9tSrke72PouQMnMX-a7eZSW0jkFMBWY' // Pastikan API key valid
+                              });
 
-                                function drawRegionsMap() {
-                                  var data = google.visualization.arrayToDataTable([
-                                    ['Region', 'Popularity'],
-                                    ['ID-JT', 100], // Jawa Tengah
-                                    ['ID-JT-03', 150], // Kabupaten Blora
-                                  ]);
+                              google.charts.setOnLoadCallback(drawMarkersMap);
 
-                                  var options = {
-                                    region: 'ID', // Indonesia
-                                    resolution: 'provinces', // Peta level provinsi
-                                    displayMode: 'regions', // Mode tampilan peta
-                                    colorAxis: {colors: ['#e0f2f1', '#00796b']}, // Pilih warna
-                                    tooltip: { isHtml: true },
-                                  };
+                              function drawMarkersMap() {
+                                // Data untuk Kabupaten Blora
+                                var data = google.visualization.arrayToDataTable([
+                                  ['City', 'Population', 'Area', 'Lat', 'Long'],
+                                  ['Kabupaten Blora', 2300000, 1500, -7.0319, 111.6017] // Populasi dan koordinat Kabupaten Blora
+                                ]);
 
-                                  var chart = new google.visualization.GeoChart(document.getElementById('regions_div'));
-                                  chart.draw(data, options);
-                                }
-                              </script>
-                            </head>
-                            <body>
-                              <div id="regions_div" style="width: 900px; height: 500px;"></div>
-                            </body>
+                                var options = {
+                                  region: 'ID', // Mengatur region ke Indonesia
+                                  displayMode: 'markers', // Menampilkan marker
+                                  colorAxis: {colors: ['green', 'blue']}, // Mengatur warna
+                                  sizeAxis: {minSize: 5, maxSize: 10}, // Menyesuaikan ukuran marker
+                                  tooltip: { isHtml: true } // Tooltip HTML untuk informasi tambahan
+                                };
+
+                                var chart = new google.visualization.GeoChart(document.getElementById('chart_div'));
+                                chart.draw(data, options);
+                              };
+                            </script>
+                          </head>
+                          <body>
+                            <div id="chart_div" style="width: 900px; height: 500px;"></div>
+                          </body>
 
                     </div><!-- department-details-imgbox -->
 					<div class="department-details-content-box">
