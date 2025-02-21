@@ -86,65 +86,66 @@
                         </div>
 						<form action="#" class="contact-form donation" method="post">
 							<div class="row row-gutter-10">
+
                                 <div class="col-lg-6">
-                                    <h6><i class="fas fa-user mr-2" style="margin-right: 5px;"></i>Nama Lengkap</h6>
-                                    <input type="text" id="fname" class="input-text" placeholder="{{$data->nama}}" name="fname" aria-required="true" readonly>
-                                </div><!-- col-lg-6 -->
+                                    <h6><i class="fas fa-user mr-2"></i>Nama Lengkap</h6>
+                                    <input type="text" class="input-text" placeholder="{{$data->nama}}" readonly>
+                                </div>
 
                                 <div class="col-lg-3">
-                                    <h6><i class="fas fa-phone-alt mr-2" style="margin-right: 5px;"></i>Sekolah/Universitas</h6>
-                                    <input type="text" id="fname" class="input-text" placeholder="{{$data->namasekolah->namasekolah}}" name="fname" aria-required="true" readonly>
-                                </div><!-- col-lg-3 -->
+                                    <h6><i class="fas fa-school mr-2"></i>Sekolah/Universitas</h6>
+                                    <input type="text" class="input-text" placeholder="{{$data->namasekolah->namasekolah}}" readonly>
+                                </div>
 
                                 <div class="col-lg-3">
-                                    <h6><i class="fas fa-id-card mr-2" style="margin-right: 5px;"></i>Jenjang Pendidikan</h6>
-                                    <input type="text" id="fname" class="input-text" placeholder="{{$data->jenjangpendidikan->jenjangpendidikan}}" name="fname" aria-required="true" readonly>
-                                </div><!-- col-lg-3 -->
+                                    <h6><i class="fas fa-graduation-cap mr-2"></i>Jenjang Pendidikan</h6>
+                                    <input type="text" class="input-text" placeholder="{{$data->jenjangpendidikan->jenjangpendidikan}}" readonly>
+                                </div>
 
                                 <div class="col-lg-12">
-                                    <h6><i class="fas fa-map-marker-alt mr-2" style="margin-right: 5px;"></i>Alamat</h6>
-                                    <input type="text" id="fname" class="input-text" placeholder="{{$data->alamat}}" name="fname" aria-required="true" readonly>
-                                </div><!-- col-lg-12 -->
+                                    <h6><i class="fas fa-map-marker-alt mr-2"></i>Alamat</h6>
+                                    <input type="text" class="input-text" placeholder="{{$data->alamat}}" readonly>
+                                </div>
 
                                 <div class="col-lg-4">
-                                    <h6><i class="fas fa-envelope mr-2" style="margin-right: 5px;"></i>Jurusan</h6>
-                                    <input type="text" id="fname" class="input-text" placeholder="{{$data->jurusan->jurusan}}" name="fname" aria-required="true" readonly>
-                                </div><!-- col-lg-6 -->
+                                    <h6><i class="fas fa-book mr-2"></i>Jurusan</h6>
+                                    <input type="text" class="input-text" placeholder="{{$data->jurusan->jurusan}}" readonly>
+                                </div>
 
                                 <div class="col-lg-4">
-                                    <h6><i class="fas fa-user-tie mr-2" style="margin-right: 5px;"></i>Tahun Lulus</h6>
-                                    <input type="text" id="fname" class="input-text" placeholder="{{$data->tahunlulus}}" name="fname" aria-required="true" readonly>
-                                </div><!-- col-lg-6 -->
+                                    <h6><i class="fas fa-calendar-check mr-2"></i>Tahun Lulus</h6>
+                                    <input type="text" class="input-text" placeholder="{{$data->tahunlulus}}" readonly>
+                                </div>
 
                                 <div class="col-lg-4">
-                                    <h6><i class="fas fa-file-alt mr-2" style="margin-right: 5px;"></i>Jabatan Kerja</h6>
-                                    <input type="text" id="fname" class="input-text" placeholder="{{$data->jabatankerja->jabatankerja}}" name="fname" aria-required="true" readonly>
-                                </div><!-- col-lg-6 -->
+                                    <h6><i class="fas fa-briefcase mr-2"></i>Jabatan Kerja</h6>
+                                    <input type="text" class="input-text" placeholder="{{$data->jabatankerja->jabatankerja}}" readonly>
+                                </div>
 
                                 <div class="col-lg-4">
-                                    <h6><i class="fas fa-calendar mr-2" style="margin-right: 5px;"></i>Jenjang Keahlian</h6>
-                                    <input type="text" id="fname" class="input-text" placeholder="Jenjang {{$data->jenjang->jenjang}}" name="fname" aria-required="true" readonly>
-                                </div><!-- col-lg-6 -->
+                                    <h6><i class="fas fa-certificate mr-2"></i>Jenjang Keahlian</h6>
+                                    <input type="text" class="input-text" placeholder="Jenjang {{$data->jenjang->jenjang}}" readonly>
+                                </div>
 
                                 <div class="col-lg-8">
-                                    <h6><i class="fas fa-pencil-alt mr-2" style="margin-right: 5px;"></i>LPS Penerbit</h6>
-                                    <input type="text" id="fname" class="input-text" placeholder="{{$data->lpspenerbit->lpspenerbit}}" name="fname" aria-required="true" readonly>
-                                </div><!-- col-lg-6 -->
+                                    <h6><i class="fas fa-university mr-2"></i>LPS Penerbit</h6>
+                                    <input type="text" class="input-text" placeholder="{{$data->lpspenerbit->lpspenerbit}}" readonly>
+                                </div>
 
                                 <div class="col-lg-4">
-                                    <h6><i class="fas fa-pencil-alt mr-2" style="margin-right: 5px;"></i>Tanggal Terbit</h6>
-                                    <input type="text" id="fname" class="input-text" placeholder="{{$data->tanggalterbit}}" name="fname" aria-required="true" readonly>
-                                </div><!-- col-lg-6 -->
+                                    <h6><i class="fas fa-calendar-day mr-2"></i>Tanggal Terbit</h6>
+                                    <input type="text" class="input-text" placeholder="{{$data->tanggalterbit}}" readonly>
+                                </div>
 
                                 <div class="col-lg-4">
-                                    <h6><i class="fas fa-pencil-alt mr-2" style="margin-right: 5px;"></i>Masa Berlaku</h6>
-                                    <input type="text" id="fname" class="input-text" placeholder="{{$data->tanggalhabis}}" name="fname" aria-required="true" readonly>
-                                </div><!-- col-lg-6 -->
+                                    <h6><i class="fas fa-calendar-alt mr-2"></i>Masa Berlaku</h6>
+                                    <input type="text" class="input-text" placeholder="{{$data->tanggalhabis}}" readonly>
+                                </div>
 
                                 <div class="col-lg-4">
-                                    <h6><i class="fas fa-pencil-alt mr-2" style="margin-right: 5px;"></i>Status</h6>
-                                    <input type="text" id="fname" class="input-text" placeholder="{{$data->statusterbit}}" name="fname" aria-required="true" readonly>
-                                </div><!-- col-lg-6 -->
+                                    <h6><i class="fas fa-check-circle mr-2"></i>Status</h6>
+                                    <input type="text" class="input-text" placeholder="{{$data->statusterbit}}" readonly>
+                                </div>
 
                         </div><!-- row row-gutter-10 -->
 						</form><!-- contact-form -->
