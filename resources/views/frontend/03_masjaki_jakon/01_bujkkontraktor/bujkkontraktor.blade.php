@@ -112,10 +112,17 @@
 </style>
 </head>
 
+<section class="document-section">
+    <div class="container">
+      <ul class="nav nav-pills" id="pills-tab" role="tablist">
 
-    <li class="nav-item" role="presentation">
-        <button class="nav-link" id="pills-health-tab" data-bs-toggle="pill" data-bs-target="#pills-health" type="button" role="tab" aria-controls="pills-health" aria-selected="false"><i class="flaticon-police-badge-1"></i>Menu BUJK Kontraktor Konsultan</button>
-      </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="pills-health-tab" data-bs-toggle="pill" data-bs-target="#pills-health" type="button" role="tab" aria-controls="pills-health" aria-selected="false"><i class="flaticon-police-badge-1"></i>Peraturan Pemerintah</button>
+        </li>
+        </ul>
+    </div>
+</section>
+
 <body>
 <div class="table-wrapper">
 
