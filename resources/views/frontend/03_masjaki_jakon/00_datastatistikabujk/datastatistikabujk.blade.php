@@ -47,10 +47,6 @@
 						<a href="#"></a>
                     </div><!-- department-details-imgbox -->
 
-				</div><!-- col-lg-8 -->
-
-                <div class="col-12 col-lg-12 col-xl-12">
-
 					<div class="department-details-content-box">
 						<h4 style="font-size: 20px;" class="department-details-title">{{$title}}</h4>
 
@@ -79,6 +75,9 @@
                         <div id="piechart" style="width: 900px; height: 500px;"></div>
 
                     </div><!-- department-details-content-box -->
+
+                </div><!-- col-lg-8 -->
+                <div class="col-lg-12">
 					<div class="department-details-box">
 						<p style="text-align: justify;">
                             Data Statistika BUJK Kontraktor dan Konsultan Kabupaten Blora, Provinsi Jawa Tengah.
