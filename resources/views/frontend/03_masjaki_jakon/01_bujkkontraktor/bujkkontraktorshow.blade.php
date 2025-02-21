@@ -24,7 +24,6 @@
 		<div class="container">
 			<div class="row">
 
-                <h3><i class="fas fa-building mr-2" style="margin-right: 10px;"></i>Informasi : {{$data->namalengkap}}</h3>
 
 
                 {{-- ------------------------------------------------------------------------------------------ --}}
@@ -100,149 +99,153 @@
                             /* Import font Poppins */
                             @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 
-/* Wrapper untuk tabel */
-.table-wrapper {
-    overflow-x: auto;
-    max-width: 100%;
-    padding: 10px;
-}
+                                        /* Wrapper untuk tabel */
+                                        .table-wrapper {
+                                            overflow-x: auto;
+                                            max-width: 100%;
+                                            padding: 10px;
+                                        }
 
-/* Style dasar tabel */
-.fl-table {
-    width: 100%;
-    border-collapse: collapse;
-    font-family: 'Poppins', sans-serif; /* Font modern pemerintah */
-    font-size: 14px;
-    background: #fff; /* Tetap netral */
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
-    overflow: hidden;
-}
+                                        /* Style dasar tabel */
+                                        .fl-table {
+                                            width: 100%;
+                                            border-collapse: collapse;
+                                            font-family: 'Poppins', sans-serif; /* Font modern pemerintah */
+                                            font-size: 14px;
+                                            background: #fff; /* Tetap netral */
+                                            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+                                            border-radius: 8px;
+                                            overflow: hidden;
+                                        }
 
-/* Header styling */
-.fl-table thead {
-    background: #f8f8f8;
-    text-transform: uppercase;
-    font-weight: 600;
-    letter-spacing: 0.5px;
-}
+                                        /* Header styling */
+                                        .fl-table thead {
+                                            background: #f8f8f8;
+                                            text-transform: uppercase;
+                                            font-weight: 600;
+                                            letter-spacing: 0.5px;
+                                        }
 
-.fl-table th,
-.fl-table td {
-    padding: 12px 15px;
-    text-align: left;
-    border-bottom: 1px solid #ddd;
-}
+                                        .fl-table th,
+                                        .fl-table td {
+                                            padding: 12px 15px;
+                                            text-align: left;
+                                            border-bottom: 1px solid #ddd;
+                                        }
 
-/* Hover effect */
-.fl-table tbody tr:hover {
-    background: rgba(0, 0, 0, 0.05);
-}
+                                        /* Hover effect */
+                                        .fl-table tbody tr:hover {
+                                            background: rgba(0, 0, 0, 0.05);
+                                        }
 
-/* Responsive styling */
-@media (max-width: 768px) {
-    .fl-table thead {
-        display: none; /* Sembunyikan header di tampilan kecil */
-    }
+                                        /* Responsive styling */
+                                        @media (max-width: 768px) {
+                                            .fl-table thead {
+                                                display: none; /* Sembunyikan header di tampilan kecil */
+                                            }
 
-    .fl-table tr {
-        display: block;
-        margin-bottom: 10px;
-        border: 1px solid #ddd;
-        border-radius: 5px;
-        overflow: hidden;
-    }
+                                            .fl-table tr {
+                                                display: block;
+                                                margin-bottom: 10px;
+                                                border: 1px solid #ddd;
+                                                border-radius: 5px;
+                                                overflow: hidden;
+                                            }
 
-    .fl-table td {
-        display: block;
-        text-align: right;
-        font-size: 14px;
-        border-bottom: 1px solid #eee;
-        position: relative;
-        padding-left: 50%;
-    }
+                                            .fl-table td {
+                                                display: block;
+                                                text-align: right;
+                                                font-size: 14px;
+                                                border-bottom: 1px solid #eee;
+                                                position: relative;
+                                                padding-left: 50%;
+                                            }
 
-    .fl-table td::before {
-        content: attr(data-label);
-        position: absolute;
-        left: 10px;
-        width: 45%;
-        font-weight: 600;
-        text-align: left;
-    }
-}
+                                            .fl-table td::before {
+                                                content: attr(data-label);
+                                                position: absolute;
+                                                left: 10px;
+                                                width: 45%;
+                                                font-weight: 600;
+                                                text-align: left;
+                                            }
+                                        }
 
-/* Style untuk ikon view */
-.view-icon {
-    color: #4CAF50;
-    cursor: pointer;
-    font-size: 18px;
-}
+                                        /* Style untuk ikon view */
+                                        .view-icon {
+                                            color: #4CAF50;
+                                            cursor: pointer;
+                                            font-size: 18px;
+                                        }
 
-.view-icon:hover {
-    color: #45a049;
-}
-</style>
-</head>
+                                        .view-icon:hover {
+                                            color: #45a049;
+                                        }
+                                        </style>
+                                        </head>
 
-<body>
-<div class="table-wrapper">
-<table class="fl-table">
-    <thead>
-        <tr>
-            {{-- <th style="text-align:center" >No</th> --}}
-            <th style="text-align:center">Nama Pengurus</th>
-            <th style="text-align:center" >Sub Klasifikasi Layanan</th>
-            <th style="text-align:center" >Kode</th>
-            <th style="text-align:center" >Kualifikasi</th>
-            <th style="text-align:center" >Penerbit</th>
-            <th style="text-align:center" >Tanggal Terbit</th>
-            <th style="text-align:center" >Masa Berlaku</th>
-            <th style="text-align:center" >Nama PSJK</th>
-            <th style="text-align:center" >Sub Kualifikasi Badan Usaha</th>
-             </tr>
-    </thead>
-    <tbody>
-{{--
-        @php
-        $start = ($data->currentPage() - 1) * $data->perPage() + 1;
-            @endphp --}}
+                    <body>
+                    <div class="table-wrapper">
+                    <table class="fl-table">
+                        <thead>
+                            <tr>
+                                {{-- <th style="text-align:center" >No</th> --}}
+                                <th style="text-align:center">Nama Pengurus</th>
+                                <th style="text-align:center" >Sub Klasifikasi Layanan</th>
+                                <th style="text-align:center" >Kode</th>
+                                <th style="text-align:center" >Kualifikasi</th>
+                                <th style="text-align:center" >Penerbit</th>
+                                <th style="text-align:center" >Tanggal Terbit</th>
+                                <th style="text-align:center" >Masa Berlaku</th>
+                                <th style="text-align:center" >Nama PSJK</th>
+                                <th style="text-align:center" >Sub Kualifikasi Badan Usaha</th>
+                                </tr>
+                        </thead>
+                        <tbody>
+                    {{--
+                        @php
+                        $start = ($data->currentPage() - 1) * $data->perPage() + 1;
+                            @endphp --}}
 
-        @foreach ($subData as $item )
-        <tr>
-            {{-- <td>{{ $loop->iteration + $start - 1 }}</td> --}}
-            <td>{{$item->nama_pengurus}}</td>
-            <td>{{$item->sub_klasifikasi_layanan}}</td>
-            <td>{{$item->sub_klasifikasi_layanan}}</td>
-            <td>{{$item->kode}}</td>
-            <td>{{$item->kualifikasi}}</td>
-            <td>{{$item->penerbit}}</td>
-            <td>{{$item->tanggal_terbit}}</td>
-            <td>{{$item->masa_berlaku}}</td>
-            <td>{{$item->nama_psjk}}</td>
-            <td>{{$item->sub_kualifikasi_bu}}</td>
-        </tr>
+                            @foreach ($subData as $item )
+                            <tr>
+                                {{-- <td>{{ $loop->iteration + $start - 1 }}</td> --}}
+                                <td>{{$item->nama_pengurus}}</td>
+                                <td>{{$item->sub_klasifikasi_layanan}}</td>
+                                <td>{{$item->sub_klasifikasi_layanan}}</td>
+                                <td>{{$item->kode}}</td>
+                                <td>{{$item->kualifikasi}}</td>
+                                <td>{{$item->penerbit}}</td>
+                                <td>{{$item->tanggal_terbit}}</td>
+                                <td>{{$item->masa_berlaku}}</td>
+                                <td>{{$item->nama_psjk}}</td>
+                                <td>{{$item->sub_kualifikasi_bu}}</td>
+                            </tr>
 
-        @endforeach
-    </tbody>
-</table>
-</div>
-
-
-                            </div><!-- document-details-list -->
-							<div class="document-details-button">
-								<a href="assets/inc/sample.pdf" title="download"><i class="fa-solid fa-arrow-down"></i></a>
-							</div><!-- document-details-button -->
-						</div><!-- document-details -->
-					</div><!-- document-details-inner -->
+                            @endforeach
+                        </tbody>
+                    </table>
+                    </div>
 
 
-                </div><!-- col-lg-8 -->
-			</div><!-- row -->
-		</div><!-- container -->
-	</section><!-- department-details-section -->
-</div><!--page-wrapper-->
+                                                </div><!-- document-details-list -->
+                                                <div class="document-details-button">
+                                                    <a href="assets/inc/sample.pdf" title="download"><i class="fa-solid fa-arrow-down"></i></a>
+                                                </div><!-- document-details-button -->
+                                            </div><!-- document-details -->
+                                        </div><!-- document-details-inner -->
 
 
-@include('frontend.00_approve.01_cssterpisah.footer1')
-@include('frontend.00_approve.01_cssterpisah.footer')
+                                    </div><!-- col-lg-8 -->
+                                </div><!-- row -->
+                            </div><!-- container -->
+                        </div><!--page-wrapper-->
+                    </div><!--page-wrapper-->
+                </div><!--page-wrapper-->
+            </div><!--page-wrapper-->
+        </div><!--page-wrapper-->
+    </section><!-- department-details-section -->
+
+
+                    @include('frontend.00_approve.01_cssterpisah.footer1')
+                    @include('frontend.00_approve.01_cssterpisah.footer')
