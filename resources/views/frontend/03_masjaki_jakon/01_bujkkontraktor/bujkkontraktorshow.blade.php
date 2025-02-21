@@ -252,25 +252,26 @@
                         <tbody>
 
                         @php
-                        $start = ($data->currentPage() - 1) * $data->perPage() + 1;
-                            @endphp
+                            // Pastikan $data tidak null atau tidak terdefinisi
+                            $start = ($data && $data->currentPage()) ? ($data->currentPage() - 1) * $data->perPage() + 1 : 1;
+                        @endphp
 
-                            @foreach ($subData as $item )
-                            <tr>
-                                <td>{{ $loop->iteration + $start - 1 }}</td>
-                                <td>{{$item->nama_pengurus}}</td>
-                                <td>{{$item->nama_pengurus}}</td>
-                                <td>{{$item->sub_klasifikasi_layanan}}</td>
-                                <td>{{$item->kode}}</td>
-                                <td>{{$item->kualifikasi}}</td>
-                                <td>{{$item->penerbit}}</td>
-                                <td>{{$item->tanggal_terbit}}</td>
-                                <td>{{$item->masa_berlaku}}</td>
-                                <td>{{$item->nama_psjk}}</td>
-                                <td>{{$item->sub_kualifikasi_bu}}</td>
-                            </tr>
+                        @foreach ($subData as $item)
+                        <tr>
+                            <td>{{ $loop->iteration + $start - 1 }}</td>
+                            <td>{{$item->nama_pengurus}}</td>
+                            <td>{{$item->nama_pengurus}}</td>
+                            <td>{{$item->sub_klasifikasi_layanan}}</td>
+                            <td>{{$item->kode}}</td>
+                            <td>{{$item->kualifikasi}}</td>
+                            <td>{{$item->penerbit}}</td>
+                            <td>{{$item->tanggal_terbit}}</td>
+                            <td>{{$item->masa_berlaku}}</td>
+                            <td>{{$item->nama_psjk}}</td>
+                            <td>{{$item->sub_kualifikasi_bu}}</td>
+                        </tr>
+                        @endforeach
 
-                            @endforeach
                         </tbody>
                     </table>
                     </div>
