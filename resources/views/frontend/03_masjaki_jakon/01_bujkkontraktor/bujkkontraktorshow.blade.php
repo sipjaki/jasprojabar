@@ -23,8 +23,9 @@
 
 
   <section class="document-section">
+
     <div class="container">
-      <ul class="nav nav-pills" id="pills-tab" role="tablist">
+      <ul class="nav nav-pills" id="pills-tab" role="tablist" style="text-align: center;">
 
         <li class="nav-item" role="presentation" style="margin-top: 5px;">
           <button class="nav-link" id="pills-health-tab" data-bs-toggle="pill" data-bs-target="#pills-health" type="button" role="tab" aria-controls="pills-health" aria-selected="false"><i class="flaticon-police-badge-1"></i>Bujk Kontraktor</button>
