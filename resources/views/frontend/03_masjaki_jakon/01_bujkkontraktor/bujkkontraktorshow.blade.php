@@ -20,6 +20,59 @@
 			</div><!-- page-banner-title -->
 		</div><!-- container -->
 	</section><!--page-banner-->
+
+
+  <section class="document-section">
+    <div class="container">
+      <ul class="nav nav-pills" id="pills-tab" role="tablist">
+
+        <li class="nav-item" role="presentation" style="margin-top: 5px;">
+          <button class="nav-link" id="pills-health-tab" data-bs-toggle="pill" data-bs-target="#pills-health" type="button" role="tab" aria-controls="pills-health" aria-selected="false"><i class="flaticon-police-badge-1"></i>Bujk Kontraktor</button>
+        </li>
+
+        <li class="nav-item" role="presentation" style="margin-top: 5px;">
+          <button class="nav-link" id="pills-health-tab" data-bs-toggle="pill" data-bs-target="#pills-health" type="button" role="tab" aria-controls="pills-health" aria-selected="false"><i class="flaticon-police-badge-1"></i>Bujk Konsultan</button>
+        </li>
+
+      </ul><!-- nav nav-pills -->
+      <div class="tab-content" id="pills-tabContent">
+        <div class="tab-pane fade show active" id="pills-all" role="tabpanel" aria-labelledby="pills-all-tab">
+          <div class="row row-gutter-30">
+
+
+@foreach ($data as $item )
+
+<div class="col-xxl-4 col-xl-6">
+    <div class="service-three-card">
+        <div class="service-three-icon">
+        <i class="flaticon-pdf"></i>
+            </div><!-- service-three-icon -->
+                <div class="service-three-card-content">
+                            {{-- <h3><a href="/peraturan/undangundang/{{$item->judul}}">{{$item->judul}}</a></h3> --}}
+                            {{-- <a href="/peraturan/undangundang/{{$item->judul}}"> --}}
+                            <p>Undang - Undang Jasa Konstruksi</p>
+                            <div class="service-three-detail">
+                                    <span>Show Here</span><i class="fa-solid fa-arrow-right-long"></i>
+                                </a>
+                                <i class="flaticon-pdf"></i>
+                            </div><!-- service-three-detail -->
+                        </div><!-- service-three-card-content -->
+                    </div><!-- service-three-card -->
+                </div><!-- col-xxl-4 col-xl-6 -->
+
+
+@endforeach
+
+          </div><!-- row -->
+        </div><!-- tab-pane -->
+
+
+      </div><!-- tab-content -->
+    </div><!-- container -->
+  </section><!-- document-section  -->
+
+
+
 	<section class="department-details-section">
 		<div class="container">
 			<div class="row">
@@ -223,39 +276,6 @@
                         </div><!--page-wrapper-->
                     </div><!--page-wrapper-->
                 </div><!--page-wrapper-->
-
-                <div class="col-lg-12">
-						<div class="document-details">
-							<div class="document-details-list">
-
-							</div><!-- document-box-list -->
-						</div><!-- document-details -->
-                        </div><!--page-wrapper-->
-                    </div><!--page-wrapper-->
-                </div><!--page-wrapper-->
-
-
-                            <div class="col-xxl-4 col-xl-6">
-                                <div class="service-three-card">
-                                    <div class="service-three-icon">
-                                    <i class="flaticon-pdf"></i>
-                                        </div><!-- service-three-icon -->
-                                            <div class="service-three-card-content">
-                                                        {{-- <h3><a href="/peraturan/suratedaranmenteri/{{$item->judul}}">{{$item->judul}}</a></h3> --}}
-                                                        {{-- <a href="/peraturan/suratedaranmenteri/{{$item->judul}}"> --}}
-                                                        <p>{{$title}}</p>
-                                                        <div class="service-three-detail">
-                                                                <span>Show Here</span><i class="fa-solid fa-arrow-right-long"></i>
-                                                            </a>
-                                                            <i class="flaticon-pdf"></i>
-                                        </div><!-- service-three-detail -->
-                                    </div><!-- service-three-card-content -->
-                                </div><!-- service-three-card -->
-                            </div><!-- col-xxl-4 col-xl-6 -->
-
-
-
-
             </div><!--page-wrapper-->
         </div><!--page-wrapper-->
     </section><!-- department-details-section -->
