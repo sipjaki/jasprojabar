@@ -74,6 +74,35 @@
 
 <div id="piechart_3d" style="width: 900px; height: 500px;"></div>
 
+{{-- ============================= --}}
+
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+<script type="text/javascript">
+    google.charts.load('current', {'packages':['bar']});
+    google.charts.setOnLoadCallback(drawChart);
+
+    function drawChart() {
+        var data = google.visualization.arrayToDataTable([
+            ['Jabatan Kerja', 'Total Tenaga Kerja'],
+            @foreach($persentaseJabatan as $data)
+                ['{{ $data["jabatan"] }}', {{ $data["total"] }}],
+            @endforeach
+        ]);
+
+        var options = {
+            chart: {
+                title: 'Data Tenaga Kerja Berdasarkan Jabatan',
+                subtitle: 'Jumlah tenaga kerja per jabatan',
+            }
+        };
+
+        var chart = new google.charts.Bar(document.getElementById('columnchart_material'));
+
+        chart.draw(data, google.charts.Bar.convertOptions(options));
+    }
+</script>
+
+<div id="columnchart_material" style="width: 800px; height: 500px;"></div>
 
 
                     </div><!-- department-details-content-box -->
