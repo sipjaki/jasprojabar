@@ -24,12 +24,15 @@
     <section class="donate-section">
 		<div class="container">
 			<div class="row row-gutter-30">
-				<div class="col-xxl-12 col-lg-12">
+				<div class="col-lg-12">
 
+					<div class="col-lg-12">
+                        <button class="btn btn-primary">Informasi BUJK Kontraktor : {$data->namalengkap}</button>
+                    </div><!-- col-lg-12 -->
+
+				</div><!-- col-lg-12 -->
+				<div class="col-xxl-8 col-lg-12">
 					<div class="donate-box-inner">
-                        <div class="col-lg-12">
-                            <button class="btn btn-primary">{{$data->namalengkap}}</button>
-                        </div><!-- col-lg-12 -->
 
 						<div class="donate-amount">
 							<span>$</span>
