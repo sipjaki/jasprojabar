@@ -40,33 +40,51 @@
         <div class="tab-pane fade show active" id="pills-all" role="tabpanel" aria-labelledby="pills-all-tab">
           <div class="row row-gutter-30">
 
+            <div class="col-xxl-12 col-xl-6">
+                <div class="service-three-card">
+                    <div class="service-three-icon">
+                        </div><!-- service-three-icon -->
+                            <div class="service-three-card-content">
+                                <h4>Nama Pemilik Badan Usaha Jasa Konstruksi</h3>
+                                <a href="/">
+                                <h5 style="color: orange">{{$data->namalengkap}}</h5>
+                                    <div class="service-three-detail">
+                                        </a>
+                                        {{-- <i class="flaticon-pdf"></i> --}}
+                                    </div><!-- service-three-detail -->
+                            </div><!-- service-three-card -->
+                        </div><!-- col-xxl-4 col-xl-6 -->
 
-{{-- @foreach ($data as $item ) --}}
+                    </div><!-- row -->
+                </div><!-- tab-pane -->
+            </div><!-- tab-content -->
 
-<div class="col-xxl-12 col-xl-6">
-    <div class="service-three-card">
-        <div class="service-three-icon">
-        <i class="flaticon-pdf"></i>
-            </div><!-- service-three-icon -->
-                <div class="service-three-card-content">
-                    <h4>Nama Pemilik Badan Usaha Jasa Konstruksi</h3>
-                    <a href="/">
-                    <h5 style="color: orange">{{$data->namalengkap}}</h5>
-                    <div class="service-three-detail">
-                        </a>
-                        <i class="flaticon-pdf"></i>
-                    </div><!-- service-three-detail -->
-                </div><!-- service-three-card -->
-            </div><!-- col-xxl-4 col-xl-6 -->
-{{-- @endforeach --}}
+            <div class="col-xxl-12 col-xl-6">
+                <div class="service-three-card">
+                    <div class="service-three-icon">
+                        </div><!-- service-three-icon -->
+                            <div class="service-three-card-content">
+                                <h4>Nama Pemilik Badan Usaha Jasa Konstruksi</h3>
+                                <a href="/">
+                                <h5 style="color: orange">{{$data->namalengkap}}</h5>
+                                    <div class="service-three-detail">
+                                        </a>
+                                        {{-- <i class="flaticon-pdf"></i> --}}
+                                    </div><!-- service-three-detail -->
+                            </div><!-- service-three-card -->
+                        </div><!-- col-xxl-4 col-xl-6 -->
 
-          </div><!-- row -->
-        </div><!-- tab-pane -->
+                    </div><!-- row -->
+                </div><!-- tab-pane -->
+            </div><!-- tab-content -->
 
+        </div><!-- container -->
 
-      </div><!-- tab-content -->
     </div><!-- container -->
-  </section><!-- document-section  -->
+    </div><!-- container -->
+
+
+</section><!-- document-section  -->
 
 
 
