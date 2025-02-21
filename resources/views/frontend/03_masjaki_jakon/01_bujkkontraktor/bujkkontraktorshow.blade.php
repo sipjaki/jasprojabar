@@ -52,9 +52,6 @@
                             <h3>Nama Lengkap Badan Usaha Jasa Konstruksi </h3>
                             <p>{{$data->namalengkap}}</p>
                             <div class="service-three-detail">
-                                    <span>Show Here</span><i class="fa-solid fa-arrow-right-long"></i>
-
-                                <i class="flaticon-pdf"></i>
                             </div><!-- service-three-detail -->
                         </div><!-- service-three-card-content -->
                     </div><!-- service-three-card -->
