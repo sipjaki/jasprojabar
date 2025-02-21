@@ -3527,6 +3527,36 @@ skktenagakerjablora::create([
     'statusterbit' => 'TERBIT',
 ]);
 
+skktenagakerjablora::create([
+    'nama' => 'PUJI SUBIANTORO', // Ganti dengan ID yang sesuai
+    'alamat' => 'DS. TAMBAKSARI RT 001 RW 001 DESA TAMBAKSARI BLORA',
+    'namasekolah_id' => 22,
+    'jenjangpendidikan_id' => 3,
+    'jurusan_id' => 6,
+    'tahunlulus' => '2008',
+    'jabatankerja_id' => 7,
+    'jenjang_id' => 4,
+    'lpspenerbit_id' => 1,
+    'tanggalterbit' => '2024-03-30',
+    'tanggalhabis' => '2029-03-29',
+    'statusterbit' => 'TERBIT',
+]);
+
+skktenagakerjablora::create([
+    'nama' => 'REYHAN WIDYA PERMANA', // Ganti dengan ID yang sesuai
+    'alamat' => 'RT 5 RW 3 Dukuh karangnongkp Desa Buluroto Kec. banjarejo Kabupaten Blora Provinsi Jawa Tengah',
+    'namasekolah_id' => 34,
+    'jenjangpendidikan_id' => 4,
+    'jurusan_id' => 22,
+    'tahunlulus' => '2015',
+    'jabatankerja_id' => 3,
+    'jenjang_id' => 4,
+    'lpspenerbit_id' => 1,
+    'tanggalterbit' => '2024-03-16',
+    'tanggalhabis' => '2029-03-15',
+    'statusterbit' => 'TERBIT',
+]);
+
 //======================== ===================================================================================
 //======================== ===================================================================================
 //======================== ===================================================================================
