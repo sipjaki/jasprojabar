@@ -121,19 +121,29 @@
                                     <input type="text" id="fname" class="input-text" placeholder="{{$data->jabatankerja->jabatankerja}}" name="fname" aria-required="true" readonly>
                                 </div><!-- col-lg-6 -->
 
-                                <div class="col-lg-6">
-                                    <h6><i class="fas fa-calendar mr-2" style="margin-right: 5px;"></i>Tanggal</h6>
-                                    <input type="text" id="fname" class="input-text" placeholder="{{$data->tanggal}}" name="fname" aria-required="true" readonly>
+                                <div class="col-lg-4">
+                                    <h6><i class="fas fa-calendar mr-2" style="margin-right: 5px;"></i>Jenjang Keahlian</h6>
+                                    <input type="text" id="fname" class="input-text" placeholder="Jenjang {{$data->jenjang->jenjang}}" name="fname" aria-required="true" readonly>
                                 </div><!-- col-lg-6 -->
 
-                                <div class="col-lg-6">
-                                    <h6><i class="fas fa-pencil-alt mr-2" style="margin-right: 5px;"></i>Notaris</h6>
-                                    <input type="text" id="fname" class="input-text" placeholder="{{$data->nama_notaris}}" name="fname" aria-required="true" readonly>
+                                <div class="col-lg-8">
+                                    <h6><i class="fas fa-pencil-alt mr-2" style="margin-right: 5px;"></i>LPS Penerbit</h6>
+                                    <input type="text" id="fname" class="input-text" placeholder="{{$data->lpspenerbit->lpspenerbit}}" name="fname" aria-required="true" readonly>
                                 </div><!-- col-lg-6 -->
 
-                                <div class="col-lg-6">
-                                    <h6><i class="fas fa-check-circle mr-2" style="margin-right: 5px;"></i>No Pengesahan</h6>
-                                    <input type="text" id="fname" class="input-text" placeholder="{{$data->no_pengesahan}}" name="fname" aria-required="true" readonly>
+                                <div class="col-lg-4">
+                                    <h6><i class="fas fa-check-circle mr-2" style="margin-right: 5px;"></i>Tanggal Terbit</h6>
+                                    <input type="text" id="fname" class="input-text" placeholder="{{$data->tanggalterbit}}" name="fname" aria-required="true" readonly>
+                                </div><!-- col-lg-6 -->
+                                                            </div><!-- row row-gutter-10 -->
+                                <div class="col-lg-4">
+                                    <h6><i class="fas fa-check-circle mr-2" style="margin-right: 5px;"></i>Masa Berlaku</h6>
+                                    <input type="text" id="fname" class="input-text" placeholder="{{$data->tanggalhabis}}" name="fname" aria-required="true" readonly>
+                                </div><!-- col-lg-6 -->
+                                                            </div><!-- row row-gutter-10 -->
+                                <div class="col-lg-4">
+                                    <h6><i class="fas fa-check-circle mr-2" style="margin-right: 5px;"></i>Status</h6>
+                                    <input type="text" id="fname" class="input-text" placeholder="{{$data->statusterbit}}" name="fname" aria-required="true" readonly>
                                 </div><!-- col-lg-6 -->
                                                             </div><!-- row row-gutter-10 -->
 						</form><!-- contact-form -->
