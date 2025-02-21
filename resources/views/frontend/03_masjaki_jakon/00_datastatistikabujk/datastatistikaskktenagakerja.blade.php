@@ -76,37 +76,37 @@
 
 {{-- ============================= --}}
 
-      <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
-      <script type="text/javascript">
-        google.charts.load('current', {'packages':['bar']});
-        google.charts.setOnLoadCallback(drawChart);
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+      google.charts.load('current', {'packages':['bar']});
+      google.charts.setOnLoadCallback(drawChart);
 
-        function drawChart() {
-          var data = google.visualization.arrayToDataTable([
-            ['Jabatan Kerja', 'Jumlah Tenaga Kerja'],
-            @foreach($persentaseJabatan as $item)
-              ['{{ $item["jabatan"] }}', {{ $item["jumlah"] }}],
-            @endforeach
-          ]);
+      function drawChart() {
+        var data = google.visualization.arrayToDataTable([
+          ['Jabatan Kerja', 'Jumlah Tenaga Kerja'],
+          @foreach($jumlahData as $jabatanId => $jumlah)
+            ['{{ $jabatankerja->find($jabatanId)->jabatankerja }}', {{ $jumlah }}],
+          @endforeach
+        ]);
 
-          var options = {
-            chart: {
-              title: 'Statistik SKK Tenaga Ahli Berdasarkan Jabatan Kerja',
-              subtitle: 'Jumlah tenaga kerja per jabatan',
-            },
-            bars: 'horizontal', // Bisa diubah ke 'vertical' jika ingin tampilan vertikal
-            height: 500,
-            colors: ['#1b9e77']
-          };
+        var options = {
+          chart: {
+            title: 'Statistik SKK Tenaga Ahli Berdasarkan Jabatan Kerja',
+            subtitle: 'Jumlah tenaga kerja per jabatan',
+          },
+          bars: 'horizontal', // Bisa diubah ke 'vertical' jika ingin tampilan vertikal
+          height: 500,
+          colors: ['#1b9e77']
+        };
 
-          var chart = new google.charts.Bar(document.getElementById('columnchart_material'));
-          chart.draw(data, google.charts.Bar.convertOptions(options));
-        }
-      </script>
+        var chart = new google.charts.Bar(document.getElementById('columnchart_material'));
+        chart.draw(data, google.charts.Bar.convertOptions(options));
+      }
+    </script>
 
 <body>
-      <div id="columnchart_material" style="width: 800px; height: 500px;"></div>
-    </body>
+    <div id="columnchart_material" style="width: 800px; height: 500px;"></div>
+  </body>
 
                     </div><!-- department-details-content-box -->
 
