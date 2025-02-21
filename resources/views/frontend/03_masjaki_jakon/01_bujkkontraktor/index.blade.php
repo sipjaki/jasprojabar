@@ -29,7 +29,7 @@
                 <div class="service-two-card">
                     <div class="service-two-imgbox">
                         <div class="service-two-image">
-                            <img src="/assets/03_datajakon/kontraktor.png" class="img-fluid" alt="img-28" loading="lazy">
+                            <img src="/assets/03_datajakon/kontraktor.png" class="img-fluid" alt="img-28" loading="lazy" width="75">
                             <a href="/datajakon/bujkkontraktor"></a>
                         </div><!-- service-two-image -->
                     </div><!-- service-two-imgbox -->
@@ -47,7 +47,7 @@
                 <div class="service-two-card">
                     <div class="service-two-imgbox">
                         <div class="service-two-image">
-                            <img src="/assets/03_datajakon/konsultan.png" class="img-fluid" alt="img-29"  loading="lazy">
+                            <img src="/assets/03_datajakon/konsultan.png" class="img-fluid" alt="img-29"  loading="lazy" width="75">
                             <a href="/datajakon/bujkkonsultan"></a>
                         </div><!-- service-two-image -->
                     </div><!-- service-two-imgbox -->
@@ -65,7 +65,7 @@
                 <div class="service-two-card">
                     <div class="service-two-imgbox">
                         <div class="service-two-image">
-                            <img src="/assets/03_datajakon/datastatistika.png" class="img-fluid" alt="img-29"  loading="lazy">
+                            <img src="/assets/03_datajakon/datastatistika.png" class="img-fluid" alt="img-29"  loading="lazy" width="75">
                             <a href="/datajakon/statistikabujkblora"></a>
                         </div><!-- service-two-image -->
                     </div><!-- service-two-imgbox -->
