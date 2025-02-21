@@ -23,20 +23,6 @@
 
     <section class="donate-section">
 		<div class="container">
-            <div class="col-lg-12" style="display: flex; justify-content: center;">
-                <button class="btn"
-                        style="background-color: #000080;
-                               color: white;
-                               display: flex;
-                               align-items: center;
-                               border: none;
-                               transition: all 0.3s ease;
-                               cursor: pointer;"
-                        onmouseover="this.style.backgroundColor='white'; this.style.color='black'; this.querySelector('i').style.color='black';"
-                        onmouseout="this.style.backgroundColor='#000080'; this.style.color='white'; this.querySelector('i').style.color='white';">
-                    <i class="fas fa-arrow-right" style="margin-right: 8px; color: white;"></i>Kembali
-                </button>
-            </div><!-- col-lg-12 -->
 
 
 			<div class="row row-gutter-30">
@@ -106,6 +92,22 @@
 						</form><!-- contact-form -->
 					</div><!-- donate-box-inner -->
 				</div><!-- col-xl-8 col-lg-12 -->
+
+                <div class="col-lg-12" style="display: flex; justify-content: center;">
+                    <button class="btn"
+                            style="background-color: #000080;
+                                   color: white;
+                                   display: flex;
+                                   align-items: center;
+                                   border: none;
+                                   transition: all 0.3s ease;
+                                   cursor: pointer;"
+                            onmouseover="this.style.backgroundColor='white'; this.style.color='black'; this.querySelector('i').style.color='black';"
+                            onmouseout="this.style.backgroundColor='#000080'; this.style.color='white'; this.querySelector('i').style.color='white';">
+                        <i class="fas fa-arrow-left" style="margin-right: 10px; color: white;"></i>Kembali
+                    </button>
+                </div><!-- col-lg-12 -->
+
 
 			</div><!-- row -->
 		</div><!-- container -->
