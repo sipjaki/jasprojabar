@@ -31,7 +31,6 @@
 								<li><a href="/datajakon/skktenagakerja"><i class="fa-solid fa-arrow-left-long"></i>Kembali</a></li>
 								<li style="text-align: center"><a style="text-align: center;" href="#"> Tenaga Ahli Berdasarkan Jabatan Kerja<i class="fa-solid fa-database" style="margin-left: 10px;"></i></a></li>
 								<li style="text-align: center"><a style="text-align: center;" href="#">Total Tenaga Ahli : {{ $data }}<i class="fa-solid fa-edit" style="margin-left: 10px;"></i></li>
-
 							</ul><!-- ul -->
 						</div><!-- sidebar-widget-list-inner -->
 						<div class="sidebar-widget sidebar-widget-card">
@@ -51,7 +50,7 @@
 					<div class="department-details-content-box">
 						<h4 style="font-size: 20px;" class="department-details-title">{{$title}}</h4>
 
-                        <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+                        {{-- <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
                         <script type="text/javascript">
                           google.charts.load('current', {'packages':['corechart']});
                           google.charts.setOnLoadCallback(drawChart);
@@ -73,7 +72,7 @@
                           }
                         </script>
 
-                        <div id="piechart" style="width: 900px; height: 500px;"></div>
+                        <div id="piechart" style="width: 900px; height: 500px;"></div> --}}
 
                     </div><!-- department-details-content-box -->
 
