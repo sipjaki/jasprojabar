@@ -112,13 +112,13 @@
 </style>
 </head>
 
-<body>
-<div class="table-wrapper">
-
 
     <li class="nav-item" role="presentation">
         <button class="nav-link" id="pills-health-tab" data-bs-toggle="pill" data-bs-target="#pills-health" type="button" role="tab" aria-controls="pills-health" aria-selected="false"><i class="flaticon-police-badge-1"></i>Menu BUJK Kontraktor Konsultan</button>
       </li>
+<body>
+<div class="table-wrapper">
+
 
 <table class="fl-table">
     <thead>
