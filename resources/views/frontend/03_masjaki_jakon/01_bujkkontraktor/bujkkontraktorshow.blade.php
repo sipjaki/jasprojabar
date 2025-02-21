@@ -40,7 +40,7 @@
           <div class="row row-gutter-30">
 
 
-@foreach ($data as $item )
+{{-- @foreach ($data as $item ) --}}
 
 <div class="col-xxl-4 col-xl-6">
     <div class="service-three-card">
@@ -61,7 +61,7 @@
                 </div><!-- col-xxl-4 col-xl-6 -->
 
 
-@endforeach
+{{-- @endforeach --}}
 
           </div><!-- row -->
         </div><!-- tab-pane -->
