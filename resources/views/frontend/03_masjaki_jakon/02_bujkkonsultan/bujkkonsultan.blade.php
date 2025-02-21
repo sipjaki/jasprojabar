@@ -48,10 +48,11 @@
 
 /* Header styling */
 .fl-table thead {
-    background: #f8f8f8;
+    background: #fdba00;
     text-transform: uppercase;
     font-weight: 600;
     letter-spacing: 0.5px;
+    color: black;
 }
 
 .fl-table th,

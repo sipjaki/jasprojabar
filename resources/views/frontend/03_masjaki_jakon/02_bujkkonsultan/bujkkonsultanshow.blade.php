@@ -16,7 +16,7 @@
 				</ul><!-- list-unstyled -->
 			</div><!-- page-breadcrumbs -->
 			<div class="page-banner-title">
-				<h3 style="color: black;">{{ $title }}</h3>
+				<h3 style="color: black; font-size:30px;">{{ $title }}</h3>
 			</div><!-- page-banner-title -->
 		</div><!-- container -->
 	</section><!--page-banner-->
@@ -186,7 +186,7 @@
 
                                         /* Header styling */
                                         .fl-table thead {
-                                            background: #ffd000;
+                                            background: #fdba00;
                                             text-transform: uppercase;
                                             font-weight: 800;
                                             letter-spacing: 0.5px;
