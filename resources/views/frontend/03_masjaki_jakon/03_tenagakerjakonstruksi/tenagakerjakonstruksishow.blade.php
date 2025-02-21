@@ -6,6 +6,36 @@
     @include('frontend.00_approve.01_cssterpisah.loader')
     @include('frontend.00_approve.01_cssterpisah.header1')
 
+    <style>
+
+        .centered-button {
+            text-align: left;
+            margin-top: 50px; /* Adjusts vertical position */
+        }
+
+        .green-button {
+            background-color: #28a745; /* Light green background */
+            color: white; /* White text */
+            padding: 10px 30px; /* Adds padding around the text */
+            font-size: 14px; /* Smaller text size */
+            border: none;
+            border-radius: 5px; /* Rounded corners */
+            display: inline-flex;
+            align-items: center; /* Centers the text and icon vertically */
+            cursor: pointer;
+        }
+
+        .green-button i {
+            font-size: 16px; /* Icon size */
+        }
+
+        .green-button:hover {
+            background-color: #929693; /* Darker green on hover */
+        }
+
+    </style>
+
+
 <div class="page-wrapper">
 	<section class="page-banner" style="background-image: url('/assets/approve/image/bg/page-banner.png')">
 		<div class="container">
@@ -113,6 +143,7 @@
 			</div><!-- row -->
 		</div><!-- container -->
 	</section><!-- donate-section -->
+
 
 
                     @include('frontend.00_approve.01_cssterpisah.footer1')
