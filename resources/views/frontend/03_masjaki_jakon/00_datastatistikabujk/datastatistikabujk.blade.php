@@ -21,7 +21,7 @@
 					<div class="sidebar">
 						<div class="sidebar-widget-list-inner">
 							<ul>
-								<li><a href="services.html">All Document<i class="fa-solid fa-arrow-right-long"></i></a></li>
+								<li style="text-align: center">Data Statistika<i class="fa-solid fa-database"></i></li>
 								<li><a href="services.html">Policing and Crime<i class="fa-solid fa-arrow-right-long"></i></a></li>
 								<li><a href="services.html">Agriculture and Food<i class="fa-solid fa-arrow-right-long"></i></a></li>
 								<li><a href="services.html">Housing and Land<i class="fa-solid fa-arrow-right-long"></i></a></li>
