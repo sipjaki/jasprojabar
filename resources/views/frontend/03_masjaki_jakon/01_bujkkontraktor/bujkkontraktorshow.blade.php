@@ -38,16 +38,15 @@
 						{{-- <form action="assets/inc/sendemail.php" class="contact-form donation" method="post"> --}}
 							<div class="row row-gutter-10">
 								<h3>Nama Pemilik</h3>
-                                <div class="col-lg-6">
-                                    <input type="text" id="fname" class="input-text" placeholder="First Name*" name="fname" aria-required="true" value="{{$data->namalengkap}}">
-                                </div><!-- col-lg-6 -->
-                                <div class="col-lg-6">
-                                    <input type="text" id="lname" class="input-text" placeholder="Last Name" name="lname" aria-required="true" value="Doe">
-                                </div><!-- col-lg-6 -->
-                                <div class="col-lg-12">
-                                    <input type="email" id="email" class="input-text" placeholder="Email Address*" name="email" aria-required="true" value="john.doe@example.com">
-                                </div><!-- col-lg-12 -->
-
+								<div class="col-lg-6">
+									<input placeholder="{{$data->namalengkap}}" aria-required="true">
+								</div><!-- col-lg-6 -->
+								<div class="col-lg-6">
+									<input type="text" id="lname" class="input-text" placeholder="Last Name" name="lname" aria-required="true">
+								</div><!-- col-lg-6 -->
+								<div class="col-lg-12">
+									<input type="email" id="email" class="input-text" placeholder="Email Address*" name="email" aria-required="true">
+								</div><!-- col-lg-12 -->
 								<div class="col-lg-12">
 									<div class="donate-card">
 										<p>To make an offline donation toward this cause, follow these steps:: </p>
