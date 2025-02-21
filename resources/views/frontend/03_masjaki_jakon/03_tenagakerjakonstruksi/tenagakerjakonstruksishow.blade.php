@@ -87,18 +87,18 @@
 						<form action="#" class="contact-form donation" method="post">
 							<div class="row row-gutter-10">
                                 <div class="col-lg-6">
-                                    <h6><i class="fas fa-user mr-2" style="margin-right: 5px;"></i>Nama Pemilik </h6>
-                                    <input type="text" id="fname" class="input-text" placeholder="{{$data->namalengkap}}" name="fname" aria-required="true" readonly>
+                                    <h6><i class="fas fa-user mr-2" style="margin-right: 5px;"></i>Nama Lengkap</h6>
+                                    <input type="text" id="fname" class="input-text" placeholder="{{$data->nama}}" name="fname" aria-required="true" readonly>
                                 </div><!-- col-lg-6 -->
 
                                 <div class="col-lg-3">
-                                    <h6><i class="fas fa-phone-alt mr-2" style="margin-right: 5px;"></i>No Telepon</h6>
-                                    <input type="text" id="fname" class="input-text" placeholder="{{$data->no_telepon}}" name="fname" aria-required="true" readonly>
+                                    <h6><i class="fas fa-phone-alt mr-2" style="margin-right: 5px;"></i>Sekolah/Universitas</h6>
+                                    <input type="text" id="fname" class="input-text" placeholder="{{$data->namasekolah->namasekolah}}" name="fname" aria-required="true" readonly>
                                 </div><!-- col-lg-3 -->
 
                                 <div class="col-lg-3">
-                                    <h6><i class="fas fa-id-card mr-2" style="margin-right: 5px;"></i>Nomor Induk Berusaha</h6>
-                                    <input type="text" id="fname" class="input-text" placeholder="{{$data->nib}}" name="fname" aria-required="true" readonly>
+                                    <h6><i class="fas fa-id-card mr-2" style="margin-right: 5px;"></i>Jenjang Pendidikan</h6>
+                                    <input type="text" id="fname" class="input-text" placeholder="{{$data->jenjangpendidikan->jenjangpendidikan}}" name="fname" aria-required="true" readonly>
                                 </div><!-- col-lg-3 -->
 
                                 <div class="col-lg-12">
