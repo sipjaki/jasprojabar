@@ -167,7 +167,7 @@
 
                                         /* Header styling */
                                         .fl-table thead {
-                                            background: #22f007;
+                                            background: #ffd000;
                                             text-transform: uppercase;
                                             font-weight: 600;
                                             letter-spacing: 0.5px;
@@ -194,7 +194,7 @@
                                             .fl-table tr {
                                                 display: block;
                                                 margin-bottom: 10px;
-                                                border: 1px solid #ddd;
+                                                border: 1px solid #000000;
                                                 border-radius: 5px;
                                                 overflow: hidden;
                                             }
