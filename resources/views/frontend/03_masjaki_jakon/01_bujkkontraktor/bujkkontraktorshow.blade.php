@@ -45,7 +45,7 @@
 				</div><!-- col-lg-12 -->
 				<div class="col-xxl-12 col-lg-12">
 					<div class="donate-box-inner" style="margin-top: -20px;">
-                        <div class="centered-button" style="margin-top: -50px;">
+                        <div class="centered-button" style="margin-top: -30px;">
                             <button class="green-button" style="margin-bottom:10px; text-transform:uppercase">
                                 <i class="fas fa-file mr-2" style="margin-right:5px;"></i> INFORMASI BUJK KONTRAKTOR : {{$data->namalengkap}}
                             </button>
