@@ -59,7 +59,7 @@
                 </div><!-- tab-pane -->
             </div><!-- tab-content -->
 <br>
-            <div class="col-xxl-4 col-xl-6">
+            <div class="col-xxl-4 col-xl-4">
                 <div class="service-three-card">
                     <div class="service-three-icon">
                         </div><!-- service-three-icon -->
@@ -79,7 +79,7 @@
             </div><!-- tab-content -->
 
 <br>
-            <div class="col-xxl-4 col-xl-6">
+            <div class="col-xxl-4 col-xl-4>
                 <div class="service-three-card">
                     <div class="service-three-icon">
                         </div><!-- service-three-icon -->
@@ -99,7 +99,7 @@
             </div><!-- tab-content -->
 
 <br>
-            <div class="col-xxl-4 col-xl-6">
+            <div class="col-xxl-4 col-xl-4">
                 <div class="service-three-card">
                     <div class="service-three-icon">
                         </div><!-- service-three-icon -->
