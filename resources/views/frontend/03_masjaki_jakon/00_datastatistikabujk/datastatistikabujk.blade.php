@@ -17,6 +17,13 @@
 	<section class="department-details-section">
 		<div class="container">
 			<div class="row">
+                <div class="col-12 col-lg-12 col-xl-12">
+                    <div class="department-details-imgbox">
+                        <h4 class="department-details-title" style="font-size: 20px;">Wilayah Administrasi Pemerintah Kabupaten Blora Provinsi Jawa Tengah</h4>
+						<img src="/assets/00_dokmasjaki/03_datajakon/petaindonesiabaru.png" alt="img-159">
+						<a href="#"></a>
+                    </div><!-- department-details-imgbox -->
+                </div>
 				<div class="col-12 col-lg-4 col-xl-4">
 					<div class="sidebar">
 						<div class="sidebar-widget-list-inner">
@@ -41,11 +48,6 @@
 					</div><!--sidebar-->
 				</div><!--col-12 col-lg-4 col-xl-4-->
 				<div class="col-lg-8">
-					<div class="department-details-imgbox">
-                        <h4 class="department-details-title" style="font-size: 20px;">Wilayah Administrasi Pemerintah Kabupaten Blora Provinsi Jawa Tengah</h4>
-						<img src="/assets/00_dokmasjaki/03_datajakon/petaindonesiabaru.png" alt="img-159">
-						<a href="#"></a>
-                    </div><!-- department-details-imgbox -->
 
 					<div class="department-details-content-box">
 						<h4 style="font-size: 20px;" class="department-details-title">{{$title}}</h4>
