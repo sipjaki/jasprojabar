@@ -50,38 +50,30 @@
 					<div class="department-details-content-box">
 						<h4 style="font-size: 20px;" class="department-details-title">{{$title}}</h4>
 
-s                        <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
-                        <script type="text/javascript">
-                        google.charts.load("current", {packages:["corechart"]});
-                        google.charts.setOnLoadCallback(drawChart);
+                        <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+<script type="text/javascript">
+    google.charts.load("current", {packages:["corechart"]});
+    google.charts.setOnLoadCallback(drawChart);
+    function drawChart() {
+        var data = google.visualization.arrayToDataTable([
+            ['Jabatan Kerja', 'Persentase'],
+            @foreach($persentaseJabatan as $data)
+                ['{{ $data["jabatan"] }}', {{ $data["persentase"] }}],
+            @endforeach
+        ]);
 
-                        function drawChart() {
-                            fetch("/get-jabatankerja-data")
-                            .then(response => response.json())
-                            .then(data => {
-                                var chartData = [["Jabatan Kerja", "Persentase"]];
+        var options = {
+            title: 'Persentase SKK Tenaga Ahli Berdasarkan Jabatan Kerja',
+            is3D: true,
+        };
 
-                                Object.entries(data).forEach(([jabatan, persentase]) => {
-                                chartData.push([jabatan, persentase]);
-                                });
+        var chart = new google.visualization.PieChart(document.getElementById('piechart_3d'));
+        chart.draw(data, options);
+    }
+</script>
 
-                                var googleData = google.visualization.arrayToDataTable(chartData);
+<div id="piechart_3d" style="width: 900px; height: 500px;"></div>
 
-                                var options = {
-                                title: "Distribusi Jabatan Kerja Berdasarkan Persentase",
-                                is3D: true,
-                                };
-
-                                var chart = new google.visualization.PieChart(document.getElementById("piechart_3d"));
-                                chart.draw(googleData, options);
-                            })
-                            .catch(error => console.error("Error fetching data:", error));
-                        }
-                        </script>
-                    </head>
-                    <body>
-                        <div id="piechart_3d" style="width: 900px; height: 500px;"></div>
-                    </body>
 
 
                     </div><!-- department-details-content-box -->
