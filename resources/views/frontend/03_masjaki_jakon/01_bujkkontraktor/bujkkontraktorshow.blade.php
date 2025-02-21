@@ -39,6 +39,11 @@
 
                                 <div class="document-details-content">
                                     <h5><i class="fa fa-phone"> :</i> Telepon</h5>
+                                    <p>{{$data->namalengkap}}</p>
+                                </div><!-- document-box-content -->
+
+                                <div class="document-details-content">
+                                    <h5><i class="fa fa-phone"> :</i> Telepon</h5>
                                     <p>{{$data->no_telepon}}</p>
                                 </div><!-- document-box-content -->
 
