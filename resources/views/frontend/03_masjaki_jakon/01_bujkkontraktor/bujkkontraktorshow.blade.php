@@ -38,53 +38,53 @@
 
                                 <div class="col-lg-6">
                                     <h5><i class="fas fa-home mr-2" style="margin-right: 5px;"></i>Nama Pemilik </h5>
-									<input type="text" id="fname"  class="input-text" placeholder="{{$data->namalengkap}}*" name="fname" aria-required="true">
+									<input type="text" id="fname"  class="input-text" placeholder="{{$data->namalengkap}}*" name="fname" aria-required="true" readonly>
 								</div><!-- col-lg-6 -->
 
                                 <div class="col-lg-3">
                                     <h5><i class="fas fa-home mr-2" style="margin-right: 5px;"></i>No Telepon</h5>
-									<input type="text" id="fname"  class="input-text" placeholder="{{$data->no_telepon}}*" name="fname" aria-required="true">
+									<input type="text" id="fname"  class="input-text" placeholder="{{$data->no_telepon}}*" name="fname" aria-required="true" readonly>
 								</div><!-- col-lg-6 -->
 
                                 <div class="col-lg-3">
                                     <h5><i class="fas fa-home mr-2" style="margin-right: 5px;"></i>Email</h5>
-									<input type="text" id="fname"  class="input-text" placeholder="{{$data->email}}*" name="fname" aria-required="true">
+									<input type="text" id="fname"  class="input-text" placeholder="{{$data->email}}*" name="fname" aria-required="true" readonly>
 								</div><!-- col-lg-6 -->
 
 
                                 <div class="col-lg-12">
                                     <h5><i class="fas fa-home mr-2" style="margin-right: 5px;"></i>Alamat</h5>
-									<input type="text" id="fname"  class="input-text" placeholder="{{$data->alamat}}*" name="fname" aria-required="true">
+									<input type="text" id="fname"  class="input-text" placeholder="{{$data->alamat}}*" name="fname" aria-required="true" readonly>
 								</div><!-- col-lg-6 -->
 
                                 <div class="col-lg-6">
                                     <h5><i class="fas fa-home mr-2" style="margin-right: 5px;"></i>Nomor Induk Berusaha</h5>
-									<input type="text" id="fname"  class="input-text" placeholder="{{$data->nib}}*" name="fname" aria-required="true">
+									<input type="text" id="fname"  class="input-text" placeholder="{{$data->nib}}*" name="fname" aria-required="true" readonly>
 								</div><!-- col-lg-6 -->
 
                                 <div class="col-lg-6">
                                     <h5><i class="fas fa-home mr-2" style="margin-right: 5px;"></i>Penanggung Jawab Umum</h5>
-									<input type="text" id="fname"  class="input-text" placeholder="{{$data->pju}}*" name="fname" aria-required="true">
+									<input type="text" id="fname"  class="input-text" placeholder="{{$data->pju}}*" name="fname" aria-required="true" readonly>
 								</div><!-- col-lg-6 -->
 
                                 <div class="col-lg-6">
                                     <h5><i class="fas fa-home mr-2" style="margin-right: 5px;"></i>No Akte</h5>
-									<input type="text" id="fname"  class="input-text" placeholder="{{$data->no_akte}}*" name="fname" aria-required="true">
+									<input type="text" id="fname"  class="input-text" placeholder="{{$data->no_akte}}*" name="fname" aria-required="true" readonly>
 								</div><!-- col-lg-6 -->
 
                                 <div class="col-lg-6">
                                     <h5><i class="fas fa-home mr-2" style="margin-right: 5px;"></i>Tanggal</h5>
-									<input type="text" id="fname"  class="input-text" placeholder="{{$data->tanggal}}*" name="fname" aria-required="true">
+									<input type="text" id="fname"  class="input-text" placeholder="{{$data->tanggal}}*" name="fname" aria-required="true" readonly>
 								</div><!-- col-lg-6 -->
 
                                 <div class="col-lg-6">
                                     <h5><i class="fas fa-home mr-2" style="margin-right: 5px;"></i>Notaris</h5>
-									<input type="text" id="fname"  class="input-text" placeholder="{{$data->nama_notaris}}*" name="fname" aria-required="true">
+									<input type="text" id="fname"  class="input-text" placeholder="{{$data->nama_notaris}}*" name="fname" aria-required="true" readonly>
 								</div><!-- col-lg-6 -->
 
                                 <div class="col-lg-6">
                                     <h5><i class="fas fa-home mr-2" style="margin-right: 5px;"></i>No Pengesahan </h5>
-									<input type="text" id="fname"  class="input-text" placeholder="{{$data->no_pengesahan}}*" name="fname" aria-required="true">
+									<input type="text" id="fname"  class="input-text" placeholder="{{$data->no_pengesahan}}*" name="fname" aria-required="true" readonly>
 								</div><!-- col-lg-6 -->
 
 
