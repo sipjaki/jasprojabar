@@ -96,7 +96,7 @@
 	</section><!-- donate-section -->
 
 
-	<section class="department-details-section">
+	<section class="department-details-section" style="margin-top: -200px;">
 		<div class="container">
 			<div class="row">
                 {{-- ------------------------------------------------------------------------------------------ --}}
