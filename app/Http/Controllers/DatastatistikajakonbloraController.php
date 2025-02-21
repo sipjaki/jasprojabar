@@ -91,7 +91,7 @@ class DatastatistikajakonbloraController extends Controller
             'datajabatankerja' => $datajabatankerja,
             'datajenjang' => $datajenjang,
             'datalpspenerbit' => $datalpspenerbit,
-            'persentaseJabatan' => $persentaseJabatan,
+            // 'persentaseJabatan' => $persentaseJabatan,
 
         ]);
     }
