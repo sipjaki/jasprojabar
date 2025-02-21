@@ -38,7 +38,7 @@
                         <p>Dinas Pekerjaan Umum dan Penataan Ruang <br> Pemerintah Kabupaten Blora Provinsi Jawa Tengah</p>
                         <a href="/datajakon/bujkkontraktor">
                             <i class="fa-solid fa-arrow-right-long"></i>
-                            <span>Read More</span>
+                            <span>Lihat Data</span>
                         </a>
                     </div><!--service-two-card-content-->
                 </div><!--service-two-card-->
@@ -56,7 +56,7 @@
                         <p>Dinas Pekerjaan Umum dan Penataan Ruang <br> Pemerintah Kabupaten Blora Provinsi Jawa Tengah</p>
                         <a href="/datajakon/bujkkonsultan">
                             <i class="fa-solid fa-arrow-right-long"></i>
-                            <span>Read More</span>
+                            <span>Lihat Data</span>
                         </a>
                     </div><!--service-two-card-content-->
                 </div><!--service-two-card-->
@@ -74,7 +74,7 @@
                         <p>Dinas Pekerjaan Umum dan Penataan Ruang <br> Pemerintah Kabupaten Blora Provinsi Jawa Tengah</p>
                         <a href="/datajakon/statistikabujkblora">
                             <i class="fa-solid fa-arrow-right-long"></i>
-                            <span>Read More</span>
+                            <span>Lihat Data</span>
                         </a>
                     </div><!--service-two-card-content-->
                 </div><!--service-two-card-->
