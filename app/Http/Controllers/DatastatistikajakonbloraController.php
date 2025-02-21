@@ -18,8 +18,8 @@ class DatastatistikajakonbloraController extends Controller
     {
         $user = Auth::user();
 
-        $datakontraktor = bujkkontraktor::all();
-        $datakonsultan = bujkkonsultan::all();
+        $datakontraktor = bujkkontraktor::count();
+        $datakonsultan = bujkkonsultan::count();
 
         return view('frontend.03_masjaki_jakon.00_datastatistikabujk.datastatistikabujk', [
             'title' => 'Data Statistika BUJK Kontraktor & Konsultan',
