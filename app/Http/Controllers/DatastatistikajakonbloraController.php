@@ -74,7 +74,7 @@ class DatastatistikajakonbloraController extends Controller
             $persentase = $totalData > 0 ? ($jumlah / $totalData) * 100 : 0;
 
             // Simpan dalam array dengan format ['Nama Jabatan' => Persentase]
-            $persentaseJabatan[$jabatankerja->jabatankerja] = $persentase;
+            $persentaseJabatan[$jabatankerja->id] = $persentase;
         }
 
         // ---------------------------------
