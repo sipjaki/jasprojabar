@@ -47,6 +47,10 @@
 						<a href="#"></a>
                     </div><!-- department-details-imgbox -->
 
+				</div><!-- col-lg-8 -->
+
+                <div class="col-lg-12">
+
 					<div class="department-details-content-box">
 						<h4 style="font-size: 20px;" class="department-details-title">{{$title}}</h4>
 
@@ -81,7 +85,8 @@
 
                             Ini adalah data statistika yang menunjukkan jumlah dan distribusi Badan Usaha Jasa Konstruksi (BUJK) kontraktor dan konsultan di Kabupaten Blora, Provinsi Jawa Tengah. Data ini memberikan gambaran mengenai perkembangan sektor konstruksi di daerah tersebut, termasuk sebaran usaha, kapasitas pelaku industri, serta perannya dalam mendukung pembangunan daerah. Dengan adanya data ini, diharapkan dapat menjadi acuan bagi pemerintah, pelaku usaha, dan masyarakat dalam perencanaan, pengawasan, serta peningkatan kualitas jasa konstruksi di Kabupaten Blora.</p>
 					</div><!-- department-details-box -->
-				</div><!-- col-lg-8 -->
+
+                </div>
 			</div><!-- row -->
 		</div><!-- container -->
 	</section><!-- department-details-section -->
