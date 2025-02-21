@@ -48,9 +48,40 @@
 				</div><!--col-12 col-lg-4 col-xl-4-->
 				<div class="col-lg-8">
 					<div class="department-details-imgbox">
-						<img src="assets/image/gallery/about-7.jpg" alt="img-159">
-						<a href="#"></a>
-					</div><!-- department-details-imgbox -->
+
+                            <head>
+                              <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+                              <script type="text/javascript">
+                                google.charts.load('current', {
+                                  'packages':['geochart'],
+                                });
+                                google.charts.setOnLoadCallback(drawRegionsMap);
+
+                                function drawRegionsMap() {
+                                  var data = google.visualization.arrayToDataTable([
+                                    ['Region', 'Popularity'],
+                                    ['ID-JT', 100], // Jawa Tengah (ID-JT)
+                                    ['ID-JT-03', 150], // Kabupaten Blora (ID-JT-03)
+                                    // Tambahkan data lainnya sesuai kebutuhan
+                                  ]);
+
+                                  var options = {
+                                    region: 'ID', // Indonesia
+                                    displayMode: 'regions', // Menampilkan peta wilayah
+                                    colorAxis: {colors: ['#e0f2f1', '#00796b']}, // Pilih warna
+                                    resolution: 'provinces', // Resolusi peta pada level provinsi
+                                  };
+
+                                  var chart = new google.visualization.GeoChart(document.getElementById('regions_div'));
+                                  chart.draw(data, options);
+                                }
+                              </script>
+                            </head>
+                            <body>
+                              <div id="regions_div" style="width: 900px; height: 500px;"></div>
+                            </body>
+
+                    </div><!-- department-details-imgbox -->
 					<div class="department-details-content-box">
 						<h4 class="department-details-title">Birth & Date Registration</h4>
 						<p>There are many variations of passages of lorem ipsum is simply free text available in the market, but the majority time you put aside to be in our office. Lorem ipsum dolor sit amet, consectetLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
