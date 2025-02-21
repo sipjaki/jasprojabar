@@ -3049,14 +3049,6 @@ jurusan::create([
 ]);
 
 jurusan::create([
-    'id' => '3',
-    'jurusan' => 'Bangunan Air/Jalan',
-    'created_at' => Carbon::now(),
-    'updated_at' => Carbon::now(),
-    'deleted_at' => null, // Jika Anda menggunakan soft deletes
-]);
-
-jurusan::create([
     'id' => '4',
     'jurusan' => 'Bangunan Gedung',
     'created_at' => Carbon::now(),
