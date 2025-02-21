@@ -60,16 +60,16 @@
                                 function drawRegionsMap() {
                                   var data = google.visualization.arrayToDataTable([
                                     ['Region', 'Popularity'],
-                                    ['ID-JT', 100], // Jawa Tengah (ID-JT)
-                                    ['ID-JT-03', 150], // Kabupaten Blora (ID-JT-03)
-                                    // Tambahkan data lainnya sesuai kebutuhan
+                                    ['ID-JT', 100], // Jawa Tengah
+                                    ['ID-JT-03', 150], // Kabupaten Blora
                                   ]);
 
                                   var options = {
                                     region: 'ID', // Indonesia
-                                    displayMode: 'regions', // Menampilkan peta wilayah
+                                    resolution: 'provinces', // Peta level provinsi
+                                    displayMode: 'regions', // Mode tampilan peta
                                     colorAxis: {colors: ['#e0f2f1', '#00796b']}, // Pilih warna
-                                    resolution: 'provinces', // Resolusi peta pada level provinsi
+                                    tooltip: { isHtml: true },
                                   };
 
                                   var chart = new google.visualization.GeoChart(document.getElementById('regions_div'));
