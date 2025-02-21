@@ -3363,7 +3363,7 @@ lpspenerbit::create([
 //======================== ===================================================================================
 // SKK TENAGA KERJA MAS JAKI BLORA
 skktenagakerjablora::create([
-    'nama_lengkap' => 'AFILIA NANDA DWI NOVIANTI', // Ganti dengan ID yang sesuai
+    'nama' => 'AFILIA NANDA DWI NOVIANTI', // Ganti dengan ID yang sesuai
     'alamat' => 'Dk.sendang klampok rt.01 rw.09 tempurejo blora',
     'namasekolah_id' => 53,
     'jenjangpendidikan_id' => 2,

@@ -13,7 +13,7 @@ return new class extends Migration
     {
         Schema::create('skktenagakerjabloras', function (Blueprint $table) {
             $table->id();
-            $table->string('nama_lengkap');
+            $table->string('nama');
             $table->text('alamat');
             $table->foreignId('namasekolah_id');
             $table->foreignId('jenjangpendidikan_id');
