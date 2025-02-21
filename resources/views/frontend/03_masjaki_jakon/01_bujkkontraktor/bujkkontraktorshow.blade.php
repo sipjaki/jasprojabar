@@ -229,9 +229,7 @@
 
 
                                                 </div><!-- document-details-list -->
-                                                <div class="document-details-button">
-                                                    <a href="assets/inc/sample.pdf" title="download"><i class="fa-solid fa-arrow-down"></i></a>
-                                                </div><!-- document-details-button -->
+
                                             </div><!-- document-details -->
                                         </div><!-- document-details-inner -->
 
