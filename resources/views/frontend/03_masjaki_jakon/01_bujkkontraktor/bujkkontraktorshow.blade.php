@@ -237,6 +237,7 @@
                         <thead>
                             <tr>
                                 {{-- <th style="text-align:center" >No</th> --}}
+                                <th style="text-align:center">No</th>
                                 <th style="text-align:center">Nama Pengurus</th>
                                 <th style="text-align:center" >Sub Klasifikasi Layanan</th>
                                 <th style="text-align:center" >Kode</th>
@@ -249,14 +250,15 @@
                                 </tr>
                         </thead>
                         <tbody>
-                    {{--
+
                         @php
                         $start = ($data->currentPage() - 1) * $data->perPage() + 1;
-                            @endphp --}}
+                            @endphp
 
                             @foreach ($subData as $item )
                             <tr>
-                                {{-- <td>{{ $loop->iteration + $start - 1 }}</td> --}}
+                                <td>{{ $loop->iteration + $start - 1 }}</td>
+                                <td>{{$item->nama_pengurus}}</td>
                                 <td>{{$item->nama_pengurus}}</td>
                                 <td>{{$item->sub_klasifikasi_layanan}}</td>
                                 {{-- <td>{{$item->sub_klasifikasi_layanan}}</td> --}}
