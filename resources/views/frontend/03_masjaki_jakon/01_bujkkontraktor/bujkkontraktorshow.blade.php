@@ -187,6 +187,7 @@
                                             text-transform: uppercase;
                                             font-weight: 800;
                                             letter-spacing: 0.5px;
+                                            color: black;
                                         }
 
                                         .fl-table th,
