@@ -99,7 +99,7 @@
           },
           bars: 'horizontal', // Bisa diubah ke 'vertical' jika ingin tampilan vertikal
           height: 500,
-          colors: ['#1b9e77']
+          colors: ['#fdba00']
         };
 
         var chart = new google.charts.Bar(document.getElementById('columnchart_material'));
