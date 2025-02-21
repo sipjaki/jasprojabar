@@ -14,7 +14,7 @@
         }
 
         .green-button {
-            background-color: #28a745; /* Light green background */
+            background-color: #fdba00; /* Light green background */
             color: white; /* White text */
             padding: 10px 30px; /* Adds padding around the text */
             font-size: 14px; /* Smaller text size */
