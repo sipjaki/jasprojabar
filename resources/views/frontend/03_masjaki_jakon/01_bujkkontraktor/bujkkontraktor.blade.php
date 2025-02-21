@@ -113,7 +113,7 @@
 </head>
 
 <section class="document-section" style="height: 15vh;">
-    <div class="container" style="margin-top: -40px;">
+    <div class="container" style="margin-top: -10px; margin-bottom:-10px;">
       <ul class="nav nav-pills" id="pills-tab" role="tablist">
 
         <li class="nav-item" role="presentation">
