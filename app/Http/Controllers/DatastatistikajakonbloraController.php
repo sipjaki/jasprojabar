@@ -48,7 +48,7 @@ class DatastatistikajakonbloraController extends Controller
     {
         $user = Auth::user();
 
-        $data = skktenagakerjablora::all();
+        $data = skktenagakerjablora::count();
         $datanamasekolah = namasekolah::all();
         $datajenjangpendidikan = jenjangpendidikan::all();
         $datajurusan = jurusan::all();
