@@ -80,9 +80,10 @@
 
                     </div><!-- department-details-content-box -->
 					<div class="department-details-box">
-						<p>Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur iste natus error sit voluptatem accusantium totam rem aperiam, eaque ipsa quae.</p>
-						<p>Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur iste natus error sit voluptatem accusantium totam rem aperiam, eaque ipsa quae.</p>
-						<p>Thomas Edison may have been behind the invention of the electric light bulb, but he did not work alone. Edison worked alongside partners, both financial and commercial, to get his inventions off the ground. It was installed globally, an annual market growth of 22 percent. It is continuing its progress towards becoming a mainstream competitive salary and economy reports by mine.</p>
+						<p>
+                            **Data Statistika BUJK Kontraktor dan Konsultan Kabupaten Blora, Provinsi Jawa Tengah**
+
+                            Ini adalah data statistika yang menunjukkan jumlah dan distribusi Badan Usaha Jasa Konstruksi (BUJK) kontraktor dan konsultan di Kabupaten Blora, Provinsi Jawa Tengah. Data ini memberikan gambaran mengenai perkembangan sektor konstruksi di daerah tersebut, termasuk sebaran usaha, kapasitas pelaku industri, serta perannya dalam mendukung pembangunan daerah. Dengan adanya data ini, diharapkan dapat menjadi acuan bagi pemerintah, pelaku usaha, dan masyarakat dalam perencanaan, pengawasan, serta peningkatan kualitas jasa konstruksi di Kabupaten Blora.</p>
 					</div><!-- department-details-box -->
 				</div><!-- col-lg-8 -->
 			</div><!-- row -->
