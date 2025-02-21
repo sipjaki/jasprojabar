@@ -49,6 +49,7 @@
 
 					<div class="department-details-content-box">
 						<h4 style="font-size: 20px;" class="department-details-title">{{$title}}</h4>
+
                         <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
                         <script type="text/javascript">
                           google.charts.load('current', {'packages':['corechart']});
@@ -67,12 +68,12 @@
                               is3D: true
                             };
 
-                            var chart = new google.visualization.PieChart(document.getElementById('piechart'));
+                            var chart = new google.visualization.PieChart(document.getElementById('skkTenagaahli'));
                             chart.draw(data, options);
                           }
                         </script>
 
-                        <div id="piechart" style="width: 900px; height: 500px;"></div>
+                        <div id="skkTenagaahli" style="width: 900px; height: 500px;"></div>
 
 
                     </div><!-- department-details-content-box -->
