@@ -85,13 +85,13 @@
                                     <span>Show Here</span><i class="fa-solid fa-arrow-right-long"></i>
                                 </a>
                                 <i class="flaticon-pdf"></i>
-                            </div><!-- service-three-detail -->
-                        </div><!-- service-three-card-content -->
-                    </div><!-- service-three-card -->
-                </div><!-- col-xxl-4 col-xl-6 -->
+            </div><!-- service-three-detail -->
+        </div><!-- service-three-card-content -->
+    </div><!-- service-three-card -->
+ </div><!-- col-xxl-4 col-xl-6 -->
 
 
-@endforeach
+            @endforeach
 
           </div><!-- row -->
         </div><!-- tab-pane -->
