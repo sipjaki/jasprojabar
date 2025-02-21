@@ -34,7 +34,7 @@ class SkktenagakerjabloraController extends Controller
     {
         $user = Auth::user();
 
-        $data = skktenagakerjablora::paginate(15);
+        $data = skktenagakerjablora::paginate(10);
         $datanamasekolah = namasekolah::all();
         $datajenjangpendidikan = jenjangpendidikan::all();
         $datajurusan = jurusan::all();
