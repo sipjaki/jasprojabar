@@ -28,8 +28,9 @@
 			<div class="row row-gutter-30">
 				<div class="col-lg-12">
                     <div class="col-lg-12" style="display: flex; justify-content: left; padding:20px">
-                        <button class="btn"
-                                style="background-color: #000080;
+                      <a href="/datajakon/bujkkontraktor">
+                          <button class="btn"
+                          style="background-color: #000080;
                                        color: white;
                                        display: flex;
                                        align-items: center;
@@ -40,8 +41,9 @@
                                        cursor: pointer;"
                                 onmouseover="this.style.backgroundColor='white'; this.style.color='black'; this.querySelector('i').style.color='black';"
                                 onmouseout="this.style.backgroundColor='#000080'; this.style.color='white'; this.querySelector('i').style.color='white';">
-                            <i class="fas fa-arrow-left" style="margin-right: 10px; color: white;"></i>Kembali
-                        </button>
+                                <i class="fas fa-arrow-left" style="margin-right: 10px; color: white;"></i>Kembali
+                            </button>
+                        </a>
                     </div><!-- col-lg-12 -->
 				</div><!-- col-lg-12 -->
 				<div class="col-xxl-12 col-lg-12">
