@@ -22,7 +22,7 @@ class DatastatistikajakonbloraController extends Controller
         $datakonsultan = bujkkonsultan::all();
 
         return view('frontend.03_masjaki_jakon.00_datastatistikabujk.datastatistikabujk', [
-            'title' => 'BUJK Konsultan',
+            'title' => 'Data Statistika BUJK Kontraktor & Konsultan',
             'user' => $user, // Mengirimkan data paginasi ke view
             'datakontraktor' => $datakontraktor, // Mengirimkan data paginasi ke view
             'datakonsultan' => $datakonsultan, // Mengirimkan data paginasi ke view
