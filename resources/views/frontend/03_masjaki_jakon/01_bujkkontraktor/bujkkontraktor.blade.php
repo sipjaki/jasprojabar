@@ -112,7 +112,7 @@
 </style>
 </head>
 
-<section class="document-section">
+<section class="document-section" style="height: 50vh;">
     <div class="container">
       <ul class="nav nav-pills" id="pills-tab" role="tablist">
 
