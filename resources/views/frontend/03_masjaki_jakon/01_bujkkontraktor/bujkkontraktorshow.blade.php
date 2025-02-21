@@ -34,6 +34,7 @@
                                        display: flex;
                                        align-items: center;
                                        border: none;
+                                       padding: 10px 30px;
                                        border-radius:10px;
                                        transition: all 0.3s ease;
                                        cursor: pointer;"
