@@ -115,7 +115,7 @@
                     </div><!-- department-details-content-box -->
 
                 </div><!-- col-lg-8 -->
-                <div class="col-lg-12">
+                <div class="col-lg-12" style="margin-top:25px;">
 					<div class="department-details-box">
 						<p style="text-align: justify;">
                             Data Statistika BUJK Kontraktor dan Konsultan Kabupaten Blora, Provinsi Jawa Tengah.
