@@ -47,9 +47,38 @@
 						<a href="#"></a>
                     </div><!-- department-details-imgbox -->
 					<div class="department-details-content-box">
-						<h4 class="department-details-title">Birth & Date Registration</h4>
-						<p>There are many variations of passages of lorem ipsum is simply free text available in the market, but the majority time you put aside to be in our office. Lorem ipsum dolor sit amet, consectetLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-					</div><!-- department-details-content-box -->
+						<h4 class="department-details-title">Data Statistika</h4>
+
+                        <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+                              <script type="text/javascript">
+                                google.charts.load('current', {'packages':['corechart']});
+                                google.charts.setOnLoadCallback(drawChart);
+
+                                function drawChart() {
+
+                                  var data = google.visualization.arrayToDataTable([
+                                    ['Task', 'Hours per Day'],
+                                    ['Work',     11],
+                                    ['Eat',      2],
+                                    ['Commute',  2],
+                                    ['Watch TV', 2],
+                                    ['Sleep',    7]
+                                  ]);
+
+                                  var options = {
+                                    title: 'My Daily Activities'
+                                  };
+
+                                  var chart = new google.visualization.PieChart(document.getElementById('piechart'));
+
+                                  chart.draw(data, options);
+                                }
+                              </script>
+                            </head>
+                            <body>
+                              <div id="piechart" style="width: 900px; height: 500px;"></div>
+
+                    </div><!-- department-details-content-box -->
 					<div class="department-details-box">
 						<p>Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur iste natus error sit voluptatem accusantium totam rem aperiam, eaque ipsa quae.</p>
 						<p>Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur iste natus error sit voluptatem accusantium totam rem aperiam, eaque ipsa quae.</p>
