@@ -51,7 +51,7 @@
                 <div class="service-three-card-content">
                     <h4>Nama Pemilik Badan Usaha Jasa Konstruksi</h3>
                     <a href="/">
-                    <h5>{{$data->namalengkap}}</h5>
+                    <h5 style="color: orange">{{$data->namalengkap}}</h5>
                     <div class="service-three-detail">
                         </a>
                         <i class="flaticon-pdf"></i>
