@@ -49,6 +49,7 @@ class DatastatistikajakonbloraController extends Controller
         $user = Auth::user();
 
         $data = skktenagakerjablora::count();
+
         $datanamasekolah = namasekolah::all();
         $datajenjangpendidikan = jenjangpendidikan::all();
         $datajurusan = jurusan::all();
@@ -56,6 +57,27 @@ class DatastatistikajakonbloraController extends Controller
         $datajenjang = jenjang::all();
         $datalpspenerbit = lpspenerbit::all();
 
+        // ---------------------------------
+        $totalData = skktenagakerjablora::count();
+
+        // Mengambil semua jenis jabatan kerja
+        $dataJabatanKerja = jabatankerja::all();
+
+        // Menyiapkan array untuk menyimpan persentase tiap jabatan kerja
+        $persentaseJabatan = [];
+
+        foreach ($dataJabatanKerja as $jabatankerja) {
+            // Hitung jumlah tenaga kerja berdasarkan jabatan kerja
+            $jumlah = skktenagakerjablora::where('jabatankerja_id', $jabatankerja->id)->count();
+
+            // Hitung persentase
+            $persentase = $totalData > 0 ? ($jumlah / $totalData) * 100 : 0;
+
+            // Simpan dalam array dengan format ['Nama Jabatan' => Persentase]
+            $persentaseJabatan[$jabatankerja->jabatankerja] = $persentase;
+        }
+
+        // ---------------------------------
 
 
         return view('frontend.03_masjaki_jakon.00_datastatistikabujk.datastatistikaskktenagakerja', [

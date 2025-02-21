@@ -49,21 +49,21 @@
 
 					<div class="department-details-content-box">
 						<h4 style="font-size: 20px;" class="department-details-title">{{$title}}</h4>
-
-                        {{-- <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+                        <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
                         <script type="text/javascript">
                           google.charts.load('current', {'packages':['corechart']});
                           google.charts.setOnLoadCallback(drawChart);
 
                           function drawChart() {
                             var data = google.visualization.arrayToDataTable([
-                              ['Jenis BUJK', 'Persentase'],
-                              ['Kontraktor',  {{ $persen_kontraktor }}],
-                              ['Konsultan',   {{ $persen_konsultan }}]
+                              ['Jenis Jabatan', 'Persentase'],
+                              @foreach($persentaseJabatan as $namaJabatan => $persentase)
+                                ['{{ $namaJabatan }}', {{ $persentase }}],
+                              @endforeach
                             ]);
 
                             var options = {
-                              title: 'Persentase BUJK Kontraktor & Konsultan',
+                              title: 'Persentase Tenaga Kerja Berdasarkan Jabatan',
                               is3D: true
                             };
 
@@ -72,7 +72,7 @@
                           }
                         </script>
 
-                        <div id="piechart" style="width: 900px; height: 500px;"></div> --}}
+                        <div id="piechart" style="width: 900px; height: 500px;"></div>
 
                     </div><!-- department-details-content-box -->
 
