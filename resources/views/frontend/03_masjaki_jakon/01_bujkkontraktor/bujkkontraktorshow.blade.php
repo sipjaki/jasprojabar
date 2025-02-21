@@ -134,9 +134,10 @@
                         <div class="document-details">
 							<div class="document-details-list">
                                 <div class="centered-button">
-                                    <button class="green-button">
-                                        <i class="flaticon-list mr-2"></i> Sub Klasifikasi Layanan
+                                    <button class="green-button" style="margin-bottom:10px;">
+                                        <i class="fas fa-list mr-2"></i> Sub Klasifikasi Layanan
                                     </button>
+
                                 </div>
 
 
