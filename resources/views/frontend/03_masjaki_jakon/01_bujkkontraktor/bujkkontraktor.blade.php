@@ -112,8 +112,8 @@
 </style>
 </head>
 
-<section class="document-section" style="height: 15vh;">
-    <div class="container" style="margin-top: -10px; margin-bottom:-10px;">
+<section class="document-section" style="margin-top: -10px; margin-bottom:-10px;">
+    <div class="container" >
       <ul class="nav nav-pills" id="pills-tab" role="tablist">
 
         <li class="nav-item" role="presentation">
