@@ -56,27 +56,28 @@ class DatastatistikajakonbloraController extends Controller
         $datajabatankerja = jabatankerja::all();
         $datajenjang = jenjang::all();
         $datalpspenerbit = lpspenerbit::all();
+        // ---------------------------------------
 
-        // ---------------------------------
-        $totalData = SkkTenagaKerjaBlora::count();
+          // Ambil semua data Jabatan Kerja
+    $datajabatankerja = jabatankerja::all();
 
-        // Mengambil semua jenis jabatan kerja
-        $dataJabatanKerja = JabatanKerja::all();
+    // Hitung total tenaga kerja per jabatan
+    $jumlahData = skktenagakerjablora::select('jabatankerja_id')
+        ->selectRaw('COUNT(*) as total')
+        ->groupBy('jabatankerja_id')
+        ->pluck('total', 'jabatankerja_id');
 
-        // Menyiapkan array untuk menyimpan persentase tiap jabatan kerja
-        $persentaseJabatan = [];
+    // Hitung total semua tenaga kerja
+    $totalTenagaKerja = $jumlahData->sum();
 
-        foreach ($dataJabatanKerja as $jabatankerja) {
-            // Hitung jumlah tenaga kerja berdasarkan jabatan kerja
-            $jumlah = SkkTenagaKerjaBlora::where('jabatankerja_id', $jabatankerja->id)->count();
+    // Buat array persentase berdasarkan jumlah tenaga kerja
+    $persentaseJabatan = [];
 
-            // Hitung persentase
-            $persentase = $totalData > 0 ? ($jumlah / $totalData) * 100 : 0;
-
-            // Simpan dalam array dengan format ['Nama Jabatan' => Persentase]
-            $persentaseJabatan[$jabatankerja->nama_jabatan] = $persentase;
-        }
-        // ---------------------------------
+    foreach ($datajabatankerja as $jabatan) {
+        $jumlah = $jumlahData[$jabatan->id] ?? 0;
+        $persentaseJabatan[$jabatan->nama] = $totalTenagaKerja > 0 ? round(($jumlah / $totalTenagaKerja) * 100, 2) : 0;
+    }
+    // ---------------------------------------
 
 
         return view('frontend.03_masjaki_jakon.00_datastatistikabujk.datastatistikaskktenagakerja',   [
