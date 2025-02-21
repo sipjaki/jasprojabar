@@ -48,6 +48,7 @@
 				</div><!--col-12 col-lg-4 col-xl-4-->
 				<div class="col-lg-8">
 					<div class="department-details-imgbox">
+                        <!DOCTYPE html>
 
                         <head>
                             <script type='text/javascript' src='https://www.gstatic.com/charts/loader.js'></script>
@@ -62,8 +63,8 @@
                               function drawMarkersMap() {
                                 // Data untuk Kabupaten Blora
                                 var data = google.visualization.arrayToDataTable([
-                                  ['City', 'Population', 'Area', 'Lat', 'Long'],
-                                  ['Kabupaten Blora', 2300000, 1500, -7.0319, 111.6017] // Populasi dan koordinat Kabupaten Blora
+                                  ['City', 'Population', 'Area'],
+                                  ['Kabupaten Blora', 2300000, 1500] // Populasi dan area Kabupaten Blora
                                 ]);
 
                                 var options = {
@@ -79,6 +80,7 @@
                               };
                             </script>
                           </head>
+
                           <body>
                             <div id="chart_div" style="width: 900px; height: 500px;"></div>
                           </body>
