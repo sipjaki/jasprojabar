@@ -21,8 +21,8 @@
 					<div class="sidebar">
 						<div class="sidebar-widget-list-inner">
 							<ul>
+								<li><a href="/datajakon/bujk"><i class="fa-solid fa-arrow-left-long"></i>Kembali</a></li>
 								<li style="text-align: center"><a style="text-align: center;" href="#">Data Statistika<i class="fa-solid fa-database" style="margin-left: 10px;"></i></a></li>
-								<li><a href="services.html">Agriculture and Food<i class="fa-solid fa-arrow-right-long"></i></a></li>
 								<li><a href="services.html">Housing and Land<i class="fa-solid fa-arrow-right-long"></i></a></li>
 								<li><a href="services.html">Art and Culture<i class="fa-solid fa-arrow-right-long"></i></a></li>
 								<li><a href="services.html">Roads & Transport<i class="fa-solid fa-arrow-right-long"></i></a></li>
