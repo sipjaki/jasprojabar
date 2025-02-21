@@ -30,19 +30,12 @@
                 <div class="col-lg-12">
 
 
-
-
                         <div class="document-details">
                             <div class="document-details-list">
                                 <div class="document-details-icon">
                                     <i class="flaticon-pdf"></i>
-                                    {{-- <i class="fa fa-hard-hat"></i> <!-- Ikon helm konstruksi --> --}}
+                                    <i class="fa fa-hard-hat"></i> <!-- Ikon helm konstruksi -->
                                 </div><!-- document-details-icon -->
-
-                                <div class="document-details-content">
-                                    <h5><i class="fa fa-home"> :</i> Telepon</h5>
-                                    <p>{{$data->namalengkap}}</p>
-                                </div><!-- document-box-content -->
 
                                 <div class="document-details-content">
                                     <h5><i class="fa fa-phone"> :</i> Telepon</h5>
@@ -94,27 +87,6 @@
                         </div><!--page-wrapper-->
                     </div><!--page-wrapper-->
                 </div><!--page-wrapper-->
-
-
-<div class="col-xxl-4 col-xl-6">
-    <div class="service-three-card">
-        <div class="service-three-icon">
-        <i class="flaticon-pdf"></i>
-            </div><!-- service-three-icon -->
-                <div class="service-three-card-content">
-                            {{-- <h3><a href="/peraturan/suratedaranmenteri/{{$item->judul}}">{{$item->judul}}</a></h3>
-                            <a href="/peraturan/suratedaranmenteri/{{$item->judul}}"> --}}
-                            <p>{{$title}}</p>
-                            <div class="service-three-detail">
-                                    <span>Show Here</span><i class="fa-solid fa-arrow-right-long"></i>
-                                </a>
-                                <i class="flaticon-pdf"></i>
-                            </div><!-- service-three-detail -->
-                </div><!-- service-three-card-content -->
-            </div><!-- service-three-card -->
-        </div><!-- col-xxl-4 col-xl-6 -->
-    </div><!-- col-xxl-4 col-xl-6 -->
-</div><!-- col-xxl-4 col-xl-6 -->
 
                 <div class="col-lg-12">
 
