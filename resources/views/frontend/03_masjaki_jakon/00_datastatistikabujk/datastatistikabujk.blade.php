@@ -48,44 +48,8 @@
 				</div><!--col-12 col-lg-4 col-xl-4-->
 				<div class="col-lg-8">
 					<div class="department-details-imgbox">
-                        <!DOCTYPE html>
-                        <!DOCTYPE html>
-
-                        <head>
-                            <script type='text/javascript' src='https://www.gstatic.com/charts/loader.js'></script>
-                            <script type='text/javascript'>
-                              google.charts.load('current', {
-                                'packages': ['geochart'],
-                                'mapsApiKey': 'AIzaSyD-9tSrke72PouQMnMX-a7eZSW0jkFMBWY' // Pastikan API key valid
-                              });
-
-                              google.charts.setOnLoadCallback(drawMarkersMap);
-
-                              function drawMarkersMap() {
-                                var data = google.visualization.arrayToDataTable([
-                                  ['City', 'Population', 'Area'],
-                                  ['Blora, Indonesia', 884333, 1820] // Data lebih spesifik untuk Blora
-                                ]);
-
-                                var options = {
-                                  region: 'ID-JT', // Fokus pada Jawa Tengah
-                                  displayMode: 'markers',
-                                  colorAxis: {colors: ['yellow', 'red']}, // Mengubah skema warna
-                                  sizeAxis: {minSize: 10, maxSize: 20}, // Menyesuaikan ukuran marker
-                                  resolution: 'provinces', // Menyesuaikan resolusi ke tingkat provinsi
-                                  tooltip: { isHtml: true },
-                                  backgroundColor: '#f8f9fa', // Mengatur warna latar belakang
-                                };
-
-                                var chart = new google.visualization.GeoChart(document.getElementById('chart_div'));
-                                chart.draw(data, options);
-                              }
-                            </script>
-                          </head>
-                          <body>
-                            <div id="chart_div" style="width: 100%; height: 600px;"></div>
-                          </body>
-
+						<img src="/assets/oo_dokmasjaki/03_datajakon/petaindonesia.png" alt="img-159">
+						<a href="#"></a>
                     </div><!-- department-details-imgbox -->
 					<div class="department-details-content-box">
 						<h4 class="department-details-title">Birth & Date Registration</h4>
