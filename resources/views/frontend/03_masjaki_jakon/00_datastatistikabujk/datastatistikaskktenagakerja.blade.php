@@ -118,10 +118,11 @@
                 <div class="col-lg-12" style="margin-top:25px;">
 					<div class="department-details-box">
 						<p style="text-align: justify;">
-                            Data Statistika BUJK Kontraktor dan Konsultan Kabupaten Blora, Provinsi Jawa Tengah.
 
-                            Ini adalah data statistika yang menunjukkan jumlah dan distribusi Badan Usaha Jasa Konstruksi (BUJK) kontraktor dan konsultan di Kabupaten Blora, Provinsi Jawa Tengah. Data ini memberikan gambaran mengenai perkembangan sektor konstruksi di daerah tersebut, termasuk sebaran usaha, kapasitas pelaku industri, serta perannya dalam mendukung pembangunan daerah. Dengan adanya data ini, diharapkan dapat menjadi acuan bagi pemerintah, pelaku usaha, dan masyarakat dalam perencanaan, pengawasan, serta peningkatan kualitas jasa konstruksi di Kabupaten Blora.</p>
-					</div><!-- department-details-box -->
+                            Data ini menyajikan data mengenai Sertifikat Kompetensi Kerja (SKK) Tenaga Ahli Konstruksi berdasarkan jabatan kerja di lingkungan Pemerintah Kabupaten Blora, Provinsi Jawa Tengah. Data ini memberikan gambaran tentang kualifikasi, distribusi, dan kapasitas tenaga ahli yang berperan dalam mendukung pembangunan infrastruktur daerah. Dengan adanya informasi ini, diharapkan dapat menjadi referensi bagi pemerintah, pelaku industri konstruksi, serta masyarakat dalam perencanaan, pengelolaan, dan peningkatan kompetensi tenaga ahli konstruksi di Kabupaten Blora.
+                        </p>
+
+                        </div><!-- department-details-box -->
 
                 </div>
 			</div><!-- row -->
