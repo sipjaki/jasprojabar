@@ -21,22 +21,13 @@
 		</div><!-- container -->
 	</section><!--page-banner-->
 
-
-
-
 	<section class="department-details-section">
 		<div class="container">
 			<div class="row">
-
-
-
                 {{-- ------------------------------------------------------------------------------------------ --}}
                 <div class="col-lg-12">
 						<div class="document-details">
 							<div class="document-details-list">
-
-
-
                                 <div class="document-details-content">
                                     <h5><i class="fa fa-user-tie"> :</i> Penanggung Jawab Umum</h5>
                                     <p>{{$data->pju}}</p>
