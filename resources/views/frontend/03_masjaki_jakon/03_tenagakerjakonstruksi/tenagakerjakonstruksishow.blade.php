@@ -58,7 +58,7 @@
 			<div class="row row-gutter-30">
 				<div class="col-lg-12">
                     <div class="col-lg-12" style="display: flex; justify-content: left; padding:20px">
-                      <a href="/datajakon/bujkkontraktor">
+                      <a href="/datajakon/skktenagakerjablora">
                           <button class="btn"
                           style="background-color: #000080;
                                        color: white;
