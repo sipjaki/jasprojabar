@@ -37,7 +37,7 @@
 							<div class="row row-gutter-10">
 								<h3>Nama Pemilik</h3>
 								<div class="col-lg-6">
-									<input placeholder="{{$data->namalengkap}}" readonly>
+									<input type="text" id="fname"  class="input-text" placeholder="First Name*" name="fname" aria-required="true">
 								</div><!-- col-lg-6 -->
 								<div class="col-lg-6">
 									<input type="text" id="lname" class="input-text" placeholder="Last Name" name="lname" aria-required="true">
