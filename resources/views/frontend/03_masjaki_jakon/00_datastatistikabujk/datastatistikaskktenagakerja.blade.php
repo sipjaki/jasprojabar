@@ -75,8 +75,7 @@
 <div id="piechart_3d" style="width: 900px; height: 500px;"></div>
 
 {{-- ============================= --}}
-
-<head>
+  <head>
     <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
     <script type="text/javascript">
       google.charts.load('current', {'packages':['bar']});
@@ -84,16 +83,16 @@
 
       function drawChart() {
         var data = google.visualization.arrayToDataTable([
-          ['Jabatan Kerja', 'Persentase'],
-          @foreach($persentaseJabatan as $item)
-            ['{{ $item["jabatan"] }}', {{ $item["persentase"] }}],
+          ['Jabatan Kerja', 'Jumlah Tenaga Kerja'],
+          @foreach($jumlahData as $jabatanId => $jumlah)
+            ['{{ $jabatankerja->find($jabatanId)->jabatankerja }}', {{ $jumlah }}],
           @endforeach
         ]);
 
         var options = {
           chart: {
             title: 'Statistik SKK Tenaga Ahli Berdasarkan Jabatan Kerja',
-            subtitle: 'Persentase tenaga kerja per jabatan',
+            subtitle: 'Jumlah tenaga kerja per jabatan',
           },
           bars: 'horizontal', // Bisa diubah ke 'vertical' jika ingin tampilan vertikal
           height: 500,
@@ -109,8 +108,6 @@
     <div id="columnchart_material" style="width: 800px; height: 500px;"></div>
   </body>
 
-
-{{-- ================== --}}
 
                     </div><!-- department-details-content-box -->
 
