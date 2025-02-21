@@ -80,7 +80,7 @@
 					<div class="donate-box-inner" style="margin-top: -20px;">
                         <div class="centered-button" style="margin-top: -15px;">
                             <button class="green-button" style="margin-bottom:10px; text-transform:uppercase">
-                                <i class="fas fa-file mr-2" style="margin-right:5px;"></i> INFORMASI TENAGA AHLI : <span style="font-weight: bold; color: black;">{{$data->nama}}</span>
+                                <i class="fas fa-file mr-2" style="margin-right:5px;"></i> INFORMASI TENAGA AHLI : <span style="font-weight: bold; color: black; margin-left:10px;">{{$data->nama}}</span>
                             </button>
 
                         </div>
