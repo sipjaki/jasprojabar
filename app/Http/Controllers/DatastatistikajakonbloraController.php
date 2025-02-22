@@ -122,9 +122,22 @@ class DatastatistikajakonbloraController extends Controller
             ];
         });
 
+        $jumlahstatistikJenjang = skktenagakerjabloralist::select('jenjang_id', DB::raw('COUNT(*) as jumlah'))
+        ->groupBy('jenjang_id')
+        ->with('jenjang')
+        ->get()
+        ->map(function ($item) {
+            return [
+                'jenjang' => $item->jenjang->jenjang ?? 'Tidak Diketahui',
+                'jumlah' => $item->jumlah,
+            ];
+        });
+
+
     return view('frontend.03_masjaki_jakon.03_tenagakerjakonstruksi.statistik.statistiklisttenagakerjakonstruksi', [
         'title' => 'Data Statistik Tenaga Ahli Konstruksi',
         'statistikJenjang' => $statistikJenjang,
+        'jumlahstatistikJenjang' => $jumlahstatistikJenjang,
         'statistikJabatanKerja' => $statistikJabatanKerja,
     ]);
 }
