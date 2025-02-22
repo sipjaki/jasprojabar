@@ -130,7 +130,7 @@ color: #45a049;
                     <div class="table-wrapper">
 
                         <section class="document-section">
-                            <div class="container"  style="margin-top: -140px;">
+                            <div class="container"  style="margin-top: -115px;">
                               <ul class="nav nav-pills" id="pills-tab" role="tablist">
                                 <a href="/datajakon/bujk">
                                 <li class="nav-item" role="presentation">
