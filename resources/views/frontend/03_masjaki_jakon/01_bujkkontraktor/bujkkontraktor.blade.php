@@ -14,6 +14,99 @@
 			</div><!-- page-banner-title -->
 		</div><!-- container -->
 	</section><!--page-banner-->
+
+
+
+
+  <section class="service-two-section">
+    <div class="container">
+        <div class="row row-gutter-y-40">
+            <div class="col-12 col-lg-3 col-xl-3">
+                <div class="service-two-card">
+                    <div class="service-two-imgbox">
+                        <div class="service-two-image" style="display: flex; justify-content: center;">
+                            <img src="/assets/00_dokmasjaki/03_datajakon/jabatan.png" class="img-fluid" alt="img-28" loading="lazy" style="width: 70%; padding:30px;">
+                            <a href="/datajakon/skktenagakerjablora"></a>
+                        </div><!-- service-two-image -->
+                    </div><!-- service-two-imgbox -->
+                    <div class="service-two-card-content">
+                        <h4>SKK Tenaga Ahli</h4>
+                        <p>Dinas Pekerjaan Umum dan Penataan Ruang <br> Pemerintah Kabupaten Blora Provinsi Jawa Tengah</p>
+                        <a href="/datajakon/skktenagakerjablora">
+                            <i class="fa-solid fa-arrow-right-long"></i>
+                            <span>Lihat Data</span>
+                        </a>
+                    </div><!--service-two-card-content-->
+                </div><!--service-two-card-->
+            </div><!--col-12 col-lg-4 col-xl-4-->
+            <div class="col-12 col-lg-12 col-xl-12">
+                <div class="service-two-card">
+                    <div class="service-two-imgbox" >
+                    </div><!-- service-two-imgbox -->
+
+                    <div class="service-two-card-content">
+
+
+
+
+                        <table class="fl-table">
+                            <thead>
+                                <tr>
+                                    <th style="text-align:center" >No</th>
+                                    <th style="text-align:center">Nama Lengkap</th>
+                                    <th style="text-align:center" >Telepon</th>
+                                    <th style="text-align:center" >Email</th>
+                                    <th style="text-align:center" >NIB</th>
+                                    <th style="text-align:center" >PJU</th>
+                                    <th style="text-align:center" >No Akte</th>
+                                    <th style="text-align:center" >Tanggal</th>
+                                    <th style="text-align:center" >Notaris</th>
+                                    <th style="text-align:center" >No Pengesahan</th>
+                                    <th style="text-align:center" >View Data</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+
+                                @php
+                                $start = ($data->currentPage() - 1) * $data->perPage() + 1;
+                                    @endphp
+
+                                @foreach ($data as $item )
+                                <tr>
+                                    <td>{{ $loop->iteration + $start - 1 }}</td>
+                                    <td>{{$item->namalengkap}}</td>
+                                    <td>{{$item->no_telepon}}</td>
+                                    <td>{{$item->email}}</td>
+                                    <td>{{$item->nib}}</td>
+                                    <td>{{$item->pju}}</td>
+                                    <td>{{$item->no_akte}}</td>
+                                    <td>{{$item->tanggal}}</td>
+                                    <td>{{$item->nama_notaris}}</td>
+                                    <td>{{$item->no_pengesahan}}</td>
+                                    <td style="text-align: center">
+                                        <a href="/datajakon/bujkkontraktor/{{$item->namalengkap}}">
+                                            <i class="fas fa-eye view-icon" onclick="alert('View clicked!')"></i>
+                                        </a>
+                                    </td>
+                                </tr>
+
+                                @endforeach
+                            </tbody>
+                        </table>
+
+
+
+                    </div><!--service-two-card-content-->
+                </div><!--service-two-card-->
+            </div><!--col-12 col-lg-4 col-xl-4-->
+
+
+        </div><!-- row -->
+    </div><!-- container -->
+</section><!-- service-two-section -->
+
+
+
 	<section class="donate-section">
 		<div class="container">
 			<div class="row row-gutter-30">
