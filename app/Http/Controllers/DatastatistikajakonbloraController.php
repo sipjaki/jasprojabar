@@ -103,7 +103,7 @@ class DatastatistikajakonbloraController extends Controller
         ->get()
         ->map(function ($item) use ($totalData) {
             return [
-                'jenjang' => $item->jenjang->nama ?? 'Tidak Diketahui',
+                'jenjang' => $item->jenjang->jenjang ?? 'Tidak Diketahui',
                 'jumlah' => $item->jumlah,
                 'persentase' => $totalData ? round(($item->jumlah / $totalData) * 100, 2) : 0,
             ];
@@ -116,7 +116,7 @@ class DatastatistikajakonbloraController extends Controller
         ->get()
         ->map(function ($item) use ($totalData) {
             return [
-                'jabatan_kerja' => $item->jabatankerja->nama ?? 'Tidak Diketahui',
+                'jabatankerja' => $item->jabatankerja->jabatankerja ?? 'Tidak Diketahui',
                 'jumlah' => $item->jumlah,
                 'persentase' => $totalData ? round(($item->jumlah / $totalData) * 100, 2) : 0,
             ];
