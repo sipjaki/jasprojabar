@@ -118,7 +118,7 @@ color: #45a049;
                     <div class="service-two-imgbox" >
 
                         {{-- ----------------------------------------- --}}
-                        <section class="donate-section" style="margin-top: -25px;">
+                        <section class="donate-section" style="margin-top: -125px;">
                             <div class="container">
                                 <div class="row row-gutter-30">
                                     <div class="col-xxl-12 col-lg-12">
