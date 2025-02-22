@@ -101,27 +101,27 @@
                                     <input type="text" class="input-text" placeholder="{{$data->jenjangpendidikan->jenjangpendidikan}}" readonly>
                                 </div>
 
-                                <div class="col-lg-12">
+                                <div class="col-lg-8">
                                     <h6><i class="fas fa-map-marker-alt" style="margin-right: 10px;"></i>Alamat</h6>
                                     <input type="text" class="input-text" placeholder="{{$data->alamat}}" readonly>
                                 </div>
 
-                                <div class="col-lg-3">
-                                    <h6><i class="fas fa-book" style="margin-right: 10px;"></i>Jurusan</h6>
-                                    <input type="text" class="input-text" placeholder="{{$data->jurusan->jurusan}}" readonly>
-                                </div>
-
-                                <div class="col-lg-3">
+                                <div class="col-lg-4">
                                     <h6><i class="fas fa-calendar-check" style="margin-right: 10px;"></i>Tahun Lulus</h6>
                                     <input type="text" class="input-text" placeholder="{{$data->tahunlulus}}" readonly>
                                 </div>
 
-                                <div class="col-lg-3">
+                                <div class="col-lg-4">
+                                    <h6><i class="fas fa-book" style="margin-right: 10px;"></i>Jurusan</h6>
+                                    <input type="text" class="input-text" placeholder="{{$data->jurusan->jurusan}}" readonly>
+                                </div>
+
+                                <div class="col-lg-4">
                                     <h6><i class="fas fa-briefcase" style="margin-right: 10px;"></i>Jabatan Kerja</h6>
                                     <input type="text" class="input-text" placeholder="{{$data->jabatankerja->jabatankerja}}" readonly>
                                 </div>
 
-                                <div class="col-lg-3">
+                                <div class="col-lg-4">
                                     <h6><i class="fas fa-certificate" style="margin-right: 10px;"></i>Jenjang Keahlian</h6>
                                     <input type="text" class="input-text" placeholder="Jenjang {{$data->jenjang->jenjang}}" readonly>
                                 </div>
