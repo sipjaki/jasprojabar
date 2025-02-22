@@ -15,63 +15,66 @@
 		</div><!-- container -->
 	</section><!--page-banner-->
 
-
-
-
   <section class="service-two-section">
     <div class="container">
         <div class="row row-gutter-y-40">
             <div class="col-12 col-lg-12 col-xl-12">
+                <div class="service-two-card">
+                    <div class="service-two-imgbox" >
 
-                <div class="table-wrapper" style="margin-top:-130px;">
+                        <div class="table-wrapper" style="margin-top:-130px;">
 
 
-                    <table class="fl-table">
-                        <thead>
-                            <tr>
-                                <th style="text-align:center" >No</th>
-                                <th style="text-align:center">Nama Lengkap</th>
-                                <th style="text-align:center" >Telepon</th>
-                                <th style="text-align:center" >Email</th>
-                                <th style="text-align:center" >NIB</th>
-                                <th style="text-align:center" >PJU</th>
-                                <th style="text-align:center" >No Akte</th>
-                                <th style="text-align:center" >Tanggal</th>
-                                <th style="text-align:center" >Notaris</th>
-                                <th style="text-align:center" >No Pengesahan</th>
-                                <th style="text-align:center" >View Data</th>
-                            </tr>
-                        </thead>
-                        <tbody>
+                            <table class="fl-table">
+                                <thead>
+                                    <tr>
+                                        <th style="text-align:center" >No</th>
+                                        <th style="text-align:center">Nama Lengkap</th>
+                                        <th style="text-align:center" >Telepon</th>
+                                        <th style="text-align:center" >Email</th>
+                                        <th style="text-align:center" >NIB</th>
+                                        <th style="text-align:center" >PJU</th>
+                                        <th style="text-align:center" >No Akte</th>
+                                        <th style="text-align:center" >Tanggal</th>
+                                        <th style="text-align:center" >Notaris</th>
+                                        <th style="text-align:center" >No Pengesahan</th>
+                                        <th style="text-align:center" >View Data</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
 
-                            @php
-                            $start = ($data->currentPage() - 1) * $data->perPage() + 1;
-                                @endphp
+                                    @php
+                                    $start = ($data->currentPage() - 1) * $data->perPage() + 1;
+                                        @endphp
 
-                            @foreach ($data as $item )
-                            <tr>
-                                <td>{{ $loop->iteration + $start - 1 }}</td>
-                                <td>{{$item->namalengkap}}</td>
-                                <td>{{$item->no_telepon}}</td>
-                                <td>{{$item->email}}</td>
-                                <td>{{$item->nib}}</td>
-                                <td>{{$item->pju}}</td>
-                                <td>{{$item->no_akte}}</td>
-                                <td>{{$item->tanggal}}</td>
-                                <td>{{$item->nama_notaris}}</td>
-                                <td>{{$item->no_pengesahan}}</td>
-                                <td style="text-align: center">
-                                    <a href="/datajakon/bujkkontraktor/{{$item->namalengkap}}">
-                                        <i class="fas fa-eye view-icon" onclick="alert('View clicked!')"></i>
-                                    </a>
-                                </td>
-                            </tr>
+                                    @foreach ($data as $item )
+                                    <tr>
+                                        <td>{{ $loop->iteration + $start - 1 }}</td>
+                                        <td>{{$item->namalengkap}}</td>
+                                        <td>{{$item->no_telepon}}</td>
+                                        <td>{{$item->email}}</td>
+                                        <td>{{$item->nib}}</td>
+                                        <td>{{$item->pju}}</td>
+                                        <td>{{$item->no_akte}}</td>
+                                        <td>{{$item->tanggal}}</td>
+                                        <td>{{$item->nama_notaris}}</td>
+                                        <td>{{$item->no_pengesahan}}</td>
+                                        <td style="text-align: center">
+                                            <a href="/datajakon/bujkkontraktor/{{$item->namalengkap}}">
+                                                <i class="fas fa-eye view-icon" onclick="alert('View clicked!')"></i>
+                                            </a>
+                                        </td>
+                                    </tr>
 
-                            @endforeach
-                        </tbody>
-                    </table>
-                    </div>
+                                    @endforeach
+                                </tbody>
+                            </table>
+                            </div>
 
+                    </div><!-- service-two-imgbox -->
+
+                </div><!--service-two-card-content-->
+                </div><!--service-two-card-->
             </div><!--col-12 col-lg-4 col-xl-4-->
 
 
