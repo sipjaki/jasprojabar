@@ -3590,14 +3590,6 @@ namasekolah::create([
 ]);
 
 namasekolah::create([
-    'id' => '133',
-    'namasekolah' => 'STM Kudus',
-    'created_at' => Carbon::now(),
-    'updated_at' => Carbon::now(),
-    'deleted_at' => null, // Jika Anda menggunakan soft deletes
-]);
-
-namasekolah::create([
     'id' => '134',
     'namasekolah' => 'STM Negeri Tunjungan Blora',
     'created_at' => Carbon::now(),
