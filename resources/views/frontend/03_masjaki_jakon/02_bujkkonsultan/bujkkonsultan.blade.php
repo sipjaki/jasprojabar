@@ -125,9 +125,6 @@
                                     <div class="col-xxl-12 col-lg-12">
                                         <div class="donate-box-inner">
 
-
-                    </head>
-
                     <section class="document-section">
                         <div class="container"  style="margin-top: -100px;">
                           <ul class="nav nav-pills" id="pills-tab" role="tablist">
@@ -140,8 +137,6 @@
                         </div>
                     </section>
 
-
-                    <body>
                     <div class="table-wrapper" style="margin-top:-130px;">
                     <table class="fl-table">
                         <thead>
