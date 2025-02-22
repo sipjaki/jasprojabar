@@ -118,7 +118,7 @@ color: #45a049;
                     <div class="service-two-imgbox" >
 
                         {{-- ----------------------------------------- --}}
-                        <section class="donate-section">
+                        <section class="donate-section" style="margin-top: -25px;">
                             <div class="container">
                                 <div class="row row-gutter-30">
                                     <div class="col-xxl-12 col-lg-12">
@@ -134,7 +134,7 @@ color: #45a049;
                               <ul class="nav nav-pills" id="pills-tab" role="tablist">
                                 <a href="/datajakon/bujk">
                                 <li class="nav-item" role="presentation">
-                                    <button class="nav-link" id="pills-health-tab" data-bs-toggle="pill" data-bs-target="#pills-health" type="button" role="tab" aria-controls="pills-health" aria-selected="false"><i class="flaticon-police-badge-1"></i>All Data Badan Usaha Jasa Konstruksi Kontraktor & Konsultan</button>
+                                    <button class="nav-link" id="pills-health-tab" data-bs-toggle="pill" data-bs-target="#pills-health" type="button" role="tab" aria-controls="pills-health" aria-selected="false"><i class="flaticon-police-badge-1"></i>Menu Data Badan Usaha Jasa Konstruksi Kontraktor & Konsultan</button>
                                 </li>
                                 </a>
                                 </ul>
