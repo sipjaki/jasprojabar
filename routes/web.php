@@ -109,6 +109,7 @@ Route::get('/datajakon/bujkkonsultan/{namalengkap}', [BujkkonsultanController::c
 // BUAT BARU UNTUK APLIKASI MAS JAKI DATA JAKON DATA STATISTIKA
 Route::get('/datajakon/statistikabujkblora', [DatastatistikajakonbloraController::class, 'databujk']);
 Route::get('/datajakon/statistikaskktenagakerjablora', [DatastatistikajakonbloraController::class, 'statistikaskktenagakerjablora']);
+Route::get('/datajakon/statistikaskktenagakerjabloralist', [DatastatistikajakonbloraController::class, 'datastatistikaskktenagakerjablora']);
 
 // BUAT BARU UNTUK APLIKASI DATA SKK TENAGA KERJA BLORA
 Route::get('/datajakon/skktenagakerja', [SkktenagakerjabloraController::class, 'index']);

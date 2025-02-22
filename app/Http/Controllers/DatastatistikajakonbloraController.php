@@ -9,6 +9,7 @@ use App\Models\bujkkontraktorsub;
 use App\Models\bujkkonsultansub;
 
 use App\Models\skktenagakerjablora;
+use App\Models\skktenagakerjabloralist;
 use App\Models\namasekolah;
 use App\Models\jenjangpendidikan;
 use App\Models\jurusan;
@@ -17,6 +18,7 @@ use App\Models\jenjang;
 use App\Models\lpspenerbit;
 
 use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\DB;
 
 class DatastatistikajakonbloraController extends Controller
 {
@@ -87,6 +89,47 @@ class DatastatistikajakonbloraController extends Controller
             'jumlahDatabaru' => $jumlahDatabaru, // Pastikan data ini dikirim ke view
         ]);
     }
+
+
+    public function datastatistikaskktenagakerjablora()
+{
+    $dataskklist = skktenagakerjabloralist::all();
+    $totalData = $dataskklist->count();
+
+    // Statistik Jenjang
+    $statistikJenjang = skktenagakerjabloralist::select('jenjang_id', DB::raw('COUNT(*) as jumlah'))
+        ->groupBy('jenjang_id')
+        ->with('jenjang')
+        ->get()
+        ->map(function ($item) use ($totalData) {
+            return [
+                'jenjang' => $item->jenjang->nama ?? 'Tidak Diketahui',
+                'jumlah' => $item->jumlah,
+                'persentase' => $totalData ? round(($item->jumlah / $totalData) * 100, 2) : 0,
+            ];
+        });
+
+    // Statistik Jabatan Kerja
+    $statistikJabatanKerja = skktenagakerjabloralist::select('jabatankerja_id', DB::raw('COUNT(*) as jumlah'))
+        ->groupBy('jabatankerja_id')
+        ->with('jabatankerja')
+        ->get()
+        ->map(function ($item) use ($totalData) {
+            return [
+                'jabatan_kerja' => $item->jabatankerja->nama ?? 'Tidak Diketahui',
+                'jumlah' => $item->jumlah,
+                'persentase' => $totalData ? round(($item->jumlah / $totalData) * 100, 2) : 0,
+            ];
+        });
+
+    return view('frontend.03_masjaki_jakon.03_tenagakerjakonstruksi.statistik.statistiklisttenagakerjakonstruksi', [
+        'title' => 'Data Statistik Tenaga Ahli Konstruksi',
+        'statistikJenjang' => $statistikJenjang,
+        'statistikJabatanKerja' => $statistikJabatanKerja,
+    ]);
+}
+
+
 
 
 
