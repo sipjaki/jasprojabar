@@ -25,8 +25,6 @@
     {{-- <link rel="stylesheet" type="text/css" href="/assets/00_dokmasjaki/00_style/csstable.css"> --}}
 
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-        <!-- Import Flaticon CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flaticon/1.0.0/flaticon.css">
 
 
 	<!-- favicons Icons -->
