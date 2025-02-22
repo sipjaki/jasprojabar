@@ -691,7 +691,7 @@
 							</div><!-- cta-two-card-icon -->
 							<div class="cta-two-card-content">
 								{{-- <p>Stay Connected</p> --}}
-								<h3>Kritik dan Saran </h3>
+								<h3 style="font-size: 25px;">Kritik dan Saran </h3>
 							</div><!-- cta-two-card-content -->
 						</div><!--cta-two-title-->
 					</div><!--col-xl-5-->
