@@ -106,27 +106,32 @@
                                     <input type="text" class="input-text" placeholder="{{$data->alamat}}" readonly>
                                 </div>
 
-                                <div class="col-lg-4">
+                                <div class="col-lg-3">
                                     <h6><i class="fas fa-book" style="margin-right: 10px;"></i>Jurusan</h6>
                                     <input type="text" class="input-text" placeholder="{{$data->jurusan->jurusan}}" readonly>
                                 </div>
 
-                                <div class="col-lg-4">
+                                <div class="col-lg-3">
                                     <h6><i class="fas fa-calendar-check" style="margin-right: 10px;"></i>Tahun Lulus</h6>
                                     <input type="text" class="input-text" placeholder="{{$data->tahunlulus}}" readonly>
                                 </div>
 
-                                <div class="col-lg-4">
+                                <div class="col-lg-3">
                                     <h6><i class="fas fa-briefcase" style="margin-right: 10px;"></i>Jabatan Kerja</h6>
                                     <input type="text" class="input-text" placeholder="{{$data->jabatankerja->jabatankerja}}" readonly>
                                 </div>
 
-                                <div class="col-lg-4">
+                                <div class="col-lg-3">
                                     <h6><i class="fas fa-certificate" style="margin-right: 10px;"></i>Jenjang Keahlian</h6>
                                     <input type="text" class="input-text" placeholder="Jenjang {{$data->jenjang->jenjang}}" readonly>
                                 </div>
 
-                                <div class="col-lg-8">
+                                <div class="col-lg-6">
+                                    <h6><i class="fas fa-university" style="margin-right: 10px;"></i>LPS Penerbit</h6>
+                                    <input type="text" class="input-text" placeholder="{{$data->asosiasimasjaki->namaasosiasi}}" readonly>
+                                </div>
+
+                                <div class="col-lg-6">
                                     <h6><i class="fas fa-university" style="margin-right: 10px;"></i>LPS Penerbit</h6>
                                     <input type="text" class="input-text" placeholder="{{$data->lpspenerbit->lpspenerbit}}" readonly>
                                 </div>
