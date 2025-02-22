@@ -165,7 +165,7 @@
             <td>{{$item->tahunlulus}}</td>
             <td>{{$item->jabatankerja->jabatankerja}}</td>
             <td>{{$item->jenjang->jenjang}}</td>
-            {{-- <td>{{$item->asosiasimasjaki->asosiasimasjaki}}</td> --}}
+            <td>{{$item->asosiasimasjaki->namaasosiasi}}</td>
             <td>{{$item->lpspenerbit->lpspenerbit}}</td>
             <td>{{$item->tanggalterbit}}</td>
             <td>{{$item->tanggalhabis}}</td>

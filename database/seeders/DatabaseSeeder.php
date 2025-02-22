@@ -5091,7 +5091,7 @@ jabatankerja::create([
 // DATA ASOSIAS KABUPATEN BLORA JAWA TENGAH
 asosiasimasjaki::create([
     'id' => '1',
-    'asosiasimasjaki' => 'AK3L',
+    'namaasosiasi' => 'AK3L',
     'created_at' => Carbon::now(),
     'updated_at' => Carbon::now(),
     'deleted_at' => null, // Jika Anda menggunakan soft deletes
@@ -5099,7 +5099,7 @@ asosiasimasjaki::create([
 
 asosiasimasjaki::create([
     'id' => '2',
-    'asosiasimasjaki' => 'ASDAMKINDO',
+    'namaasosiasi' => 'ASDAMKINDO',
     'created_at' => Carbon::now(),
     'updated_at' => Carbon::now(),
     'deleted_at' => null, // Jika Anda menggunakan soft deletes
@@ -5107,7 +5107,7 @@ asosiasimasjaki::create([
 
 asosiasimasjaki::create([
     'id' => '3',
-    'asosiasimasjaki' => 'ASTEKINDO',
+    'namaasosiasi' => 'ASTEKINDO',
     'created_at' => Carbon::now(),
     'updated_at' => Carbon::now(),
     'deleted_at' => null, // Jika Anda menggunakan soft deletes
@@ -5115,7 +5115,7 @@ asosiasimasjaki::create([
 
 asosiasimasjaki::create([
     'id' => '4',
-    'asosiasimasjaki' => 'ASTTATINDO',
+    'namaasosiasi' => 'ASTTATINDO',
     'created_at' => Carbon::now(),
     'updated_at' => Carbon::now(),
     'deleted_at' => null, // Jika Anda menggunakan soft deletes
@@ -5123,7 +5123,7 @@ asosiasimasjaki::create([
 
 asosiasimasjaki::create([
     'id' => '5',
-    'asosiasimasjaki' => 'ATAKI',
+    'namaasosiasi' => 'ATAKI',
     'created_at' => Carbon::now(),
     'updated_at' => Carbon::now(),
     'deleted_at' => null, // Jika Anda menggunakan soft deletes
@@ -5131,7 +5131,7 @@ asosiasimasjaki::create([
 
 asosiasimasjaki::create([
     'id' => '6',
-    'asosiasimasjaki' => 'ATAKNAS',
+    'namaasosiasi' => 'ATAKNAS',
     'created_at' => Carbon::now(),
     'updated_at' => Carbon::now(),
     'deleted_at' => null, // Jika Anda menggunakan soft deletes
@@ -5139,7 +5139,7 @@ asosiasimasjaki::create([
 
 asosiasimasjaki::create([
     'id' => '7',
-    'asosiasimasjaki' => 'ATAKSI',
+    'namaasosiasi' => 'ATAKSI',
     'created_at' => Carbon::now(),
     'updated_at' => Carbon::now(),
     'deleted_at' => null, // Jika Anda menggunakan soft deletes
@@ -5147,7 +5147,7 @@ asosiasimasjaki::create([
 
 asosiasimasjaki::create([
     'id' => '8',
-    'asosiasimasjaki' => 'GATAKI',
+    'namaasosiasi' => 'GATAKI',
     'created_at' => Carbon::now(),
     'updated_at' => Carbon::now(),
     'deleted_at' => null, // Jika Anda menggunakan soft deletes
@@ -5155,7 +5155,7 @@ asosiasimasjaki::create([
 
 asosiasimasjaki::create([
     'id' => '9',
-    'asosiasimasjaki' => 'GATENSI',
+    'namaasosiasi' => 'GATENSI',
     'created_at' => Carbon::now(),
     'updated_at' => Carbon::now(),
     'deleted_at' => null, // Jika Anda menggunakan soft deletes
@@ -5163,7 +5163,7 @@ asosiasimasjaki::create([
 
 asosiasimasjaki::create([
     'id' => '10',
-    'asosiasimasjaki' => 'HATSINDO',
+    'namaasosiasi' => 'HATSINDO',
     'created_at' => Carbon::now(),
     'updated_at' => Carbon::now(),
     'deleted_at' => null, // Jika Anda menggunakan soft deletes
@@ -5171,7 +5171,7 @@ asosiasimasjaki::create([
 
 asosiasimasjaki::create([
     'id' => '11',
-    'asosiasimasjaki' => 'HPJI',
+    'namaasosiasi' => 'HPJI',
     'created_at' => Carbon::now(),
     'updated_at' => Carbon::now(),
     'deleted_at' => null, // Jika Anda menggunakan soft deletes
@@ -5179,7 +5179,7 @@ asosiasimasjaki::create([
 
 asosiasimasjaki::create([
     'id' => '12',
-    'asosiasimasjaki' => 'IAKI',
+    'namaasosiasi' => 'IAKI',
     'created_at' => Carbon::now(),
     'updated_at' => Carbon::now(),
     'deleted_at' => null, // Jika Anda menggunakan soft deletes
@@ -5187,7 +5187,7 @@ asosiasimasjaki::create([
 
 asosiasimasjaki::create([
     'id' => '13',
-    'asosiasimasjaki' => 'LPJK',
+    'namaasosiasi' => 'LPJK',
     'created_at' => Carbon::now(),
     'updated_at' => Carbon::now(),
     'deleted_at' => null, // Jika Anda menggunakan soft deletes
@@ -5195,7 +5195,7 @@ asosiasimasjaki::create([
 
 asosiasimasjaki::create([
     'id' => '14',
-    'asosiasimasjaki' => 'PAKKI',
+    'namaasosiasi' => 'PAKKI',
     'created_at' => Carbon::now(),
     'updated_at' => Carbon::now(),
     'deleted_at' => null, // Jika Anda menggunakan soft deletes
@@ -5203,7 +5203,7 @@ asosiasimasjaki::create([
 
 asosiasimasjaki::create([
     'id' => '15',
-    'asosiasimasjaki' => 'PARABI',
+    'namaasosiasi' => 'PARABI',
     'created_at' => Carbon::now(),
     'updated_at' => Carbon::now(),
     'deleted_at' => null, // Jika Anda menggunakan soft deletes
@@ -5211,7 +5211,7 @@ asosiasimasjaki::create([
 
 asosiasimasjaki::create([
     'id' => '16',
-    'asosiasimasjaki' => 'PASTALI',
+    'namaasosiasi' => 'PASTALI',
     'created_at' => Carbon::now(),
     'updated_at' => Carbon::now(),
     'deleted_at' => null, // Jika Anda menggunakan soft deletes
@@ -5219,7 +5219,7 @@ asosiasimasjaki::create([
 
 asosiasimasjaki::create([
     'id' => '17',
-    'asosiasimasjaki' => 'PASTI',
+    'namaasosiasi' => 'PASTI',
     'created_at' => Carbon::now(),
     'updated_at' => Carbon::now(),
     'deleted_at' => null, // Jika Anda menggunakan soft deletes
@@ -5227,7 +5227,7 @@ asosiasimasjaki::create([
 
 asosiasimasjaki::create([
     'id' => '18',
-    'asosiasimasjaki' => 'PERPAKOM',
+    'namaasosiasi' => 'PERPAKOM',
     'created_at' => Carbon::now(),
     'updated_at' => Carbon::now(),
     'deleted_at' => null, // Jika Anda menggunakan soft deletes
@@ -5235,7 +5235,7 @@ asosiasimasjaki::create([
 
 asosiasimasjaki::create([
     'id' => '19',
-    'asosiasimasjaki' => 'PERTAHKINDO',
+    'namaasosiasi' => 'PERTAHKINDO',
     'created_at' => Carbon::now(),
     'updated_at' => Carbon::now(),
     'deleted_at' => null, // Jika Anda menggunakan soft deletes
@@ -5243,7 +5243,7 @@ asosiasimasjaki::create([
 
 asosiasimasjaki::create([
     'id' => '20',
-    'asosiasimasjaki' => 'PERTAMA',
+    'namaasosiasi' => 'PERTAMA',
     'created_at' => Carbon::now(),
     'updated_at' => Carbon::now(),
     'deleted_at' => null, // Jika Anda menggunakan soft deletes
@@ -5251,7 +5251,7 @@ asosiasimasjaki::create([
 
 asosiasimasjaki::create([
     'id' => '21',
-    'asosiasimasjaki' => 'PERTAPIN',
+    'namaasosiasi' => 'PERTAPIN',
     'created_at' => Carbon::now(),
     'updated_at' => Carbon::now(),
     'deleted_at' => null, // Jika Anda menggunakan soft deletes
@@ -5259,7 +5259,7 @@ asosiasimasjaki::create([
 
 asosiasimasjaki::create([
     'id' => '22',
-    'asosiasimasjaki' => 'PETAKINDO',
+    'namaasosiasi' => 'PETAKINDO',
     'created_at' => Carbon::now(),
     'updated_at' => Carbon::now(),
     'deleted_at' => null, // Jika Anda menggunakan soft deletes
@@ -5267,7 +5267,7 @@ asosiasimasjaki::create([
 
 asosiasimasjaki::create([
     'id' => '23',
-    'asosiasimasjaki' => 'PETAKOM',
+    'namaasosiasi' => 'PETAKOM',
     'created_at' => Carbon::now(),
     'updated_at' => Carbon::now(),
     'deleted_at' => null, // Jika Anda menggunakan soft deletes
