@@ -10,7 +10,7 @@ use App\Models\jurusan;
 use App\Models\jabatankerja;
 use App\Models\jenjang;
 use App\Models\lpspenerbit;
-
+use App\Models\skktenagakerjabloralist;
 use Illuminate\Http\Request;
 
 use Illuminate\Support\Facades\Auth;
@@ -96,7 +96,8 @@ class SkktenagakerjabloraController extends Controller
     {
         $user = Auth::user();
 
-        $data = skktenagakerjablora::paginate(10);
+        $data = skktenagakerjabloralist::paginate(10);
+
         $datanamasekolah = namasekolah::all();
         $datajenjangpendidikan = jenjangpendidikan::all();
         $datajurusan = jurusan::all();
