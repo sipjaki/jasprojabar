@@ -72,6 +72,7 @@ use App\Models\jabatankerja;
 use App\Models\jenjang;
 use App\Models\lpspenerbit;
 use App\Models\skktenagakerjablora;
+use App\Models\skktenagakerjabloralist;
 use App\Models\asosiasiblora;
 use App\Models\asosiasimasjaki;
 
@@ -5472,8 +5473,154 @@ lpspenerbit::create([
 
 //
 
-// FORT
+//======================== ===================================================================================
+// DAFTAR TENAGA KERJA MAS JAKI BLORA
 
+skktenagakerjabloralist::create([
+    'nama' => 'SUGIYANTO', // Ganti dengan ID yang sesuai
+    'alamat' => 'Kab. Blora',
+    'namasekolah_id' => 66,
+    'jenjangpendidikan_id' => 3,
+    'jurusan_id' => 6,
+    'tahunlulus' => null,
+    'jabatankerja_id' => 77,
+    'jenjang_id' => 1,
+    'asosiasimasjaki_id' => null,
+    'lpspenerbit_id' => 2,
+    'tanggalterbit' => '2023-10-08',
+    'tanggalhabis' => '2028-12-07',
+    'statusterbit' => 'TERBIT',
+]);
+
+skktenagakerjabloralist::create([
+    'nama' => 'ANAS FARIDZ ZAMZAMY', // Ganti dengan ID yang sesuai
+    'alamat' => 'Kab. Blora',
+    'namasekolah_id' => 5,
+    'jenjangpendidikan_id' => 3,
+    'jurusan_id' => 6,
+    'tahunlulus' => null,
+    'jabatankerja_id' => 76,
+    'jenjang_id' => 2,
+    'asosiasimasjaki_id' => 13,
+    'lpspenerbit_id' => 2,
+    'tanggalterbit' => '2023-10-08',
+    'tanggalhabis' => '2028-12-28',
+    'statusterbit' => 'TERBIT',
+]);
+
+skktenagakerjabloralist::create([
+    'nama' => 'MOH. MUHTAR', // Ganti dengan ID yang sesuai
+    'alamat' => 'Kab. Blora',
+    'namasekolah_id' => 86,
+    'jenjangpendidikan_id' => 3,
+    'jurusan_id' => 6,
+    'tahunlulus' => null,
+    'jabatankerja_id' => 67,
+    'jenjang_id' => 3,
+    'asosiasimasjaki_id' => null,
+    'lpspenerbit_id' => 2,
+    'tanggalterbit' => '2023-10-08',
+    'tanggalhabis' => '2028-12-07',
+    'statusterbit' => 'TERBIT',
+]);
+
+skktenagakerjabloralist::create([
+    'nama' => 'BAHARUDDIN YUSUF HABIBI', // Ganti dengan ID yang sesuai
+    'alamat' => 'Kab. Blora',
+    'namasekolah_id' => 50,
+    'jenjangpendidikan_id' => 2,
+    'jurusan_id' => 1,
+    'tahunlulus' => 2010,
+    'jabatankerja_id' => 1,
+    'jenjang_id' => 4,
+    'asosiasimasjaki_id' => null,
+    'lpspenerbit_id' => 1,
+    'tanggalterbit' => null,
+    'tanggalhabis' => null,
+    'statusterbit' => 'TERBIT',
+]);
+
+skktenagakerjabloralist::create([
+    'nama' => 'PATONI', // Ganti dengan ID yang sesuai
+    'alamat' => 'Kab. Blora',
+    'namasekolah_id' => 34,
+    'jenjangpendidikan_id' => 11,
+    'jurusan_id' => 2,
+    'tahunlulus' => null,
+    'jabatankerja_id' => 57,
+    'jenjang_id' => 5,
+    'asosiasimasjaki_id' => 6,
+    'lpspenerbit_id' => 1,
+    'tanggalterbit' => '2023-10-08',
+    'tanggalhabis' => '2028-07-24',
+    'statusterbit' => 'TERBIT',
+]);
+
+skktenagakerjabloralist::create([
+    'nama' => 'AGUS FAUZAN', // Ganti dengan ID yang sesuai
+    'alamat' => 'Kab. Blora',
+    'namasekolah_id' => 47,
+    'jenjangpendidikan_id' => 2,
+    'jurusan_id' => 21,
+    'tahunlulus' => null,
+    'jabatankerja_id' => 50,
+    'jenjang_id' => 6,
+    'asosiasimasjaki_id' => 6,
+    'lpspenerbit_id' => 1,
+    'tanggalterbit' => '2023-08-10',
+    'tanggalhabis' => '2028-04-18',
+    'statusterbit' => 'TERBIT',
+]);
+
+skktenagakerjabloralist::create([
+    'nama' => 'LAILA NURAINI', // Ganti dengan ID yang sesuai
+    'alamat' => 'Kab. Blora',
+    'namasekolah_id' => 11,
+    'jenjangpendidikan_id' => 2,
+    'jurusan_id' => 21,
+    'tahunlulus' => null,
+    'jabatankerja_id' => 35,
+    'jenjang_id' => 7,
+    'asosiasimasjaki_id' => 3,
+    'lpspenerbit_id' => 2,
+    'tanggalterbit' => '2023-08-10',
+    'tanggalhabis' => '2028-01-12',
+    'statusterbit' => 'TERBIT',
+]);
+
+skktenagakerjabloralist::create([
+    'nama' => 'MUHAMMAD KHAFID SAHRONI', // Ganti dengan ID yang sesuai
+    'alamat' => 'Kab. Blora',
+    'namasekolah_id' => 159,
+    'jenjangpendidikan_id' => 2,
+    'jurusan_id' => 21,
+    'tahunlulus' => null,
+    'jabatankerja_id' => 19,
+    'jenjang_id' => 8,
+    'asosiasimasjaki_id' => 2,
+    'lpspenerbit_id' => 4,
+    'tanggalterbit' => '2023-08-10',
+    'tanggalhabis' => '2028-07-05',
+    'statusterbit' => 'TERBIT',
+]);
+
+skktenagakerjabloralist::create([
+    'nama' => 'HARYANTO', // Ganti dengan ID yang sesuai
+    'alamat' => 'Kab. Blora',
+    'namasekolah_id' => 62,
+    'jenjangpendidikan_id' => 2,
+    'jurusan_id' => 52,
+    'tahunlulus' => null,
+    'jabatankerja_id' => 10,
+    'jenjang_id' => 9,
+    'asosiasimasjaki_id' => 3,
+    'lpspenerbit_id' => 4,
+    'tanggalterbit' => '2023-08-10',
+    'tanggalhabis' => '2027-05-19',
+    'statusterbit' => 'TERBIT',
+]);
+
+// FORT
 //======================== ===================================================================================
 // SKK TENAGA KERJA MAS JAKI BLORA
 skktenagakerjablora::create([
