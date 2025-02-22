@@ -123,7 +123,7 @@ class SkktenagakerjabloraController extends Controller
 
     public function datalistskktenagakerjablorashow($nama)
     {
-        $dataskk = skktenagakerjablora::where('nama', $nama)->first();
+        $dataskklist = skktenagakerjabloralist::where('nama', $nama)->first();
 
         $datanamasekolah = namasekolah::all();
         $datajenjangpendidikan = jenjangpendidikan::all();
@@ -131,6 +131,7 @@ class SkktenagakerjabloraController extends Controller
         $datajabatankerja = jabatankerja::all();
         $datajenjang = jenjang::all();
         $datalpspenerbit = lpspenerbit::all();
+        $dataasosiasimasjaki = asosiasimasjaki::all();
 
 
         // Ambil data user saat ini
@@ -139,13 +140,14 @@ class SkktenagakerjabloraController extends Controller
         return view('frontend.03_masjaki_jakon.03_tenagakerjakonstruksi.listtenagakerjakonstruksishow', [
             'title' => 'Data SKK Tenaga Ahli Konstruksi',
 
-            'data' => $dataskk, // Mengirimkan data paginasi ke view
+            'data' => $dataskklist, // Mengirimkan data paginasi ke view
             'datanamasekolah' => $datanamasekolah, // Mengirimkan data paginasi ke view
             'datajenjangpendidikan' => $datajenjangpendidikan, // Mengirimkan data paginasi ke view
             'datajurusan' => $datajurusan, // Mengirimkan data paginasi ke view
             'datajabatankerja' => $datajabatankerja, // Mengirimkan data paginasi ke view
             'datajenjang' => $datajenjang, // Mengirimkan data paginasi ke view
             'datalpspenerbit' => $datalpspenerbit, // Mengirimkan data paginasi ke view
+            'dataasosiasimasjaki' => $dataasosiasimasjaki, // Mengirimkan data paginasi ke view
             'user' => $user, // Mengirimkan data paginasi ke view
 
     ]);
