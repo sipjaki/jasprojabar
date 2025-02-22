@@ -24,7 +24,7 @@
     <section class="service-two-section">
         <div class="container">
             <div class="row row-gutter-y-40">
-                <div class="col-12 col-lg-3 col-xl-3">
+                <div class="col-12 col-lg-12 col-xl-12">
                     <div class="service-two-card">
                         <div class="service-two-imgbox">
                             <div class="service-two-image" style="display: flex; justify-content: center;">
@@ -32,7 +32,6 @@
 
                                 <section class="donate-section">
                                     <div class="container">
-
 
                                         <div class="row row-gutter-30">
                                             <div class="col-lg-12">
@@ -123,6 +122,7 @@
                                     </div><!-- container -->
                                 </section><!-- donate-section -->
 
+
                             </div><!-- service-two-image -->
                         </div><!-- service-two-imgbox -->
                     </div><!--service-two-card-->
@@ -132,8 +132,6 @@
             </div><!-- row -->
         </div><!-- container -->
     </section><!-- service-two-section -->
-
-
 
 
 
@@ -331,6 +329,7 @@
             </div><!--page-wrapper-->
         </div><!--page-wrapper-->
     </section><!-- department-details-section -->
+
 
 
 
