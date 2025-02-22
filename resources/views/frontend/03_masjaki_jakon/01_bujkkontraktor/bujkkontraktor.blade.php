@@ -107,9 +107,6 @@ color: #45a049;
 		</div><!-- container -->
 	</section><!--page-banner-->
 
-
-
-
   <section class="service-two-section">
     <div class="container">
         <div class="row row-gutter-y-40">
@@ -130,7 +127,7 @@ color: #45a049;
                     <div class="table-wrapper">
 
                         <section class="document-section">
-                            <div class="container"  style="margin-top: -115px;">
+                            <div class="container">
                               <ul class="nav nav-pills" id="pills-tab" role="tablist">
                                 <a href="/datajakon/bujk">
                                 <li class="nav-item" role="presentation">
