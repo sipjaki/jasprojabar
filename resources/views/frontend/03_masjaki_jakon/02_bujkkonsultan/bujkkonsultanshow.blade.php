@@ -27,7 +27,6 @@
                 <div class="col-12 col-lg-12 col-xl-12">
                     <div class="service-two-card">
                         <div class="service-two-imgbox">
-                            <div class="service-two-image" style="display: flex; justify-content: center;">
 
 
                                 <section class="donate-section">
@@ -122,8 +121,6 @@
                                     </div><!-- container -->
                                 </section><!-- donate-section -->
 
-
-                            </div><!-- service-two-image -->
                         </div><!-- service-two-imgbox -->
                     </div><!--service-two-card-->
                 </div><!--col-12 col-lg-4 col-xl-4-->
