@@ -5491,6 +5491,37 @@ skktenagakerjabloralist::create([
     'tanggalhabis' => '2028-12-07',
     'statusterbit' => 'TERBIT',
 ]);
+skktenagakerjabloralist::create([
+    'nama' => 'KSDFGFDSG', // Ganti dengan ID yang sesuai
+    'alamat' => 'Kab. Blora',
+    'namasekolah_id' => 66,
+    'jenjangpendidikan_id' => 3,
+    'jurusan_id' => 6,
+    'tahunlulus' => null,
+    'jabatankerja_id' => 77,
+    'jenjang_id' => 1,
+    'asosiasimasjaki_id' => 1,
+    'lpspenerbit_id' => 2,
+    'tanggalterbit' => '2023-10-08',
+    'tanggalhabis' => '2028-12-07',
+    'statusterbit' => 'TERBIT',
+]);
+
+skktenagakerjabloralist::create([
+    'nama' => 'HDSFHG', // Ganti dengan ID yang sesuai
+    'alamat' => 'Kab. Blora',
+    'namasekolah_id' => 66,
+    'jenjangpendidikan_id' => 3,
+    'jurusan_id' => 6,
+    'tahunlulus' => null,
+    'jabatankerja_id' => 77,
+    'jenjang_id' => 1,
+    'asosiasimasjaki_id' => 1,
+    'lpspenerbit_id' => 2,
+    'tanggalterbit' => '2023-10-08',
+    'tanggalhabis' => '2028-12-07',
+    'statusterbit' => 'TERBIT',
+]);
 
 skktenagakerjabloralist::create([
     'nama' => 'ANAS FARIDZ ZAMZAMY', // Ganti dengan ID yang sesuai
@@ -5805,34 +5836,6 @@ skktenagakerjablora::create([
 
 skktenagakerjablora::create([
     'nama' => 'REYHAN WIDYA PERMANA', // Ganti dengan ID yang sesuai
-    'alamat' => 'RT 5 RW 3 Dukuh karangnongkp Desa Buluroto Kec. banjarejo Kabupaten Blora Provinsi Jawa Tengah',
-    'namasekolah_id' => 34,
-    'jenjangpendidikan_id' => 4,
-    'jurusan_id' => 22,
-    'tahunlulus' => '2015',
-    'jabatankerja_id' => 3,
-    'jenjang_id' => 4,
-    'lpspenerbit_id' => 1,
-    'tanggalterbit' => '2024-03-16',
-    'tanggalhabis' => '2029-03-15',
-    'statusterbit' => 'TERBIT',
-]);
-skktenagakerjablora::create([
-    'nama' => 'BUDI', // Ganti dengan ID yang sesuai
-    'alamat' => 'RT 5 RW 3 Dukuh karangnongkp Desa Buluroto Kec. banjarejo Kabupaten Blora Provinsi Jawa Tengah',
-    'namasekolah_id' => 34,
-    'jenjangpendidikan_id' => 4,
-    'jurusan_id' => 22,
-    'tahunlulus' => '2015',
-    'jabatankerja_id' => 3,
-    'jenjang_id' => 4,
-    'lpspenerbit_id' => 1,
-    'tanggalterbit' => '2024-03-16',
-    'tanggalhabis' => '2029-03-15',
-    'statusterbit' => 'TERBIT',
-]);
-skktenagakerjablora::create([
-    'nama' => 'REZA', // Ganti dengan ID yang sesuai
     'alamat' => 'RT 5 RW 3 Dukuh karangnongkp Desa Buluroto Kec. banjarejo Kabupaten Blora Provinsi Jawa Tengah',
     'namasekolah_id' => 34,
     'jenjangpendidikan_id' => 4,
