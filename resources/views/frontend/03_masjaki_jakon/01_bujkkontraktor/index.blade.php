@@ -29,7 +29,7 @@
                 <div class="service-two-card">
                     <div class="service-two-imgbox">
                         <div class="service-two-image" style="display: flex; justify-content: center;">
-                            <img src="/assets/00_dokmasjaki/03_datajakon/daftar.png" class="img-fluid" alt="img-28" loading="lazy">
+                            <img src="/assets/00_dokmasjaki/03_datajakon/daftar.png" class="img-fluid" alt="img-28" loading="lazy" style="width: 70%; padding:10px;" >
                             <a href="/datajakon/bujkkontraktor"></a>
                         </div><!-- service-two-image -->
                     </div><!-- service-two-imgbox -->
@@ -47,7 +47,7 @@
                 <div class="service-two-card">
                     <div class="service-two-imgbox" >
                         <div class="service-two-image" style="display: flex; justify-content: center;">
-                            <img src="/assets/00_dokmasjaki/03_datajakon/konsultan.png"  class="img-fluid" alt="img-29"  loading="lazy" style="width:70% ">
+                            <img src="/assets/00_dokmasjaki/03_datajakon/konsultan.png"  class="img-fluid" alt="img-29"  loading="lazy" style="width:70%; padding:10px; ">
                             <a href="/datajakon/bujkkonsultan"></a>
                         </div><!-- service-two-image -->
                     </div><!-- service-two-imgbox -->
@@ -65,7 +65,7 @@
                 <div class="service-two-card">
                     <div class="service-two-imgbox">
                         <div class="service-two-image" style="display: flex; justify-content: center;">
-                            <img src="/assets/00_dokmasjaki/03_datajakon/statistika.png" class="img-fluid" alt="img-29"  loading="lazy" style="width: 70%">
+                            <img src="/assets/00_dokmasjaki/03_datajakon/statistika.png" class="img-fluid" alt="img-29"  loading="lazy" style="width: 70%; padding:10px;">
                             <a href="/datajakon/statistikabujkblora"></a>
                         </div><!-- service-two-image -->
                     </div><!-- service-two-imgbox -->
