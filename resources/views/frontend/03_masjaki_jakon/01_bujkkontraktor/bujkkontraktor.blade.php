@@ -117,70 +117,7 @@ color: #45a049;
                 <div class="service-two-card">
                     <div class="service-two-imgbox" >
 
-                        {{-- ----------------------------------------- --}}
-                        <section class="donate-section">
-                            <div class="container">
-                                <div class="row row-gutter-30">
-                                    <div class="col-xxl-12 col-lg-12">
-                                        <div class="donate-box-inner">
 
-
-                                            {{-- TABLE DATA  --}}
-
-                    <div class="table-wrapper">
-
-
-                    <table class="fl-table">
-                        <thead>
-                            <tr>
-                                <th style="text-align:center" >No</th>
-                                <th style="text-align:center">Nama Lengkap</th>
-                                <th style="text-align:center" >Telepon</th>
-                                <th style="text-align:center" >Email</th>
-                                <th style="text-align:center" >NIB</th>
-                                <th style="text-align:center" >PJU</th>
-                                <th style="text-align:center" >No Akte</th>
-                                <th style="text-align:center" >Tanggal</th>
-                                <th style="text-align:center" >Notaris</th>
-                                <th style="text-align:center" >No Pengesahan</th>
-                                <th style="text-align:center" >View Data</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-
-                            @php
-                            $start = ($data->currentPage() - 1) * $data->perPage() + 1;
-                                @endphp
-
-                            @foreach ($data as $item )
-                            <tr>
-                                <td>{{ $loop->iteration + $start - 1 }}</td>
-                                <td>{{$item->namalengkap}}</td>
-                                <td>{{$item->no_telepon}}</td>
-                                <td>{{$item->email}}</td>
-                                <td>{{$item->nib}}</td>
-                                <td>{{$item->pju}}</td>
-                                <td>{{$item->no_akte}}</td>
-                                <td>{{$item->tanggal}}</td>
-                                <td>{{$item->nama_notaris}}</td>
-                                <td>{{$item->no_pengesahan}}</td>
-                                <td style="text-align: center">
-                                    <a href="/datajakon/bujkkontraktor/{{$item->namalengkap}}">
-                                        <i class="fas fa-eye view-icon" onclick="alert('View clicked!')"></i>
-                                    </a>
-                                </td>
-                            </tr>
-
-                            @endforeach
-                        </tbody>
-                    </table>
-                    </div>
-                                        </div><!-- donate-box-inner -->
-                                    </div><!-- col-xl-8 col-lg-12 -->
-                                </div><!-- row -->
-                            </div><!-- container -->
-                            @include('frontend.00_approve.01_cssterpisah.paginator')
-                        </section><!-- donate-section -->
 
 
                     </div><!-- service-two-imgbox -->
@@ -196,6 +133,71 @@ color: #45a049;
 
 
 
+	<section class="donate-section">
+		<div class="container">
+			<div class="row row-gutter-30">
+
+				<div class="col-xxl-12 col-lg-12">
+					<div class="donate-box-inner">
+
+
+                        {{-- TABLE DATA  --}}
+
+<body>
+<div class="table-wrapper" style="margin-top:-130px;">
+
+
+<table class="fl-table">
+    <thead>
+        <tr>
+            <th style="text-align:center" >No</th>
+            <th style="text-align:center">Nama Lengkap</th>
+            <th style="text-align:center" >Telepon</th>
+            <th style="text-align:center" >Email</th>
+            <th style="text-align:center" >NIB</th>
+            <th style="text-align:center" >PJU</th>
+            <th style="text-align:center" >No Akte</th>
+            <th style="text-align:center" >Tanggal</th>
+            <th style="text-align:center" >Notaris</th>
+            <th style="text-align:center" >No Pengesahan</th>
+            <th style="text-align:center" >View Data</th>
+        </tr>
+    </thead>
+    <tbody>
+
+        @php
+        $start = ($data->currentPage() - 1) * $data->perPage() + 1;
+            @endphp
+
+        @foreach ($data as $item )
+        <tr>
+            <td>{{ $loop->iteration + $start - 1 }}</td>
+            <td>{{$item->namalengkap}}</td>
+            <td>{{$item->no_telepon}}</td>
+            <td>{{$item->email}}</td>
+            <td>{{$item->nib}}</td>
+            <td>{{$item->pju}}</td>
+            <td>{{$item->no_akte}}</td>
+            <td>{{$item->tanggal}}</td>
+            <td>{{$item->nama_notaris}}</td>
+            <td>{{$item->no_pengesahan}}</td>
+            <td style="text-align: center">
+                <a href="/datajakon/bujkkontraktor/{{$item->namalengkap}}">
+                    <i class="fas fa-eye view-icon" onclick="alert('View clicked!')"></i>
+                </a>
+            </td>
+        </tr>
+
+        @endforeach
+    </tbody>
+</table>
+</div>
+                    </div><!-- donate-box-inner -->
+				</div><!-- col-xl-8 col-lg-12 -->
+			</div><!-- row -->
+		</div><!-- container -->
+        @include('frontend.00_approve.01_cssterpisah.paginator')
+	</section><!-- donate-section -->
 
 
 </div><!--page-wrapper-->
