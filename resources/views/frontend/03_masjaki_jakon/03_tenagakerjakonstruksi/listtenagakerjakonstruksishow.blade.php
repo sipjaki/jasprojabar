@@ -127,7 +127,7 @@
                                 </div>
 
                                 <div class="col-lg-6">
-                                    <h6><i class="fas fa-university" style="margin-right: 10px;"></i>LPS Penerbit</h6>
+                                    <h6><i class="fas fa-university" style="margin-right: 10px;"></i>Asosiasi</h6>
                                     <input type="text" class="input-text" placeholder="{{$data->asosiasimasjaki->namaasosiasi}}" readonly>
                                 </div>
 
