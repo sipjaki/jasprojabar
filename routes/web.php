@@ -19,6 +19,7 @@ use App\Http\Controllers\BujkkontraktorController;
 use App\Http\Controllers\BujkkonsultanController;
 use App\Http\Controllers\DatastatistikajakonbloraController;
 use App\Http\Controllers\SkktenagakerjabloraController;
+use App\Http\Controllers\ProfilpaketpekerjaanbloraController;
 use App\Http\Controllers\UndangundangController;
 use Database\Factories\DatajakonFactory;
 use Database\Factories\SkktenagakerjaFactory;
@@ -115,9 +116,9 @@ Route::get('/datajakon/skktenagakerjablora', [SkktenagakerjabloraController::cla
 Route::get('/datajakon/skktenagakerjablora/{nama}', [SkktenagakerjabloraController::class, 'listskktenagakerjablorashow']);
 
 // BUAT BARU UNTUK APLIKASI PROFIL PAKET PEKERJAAN
-Route::get('/datajakon/paketpekerjaanblora', [SkktenagakerjabloraController::class, 'index']);
-Route::get('/datajakon/datapaketpekerjaanblora', [SkktenagakerjabloraController::class, 'datapaketpekerjaanblora']);
-Route::get('/datajakon/datapaketpekerjaanblora/{nama}', [SkktenagakerjabloraController::class, 'datapaketpekerjaanblorashow']);
+Route::get('/datajakon/paketpekerjaanblora', [ProfilpaketpekerjaanbloraController::class, 'index']);
+Route::get('/datajakon/datapaketpekerjaanblora', [ProfilpaketpekerjaanbloraController::class, 'datapaketpekerjaanblora']);
+Route::get('/datajakon/datapaketpekerjaanblora/{nama}', [ProfilpaketpekerjaanbloraController::class, 'datapaketpekerjaanblorashow']);
 
 
 // ------------- HALAMAN UNTUK DATA SERTIFIKASI TENAGA KERJA AHLI -----------------
