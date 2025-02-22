@@ -26,11 +26,10 @@
                     <div class="service-two-imgbox" >
                     </div><!-- service-two-imgbox -->
 
+
+                    <div class="table-wrapper" style="margin-top:-130px;">
+
                     <div class="service-two-card-content">
-
-
-
-
                         <table class="fl-table">
                             <thead>
                                 <tr>
@@ -78,6 +77,7 @@
 
 
 
+                    </div><!--service-two-card-content-->
                     </div><!--service-two-card-content-->
                 </div><!--service-two-card-->
             </div><!--col-12 col-lg-4 col-xl-4-->
