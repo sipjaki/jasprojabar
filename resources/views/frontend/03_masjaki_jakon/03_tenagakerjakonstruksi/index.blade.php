@@ -12,7 +12,7 @@
       <div class="page-breadcrumbs">
         <ul class="list-unstyled">
           {{-- <li><a href="index.html">Home</a></li> --}}
-          <li>Documents</li>
+          {{-- <li>Documents</li> --}}
         </ul><!-- list-unstyled -->
       </div><!-- page-breadcrumbs -->
       <div class="page-banner-title">

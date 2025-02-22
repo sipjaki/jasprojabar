@@ -21,98 +21,120 @@
 		</div><!-- container -->
 	</section><!--page-banner-->
 
-    <section class="donate-section">
-		<div class="container">
+    <section class="service-two-section">
+        <div class="container">
+            <div class="row row-gutter-y-40">
+                <div class="col-12 col-lg-3 col-xl-3">
+                    <div class="service-two-card">
+                        <div class="service-two-imgbox">
+                            <div class="service-two-image" style="display: flex; justify-content: center;">
 
 
-			<div class="row row-gutter-30">
-				<div class="col-lg-12">
-                    <div class="col-lg-12" style="display: flex; justify-content: left; padding:20px">
-                      <a href="/datajakon/bujkkontraktor">
-                          <button class="btn"
-                          style="background-color: #000080;
-                                       color: white;
-                                       display: flex;
-                                       align-items: center;
-                                       border: none;
-                                       padding: 10px 30px;
-                                       border-radius:10px;
-                                       transition: all 0.3s ease;
-                                       cursor: pointer;"
-                                onmouseover="this.style.backgroundColor='white'; this.style.color='black'; this.querySelector('i').style.color='black';"
-                                onmouseout="this.style.backgroundColor='#000080'; this.style.color='white'; this.querySelector('i').style.color='white';">
-                                <i class="fas fa-arrow-left" style="margin-right: 10px; color: white;"></i>Kembali
-                            </button>
-                        </a>
-                    </div><!-- col-lg-12 -->
-				</div><!-- col-lg-12 -->
-				<div class="col-xxl-12 col-lg-12">
-					<div class="donate-box-inner" style="margin-top: -20px;">
-                        <div class="centered-button" style="margin-top: -15px;">
-                            <button class="green-button" style="margin-bottom:10px; text-transform:uppercase">
-                                <i class="fas fa-file mr-2" style="margin-right:5px;"></i> INFORMASI BUJK KONTRAKTOR : {{$data->namalengkap}}
-                            </button>
+                                <section class="donate-section">
+                                    <div class="container">
 
-                        </div>
-						<form action="#" class="contact-form donation" method="post">
-							<div class="row row-gutter-10">
-                                <div class="col-lg-6">
-                                    <h6><i class="fas fa-user mr-2" style="margin-right: 5px;"></i>Nama Pemilik </h6>
-                                    <input type="text" id="fname" class="input-text" placeholder="{{$data->namalengkap}}" name="fname" aria-required="true" readonly>
-                                </div><!-- col-lg-6 -->
 
-                                <div class="col-lg-3">
-                                    <h6><i class="fas fa-phone-alt mr-2" style="margin-right: 5px;"></i>No Telepon</h6>
-                                    <input type="text" id="fname" class="input-text" placeholder="{{$data->no_telepon}}" name="fname" aria-required="true" readonly>
-                                </div><!-- col-lg-3 -->
+                                        <div class="row row-gutter-30">
+                                            <div class="col-lg-12">
+                                                <div class="col-lg-12" style="display: flex; justify-content: left; padding:20px">
+                                                  <a href="/datajakon/bujkkontraktor">
+                                                      <button class="btn"
+                                                      style="background-color: #000080;
+                                                                   color: white;
+                                                                   display: flex;
+                                                                   align-items: center;
+                                                                   border: none;
+                                                                   padding: 10px 30px;
+                                                                   border-radius:10px;
+                                                                   transition: all 0.3s ease;
+                                                                   cursor: pointer;"
+                                                            onmouseover="this.style.backgroundColor='white'; this.style.color='black'; this.querySelector('i').style.color='black';"
+                                                            onmouseout="this.style.backgroundColor='#000080'; this.style.color='white'; this.querySelector('i').style.color='white';">
+                                                            <i class="fas fa-arrow-left" style="margin-right: 10px; color: white;"></i>Kembali
+                                                        </button>
+                                                    </a>
+                                                </div><!-- col-lg-12 -->
+                                            </div><!-- col-lg-12 -->
+                                            <div class="col-xxl-12 col-lg-12">
+                                                <div class="donate-box-inner" style="margin-top: -20px;">
+                                                    <div class="centered-button" style="margin-top: -15px;">
+                                                        <button class="green-button" style="margin-bottom:10px; text-transform:uppercase">
+                                                            <i class="fas fa-file mr-2" style="margin-right:5px;"></i> INFORMASI BUJK KONTRAKTOR : {{$data->namalengkap}}
+                                                        </button>
 
-                                <div class="col-lg-3">
-                                    <h6><i class="fas fa-id-card mr-2" style="margin-right: 5px;"></i>Nomor Induk Berusaha</h6>
-                                    <input type="text" id="fname" class="input-text" placeholder="{{$data->nib}}" name="fname" aria-required="true" readonly>
-                                </div><!-- col-lg-3 -->
+                                                    </div>
+                                                    <form action="#" class="contact-form donation" method="post">
+                                                        <div class="row row-gutter-10">
+                                                            <div class="col-lg-6">
+                                                                <h6><i class="fas fa-user mr-2" style="margin-right: 5px;"></i>Nama Pemilik </h6>
+                                                                <input type="text" id="fname" class="input-text" placeholder="{{$data->namalengkap}}" name="fname" aria-required="true" readonly>
+                                                            </div><!-- col-lg-6 -->
 
-                                <div class="col-lg-12">
-                                    <h6><i class="fas fa-map-marker-alt mr-2" style="margin-right: 5px;"></i>Alamat</h6>
-                                    <input type="text" id="fname" class="input-text" placeholder="{{$data->alamat}}" name="fname" aria-required="true" readonly>
-                                </div><!-- col-lg-12 -->
+                                                            <div class="col-lg-3">
+                                                                <h6><i class="fas fa-phone-alt mr-2" style="margin-right: 5px;"></i>No Telepon</h6>
+                                                                <input type="text" id="fname" class="input-text" placeholder="{{$data->no_telepon}}" name="fname" aria-required="true" readonly>
+                                                            </div><!-- col-lg-3 -->
 
-                                <div class="col-lg-6">
-                                    <h6><i class="fas fa-envelope mr-2" style="margin-right: 5px;"></i>Email</h6>
-                                    <input type="text" id="fname" class="input-text" placeholder="{{$data->email}}" name="fname" aria-required="true" readonly>
-                                </div><!-- col-lg-6 -->
+                                                            <div class="col-lg-3">
+                                                                <h6><i class="fas fa-id-card mr-2" style="margin-right: 5px;"></i>Nomor Induk Berusaha</h6>
+                                                                <input type="text" id="fname" class="input-text" placeholder="{{$data->nib}}" name="fname" aria-required="true" readonly>
+                                                            </div><!-- col-lg-3 -->
 
-                                <div class="col-lg-6">
-                                    <h6><i class="fas fa-user-tie mr-2" style="margin-right: 5px;"></i>Penanggung Jawab Umum</h6>
-                                    <input type="text" id="fname" class="input-text" placeholder="{{$data->pju}}" name="fname" aria-required="true" readonly>
-                                </div><!-- col-lg-6 -->
+                                                            <div class="col-lg-12">
+                                                                <h6><i class="fas fa-map-marker-alt mr-2" style="margin-right: 5px;"></i>Alamat</h6>
+                                                                <input type="text" id="fname" class="input-text" placeholder="{{$data->alamat}}" name="fname" aria-required="true" readonly>
+                                                            </div><!-- col-lg-12 -->
 
-                                <div class="col-lg-6">
-                                    <h6><i class="fas fa-file-alt mr-2" style="margin-right: 5px;"></i>No Akte</h6>
-                                    <input type="text" id="fname" class="input-text" placeholder="{{$data->no_akte}}" name="fname" aria-required="true" readonly>
-                                </div><!-- col-lg-6 -->
+                                                            <div class="col-lg-6">
+                                                                <h6><i class="fas fa-envelope mr-2" style="margin-right: 5px;"></i>Email</h6>
+                                                                <input type="text" id="fname" class="input-text" placeholder="{{$data->email}}" name="fname" aria-required="true" readonly>
+                                                            </div><!-- col-lg-6 -->
 
-                                <div class="col-lg-6">
-                                    <h6><i class="fas fa-calendar mr-2" style="margin-right: 5px;"></i>Tanggal</h6>
-                                    <input type="text" id="fname" class="input-text" placeholder="{{$data->tanggal}}" name="fname" aria-required="true" readonly>
-                                </div><!-- col-lg-6 -->
+                                                            <div class="col-lg-6">
+                                                                <h6><i class="fas fa-user-tie mr-2" style="margin-right: 5px;"></i>Penanggung Jawab Umum</h6>
+                                                                <input type="text" id="fname" class="input-text" placeholder="{{$data->pju}}" name="fname" aria-required="true" readonly>
+                                                            </div><!-- col-lg-6 -->
 
-                                <div class="col-lg-6">
-                                    <h6><i class="fas fa-pencil-alt mr-2" style="margin-right: 5px;"></i>Notaris</h6>
-                                    <input type="text" id="fname" class="input-text" placeholder="{{$data->nama_notaris}}" name="fname" aria-required="true" readonly>
-                                </div><!-- col-lg-6 -->
+                                                            <div class="col-lg-6">
+                                                                <h6><i class="fas fa-file-alt mr-2" style="margin-right: 5px;"></i>No Akte</h6>
+                                                                <input type="text" id="fname" class="input-text" placeholder="{{$data->no_akte}}" name="fname" aria-required="true" readonly>
+                                                            </div><!-- col-lg-6 -->
 
-                                <div class="col-lg-6">
-                                    <h6><i class="fas fa-check-circle mr-2" style="margin-right: 5px;"></i>No Pengesahan</h6>
-                                    <input type="text" id="fname" class="input-text" placeholder="{{$data->no_pengesahan}}" name="fname" aria-required="true" readonly>
-                                </div><!-- col-lg-6 -->
-                                                            </div><!-- row row-gutter-10 -->
-						</form><!-- contact-form -->
-					</div><!-- donate-box-inner -->
-				</div><!-- col-xl-8 col-lg-12 -->
+                                                            <div class="col-lg-6">
+                                                                <h6><i class="fas fa-calendar mr-2" style="margin-right: 5px;"></i>Tanggal</h6>
+                                                                <input type="text" id="fname" class="input-text" placeholder="{{$data->tanggal}}" name="fname" aria-required="true" readonly>
+                                                            </div><!-- col-lg-6 -->
 
-			</div><!-- row -->
-		</div><!-- container -->
-	</section><!-- donate-section -->
+                                                            <div class="col-lg-6">
+                                                                <h6><i class="fas fa-pencil-alt mr-2" style="margin-right: 5px;"></i>Notaris</h6>
+                                                                <input type="text" id="fname" class="input-text" placeholder="{{$data->nama_notaris}}" name="fname" aria-required="true" readonly>
+                                                            </div><!-- col-lg-6 -->
+
+                                                            <div class="col-lg-6">
+                                                                <h6><i class="fas fa-check-circle mr-2" style="margin-right: 5px;"></i>No Pengesahan</h6>
+                                                                <input type="text" id="fname" class="input-text" placeholder="{{$data->no_pengesahan}}" name="fname" aria-required="true" readonly>
+                                                            </div><!-- col-lg-6 -->
+                                                                                        </div><!-- row row-gutter-10 -->
+                                                    </form><!-- contact-form -->
+                                                </div><!-- donate-box-inner -->
+                                            </div><!-- col-xl-8 col-lg-12 -->
+
+                                        </div><!-- row -->
+                                    </div><!-- container -->
+                                </section><!-- donate-section -->
+
+                            </div><!-- service-two-image -->
+                        </div><!-- service-two-imgbox -->
+                    </div><!--service-two-card-->
+                </div><!--col-12 col-lg-4 col-xl-4-->
+
+
+            </div><!-- row -->
+        </div><!-- container -->
+    </section><!-- service-two-section -->
+
+
+
 
 
 	<section class="department-details-section" style="margin-top: -200px;">
@@ -309,6 +331,8 @@
             </div><!--page-wrapper-->
         </div><!--page-wrapper-->
     </section><!-- department-details-section -->
+
+
 
 
                     @include('frontend.00_approve.01_cssterpisah.footer1')
