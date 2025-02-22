@@ -139,19 +139,17 @@
                         <table class="fl-table">
                             <thead>
                                 <tr>
-                                    <th style="text-align:center" >No</th>
-                                    <th style="text-align:center">Nama Lengkap</th>
+                                    <th style="text-align:center"> No</th>
+                                    <th style="text-align:center"> Nama Pemilik</th>
                                     <th style="text-align:center" >Alamat</th>
-                                    <th style="text-align:center" >Sekolah/Universitas</th>
-                                    <th style="text-align:center" >Pendidikan</th>
-                                    <th style="text-align:center" >Jurusan</th>
-                                    <th style="text-align:center" >Tahun Lulus</th>
-                                    <th style="text-align:center" >Jabatan</th>
-                                    <th style="text-align:center" >Jenjang</th>
-                                    <th style="text-align:center" >LPS Penerbit</th>
-                                    <th style="text-align:center" >Terbit</th>
-                                    <th style="text-align:center" >Masa Berlaku</th>
-                                    <th style="text-align:center" >Status</th>
+                                    <th style="text-align:center" >No Telepon</th>
+                                    <th style="text-align:center" >Email</th>
+                                    <th style="text-align:center" >NIB</th>
+                                    <th style="text-align:center" >PJU</th>
+                                    <th style="text-align:center" >Akte</th>
+                                    <th style="text-align:center" >Tanggal</th>
+                                    <th style="text-align:center" >Notaris</th>
+                                    <th style="text-align:center" >Pengesahan</th>
                                     <th style="text-align:center" >View</th>
                                 </tr>
                             </thead>
@@ -164,20 +162,18 @@
                                 @foreach ($data as $item )
                                 <tr>
                                     <td>{{ $loop->iteration + $start - 1 }}</td>
-                                    <td>{{$item->nama}}</td>
+                                    <td>{{$item->namalengkap}}</td>
                                     <td>{{$item->alamat}}</td>
-                                    <td>{{$item->namasekolah->namasekolah}}</td>
-                                    <td>{{$item->jenjangpendidikan->jenjangpendidikan}}</td>
-                                    <td>{{$item->jurusan->jurusan}}</td>
-                                    <td>{{$item->tahunlulus}}</td>
-                                    <td>{{$item->jabatankerja->jabatankerja}}</td>
-                                    <td>{{$item->jenjang->jenjang}}</td>
-                                    <td>{{$item->lpspenerbit->lpspenerbit}}</td>
-                                    <td>{{$item->tanggalterbit}}</td>
-                                    <td>{{$item->tanggalhabis}}</td>
-                                    <td>{{$item->statusterbit}}</td>
+                                    <td>{{$item->no_telepon}}</td>
+                                    <td>{{$item->email}}</td>
+                                    <td>{{$item->nib}}</td>
+                                    <td>{{$item->pju}}</td>
+                                    <td>{{$item->no_akte}}</td>
+                                    <td>{{$item->tanggal}}</td>
+                                    <td>{{$item->nama_notaris}}</td>
+                                    <td>{{$item->no_pengesahan}}</td>
                                     <td style="text-align: center">
-                                        <a href="/datajakon/skktenagakerjablora/{{$item->nama}}">
+                                        <a href="/datajakon/skktenagakerjablora/{{$item->namalengkap}}">
                                             <i class="fas fa-eye view-icon" onclick="alert('View clicked!')"></i>
                                         </a>
                                     </td>
