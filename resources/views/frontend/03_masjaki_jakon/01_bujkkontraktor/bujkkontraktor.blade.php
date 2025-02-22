@@ -14,9 +14,6 @@
 			</div><!-- page-banner-title -->
 		</div><!-- container -->
 	</section><!--page-banner-->
-
-
-
 	<section class="donate-section">
 		<div class="container">
 			<div class="row row-gutter-30">
