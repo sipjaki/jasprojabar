@@ -121,15 +121,6 @@
                                     </div><!-- container -->
                                 </section><!-- donate-section -->
 
-                        </div><!-- service-two-imgbox -->
-                    </div><!--service-two-card-->
-                </div><!--col-12 col-lg-4 col-xl-4-->
-
-
-            </div><!-- row -->
-        </div><!-- container -->
-    </section><!-- service-two-section -->
-
 
 
 	<section class="department-details-section" style="margin-top: -200px;">
@@ -326,6 +317,18 @@
             </div><!--page-wrapper-->
         </div><!--page-wrapper-->
     </section><!-- department-details-section -->
+
+
+                        </div><!-- service-two-imgbox -->
+                    </div><!--service-two-card-->
+                </div><!--col-12 col-lg-4 col-xl-4-->
+
+
+            </div><!-- row -->
+        </div><!-- container -->
+    </section><!-- service-two-section -->
+
+
 
 
 
