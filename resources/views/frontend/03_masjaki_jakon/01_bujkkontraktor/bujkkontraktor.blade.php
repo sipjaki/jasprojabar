@@ -129,17 +129,6 @@ color: #45a049;
 
                     <div class="table-wrapper">
 
-                        <section class="document-section" style="margin-top: -100px;">
-                            <div class="container" >
-                              <ul class="nav nav-pills" id="pills-tab" role="tablist">
-                                <a href="/datajakon/bujk">
-                                <li class="nav-item" role="presentation">
-                                    <button class="nav-link" id="pills-health-tab" data-bs-toggle="pill" data-bs-target="#pills-health" type="button" role="tab" aria-controls="pills-health" aria-selected="false"><i class="flaticon-police-badge-1"></i>All Data Badan Usaha Jasa Konstruksi Kontraktor & Konsultan</button>
-                                </li>
-                                </a>
-                                </ul>
-                            </div>
-                        </section>
 
                     <table class="fl-table">
                         <thead>
@@ -192,6 +181,8 @@ color: #45a049;
                             </div><!-- container -->
                             @include('frontend.00_approve.01_cssterpisah.paginator')
                         </section><!-- donate-section -->
+
+
                     </div><!-- service-two-imgbox -->
 
                 </div><!--service-two-card-content-->
@@ -212,3 +203,14 @@ color: #45a049;
 @include('frontend.00_approve.01_cssterpisah.footer')
 
 
+<section class="document-section" style="margin-top: -100px;">
+    <div class="container" >
+      <ul class="nav nav-pills" id="pills-tab" role="tablist">
+        <a href="/datajakon/bujk">
+        <li class="nav-item" role="presentation">
+            <button class="nav-link" id="pills-health-tab" data-bs-toggle="pill" data-bs-target="#pills-health" type="button" role="tab" aria-controls="pills-health" aria-selected="false"><i class="flaticon-police-badge-1"></i>All Data Badan Usaha Jasa Konstruksi Kontraktor & Konsultan</button>
+        </li>
+        </a>
+        </ul>
+    </div>
+</section>
