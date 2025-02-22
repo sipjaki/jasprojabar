@@ -22,7 +22,7 @@
                 <div class="service-two-card">
                     <div class="service-two-imgbox" >
 
-                        <div class="table-wrapper" style="margin-top:-130px;">
+                        <div class="table-wrapper">
 
 
                             <table class="fl-table">
