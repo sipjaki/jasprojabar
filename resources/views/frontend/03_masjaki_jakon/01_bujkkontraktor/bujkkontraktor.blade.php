@@ -128,7 +128,8 @@ color: #45a049;
                                             {{-- TABLE DATA  --}}
 
                     <div class="table-wrapper">
-                        <section class="document-section" style="margin-top: -100px;">
+
+                        <section class="document-section" style="margin-top: -110px;">
                             <div class="container" >
                               <ul class="nav nav-pills" id="pills-tab" role="tablist">
                                 <a href="/datajakon/bujk">
@@ -140,7 +141,7 @@ color: #45a049;
                             </div>
                         </section>
 
-                    <table class="fl-table">
+                    <table class="fl-table" style="margin-top: -100px;">
                         <thead>
                             <tr>
                                 <th style="text-align:center" >No</th>
