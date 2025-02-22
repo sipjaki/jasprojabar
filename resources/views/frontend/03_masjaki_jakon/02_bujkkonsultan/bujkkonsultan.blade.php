@@ -1,35 +1,3 @@
-@include('frontend.00_approve.01_cssterpisah.header')
-
-
-<body>
-
-    @include('frontend.00_approve.01_cssterpisah.loader')
-    @include('frontend.00_approve.01_cssterpisah.header1')
-
-    <div class="page-wrapper">
-	<section class="page-banner">
-		<div class="container">
-			<div class="page-banner-title">
-				<h3 style="color: black; font-size:30px;">{{$title}}</h3>
-			</div><!-- page-banner-title -->
-		</div><!-- container -->
-	</section><!--page-banner-->
-
-
-  <section class="service-two-section">
-    <div class="container">
-        <div class="row row-gutter-y-40">
-            <div class="col-12 col-lg-12 col-xl-12">
-                <div class="service-two-card">
-                    <div class="service-two-imgbox" >
-
-                        <section class="donate-section">
-                            <div class="container">
-                                <div class="row row-gutter-30">
-
-                                    <div class="col-xxl-12 col-lg-12">
-                                        <div class="donate-box-inner">
-
 
                                             {{-- TABLE DATA  --}}
                                             <style>
@@ -120,10 +88,48 @@
                         color: #45a049;
                     }
                     </style>
+
+{{-- ===================================== --}}
+
+
+
+@include('frontend.00_approve.01_cssterpisah.header')
+
+
+<body>
+
+    @include('frontend.00_approve.01_cssterpisah.loader')
+    @include('frontend.00_approve.01_cssterpisah.header1')
+
+    <div class="page-wrapper">
+	<section class="page-banner">
+		<div class="container">
+			<div class="page-banner-title">
+				<h3 style="color: black; font-size:30px;">{{$title}}</h3>
+			</div><!-- page-banner-title -->
+		</div><!-- container -->
+	</section><!--page-banner-->
+
+
+  <section class="service-two-section">
+    <div class="container">
+        <div class="row row-gutter-y-40">
+            <div class="col-12 col-lg-12 col-xl-12">
+                <div class="service-two-card">
+                    <div class="service-two-imgbox" >
+
+                        <section class="donate-section">
+                            <div class="container">
+                                <div class="row row-gutter-30">
+
+                                    <div class="col-xxl-12 col-lg-12">
+                                        <div class="donate-box-inner">
+
+
                     </head>
 
-                    <section class="document-section" style="margin-top: -100px;">
-                        <div class="container" >
+                    <section class="document-section">
+                        <div class="container"  style="margin-top: -100px;">
                           <ul class="nav nav-pills" id="pills-tab" role="tablist">
                             <a href="/datajakon/bujk">
                             <li class="nav-item" role="presentation">
