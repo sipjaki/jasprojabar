@@ -33,7 +33,7 @@
           var data = google.visualization.arrayToDataTable([
               ['Jabatan Kerja', 'Jumlah'],
               @foreach($statistikJabatanKerja as $item)
-                  ['{{ $item['jabatan_kerja'] }}', {{ $item['jumlah'] }}],
+                  ['{{ $item['jabatankerja'] }}', {{ $item['jumlah'] }}],
               @endforeach
           ]);
 
