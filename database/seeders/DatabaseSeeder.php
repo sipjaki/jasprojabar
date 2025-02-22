@@ -72,6 +72,8 @@ use App\Models\jabatankerja;
 use App\Models\jenjang;
 use App\Models\lpspenerbit;
 use App\Models\skktenagakerjablora;
+use App\Models\asosiasiblora;
+use App\Models\asosiasimasjaki;
 
 // use App\Models\paketpekerjaan;
 use Database\Factories\SkktenagakerjaFactory;
@@ -2644,7 +2646,7 @@ namasekolah::create([
 
 namasekolah::create([
     'id' => '13',
-    'namasekolah' => 'SKB Blora',
+    'namasekolah' => 'SMA',
     'created_at' => Carbon::now(),
     'updated_at' => Carbon::now(),
     'deleted_at' => null, // Jika Anda menggunakan soft deletes
@@ -2916,7 +2918,7 @@ namasekolah::create([
 
 namasekolah::create([
     'id' => '47',
-    'namasekolah' => 'Universitas Islam Sultan Agung',
+    'namasekolah' => 'Universitas Islam Sultan Agung Semarang',
     'created_at' => Carbon::now(),
     'updated_at' => Carbon::now(),
     'deleted_at' => null, // Jika Anda menggunakan soft deletes
@@ -2987,6 +2989,869 @@ namasekolah::create([
     'deleted_at' => null, // Jika Anda menggunakan soft deletes
 ]);
 
+namasekolah::create([
+    'id' => '56',
+    'namasekolah' => 'Sekolah Tinggi Teknologi Nasional Yogyakarta',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+namasekolah::create([
+    'id' => '57',
+    'namasekolah' => 'Institut Adhi Thama Surabaya',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+namasekolah::create([
+    'id' => '58',
+    'namasekolah' => 'Institut Keguruan Dan Ilmu Pendidikan Veteran Semarang',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+namasekolah::create([
+    'id' => '59',
+    'namasekolah' => 'Institut Sains Dan Teknologi Akprind Yogyakarta',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+namasekolah::create([
+    'id' => '60',
+    'namasekolah' => 'Institut Teknologi Nasional Malang',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+namasekolah::create([
+    'id' => '61',
+    'namasekolah' => 'Institut Teknologi PLN',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+namasekolah::create([
+    'id' => '62',
+    'namasekolah' => 'Institut Teknologi Sepuluh Nopember Surabaya',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+namasekolah::create([
+    'id' => '63',
+    'namasekolah' => 'Institut Teknologi Yogyakarta',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+namasekolah::create([
+    'id' => '64',
+    'namasekolah' => 'Institut Teknologi Pembangunan Surabaya',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+namasekolah::create([
+    'id' => '65',
+    'namasekolah' => 'Katholik Santo Yosef Cepu',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+namasekolah::create([
+    'id' => '66',
+    'namasekolah' => 'MA Negeri Blora',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+namasekolah::create([
+    'id' => '67',
+    'namasekolah' => 'MA Al-Hidayah',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+namasekolah::create([
+    'id' => '68',
+    'namasekolah' => 'MA As Syakur Banjarejo',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+namasekolah::create([
+    'id' => '69',
+    'namasekolah' => 'Universitas Gadjah Mada',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+namasekolah::create([
+    'id' => '70',
+    'namasekolah' => 'Non Pendidikan',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+namasekolah::create([
+    'id' => '71',
+    'namasekolah' => 'Paket C',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+namasekolah::create([
+    'id' => '72',
+    'namasekolah' => 'PGRI 5 Blora',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+namasekolah::create([
+    'id' => '73',
+    'namasekolah' => 'Politeknik Negeri Bandung',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+namasekolah::create([
+    'id' => '75',
+    'namasekolah' => 'SD Negeri Karangboyo',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+namasekolah::create([
+    'id' => '76',
+    'namasekolah' => 'SMK',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+namasekolah::create([
+    'id' => '77',
+    'namasekolah' => 'Sekolah Teknologi Menengah Blora',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+namasekolah::create([
+    'id' => '78',
+    'namasekolah' => 'Sekolah Teknologi Negeri',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+namasekolah::create([
+    'id' => '79',
+    'namasekolah' => 'STAI Al-Muhammad Cepu',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+namasekolah::create([
+    'id' => '80',
+    'namasekolah' => 'STAI Muhammadiyah Cepu',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+namasekolah::create([
+    'id' => '81',
+    'namasekolah' => 'Sekolah Tinggi Arsitektur YKPN Yogyakarta',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+namasekolah::create([
+    'id' => '82',
+    'namasekolah' => 'Sekolah Tinggi Teknik Malang',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+namasekolah::create([
+    'id' => '83',
+    'namasekolah' => 'Sekolah Tinggi Teknik Malang',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+namasekolah::create([
+    'id' => '84',
+    'namasekolah' => 'Sekolah Vokasi ITS',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+namasekolah::create([
+    'id' => '85',
+    'namasekolah' => 'SMA Negeri 9 Yogyakarta',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+namasekolah::create([
+    'id' => '86',
+    'namasekolah' => 'SMA Darul Ulum 6 Baureno',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+namasekolah::create([
+    'id' => '87',
+    'namasekolah' => 'SMA Islam Sultan Agung',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+namasekolah::create([
+    'id' => '88',
+    'namasekolah' => 'SMA MAD Negeri Lasem',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+namasekolah::create([
+    'id' => '89',
+    'namasekolah' => 'SMA Miftahul Ulum Ngawen',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+namasekolah::create([
+    'id' => '90',
+    'namasekolah' => 'SMA Muhamadiyah Kabupaten Sleman',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+namasekolah::create([
+    'id' => '91',
+    'namasekolah' => 'SMA Muhamadiyah 5 Todanan',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+namasekolah::create([
+    'id' => '92',
+    'namasekolah' => 'SMA Negeri 2 Ngawen',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+namasekolah::create([
+    'id' => '93',
+    'namasekolah' => 'SMA Negeri 1 Tunjungan',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+namasekolah::create([
+    'id' => '94',
+    'namasekolah' => 'SMA Negeri 1 Ngawen',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+namasekolah::create([
+    'id' => '95',
+    'namasekolah' => 'SMA Negeri 1 Tunjungan',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+namasekolah::create([
+    'id' => '96',
+    'namasekolah' => 'SMA Negeri 1 Toroh',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+namasekolah::create([
+    'id' => '97',
+    'namasekolah' => 'SMA Negeri Blora',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+namasekolah::create([
+    'id' => '98',
+    'namasekolah' => 'SMA Negeri Cepu',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+namasekolah::create([
+    'id' => '99',
+    'namasekolah' => 'SMA Negeri Padangan',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+namasekolah::create([
+    'id' => '100',
+    'namasekolah' => 'SMA PEMDA Wirosari Grobogan ',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+namasekolah::create([
+    'id' => '101',
+    'namasekolah' => 'SMEA Negeri Cepu ',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+namasekolah::create([
+    'id' => '102',
+    'namasekolah' => 'SMEA Negeri Blora ',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+namasekolah::create([
+    'id' => '103',
+    'namasekolah' => 'SMK Al Alif Tunjungan',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+namasekolah::create([
+    'id' => '104',
+    'namasekolah' => 'SMK Al-Ghazali Jiken',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+namasekolah::create([
+    'id' => '105',
+    'namasekolah' => 'SMK Al-Hikmah Blora',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+namasekolah::create([
+    'id' => '106',
+    'namasekolah' => 'SMK Bhakti Husada PGRI Blora',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+namasekolah::create([
+    'id' => '107',
+    'namasekolah' => 'SMK Katholik Santo Pius Blora',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+namasekolah::create([
+    'id' => '108',
+    'namasekolah' => 'SMK Muhammadiyah 2 Cepu',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+namasekolah::create([
+    'id' => '109',
+    'namasekolah' => 'SMK Negeri 1 Cepu',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+namasekolah::create([
+    'id' => '110',
+    'namasekolah' => 'SMA Negeri 1 Kunduran ',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+namasekolah::create([
+    'id' => '111',
+    'namasekolah' => 'SMA Negeri 1 Surabaya ',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+namasekolah::create([
+    'id' => '112',
+    'namasekolah' => 'SMK Negeri 2 Blora',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+namasekolah::create([
+    'id' => '113',
+    'namasekolah' => 'SMK Negeri 2 Bojonegoro',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+namasekolah::create([
+    'id' => '114',
+    'namasekolah' => 'SMK Negeri 2 Purwodadi',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+namasekolah::create([
+    'id' => '115',
+    'namasekolah' => 'SMK Negeri Rembang',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+namasekolah::create([
+    'id' => '117',
+    'namasekolah' => 'SMK NU Tunjungan',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+namasekolah::create([
+    'id' => '118',
+    'namasekolah' => 'SMK Pesantren Sabili Muttaqien Randublatung',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+namasekolah::create([
+    'id' => '119',
+    'namasekolah' => 'SMK Sultan Agung Ngawen',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+namasekolah::create([
+    'id' => '120',
+    'namasekolah' => 'SMK Muhammadiyah 1 Cepu',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+namasekolah::create([
+    'id' => '121',
+    'namasekolah' => 'SMK Pancasila',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+namasekolah::create([
+    'id' => '122',
+    'namasekolah' => 'SMP Negeri 1 Menden',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+namasekolah::create([
+    'id' => '123',
+    'namasekolah' => 'SMP Negeri 2 Kedungtuban',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+namasekolah::create([
+    'id' => '124',
+    'namasekolah' => 'SMA Negeri 1 Ngraho',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+namasekolah::create([
+    'id' => '125',
+    'namasekolah' => 'SMA Negeri 1 Tunjungan',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+namasekolah::create([
+    'id' => '126',
+    'namasekolah' => 'SMA Negeri 16 Bandung',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+namasekolah::create([
+    'id' => '127',
+    'namasekolah' => 'SMU NU 3 Mallimin Weleri',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+namasekolah::create([
+    'id' => '128',
+    'namasekolah' => 'SMU ST. Louis Randublatung',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+namasekolah::create([
+    'id' => '130',
+    'namasekolah' => 'SMU Katholik Wijayakusuma Blora',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+namasekolah::create([
+    'id' => '131',
+    'namasekolah' => 'STIE Dharma Putra',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+namasekolah::create([
+    'id' => '132',
+    'namasekolah' => 'STM Berbau Tuan ST Yosep Cepu',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+namasekolah::create([
+    'id' => '133',
+    'namasekolah' => 'STM Kudus',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+namasekolah::create([
+    'id' => '133',
+    'namasekolah' => 'STM Kudus',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+namasekolah::create([
+    'id' => '134',
+    'namasekolah' => 'STM Negeri Tunjungan Blora',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+namasekolah::create([
+    'id' => '135',
+    'namasekolah' => 'STM Negeri Blora',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+namasekolah::create([
+    'id' => '136',
+    'namasekolah' => 'STM Negeri Rembang',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+namasekolah::create([
+    'id' => '137',
+    'namasekolah' => 'STM Magetan 1 YKP',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+namasekolah::create([
+    'id' => '138',
+    'namasekolah' => 'Universitas Dian Nuswantoro',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+namasekolah::create([
+    'id' => '139',
+    'namasekolah' => 'Universitas 17 Agustus 1945 Semarang',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+namasekolah::create([
+    'id' => '140',
+    'namasekolah' => 'Universitas Atmajaya Yogyakarta',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+namasekolah::create([
+    'id' => '141',
+    'namasekolah' => 'Universitas Brawijaya',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+namasekolah::create([
+    'id' => '142',
+    'namasekolah' => 'Universitas Cokroaminoto Yogyakarta',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+namasekolah::create([
+    'id' => '143',
+    'namasekolah' => 'Universitas Darul Ulum Islamic Center Sudirman Guppi',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+namasekolah::create([
+    'id' => '144',
+    'namasekolah' => 'Universitas DR. Soetomo Surabaya',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+namasekolah::create([
+    'id' => '145',
+    'namasekolah' => 'Universitas Gresik',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+namasekolah::create([
+    'id' => '146',
+    'namasekolah' => 'Universitas Islam Indonesia Yogyakarta',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+namasekolah::create([
+    'id' => '147',
+    'namasekolah' => 'Universitas Khatolik Soegijapranata',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+namasekolah::create([
+    'id' => '148',
+    'namasekolah' => 'Universitas Krisnadwipayana',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+namasekolah::create([
+    'id' => '149',
+    'namasekolah' => 'Universitas Muhammadiyah Malang',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+namasekolah::create([
+    'id' => '150',
+    'namasekolah' => 'Universitas Muhammadiyah Surabaya',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+namasekolah::create([
+    'id' => '151',
+    'namasekolah' => 'Universitas Muhammadiyah Yogyakarta',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+namasekolah::create([
+    'id' => '152',
+    'namasekolah' => 'Universitas Meria Kudus',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+namasekolah::create([
+    'id' => '153',
+    'namasekolah' => 'Universitas Negeri Yogyakarta',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+namasekolah::create([
+    'id' => '154',
+    'namasekolah' => 'Universitas Nusa Cendana',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+namasekolah::create([
+    'id' => '155',
+    'namasekolah' => 'Universitas Padjadjaran',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+namasekolah::create([
+    'id' => '156',
+    'namasekolah' => 'Universitas Persatuan Guru Republik Indonesia Semarang',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+namasekolah::create([
+    'id' => '157',
+    'namasekolah' => 'Universitas Sebelas Maret Surakarta',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+namasekolah::create([
+    'id' => '158',
+    'namasekolah' => 'Universitas Sunan Giri Surabaya',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+namasekolah::create([
+    'id' => '159',
+    'namasekolah' => 'Universitas Surakarta',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+namasekolah::create([
+    'id' => '160',
+    'namasekolah' => 'Universitas Teknologi Yogyakarta',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+namasekolah::create([
+    'id' => '161',
+    'namasekolah' => 'Universitas Trisakti',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+namasekolah::create([
+    'id' => '162',
+    'namasekolah' => 'Universitas Tunas Pembangunan Surakarta',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+namasekolah::create([
+    'id' => '163',
+    'namasekolah' => 'Universitas Veteran Bangun Nusantara Sukoharjo',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+namasekolah::create([
+    'id' => '164',
+    'namasekolah' => 'Universitas Widya Gama',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+namasekolah::create([
+    'id' => '165',
+    'namasekolah' => 'Universitas Wijaya Kusuma Surabaya',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
 
 //======================== ===================================================================================
 // JENJANG PENDIDIKAN MASA JAKI BLORA
@@ -3021,6 +3886,79 @@ jenjangpendidikan::create([
     'updated_at' => Carbon::now(),
     'deleted_at' => null, // Jika Anda menggunakan soft deletes
 ]);
+
+jenjangpendidikan::create([
+    'id' => '5',
+    'jenjangpendidikan' => 'Diploma 1',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+jenjangpendidikan::create([
+    'id' => '6',
+    'jenjangpendidikan' => 'Diploma 2',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+jenjangpendidikan::create([
+    'id' => '7',
+    'jenjangpendidikan' => 'Diploma 4',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+jenjangpendidikan::create([
+    'id' => '8',
+    'jenjangpendidikan' => 'Profesi',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+jenjangpendidikan::create([
+    'id' => '9',
+    'jenjangpendidikan' => 'Strata 2 ',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+jenjangpendidikan::create([
+    'id' => '10',
+    'jenjangpendidikan' => 'SD/MI/Sederajat',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+jenjangpendidikan::create([
+    'id' => '11',
+    'jenjangpendidikan' => 'STM',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+jenjangpendidikan::create([
+    'id' => '12',
+    'jenjangpendidikan' => 'Non Pendidikan',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+jenjangpendidikan::create([
+    'id' => '13',
+    'jenjangpendidikan' => 'SMP/Mts/Sederajat',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
 
 //======================== ===================================================================================
 // JURUSAN MASA JAKI BLORA
@@ -3090,7 +4028,7 @@ jurusan::create([
 
 jurusan::create([
     'id' => '9',
-    'jurusan' => 'Pendidikan Guru Sekolah Dasar',
+    'jurusan' => '(PGSD) Pendidikan Guru Sekolah Dasar',
     'created_at' => Carbon::now(),
     'updated_at' => Carbon::now(),
     'deleted_at' => null, // Jika Anda menggunakan soft deletes
@@ -3200,6 +4138,319 @@ jurusan::create([
     'deleted_at' => null, // Jika Anda menggunakan soft deletes
 ]);
 
+jurusan::create([
+    'id' => '23',
+    'jurusan' => 'Administrasi Perkantoran',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+jurusan::create([
+    'id' => '24',
+    'jurusan' => 'Agrobisnis',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+jurusan::create([
+    'id' => '25',
+    'jurusan' => 'Teknik Arsitektur',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+jurusan::create([
+    'id' => '26',
+    'jurusan' => 'Bahasa',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+jurusan::create([
+    'id' => '27',
+    'jurusan' => 'Bisnis dan Manajemen',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+jurusan::create([
+    'id' => '28',
+    'jurusan' => 'Desain dan Arsitektur',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+jurusan::create([
+    'id' => '29',
+    'jurusan' => 'Geomatika',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+jurusan::create([
+    'id' => '30',
+    'jurusan' => 'Hukum',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+jurusan::create([
+    'id' => '31',
+    'jurusan' => 'Biologi',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+jurusan::create([
+    'id' => '32',
+    'jurusan' => 'Kesehatan',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+jurusan::create([
+    'id' => '33',
+    'jurusan' => 'Keuangan',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+jurusan::create([
+    'id' => '34',
+    'jurusan' => 'Konstruksi Batu dan Beton',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+jurusan::create([
+    'id' => '35',
+    'jurusan' => 'Konstruksi Gedung',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+jurusan::create([
+    'id' => '36',
+    'jurusan' => 'Konstruksi Sipil',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+jurusan::create([
+    'id' => '37',
+    'jurusan' => 'Listrik',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+jurusan::create([
+    'id' => '38',
+    'jurusan' => 'Magister Ilmu Lingkungan',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+jurusan::create([
+    'id' => '39',
+    'jurusan' => 'Magister Teknik Sipil',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+jurusan::create([
+    'id' => '40',
+    'jurusan' => 'Teknik Mekanik Otomotif',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+jurusan::create([
+    'id' => '41',
+    'jurusan' => 'Multimedia',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+jurusan::create([
+    'id' => '42',
+    'jurusan' => 'Pendidikan Agama Islam',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+jurusan::create([
+    'id' => '43',
+    'jurusan' => 'Pendidikan Guru Taman Kanak-kanak',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+jurusan::create([
+    'id' => '44',
+    'jurusan' => 'Pendidikan Teknik Bangunan',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+jurusan::create([
+    'id' => '45',
+    'jurusan' => 'Pendidikan Teknik Sipil dan Perencanaan',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+jurusan::create([
+    'id' => '46',
+    'jurusan' => 'Perkantoran',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+jurusan::create([
+    'id' => '47',
+    'jurusan' => 'Magister Teknik Mesin',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+jurusan::create([
+    'id' => '48',
+    'jurusan' => 'Profesi',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+jurusan::create([
+    'id' => '49',
+    'jurusan' => 'Teknik Geologi',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+jurusan::create([
+    'id' => '50',
+    'jurusan' => 'Surket Tukang',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+jurusan::create([
+    'id' => '51',
+    'jurusan' => 'Teknik Gambar Bangunan',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+jurusan::create([
+    'id' => '52',
+    'jurusan' => 'Teknik Geodesi',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+jurusan::create([
+    'id' => '53',
+    'jurusan' => 'Teknik Kendaraan Ringan',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+jurusan::create([
+    'id' => '54',
+    'jurusan' => 'Teknik Listrik',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+jurusan::create([
+    'id' => '55',
+    'jurusan' => 'Teknik Kimi',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+jurusan::create([
+    'id' => '56',
+    'jurusan' => 'Teknik Komputer dan Jaringan',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+jurusan::create([
+    'id' => '57',
+    'jurusan' => 'Teknik Konstruksi Bangunan Gedung',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+jurusan::create([
+    'id' => '58',
+    'jurusan' => 'Teknik Konstruksi Kayu',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+jurusan::create([
+    'id' => '59',
+    'jurusan' => 'Teknik Perawatan dan Perbaikan',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+jurusan::create([
+    'id' => '60',
+    'jurusan' => 'Teknik Perencanaan Wilayah dan Kota',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+jurusan::create([
+    'id' => '61',
+    'jurusan' => 'Teknik Perawatan Jalan',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+
 
 //======================== ===================================================================================
 // JABATAN KERJA JAKI BLORA
@@ -3274,6 +4525,761 @@ jabatankerja::create([
     'updated_at' => Carbon::now(),
     'deleted_at' => null, // Jika Anda menggunakan soft deletes
 ]);
+
+jabatankerja::create([
+    'id' => '10',
+    'jabatankerja' => 'Ahli Geodesi Dan Bangunan Gedung',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+jabatankerja::create([
+    'id' => '11',
+    'jabatankerja' => 'Ahli Madya Bidang Keahlian Manajemen Konstruksi',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+jabatankerja::create([
+    'id' => '12',
+    'jabatankerja' => 'Ahli Madya Bidang Keahlian Teknik Mekanikal',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+jabatankerja::create([
+    'id' => '13',
+    'jabatankerja' => 'Ahli Madya Bidang Keahlian Teknik Sumber Daya Air',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+jabatankerja::create([
+    'id' => '14',
+    'jabatankerja' => 'Ahli Madya Geoteknik',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+jabatankerja::create([
+    'id' => '15',
+    'jabatankerja' => 'Ahli Madya K3 Konstruksi',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+jabatankerja::create([
+    'id' => '16',
+    'jabatankerja' => 'Ahli Madya Perencana Struktur Jalan Rel',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+jabatankerja::create([
+    'id' => '17',
+    'jabatankerja' => 'Ahli Madya Survei Terestris',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+jabatankerja::create([
+    'id' => '18',
+    'jabatankerja' => 'Ahli Madya Teknik Bangunan Gedung',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+jabatankerja::create([
+    'id' => '19',
+    'jabatankerja' => 'Ahli Madya Teknik Jalan',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+jabatankerja::create([
+    'id' => '20',
+    'jabatankerja' => 'Ahli Madya Teknik Jembatan',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+jabatankerja::create([
+    'id' => '21',
+    'jabatankerja' => 'Ahli Muda Bidang Keahlian Manajemen Konstruksi',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+jabatankerja::create([
+    'id' => '22',
+    'jabatankerja' => 'Ahli Muda Bidang Keahlian Teknik Jalan',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+jabatankerja::create([
+    'id' => '23',
+    'jabatankerja' => 'Ahli Muda Bidang Keahlian Teknik Jembatan',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+jabatankerja::create([
+    'id' => '24',
+    'jabatankerja' => 'Ahli Muda Bidang Keahlian Teknik Mekanikal',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+jabatankerja::create([
+    'id' => '25',
+    'jabatankerja' => 'Ahli Muda Bidang Keahlian Teknik Sumber Daya Air',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+jabatankerja::create([
+    'id' => '26',
+    'jabatankerja' => 'Ahli Muda Elektrikal Konstruksi Bangunan Gedung',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+jabatankerja::create([
+    'id' => '27',
+    'jabatankerja' => 'Ahli Muda Geoteknik',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+jabatankerja::create([
+    'id' => '28',
+    'jabatankerja' => 'Ahli Muda K3 Konstruksi',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+jabatankerja::create([
+    'id' => '29',
+    'jabatankerja' => 'Ahli Muda Pemeliharaan Jalan Dan Jembatan',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+jabatankerja::create([
+    'id' => '30',
+    'jabatankerja' => 'Ahli Muda Pengukuran Jalan',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+jabatankerja::create([
+    'id' => '31',
+    'jabatankerja' => 'Ahli Muda Perawatan Bangunan Gedung',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+jabatankerja::create([
+    'id' => '32',
+    'jabatankerja' => 'Ahli Muda Perencana Beton Pracetak Untuk Struktur Bangunan Gedung',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+jabatankerja::create([
+    'id' => '33',
+    'jabatankerja' => 'Ahli Muda Perencana Irigasi',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+jabatankerja::create([
+    'id' => '34',
+    'jabatankerja' => 'Ahli Muda Quantity Surveyor',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+jabatankerja::create([
+    'id' => '35',
+    'jabatankerja' => 'Ahli Muda Teknik Bangunan Gedung',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+jabatankerja::create([
+    'id' => '36',
+    'jabatankerja' => 'Ahli Muda Teknik Jalan',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+jabatankerja::create([
+    'id' => '37',
+    'jabatankerja' => 'Ahli Muda Teknik Jembatan',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+jabatankerja::create([
+    'id' => '38',
+    'jabatankerja' => 'Ahli Pelaksana Teknik Plambing',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+jabatankerja::create([
+    'id' => '39',
+    'jabatankerja' => 'Ahli Teknik Bangunan Gedung',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+jabatankerja::create([
+    'id' => '40',
+    'jabatankerja' => 'Ahli Utama Bidang Keahlian Manajemen Konstruksi',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+jabatankerja::create([
+    'id' => '41',
+    'jabatankerja' => 'Ahli Utama Bidang Keahlian Teknik Jalan',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+jabatankerja::create([
+    'id' => '42',
+    'jabatankerja' => 'Ahli Utama Bidang Keahlian Teknik Sumber Daya Air',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+jabatankerja::create([
+    'id' => '43',
+    'jabatankerja' => 'Ahli Utama K3 Konstruksi',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+jabatankerja::create([
+    'id' => '44',
+    'jabatankerja' => 'Ahli Utama Teknik Jalan',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+jabatankerja::create([
+    'id' => '45',
+    'jabatankerja' => 'Ahli Utama Teknik Jembatan',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+jabatankerja::create([
+    'id' => '46',
+    'jabatankerja' => 'Juru Gambar Bangunan Gedung',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+jabatankerja::create([
+    'id' => '47',
+    'jabatankerja' => 'Juru Gambar Pekerjaan Jalan dan Jembatan',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+jabatankerja::create([
+    'id' => '48',
+    'jabatankerja' => 'Juru Ukur (Surveyor)',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+jabatankerja::create([
+    'id' => '49',
+    'jabatankerja' => 'Kepala Pengelola Lingkungan Bangunan Gedung',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+jabatankerja::create([
+    'id' => '50',
+    'jabatankerja' => 'Manajer Lapangan Pelaksanaan Pekerjaan Gedung',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+jabatankerja::create([
+    'id' => '51',
+    'jabatankerja' => 'Manajer Pelaksana Konstruksi Sistem Produksi Air Minum (SPAM)',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+jabatankerja::create([
+    'id' => '52',
+    'jabatankerja' => 'Manajer Pelaksanaan Pekerjaan Jalan/ Jembatan',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+jabatankerja::create([
+    'id' => '53',
+    'jabatankerja' => 'Manajer pengelolaan Bangunan Gedung',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+jabatankerja::create([
+    'id' => '54',
+    'jabatankerja' => 'Manajer Produksi Campuran Aspal Panas (Asphalt Mixing Plant Manager)',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+jabatankerja::create([
+    'id' => '55',
+    'jabatankerja' => 'Operator Scaffolding',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+jabatankerja::create([
+    'id' => '56',
+    'jabatankerja' => 'Pelaksana Lapangan Pekerjaan Gedung Madya',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+jabatankerja::create([
+    'id' => '57',
+    'jabatankerja' => 'Pelaksana Lapangan Pekerjaan Jalan Madya',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+jabatankerja::create([
+    'id' => '58',
+    'jabatankerja' => 'Pelaksana Lapangan Pekerjaan Pemasangan Jembatan Rangka Baja Standar Madya',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+jabatankerja::create([
+    'id' => '59',
+    'jabatankerja' => 'Pelaksana Lapangan Pekerjaan Pemasangan Jembatan Rangka Baja Standar Madya',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+jabatankerja::create([
+    'id' => '60',
+    'jabatankerja' => 'Pelaksana Lapangan Pekerjaan Saluran Irigasi Madya',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+jabatankerja::create([
+    'id' => '61',
+    'jabatankerja' => 'Pelaksana Pekerjaan Pemeliharaan Jaringan Irigasi',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+jabatankerja::create([
+    'id' => '62',
+    'jabatankerja' => 'Pelaksana Pekerjaan Pemeliharaan Sungai Muda',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+jabatankerja::create([
+    'id' => '63',
+    'jabatankerja' => 'Pelaksana Pemeliharaan Jalan',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+jabatankerja::create([
+    'id' => '64',
+    'jabatankerja' => 'Pelaksana Pemeliharaan Jembatan',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+jabatankerja::create([
+    'id' => '65',
+    'jabatankerja' => 'Pelaksana Pemeliharaan Jembatan Madya',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+jabatankerja::create([
+    'id' => '66',
+    'jabatankerja' => 'Pelaksana Pemeliharaan Jembatan Muda',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+jabatankerja::create([
+    'id' => '67',
+    'jabatankerja' => 'Pemasang Perancah Dan Acuan/Cetakan Beton',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+jabatankerja::create([
+    'id' => '68',
+    'jabatankerja' => 'Pengawas Lapangan Pekerjaan Drainase Perkotaan',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+jabatankerja::create([
+    'id' => '69',
+    'jabatankerja' => 'Pengawas Pekerjaan Struktur Bangunan Gedung',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+jabatankerja::create([
+    'id' => '70',
+    'jabatankerja' => 'Pengawas Pekerjaan Struktur Bangunan Gedung Madya',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+jabatankerja::create([
+    'id' => '71',
+    'jabatankerja' => 'Petugas Keselamatan dan Kesehatan Kerja (K3) Konstruksi',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+jabatankerja::create([
+    'id' => '72',
+    'jabatankerja' => 'Petugas Keselamatan Konstruksi',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+jabatankerja::create([
+    'id' => '73',
+    'jabatankerja' => 'Supervisor K3 Konstruksi',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+jabatankerja::create([
+    'id' => '74',
+    'jabatankerja' => 'Teknisi Laboratorium Beton Aspal',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+jabatankerja::create([
+    'id' => '75',
+    'jabatankerja' => 'Teknisi Scaffolding',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+jabatankerja::create([
+    'id' => '76',
+    'jabatankerja' => 'Tukang Bangunan Gedung',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+jabatankerja::create([
+    'id' => '77',
+    'jabatankerja' => 'Tukang Besi Beton',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+jabatankerja::create([
+    'id' => '78',
+    'jabatankerja' => 'Tukang Kayu',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+jabatankerja::create([
+    'id' => '79',
+    'jabatankerja' => 'Tukang Pasang Rangka Atap Baja Ringan',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+jabatankerja::create([
+    'id' => '80',
+    'jabatankerja' => 'Tukang Plester Bangunan Gedung',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+//======================== ===================================================================================
+// DATA ASOSIAS KABUPATEN BLORA JAWA TENGAH
+asosiasimasjaki::create([
+    'id' => '1',
+    'asosiasimasjaki' => 'AK3L',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+asosiasimasjaki::create([
+    'id' => '2',
+    'asosiasimasjaki' => 'ASDAMKINDO',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+asosiasimasjaki::create([
+    'id' => '3',
+    'asosiasimasjaki' => 'ASTEKINDO',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+asosiasimasjaki::create([
+    'id' => '4',
+    'asosiasimasjaki' => 'ASTTATINDO',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+asosiasimasjaki::create([
+    'id' => '5',
+    'asosiasimasjaki' => 'ATAKI',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+asosiasimasjaki::create([
+    'id' => '6',
+    'asosiasimasjaki' => 'ATAKNAS',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+asosiasimasjaki::create([
+    'id' => '7',
+    'asosiasimasjaki' => 'ATAKSI',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+asosiasimasjaki::create([
+    'id' => '8',
+    'asosiasimasjaki' => 'GATAKI',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+asosiasimasjaki::create([
+    'id' => '9',
+    'asosiasimasjaki' => 'GATENSI',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+asosiasimasjaki::create([
+    'id' => '10',
+    'asosiasimasjaki' => 'HATSINDO',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+asosiasimasjaki::create([
+    'id' => '11',
+    'asosiasimasjaki' => 'HPJI',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+asosiasimasjaki::create([
+    'id' => '12',
+    'asosiasimasjaki' => 'IAKI',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+asosiasimasjaki::create([
+    'id' => '13',
+    'asosiasimasjaki' => 'LPJK',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+asosiasimasjaki::create([
+    'id' => '14',
+    'asosiasimasjaki' => 'PAKKI',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+asosiasimasjaki::create([
+    'id' => '15',
+    'asosiasimasjaki' => 'PARABI',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+asosiasimasjaki::create([
+    'id' => '16',
+    'asosiasimasjaki' => 'PASTALI',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+asosiasimasjaki::create([
+    'id' => '17',
+    'asosiasimasjaki' => 'PASTI',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+asosiasimasjaki::create([
+    'id' => '18',
+    'asosiasimasjaki' => 'PERPAKOM',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+asosiasimasjaki::create([
+    'id' => '19',
+    'asosiasimasjaki' => 'PERTAHKINDO',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+asosiasimasjaki::create([
+    'id' => '20',
+    'asosiasimasjaki' => 'PERTAMA',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+asosiasimasjaki::create([
+    'id' => '21',
+    'asosiasimasjaki' => 'PERTAPIN',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+asosiasimasjaki::create([
+    'id' => '22',
+    'asosiasimasjaki' => 'PETAKINDO',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+asosiasimasjaki::create([
+    'id' => '23',
+    'asosiasimasjaki' => 'PETAKOM',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
 
 //======================== ===================================================================================
 // JENJANG PEKERJAAN MAS JAKI BLORA
@@ -3359,6 +5365,122 @@ lpspenerbit::create([
     'updated_at' => Carbon::now(),
     'deleted_at' => null, // Jika Anda menggunakan soft deletes
 ]);
+
+lpspenerbit::create([
+    'id' => '2',
+    'lpspenerbit' => 'Bina Konstruksi Nusantara',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+lpspenerbit::create([
+    'id' => '3',
+    'lpspenerbit' => 'Infrastruktur Jalan dan Jembatan Indonesia',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+lpspenerbit::create([
+    'id' => '4',
+    'lpspenerbit' => 'LSP ASTEKINDO Konstruksi Mandiri',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+lpspenerbit::create([
+    'id' => '5',
+    'lpspenerbit' => 'LSP Gataki Konstruksi Mandiri',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+lpspenerbit::create([
+    'id' => '6',
+    'lpspenerbit' => 'LSP GATENSI Karya Konstruksi',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+lpspenerbit::create([
+    'id' => '7',
+    'lpspenerbit' => 'LSP HATSINDO Indoensia Teknik',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+lpspenerbit::create([
+    'id' => '8',
+    'lpspenerbit' => 'LSP K3 Konstruksi',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+lpspenerbit::create([
+    'id' => '9',
+    'lpspenerbit' => 'LSP Keselamatan Kesehatan Kerja',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+lpspenerbit::create([
+    'id' => '10',
+    'lpspenerbit' => 'LSP Petakindo Konstruksi Mandiri',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+lpspenerbit::create([
+    'id' => '11',
+    'lpspenerbit' => 'LSP Sertifikasi Konstruksi Teknik IAKI (LSP SAKTI)',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+lpspenerbit::create([
+    'id' => '12',
+    'lpspenerbit' => 'LSP Sumber Daya Manusia Konstruksi Indonesia',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+lpspenerbit::create([
+    'id' => '13',
+    'lpspenerbit' => 'PT LSP PERTAHKINDO Konstruksi Nasional',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+lpspenerbit::create([
+    'id' => '14',
+    'lpspenerbit' => 'PT. ATAKI Konstruksi Indonesia',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+lpspenerbit::create([
+    'id' => '15',
+    'lpspenerbit' => 'PT.Sertifikasi Profesi Konstruksi Asttatindo',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+//
+
+// FORT
 
 //======================== ===================================================================================
 // SKK TENAGA KERJA MAS JAKI BLORA

@@ -403,3 +403,4 @@ KODE WARNA HIJAU :  #00820d
 
 orange
       #fdba00
+      #2ECC71 hijau modern
