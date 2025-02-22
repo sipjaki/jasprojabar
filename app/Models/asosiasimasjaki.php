@@ -15,7 +15,7 @@ class asosiasimasjaki extends Model
 
     public function skktenagakerjabloralist()
     {
-        return $this->hasMany(skktenagakerjabloralist::class);
+        return $this->hasMany(skktenagakerjabloralist::class, 'asosiasimasjaki_id');
     }
 
 }
