@@ -129,7 +129,7 @@ color: #45a049;
                                             {{-- TABLE DATA  --}}
 
                     <body>
-                    <div class="table-wrapper" style="margin-top:-130px;">
+                    <div class="table-wrapper">
 
 
                     <table class="fl-table">
