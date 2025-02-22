@@ -1,5 +1,5 @@
 
-<section class="footer">
+<section class="footer" style="background-image: url(assets/00_dokmasjaki/01_beranda/masjaki2.png)">
 	<div class="footer-inner">
 		<div class="container">
 			<div class="row">
