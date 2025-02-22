@@ -284,6 +284,9 @@
                                 <th style="text-align:center" style="color: black">Masa Berlaku</th>
                                 <th style="text-align:center" style="color: black">Nama PSJK</th>
                                 <th style="text-align:center" style="color: black">Sub Kualifikasi Badan Usaha</th>
+                                <th style="text-align:center" style="color: black">Sub Kualifikasi Badan Usaha</th>
+                                <th style="text-align:center" style="color: black">Sub Kualifikasi Badan Usaha</th>
+                                <th style="text-align:center" style="color: black">Sub Kualifikasi Badan Usaha</th>
                                 </tr>
                         </thead>
                         <tbody>
