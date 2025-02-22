@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers;
 
-
+use App\Models\asosiasimasjaki;
 use App\Models\skktenagakerjablora;
 use App\Models\namasekolah;
 use App\Models\jenjangpendidikan;
@@ -72,6 +72,70 @@ class SkktenagakerjabloraController extends Controller
         $user = Auth::user();
 
         return view('frontend.03_masjaki_jakon.03_tenagakerjakonstruksi.tenagakerjakonstruksishow', [
+            'title' => 'Data SKK Tenaga Ahli Konstruksi',
+
+            'data' => $dataskk, // Mengirimkan data paginasi ke view
+            'datanamasekolah' => $datanamasekolah, // Mengirimkan data paginasi ke view
+            'datajenjangpendidikan' => $datajenjangpendidikan, // Mengirimkan data paginasi ke view
+            'datajurusan' => $datajurusan, // Mengirimkan data paginasi ke view
+            'datajabatankerja' => $datajabatankerja, // Mengirimkan data paginasi ke view
+            'datajenjang' => $datajenjang, // Mengirimkan data paginasi ke view
+            'datalpspenerbit' => $datalpspenerbit, // Mengirimkan data paginasi ke view
+            'user' => $user, // Mengirimkan data paginasi ke view
+
+    ]);
+
+
+    }
+
+
+
+    // =============================================================================
+
+    public function datalistskktenagakerjablora()
+    {
+        $user = Auth::user();
+
+        $data = skktenagakerjablora::paginate(10);
+        $datanamasekolah = namasekolah::all();
+        $datajenjangpendidikan = jenjangpendidikan::all();
+        $datajurusan = jurusan::all();
+        $datajabatankerja = jabatankerja::all();
+        $datajenjang = jenjang::all();
+        $datalpspenerbit = lpspenerbit::all();
+        $dataasosiasimasjaki = asosiasimasjaki::all();
+
+        return view('frontend.03_masjaki_jakon.03_tenagakerjakonstruksi.listtenagakerjakonstruksi', [
+            'title' => 'Daftar Tenaga Ahli Konstruksi Kabupaten Blora',
+            'user' => $user, // Mengirimkan data paginasi ke view
+
+            'data' => $data, // Mengirimkan data paginasi ke view
+            'datanamasekolah' => $datanamasekolah, // Mengirimkan data paginasi ke view
+            'datajenjangpendidikan' => $datajenjangpendidikan, // Mengirimkan data paginasi ke view
+            'datajurusan' => $datajurusan, // Mengirimkan data paginasi ke view
+            'datajabatankerja' => $datajabatankerja, // Mengirimkan data paginasi ke view
+            'datajenjang' => $datajenjang, // Mengirimkan data paginasi ke view
+            'datalpspenerbit' => $datalpspenerbit, // Mengirimkan data paginasi ke view
+            'dataasosiasimasjaki' => $dataasosiasimasjaki, // Mengirimkan data paginasi ke view
+        ]);
+    }
+
+    public function datalistskktenagakerjablorashow($nama)
+    {
+        $dataskk = skktenagakerjablora::where('nama', $nama)->first();
+
+        $datanamasekolah = namasekolah::all();
+        $datajenjangpendidikan = jenjangpendidikan::all();
+        $datajurusan = jurusan::all();
+        $datajabatankerja = jabatankerja::all();
+        $datajenjang = jenjang::all();
+        $datalpspenerbit = lpspenerbit::all();
+
+
+        // Ambil data user saat ini
+        $user = Auth::user();
+
+        return view('frontend.03_masjaki_jakon.03_tenagakerjakonstruksi.listtenagakerjakonstruksishow', [
             'title' => 'Data SKK Tenaga Ahli Konstruksi',
 
             'data' => $dataskk, // Mengirimkan data paginasi ke view
