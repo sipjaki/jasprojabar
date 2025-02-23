@@ -140,16 +140,17 @@
                             <thead>
                                 <tr>
                                     <th style="text-align:center"> No</th>
-                                    <th style="text-align:center"> Nama Pemilik</th>
-                                    <th style="text-align:center" >Alamat</th>
-                                    <th style="text-align:center" >No Telepon</th>
-                                    <th style="text-align:center" >Email</th>
+                                    <th style="text-align:center">Jenis Pekerjaan</th>
+                                    <th style="text-align:center" >Nama Pekerjaan</th>
+                                    <th style="text-align:center" >Pelaksanaan</th>
+                                    <th style="text-align:center" >Penyedia</th>
                                     <th style="text-align:center" >NIB</th>
-                                    <th style="text-align:center" >PJU</th>
-                                    <th style="text-align:center" >Akte</th>
-                                    <th style="text-align:center" >Tanggal</th>
-                                    <th style="text-align:center" >Notaris</th>
-                                    <th style="text-align:center" >Pengesahan</th>
+                                    <th style="text-align:center" >Nilai Kontrak</th>
+                                    <th style="text-align:center" >Sumber Dana</th>
+                                    <th style="text-align:center" >Jenis Kontrak</th>
+                                    <th style="text-align:center" >Karakteristik Kontrak</th>
+                                    <th style="text-align:center" >Mulai</th>
+                                    <th style="text-align:center" >Selesai</th>
                                     <th style="text-align:center" >View</th>
                                 </tr>
                             </thead>
@@ -162,18 +163,20 @@
                                 @foreach ($data as $item )
                                 <tr>
                                     <td>{{ $loop->iteration + $start - 1 }}</td>
-                                    <td>{{$item->namalengkap}}</td>
-                                    <td>{{$item->alamat}}</td>
-                                    <td>{{$item->no_telepon}}</td>
-                                    <td>{{$item->email}}</td>
+                                    <td>{{$item->jenispekerjaan}}</td>
+                                    <td>{{$item->namapekerjaan}}</td>
+                                    <td>{{$item->tahunpelaksanaan}}</td>
+                                    <td>{{$item->cvptpenyedia}}</td>
                                     <td>{{$item->nib}}</td>
-                                    <td>{{$item->pju}}</td>
-                                    <td>{{$item->no_akte}}</td>
-                                    <td>{{$item->tanggal}}</td>
-                                    <td>{{$item->nama_notaris}}</td>
-                                    <td>{{$item->no_pengesahan}}</td>
+                                    <td>{{$item->nilaikontrak}}</td>
+                                    <td>{{$item->sumberdana}}</td>
+                                    <td>{{$item->jeniskontrak}}</td>
+                                    <td>{{$item->karakteristikkontrak}}</td>
+                                    <td>{{$item->bulanmulai}}</td>
+                                    <td>{{$item->bulanselesai}}</td>
+                                    <td>{{$item->dinas}}</td>
                                     <td style="text-align: center">
-                                        <a href="/datajakon/bujkkontraktor/{{$item->namalengkap}}">
+                                        <a href="/datajakon/paketpekerjaantender/{{$item->jenispekerjaan}}">
                                             <i class="fas fa-eye view-icon" onclick="alert('View clicked!')"></i>
                                         </a>
                                     </td>
