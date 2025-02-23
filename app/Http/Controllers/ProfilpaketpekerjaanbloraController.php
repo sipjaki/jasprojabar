@@ -24,17 +24,13 @@ class ProfilpaketpekerjaanbloraController extends Controller
         ]);
     }
 
-    public function datapaketpekerjaanblora()
+    public function paketpekerjaantender()
     {
-        $data = bujkkontraktor::paginate(15);
-        $datasub = bujkkontraktorsub::paginate(20);
         $user = Auth::user();
 
-        return view('frontend.03_masjaki_jakon.01_bujkkontraktor.bujkkontraktor', [
+        return view('frontend.03_masjaki_jakon.04_profilpaketpekerjaan.01_paketpekerjaantender', [
             'title' => 'BUJK Kontraktor',
             'user' => $user, // Mengirimkan data paginasi ke view
-            'data' => $data, // Mengirimkan data paginasi ke view
-            'datasub' => $datasub, // Mengirimkan data paginasi ke view
         ]);
     }
 

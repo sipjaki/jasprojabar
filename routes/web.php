@@ -131,7 +131,7 @@ Route::get('/datajakon/skktenagakerjabloralist/{nama}', [SkktenagakerjabloraCont
 
 // BUAT BARU UNTUK APLIKASI PROFIL PAKET PEKERJAAN
 Route::get('/datajakon/datapaketpekerjaanblora', [ProfilpaketpekerjaanbloraController::class, 'index']);
-Route::get('/datajakon/paketpekerjaanblora', [ProfilpaketpekerjaanbloraController::class, 'datapaketpekerjaanblora']);
+Route::get('/datajakon/paketpekerjaantender', [ProfilpaketpekerjaanbloraController::class, 'paketpekerjaantender']);
 // Route::get('/datajakon/paketpekerjaanblora/{nama}', [ProfilpaketpekerjaanbloraController::class, 'datapaketpekerjaanblorashow']);
 
 
