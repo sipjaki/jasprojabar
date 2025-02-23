@@ -46,8 +46,6 @@
 						</div><!-- sidebar-widget sidebar-widget-card -->
 					</div><!--sidebar-->
 				</div><!--col-12 col-lg-4 col-xl-4-->
-				<div class="col-lg-8">
-
                     <div class="col-12 col-lg-4 col-xl-4">
 					<div class="sidebar">
 						<div class="sidebar-widget-list-inner">
@@ -80,7 +78,6 @@
 						</div><!-- sidebar-widget-list-inner -->
 
 					</div><!--sidebar-->
-				</div><!--col-12 col-lg-4 col-xl-4-->
 
                 <div class="col-12 col-lg-8 col-xl-8">
 
