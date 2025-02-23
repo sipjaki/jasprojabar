@@ -88,7 +88,7 @@
           ['Jumlah Tenaga Kerja', 'Jabatan'],
           @foreach($jumlahDatabaru as $jabatanId => $jumlah)
             @php $jabatan = App\Models\jabatankerja::find($jabatanId); @endphp
-            ['{{ $jabatankerja ? $jabatankerja_id->jabatankerja : "Unknown" }}', {{ $jumlah }}],
+            ['{{ $jabatan ? $jabatan->jabatankerja : "Unknown" }}', {{ $jumlah }}],
           @endforeach
         ]);
 
