@@ -34,6 +34,33 @@
 								<li style="text-align: center"><a style="text-align: center;" href="#">Total Tenaga Ahli : <i class="fa-solid fa-edit" style="margin-left: 10px;"></i></li>
 							</ul><!-- ul -->
 						</div><!-- sidebar-widget-list-inner -->
+						<div class="sidebar-widget-list-inner">
+
+                            <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+                            <script type="text/javascript">
+                              google.charts.load('current', {'packages':['table']});
+                              google.charts.setOnLoadCallback(drawTable);
+
+                              function drawTable() {
+                                var data = new google.visualization.DataTable();
+                                data.addColumn('string', 'Jenjang');
+                                data.addColumn('number', 'Jumlah');
+
+                                data.addRows([
+                                    @foreach($statistikJenjang as $item)
+                                        ['{{ $item['jenjang'] }}', {{ $item['jumlah'] }}],
+                                    @endforeach
+                                ]);
+
+                                var table = new google.visualization.Table(document.getElementById('table_div'));
+                                table.draw(data, {showRowNumber: true, width: '100%', height: '100%'});
+                              }
+                            </script>
+
+                        <div id="table_div"></div>
+						</div><!-- sidebar-widget-list-inner -->
+
+
 						<div class="sidebar-widget sidebar-widget-card">
 							<div class="sidebar-widget-card-icon">
 								<i class="flaticon-question"></i>
@@ -46,38 +73,6 @@
 						</div><!-- sidebar-widget sidebar-widget-card -->
 					</div><!--sidebar-->
 				</div><!--col-12 col-lg-4 col-xl-4-->
-                    <div class="col-12 col-lg-4 col-xl-4">
-					<div class="sidebar">
-						<div class="sidebar-widget-list-inner">
-
-
-                        <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
-                        <script type="text/javascript">
-                          google.charts.load('current', {'packages':['table']});
-                          google.charts.setOnLoadCallback(drawTable);
-
-                          function drawTable() {
-                            var data = new google.visualization.DataTable();
-                            data.addColumn('string', 'Jenjang');
-                            data.addColumn('number', 'Jumlah');
-
-                            data.addRows([
-                                @foreach($statistikJenjang as $item)
-                                    ['{{ $item['jenjang'] }}', {{ $item['jumlah'] }}],
-                                @endforeach
-                            ]);
-
-                            var table = new google.visualization.Table(document.getElementById('table_div'));
-                            table.draw(data, {showRowNumber: true, width: '100%', height: '100%'});
-                          }
-                        </script>
-
-                    <div id="table_div"></div>
-
-
-						</div><!-- sidebar-widget-list-inner -->
-
-					</div><!--sidebar-->
 
                 <div class="col-12 col-lg-8 col-xl-8">
 
