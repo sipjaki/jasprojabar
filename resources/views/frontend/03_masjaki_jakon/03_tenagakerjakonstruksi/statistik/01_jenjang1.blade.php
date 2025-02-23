@@ -67,7 +67,7 @@
 
                                     document.querySelectorAll('#table_div th').forEach((th) => {
                                         th.style.backgroundColor = '#2ECC71';
-                                        th.style.color = 'white';
+                                        th.style.color = 'green';
                                         th.style.textTransform = 'uppercase';
                                         th.style.padding = '12px';
                                         th.style.textAlign = 'left';
