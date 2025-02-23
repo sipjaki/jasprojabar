@@ -177,10 +177,7 @@
                                     <div class="col-xxl-12 col-lg-12">
                                         <div class="donate-box-inner" style="margin-top: -20px;">
                                             <div class="centered-button" style="margin-top: -15px;">
-                                                <button class="green-button" style="margin-bottom:10px; text-transform:uppercase">
-                                                    <i class="fas fa-file mr-2" style="margin-right:5px;"></i> INFORMASI BUJK KONTRAKTOR : {{$data->namalengkap}}
-                                                </button>
-
+                                                <img src="/assets/icon/logokabupatenblora.png" class="img-fluid" alt="img-25" width="50" style="margin-right: 5px;" loading="lazy">
                                             </div>
 
                                             <form action="#" class="contact-form donation" method="post">
