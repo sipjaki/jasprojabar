@@ -274,6 +274,7 @@ public function datajenjang2()
         });
 
         $jumlahstatistikJenjang = skktenagakerjabloralist::select('jenjang_id', DB::raw('COUNT(*) as jumlah'))
+        ->where('jenjang_id', 2) // Menambahkan kondisi untuk mengambil data dengan jabatankerja_id 2
         ->groupBy('jenjang_id')
         ->with('jenjang')
         ->get()
