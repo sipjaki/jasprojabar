@@ -187,7 +187,7 @@
 
                 </div><!-- col-lg-8 -->
 
-                <div class="col-12 col-lg-8 col-xl-8" style="margin-top:25px;">
+                <div class="col-8 col-lg-8 col-xl-8" style="margin-top:25px;">
 					<div class="department-details-box">
 
 
