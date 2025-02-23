@@ -74,7 +74,7 @@
                                     });
 
                                     document.querySelectorAll('#table_div tr:nth-child(even)').forEach((tr) => {
-                                        tr.style.backgroundColor = '#2ECC71';
+                                        tr.style.backgroundColor = '#ffffff';
                                     });
 
                                     document.querySelectorAll('#table_div tr:hover').forEach((tr) => {
