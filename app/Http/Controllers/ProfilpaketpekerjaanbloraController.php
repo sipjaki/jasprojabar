@@ -36,33 +36,31 @@ class ProfilpaketpekerjaanbloraController extends Controller
         ]);
     }
 
-    // public function datapaketpekerjaanblorashow($namalengkap)
-    // {
-    //     $databujkkontraktor = bujkkontraktor::where('namalengkap', $namalengkap)->first();
+    public function datapaketpekerjaanblorashow($jenisperkerjaan)
+    {
+        $data = profilpaketpekerjaanblora::where('jenisperkerjaan', $jenisperkerjaan)->first();
 
-    //     if (!$databujkkontraktor) {
-    //         // Tangani jika kegiatan tidak ditemukan
-    //         return redirect()->back()->with('error', 'Kegiatan tidak ditemukan.');
-    //     }
+        // if (!$databujkkontraktor) {
+        //     // Tangani jika kegiatan tidak ditemukan
+        //     return redirect()->back()->with('error', 'Kegiatan tidak ditemukan.');
+        // }
 
-    //     // Menggunakan paginate() untuk pagination
-    //     $subdata = bujkkontraktorsub::where('bujkkontraktor_id', $databujkkontraktor->id)->paginate(10);
+        // // Menggunakan paginate() untuk pagination
+        // $subdata = bujkkontraktorsub::where('bujkkontraktor_id', $databujkkontraktor->id)->paginate(10);
 
-    //       // Menghitung nomor urut mulai
-    //         $start = ($subdata->currentPage() - 1) * $subdata->perPage() + 1;
+        //   // Menghitung nomor urut mulai
+        //     $start = ($subdata->currentPage() - 1) * $subdata->perPage() + 1;
 
 
-    // // Ambil data user saat ini
-    // $user = Auth::user();
+    // Ambil data user saat ini
+    $user = Auth::user();
 
-    // return view('frontend.03_masjaki_jakon.01_bujkkontraktor.bujkkontraktorshow', [
-    //     'title' => 'Data Bujk Kontraktor',
-    //     'data' => $databujkkontraktor,
-    //     'subData' => $subdata,  // Jika Anda ingin mengirimkan data sub kontraktor juga
-    //     'user' => $user,
-    //     'start' => $start,
-    // ]);
-    // }
+    return view('frontend.03_masjaki_jakon.04_profilpaketpekerjaan.01_paketpekerjaantendershow', [
+        'title' => 'View Data Paket Pekerjaan Tender',
+        'data' => $data,
+
+    ]);
+    }
 
 
 }
