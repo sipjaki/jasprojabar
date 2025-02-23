@@ -525,6 +525,315 @@ public function datajenjang5()
         ]);
 }
 
+// ========== DATA JENJANG 6 =================================
+public function datajenjang6()
+{
+    $dataskklist = skktenagakerjabloralist::where('jenjang_id', 6)->get();
+    $datacount = $dataskklist->count();
+    $totalData = $datacount;  // The total data after filtering
+
+    // Filter the data where jenjang_id is 1
+
+    // Extract jabatankerja data grouped by jabatankerja_id
+    $datastatistikJabatanKerja = $dataskklist->groupBy('jabatankerja_id')
+    ->map(function ($group, $jabatankerja_id) use ($dataskklist) {
+        // Get the jabatankerja name (you may need to adjust based on your data structure)
+        $datajabatankerja = $group->first()->jabatankerja->jabatankerja ?? 'Tidak Diketahui';
+        $jumlah = $group->count();
+
+        // Calculate the percentage based on the total number of records for jenjang_id = 1
+        $totalData = $dataskklist->count();
+        $persentase = $totalData ? round(($jumlah / $totalData) * 100, 2) : 0;
+
+        return [
+            'datajabatankerja' => $datajabatankerja,
+            'jumlah' => $jumlah,
+            'persentase' => $persentase,
+        ];
+    })->values();  // Reindex the array after map
+
+    //STATISTIKA JENJANG
+    $statistikJenjang = skktenagakerjabloralist::select('jenjang_id', DB::raw('COUNT(*) as jumlah'))
+        ->groupBy('jenjang_id')
+        ->with('jenjang')
+        ->get()
+        ->map(function ($item) use ($totalData) {
+            return [
+                'jenjang' => $item->jenjang->jenjang ?? 'Tidak Diketahui',
+                'jumlah' => $item->jumlah,
+                'persentase' => $totalData ? round(($item->jumlah / $totalData) * 100, 2) : 0,
+            ];
+        });
+
+    // Statistik Jabatan Kerja
+    $statistikJabatanKerja = skktenagakerjabloralist::select('jabatankerja_id', DB::raw('COUNT(*) as jumlah'))
+        ->groupBy('jabatankerja_id')
+        ->with('jabatankerja')
+        ->get()
+        ->map(function ($item) use ($totalData) {
+            return [
+                'jabatankerja' => $item->jabatankerja->jabatankerja ?? 'Tidak Diketahui',
+                'jumlah' => $item->jumlah,
+                'persentase' => $totalData ? round(($item->jumlah / $totalData) * 100, 2) : 0,
+            ];
+        });
+
+        $jumlahstatistikJenjang = skktenagakerjabloralist::select('jenjang_id', DB::raw('COUNT(*) as jumlah'))
+        ->groupBy('jenjang_id')
+        ->with('jenjang')
+        ->get()
+        ->map(function ($item) {
+            return [
+                'jenjang' => $item->jenjang->jenjang ?? 'Tidak Diketahui',
+                'jumlah' => $item->jumlah,
+            ];
+        });
+
+
+        return view('frontend.03_masjaki_jakon.03_tenagakerjakonstruksi.statistik.06_jenjang6', [
+            'title' => 'Data Statistik Tenaga Ahli Konstruksi',
+            'statistikJabatanKerja' => $statistikJabatanKerja,
+            'datastatistikJabatanKerja' => $datastatistikJabatanKerja,
+            'datacount' => $datacount,
+            'statistikJenjang' => $statistikJenjang,
+            'jumlahstatistikJenjang' => $jumlahstatistikJenjang,
+
+        ]);
+}
+
+
+// ========== DATA JENJANG 7 =================================
+public function datajenjang7()
+{
+    $dataskklist = skktenagakerjabloralist::where('jenjang_id', 7)->get();
+    $datacount = $dataskklist->count();
+    $totalData = $datacount;  // The total data after filtering
+
+    // Filter the data where jenjang_id is 1
+
+    // Extract jabatankerja data grouped by jabatankerja_id
+    $datastatistikJabatanKerja = $dataskklist->groupBy('jabatankerja_id')
+    ->map(function ($group, $jabatankerja_id) use ($dataskklist) {
+        // Get the jabatankerja name (you may need to adjust based on your data structure)
+        $datajabatankerja = $group->first()->jabatankerja->jabatankerja ?? 'Tidak Diketahui';
+        $jumlah = $group->count();
+
+        // Calculate the percentage based on the total number of records for jenjang_id = 1
+        $totalData = $dataskklist->count();
+        $persentase = $totalData ? round(($jumlah / $totalData) * 100, 2) : 0;
+
+        return [
+            'datajabatankerja' => $datajabatankerja,
+            'jumlah' => $jumlah,
+            'persentase' => $persentase,
+        ];
+    })->values();  // Reindex the array after map
+
+    //STATISTIKA JENJANG
+    $statistikJenjang = skktenagakerjabloralist::select('jenjang_id', DB::raw('COUNT(*) as jumlah'))
+        ->groupBy('jenjang_id')
+        ->with('jenjang')
+        ->get()
+        ->map(function ($item) use ($totalData) {
+            return [
+                'jenjang' => $item->jenjang->jenjang ?? 'Tidak Diketahui',
+                'jumlah' => $item->jumlah,
+                'persentase' => $totalData ? round(($item->jumlah / $totalData) * 100, 2) : 0,
+            ];
+        });
+
+    // Statistik Jabatan Kerja
+    $statistikJabatanKerja = skktenagakerjabloralist::select('jabatankerja_id', DB::raw('COUNT(*) as jumlah'))
+        ->groupBy('jabatankerja_id')
+        ->with('jabatankerja')
+        ->get()
+        ->map(function ($item) use ($totalData) {
+            return [
+                'jabatankerja' => $item->jabatankerja->jabatankerja ?? 'Tidak Diketahui',
+                'jumlah' => $item->jumlah,
+                'persentase' => $totalData ? round(($item->jumlah / $totalData) * 100, 2) : 0,
+            ];
+        });
+
+        $jumlahstatistikJenjang = skktenagakerjabloralist::select('jenjang_id', DB::raw('COUNT(*) as jumlah'))
+        ->groupBy('jenjang_id')
+        ->with('jenjang')
+        ->get()
+        ->map(function ($item) {
+            return [
+                'jenjang' => $item->jenjang->jenjang ?? 'Tidak Diketahui',
+                'jumlah' => $item->jumlah,
+            ];
+        });
+
+
+        return view('frontend.03_masjaki_jakon.03_tenagakerjakonstruksi.statistik.07_jenjang7', [
+            'title' => 'Data Statistik Tenaga Ahli Konstruksi',
+            'statistikJabatanKerja' => $statistikJabatanKerja,
+            'datastatistikJabatanKerja' => $datastatistikJabatanKerja,
+            'datacount' => $datacount,
+            'statistikJenjang' => $statistikJenjang,
+            'jumlahstatistikJenjang' => $jumlahstatistikJenjang,
+
+        ]);
+}
+
+
+
+// ========== DATA JENJANG 8 =================================
+public function datajenjang8()
+{
+    $dataskklist = skktenagakerjabloralist::where('jenjang_id', 7)->get();
+    $datacount = $dataskklist->count();
+    $totalData = $datacount;  // The total data after filtering
+
+    // Filter the data where jenjang_id is 1
+
+    // Extract jabatankerja data grouped by jabatankerja_id
+    $datastatistikJabatanKerja = $dataskklist->groupBy('jabatankerja_id')
+    ->map(function ($group, $jabatankerja_id) use ($dataskklist) {
+        // Get the jabatankerja name (you may need to adjust based on your data structure)
+        $datajabatankerja = $group->first()->jabatankerja->jabatankerja ?? 'Tidak Diketahui';
+        $jumlah = $group->count();
+
+        // Calculate the percentage based on the total number of records for jenjang_id = 1
+        $totalData = $dataskklist->count();
+        $persentase = $totalData ? round(($jumlah / $totalData) * 100, 2) : 0;
+
+        return [
+            'datajabatankerja' => $datajabatankerja,
+            'jumlah' => $jumlah,
+            'persentase' => $persentase,
+        ];
+    })->values();  // Reindex the array after map
+
+    //STATISTIKA JENJANG
+    $statistikJenjang = skktenagakerjabloralist::select('jenjang_id', DB::raw('COUNT(*) as jumlah'))
+        ->groupBy('jenjang_id')
+        ->with('jenjang')
+        ->get()
+        ->map(function ($item) use ($totalData) {
+            return [
+                'jenjang' => $item->jenjang->jenjang ?? 'Tidak Diketahui',
+                'jumlah' => $item->jumlah,
+                'persentase' => $totalData ? round(($item->jumlah / $totalData) * 100, 2) : 0,
+            ];
+        });
+
+    // Statistik Jabatan Kerja
+    $statistikJabatanKerja = skktenagakerjabloralist::select('jabatankerja_id', DB::raw('COUNT(*) as jumlah'))
+        ->groupBy('jabatankerja_id')
+        ->with('jabatankerja')
+        ->get()
+        ->map(function ($item) use ($totalData) {
+            return [
+                'jabatankerja' => $item->jabatankerja->jabatankerja ?? 'Tidak Diketahui',
+                'jumlah' => $item->jumlah,
+                'persentase' => $totalData ? round(($item->jumlah / $totalData) * 100, 2) : 0,
+            ];
+        });
+
+        $jumlahstatistikJenjang = skktenagakerjabloralist::select('jenjang_id', DB::raw('COUNT(*) as jumlah'))
+        ->groupBy('jenjang_id')
+        ->with('jenjang')
+        ->get()
+        ->map(function ($item) {
+            return [
+                'jenjang' => $item->jenjang->jenjang ?? 'Tidak Diketahui',
+                'jumlah' => $item->jumlah,
+            ];
+        });
+
+
+        return view('frontend.03_masjaki_jakon.03_tenagakerjakonstruksi.statistik.08_jenjang8', [
+            'title' => 'Data Statistik Tenaga Ahli Konstruksi',
+            'statistikJabatanKerja' => $statistikJabatanKerja,
+            'datastatistikJabatanKerja' => $datastatistikJabatanKerja,
+            'datacount' => $datacount,
+            'statistikJenjang' => $statistikJenjang,
+            'jumlahstatistikJenjang' => $jumlahstatistikJenjang,
+
+        ]);
+}
+
+
+
+// ========== DATA JENJANG 9 =================================
+public function datajenjang9()
+{
+    $dataskklist = skktenagakerjabloralist::where('jenjang_id', 7)->get();
+    $datacount = $dataskklist->count();
+    $totalData = $datacount;  // The total data after filtering
+
+    // Filter the data where jenjang_id is 1
+
+    // Extract jabatankerja data grouped by jabatankerja_id
+    $datastatistikJabatanKerja = $dataskklist->groupBy('jabatankerja_id')
+    ->map(function ($group, $jabatankerja_id) use ($dataskklist) {
+        // Get the jabatankerja name (you may need to adjust based on your data structure)
+        $datajabatankerja = $group->first()->jabatankerja->jabatankerja ?? 'Tidak Diketahui';
+        $jumlah = $group->count();
+
+        // Calculate the percentage based on the total number of records for jenjang_id = 1
+        $totalData = $dataskklist->count();
+        $persentase = $totalData ? round(($jumlah / $totalData) * 100, 2) : 0;
+
+        return [
+            'datajabatankerja' => $datajabatankerja,
+            'jumlah' => $jumlah,
+            'persentase' => $persentase,
+        ];
+    })->values();  // Reindex the array after map
+
+    //STATISTIKA JENJANG
+    $statistikJenjang = skktenagakerjabloralist::select('jenjang_id', DB::raw('COUNT(*) as jumlah'))
+        ->groupBy('jenjang_id')
+        ->with('jenjang')
+        ->get()
+        ->map(function ($item) use ($totalData) {
+            return [
+                'jenjang' => $item->jenjang->jenjang ?? 'Tidak Diketahui',
+                'jumlah' => $item->jumlah,
+                'persentase' => $totalData ? round(($item->jumlah / $totalData) * 100, 2) : 0,
+            ];
+        });
+
+    // Statistik Jabatan Kerja
+    $statistikJabatanKerja = skktenagakerjabloralist::select('jabatankerja_id', DB::raw('COUNT(*) as jumlah'))
+        ->groupBy('jabatankerja_id')
+        ->with('jabatankerja')
+        ->get()
+        ->map(function ($item) use ($totalData) {
+            return [
+                'jabatankerja' => $item->jabatankerja->jabatankerja ?? 'Tidak Diketahui',
+                'jumlah' => $item->jumlah,
+                'persentase' => $totalData ? round(($item->jumlah / $totalData) * 100, 2) : 0,
+            ];
+        });
+
+        $jumlahstatistikJenjang = skktenagakerjabloralist::select('jenjang_id', DB::raw('COUNT(*) as jumlah'))
+        ->groupBy('jenjang_id')
+        ->with('jenjang')
+        ->get()
+        ->map(function ($item) {
+            return [
+                'jenjang' => $item->jenjang->jenjang ?? 'Tidak Diketahui',
+                'jumlah' => $item->jumlah,
+            ];
+        });
+
+
+        return view('frontend.03_masjaki_jakon.03_tenagakerjakonstruksi.statistik.09_jenjang9', [
+            'title' => 'Data Statistik Tenaga Ahli Konstruksi',
+            'statistikJabatanKerja' => $statistikJabatanKerja,
+            'datastatistikJabatanKerja' => $datastatistikJabatanKerja,
+            'datacount' => $datacount,
+            'statistikJenjang' => $statistikJenjang,
+            'jumlahstatistikJenjang' => $jumlahstatistikJenjang,
+
+        ]);
+}
+
 
 
 
