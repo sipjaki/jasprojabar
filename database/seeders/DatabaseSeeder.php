@@ -5885,6 +5885,128 @@ profilpaketpekerjaannontender::create([
     'dinas' => 'Dinas Perumahan dan Permukiman Blora',
 ]);
 
+//======================== ===================================================================================
+// PAKET KONSULTASI NON TENDER MAS JAKI BLORA
+profilpaketpekerjaannontender::create([
+    'jenispekerjaan' => 'Pekerjaan Pembangunan Sistem Drainase',
+    'namapekerjaan' => 'Pembangunan Sistem Drainase Kota Blora',
+    'tahunpelaksanaan' => 2029,
+    'cvptpenyedia' => 'CV. Drainase Lancar',
+    'nib' => '7788990011',
+    'nilaikontrak' => 300000000.00,
+    'sumberdana' => 'APBN',
+    'jeniskontrak' => 'Kontrak Pembangunan',
+    'karakteristikkontrak' => 'Pembangunan Sistem Drainase Kota',
+    'bulanmulai' => '2029-08-01',
+    'bulanselesai' => '2029-12-31',
+    'dinas' => 'Dinas Perumahan dan Permukiman Blora',
+]);
+
+profilpaketpekerjaannontender::create([
+    'jenispekerjaan' => 'Pekerjaan Rehabilitasi Jalan',
+    'namapekerjaan' => 'Rehabilitasi Jalan Utama Kecamatan Cepu',
+    'tahunpelaksanaan' => 2028,
+    'cvptpenyedia' => 'PT. Jalan Mulus',
+    'nib' => '1122334455',
+    'nilaikontrak' => 500000000.00,
+    'sumberdana' => 'APBD',
+    'jeniskontrak' => 'Kontrak Rehabilitasi',
+    'karakteristikkontrak' => 'Perbaikan Jalan dan Pengaspalan',
+    'bulanmulai' => '2028-05-01',
+    'bulanselesai' => '2028-10-31',
+    'dinas' => 'Dinas Pekerjaan Umum Blora',
+]);
+
+profilpaketpekerjaannontender::create([
+    'jenispekerjaan' => 'Pekerjaan Pembangunan Gedung',
+    'namapekerjaan' => 'Pembangunan Gedung Kantor Kecamatan',
+    'tahunpelaksanaan' => 2030,
+    'cvptpenyedia' => 'CV. Bangun Jaya',
+    'nib' => '6677889900',
+    'nilaikontrak' => 750000000.00,
+    'sumberdana' => 'DAK',
+    'jeniskontrak' => 'Kontrak Pembangunan',
+    'karakteristikkontrak' => 'Pembangunan Gedung Bertingkat',
+    'bulanmulai' => '2030-03-01',
+    'bulanselesai' => '2030-09-30',
+    'dinas' => 'Dinas Cipta Karya Blora',
+]);
+
+profilpaketpekerjaannontender::create([
+    'jenispekerjaan' => 'Pekerjaan Pengadaan Air Bersih',
+    'namapekerjaan' => 'Pengadaan Sumur Bor dan Instalasi Air',
+    'tahunpelaksanaan' => 2027,
+    'cvptpenyedia' => 'PT. Tirta Sejahtera',
+    'nib' => '9988776655',
+    'nilaikontrak' => 200000000.00,
+    'sumberdana' => 'APBN',
+    'jeniskontrak' => 'Kontrak Pengadaan',
+    'karakteristikkontrak' => 'Pembangunan Sumur Bor dan Pipanisasi',
+    'bulanmulai' => '2027-06-01',
+    'bulanselesai' => '2027-11-30',
+    'dinas' => 'Dinas Perumahan dan Permukiman Blora',
+]);
+
+profilpaketpekerjaannontender::create([
+    'jenispekerjaan' => 'Pekerjaan Pembangunan Jembatan',
+    'namapekerjaan' => 'Pembangunan Jembatan Desa Sumber',
+    'tahunpelaksanaan' => 2031,
+    'cvptpenyedia' => 'CV. Jembatan Kuat',
+    'nib' => '3344556677',
+    'nilaikontrak' => 900000000.00,
+    'sumberdana' => 'APBD',
+    'jeniskontrak' => 'Kontrak Konstruksi',
+    'karakteristikkontrak' => 'Pembangunan Jembatan Beton',
+    'bulanmulai' => '2031-04-01',
+    'bulanselesai' => '2031-12-31',
+    'dinas' => 'Dinas Pekerjaan Umum Blora',
+]);
+
+profilpaketpekerjaannontender::create([
+    'jenispekerjaan' => 'Pekerjaan Pengadaan Alat Medis',
+    'namapekerjaan' => 'Pengadaan Alat Medis Puskesmas',
+    'tahunpelaksanaan' => 2026,
+    'cvptpenyedia' => 'PT. Medika Sejahtera',
+    'nib' => '5566778899',
+    'nilaikontrak' => 150000000.00,
+    'sumberdana' => 'DAK',
+    'jeniskontrak' => 'Kontrak Pengadaan',
+    'karakteristikkontrak' => 'Pengadaan Alat Medis dan Sarana Kesehatan',
+    'bulanmulai' => '2026-02-01',
+    'bulanselesai' => '2026-07-31',
+    'dinas' => 'Dinas Kesehatan Blora',
+]);
+
+profilpaketpekerjaannontender::create([
+    'jenispekerjaan' => 'Pekerjaan Pembangunan Saluran Irigasi',
+    'namapekerjaan' => 'Pembangunan Saluran Irigasi Desa Jiken',
+    'tahunpelaksanaan' => 2032,
+    'cvptpenyedia' => 'CV. Irigasi Jaya',
+    'nib' => '2233445566',
+    'nilaikontrak' => 600000000.00,
+    'sumberdana' => 'APBN',
+    'jeniskontrak' => 'Kontrak Pembangunan',
+    'karakteristikkontrak' => 'Pembangunan Saluran Irigasi Primer',
+    'bulanmulai' => '2032-07-01',
+    'bulanselesai' => '2032-12-31',
+    'dinas' => 'Dinas Pertanian Blora',
+]);
+
+profilpaketpekerjaannontender::create([
+    'jenispekerjaan' => 'Pekerjaan Pembangunan Pasar Tradisional',
+    'namapekerjaan' => 'Pembangunan Pasar Tradisional Blora',
+    'tahunpelaksanaan' => 2025,
+    'cvptpenyedia' => 'PT. Pasar Makmur',
+    'nib' => '8899001122',
+    'nilaikontrak' => 800000000.00,
+    'sumberdana' => 'APBD',
+    'jeniskontrak' => 'Kontrak Pembangunan',
+    'karakteristikkontrak' => 'Pembangunan Pasar Tradisional Modern',
+    'bulanmulai' => '2025-03-01',
+    'bulanselesai' => '2025-09-30',
+    'dinas' => 'Dinas Perdagangan Blora',
+]);
+
 // fort
 
 //======================== ===================================================================================
