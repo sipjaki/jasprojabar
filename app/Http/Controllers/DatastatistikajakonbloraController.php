@@ -184,12 +184,10 @@ public function datajenjang1()
             ];
         });
 
-        $statistikJabatanKerja = skktenagakerjabloralist::select('jabatankerja', DB::raw('COUNT(*) as jumlah'))
-        ->join('jabatankerja', 'skttenagakerjabloralist.jabatankerja', '=', 'jabatankerja')
-        ->join('jenjang_id', 'jabatankerja_id.jenjang', '=', 'jenjang.id')
-        ->where('jenjang.id', 2) // Filter berdasarkan jenjang_id = 2
-        ->groupBy('skttenagakerjabloralist.jabatankerja_id')
-        ->with('jabatankerja_id')  // Ambil data relasi jabatan kerja
+    // Statistik Jabatan Kerja
+    $statistikJabatanKerja = skktenagakerjabloralist::select('jabatankerja_id', DB::raw('COUNT(*) as jumlah'))
+        ->groupBy('jabatankerja_id')
+        ->with('jabatankerja')
         ->get()
         ->map(function ($item) use ($totalData) {
             return [
