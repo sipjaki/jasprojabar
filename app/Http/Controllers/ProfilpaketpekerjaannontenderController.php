@@ -45,7 +45,7 @@ class ProfilpaketpekerjaannontenderController extends Controller
     // Ambil data user saat ini
     $user = Auth::user();
 
-    return view('frontend.03_masjaki_jakon.04_profilpaketpekerjaan.02_paketpekerjaannontender', [
+    return view('frontend.03_masjaki_jakon.04_profilpaketpekerjaan.02_paketpekerjaannontendershow', [
         'title' => 'View Data Paket Pekerjaan Non Tender',
         'data' => $data,
 
