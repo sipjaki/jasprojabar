@@ -237,7 +237,7 @@
                                     </div>
 
                                     <!-- Tombol kanan -->
-                                    <div class="centered-button">
+                                    <div class="centered-button" style="text-align: right;">
                                         <button class="navy-button" onclick="window.history.back();">
                                             <i class="fas fa-arrow-left mr-2" style="margin-right:5px;"></i> Kembali
                                         </button>
@@ -253,6 +253,7 @@
                                         border: 2px solid navy;
                                         padding: 10px 20px;
                                         cursor: pointer;
+                                        border-radius: 20px;
                                         transition: all 0.3s ease;
                                     }
 
