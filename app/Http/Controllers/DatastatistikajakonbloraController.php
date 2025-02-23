@@ -77,9 +77,9 @@ class DatastatistikajakonbloraController extends Controller
 
             $jumlahDatabaru = skktenagakerjablora::select('jabatankerja_id')
             ->selectRaw('COUNT(*) as total')
-            ->groupBy('jabatankerja_id')
+            ->groupBy('jabatankerja')
             ->get()
-            ->pluck('total', 'jabatankerja_id');
+            ->pluck('total', 'jabatankerja');
 
         return view('frontend.03_masjaki_jakon.00_datastatistikabujk.datastatistikaskktenagakerja', [
             'title' => 'Data Statistika SKK Tenaga Ahli Berdasarkan Jabatan Kerja',
