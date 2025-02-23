@@ -67,7 +67,7 @@
 
                                     document.querySelectorAll('#table_div th').forEach((th) => {
                                         th.style.backgroundColor = '#003D73';
-                                        th.style.color = '#000000';
+                                        th.style.color = 'white';
                                         th.style.textTransform = 'uppercase';
                                         th.style.padding = '12px';
                                         th.style.textAlign = 'left';
@@ -78,7 +78,7 @@
                                     });
 
                                     document.querySelectorAll('#table_div tr:hover').forEach((tr) => {
-                                        tr.style.backgroundColor = '#000000';
+                                        tr.style.backgroundColor = '#ffffff';
                                     });
 
                                     }, 500);
