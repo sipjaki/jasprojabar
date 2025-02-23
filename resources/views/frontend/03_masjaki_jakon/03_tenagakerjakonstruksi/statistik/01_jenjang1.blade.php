@@ -137,7 +137,7 @@
                                   ]);
 
                                   var options = {
-                                    title: 'Statistik Jabatan Kerja Berdasarkan Jenjang ID 1',
+                                    title: 'Statistik Jabatan Kerja Berdasarkan Jenjang 1',
                                     legend: { position: 'none' },
                                     pieSliceText: 'label',
                                     slices: {
