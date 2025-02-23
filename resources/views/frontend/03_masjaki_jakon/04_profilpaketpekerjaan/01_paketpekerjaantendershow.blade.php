@@ -265,6 +265,8 @@
                                     }
                                 </style>
 
+<div class="col-12 col-lg-12 col-xl-12 table-wrapper" >
+
 <form action="https://formbold.com/s/FORM_ID" method="POST">
     <div class="formbold-form-title">
       <h2 class="">Register now</h2>
@@ -419,8 +421,6 @@
 
 
 
-
-                    <div class="table-wrapper">
 
 
                             </div>
