@@ -25,7 +25,7 @@
   <section class="service-two-section">
     <div class="container">
         <div class="row row-gutter-y-40">
-            <div class="col-12 col-lg-4 col-xl-4">
+            <div class="col-12 col-lg-2.4 col-xl-2.4">
                 <div class="service-two-card">
                     <div class="service-two-imgbox">
                         <div class="service-two-image" style="display: flex; justify-content: center;">
@@ -44,7 +44,7 @@
                 </div><!--service-two-card-->
             </div><!--col-12 col-lg-4 col-xl-4-->
 
-            <div class="col-12 col-lg-4 col-xl-4">
+            <div class="col-12 col-lg-2.4 col-xl-2.4">
                 <div class="service-two-card">
                     <div class="service-two-imgbox" >
                         <div class="service-two-image" style="display: flex; justify-content: center;">
@@ -63,7 +63,7 @@
                 </div><!--service-two-card-->
             </div><!--col-12 col-lg-4 col-xl-4-->
 
-            <div class="col-12 col-lg-4 col-xl-4">
+            <div class="col-12 col-lg-2.4 col-xl-2.4">
                 <div class="service-two-card">
                     <div class="service-two-imgbox" >
                         <div class="service-two-image" style="display: flex; justify-content: center;">
@@ -82,7 +82,7 @@
                 </div><!--service-two-card-->
             </div><!--col-12 col-lg-4 col-xl-4-->
 
-            <div class="col-12 col-lg-4 col-xl-4">
+            <div class="col-12 col-lg-2.4 col-xl-2.4">
                 <div class="service-two-card">
                     <div class="service-two-imgbox" >
                         <div class="service-two-image" style="display: flex; justify-content: center;">
@@ -101,7 +101,7 @@
                 </div><!--service-two-card-->
             </div><!--col-12 col-lg-4 col-xl-4-->
 
-            <div class="col-12 col-lg-4 col-xl-4">
+            <div class="col-12 col-lg-2.4 col-xl-2.4">
                 <div class="service-two-card">
                     <div class="service-two-imgbox" >
                         <div class="service-two-image" style="display: flex; justify-content: center;">
