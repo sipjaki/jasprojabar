@@ -151,18 +151,25 @@ public function datajenjang1()
     $datacount = $dataskklist->count();
     $totalData = $datacount;  // The total data after filtering
 
+    // Filter the data where jenjang_id is 1
 
-    // Extract jabatankerja data with counts
+    // Extract jabatankerja data grouped by jabatankerja_id
     $datastatistikJabatanKerja = $dataskklist->groupBy('jabatankerja_id')
-        ->map(function ($group, $jabatankerja_id) {
-            $jabatankerja = $group->first()->jabatankerja->jabatankerja ?? 'Tidak Diketahui';
-            $jumlah = $group->count();
+    ->map(function ($group, $jabatankerja_id) use ($dataskklist) {
+        // Get the jabatankerja name (you may need to adjust based on your data structure)
+        $jabatankerja = $group->first()->jabatankerja->jabatankerja ?? 'Tidak Diketahui';
+        $jumlah = $group->count();
 
-            return [
-                'jabatankerja' => $jabatankerja,
-                'jumlah' => $jumlah,
-            ];
-        })->values();  // Reindex the array after map
+        // Calculate the percentage based on the total number of records for jenjang_id = 1
+        $totalData = $dataskklist->count();
+        $persentase = $totalData ? round(($jumlah / $totalData) * 100, 2) : 0;
+
+        return [
+            'jabatankerja' => $jabatankerja,
+            'jumlah' => $jumlah,
+            'persentase' => $persentase,
+        ];
+    })->values();  // Reindex the array after map
 
     // Statistik Jabatan Kerja berdasarkan Jenjang ID 1
     // $statistikJabatanKerja = $dataskklist->groupBy('jabatankerja_id->jenjang')

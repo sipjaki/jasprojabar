@@ -176,7 +176,7 @@
 
                         data.addRows([
                         @foreach($datastatistikJabatanKerja as $item)
-                            ['{{ $item['jabatankerja'] }}', {{ $item['jumlah'] }}, '{{ $item['persentase'] }}%'],
+                            ['{{ $item['datajabatankerja'] }}', {{ $item['jumlah'] }}, '{{ $item['persentase'] }}%'],
                         @endforeach
                         ]);
 
