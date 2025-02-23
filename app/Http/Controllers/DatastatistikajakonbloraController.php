@@ -165,7 +165,9 @@ public function datajenjang1()
         ];
         })->values();  // Reindex the array after map
 
-        $statistikJenjang = skktenagakerjabloralist::select('jenjang_id', DB::raw('COUNT(*) as jumlah'))
+        // ================================
+
+            $statistikJenjang = skktenagakerjabloralist::select('jenjang_id', DB::raw('COUNT(*) as jumlah'))
         ->groupBy('jenjang_id')
         ->with('jenjang')
         ->get()
@@ -177,12 +179,38 @@ public function datajenjang1()
             ];
         });
 
+    // Statistik Jabatan Kerja
+    $statistikJabatanKerja = skktenagakerjabloralist::select('jabatankerja_id', DB::raw('COUNT(*) as jumlah'))
+        ->groupBy('jabatankerja_id')
+        ->with('jabatankerja')
+        ->get()
+        ->map(function ($item) use ($totalData) {
+            return [
+                'jabatankerja' => $item->jabatankerja->jabatankerja ?? 'Tidak Diketahui',
+                'jumlah' => $item->jumlah,
+                'persentase' => $totalData ? round(($item->jumlah / $totalData) * 100, 2) : 0,
+            ];
+        });
+
+        $jumlahstatistikJenjang = skktenagakerjabloralist::select('jenjang_id', DB::raw('COUNT(*) as jumlah'))
+        ->groupBy('jenjang_id')
+        ->with('jenjang')
+        ->get()
+        ->map(function ($item) {
+            return [
+                'jenjang' => $item->jenjang->jenjang ?? 'Tidak Diketahui',
+                'jumlah' => $item->jumlah,
+            ];
+        });
+
 
         return view('frontend.03_masjaki_jakon.03_tenagakerjakonstruksi.statistik.01_jenjang1', [
             'title' => 'Data Statistik Tenaga Ahli Konstruksi',
             'statistikJabatanKerja' => $statistikJabatanKerja,
             'datacount' => $datacount,
             'statistikJenjang' => $statistikJenjang,
+            'jumlahstatistikJenjang' => $jumlahstatistikJenjang,
+
         ]);
 }
 
