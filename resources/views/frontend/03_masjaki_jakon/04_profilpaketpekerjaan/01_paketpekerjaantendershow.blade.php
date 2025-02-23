@@ -363,7 +363,7 @@
             type="text"
             name="post"
             id="post"
-            class="formbold-form-input col-12 col-md-6 col-lg-4"
+            class="formbold-form-input col-12 col-md-12 col-lg-12"
           />
         </div>
         <div>
