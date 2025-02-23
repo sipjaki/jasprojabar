@@ -186,10 +186,6 @@
                                                         <i class="fas fa-file mr-2" style="margin-right:5px;"></i> PAKET PEKERJAAN TENDER: {{$data->jenispekerjaan}}
                                                     </button>
 
-                                                </div>
-
-                                                <!-- Tombol kanan -->
-                                                <div class="centered-button" style="text-align: right;">
                                                     <button class="navy-button" onclick="window.history.back();">
                                                         <i class="fas fa-arrow-left mr-2" style="margin-right:5px;"></i> Kembali
                                                     </button>
