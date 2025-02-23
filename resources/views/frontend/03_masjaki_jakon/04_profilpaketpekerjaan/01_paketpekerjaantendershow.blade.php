@@ -181,7 +181,19 @@
                                         <div class="row row-gutter-30">
                                             <div class="col-lg-12">
 
+                                                <div class="centered-button" style="text-align: left;">
+                                                    <button class="green-button" style="margin-bottom:10px; text-transform:uppercase">
+                                                        <i class="fas fa-file mr-2" style="margin-right:5px;"></i> PAKET PEKERJAAN TENDER: {{$data->jenispekerjaan}}
+                                                    </button>
 
+                                                </div>
+
+                                                <!-- Tombol kanan -->
+                                                <div class="centered-button" style="text-align: right;">
+                                                    <button class="navy-button" onclick="window.history.back();">
+                                                        <i class="fas fa-arrow-left mr-2" style="margin-right:5px;"></i> Kembali
+                                                    </button>
+                                                </div>
 
                                             </div><!-- row -->
                                         </div><!-- row -->
@@ -227,22 +239,6 @@
 
                         <div class="document-details">
 							<div class="document-details-list">
-                                <div style="display: flex; justify-content: space-between; align-items: center; margin-top: -100px; margin-bottom: 200px;">
-                                    <!-- Tombol kiri -->
-                                    <div class="centered-button" style="text-align: left;">
-                                        <button class="green-button" style="margin-bottom:10px; text-transform:uppercase">
-                                            <i class="fas fa-file mr-2" style="margin-right:5px;"></i> PAKET PEKERJAAN TENDER: {{$data->jenispekerjaan}}
-                                        </button>
-
-                                    </div>
-
-                                    <!-- Tombol kanan -->
-                                    <div class="centered-button" style="text-align: right;">
-                                        <button class="navy-button" onclick="window.history.back();">
-                                            <i class="fas fa-arrow-left mr-2" style="margin-right:5px;"></i> Kembali
-                                        </button>
-                                    </div>
-                                </div>
 
                                 <style>
                                     .navy-button {
