@@ -122,65 +122,39 @@
 
 
                         {{-- ISIAN DATA --}}
-                        <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
-                        <script type="text/javascript">
-                          google.charts.load("current", {packages:["corechart"]});
-                          google.charts.setOnLoadCallback(drawChart);
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+      google.charts.load("current", {packages:["corechart"]});
+      google.charts.setOnLoadCallback(drawChart);
 
-                          function drawChart() {
-                            var data = google.visualization.arrayToDataTable([
-                              ['Jabatan Kerja', 'Jumlah', { role: 'style' }],
-                              @foreach($statistikJabatanKerja as $item)
-                                ['{{ $item['jabatankerja'] }}', {{ $item['jumlah'] }}, 'color: #76A7FA'],  // Adjust color if needed
-                              @endforeach
-                            ]);
+      function drawChart() {
+        var data = google.visualization.arrayToDataTable([
+          ['Jabatan Kerja', 'Jumlah', { role: 'style' }],
+          @foreach($statistikJabatanKerja as $item)
+            ['{{ $item['jabatankerja'] }}', {{ $item['jumlah'] }}, 'color: #76A7FA'],  // Adjust color if needed
+          @endforeach
+        ]);
 
-                            var options = {
-                              title: 'Statistik Jabatan Kerja Berdasarkan Jenjang ID 1',
-                              legend: { position: 'none' },
-                              pieSliceText: 'label',
-                              slices: {
-                                4: {offset: 0.2},
-                                12: {offset: 0.3},
-                                14: {offset: 0.4},
-                                15: {offset: 0.5},
-                              },
-                            };
+        var options = {
+          title: 'Statistik Jabatan Kerja Berdasarkan Jenjang ID 1',
+          legend: { position: 'none' },
+          pieSliceText: 'label',
+          slices: {
+            4: {offset: 0.2},
+            12: {offset: 0.3},
+            14: {offset: 0.4},
+            15: {offset: 0.5},
+          },
+        };
 
-                            var chart = new google.visualization.PieChart(document.getElementById('piechart'));
-                            chart.draw(data, options);
-                          }
-                        </script>
-                      </head>
-                      <body>
-                        <div id="piechart" style="width: 900px; height: 500px;"></div>
-
-
-                        <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
-                            <script type="text/javascript">
-                        google.charts.load('current', {'packages':['table']});
-                        google.charts.setOnLoadCallback(drawTable);
-
-                        function drawTable() {
-                            var data = new google.visualization.DataTable();
-                            data.addColumn('string', 'Jabatan Kerja');
-                            data.addColumn('number', 'Jumlah');
-                            data.addColumn('string', 'Persentase');
-
-                            data.addRows([
-                            @foreach($statistikJabatanKerja as $item)
-                                ['{{ $item['jabatankerja'] }}', {{ $item['jumlah'] }}, '{{ $item['persentase'] }}%'],
-                            @endforeach
-                            ]);
-
-                            var table = new google.visualization.Table(document.getElementById('table_div'));
-
-                            table.draw(data, {showRowNumber: true, width: '100%', height: '100%'});
-                        }
-                        </script>
-
-                        <div id="table_div"></div>
-
+        var chart = new google.visualization.PieChart(document.getElementById('piechart'));
+        chart.draw(data, options);
+      }
+    </script>
+  </head>
+  <body>
+    <div id="piechart" style="width: 900px; height: 500px;"></div>
+  </body>
 
                         </div><!-- department-details-content-box -->
 
