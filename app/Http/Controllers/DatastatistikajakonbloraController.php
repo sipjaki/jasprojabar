@@ -147,23 +147,36 @@ class DatastatistikajakonbloraController extends Controller
 
 public function datajenjang1()
 {
-    $dataskklist = skktenagakerjabloralist::where('jenjang_id->jenjang', 1)->get();  // Filter based on jenjang_id = 1
+    $dataskklist = skktenagakerjabloralist::where('jenjang_id', 1)->get();
     $datacount = $dataskklist->count();
     $totalData = $datacount;  // The total data after filtering
 
-    // Statistik Jabatan Kerja berdasarkan Jenjang ID 1
-    $statistikJabatanKerja = $dataskklist->groupBy('jabatankerja_id->jenjang')
-    ->map(function ($group, $jabatankerja_id) use ($totalData) {
-        $jabatankerja = $group->first()->jabatankerja_id->jabatankerja ?? 'Tidak Diketahui';
-        $jumlah = $group->count();
-        $persentase = $totalData ? round(($jumlah / $totalData) * 100, 2) : 0;
 
-        return [
-            'jabatankerja' => $jabatankerja->jabatankerja,
-            'jumlah' => $jumlah,
-            'persentase' => $persentase,
-        ];
+    // Extract jabatankerja data with counts
+    $statistikJabatanKerja = $dataskklist->groupBy('jabatankerja_id')
+        ->map(function ($group, $jabatankerja_id) {
+            $jabatankerja = $group->first()->jabatankerja->jabatankerja ?? 'Tidak Diketahui';
+            $jumlah = $group->count();
+
+            return [
+                'jabatankerja' => $jabatankerja,
+                'jumlah' => $jumlah,
+            ];
         })->values();  // Reindex the array after map
+
+    // Statistik Jabatan Kerja berdasarkan Jenjang ID 1
+    // $statistikJabatanKerja = $dataskklist->groupBy('jabatankerja_id->jenjang')
+    // ->map(function ($group, $jabatankerja_id) use ($totalData) {
+    //     $jabatankerja = $group->first()->jabatankerja_id->jabatankerja ?? 'Tidak Diketahui';
+    //     $jumlah = $group->count();
+    //     $persentase = $totalData ? round(($jumlah / $totalData) * 100, 2) : 0;
+
+    //     return [
+    //         'jabatankerja' => $jabatankerja->jabatankerja,
+    //         'jumlah' => $jumlah,
+    //         'persentase' => $persentase,
+    //     ];
+    //     })->values();  // Reindex the array after map
 
         // ================================
 
