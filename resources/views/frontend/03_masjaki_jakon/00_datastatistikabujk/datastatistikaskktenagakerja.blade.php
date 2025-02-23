@@ -82,7 +82,7 @@
 
                 </div><!-- col-lg-8 -->
 
-                <div class="col-lg-8" style="margin-top:25px;">
+                <div class="col-lg-12" style="margin-top:25px;">
 					<div class="department-details-box">
 
 {{-- ============================= --}}
