@@ -94,6 +94,7 @@ class DatastatistikajakonbloraController extends Controller
     public function datastatistikaskktenagakerjablora()
 {
     $dataskklist = skktenagakerjabloralist::all();
+    $datacount = skktenagakerjabloralist::count();
     $totalData = $dataskklist->count();
 
     // Statistik Jenjang
@@ -139,6 +140,8 @@ class DatastatistikajakonbloraController extends Controller
         'statistikJenjang' => $statistikJenjang,
         'jumlahstatistikJenjang' => $jumlahstatistikJenjang,
         'statistikJabatanKerja' => $statistikJabatanKerja,
+        'datacount' => $datacount,
+
     ]);
 }
 

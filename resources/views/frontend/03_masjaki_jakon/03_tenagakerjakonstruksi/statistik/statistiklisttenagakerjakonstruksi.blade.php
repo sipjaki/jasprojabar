@@ -31,7 +31,7 @@
 							<ul>
 								<li><a href="/datajakon/skktenagakerja"><i class="fa-solid fa-arrow-left-long"></i>Kembali</a></li>
 								<li style="text-align: center"><a style="text-align: center;" href="#">Distribusi Data Tenaga Ahli<i class="fa-solid fa-database" style="margin-left: 10px;"></i></a></li>
-								<li style="text-align: center"><a style="text-align: center;" href="#">Total Tenaga Ahli : <i class="fa-solid fa-edit" style="margin-left: 10px;"></i></li>
+								<li style="text-align: center"><a style="text-align: center;" href="#">Total Tenaga Ahli : {{$datacount}} <i class="fa-solid fa-users" style="margin-left: 10px;"></i></li>
 							</ul><!-- ul -->
 						</div><!-- sidebar-widget-list-inner -->
 						<div class="sidebar-widget-list-inner">
