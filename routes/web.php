@@ -111,15 +111,15 @@ Route::get('/datajakon/statistikabujkblora', [DatastatistikajakonbloraController
 Route::get('/datajakon/statistikaskktenagakerjablora', [DatastatistikajakonbloraController::class, 'statistikaskktenagakerjablora']);
 Route::get('/datajakon/statistikaskktenagakerjabloralist', [DatastatistikajakonbloraController::class, 'datastatistikaskktenagakerjablora']);
 
-Route::get('/datajakon/datajenjang1', [DatastatistikajakonbloraController::class, 'datajenjang1']);
+Route::get('/datajakon/statistikdatajenjang1', [DatastatistikajakonbloraController::class, 'datajenjang1']);
 Route::get('/datajakon/statistikdatajenjang2', [DatastatistikajakonbloraController::class, 'datajenjang2']);
-Route::get('/datajakon/datajenjang3', [DatastatistikajakonbloraController::class, 'datajenjang3']);
-Route::get('/datajakon/datajenjang4', [DatastatistikajakonbloraController::class, 'datajenjang4']);
-Route::get('/datajakon/datajenjang5', [DatastatistikajakonbloraController::class, 'datajenjang5']);
-Route::get('/datajakon/datajenjang6', [DatastatistikajakonbloraController::class, 'datajenjang6']);
-Route::get('/datajakon/datajenjang7', [DatastatistikajakonbloraController::class, 'datajenjang7']);
-Route::get('/datajakon/datajenjang8', [DatastatistikajakonbloraController::class, 'datajenjang8']);
-Route::get('/datajakon/datajenjang9', [DatastatistikajakonbloraController::class, 'datajenjang9']);
+Route::get('/datajakon/statistikdatajenjang3', [DatastatistikajakonbloraController::class, 'datajenjang3']);
+Route::get('/datajakon/statistikdatajenjang4', [DatastatistikajakonbloraController::class, 'datajenjang4']);
+Route::get('/datajakon/statistikdatajenjang5', [DatastatistikajakonbloraController::class, 'datajenjang5']);
+Route::get('/datajakon/statistikdatajenjang6', [DatastatistikajakonbloraController::class, 'datajenjang6']);
+Route::get('/datajakon/statistikdatajenjang7', [DatastatistikajakonbloraController::class, 'datajenjang7']);
+Route::get('/datajakon/statistikdatajenjang8', [DatastatistikajakonbloraController::class, 'datajenjang8']);
+Route::get('/datajakon/statistikdatajenjang9', [DatastatistikajakonbloraController::class, 'datajenjang9']);
 
 // BUAT BARU UNTUK APLIKASI DATA SKK TENAGA KERJA BLORA
 Route::get('/datajakon/skktenagakerja', [SkktenagakerjabloraController::class, 'index']);
