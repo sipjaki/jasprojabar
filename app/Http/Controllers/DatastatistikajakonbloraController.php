@@ -145,6 +145,46 @@ class DatastatistikajakonbloraController extends Controller
     ]);
 }
 
+public function datajenjang1()
+{
+    $dataskklist = skktenagakerjabloralist::where('jenjang_id', 1)->get();  // Filter based on jenjang_id = 1
+    $datacount = $dataskklist->count();
+    $totalData = $datacount;  // The total data after filtering
+
+    // Statistik Jabatan Kerja berdasarkan Jenjang ID 1
+    $statistikJabatanKerja = $dataskklist->groupBy('jabatankerja_id')
+    ->map(function ($group, $jabatankerja_id) use ($totalData) {
+        $jabatankerja = $group->first()->jabatankerja->jabatankerja ?? 'Tidak Diketahui';
+        $jumlah = $group->count();
+        $persentase = $totalData ? round(($jumlah / $totalData) * 100, 2) : 0;
+
+        return [
+            'jabatankerja' => $jabatankerja,
+            'jumlah' => $jumlah,
+            'persentase' => $persentase,
+        ];
+        })->values();  // Reindex the array after map
+
+        $jumlahstatistikJenjang = skktenagakerjabloralist::select('jenjang_id', DB::raw('COUNT(*) as jumlah'))
+        ->groupBy('jenjang_id')
+        ->with('jenjang')
+        ->get()
+        ->map(function ($item) {
+            return [
+                'jenjang' => $item->jenjang->jenjang ?? 'Tidak Diketahui',
+                'jumlah' => $item->jumlah,
+            ];
+        });
+
+        return view('frontend.03_masjaki_jakon.03_tenagakerjakonstruksi.statistik.01_jenjang1', [
+            'title' => 'Data Statistik Tenaga Ahli Konstruksi',
+            'statistikJabatanKerja' => $statistikJabatanKerja,
+            'datacount' => $datacount,
+            'jumlahstatistikJenjang' => $jumlahstatistikJenjang,
+    ]);
+}
+
+
 
 
 
