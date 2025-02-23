@@ -213,7 +213,7 @@
                                                     <input type="text" id="fname" class="input-text" placeholder="{{$data->nilaikontrak}}" name="fname" aria-required="true" readonly>
                                                 </div><!-- col-lg-6 -->
 
-                                                <div class="col-lg-3">
+                                                <div class="col-lg-6">
                                                     <h6>Status Kontrak</h6>
                                                     <input type="text" id="fname" class="input-text" placeholder="{{$data->karakteristikkontrak}}" name="fname" aria-required="true" readonly>
                                                 </div><!-- col-lg-6 -->
@@ -228,7 +228,7 @@
                                                     <input type="text" id="fname" class="input-text" placeholder="{{$data->bulanselesai}}" name="fname" aria-required="true" readonly>
                                                 </div><!-- col-lg-6 -->
 
-                                                <div class="col-lg-6">
+                                                <div class="col-lg-12">
                                                     <h6>Dinas</h6>
                                                     <input type="text" id="fname" class="input-text" placeholder="{{$data->dinas}}" name="fname" aria-required="true" readonly>
                                                 </div><!-- col-lg-6 -->
