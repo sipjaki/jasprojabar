@@ -21,6 +21,7 @@ use App\Http\Controllers\DatastatistikajakonbloraController;
 use App\Http\Controllers\SkktenagakerjabloraController;
 use App\Http\Controllers\ProfilpaketpekerjaanbloraController;
 use App\Http\Controllers\ProfilpaketpekerjaannontenderController;
+use App\Http\Controllers\ProfilpaketkonsultasiController;
 use App\Http\Controllers\UndangundangController;
 use Database\Factories\DatajakonFactory;
 use Database\Factories\SkktenagakerjaFactory;
@@ -136,6 +137,7 @@ Route::get('/datajakon/paketpekerjaantender', [ProfilpaketpekerjaanbloraControll
 // Route::get('/datajakon/paketpekerjaantender/{jenispekerjaan}', [ProfilpaketpekerjaanbloraController::class, 'paketpekerjaantendershow']);
 // ---
 Route::get('/datajakon/paketpekerjaannontender', [ProfilpaketpekerjaannontenderController::class, 'paketpekerjaannontender']);
+Route::get('/datajakon/paketkonsultasi', [ProfilpaketkonsultasiController::class, 'paketkonsultasi']);
 
 
 // ------------- HALAMAN UNTUK DATA SERTIFIKASI TENAGA KERJA AHLI -----------------
