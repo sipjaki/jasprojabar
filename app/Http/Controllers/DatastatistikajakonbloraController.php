@@ -173,16 +173,17 @@ public function datajenjang1()
 
     //STATISTIKA JENJANG
     $statistikJenjang = skktenagakerjabloralist::select('jenjang_id', DB::raw('COUNT(*) as jumlah'))
-        ->groupBy('jenjang_id')
-        ->with('jenjang')
-        ->get()
-        ->map(function ($item) use ($totalData) {
-            return [
-                'jenjang' => $item->jenjang->jenjang ?? 'Tidak Diketahui',
-                'jumlah' => $item->jumlah,
-                'persentase' => $totalData ? round(($item->jumlah / $totalData) * 100, 2) : 0,
-            ];
-        });
+    ->where('jenjang_id', 2)  // Menambahkan kondisi untuk hanya mengambil data dengan jenjang_id 2
+    ->groupBy('jenjang_id')
+    ->with('jenjang')
+    ->get()
+    ->map(function ($item) use ($totalData) {
+        return [
+            'jenjang' => $item->jenjang->jenjang ?? 'Tidak Diketahui',
+            'jumlah' => $item->jumlah,
+            'persentase' => $totalData ? round(($item->jumlah / $totalData) * 100, 2) : 0,
+        ];
+    });
 
     // Statistik Jabatan Kerja
     $statistikJabatanKerja = skktenagakerjabloralist::select('jabatankerja_id', DB::raw('COUNT(*) as jumlah'))
