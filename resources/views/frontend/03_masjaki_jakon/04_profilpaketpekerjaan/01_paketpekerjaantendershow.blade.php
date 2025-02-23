@@ -210,7 +210,7 @@
 
                                                 <div class="col-lg-3">
                                                     <h6>Kontrak</h6>
-                                                    <input type="text" id="fname" class="input-text" placeholder="{{$data->nilaikontrak}}" name="fname" aria-required="true" readonly>
+                                                    <input type="text" id="fname" class="input-text" placeholder="{{ number_format($data->nilaikontrak, 2, ',', '.') }}" name="fname" aria-required="true" readonly>
                                                 </div><!-- col-lg-6 -->
 
                                                 <div class="col-lg-6">
