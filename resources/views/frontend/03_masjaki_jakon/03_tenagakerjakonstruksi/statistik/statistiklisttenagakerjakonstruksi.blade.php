@@ -124,12 +124,12 @@
                           }
 
                           function drawJenjangChart() {
-                              var data = google.visualization.arrayToDataTable([
-                                  ['Jenjang', 'Jumlah'],
-                                  @foreach($statistikJenjang as $item)
-                                      ['{{ $item['jenjang'] }}', {{ $item['jumlah'] }}],
-                                  @endforeach
-                              ]);
+                            var data = google.visualization.arrayToDataTable([
+                                ['Jenjang', 'Jumlah'],
+                                @foreach($statistikJenjang as $item)
+                                    ['{{ $item['jenjang'] }}', '{{ $item['jumlah'] }} Tenaga Ahli'],
+                                @endforeach
+                            ]);
 
                               var options = {
                                   title: 'Distribusi Jenjang',
