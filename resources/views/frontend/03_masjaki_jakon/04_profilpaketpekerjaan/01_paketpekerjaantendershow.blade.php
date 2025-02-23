@@ -255,6 +255,7 @@
                                         cursor: pointer;
                                         border-radius: 20px;
                                         transition: all 0.3s ease;
+                                        font-size: 14px;
                                     }
 
                                     .navy-button:hover {
