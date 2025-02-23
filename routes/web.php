@@ -142,6 +142,7 @@ Route::get('/datajakon/paketpekerjaannontender', [ProfilpaketpekerjaannontenderC
 Route::get('/datajakon/paketpekerjaannontender/{jenispekerjaan}', [ProfilpaketpekerjaannontenderController::class, 'paketpekerjaannontendershow']);
 // =--
 Route::get('/datajakon/paketkonsultasi', [ProfilpaketkonsultasiController::class, 'paketkonsultasi']);
+Route::get('/datajakon/paketkonsultasitender/{jenispekerjaan}', [ProfilpaketkonsultasiController::class, 'paketkonsultasishow']);
 // =--
 Route::get('/datajakon/paketkonsultasinontender', [ProfilpaketkonsultasinontenderController::class, 'paketkonsultasinontender']);
 

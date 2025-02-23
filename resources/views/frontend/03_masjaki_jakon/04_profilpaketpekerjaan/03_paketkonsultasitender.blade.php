@@ -178,7 +178,7 @@
                                     <td>{{$item->bulanselesai}}</td>
                                     <td>{{$item->dinas}}</td>
                                     <td style="text-align: center">
-                                        <a href="/datajakon/paketpekerjaantender/{{$item->jenispekerjaan}}">
+                                        <a href="/datajakon/paketkonsultasitender/{{$item->jenispekerjaan}}">
                                             <i class="fas fa-eye view-icon" onclick="alert('View clicked!')"></i>
                                         </a>
                                     </td>

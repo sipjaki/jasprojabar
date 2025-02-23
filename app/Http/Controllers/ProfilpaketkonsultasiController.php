@@ -25,4 +25,32 @@ class ProfilpaketkonsultasiController extends Controller
         ]);
     }
 
+    public function paketkonsultasishow($jenispekerjaan)
+    {
+        $data = profilpaketkonsultasi::where('jenispekerjaan', $jenispekerjaan)->first();
+
+        // if (!$databujkkontraktor) {
+        //     // Tangani jika kegiatan tidak ditemukan
+        //     return redirect()->back()->with('error', 'Kegiatan tidak ditemukan.');
+        // }
+
+        // // Menggunakan paginate() untuk pagination
+        // $subdata = bujkkontraktorsub::where('bujkkontraktor_id', $databujkkontraktor->id)->paginate(10);
+
+        //   // Menghitung nomor urut mulai
+        //     $start = ($subdata->currentPage() - 1) * $subdata->perPage() + 1;
+
+
+    // Ambil data user saat ini
+    $user = Auth::user();
+
+    return view('frontend.03_masjaki_jakon.04_profilpaketpekerjaan.03_paketkonsultasitendershow', [
+        'title' => 'View Data Paket Konsultasi Tender',
+        'data' => $data,
+
+    ]);
+    }
+
+
 }
+
