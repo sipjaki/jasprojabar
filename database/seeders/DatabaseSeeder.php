@@ -78,6 +78,7 @@ use App\Models\asosiasimasjaki;
 use App\Models\profilpaketpekerjaanblora;
 use App\Models\profilpaketpekerjaannontender;
 use App\Models\profilpaketkonsultasi;
+use App\Models\profilpaketkonsultasinontender;
 
 // use App\Models\paketpekerjaan;
 use Database\Factories\SkktenagakerjaFactory;
@@ -6007,6 +6008,99 @@ profilpaketkonsultasi::create([
     'bulanselesai' => '2025-09-30',
     'dinas' => 'Dinas Perdagangan Blora',
 ]);
+
+//======================== ===================================================================================
+// PAKET KONSULTASI TENDER MAS JAKI BLORA
+profilpaketkonsultasinontender::create([
+    'jenispekerjaan' => 'Pekerjaan Perencanaan Drainase',
+    'namapekerjaan' => 'Perencanaan Sistem Drainase Kota Blora',
+    'tahunpelaksanaan' => 2029,
+    'cvptpenyedia' => 'CV. Konsultan Drainase',
+    'nib' => '7788990011',
+    'nilaikontrak' => 250000000.00,
+    'sumberdana' => 'APBN',
+    'jeniskontrak' => 'Kontrak Konsultasi',
+    'karakteristikkontrak' => 'Studi dan Perencanaan Drainase Kota',
+    'bulanmulai' => '2029-05-01',
+    'bulanselesai' => '2029-10-31',
+    'dinas' => 'Dinas Pekerjaan Umum Blora',
+]);
+
+profilpaketkonsultasinontender::create([
+    'jenispekerjaan' => 'Pekerjaan Konsultasi Jalan',
+    'namapekerjaan' => 'Studi Kelayakan Rehabilitasi Jalan Utama Kecamatan Cepu',
+    'tahunpelaksanaan' => 2028,
+    'cvptpenyedia' => 'PT. Konsultan Jalan',
+    'nib' => '1122334455',
+    'nilaikontrak' => 400000000.00,
+    'sumberdana' => 'APBD',
+    'jeniskontrak' => 'Kontrak Konsultasi',
+    'karakteristikkontrak' => 'Studi dan Desain Rehabilitasi Jalan',
+    'bulanmulai' => '2028-03-01',
+    'bulanselesai' => '2028-08-31',
+    'dinas' => 'Dinas Pekerjaan Umum Blora',
+]);
+
+profilpaketkonsultasinontender::create([
+    'jenispekerjaan' => 'Pekerjaan Konsultasi Gedung',
+    'namapekerjaan' => 'Perencanaan Gedung Kantor Kecamatan',
+    'tahunpelaksanaan' => 2030,
+    'cvptpenyedia' => 'CV. Arsitek Jaya',
+    'nib' => '6677889900',
+    'nilaikontrak' => 600000000.00,
+    'sumberdana' => 'DAK',
+    'jeniskontrak' => 'Kontrak Konsultasi',
+    'karakteristikkontrak' => 'Perencanaan dan Desain Gedung Bertingkat',
+    'bulanmulai' => '2030-02-01',
+    'bulanselesai' => '2030-07-31',
+    'dinas' => 'Dinas Cipta Karya Blora',
+]);
+
+profilpaketkonsultasinontender::create([
+    'jenispekerjaan' => 'Pekerjaan Studi Air Bersih',
+    'namapekerjaan' => 'Studi Pengadaan Sumur Bor dan Instalasi Air',
+    'tahunpelaksanaan' => 2027,
+    'cvptpenyedia' => 'PT. Konsultan Tirta',
+    'nib' => '9988776655',
+    'nilaikontrak' => 180000000.00,
+    'sumberdana' => 'APBN',
+    'jeniskontrak' => 'Kontrak Konsultasi',
+    'karakteristikkontrak' => 'Analisis Kebutuhan dan Perencanaan Air Bersih',
+    'bulanmulai' => '2027-04-01',
+    'bulanselesai' => '2027-09-30',
+    'dinas' => 'Dinas Perumahan dan Permukiman Blora',
+]);
+
+profilpaketkonsultasinontender::create([
+    'jenispekerjaan' => 'Pekerjaan Studi Jembatan',
+    'namapekerjaan' => 'Analisis dan Desain Jembatan Desa Sumber',
+    'tahunpelaksanaan' => 2031,
+    'cvptpenyedia' => 'CV. Konsultan Jembatan',
+    'nib' => '3344556677',
+    'nilaikontrak' => 700000000.00,
+    'sumberdana' => 'APBD',
+    'jeniskontrak' => 'Kontrak Konsultasi',
+    'karakteristikkontrak' => 'Studi Kelayakan dan Desain Jembatan Beton',
+    'bulanmulai' => '2031-03-01',
+    'bulanselesai' => '2031-09-30',
+    'dinas' => 'Dinas Pekerjaan Umum Blora',
+]);
+
+profilpaketkonsultasinontender::create([
+    'jenispekerjaan' => 'Pekerjaan Studi Medis',
+    'namapekerjaan' => 'Kajian Pengadaan Alat Medis Puskesmas',
+    'tahunpelaksanaan' => 2026,
+    'cvptpenyedia' => 'PT. Medika Konsultan',
+    'nib' => '5566778899',
+    'nilaikontrak' => 120000000.00,
+    'sumberdana' => 'DAK',
+    'jeniskontrak' => 'Kontrak Konsultasi',
+    'karakteristikkontrak' => 'Analisis Kebutuhan dan Spesifikasi Alat Medis',
+    'bulanmulai' => '2026-01-01',
+    'bulanselesai' => '2026-06-30',
+    'dinas' => 'Dinas Kesehatan Blora',
+]);
+
 
 // fort
 
