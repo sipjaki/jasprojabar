@@ -228,13 +228,22 @@
 
                         <div class="document-details">
 							<div class="document-details-list">
+                                <div style="display: flex; justify-content: space-between; align-items: center; margin-top: -15px;">
+                                    <!-- Tombol kiri -->
+                                    <div class="centered-button" style="text-align: left;">
+                                        <button class="green-button" style="margin-bottom:10px; text-transform:uppercase">
+                                            <i class="fas fa-file mr-2" style="margin-right:5px;"></i> PAKET PEKERJAAN TENDER: {{$data->jenispekerjaan}}
+                                        </button>
+                                    </div>
 
-                                <div class="centered-button" style="margin-top: -15px">
-                                    <button class="green-button" style="margin-bottom:10px; text-transform:uppercase">
-                                        <i class="fas fa-file mr-2" style="margin-right:5px;"></i> PAKET PEKERJAAN TENDER: {{$data->jenispekerjaan}}
-                                    </button>
-
+                                    <!-- Tombol kanan -->
+                                    <div class="centered-button">
+                                        <button class="navy-button" onclick="window.history.back();">
+                                            <i class="fas fa-arrow-left mr-2" style="margin-right:5px;"></i> Kembali
+                                        </button>
+                                    </div>
                                 </div>
+
                                 <style>
                                     .navy-button {
                                         background-color: navy;
@@ -254,13 +263,6 @@
                                     }
                                 </style>
 
-                                <div style="position: relative;">
-                                    <div class="centered-button" style="position: absolute; right: 20px; top: -15px;">
-                                        <button class="navy-button" onclick="window.history.back();">
-                                            <i class="fas fa-arrow-left mr-2" style="margin-right:5px;"></i> Kembali
-                                        </button>
-                                    </div>
-                                </div>
 
 
                     <div class="table-wrapper">
