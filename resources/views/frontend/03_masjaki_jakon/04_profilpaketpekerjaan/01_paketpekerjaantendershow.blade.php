@@ -1,150 +1,121 @@
 <style>
-    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
-    body {
-      font-family: 'Inter', sans-serif;
-    }
-    .formbold-mb-3 {
-      margin-bottom: 15px;
-    }
-    .formbold-relative {
-      position: relative;
-    }
-    .formbold-opacity-0 {
-      opacity: 0;
-    }
-    .formbold-stroke-current {
-      stroke: currentColor;
-    }
-    #supportCheckbox:checked ~ div span {
-      opacity: 1;
+
+    .centered-button {
+        text-align: left;
+        margin-top: 50px; /* Adjusts vertical position */
     }
 
-    .formbold-main-wrapper {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      padding: 48px;
+    .green-button {
+        background-color: #28a745; /* Light green background */
+        color: white; /* White text */
+        padding: 10px 30px; /* Adds padding around the text */
+        font-size: 14px; /* Smaller text size */
+        border: none;
+        border-radius: 5px; /* Rounded corners */
+        display: inline-flex;
+        align-items: center; /* Centers the text and icon vertically */
+        cursor: pointer;
     }
 
-    .formbold-form-wrapper {
-      margin: 0 auto;
-      max-width: 570px;
-      width: 100%;
-      background: white;
-      padding: 40px;
+    .green-button i {
+        font-size: 16px; /* Icon size */
     }
 
-    .formbold-img {
-      margin-bottom: 45px;
+    .green-button:hover {
+        background-color: #929693; /* Darker green on hover */
     }
 
-    .formbold-form-title {
-      margin-bottom: 30px;
-    }
-    .formbold-form-title h2 {
-      font-weight: 600;
-      font-size: 28px;
-      line-height: 34px;
-      color: #07074d;
-    }
-    .formbold-form-title p {
-      font-size: 16px;
-      line-height: 24px;
-      color: #536387;
-      margin-top: 12px;
-    }
 
-    .formbold-input-flex {
-      display: flex;
-      gap: 20px;
-      margin-bottom: 15px;
-    }
-    .formbold-input-flex > div {
-      width: 50%;
-    }
-    .formbold-form-input {
-      text-align: center;
-      width: 100%;
-      padding: 13px 22px;
-      border-radius: 5px;
-      border: 1px solid #dde3ec;
-      background: #ffffff;
-      font-weight: 500;
-      font-size: 16px;
-      color: #536387;
-      outline: none;
-      resize: none;
-    }
-    .formbold-form-input:focus {
-      border-color: #6a64f1;
-      box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.05);
-    }
-    .formbold-form-label {
-      color: #536387;
-      font-size: 14px;
-      line-height: 24px;
-      display: block;
-      margin-bottom: 10px;
-    }
+    /* Import font Poppins */
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 
-    .formbold-checkbox-label {
-      display: flex;
-      cursor: pointer;
-      user-select: none;
-      font-size: 16px;
-      line-height: 24px;
-      color: #536387;
-    }
-    .formbold-checkbox-label a {
-      margin-left: 5px;
-      color: #6a64f1;
-    }
-    .formbold-input-checkbox {
-      position: absolute;
-      width: 1px;
-      height: 1px;
-      padding: 0;
-      margin: -1px;
-      overflow: hidden;
-      clip: rect(0, 0, 0, 0);
-      white-space: nowrap;
-      border-width: 0;
-    }
-    .formbold-checkbox-inner {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      width: 20px;
-      height: 20px;
-      margin-right: 16px;
-      margin-top: 2px;
-      border: 0.7px solid #dde3ec;
-      border-radius: 3px;
-    }
+                /* Wrapper untuk tabel */
+                .table-wrapper {
+                    overflow-x: auto;
+                    max-width: 100%;
+                    padding: 10px;
+                }
 
-    .formbold-btn {
-      font-size: 16px;
-      border-radius: 5px;
-      padding: 14px 25px;
-      border: none;
-      font-weight: 500;
-      background-color: #6a64f1;
-      color: white;
-      cursor: pointer;
-      margin-top: 25px;
-    }
-    .formbold-btn:hover {
-      box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.05);
-    }
-  </style>
+                /* Style dasar tabel */
+                .fl-table {
+                    width: 100%;
+                    border-collapse: collapse;
+                    font-family: 'Poppins', sans-serif; /* Font modern pemerintah */
+                    font-size: 14px;
+                    background: #fff; /* Tetap netral */
+                    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+                    border-radius: 8px;
+                    overflow: hidden;
+                }
+
+                /* Header styling */
+                .fl-table thead {
+                    background: #ffd000;
+                    text-transform: uppercase;
+                    font-weight: 800;
+                    letter-spacing: 0.5px;
+                    color: black;
+                }
+
+                .fl-table th,
+                .fl-table td {
+                    padding: 12px 15px;
+                    text-align: left;
+                    border-bottom: 1px solid #ddd;
+                }
+
+                /* Hover effect */
+                .fl-table tbody tr:hover {
+                    background: rgba(0, 0, 0, 0.05);
+                }
+
+                /* Responsive styling */
+                @media (max-width: 768px) {
+                    .fl-table thead {
+                        display: none; /* Sembunyikan header di tampilan kecil */
+                    }
+
+                    .fl-table tr {
+                        display: block;
+                        margin-bottom: 10px;
+                        border: 1px solid #000000;
+                        border-radius: 5px;
+                        overflow: hidden;
+                    }
+
+                    .fl-table td {
+                        display: block;
+                        text-align: right;
+                        font-size: 14px;
+                        border-bottom: 1px solid #eee;
+                        position: relative;
+                        padding-left: 50%;
+                    }
+
+                    .fl-table td::before {
+                        content: attr(data-label);
+                        position: absolute;
+                        left: 10px;
+                        width: 45%;
+                        font-weight: 600;
+                        text-align: left;
+                    }
+                }
+
+                /* Style untuk ikon view */
+                .view-icon {
+                    color: #4CAF50;
+                    cursor: pointer;
+                    font-size: 18px;
+                }
+
+                .view-icon:hover {
+                    color: #45a049;
+                }
+                </style>
 
 
-{{-- ------------------------------------- --}}
+{{-- =========================================================== --}}
 
 @include('frontend.00_approve.01_cssterpisah.header')
 
@@ -169,303 +140,126 @@
 		</div><!-- container -->
 	</section><!--page-banner-->
 
-    <section class="service-two-section">
-        <div class="container">
-            <div class="row row-gutter-y-40">
-                <div class="col-12 col-lg-12 col-xl-12">
-                    <div class="service-two-card">
-                        <div class="service-two-imgbox">
-                                <section class="donate-section">
-                                    <div class="container" style="margin-top: -100px;">
-
-                                        <div class="row row-gutter-30">
-                                            <div class="col-lg-12">
-
-                                                <div class="centered-button" style="text-align: left;">
-                                                    <button class="green-button" style="margin-bottom:10px; text-transform:uppercase">
-                                                        <i class="fas fa-file mr-2" style="margin-right:5px;"></i> PAKET PEKERJAAN TENDER: {{$data->jenispekerjaan}}
-                                                    </button>
-
-                                                    <button class="navy-button" onclick="window.history.back();">
-                                                        <i class="fas fa-arrow-left mr-2" style="margin-right:5px;"></i> Kembali
-                                                    </button>
-                                                </div>
-
-                                            </div><!-- row -->
-                                        </div><!-- row -->
-                                    </div><!-- container -->
-                                </section><!-- donate-section -->
+{{-- -------------------------- --}}
 
 
+<section class="service-two-section">
+    <div class="container">
+        <div class="row row-gutter-y-40">
+            <div class="col-12 col-lg-12 col-xl-12">
+                <div class="service-two-card">
+                    <div class="service-two-imgbox" >
 
-	<section class="department-details-section" style="margin-top: -200px;">
-		<div class="container">
-			<div class="row">
-                {{-- ------------------------------------------------------------------------------------------ --}}
-                <div class="col-lg-12">
+                        <section class="donate-section">
+                            <div class="container" style="margin-top: -100px;">
+                                <div class="row row-gutter-30">
+                                    <div class="col-lg-12">
+                                        <div class="col-lg-12" style="display: flex; justify-content: left; padding:20px">
+                                          <a href="/datajakon/bujkkontraktor">
+                                              <button class="btn"
+                                              style="background-color: #000080;
+                                                           color: white;
+                                                           display: flex;
+                                                           align-items: center;
+                                                           border: none;
+                                                           padding: 10px 30px;
+                                                           border-radius:10px;
+                                                           transition: all 0.3s ease;
+                                                           cursor: pointer;"
+                                                    onmouseover="this.style.backgroundColor='white'; this.style.color='black'; this.querySelector('i').style.color='black';"
+                                                    onmouseout="this.style.backgroundColor='#000080'; this.style.color='white'; this.querySelector('i').style.color='white';">
+                                                    <i class="fas fa-arrow-left" style="margin-right: 10px; color: white;"></i>Kembali
+                                                </button>
+                                            </a>
+                                        </div><!-- col-lg-12 -->
+                                    </div><!-- col-lg-12 -->
+                                    <div class="col-xxl-12 col-lg-12">
+                                        <div class="donate-box-inner" style="margin-top: -20px;">
+                                            <div class="centered-button" style="margin-top: -15px;">
+                                                <button class="green-button" style="margin-bottom:10px; text-transform:uppercase">
+                                                    <i class="fas fa-file mr-2" style="margin-right:5px;"></i> INFORMASI BUJK KONTRAKTOR : {{$data->namalengkap}}
+                                                </button>
 
-                    <style>
+                                            </div>
+                                            <form action="#" class="contact-form donation" method="post">
+                                                <div class="row row-gutter-10">
+                                                    <div class="col-lg-6">
+                                                        <h6><i class="fas fa-user mr-2" style="margin-right: 5px;"></i>Nama Pemilik </h6>
+                                                        <input type="text" id="fname" class="input-text" placeholder="{{$data->namalengkap}}" name="fname" aria-required="true" readonly>
+                                                    </div><!-- col-lg-6 -->
 
-                        .centered-button {
-                            text-align: left;
-                            margin-top: 50px; /* Adjusts vertical position */
-                        }
+                                                    <div class="col-lg-3">
+                                                        <h6><i class="fas fa-phone-alt mr-2" style="margin-right: 5px;"></i>No Telepon</h6>
+                                                        <input type="text" id="fname" class="input-text" placeholder="{{$data->no_telepon}}" name="fname" aria-required="true" readonly>
+                                                    </div><!-- col-lg-3 -->
 
-                        .green-button {
-                            background-color: #28a745; /* Light green background */
-                            color: white; /* White text */
-                            padding: 10px 30px; /* Adds padding around the text */
-                            font-size: 14px; /* Smaller text size */
-                            border: none;
-                            border-radius: 5px; /* Rounded corners */
-                            display: inline-flex;
-                            align-items: center; /* Centers the text and icon vertically */
-                            cursor: pointer;
-                        }
+                                                    <div class="col-lg-3">
+                                                        <h6><i class="fas fa-id-card mr-2" style="margin-right: 5px;"></i>Nomor Induk Berusaha</h6>
+                                                        <input type="text" id="fname" class="input-text" placeholder="{{$data->nib}}" name="fname" aria-required="true" readonly>
+                                                    </div><!-- col-lg-3 -->
 
-                        .green-button i {
-                            font-size: 16px; /* Icon size */
-                        }
+                                                    <div class="col-lg-12">
+                                                        <h6><i class="fas fa-map-marker-alt mr-2" style="margin-right: 5px;"></i>Alamat</h6>
+                                                        <input type="text" id="fname" class="input-text" placeholder="{{$data->alamat}}" name="fname" aria-required="true" readonly>
+                                                    </div><!-- col-lg-12 -->
 
-                        .green-button:hover {
-                            background-color: #929693; /* Darker green on hover */
-                        }
+                                                    <div class="col-lg-6">
+                                                        <h6><i class="fas fa-envelope mr-2" style="margin-right: 5px;"></i>Email</h6>
+                                                        <input type="text" id="fname" class="input-text" placeholder="{{$data->email}}" name="fname" aria-required="true" readonly>
+                                                    </div><!-- col-lg-6 -->
 
-                    </style>
+                                                    <div class="col-lg-6">
+                                                        <h6><i class="fas fa-user-tie mr-2" style="margin-right: 5px;"></i>Penanggung Jawab Umum</h6>
+                                                        <input type="text" id="fname" class="input-text" placeholder="{{$data->pju}}" name="fname" aria-required="true" readonly>
+                                                    </div><!-- col-lg-6 -->
 
-                        <div class="document-details">
-							<div class="document-details-list">
+                                                    <div class="col-lg-6">
+                                                        <h6><i class="fas fa-file-alt mr-2" style="margin-right: 5px;"></i>No Akte</h6>
+                                                        <input type="text" id="fname" class="input-text" placeholder="{{$data->no_akte}}" name="fname" aria-required="true" readonly>
+                                                    </div><!-- col-lg-6 -->
 
-                                <style>
-                                    .navy-button {
-                                        background-color: navy;
-                                        color: white;
-                                        margin-bottom: 10px;
-                                        text-transform: uppercase;
-                                        border: 2px solid navy;
-                                        padding: 10px 20px;
-                                        cursor: pointer;
-                                        border-radius: 20px;
-                                        transition: all 0.3s ease;
-                                        font-size: 14px;
-                                    }
+                                                    <div class="col-lg-6">
+                                                        <h6><i class="fas fa-calendar mr-2" style="margin-right: 5px;"></i>Tanggal</h6>
+                                                        <input type="text" id="fname" class="input-text" placeholder="{{$data->tanggal}}" name="fname" aria-required="true" readonly>
+                                                    </div><!-- col-lg-6 -->
 
-                                    .navy-button:hover {
-                                        background-color: white;
-                                        color: black;
-                                        border: 2px solid navy;
-                                    }
-                                </style>
+                                                    <div class="col-lg-6">
+                                                        <h6><i class="fas fa-pencil-alt mr-2" style="margin-right: 5px;"></i>Notaris</h6>
+                                                        <input type="text" id="fname" class="input-text" placeholder="{{$data->nama_notaris}}" name="fname" aria-required="true" readonly>
+                                                    </div><!-- col-lg-6 -->
 
-<div class="col-12 col-lg-12 col-xl-12 table-wrapper" >
+                                                    <div class="col-lg-6">
+                                                        <h6><i class="fas fa-check-circle mr-2" style="margin-right: 5px;"></i>No Pengesahan</h6>
+                                                        <input type="text" id="fname" class="input-text" placeholder="{{$data->no_pengesahan}}" name="fname" aria-required="true" readonly>
+                                                    </div><!-- col-lg-6 -->
+                                                                                </div><!-- row row-gutter-10 -->
+                                            </form><!-- contact-form -->
+                                        </div><!-- donate-box-inner -->
+                                    </div><!-- col-xl-8 col-lg-12 -->
 
-<form action="https://formbold.com/s/FORM_ID" method="POST">
-    <div class="formbold-form-title">
-      <h2 class="">INFORMASI PAKET PEKERJAAN TENDER</h2>
-      <p>
-       Dinas Pekerjaan Umum dan Penataan Ruang Pemerintah Kabupaten Blora
-      </p>
-    </div>
-
-    <div class="formbold-input-flex">
-        <div>
-          <label for="firstname" class="formbold-form-label">
-            First name
-          </label>
-          <input
-            type="text"
-            name="firstname"
-            id="firstname"
-            class="formbold-form-input col-12 col-md-6 col-lg-4"
-          />
-        </div>
-        <div>
-          <label for="lastname" class="formbold-form-label"> Last name </label>
-          <input
-            type="text"
-            name="lastname"
-            id="lastname"
-            class="formbold-form-input col-12 col-md-6 col-lg-4"
-          />
-        </div>
-      </div>
-
-      <div class="formbold-input-flex">
-        <div>
-          <label for="email" class="formbold-form-label"> Email </label>
-          <input
-            type="email"
-            name="email"
-            id="email"
-            class="formbold-form-input col-12 col-md-6 col-lg-4"
-          />
-        </div>
-        <div>
-          <label for="phone" class="formbold-form-label"> Phone number </label>
-          <input
-            type="text"
-            name="phone"
-            id="phone"
-            class="formbold-form-input col-12 col-md-6 col-lg-4"
-          />
-        </div>
-      </div>
-
-      <div class="formbold-mb-3">
-        <label for="address" class="formbold-form-label">
-          Street Address
-        </label>
-        <input
-          type="text"
-          name="address"
-          id="address"
-          class="formbold-form-input col-12 col-md-6 col-lg-4"
-        />
-      </div>
-
-      <div class="formbold-mb-3">
-        <label for="address2" class="formbold-form-label">
-          Street Address Line 2
-        </label>
-        <input
-          type="text"
-          name="address2"
-          id="address2"
-          class="formbold-form-input col-12 col-md-6 col-lg-4"
-        />
-      </div>
-
-      <div class="formbold-input-flex">
-        <div>
-          <label for="state" class="formbold-form-label"> State/Province </label>
-          <input
-            type="text"
-            name="state"
-            id="state"
-            class="formbold-form-input col-12 col-md-6 col-lg-4"
-          />
-        </div>
-        <div>
-          <label for="country" class="formbold-form-label"> Country </label>
-          <input
-            type="text"
-            name="country"
-            id="country"
-            class="formbold-form-input col-12 col-md-6 col-lg-4"
-          />
-        </div>
-      </div>
-
-      <div class="formbold-input-flex">
-        <div>
-          <label for="post" class="formbold-form-label"> Post/Zip code </label>
-          <input
-            type="text"
-            name="post"
-            id="post"
-            class="formbold-form-input col-12 col-md-12 col-lg-12"
-          />
-        </div>
-        <div>
-          <label for="area" class="formbold-form-label"> Area Code </label>
-          <input
-            type="text"
-            name="area"
-            id="area"
-            class="formbold-form-input col-12 col-md-6 col-lg-4"
-          />
-        </div>
-      </div>
-
-    <div class="formbold-checkbox-wrapper">
-      <label for="supportCheckbox" class="formbold-checkbox-label">
-        <div class="formbold-relative">
-          <input
-            type="checkbox"
-            id="supportCheckbox"
-            class="formbold-input-checkbox"
-          />
-          <div class="formbold-checkbox-inner">
-            <span class="formbold-opacity-0">
-              <svg
-                width="11"
-                height="8"
-                viewBox="0 0 11 8"
-                fill="none"
-                class="formbold-stroke-current"
-              >
-                <path
-                  d="M10.0915 0.951972L10.0867 0.946075L10.0813 0.940568C9.90076 0.753564 9.61034 0.753146 9.42927 0.939309L4.16201 6.22962L1.58507 3.63469C1.40401 3.44841 1.11351 3.44879 0.932892 3.63584C0.755703 3.81933 0.755703 4.10875 0.932892 4.29224L0.932878 4.29225L0.934851 4.29424L3.58046 6.95832C3.73676 7.11955 3.94983 7.2 4.1473 7.2C4.36196 7.2 4.55963 7.11773 4.71406 6.9584L10.0468 1.60234C10.2436 1.4199 10.2421 1.1339 10.0915 0.951972ZM4.2327 6.30081L4.2317 6.2998C4.23206 6.30015 4.23237 6.30049 4.23269 6.30082L4.2327 6.30081Z"
-                  stroke-width="0.4"
-                ></path>
-              </svg>
-            </span>
-          </div>
-        </div>
-        I agree to the defined
-        <a href="#"> terms, conditions, and policies</a>
-      </label>
-    </div>
-
-    <button class="formbold-btn">Register Now</button>
-  </form>
-
-
-
-
-
-                            </div>
-                          </div>
-
-
-                                                </div><!-- document-details-list -->
-
-                                            </div><!-- document-details -->
-                                        </div><!-- document-details-inner -->
-
-
-                                    </div><!-- col-lg-8 -->
                                 </div><!-- row -->
                             </div><!-- container -->
-                        </div><!--page-wrapper-->
-                    </div><!--page-wrapper-->
-                </div><!--page-wrapper-->
-            </div><!--page-wrapper-->
-        </div><!--page-wrapper-->
-    </section><!-- department-details-section -->
+                        </section><!-- donate-section -->
 
 
-                        </div><!-- service-two-imgbox -->
-                    </div><!--service-two-card-->
-                </div><!--col-12 col-lg-4 col-xl-4-->
 
 
-            </div><!-- row -->
-        </div><!-- container -->
-    </section><!-- service-two-section -->
+
+                    </div><!--service-two-card-content-->
+                </div><!--service-two-card-->
+            </div><!--col-12 col-lg-4 col-xl-4-->
 
 
-    <section class="service-two-section">
-        <div class="container">
-            <div class="row row-gutter-y-40">
-                <div class="col-12 col-lg-12 col-xl-12">
-                    <div class="service-two-card">
-                        <div class="service-two-imgbox">
-                                <section class="donate-section">
+        </div><!-- row -->
+    </div><!-- container -->
+</section><!-- service-two-section -->
 
 
-                                </section><!-- donate-section -->
+{{-- -------------------------- --}}
 
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
+
+
 
 
                     @include('frontend.00_approve.01_cssterpisah.footer1')
                     @include('frontend.00_approve.01_cssterpisah.footer')
-
-
