@@ -106,7 +106,7 @@
 
                 </div><!-- col-lg-8 -->
 
-                <div class="col-lg-12" style="margin-top:25px;">
+                <div class="col-lg-12" style="margin-top:10px;">
 					<div class="department-details-box">
 
                         <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
