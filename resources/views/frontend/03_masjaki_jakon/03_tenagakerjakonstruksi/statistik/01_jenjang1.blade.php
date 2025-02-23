@@ -141,37 +141,36 @@
 
 
                         {{-- ISIAN DATA --}}
-
                         <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
-                              <script type="text/javascript">
-                                google.charts.load("current", {packages:["corechart"]});
-                                google.charts.setOnLoadCallback(drawChart);
+                        <script type="text/javascript">
+                          google.charts.load("current", {packages:["corechart"]});
+                          google.charts.setOnLoadCallback(drawChart);
 
-                                function drawChart() {
-                                  var data = google.visualization.arrayToDataTable([
-                                    ['Jabatan Kerja', 'Jumlah', { role: 'style' }],
-                                    @foreach($statistikJabatanKerja as $item)
-                                      ['{{ $item['jabatankerja'] }}', {{ $item['jumlah'] }}, 'color: #76A7FA'],  // Adjust color if needed
-                                    @endforeach
-                                  ]);
+                          function drawChart() {
+                            var data = google.visualization.arrayToDataTable([
+                              ['Jabatan Kerja', 'Jumlah', { role: 'style' }],
+                              @foreach($statistikJabatanKerja as $item)
+                                ['{{ $item['jabatankerja'] }}', {{ $item['jumlah'] }}, 'color: #76A7FA'],  // Adjust color if needed
+                              @endforeach
+                            ]);
 
-                                  var options = {
-                                    title: 'Statistik Jabatan Kerja Berdasarkan Jenjang 1',
-                                    legend: { position: 'none' },
-                                    pieSliceText: 'label',
-                                    slices: {
-                                      4: {offset: 0.2},
-                                      12: {offset: 0.3},
-                                      14: {offset: 0.4},
-                                      15: {offset: 0.5},
-                                    },
-                                  };
+                            var options = {
+                              title: 'Statistik Jabatan Kerja Berdasarkan Jenjang 1',
+                              legend: { position: 'none' },
+                              pieSliceText: 'label',
+                              slices: {
+                                4: {offset: 0.2},
+                                12: {offset: 0.3},
+                                14: {offset: 0.4},
+                                15: {offset: 0.5},
+                              },
+                            };
 
-                                  var chart = new google.visualization.PieChart(document.getElementById('piechart'));
-                                  chart.draw(data, options);
-                                }
-                              </script>
-                              <div id="piechart" style="width: 900px; height: 500px;"></div>
+                            var chart = new google.visualization.PieChart(document.getElementById('piechart'));
+                            chart.draw(data, options);
+                          }
+                        </script>
+                        <div id="piechart" style="width: 900px; height: 500px;"></div>
 
                         </div><!-- department-details-content-box -->
                         <div class="department-details-box">
