@@ -268,114 +268,114 @@
     </div>
 
     <div class="formbold-input-flex">
-      <div>
-        <label for="firstname" class="formbold-form-label">
-          First name
+        <div>
+          <label for="firstname" class="formbold-form-label">
+            First name
+          </label>
+          <input
+            type="text"
+            name="firstname"
+            id="firstname"
+            class="formbold-form-input col-12 col-md-6 col-lg-4"
+          />
+        </div>
+        <div>
+          <label for="lastname" class="formbold-form-label"> Last name </label>
+          <input
+            type="text"
+            name="lastname"
+            id="lastname"
+            class="formbold-form-input col-12 col-md-6 col-lg-4"
+          />
+        </div>
+      </div>
+
+      <div class="formbold-input-flex">
+        <div>
+          <label for="email" class="formbold-form-label"> Email </label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            class="formbold-form-input col-12 col-md-6 col-lg-4"
+          />
+        </div>
+        <div>
+          <label for="phone" class="formbold-form-label"> Phone number </label>
+          <input
+            type="text"
+            name="phone"
+            id="phone"
+            class="formbold-form-input col-12 col-md-6 col-lg-4"
+          />
+        </div>
+      </div>
+
+      <div class="formbold-mb-3">
+        <label for="address" class="formbold-form-label">
+          Street Address
         </label>
         <input
           type="text"
-          name="firstname"
-          id="firstname"
-          class="formbold-form-input col-12"
+          name="address"
+          id="address"
+          class="formbold-form-input col-12 col-md-6 col-lg-4"
         />
       </div>
-      <div>
-        <label for="lastname" class="formbold-form-label"> Last name </label>
-        <input
-          type="text"
-          name="lastname"
-          id="lastname"
-          class="formbold-form-input"
-        />
-      </div>
-    </div>
 
-    <div class="formbold-input-flex">
-      <div>
-        <label for="email" class="formbold-form-label"> Email </label>
-        <input
-          type="email"
-          name="email"
-          id="email"
-          class="formbold-form-input"
-        />
-      </div>
-      <div>
-        <label for="phone" class="formbold-form-label"> Phone number </label>
+      <div class="formbold-mb-3">
+        <label for="address2" class="formbold-form-label">
+          Street Address Line 2
+        </label>
         <input
           type="text"
-          name="phone"
-          id="phone"
-          class="formbold-form-input"
+          name="address2"
+          id="address2"
+          class="formbold-form-input col-12 col-md-6 col-lg-4"
         />
       </div>
-    </div>
 
-    <div class="formbold-mb-3">
-      <label for="address" class="formbold-form-label">
-        Street Address
-      </label>
-      <input
-        type="text"
-        name="address"
-        id="address"
-        class="formbold-form-input"
-      />
-    </div>
+      <div class="formbold-input-flex">
+        <div>
+          <label for="state" class="formbold-form-label"> State/Province </label>
+          <input
+            type="text"
+            name="state"
+            id="state"
+            class="formbold-form-input col-12 col-md-6 col-lg-4"
+          />
+        </div>
+        <div>
+          <label for="country" class="formbold-form-label"> Country </label>
+          <input
+            type="text"
+            name="country"
+            id="country"
+            class="formbold-form-input col-12 col-md-6 col-lg-4"
+          />
+        </div>
+      </div>
 
-    <div class="formbold-mb-3">
-      <label for="address2" class="formbold-form-label">
-        Street Address Line 2
-      </label>
-      <input
-        type="text"
-        name="address2"
-        id="address2"
-        class="formbold-form-input"
-      />
-    </div>
-
-    <div class="formbold-input-flex">
-      <div>
-        <label for="state" class="formbold-form-label"> State/Prvince </label>
-        <input
-          type="text"
-          name="state"
-          id="state"
-          class="formbold-form-input"
-        />
+      <div class="formbold-input-flex">
+        <div>
+          <label for="post" class="formbold-form-label"> Post/Zip code </label>
+          <input
+            type="text"
+            name="post"
+            id="post"
+            class="formbold-form-input col-12 col-md-6 col-lg-4"
+          />
+        </div>
+        <div>
+          <label for="area" class="formbold-form-label"> Area Code </label>
+          <input
+            type="text"
+            name="area"
+            id="area"
+            class="formbold-form-input col-12 col-md-6 col-lg-4"
+          />
+        </div>
       </div>
-      <div>
-        <label for="country" class="formbold-form-label"> Country </label>
-        <input
-          type="text"
-          name="country"
-          id="country"
-          class="formbold-form-input"
-        />
-      </div>
-    </div>
-
-    <div class="formbold-input-flex">
-      <div>
-        <label for="post" class="formbold-form-label"> Post/Zip code </label>
-        <input
-          type="text"
-          name="post"
-          id="post"
-          class="formbold-form-input"
-        />
-      </div>
-      <div>
-        <label for="area" class="formbold-form-label"> Area Code </label>
-        <input
-          type="text"
-          name="area"
-          id="area"
-          class="formbold-form-input"
-        />
-      </div>
-    </div>
 
     <div class="formbold-checkbox-wrapper">
       <label for="supportCheckbox" class="formbold-checkbox-label">
