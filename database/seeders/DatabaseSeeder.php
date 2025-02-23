@@ -76,6 +76,7 @@ use App\Models\skktenagakerjabloralist;
 use App\Models\asosiasiblora;
 use App\Models\asosiasimasjaki;
 use App\Models\profilpaketpekerjaanblora;
+use App\Models\profilpaketpekerjaannontender;
 
 // use App\Models\paketpekerjaan;
 use Database\Factories\SkktenagakerjaFactory;
@@ -5668,7 +5669,7 @@ skktenagakerjabloralist::create([
     'statusterbit' => 'TERBIT',
 ]);
 
-// FORT
+
 //======================== ===================================================================================
 // PROFIL PAKET PEKERJAAN MAS JAKI
 
@@ -5776,6 +5777,115 @@ profilpaketpekerjaanblora::create([
     'bulanselesai' => '2029-12-31',
     'dinas' => 'Dinas Sumber Daya Alam Blora',
 ]);
+
+//======================== ===================================================================================
+// PAKET PEKERJAAN NON TENDER MAS JAKI BLORA
+profilpaketpekerjaannontender::create([
+    'jenispekerjaan' => 'Pekerjaan Konstruksi Jalan',
+    'namapekerjaan' => 'Rehabilitasi Jalan Kabupaten Blora',
+    'tahunpelaksanaan' => 2023,
+    'cvptpenyedia' => 'PT. Karya Jalan Raya',
+    'nib' => '1122334455',
+    'nilaikontrak' => 600000000.00,
+    'sumberdana' => 'APBD',
+    'jeniskontrak' => 'Kontrak Rehabilitasi',
+    'karakteristikkontrak' => 'Perbaikan dan Rehabilitasi Jalan',
+    'bulanmulai' => '2023-02-01',
+    'bulanselesai' => '2023-10-31',
+    'dinas' => 'Dinas Pekerjaan Umum Blora',
+]);
+
+profilpaketpekerjaannontender::create([
+    'jenispekerjaan' => 'Pekerjaan Pembangunan Irigasi',
+    'namapekerjaan' => 'Pembangunan Irigasi Desa Blora',
+    'tahunpelaksanaan' => 2024,
+    'cvptpenyedia' => 'CV. Air Lancar',
+    'nib' => '5566778899',
+    'nilaikontrak' => 350000000.00,
+    'sumberdana' => 'APBN',
+    'jeniskontrak' => 'Kontrak Pembangunan',
+    'karakteristikkontrak' => 'Pembangunan Saluran Irigasi',
+    'bulanmulai' => '2024-04-01',
+    'bulanselesai' => '2024-12-31',
+    'dinas' => 'Dinas Pertanian Blora',
+]);
+
+profilpaketpekerjaannontender::create([
+    'jenispekerjaan' => 'Pekerjaan Pembangunan Jembatan',
+    'namapekerjaan' => 'Pembangunan Jembatan Desa Blora',
+    'tahunpelaksanaan' => 2025,
+    'cvptpenyedia' => 'PT. Jembatan Kuat',
+    'nib' => '9988776655',
+    'nilaikontrak' => 450000000.00,
+    'sumberdana' => 'APBD',
+    'jeniskontrak' => 'Kontrak Pembangunan',
+    'karakteristikkontrak' => 'Pembangunan Jembatan Penghubung',
+    'bulanmulai' => '2025-06-01',
+    'bulanselesai' => '2025-11-30',
+    'dinas' => 'Dinas Bina Marga Blora',
+]);
+
+profilpaketpekerjaannontender::create([
+    'jenispekerjaan' => 'Pekerjaan Renovasi Gedung',
+    'namapekerjaan' => 'Renovasi Gedung Sekolah Blora',
+    'tahunpelaksanaan' => 2026,
+    'cvptpenyedia' => 'CV. Bangun Sejahtera',
+    'nib' => '3344556677',
+    'nilaikontrak' => 250000000.00,
+    'sumberdana' => 'APBN',
+    'jeniskontrak' => 'Kontrak Renovasi',
+    'karakteristikkontrak' => 'Renovasi Gedung Sekolah',
+    'bulanmulai' => '2026-03-01',
+    'bulanselesai' => '2026-09-30',
+    'dinas' => 'Dinas Pendidikan Blora',
+]);
+
+profilpaketpekerjaannontender::create([
+    'jenispekerjaan' => 'Pekerjaan Pengadaan Peralatan',
+    'namapekerjaan' => 'Pengadaan Peralatan Kesehatan Blora',
+    'tahunpelaksanaan' => 2027,
+    'cvptpenyedia' => 'PT. Medika Sehat',
+    'nib' => '1122446688',
+    'nilaikontrak' => 180000000.00,
+    'sumberdana' => 'APBD',
+    'jeniskontrak' => 'Kontrak Pengadaan',
+    'karakteristikkontrak' => 'Pengadaan Alat Kesehatan untuk Rumah Sakit',
+    'bulanmulai' => '2027-07-01',
+    'bulanselesai' => '2027-12-31',
+    'dinas' => 'Dinas Kesehatan Blora',
+]);
+
+profilpaketpekerjaannontender::create([
+    'jenispekerjaan' => 'Pekerjaan Pemeliharaan Jalan',
+    'namapekerjaan' => 'Pemeliharaan Jalan Desa Blora',
+    'tahunpelaksanaan' => 2028,
+    'cvptpenyedia' => 'PT. Aspal Mulus',
+    'nib' => '4455667788',
+    'nilaikontrak' => 220000000.00,
+    'sumberdana' => 'APBD',
+    'jeniskontrak' => 'Kontrak Pemeliharaan',
+    'karakteristikkontrak' => 'Pemeliharaan Jalan Desa',
+    'bulanmulai' => '2028-05-01',
+    'bulanselesai' => '2028-10-31',
+    'dinas' => 'Dinas Pekerjaan Umum Blora',
+]);
+
+profilpaketpekerjaannontender::create([
+    'jenispekerjaan' => 'Pekerjaan Pembangunan Sistem Drainase',
+    'namapekerjaan' => 'Pembangunan Sistem Drainase Kota Blora',
+    'tahunpelaksanaan' => 2029,
+    'cvptpenyedia' => 'CV. Drainase Lancar',
+    'nib' => '7788990011',
+    'nilaikontrak' => 300000000.00,
+    'sumberdana' => 'APBN',
+    'jeniskontrak' => 'Kontrak Pembangunan',
+    'karakteristikkontrak' => 'Pembangunan Sistem Drainase Kota',
+    'bulanmulai' => '2029-08-01',
+    'bulanselesai' => '2029-12-31',
+    'dinas' => 'Dinas Perumahan dan Permukiman Blora',
+]);
+
+// fort
 
 //======================== ===================================================================================
 // SKK TENAGA KERJA MAS JAKI BLORA
