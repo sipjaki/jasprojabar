@@ -262,6 +262,7 @@ public function datajenjang2()
 
     // Statistik Jabatan Kerja
     $statistikJabatanKerja = skktenagakerjabloralist::select('jabatankerja_id', DB::raw('COUNT(*) as jumlah'))
+        ->where('jabatankerja_id', 2)
         ->groupBy('jabatankerja_id')
         ->with('jabatankerja')
         ->get()
@@ -274,8 +275,7 @@ public function datajenjang2()
         });
 
         $jumlahstatistikJenjang = skktenagakerjabloralist::select('jenjang_id', DB::raw('COUNT(*) as jumlah'))
-        ->where('jenjang_id', 2) // Menambahkan kondisi untuk mengambil data dengan jabatankerja_id 2
-        ->groupBy('jenjang_id')
+        ->groupBy('jenjang_id',)
         ->with('jenjang')
         ->get()
         ->map(function ($item) {
