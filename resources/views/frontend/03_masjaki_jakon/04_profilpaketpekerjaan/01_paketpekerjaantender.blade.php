@@ -168,7 +168,8 @@
                                     <td>{{$item->tahunpelaksanaan}}</td>
                                     <td>{{$item->cvptpenyedia}}</td>
                                     <td>{{$item->nib}}</td>
-                                    <td>{{$item->nilaikontrak}}</td>
+                                    {{-- <td>{{$item->nilaikontrak}}</td> --}}
+                                    <td>Rp {{ number_format($item->nilaikontrak, 2, ',', '.') }}</td>
                                     <td>{{$item->sumberdana}}</td>
                                     <td>{{$item->jeniskontrak}}</td>
                                     <td>{{$item->karakteristikkontrak}}</td>
