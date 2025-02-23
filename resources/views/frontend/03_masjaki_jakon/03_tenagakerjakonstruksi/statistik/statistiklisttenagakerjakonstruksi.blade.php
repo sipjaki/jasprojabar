@@ -99,7 +99,7 @@
                                     <li><a href="#"><i class="fa-solid fa-file-chart-column"></i> Data Statistik Jenjang 7</a></li>
                                     <li><a href="#"><i class="fa-solid fa-database"></i> Data Statistik Jenjang 8</a></li>
                                     <li><a href="#"><i class="fa-solid fa-file-chart-pie"></i> Data Statistik Jenjang 9</a></li>
-                                </ul>
+                                    </ul>
 
                         </div><!-- sidebar-widget-list-inner -->
 						<div class="sidebar-widget sidebar-widget-card">
