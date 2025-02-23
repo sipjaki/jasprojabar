@@ -76,6 +76,43 @@
 
                         <div id="piechart" style="width: 900px; height: 500px;"></div>
 
+
+                        {{-- ========================================================================== --}}
+
+                        <head>
+                            <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+                            <script type="text/javascript">
+                              google.charts.load('current', {'packages':['bar']});
+                              google.charts.setOnLoadCallback(drawChart);
+
+                              function drawChart() {
+                                var data = google.visualization.arrayToDataTable([
+                                  ['Jumlah Tenaga Kerja', 'Jabatan'],
+                                  @foreach($jumlahDatabaru as $jabatanId => $jumlah)
+                                    @php $jabatan = App\Models\jabatankerja::find($jabatanId); @endphp
+                                    ['{{ $jabatan ? $jabatan->jabatankerja : "Unknown" }}', {{ $jumlah }}],
+                                  @endforeach
+                                ]);
+
+                                var options = {
+                                  chart: {
+                                    title: 'Statistik SKK Tenaga Ahli Berdasarkan Jabatan Kerja',
+                                    subtitle: 'Jumlah tenaga kerja per jabatan',
+                                  },
+                                  bars: 'vertical', // Bisa diubah ke 'vertical' jika ingin tampilan vertikal
+                                  height: 500,
+                                  colors: ['#fdba00']
+                                };
+
+                                var chart = new google.charts.Bar(document.getElementById('columnchart_material'));
+                                chart.draw(data, google.charts.Bar.convertOptions(options));
+                              }
+                            </script>
+                          </head>
+                          <body>
+                            <div id="columnchart_material" style="width: 800px; height: 500px;"></div>
+                          </body>
+
                     </div><!-- department-details-content-box -->
 
                 </div><!-- col-lg-8 -->
