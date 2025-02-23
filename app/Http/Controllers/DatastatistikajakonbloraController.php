@@ -184,7 +184,20 @@ public function datajenjang1()
             ];
         });
 
-    // Statistik Jabatan Kerja
+        $statistikJabatanKerja = skktenagakerjabloralist::select('jabatankerja_id', DB::raw('COUNT(*) as jumlah'))
+        ->join('jabatankerja_id', 'skttenagakerjabloralist.jabatankerja_id', '=', 'jabatankerja.id')
+        ->join('jenjang_id', 'jabatankerja_id.jenjang_id', '=', 'jenjang.id')
+        ->where('jenjang.id', 2) // Filter berdasarkan jenjang_id = 2
+        ->groupBy('skttenagakerjabloralist.jabatankerja_id')
+        ->with('jabatankerja_id')  // Ambil data relasi jabatan kerja
+        ->get()
+        ->map(function ($item) use ($totalData) {
+            return [
+                'jabatankerja' => $item->jabatankerja->jabatankerja ?? 'Tidak Diketahui',
+                'jumlah' => $item->jumlah,
+                'persentase' => $totalData ? round(($item->jumlah / $totalData) * 100, 2) : 0,
+            ];
+        });
 
         $jumlahstatistikJenjang = skktenagakerjabloralist::select('jenjang_id', DB::raw('COUNT(*) as jumlah'))
         ->groupBy('jenjang_id')
@@ -200,7 +213,7 @@ public function datajenjang1()
 
         return view('frontend.03_masjaki_jakon.03_tenagakerjakonstruksi.statistik.01_jenjang1', [
             'title' => 'Data Statistik Tenaga Ahli Konstruksi',
-            // 'statistikJabatanKerja' => $statistikJabatanKerja,
+            'statistikJabatanKerja' => $statistikJabatanKerja,
             'datastatistikJabatanKerja' => $datastatistikJabatanKerja,
             'datacount' => $datacount,
             'statistikJenjang' => $statistikJenjang,
