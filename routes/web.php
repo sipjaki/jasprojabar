@@ -112,7 +112,7 @@ Route::get('/datajakon/statistikaskktenagakerjablora', [Datastatistikajakonblora
 Route::get('/datajakon/statistikaskktenagakerjabloralist', [DatastatistikajakonbloraController::class, 'datastatistikaskktenagakerjablora']);
 
 Route::get('/datajakon/datajenjang1', [DatastatistikajakonbloraController::class, 'datajenjang1']);
-Route::get('/datajakon/datajenjang2', [DatastatistikajakonbloraController::class, 'datajenjang2']);
+Route::get('/datajakon/statistikdatajenjang2', [DatastatistikajakonbloraController::class, 'datajenjang2']);
 Route::get('/datajakon/datajenjang3', [DatastatistikajakonbloraController::class, 'datajenjang3']);
 Route::get('/datajakon/datajenjang4', [DatastatistikajakonbloraController::class, 'datajenjang4']);
 Route::get('/datajakon/datajenjang5', [DatastatistikajakonbloraController::class, 'datajenjang5']);
