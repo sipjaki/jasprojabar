@@ -90,15 +90,15 @@
                         <div class="sidebar-widget-list-inner">
 
                                 <ul style="list-style: none; padding: 0; text-align: center;">
-                                    <li><a href="#"><i class="fa-solid fa-chart-bar"></i> Data Statistik Jenjeng 1</a></li>
-                                    <li><a href="#"><i class="fa-solid fa-chart-pie"></i> Data Statistik Jenjeng 2</a></li>
-                                    <li><a href="#"><i class="fa-solid fa-database"></i> Data Statistik Jenjeng 3</a></li>
-                                    <li><a href="#"><i class="fa-solid fa-chart-line"></i> Data Statistik Jenjeng 4</a></li>
-                                    <li><a href="#"><i class="fa-solid fa-table"></i> Data Statistik Jenjeng 5</a></li>
-                                    <li><a href="#"><i class="fa-solid fa-file-excel"></i> Data Statistik Jenjeng 6</a></li>
-                                    <li><a href="#"><i class="fa-solid fa-file-chart-column"></i> Data Statistik Jenjeng 7</a></li>
-                                    <li><a href="#"><i class="fa-solid fa-database"></i> Data Statistik Jenjeng 8</a></li>
-                                    <li><a href="#"><i class="fa-solid fa-file-chart-pie"></i> Data Statistik Jenjeng 9</a></li>
+                                    <li><a href="#"><i class="fa-solid fa-chart-bar"></i> Data Statistik Jenjang 1</a></li>
+                                    <li><a href="#"><i class="fa-solid fa-chart-pie"></i> Data Statistik Jenjang 2</a></li>
+                                    <li><a href="#"><i class="fa-solid fa-database"></i> Data Statistik Jenjang 3</a></li>
+                                    <li><a href="#"><i class="fa-solid fa-chart-line"></i> Data Statistik Jenjang 4</a></li>
+                                    <li><a href="#"><i class="fa-solid fa-table"></i> Data Statistik Jenjang 5</a></li>
+                                    <li><a href="#"><i class="fa-solid fa-file-excel"></i> Data Statistik Jenjang 6</a></li>
+                                    <li><a href="#"><i class="fa-solid fa-file-chart-column"></i> Data Statistik Jenjang 7</a></li>
+                                    <li><a href="#"><i class="fa-solid fa-database"></i> Data Statistik Jenjang 8</a></li>
+                                    <li><a href="#"><i class="fa-solid fa-file-chart-pie"></i> Data Statistik Jenjang 9</a></li>
                                 </ul>
 
                         </div><!-- sidebar-widget-list-inner -->
