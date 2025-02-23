@@ -151,6 +151,7 @@
                                     <th style="text-align:center" >Karakteristik Kontrak</th>
                                     <th style="text-align:center" >Mulai</th>
                                     <th style="text-align:center" >Selesai</th>
+                                    <th style="text-align:center" >Dinas</th>
                                     <th style="text-align:center" >View</th>
                                 </tr>
                             </thead>
