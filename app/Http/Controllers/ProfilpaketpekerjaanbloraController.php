@@ -36,9 +36,9 @@ class ProfilpaketpekerjaanbloraController extends Controller
         ]);
     }
 
-    public function datapaketpekerjaanblorashow($jenisperkerjaan)
+    public function datapaketpekerjaanblorashow($jenispekerjaan)
     {
-        $data = profilpaketpekerjaanblora::where('jenisperkerjaan', $jenisperkerjaan)->first();
+        $data = profilpaketpekerjaanblora::where('jenispekerjaan', $jenispekerjaan)->first();
 
         // if (!$databujkkontraktor) {
         //     // Tangani jika kegiatan tidak ditemukan
