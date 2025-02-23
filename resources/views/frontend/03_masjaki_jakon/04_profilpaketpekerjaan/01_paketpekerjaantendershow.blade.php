@@ -227,7 +227,7 @@
 
                         <div class="document-details">
 							<div class="document-details-list">
-                                <div style="display: flex; justify-content: space-between; align-items: center; margin-top: -100px;">
+                                <div style="display: flex; justify-content: space-between; align-items: center; margin-top: -100px; margin-bottom: 200px;">
                                     <!-- Tombol kiri -->
                                     <div class="centered-button" style="text-align: left;">
                                         <button class="green-button" style="margin-bottom:10px; text-transform:uppercase">
