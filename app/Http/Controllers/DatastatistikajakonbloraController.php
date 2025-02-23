@@ -153,7 +153,7 @@ public function datajenjang1()
 
 
     // Extract jabatankerja data with counts
-    $statistikJabatanKerja = $dataskklist->groupBy('jabatankerja_id')
+    $datastatistikJabatanKerja = $dataskklist->groupBy('jabatankerja_id')
         ->map(function ($group, $jabatankerja_id) {
             $jabatankerja = $group->first()->jabatankerja->jabatankerja ?? 'Tidak Diketahui';
             $jumlah = $group->count();
@@ -220,6 +220,7 @@ public function datajenjang1()
         return view('frontend.03_masjaki_jakon.03_tenagakerjakonstruksi.statistik.01_jenjang1', [
             'title' => 'Data Statistik Tenaga Ahli Konstruksi',
             'statistikJabatanKerja' => $statistikJabatanKerja,
+            'datastatistikJabatanKerja' => $datastatistikJabatanKerja,
             'datacount' => $datacount,
             'statistikJenjang' => $statistikJenjang,
             'jumlahstatistikJenjang' => $jumlahstatistikJenjang,

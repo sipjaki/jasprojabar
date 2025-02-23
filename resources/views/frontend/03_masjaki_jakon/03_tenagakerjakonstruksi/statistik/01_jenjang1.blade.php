@@ -164,29 +164,32 @@
 					<div class="department-details-box">
 
                         <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
-    <script type="text/javascript">
-      google.charts.load('current', {'packages':['table']});
-      google.charts.setOnLoadCallback(drawTable);
+                    <script type="text/javascript">
+                    google.charts.load('current', {'packages':['table']});
+                    google.charts.setOnLoadCallback(drawTable);
 
-      function drawTable() {
-        var data = new google.visualization.DataTable();
-        data.addColumn('string', 'Jabatan Kerja');
-        data.addColumn('number', 'Jumlah');
-        data.addColumn('string', 'Persentase');
+                    function drawTable() {
+                        var data = new google.visualization.DataTable();
+                        data.addColumn('string', 'Jabatan Kerja');
+                        data.addColumn('number', 'Jumlah');
+                        data.addColumn('string', 'Persentase');
 
-        data.addRows([
-          @foreach($statistikJabatanKerja as $item)
-            ['{{ $item['jabatankerja'] }}', {{ $item['jumlah'] }}, '{{ $item['persentase'] }}%'],
-          @endforeach
-        ]);
+                        data.addRows([
+                        @foreach($datastatistikJabatanKerja as $item)
+                            ['{{ $item['jabatankerja'] }}', {{ $item['jumlah'] }}, '{{ $item['persentase'] }}%'],
+                        @endforeach
+                        ]);
 
-        var table = new google.visualization.Table(document.getElementById('table_div'));
+                        var table = new google.visualization.Table(document.getElementById('table_div'));
 
-        table.draw(data, {showRowNumber: true, width: '100%', height: '100%'});
-      }
-    </script>
+                        table.draw(data, {showRowNumber: true, width: '100%', height: '100%'});
+                    }
+                    </script>
 
-<div id="table_div"></div>
+                    <body>
+                        <div id="table_div"></div>
+                    </body>
+
 
 						<p style="text-align: justify;">
 
