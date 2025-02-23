@@ -79,6 +79,7 @@
                     </div><!-- department-details-content-box -->
 
                 </div><!-- col-lg-8 -->
+
                 <div class="col-lg-12">
 					<div class="department-details-box">
 						<p style="text-align: justify;">
