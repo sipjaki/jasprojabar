@@ -124,38 +124,6 @@
 
                 </div>
 
-                <div class="col-lg-4" style="margin-top:25px;">
-					<div class="department-details-box">
-                        <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
-                        <script type="text/javascript">
-                          google.charts.load('current', {'packages':['table']});
-                          google.charts.setOnLoadCallback(drawTable);
-
-                          function drawTable() {
-                            var data = new google.visualization.DataTable();
-                            data.addColumn('string', 'Jenjang');
-                            data.addColumn('number', 'Jumlah');
-
-                            data.addRows([
-                                @foreach($statistikJenjang as $item)
-                                    ['{{ $item['jenjang'] }}', {{ $item['jumlah'] }}],
-                                @endforeach
-                            ]);
-
-                            var table = new google.visualization.Table(document.getElementById('table_div'));
-                            table.draw(data, {showRowNumber: true, width: '100%', height: '100%'});
-                          }
-                        </script>
-                    </head>
-                    <body>
-
-                        <h2>Statistik Jumlah Jenjang</h2>
-
-                        <div id="table_div"></div>
-
-                        </div><!-- department-details-box -->
-
-                </div>
 
 
                 <div class="col-lg-12" style="margin-top:25px;">
