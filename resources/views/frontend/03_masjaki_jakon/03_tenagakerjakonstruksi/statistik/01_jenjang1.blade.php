@@ -74,11 +74,11 @@
                                     });
 
                                     document.querySelectorAll('#table_div tr:nth-child(even)').forEach((tr) => {
-                                        tr.style.backgroundColor = '#f9f9f9';
+                                        tr.style.backgroundColor = '#003D73';
                                     });
 
                                     document.querySelectorAll('#table_div tr:hover').forEach((tr) => {
-                                        tr.style.backgroundColor = '#f1f1f1';
+                                        tr.style.backgroundColor = '#000000';
                                     });
 
                                     }, 500);
