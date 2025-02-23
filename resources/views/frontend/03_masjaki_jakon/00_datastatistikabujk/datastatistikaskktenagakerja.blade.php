@@ -72,30 +72,33 @@
     }
 </script>
 
-<div id="piechart_3d" style="width: 900px; height: 500px;"></div>
+<div id="piechart_3d" style="width: 900px; height: 500px;">
+
+</div>
+</div>
+<div class="col-lg-12">
+
 
 {{-- ============================= --}}
 
-<html>
-  <head>
     <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
     <script type="text/javascript">
       google.charts.load('current', {'packages':['bar']});
       google.charts.setOnLoadCallback(drawChart);
 
       function drawChart() {
-        var data = google.visualization.arrayToDataTable([
-          ['Jumlah Tenaga Kerja', 'Jabatan'],
-          @foreach($jumlahDatabaru as $jabatanId => $jumlah)
-            @php $jabatan = App\Models\jabatankerja::find($jabatanId); @endphp
-            ['{{ $jabatan ? $jabatan->jabatankerja : "Unknown" }}', {{ $jumlah }}],
-          @endforeach
+          var data = google.visualization.arrayToDataTable([
+              ['Jumlah Tenaga Kerja', 'Jabatan'],
+              @foreach($jumlahDatabaru as $jabatanId => $jumlah)
+              @php $jabatan = App\Models\jabatankerja::find($jabatanId); @endphp
+              ['{{ $jabatan ? $jabatan->jabatankerja : "Unknown" }}', {{ $jumlah }}],
+              @endforeach
         ]);
 
         var options = {
           chart: {
-            title: 'Statistik SKK Tenaga Ahli Berdasarkan Jabatan Kerja',
-            subtitle: 'Jumlah tenaga kerja per jabatan',
+              title: 'Statistik SKK Tenaga Ahli Berdasarkan Jabatan Kerja',
+              subtitle: 'Jumlah tenaga kerja per jabatan',
           },
           bars: 'vertical', // Bisa diubah ke 'vertical' jika ingin tampilan vertikal
           height: 500,
@@ -104,15 +107,14 @@
 
         var chart = new google.charts.Bar(document.getElementById('columnchart_material'));
         chart.draw(data, google.charts.Bar.convertOptions(options));
-      }
+    }
     </script>
-  </head>
-  <body>
-    <div id="columnchart_material" style="width: 800px; height: 500px;"></div>
-  </body>
-</html>
 
-                    </div><!-- department-details-content-box -->
+<div id="columnchart_material" style="width: 800px; height: 500px;"></div>
+
+</div>
+
+</div><!-- department-details-content-box -->
 
                 </div><!-- col-lg-8 -->
                 <div class="col-lg-12" style="margin-top:25px;">
