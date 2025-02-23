@@ -276,7 +276,7 @@
           type="text"
           name="firstname"
           id="firstname"
-          class="formbold-form-input"
+          class="formbold-form-input col-12"
         />
       </div>
       <div>
