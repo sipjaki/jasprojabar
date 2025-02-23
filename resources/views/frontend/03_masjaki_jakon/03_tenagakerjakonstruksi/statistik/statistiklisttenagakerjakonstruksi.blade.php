@@ -55,6 +55,34 @@
                                 var table = new google.visualization.Table(document.getElementById('table_div'));
                                 table.draw(data, {showRowNumber: true, width: '100%', height: '100%'});
                               }
+
+                              setTimeout(() => {
+                                    document.querySelectorAll('#table_div table').forEach((table) => {
+                                        table.style.borderCollapse = 'collapse';
+                                        table.style.width = '100%';
+                                        table.style.boxShadow = '0px 4px 8px rgba(0, 0, 0, 0.1)';
+                                        table.style.borderRadius = '8px';
+                                        table.style.overflow = 'hidden';
+                                    });
+
+                                    document.querySelectorAll('#table_div th').forEach((th) => {
+                                        th.style.backgroundColor = '#007bff';
+                                        th.style.color = 'white';
+                                        th.style.textTransform = 'uppercase';
+                                        th.style.padding = '12px';
+                                        th.style.textAlign = 'left';
+                                    });
+
+                                    document.querySelectorAll('#table_div tr:nth-child(even)').forEach((tr) => {
+                                        tr.style.backgroundColor = '#f9f9f9';
+                                    });
+
+                                    document.querySelectorAll('#table_div tr:hover').forEach((tr) => {
+                                        tr.style.backgroundColor = '#f1f1f1';
+                                    });
+
+                                    }, 500);
+
                             </script>
 
                         <div id="table_div"></div>
@@ -82,8 +110,8 @@
 
                         {{-- ISIAN DATA --}}
 
-                        <div id="chart_jenjang" style="width: 600px; height: 400px;"></div>
-                        <div id="chart_jabatan_kerja" style="width: 600px; height: 400px;"></div>
+                        <div id="chart_jenjang" style="width: 900px; height: 500px;"></div>
+                        <div id="chart_jabatan_kerja" style="width: 900px; height: 500px;"></div>
 
                         <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
                         <script type="text/javascript">
@@ -129,32 +157,6 @@
                               chart.draw(data, options);
                           }
 
-                          setTimeout(() => {
-                                    document.querySelectorAll('#table_div table').forEach((table) => {
-                                        table.style.borderCollapse = 'collapse';
-                                        table.style.width = '100%';
-                                        table.style.boxShadow = '0px 4px 8px rgba(0, 0, 0, 0.1)';
-                                        table.style.borderRadius = '8px';
-                                        table.style.overflow = 'hidden';
-                                    });
-
-                                    document.querySelectorAll('#table_div th').forEach((th) => {
-                                        th.style.backgroundColor = '#007bff';
-                                        th.style.color = 'white';
-                                        th.style.textTransform = 'uppercase';
-                                        th.style.padding = '12px';
-                                        th.style.textAlign = 'left';
-                                    });
-
-                                    document.querySelectorAll('#table_div tr:nth-child(even)').forEach((tr) => {
-                                        tr.style.backgroundColor = '#f9f9f9';
-                                    });
-
-                                    document.querySelectorAll('#table_div tr:hover').forEach((tr) => {
-                                        tr.style.backgroundColor = '#f1f1f1';
-                                    });
-
-                                    }, 500);
 
                         </script>
 
@@ -162,16 +164,6 @@
                         </div><!-- department-details-content-box -->
 
                 </div><!-- col-lg-8 -->
-
-                <div class="col-12 col-lg-12 col-xl-12" style="margin-top:10px;">
-					<div class="department-details-box">
-
-
-                    </div><!-- department-details-box -->
-
-                </div>
-
-
 
                 <div class="col-12 col-lg-12 col-xl-12" style="margin-top:25px;">
 					<div class="department-details-box">
