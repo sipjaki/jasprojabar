@@ -66,7 +66,7 @@
                                     });
 
                                     document.querySelectorAll('#table_div th').forEach((th) => {
-                                        th.style.backgroundColor = '#003D73';
+                                        th.style.backgroundColor = '#2ECC71';
                                         th.style.color = 'white';
                                         th.style.textTransform = 'uppercase';
                                         th.style.padding = '12px';
@@ -74,7 +74,7 @@
                                     });
 
                                     document.querySelectorAll('#table_div tr:nth-child(even)').forEach((tr) => {
-                                        tr.style.backgroundColor = '#003D73';
+                                        tr.style.backgroundColor = '#2ECC71';
                                     });
 
                                     document.querySelectorAll('#table_div tr:hover').forEach((tr) => {
