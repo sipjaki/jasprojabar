@@ -178,6 +178,7 @@
                                         <div class="donate-box-inner" style="margin-top: -20px;">
                                             <div class="centered-button" style="margin-top: -15px;">
                                                 <img src="/assets/icon/logokabupatenblora.png" class="img-fluid" alt="img-25" width="50" style="margin-right: 5px;" loading="lazy">
+                                                <p>Informasi Paket Pekerjaan Tender : {{$data->namapekerjaan}}</p>
                                             </div>
 
                                             <form action="#" class="contact-form donation" method="post">
