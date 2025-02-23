@@ -124,7 +124,7 @@
                         <section class="document-section" style="margin-top: -100px;">
                             <div class="container" >
                               <ul class="nav nav-pills" id="pills-tab" role="tablist">
-                                <a href="/datajakon/bujk">
+                                <a href="/datajakon/datapaketpekerjaanblora">
                                 <li class="nav-item" role="presentation">
                                     <button class="nav-link" id="pills-health-tab" data-bs-toggle="pill" data-bs-target="#pills-health" type="button" role="tab" aria-controls="pills-health" aria-selected="false"><i class="flaticon-police-badge-1"></i>Menu Data Badan Usaha Konstruksi dan Konsultan</button>
                                 </li>
