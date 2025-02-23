@@ -162,6 +162,32 @@
 
                 <div class="col-12 col-lg-12 col-xl-12" style="margin-top:25px;">
 					<div class="department-details-box">
+
+                        <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+      google.charts.load('current', {'packages':['table']});
+      google.charts.setOnLoadCallback(drawTable);
+
+      function drawTable() {
+        var data = new google.visualization.DataTable();
+        data.addColumn('string', 'Jabatan Kerja');
+        data.addColumn('number', 'Jumlah');
+        data.addColumn('string', 'Persentase');
+
+        data.addRows([
+          @foreach($statistikJabatanKerja as $item)
+            ['{{ $item['jabatankerja'] }}', {{ $item['jumlah'] }}, '{{ $item['persentase'] }}%'],
+          @endforeach
+        ]);
+
+        var table = new google.visualization.Table(document.getElementById('table_div'));
+
+        table.draw(data, {showRowNumber: true, width: '100%', height: '100%'});
+      }
+    </script>
+
+<div id="table_div"></div>
+
 						<p style="text-align: justify;">
 
                             Data ini menyajikan data mengenai Sertifikat Kompetensi Kerja (SKK) Tenaga Ahli Konstruksi berdasarkan jabatan kerja di lingkungan Pemerintah Kabupaten Blora, Provinsi Jawa Tengah. Data ini memberikan gambaran tentang kualifikasi, distribusi, dan kapasitas tenaga ahli yang berperan dalam mendukung pembangunan infrastruktur daerah. Dengan adanya informasi ini, diharapkan dapat menjadi referensi bagi pemerintah, pelaku industri konstruksi, serta masyarakat dalam perencanaan, pengelolaan, dan peningkatan kompetensi tenaga ahli konstruksi di Kabupaten Blora.
