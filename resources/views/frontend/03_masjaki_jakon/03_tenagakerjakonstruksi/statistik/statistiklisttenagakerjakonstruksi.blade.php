@@ -48,7 +48,7 @@
 
                                 data.addRows([
                                     @foreach($statistikJenjang as $item)
-                                        ['{{ $item['jenjang'] }}', {{ $item['jumlah'] + 'Tenaga Ahli'}}],
+                                        ['{{ $item['jenjang'] }}', {{ $item['jumlah'] }}],
                                     @endforeach
                                 ]);
 
