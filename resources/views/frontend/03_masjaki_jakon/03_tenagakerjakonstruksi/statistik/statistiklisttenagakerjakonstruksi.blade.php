@@ -48,6 +48,42 @@
 				</div><!--col-12 col-lg-4 col-xl-4-->
 				<div class="col-lg-8">
 
+                    <div class="col-12 col-lg-4 col-xl-4">
+					<div class="sidebar">
+						<div class="sidebar-widget-list-inner">
+
+
+                        <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+                        <script type="text/javascript">
+                          google.charts.load('current', {'packages':['table']});
+                          google.charts.setOnLoadCallback(drawTable);
+
+                          function drawTable() {
+                            var data = new google.visualization.DataTable();
+                            data.addColumn('string', 'Jenjang');
+                            data.addColumn('number', 'Jumlah');
+
+                            data.addRows([
+                                @foreach($statistikJenjang as $item)
+                                    ['{{ $item['jenjang'] }}', {{ $item['jumlah'] }}],
+                                @endforeach
+                            ]);
+
+                            var table = new google.visualization.Table(document.getElementById('table_div'));
+                            table.draw(data, {showRowNumber: true, width: '100%', height: '100%'});
+                          }
+                        </script>
+
+                    <div id="table_div"></div>
+
+
+						</div><!-- sidebar-widget-list-inner -->
+
+					</div><!--sidebar-->
+				</div><!--col-12 col-lg-4 col-xl-4-->
+
+                <div class="col-12 col-lg-8 col-xl-8">
+
 					<div class="department-details-content-box">
 						<h4 style="font-size: 20px;" class="department-details-title">{{$title}}</h4>
 
@@ -135,31 +171,8 @@
 
                 </div><!-- col-lg-8 -->
 
-                <div class="col-lg-12" style="margin-top:10px;">
+                <div class="col-12 col-lg-12 col-xl-12" style="margin-top:10px;">
 					<div class="department-details-box">
-
-                        <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
-                        <script type="text/javascript">
-                          google.charts.load('current', {'packages':['table']});
-                          google.charts.setOnLoadCallback(drawTable);
-
-                          function drawTable() {
-                            var data = new google.visualization.DataTable();
-                            data.addColumn('string', 'Jenjang');
-                            data.addColumn('number', 'Jumlah');
-
-                            data.addRows([
-                                @foreach($statistikJenjang as $item)
-                                    ['{{ $item['jenjang'] }}', {{ $item['jumlah'] }}],
-                                @endforeach
-                            ]);
-
-                            var table = new google.visualization.Table(document.getElementById('table_div'));
-                            table.draw(data, {showRowNumber: true, width: '100%', height: '100%'});
-                          }
-                        </script>
-
-                    <div id="table_div"></div>
 
 
                     </div><!-- department-details-box -->
@@ -168,7 +181,7 @@
 
 
 
-                <div class="col-lg-12" style="margin-top:25px;">
+                <div class="col-12 col-lg-12 col-xl-12" style="margin-top:25px;">
 					<div class="department-details-box">
 						<p style="text-align: justify;">
 
