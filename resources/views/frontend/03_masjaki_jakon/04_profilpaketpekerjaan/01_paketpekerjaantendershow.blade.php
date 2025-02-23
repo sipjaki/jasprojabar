@@ -261,10 +261,9 @@
 
 <form action="https://formbold.com/s/FORM_ID" method="POST">
     <div class="formbold-form-title">
-      <h2 class="">Register now</h2>
+      <h2 class="">INFORMASI PAKET PEKERJAAN TENDER</h2>
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-        eiusmod tempor incididunt.
+       Dinas Pekerjaan Umum dan Penataan Ruang Pemerintah Kabupaten Blora
       </p>
     </div>
 
