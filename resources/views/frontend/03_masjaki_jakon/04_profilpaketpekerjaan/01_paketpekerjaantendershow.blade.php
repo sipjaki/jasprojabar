@@ -269,12 +269,9 @@
 
                     <div class="table-wrapper">
 
-                        <div class="formbold-main-wrapper">
-                            <!-- Author: FormBold Team -->
-                            <!-- Learn More: https://formbold.com -->
-                            <div class="formbold-form-wrapper">
-
-                              <img src="your-image-url-here.jpg">
+                        <div class="col-12 col-lg-12 col-xl-12">
+                            <div class="service-two-card">
+                                <div class="service-two-imgbox">
 
                               <form action="https://formbold.com/s/FORM_ID" method="POST">
                                 <div class="formbold-form-title">
@@ -430,6 +427,10 @@
                             </div>
                           </div>
 
+
+                        </div>
+                    </div>
+                    </div>
 
                                                 </div><!-- document-details-list -->
 
