@@ -142,30 +142,6 @@
       box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.05);
     }
   </style>
-  <style>
-    .container {
-    max-width: 800px;
-    margin: auto;
-    padding: 20px;
-    background-color: #fff;
-    border-radius: 8px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-}
-
-h1, h2 {
-    color: #2c7a2f; /* Green color */
-    margin-bottom: 10px;
-}
-
-.section {
-    margin-bottom: 20px;
-}
-
-p {
-    margin: 5px 0;
-    color: #555; /* Dark grey for text */
-}
-  </style>
 
 
 {{-- ------------------------------------- --}}
@@ -206,37 +182,6 @@ p {
 
                                         <div class="row row-gutter-30">
                                             <div class="col-lg-12">
-                                            <div class="container">
-                                                <h1>Pemanfaatan Prototipe</h1>
-                                                <div class="section">
-                                                    <h2>Jenis Prototipe</h2>
-                                                    <p>-</p>
-                                                </div>
-                                                <h1>Lokasi Bangunan</h1>
-                                                <div class="section">
-                                                    <h2>Provinsi</h2>
-                                                    <p>Jawa Barat</p>
-                                                    <h2>Desa / Kelurahan</h2>
-                                                    <p>Lembang</p>
-                                                    <h2>Kabupaten / Kota</h2>
-                                                    <p>Kab. Bandung Barat</p>
-                                                    <h2>Alamat Lengkap</h2>
-                                                    <p>Percobaan Barat</p>
-                                                    <h2>Kecamatan</h2>
-                                                    <p>Lembang</p>
-                                                    <h2>Koordinat Latitude dan Longitude</h2>
-                                                    <p>-345436.54654, -345436.54654</p>
-                                                </div>
-                                                <h1>STATUS PERMOHONAN</h1>
-                                                <div class="section">
-                                                    <h2>Jenis Konsultasi</h2>
-                                                    <p>Fungsi Usaha 2 lantai</p>
-                                                    <h2>Jenis Permohonan</h2>
-                                                    <p>Persetujuan Bangunan Gedung</p>
-                                                    <h2>Surat SPPST</h2>
-                                                    <p>Sudah Terbit</p>
-                                                </div>
-                                            </div>
 
 
                                             </div><!-- row -->
