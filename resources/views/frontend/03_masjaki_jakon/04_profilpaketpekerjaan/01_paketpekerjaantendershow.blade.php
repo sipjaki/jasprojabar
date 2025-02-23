@@ -204,7 +204,7 @@
                                                 </div><!-- col-lg-12 -->
 
                                                 <div class="col-lg-3">
-                                                    <h6>NIb</h6>
+                                                    <h6>NIB</h6>
                                                     <input type="text" id="fname" class="input-text" placeholder="{{$data->nib}}" name="fname" aria-required="true" readonly>
                                                 </div><!-- col-lg-6 -->
 
