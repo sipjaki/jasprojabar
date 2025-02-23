@@ -77,6 +77,7 @@ use App\Models\asosiasiblora;
 use App\Models\asosiasimasjaki;
 use App\Models\profilpaketpekerjaanblora;
 use App\Models\profilpaketpekerjaannontender;
+use App\Models\profilpaketkonsultasi;
 
 // use App\Models\paketpekerjaan;
 use Database\Factories\SkktenagakerjaFactory;
@@ -5886,8 +5887,8 @@ profilpaketpekerjaannontender::create([
 ]);
 
 //======================== ===================================================================================
-// PAKET KONSULTASI NON TENDER MAS JAKI BLORA
-profilpaketpekerjaannontender::create([
+// PAKET KONSULTASI TENDER MAS JAKI BLORA
+profilpaketkonsultasi::create([
     'jenispekerjaan' => 'Pekerjaan Pembangunan Sistem Drainase',
     'namapekerjaan' => 'Pembangunan Sistem Drainase Kota Blora',
     'tahunpelaksanaan' => 2029,
@@ -5902,7 +5903,7 @@ profilpaketpekerjaannontender::create([
     'dinas' => 'Dinas Perumahan dan Permukiman Blora',
 ]);
 
-profilpaketpekerjaannontender::create([
+profilpaketkonsultasi::create([
     'jenispekerjaan' => 'Pekerjaan Rehabilitasi Jalan',
     'namapekerjaan' => 'Rehabilitasi Jalan Utama Kecamatan Cepu',
     'tahunpelaksanaan' => 2028,
@@ -5917,7 +5918,7 @@ profilpaketpekerjaannontender::create([
     'dinas' => 'Dinas Pekerjaan Umum Blora',
 ]);
 
-profilpaketpekerjaannontender::create([
+profilpaketkonsultasi::create([
     'jenispekerjaan' => 'Pekerjaan Pembangunan Gedung',
     'namapekerjaan' => 'Pembangunan Gedung Kantor Kecamatan',
     'tahunpelaksanaan' => 2030,
@@ -5932,7 +5933,7 @@ profilpaketpekerjaannontender::create([
     'dinas' => 'Dinas Cipta Karya Blora',
 ]);
 
-profilpaketpekerjaannontender::create([
+profilpaketkonsultasi::create([
     'jenispekerjaan' => 'Pekerjaan Pengadaan Air Bersih',
     'namapekerjaan' => 'Pengadaan Sumur Bor dan Instalasi Air',
     'tahunpelaksanaan' => 2027,
@@ -5947,7 +5948,7 @@ profilpaketpekerjaannontender::create([
     'dinas' => 'Dinas Perumahan dan Permukiman Blora',
 ]);
 
-profilpaketpekerjaannontender::create([
+profilpaketkonsultasi::create([
     'jenispekerjaan' => 'Pekerjaan Pembangunan Jembatan',
     'namapekerjaan' => 'Pembangunan Jembatan Desa Sumber',
     'tahunpelaksanaan' => 2031,
@@ -5962,7 +5963,7 @@ profilpaketpekerjaannontender::create([
     'dinas' => 'Dinas Pekerjaan Umum Blora',
 ]);
 
-profilpaketpekerjaannontender::create([
+profilpaketkonsultasi::create([
     'jenispekerjaan' => 'Pekerjaan Pengadaan Alat Medis',
     'namapekerjaan' => 'Pengadaan Alat Medis Puskesmas',
     'tahunpelaksanaan' => 2026,
@@ -5977,7 +5978,7 @@ profilpaketpekerjaannontender::create([
     'dinas' => 'Dinas Kesehatan Blora',
 ]);
 
-profilpaketpekerjaannontender::create([
+profilpaketkonsultasi::create([
     'jenispekerjaan' => 'Pekerjaan Pembangunan Saluran Irigasi',
     'namapekerjaan' => 'Pembangunan Saluran Irigasi Desa Jiken',
     'tahunpelaksanaan' => 2032,
@@ -5992,7 +5993,7 @@ profilpaketpekerjaannontender::create([
     'dinas' => 'Dinas Pertanian Blora',
 ]);
 
-profilpaketpekerjaannontender::create([
+profilpaketkonsultasi::create([
     'jenispekerjaan' => 'Pekerjaan Pembangunan Pasar Tradisional',
     'namapekerjaan' => 'Pembangunan Pasar Tradisional Blora',
     'tahunpelaksanaan' => 2025,
