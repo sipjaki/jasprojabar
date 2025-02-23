@@ -30,7 +30,7 @@ class ProfilpaketpekerjaanbloraController extends Controller
         $data = profilpaketpekerjaanblora::paginate(15);
 
         return view('frontend.03_masjaki_jakon.04_profilpaketpekerjaan.01_paketpekerjaantender', [
-            'title' => 'BUJK Kontraktor',
+            'title' => 'Profil Paket Pekerjaan Tender',
             'user' => $user, // Mengirimkan data paginasi ke view
             'data' => $data, // Mengirimkan data paginasi ke view
         ]);
