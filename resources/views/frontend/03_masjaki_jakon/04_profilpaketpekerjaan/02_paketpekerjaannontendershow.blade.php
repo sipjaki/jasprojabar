@@ -1,0 +1,266 @@
+<style>
+
+    .centered-button {
+        text-align: left;
+        margin-top: 50px; /* Adjusts vertical position */
+    }
+
+    .green-button {
+        background-color: #28a745; /* Light green background */
+        color: white; /* White text */
+        padding: 10px 30px; /* Adds padding around the text */
+        font-size: 14px; /* Smaller text size */
+        border: none;
+        border-radius: 5px; /* Rounded corners */
+        display: inline-flex;
+        align-items: center; /* Centers the text and icon vertically */
+        cursor: pointer;
+    }
+
+    .green-button i {
+        font-size: 16px; /* Icon size */
+    }
+
+    .green-button:hover {
+        background-color: #929693; /* Darker green on hover */
+    }
+
+
+    /* Import font Poppins */
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+                /* Wrapper untuk tabel */
+                .table-wrapper {
+                    overflow-x: auto;
+                    max-width: 100%;
+                    padding: 10px;
+                }
+
+                /* Style dasar tabel */
+                .fl-table {
+                    width: 100%;
+                    border-collapse: collapse;
+                    font-family: 'Poppins', sans-serif; /* Font modern pemerintah */
+                    font-size: 14px;
+                    background: #fff; /* Tetap netral */
+                    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+                    border-radius: 8px;
+                    overflow: hidden;
+                }
+
+                /* Header styling */
+                .fl-table thead {
+                    background: #ffd000;
+                    text-transform: uppercase;
+                    font-weight: 800;
+                    letter-spacing: 0.5px;
+                    color: black;
+                }
+
+                .fl-table th,
+                .fl-table td {
+                    padding: 12px 15px;
+                    text-align: left;
+                    border-bottom: 1px solid #ddd;
+                }
+
+                /* Hover effect */
+                .fl-table tbody tr:hover {
+                    background: rgba(0, 0, 0, 0.05);
+                }
+
+                /* Responsive styling */
+                @media (max-width: 768px) {
+                    .fl-table thead {
+                        display: none; /* Sembunyikan header di tampilan kecil */
+                    }
+
+                    .fl-table tr {
+                        display: block;
+                        margin-bottom: 10px;
+                        border: 1px solid #000000;
+                        border-radius: 5px;
+                        overflow: hidden;
+                    }
+
+                    .fl-table td {
+                        display: block;
+                        text-align: right;
+                        font-size: 14px;
+                        border-bottom: 1px solid #eee;
+                        position: relative;
+                        padding-left: 50%;
+                    }
+
+                    .fl-table td::before {
+                        content: attr(data-label);
+                        position: absolute;
+                        left: 10px;
+                        width: 45%;
+                        font-weight: 600;
+                        text-align: left;
+                    }
+                }
+
+                /* Style untuk ikon view */
+                .view-icon {
+                    color: #4CAF50;
+                    cursor: pointer;
+                    font-size: 18px;
+                }
+
+                .view-icon:hover {
+                    color: #45a049;
+                }
+                </style>
+
+
+{{-- =========================================================== --}}
+
+@include('frontend.00_approve.01_cssterpisah.header')
+
+
+<body>
+
+    @include('frontend.00_approve.01_cssterpisah.loader')
+    @include('frontend.00_approve.01_cssterpisah.header1')
+
+<div class="page-wrapper">
+	<section class="page-banner" style="background-image: url('/assets/approve/image/bg/page-banner.png')">
+		<div class="container">
+			<div class="page-breadcrumbs">
+				<ul class="list-unstyled">
+					{{-- <li><a href="index.html">Home</a></li> --}}
+					{{-- <li>Document-details</li> --}}
+				</ul><!-- list-unstyled -->
+			</div><!-- page-breadcrumbs -->
+			<div class="page-banner-title">
+				<h3 style="color: black; font-size:30px;">{{ $title }}</h3>
+			</div><!-- page-banner-title -->
+		</div><!-- container -->
+	</section><!--page-banner-->
+
+{{-- -------------------------- --}}
+
+
+<section class="service-two-section">
+    <div class="container">
+        <div class="row row-gutter-y-40">
+            <div class="col-12 col-lg-12 col-xl-12">
+                <div class="service-two-card">
+                    <div class="service-two-imgbox" >
+
+                        <section class="donate-section">
+                            <div class="container" style="margin-top: -100px;">
+                                <div class="row row-gutter-30">
+                                    <div class="col-lg-12">
+                                        <div class="col-lg-12" style="display: flex; justify-content: left; padding:20px">
+                                            <a href="javascript:void(0);" onclick="window.history.back();">
+                                                <button class="btn"
+                                                    style="background-color: #000080;
+                                                           color: white;
+                                                           display: flex;
+                                                           align-items: center;
+                                                           border: none;
+                                                           padding: 10px 30px;
+                                                           border-radius: 10px;
+                                                           transition: all 0.3s ease;
+                                                           cursor: pointer;"
+                                                    onmouseover="this.style.backgroundColor='white'; this.style.color='black'; this.querySelector('i').style.color='black';"
+                                                    onmouseout="this.style.backgroundColor='#000080'; this.style.color='white'; this.querySelector('i').style.color='white';">
+                                                    <i class="fas fa-arrow-left" style="margin-right: 10px; color: white;"></i>Kembali
+                                                </button>
+                                            </a>
+
+                                        </div><!-- col-lg-12 -->
+                                    </div><!-- col-lg-12 -->
+                                    <div class="col-xxl-12 col-lg-12">
+                                        <div class="donate-box-inner" style="margin-top: -20px;">
+                                            <div class="centered-button" style="margin-top: -15px; display: flex; align-items: center;">
+                                                <img src="/assets/icon/logokabupatenblora.png" class="img-fluid" alt="img-25" width="50" style="margin-right: 30px;" loading="lazy">
+                                                <p style="margin: 0; color:black;">Informasi Paket Pekerjaan Tender : {{$data->namapekerjaan}}</p>
+                                            </div>
+
+                                            <form action="#" class="contact-form donation" method="post">
+                                            <div class="row row-gutter-10">
+                                                <div class="col-lg-4">
+                                                    <h6>Jenis Pekerjaan</h6>
+                                                    <input type="text" id="fname" class="input-text" placeholder="{{$data->jenispekerjaan}}" name="fname" aria-required="true" readonly>
+                                                </div><!-- col-lg-6 -->
+
+                                                <div class="col-lg-8">
+                                                    <h6>Nama Pekerjaan</h6>
+                                                    <input type="text" id="fname" class="input-text" placeholder="{{$data->namapekerjaan}}" name="fname" aria-required="true" readonly>
+                                                </div><!-- col-lg-3 -->
+
+                                                <div class="col-lg-3">
+                                                    <h6>Pelaksanaan</h6>
+                                                    <input type="text" id="fname" class="input-text" placeholder="{{$data->tahunpelaksanaan}}" name="fname" aria-required="true" readonly>
+                                                </div><!-- col-lg-3 -->
+
+                                                <div class="col-lg-3">
+                                                    <h6>Penyedia</h6>
+                                                    <input type="text" id="fname" class="input-text" placeholder="{{$data->cvptpenyedia}}" name="fname" aria-required="true" readonly>
+                                                </div><!-- col-lg-12 -->
+
+                                                <div class="col-lg-3">
+                                                    <h6>NIB</h6>
+                                                    <input type="text" id="fname" class="input-text" placeholder="{{$data->nib}}" name="fname" aria-required="true" readonly>
+                                                </div><!-- col-lg-6 -->
+
+                                                <div class="col-lg-3">
+                                                    <h6>Kontrak</h6>
+                                                    <input type="text" id="fname" class="input-text" placeholder="{{ number_format($data->nilaikontrak, 2, ',', '.') }}" name="fname" aria-required="true" readonly>
+                                                </div><!-- col-lg-6 -->
+
+                                                <div class="col-lg-6">
+                                                    <h6>Status Kontrak</h6>
+                                                    <input type="text" id="fname" class="input-text" placeholder="{{$data->karakteristikkontrak}}" name="fname" aria-required="true" readonly>
+                                                </div><!-- col-lg-6 -->
+
+                                                <div class="col-lg-3">
+                                                    <h6>Mulai</h6>
+                                                    <input type="text" id="fname" class="input-text" placeholder="{{$data->bulanmulai}}" name="fname" aria-required="true" readonly>
+                                                </div><!-- col-lg-6 -->
+
+                                                <div class="col-lg-3">
+                                                    <h6>Selesai</h6>
+                                                    <input type="text" id="fname" class="input-text" placeholder="{{$data->bulanselesai}}" name="fname" aria-required="true" readonly>
+                                                </div><!-- col-lg-6 -->
+
+                                                <div class="col-lg-12">
+                                                    <h6>Dinas</h6>
+                                                    <input type="text" id="fname" class="input-text" placeholder="{{$data->dinas}}" name="fname" aria-required="true" readonly>
+                                                </div><!-- col-lg-6 -->
+                                            </div><!-- row row-gutter-10 -->
+                                        </form><!-- contact-form -->
+
+                                        </div><!-- donate-box-inner -->
+                                    </div><!-- col-xl-8 col-lg-12 -->
+
+                                </div><!-- row -->
+                            </div><!-- container -->
+                        </section><!-- donate-section -->
+
+
+
+
+
+                    </div><!--service-two-card-content-->
+                </div><!--service-two-card-->
+            </div><!--col-12 col-lg-4 col-xl-4-->
+
+
+        </div><!-- row -->
+    </div><!-- container -->
+</section><!-- service-two-section -->
+
+
+{{-- -------------------------- --}}
+
+
+
+
+
+                    @include('frontend.00_approve.01_cssterpisah.footer1')
+                    @include('frontend.00_approve.01_cssterpisah.footer')

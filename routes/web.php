@@ -139,6 +139,7 @@ Route::get('/datajakon/paketpekerjaantender', [ProfilpaketpekerjaanbloraControll
 Route::get('/datajakon/paketpekerjaantender/{jenispekerjaan}', [ProfilpaketpekerjaanbloraController::class, 'datapaketpekerjaanblorashow']);
 // =--
 Route::get('/datajakon/paketpekerjaannontender', [ProfilpaketpekerjaannontenderController::class, 'paketpekerjaannontender']);
+Route::get('/datajakon/paketpekerjaannontender/{jenispekerjaan}', [ProfilpaketpekerjaannontenderController::class, 'paketpekerjaannontendershow']);
 // =--
 Route::get('/datajakon/paketkonsultasi', [ProfilpaketkonsultasiController::class, 'paketkonsultasi']);
 // =--
