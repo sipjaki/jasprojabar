@@ -11,10 +11,25 @@ return new class extends Migration
      */
     public function up(): void
     {
+
         Schema::create('profilpaketpekerjaanbloras', function (Blueprint $table) {
             $table->id();
+            $table->string('jenispekerjaan')->nullable();
+            $table->string('namapekerjaan')->nullable();
+            $table->year('tahunpelaksanaan')->nullable();
+            $table->string('cvptpenyedia')->nullable();
+            $table->string('nib')->nullable();
+            $table->decimal('nilaikontrak', 15, 2)->nullable(); // Menggunakan tipe decimal untuk nilai kontrak
+            $table->string('sumberdana')->nullable();
+            $table->string('jeniskontrak')->nullable();
+            $table->string('karakteristikkontrak')->nullable();
+            $table->date('bulanmulai')->nullable(); // Menyimpan tanggal mulai
+            $table->date('bulanselesai')->nullable(); // Menyimpan tanggal selesai
+            $table->string('dinas')->nullable();
+            $table->softDeletes();
             $table->timestamps();
         });
+
     }
 
     /**

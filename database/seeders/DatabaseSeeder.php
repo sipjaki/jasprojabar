@@ -75,6 +75,7 @@ use App\Models\skktenagakerjablora;
 use App\Models\skktenagakerjabloralist;
 use App\Models\asosiasiblora;
 use App\Models\asosiasimasjaki;
+use App\Models\profilpaketpekerjaanblora;
 
 // use App\Models\paketpekerjaan;
 use Database\Factories\SkktenagakerjaFactory;
@@ -5668,6 +5669,114 @@ skktenagakerjabloralist::create([
 ]);
 
 // FORT
+//======================== ===================================================================================
+// PROFIL PAKET PEKERJAAN MAS JAKI
+
+profilpaketpekerjaanblora::create([
+    'jenispekerjaan' => 'Pekerjaan Konstruksi Gedung',
+    'namapekerjaan' => 'Pembangunan Gedung Perkantoran Blora',
+    'tahunpelaksanaan' => 2023,
+    'cvptpenyedia' => 'CV. Maju Bersama',
+    'nib' => '1234567890',
+    'nilaikontrak' => 500000000.00,
+    'sumberdana' => 'APBD',
+    'jeniskontrak' => 'Kontrak Pembangunan',
+    'karakteristikkontrak' => 'Konstruksi Gedung Perkantoran',
+    'bulanmulai' => '2023-01-01',
+    'bulanselesai' => '2023-12-31',
+    'dinas' => 'Dinas Pekerjaan Umum Blora',
+]);
+
+profilpaketpekerjaanblora::create([
+    'jenispekerjaan' => 'Pekerjaan Konstruksi Jalan',
+    'namapekerjaan' => 'Pembangunan Jalan Raya Blora',
+    'tahunpelaksanaan' => 2024,
+    'cvptpenyedia' => 'PT. Jalan Jaya',
+    'nib' => '9876543210',
+    'nilaikontrak' => 250000000.00,
+    'sumberdana' => 'APBN',
+    'jeniskontrak' => 'Kontrak Pemeliharaan',
+    'karakteristikkontrak' => 'Pemeliharaan Jalan Raya',
+    'bulanmulai' => '2024-03-01',
+    'bulanselesai' => '2024-11-30',
+    'dinas' => 'Dinas Bina Marga Blora',
+]);
+
+profilpaketpekerjaanblora::create([
+    'jenispekerjaan' => 'Pekerjaan Infrastruktur',
+    'namapekerjaan' => 'Pembangunan Saluran Air Bersih Blora',
+    'tahunpelaksanaan' => 2025,
+    'cvptpenyedia' => 'CV. Air Bersih Sejahtera',
+    'nib' => '5647382910',
+    'nilaikontrak' => 100000000.00,
+    'sumberdana' => 'APBN',
+    'jeniskontrak' => 'Kontrak Penyediaan Infrastruktur',
+    'karakteristikkontrak' => 'Pembangunan Saluran Air Bersih',
+    'bulanmulai' => '2025-06-01',
+    'bulanselesai' => '2025-12-31',
+    'dinas' => 'Dinas Perumahan dan Permukiman Blora',
+]);
+
+profilpaketpekerjaanblora::create([
+    'jenispekerjaan' => 'Pekerjaan Pemeliharaan Jalan',
+    'namapekerjaan' => 'Pemeliharaan Jalan Utama Blora',
+    'tahunpelaksanaan' => 2026,
+    'cvptpenyedia' => 'PT. Jalan Sehat',
+    'nib' => '1029384756',
+    'nilaikontrak' => 150000000.00,
+    'sumberdana' => 'APBD',
+    'jeniskontrak' => 'Kontrak Pemeliharaan',
+    'karakteristikkontrak' => 'Pemeliharaan Jalan Utama',
+    'bulanmulai' => '2026-02-01',
+    'bulanselesai' => '2026-08-31',
+    'dinas' => 'Dinas Pekerjaan Umum Blora',
+]);
+
+profilpaketpekerjaanblora::create([
+    'jenispekerjaan' => 'Pekerjaan Pembangunan Jembatan',
+    'namapekerjaan' => 'Pembangunan Jembatan Sungai Blora',
+    'tahunpelaksanaan' => 2027,
+    'cvptpenyedia' => 'PT. Jembatan Permai',
+    'nib' => '3216549870',
+    'nilaikontrak' => 300000000.00,
+    'sumberdana' => 'APBN',
+    'jeniskontrak' => 'Kontrak Pembangunan',
+    'karakteristikkontrak' => 'Pembangunan Jembatan di atas Sungai Blora',
+    'bulanmulai' => '2027-05-01',
+    'bulanselesai' => '2027-12-31',
+    'dinas' => 'Dinas Bina Marga Blora',
+]);
+
+profilpaketpekerjaanblora::create([
+    'jenispekerjaan' => 'Pekerjaan Renovasi Gedung',
+    'namapekerjaan' => 'Renovasi Gedung Pemerintahan Blora',
+    'tahunpelaksanaan' => 2028,
+    'cvptpenyedia' => 'CV. Renovasi Sejahtera',
+    'nib' => '5463728190',
+    'nilaikontrak' => 200000000.00,
+    'sumberdana' => 'APBD',
+    'jeniskontrak' => 'Kontrak Renovasi',
+    'karakteristikkontrak' => 'Renovasi Gedung Pemerintahan',
+    'bulanmulai' => '2028-04-01',
+    'bulanselesai' => '2028-12-31',
+    'dinas' => 'Dinas Perumahan dan Permukiman Blora',
+]);
+
+profilpaketpekerjaanblora::create([
+    'jenispekerjaan' => 'Pekerjaan Pengadaan Alat Berat',
+    'namapekerjaan' => 'Pengadaan Alat Berat untuk Konstruksi Blora',
+    'tahunpelaksanaan' => 2029,
+    'cvptpenyedia' => 'PT. Alat Berat Nusantara',
+    'nib' => '1938475620',
+    'nilaikontrak' => 80000000.00,
+    'sumberdana' => 'APBN',
+    'jeniskontrak' => 'Kontrak Pengadaan',
+    'karakteristikkontrak' => 'Pengadaan Alat Berat untuk Proyek Konstruksi',
+    'bulanmulai' => '2029-07-01',
+    'bulanselesai' => '2029-12-31',
+    'dinas' => 'Dinas Sumber Daya Alam Blora',
+]);
+
 //======================== ===================================================================================
 // SKK TENAGA KERJA MAS JAKI BLORA
 skktenagakerjablora::create([
