@@ -81,12 +81,26 @@ class DatastatistikajakonbloraController extends Controller
             ->get()
             ->pluck('total', 'jabatankerja_id');
 
+            $jumlahstatistikJenjang = skktenagakerjabloralist::select('jenjang_id', DB::raw('COUNT(*) as jumlah'))
+        ->groupBy('jenjang_id')
+        ->with('jenjang')
+        ->get()
+        ->map(function ($item) {
+            return [
+                'jenjang' => $item->jenjang->jenjang ?? 'Tidak Diketahui',
+                'jumlah' => $item->jumlah,
+            ];
+        });
+
+
         return view('frontend.03_masjaki_jakon.00_datastatistikabujk.datastatistikaskktenagakerja', [
             'title' => 'Data Statistika SKK Tenaga Ahli Berdasarkan Jabatan Kerja',
             'user' => $user,
             'data' => $data,
             'persentaseJabatan' => $persentaseJabatan,
-            'jumlahDatabaru' => $jumlahDatabaru, // Pastikan data ini dikirim ke view
+            'jumlahDatabaru' => $jumlahDatabaru,
+            'jumlahstatistikJenjang' => $jumlahstatistikJenjang,
+            // Pastikan data ini dikirim ke view
         ]);
     }
 
