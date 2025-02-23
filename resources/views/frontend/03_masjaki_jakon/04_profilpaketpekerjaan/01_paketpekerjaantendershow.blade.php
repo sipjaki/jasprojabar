@@ -228,11 +228,38 @@
 
                         <div class="document-details">
 							<div class="document-details-list">
+
                                 <div class="centered-button" style="margin-top: -15px">
                                     <button class="green-button" style="margin-bottom:10px; text-transform:uppercase">
                                         <i class="fas fa-file mr-2" style="margin-right:5px;"></i> PAKET PEKERJAAN TENDER: {{$data->jenispekerjaan}}
                                     </button>
 
+                                </div>
+                                <style>
+                                    .navy-button {
+                                        background-color: navy;
+                                        color: white;
+                                        margin-bottom: 10px;
+                                        text-transform: uppercase;
+                                        border: 2px solid navy;
+                                        padding: 10px 20px;
+                                        cursor: pointer;
+                                        transition: all 0.3s ease;
+                                    }
+
+                                    .navy-button:hover {
+                                        background-color: white;
+                                        color: black;
+                                        border: 2px solid navy;
+                                    }
+                                </style>
+
+                                <div style="position: relative;">
+                                    <div class="centered-button" style="position: absolute; right: 20px; top: -15px;">
+                                        <button class="navy-button" onclick="window.history.back();">
+                                            <i class="fas fa-arrow-left mr-2" style="margin-right:5px;"></i> Kembali
+                                        </button>
+                                    </div>
                                 </div>
 
 
