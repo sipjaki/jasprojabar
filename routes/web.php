@@ -130,9 +130,9 @@ Route::get('/datajakon/skktenagakerjabloralist', [SkktenagakerjabloraController:
 Route::get('/datajakon/skktenagakerjabloralist/{nama}', [SkktenagakerjabloraController::class, 'datalistskktenagakerjablorashow']);
 
 // BUAT BARU UNTUK APLIKASI PROFIL PAKET PEKERJAAN
-Route::get('/datajakon/paketpekerjaanblora', [ProfilpaketpekerjaanbloraController::class, 'index']);
-Route::get('/datajakon/datapaketpekerjaanblora', [ProfilpaketpekerjaanbloraController::class, 'datapaketpekerjaanblora']);
-Route::get('/datajakon/datapaketpekerjaanblora/{nama}', [ProfilpaketpekerjaanbloraController::class, 'datapaketpekerjaanblorashow']);
+Route::get('/datajakon/datapaketpekerjaanblora', [ProfilpaketpekerjaanbloraController::class, 'index']);
+Route::get('/datajakon/paketpekerjaanblora', [ProfilpaketpekerjaanbloraController::class, 'datapaketpekerjaanblora']);
+// Route::get('/datajakon/paketpekerjaanblora/{nama}', [ProfilpaketpekerjaanbloraController::class, 'datapaketpekerjaanblorashow']);
 
 
 // ------------- HALAMAN UNTUK DATA SERTIFIKASI TENAGA KERJA AHLI -----------------
