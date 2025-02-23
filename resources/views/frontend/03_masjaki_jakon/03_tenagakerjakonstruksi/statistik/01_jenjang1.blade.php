@@ -85,6 +85,35 @@
 
                             </script>
 
+                                <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+                                <script type="text/javascript">
+                                google.charts.load('current', {'packages':['table']});
+                                google.charts.setOnLoadCallback(drawTable);
+
+                                function drawTable() {
+                                    var data = new google.visualization.DataTable();
+                                    data.addColumn('string', 'Jabatan Kerja');
+                                    data.addColumn('number', 'Jumlah');
+                                    data.addColumn('string', 'Persentase');
+
+                                    data.addRows([
+                                    @foreach($datastatistikJabatanKerja as $item)
+                                        ['{{ $item['datajabatankerja'] }}', {{ $item['jumlah'] }}, '{{ $item['persentase'] }}%'],
+                                    @endforeach
+                                    ]);
+
+                                    var table = new google.visualization.Table(document.getElementById('table_div'));
+
+                                    table.draw(data, {showRowNumber: true, width: '100%', height: '100%'});
+                                }
+                                </script>
+
+                                <body>
+                                    <div id="table_div"></div>
+                                </body>
+
+
+
                         <div id="table_div"></div>
 						</div><!-- sidebar-widget-list-inner -->
                         <div class="sidebar-widget-list-inner">
@@ -158,35 +187,8 @@
 
                 </div><!-- col-lg-8 -->
 
-                <div class="col-12 col-lg-12 col-xl-12" style="margin-top:25px;">
+                <div class="col-12 col-lg-8 col-xl-8" style="margin-top:25px;">
 					<div class="department-details-box">
-
-                        <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
-                    <script type="text/javascript">
-                    google.charts.load('current', {'packages':['table']});
-                    google.charts.setOnLoadCallback(drawTable);
-
-                    function drawTable() {
-                        var data = new google.visualization.DataTable();
-                        data.addColumn('string', 'Jabatan Kerja');
-                        data.addColumn('number', 'Jumlah');
-                        data.addColumn('string', 'Persentase');
-
-                        data.addRows([
-                        @foreach($datastatistikJabatanKerja as $item)
-                            ['{{ $item['datajabatankerja'] }}', {{ $item['jumlah'] }}, '{{ $item['persentase'] }}%'],
-                        @endforeach
-                        ]);
-
-                        var table = new google.visualization.Table(document.getElementById('table_div'));
-
-                        table.draw(data, {showRowNumber: true, width: '100%', height: '100%'});
-                    }
-                    </script>
-
-                    <body>
-                        <div id="table_div"></div>
-                    </body>
 
 
 						<p style="text-align: justify;">
