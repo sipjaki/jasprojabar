@@ -182,58 +182,58 @@
                                             </div>
 
                                             <form action="#" class="contact-form donation" method="post">
-    <div class="row row-gutter-10">
-        <div class="col-lg-6">
-            <h6>Nama Pemilik</h6>
-            <input type="text" id="fname" class="input-text" placeholder="{{$data->namalengkap}}" name="fname" aria-required="true" readonly>
-        </div><!-- col-lg-6 -->
+                                            <div class="row row-gutter-10">
+                                                <div class="col-lg-4">
+                                                    <h6>Jenis Pekerjaan</h6>
+                                                    <input type="text" id="fname" class="input-text" placeholder="{{$data->jenispekerjaan}}" name="fname" aria-required="true" readonly>
+                                                </div><!-- col-lg-6 -->
 
-        <div class="col-lg-3">
-            <h6>No Telepon</h6>
-            <input type="text" id="fname" class="input-text" placeholder="{{$data->no_telepon}}" name="fname" aria-required="true" readonly>
-        </div><!-- col-lg-3 -->
+                                                <div class="col-lg-8">
+                                                    <h6>Nama Pekerjaan</h6>
+                                                    <input type="text" id="fname" class="input-text" placeholder="{{$data->namapekerjaan}}" name="fname" aria-required="true" readonly>
+                                                </div><!-- col-lg-3 -->
 
-        <div class="col-lg-3">
-            <h6>Nomor Induk Berusaha</h6>
-            <input type="text" id="fname" class="input-text" placeholder="{{$data->nib}}" name="fname" aria-required="true" readonly>
-        </div><!-- col-lg-3 -->
+                                                <div class="col-lg-3">
+                                                    <h6>Pelaksanaan</h6>
+                                                    <input type="text" id="fname" class="input-text" placeholder="{{$data->tahunpelaksanaan}}" name="fname" aria-required="true" readonly>
+                                                </div><!-- col-lg-3 -->
 
-        <div class="col-lg-12">
-            <h6>Alamat</h6>
-            <input type="text" id="fname" class="input-text" placeholder="{{$data->alamat}}" name="fname" aria-required="true" readonly>
-        </div><!-- col-lg-12 -->
+                                                <div class="col-lg-3">
+                                                    <h6>Penyedia</h6>
+                                                    <input type="text" id="fname" class="input-text" placeholder="{{$data->cvptpenyedia}}" name="fname" aria-required="true" readonly>
+                                                </div><!-- col-lg-12 -->
 
-        <div class="col-lg-6">
-            <h6>Email</h6>
-            <input type="text" id="fname" class="input-text" placeholder="{{$data->email}}" name="fname" aria-required="true" readonly>
-        </div><!-- col-lg-6 -->
+                                                <div class="col-lg-3">
+                                                    <h6>NIb</h6>
+                                                    <input type="text" id="fname" class="input-text" placeholder="{{$data->nib}}" name="fname" aria-required="true" readonly>
+                                                </div><!-- col-lg-6 -->
 
-        <div class="col-lg-6">
-            <h6>Penanggung Jawab Umum</h6>
-            <input type="text" id="fname" class="input-text" placeholder="{{$data->pju}}" name="fname" aria-required="true" readonly>
-        </div><!-- col-lg-6 -->
+                                                <div class="col-lg-3">
+                                                    <h6>Kontrak</h6>
+                                                    <input type="text" id="fname" class="input-text" placeholder="{{$data->nilaikontrak}}" name="fname" aria-required="true" readonly>
+                                                </div><!-- col-lg-6 -->
 
-        <div class="col-lg-6">
-            <h6>No Akte</h6>
-            <input type="text" id="fname" class="input-text" placeholder="{{$data->no_akte}}" name="fname" aria-required="true" readonly>
-        </div><!-- col-lg-6 -->
+                                                <div class="col-lg-3">
+                                                    <h6>Status Kontrak</h6>
+                                                    <input type="text" id="fname" class="input-text" placeholder="{{$data->karakteristikkontrak}}" name="fname" aria-required="true" readonly>
+                                                </div><!-- col-lg-6 -->
 
-        <div class="col-lg-6">
-            <h6>Tanggal</h6>
-            <input type="text" id="fname" class="input-text" placeholder="{{$data->tanggal}}" name="fname" aria-required="true" readonly>
-        </div><!-- col-lg-6 -->
+                                                <div class="col-lg-3">
+                                                    <h6>Mulai</h6>
+                                                    <input type="text" id="fname" class="input-text" placeholder="{{$data->bulanmulai}}" name="fname" aria-required="true" readonly>
+                                                </div><!-- col-lg-6 -->
 
-        <div class="col-lg-6">
-            <h6>Notaris</h6>
-            <input type="text" id="fname" class="input-text" placeholder="{{$data->nama_notaris}}" name="fname" aria-required="true" readonly>
-        </div><!-- col-lg-6 -->
+                                                <div class="col-lg-3">
+                                                    <h6>Selesai</h6>
+                                                    <input type="text" id="fname" class="input-text" placeholder="{{$data->bulanselesai}}" name="fname" aria-required="true" readonly>
+                                                </div><!-- col-lg-6 -->
 
-        <div class="col-lg-6">
-            <h6>No Pengesahan</h6>
-            <input type="text" id="fname" class="input-text" placeholder="{{$data->no_pengesahan}}" name="fname" aria-required="true" readonly>
-        </div><!-- col-lg-6 -->
-    </div><!-- row row-gutter-10 -->
-</form><!-- contact-form -->
+                                                <div class="col-lg-6">
+                                                    <h6>Dinas</h6>
+                                                    <input type="text" id="fname" class="input-text" placeholder="{{$data->dinas}}" name="fname" aria-required="true" readonly>
+                                                </div><!-- col-lg-6 -->
+                                            </div><!-- row row-gutter-10 -->
+                                        </form><!-- contact-form -->
 
                                         </div><!-- donate-box-inner -->
                                     </div><!-- col-xl-8 col-lg-12 -->
