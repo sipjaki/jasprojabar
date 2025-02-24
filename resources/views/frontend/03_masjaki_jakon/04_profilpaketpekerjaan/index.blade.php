@@ -44,7 +44,7 @@
                 </div><!--service-two-card-->
             </div><!--col-12 col-lg-4 col-xl-4-->
 
-            <div class="col-12 col-lg-3 col-xl-3">
+            {{-- <div class="col-12 col-lg-3 col-xl-3">
                 <div class="service-two-card">
                     <div class="service-two-imgbox" >
                         <div class="service-two-image" style="display: flex; justify-content: center;">
@@ -61,9 +61,9 @@
                         </a>
                     </div><!--service-two-card-content-->
                 </div><!--service-two-card-->
-            </div><!--col-12 col-lg-4 col-xl-4-->
+            </div><!--col-12 col-lg-4 col-xl-4--> --}}
 
-            <div class="col-12 col-lg-3 col-xl-3">
+            {{-- <div class="col-12 col-lg-3 col-xl-3">
                 <div class="service-two-card">
                     <div class="service-two-imgbox" >
                         <div class="service-two-image" style="display: flex; justify-content: center;">
@@ -80,9 +80,9 @@
                         </a>
                     </div><!--service-two-card-content-->
                 </div><!--service-two-card-->
-            </div><!--col-12 col-lg-4 col-xl-4-->
+            </div><!--col-12 col-lg-4 col-xl-4--> --}}
 
-            <div class="col-12 col-lg-3 col-xl-3">
+            {{-- <div class="col-12 col-lg-3 col-xl-3">
                 <div class="service-two-card">
                     <div class="service-two-imgbox" >
                         <div class="service-two-image" style="display: flex; justify-content: center;">
@@ -99,7 +99,7 @@
                         </a>
                     </div><!--service-two-card-content-->
                 </div><!--service-two-card-->
-            </div><!--col-12 col-lg-4 col-xl-4-->
+            </div><!--col-12 col-lg-4 col-xl-4--> --}}
 
             <div class="col-12 col-lg-3 col-xl-3">
                 <div class="service-two-card">
