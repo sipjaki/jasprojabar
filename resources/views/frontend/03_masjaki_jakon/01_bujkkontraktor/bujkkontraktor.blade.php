@@ -160,6 +160,10 @@ color: #45a049;
                                             <i class="fas fa-arrow-circle-left mr-2" style="margin-right: 15px;"></i> KEMBALI
                                         </button>
                                     </a>
+                                    <div style="display: flex; justify-content: flex-end; width: 100%; margin-top: 10px;">
+                                        <input type="search" placeholder="Cari..." style="border: 1px solid #ccc; padding: 5px 10px; font-size: 14px; border-radius: 5px; width: 200px;">
+                                    </div>
+
                                 </div>
                                 </ul>
                             </div>
