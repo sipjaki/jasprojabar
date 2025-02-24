@@ -147,7 +147,7 @@ color: #45a049;
                         <section class="document-section" style="margin-top: -100px;">
                             <div class="container" >
                               <ul class="nav nav-pills" id="pills-tab" role="tablist">
-                                <img src="/assets/icon/logokabupatenblora.png" class="img-fluid" alt="img-25" width="50" style="margin-right: 20px;" loading="lazy">
+                                <img src="/assets/icon/logokabupatenblora.png" class="img-fluid" alt="img-25" width="50" height="50" style="margin-right: 20px;" loading="lazy">
                                 {{-- <img src="/assets/icon/logopupr.png" class="img-fluid" alt="img-25" width="50" style="margin-right: 20px;" loading="lazy"> --}}
                                 <p style="font-size: 16px; color:black; margin-top:10px;">Dinas Pekerjaan Umum dan Penataan Ruang Kabupaten Blora</p>
                                 <div style="display: flex; justify-content: space-between; width: 100%; align-items: center; margin-top: 20px;">
