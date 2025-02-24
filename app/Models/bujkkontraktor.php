@@ -18,9 +18,9 @@ class bujkkontraktor extends Model
         return $this->belongsTo(bujkkontraktorsub::class);
     }
 
-    public function asosiasimasjaki()
-    {
-        return $this->belongsTo(asosiasimasjaki::class);
-    }
+        public function asosiasimasjaki()
+        {
+            return $this->belongsTo(asosiasimasjaki::class);
+        }
 
 }
