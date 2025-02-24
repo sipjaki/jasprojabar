@@ -16,12 +16,12 @@ class PembinaanController extends Controller
     public function index()
     {
         $user = Auth::user();
-        $data = pembinaan::paginate(15);
+        // $data = pembinaan::paginate(15);
 
         return view('frontend.04_pembinaan.01_agendapembinaan.index', [
             'title' => 'Agenda Pembinaan',
             'user' => $user, // Mengirimkan data paginasi ke view
-            'data' => $data, // Mengirimkan data paginasi ke view
+            // 'data' => $data, // Mengirimkan data paginasi ke view
         ]);
     }
 
