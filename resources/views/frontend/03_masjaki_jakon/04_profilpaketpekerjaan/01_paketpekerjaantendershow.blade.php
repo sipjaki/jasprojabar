@@ -267,7 +267,7 @@ color: #45a049;
                                                 <img src="/assets/00_dokmasjaki/03_datajakon/prosespaket.png" class="img-fluid" alt="img-25" width="250" style="margin-left: 50px;">
                                             </div><!-- history-card-image -->
 
-                                            <div class="history-card-meta">
+                                            <div class="history-card-meta history-card-data-content">
                                                 <div class="history-card-years {{ $data->prosespaket->pelaksanaan == 'BELUM' ? 'bg-danger text-white' : '' }}">
                                                     {{$data->prosespaket->pelaksanaan}}
                                                 </div>
