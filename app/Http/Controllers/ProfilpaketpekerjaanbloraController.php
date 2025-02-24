@@ -3,7 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\profilpaketpekerjaanblora;
-
+use App\Models\prosespaket;
 use Illuminate\Http\Request;
 
 use Illuminate\Support\Facades\Auth;
@@ -40,6 +40,8 @@ class ProfilpaketpekerjaanbloraController extends Controller
     {
         $data = profilpaketpekerjaanblora::where('jenispekerjaan', $jenispekerjaan)->first();
 
+        $datasub = prosespaket::paginate(10);
+
         // if (!$databujkkontraktor) {
         //     // Tangani jika kegiatan tidak ditemukan
         //     return redirect()->back()->with('error', 'Kegiatan tidak ditemukan.');
@@ -58,6 +60,8 @@ class ProfilpaketpekerjaanbloraController extends Controller
     return view('frontend.03_masjaki_jakon.04_profilpaketpekerjaan.01_paketpekerjaantendershow', [
         'title' => 'Profil Paket Pekerjaan Konstruksi & Konsultasi Kabupaten Blora',
         'data' => $data,
+        'user' => $user,
+        'datasub' => $datasub,
 
     ]);
     }
