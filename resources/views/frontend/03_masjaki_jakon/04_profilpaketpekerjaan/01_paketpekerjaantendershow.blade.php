@@ -267,7 +267,7 @@ color: #45a049;
 
                                             </div><!-- history-card-image -->
                                             <div class="history-card-meta history-card-data-content">
-                                                <div class="history-card-years">1998</div>
+                                                <div class="history-card-years">1</div>
                                                 {{-- <div class="history-card-date">1 May</div> --}}
                                             </div><!-- history-card-meta -->
                                             <div class="history-card-detail"></div><!-- history-card-detail -->
@@ -284,7 +284,7 @@ color: #45a049;
                                                 <p>Many desktop publishing packages and web page editors now use Lorem Ipsum as their web sites still in their infancy.</p>
                                             </div><!-- history-card-content -->
                                             <div class="history-card-meta meta-box">
-                                                <div class="history-card-years">2000</div>
+                                                <div class="history-card-years">2</div>
                                                 {{-- <div class="history-card-date">3 June</div> --}}
                                             </div><!-- history-card-meta -->
                                             <div class="history-card-option"></div><!-- history-card-option -->
@@ -301,7 +301,7 @@ color: #45a049;
 
                                             </div><!-- history-card-image -->
                                             <div class="history-card-meta">
-                                                <div class="history-card-years">2000</div>
+                                                <div class="history-card-years">3</div>
                                                 {{-- <div class="history-card-date">5 December</div> --}}
                                             </div><!-- history-card-meta -->
                                             <div class="history-card-detail"></div><!-- history-card-detail -->
@@ -318,7 +318,7 @@ color: #45a049;
                                                 <p>Many desktop publishing packages and web page editors now use Lorem Ipsum as their web sites still in their infancy.</p>
                                             </div><!-- history-card-content -->
                                             <div class="history-card-meta meta-box">
-                                                <div class="history-card-years">2004</div>
+                                                <div class="history-card-years">4</div>
                                                 {{-- <div class="history-card-date">7 March</div> --}}
                                             </div><!-- history-card-meta -->
                                             <div class="history-card-option"></div><!-- history-card-option -->
@@ -335,7 +335,7 @@ color: #45a049;
 
                                             </div><!-- history-card-image -->
                                             <div class="history-card-meta">
-                                                <div class="history-card-years">2016</div>
+                                                <div class="history-card-years">5</div>
                                                 {{-- <div class="history-card-date">9 September</div> --}}
                                             </div><!-- history-card-meta -->
                                             <div class="history-card-detail"></div><!-- history-card-detail -->
