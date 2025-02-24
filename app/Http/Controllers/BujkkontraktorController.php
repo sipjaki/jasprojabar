@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\asosiasimasjaki;
 use App\Models\bujkkontraktor;
 use App\Models\bujkkontraktorsub;
 use Illuminate\Http\Request;
@@ -23,6 +24,19 @@ class BujkkontraktorController extends Controller
             'user' => $user, // Mengirimkan data paginasi ke view
         ]);
     }
+
+    public function asosiasimasjaki()
+    {
+        $user = Auth::user();
+        $data = asosiasimasjaki::paginate(15);
+
+        return view('frontend.03_masjaki_jakon.05_asosiasimasjaki.index', [
+            'title' => 'Asosiasi Konstruksi dan Konstruksi Konsultasi',
+            'user' => $user, // Mengirimkan data paginasi ke view
+            'data' => $data, // Mengirimkan data paginasi ke view
+        ]);
+    }
+
 
     public function bujkkontraktor()
     {
