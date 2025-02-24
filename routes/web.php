@@ -23,6 +23,7 @@ use App\Http\Controllers\ProfilpaketpekerjaanbloraController;
 use App\Http\Controllers\ProfilpaketpekerjaannontenderController;
 use App\Http\Controllers\ProfilpaketkonsultasiController;
 use App\Http\Controllers\ProfilpaketkonsultasinontenderController;
+use App\Http\Controllers\PembinaanController;
 use App\Http\Controllers\UndangundangController;
 use Database\Factories\DatajakonFactory;
 use Database\Factories\SkktenagakerjaFactory;
@@ -147,6 +148,10 @@ Route::get('/datajakon/paketkonsultasitender/{jenispekerjaan}', [Profilpaketkons
 Route::get('/datajakon/paketkonsultasinontender', [ProfilpaketkonsultasinontenderController::class, 'paketkonsultasinontender']);
 Route::get('/datajakon/paketkonsultasinontender/{jenispekerjaan}', [ProfilpaketkonsultasinontenderController::class, 'paketkonsultasinontendershow']);
 
+// ------------- HALAMAN AGENDA PEMBINAAN MAS JAKI BLORA -----------------
+Route::get('/agendapembinaan', [PembinaanController::class, 'index']);
+
+// fort
 
 // ------------- HALAMAN UNTUK DATA SERTIFIKASI TENAGA KERJA AHLI -----------------
 
