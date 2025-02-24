@@ -153,7 +153,7 @@ color: #45a049;
                                 <br><p style="font-size: 16px; color:black;">Dinas Pekerjaan Umum dan Penataan Ruang Kabupaten Blora</p>
                                 <div style="display: flex; justify-content: space-between; width: 100%; align-items: center; margin-top: 20px;">
                                     <!-- Tombol di kiri -->
-                                    <a href="/datajakon/bujk" style="background: white;">
+                                    <a href="#" style="background: white;">
                                         <button class="badgekembali" style="border: none; font-size: 12px; cursor: pointer;">
                                             <i class="fas fa-list mr-2" style="margin-right: 10px;"></i> <span style="text-transform: uppercase">{{$title}}</span>
                                         </button>
