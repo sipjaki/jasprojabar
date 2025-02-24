@@ -127,7 +127,7 @@ color: #45a049;
 	</section><!--page-banner-->
 
     {{-- <section class="service-two-section" > --}}
-        <section class="service-two-section" style="background-image: url('/assets/00_dokmasjaki/03_datajakon/bannerbetter.jpg');">
+        <section class="service-two-section" style="background-image: url('/assets/00_dokmasjaki/03_datajakon/banner1.jpg');">
         <div class="container">
             <div class="row row-gutter-y-40">
 
