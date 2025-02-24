@@ -36,9 +36,6 @@
 						</div><!-- sidebar-widget-list-inner -->
 						<div class="sidebar-widget-list-inner">
 
-
-
-
                         <div id="table_div"></div>
 						</div><!-- sidebar-widget-list-inner -->
                         <div class="sidebar-widget-list-inner">
@@ -97,83 +94,6 @@
                             }
                         </script>
                         </div><!-- department-details-content-box -->
-
-                        <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
-                        <script type="text/javascript">
-                          google.charts.load('current', {'packages':['table']});
-                          google.charts.setOnLoadCallback(drawTable);
-
-                          function drawTable() {
-                            var data = new google.visualization.DataTable();
-                            data.addColumn('string', 'Jenjang');
-                            data.addColumn('number', 'Jumlah');
-
-                            data.addRows([
-                                @foreach($statistikJenjang as $item)
-                                    ['{{ $item['jenjang'] }}', {{ $item['jumlah'] }}],
-                                @endforeach
-                            ]);
-
-                            var table = new google.visualization.Table(document.getElementById('table_div'));
-                            table.draw(data, {showRowNumber: true, width: '100%', height: '100%'});
-                          }
-
-                          setTimeout(() => {
-                                document.querySelectorAll('#table_div table').forEach((table) => {
-                                    table.style.borderCollapse = 'collapse';
-                                    table.style.width = '100%';
-                                    table.style.boxShadow = '0px 4px 8px rgba(0, 0, 0, 0.1)';
-                                    table.style.borderRadius = '8px';
-                                    table.style.overflow = 'hidden';
-                                });
-
-                                document.querySelectorAll('#table_div th').forEach((th) => {
-                                    th.style.backgroundColor = '#2ECC71';
-                                    th.style.color = 'black';
-                                    th.style.textTransform = 'uppercase';
-                                    th.style.padding = '12px';
-                                    th.style.textAlign = 'left';
-                                });
-
-                                document.querySelectorAll('#table_div tr:nth-child(even)').forEach((tr) => {
-                                    tr.style.backgroundColor = '#ffffff';
-                                });
-
-                                document.querySelectorAll('#table_div tr:hover').forEach((tr) => {
-                                    tr.style.backgroundColor = '#ffffff';
-                                });
-
-                                }, 500);
-
-                        </script>
-
-                            <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
-                            <script type="text/javascript">
-                            google.charts.load('current', {'packages':['table']});
-                            google.charts.setOnLoadCallback(drawTable);
-
-                            function drawTable() {
-                                var data = new google.visualization.DataTable();
-                                data.addColumn('string', 'Jabatan Kerja');
-                                data.addColumn('number', 'Jumlah');
-                                data.addColumn('string', 'Persentase');
-
-                                data.addRows([
-                                @foreach($datastatistikJabatanKerja as $item)
-                                    ['{{ $item['datajabatankerja'] }}', {{ $item['jumlah'] }}, '{{ $item['persentase'] }}%'],
-                                @endforeach
-                                ]);
-
-                                var table = new google.visualization.Table(document.getElementById('table_div'));
-
-                                table.draw(data, {showRowNumber: true, width: '100%', height: '100%'});
-                            }
-                            </script>
-
-                            <body>
-                                <div id="table_div"></div>
-                            </body>
-
                         <div class="department-details-box">
 
 
@@ -186,6 +106,86 @@
 
 
                 </div><!-- col-lg-8 -->
+
+
+                <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+                <script type="text/javascript">
+                  google.charts.load('current', {'packages':['table']});
+                  google.charts.setOnLoadCallback(drawTable);
+
+                  function drawTable() {
+                    var data = new google.visualization.DataTable();
+                    data.addColumn('string', 'Jenjang');
+                    data.addColumn('number', 'Jumlah');
+
+                    data.addRows([
+                        @foreach($statistikJenjang as $item)
+                            ['{{ $item['jenjang'] }}', {{ $item['jumlah'] }}],
+                        @endforeach
+                    ]);
+
+                    var table = new google.visualization.Table(document.getElementById('table_div'));
+                    table.draw(data, {showRowNumber: true, width: '100%', height: '100%'});
+                  }
+
+                  setTimeout(() => {
+                        document.querySelectorAll('#table_div table').forEach((table) => {
+                            table.style.borderCollapse = 'collapse';
+                            table.style.width = '100%';
+                            table.style.boxShadow = '0px 4px 8px rgba(0, 0, 0, 0.1)';
+                            table.style.borderRadius = '8px';
+                            table.style.overflow = 'hidden';
+                        });
+
+                        document.querySelectorAll('#table_div th').forEach((th) => {
+                            th.style.backgroundColor = '#2ECC71';
+                            th.style.color = 'black';
+                            th.style.textTransform = 'uppercase';
+                            th.style.padding = '12px';
+                            th.style.textAlign = 'left';
+                        });
+
+                        document.querySelectorAll('#table_div tr:nth-child(even)').forEach((tr) => {
+                            tr.style.backgroundColor = '#ffffff';
+                        });
+
+                        document.querySelectorAll('#table_div tr:hover').forEach((tr) => {
+                            tr.style.backgroundColor = '#ffffff';
+                        });
+
+                        }, 500);
+
+                </script>
+
+                    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+                    <script type="text/javascript">
+                    google.charts.load('current', {'packages':['table']});
+                    google.charts.setOnLoadCallback(drawTable);
+
+                    function drawTable() {
+                        var data = new google.visualization.DataTable();
+                        data.addColumn('string', 'Jabatan Kerja');
+                        data.addColumn('number', 'Jumlah');
+                        data.addColumn('string', 'Persentase');
+
+                        data.addRows([
+                        @foreach($datastatistikJabatanKerja as $item)
+                            ['{{ $item['datajabatankerja'] }}', {{ $item['jumlah'] }}, '{{ $item['persentase'] }}%'],
+                        @endforeach
+                        ]);
+
+                        var table = new google.visualization.Table(document.getElementById('table_div'));
+
+                        table.draw(data, {showRowNumber: true, width: '100%', height: '100%'});
+                    }
+                    </script>
+
+                    <body>
+                        <div id="table_div"></div>
+                    </body>
+
+
+
 
 			</div><!-- row -->
 		</div><!-- container -->
