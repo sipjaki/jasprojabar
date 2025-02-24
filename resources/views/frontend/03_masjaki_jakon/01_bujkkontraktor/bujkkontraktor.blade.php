@@ -151,7 +151,7 @@ color: #45a049;
                                 <div style="display: flex; justify-content: space-between; width: 100%;" style="margin-top: 10px;">
                                     <a href="/datajakon/bujk" style="background: white;">
                                         <button class="badgekembali" style="border: none; font-size: 12px; cursor: pointer;">
-                                            <i class="fas fa-list mr-2" style="margin-right: 10px;"></i> {{$title}}
+                                            <i class="fas fa-list mr-2" style="margin-right: 10px;"></i> <span style="text-transform: uppercase">{{$title}}</span>
                                         </button>
                                     </a>
 
