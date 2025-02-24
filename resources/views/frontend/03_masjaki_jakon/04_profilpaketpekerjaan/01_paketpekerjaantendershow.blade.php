@@ -353,11 +353,11 @@ color: #45a049;
                                                 <p>Many desktop publishing packages and web page editors now use Lorem Ipsum as their web sites still in their infancy.</p>
                                             </div><!-- history-card-content -->
                                             <div class="history-card-meta meta-box">
-                                                <div class="history-card-years">Paket Selesai</div>
+                                                <div class="history-card-years">Laporan</div>
                                                 {{-- <div class="history-card-date">15 September</div> --}}
                                             </div><!-- history-card-meta -->
                                             <div class="history-card-image">
-                                                <img src="/assets/icon/logokabupatenblora.png" class="img-fluid" alt="img-26">
+                                                <img src="/assets/icon/logopupr.png" class="img-fluid" alt="img-26">
                                             </div><!-- history-card-image -->
                                         </div><!-- history-card-item -->
                                     </div><!-- history-card-list -->
