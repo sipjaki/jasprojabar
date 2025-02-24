@@ -166,8 +166,11 @@ color: #45a049;
                                                 <i class="fas fa-arrow-circle-left mr-2" style="margin-right: 15px;"></i> KEMBALI
                                             </button>
                                         </a>
+                                        <div style="position: relative; display: inline-block;">
+                                            <input type="search" placeholder="Cari..." style="border: 1px solid #ccc; padding: 5px 10px; font-size: 14px; border-radius: 5px; width: 200px;">
+                                            <i class="fas fa-search" style="position: absolute; right: 10px; top: 50%; transform: translateY(-50%); font-size: 16px; color: #888;"></i>
+                                        </div>
 
-                                        <input type="search" placeholder="Cari..." style="border: 1px solid #ccc; padding: 5px 10px; font-size: 14px; border-radius: 5px; width: 200px;">
                                     </div>
                                 </div>
 
