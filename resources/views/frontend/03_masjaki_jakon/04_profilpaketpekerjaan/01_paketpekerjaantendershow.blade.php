@@ -268,7 +268,7 @@ color: #45a049;
                                             </div><!-- history-card-image -->
                                             <div class="history-card-meta history-card-data-content">
                                                 <div class="history-card-years">1998</div>
-                                                <div class="history-card-date">1 May</div>
+                                                {{-- <div class="history-card-date">1 May</div> --}}
                                             </div><!-- history-card-meta -->
                                             <div class="history-card-detail"></div><!-- history-card-detail -->
                                             <div class="history-card-content">
@@ -285,7 +285,7 @@ color: #45a049;
                                             </div><!-- history-card-content -->
                                             <div class="history-card-meta meta-box">
                                                 <div class="history-card-years">2000</div>
-                                                <div class="history-card-date">3 June</div>
+                                                {{-- <div class="history-card-date">3 June</div> --}}
                                             </div><!-- history-card-meta -->
                                             <div class="history-card-option"></div><!-- history-card-option -->
                                             <div class="history-card-image">
@@ -302,7 +302,7 @@ color: #45a049;
                                             </div><!-- history-card-image -->
                                             <div class="history-card-meta">
                                                 <div class="history-card-years">2000</div>
-                                                <div class="history-card-date">5 December</div>
+                                                {{-- <div class="history-card-date">5 December</div> --}}
                                             </div><!-- history-card-meta -->
                                             <div class="history-card-detail"></div><!-- history-card-detail -->
                                             <div class="history-card-content">
@@ -319,7 +319,7 @@ color: #45a049;
                                             </div><!-- history-card-content -->
                                             <div class="history-card-meta meta-box">
                                                 <div class="history-card-years">2004</div>
-                                                <div class="history-card-date">7 March</div>
+                                                {{-- <div class="history-card-date">7 March</div> --}}
                                             </div><!-- history-card-meta -->
                                             <div class="history-card-option"></div><!-- history-card-option -->
                                             <div class="history-card-image">
@@ -336,7 +336,7 @@ color: #45a049;
                                             </div><!-- history-card-image -->
                                             <div class="history-card-meta">
                                                 <div class="history-card-years">2016</div>
-                                                <div class="history-card-date">9 September</div>
+                                                {{-- <div class="history-card-date">9 September</div> --}}
                                             </div><!-- history-card-meta -->
                                             <div class="history-card-detail"></div><!-- history-card-detail -->
                                             <div class="history-card-content">
