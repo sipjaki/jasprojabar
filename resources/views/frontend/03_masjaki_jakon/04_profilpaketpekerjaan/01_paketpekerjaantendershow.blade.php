@@ -230,12 +230,12 @@ color: #45a049;
 
                                                     <div class="col-lg-3">
                                                         <h6><i class="fas fa-cogs mr-2" style="margin-right: 5px;"></i>Mulai</h6>
-                                                        <input type="text" id="fname" class="input-text" placeholder="{{$data->jenjang->bulanmulai}}" name="fname" aria-required="true" readonly>
+                                                        <input type="text" id="fname" class="input-text" placeholder="{{$data->bulanmulai}}" name="fname" aria-required="true" readonly>
                                                     </div><!-- col-lg-6 -->
 
                                                     <div class="col-lg-12">
                                                         <h6><i class="fas fa-pencil-alt mr-2" style="margin-right: 5px;"></i>Selesai</h6>
-                                                        <input type="text" id="fname" class="input-text" placeholder="{{$data->lpspenerbit->bulanselesai}}" name="fname" aria-required="true" readonly>
+                                                        <input type="text" id="fname" class="input-text" placeholder="{{$data->bulanselesai}}" name="fname" aria-required="true" readonly>
                                                     </div><!-- col-lg-6 -->
 
                                                     <div class="col-lg-4">
