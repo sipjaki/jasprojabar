@@ -48,7 +48,7 @@ class BujkkontraktorController extends Controller
         }
 
         // Menggunakan paginate() untuk pagination
-        $subdata = bujkkontraktorsub::where('bujkkontraktor_id', $databujkkontraktor->id)->all(10);
+        $subdata = bujkkontraktorsub::where('bujkkontraktor_id', $databujkkontraktor->id)->paginate(20);
 
           // Menghitung nomor urut mulai
             $start = ($subdata->currentPage() - 1) * $subdata->perPage() + 1;
