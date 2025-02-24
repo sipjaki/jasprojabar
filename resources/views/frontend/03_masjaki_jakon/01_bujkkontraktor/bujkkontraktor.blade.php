@@ -165,14 +165,14 @@ color: #45a049;
                                     <th style="text-align:center"> No</th>
                                     <th style="text-align:center"> Nama Pemilik</th>
                                     <th style="text-align:center" >Alamat</th>
-                                    <th style="text-align:center" >No Telepon</th>
+                                    {{-- <th style="text-align:center" >No Telepon</th> --}}
                                     <th style="text-align:center" >Email</th>
-                                    <th style="text-align:center" >NIB</th>
+                                    {{-- <th style="text-align:center" >NIB</th> --}}
                                     <th style="text-align:center" >PJU</th>
-                                    <th style="text-align:center" >Akte</th>
+                                    {{-- <th style="text-align:center" >Akte</th> --}}
                                     <th style="text-align:center" >Tanggal</th>
-                                    <th style="text-align:center" >Notaris</th>
-                                    <th style="text-align:center" >Pengesahan</th>
+                                    {{-- <th style="text-align:center" >Notaris</th> --}}
+                                    {{-- <th style="text-align:center" >Pengesahan</th> --}}
                                     <th style="text-align:center" >View</th>
                                 </tr>
                             </thead>
@@ -192,7 +192,8 @@ color: #45a049;
                                     <td>{{$item->nib}}</td>
                                     <td>{{$item->pju}}</td>
                                     <td>{{$item->no_akte}}</td>
-                                    <td>{{$item->tanggal}}</td>
+                                    {{-- <td>{{$item->tanggal}}</td> --}}
+                                    <td>{{ \Carbon\Carbon::parse($item->tanggal)->isoFormat('D MMMM YYYY') }}</td>
                                     <td>{{$item->nama_notaris}}</td>
                                     <td>{{$item->no_pengesahan}}</td>
                                     <td style="text-align: center">
