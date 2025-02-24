@@ -3,11 +3,11 @@
 		<div class="topbar-inner">
 			<div class="topbar-left">
 				<div class="topbar-socials">
-                    <a href="#"><i class="fa-brands fa-tiktok" style="font-size: 50px;"></i></a>
-                    <a href="#"><i class="fa-solid fa-envelope" style="font-size: 50px;"></i></a>
-                    <a href="#"><i class="fa-brands fa-instagram" style="font-size: 50px;"></i></a>
-                    <a href="#"><i class="fa-brands fa-whatsapp" style="font-size: 50px;"></i></a>
-                    <a href="#"><i class="fa-brands fa-facebook" style="font-size: 50px;"></i></a>
+                    <a href="#"><i class="fa-brands fa-tiktok" style="font-size: 30px;"></i></a>
+                    <a href="#"><i class="fa-solid fa-envelope" style="font-size: 30px;"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram" style="font-size: 30px;"></i></a>
+                    <a href="#"><i class="fa-brands fa-whatsapp" style="font-size: 30px;"></i></a>
+                    <a href="#"><i class="fa-brands fa-facebook" style="font-size: 30px;"></i></a>
 				</div><!--topbar-socials-->
 				<div class="topbar-info">
 					<ul>
