@@ -147,7 +147,7 @@ color: #45a049;
                         <section class="document-section" style="margin-top: -100px;">
                             <div class="container" >
                               <ul class="nav nav-pills" id="pills-tab" role="tablist">
-                                <img src="/assets/icon/logokabupatenblora.png" class="img-fluid" alt="img-25" width="50" style="margin-right: 5px;" loading="lazy">
+                                <img src="/assets/icon/logokabupatenblora.png" class="img-fluid" alt="img-25" width="50" style="margin-right: 20px;" loading="lazy">
                                     <a href="//datajakon/bujk" style="background: white;">
                                         <button class="badgekembali" style="border: none; font-size:12px; cursor:pointer;">
                                             <i class="fas fa-arrow-circle-left mr-2" style="margin-left:10px;"></i> MENU UTAMA BUJK KOSNTRUKSI DAN KONSULTASI KONSTRUKSI
