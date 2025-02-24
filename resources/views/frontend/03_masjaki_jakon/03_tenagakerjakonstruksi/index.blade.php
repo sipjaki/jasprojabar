@@ -34,7 +34,7 @@
                         </div><!-- service-two-image -->
                     </div><!-- service-two-imgbox -->
                     <div class="service-two-card-content">
-                        <h4>SKK Tenaga Ahli</h4>
+                        <h4>TKK Diselenggarakan DPUPR Kabupaten Blora</h4>
                         <p>Dinas Pekerjaan Umum dan Penataan Ruang <br> Pemerintah Kabupaten Blora Provinsi Jawa Tengah</p>
                         <a href="/datajakon/skktenagakerjablora">
                             <i class="fa-solid fa-arrow-right-long"></i>
@@ -52,7 +52,7 @@
                         </div><!-- service-two-image -->
                     </div><!-- service-two-imgbox -->
                     <div class="service-two-card-content">
-                        <h4>Data Statistik Berdasarkan Jabatan</h4>
+                        <h4>TKK Kabupaten Blora</h4>
                         <p>Dinas Pekerjaan Umum dan Penataan Ruang <br> Pemerintah Kabupaten Blora Provinsi Jawa Tengah</p>
                         <a href="/datajakon/statistikaskktenagakerjablora">
                             <i class="fa-solid fa-arrow-right-long"></i>
