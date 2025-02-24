@@ -14,16 +14,16 @@ return new class extends Migration
         Schema::create('bujkkonsultans', function (Blueprint $table) {
             $table->id();
             $table->foreignId('bujkkonsultansub_id');
-            $table->string('namalengkap')->nullable();
-            $table->text('alamat')->nullable();
-            $table->string('no_telepon')->nullable();
-            $table->string('email')->unique()->nullable();
-            $table->string('nib')->unique()->nullable();
-            $table->string('pju')->nullable();
-            $table->string('no_akte')->nullable();
-            $table->date('tanggal')->nullable();
-            $table->string('nama_notaris')->nullable();
-            $table->string('no_pengesahan')->nullable();
+            $table->string('namalengkap');
+            $table->text('alamat');
+            $table->string('no_telepon');
+            $table->string('email');
+            $table->string('nib');
+            $table->string('pju');
+            $table->string('no_akte');
+            $table->date('tanggal');
+            $table->string('nama_notaris');
+            $table->string('no_pengesahan');
             $table->softDeletes();
             $table->timestamps();
         });
