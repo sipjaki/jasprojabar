@@ -307,12 +307,15 @@ color: #45a049;
                                         <div class="history-card-item">
                                             <div class="history-card-image">
                                                 <img src="/assets/00_dokmasjaki/03_datajakon/prosespaket.png" class="img-fluid" alt="img-25" width="250" style="margin-left: 50px;">
-
                                             </div><!-- history-card-image -->
+
                                             <div class="history-card-meta">
-                                                <div class="history-card-years">3</div>
-                                                {{-- <div class="history-card-date">5 December</div> --}}
+                                                <div class="history-card-years {{ $data->prosespaket->pelaksanaan == 'BELUM' ? 'bg-danger text-white' : '' }}">
+                                                    {{$data->prosespaket->pelaksanaan}}
+                                                </div>
+                                                {{-- <div class="history-card-date">1 May</div> --}}
                                             </div><!-- history-card-meta -->
+
                                             <div class="history-card-detail"></div><!-- history-card-detail -->
                                             <div class="history-card-content">
                                                 <h3>Pelaksanaan</h3>
@@ -326,10 +329,14 @@ color: #45a049;
                                                 <h3>Pemeliharaan</h3>
                                                 {{-- <p>Many desktop publishing packages and web page editors now use Lorem Ipsum as their web sites still in their infancy.</p> --}}
                                             </div><!-- history-card-content -->
-                                            <div class="history-card-meta meta-box">
-                                                <div class="history-card-years">4</div>
-                                                {{-- <div class="history-card-date">7 March</div> --}}
+
+                                            <div class="history-card-meta history-card-data-content">
+                                                <div class="history-card-years {{ $data->prosespaket->pemeliharaan == 'BELUM' ? 'bg-danger text-white' : '' }}">
+                                                    {{$data->prosespaket->pemeliharaan}}
+                                                </div>
+                                                {{-- <div class="history-card-date">1 May</div> --}}
                                             </div><!-- history-card-meta -->
+
                                             <div class="history-card-option"></div><!-- history-card-option -->
                                             <div class="history-card-image">
                                                 <img src="/assets/00_dokmasjaki/03_datajakon/prosespaket.png" class="img-fluid" alt="img-25" width="250" style="margin-right: 50px;">
@@ -344,11 +351,16 @@ color: #45a049;
                                                 <img src="/assets/00_dokmasjaki/03_datajakon/selesai.png" class="img-fluid" alt="img-25" width="250" style="margin-left: 50px;">
 
                                             </div><!-- history-card-image -->
-                                            <div class="history-card-meta">
-                                                <div class="history-card-years">5</div>
-                                                {{-- <div class="history-card-date">9 September</div> --}}
+
+                                            <div class="history-card-meta history-card-data-content">
+                                                <div class="history-card-years {{ $data->prosespaket->selesai == 'BELUM' ? 'bg-danger text-white' : '' }}">
+                                                    {{$data->prosespaket->selesai}}
+                                                </div>
+                                                {{-- <div class="history-card-date">1 May</div> --}}
                                             </div><!-- history-card-meta -->
-                                            {{-- <div class="history-card-detail"></div><!-- history-card-detail --> --}}
+
+                                            <div class="history-card-detail"></div><!-- history-card-detail -->
+
                                             <div class="history-card-content">
                                                 <h3>Selesai</h3>
                                                 {{-- <p>Many desktop publishing packages and web page editors now use Lorem Ipsum as their web sites still in their infancy.</p> --}}
