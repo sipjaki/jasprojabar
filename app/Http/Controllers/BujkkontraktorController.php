@@ -27,7 +27,7 @@ class BujkkontraktorController extends Controller
     public function bujkkontraktor()
     {
         $data = bujkkontraktor::paginate(10);
-        $datasub = bujkkontraktorsub::paginate(20);
+        $datasub = bujkkontraktorsub::all();
         $user = Auth::user();
 
         return view('frontend.03_masjaki_jakon.01_bujkkontraktor.bujkkontraktor', [
@@ -48,7 +48,7 @@ class BujkkontraktorController extends Controller
         }
 
         // Menggunakan paginate() untuk pagination
-        $subdata = bujkkontraktorsub::where('bujkkontraktor_id', $databujkkontraktor->id)->paginate(10);
+        $subdata = bujkkontraktorsub::where('bujkkontraktor_id', $databujkkontraktor->id)->all(10);
 
           // Menghitung nomor urut mulai
             $start = ($subdata->currentPage() - 1) * $subdata->perPage() + 1;
