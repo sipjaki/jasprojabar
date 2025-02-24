@@ -254,9 +254,9 @@ color: #45a049;
                         <section class="history-section">
                             <div class="container">
                                 <div class="section-box text-center">
-                                    <h2 style="font-size: 20px;" class="section-title">Paket : {{$data->namapekerjaan }}</h2>
+                                    <h2 style="font-size: 22px;" class="section-title">Paket : {{$data->namapekerjaan }}</h2>
                                     <div class="section-text">
-                                        <p>The point of using Lorem Ipsum is that it has a more normal distributions</p>
+                                        <p>Dinas Pekerjaan Umum dan Penataan Ruang Kabupaten Blora</p>
                                     </div><!-- section-text -->
                                 </div><!-- section-box -->
                                 <div class="history-card">
