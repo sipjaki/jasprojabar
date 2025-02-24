@@ -148,20 +148,27 @@ color: #45a049;
                             <div class="container" >
                               <ul class="nav nav-pills" id="pills-tab" role="tablist">
                                 <img src="/assets/icon/logokabupatenblora.png" class="img-fluid" alt="img-25" width="50" style="margin-right: 20px;" loading="lazy">
-                                <div style="display: flex; justify-content: space-between; width: 100%; margin-top:20px;">
+                                <p style="font-size: 16px; color:black;">Dinas Pekerjaan Umum dan Penataan Ruang Kabupaten Blora</p>
+                                <div style="display: flex; justify-content: space-between; width: 100%; align-items: center; margin-top: 20px;">
+                                    <!-- Tombol di kiri -->
                                     <a href="/datajakon/bujk" style="background: white;">
                                         <button class="badgekembali" style="border: none; font-size: 12px; cursor: pointer;">
                                             <i class="fas fa-list mr-2" style="margin-right: 10px;"></i> <span style="text-transform: uppercase">{{$title}}</span>
                                         </button>
                                     </a>
 
-                                    <a href="/datajakon/bujk" style="background: white;">
-                                        <button class="badgekembali" style="border: none; font-size: 12px; cursor: pointer;">
-                                            <i class="fas fa-arrow-circle-left mr-2" style="margin-right: 15px;"></i> KEMBALI
-                                        </button>
-                                    </a>
+                                    <!-- Tombol dan kolom pencarian di kanan -->
+                                    <div style="display: flex; align-items: center;">
+                                        <a href="/datajakon/bujk" style="background: white;">
+                                            <button class="badgekembali" style="border: none; font-size: 12px; cursor: pointer; margin-right: 10px;">
+                                                <i class="fas fa-arrow-circle-left mr-2" style="margin-right: 15px;"></i> KEMBALI
+                                            </button>
+                                        </a>
+
                                         <input type="search" placeholder="Cari..." style="border: 1px solid #ccc; padding: 5px 10px; font-size: 14px; border-radius: 5px; width: 200px;">
+                                    </div>
                                 </div>
+
                                 </ul>
                             </div>
                         </section>
