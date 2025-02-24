@@ -343,7 +343,7 @@ color: #45a049;
                                                 <div class="history-card-years">5</div>
                                                 {{-- <div class="history-card-date">9 September</div> --}}
                                             </div><!-- history-card-meta -->
-                                            <div class="history-card-detail"></div><!-- history-card-detail -->
+                                            {{-- <div class="history-card-detail"></div><!-- history-card-detail --> --}}
                                             <div class="history-card-content">
                                                 <h3>Selesai</h3>
                                                 {{-- <p>Many desktop publishing packages and web page editors now use Lorem Ipsum as their web sites still in their infancy.</p> --}}
