@@ -148,16 +148,19 @@ color: #45a049;
                             <div class="container" >
                               <ul class="nav nav-pills" id="pills-tab" role="tablist">
                                 <img src="/assets/icon/logokabupatenblora.png" class="img-fluid" alt="img-25" width="50" style="margin-right: 20px;" loading="lazy">
-                                    <a href="//datajakon/bujk" style="background: white;">
-                                        <button class="badgekembali" style="border: none; font-size:12px; cursor:pointer;">
-                                            <i class="fas fa-arrow-circle-left mr-2" style="margin-left:10px;"></i> MENU UTAMA BUJK KOSNTRUKSI DAN KONSULTASI KONSTRUKSI
+                                <div style="display: flex; justify-content: space-between; width: 100%;">
+                                    <a href="/datajakon/bujk" style="background: white;">
+                                        <button class="badgekembali" style="border: none; font-size: 12px; cursor: pointer;">
+                                            <i class="fas fa-arrow-circle-left mr-2" style="margin-left: 10px;"></i> MENU UTAMA BUJK KOSNTRUKSI DAN KONSULTASI KONSTRUKSI
                                         </button>
                                     </a>
-                                    <a href="//datajakon/bujk" style="background: white;">
-                                        <button class="badgekembali" style="border: none; font-size:12px; cursor:pointer;">
-                                            <i class="fas fa-arrow-circle-left mr-2" style="margin-left:10px;"></i> MENU UTAMA BUJK KOSNTRUKSI DAN KONSULTASI KONSTRUKSI
+
+                                    <a href="/datajakon/bujk" style="background: white;">
+                                        <button class="badgekembali" style="border: none; font-size: 12px; cursor: pointer;">
+                                            <i class="fas fa-arrow-circle-left mr-2" style="margin-left: 10px;"></i> KEMBALI
                                         </button>
                                     </a>
+                                </div>
                                 </ul>
                             </div>
                         </section>
