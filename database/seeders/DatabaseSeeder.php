@@ -5682,6 +5682,7 @@ skktenagakerjabloralist::create([
 // PROFIL PAKET PEKERJAAN MAS JAKI
 
 profilpaketpekerjaanblora::create([
+    'prosespaket_id' => 1,
     'jenispekerjaan' => 'Pekerjaan Konstruksi Gedung',
     'namapekerjaan' => 'Pembangunan Gedung Perkantoran Blora',
     'tahunpelaksanaan' => 2023,
@@ -5697,6 +5698,7 @@ profilpaketpekerjaanblora::create([
 ]);
 
 profilpaketpekerjaanblora::create([
+    'prosespaket_id' => 1,
     'jenispekerjaan' => 'Pekerjaan Konstruksi Jalan',
     'namapekerjaan' => 'Pembangunan Jalan Raya Blora',
     'tahunpelaksanaan' => 2024,
@@ -5712,6 +5714,7 @@ profilpaketpekerjaanblora::create([
 ]);
 
 profilpaketpekerjaanblora::create([
+    'prosespaket_id' => 1,
     'jenispekerjaan' => 'Pekerjaan Infrastruktur',
     'namapekerjaan' => 'Pembangunan Saluran Air Bersih Blora',
     'tahunpelaksanaan' => 2025,
@@ -5727,6 +5730,7 @@ profilpaketpekerjaanblora::create([
 ]);
 
 profilpaketpekerjaanblora::create([
+    'prosespaket_id' => 1,
     'jenispekerjaan' => 'Pekerjaan Pemeliharaan Jalan',
     'namapekerjaan' => 'Pemeliharaan Jalan Utama Blora',
     'tahunpelaksanaan' => 2026,
@@ -5742,6 +5746,7 @@ profilpaketpekerjaanblora::create([
 ]);
 
 profilpaketpekerjaanblora::create([
+    'prosespaket_id' => 1,
     'jenispekerjaan' => 'Pekerjaan Pembangunan Jembatan',
     'namapekerjaan' => 'Pembangunan Jembatan Sungai Blora',
     'tahunpelaksanaan' => 2027,
@@ -5757,6 +5762,7 @@ profilpaketpekerjaanblora::create([
 ]);
 
 profilpaketpekerjaanblora::create([
+    'prosespaket_id' => 1,
     'jenispekerjaan' => 'Pekerjaan Renovasi Gedung',
     'namapekerjaan' => 'Renovasi Gedung Pemerintahan Blora',
     'tahunpelaksanaan' => 2028,
@@ -5772,6 +5778,7 @@ profilpaketpekerjaanblora::create([
 ]);
 
 profilpaketpekerjaanblora::create([
+    'prosespaket_id' => 1,
     'jenispekerjaan' => 'Pekerjaan Pengadaan Alat Berat',
     'namapekerjaan' => 'Pengadaan Alat Berat untuk Konstruksi Blora',
     'tahunpelaksanaan' => 2029,
