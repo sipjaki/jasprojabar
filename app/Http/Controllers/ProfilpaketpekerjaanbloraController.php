@@ -41,15 +41,15 @@ class ProfilpaketpekerjaanbloraController extends Controller
     public function datapaketpekerjaanblorashow($jenispekerjaan)
     {
         // Pastikan model dan nama tabel sudah benar
-        $datapaket = profilpaketpekerjaanblora::where('jenispekerjaan', $jenispekerjaan)->first();
+        $datapaketpekerjaan = profilpaketpekerjaanblora::where('jenispekerjaan', $jenispekerjaan)->first();
 
-        if (!$datapaket) {
+        if (!$datapaketpekerjaan) {
             // Jika data tidak ditemukan, arahkan kembali dengan pesan error
             return redirect()->back()->with('error', 'Kegiatan tidak ditemukan.');
         }
 
         // Menggunakan paginate() untuk pagination
-        $subdata = prosespaket::where('prosespaket_id', $datapaket->id)->paginate(5);
+        $subdata = prosespaket::where('prosespaket_id', $datapaketpekerjaan->id)->paginate(5);
 
         // Ambil data user saat ini
         $user = Auth::user();
@@ -57,7 +57,7 @@ class ProfilpaketpekerjaanbloraController extends Controller
         // Kirim variabel ke view
         return view('frontend.03_masjaki_jakon.04_profilpaketpekerjaan.01_paketpekerjaantendershow', [
             'title' => 'Profil Paket Pekerjaan Konstruksi & Konsultasi Kabupaten Blora',
-            'data' => $datapaket,
+            'data' => $datapaketpekerjaan,
             'user' => $user,
             'datasub' => $subdata,
             // 'start' => $start,  // Pastikan start diteruskan jika dibutuhkan di view
