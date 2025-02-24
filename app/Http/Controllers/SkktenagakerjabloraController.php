@@ -26,7 +26,7 @@ class SkktenagakerjabloraController extends Controller
         $user = Auth::user();
 
         return view('frontend.03_masjaki_jakon.03_tenagakerjakonstruksi.index', [
-            'title' => 'SKK Tenaga Terampil Konstruksi',
+            'title' => 'SKK Tenaga Konstruksi',
             'user' => $user, // Mengirimkan data paginasi ke view
         ]);
     }
@@ -44,7 +44,7 @@ class SkktenagakerjabloraController extends Controller
         $datalpspenerbit = lpspenerbit::all();
 
         return view('frontend.03_masjaki_jakon.03_tenagakerjakonstruksi.tenagakerjakonstruksi', [
-            'title' => 'SKK Tenaga Terampil Konstruksi',
+            'title' => 'SKK Tenaga Konstruksi',
             'user' => $user, // Mengirimkan data paginasi ke view
 
             'data' => $data, // Mengirimkan data paginasi ke view
@@ -73,7 +73,7 @@ class SkktenagakerjabloraController extends Controller
         $user = Auth::user();
 
         return view('frontend.03_masjaki_jakon.03_tenagakerjakonstruksi.tenagakerjakonstruksishow', [
-            'title' => 'Data SKK Tenaga Terampil Konstruksi',
+            'title' => 'Data SKK Tenaga Konstruksi',
 
             'data' => $dataskk, // Mengirimkan data paginasi ke view
             'datanamasekolah' => $datanamasekolah, // Mengirimkan data paginasi ke view
@@ -108,7 +108,7 @@ class SkktenagakerjabloraController extends Controller
         $dataasosiasimasjaki = asosiasimasjaki::all();
 
         return view('frontend.03_masjaki_jakon.03_tenagakerjakonstruksi.listtenagakerjakonstruksi', [
-            'title' => 'Daftar Tenaga Terampil Konstruksi Kabupaten Blora',
+            'title' => 'Daftar Tenaga Konstruksi Kabupaten Blora',
             'user' => $user, // Mengirimkan data paginasi ke view
 
             'data' => $data, // Mengirimkan data paginasi ke view
@@ -139,7 +139,7 @@ class SkktenagakerjabloraController extends Controller
         $user = Auth::user();
 
         return view('frontend.03_masjaki_jakon.03_tenagakerjakonstruksi.listtenagakerjakonstruksishow', [
-            'title' => 'Data SKK Tenaga Terampil Konstruksi',
+            'title' => 'Data SKK Tenaga Konstruksi',
 
             'data' => $dataskklist, // Mengirimkan data paginasi ke view
             'datanamasekolah' => $datanamasekolah, // Mengirimkan data paginasi ke view
