@@ -353,8 +353,8 @@ color: #45a049;
                                             </div><!-- history-card-image -->
 
                                             <div class="history-card-meta history-card-data-content">
-                                                <div class="history-card-years {{ $data->prosespaket->selesai == 'BELUM' ? 'bg-danger text-white' : '' }}">
-                                                    {{$data->prosespaket->selesai}}
+                                                <div class="history-card-years {{ $data->prosespaket->paketselesai == 'BELUM' ? 'bg-danger text-white' : '' }}">
+                                                    {{$data->prosespaket->paketselesai}}
                                                 </div>
                                                 {{-- <div class="history-card-date">1 May</div> --}}
                                             </div><!-- history-card-meta -->
