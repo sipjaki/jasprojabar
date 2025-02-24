@@ -156,7 +156,7 @@
                                     <div class="col-lg-12">
                                                                             </div><!-- col-lg-12 -->
                                     <div class="col-xxl-12 col-lg-12">
-                                        <div class="donate-box-inner" style="margin-top: -20px;">
+                                        <div class="donate-box-inner" style="margin-top: -120px;">
                                             <ul class="nav nav-pills" id="pills-tab" role="tablist">
                                                 {{-- <img src="/assets/icon/logopupr.png" class="img-fluid" alt="img-25" width="50" style="margin-right: 20px;" loading="lazy"> --}}
                                                 <div style="display: flex; justify-content: space-between; width: 100%; align-items: center; margin-top: 20px;">
