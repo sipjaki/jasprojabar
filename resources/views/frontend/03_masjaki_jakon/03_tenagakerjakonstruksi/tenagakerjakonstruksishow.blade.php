@@ -194,42 +194,42 @@ color: #45a049;
                                             <form action="#" class="contact-form donation" method="post">
                                                 <div class="row row-gutter-10">
                                                     <div class="col-lg-12">
-                                                        <h6><i class="fas fa-user mr-2" style="margin-right: 5px;"></i>Nama Lengkap </h6>
+                                                        <h6><i class="fas fa-user mr-2" style="margin-right: 5px;"></i>Nama Lengkap</h6>
                                                         <input type="text" id="fname" class="input-text" placeholder="{{$data->nama}}" name="fname" aria-required="true" readonly>
                                                     </div><!-- col-lg-6 -->
 
                                                     <div class="col-lg-12">
-                                                        <h6><i class="fas fa-phone-alt mr-2" style="margin-right: 5px;"></i>Alamat</h6>
+                                                        <h6><i class="fas fa-map-marker-alt mr-2" style="margin-right: 5px;"></i>Alamat</h6>
                                                         <input type="text" id="fname" class="input-text" placeholder="{{$data->alamat}}" name="fname" aria-required="true" readonly>
                                                     </div><!-- col-lg-3 -->
 
                                                     <div class="col-lg-6">
-                                                        <h6><i class="fas fa-id-card mr-2" style="margin-right: 5px;"></i>Sekolah/Universitas</h6>
+                                                        <h6><i class="fas fa-school mr-2" style="margin-right: 5px;"></i>Sekolah/Universitas</h6>
                                                         <input type="text" id="fname" class="input-text" placeholder="{{$data->namasekolah->namasekolah}}" name="fname" aria-required="true" readonly>
                                                     </div><!-- col-lg-3 -->
 
                                                     <div class="col-lg-3">
-                                                        <h6><i class="fas fa-map-marker-alt mr-2" style="margin-right: 5px;"></i>Jenjang Pendidikan</h6>
+                                                        <h6><i class="fas fa-graduation-cap mr-2" style="margin-right: 5px;"></i>Jenjang Pendidikan</h6>
                                                         <input type="text" id="fname" class="input-text" placeholder="{{$data->jenjangpendidikan->jenjangpendidikan}}" name="fname" aria-required="true" readonly>
                                                     </div><!-- col-lg-12 -->
 
                                                     <div class="col-lg-3">
-                                                        <h6><i class="fas fa-envelope mr-2" style="margin-right: 5px;"></i>Jurusan</h6>
+                                                        <h6><i class="fas fa-book mr-2" style="margin-right: 5px;"></i>Jurusan</h6>
                                                         <input type="text" id="fname" class="input-text" placeholder="{{$data->jurusan->jurusan}}" name="fname" aria-required="true" readonly>
                                                     </div><!-- col-lg-6 -->
 
                                                     <div class="col-lg-3">
-                                                        <h6><i class="fas fa-user-tie mr-2" style="margin-right: 5px;"></i>Tahun Lulus</h6>
+                                                        <h6><i class="fas fa-calendar-alt mr-2" style="margin-right: 5px;"></i>Tahun Lulus</h6>
                                                         <input type="text" id="fname" class="input-text" placeholder="{{$data->tahunlulus}}" name="fname" aria-required="true" readonly>
                                                     </div><!-- col-lg-6 -->
 
                                                     <div class="col-lg-6">
-                                                        <h6><i class="fas fa-file-alt mr-2" style="margin-right: 5px;"></i>Jabatan Kerja</h6>
+                                                        <h6><i class="fas fa-briefcase mr-2" style="margin-right: 5px;"></i>Jabatan Kerja</h6>
                                                         <input type="text" id="fname" class="input-text" placeholder="{{$data->jabatankerja->jabatankerja}}" name="fname" aria-required="true" readonly>
                                                     </div><!-- col-lg-6 -->
 
                                                     <div class="col-lg-3">
-                                                        <h6><i class="fas fa-calendar mr-2" style="margin-right: 5px;"></i>Jenjang</h6>
+                                                        <h6><i class="fas fa-cogs mr-2" style="margin-right: 5px;"></i>Jenjang</h6>
                                                         <input type="text" id="fname" class="input-text" placeholder="{{$data->jenjang->jenjang}}" name="fname" aria-required="true" readonly>
                                                     </div><!-- col-lg-6 -->
 
@@ -239,19 +239,20 @@ color: #45a049;
                                                     </div><!-- col-lg-6 -->
 
                                                     <div class="col-lg-4">
-                                                        <h6><i class="fas fa-check-circle mr-2" style="margin-right: 5px;"></i>Tanggal Terbit</h6>
+                                                        <h6><i class="fas fa-calendar-check mr-2" style="margin-right: 5px;"></i>Tanggal Terbit</h6>
                                                         <input type="text" id="fname" class="input-text" placeholder="{{$data->tanggalterbit}}" name="fname" aria-required="true" readonly>
                                                     </div><!-- col-lg-6 -->
 
                                                     <div class="col-lg-4">
-                                                        <h6><i class="fas fa-check-circle mr-2" style="margin-right: 5px;"></i>Tanggal Habis</h6>
+                                                        <h6><i class="fas fa-calendar-times mr-2" style="margin-right: 5px;"></i>Tanggal Habis</h6>
                                                         <input type="text" id="fname" class="input-text" placeholder="{{$data->tanggalhabis}}" name="fname" aria-required="true" readonly>
                                                     </div><!-- col-lg-6 -->
 
                                                     <div class="col-lg-4">
-                                                        <h6><i class="fas fa-check-circle mr-2" style="margin-right: 5px;"></i>Status</h6>
+                                                        <h6><i class="fas fa-circle mr-2" style="margin-right: 5px;"></i>Status</h6>
                                                         <input type="text" id="fname" class="input-text" placeholder="{{$data->statusterbit}}" name="fname" aria-required="true" readonly>
                                                     </div><!-- col-lg-6 -->
+
                                                                                 </div><!-- row row-gutter-10 -->
                                             </form><!-- contact-form -->
                                         </div><!-- donate-box-inner -->
