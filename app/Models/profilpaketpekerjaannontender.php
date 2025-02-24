@@ -12,4 +12,9 @@ class profilpaketpekerjaannontender extends Model
     use HasFactory, SoftDeletes, HasApiTokens;
 
     protected $guarded = ['id'];
+
+    public function prosespaketnontender()
+    {
+        return $this->belongsTo(prosespaketnontender::class);
+    }
 }

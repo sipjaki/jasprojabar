@@ -13,6 +13,7 @@ return new class extends Migration
     {
         Schema::create('profilpaketkonsultasis', function (Blueprint $table) {
             $table->id();
+            $table->foreignId('prosespaketkonsultasi_id')->nullable();
             $table->string('jenispekerjaan')->nullable();
             $table->string('namapekerjaan')->nullable();
             $table->year('tahunpelaksanaan')->nullable();

@@ -79,6 +79,10 @@ use App\Models\profilpaketpekerjaanblora;
 use App\Models\profilpaketpekerjaannontender;
 use App\Models\profilpaketkonsultasi;
 use App\Models\profilpaketkonsultasinontender;
+use App\Models\prosespaket;
+use App\Models\prosespaketnontender;
+use App\Models\prosespaketkonsultasi;
+use App\Models\prosespaketkonsultasinontender;
 
 // use App\Models\paketpekerjaan;
 use Database\Factories\SkktenagakerjaFactory;
@@ -6103,6 +6107,44 @@ profilpaketkonsultasinontender::create([
     'dinas' => 'Dinas Kesehatan Blora',
 ]);
 
+
+// =========================================================
+// PROSES PAKET PEKERJAAN TENDER
+prosespaket::create([
+    'profilpaketpekerjaanblora_id' => 1, // Sesuaikan dengan ID yang ada di tabel terkait
+    'persiapan' => 'SELESAI',
+    'pengadaan' => 'SELESAI',
+    'pelaksanaan' => 'BELUM',
+    'pemeliharaan' => 'BELUM',
+    'paketselesai' => 'BELUM',
+]);
+
+prosespaketnontender::create([
+    'profilpaketpekerjaannontender_id' => 1, // Sesuaikan dengan ID yang ada di tabel terkait
+    'persiapan' => 'SELESAI',
+    'pengadaan' => 'SELESAI',
+    'pelaksanaan' => 'BELUM',
+    'pemeliharaan' => 'BELUM',
+    'paketselesai' => 'BELUM',
+]);
+
+prosespaketkonsultasi::create([
+    'profilpaketkonsultasi_id' => 1, // Sesuaikan dengan ID yang ada di tabel terkait
+    'persiapan' => 'SELESAI',
+    'pengadaan' => 'SELESAI',
+    'pelaksanaan' => 'BELUM',
+    'pemeliharaan' => 'BELUM',
+    'paketselesai' => 'BELUM',
+]);
+
+prosespaketkonsultasinontender::create([
+    'profilpaketkonsultasinontender_id' => 1, // Sesuaikan dengan ID yang ada di tabel terkait
+    'persiapan' => 'SELESAI',
+    'pengadaan' => 'SELESAI',
+    'pelaksanaan' => 'BELUM',
+    'pemeliharaan' => 'BELUM',
+    'paketselesai' => 'BELUM',
+]);
 
 // fort
 

@@ -12,4 +12,9 @@ class profilpaketpekerjaanblora extends Model
     use HasFactory, SoftDeletes, HasApiTokens;
 
     protected $guarded = ['id'];
+
+    public function prosespaket()
+    {
+        return $this->belongsTo(prosespaket::class);
+    }
 }
