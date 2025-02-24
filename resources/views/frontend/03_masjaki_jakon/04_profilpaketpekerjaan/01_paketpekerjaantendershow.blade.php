@@ -328,7 +328,7 @@ color: #45a049;
                                         </div><!-- history-card-item -->
                                     </div><!-- history-card-list -->
 
-                                    <div class="history-card-list">
+                                    <div class="history-card-list history-even">
                                         <div class="history-card-item">
                                             <div class="history-card-image">
                                                 <img src="/assets/00_dokmasjaki/03_datajakon/selesai.png" class="img-fluid" alt="img-25" width="250" style="margin-left: 50px;">
@@ -339,13 +339,13 @@ color: #45a049;
                                                 {{-- <div class="history-card-date">9 September</div> --}}
                                             </div><!-- history-card-meta -->
                                             <div class="history-card-detail"></div><!-- history-card-detail -->
-                                            {{-- <div class="history-card-content">
+                                            <div class="history-card-content">
                                                 <h3>Stated Science University</h3>
                                                 <p>Many desktop publishing packages and web page editors now use Lorem Ipsum as their web sites still in their infancy.</p>
-                                            </div><!-- history-card-content --> --}}
+                                            </div><!-- history-card-content -->
                                         </div><!-- history-card-item -->
                                     </div><!-- history-card-list -->
-
+{{--
                                     <div class="history-card-list history-even">
                                         <div class="history-card-item">
                                             <div class="history-card-content">
@@ -361,7 +361,7 @@ color: #45a049;
                                             </div><!-- history-card-image -->
                                         </div><!-- history-card-item -->
                                     </div><!-- history-card-list -->
-                                </div><!-- history-card -->
+                                </div><!-- history-card --> --}}
 
                                 </div><!-- history-card -->
                             </div><!-- container -->
