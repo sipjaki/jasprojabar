@@ -201,6 +201,7 @@ color: #45a049;
                                     <th style="text-align:center"> Karakter Kontrak</th>
                                     <th style="text-align:center"> Mulai </th>
                                     <th style="text-align:center"> Selesai</th>
+                                    <th style="text-align:center"> Dinas</th>
                                     <th style="text-align:center" >View</th>
                                 </tr>
                             </thead>
