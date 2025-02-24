@@ -263,8 +263,7 @@ color: #45a049;
                                     <div class="history-card-list">
                                         <div class="history-card-item history-image">
                                             <div class="history-card-image" style="width: 70%">
-                                                <img src="/assets/00_dokmasjaki/03_datajakon/prosespaket.png" class="img-fluid" alt="img-25" width="250">
-
+                                                <img src="/assets/00_dokmasjaki/03_datajakon/prosespaket.png" class="img-fluid" alt="img-25" width="250" style="margin-left: 50px;">
                                             </div><!-- history-card-image -->
                                             <div class="history-card-meta history-card-data-content">
                                                 <div class="history-card-years">1</div>
@@ -289,7 +288,7 @@ color: #45a049;
                                             </div><!-- history-card-meta -->
                                             <div class="history-card-option"></div><!-- history-card-option -->
                                             <div class="history-card-image">
-                                                <img src="/assets/00_dokmasjaki/03_datajakon/prosespaket.png" class="img-fluid" alt="img-25" width="250">
+                                                <img src="/assets/00_dokmasjaki/03_datajakon/prosespaket.png" class="img-fluid" alt="img-25" width="250" style="margin-right: 50px;">
 
                                             </div><!-- history-card-image -->
                                         </div><!-- history-card-item -->
@@ -297,7 +296,7 @@ color: #45a049;
                                     <div class="history-card-list">
                                         <div class="history-card-item">
                                             <div class="history-card-image">
-                                                <img src="/assets/00_dokmasjaki/03_datajakon/prosespaket.png" class="img-fluid" alt="img-25" width="250">
+                                                <img src="/assets/00_dokmasjaki/03_datajakon/prosespaket.png" class="img-fluid" alt="img-25" width="250" style="margin-left: 50px;">
 
                                             </div><!-- history-card-image -->
                                             <div class="history-card-meta">
@@ -323,7 +322,7 @@ color: #45a049;
                                             </div><!-- history-card-meta -->
                                             <div class="history-card-option"></div><!-- history-card-option -->
                                             <div class="history-card-image">
-                                                <img src="/assets/00_dokmasjaki/03_datajakon/prosespaket.png" class="img-fluid" alt="img-25" width="250">
+                                                <img src="/assets/00_dokmasjaki/03_datajakon/prosespaket.png" class="img-fluid" alt="img-25" width="250" style="margin-right: 50px;">
 
                                             </div><!-- history-card-image -->
                                         </div><!-- history-card-item -->
@@ -331,7 +330,7 @@ color: #45a049;
                                     <div class="history-card-list">
                                         <div class="history-card-item">
                                             <div class="history-card-image">
-                                                <img src="/assets/00_dokmasjaki/03_datajakon/selesai.png" class="img-fluid" alt="img-25" width="250">
+                                                <img src="/assets/00_dokmasjaki/03_datajakon/selesai.png" class="img-fluid" alt="img-25" width="250" style="margin-left: 50px;">
 
                                             </div><!-- history-card-image -->
                                             <div class="history-card-meta">
