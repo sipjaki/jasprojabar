@@ -10,7 +10,7 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 
 
-class ProfilpaketkonsultasiController extends Controller
+class PembinaanController extends Controller
 {
     //
     public function index()
