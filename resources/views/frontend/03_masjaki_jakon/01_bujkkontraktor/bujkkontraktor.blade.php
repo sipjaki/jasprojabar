@@ -117,6 +117,7 @@ color: #45a049;
     @include('frontend.00_approve.01_cssterpisah.header1')
 
     <div class="page-wrapper">
+
 	<section class="page-banner">
 		<div class="container">
 			<div class="page-banner-title">
@@ -124,7 +125,9 @@ color: #45a049;
 			</div><!-- page-banner-title -->
 		</div><!-- container -->
 	</section><!--page-banner-->
-    <section class="service-two-section">
+
+    {{-- <section class="service-two-section" > --}}
+        <section class="service-two-section" style="background-image: url('/assets/00_dokmasjaki/03_datajakon/banner.jpg');">
         <div class="container" style="background: #ffae00;">
             <div class="row row-gutter-y-40">
 
