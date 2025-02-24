@@ -345,7 +345,7 @@ color: #45a049;
                                             </div><!-- history-card-content -->
                                         </div><!-- history-card-item -->
                                     </div><!-- history-card-list -->
-{{--
+
                                     <div class="history-card-list history-even">
                                         <div class="history-card-item">
                                             <div class="history-card-content">
@@ -361,7 +361,7 @@ color: #45a049;
                                             </div><!-- history-card-image -->
                                         </div><!-- history-card-item -->
                                     </div><!-- history-card-list -->
-                                </div><!-- history-card --> --}}
+                                </div><!-- history-card -->
 
                                 </div><!-- history-card -->
                             </div><!-- container -->
