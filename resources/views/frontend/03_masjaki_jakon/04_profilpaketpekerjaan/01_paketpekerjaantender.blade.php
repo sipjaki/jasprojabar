@@ -97,6 +97,7 @@ color: #45a049;
                 text-align: center;
                 font-size: 12px;
                 cursor: pointer;
+                margin-left: 25px;
                 transition: background-color 0.3s, color 0.3s;
             }
             .kembali:hover {
@@ -115,7 +116,7 @@ color: #45a049;
                 text-align: center;
                 font-size: 12px;
                 cursor: pointer;
-                margin-right: 10px;
+                margin-right: 5px;
                 transition: background-color 0.3s, color 0.3s;
             }
             .badgekembali:hover {
