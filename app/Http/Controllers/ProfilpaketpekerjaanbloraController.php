@@ -28,11 +28,13 @@ class ProfilpaketpekerjaanbloraController extends Controller
     {
         $user = Auth::user();
         $data = profilpaketpekerjaanblora::paginate(15);
+        $datasub = prosespaket::all();
 
         return view('frontend.03_masjaki_jakon.04_profilpaketpekerjaan.01_paketpekerjaantender', [
             'title' => 'Profil Paket Pekerjaan Konstruksi & Konsultasi Kabupaten Blora',
             'user' => $user, // Mengirimkan data paginasi ke view
             'data' => $data, // Mengirimkan data paginasi ke view
+            'datasub' => $datasub, // Mengirimkan data paginasi ke view
         ]);
     }
 
