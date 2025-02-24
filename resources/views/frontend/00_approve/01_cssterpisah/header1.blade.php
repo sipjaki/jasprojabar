@@ -57,7 +57,7 @@
 					<ul class="main-menu-list list-unstyled">
                         <li class="active"><a href="/">Beranda</a>
 
-						<li class="has-dropdown">
+						<li class="active has-dropdown">
 							<a href="#">Kelembagaan</a>
 							<ul class="list-unstyled">
 								<li><a href="/profil/struktur">Struktur DPUPR Kab Blora</a></li>
@@ -66,7 +66,7 @@
 							</ul><!-- list-unstyled -->
 						</li><!--has-dropdown-->
 
-						<li class="has-dropdown">
+						<li class="active has-dropdown">
 							<a href="#">Berita</a>
 							<ul class="list-unstyled">
 								<li><a href="/404">Jasa Konstruksi</a></li>
@@ -75,7 +75,7 @@
 							</ul><!-- list-unstyled -->
 						</li><!--has-dropdown-->
 
-                        <li class="has-dropdown">
+                        <li class="active has-dropdown">
 							<a href="#">Data Jakon</a>
 							<ul class="list-unstyled">
 								<li><a href="/datajakon/bujk">BUJK Kontraktor dan Konsultan</a></li>
@@ -85,7 +85,7 @@
 							</ul><!-- list-unstyled -->
 						</li><!--has-dropdown-->
 
-                        <li class="has-dropdown">
+                        <li class="active has-dropdown">
 							<a href="#">Pembinaan</a>
 							<ul class="list-unstyled">
 								<li><a href="/agendapembinaan">Agenda Pembinaan</a></li>
@@ -97,7 +97,7 @@
 							</ul><!-- list-unstyled -->
 						</li><!--has-dropdown-->
 
-                        <li class="has-dropdown">
+                        <li class="active has-dropdown">
 							<a href="#">Pengawasan</a>
 							<ul class="list-unstyled">
 								<li><a href="/404">Pengawasan BUJK</a></li>
@@ -106,7 +106,7 @@
 							</ul><!-- list-unstyled -->
 						</li><!--has-dropdown-->
 
-                        <li class="has-dropdown">
+                        <li class="active has-dropdown">
 							<a href="#">Rantai Pasok </a>
 							<ul class="list-unstyled">
 								<li><a href="/404">Material Bangunan Gedung </a></li>
@@ -115,7 +115,7 @@
 							</ul><!-- list-unstyled -->
 						</li><!--has-dropdown-->
 
-                        <li class="has-dropdown">
+                        <li class="active has-dropdown">
 							<a href="#">AHSP</a>
 							<ul class="list-unstyled">
 								<li><a href="/404">Harga Satuan Dasar </a></li>
@@ -125,7 +125,7 @@
 							</ul><!-- list-unstyled -->
 						</li><!--has-dropdown-->
 
-                        <li class="has-dropdown">
+                        <li class="active has-dropdown">
 							<a href="#">Peraturan</a>
 							<ul class="list-unstyled">
 								<li><a href="/peraturan/undangundang">Undang - Undang </a></li>
