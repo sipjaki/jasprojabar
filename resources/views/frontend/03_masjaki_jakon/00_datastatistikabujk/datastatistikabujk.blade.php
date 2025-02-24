@@ -15,7 +15,7 @@
 		</div><!-- container -->
 	</section><!--page-banner-->
 
-        <section class="department-details-section" style="background-image: url('/assets/00_dokmasjaki/03_datajakon/banner1.jpg')";>
+        <section class="department-details-section";>
 		<div class="container">
 			<div class="row">
                 <div class="col-12 col-lg-12 col-xl-12">
