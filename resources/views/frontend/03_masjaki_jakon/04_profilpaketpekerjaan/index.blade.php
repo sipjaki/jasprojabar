@@ -110,7 +110,7 @@
                         </div><!-- service-two-image -->
                     </div><!-- service-two-imgbox -->
                     <div class="service-two-card-content">
-                        <h4>Data Statistik Pekerjaan</h4>
+                        <h4>Data Statistik Profil Paket Pekerjaan</h4>
                         {{-- <p>Dinas Pekerjaan Umum dan Penataan Ruang <br> Pemerintah Kabupaten Blora Provinsi Jawa Tengah</p> --}}
                         <a href="/datajakon/?">
                             <i class="fa-solid fa-arrow-right-long"></i>
