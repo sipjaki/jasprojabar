@@ -16,7 +16,7 @@
   </section><!--page-banner-->
 
 
-  <section class="service-two-section" style="background-image: url('/assets/00_dokmasjaki/03_datajakon/banner1.jpg');">
+  <section class="service-two-section">
     <div class="container" style="background-image: url('/assets/00_dokmasjaki/03_datajakon/banner1.jpg');">
         <div class="row row-gutter-y-40">
             <div class="col-12 col-lg-4 col-xl-4">
