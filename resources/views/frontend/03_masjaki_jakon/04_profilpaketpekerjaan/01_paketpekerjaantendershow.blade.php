@@ -328,7 +328,7 @@ color: #45a049;
                                         </div><!-- history-card-item -->
                                     </div><!-- history-card-list -->
 
-                                    <div class="history-card-list history-even">
+                                    <div class="history-card-list">
                                         <div class="history-card-item">
                                             <div class="history-card-image">
                                                 <img src="/assets/00_dokmasjaki/03_datajakon/selesai.png" class="img-fluid" alt="img-25" width="250" style="margin-left: 50px;">
