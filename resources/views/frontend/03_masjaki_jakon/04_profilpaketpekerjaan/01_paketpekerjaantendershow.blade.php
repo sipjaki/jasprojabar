@@ -331,7 +331,7 @@ color: #45a049;
                                     <div class="history-card-list">
                                         <div class="history-card-item">
                                             <div class="history-card-image">
-                                                <img src="/assets/00_dokmasjaki/03_datajakon/prosespaket.png" class="img-fluid" alt="img-25" width="250">
+                                                <img src="/assets/00_dokmasjaki/03_datajakon/selesai.png" class="img-fluid" alt="img-25" width="250">
 
                                             </div><!-- history-card-image -->
                                             <div class="history-card-meta">
