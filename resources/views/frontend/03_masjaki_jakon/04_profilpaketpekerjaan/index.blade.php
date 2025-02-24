@@ -34,8 +34,8 @@
                         </div><!-- service-two-image -->
                     </div><!-- service-two-imgbox -->
                     <div class="service-two-card-content">
-                        <h4>Pekerjaan Tender</h4>
-                        <p>Dinas Pekerjaan Umum dan Penataan Ruang <br> Pemerintah Kabupaten Blora Provinsi Jawa Tengah</p>
+                        <h4>Profil Paket Pekerjaan Konstruksi dan Konsultasi</h4>
+                        {{-- <p>Dinas Pekerjaan Umum dan Penataan Ruang <br> Pemerintah Kabupaten Blora Provinsi Jawa Tengah</p> --}}
                         <a href="/datajakon/paketpekerjaantender">
                             <i class="fa-solid fa-arrow-right-long"></i>
                             <span>Lihat Data</span>
@@ -111,7 +111,7 @@
                     </div><!-- service-two-imgbox -->
                     <div class="service-two-card-content">
                         <h4>Data Statistik Pekerjaan</h4>
-                        <p>Dinas Pekerjaan Umum dan Penataan Ruang <br> Pemerintah Kabupaten Blora Provinsi Jawa Tengah</p>
+                        {{-- <p>Dinas Pekerjaan Umum dan Penataan Ruang <br> Pemerintah Kabupaten Blora Provinsi Jawa Tengah</p> --}}
                         <a href="/datajakon/?">
                             <i class="fa-solid fa-arrow-right-long"></i>
                             <span>Lihat Data</span>
