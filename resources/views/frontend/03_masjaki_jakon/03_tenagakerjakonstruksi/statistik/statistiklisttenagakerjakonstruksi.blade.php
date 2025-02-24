@@ -36,6 +36,56 @@
 						</div><!-- sidebar-widget-list-inner -->
 						<div class="sidebar-widget-list-inner">
 
+                            <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+                            <script type="text/javascript">
+                              google.charts.load('current', {'packages':['table']});
+                              google.charts.setOnLoadCallback(drawTable);
+
+                              function drawTable() {
+                                var data = new google.visualization.DataTable();
+                                data.addColumn('string', 'Jenjang');
+                                data.addColumn('number', 'Jumlah');
+
+                                data.addRows([
+                                    @foreach($statistikJenjang as $item)
+                                        ['{{ $item['jenjang'] }}', {{ $item['jumlah'] }}],
+                                    @endforeach
+                                ]);
+
+                                var table = new google.visualization.Table(document.getElementById('table_div'));
+                                table.draw(data, {showRowNumber: true, width: '100%', height: '100%'});
+                              }
+
+                              setTimeout(() => {
+                                    document.querySelectorAll('#table_div table').forEach((table) => {
+                                        table.style.borderCollapse = 'collapse';
+                                        table.style.width = '100%';
+                                        table.style.boxShadow = '0px 4px 8px rgba(0, 0, 0, 0.1)';
+                                        table.style.borderRadius = '8px';
+                                        table.style.overflow = 'hidden';
+                                    });
+
+                                    document.querySelectorAll('#table_div th').forEach((th) => {
+                                        th.style.backgroundColor = '#007bff';
+                                        th.style.color = 'white';
+                                        th.style.textTransform = 'uppercase';
+                                        th.style.padding = '12px';
+                                        th.style.textAlign = 'left';
+                                    });
+
+                                    document.querySelectorAll('#table_div tr:nth-child(even)').forEach((tr) => {
+                                        tr.style.backgroundColor = '#f9f9f9';
+                                    });
+
+                                    document.querySelectorAll('#table_div tr:hover').forEach((tr) => {
+                                        tr.style.backgroundColor = '#f1f1f1';
+                                    });
+
+                                    }, 500);
+
+                            </script>
+
+                        <div id="table_div"></div>
 						</div><!-- sidebar-widget-list-inner -->
                         <div class="sidebar-widget-list-inner">
 
@@ -117,57 +167,6 @@
 
                         </div><!-- department-details-content-box -->
 
-
-                        <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
-                        <script type="text/javascript">
-                          google.charts.load('current', {'packages':['table']});
-                          google.charts.setOnLoadCallback(drawTable);
-
-                          function drawTable() {
-                            var data = new google.visualization.DataTable();
-                            data.addColumn('string', 'Jenjang');
-                            data.addColumn('number', 'Jumlah');
-
-                            data.addRows([
-                                @foreach($statistikJenjang as $item)
-                                    ['{{ $item['jenjang'] }}', {{ $item['jumlah'] }}],
-                                @endforeach
-                            ]);
-
-                            var table = new google.visualization.Table(document.getElementById('table_div'));
-                            table.draw(data, {showRowNumber: true, width: '100%', height: '100%'});
-                          }
-
-                          setTimeout(() => {
-                                document.querySelectorAll('#table_div table').forEach((table) => {
-                                    table.style.borderCollapse = 'collapse';
-                                    table.style.width = '100%';
-                                    table.style.boxShadow = '0px 4px 8px rgba(0, 0, 0, 0.1)';
-                                    table.style.borderRadius = '8px';
-                                    table.style.overflow = 'hidden';
-                                });
-
-                                document.querySelectorAll('#table_div th').forEach((th) => {
-                                    th.style.backgroundColor = '#007bff';
-                                    th.style.color = 'white';
-                                    th.style.textTransform = 'uppercase';
-                                    th.style.padding = '12px';
-                                    th.style.textAlign = 'left';
-                                });
-
-                                document.querySelectorAll('#table_div tr:nth-child(even)').forEach((tr) => {
-                                    tr.style.backgroundColor = '#f9f9f9';
-                                });
-
-                                document.querySelectorAll('#table_div tr:hover').forEach((tr) => {
-                                    tr.style.backgroundColor = '#f1f1f1';
-                                });
-
-                                }, 500);
-
-                        </script>
-
-                    <div id="table_div"></div>
                 </div><!-- col-lg-8 -->
 
                 <div class="col-12 col-lg-12 col-xl-12" style="margin-top:25px;">
