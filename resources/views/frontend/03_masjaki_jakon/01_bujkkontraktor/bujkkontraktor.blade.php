@@ -167,7 +167,7 @@ color: #45a049;
                                             </button>
                                         </a>
                                         <div style="position: relative; display: inline-block;">
-                                            <input type="search" placeholder="Cari..." style="border: 1px solid #ccc; padding: 5px 10px; font-size: 14px; border-radius: 5px; width: 200px;">
+                                            <input type="search" placeholder="Pencarian...." style="border: 1px solid #ccc; padding: 5px 10px; font-size: 14px; border-radius: 5px; width: 200px;">
                                             <i class="fas fa-search" style="position: absolute; right: 10px; top: 50%; transform: translateY(-50%); font-size: 16px; color: #888;"></i>
                                         </div>
 
