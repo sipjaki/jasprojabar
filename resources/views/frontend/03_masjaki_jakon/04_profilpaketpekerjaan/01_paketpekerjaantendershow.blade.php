@@ -271,16 +271,16 @@ color: #45a049;
                                             </div><!-- history-card-meta -->
                                             <div class="history-card-detail"></div><!-- history-card-detail -->
                                             <div class="history-card-content">
-                                                <h3>TownGov Founded</h3>
-                                                <p>Many desktop publishing packages and web page editors now use Lorem Ipsum as their web sites still in their infancy.</p>
+                                                <h3>Persiapan</h3>
+                                                {{-- <p>Many desktop publishing packages and web page editors now use Lorem Ipsum as their web sites still in their infancy.</p> --}}
                                             </div><!-- history-card-content -->
                                         </div><!-- history-card-item -->
                                     </div><!-- history-card-list -->
                                     <div class="history-card-list history-even">
                                         <div class="history-card-item">
                                             <div class="history-card-content">
-                                                <h3>City President Election</h3>
-                                                <p>Many desktop publishing packages and web page editors now use Lorem Ipsum as their web sites still in their infancy.</p>
+                                                <h3>Pengadaan</h3>
+                                                {{-- <p>Many desktop publishing packages and web page editors now use Lorem Ipsum as their web sites still in their infancy.</p> --}}
                                             </div><!-- history-card-content -->
                                             <div class="history-card-meta meta-box">
                                                 <div class="history-card-years">2</div>
@@ -305,16 +305,16 @@ color: #45a049;
                                             </div><!-- history-card-meta -->
                                             <div class="history-card-detail"></div><!-- history-card-detail -->
                                             <div class="history-card-content">
-                                                <h3>Counted Total Population</h3>
-                                                <p>Many desktop publishing packages and web page editors now use Lorem Ipsum as their web sites still in their infancy.</p>
+                                                <h3>Pelaksanaan</h3>
+                                                {{-- <p>Many desktop publishing packages and web page editors now use Lorem Ipsum as their web sites still in their infancy.</p> --}}
                                             </div><!-- history-card-content -->
                                         </div><!-- history-card-item -->
                                     </div><!-- history-card-list -->
                                     <div class="history-card-list history-even">
                                         <div class="history-card-item">
                                             <div class="history-card-content">
-                                                <h3>Green Farming Development</h3>
-                                                <p>Many desktop publishing packages and web page editors now use Lorem Ipsum as their web sites still in their infancy.</p>
+                                                <h3>Pemeliharaan</h3>
+                                                {{-- <p>Many desktop publishing packages and web page editors now use Lorem Ipsum as their web sites still in their infancy.</p> --}}
                                             </div><!-- history-card-content -->
                                             <div class="history-card-meta meta-box">
                                                 <div class="history-card-years">4</div>
@@ -340,8 +340,8 @@ color: #45a049;
                                             </div><!-- history-card-meta -->
                                             <div class="history-card-detail"></div><!-- history-card-detail -->
                                             <div class="history-card-content">
-                                                <h3>Stated Science University</h3>
-                                                <p>Many desktop publishing packages and web page editors now use Lorem Ipsum as their web sites still in their infancy.</p>
+                                                <h3>Selesai</h3>
+                                                {{-- <p>Many desktop publishing packages and web page editors now use Lorem Ipsum as their web sites still in their infancy.</p> --}}
                                             </div><!-- history-card-content -->
                                         </div><!-- history-card-item -->
                                     </div><!-- history-card-list -->
