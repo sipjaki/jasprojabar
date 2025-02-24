@@ -9,12 +9,6 @@
 <div class="page-wrapper">
   <section class="page-banner" style="background-image: url('/assets/approve/image/bg/page-banner.png')">
     <div class="container">
-      <div class="page-breadcrumbs">
-        <ul class="list-unstyled">
-          {{-- <li><a href="index.html">Home</a></li> --}}
-          <li>Documents</li>
-        </ul><!-- list-unstyled -->
-      </div><!-- page-breadcrumbs -->
       <div class="page-banner-title">
         <h3 style="color: black; font-size:25px;">{{$title}}</h3>
       </div><!-- page-banner-title -->
@@ -35,7 +29,7 @@
                     </div><!-- service-two-imgbox -->
                     <div class="service-two-card-content">
                         <h4>BUJK Kontraktor</h4>
-                        <p>Dinas Pekerjaan Umum dan Penataan Ruang <br> Pemerintah Kabupaten Blora Provinsi Jawa Tengah</p>
+                        {{-- <p>Dinas Pekerjaan Umum dan Penataan Ruang <br> Pemerintah Kabupaten Blora Provinsi Jawa Tengah</p> --}}
                         <a href="/datajakon/bujkkontraktor">
                             <i class="fa-solid fa-arrow-right-long"></i>
                             <span>Lihat Data</span>
@@ -53,7 +47,7 @@
                     </div><!-- service-two-imgbox -->
                     <div class="service-two-card-content">
                         <h4>BUJK Konsultan</h4>
-                        <p>Dinas Pekerjaan Umum dan Penataan Ruang <br> Pemerintah Kabupaten Blora Provinsi Jawa Tengah</p>
+                        {{-- <p>Dinas Pekerjaan Umum dan Penataan Ruang <br> Pemerintah Kabupaten Blora Provinsi Jawa Tengah</p> --}}
                         <a href="/datajakon/bujkkonsultan">
                             <i class="fa-solid fa-arrow-right-long"></i>
                             <span>Lihat Data</span>
@@ -71,7 +65,7 @@
                     </div><!-- service-two-imgbox -->
                     <div class="service-two-card-content">
                         <h4>Data Statistik</h4>
-                        <p>Dinas Pekerjaan Umum dan Penataan Ruang <br> Pemerintah Kabupaten Blora Provinsi Jawa Tengah</p>
+                        {{-- <p>Dinas Pekerjaan Umum dan Penataan Ruang <br> Pemerintah Kabupaten Blora Provinsi Jawa Tengah</p> --}}
                         <a href="/datajakon/statistikabujkblora">
                             <i class="fa-solid fa-arrow-right-long"></i>
                             <span>Lihat Data</span>
