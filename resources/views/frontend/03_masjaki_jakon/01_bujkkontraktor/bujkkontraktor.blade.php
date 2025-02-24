@@ -125,7 +125,7 @@ color: #45a049;
 		</div><!-- container -->
 	</section><!--page-banner-->
     <section class="service-two-section">
-        <div class="container" style="background: orange;">
+        <div class="container" style="background: #ffae00;">
             <div class="row row-gutter-y-40">
 
                 <div class="col-12 col-lg-12 col-xl-12">
