@@ -153,6 +153,11 @@ color: #45a049;
                                             <i class="fas fa-arrow-circle-left mr-2" style="margin-left:10px;"></i> MENU UTAMA BUJK KOSNTRUKSI DAN KONSULTASI KONSTRUKSI
                                         </button>
                                     </a>
+                                    <a href="//datajakon/bujk" style="background: white;">
+                                        <button class="badgekembali" style="border: none; font-size:12px; cursor:pointer;">
+                                            <i class="fas fa-arrow-circle-left mr-2" style="margin-left:10px;"></i> MENU UTAMA BUJK KOSNTRUKSI DAN KONSULTASI KONSTRUKSI
+                                        </button>
+                                    </a>
                                 </ul>
                             </div>
                         </section>
