@@ -162,6 +162,24 @@ color: #45a049;
                                         </button>
                                     </a>
 
+                                    <a href="/datajakon/paketpekerjaannontender" style="background: white;">
+                                        <button class="badgekembali" style="border: none; font-size: 12px; cursor: pointer;">
+                                            <i class="fas fa-list mr-2" style="margin-right: 10px;"></i> <span style="text-transform: uppercase">Paket Pekerjaan Non Tender</span>
+                                        </button>
+                                    </a>
+
+                                    <a href="/datajakon/paketkonsultasitender" style="background: white;">
+                                        <button class="badgekembali" style="border: none; font-size: 12px; cursor: pointer;">
+                                            <i class="fas fa-list mr-2" style="margin-right: 10px;"></i> <span style="text-transform: uppercase">Paket Konsultasi Tender</span>
+                                        </button>
+                                    </a>
+
+                                    <a href="/datajakon/paketkonsultasinontender" style="background: white;">
+                                        <button class="badgekembali" style="border: none; font-size: 12px; cursor: pointer;">
+                                            <i class="fas fa-list mr-2" style="margin-right: 10px;"></i> <span style="text-transform: uppercase">Paket Konsultasi Non Tender</span>
+                                        </button>
+                                    </a>
+
                                     <!-- Tombol dan kolom pencarian di kanan -->
                                     <div style="display: flex; align-items: center;">
 
