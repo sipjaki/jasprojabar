@@ -87,6 +87,24 @@ color: #45a049;
 }
 
 
+            .kembali {
+                background: linear-gradient(to right, navy, navy);
+                color: white;
+                padding: 10px 20px;
+                border-radius: 10px;
+                display: inline-block;
+                font-size: 1rem;
+                text-align: center;
+                font-size: 12px;
+                cursor: pointer;
+                transition: background-color 0.3s, color 0.3s;
+            }
+            .kembali:hover {
+                background-color: white;
+                color: black;
+                background: white;
+            }
+
             .badgekembali {
                 background: linear-gradient(to right, green, green);
                 color: white;
@@ -185,7 +203,7 @@ color: #45a049;
 
 
                                         <a href="/datajakon/datapaketpekerjaanblora" style="background: white;">
-                                            <button class="badgekembali" style="border: none; font-size: 12px; cursor: pointer; margin-right: 10px;">
+                                            <button class="kembali" style="border: none; font-size: 12px; cursor: pointer; margin-right: 10px;">
                                                 <i class="fas fa-arrow-circle-left mr-2" style="margin-right: 15px;"></i> KEMBALI
                                             </button>
                                         </a>
