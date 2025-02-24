@@ -263,7 +263,7 @@ color: #45a049;
                                     <div class="history-card-list">
                                         <div class="history-card-item history-image">
                                             <div class="history-card-image" style="width: 70%">
-                                                <img src="/assets/00_dokmasjaki/03_datajakon/asosiasi.png" class="img-fluid" alt="img-25">
+                                                <img src="/assets/00_dokmasjaki/03_datajakon/asosiasi.png" class="img-fluid" alt="img-25" width="80">
                                             </div><!-- history-card-image -->
                                             <div class="history-card-meta history-card-data-content">
                                                 <div class="history-card-years">1998</div>
