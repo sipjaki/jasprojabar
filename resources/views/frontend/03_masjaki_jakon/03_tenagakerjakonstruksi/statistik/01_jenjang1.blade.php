@@ -185,8 +185,6 @@
                     </body>
 
 
-
-
 			</div><!-- row -->
 		</div><!-- container -->
 	</section><!-- department-details-section -->
