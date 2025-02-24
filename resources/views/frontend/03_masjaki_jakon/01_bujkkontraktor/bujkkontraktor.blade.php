@@ -187,15 +187,15 @@ color: #45a049;
                                     <td>{{ $loop->iteration + $start - 1 }}</td>
                                     <td>{{$item->namalengkap}}</td>
                                     <td>{{$item->alamat}}</td>
-                                    <td>{{$item->no_telepon}}</td>
+                                    {{-- <td>{{$item->no_telepon}}</td> --}}
                                     <td>{{$item->email}}</td>
-                                    <td>{{$item->nib}}</td>
+                                    {{-- <td>{{$item->nib}}</td> --}}
                                     <td>{{$item->pju}}</td>
-                                    <td>{{$item->no_akte}}</td>
+                                    {{-- <td>{{$item->no_akte}}</td> --}}
                                     {{-- <td>{{$item->tanggal}}</td> --}}
                                     <td>{{ \Carbon\Carbon::parse($item->tanggal)->isoFormat('D MMMM YYYY') }}</td>
-                                    <td>{{$item->nama_notaris}}</td>
-                                    <td>{{$item->no_pengesahan}}</td>
+                                    {{-- <td>{{$item->nama_notaris}}</td> --}}
+                                    {{-- <td>{{$item->no_pengesahan}}</td> --}}
                                     <td style="text-align: center">
                                         <a href="/datajakon/bujkkontraktor/{{$item->namalengkap}}">
                                             <i class="fas fa-eye view-icon" onclick="alert('View clicked!')"></i>
