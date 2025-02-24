@@ -60,7 +60,7 @@
                 <div class="service-two-card">
                     <div class="service-two-imgbox" >
                         <div class="service-two-image" style="display: flex; justify-content: center;">
-                            <img src="/assets/00_dokmasjaki/03_datajakon/konsultan.png"  class="img-fluid" alt="img-29"  loading="lazy" style="width:70%; padding:30px; ">
+                            <img src="/assets/00_dokmasjaki/03_datajakon/asosiasi.png"  class="img-fluid" alt="img-29"  loading="lazy" style="width:70%; padding:30px; ">
                             <a href="/404"></a>
                         </div><!-- service-two-image -->
                     </div><!-- service-two-imgbox -->
