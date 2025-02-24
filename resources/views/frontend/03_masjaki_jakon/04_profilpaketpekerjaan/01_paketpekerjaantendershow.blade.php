@@ -259,6 +259,9 @@ color: #45a049;
                                         <p>Dinas Pekerjaan Umum dan Penataan Ruang Kabupaten Blora</p>
                                     </div><!-- section-text -->
                                 </div><!-- section-box -->
+
+                                @foreach ($datasub as $item )
+
                                 <div class="history-card">
                                     <div class="history-card-list">
                                         <div class="history-card-item history-image">
@@ -364,6 +367,7 @@ color: #45a049;
                                 {{-- </div><!-- history-card --> --}}
 
                                 </div><!-- history-card -->
+                                @endforeach
                             </div><!-- container -->
                         </section><!--history-section-->
 
