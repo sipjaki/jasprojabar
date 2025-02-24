@@ -269,13 +269,13 @@ color: #45a049;
                                             </div><!-- history-card-image -->
 
                                             <div class="history-card-meta history-card-data-content">
-                                                <div class="history-card-years {{ $data->prosespaket->pelaksanaan == 'BELUM' ? 'bg-danger text-white' : '' }}">
+                                                <div class="{{ $data->prosespaket->pelaksanaan == 'BELUM' ? 'bg-danger text-white' : '' }}">
                                                     {{$data->prosespaket->pelaksanaan}}
                                                 </div>
                                                 {{-- <div class="history-card-date">1 May</div> --}}
                                             </div><!-- history-card-meta -->
 
-                                            {{-- <div class="history-card-detail"></div><!-- history-card-detail --> --}}
+                                            <div class="history-card-detail"></div><!-- history-card-detail -->
                                             <div class="history-card-content">
                                                 <h3>Persiapan</h3>
                                                 {{-- <p>Many desktop publishing packages and web page editors now use Lorem Ipsum as their web sites still in their infancy.</p> --}}
