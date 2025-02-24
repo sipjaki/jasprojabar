@@ -259,7 +259,7 @@ color: #45a049;
                                     <td>{{$item->bulanmulai}}</td>
                                     <td>{{$item->bulanselesai}}</td>
                                     <td>{{$item->dinas}}</td>
-                                    <td>{{$item->prosespaket->persiapan}}</td>
+                                    {{-- <td>{{$item->prosespaket->persiapan}}</td> --}}
                                     <td style="text-align: center">
                                         <a href="/datajakon/paketpekerjaantender/{{$item->jenispekerjaan}}">
                                             <i class="fas fa-eye view-icon" onclick="alert('View clicked!')"></i>
