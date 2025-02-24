@@ -38,20 +38,19 @@ class ProfilpaketpekerjaanbloraController extends Controller
 
     public function datapaketpekerjaanblorashow($jenispekerjaan)
     {
-        $data = profilpaketpekerjaanblora::where('jenispekerjaan', $jenispekerjaan)->first();
+        $datapaket = profilpaketpekerjaanblora::where('jenispekerjaan', $jenispekerjaan)->first();
 
-        $datasub = prosespaket::paginate(10);
+        if (!$datapaket) {
+            // Tangani jika kegiatan tidak ditemukan
+            return redirect()->back()->with('error', 'Kegiatan tidak ditemukan.');
+        }
 
-        // if (!$databujkkontraktor) {
-        //     // Tangani jika kegiatan tidak ditemukan
-        //     return redirect()->back()->with('error', 'Kegiatan tidak ditemukan.');
-        // }
+        // Menggunakan paginate() untuk pagination
+        $subdata = prosespaket::where('prosespaket_id', $datapaket->id)->paginate(20);
 
-        // // Menggunakan paginate() untuk pagination
-        // $subdata = bujkkontraktorsub::where('bujkkontraktor_id', $databujkkontraktor->id)->paginate(10);
+          // Menghitung nomor urut mulai
+            $start = ($subdata->currentPage() - 1) * $subdata->perPage() + 1;
 
-        //   // Menghitung nomor urut mulai
-        //     $start = ($subdata->currentPage() - 1) * $subdata->perPage() + 1;
 
 
     // Ambil data user saat ini
@@ -59,9 +58,9 @@ class ProfilpaketpekerjaanbloraController extends Controller
 
     return view('frontend.03_masjaki_jakon.04_profilpaketpekerjaan.01_paketpekerjaantendershow', [
         'title' => 'Profil Paket Pekerjaan Konstruksi & Konsultasi Kabupaten Blora',
-        'data' => $data,
+        'data' => $datapaket,
         'user' => $user,
-        'datasub' => $datasub,
+        'datasub' => $subdata,
 
     ]);
     }
