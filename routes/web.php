@@ -145,6 +145,7 @@ Route::get('/datajakon/paketkonsultasitender', [ProfilpaketkonsultasiController:
 Route::get('/datajakon/paketkonsultasitender/{jenispekerjaan}', [ProfilpaketkonsultasiController::class, 'paketkonsultasishow']);
 // =--
 Route::get('/datajakon/paketkonsultasinontender', [ProfilpaketkonsultasinontenderController::class, 'paketkonsultasinontender']);
+Route::get('/datajakon/paketkonsultasinontender/{jenispekerjaan}', [ProfilpaketkonsultasinontenderController::class, 'paketkonsultasinontendershow']);
 
 
 // ------------- HALAMAN UNTUK DATA SERTIFIKASI TENAGA KERJA AHLI -----------------
