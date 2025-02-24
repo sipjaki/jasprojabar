@@ -251,7 +251,145 @@ color: #45a049;
                                 </div><!-- row -->
                             </div><!-- container -->
                         </section><!-- donate-section -->
-
+                        <section class="history-section">
+                            <div class="container">
+                                <div class="section-box text-center">
+                                    <h2 class="section-title">Towngov history</h2>
+                                    <div class="section-text">
+                                        <p>The point of using Lorem Ipsum is that it has a more normal distributions</p>
+                                    </div><!-- section-text -->
+                                </div><!-- section-box -->
+                                <div class="history-card">
+                                    <div class="history-card-list">
+                                        <div class="history-card-item history-image">
+                                            <div class="history-card-image">
+                                                <img src="assets/image/history/history-1.jpg" class="img-fluid" alt="img-25">
+                                            </div><!-- history-card-image -->
+                                            <div class="history-card-meta history-card-data-content">
+                                                <div class="history-card-years">1998</div>
+                                                <div class="history-card-date">1 May</div>
+                                            </div><!-- history-card-meta -->
+                                            <div class="history-card-detail"></div><!-- history-card-detail -->
+                                            <div class="history-card-content">
+                                                <h3>TownGov Founded</h3>
+                                                <p>Many desktop publishing packages and web page editors now use Lorem Ipsum as their web sites still in their infancy.</p>
+                                            </div><!-- history-card-content -->
+                                        </div><!-- history-card-item -->
+                                    </div><!-- history-card-list -->
+                                    <div class="history-card-list history-even">
+                                        <div class="history-card-item">
+                                            <div class="history-card-content">
+                                                <h3>City President Election</h3>
+                                                <p>Many desktop publishing packages and web page editors now use Lorem Ipsum as their web sites still in their infancy.</p>
+                                            </div><!-- history-card-content -->
+                                            <div class="history-card-meta meta-box">
+                                                <div class="history-card-years">2000</div>
+                                                <div class="history-card-date">3 June</div>
+                                            </div><!-- history-card-meta -->
+                                            <div class="history-card-option"></div><!-- history-card-option -->
+                                            <div class="history-card-image">
+                                                <img src="assets/image/history/history-2.jpg" class="img-fluid" alt="img-26">
+                                            </div><!-- history-card-image -->
+                                        </div><!-- history-card-item -->
+                                    </div><!-- history-card-list -->
+                                    <div class="history-card-list">
+                                        <div class="history-card-item">
+                                            <div class="history-card-image">
+                                                <img src="assets/image/history/history-3.jpg" class="img-fluid" alt="img-27">
+                                            </div><!-- history-card-image -->
+                                            <div class="history-card-meta">
+                                                <div class="history-card-years">2000</div>
+                                                <div class="history-card-date">5 December</div>
+                                            </div><!-- history-card-meta -->
+                                            <div class="history-card-detail"></div><!-- history-card-detail -->
+                                            <div class="history-card-content">
+                                                <h3>Counted Total Population</h3>
+                                                <p>Many desktop publishing packages and web page editors now use Lorem Ipsum as their web sites still in their infancy.</p>
+                                            </div><!-- history-card-content -->
+                                        </div><!-- history-card-item -->
+                                    </div><!-- history-card-list -->
+                                    <div class="history-card-list history-even">
+                                        <div class="history-card-item">
+                                            <div class="history-card-content">
+                                                <h3>Green Farming Development</h3>
+                                                <p>Many desktop publishing packages and web page editors now use Lorem Ipsum as their web sites still in their infancy.</p>
+                                            </div><!-- history-card-content -->
+                                            <div class="history-card-meta meta-box">
+                                                <div class="history-card-years">2004</div>
+                                                <div class="history-card-date">7 March</div>
+                                            </div><!-- history-card-meta -->
+                                            <div class="history-card-option"></div><!-- history-card-option -->
+                                            <div class="history-card-image">
+                                                <img src="assets/image/history/history-4.jpg" class="img-fluid" alt="img-28">
+                                            </div><!-- history-card-image -->
+                                        </div><!-- history-card-item -->
+                                    </div><!-- history-card-list -->
+                                    <div class="history-card-list">
+                                        <div class="history-card-item">
+                                            <div class="history-card-image">
+                                                <img src="assets/image/history/history-5.jpg" class="img-fluid" alt="img-29">
+                                            </div><!-- history-card-image -->
+                                            <div class="history-card-meta">
+                                                <div class="history-card-years">2016</div>
+                                                <div class="history-card-date">9 September</div>
+                                            </div><!-- history-card-meta -->
+                                            <div class="history-card-detail"></div><!-- history-card-detail -->
+                                            <div class="history-card-content">
+                                                <h3>Stated Science University</h3>
+                                                <p>Many desktop publishing packages and web page editors now use Lorem Ipsum as their web sites still in their infancy.</p>
+                                            </div><!-- history-card-content -->
+                                        </div><!-- history-card-item -->
+                                    </div><!-- history-card-list -->
+                                    <div class="history-card-list history-even">
+                                        <div class="history-card-item">
+                                            <div class="history-card-content">
+                                                <h3>Developed Smartcity</h3>
+                                                <p>Many desktop publishing packages and web page editors now use Lorem Ipsum as their web sites still in their infancy.</p>
+                                            </div><!-- history-card-content -->
+                                            <div class="history-card-meta meta-box">
+                                                <div class="history-card-years">2018</div>
+                                                <div class="history-card-date">11 September</div>
+                                            </div><!-- history-card-meta -->
+                                            <div class="history-card-option"></div><!-- history-card-option -->
+                                            <div class="history-card-image">
+                                                <img src="assets/image/history/history-6.jpg" class="img-fluid" alt="img-30">
+                                            </div><!-- history-card-image -->
+                                        </div><!-- history-card-item -->
+                                    </div><!-- history-card-list -->
+                                    <div class="history-card-list">
+                                        <div class="history-card-item history-image">
+                                            <div class="history-card-image">
+                                                <img src="assets/image/history/history-7.jpg" class="img-fluid" alt="img-25">
+                                            </div><!-- history-card-image -->
+                                            <div class="history-card-meta meta-box history-card-data">
+                                                <div class="history-card-years">2021</div>
+                                                <div class="history-card-date">13 September</div>
+                                            </div><!-- history-card-meta -->
+                                            <div class="history-card-detail"></div><!-- history-card-detail -->
+                                            <div class="history-card-content">
+                                                <h3>Family wise smart card</h3>
+                                                <p>Many desktop publishing packages and web page editors now use Lorem Ipsum as their web sites still in their infancy.</p>
+                                            </div><!-- history-card-content -->
+                                        </div><!-- history-card-item -->
+                                    </div><!-- history-card-list -->
+                                    <div class="history-card-list history-even">
+                                        <div class="history-card-item">
+                                            <div class="history-card-content">
+                                                <h3>96% Educated People</h3>
+                                                <p>Many desktop publishing packages and web page editors now use Lorem Ipsum as their web sites still in their infancy.</p>
+                                            </div><!-- history-card-content -->
+                                            <div class="history-card-meta meta-box">
+                                                <div class="history-card-years">2022</div>
+                                                <div class="history-card-date">15 September</div>
+                                            </div><!-- history-card-meta -->
+                                            <div class="history-card-image">
+                                                <img src="assets/image/history/history-8.jpg" class="img-fluid" alt="img-26">
+                                            </div><!-- history-card-image -->
+                                        </div><!-- history-card-item -->
+                                    </div><!-- history-card-list -->
+                                </div><!-- history-card -->
+                            </div><!-- container -->
+                        </section><!--history-section-->
 
 
                     </div><!--service-two-card-content-->
@@ -263,145 +401,7 @@ color: #45a049;
     </div><!-- container -->
 </section><!-- service-two-section -->
 
-<section class="history-section">
-    <div class="container">
-        <div class="section-box text-center">
-            <h2 class="section-title">Towngov history</h2>
-            <div class="section-text">
-                <p>The point of using Lorem Ipsum is that it has a more normal distributions</p>
-            </div><!-- section-text -->
-        </div><!-- section-box -->
-        <div class="history-card">
-            <div class="history-card-list">
-                <div class="history-card-item history-image">
-                    <div class="history-card-image">
-                        <img src="assets/image/history/history-1.jpg" class="img-fluid" alt="img-25">
-                    </div><!-- history-card-image -->
-                    <div class="history-card-meta history-card-data-content">
-                        <div class="history-card-years">1998</div>
-                        <div class="history-card-date">1 May</div>
-                    </div><!-- history-card-meta -->
-                    <div class="history-card-detail"></div><!-- history-card-detail -->
-                    <div class="history-card-content">
-                        <h3>TownGov Founded</h3>
-                        <p>Many desktop publishing packages and web page editors now use Lorem Ipsum as their web sites still in their infancy.</p>
-                    </div><!-- history-card-content -->
-                </div><!-- history-card-item -->
-            </div><!-- history-card-list -->
-            <div class="history-card-list history-even">
-                <div class="history-card-item">
-                    <div class="history-card-content">
-                        <h3>City President Election</h3>
-                        <p>Many desktop publishing packages and web page editors now use Lorem Ipsum as their web sites still in their infancy.</p>
-                    </div><!-- history-card-content -->
-                    <div class="history-card-meta meta-box">
-                        <div class="history-card-years">2000</div>
-                        <div class="history-card-date">3 June</div>
-                    </div><!-- history-card-meta -->
-                    <div class="history-card-option"></div><!-- history-card-option -->
-                    <div class="history-card-image">
-                        <img src="assets/image/history/history-2.jpg" class="img-fluid" alt="img-26">
-                    </div><!-- history-card-image -->
-                </div><!-- history-card-item -->
-            </div><!-- history-card-list -->
-            <div class="history-card-list">
-                <div class="history-card-item">
-                    <div class="history-card-image">
-                        <img src="assets/image/history/history-3.jpg" class="img-fluid" alt="img-27">
-                    </div><!-- history-card-image -->
-                    <div class="history-card-meta">
-                        <div class="history-card-years">2000</div>
-                        <div class="history-card-date">5 December</div>
-                    </div><!-- history-card-meta -->
-                    <div class="history-card-detail"></div><!-- history-card-detail -->
-                    <div class="history-card-content">
-                        <h3>Counted Total Population</h3>
-                        <p>Many desktop publishing packages and web page editors now use Lorem Ipsum as their web sites still in their infancy.</p>
-                    </div><!-- history-card-content -->
-                </div><!-- history-card-item -->
-            </div><!-- history-card-list -->
-            <div class="history-card-list history-even">
-                <div class="history-card-item">
-                    <div class="history-card-content">
-                        <h3>Green Farming Development</h3>
-                        <p>Many desktop publishing packages and web page editors now use Lorem Ipsum as their web sites still in their infancy.</p>
-                    </div><!-- history-card-content -->
-                    <div class="history-card-meta meta-box">
-                        <div class="history-card-years">2004</div>
-                        <div class="history-card-date">7 March</div>
-                    </div><!-- history-card-meta -->
-                    <div class="history-card-option"></div><!-- history-card-option -->
-                    <div class="history-card-image">
-                        <img src="assets/image/history/history-4.jpg" class="img-fluid" alt="img-28">
-                    </div><!-- history-card-image -->
-                </div><!-- history-card-item -->
-            </div><!-- history-card-list -->
-            <div class="history-card-list">
-                <div class="history-card-item">
-                    <div class="history-card-image">
-                        <img src="assets/image/history/history-5.jpg" class="img-fluid" alt="img-29">
-                    </div><!-- history-card-image -->
-                    <div class="history-card-meta">
-                        <div class="history-card-years">2016</div>
-                        <div class="history-card-date">9 September</div>
-                    </div><!-- history-card-meta -->
-                    <div class="history-card-detail"></div><!-- history-card-detail -->
-                    <div class="history-card-content">
-                        <h3>Stated Science University</h3>
-                        <p>Many desktop publishing packages and web page editors now use Lorem Ipsum as their web sites still in their infancy.</p>
-                    </div><!-- history-card-content -->
-                </div><!-- history-card-item -->
-            </div><!-- history-card-list -->
-            <div class="history-card-list history-even">
-                <div class="history-card-item">
-                    <div class="history-card-content">
-                        <h3>Developed Smartcity</h3>
-                        <p>Many desktop publishing packages and web page editors now use Lorem Ipsum as their web sites still in their infancy.</p>
-                    </div><!-- history-card-content -->
-                    <div class="history-card-meta meta-box">
-                        <div class="history-card-years">2018</div>
-                        <div class="history-card-date">11 September</div>
-                    </div><!-- history-card-meta -->
-                    <div class="history-card-option"></div><!-- history-card-option -->
-                    <div class="history-card-image">
-                        <img src="assets/image/history/history-6.jpg" class="img-fluid" alt="img-30">
-                    </div><!-- history-card-image -->
-                </div><!-- history-card-item -->
-            </div><!-- history-card-list -->
-            <div class="history-card-list">
-                <div class="history-card-item history-image">
-                    <div class="history-card-image">
-                        <img src="assets/image/history/history-7.jpg" class="img-fluid" alt="img-25">
-                    </div><!-- history-card-image -->
-                    <div class="history-card-meta meta-box history-card-data">
-                        <div class="history-card-years">2021</div>
-                        <div class="history-card-date">13 September</div>
-                    </div><!-- history-card-meta -->
-                    <div class="history-card-detail"></div><!-- history-card-detail -->
-                    <div class="history-card-content">
-                        <h3>Family wise smart card</h3>
-                        <p>Many desktop publishing packages and web page editors now use Lorem Ipsum as their web sites still in their infancy.</p>
-                    </div><!-- history-card-content -->
-                </div><!-- history-card-item -->
-            </div><!-- history-card-list -->
-            <div class="history-card-list history-even">
-                <div class="history-card-item">
-                    <div class="history-card-content">
-                        <h3>96% Educated People</h3>
-                        <p>Many desktop publishing packages and web page editors now use Lorem Ipsum as their web sites still in their infancy.</p>
-                    </div><!-- history-card-content -->
-                    <div class="history-card-meta meta-box">
-                        <div class="history-card-years">2022</div>
-                        <div class="history-card-date">15 September</div>
-                    </div><!-- history-card-meta -->
-                    <div class="history-card-image">
-                        <img src="assets/image/history/history-8.jpg" class="img-fluid" alt="img-26">
-                    </div><!-- history-card-image -->
-                </div><!-- history-card-item -->
-            </div><!-- history-card-list -->
-        </div><!-- history-card -->
-    </div><!-- container -->
-</section><!--history-section-->
+
 
 
 {{-- -------------------------- --}}
