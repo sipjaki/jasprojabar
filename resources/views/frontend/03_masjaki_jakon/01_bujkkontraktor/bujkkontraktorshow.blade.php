@@ -104,6 +104,24 @@ color: #45a049;
                 color: black;
                 background: white;
             }
+
+            .green-button {
+                background: linear-gradient(to right, navy, navy);
+                color: white;
+                padding: 10px 20px;
+                border-radius: 10px;
+                display: inline-block;
+                font-size: 1rem;
+                text-align: center;
+                font-size: 12px;
+                cursor: pointer;
+                transition: background-color 0.3s, color 0.3s;
+            }
+            .green-button:hover {
+                background-color: white;
+                color: black;
+                background: white;
+            }
 </style>
 
 
