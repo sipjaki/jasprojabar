@@ -81,7 +81,7 @@
 								<li><a href="/datajakon/bujk">BUJK Kontraktor dan Konsultan</a></li>
 								{{-- <li><a href="/404">BUJK Konsultan</a></li> --}}
 								<li><a href="/datajakon/skktenagakerja">Tenaga Kerja Konstruksi</a></li>
-								<li><a href="/datajakon/datapaketpekerjaanblora">Profil Paket Pekerjaan</a></li>
+								<li><a href="/datajakon/datapaketpekerjaanblora">Profil Paket Pekerjaan Konstruksi & Konsultasi</a></li>
 							</ul><!-- list-unstyled -->
 						</li><!--has-dropdown-->
 
