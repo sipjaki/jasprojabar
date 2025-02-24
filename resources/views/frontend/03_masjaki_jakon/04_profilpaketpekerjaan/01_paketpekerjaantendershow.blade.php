@@ -359,7 +359,7 @@ color: #45a049;
                                                 {{-- <div class="history-card-date">1 May</div> --}}
                                             </div><!-- history-card-meta -->
 
-                                            <div class="history-card-detail"></div><!-- history-card-detail -->
+                                            {{-- <div class="history-card-detail"></div><!-- history-card-detail --> --}}
 
                                             <div class="history-card-content">
                                                 <h3>Selesai</h3>
