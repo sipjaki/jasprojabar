@@ -13,12 +13,12 @@ return new class extends Migration
     {
         Schema::create('prosespakets', function (Blueprint $table) {
             $table->id();
-            $table->foreignId('profilpaketpekerjaanblora_id');
-            $table->enum('persiapan', ['Selesai', 'Belum']);
-            $table->enum('pengadaan', ['Selesai', 'Belum']);
-            $table->enum('pelaksanaan', ['Selesai', 'Belum']);
-            $table->enum('pemeliharaan', ['Selesai', 'Belum']);
-            $table->enum('paketselesai', ['Selesai', 'Belum']);
+            $table->foreignId('profilpaketpekerjaanblora_id')->nullable();
+            $table->string('persiapan')->nullable();
+            $table->string('pengadaan')->nullable();
+            $table->string('pelaksanaan')->nullable();
+            $table->string('pemeliharaan')->nullable();
+            $table->string('paketselesai')->nullable();
             $table->softDeletes();
             $table->timestamps();
         });
