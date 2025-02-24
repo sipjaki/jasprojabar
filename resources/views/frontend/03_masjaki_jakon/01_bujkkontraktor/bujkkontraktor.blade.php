@@ -148,7 +148,7 @@ color: #45a049;
                             <div class="container" >
                               <ul class="nav nav-pills" id="pills-tab" role="tablist">
                                 <img src="/assets/icon/logokabupatenblora.png" class="img-fluid" alt="img-25" width="50" style="margin-right: 20px;" loading="lazy">
-                                <div style="display: flex; justify-content: space-between; width: 100%;" style="margin-top: 10px;">
+                                <div style="display: flex; justify-content: space-between; width: 100%; margin-top:20px;">
                                     <a href="/datajakon/bujk" style="background: white;">
                                         <button class="badgekembali" style="border: none; font-size: 12px; cursor: pointer;">
                                             <i class="fas fa-list mr-2" style="margin-right: 10px;"></i> <span style="text-transform: uppercase">{{$title}}</span>
