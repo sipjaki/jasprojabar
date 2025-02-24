@@ -272,7 +272,7 @@ color: #45a049;
                                                 <div class="history-card-years {{ $data->prosespaket->persiapan == 'BELUM' ? 'bg-danger text-white' : '' }}">
                                                     {{$data->prosespaket->persiapan}}
                                                 </div>
-                                                <div class="history-card-date">1 May</div>
+                                                {{-- <div class="history-card-date">1 May</div> --}}
                                             </div><!-- history-card-meta -->
 
                                             <div class="history-card-detail"></div><!-- history-card-detail -->
@@ -289,11 +289,11 @@ color: #45a049;
                                                 {{-- <p>Many desktop publishing packages and web page editors now use Lorem Ipsum as their web sites still in their infancy.</p> --}}
                                             </div><!-- history-card-content -->
 
-                                            <div class="history-card-meta history-card-data-content">
+                                            <div class="history-card-meta meta-box">
                                                 <div class="history-card-years {{ $data->prosespaket->persiapan == 'BELUM' ? 'bg-danger text-white' : '' }}">
                                                     {{$data->prosespaket->persiapan}}
                                                 </div>
-                                                <div class="history-card-date">1 May</div>
+                                                {{-- <div class="history-card-date">1 May</div> --}}
                                             </div><!-- history-card-meta -->
 
 
