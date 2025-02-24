@@ -189,7 +189,7 @@ color: #45a049;
                         <table class="fl-table">
                             <thead>
                                 <tr>
-                                    <th style="text-align:center"> No</th>
+                                    <th style="text-align:center; width: 100px;"> No</th>
                                     <th style="text-align:center"> Nama Asosiasi</th>
                                 </tr>
                             </thead>
@@ -202,7 +202,7 @@ color: #45a049;
                                 @foreach ($data as $item )
                                 <tr>
                                     <td>{{ $loop->iteration + $start - 1 }}</td>
-                                    <td>{{$item->namaasosiasi}}</td>
+                                    <td style="text-align: center">{{$item->namaasosiasi}}</td>
                                 </tr>
 
                                 @endforeach
