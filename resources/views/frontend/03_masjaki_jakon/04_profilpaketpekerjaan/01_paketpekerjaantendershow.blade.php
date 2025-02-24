@@ -357,7 +357,7 @@ color: #45a049;
                                                 {{-- <div class="history-card-date">15 September</div> --}}
                                             </div><!-- history-card-meta -->
                                             <div class="history-card-image">
-                                                <img src="/assets/icon/logopupr.png" class="img-fluid" alt="img-26">
+                                                <img src="/assets/00_dokmasjaki/03_datajakon/exit.png" class="img-fluid" alt="img-26">
                                             </div><!-- history-card-image -->
                                         </div><!-- history-card-item -->
                                     </div><!-- history-card-list -->
