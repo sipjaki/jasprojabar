@@ -87,7 +87,7 @@
                         <li class="has-dropdown">
 							<a href="#">Pembinaan</a>
 							<ul class="list-unstyled">
-								<li><a href="/agendapembinaan">Pelatihan</a></li>
+								<li><a href="/agendapembinaan">Agenda Pembinaan</a></li>
 								<li><a href="/404">Pelatihan</a></li>
 								<li><a href="/404">Bimbingan Teknis</a></li>
 								<li><a href="/404">Workshop</a></li>
