@@ -18,4 +18,10 @@ class bujkkonsultan extends Model
         return $this->belongsTo(bujkkonsultansub::class);
     }
 
+    public function asosiasimasjaki()
+    {
+        return $this->belongsTo(asosiasimasjaki::class);
+    }
+
+
 }

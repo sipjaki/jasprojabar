@@ -2391,6 +2391,7 @@ tupoksi::create([
 //======================== ===================================================================================
 bujkkontraktor::create([
     'bujkkontraktorsub_id' => 1, // Ganti dengan ID yang sesuai
+    'asosiasimasjaki_id' => 1, // Ganti dengan ID yang sesuai
     'namalengkap' => 'Mandra Kanta Unggul',
     'alamat' => 'Desa Tawangrejo 003/005 Kunduran Kab. Blora Jawa Tengah',
     'no_telepon' => '82324908547',
@@ -2485,6 +2486,7 @@ bujkkontraktorsub::create([
 //======================== ===================================================================================
 bujkkonsultan::create([
     'bujkkonsultansub_id' => 1, // Ganti dengan ID yang sesuai
+    'asosiasimasjaki_id' => 1,
     'namalengkap' => 'Tiara Energi',
     'alamat' => 'Desa Gersi, Desa/Kelurahan Gersi, Kec. Jepon, Kab. Blora, Provinsi Jawa Tengah',
     'no_telepon' => '081325657254',
