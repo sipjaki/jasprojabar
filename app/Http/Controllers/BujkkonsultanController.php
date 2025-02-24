@@ -17,8 +17,8 @@ class BujkkonsultanController extends Controller
     //
     public function bujkkonsultan()
     {
-        $data = bujkkonsultan::paginate(15);
-        $datasub = bujkkonsultansub::paginate(20);
+        $data = bujkkonsultan::paginate(10);
+        $datasub = bujkkonsultansub::paginate(15);
         $user = Auth::user();
 
         return view('frontend.03_masjaki_jakon.02_bujkkonsultan.bujkkonsultan', [

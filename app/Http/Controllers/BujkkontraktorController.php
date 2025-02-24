@@ -26,7 +26,7 @@ class BujkkontraktorController extends Controller
 
     public function bujkkontraktor()
     {
-        $data = bujkkontraktor::paginate(15);
+        $data = bujkkontraktor::paginate(8);
         $datasub = bujkkontraktorsub::paginate(20);
         $user = Auth::user();
 
