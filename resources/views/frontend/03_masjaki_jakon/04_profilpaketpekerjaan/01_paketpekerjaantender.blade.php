@@ -227,11 +227,11 @@ color: #45a049;
                                     <th style="text-align:center"> Nama Pekerjaan</th>
                                     <th style="text-align:center"> Tahun Pelaksanaan</th>
                                     <th style="text-align:center"> Penyedia</th>
-                                    <th style="text-align:center"> NIB</th>
-                                    <th style="text-align:center"> Nilai Kontrak</th>
+                                    {{-- <th style="text-align:center"> NIB</th> --}}
+                                    {{-- <th style="text-align:center"> Nilai Kontrak</th> --}}
                                     <th style="text-align:center"> Sumber Dana</th>
-                                    <th style="text-align:center"> Jenis Konstrak</th>
-                                    <th style="text-align:center"> Karakter Kontrak</th>
+                                    {{-- <th style="text-align:center"> Jenis Konstrak</th> --}}
+                                    {{-- <th style="text-align:center"> Karakter Kontrak</th> --}}
                                     <th style="text-align:center"> Mulai </th>
                                     <th style="text-align:center"> Selesai</th>
                                     <th style="text-align:center"> Dinas</th>
@@ -250,11 +250,11 @@ color: #45a049;
                                     <td>{{$item->namapekerjaan}}</td>
                                     <td>{{$item->tahunpelaksanaan}}</td>
                                     <td>{{$item->cvptpenyedia}}</td>
-                                    <td>{{$item->nib}}</td>
-                                    <td>{{$item->nilaikontrak}}</td>
+                                    {{-- <td>{{$item->nib}}</td> --}}
+                                    {{-- <td>{{$item->nilaikontrak}}</td> --}}
                                     <td>{{$item->sumberdana}}</td>
-                                    <td>{{$item->jeniskontrak}}</td>
-                                    <td>{{$item->karakteristikkontrak}}</td>
+                                    {{-- <td>{{$item->jeniskontrak}}</td> --}}
+                                    {{-- <td>{{$item->karakteristikkontrak}}</td> --}}
                                     <td>{{$item->bulanmulai}}</td>
                                     <td>{{$item->bulanselesai}}</td>
                                     <td>{{$item->dinas}}</td>
