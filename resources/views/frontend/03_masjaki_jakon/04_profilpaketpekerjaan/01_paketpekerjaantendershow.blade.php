@@ -266,7 +266,7 @@ color: #45a049;
                                                 <img src="/assets/00_dokmasjaki/03_datajakon/prosespaket.png" class="img-fluid" alt="img-25" width="250" style="margin-left: 50px;">
                                             </div><!-- history-card-image -->
                                             <div class="history-card-meta history-card-data-content">
-                                                <div class="history-card-years">1</div>
+                                                <div class="history-card-years">{{$data->prosespaket->persiapan}}</div>
                                                 {{-- <div class="history-card-date">1 May</div> --}}
                                             </div><!-- history-card-meta -->
                                             <div class="history-card-detail"></div><!-- history-card-detail -->
@@ -361,7 +361,7 @@ color: #45a049;
                                             </div><!-- history-card-image -->
                                         </div><!-- history-card-item -->
                                     </div><!-- history-card-list --> --}}
-                                </div><!-- history-card -->
+                                {{-- </div><!-- history-card --> --}}
 
                                 </div><!-- history-card -->
                             </div><!-- container -->
