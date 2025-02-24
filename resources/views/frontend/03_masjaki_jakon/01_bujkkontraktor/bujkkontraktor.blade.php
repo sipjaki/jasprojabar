@@ -149,7 +149,7 @@ color: #45a049;
                               <ul class="nav nav-pills" id="pills-tab" role="tablist">
                                     <a href="//datajakon/bujk" style="background: white;">
                                         <button class="badgekembali" style="border: none; font-size:12px; cursor:pointer;">
-                                            <i class="fas fa-arrow-circle-left mr-2"></i> MENU UTAMA BUJK KOSNTRUKSI DAN KONSULTASI KONSTRUKSI
+                                            <i class="fas fa-arrow-circle-left mr-2" style="margin-left:10px;"></i> MENU UTAMA BUJK KOSNTRUKSI DAN KONSULTASI KONSTRUKSI
                                         </button>
                                     </a>
                                 </ul>
