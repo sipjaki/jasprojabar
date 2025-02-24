@@ -34,7 +34,7 @@
                         </div><!-- service-two-image -->
                     </div><!-- service-two-imgbox -->
                     <div class="service-two-card-content">
-                        <h4>Agenda Pembinaa</h4>
+                        <h4>Agenda Pembinaan</h4>
                         <p>Dinas Pekerjaan Umum dan Penataan Ruang <br> Pemerintah Kabupaten Blora Provinsi Jawa Tengah</p>
                         <a href="/agendapembinaan">
                             <i class="fa-solid fa-arrow-right-long"></i>
