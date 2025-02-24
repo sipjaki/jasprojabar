@@ -18,7 +18,7 @@ return new class extends Migration
             $table->string('namalengkap');
             $table->text('alamat');
             $table->string('no_telepon');
-            $table->string('email')->unique();
+            $table->string('email');
             $table->string('nib');
             $table->string('pju');
             $table->string('no_akte');
