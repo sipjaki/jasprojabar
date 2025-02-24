@@ -154,24 +154,23 @@
                             <div class="container" style="margin-top: -100px;">
                                 <div class="row row-gutter-30">
                                     <div class="col-lg-12">
-                                        <div class="col-lg-12" style="display: flex; justify-content: left; padding:20px">
-                                          <a href="/datajakon/bujkkontraktor">
-                                              <button class="btn"
-                                              style="background-color: #000080;
-                                                           color: white;
-                                                           display: flex;
-                                                           align-items: center;
-                                                           border: none;
-                                                           padding: 10px 30px;
-                                                           border-radius:10px;
-                                                           transition: all 0.3s ease;
-                                                           cursor: pointer;"
-                                                    onmouseover="this.style.backgroundColor='white'; this.style.color='black'; this.querySelector('i').style.color='black';"
-                                                    onmouseout="this.style.backgroundColor='#000080'; this.style.color='white'; this.querySelector('i').style.color='white';">
-                                                    <i class="fas fa-arrow-left" style="margin-right: 10px; color: white;"></i>Kembali
-                                                </button>
-                                            </a>
-                                        </div><!-- col-lg-12 -->
+                                        <ul class="nav nav-pills" id="pills-tab" role="tablist">
+                                            {{-- <img src="/assets/icon/logopupr.png" class="img-fluid" alt="img-25" width="50" style="margin-right: 20px;" loading="lazy"> --}}
+                                            <div style="display: flex; justify-content: space-between; width: 100%; align-items: center; margin-top: 20px;">
+                                                <img src="/assets/icon/logokabupatenblora.png" class="img-fluid" alt="img-25" width="50" height="50" style="margin-right: 20px;" loading="lazy">
+                                                <!-- Tombol dan kolom pencarian di kanan -->
+                                                <div style="display: flex; align-items: center;">
+
+                                                    <a href="/datajakon/bujk" style="background: white;">
+                                                        <button class="badgekembali" style="border: none; font-size: 12px; cursor: pointer; margin-right: 10px;">
+                                                            <i class="fas fa-arrow-circle-left mr-2" style="margin-right: 15px;"></i> KEMBALI
+                                                        </button>
+                                                    </a>
+
+                                                </div>
+                                            </div>
+
+                                            </ul>
                                     </div><!-- col-lg-12 -->
                                     <div class="col-xxl-12 col-lg-12">
                                         <div class="donate-box-inner" style="margin-top: -20px;">
