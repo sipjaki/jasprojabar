@@ -19,7 +19,7 @@ class ProfilpaketkonsultasinontenderController extends Controller
         $data = profilpaketkonsultasinontender::paginate(15);
 
         return view('frontend.03_masjaki_jakon.04_profilpaketpekerjaan.04_paketkonsultasinontender', [
-            'title' => 'Profil Paket Konsultasi Non Tender',
+            'title' => 'Profil Paket Pekerjaan Konstruksi & Konsultasi Kabupaten Blora',
             'user' => $user, // Mengirimkan data paginasi ke view
             'data' => $data, // Mengirimkan data paginasi ke view
         ]);
@@ -45,7 +45,7 @@ class ProfilpaketkonsultasinontenderController extends Controller
     $user = Auth::user();
 
     return view('frontend.03_masjaki_jakon.04_profilpaketpekerjaan.04_paketkonsultasinontendershow', [
-        'title' => 'View Data Paket Konsultasi Tender',
+        'title' => 'Profil Paket Pekerjaan Konstruksi & Konsultasi Kabupaten Blora',
         'data' => $data,
 
     ]);

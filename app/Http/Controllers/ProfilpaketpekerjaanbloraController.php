@@ -19,7 +19,7 @@ class ProfilpaketpekerjaanbloraController extends Controller
         $user = Auth::user();
 
         return view('frontend.03_masjaki_jakon.04_profilpaketpekerjaan.index', [
-            'title' => 'Profil Paket Pekerjaan Konstruksi Kabupaten Blora',
+            'title' => 'Profil Paket Pekerjaan Konstruksi & Konsultasi Kabupaten Blora',
             'user' => $user, // Mengirimkan data paginasi ke view
         ]);
     }
@@ -30,7 +30,7 @@ class ProfilpaketpekerjaanbloraController extends Controller
         $data = profilpaketpekerjaanblora::paginate(15);
 
         return view('frontend.03_masjaki_jakon.04_profilpaketpekerjaan.01_paketpekerjaantender', [
-            'title' => 'Profil Paket Pekerjaan Tender',
+            'title' => 'Profil Paket Pekerjaan Konstruksi & Konsultasi Kabupaten Blora',
             'user' => $user, // Mengirimkan data paginasi ke view
             'data' => $data, // Mengirimkan data paginasi ke view
         ]);
@@ -56,7 +56,7 @@ class ProfilpaketpekerjaanbloraController extends Controller
     $user = Auth::user();
 
     return view('frontend.03_masjaki_jakon.04_profilpaketpekerjaan.01_paketpekerjaantendershow', [
-        'title' => 'View Data Paket Pekerjaan Tender',
+        'title' => 'Profil Paket Pekerjaan Konstruksi & Konsultasi Kabupaten Blora',
         'data' => $data,
 
     ]);
