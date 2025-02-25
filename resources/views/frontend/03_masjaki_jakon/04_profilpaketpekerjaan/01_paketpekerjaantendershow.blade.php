@@ -187,7 +187,8 @@ color: #45a049;
 
 
                                                 <button class="green-button" style="margin-bottom:10px; text-transform:uppercase">
-                                                    <i class="fas fa-file mr-2" style="margin-right:5px;"></i> INFORMASI {{$title}} : <span style="color: white"> {{$data->namapekerjaan}} </span>
+                                                    <i class="fas fa-file mr-2" style="margin-right:5px;"></i> INFORMASI {{$title}} : <span style="font-weight: bold;">{{$data->namapekerjaan}}</span>
+
                                                 </button>
 
 
