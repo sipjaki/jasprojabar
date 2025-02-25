@@ -264,7 +264,10 @@ color: #45a049;
             </th>
             <th colspan="1" style="text-align:center; color: black; background-color: white; width:25px;">:</th>
             <td colspan="12" style="text-align:left; background-color: white; padding-left: 10px; color: black; width:1000px;">
-                Jenis -> {{$data->sesuai_jenis}}
+                Jenis ->
+                <button class="btn {{ $data->sesuai_jenis == 'TERTIB' ? 'btn-success' : 'btn-danger' }}">
+                    {{$data->sesuai_jenis}}
+                </button>
             </td>
         </tr>
 
