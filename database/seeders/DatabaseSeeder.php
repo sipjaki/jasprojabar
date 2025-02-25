@@ -6200,6 +6200,17 @@ kecelakaankerjamasjaki::create([
     'nilaikerugian' => 825031.00,  // Menghilangkan 'Rp' dan menyimpan sebagai angka decimal
 ]);
 
+kecelakaankerjamasjaki::create([
+    'namapaketpekerjaan' => 'PAKET PEKERJAAN KONSTRUKSI PEMBANGUNAN BENDUNGAN RANDUGUNTING',
+    'tahun' => 2022,  // Menggunakan angka tahun, bukan string
+    'namaperusahaan' => 'WIJAYA KARYA 2022',
+    'namatenagakerja' => 'EKO WILO ANDRIANTO',
+    'lokasikecelakaan' => 'AREA PEKERJAAN BENDUNGAN RANDUGUNTING',
+    'waktukecelakaan' => '2024-08-12',  // Format datetime lengkap
+    'keterangan' => 'PEKERJA',
+    'nilaikerugian' => 825031.00,  // Menghilangkan 'Rp' dan menyimpan sebagai angka decimal
+]);
+
 
 // fort
 
