@@ -281,39 +281,13 @@ color: #45a049;
                                 {{-- <th style="text-align:center" >No</th> --}}
                                 <th style="text-align:center" style="color: black" >No</th>
                                 <th style="text-align:center" style="color: black">Nama Pengurus</th>
-                                <th style="text-align:center" style="color: black" >Sub Klasifikasi Layanan</th>
-                                <th style="text-align:center" style="color: black" >Kode</th>
-                                <th style="text-align:center" style="color: black" >Kualifikasi</th>
-                                <th style="text-align:center" style="color: black">Penerbit</th>
-                                <th style="text-align:center" style="color: black">Tanggal Terbit</th>
-                                <th style="text-align:center" style="color: black">Masa Berlaku</th>
-                                <th style="text-align:center" style="color: black">Nama PSJK</th>
-                                <th style="text-align:center" style="color: black">Sub Kualifikasi Badan Usaha</th>
-                                </tr>
+                                <th style="text-align:center" style="color: black">Nama Pengurus</th>
+                                <td>1</td>
+                                <td>{{$item->nama_pengurus}}</td>
+                                <td>{{$item->nama_pengurus}}</td>
+
+                            </tr>
                         </thead>
-                        <tbody>
-
-                        {{-- @php
-                            // Pastikan $data tidak null atau tidak terdefinisi
-                            $start = ($data && $data->currentPage()) ? ($data->currentPage() - 1) * $data->perPage() + 1 : 1;
-                        @endphp --}}
-
-                        @foreach ($subData as $item)
-                        <tr>
-                            <td>{{ $loop->iteration + $start - 1 }}</td>
-                            <td>{{$item->nama_pengurus}}</td>
-                            <td>{{$item->sub_klasifikasi_layanan}}</td>
-                            <td>{{$item->kode}}</td>
-                            <td>{{$item->kualifikasi}}</td>
-                            <td>{{$item->penerbit}}</td>
-                            <td>{{$item->tanggal_terbit}}</td>
-                            <td>{{$item->masa_berlaku}}</td>
-                            <td>{{$item->nama_psjk}}</td>
-                            <td>{{$item->sub_kualifikasi_bu}}</td>
-                        </tr>
-                        @endforeach
-
-                        </tbody>
                     </table>
                     </div>
                                                 </div><!-- document-details-list -->
