@@ -488,7 +488,6 @@ color: #45a049;
         </tr>
 
 
-
     </thead>
 </table>
 
