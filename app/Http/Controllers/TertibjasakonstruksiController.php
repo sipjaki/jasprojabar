@@ -58,8 +58,8 @@ class TertibjasakonstruksiController extends Controller
     // Ambil data user saat ini
     $user = Auth::user();
 
-    return view('frontend.03_masjaki_jakon.01_bujkkontraktor.bujkkontraktorshow', [
-        'title' => 'Data Bujk Kontraktor',
+    return view('frontend.05_pengawasan.03_tertibjakon.01_tertibusaha.show', [
+        'title' => 'Tertib Usaha Jasa Konstruksi',
         'data' => $datatertibusaha,
         // 'subData' => $subdata,  // Jika Anda ingin mengirimkan data sub kontraktor juga
         'user' => $user,
