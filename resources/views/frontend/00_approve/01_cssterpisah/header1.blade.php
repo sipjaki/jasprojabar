@@ -66,7 +66,7 @@
                                     font-size: 14px;
                                     background: #2ECC71;
                                     color: #fff;
-                                    padding: 20px 10px;
+                                    padding: 10px 10px;
                                     border-radius: 15px;
                                     text-align: center;"></p>
                                          {{-- <p style="color: black"></p> --}}
