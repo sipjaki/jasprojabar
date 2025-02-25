@@ -171,7 +171,7 @@ color: #45a049;
                                                 {{-- <img src="/assets/icon/logopupr.png" class="img-fluid" alt="img-25" width="50" style="margin-right: 20px;" loading="lazy"> --}}
                                                 <div style="display: flex; justify-content: space-between; width: 100%; align-items: center; margin-top: 20px;">
                                                     <img src="/assets/icon/logokabupatenblora.png" class="img-fluid" alt="img-25" width="50" height="50" style="margin-right: 20px;" loading="lazy">
-                                                    <p style="text-align: center">Dinas Pekerjaan Umum Dan Penataan Ruang Kabupaten Blora</p>
+                                                    <p style="text-align: left">Dinas Pekerjaan Umum Dan Penataan Ruang Kabupaten Blora</p>
                                                     <!-- Tombol dan kolom pencarian di kanan -->
                                                     <div style="display: flex; align-items: center;">
 
