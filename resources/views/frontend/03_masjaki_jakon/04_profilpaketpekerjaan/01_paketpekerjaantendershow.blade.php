@@ -169,7 +169,7 @@ color: #45a049;
                                         <div class="donate-box-inner" style="margin-top: -120px;">
                                             <ul class="nav nav-pills" id="pills-tab" role="tablist">
                                                 {{-- <img src="/assets/icon/logopupr.png" class="img-fluid" alt="img-25" width="50" style="margin-right: 20px;" loading="lazy"> --}}
-                                                <div style="display: flex; justify-content: space-between; width: 100%; align-items: center; margin-top: 20px;">
+                                                <div style="display: flex; width: 100%; align-items: center; margin-top: 20px;">
                                                     <img src="/assets/icon/logokabupatenblora.png" class="img-fluid" alt="img-25" width="50" height="50" style="margin-right: 20px;" loading="lazy">
                                                     <p style="text-align: left">Dinas Pekerjaan Umum Dan Penataan Ruang Kabupaten Blora</p>
                                                     <!-- Tombol dan kolom pencarian di kanan -->
@@ -178,7 +178,8 @@ color: #45a049;
 
                                                 </ul>
 
-                                            <div class="centered-button" style="margin-top: -15px;">
+                                            <div class="display: flex; justify-content: space-between; centered-button" style="margin-top: -15px;">
+
                                                 <button class="green-button" style="margin-bottom:10px; text-transform:uppercase">
                                                     <i class="fas fa-file mr-2" style="margin-right:5px;"></i> INFORMASI {{$title}} : {{$data->namapekerjaan}}
                                                 </button>
