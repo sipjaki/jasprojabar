@@ -92,6 +92,7 @@ color: #45a049;
                 color: white;
                 padding: 10px 20px;
                 border-radius: 10px;
+                border: 2px solid;
                 display: inline-block;
                 font-size: 1rem;
                 text-align: center;
