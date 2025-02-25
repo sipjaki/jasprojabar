@@ -24,9 +24,9 @@ class PengawasanbujkController extends Controller
         ]);
     }
 
-    public function pengawasanbujkshow($kodeproyek)
+    public function bujkpengwasanshowmasjaki($namaperusahaan)
     {
-        $datashow = pengawasanbujk::where('kodeproyek', $kodeproyek)->first();
+        $datashow = pengawasanbujk::where('namaperusahaan', $namaperusahaan)->first();
 
         // $subdata = prosespaketkonsultasi::all();
         // if (!$databujkkontraktor) {
