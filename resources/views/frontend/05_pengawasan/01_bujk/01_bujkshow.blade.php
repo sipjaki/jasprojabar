@@ -216,6 +216,90 @@ color: #45a049;
             </td>
         </tr>
 
+        <tr>
+            <th style="text-align:center; color: black; width:50px; background-color: white;">
+                <!-- Add your icon here -->
+                <i class="fas fa-info-circle"></i>
+            </th>
+            <th colspan="11" style="text-align:left; color: black; background-color: white; padding-left: 10px; width:300px;">
+                Nama Pemilik Perusahaan
+            </th>
+            <th colspan="1" style="text-align:center; color: black; background-color: white; width:25px;">:</th>
+            <td colspan="12" style="text-align:left; background-color: white; padding-left: 10px; color: black; width:1000px;">
+                {{$data->namaperusahaan}}
+            </td>
+        </tr>
+
+        <tr>
+            <th style="text-align:center; color: black; width:50px; background-color: white;">
+                <!-- Add your icon here -->
+                <i class="fas fa-info-circle"></i>
+            </th>
+            <th colspan="11" style="text-align:left; color: black; background-color: white; padding-left: 10px; width:300px;">
+                Alamat Perusahaan
+            </th>
+            <th colspan="1" style="text-align:center; color: black; background-color: white; width:25px;">:</th>
+            <td colspan="12" style="text-align:left; background-color: white; padding-left: 10px; color: black; width:1000px;">
+                {{$data->alamatperusahaan}}
+            </td>
+        </tr>
+
+        <tr>
+            <th style="text-align:center; color: black; width:50px; background-color: white;">
+                <!-- Add your icon here -->
+                <i class="fas fa-info-circle"></i>
+            </th>
+            <th colspan="11" style="text-align:left; color: black; background-color: white; padding-left: 10px; width:300px;">
+                Status Modal
+            </th>
+            <th colspan="1" style="text-align:center; color: black; background-color: white; width:25px;">:</th>
+            <td colspan="12" style="text-align:left; background-color: white; padding-left: 10px; color: black; width:1000px;">
+                {{$data->statusmodal}}
+            </td>
+        </tr>
+
+        <tr>
+            <th style="text-align:center; color: black; width:50px; background-color: white;">
+                <!-- Add your icon here -->
+                <i class="fas fa-info-circle"></i>
+            </th>
+            <th colspan="11" style="text-align:left; color: black; background-color: white; padding-left: 10px; width:300px;">
+                Jenis Perusahaan
+            </th>
+            <th colspan="1" style="text-align:center; color: black; background-color: white; width:25px;">:</th>
+            <td colspan="12" style="text-align:left; background-color: white; padding-left: 10px; color: black; width:1000px;">
+                {{$data->jenisperusahaan}}
+            </td>
+        </tr>
+
+        <tr>
+            <th style="text-align:center; color: black; width:50px; background-color: white;">
+                <!-- Add your icon here -->
+                <i class="fas fa-info-circle"></i>
+            </th>
+            <th colspan="11" style="text-align:left; color: black; background-color: white; padding-left: 10px; width:300px;">
+                Nomor Induk Berusaha (NIB)
+            </th>
+            <th colspan="1" style="text-align:center; color: black; background-color: white; width:25px;">:</th>
+            <td colspan="12" style="text-align:left; background-color: white; padding-left: 10px; color: black; width:1000px;">
+                {{$data->nib}}
+            </td>
+        </tr>
+
+        <tr>
+            <th style="text-align:center; color: black; width:50px; background-color: white;">
+                <!-- Add your icon here -->
+                <i class="fas fa-info-circle"></i>
+            </th>
+            <th colspan="11" style="text-align:left; color: black; background-color: white; padding-left: 10px; width:300px;">
+                KBLI
+            </th>
+            <th colspan="1" style="text-align:center; color: black; background-color: white; width:25px;">:</th>
+            <td colspan="12" style="text-align:left; background-color: white; padding-left: 10px; color: black; width:1000px;">
+                {{$data->kbli}}
+            </td>
+        </tr>
+
     </thead>
 </table>
 
