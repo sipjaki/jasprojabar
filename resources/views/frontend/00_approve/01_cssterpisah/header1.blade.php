@@ -101,7 +101,7 @@
 							<a href="#">Pengawasan</a>
 							<ul class="list-unstyled">
 								<li><a href="/pengawasanbujk">Pengawasan BUJK</a></li>
-								<li><a href="/404">Kecelakaan Kerja</a></li>
+								<li><a href="/kecelakaankerja">Kecelakaan Kerja</a></li>
 								<li><a href="/404">Tertib Jasa Konstruksi</a></li>
 							</ul><!-- list-unstyled -->
 						</li><!--has-dropdown-->

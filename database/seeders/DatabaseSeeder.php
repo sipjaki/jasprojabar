@@ -84,6 +84,7 @@ use App\Models\prosespaketnontender;
 use App\Models\prosespaketkonsultasi;
 use App\Models\prosespaketkonsultasinontender;
 use App\Models\pengawasanbujk;
+use App\Models\kecelakaankerjamasjaki;
 
 // use App\Models\paketpekerjaan;
 use Database\Factories\SkktenagakerjaFactory;
@@ -6174,6 +6175,31 @@ prosespaketkonsultasinontender::create([
     'pemeliharaan' => 'BELUM',
     'paketselesai' => 'BELUM',
 ]);
+
+//======================== ===================================================================================
+// PENGAWASAN BUJK MAS JAKI BLORA
+// kecelakaankerjamasjaki::create([
+//     'namapaketpekerjaan' => 'PAKET PEKERJAAN KONSTRUKSI PEMBANGUNAN BENDUNGAN RANDUGUNTING',
+//     'tahun' => '2022',
+//     'namaperusahaan' => 'WIJAYA KARYA 2022',
+//     'namatenagakerja' => 'MISLANI',
+//     'lokasikecelakaan' => 'AREA PEKERJAAN BENDUNGAN RANDUGUNTING',
+//     'waktukecelakaan' => '2024-08-12',
+//     'keterangan' => 'PEKERJA',
+//     'nilaikerugian' => ' Rp825.031 ',
+// ]);
+
+Kecelakaankerjamasjaki::create([
+    'namapaketpekerjaan' => 'PAKET PEKERJAAN KONSTRUKSI PEMBANGUNAN BENDUNGAN RANDUGUNTING',
+    'tahun' => 2022,  // Menggunakan angka tahun, bukan string
+    'namaperusahaan' => 'WIJAYA KARYA 2022',
+    'namatenagakerja' => 'MISLANI',
+    'lokasikecelakaan' => 'AREA PEKERJAAN BENDUNGAN RANDUGUNTING',
+    'waktukecelakaan' => '2024-08-12',  // Format datetime lengkap
+    'keterangan' => 'PEKERJA',
+    'nilaikerugian' => 825031.00,  // Menghilangkan 'Rp' dan menyimpan sebagai angka decimal
+]);
+
 
 // fort
 

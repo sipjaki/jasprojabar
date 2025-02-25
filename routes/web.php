@@ -25,6 +25,7 @@ use App\Http\Controllers\ProfilpaketkonsultasiController;
 use App\Http\Controllers\ProfilpaketkonsultasinontenderController;
 use App\Http\Controllers\PembinaanController;
 use App\Http\Controllers\PengawasanbujkController;
+use App\Http\Controllers\KecelakaankerjamasjakiController;
 use App\Http\Controllers\UndangundangController;
 use Database\Factories\DatajakonFactory;
 use Database\Factories\SkktenagakerjaFactory;
@@ -154,10 +155,14 @@ Route::get('/datajakon/paketkonsultasinontender/{jenispekerjaan}', [Profilpaketk
 // ------------- HALAMAN AGENDA PEMBINAAN MAS JAKI BLORA -----------------
 Route::get('/agendapembinaan', [PembinaanController::class, 'index']);
 
-// ---------------------- 06 DATA JAKON BUJK KONTRAKTOR-----------------------//
+// ---------------------- 06 PENGAWASAN BUJK MAS JAKI -----------------------//
 // ------------- HALAMAN AGENDA PENGAWASAN BUJK -----------------
 Route::get('/pengawasanbujk', [PengawasanbujkController::class, 'index']);
 Route::get('/pengawasanbujkshow/{namaperusahaan}', [PengawasanbujkController::class, 'bujkpengwasanshowmasjaki']);
+
+// ------------- HALAMAN AGENDA PENGAWASAN BUJK -----------------
+Route::get('/kecelakaankerja', [KecelakaankerjamasjakiController::class, 'index']);
+// Route::get('/kecelakaankerja/{namaperusahaan}', [KecelakaankerjamasjakiController::class, 'bujkpengwasanshowmasjaki']);
 
 // fort
 

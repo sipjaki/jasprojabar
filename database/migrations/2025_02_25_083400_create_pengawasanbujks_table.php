@@ -13,29 +13,29 @@ return new class extends Migration
     {
         Schema::create('pengawasanbujks', function (Blueprint $table) {
             $table->id();
-            $table->string('kodeproyek');
-            $table->string('namaperusahaan');
-            $table->text('alamatperusahaan');  // Menggunakan text karena alamat bisa lebih panjang
-            $table->string('statusmodal');
-            $table->string('jenisperusahaan');
-            $table->string('nib');
-            $table->string('kbli');
-            $table->text('uraiankbli');  // Menggunakan text jika deskripsi lebih panjang
-            $table->string('sektor');
-            $table->string('alamatproyek');
-            $table->string('wilayah');
-            $table->decimal('luastanah', 10, 2);  // Menggunakan decimal untuk luas tanah (dengan 2 desimal)
-            $table->integer('tki_lakilaki')->default(0);  // Menggunakan integer untuk jumlah
-            $table->integer('tki_perempuan')->default(0);
-            $table->integer('tka_lakilaki')->default(0);
-            $table->integer('tka_perempuan')->default(0);
-            $table->string('resiko');
-            $table->string('sumberdata');
-            $table->decimal('investasi', 15, 2);  // Menggunakan decimal untuk nilai investasi (dengan 2 desimal)
-            $table->string('skalausahaperusahaan');
-            $table->string('skalausahaproyek');
-            $table->string('kewenangankoordinator');
-            $table->string('kewenanganpengawas');
+            $table->string('kodeproyek')->nullable();
+            $table->string('namaperusahaan')->nullable();;
+            $table->text('alamatperusahaan')->nullable();;  // Menggunakan text karena alamat bisa lebih panjang
+            $table->string('statusmodal')->nullable();;
+            $table->string('jenisperusahaan')->nullable();;
+            $table->string('nib')->nullable();;
+            $table->string('kbli')->nullable();;
+            $table->text('uraiankbli')->nullable();;  // Menggunakan text jika deskripsi lebih panjang
+            $table->string('sektor')->nullable();;
+            $table->string('alamatproyek')->nullable();;
+            $table->string('wilayah')->nullable();;
+            $table->decimal('luastanah', 10, 2)->nullable();;  // Menggunakan decimal untuk luas tanah (dengan 2 desimal)
+            $table->integer('tki_lakilaki')->default(0)->nullable();;  // Menggunakan integer untuk jumlah
+            $table->integer('tki_perempuan')->default(0)->nullable();;
+            $table->integer('tka_lakilaki')->default(0)->nullable();;
+            $table->integer('tka_perempuan')->default(0)->nullable();;
+            $table->string('resiko')->nullable();;
+            $table->string('sumberdata')->nullable();;
+            $table->decimal('investasi', 15, 2)->nullable();;  // Menggunakan decimal untuk nilai investasi (dengan 2 desimal)
+            $table->string('skalausahaperusahaan')->nullable();;
+            $table->string('skalausahaproyek')->nullable();;
+            $table->string('kewenangankoordinator')->nullable();;
+            $table->string('kewenanganpengawas')->nullable();;
             $table->string('PSN');
             $table->softDeletes();
             $table->timestamps();
