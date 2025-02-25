@@ -88,19 +88,17 @@ color: #45a049;
 
 
 .badgekembali {
-    text-align: right;
-    position: relative;
-    right: 20px; /* Jarak dari sisi kanan container */
-    bottom: 20px; /* Jarak dari bagian bawah container */
-    background: linear-gradient(to right, green, green);
-    color: white;
-    padding: 10px 20px;
-    border-radius: 10px;
-    display: inline-block;
-    font-size: 12px;
-    text-align: center;
-    cursor: pointer;
-    transition: background-color 0.3s, color 0.3s;
+    background: linear-gradient(to right, navy, black);
+                color: white;
+                padding: 10px 20px;
+                border-radius: 10px;
+                display: inline-block;
+                font-size: 1rem;
+                text-align: center;
+                font-size: 12px;
+                cursor: pointer;
+                transition: background-color 0.3s, color 0.3s;
+                text-transform: uppercase;
 }
             .badgekembali:hover {
                 background-color: white;
