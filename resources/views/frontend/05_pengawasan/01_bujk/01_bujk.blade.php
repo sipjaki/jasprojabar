@@ -201,7 +201,7 @@ color: #45a049;
                                     <th style="text-align:center" >Sektor</th>
                                     {{-- <th style="text-align:center" >Alamat Proyek</th> --}}
                                     <th style="text-align:center" >Wilayah</th>
-                                    <th style="text-align:center" >Luas Tanah</th>
+                                    {{-- <th style="text-align:center" >Luas Tanah</th> --}}
                                     {{-- <th style="text-align:center" >TKI Laki Laki </th>
                                     <th style="text-align:center" >TKI Perampuan </th>
                                     <th style="text-align:center" >TKA Laki Laki </th>
@@ -237,7 +237,7 @@ color: #45a049;
                                     <td>{{$item->sektor}}</td>
                                     {{-- <td>{{$item->alamatproyek}}</td> --}}
                                     <td>{{$item->wilayah}}</td>
-                                    <td>{{$item->luastanah}}</td>
+                                    {{-- <td>{{$item->luastanah}}</td> --}}
                                     {{-- <td>{{$item->tki_lakilaki}}</td>
                                     <td>{{$item->tki_perempuan}}</td>
                                     <td>{{$item->tka_lakilaki}}</td>
@@ -249,7 +249,7 @@ color: #45a049;
                                     <td>{{$item->skalausahaproyek}}</td>
                                     <td>{{$item->kewenangankoordinator}}</td> --}}
                                     <td>{{$item->kewenanganpengawas}}</td>
-                                    <td>{{$item->psn}}</td>
+                                    <td>{{$item->PSN}}</td>
 
                                     {{-- <td>{{ \Carbon\Carbon::parse($item->tanggal)->isoFormat('D MMMM YYYY') }}</td> --}}
 
