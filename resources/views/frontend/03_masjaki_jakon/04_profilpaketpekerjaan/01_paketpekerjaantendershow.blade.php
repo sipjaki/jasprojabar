@@ -390,60 +390,61 @@ color: #45a049;
                             </div><!-- container -->
                         </section><!--history-section-->
 
+                        <div class="progress-cards">
+                            <!-- Card 1 -->
+                            <div class="progress-card">
+                                <div class="progress-step completed">
+                                    <div class="circle">1</div>
+                                    <p class="step-title">Tahap 1</p>
+                                    <p class="step-status">Selesai</p>
+                                </div>
+                                <div class="line completed"></div>
+                            </div>
+
+                            <!-- Card 2 -->
+                            <div class="progress-card">
+                                <div class="progress-step completed">
+                                    <div class="circle">2</div>
+                                    <p class="step-title">Tahap 2</p>
+                                    <p class="step-status">Selesai</p>
+                                </div>
+                                <div class="line completed"></div>
+                            </div>
+
+                            <!-- Card 3 -->
+                            <div class="progress-card">
+                                <div class="progress-step in-progress">
+                                    <div class="circle">3</div>
+                                    <p class="step-title">Tahap 3</p>
+                                    <p class="step-status">Sedang Proses</p>
+                                </div>
+                                <div class="line in-progress"></div>
+                            </div>
+
+                            <!-- Card 4 -->
+                            <div class="progress-card">
+                                <div class="progress-step">
+                                    <div class="circle">4</div>
+                                    <p class="step-title">Tahap 4</p>
+                                    <p class="step-status">Belum Dimulai</p>
+                                </div>
+                                <div class="line"></div>
+                            </div>
+
+                            <!-- Card 5 -->
+                            <div class="progress-card">
+                                <div class="progress-step">
+                                    <div class="circle">5</div>
+                                    <p class="step-title">Tahap 5</p>
+                                    <p class="step-status">Belum Dimulai</p>
+                                </div>
+                            </div>
+                        </div>
 
                     </div><!--service-two-card-content-->
                 </div><!--service-two-card-->
             </div><!--col-12 col-lg-4 col-xl-4-->
-            <div class="progress-cards">
-                <!-- Card 1 -->
-                <div class="progress-card">
-                    <div class="progress-step completed">
-                        <div class="circle">1</div>
-                        <p class="step-title">Tahap 1</p>
-                        <p class="step-status">Selesai</p>
-                    </div>
-                    <div class="line completed"></div>
-                </div>
 
-                <!-- Card 2 -->
-                <div class="progress-card">
-                    <div class="progress-step completed">
-                        <div class="circle">2</div>
-                        <p class="step-title">Tahap 2</p>
-                        <p class="step-status">Selesai</p>
-                    </div>
-                    <div class="line completed"></div>
-                </div>
-
-                <!-- Card 3 -->
-                <div class="progress-card">
-                    <div class="progress-step in-progress">
-                        <div class="circle">3</div>
-                        <p class="step-title">Tahap 3</p>
-                        <p class="step-status">Sedang Proses</p>
-                    </div>
-                    <div class="line in-progress"></div>
-                </div>
-
-                <!-- Card 4 -->
-                <div class="progress-card">
-                    <div class="progress-step">
-                        <div class="circle">4</div>
-                        <p class="step-title">Tahap 4</p>
-                        <p class="step-status">Belum Dimulai</p>
-                    </div>
-                    <div class="line"></div>
-                </div>
-
-                <!-- Card 5 -->
-                <div class="progress-card">
-                    <div class="progress-step">
-                        <div class="circle">5</div>
-                        <p class="step-title">Tahap 5</p>
-                        <p class="step-status">Belum Dimulai</p>
-                    </div>
-                </div>
-            </div>
 
 <style>
 .progress-cards {
