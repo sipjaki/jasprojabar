@@ -24,4 +24,16 @@ class KecelakaankerjamasjakiController extends Controller
         ]);
     }
 
+    public function kecelakaankerjalist()
+    {
+        $data = kecelakaankerjamasjaki::paginate(10);
+        $user = Auth::user();
+
+        return view('frontend.05_pengawasan.02_kecelakaankerja.02_kecelakaankerjalist', [
+            'title' => 'Angka Kecelakaan Kerja',
+            'user' => $user, // Mengirimkan data paginasi ke view
+            'data' => $data, // Mengirimkan data paginasi ke view
+        ]);
+    }
+
 }

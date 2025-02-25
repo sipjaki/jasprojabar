@@ -162,6 +162,7 @@ Route::get('/pengawasanbujkshow/{namaperusahaan}', [PengawasanbujkController::cl
 
 // ------------- HALAMAN AGENDA PENGAWASAN BUJK -----------------
 Route::get('/kecelakaankerja', [KecelakaankerjamasjakiController::class, 'index']);
+Route::get('/kecelakaankerjalist', [KecelakaankerjamasjakiController::class, 'kecelakaankerjalist']);
 // Route::get('/kecelakaankerja/{namaperusahaan}', [KecelakaankerjamasjakiController::class, 'bujkpengwasanshowmasjaki']);
 
 // fort
