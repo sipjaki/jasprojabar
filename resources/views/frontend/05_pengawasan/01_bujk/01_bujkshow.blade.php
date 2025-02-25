@@ -252,25 +252,27 @@
 
                   <!-- Add this inside your HTML <head> for FontAwesome -->
 <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
-
 <table class="fl-table" style="width: 100%; border-collapse: collapse;">
     <thead>
+        <!-- First Row with Icon and "No" -->
         <tr>
-            <th style="text-align:center; color: black;">
+            <th style="text-align:center; color: black;" colspan="1">
                 <i class="fas fa-info-circle"></i>
             </th>
             <th colspan="11" style="text-align:center; color: black;">No</th>
             <td colspan="12" style="text-align:center;">1</td>
         </tr>
+        <!-- Second Row with Icon and "Nama Pengurus" -->
         <tr>
-            <th style="text-align:center; color: black;">
+            <th style="text-align:center; color: black;" colspan="1">
                 <i class="fas fa-user"></i>
             </th>
             <th colspan="11" style="text-align:center; color: black;">Nama Pengurus</th>
             <td colspan="12" style="text-align:center;">{{$data->namaperusahaan}}</td>
         </tr>
+        <!-- Third Row with Icon and "Nama Pengurus" -->
         <tr>
-            <th style="text-align:center; color: black;">
+            <th style="text-align:center; color: black;" colspan="1">
                 <i class="fas fa-user"></i>
             </th>
             <th colspan="11" style="text-align:center; color: black;">Nama Pengurus</th>
