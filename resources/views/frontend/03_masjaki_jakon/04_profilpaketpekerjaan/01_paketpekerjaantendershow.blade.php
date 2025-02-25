@@ -89,16 +89,18 @@ color: #45a049;
 
             .badgekembali {
                 position: fixed;
+                right: 20px; /* jarak dari sisi kanan */
+                top: 20px;  /* jarak dari atas */
                 background: linear-gradient(to right, green, green);
                 color: white;
                 padding: 10px 20px;
                 border-radius: 10px;
                 display: inline-block;
-                font-size: 1rem;
-                text-align: center;
                 font-size: 12px;
+                text-align: center;
                 cursor: pointer;
                 transition: background-color 0.3s, color 0.3s;
+
             }
             .badgekembali:hover {
                 background-color: white;
