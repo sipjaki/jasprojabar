@@ -64,9 +64,9 @@
                                 font-family: Arial, sans-serif;">
                                 <p id="jam" style="
                                     font-size: 14px;
-                                    background: #000000;
+                                    background: #0313f2;
                                     color: #fff;
-                                    padding: 2px 10px;
+                                    padding: 20px 10px;
                                     border-radius: 15px;
                                     text-align: center;"></p>
                                          {{-- <p style="color: black"></p> --}}
