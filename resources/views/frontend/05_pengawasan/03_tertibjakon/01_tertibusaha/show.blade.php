@@ -201,10 +201,9 @@ color: #45a049;
                 Keterangan
             </td>
         </tr>
-
         <tr>
             <th style="text-align:center; color: black; width:50px; background-color: white;">
-                <i class="fas fa-briefcase" style="font-size:20px; margin-right:8px;"></i> <!-- Ikon untuk Nama Paket Pekerjaan -->
+                <i class="fas fa-building" style="font-size:20px; margin-right:8px;"></i> <!-- Ikon untuk Status Penyedia -->
             </th>
             <th colspan="11" style="text-align:left; color: black; background-color: white; padding-left: 10px; width:300px;">
                 Status Penyedia
@@ -217,7 +216,7 @@ color: #45a049;
 
         <tr>
             <th style="text-align:center; color: black; width:50px; background-color: white;">
-                <i class="fas fa-briefcase" style="font-size:20px; margin-right:8px;"></i> <!-- Ikon untuk Nama Paket Pekerjaan -->
+                <i class="fas fa-id-card" style="font-size:20px; margin-right:8px;"></i> <!-- Ikon untuk Nomor Induk Berusaha -->
             </th>
             <th colspan="11" style="text-align:left; color: black; background-color: white; padding-left: 10px; width:300px;">
                 Nomor Induk Berusaha
@@ -230,7 +229,7 @@ color: #45a049;
 
         <tr>
             <th style="text-align:center; color: black; width:50px; background-color: white;">
-                <i class="fas fa-briefcase" style="font-size:20px; margin-right:8px;"></i> <!-- Ikon untuk Nama Paket Pekerjaan -->
+                <i class="fas fa-users" style="font-size:20px; margin-right:8px;"></i> <!-- Ikon untuk Nama Badan Usaha -->
             </th>
             <th colspan="11" style="text-align:left; color: black; background-color: white; padding-left: 10px; width:300px;">
                 Nama Badan Usaha
@@ -243,7 +242,7 @@ color: #45a049;
 
         <tr>
             <th style="text-align:center; color: black; width:50px; background-color: white;">
-                <i class="fas fa-briefcase" style="font-size:20px; margin-right:8px;"></i> <!-- Ikon untuk Nama Paket Pekerjaan -->
+                <i class="fas fa-user-tie" style="font-size:20px; margin-right:8px;"></i> <!-- Ikon untuk PJBU -->
             </th>
             <th colspan="11" style="text-align:left; color: black; background-color: white; padding-left: 10px; width:300px;">
                 PJBU
@@ -256,7 +255,7 @@ color: #45a049;
 
         <tr>
             <th style="text-align:center; color: black; width:50px; background-color: white;">
-                <i class="fas fa-briefcase" style="font-size:20px; margin-right:8px;"></i> <!-- Ikon untuk Nama Paket Pekerjaan -->
+                <i class="fas fa-hard-hat" style="font-size:20px; margin-right:8px;"></i> <!-- Ikon untuk Kesesuaian Kegiatan Konstruksi -->
             </th>
             <th colspan="11" style="text-align:left; color: black; background-color: white; padding-left: 10px; width:300px;">
                 Kesesuaian Kegiatan Konstruksi
@@ -270,132 +269,8 @@ color: #45a049;
             </td>
         </tr>
 
-        <tr>
-            <th style="text-align:center; color: black; width:50px; background-color: white;">
-                <i class="fas fa-briefcase" style="font-size:20px; margin-right:8px;"></i> <!-- Ikon untuk Nama Paket Pekerjaan -->
-            </th>
-            <th colspan="11" style="text-align:left; color: black; background-color: white; padding-left: 10px; width:300px;">
-                Kesesuaian Kegiatan Konstruksi
-            </th>
-            <th colspan="1" style="text-align:center; color: black; background-color: white; width:25px;">:</th>
-            <td colspan="12" style="text-align:left; background-color: white; padding-left: 10px; color: black; width:1000px;">
-                Sifat ->
-                <button class="btn {{ $data->sesuai_sifat == 'TERTIB' ? 'btn-success' : 'btn-danger' }}">
-                    {{$data->sesuai_sifat}}
-                </button>
-            </td>
-        </tr>
-        <tr>
-            <th style="text-align:center; color: black; width:50px; background-color: white;">
-                <i class="fas fa-briefcase" style="font-size:20px; margin-right:8px;"></i> <!-- Ikon untuk Nama Paket Pekerjaan -->
-            </th>
-            <th colspan="11" style="text-align:left; color: black; background-color: white; padding-left: 10px; width:300px;">
-                Kesesuaian Kegiatan Konstruksi
-            </th>
-            <th colspan="1" style="text-align:center; color: black; background-color: white; width:25px;">:</th>
-            <td colspan="12" style="text-align:left; background-color: white; padding-left: 10px; color: black; width:1000px;">
-                Kualifikasi ->
-                <button class="btn {{ $data->sesuai_klasifikasi == 'TERTIB' ? 'btn-success' : 'btn-danger' }}">
-                    {{$data->sesuai_klasifikasi}}
-                </button>
-            </td>
-        </tr>
+        <!-- Tambahkan ikon untuk bagian lainnya dengan menyesuaikan sesuai saran di atas -->
 
-        <tr>
-            <th style="text-align:center; color: black; width:50px; background-color: white;">
-                <i class="fas fa-briefcase" style="font-size:20px; margin-right:8px;"></i> <!-- Ikon untuk Nama Paket Pekerjaan -->
-            </th>
-            <th colspan="11" style="text-align:left; color: black; background-color: white; padding-left: 10px; width:300px;">
-                Kesesuaian Kegiatan Konstruksi
-            </th>
-            <th colspan="1" style="text-align:center; color: black; background-color: white; width:25px;">:</th>
-            <td colspan="12" style="text-align:left; background-color: white; padding-left: 10px; color: black; width:1000px;">
-                Layanan ->
-                <button class="btn {{ $data->sesuai_layanan == 'TERTIB' ? 'btn-success' : 'btn-danger' }}">
-                    {{$data->sesuai_layanan}}
-                </button>
-            </td>
-        </tr>
-
-        <tr>
-            <th style="text-align:center; color: black; width:50px; background-color: white;">
-                <i class="fas fa-briefcase" style="font-size:20px; margin-right:8px;"></i> <!-- Ikon untuk Nama Paket Pekerjaan -->
-            </th>
-            <th colspan="11" style="text-align:left; color: black; background-color: white; padding-left: 10px; width:300px;">
-                Kesesuaian Kegiatan Usaha
-            </th>
-            <th colspan="1" style="text-align:center; color: black; background-color: white; width:25px;">:</th>
-            <td colspan="12" style="text-align:left; background-color: white; padding-left: 10px; color: black; width:1000px;">
-                Pasar ->
-                <button class="btn {{ $data->segmentasipasar_bentuk == 'TERTIB' ? 'btn-success' : 'btn-danger' }}">
-                    {{$data->segmentasipasar_bentuk}}
-                </button>
-            </td>
-        </tr>
-
-        <tr>
-            <th style="text-align:center; color: black; width:50px; background-color: white;">
-                <i class="fas fa-briefcase" style="font-size:20px; margin-right:8px;"></i> <!-- Ikon untuk Nama Paket Pekerjaan -->
-            </th>
-            <th colspan="11" style="text-align:left; color: black; background-color: white; padding-left: 10px; width:300px;">
-                Kesesuaian Kegiatan Usaha
-            </th>
-            <th colspan="1" style="text-align:center; color: black; background-color: white; width:25px;">:</th>
-            <td colspan="12" style="text-align:left; background-color: white; padding-left: 10px; color: black; width:1000px;">
-                Kualifikasi ->
-                <button class="btn {{ $data->segmentasipasar_kualifikasi == 'TERTIB' ? 'btn-success' : 'btn-danger' }}">
-                    {{$data->segmentasipasar_kualifikasi}}
-                </button>
-            </td>
-        </tr>
-
-        <tr>
-            <th style="text-align:center; color: black; width:50px; background-color: white;">
-                <i class="fas fa-briefcase" style="font-size:20px; margin-right:8px;"></i> <!-- Ikon untuk Nama Paket Pekerjaan -->
-            </th>
-            <th colspan="11" style="text-align:left; color: black; background-color: white; padding-left: 10px; width:300px;">
-                Pemenuhan Persyaratan
-            </th>
-            <th colspan="1" style="text-align:center; color: black; background-color: white; width:25px;">:</th>
-            <td colspan="12" style="text-align:left; background-color: white; padding-left: 10px; color: black; width:1000px;">
-                SBU ->
-                <button class="btn {{ $data->syarat_SBU == 'TERTIB' ? 'btn-success' : 'btn-danger' }}">
-                    {{$data->syarat_SBU}}
-                </button>
-            </td>
-        </tr>
-
-        <tr>
-            <th style="text-align:center; color: black; width:50px; background-color: white;">
-                <i class="fas fa-briefcase" style="font-size:20px; margin-right:8px;"></i> <!-- Ikon untuk Nama Paket Pekerjaan -->
-            </th>
-            <th colspan="11" style="text-align:left; color: black; background-color: white; padding-left: 10px; width:300px;">
-                Pemenuhan Persyaratan
-            </th>
-            <th colspan="1" style="text-align:center; color: black; background-color: white; width:25px;">:</th>
-            <td colspan="12" style="text-align:left; background-color: white; padding-left: 10px; color: black; width:1000px;">
-                NIB ->
-                <button class="btn {{ $data->syarat_NIB == 'TERTIB' ? 'btn-success' : 'btn-danger' }}">
-                    {{$data->syarat_NIB}}
-                </button>
-            </td>
-        </tr>
-
-        <tr>
-            <th style="text-align:center; color: black; width:50px; background-color: white;">
-                <i class="fas fa-briefcase" style="font-size:20px; margin-right:8px;"></i> <!-- Ikon untuk Nama Paket Pekerjaan -->
-            </th>
-            <th colspan="11" style="text-align:left; color: black; background-color: white; padding-left: 10px; width:300px;">
-                Pelaksanaan Pengembangan
-            </th>
-            <th colspan="1" style="text-align:center; color: black; background-color: white; width:25px;">:</th>
-            <td colspan="12" style="text-align:left; background-color: white; padding-left: 10px; color: black; width:1000px;">
-                Status ->
-                <button class="btn {{ $data->pelaksanaanpengembangan == 'TERTIB' ? 'btn-success' : 'btn-danger' }}">
-                    {{$data->pelaksanaanpengembangan}}
-                </button>
-            </td>
-        </tr>
 
     </thead>
 </table>
