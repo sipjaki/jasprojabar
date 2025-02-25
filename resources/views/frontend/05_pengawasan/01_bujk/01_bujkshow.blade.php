@@ -185,7 +185,7 @@ color: #45a049;
                     <!-- Add this inside your HTML <head> for FontAwesome -->
 <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
 
-<table id="datakeluar" class="fl-table" style="width: 100%; border-collapse: collapse;">
+<table  id="datakeluar" class="fl-table" style="width: 100%; border-collapse: collapse" class="fl-table">
     <thead>
 
         <tr>
@@ -494,43 +494,25 @@ color: #45a049;
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
-
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
 <script>
-    function copyToClipboard(text) {
-        var textarea = document.createElement('textarea');
-        textarea.value = text;
-        document.body.appendChild(textarea);
-        textarea.select();
-        document.execCommand('copy');
-        document.body.removeChild(textarea);
-        alert('Teks telah disalin ke clipboard!');
-    }
-
-    function updateDateTime() {
-        const now = new Date();
-        const tahun = now.getFullYear();
-        const bulan = now.getMonth() + 1;
-        const tanggal = now.getDate();
-        const jam = now.getHours();
-        const menit = now.getMinutes();
-        const detik = now.getSeconds();
-        const formattedDateTime = `${tanggal}/${bulan}/${tahun} ${jam}:${menit}:${detik}`;
-        document.getElementById('dateTime').textContent = formattedDateTime;
-    }
-
-    updateDateTime();
-    setInterval(updateDateTime, 1000);
-
-    // Add event listener to download as PDF
-    document.getElementById('downloadBtn').addEventListener('click', function () {
-        html2canvas(document.getElementById('datakeluar')).then(function (canvas) {
+    document.getElementById('downloadBtn').addEventListener('click', function() {
+        // Menangkap gambar dari elemen dengan id 'datakeluar'
+        html2canvas(document.getElementById('datakeluar')).then(canvas => {
+            // Mengubah gambar canvas menjadi data URL
             const imgData = canvas.toDataURL('image/png');
-            const { jsPDF } = window.jspdf;
-            const doc = new jsPDF('p', 'mm', 'a4');
+            const pdf = new jsPDF.jsPDF(); // Membuat instance jsPDF
 
-            // Set the image at the top-left corner of the PDF
-            doc.addImage(imgData, 'PNG', 10, 10, 190, 270); // Adjust width and height as needed
-            doc.save('data.pdf'); // Save the file as 'data.pdf'
+            // Menghitung ukuran dan skala gambar
+            const imgWidth = 210; // Lebar A4 dalam mm
+            const imgHeight = canvas.height * imgWidth / canvas.width; // Menjaga rasio aspek
+
+            // Menambahkan gambar ke PDF
+            pdf.addImage(imgData, 'PNG', 0, 0, imgWidth, imgHeight);
+
+            // Mengunduh PDF
+            pdf.save('tabel_info.pdf');
         });
     });
 </script>
