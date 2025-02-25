@@ -303,7 +303,7 @@ color: #45a049;
                                                         <div class="circle">
                                                             4
                                                         </div>
-                                                        <p class="step-title">Persiapan</p>
+                                                        <p class="step-title">Pemeliharaan</p>
                                                         <p class="step-status">{{$data->prosespaket->pemeliharaan}}</p>
                                                     </div>
                                                     <div class="line
