@@ -5910,6 +5910,7 @@ profilpaketpekerjaannontender::create([
 //======================== ===================================================================================
 // PAKET KONSULTASI TENDER MAS JAKI BLORA
 profilpaketkonsultasi::create([
+    'prosespaketkonsultasi' => 1,
     'jenispekerjaan' => 'Pekerjaan Pembangunan Sistem Drainase',
     'namapekerjaan' => 'Pembangunan Sistem Drainase Kota Blora',
     'tahunpelaksanaan' => 2029,
@@ -5925,6 +5926,7 @@ profilpaketkonsultasi::create([
 ]);
 
 profilpaketkonsultasi::create([
+    'prosespaketkonsultasi' => 1,
     'jenispekerjaan' => 'Pekerjaan Rehabilitasi Jalan',
     'namapekerjaan' => 'Rehabilitasi Jalan Utama Kecamatan Cepu',
     'tahunpelaksanaan' => 2028,
@@ -5940,6 +5942,7 @@ profilpaketkonsultasi::create([
 ]);
 
 profilpaketkonsultasi::create([
+    'prosespaketkonsultasi' => 1,
     'jenispekerjaan' => 'Pekerjaan Pembangunan Gedung',
     'namapekerjaan' => 'Pembangunan Gedung Kantor Kecamatan',
     'tahunpelaksanaan' => 2030,
@@ -5955,6 +5958,7 @@ profilpaketkonsultasi::create([
 ]);
 
 profilpaketkonsultasi::create([
+    'prosespaketkonsultasi' => 1,
     'jenispekerjaan' => 'Pekerjaan Pengadaan Air Bersih',
     'namapekerjaan' => 'Pengadaan Sumur Bor dan Instalasi Air',
     'tahunpelaksanaan' => 2027,
@@ -5970,6 +5974,7 @@ profilpaketkonsultasi::create([
 ]);
 
 profilpaketkonsultasi::create([
+    'prosespaketkonsultasi' => 1,
     'jenispekerjaan' => 'Pekerjaan Pembangunan Jembatan',
     'namapekerjaan' => 'Pembangunan Jembatan Desa Sumber',
     'tahunpelaksanaan' => 2031,
@@ -5985,6 +5990,7 @@ profilpaketkonsultasi::create([
 ]);
 
 profilpaketkonsultasi::create([
+    'prosespaketkonsultasi' => 1,
     'jenispekerjaan' => 'Pekerjaan Pengadaan Alat Medis',
     'namapekerjaan' => 'Pengadaan Alat Medis Puskesmas',
     'tahunpelaksanaan' => 2026,
@@ -6000,6 +6006,7 @@ profilpaketkonsultasi::create([
 ]);
 
 profilpaketkonsultasi::create([
+    'prosespaketkonsultasi' => 1,
     'jenispekerjaan' => 'Pekerjaan Pembangunan Saluran Irigasi',
     'namapekerjaan' => 'Pembangunan Saluran Irigasi Desa Jiken',
     'tahunpelaksanaan' => 2032,
@@ -6015,6 +6022,7 @@ profilpaketkonsultasi::create([
 ]);
 
 profilpaketkonsultasi::create([
+    'prosespaketkonsultasi' => 1,
     'jenispekerjaan' => 'Pekerjaan Pembangunan Pasar Tradisional',
     'namapekerjaan' => 'Pembangunan Pasar Tradisional Blora',
     'tahunpelaksanaan' => 2025,
@@ -6032,6 +6040,7 @@ profilpaketkonsultasi::create([
 //======================== ===================================================================================
 // PAKET KONSULTASI TENDER MAS JAKI BLORA
 profilpaketkonsultasinontender::create([
+    'prosespaketkonsultasinontender' => 1,
     'jenispekerjaan' => 'Pekerjaan Perencanaan Drainase',
     'namapekerjaan' => 'Perencanaan Sistem Drainase Kota Blora',
     'tahunpelaksanaan' => 2029,
@@ -6047,6 +6056,7 @@ profilpaketkonsultasinontender::create([
 ]);
 
 profilpaketkonsultasinontender::create([
+    'prosespaketkonsultasinontender' => 1,
     'jenispekerjaan' => 'Pekerjaan Konsultasi Jalan',
     'namapekerjaan' => 'Studi Kelayakan Rehabilitasi Jalan Utama Kecamatan Cepu',
     'tahunpelaksanaan' => 2028,
@@ -6062,6 +6072,7 @@ profilpaketkonsultasinontender::create([
 ]);
 
 profilpaketkonsultasinontender::create([
+    'prosespaketkonsultasinontender' => 1,
     'jenispekerjaan' => 'Pekerjaan Konsultasi Gedung',
     'namapekerjaan' => 'Perencanaan Gedung Kantor Kecamatan',
     'tahunpelaksanaan' => 2030,
@@ -6077,6 +6088,7 @@ profilpaketkonsultasinontender::create([
 ]);
 
 profilpaketkonsultasinontender::create([
+    'prosespaketkonsultasinontender' => 1,
     'jenispekerjaan' => 'Pekerjaan Studi Air Bersih',
     'namapekerjaan' => 'Studi Pengadaan Sumur Bor dan Instalasi Air',
     'tahunpelaksanaan' => 2027,
@@ -6092,6 +6104,7 @@ profilpaketkonsultasinontender::create([
 ]);
 
 profilpaketkonsultasinontender::create([
+    'prosespaketkonsultasinontender' => 1,
     'jenispekerjaan' => 'Pekerjaan Studi Jembatan',
     'namapekerjaan' => 'Analisis dan Desain Jembatan Desa Sumber',
     'tahunpelaksanaan' => 2031,
@@ -6107,6 +6120,7 @@ profilpaketkonsultasinontender::create([
 ]);
 
 profilpaketkonsultasinontender::create([
+    'prosespaketkonsultasinontender' => 1,
     'jenispekerjaan' => 'Pekerjaan Studi Medis',
     'namapekerjaan' => 'Kajian Pengadaan Alat Medis Puskesmas',
     'tahunpelaksanaan' => 2026,
@@ -6146,15 +6160,15 @@ prosespaketkonsultasi::create([
     'profilpaketkonsultasi_id' => 1, // Sesuaikan dengan ID yang ada di tabel terkait
     'persiapan' => 'SELESAI',
     'pengadaan' => 'SELESAI',
-    'pelaksanaan' => 'BELUM',
-    'pemeliharaan' => 'BELUM',
+    'pelaksanaan' => 'SELESAI',
+    'pemeliharaan' => 'SELESAI',
     'paketselesai' => 'BELUM',
 ]);
 
 prosespaketkonsultasinontender::create([
     'profilpaketkonsultasinontender_id' => 1, // Sesuaikan dengan ID yang ada di tabel terkait
-    'persiapan' => 'SELESAI',
-    'pengadaan' => 'SELESAI',
+    'persiapan' => 'PAKET DI BATALKAN',
+    'pengadaan' => 'BELUM',
     'pelaksanaan' => 'BELUM',
     'pemeliharaan' => 'BELUM',
     'paketselesai' => 'BELUM',
