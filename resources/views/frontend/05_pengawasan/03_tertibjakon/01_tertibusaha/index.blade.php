@@ -24,13 +24,13 @@
                     <div class="service-two-imgbox">
                         <div class="service-two-image" style="display: flex; justify-content: center;">
                             <img src="/assets/00_dokmasjaki/03_datajakon/daftar.png" class="img-fluid" alt="img-28" loading="lazy" style="width: 70%; padding:30px;" >
-                            <a href="/datajakon/bujkkontraktor"></a>
+                            <a href="/404"></a>
                         </div><!-- service-two-image -->
                     </div><!-- service-two-imgbox -->
                     <div class="service-two-card-content">
-                        <h4>BUJK Kontraktor</h4>
+                        <h4>Tertib Usaha</h4>
                         {{-- <p>Dinas Pekerjaan Umum dan Penataan Ruang <br> Pemerintah Kabupaten Blora Provinsi Jawa Tengah</p> --}}
-                        <a href="/datajakon/bujkkontraktor">
+                        <a href="/404">
                             <i class="fa-solid fa-arrow-right-long"></i>
                             <span>Lihat Data</span>
                         </a>
@@ -41,14 +41,14 @@
                 <div class="service-two-card">
                     <div class="service-two-imgbox" >
                         <div class="service-two-image" style="display: flex; justify-content: center;">
-                            <img src="/assets/00_dokmasjaki/03_datajakon/konsultan.png"  class="img-fluid" alt="img-29"  loading="lazy" style="width:70%; padding:30px; ">
-                            <a href="/datajakon/bujkkonsultan"></a>
+                            <img src="/assets/00_dokmasjaki/03_datajakon/daftar.png"  class="img-fluid" alt="img-29"  loading="lazy" style="width:70%; padding:30px; ">
+                            <a href="/404"></a>
                         </div><!-- service-two-image -->
                     </div><!-- service-two-imgbox -->
                     <div class="service-two-card-content">
-                        <h4>BUJK Konsultan</h4>
+                        <h4>Tertib Pemanfaatan</h4>
                         {{-- <p>Dinas Pekerjaan Umum dan Penataan Ruang <br> Pemerintah Kabupaten Blora Provinsi Jawa Tengah</p> --}}
-                        <a href="/datajakon/bujkkonsultan">
+                        <a href="/404">
                             <i class="fa-solid fa-arrow-right-long"></i>
                             <span>Lihat Data</span>
                         </a>
@@ -60,14 +60,14 @@
                 <div class="service-two-card">
                     <div class="service-two-imgbox" >
                         <div class="service-two-image" style="display: flex; justify-content: center;">
-                            <img src="/assets/00_dokmasjaki/03_datajakon/asosiasi.png"  class="img-fluid" alt="img-29"  loading="lazy" style="width:70%; padding:30px; ">
-                            <a href="/datajakon/asosiasimasjaki"></a>
+                            <img src="/assets/00_dokmasjaki/03_datajakon/daftar.png"  class="img-fluid" alt="img-29"  loading="lazy" style="width:70%; padding:30px; ">
+                            <a href="/404"></a>
                         </div><!-- service-two-image -->
                     </div><!-- service-two-imgbox -->
                     <div class="service-two-card-content">
-                        <h4>Asosiasi</h4>
+                        <h4>Tertib Pemanfaatan</h4>
                         {{-- <p>Dinas Pekerjaan Umum dan Penataan Ruang <br> Pemerintah Kabupaten Blora Provinsi Jawa Tengah</p> --}}
-                        <a href="/datajakon/asosiasimasjaki">
+                        <a href="/404">
                             <i class="fa-solid fa-arrow-right-long"></i>
                             <span>Lihat Data</span>
                         </a>
@@ -80,13 +80,13 @@
                     <div class="service-two-imgbox">
                         <div class="service-two-image" style="display: flex; justify-content: center;">
                             <img src="/assets/00_dokmasjaki/03_datajakon/statistika.png" class="img-fluid" alt="img-29"  loading="lazy" style="width: 70%; padding:30px;">
-                            <a href="/datajakon/statistikabujkblora"></a>
+                            <a href="/404"></a>
                         </div><!-- service-two-image -->
                     </div><!-- service-two-imgbox -->
                     <div class="service-two-card-content">
-                        <h4>Data Statistik</h4>
+                        <h4>Data Statistik Tertib Jakon</h4>
                         {{-- <p>Dinas Pekerjaan Umum dan Penataan Ruang <br> Pemerintah Kabupaten Blora Provinsi Jawa Tengah</p> --}}
-                        <a href="/datajakon/statistikabujkblora">
+                        <a href="/404">
                             <i class="fa-solid fa-arrow-right-long"></i>
                             <span>Lihat Data</span>
                         </a>
