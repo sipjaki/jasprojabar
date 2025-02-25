@@ -39,20 +39,20 @@ class TertibjasakonstruksiController extends Controller
         ]);
     }
 
-    public function bujkkontraktorshow($namalengkap)
+    public function tertibjasakonstruksishow($namabadanusaha)
     {
-        $databujkkontraktor = bujkkontraktor::where('namalengkap', $namalengkap)->first();
+        $datatertibusaha = tertibjasakonstruksi::where('namabadanusaha', $namabadanusaha)->first();
 
-        if (!$databujkkontraktor) {
-            // Tangani jika kegiatan tidak ditemukan
-            return redirect()->back()->with('error', 'Kegiatan tidak ditemukan.');
-        }
+        // if (!$datatertibusaha) {
+        //     // Tangani jika kegiatan tidak ditemukan
+        //     return redirect()->back()->with('error', 'Kegiatan tidak ditemukan.');
+        // }
 
-        // Menggunakan paginate() untuk pagination
-        $subdata = bujkkontraktorsub::where('bujkkontraktor_id', $databujkkontraktor->id)->paginate(20);
+        // // Menggunakan paginate() untuk pagination
+        // $subdata = penyediastatustertibjakon::where('penyedia_id', $datatertibusaha->id)->paginate(20);
 
-          // Menghitung nomor urut mulai
-            $start = ($subdata->currentPage() - 1) * $subdata->perPage() + 1;
+        //   // Menghitung nomor urut mulai
+        //     $start = ($subdata->currentPage() - 1) * $subdata->perPage() + 1;
 
 
     // Ambil data user saat ini
@@ -60,10 +60,10 @@ class TertibjasakonstruksiController extends Controller
 
     return view('frontend.03_masjaki_jakon.01_bujkkontraktor.bujkkontraktorshow', [
         'title' => 'Data Bujk Kontraktor',
-        'data' => $databujkkontraktor,
-        'subData' => $subdata,  // Jika Anda ingin mengirimkan data sub kontraktor juga
+        'data' => $datatertibusaha,
+        // 'subData' => $subdata,  // Jika Anda ingin mengirimkan data sub kontraktor juga
         'user' => $user,
-        'start' => $start,
+        // 'start' => $start,
     ]);
     }
 
