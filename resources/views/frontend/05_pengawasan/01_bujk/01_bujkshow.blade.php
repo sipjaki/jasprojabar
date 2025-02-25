@@ -422,10 +422,9 @@ color: #45a049;
                 {{$data->resiko}}
             </td>
         </tr>
-
         <tr>
             <th style="text-align:center; color: black; width:50px; background-color: white;">
-                <i class="fas fa-exclamation-circle" style="font-size:20px; margin-right:8px;"></i> <!-- Changed icon to exclamation-circle for risk -->
+                <i class="fas fa-database" style="font-size:20px; margin-right:8px;"></i> <!-- Database icon for Sumber Data -->
             </th>
             <th colspan="11" style="text-align:left; color: black; background-color: white; padding-left: 10px; width:300px;">
                 Sumber Data
@@ -438,7 +437,7 @@ color: #45a049;
 
         <tr>
             <th style="text-align:center; color: black; width:50px; background-color: white;">
-                <i class="fas fa-exclamation-circle" style="font-size:20px; margin-right:8px;"></i> <!-- Changed icon to exclamation-circle for risk -->
+                <i class="fas fa-building" style="font-size:20px; margin-right:8px;"></i> <!-- Building icon for Skala Usaha Perusahaan -->
             </th>
             <th colspan="11" style="text-align:left; color: black; background-color: white; padding-left: 10px; width:300px;">
                 Skala Usaha Perusahaan
@@ -451,7 +450,7 @@ color: #45a049;
 
         <tr>
             <th style="text-align:center; color: black; width:50px; background-color: white;">
-                <i class="fas fa-exclamation-circle" style="font-size:20px; margin-right:8px;"></i> <!-- Changed icon to exclamation-circle for risk -->
+                <i class="fas fa-cogs" style="font-size:20px; margin-right:8px;"></i> <!-- Cogs icon for Skala Usaha Proyek -->
             </th>
             <th colspan="11" style="text-align:left; color: black; background-color: white; padding-left: 10px; width:300px;">
                 Skala Usaha Proyek
@@ -464,7 +463,7 @@ color: #45a049;
 
         <tr>
             <th style="text-align:center; color: black; width:50px; background-color: white;">
-                <i class="fas fa-exclamation-circle" style="font-size:20px; margin-right:8px;"></i> <!-- Changed icon to exclamation-circle for risk -->
+                <i class="fas fa-eye" style="font-size:20px; margin-right:8px;"></i> <!-- Eye icon for Pengawasan -->
             </th>
             <th colspan="11" style="text-align:left; color: black; background-color: white; padding-left: 10px; width:300px;">
                 Pengawasan
@@ -477,7 +476,7 @@ color: #45a049;
 
         <tr>
             <th style="text-align:center; color: black; width:50px; background-color: white;">
-                <i class="fas fa-exclamation-circle" style="font-size:20px; margin-right:8px;"></i> <!-- Changed icon to exclamation-circle for risk -->
+                <i class="fas fa-bullhorn" style="font-size:20px; margin-right:8px;"></i> <!-- Bullhorn icon for Program Strategis Nasional -->
             </th>
             <th colspan="11" style="text-align:left; color: black; background-color: white; padding-left: 10px; width:300px;">
                 Program Strategis Nasional
@@ -487,6 +486,7 @@ color: #45a049;
                 {{$data->PSN}}
             </td>
         </tr>
+
 
 
     </thead>
