@@ -448,8 +448,8 @@ color: #45a049;
                                             </div><!-- history-card-image -->
 
                                             <div class="history-card-meta history-card-data-content">
-                                                <div class="history-card-years {{ $data->prosespaket->persiapan == 'BELUM' ? 'bg-danger text-white' : '' }}">
-                                                    {{$data->prosespaket->persiapan}}
+                                                <div class="history-card-years {{ $data->prosespaketnontender->persiapan == 'BELUM' ? 'bg-danger text-white' : '' }}">
+                                                    {{$data->prosespaketnontender->persiapan}}
                                                 </div>
                                                 {{-- <div class="history-card-date">1 May</div> --}}
                                             </div><!-- history-card-meta -->
@@ -489,8 +489,8 @@ color: #45a049;
                                             </div><!-- history-card-image -->
 
                                             <div class="history-card-meta">
-                                                <div class="history-card-years {{ $data->prosespaket->pelaksanaan == 'BELUM' ? 'bg-danger text-white' : '' }}">
-                                                    {{$data->prosespaket->pelaksanaan}}
+                                                <div class="history-card-years {{ $data->prosespaketnontender->pelaksanaan == 'BELUM' ? 'bg-danger text-white' : '' }}">
+                                                    {{$data->prosespaketnontender->pelaksanaan}}
                                                 </div>
                                                 {{-- <div class="history-card-date">1 May</div> --}}
                                             </div><!-- history-card-meta -->
@@ -510,8 +510,8 @@ color: #45a049;
                                             </div><!-- history-card-content -->
 
                                             <div class="history-card-meta history-card-data-content">
-                                                <div class="history-card-years {{ $data->prosespaket->pemeliharaan == 'BELUM' ? 'bg-danger text-white' : '' }}">
-                                                    {{$data->prosespaket->pemeliharaan}}
+                                                <div class="history-card-years {{ $data->prosespaketnontender->pemeliharaan == 'BELUM' ? 'bg-danger text-white' : '' }}">
+                                                    {{$data->prosespaketnontender->pemeliharaan}}
                                                 </div>
                                                 {{-- <div class="history-card-date">1 May</div> --}}
                                             </div><!-- history-card-meta -->
@@ -532,8 +532,8 @@ color: #45a049;
                                             </div><!-- history-card-image -->
 
                                             <div class="history-card-meta history-card-data-content">
-                                                <div class="history-card-years {{ $data->prosespaket->paketselesai == 'BELUM' ? 'bg-danger text-white' : '' }}">
-                                                    {{$data->prosespaket->paketselesai}}
+                                                <div class="history-card-years {{ $data->prosespaketnontender->paketselesai == 'BELUM' ? 'bg-danger text-white' : '' }}">
+                                                    {{$data->prosespaketnontender->paketselesai}}
                                                 </div>
                                                 {{-- <div class="history-card-date">1 May</div> --}}
                                             </div><!-- history-card-meta -->
