@@ -89,15 +89,15 @@ color: #45a049;
 
             .badgekembali {
                 position: absolute;
-                top: 20px; /* Sesuaikan jarak dari atas jika perlu */
-                right: 20px; /* Menempatkan tombol di pojok kanan */
-                background-color: white;
-                border: none;
+                background: linear-gradient(to right, green, green);
+                color: white;
+                padding: 10px 20px;
+                border-radius: 10px;
+                display: inline-block;
+                font-size: 1rem;
+                text-align: center;
                 font-size: 12px;
                 cursor: pointer;
-                padding: 10px 20px; /* Sesuaikan ukuran tombol jika perlu */
-                display: flex;
-                align-items: center;
                 transition: background-color 0.3s, color 0.3s;
             }
             .badgekembali:hover {
@@ -181,15 +181,17 @@ color: #45a049;
 
                                             <div class="display: flex; justify-content: space-between;" style="margin-top: -15px;">
 
+                                                <a href="/datajakon/paketpekerjaantender" style="background: white;">
+                                                    <button class="badgekembali" style="border: none; font-size: 12px; cursor: pointer; margin-right: 10px;">
+                                                        <i class="fas fa-arrow-circle-left mr-2" style="margin-right: 15px;"></i> KEMBALI
+                                                    </button>
+                                                </a>
+
                                                 <button class="green-button" style="margin-bottom:10px; text-transform:uppercase">
                                                     <i class="fas fa-file mr-2" style="margin-right:5px;"></i> INFORMASI {{$title}} : {{$data->namapekerjaan}}
                                                 </button>
 
-                                                    <a href="/datajakon/paketpekerjaantender" style="background: white;">
-                                                        <button class="badgekembali" style="border: none; font-size: 12px; cursor: pointer; margin-right: 10px;">
-                                                            <i class="fas fa-arrow-circle-left mr-2" style="margin-right: 15px;"></i> KEMBALI
-                                                        </button>
-                                                    </a>
+
                                             </div>
 
                                             <div class="progress-cards">
