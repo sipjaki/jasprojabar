@@ -92,13 +92,12 @@ color: #45a049;
                 color: white;
                 padding: 10px 20px;
                 border-radius: 10px;
-                border: 2px solid;
+                border: 3px solid black; /* Garis luar yang lebih tebal dan lebih jelas */
                 display: inline-block;
-                font-size: 1rem;
-                text-align: center;
                 font-size: 12px;
+                text-align: center;
                 cursor: pointer;
-                transition: background-color 0.3s, color 0.3s;
+                transition: background-color 0.3s, color 0.3s, border-color 0.3s; /* Tambahkan transisi untuk border */
             }
             .badgekembali:hover {
                 background-color: white;
