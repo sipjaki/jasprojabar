@@ -190,16 +190,22 @@ color: #45a049;
                             <thead>
                                 <tr>
                                     <th style="text-align:center"> No</th>
-                                    <th style="text-align:center"> Nama Pemilik</th>
-                                    <th style="text-align:center" >Alamat</th>
-                                    {{-- <th style="text-align:center" >No Telepon</th> --}}
-                                    <th style="text-align:center" >Email</th>
-                                    {{-- <th style="text-align:center" >NIB</th> --}}
-                                    <th style="text-align:center" >PJU</th>
-                                    {{-- <th style="text-align:center" >Akte</th> --}}
-                                    <th style="text-align:center" >Tanggal</th>
-                                    {{-- <th style="text-align:center" >Notaris</th> --}}
-                                    {{-- <th style="text-align:center" >Pengesahan</th> --}}
+                                    <th style="text-align:center"> Kode Proyek</th>
+                                    <th style="text-align:center" >Nama Perusahaan</th>
+                                    <th style="text-align:center" >Alamat Perusahaan</th>
+                                    <th style="text-align:center" >Penanaman Modal</th>
+                                    <th style="text-align:center" >Jenis Perusahaan</th>
+                                    <th style="text-align:center" >NIB</th>
+                                    <th style="text-align:center" >KBLI</th>
+                                    <th style="text-align:center" >Uraian KBLI</th>
+                                    <th style="text-align:center" >Sektor</th>
+                                    <th style="text-align:center" >Alamat Proyek</th>
+                                    <th style="text-align:center" >Wilayah</th>
+                                    <th style="text-align:center" >Luas Tanah</th>
+                                    <th style="text-align:center" >TKI Laki Laki </th>
+                                    <th style="text-align:center" >TKI Perampuan </th>
+                                    <th style="text-align:center" >TKA Laki Laki </th>
+                                    <th style="text-align:center" >TKA Perempuan </th>
                                     <th style="text-align:center" >View</th>
                                 </tr>
                             </thead>
@@ -212,19 +218,35 @@ color: #45a049;
                                 @foreach ($data as $item )
                                 <tr>
                                     <td>{{ $loop->iteration + $start - 1 }}</td>
-                                    <td>{{$item->namalengkap}}</td>
-                                    <td>{{$item->alamat}}</td>
-                                    {{-- <td>{{$item->no_telepon}}</td> --}}
-                                    <td>{{$item->email}}</td>
-                                    {{-- <td>{{$item->nib}}</td> --}}
-                                    <td>{{$item->pju}}</td>
-                                    {{-- <td>{{$item->no_akte}}</td> --}}
-                                    {{-- <td>{{$item->tanggal}}</td> --}}
-                                    <td>{{ \Carbon\Carbon::parse($item->tanggal)->isoFormat('D MMMM YYYY') }}</td>
-                                    {{-- <td>{{$item->nama_notaris}}</td> --}}
-                                    {{-- <td>{{$item->no_pengesahan}}</td> --}}
+                                    <td>{{$item->kodeproyek}}</td>
+                                    <td>{{$item->namaperusahaan}}</td>
+                                    <td>{{$item->alamatperusahaan}}</td>
+                                    <td>{{$item->statusmodal}}</td>
+                                    <td>{{$item->jenisperusahaan}}</td>
+                                    <td>{{$item->nib}}</td>
+                                    <td>{{$item->kbli}}</td>
+                                    <td>{{$item->uraiankbli}}</td>
+                                    <td>{{$item->sektor}}</td>
+                                    <td>{{$item->alamatproyek}}</td>
+                                    <td>{{$item->wilayah}}</td>
+                                    <td>{{$item->luastanah}}</td>
+                                    <td>{{$item->tki_lakilaki}}</td>
+                                    <td>{{$item->tki_perempuan}}</td>
+                                    <td>{{$item->tka_lakilaki}}</td>
+                                    <td>{{$item->tka_perempuan}}</td>
+                                    <td>{{$item->resiko}}</td>
+                                    <td>{{$item->sumberdata}}</td>
+                                    <td>{{$item->investasi}}</td>
+                                    <td>{{$item->skalausahaperusahaan}}</td>
+                                    <td>{{$item->skalausahaproyek}}</td>
+                                    <td>{{$item->kewenangankoordinator}}</td>
+                                    <td>{{$item->kewenanganpengawas}}</td>
+                                    <td>{{$item->psn}}</td>
+
+                                    {{-- <td>{{ \Carbon\Carbon::parse($item->tanggal)->isoFormat('D MMMM YYYY') }}</td> --}}
+
                                     <td style="text-align: center">
-                                        <a href="/datajakon/bujkkontraktor/{{$item->namalengkap}}">
+                                        <a href="/datajakon/pengwasanbujk/{{$item->kodeproyek}}">
                                             <i class="fas fa-eye view-icon" onclick="alert('View clicked!')"></i>
                                         </a>
                                     </td>
