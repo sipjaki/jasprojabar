@@ -560,3 +560,9 @@ color: #45a049;
         doc.save("dataproyek.pdf");
     });
 </script>
+
+<script>
+    function downloadCSV() {
+        // Function to handle CSV download
+    }
+    </script>
