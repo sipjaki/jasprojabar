@@ -26,6 +26,7 @@
                             font-size:25px;
                             white-space: nowrap;
                             display: inline-block;
+                            width:400px;
                             animation: scrolling-text 5s linear infinite;
                             width: 100%;">
 
