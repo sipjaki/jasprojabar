@@ -89,15 +89,15 @@ color: #45a049;
 
             .badgekembali {
                 position: absolute;
-                background: linear-gradient(to right, green, green);
-                color: white;
-                padding: 10px 20px;
-                border-radius: 10px;
-                display: inline-block;
-                font-size: 1rem;
-                text-align: center;
+                top: 20px; /* Sesuaikan jarak dari atas jika perlu */
+                right: 20px; /* Menempatkan tombol di pojok kanan */
+                background-color: white;
+                border: none;
                 font-size: 12px;
                 cursor: pointer;
+                padding: 10px 20px; /* Sesuaikan ukuran tombol jika perlu */
+                display: flex;
+                align-items: center;
                 transition: background-color 0.3s, color 0.3s;
             }
             .badgekembali:hover {
