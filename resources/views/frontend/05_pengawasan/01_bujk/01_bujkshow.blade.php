@@ -206,7 +206,7 @@ color: #45a049;
 							<div class="document-details-list">
                                 <div class="centered-button" style="margin-top: -15px">
                                     <button class="green-button" style="margin-bottom:10px; text-transform:uppercase">
-                                        <i class="fas fa-file mr-2" style="margin-right:5px;"></i> SUB KLASIFIKASI LAYANAN : {{$data->namalengkap}}
+                                        <i class="fas fa-file mr-2" style="margin-right:5px;"></i> <span>{{$title}} : {{$data->kodeproyek}}</span>
                                     </button>
 
                                 </div>
