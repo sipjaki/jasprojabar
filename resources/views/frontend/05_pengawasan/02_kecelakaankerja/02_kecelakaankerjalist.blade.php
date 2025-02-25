@@ -220,7 +220,7 @@ color: #45a049;
                                     <td>{{$item->keterangan}}</td>
                                     <td>Rp {{ number_format($item->nilaikerugian, 0, ',', '.') }}</td>
                                     <td style="text-align: center">
-                                        <a href="/pengawasanbujkshow/{{$item->namapaketpekerjaan}}">
+                                        <a href="/kecelakaankerjalist/{{$item->namapaketpekerjaan}}">
                                             <i class="fas fa-eye view-icon" onclick="alert('View clicked!')"></i>
                                         </a>
                                     </td>
