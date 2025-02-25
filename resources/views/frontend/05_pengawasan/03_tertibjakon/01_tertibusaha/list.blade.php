@@ -104,6 +104,24 @@ color: #45a049;
                 color: black;
                 background: white;
             }
+
+            .badgemenu {
+                background: linear-gradient(to right, orange, green);
+                color: white;
+                padding: 10px 20px;
+                border-radius: 10px;
+                border: 3px solid black; /* Garis luar yang lebih tebal dan lebih jelas */
+                display: inline-block;
+                font-size: 12px;
+                text-align: center;
+                cursor: pointer;
+                transition: background-color 0.3s, color 0.3s, border-color 0.3s; /* Tambahkan transisi untuk border */
+            }
+            .badgemenu:hover {
+                background-color: white;
+                color: black;
+                background: white;
+            }
 </style>
 
 {{-- ================================ --}}
@@ -165,16 +183,36 @@ color: #45a049;
                                     <!-- Tombol dan kolom pencarian di kanan -->
                                     <div style="display: flex; align-items: center;">
 
-                                        <div style="position: relative; display: inline-block; margin-right:10px;">
-                                            <input type="search" placeholder="Pencarian...." style="border: 1px solid #ccc; padding: 5px 10px; font-size: 14px; border-radius: 5px; width: 200px;">
-                                            <i class="fas fa-search" style="position: absolute; right: 10px; top: 50%; transform: translateY(-50%); font-size: 16px; color: #888;"></i>
-                                        </div>
+
+                                        <a href="/tertibjasakonstruksi" style="background: white;">
+                                            <button class="badgemenu" style="border: none; font-size: 12px; cursor: pointer; margin-right: 10px;">
+                                                <i class="fas fa-arrow-circle-left mr-2" style="margin-right: 15px;"></i><span style="color: black">PU</span>
+                                            </button>
+                                        </a>
+
+                                        <a href="/tertibjasakonstruksi" style="background: white;">
+                                            <button class="badgemenu" style="border: none; font-size: 12px; cursor: pointer; margin-right: 10px;">
+                                                <i class="fas fa-arrow-circle-left mr-2" style="margin-right: 15px;"></i><span style="color: black">Non-PU</span>
+                                            </button>
+                                        </a>
+
+                                        <a href="/tertibjasakonstruksi" style="background: white;">
+                                            <button class="badgemenu" style="border: none; font-size: 12px; cursor: pointer; margin-right: 10px;">
+                                                <i class="fas fa-arrow-circle-left mr-2" style="margin-right: 15px;"></i><span style="color: black">Swasta</span>
+                                            </button>
+                                        </a>
+
 
                                         <a href="/tertibjasakonstruksi" style="background: white;">
                                             <button class="badgekembali" style="border: none; font-size: 12px; cursor: pointer; margin-right: 10px;">
                                                 <i class="fas fa-arrow-circle-left mr-2" style="margin-right: 15px;"></i><span style="color: black">KEMBALI</span>
                                             </button>
                                         </a>
+
+                                        <div style="position: relative; display: inline-block; margin-right:10px;">
+                                            <input type="search" placeholder="Pencarian...." style="border: 1px solid #ccc; padding: 5px 10px; font-size: 14px; border-radius: 5px; width: 200px;">
+                                            <i class="fas fa-search" style="position: absolute; right: 10px; top: 50%; transform: translateY(-50%); font-size: 16px; color: #888;"></i>
+                                        </div>
 
                                     </div>
                                 </div>
