@@ -185,7 +185,7 @@ color: #45a049;
                     <!-- Add this inside your HTML <head> for FontAwesome -->
 <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
 
-<table class="fl-table" style="width: 100%; border-collapse: collapse;">
+<table id="datakeluar" class="fl-table" style="width: 100%; border-collapse: collapse;">
     <thead>
 
         <tr>
@@ -498,8 +498,9 @@ color: #45a049;
             <i class="fas fa-arrow-circle-left mr-2" style="margin-right: 15px;"></i> KEMBALI
         </button>
     </a>
-
-    <button id="download-pdf" class="btn btn-primary">Download PDF</button>
+    <button id="downloadBtn" class="badge">
+        <i class="fas fa-download me-2"></i>Download
+    </button>
 
 
 </div>
@@ -544,25 +545,68 @@ color: #45a049;
                     @include('frontend.00_approve.01_cssterpisah.footer')
 
 
-                    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
-<script>
-    document.getElementById("download-pdf").addEventListener("click", function () {
-        const { jsPDF } = window.jspdf;
-        const doc = new jsPDF();
 
-        // Mengambil elemen tabel
-        let table = document.querySelector('.fl-table');
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+                <script>
+                    function copyToClipboard(text) {
+                        var textarea = document.createElement('textarea');
+                        textarea.value = text;
+                        document.body.appendChild(textarea);
+                        textarea.select();
+                        document.execCommand('copy');
+                        document.body.removeChild(textarea);
+                        alert('Teks telah disalin ke clipboard!');
+                    }
 
-        // Menambahkan tabel ke dalam PDF
-        doc.autoTable({ html: table });
+                    function updateDateTime() {
+                        const now = new Date();
+                        const tahun = now.getFullYear();
+                        const bulan = now.getMonth() + 1;
+                        const tanggal = now.getDate();
+                        const jam = now.getHours();
+                        const menit = now.getMinutes();
+                        const detik = now.getSeconds();
+                        const formattedDateTime = `${tanggal}/${bulan}/${tahun} ${jam}:${menit}:${detik}`;
+                        document.getElementById('dateTime').textContent = formattedDateTime;
+                    }
 
-        // Mengunduh PDF
-        doc.save("dataproyek.pdf");
-    });
-</script>
+                    updateDateTime();
+                    setInterval(updateDateTime, 1000);
 
-<script>
-    function downloadCSV() {
-        // Function to handle CSV download
-    }
-    </script>
+                    document.getElementById('previewBtn').addEventListener('click', function() {
+                        html2canvas(document.getElementById('datakeluar')).then(canvas => {
+                            const imgData = canvas.toDataURL('image/png');
+                            const img = new Image();
+                            img.src = imgData;
+                            const previewWindow = window.open('', '', 'width=210,height=297');
+                            img.onload = function() {
+                                const imgWidth = img.naturalWidth;
+                                const imgHeight = img.naturalHeight;
+                                const a4WidthPx = 794;
+                                const a4HeightPx = 1123;
+                                const widthRatio = a4WidthPx / imgWidth;
+                                const heightRatio = a4HeightPx / imgHeight;
+                                const scalingFactor = Math.min(widthRatio, heightRatio);
+                                const newWidth = imgWidth * scalingFactor;
+                                const newHeight = imgHeight * scalingFactor;
+                                previewWindow.document.write('<html><head><title>Preview</title></head><body style="margin:0;padding:0;">');
+                                previewWindow.document.write('<img src="' + imgData + '" style="width:' + newWidth + 'px;height:' + newHeight + 'px;">');
+                                previewWindow.document.write('</body></html>');
+                                previewWindow.document.close();
+                            };
+                        });
+                    });
+
+                    document.getElementById('downloadBtn').addEventListener('click', function() {
+                        const { jsPDF } = window.jspdf;
+                        const doc = new jsPDF('p', 'mm', 'a4');
+                        const nama = document.getElementById('dataContainer').getAttribute('data-nama');
+                        const formattedNama = nama ? nama.replace(/[^a-zA-Z0-9]/g, '_') : 'document';
+                        html2canvas(document.getElementById('datakeluar')).then(canvas => {
+                            const imgData = canvas.toDataURL('image/png');
+                            doc.addImage(imgData, 'PNG', 10, 25, 190, 100);
+                            doc.save(`${formattedNama}.pdf`);
+                        });
+                    });
+                </script>
