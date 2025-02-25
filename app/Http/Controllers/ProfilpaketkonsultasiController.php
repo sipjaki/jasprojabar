@@ -14,6 +14,7 @@ use Illuminate\Support\Facades\Auth;
 class ProfilpaketkonsultasiController extends Controller
 {
     //
+
     public function paketkonsultasi()
     {
         $user = Auth::user();
