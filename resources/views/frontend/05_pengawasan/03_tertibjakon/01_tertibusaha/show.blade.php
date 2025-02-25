@@ -201,6 +201,8 @@ color: #45a049;
                 Keterangan
             </td>
         </tr>
+
+
         <tr>
             <th style="text-align:center; color: black; width:50px; background-color: white;">
                 <i class="fas fa-user-check" style="font-size:20px; margin-right:8px;"></i> <!-- Ikon untuk Status Penyedia -->
