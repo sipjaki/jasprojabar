@@ -4,12 +4,12 @@
 	<div class="topbar">
 		<div class="topbar-inner">
 			<div class="topbar-left">
-				<div class="topbar-socials" style="margin-top: 20px;">
-                    <a href="#"><i class="fa-brands fa-tiktok" style="font-size: 22px;"></i></a>
-                    <a href="#"><i class="fa-solid fa-envelope" style="font-size: 22px;"></i></a>
-                    <a href="#"><i class="fa-brands fa-instagram" style="font-size: 22px;"></i></a>
+				<div class="topbar-socials">
+                    <a href="#"><i class="fa-brands fa-tiktok" style="font-size: 22px; margin-top:20px;"></i></a>
+                    <a href="#"><i class="fa-solid fa-envelope" style="font-size: 22px; margin-top:20px;"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram" style="font-size: 22px; margin-top:20px;"></i></a>
                     {{-- <a href="#"><i class="fa-brands fa-whatsapp" style="font-size: 18px;"></i></a> --}}
-                    <a href="#"><i class="fa-brands fa-facebook" style="font-size: 22px;"></i></a>
+                    <a href="#"><i class="fa-brands fa-facebook" style="font-size: 22px; margin-top:20px;"></i></a>
 				</div><!--topbar-socials-->
 				<div class="topbar-info">
 					<ul>
