@@ -492,33 +492,6 @@ color: #45a049;
 </table>
 
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
-<script>
-    document.getElementById('downloadBtn').addEventListener('click', function() {
-        // Menangkap gambar dari elemen dengan id 'datakeluar'
-        html2canvas(document.getElementById('datakeluar')).then(canvas => {
-            // Mengubah gambar canvas menjadi data URL
-            const imgData = canvas.toDataURL('image/png');
-            const pdf = new jsPDF.jsPDF(); // Membuat instance jsPDF
-
-            // Menghitung ukuran dan skala gambar
-            const imgWidth = 210; // Lebar A4 dalam mm
-            const imgHeight = canvas.height * imgWidth / canvas.width; // Menjaga rasio aspek
-
-            // Menambahkan gambar ke PDF
-            pdf.addImage(imgData, 'PNG', 0, 0, imgWidth, imgHeight);
-
-            // Mengunduh PDF
-            pdf.save('tabel_info.pdf');
-        });
-    });
-</script>
-
-<button id="downloadBtn">Download as PDF</button>
-
 <div class="container-fluid" style="justify-content: right; margin-top:20px;">
 
     <a href="/pengawasanbujk" style="background: white;">
