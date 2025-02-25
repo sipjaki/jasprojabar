@@ -557,6 +557,6 @@ color: #45a049;
         doc.autoTable({ html: table });
 
         // Mengunduh PDF
-        doc.save("{{data->kodeproyek}}.pdf");
+        doc.save("dataproyek.pdf");
     });
 </script>
