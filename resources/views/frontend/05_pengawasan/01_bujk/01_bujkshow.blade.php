@@ -499,6 +499,9 @@ color: #45a049;
         </button>
     </a>
 
+    <button id="download-pdf" class="btn btn-primary">Download PDF</button>
+
+
 </div>
 
                     </div>
@@ -539,3 +542,21 @@ color: #45a049;
 
                     @include('frontend.00_approve.01_cssterpisah.footer1')
                     @include('frontend.00_approve.01_cssterpisah.footer')
+
+
+                    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+<script>
+    document.getElementById("download-pdf").addEventListener("click", function () {
+        const { jsPDF } = window.jspdf;
+        const doc = new jsPDF();
+
+        // Mengambil elemen tabel
+        let table = document.querySelector('.fl-table');
+
+        // Menambahkan tabel ke dalam PDF
+        doc.autoTable({ html: table });
+
+        // Mengunduh PDF
+        doc.save("{{data->kodeproyek}}.pdf");
+    });
+</script>
