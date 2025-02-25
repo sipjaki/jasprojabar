@@ -5796,6 +5796,7 @@ profilpaketpekerjaanblora::create([
 //======================== ===================================================================================
 // PAKET PEKERJAAN NON TENDER MAS JAKI BLORA
 profilpaketpekerjaannontender::create([
+    'prosespaketnontender_id' => 1,
     'jenispekerjaan' => 'Pekerjaan Konstruksi Jalan',
     'namapekerjaan' => 'Rehabilitasi Jalan Kabupaten Blora',
     'tahunpelaksanaan' => 2023,
@@ -5811,6 +5812,7 @@ profilpaketpekerjaannontender::create([
 ]);
 
 profilpaketpekerjaannontender::create([
+    'prosespaketnontender_id' => 1,
     'jenispekerjaan' => 'Pekerjaan Pembangunan Irigasi',
     'namapekerjaan' => 'Pembangunan Irigasi Desa Blora',
     'tahunpelaksanaan' => 2024,
@@ -5826,6 +5828,7 @@ profilpaketpekerjaannontender::create([
 ]);
 
 profilpaketpekerjaannontender::create([
+    'prosespaketnontender_id' => 1,
     'jenispekerjaan' => 'Pekerjaan Pembangunan Jembatan',
     'namapekerjaan' => 'Pembangunan Jembatan Desa Blora',
     'tahunpelaksanaan' => 2025,
@@ -5841,6 +5844,7 @@ profilpaketpekerjaannontender::create([
 ]);
 
 profilpaketpekerjaannontender::create([
+    'prosespaketnontender_id' => 1,
     'jenispekerjaan' => 'Pekerjaan Renovasi Gedung',
     'namapekerjaan' => 'Renovasi Gedung Sekolah Blora',
     'tahunpelaksanaan' => 2026,
@@ -5856,6 +5860,7 @@ profilpaketpekerjaannontender::create([
 ]);
 
 profilpaketpekerjaannontender::create([
+    'prosespaketnontender_id' => 1,
     'jenispekerjaan' => 'Pekerjaan Pengadaan Peralatan',
     'namapekerjaan' => 'Pengadaan Peralatan Kesehatan Blora',
     'tahunpelaksanaan' => 2027,
@@ -5871,6 +5876,7 @@ profilpaketpekerjaannontender::create([
 ]);
 
 profilpaketpekerjaannontender::create([
+    'prosespaketnontender_id' => 1,
     'jenispekerjaan' => 'Pekerjaan Pemeliharaan Jalan',
     'namapekerjaan' => 'Pemeliharaan Jalan Desa Blora',
     'tahunpelaksanaan' => 2028,
@@ -5886,6 +5892,7 @@ profilpaketpekerjaannontender::create([
 ]);
 
 profilpaketpekerjaannontender::create([
+    'prosespaketnontender_id' => 1,
     'jenispekerjaan' => 'Pekerjaan Pembangunan Sistem Drainase',
     'namapekerjaan' => 'Pembangunan Sistem Drainase Kota Blora',
     'tahunpelaksanaan' => 2029,
@@ -6121,18 +6128,18 @@ prosespaket::create([
     'profilpaketpekerjaanblora_id' => 1, // Sesuaikan dengan ID yang ada di tabel terkait
     'persiapan' => 'SELESAI',
     'pengadaan' => 'SELESAI',
-    'pelaksanaan' => 'BELUM',
-    'pemeliharaan' => 'BELUM',
-    'paketselesai' => 'BELUM',
+    'pelaksanaan' => 'BELUM DI MULAI',
+    'pemeliharaan' => 'BELUM DI MULAI',
+    'paketselesai' => 'BELUM DI MULAI',
 ]);
 
 prosespaketnontender::create([
     'profilpaketpekerjaannontender_id' => 1, // Sesuaikan dengan ID yang ada di tabel terkait
     'persiapan' => 'SELESAI',
     'pengadaan' => 'SELESAI',
-    'pelaksanaan' => 'BELUM',
-    'pemeliharaan' => 'BELUM',
-    'paketselesai' => 'BELUM',
+    'pelaksanaan' => 'PROSES',
+    'pemeliharaan' => 'PAKET DI BATALKAN',
+    'paketselesai' => 'BELUM DI MULAI',
 ]);
 
 prosespaketkonsultasi::create([
