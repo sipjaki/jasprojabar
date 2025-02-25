@@ -31,7 +31,7 @@ class ProfilpaketpekerjaannontenderController extends Controller
 
     public function paketpekerjaannontendershow($jenispekerjaan)
     {
-        $data = profilpaketpekerjaannontender::where('jenispekerjaan', $jenispekerjaan)->first();
+        $datapaketpekerjaannontender = profilpaketpekerjaannontender::where('jenispekerjaan', $jenispekerjaan)->first();
         $datasub = prosespaketnontender::all();
 
         // if (!$databujkkontraktor) {
@@ -51,7 +51,8 @@ class ProfilpaketpekerjaannontenderController extends Controller
 
     return view('frontend.03_masjaki_jakon.04_profilpaketpekerjaan.02_paketpekerjaannontendershow', [
         'title' => 'Profil Paket Pekerjaan Konstruksi & Konsultasi Kabupaten Blora',
-        'data' => $data,
+        'data' => $datapaketpekerjaannontender,
+        'user' => $user,
         'datasub' => $datasub,
 
 
