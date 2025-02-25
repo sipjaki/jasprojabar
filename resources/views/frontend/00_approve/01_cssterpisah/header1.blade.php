@@ -1,3 +1,19 @@
+
+<style>
+    .topbar-text {
+      animation: scrolling-text 20s linear infinite;
+    }
+
+    @keyframes scrolling-text {
+      0% {
+        transform: translateX(100%);
+      }
+      100% {
+        transform: translateX(-100%);
+      }
+    }
+  </style>
+
 <header class="header">
 	<div class="topbar">
 		<div class="topbar-inner">
