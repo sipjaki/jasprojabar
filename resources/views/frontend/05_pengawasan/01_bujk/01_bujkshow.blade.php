@@ -3,62 +3,7 @@
     @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 
 
-    .fl-table th {
-    padding: 10px;
-    text-align: center;
-}
 
-.fl-table i {
-    font-size: 20px; /* Adjust icon size */
-    margin-right: 8px; /* Add space between icon and text */
-}
-
-
-.fl-table {
-    width: 100%;
-    border-collapse: collapse;
-    background-color: #fff; /* White background for the whole table */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: adds a subtle shadow */
-}
-
-/* Table header styling */
-.fl-table th {
-    padding: 12px;
-    text-align: center;
-    font-size: 14px;
-    background-color: #a8d5ba; /* Light green background */
-    border: 1px solid #ddd; /* Light gray border */
-    color: black;
-    font-weight: bold;
-}
-
-/* Table data cells styling */
-.fl-table td {
-    padding: 10px;
-    text-align: center;
-    font-size: 14px;
-    border: 1px solid #ddd; /* Light gray border for cells */
-}
-
-/* Alternating row colors */
-.fl-table tr:nth-child(even) {
-    background-color: #e2f4e2; /* Light green for even rows */
-}
-
-.fl-table tr:nth-child(odd) {
-    background-color: #ffffff; /* White for odd rows */
-}
-
-/* Icon size and margin */
-.fl-table i {
-    font-size: 18px; /* Adjust icon size */
-    margin-right: 8px; /* Space between icon and text */
-}
-
-/* Optional: Styling for the table on hover */
-.fl-table tr:hover {
-    background-color: #c8e6c9; /* Slightly darker green on hover */
-}
 
 
             .badgekembali {
@@ -252,28 +197,27 @@
 
                   <!-- Add this inside your HTML <head> for FontAwesome -->
 <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+
 <table class="fl-table" style="width: 100%; border-collapse: collapse;">
     <thead>
-        <!-- First Row with Icon and "No" -->
         <tr>
-            <th style="text-align:center; color: black;" colspan="1">
+            <th style="text-align:center; color: black;">
+                <!-- Add your icon here -->
                 <i class="fas fa-info-circle"></i>
             </th>
             <th colspan="11" style="text-align:center; color: black;">No</th>
             <td colspan="12" style="text-align:center;">1</td>
         </tr>
-        <!-- Second Row with Icon and "Nama Pengurus" -->
         <tr>
-            <th style="text-align:center; color: black;" colspan="1">
-                <i class="fas fa-user"></i>
+            <th style="text-align:center; color: black;">
+                <i class="fas fa-user"></i> <!-- Icon for 'Nama Pengurus' -->
             </th>
             <th colspan="11" style="text-align:center; color: black;">Nama Pengurus</th>
             <td colspan="12" style="text-align:center;">{{$data->namaperusahaan}}</td>
         </tr>
-        <!-- Third Row with Icon and "Nama Pengurus" -->
         <tr>
-            <th style="text-align:center; color: black;" colspan="1">
-                <i class="fas fa-user"></i>
+            <th style="text-align:center; color: black;">
+                <i class="fas fa-user"></i> <!-- Same icon as above -->
             </th>
             <th colspan="11" style="text-align:center; color: black;">Nama Pengurus</th>
             <td colspan="12" style="text-align:center;">{{$data->namaperusahaan}}</td>
