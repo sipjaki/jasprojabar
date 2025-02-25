@@ -88,7 +88,7 @@ color: #45a049;
 
 
             .badgekembali {
-                background: linear-gradient(to right, green, white);
+                background: linear-gradient(to right, white, green);
                 color: white;
                 padding: 10px 20px;
                 border-radius: 10px;
