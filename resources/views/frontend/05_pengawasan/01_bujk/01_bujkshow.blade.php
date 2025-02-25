@@ -2,7 +2,18 @@
     /* Import font Poppins */
     @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 
-/* Overall table styling */
+
+    .fl-table th {
+    padding: 10px;
+    text-align: center;
+}
+
+.fl-table i {
+    font-size: 20px; /* Adjust icon size */
+    margin-right: 8px; /* Add space between icon and text */
+}
+
+
 .fl-table {
     width: 100%;
     border-collapse: collapse;
@@ -38,10 +49,16 @@
     background-color: #ffffff; /* White for odd rows */
 }
 
-/* Icon size and
+/* Icon size and margin */
+.fl-table i {
+    font-size: 18px; /* Adjust icon size */
+    margin-right: 8px; /* Space between icon and text */
+}
 
-
-
+/* Optional: Styling for the table on hover */
+.fl-table tr:hover {
+    background-color: #c8e6c9; /* Slightly darker green on hover */
+}
 
 
             .badgekembali {
