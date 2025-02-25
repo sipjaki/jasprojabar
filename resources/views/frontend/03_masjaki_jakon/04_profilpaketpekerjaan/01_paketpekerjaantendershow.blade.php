@@ -88,6 +88,7 @@ color: #45a049;
 
 
 .badgekembali {
+    text-align: right;
     position: relative;
     right: 20px; /* Jarak dari sisi kanan container */
     bottom: 20px; /* Jarak dari bagian bawah container */
@@ -410,13 +411,14 @@ color: #45a049;
                                                 </div><!-- row row-gutter-10 -->
 
 
-                                            <div style="display: flex; align-items: center;">
+                                            <div style="display: flex; align-items: right;">
                                                 <a href="/datajakon/paketpekerjaantender" style="background: white;">
                                                     <button class="badgekembali" style="border: none; font-size: 12px; cursor: pointer; margin-right: 10px;">
                                                         <i class="fas fa-arrow-circle-left mr-2" style="margin-right: 15px;"></i> KEMBALI
                                                     </button>
                                                 </a>
                                             </div>
+
                                             </form><!-- contact-form -->
 
 
