@@ -256,6 +256,7 @@ color: #45a049;
         </tr>
 
         <tr>
+            <th></th>
             <th>Kesesuaian Kegiatan Konstruksi</th>
         </tr>
 
