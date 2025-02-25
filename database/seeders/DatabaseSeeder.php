@@ -83,6 +83,7 @@ use App\Models\prosespaket;
 use App\Models\prosespaketnontender;
 use App\Models\prosespaketkonsultasi;
 use App\Models\prosespaketkonsultasinontender;
+use App\Models\pengawasanbujk;
 
 // use App\Models\paketpekerjaan;
 use Database\Factories\SkktenagakerjaFactory;
@@ -6175,6 +6176,36 @@ prosespaketkonsultasinontender::create([
 ]);
 
 // fort
+
+//======================== ===================================================================================
+// PENGAWASAN BUJK MAS JAKI BLORA
+pengawasanbujk::create([
+      'kodeproyek' => '202011-0312-2806-8464-555',
+            'namaperusahaan' => 'AGUSTINUS SETYAWAN',
+            'alamatperusahaan' => 'JL MR ISKANDAR 70',
+            'statusmodal' => 'Penanaman Modal Dalam Negeri (PMDN)',
+            'jenisperusahaan' => 'Perorangan',
+            'nib' => '9120001950836',
+            'kbli' => '23953(KBLI 2017)',
+            'uraiankbli' => 'INDUSTRI BARANG DARI SEMEN DAN KAPUR UNTUK KONSTRUKSI',
+            'sektor' => ' Perindustrian',
+            'alamatproyek' => 'Jl. Kamolan ',
+            'wilayah' => 'Kab. Blora',
+            'luastanah' => 1300.25,  // Menggunakan tipe data decimal
+            'tki_lakilaki' => 2,    // Jumlah TKI laki-laki
+            'tki_perempuan' => 33,   // Jumlah TKI perempuan
+            'tka_lakilaki' => 0,    // Jumlah TKA laki-laki
+            'tka_perempuan' => 0,    // Jumlah TKA perempuan
+            'resiko' => 'Tinggi',
+            'sumberdata' => 'OSS Migrasi1.1',
+            'investasi' => 50000000.00,  // Nilai investasi
+            'skalausahaperusahaan' => 'Kecil',
+            'skalausahaproyek' => 'Menengah',
+            'kewenangankoordinator' => 'DPMPTSP Kab. Blora',
+            'kewenanganpengawas' => 'OPD Pengawas Kab. Blora (Sektor Perindustrian)',
+            'PSN' => 'Tidak',
+
+]);
 
 //======================== ===================================================================================
 // SKK TENAGA KERJA MAS JAKI BLORA
