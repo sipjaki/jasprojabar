@@ -431,7 +431,7 @@ color: #45a049;
                             </div><!-- container -->
                         </section><!-- donate-section -->
 
-                        <section class="history-section" style="margin-top: -200px;">
+                        <section class="history-section" style="margin-top: -150px;">
                             <div class="container">
                                 <div class="section-box text-center">
                                     <h2 style="font-size: 22px;" class="section-title">Paket : {{$data->namapekerjaan }}</h2>
