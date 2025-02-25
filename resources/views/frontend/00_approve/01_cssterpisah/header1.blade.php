@@ -23,9 +23,10 @@
                             color: green;
                             padding: 5px;
                             overflow: hidden;
-                            font-size:18px;
+                            font-size:25px;
                             white-space: nowrap;
                             display: inline-block;
+                            animation: scrolling-text 5s linear infinite;
                             width: 100%;">
 
                             <marquee behavior="scroll" direction="left">
