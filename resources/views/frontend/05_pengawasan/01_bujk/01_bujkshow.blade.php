@@ -1,90 +1,32 @@
 <style>
     /* Import font Poppins */
     @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
-
-/* Wrapper untuk tabel */
-.table-wrapper {
-overflow-x: auto;
-max-width: 100%;
-padding: 10px;
+    .fl-table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
 }
 
-/* Style dasar tabel */
-.fl-table {
-width: 100%;
-border-collapse: collapse;
-font-family: 'Poppins', sans-serif; /* Font modern pemerintah */
-font-size: 14px;
-background: #fff; /* Tetap netral */
-box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-border-radius: 8px;
-overflow: hidden;
+.fl-table th, .fl-table td {
+    padding: 10px;
+    text-align: center;
 }
 
-/* Header styling */
-.fl-table thead {
-background: #ffae00;
-text-transform: uppercase;
-font-weight: 600;
-letter-spacing: 0.5px;
-color: black;
-}
-
-.fl-table th,
-.fl-table td {
-padding: 12px 15px;
-text-align: left;
-border-bottom: 1px solid #ddd;
-}
-
-/* Hover effect */
-.fl-table tbody tr:hover {
-background: rgba(0, 0, 0, 0.05);
-}
-
-/* Responsive styling */
-@media (max-width: 768px) {
-.fl-table thead {
-display: none; /* Sembunyikan header di tampilan kecil */
-}
-
-.fl-table tr {
-display: block;
-margin-bottom: 10px;
-border: 1px solid #ddd;
-border-radius: 5px;
-overflow: hidden;
+.fl-table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
 }
 
 .fl-table td {
-display: block;
-text-align: right;
-font-size: 14px;
-border-bottom: 1px solid #eee;
-position: relative;
-padding-left: 50%;
+    background-color: #fff;
 }
 
-.fl-table td::before {
-content: attr(data-label);
-position: absolute;
-left: 10px;
-width: 45%;
-font-weight: 600;
-text-align: left;
-}
+.fl-table td[colspan="12"], .fl-table th[colspan="12"] {
+    width: 100%;
 }
 
-/* Style untuk ikon view */
-.view-icon {
-color: #4CAF50;
-cursor: pointer;
-font-size: 18px;
-}
 
-.view-icon:hover {
-color: #45a049;
-}
+
 
 
             .badgekembali {
@@ -275,24 +217,25 @@ color: #45a049;
 
                     <body>
                     <div class="table-wrapper">
-                    <table class="fl-table">
-                        <thead>
-                            <tr>
-                                {{-- <th style="text-align:center" >No</th> --}}
-                                <th style="text-align:center" style="color: black" >No</th>
-                                <td>1</td>
-                            </tr>
-                            <tr>
-                                <th style="text-align:center" style="color: black">Nama Pengurus</th>
-                                <td>{{$data->namaperusahaan}}</td>
-                            </tr>
-                            <tr>
-                                <th style="text-align:center" style="color: black">Nama Pengurus</th>
-                                <td>{{$data->namaperusahaan}}</td>
 
-                            </tr>
-                        </thead>
-                    </table>
+                    <table class="fl-table" style="width: 100%; border-collapse: collapse;">
+    <thead>
+        <tr>
+            <th colspan="12" style="text-align:center; color: black;">No</th>
+            <td colspan="12" style="text-align:center;">1</td>
+        </tr>
+        <tr>
+            <th colspan="12" style="text-align:center; color: black;">Nama Pengurus</th>
+            <td colspan="12" style="text-align:center;">{{$data->namaperusahaan}}</td>
+        </tr>
+        <tr>
+            <th colspan="12" style="text-align:center; color: black;">Nama Pengurus</th>
+            <td colspan="12" style="text-align:center;">{{$data->namaperusahaan}}</td>
+        </tr>
+    </thead>
+</table>
+
+
                     </div>
                                                 </div><!-- document-details-list -->
 
