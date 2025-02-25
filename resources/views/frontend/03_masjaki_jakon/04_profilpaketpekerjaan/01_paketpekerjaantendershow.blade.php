@@ -196,52 +196,164 @@ color: #45a049;
                                             <div class="progress-cards">
                                                 <!-- Card 1 -->
                                                 <div class="progress-card">
-                                                    <div class="progress-step completed">
-                                                        <div class="circle">1</div>
+                                                    <div class="progress-step
+                                                        @if($data->prosespaket->persiapan == 'SELESAI')
+                                                            completed
+                                                        @elseif($data->prosespaket->persiapan == 'PROSES')
+                                                            in-progress
+                                                        @elseif($data->prosespaket->persiapan == 'BELUM DI MULAI')
+                                                            not-started
+                                                        @elseif($data->prosespaket->persiapan == 'PAKET DI BATALKAN')
+                                                            cancelled
+                                                        @endif
+                                                    ">
+                                                        <div class="circle">
+                                                            1
+                                                        </div>
                                                         <p class="step-title">Persiapan</p>
                                                         <p class="step-status">{{$data->prosespaket->persiapan}}</p>
                                                     </div>
-                                                    <div class="line completed"></div>
+                                                    <div class="line
+                                                        @if($data->prosespaket->persiapan == 'SELESAI')
+                                                            completed
+                                                        @elseif($data->prosespaket->persiapan == 'PROSES')
+                                                            in-progress
+                                                        @elseif($data->prosespaket->persiapan == 'BELUM DI MULAI')
+                                                            not-started
+                                                        @elseif($data->prosespaket->persiapan == 'PAKET DI BATALKAN')
+                                                            cancelled
+                                                        @endif
+                                                    "></div>
                                                 </div>
 
                                                 <!-- Card 2 -->
                                                 <div class="progress-card">
-                                                    <div class="progress-step completed">
-                                                        <div class="circle">2</div>
-                                                        <p class="step-title">Tahap 2</p>
-                                                        <p class="step-status">Selesai</p>
+                                                    <div class="progress-step
+                                                        @if($data->prosespaket->pengadaan == 'SELESAI')
+                                                            completed
+                                                        @elseif($data->prosespaket->pengadaan == 'PROSES')
+                                                            in-progress
+                                                        @elseif($data->prosespaket->pengadaan == 'BELUM DI MULAI')
+                                                            not-started
+                                                        @elseif($data->prosespaket->pengadaan == 'PAKET DI BATALKAN')
+                                                            cancelled
+                                                        @endif
+                                                    ">
+                                                        <div class="circle">
+                                                            2
+                                                        </div>
+                                                        <p class="step-title">Pengadaan</p>
+                                                        <p class="step-status">{{$data->prosespaket->pengadaan}}</p>
                                                     </div>
-                                                    <div class="line completed"></div>
+                                                    <div class="line
+                                                        @if($data->prosespaket->pengadaan == 'SELESAI')
+                                                            completed
+                                                        @elseif($data->prosespaket->pengadaan == 'PROSES')
+                                                            in-progress
+                                                        @elseif($data->prosespaket->pengadaan == 'BELUM DI MULAI')
+                                                            not-started
+                                                        @elseif($data->prosespaket->pengadaan == 'PAKET DI BATALKAN')
+                                                            cancelled
+                                                        @endif
+                                                    "></div>
                                                 </div>
 
                                                 <!-- Card 3 -->
                                                 <div class="progress-card">
-                                                    <div class="progress-step in-progress">
-                                                        <div class="circle">3</div>
-                                                        <p class="step-title">Tahap 3</p>
-                                                        <p class="step-status">Sedang Proses</p>
+                                                    <div class="progress-step
+                                                        @if($data->prosespaket->pelaksanaan == 'SELESAI')
+                                                            completed
+                                                        @elseif($data->prosespaket->pelaksanaan == 'PROSES')
+                                                            in-progress
+                                                        @elseif($data->prosespaket->pelaksanaan == 'BELUM DI MULAI')
+                                                            not-started
+                                                        @elseif($data->prosespaket->pelaksanaan == 'PAKET DI BATALKAN')
+                                                            cancelled
+                                                        @endif
+                                                    ">
+                                                        <div class="circle">
+                                                            3
+                                                        </div>
+                                                        <p class="step-title">Pelaksanaan</p>
+                                                        <p class="step-status">{{$data->prosespaket->pelaksanaan}}</p>
                                                     </div>
-                                                    <div class="line in-progress"></div>
+                                                    <div class="line
+                                                        @if($data->prosespaket->pelaksanaan == 'SELESAI')
+                                                            completed
+                                                        @elseif($data->prosespaket->pelaksanaan == 'PROSES')
+                                                            in-progress
+                                                        @elseif($data->prosespaket->pelaksanaan == 'BELUM DI MULAI')
+                                                            not-started
+                                                        @elseif($data->prosespaket->pelaksanaan == 'PAKET DI BATALKAN')
+                                                            cancelled
+                                                        @endif
+                                                    "></div>
                                                 </div>
 
                                                 <!-- Card 4 -->
                                                 <div class="progress-card">
-                                                    <div class="progress-step">
-                                                        <div class="circle">4</div>
-                                                        <p class="step-title">Tahap 4</p>
-                                                        <p class="step-status">Belum Dimulai</p>
+                                                    <div class="progress-step
+                                                        @if($data->prosespaket->pemeliharaan == 'SELESAI')
+                                                            completed
+                                                        @elseif($data->prosespaket->pemeliharaan == 'PROSES')
+                                                            in-progress
+                                                        @elseif($data->prosespaket->pemeliharaan == 'BELUM DI MULAI')
+                                                            not-started
+                                                        @elseif($data->prosespaket->pemeliharaan == 'PAKET DI BATALKAN')
+                                                            cancelled
+                                                        @endif
+                                                    ">
+                                                        <div class="circle">
+                                                            4
+                                                        </div>
+                                                        <p class="step-title">Persiapan</p>
+                                                        <p class="step-status">{{$data->prosespaket->pemeliharaan}}</p>
                                                     </div>
-                                                    <div class="line"></div>
+                                                    <div class="line
+                                                        @if($data->prosespaket->pemeliharaan == 'SELESAI')
+                                                            completed
+                                                        @elseif($data->prosespaket->pemeliharaan == 'PROSES')
+                                                            in-progress
+                                                        @elseif($data->prosespaket->pemeliharaan == 'BELUM DI MULAI')
+                                                            not-started
+                                                        @elseif($data->prosespaket->pemeliharaan == 'PAKET DI BATALKAN')
+                                                            cancelled
+                                                        @endif
+                                                    "></div>
                                                 </div>
 
                                                 <!-- Card 5 -->
                                                 <div class="progress-card">
-                                                    <div class="progress-step">
-                                                        <div class="circle">5</div>
-                                                        <p class="step-title">Tahap 5</p>
-                                                        <p class="step-status">Belum Dimulai</p>
+                                                    <div class="progress-step
+                                                        @if($data->prosespaket->paketselesai == 'SELESAI')
+                                                            completed
+                                                        @elseif($data->prosespaket->paketselesai == 'PROSES')
+                                                            in-progress
+                                                        @elseif($data->prosespaket->paketselesai == 'BELUM DI MULAI')
+                                                            not-started
+                                                        @elseif($data->prosespaket->paketselesai == 'PAKET DI BATALKAN')
+                                                            cancelled
+                                                        @endif
+                                                    ">
+                                                        <div class="circle">
+                                                            5
+                                                        </div>
+                                                        <p class="step-title">Paket Selesai</p>
+                                                        <p class="step-status">{{$data->prosespaket->paketselesai}}</p>
                                                     </div>
+                                                    <div class="line
+                                                        @if($data->prosespaket->paketselesai == 'SELESAI')
+                                                            completed
+                                                        @elseif($data->prosespaket->paketselesai == 'PROSES')
+                                                            in-progress
+                                                        @elseif($data->prosespaket->paketselesai == 'BELUM DI MULAI')
+                                                            not-started
+                                                        @elseif($data->prosespaket->paketselesai == 'PAKET DI BATALKAN')
+                                                            cancelled
+                                                        @endif
+                                                    "></div>
                                                 </div>
+
                                             </div>
 
                                             <form action="#" class="contact-form donation" method="post">
@@ -542,6 +654,40 @@ color: #45a049;
         opacity: 1;
     }
 }
+
+/* Warna untuk status yang berbeda */
+.progress-step.completed .circle {
+    background-color: green;
+}
+
+.progress-step.in-progress .circle {
+    background-color: yellow;
+}
+
+.progress-step.not-started .circle {
+    background-color: #e0e0e0; /* Abu-abu */
+}
+
+.progress-step.cancelled .circle {
+    background-color: red;
+}
+
+.line.completed {
+    background-color: green;
+}
+
+.line.in-progress {
+    background-color: yellow;
+}
+
+.line.not-started {
+    background-color: #e0e0e0; /* Abu-abu */
+}
+
+.line.cancelled {
+    background-color: red;
+}
+
 
 </style>
 
