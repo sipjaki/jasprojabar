@@ -52,6 +52,27 @@
 								<span>Senin - Jum`at 09.00 - 15.30</span>
 							</div><!-- topbar-text -->
 						</li><!-- li -->
+						<li>
+
+    <script>
+        function updateClock() {
+            const now = new Date();
+            const hours = now.getHours().toString().padStart(2, '0');
+            const minutes = now.getMinutes().toString().padStart(2, '0');
+            const seconds = now.getSeconds().toString().padStart(2, '0');
+            const day = now.getDate().toString().padStart(2, '0');
+            const month = (now.getMonth() + 1).toString().padStart(2, '0'); // Months are zero-based
+            const year = now.getFullYear();
+
+            const timeString = `${hours}:${minutes}:${seconds}`;
+            const dateString = `${day}/${month}/${year}`;
+            document.getElementById('jam').textContent = `${dateString} ${timeString}`;
+        }
+
+        setInterval(updateClock, 1000); // Update every second
+        updateClock(); // Initial call to set the time immediately
+    </script>
+						</li><!-- li -->
 
 					</ul><!-- ul -->
 				</div><!--topbar-info-->
