@@ -304,7 +304,7 @@ color: #45a049;
                 Kode Proyek
             </th>
             <th colspan="1" style="text-align:center; color: black; background-color: white; width:25px;">:</th>
-            <td colspan="12" style="text-align:left; background-color: black; padding-left: 10px; color: white; width:1000px;">
+            <td colspan="12" style="text-align:left; background-color: white; padding-left: 10px; color: white; width:1000px;">
                 {{$data->kodeproyek}}
             </td>
         </tr>
