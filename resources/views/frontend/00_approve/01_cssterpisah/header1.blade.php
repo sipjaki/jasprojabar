@@ -38,15 +38,6 @@
                                 .topbar-text {
                                   animation: scrolling-text 5s linear infinite; /* Durasi animasi diubah ke 5 detik */
                                 }
-
-                                @keyframes scrolling-text {
-                                  0% {
-                                    transform: translateX(100%);
-                                  }
-                                  100% {
-                                    transform: translateX(-100%);
-                                  }
-                                }
                               </style>
 
                             </div>
