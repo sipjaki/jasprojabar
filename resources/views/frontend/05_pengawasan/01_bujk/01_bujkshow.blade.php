@@ -275,25 +275,23 @@ color: #45a049;
 
                     <body>
                     <div class="table-wrapper">
+                        <table class="fl-table" style="width: 100%; border-collapse: collapse;">
+                            <thead>
+                                <tr>
+                                    <th colspan="12" style="text-align:center; color: black;">No</th>
+                                    <td colspan="12" style="text-align:center;">1</td>
+                                </tr>
+                                <tr>
+                                    <th colspan="12" style="text-align:center; color: black;">Nama Pengurus</th>
+                                    <td colspan="12" style="text-align:center;">{{$data->namaperusahaan}}</td>
+                                </tr>
+                                <tr>
+                                    <th colspan="12" style="text-align:center; color: black;">Nama Pengurus</th>
+                                    <td colspan="12" style="text-align:center;">{{$data->namaperusahaan}}</td>
+                                </tr>
+                            </thead>
+                        </table>
 
-                    <table class="fl-table">
-                        <thead>
-                            <tr>
-                                {{-- <th style="text-align:center" >No</th> --}}
-                                <th style="text-align:center" style="color: black" >No</th>
-                                <td>1</td>
-                            </tr>
-                            <tr>
-                                <th style="text-align:center" style="color: black">Nama Pengurus</th>
-                                <td>{{$data->namaperusahaan}}</td>
-                            </tr>
-                            <tr>
-                                <th style="text-align:center" style="color: black">Nama Pengurus</th>
-                                <td>{{$data->namaperusahaan}}</td>
-
-                            </tr>
-                        </thead>
-                    </table>
                     </div>
                                                 </div><!-- document-details-list -->
 
