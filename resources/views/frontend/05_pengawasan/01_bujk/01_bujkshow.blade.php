@@ -162,12 +162,10 @@ color: #45a049;
 
 
 	<section class="department-details-section" style="margin-top: -200px;">
-		<div class="container">
+		<div class="container" style="margin-top: -100px;">
 			<div class="row">
                 {{-- ------------------------------------------------------------------------------------------ --}}
                 <div class="col-lg-12">
-
-
                         <div class="document-details">
 							<div class="document-details-list">
                                 <div class="centered-button" style="margin-top: -15px">
