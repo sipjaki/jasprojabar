@@ -355,6 +355,15 @@ color: #45a049;
 
                                             </div>
 
+                                            <div style="display: flex; align-items: center;">
+                                                <a href="/datajakon/paketpekerjaantender" style="background: white;">
+                                                    <button class="badgekembali" style="border: none; font-size: 12px; cursor: pointer; margin-right: 10px;">
+                                                        <i class="fas fa-arrow-circle-left mr-2" style="margin-right: 15px;"></i> KEMBALI
+                                                    </button>
+                                                </a>
+                                            </div>
+
+
                                             <form action="#" class="contact-form donation" method="post">
                                                 <div class="row row-gutter-10">
                                                     <div class="col-lg-4">
@@ -407,13 +416,6 @@ color: #45a049;
                                                         <input type="text" id="fname" class="input-text" placeholder="{{$data->dinas}}" name="fname" aria-required="true" readonly>
                                                     </div><!-- col-lg-6 -->
 
-                                                    <div style="display: flex; align-items: center;">
-                                                        <a href="/datajakon/paketpekerjaantender" style="background: white;">
-                                                            <button class="badgekembali" style="border: none; font-size: 12px; cursor: pointer; margin-right: 10px;">
-                                                                <i class="fas fa-arrow-circle-left mr-2" style="margin-right: 15px;"></i> KEMBALI
-                                                            </button>
-                                                        </a>
-                                                    </div>
 
                                                                                 </div><!-- row row-gutter-10 -->
                                             </form><!-- contact-form -->
