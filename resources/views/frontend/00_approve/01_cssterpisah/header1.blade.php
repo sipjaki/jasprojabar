@@ -5,11 +5,11 @@
 		<div class="topbar-inner">
 			<div class="topbar-left">
 				<div class="topbar-socials">
-                    <a href="#"><i class="fa-brands fa-tiktok" style="font-size: 18px;"></i></a>
-                    <a href="#"><i class="fa-solid fa-envelope" style="font-size: 18px;"></i></a>
-                    <a href="#"><i class="fa-brands fa-instagram" style="font-size: 18px;"></i></a>
-                    <a href="#"><i class="fa-brands fa-whatsapp" style="font-size: 18px;"></i></a>
-                    <a href="#"><i class="fa-brands fa-facebook" style="font-size: 18px;"></i></a>
+                    <a href="#"><i class="fa-brands fa-tiktok" style="font-size: 22px;"></i></a>
+                    <a href="#"><i class="fa-solid fa-envelope" style="font-size: 22px;"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram" style="font-size: 22px;"></i></a>
+                    {{-- <a href="#"><i class="fa-brands fa-whatsapp" style="font-size: 18px;"></i></a> --}}
+                    <a href="#"><i class="fa-brands fa-facebook" style="font-size: 22px;"></i></a>
 				</div><!--topbar-socials-->
 				<div class="topbar-info">
 					<ul>
@@ -110,8 +110,8 @@
 		<div class="main-menu-inner">
 			<div class="main-menu-left">
 				<div class="main-menu-logo">
-					<a href="index.html"><img src="/assets/icon/logokabupatenblora.png" alt="img-145" width="45" style="margin-right: 10px;" loading="lazy"></a>
-					<a href="index.html"><img src="/assets/icon/pupr.png" alt="img-145" width="45" loading="lazy"></a>
+					<a href="index.html"><img src="/assets/icon/logokabupatenblora.png" alt="img-145" width="65" style="margin-right: 10px;" loading="lazy"></a>
+					<a href="index.html"><img src="/assets/icon/pupr.png" alt="img-145" width="65" loading="lazy"></a>
 				</div><!--main-menu-logo-->
 				<div class="navigation">
 					<ul class="main-menu-list list-unstyled">
