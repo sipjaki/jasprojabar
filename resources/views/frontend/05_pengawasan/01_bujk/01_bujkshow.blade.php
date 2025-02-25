@@ -25,15 +25,6 @@
     width: 100%;
 }
 
-.fl-table th {
-    padding: 10px;
-    text-align: center;
-}
-
-.fl-table i {
-    font-size: 20px; /* Adjust icon size */
-    margin-right: 8px; /* Add space between icon and text */
-}
 
 
 
