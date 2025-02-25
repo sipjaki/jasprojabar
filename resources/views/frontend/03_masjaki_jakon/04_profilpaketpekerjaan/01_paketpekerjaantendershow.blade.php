@@ -175,12 +175,6 @@ color: #45a049;
                                                     <p style="text-align: left">Dinas Pekerjaan Umum Dan Penataan Ruang Kabupaten Blora</p>
                                                     <!-- Tombol dan kolom pencarian di kanan -->
 
-                                                        <a href="/datajakon/paketpekerjaantender" style="background: white;">
-                                                            <button class="badgekembali" style="border: none; font-size: 12px; cursor: pointer; margin-right: 10px;">
-                                                                <i class="fas fa-arrow-circle-left mr-2" style="margin-right: 15px;"></i> KEMBALI
-                                                            </button>
-                                                        </a>
-
                                                 </div>
 
                                                 </ul>
@@ -414,6 +408,14 @@ color: #45a049;
 
                                                                                 </div><!-- row row-gutter-10 -->
                                             </form><!-- contact-form -->
+
+
+                                            <a href="/datajakon/paketpekerjaantender" style="background: white;">
+                                                <button class="badgekembali" style="border: none; font-size: 12px; cursor: pointer; margin-right: 10px;">
+                                                    <i class="fas fa-arrow-circle-left mr-2" style="margin-right: 15px;"></i> KEMBALI
+                                                </button>
+                                            </a>
+
                                         </div><!-- donate-box-inner -->
                                     </div><!-- col-xl-8 col-lg-12 -->
 
