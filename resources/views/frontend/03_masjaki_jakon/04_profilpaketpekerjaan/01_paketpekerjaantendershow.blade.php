@@ -109,7 +109,7 @@ color: #45a049;
             }
 
             .green-button {
-                background: linear-gradient(to right, green, green);
+                background: linear-gradient(to right, green, green, orange);
                 color: white;
                 padding: 10px 20px;
                 border-radius: 10px;
@@ -187,7 +187,7 @@ color: #45a049;
 
 
                                                 <button class="green-button" style="margin-bottom:10px; text-transform:uppercase">
-                                                    <i class="fas fa-file mr-2" style="margin-right:5px;"></i> INFORMASI {{$title}} : {{$data->namapekerjaan}}
+                                                    <i class="fas fa-file mr-2" style="margin-right:5px;"></i> INFORMASI {{$title}} : <span style="color: black"> {{$data->namapekerjaan}} </span>
                                                 </button>
 
 
