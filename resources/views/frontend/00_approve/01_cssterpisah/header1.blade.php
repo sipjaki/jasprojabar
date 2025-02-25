@@ -36,7 +36,7 @@
 
                             <style>
                                 .topbar-text {
-                                  animation: scrolling-text 5s linear infinite; /* Durasi animasi diubah ke 5 detik */
+                                  animation: scrolling-text 50s linear infinite; /* Durasi animasi diubah ke 5 detik */
                                 }
                               </style>
 
