@@ -206,6 +206,14 @@ color: #45a049;
                                     <th style="text-align:center" >TKI Perampuan </th>
                                     <th style="text-align:center" >TKA Laki Laki </th>
                                     <th style="text-align:center" >TKA Perempuan </th>
+                                    <th style="text-align:center" >Resiko </th>
+                                    <th style="text-align:center" >Sumber Data </th>
+                                    <th style="text-align:center" >Nilai Investasi </th>
+                                    <th style="text-align:center" >Skala Perusahaan </th>
+                                    <th style="text-align:center" >Skala Proyek </th>
+                                    <th style="text-align:center" >Kewenangan </th>
+                                    <th style="text-align:center" >Pengawas </th>
+                                    <th style="text-align:center" >PSN </th>
                                     <th style="text-align:center" >View</th>
                                 </tr>
                             </thead>
