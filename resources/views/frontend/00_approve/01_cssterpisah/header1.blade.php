@@ -29,7 +29,7 @@
                             width: 100%;">
 
                             <marquee behavior="scroll" direction="left">
-                                <p  style="color: black; text-decoration: none; font-size:20px;">
+                                <p  style="color: black; text-decoration: none; font-size:14px; font-weight:bold;">
                                 Selamat Datana di Mas Jaki DPUPR Kab Blora Sistem Informasi Pembina Jasa Konstruksi Dinas Pekerjaan Umum dan Penataan Ruang Kabupaten Blora Provinsi Jawa Tengah
                                 </p>
                             </marquee>
