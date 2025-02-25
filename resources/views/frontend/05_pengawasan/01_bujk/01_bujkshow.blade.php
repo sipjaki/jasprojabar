@@ -491,6 +491,51 @@ color: #45a049;
     </thead>
 </table>
 
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+
+<script>
+    function copyToClipboard(text) {
+        var textarea = document.createElement('textarea');
+        textarea.value = text;
+        document.body.appendChild(textarea);
+        textarea.select();
+        document.execCommand('copy');
+        document.body.removeChild(textarea);
+        alert('Teks telah disalin ke clipboard!');
+    }
+
+    function updateDateTime() {
+        const now = new Date();
+        const tahun = now.getFullYear();
+        const bulan = now.getMonth() + 1;
+        const tanggal = now.getDate();
+        const jam = now.getHours();
+        const menit = now.getMinutes();
+        const detik = now.getSeconds();
+        const formattedDateTime = `${tanggal}/${bulan}/${tahun} ${jam}:${menit}:${detik}`;
+        document.getElementById('dateTime').textContent = formattedDateTime;
+    }
+
+    updateDateTime();
+    setInterval(updateDateTime, 1000);
+
+    // Add event listener to download as PDF
+    document.getElementById('downloadBtn').addEventListener('click', function () {
+        html2canvas(document.getElementById('datakeluar')).then(function (canvas) {
+            const imgData = canvas.toDataURL('image/png');
+            const { jsPDF } = window.jspdf;
+            const doc = new jsPDF('p', 'mm', 'a4');
+
+            // Set the image at the top-left corner of the PDF
+            doc.addImage(imgData, 'PNG', 10, 10, 190, 270); // Adjust width and height as needed
+            doc.save('data.pdf'); // Save the file as 'data.pdf'
+        });
+    });
+</script>
+
+
 <div class="container-fluid" style="justify-content: right; margin-top:20px;">
 
     <a href="/pengawasanbujk" style="background: white;">
@@ -542,46 +587,3 @@ color: #45a049;
 
                     @include('frontend.00_approve.01_cssterpisah.footer1')
                     @include('frontend.00_approve.01_cssterpisah.footer')
-
-                    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
-                    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
-
-                    <script>
-                        function copyToClipboard(text) {
-                            var textarea = document.createElement('textarea');
-                            textarea.value = text;
-                            document.body.appendChild(textarea);
-                            textarea.select();
-                            document.execCommand('copy');
-                            document.body.removeChild(textarea);
-                            alert('Teks telah disalin ke clipboard!');
-                        }
-
-                        function updateDateTime() {
-                            const now = new Date();
-                            const tahun = now.getFullYear();
-                            const bulan = now.getMonth() + 1;
-                            const tanggal = now.getDate();
-                            const jam = now.getHours();
-                            const menit = now.getMinutes();
-                            const detik = now.getSeconds();
-                            const formattedDateTime = `${tanggal}/${bulan}/${tahun} ${jam}:${menit}:${detik}`;
-                            document.getElementById('dateTime').textContent = formattedDateTime;
-                        }
-
-                        updateDateTime();
-                        setInterval(updateDateTime, 1000);
-
-                        // Add event listener to download as PDF
-                        document.getElementById('downloadBtn').addEventListener('click', function () {
-                            html2canvas(document.getElementById('datakeluar')).then(function (canvas) {
-                                const imgData = canvas.toDataURL('image/png');
-                                const { jsPDF } = window.jspdf;
-                                const doc = new jsPDF('p', 'mm', 'a4');
-
-                                // Set the image at the top-left corner of the PDF
-                                doc.addImage(imgData, 'PNG', 10, 10, 190, 270); // Adjust width and height as needed
-                                doc.save('data.pdf'); // Save the file as 'data.pdf'
-                            });
-                        });
-                    </script>
