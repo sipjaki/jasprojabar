@@ -198,8 +198,8 @@ color: #45a049;
                                                 <div class="progress-card">
                                                     <div class="progress-step completed">
                                                         <div class="circle">1</div>
-                                                        <p class="step-title">Tahap 1</p>
-                                                        <p class="step-status">Selesai</p>
+                                                        <p class="step-title">Persiapan</p>
+                                                        <p class="step-status">{{$data->prosespaket->persiapan}}</p>
                                                     </div>
                                                     <div class="line completed"></div>
                                                 </div>
