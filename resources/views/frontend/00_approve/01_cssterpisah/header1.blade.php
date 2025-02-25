@@ -52,6 +52,15 @@
 								<span>Senin - Jum`at 09.00 - 15.30</span>
 							</div><!-- topbar-text -->
 						</li><!-- li -->
+                        <li>
+                            <div class="topbar-icon">
+                                <i class="fa-solid fa-clock"></i>
+                            </div><!-- topbar-icon -->
+                            <div class="topbar-text">
+                                <span id="real-time"></span>
+                            </div><!-- topbar-text -->
+                        </li><!-- li -->
+
 					</ul><!-- ul -->
 				</div><!--topbar-info-->
 			</div><!-- topbar-left -->
@@ -182,3 +191,36 @@
 		</div><!--main-menu-inner-->
 	</div><!--main-menu-->
 </header><!--header-->
+
+
+<script>
+    <div class="topbar-text" style="margin-right: 20px;
+  border-radius: 20px;
+  background-color: white;
+  color: green;
+  padding: 10px;
+  overflow: hidden;
+  white-space: nowrap;
+  display: inline-block;
+  width: 100%;">
+  <a href="/404" style="color: green; text-decoration: none;">
+    Sistem Informasi Pembina Jasa Konstruksi Dinas Pekerjaan Umum dan Penataan Ruang Kabupaten Blora Provinsi Jawa Tengah
+  </a>
+</div>
+
+<style>
+  .topbar-text {
+    animation: scrolling-text 5s linear infinite; /* Durasi animasi diubah ke 5 detik */
+  }
+
+  @keyframes scrolling-text {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+</style>
+
+</script>
