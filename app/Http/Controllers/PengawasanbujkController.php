@@ -44,7 +44,7 @@ class PengawasanbujkController extends Controller
     // Ambil data user saat ini
     $user = Auth::user();
 
-    return view('frontend.05_pengawasan.01_bujk.show', [
+    return view('frontend.05_pengawasan.01_bujk.01_bujkshow', [
         'title' => 'Pengawasan BUJK ',
         'data' => $datashow,
         'user' => $user,
