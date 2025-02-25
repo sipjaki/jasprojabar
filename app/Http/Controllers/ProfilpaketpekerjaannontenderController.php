@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 
 use App\Models\profilpaketpekerjaannontender;
-
+use App\Models\prosespaketnontender;
 use Illuminate\Http\Request;
 
 use Illuminate\Support\Facades\Auth;
@@ -18,17 +18,21 @@ class ProfilpaketpekerjaannontenderController extends Controller
     {
         $user = Auth::user();
         $data = profilpaketpekerjaannontender::paginate(15);
+        $datasub = prosespaketnontender::paginate(15);
+
 
         return view('frontend.03_masjaki_jakon.04_profilpaketpekerjaan.02_paketpekerjaannontender', [
             'title' => 'Profil Paket Pekerjaan Konstruksi & Konsultasi Kabupaten Blora',
             'user' => $user, // Mengirimkan data paginasi ke view
             'data' => $data, // Mengirimkan data paginasi ke view
+            'datasub' => $datasub, // Mengirimkan data paginasi ke view
         ]);
     }
 
     public function paketpekerjaannontendershow($jenispekerjaan)
     {
         $data = profilpaketpekerjaannontender::where('jenispekerjaan', $jenispekerjaan)->first();
+        $datasub = prosespaketnontender::all();
 
         // if (!$databujkkontraktor) {
         //     // Tangani jika kegiatan tidak ditemukan
@@ -48,6 +52,8 @@ class ProfilpaketpekerjaannontenderController extends Controller
     return view('frontend.03_masjaki_jakon.04_profilpaketpekerjaan.02_paketpekerjaannontendershow', [
         'title' => 'Profil Paket Pekerjaan Konstruksi & Konsultasi Kabupaten Blora',
         'data' => $data,
+        'datasub' => $datasub,
+
 
     ]);
     }
