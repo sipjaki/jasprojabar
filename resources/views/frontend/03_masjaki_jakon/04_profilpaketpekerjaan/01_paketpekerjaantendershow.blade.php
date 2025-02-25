@@ -395,6 +395,137 @@ color: #45a049;
                 </div><!--service-two-card-->
             </div><!--col-12 col-lg-4 col-xl-4-->
 
+            <div class="progress-cards">
+                <!-- Card 1 -->
+                <div class="progress-card">
+                    <div class="progress-step completed">
+                        <div class="circle">1</div>
+                        <p class="step-title">Tahap 1</p>
+                        <p class="step-status">Selesai</p>
+                    </div>
+                    <div class="line completed"></div>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="progress-card">
+                    <div class="progress-step completed">
+                        <div class="circle">2</div>
+                        <p class="step-title">Tahap 2</p>
+                        <p class="step-status">Selesai</p>
+                    </div>
+                    <div class="line completed"></div>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="progress-card">
+                    <div class="progress-step in-progress">
+                        <div class="circle">3</div>
+                        <p class="step-title">Tahap 3</p>
+                        <p class="step-status">Sedang Proses</p>
+                    </div>
+                    <div class="line"></div>
+                </div>
+
+                <!-- Card 4 -->
+                <div class="progress-card">
+                    <div class="progress-step">
+                        <div class="circle">4</div>
+                        <p class="step-title">Tahap 4</p>
+                        <p class="step-status">Belum Dimulai</p>
+                    </div>
+                    <div class="line"></div>
+                </div>
+
+                <!-- Card 5 -->
+                <div class="progress-card">
+                    <div class="progress-step">
+                        <div class="circle">5</div>
+                        <p class="step-title">Tahap 5</p>
+                        <p class="step-status">Belum Dimulai</p>
+                    </div>
+                </div>
+            </div>
+
+<style>
+    .progress-cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0;
+    flex-wrap: wrap;
+}
+
+.progress-card {
+    position: relative;
+    width: 18%;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.progress-step {
+    position: relative;
+}
+
+.circle {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #e0e0e0;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.line {
+    width: 100%;
+    height: 3px;
+    background-color: #e0e0e0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.completed .circle {
+    background-color: green;
+}
+
+.in-progress .circle {
+    background-color: orange;
+}
+
+.step-title {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.step-status {
+    margin-top: 5px;
+    font-size: 14px;
+    color: #777;
+}
+
+.completed .line {
+    background-color: green;
+}
+
+.in-progress .line {
+    background-color: orange;
+}
+
+.progress-card:last-child .line {
+    display: none;
+}
+
+</style>
+
 
         </div><!-- row -->
     </div><!-- container -->
