@@ -100,7 +100,8 @@ color: #45a049;
                 cursor: pointer;
                 transition: background-color 0.3s, color 0.3s;
                 text-transform: uppercase;
-}
+            }
+
             .badgekembali:hover {
                 background-color: white;
                 color: black;
