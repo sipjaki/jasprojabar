@@ -4,7 +4,7 @@
 	<div class="topbar">
 		<div class="topbar-inner">
 			<div class="topbar-left">
-				<div class="topbar-socials">
+				<div class="topbar-socials" style="margin-top: 20px;">
                     <a href="#"><i class="fa-brands fa-tiktok" style="font-size: 22px;"></i></a>
                     <a href="#"><i class="fa-solid fa-envelope" style="font-size: 22px;"></i></a>
                     <a href="#"><i class="fa-brands fa-instagram" style="font-size: 22px;"></i></a>
