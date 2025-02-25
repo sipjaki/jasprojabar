@@ -281,12 +281,12 @@ color: #45a049;
 <table class="fl-table" style="width: 100%; border-collapse: collapse;">
     <thead>
         <tr>
-            <th style="text-align:center; color: black; width:200px;">
+            <th style="text-align:center; color: black; width:75px;">
                 <!-- Add your icon here -->
                 <i class="fas fa-info-circle"></i>
             </th>
-            <th colspan="11" style="text-align:center; color: black;">Informasi</th>
-            <td colspan="12" style="text-align:center;">Keterangan</td>
+            <th colspan="11" style="text-align:center; color: black; width:300px;">Informasi</th>
+            <td colspan="12" style="text-align:center; width:500px;">Keterangan</td>
         </tr>
         <tr>
             <th style="text-align:center; color: black;">
