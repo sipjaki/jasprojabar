@@ -160,35 +160,6 @@ color: #45a049;
                 <div class="service-two-card">
                     <div class="service-two-imgbox" >
 
-                        <section class="donate-section">
-                            <div class="container">
-                                <div class="row row-gutter-30">
-                                    <div class="col-lg-12">
-                                                                            </div><!-- col-lg-12 -->
-                                    <div class="col-xxl-12 col-lg-12">
-                                        <div class="donate-box-inner" style="margin-top: -120px;">
-                                            <ul class="nav nav-pills" id="pills-tab" role="tablist">
-                                                {{-- <img src="/assets/icon/logopupr.png" class="img-fluid" alt="img-25" width="50" style="margin-right: 20px;" loading="lazy"> --}}
-                                                <div style="display: flex; justify-content: space-between; width: 100%; align-items: center; margin-top: 20px;">
-                                                    <img src="/assets/icon/logokabupatenblora.png" class="img-fluid" alt="img-25" width="50" height="50" style="margin-right: 20px;" loading="lazy">
-                                                    <!-- Tombol dan kolom pencarian di kanan -->
-                                                    <div style="display: flex; align-items: center;">
-
-
-                                                    </div>
-                                                </div>
-
-                                                </ul>
-
-
-                                        </div><!-- donate-box-inner -->
-                                    </div><!-- col-xl-8 col-lg-12 -->
-
-                                </div><!-- row -->
-                            </div><!-- container -->
-                        </section><!-- donate-section -->
-
-
 
 	<section class="department-details-section" style="margin-top: -200px;">
 		<div class="container">
@@ -202,7 +173,7 @@ color: #45a049;
                                 <div class="centered-button" style="margin-top: -15px">
                                     <button class="green-button" style="margin-bottom:10px; text-transform:uppercase">
                                         <img src="/assets/icon/logokabupatenblora.png" class="img-fluid" alt="img-25" width="50" height="50" style="margin-right: 20px;" loading="lazy">
-                                        <i class="fas fa-file mr-2" style="margin-right:5px;"></i> <span>{{$title}} : {{$data->kodeproyek}}</span>
+                                        <i class="fas fa-file mr-2" style="margin-right:5px;"></i> <span style="color: black;">{{$title}} : {{$data->kodeproyek}}</span>
                                     </button>
 
                                 </div>
