@@ -89,8 +89,8 @@ color: #45a049;
 
             .badgekembali {
                 position: fixed;
-                right: 20px; /* jarak dari sisi kanan */
-                top: 20px;  /* jarak dari atas */
+                /* right: 20px; jarak dari sisi kanan */
+                /* top: 20px;  jarak dari atas */
                 background: linear-gradient(to right, green, green);
                 color: white;
                 padding: 10px 20px;
