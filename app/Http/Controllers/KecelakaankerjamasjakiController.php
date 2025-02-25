@@ -36,4 +36,18 @@ class KecelakaankerjamasjakiController extends Controller
         ]);
     }
 
+    public function kecelakaankerjashow($namapaketpekerjaan)
+    {
+        $datakecelakaankerja = kecelakaankerjamasjaki::where('namapaketpekerjaan', $namapaketpekerjaan)->first();
+        $user = Auth::user();
+
+    return view('frontend.05_pengawasan.02_kecelakaankerja.02_kecelakaankerjashow', [
+        'title' => 'Angka Kecelakaan Kerja',
+        'data' => $datakecelakaankerja,
+        'user' => $user,
+
+    ]);
+    }
+
+
 }
