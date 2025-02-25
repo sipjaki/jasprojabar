@@ -1,6 +1,6 @@
 
 <header class="top">
-    
+
     <div class="container">
         {{-- <p>081321455855</p> --}}
         <div id="clock-container" style="
@@ -8,7 +8,7 @@
         justify-content: center;
         align-items: center;
         height: 6vh;
-        font-family: Arial, sans-serif;"> 
+        font-family: Arial, sans-serif;">
         <p id="jam" style="
             font-size: 14px;
             background: #000000;
@@ -53,7 +53,7 @@
             margin-bottom: 2px;
             border-radius: 20px;
             background: #000000;
-            
+
         }
         .marquee {
             display: inline-block;
@@ -70,11 +70,11 @@
             }
         }
     </style>
-    
+
      <div class="marquee-container" style="margin-left: 150px;">
         <div class="marquee" style="color: white">Selamat Datang ! di Web Resmi Mas Jaki Dinas Pekerjaan Umum & Penataan Ruang Blora, Sistem Informasi Pembina Jasa Konstruksi Pemerintah Kabupaten Blora Provinsi Jawa Tengah</div>
     </div>
-    
+
         {{-- <p>Jam </p> --}}
         <div class="social">
             <a href="/" title=""><i class="fas fa-envelope"></i></a>
@@ -90,3 +90,5 @@
         </div>
     </div>
 </header>
+
+@include('frontend.00_approve.01_cssterpisah.logo')
