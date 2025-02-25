@@ -39,5 +39,34 @@ class TertibjasakonstruksiController extends Controller
         ]);
     }
 
+    public function bujkkontraktorshow($namalengkap)
+    {
+        $databujkkontraktor = bujkkontraktor::where('namalengkap', $namalengkap)->first();
+
+        if (!$databujkkontraktor) {
+            // Tangani jika kegiatan tidak ditemukan
+            return redirect()->back()->with('error', 'Kegiatan tidak ditemukan.');
+        }
+
+        // Menggunakan paginate() untuk pagination
+        $subdata = bujkkontraktorsub::where('bujkkontraktor_id', $databujkkontraktor->id)->paginate(20);
+
+          // Menghitung nomor urut mulai
+            $start = ($subdata->currentPage() - 1) * $subdata->perPage() + 1;
+
+
+    // Ambil data user saat ini
+    $user = Auth::user();
+
+    return view('frontend.03_masjaki_jakon.01_bujkkontraktor.bujkkontraktorshow', [
+        'title' => 'Data Bujk Kontraktor',
+        'data' => $databujkkontraktor,
+        'subData' => $subdata,  // Jika Anda ingin mengirimkan data sub kontraktor juga
+        'user' => $user,
+        'start' => $start,
+    ]);
+    }
+
+
 
 }

@@ -190,30 +190,19 @@ color: #45a049;
                             <thead>
                                 <tr>
                                     <th style="text-align:center"> No</th>
-                                    <th style="text-align:center"> Kode Proyek</th>
-                                    <th style="text-align:center" >Nama Perusahaan</th>
-                                    {{-- <th style="text-align:center" >Alamat Perusahaan</th> --}}
-                                    <th style="text-align:center" >Penanaman Modal</th>
-                                    {{-- <th style="text-align:center" >Jenis Perusahaan</th> --}}
-                                    {{-- <th style="text-align:center" >NIB</th> --}}
-                                    {{-- <th style="text-align:center" >KBLI</th> --}}
-                                    {{-- <th style="text-align:center" >Uraian KBLI</th> --}}
-                                    <th style="text-align:center" >Sektor</th>
-                                    {{-- <th style="text-align:center" >Alamat Proyek</th> --}}
-                                    <th style="text-align:center" >Wilayah</th>
-                                    {{-- <th style="text-align:center" >Luas Tanah</th> --}}
-                                    {{-- <th style="text-align:center" >TKI Laki Laki </th>
-                                    <th style="text-align:center" >TKI Perampuan </th>
-                                    <th style="text-align:center" >TKA Laki Laki </th>
-                                    <th style="text-align:center" >TKA Perempuan </th> --}}
-                                    <th style="text-align:center" >Resiko </th>
-                                    <th style="text-align:center" >Sumber Data </th>
-                                    <th style="text-align:center" >Nilai Investasi </th>
-                                    {{-- <th style="text-align:center" >Skala Perusahaan </th> --}}
-                                    {{-- <th style="text-align:center" >Skala Proyek </th> --}}
-                                    {{-- <th style="text-align:center" >Kewenangan </th> --}}
-                                    <th style="text-align:center" >Pengawas </th>
-                                    <th style="text-align:center" >PSN </th>
+                                    <th style="text-align:center"> Status Penyedia</th>
+                                    <th style="text-align:center" >NIB</th>
+                                    <th style="text-align:center" >Nama Badan Usaha</th>
+                                    <th style="text-align:center" >PJBU</th>
+                                    <th style="text-align:center" >Kegiatan Jenis</th>
+                                    <th style="text-align:center" >Kegiatan Sifat</th>
+                                    <th style="text-align:center" >Kegiatan Klasifikasi</th>
+                                    <th style="text-align:center" >Kegiatan Layanan</th>
+                                    <th style="text-align:center" >Segmentasi Pasar Bentuk</th>
+                                    <th style="text-align:center" >Segmentasi Pasar Kualifikasi</th>
+                                    <th style="text-align:center" >Syarat SBU</th>
+                                    <th style="text-align:center" >Syarat NIB</th>
+                                    <th style="text-align:center" >Pelaksanaan Pengembangan</th>
                                     <th style="text-align:center" >View</th>
                                 </tr>
                             </thead>
@@ -226,35 +215,24 @@ color: #45a049;
                                 @foreach ($data as $item )
                                 <tr>
                                     <td>{{ $loop->iteration + $start - 1 }}</td>
-                                    <td>{{$item->kodeproyek}}</td>
-                                    <td>{{$item->namaperusahaan}}</td>
-                                    {{-- <td>{{$item->alamatperusahaan}}</td> --}}
-                                    <td>{{$item->statusmodal}}</td>
-                                    {{-- <td>{{$item->jenisperusahaan}}</td> --}}
-                                    {{-- <td>{{$item->nib}}</td> --}}
-                                    {{-- <td>{{$item->kbli}}</td> --}}
-                                    {{-- <td>{{$item->uraiankbli}}</td> --}}
-                                    <td>{{$item->sektor}}</td>
-                                    {{-- <td>{{$item->alamatproyek}}</td> --}}
-                                    <td>{{$item->wilayah}}</td>
-                                    {{-- <td>{{$item->luastanah}}</td> --}}
-                                    {{-- <td>{{$item->tki_lakilaki}}</td>
-                                    <td>{{$item->tki_perempuan}}</td>
-                                    <td>{{$item->tka_lakilaki}}</td>
-                                    <td>{{$item->tka_perempuan}}</td> --}}
-                                    <td>{{$item->resiko}}</td>
-                                    <td>{{$item->sumberdata}}</td>
-                                    <td>{{$item->investasi}}</td>
-                                    {{-- <td>{{$item->skalausahaperusahaan}}</td>
-                                    <td>{{$item->skalausahaproyek}}</td>
-                                    <td>{{$item->kewenangankoordinator}}</td> --}}
-                                    <td>{{$item->kewenanganpengawas}}</td>
-                                    <td>{{$item->PSN}}</td>
+                                    <td>{{$item->penyediastatustertibjakon->penyedia}}</td>
+                                    <td>{{$item->nib}}</td>
+                                    <td>{{$item->namabadanusaha}}</td>
+                                    <td>{{$item->pjbu}}</td>
+                                    <td>{{$item->sesuai_jenis}}</td>
+                                    <td>{{$item->sesuai_sifat}}</td>
+                                    <td>{{$item->sesuai_klasifikasi}}</td>
+                                    <td>{{$item->sesuai_layanan}}</td>
+                                    <td>{{$item->segmentasipasar_bentuk}}</td>
+                                    <td>{{$item->segmentasipasar_kualifikasi}}</td>
+                                    <td>{{$item->syarat_SBU}}</td>
+                                    <td>{{$item->syarat_NIB}}</td>
+                                    <td>{{$item->pelaksanaanpengembangan}}</td>
 
                                     {{-- <td>{{ \Carbon\Carbon::parse($item->tanggal)->isoFormat('D MMMM YYYY') }}</td> --}}
 
                                     <td style="text-align: center">
-                                        <a href="/pengawasanbujkshow/{{$item->namaperusahaan}}">
+                                        <a href="/tertibjasakonstruksilist/{{$item->namabadanusaha}}">
                                             <i class="fas fa-eye view-icon" onclick="alert('View clicked!')"></i>
                                         </a>
                                     </td>

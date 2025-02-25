@@ -166,11 +166,10 @@ Route::get('/kecelakaankerja', [KecelakaankerjamasjakiController::class, 'index'
 Route::get('/kecelakaankerjalist', [KecelakaankerjamasjakiController::class, 'kecelakaankerjalist']);
 Route::get('/kecelakaankerjalist/{namapaketpekerjaan}', [KecelakaankerjamasjakiController::class, 'kecelakaankerjashow']);
 
-// ------------- HALAMAN AGENDA PENGAWASAN BUJK -----------------
+// ------------- HALAMAN AGENDA TERTIB JASA KONSTRUKSI MAS JAKI -----------------
 Route::get('/tertibjasakonstruksi', [TertibjasakonstruksiController::class, 'index']);
 Route::get('/tertibjasakonstruksilist', [TertibjasakonstruksiController::class, 'tertibjasakonstruksilist']);
-// Route::get('/kecelakaankerjalist', [KecelakaankerjamasjakiController::class, 'kecelakaankerjalist']);
-// Route::get('/kecelakaankerjalist/{namapaketpekerjaan}', [KecelakaankerjamasjakiController::class, 'kecelakaankerjashow']);
+Route::get('/tertibjasakonstruksilist/{namabadanusaha}', [TertibjasakonstruksiController::class, 'tertibjasakonstruksishow']);
 
 // fort
 
