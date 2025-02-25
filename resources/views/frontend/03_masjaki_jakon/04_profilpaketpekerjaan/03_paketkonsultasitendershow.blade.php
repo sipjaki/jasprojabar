@@ -198,13 +198,13 @@ color: #45a049;
                                                 <!-- Card 1 -->
                                                 <div class="progress-card">
                                                     <div class="progress-step
-                                                        @if($data->prosespaketnontender->persiapan == 'SELESAI')
+                                                        @if($data->prosespaketkonsultasi->persiapan == 'SELESAI')
                                                             completed
-                                                        @elseif($data->prosespaketnontender->persiapan == 'PROSES')
+                                                        @elseif($data->prosespaketkonsultasi->persiapan == 'PROSES')
                                                             in-progress
-                                                        @elseif($data->prosespaketnontender->persiapan == 'BELUM DI MULAI')
+                                                        @elseif($data->prosespaketkonsultasi->persiapan == 'BELUM DI MULAI')
                                                             not-started
-                                                        @elseif($data->prosespaketnontender->persiapan == 'PAKET DI BATALKAN')
+                                                        @elseif($data->prosespaketkonsultasi->persiapan == 'PAKET DI BATALKAN')
                                                             cancelled
                                                         @endif
                                                     ">
@@ -212,16 +212,16 @@ color: #45a049;
                                                             1
                                                         </div>
                                                         <p class="step-title">Persiapan</p>
-                                                        <p class="step-status">{{$data->prosespaketnontender->persiapan}}</p>
+                                                        <p class="step-status">{{$data->prosespaketkonsultasi->persiapan}}</p>
                                                     </div>
                                                     <div class="line
-                                                        @if($data->prosespaketnontender->persiapan == 'SELESAI')
+                                                        @if($data->prosespaketkonsultasi->persiapan == 'SELESAI')
                                                             completed
-                                                        @elseif($data->prosespaketnontender->persiapan == 'PROSES')
+                                                        @elseif($data->prosespaketkonsultasi->persiapan == 'PROSES')
                                                             in-progress
-                                                        @elseif($data->prosespaketnontender->persiapan == 'BELUM DI MULAI')
+                                                        @elseif($data->prosespaketkonsultasi->persiapan == 'BELUM DI MULAI')
                                                             not-started
-                                                        @elseif($data->prosespaketnontender->persiapan == 'PAKET DI BATALKAN')
+                                                        @elseif($data->prosespaketkonsultasi->persiapan == 'PAKET DI BATALKAN')
                                                             cancelled
                                                         @endif
                                                     "></div>
@@ -230,13 +230,13 @@ color: #45a049;
                                                 <!-- Card 2 -->
                                                 <div class="progress-card">
                                                     <div class="progress-step
-                                                        @if($data->prosespaketnontender->pengadaan == 'SELESAI')
+                                                        @if($data->prosespaketkonsultasi->pengadaan == 'SELESAI')
                                                             completed
-                                                        @elseif($data->prosespaketnontender->pengadaan == 'PROSES')
+                                                        @elseif($data->prosespaketkonsultasi->pengadaan == 'PROSES')
                                                             in-progress
-                                                        @elseif($data->prosespaketnontender->pengadaan == 'BELUM DI MULAI')
+                                                        @elseif($data->prosespaketkonsultasi->pengadaan == 'BELUM DI MULAI')
                                                             not-started
-                                                        @elseif($data->prosespaketnontender->pengadaan == 'PAKET DI BATALKAN')
+                                                        @elseif($data->prosespaketkonsultasi->pengadaan == 'PAKET DI BATALKAN')
                                                             cancelled
                                                         @endif
                                                     ">
@@ -244,16 +244,16 @@ color: #45a049;
                                                             2
                                                         </div>
                                                         <p class="step-title">Pengadaan</p>
-                                                        <p class="step-status">{{$data->prosespaketnontender->pengadaan}}</p>
+                                                        <p class="step-status">{{$data->prosespaketkonsultasi->pengadaan}}</p>
                                                     </div>
                                                     <div class="line
-                                                        @if($data->prosespaketnontender->pengadaan == 'SELESAI')
+                                                        @if($data->prosespaketkonsultasi->pengadaan == 'SELESAI')
                                                             completed
-                                                        @elseif($data->prosespaketnontender->pengadaan == 'PROSES')
+                                                        @elseif($data->prosespaketkonsultasi->pengadaan == 'PROSES')
                                                             in-progress
-                                                        @elseif($data->prosespaketnontender->pengadaan == 'BELUM DI MULAI')
+                                                        @elseif($data->prosespaketkonsultasi->pengadaan == 'BELUM DI MULAI')
                                                             not-started
-                                                        @elseif($data->prosespaketnontender->pengadaan == 'PAKET DI BATALKAN')
+                                                        @elseif($data->prosespaketkonsultasi->pengadaan == 'PAKET DI BATALKAN')
                                                             cancelled
                                                         @endif
                                                     "></div>
@@ -262,13 +262,13 @@ color: #45a049;
                                                 <!-- Card 3 -->
                                                 <div class="progress-card">
                                                     <div class="progress-step
-                                                        @if($data->prosespaketnontender->pelaksanaan == 'SELESAI')
+                                                        @if($data->prosespaketkonsultasi->pelaksanaan == 'SELESAI')
                                                             completed
-                                                        @elseif($data->prosespaketnontender->pelaksanaan == 'PROSES')
+                                                        @elseif($data->prosespaketkonsultasi->pelaksanaan == 'PROSES')
                                                             in-progress
-                                                        @elseif($data->prosespaketnontender->pelaksanaan == 'BELUM DI MULAI')
+                                                        @elseif($data->prosespaketkonsultasi->pelaksanaan == 'BELUM DI MULAI')
                                                             not-started
-                                                        @elseif($data->prosespaketnontender->pelaksanaan == 'PAKET DI BATALKAN')
+                                                        @elseif($data->prosespaketkonsultasi->pelaksanaan == 'PAKET DI BATALKAN')
                                                             cancelled
                                                         @endif
                                                     ">
@@ -276,16 +276,16 @@ color: #45a049;
                                                             3
                                                         </div>
                                                         <p class="step-title">Pelaksanaan</p>
-                                                        <p class="step-status">{{$data->prosespaketnontender->pelaksanaan}}</p>
+                                                        <p class="step-status">{{$data->prosespaketkonsultasi->pelaksanaan}}</p>
                                                     </div>
                                                     <div class="line
-                                                        @if($data->prosespaketnontender->pelaksanaan == 'SELESAI')
+                                                        @if($data->prosespaketkonsultasi->pelaksanaan == 'SELESAI')
                                                             completed
-                                                        @elseif($data->prosespaketnontender->pelaksanaan == 'PROSES')
+                                                        @elseif($data->prosespaketkonsultasi->pelaksanaan == 'PROSES')
                                                             in-progress
-                                                        @elseif($data->prosespaketnontender->pelaksanaan == 'BELUM DI MULAI')
+                                                        @elseif($data->prosespaketkonsultasi->pelaksanaan == 'BELUM DI MULAI')
                                                             not-started
-                                                        @elseif($data->prosespaketnontender->pelaksanaan == 'PAKET DI BATALKAN')
+                                                        @elseif($data->prosespaketkonsultasi->pelaksanaan == 'PAKET DI BATALKAN')
                                                             cancelled
                                                         @endif
                                                     "></div>
@@ -294,13 +294,13 @@ color: #45a049;
                                                 <!-- Card 4 -->
                                                 <div class="progress-card">
                                                     <div class="progress-step
-                                                        @if($data->prosespaketnontender->pemeliharaan == 'SELESAI')
+                                                        @if($data->prosespaketkonsultasi->pemeliharaan == 'SELESAI')
                                                             completed
-                                                        @elseif($data->prosespaketnontender->pemeliharaan == 'PROSES')
+                                                        @elseif($data->prosespaketkonsultasi->pemeliharaan == 'PROSES')
                                                             in-progress
-                                                        @elseif($data->prosespaketnontender->pemeliharaan == 'BELUM DI MULAI')
+                                                        @elseif($data->prosespaketkonsultasi->pemeliharaan == 'BELUM DI MULAI')
                                                             not-started
-                                                        @elseif($data->prosespaketnontender->pemeliharaan == 'PAKET DI BATALKAN')
+                                                        @elseif($data->prosespaketkonsultasi->pemeliharaan == 'PAKET DI BATALKAN')
                                                             cancelled
                                                         @endif
                                                     ">
@@ -308,16 +308,16 @@ color: #45a049;
                                                             4
                                                         </div>
                                                         <p class="step-title">Pemeliharaan</p>
-                                                        <p class="step-status">{{$data->prosespaketnontender->pemeliharaan}}</p>
+                                                        <p class="step-status">{{$data->prosespaketkonsultasi->pemeliharaan}}</p>
                                                     </div>
                                                     <div class="line
-                                                        @if($data->prosespaketnontender->pemeliharaan == 'SELESAI')
+                                                        @if($data->prosespaketkonsultasi->pemeliharaan == 'SELESAI')
                                                             completed
-                                                        @elseif($data->prosespaketnontender->pemeliharaan == 'PROSES')
+                                                        @elseif($data->prosespaketkonsultasi->pemeliharaan == 'PROSES')
                                                             in-progress
-                                                        @elseif($data->prosespaketnontender->pemeliharaan == 'BELUM DI MULAI')
+                                                        @elseif($data->prosespaketkonsultasi->pemeliharaan == 'BELUM DI MULAI')
                                                             not-started
-                                                        @elseif($data->prosespaketnontender->pemeliharaan == 'PAKET DI BATALKAN')
+                                                        @elseif($data->prosespaketkonsultasi->pemeliharaan == 'PAKET DI BATALKAN')
                                                             cancelled
                                                         @endif
                                                     "></div>
@@ -326,13 +326,13 @@ color: #45a049;
                                                 <!-- Card 5 -->
                                                 <div class="progress-card">
                                                     <div class="progress-step
-                                                        @if($data->prosespaketnontender->paketselesai == 'SELESAI')
+                                                        @if($data->prosespaketkonsultasi->paketselesai == 'SELESAI')
                                                             completed
-                                                        @elseif($data->prosespaketnontender->paketselesai == 'PROSES')
+                                                        @elseif($data->prosespaketkonsultasi->paketselesai == 'PROSES')
                                                             in-progress
-                                                        @elseif($data->prosespaketnontender->paketselesai == 'BELUM DI MULAI')
+                                                        @elseif($data->prosespaketkonsultasi->paketselesai == 'BELUM DI MULAI')
                                                             not-started
-                                                        @elseif($data->prosespaketnontender->paketselesai == 'PAKET DI BATALKAN')
+                                                        @elseif($data->prosespaketkonsultasi->paketselesai == 'PAKET DI BATALKAN')
                                                             cancelled
                                                         @endif
                                                     ">
@@ -340,16 +340,16 @@ color: #45a049;
                                                             5
                                                         </div>
                                                         <p class="step-title">Paket Selesai</p>
-                                                        <p class="step-status">{{$data->prosespaketnontender->paketselesai}}</p>
+                                                        <p class="step-status">{{$data->prosespaketkonsultasi->paketselesai}}</p>
                                                     </div>
                                                     <div class="line
-                                                        @if($data->prosespaketnontender->paketselesai == 'SELESAI')
+                                                        @if($data->prosespaketkonsultasi->paketselesai == 'SELESAI')
                                                             completed
-                                                        @elseif($data->prosespaketnontender->paketselesai == 'PROSES')
+                                                        @elseif($data->prosespaketkonsultasi->paketselesai == 'PROSES')
                                                             in-progress
-                                                        @elseif($data->prosespaketnontender->paketselesai == 'BELUM DI MULAI')
+                                                        @elseif($data->prosespaketkonsultasi->paketselesai == 'BELUM DI MULAI')
                                                             not-started
-                                                        @elseif($data->prosespaketnontender->paketselesai == 'PAKET DI BATALKAN')
+                                                        @elseif($data->prosespaketkonsultasi->paketselesai == 'PAKET DI BATALKAN')
                                                             cancelled
                                                         @endif
                                                     "></div>
@@ -448,8 +448,8 @@ color: #45a049;
                                             </div><!-- history-card-image -->
 
                                             <div class="history-card-meta history-card-data-content">
-                                                <div class="history-card-years {{ $data->prosespaketnontender->persiapan == 'BELUM' ? 'bg-danger text-white' : '' }}">
-                                                    {{$data->prosespaketnontender->persiapan}}
+                                                <div class="history-card-years {{ $data->prosespaketkonsultasi->persiapan == 'BELUM' ? 'bg-danger text-white' : '' }}">
+                                                    {{$data->prosespaketkonsultasi->persiapan}}
                                                 </div>
                                                 {{-- <div class="history-card-date">1 May</div> --}}
                                             </div><!-- history-card-meta -->
@@ -469,8 +469,8 @@ color: #45a049;
                                             </div><!-- history-card-content -->
 
                                             <div class="history-card-meta meta-box">
-                                                <div class="history-card-years {{ $data->prosespaketnontender->persiapan == 'BELUM' ? 'bg-danger text-white' : '' }}">
-                                                    {{$data->prosespaketnontender->persiapan}}
+                                                <div class="history-card-years {{ $data->prosespaketkonsultasi->persiapan == 'BELUM' ? 'bg-danger text-white' : '' }}">
+                                                    {{$data->prosespaketkonsultasi->persiapan}}
                                                 </div>
                                                 {{-- <div class="history-card-date">1 May</div> --}}
                                             </div><!-- history-card-meta -->
@@ -489,8 +489,8 @@ color: #45a049;
                                             </div><!-- history-card-image -->
 
                                             <div class="history-card-meta">
-                                                <div class="history-card-years {{ $data->prosespaketnontender->pelaksanaan == 'BELUM' ? 'bg-danger text-white' : '' }}">
-                                                    {{$data->prosespaketnontender->pelaksanaan}}
+                                                <div class="history-card-years {{ $data->prosespaketkonsultasi->pelaksanaan == 'BELUM' ? 'bg-danger text-white' : '' }}">
+                                                    {{$data->prosespaketkonsultasi->pelaksanaan}}
                                                 </div>
                                                 {{-- <div class="history-card-date">1 May</div> --}}
                                             </div><!-- history-card-meta -->
@@ -510,8 +510,8 @@ color: #45a049;
                                             </div><!-- history-card-content -->
 
                                             <div class="history-card-meta history-card-data-content">
-                                                <div class="history-card-years {{ $data->prosespaketnontender->pemeliharaan == 'BELUM' ? 'bg-danger text-white' : '' }}">
-                                                    {{$data->prosespaketnontender->pemeliharaan}}
+                                                <div class="history-card-years {{ $data->prosespaketkonsultasi->pemeliharaan == 'BELUM' ? 'bg-danger text-white' : '' }}">
+                                                    {{$data->prosespaketkonsultasi->pemeliharaan}}
                                                 </div>
                                                 {{-- <div class="history-card-date">1 May</div> --}}
                                             </div><!-- history-card-meta -->
@@ -532,8 +532,8 @@ color: #45a049;
                                             </div><!-- history-card-image -->
 
                                             <div class="history-card-meta history-card-data-content">
-                                                <div class="history-card-years {{ $data->prosespaketnontender->paketselesai == 'BELUM' ? 'bg-danger text-white' : '' }}">
-                                                    {{$data->prosespaketnontender->paketselesai}}
+                                                <div class="history-card-years {{ $data->prosespaketkonsultasi->paketselesai == 'BELUM' ? 'bg-danger text-white' : '' }}">
+                                                    {{$data->prosespaketkonsultasi->paketselesai}}
                                                 </div>
                                                 {{-- <div class="history-card-date">1 May</div> --}}
                                             </div><!-- history-card-meta -->
