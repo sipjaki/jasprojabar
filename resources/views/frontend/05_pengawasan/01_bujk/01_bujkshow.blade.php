@@ -286,12 +286,15 @@ color: #45a049;
                 <i class="fas fa-info-circle"></i>
             </th>
             <th colspan="11" style="text-align:center; color: black; width:300px;">Informasi</th>
-            <td colspan="12" style="text-align:center; width:500px;">Keterangan</td>
+            <th colspan="11" style="text-align:center; color: black; width:20px;">:</th>
+
+            <td colspan="12" style="text-align:center; width:1000px;">Keterangan</td>
         </tr>
         <tr>
             <th style="text-align:center; color: black;">
                 <i class="fas fa-user"></i> <!-- Icon for 'Nama Pengurus' -->
             </th>
+            <th colspan="11" style="text-align:center; color: black; width:20px;">:</th>
             <th colspan="12" style="text-align:center; color: black;">Nama Pengurus</th>
             <td colspan="12" style="text-align:center;">{{$data->namaperusahaan}}</td>
         </tr>
@@ -300,6 +303,7 @@ color: #45a049;
                 <i class="fas fa-user"></i> <!-- Same icon as above -->
             </th>
             <th colspan="12" style="text-align:center; color: black;">Nama Pengurus</th>
+            <th colspan="11" style="text-align:center; color: black; width:20px;">:</th>
             <td colspan="12" style="text-align:center;">{{$data->namaperusahaan}}</td>
         </tr>
     </thead>
