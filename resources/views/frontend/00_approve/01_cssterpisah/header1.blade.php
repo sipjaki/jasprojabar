@@ -55,7 +55,6 @@
 						<li>
 
                             <div class="container">
-                                </div><!-- topbar-icon -->
                                 {{-- <p>081321455855</p> --}}
                                 <div id="clock-container" style="
                                 display: flex;
@@ -63,12 +62,11 @@
                                 align-items: center;
                                 height: 6vh;
                                 font-family: Arial, sans-serif;">
-                                <i class="fa-solid fa-clock"></i>
                                 <p id="jam" style="
                                     font-size: 14px;
                                     background: #2ECC71;
                                     color: #fff;
-                                    padding: 10px 10px;
+                                    padding: 20px 10px;
                                     border-radius: 15px;
                                     text-align: center;"></p>
                                          {{-- <p style="color: black"></p> --}}
