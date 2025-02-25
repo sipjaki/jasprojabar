@@ -191,10 +191,10 @@ color: #45a049;
                                 <tr>
                                     <th style="text-align:center"> No</th>
                                     <th style="text-align:center"> Status Penyedia</th>
-                                    <th style="text-align:center" >NIB</th>
+                                    {{-- <th style="text-align:center" >NIB</th> --}}
                                     <th style="text-align:center" >Nama Badan Usaha</th>
                                     <th style="text-align:center" >PJBU</th>
-                                    <th style="text-align:center" >Kegiatan Jenis</th>
+                                    {{-- <th style="text-align:center" >Kegiatan Jenis</th>
                                     <th style="text-align:center" >Kegiatan Sifat</th>
                                     <th style="text-align:center" >Kegiatan Klasifikasi</th>
                                     <th style="text-align:center" >Kegiatan Layanan</th>
@@ -202,7 +202,7 @@ color: #45a049;
                                     <th style="text-align:center" >Segmentasi Pasar Kualifikasi</th>
                                     <th style="text-align:center" >Syarat SBU</th>
                                     <th style="text-align:center" >Syarat NIB</th>
-                                    <th style="text-align:center" >Pelaksanaan Pengembangan</th>
+                                    <th style="text-align:center" >Pelaksanaan Pengembangan</th> --}}
                                     <th style="text-align:center" >View</th>
                                 </tr>
                             </thead>
@@ -216,18 +216,18 @@ color: #45a049;
                                 <tr>
                                     <td>{{ $loop->iteration + $start - 1 }}</td>
                                     <td>{{$item->penyediastatustertibjakon->penyedia}}</td>
-                                    <td>{{$item->nib}}</td>
+                                    {{-- <td>{{$item->nib}}</td> --}}
                                     <td>{{$item->namabadanusaha}}</td>
                                     <td>{{$item->pjbu}}</td>
-                                    <td>{{$item->sesuai_jenis}}</td>
+                                    {{-- <td>{{$item->sesuai_jenis}}</td>
                                     <td>{{$item->sesuai_sifat}}</td>
                                     <td>{{$item->sesuai_klasifikasi}}</td>
                                     <td>{{$item->sesuai_layanan}}</td>
                                     <td>{{$item->segmentasipasar_bentuk}}</td>
                                     <td>{{$item->segmentasipasar_kualifikasi}}</td>
                                     <td>{{$item->syarat_SBU}}</td>
-                                    <td>{{$item->syarat_NIB}}</td>
-                                    <td>{{$item->pelaksanaanpengembangan}}</td>
+                                    <td>{{$item->syarat_NIB}}</td> --}}
+                                    {{-- <td>{{$item->pelaksanaanpengembangan}}</td> --}}
 
                                     {{-- <td>{{ \Carbon\Carbon::parse($item->tanggal)->isoFormat('D MMMM YYYY') }}</td> --}}
 
