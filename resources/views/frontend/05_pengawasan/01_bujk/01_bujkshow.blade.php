@@ -2,16 +2,44 @@
     /* Import font Poppins */
     @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 
+/* Overall table styling */
+.fl-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff; /* White background for the whole table */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: adds a subtle shadow */
+}
 
-    .fl-table th {
+/* Table header styling */
+.fl-table th {
+    padding: 12px;
+    text-align: center;
+    font-size: 14px;
+    background-color: #a8d5ba; /* Light green background */
+    border: 1px solid #ddd; /* Light gray border */
+    color: black;
+    font-weight: bold;
+}
+
+/* Table data cells styling */
+.fl-table td {
     padding: 10px;
     text-align: center;
+    font-size: 14px;
+    border: 1px solid #ddd; /* Light gray border for cells */
 }
 
-.fl-table i {
-    font-size: 20px; /* Adjust icon size */
-    margin-right: 8px; /* Add space between icon and text */
+/* Alternating row colors */
+.fl-table tr:nth-child(even) {
+    background-color: #e2f4e2; /* Light green for even rows */
 }
+
+.fl-table tr:nth-child(odd) {
+    background-color: #ffffff; /* White for odd rows */
+}
+
+/* Icon size and
+
 
 
 
@@ -212,7 +240,6 @@
     <thead>
         <tr>
             <th style="text-align:center; color: black;">
-                <!-- Add your icon here -->
                 <i class="fas fa-info-circle"></i>
             </th>
             <th colspan="11" style="text-align:center; color: black;">No</th>
@@ -220,14 +247,14 @@
         </tr>
         <tr>
             <th style="text-align:center; color: black;">
-                <i class="fas fa-user"></i> <!-- Icon for 'Nama Pengurus' -->
+                <i class="fas fa-user"></i>
             </th>
             <th colspan="11" style="text-align:center; color: black;">Nama Pengurus</th>
             <td colspan="12" style="text-align:center;">{{$data->namaperusahaan}}</td>
         </tr>
         <tr>
             <th style="text-align:center; color: black;">
-                <i class="fas fa-user"></i> <!-- Same icon as above -->
+                <i class="fas fa-user"></i>
             </th>
             <th colspan="11" style="text-align:center; color: black;">Nama Pengurus</th>
             <td colspan="12" style="text-align:center;">{{$data->namaperusahaan}}</td>
