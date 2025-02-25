@@ -157,7 +157,7 @@ Route::get('/agendapembinaan', [PembinaanController::class, 'index']);
 // ---------------------- 06 DATA JAKON BUJK KONTRAKTOR-----------------------//
 // ------------- HALAMAN AGENDA PENGAWASAN BUJK -----------------
 Route::get('/pengawasanbujk', [PengawasanbujkController::class, 'index']);
-Route::get('/pengawasanbujk/{kodeproyek}', [PengawasanbujkController::class, 'pengawasanbujkshow']);
+Route::get('/pengawasanbujkshow/{kodeproyek}', [PengawasanbujkController::class, 'pengawasanbujkshow']);
 
 // fort
 
