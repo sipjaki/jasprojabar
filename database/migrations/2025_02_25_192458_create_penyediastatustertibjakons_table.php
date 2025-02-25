@@ -13,7 +13,7 @@ return new class extends Migration
     {
         Schema::create('penyediastatustertibjakons', function (Blueprint $table) {
             $table->id();
-            $table->id('penyedia')->nullable();
+            $table->string('penyedia')->nullable();
             $table->softDeletes();
             $table->timestamps();
         });
