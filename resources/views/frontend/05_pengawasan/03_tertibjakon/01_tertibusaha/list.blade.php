@@ -186,19 +186,19 @@ color: #45a049;
 
                                         <a href="/tertibjasakonstruksi" style="background: white;">
                                             <button class="badgemenu" style="border: none; font-size: 12px; cursor: pointer; margin-right: 10px;">
-                                                <i class="fas fa-arrow-circle-left mr-2" style="margin-right: 15px;"></i><span style="color: black">PU</span>
+                                                <i class="fas fa-edit mr-2" style="margin-right: 15px;"></i><span style="color: black">PU</span>
                                             </button>
                                         </a>
 
                                         <a href="/tertibjasakonstruksi" style="background: white;">
                                             <button class="badgemenu" style="border: none; font-size: 12px; cursor: pointer; margin-right: 10px;">
-                                                <i class="fas fa-arrow-circle-left mr-2" style="margin-right: 15px;"></i><span style="color: black">Non-PU</span>
+                                                <i class="fas fa-edit mr-2" style="margin-right: 15px;"></i><span style="color: black">Non-PU</span>
                                             </button>
                                         </a>
 
                                         <a href="/tertibjasakonstruksi" style="background: white;">
                                             <button class="badgemenu" style="border: none; font-size: 12px; cursor: pointer; margin-right: 10px;">
-                                                <i class="fas fa-arrow-circle-left mr-2" style="margin-right: 15px;"></i><span style="color: black">Swasta</span>
+                                                <i class="fas fa-edit mr-2" style="margin-right: 15px;"></i><span style="color: black">Swasta</span>
                                             </button>
                                         </a>
 
