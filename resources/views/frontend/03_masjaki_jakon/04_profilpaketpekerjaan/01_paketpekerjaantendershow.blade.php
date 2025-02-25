@@ -88,7 +88,7 @@ color: #45a049;
 
 
             .badgekembali {
-                position: absolute;
+                position: fixed;
                 background: linear-gradient(to right, green, green);
                 color: white;
                 padding: 10px 20px;
@@ -409,12 +409,12 @@ color: #45a049;
                                                                                 </div><!-- row row-gutter-10 -->
                                             </form><!-- contact-form -->
 
-
                                             <a href="/datajakon/paketpekerjaantender" style="background: white;">
                                                 <button class="badgekembali" style="border: none; font-size: 12px; cursor: pointer; margin-right: 10px;">
                                                     <i class="fas fa-arrow-circle-left mr-2" style="margin-right: 15px;"></i> KEMBALI
                                                 </button>
                                             </a>
+
 
                                         </div><!-- donate-box-inner -->
                                     </div><!-- col-xl-8 col-lg-12 -->
