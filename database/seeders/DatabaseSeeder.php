@@ -85,6 +85,8 @@ use App\Models\prosespaketkonsultasi;
 use App\Models\prosespaketkonsultasinontender;
 use App\Models\pengawasanbujk;
 use App\Models\kecelakaankerjamasjaki;
+use App\Models\penyediastatustertibjakon;
+use App\Models\tertibjasakonstruksi;
 
 // use App\Models\paketpekerjaan;
 use Database\Factories\SkktenagakerjaFactory;
@@ -6211,6 +6213,73 @@ kecelakaankerjamasjaki::create([
     'nilaikerugian' => 825031.00,  // Menghilangkan 'Rp' dan menyimpan sebagai angka decimal
 ]);
 
+
+//======================== ===================================================================================
+// PENYEDIA STATUS TERTIB JAKON MAS JAKI BLORA
+penyediastatustertibjakon::create([
+    'id' => '1',
+    'penyedia' => 'PU',
+]);
+
+penyediastatustertibjakon::create([
+    'id' => '2',
+    'penyedia' => 'NON-PU',
+]);
+
+penyediastatustertibjakon::create([
+    'id' => '3',
+    'penyedia' => 'SWASTA',
+]);
+
+//======================== ===================================================================================
+// TERTIB JAKON BIDAN USAHA MAS JAKI BLORA
+tertibjasakonstruksi::create([
+    'penyediastatustertibjakon_id' => '1',
+    'nib' => '0208220001109',
+    'namabadanusaha' => 'CV MANDRA KANTA UNGGUL',
+    'pjbu' => 'Muhammad Abdul Rozak',
+    'sesuai_jenis' => 'TERTIB',
+    'sesuai_sifat' => 'TERTIB',
+    'sesuai_klasifikasi' => 'TERTIB',
+    'sesuai_layanan' => 'TERTIB',
+    'segmentasipasar_bentuk' => 'TERTIB',
+    'segmentasipasar_kualifikasi' => 'TERTIB',
+    'syarat_SBU' => 'TERTIB',
+    'syarat_NIB' => 'TERTIB',
+    'pelaksanaanpengembangan' => 'TERTIB',      // Menghilangkan 'Rp' dan menyimpan sebagai angka decimal
+]);
+
+tertibjasakonstruksi::create([
+    'penyediastatustertibjakon_id' => '2',
+    'nib' => '0911220321514',
+    'namabadanusaha' => 'CV. ADITIYA JAYA PERKASA',
+    'pjbu' => 'Agus Supriadi',
+    'sesuai_jenis' => 'TERTIB',
+    'sesuai_sifat' => 'TERTIB',
+    'sesuai_klasifikasi' => 'TERTIB',
+    'sesuai_layanan' => 'TERTIB',
+    'segmentasipasar_bentuk' => 'TERTIB',
+    'segmentasipasar_kualifikasi' => 'TERTIB',
+    'syarat_SBU' => 'TERTIB',
+    'syarat_NIB' => 'TERTIB',
+    'pelaksanaanpengembangan' => 'TERTIB',      // Menghilangkan 'Rp' dan menyimpan sebagai angka decimal
+]);
+
+tertibjasakonstruksi::create([
+    'penyediastatustertibjakon_id' => '3',
+    'nib' => '1261000381957',
+    'namabadanusaha' => 'CV. ADHI KARYA MANDIRI',
+    'pjbu' => 'Santoso',
+    'sesuai_jenis' => 'TERTIB',
+    'sesuai_sifat' => 'TERTIB',
+    'sesuai_klasifikasi' => 'TERTIB',
+    'sesuai_layanan' => 'TERTIB',
+    'segmentasipasar_bentuk' => 'TERTIB',
+    'segmentasipasar_kualifikasi' => 'TERTIB',
+    'syarat_SBU' => 'TERTIB',
+    'syarat_NIB' => 'TERTIB',
+    'pelaksanaanpengembangan' => 'TERTIB',      // Menghilangkan 'Rp' dan menyimpan sebagai angka decimal
+]);
 
 // fort
 
