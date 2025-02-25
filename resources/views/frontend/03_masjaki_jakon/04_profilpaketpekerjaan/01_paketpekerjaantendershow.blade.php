@@ -178,7 +178,7 @@ color: #45a049;
 
                                                 </ul>
 
-                                            <div class="display: flex; justify-content: space-between; centered-button" style="margin-top: -15px;">
+                                            <div class="display: flex; justify-content: space-between;" style="margin-top: -15px;">
 
                                                 <button class="green-button" style="margin-bottom:10px; text-transform:uppercase">
                                                     <i class="fas fa-file mr-2" style="margin-right:5px;"></i> INFORMASI {{$title}} : {{$data->namapekerjaan}}
