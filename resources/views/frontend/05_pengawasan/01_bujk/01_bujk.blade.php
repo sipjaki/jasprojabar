@@ -192,26 +192,26 @@ color: #45a049;
                                     <th style="text-align:center"> No</th>
                                     <th style="text-align:center"> Kode Proyek</th>
                                     <th style="text-align:center" >Nama Perusahaan</th>
-                                    <th style="text-align:center" >Alamat Perusahaan</th>
+                                    {{-- <th style="text-align:center" >Alamat Perusahaan</th> --}}
                                     <th style="text-align:center" >Penanaman Modal</th>
-                                    <th style="text-align:center" >Jenis Perusahaan</th>
-                                    <th style="text-align:center" >NIB</th>
-                                    <th style="text-align:center" >KBLI</th>
-                                    <th style="text-align:center" >Uraian KBLI</th>
+                                    {{-- <th style="text-align:center" >Jenis Perusahaan</th> --}}
+                                    {{-- <th style="text-align:center" >NIB</th> --}}
+                                    {{-- <th style="text-align:center" >KBLI</th> --}}
+                                    {{-- <th style="text-align:center" >Uraian KBLI</th> --}}
                                     <th style="text-align:center" >Sektor</th>
-                                    <th style="text-align:center" >Alamat Proyek</th>
+                                    {{-- <th style="text-align:center" >Alamat Proyek</th> --}}
                                     <th style="text-align:center" >Wilayah</th>
                                     <th style="text-align:center" >Luas Tanah</th>
-                                    <th style="text-align:center" >TKI Laki Laki </th>
+                                    {{-- <th style="text-align:center" >TKI Laki Laki </th>
                                     <th style="text-align:center" >TKI Perampuan </th>
                                     <th style="text-align:center" >TKA Laki Laki </th>
-                                    <th style="text-align:center" >TKA Perempuan </th>
+                                    <th style="text-align:center" >TKA Perempuan </th> --}}
                                     <th style="text-align:center" >Resiko </th>
                                     <th style="text-align:center" >Sumber Data </th>
                                     <th style="text-align:center" >Nilai Investasi </th>
-                                    <th style="text-align:center" >Skala Perusahaan </th>
-                                    <th style="text-align:center" >Skala Proyek </th>
-                                    <th style="text-align:center" >Kewenangan </th>
+                                    {{-- <th style="text-align:center" >Skala Perusahaan </th> --}}
+                                    {{-- <th style="text-align:center" >Skala Proyek </th> --}}
+                                    {{-- <th style="text-align:center" >Kewenangan </th> --}}
                                     <th style="text-align:center" >Pengawas </th>
                                     <th style="text-align:center" >PSN </th>
                                     <th style="text-align:center" >View</th>
@@ -228,26 +228,26 @@ color: #45a049;
                                     <td>{{ $loop->iteration + $start - 1 }}</td>
                                     <td>{{$item->kodeproyek}}</td>
                                     <td>{{$item->namaperusahaan}}</td>
-                                    <td>{{$item->alamatperusahaan}}</td>
+                                    {{-- <td>{{$item->alamatperusahaan}}</td> --}}
                                     <td>{{$item->statusmodal}}</td>
-                                    <td>{{$item->jenisperusahaan}}</td>
-                                    <td>{{$item->nib}}</td>
-                                    <td>{{$item->kbli}}</td>
-                                    <td>{{$item->uraiankbli}}</td>
+                                    {{-- <td>{{$item->jenisperusahaan}}</td> --}}
+                                    {{-- <td>{{$item->nib}}</td> --}}
+                                    {{-- <td>{{$item->kbli}}</td> --}}
+                                    {{-- <td>{{$item->uraiankbli}}</td> --}}
                                     <td>{{$item->sektor}}</td>
-                                    <td>{{$item->alamatproyek}}</td>
+                                    {{-- <td>{{$item->alamatproyek}}</td> --}}
                                     <td>{{$item->wilayah}}</td>
                                     <td>{{$item->luastanah}}</td>
-                                    <td>{{$item->tki_lakilaki}}</td>
+                                    {{-- <td>{{$item->tki_lakilaki}}</td>
                                     <td>{{$item->tki_perempuan}}</td>
                                     <td>{{$item->tka_lakilaki}}</td>
-                                    <td>{{$item->tka_perempuan}}</td>
+                                    <td>{{$item->tka_perempuan}}</td> --}}
                                     <td>{{$item->resiko}}</td>
                                     <td>{{$item->sumberdata}}</td>
                                     <td>{{$item->investasi}}</td>
-                                    <td>{{$item->skalausahaperusahaan}}</td>
+                                    {{-- <td>{{$item->skalausahaperusahaan}}</td>
                                     <td>{{$item->skalausahaproyek}}</td>
-                                    <td>{{$item->kewenangankoordinator}}</td>
+                                    <td>{{$item->kewenangankoordinator}}</td> --}}
                                     <td>{{$item->kewenanganpengawas}}</td>
                                     <td>{{$item->psn}}</td>
 
