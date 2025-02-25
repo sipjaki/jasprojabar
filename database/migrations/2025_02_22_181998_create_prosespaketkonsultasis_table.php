@@ -14,11 +14,11 @@ return new class extends Migration
         Schema::create('prosespaketkonsultasis', function (Blueprint $table) {
             $table->id();
             $table->foreignId('profilpaketkonsultasi_id');
-            $table->enum('persiapan', ['Selesai', 'Belum']);
-            $table->enum('pengadaan', ['Selesai', 'Belum']);
-            $table->enum('pelaksanaan', ['Selesai', 'Belum']);
-            $table->enum('pemeliharaan', ['Selesai', 'Belum']);
-            $table->enum('paketselesai', ['Selesai', 'Belum']);
+            $table->string('persiapan');
+            $table->string('pengadaan');
+            $table->string('pelaksanaan');
+            $table->string('pemeliharaan');
+            $table->string('paketselesai');
             $table->softDeletes();
             $table->timestamps();
         });
