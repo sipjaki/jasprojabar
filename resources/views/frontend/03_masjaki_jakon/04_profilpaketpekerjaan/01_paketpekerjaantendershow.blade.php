@@ -179,13 +179,15 @@ color: #45a049;
 
                                                 </ul>
 
-                                            <div class="display: flex; justify-content: space-between;" style="margin-top: -15px;">
 
                                                 <a href="/datajakon/paketpekerjaantender" style="background: white;">
                                                     <button class="badgekembali" style="border: none; font-size: 12px; cursor: pointer; margin-right: 10px;">
                                                         <i class="fas fa-arrow-circle-left mr-2" style="margin-right: 15px;"></i> KEMBALI
                                                     </button>
                                                 </a>
+
+                                            <div class="display: flex; justify-content: space-between;" style="margin-top: -15px;">
+
 
                                                 <button class="green-button" style="margin-bottom:10px; text-transform:uppercase">
                                                     <i class="fas fa-file mr-2" style="margin-right:5px;"></i> INFORMASI {{$title}} : {{$data->namapekerjaan}}
