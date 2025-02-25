@@ -387,7 +387,7 @@ color: #45a049;
         <i class="fas fa-wrench" style="font-size:20px; margin-right:8px;"></i> <!-- Ikon untuk Pelaksanaan Pengembangan Status -->
     </th>
     <th colspan="11" style="text-align:left; color: black; background-color: white; padding-left: 10px; width:300px;">
-        Pelaksanaan Pengembangan - Status
+        Pelaksanaan Pengembangan
     </th>
     <th colspan="1" style="text-align:center; color: black; background-color: white; width:25px;">:</th>
     <td colspan="12" style="text-align:left; background-color: white; padding-left: 10px; color: black; width:1000px;">
