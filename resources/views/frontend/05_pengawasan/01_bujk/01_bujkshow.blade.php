@@ -280,34 +280,34 @@ color: #45a049;
 
 <table class="fl-table" style="width: 100%; border-collapse: collapse;">
     <thead>
+
         <tr>
             <th style="text-align:center; color: white; width:50px; background-color: #2e7d32;">
                 <!-- Add your icon here -->
                 <i class="fas fa-info-circle"></i>
             </th>
-            <th colspan="11" style="text-align:left; color: white; background-color: #2e7d32; padding-left: 10px;">
+            <th colspan="11" style="text-align:left; color: white; background-color: #2e7d32; padding-left: 10px; width:300px;">
                 Informasi
             </th>
-            <th colspan="1" style="text-align:center; color: white; background-color: #2e7d32;">:</th>
-            <td colspan="12" style="text-align:left; background-color: #2e7d32; padding-left: 10px; color: white;">
+            <th colspan="1" style="text-align:center; color: white; background-color: #2e7d32; width:25px;">:</th>
+            <td colspan="12" style="text-align:left; background-color: #2e7d32; padding-left: 10px; color: white; width:1000px;">
                 Keterangan
             </td>
         </tr>
 
         <tr>
-            <th style="text-align:center; color: white; width:50px; background-color: #2e7d32;">
+            <th style="text-align:center; color: white; width:50px; background-color: white;">
                 <!-- Add your icon here -->
                 <i class="fas fa-info-circle"></i>
             </th>
-            <th colspan="11" style="text-align:left; color: white; background-color: #2e7d32; padding-left: 10px;">
-                Kode Proyek
+            <th colspan="11" style="text-align:left; color: white; background-color: white; padding-left: 10px; width:300px;">
+                Informasi
             </th>
-            <th colspan="1" style="text-align:center; color: white; background-color: #2e7d32;">:</th>
-            <td colspan="12" style="text-align:left; background-color: #2e7d32; padding-left: 10px; color: white;">
-                {{$data->kodeproyek}}
+            <th colspan="1" style="text-align:center; color: white; background-color: white; width:25px;">:</th>
+            <td colspan="12" style="text-align:left; background-color: white; padding-left: 10px; color: white; width:1000px;">
+                Keterangan
             </td>
         </tr>
-
 
     </thead>
 </table>
