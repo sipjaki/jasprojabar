@@ -201,11 +201,10 @@ color: #45a049;
                 Keterangan
             </td>
         </tr>
-
         <tr>
             <th style="text-align:center; color: black; width:50px; background-color: white;">
-                <!-- Add your icon here -->
-                <i class="fas fa-info-circle"></i>
+                <!-- Add your icon here with consistent size and margin -->
+                <i class="fas fa-info-circle" style="font-size:20px; margin-right:8px;"></i>
             </th>
             <th colspan="11" style="text-align:left; color: black; background-color: white; padding-left: 10px; width:300px;">
                 Kode Proyek
@@ -218,8 +217,7 @@ color: #45a049;
 
         <tr>
             <th style="text-align:center; color: black; width:50px; background-color: white;">
-                <!-- Add your icon here -->
-                <i class="fas fa-info-circle"></i>
+                <i class="fas fa-user" style="font-size:20px; margin-right:8px;"></i> <!-- Changed icon to user -->
             </th>
             <th colspan="11" style="text-align:left; color: black; background-color: white; padding-left: 10px; width:300px;">
                 Nama Pemilik Perusahaan
@@ -232,8 +230,7 @@ color: #45a049;
 
         <tr>
             <th style="text-align:center; color: black; width:50px; background-color: white;">
-                <!-- Add your icon here -->
-                <i class="fas fa-info-circle"></i>
+                <i class="fas fa-map-marker-alt" style="font-size:20px; margin-right:8px;"></i> <!-- Changed icon to location -->
             </th>
             <th colspan="11" style="text-align:left; color: black; background-color: white; padding-left: 10px; width:300px;">
                 Alamat Perusahaan
@@ -246,8 +243,7 @@ color: #45a049;
 
         <tr>
             <th style="text-align:center; color: black; width:50px; background-color: white;">
-                <!-- Add your icon here -->
-                <i class="fas fa-info-circle"></i>
+                <i class="fas fa-cogs" style="font-size:20px; margin-right:8px;"></i> <!-- Changed icon to settings -->
             </th>
             <th colspan="11" style="text-align:left; color: black; background-color: white; padding-left: 10px; width:300px;">
                 Status Modal
@@ -260,8 +256,7 @@ color: #45a049;
 
         <tr>
             <th style="text-align:center; color: black; width:50px; background-color: white;">
-                <!-- Add your icon here -->
-                <i class="fas fa-info-circle"></i>
+                <i class="fas fa-building" style="font-size:20px; margin-right:8px;"></i> <!-- Changed icon to building -->
             </th>
             <th colspan="11" style="text-align:left; color: black; background-color: white; padding-left: 10px; width:300px;">
                 Jenis Perusahaan
@@ -274,8 +269,7 @@ color: #45a049;
 
         <tr>
             <th style="text-align:center; color: black; width:50px; background-color: white;">
-                <!-- Add your icon here -->
-                <i class="fas fa-info-circle"></i>
+                <i class="fas fa-id-card" style="font-size:20px; margin-right:8px;"></i> <!-- Changed icon to ID card -->
             </th>
             <th colspan="11" style="text-align:left; color: black; background-color: white; padding-left: 10px; width:300px;">
                 Nomor Induk Berusaha (NIB)
@@ -288,8 +282,7 @@ color: #45a049;
 
         <tr>
             <th style="text-align:center; color: black; width:50px; background-color: white;">
-                <!-- Add your icon here -->
-                <i class="fas fa-info-circle"></i>
+                <i class="fas fa-code" style="font-size:20px; margin-right:8px;"></i> <!-- Changed icon to code -->
             </th>
             <th colspan="11" style="text-align:left; color: black; background-color: white; padding-left: 10px; width:300px;">
                 KBLI
@@ -299,6 +292,7 @@ color: #45a049;
                 {{$data->kbli}}
             </td>
         </tr>
+
 
     </thead>
 </table>
