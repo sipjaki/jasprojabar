@@ -45,7 +45,7 @@ class PengawasanbujkController extends Controller
     $user = Auth::user();
 
     return view('frontend.05_pengawasan.01_bujk.01_bujkshow', [
-        'title' => 'Profil Paket Pekerjaan Konstruksi & Konsultasi Kabupaten Blora',
+        'title' => 'Pengawasan BUJK ',
         'data' => $datashow,
         'user' => $user,
 
