@@ -170,11 +170,11 @@ color: #45a049;
                                             <i class="fas fa-search" style="position: absolute; right: 10px; top: 50%; transform: translateY(-50%); font-size: 16px; color: #888;"></i>
                                         </div>
 
-                                        {{-- <a href="/datajakon/bujk" style="background: white;">
+                                        <a href="/tertibjasakonstruksi" style="background: white;">
                                             <button class="badgekembali" style="border: none; font-size: 12px; cursor: pointer; margin-right: 10px;">
-                                                <i class="fas fa-arrow-circle-left mr-2" style="margin-right: 15px;"></i> KEMBALI
+                                                <i class="fas fa-arrow-circle-left mr-2" style="margin-right: 15px;"></i><span style="color: black">KEMBALI</span>
                                             </button>
-                                        </a> --}}
+                                        </a>
 
                                     </div>
                                 </div>
