@@ -54,25 +54,44 @@
 						</li><!-- li -->
 						<li>
 
-    <script>
-        function updateClock() {
-            const now = new Date();
-            const hours = now.getHours().toString().padStart(2, '0');
-            const minutes = now.getMinutes().toString().padStart(2, '0');
-            const seconds = now.getSeconds().toString().padStart(2, '0');
-            const day = now.getDate().toString().padStart(2, '0');
-            const month = (now.getMonth() + 1).toString().padStart(2, '0'); // Months are zero-based
-            const year = now.getFullYear();
+                            <div class="container">
+                                {{-- <p>081321455855</p> --}}
+                                <div id="clock-container" style="
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                height: 6vh;
+                                font-family: Arial, sans-serif;">
+                                <p id="jam" style="
+                                    font-size: 14px;
+                                    background: #000000;
+                                    color: #fff;
+                                    padding: 2px 10px;
+                                    border-radius: 15px;
+                                    text-align: center;"></p>
+                                         {{-- <p style="color: black"></p> --}}
 
-            const timeString = `${hours}:${minutes}:${seconds}`;
-            const dateString = `${day}/${month}/${year}`;
-            document.getElementById('jam').textContent = `${dateString} ${timeString}`;
-        }
+                                        </div>
 
-        setInterval(updateClock, 1000); // Update every second
-        updateClock(); // Initial call to set the time immediately
-    </script>
-						</li><!-- li -->
+                            <script>
+                                function updateClock() {
+                                    const now = new Date();
+                                    const hours = now.getHours().toString().padStart(2, '0');
+                                    const minutes = now.getMinutes().toString().padStart(2, '0');
+                                    const seconds = now.getSeconds().toString().padStart(2, '0');
+                                    const day = now.getDate().toString().padStart(2, '0');
+                                    const month = (now.getMonth() + 1).toString().padStart(2, '0'); // Months are zero-based
+                                    const year = now.getFullYear();
+
+                                    const timeString = `${hours}:${minutes}:${seconds}`;
+                                    const dateString = `${day}/${month}/${year}`;
+                                    document.getElementById('jam').textContent = `${dateString} ${timeString}`;
+                                }
+
+                                setInterval(updateClock, 1000); // Update every second
+                                updateClock(); // Initial call to set the time immediately
+                            </script>
+                                                </li><!-- li -->
 
 					</ul><!-- ul -->
 				</div><!--topbar-info-->
