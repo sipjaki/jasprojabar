@@ -55,6 +55,9 @@
 						<li>
 
                             <div class="container">
+                                <div class="topbar-icon">
+                                    <i class="fa-solid fa-clock"></i>
+                                </div><!-- topbar-icon -->
                                 {{-- <p>081321455855</p> --}}
                                 <div id="clock-container" style="
                                 display: flex;
