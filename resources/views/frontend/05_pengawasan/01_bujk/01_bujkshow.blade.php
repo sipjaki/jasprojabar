@@ -185,65 +185,7 @@ color: #45a049;
 
                                                 </ul>
 
-                                            <div class="centered-button" style="margin-top: -15px;">
-                                                <button class="green-button" style="margin-bottom:10px; text-transform:uppercase">
-                                                    <i class="fas fa-file mr-2" style="margin-right:5px;"></i> INFORMASI BUJK KONTRAKTOR : {{$data->namalengkap}}
-                                                </button>
 
-                                            </div>
-                                            <form action="#" class="contact-form donation" method="post">
-                                                <div class="row row-gutter-10">
-                                                    <div class="col-lg-6">
-                                                        <h6><i class="fas fa-user mr-2" style="margin-right: 5px;"></i>Nama Pemilik </h6>
-                                                        <input type="text" id="fname" class="input-text" placeholder="{{$data->namalengkap}}" name="fname" aria-required="true" readonly>
-                                                    </div><!-- col-lg-6 -->
-
-                                                    <div class="col-lg-3">
-                                                        <h6><i class="fas fa-phone-alt mr-2" style="margin-right: 5px;"></i>No Telepon</h6>
-                                                        <input type="text" id="fname" class="input-text" placeholder="{{$data->no_telepon}}" name="fname" aria-required="true" readonly>
-                                                    </div><!-- col-lg-3 -->
-
-                                                    <div class="col-lg-3">
-                                                        <h6><i class="fas fa-id-card mr-2" style="margin-right: 5px;"></i>Nomor Induk Berusaha</h6>
-                                                        <input type="text" id="fname" class="input-text" placeholder="{{$data->nib}}" name="fname" aria-required="true" readonly>
-                                                    </div><!-- col-lg-3 -->
-
-                                                    <div class="col-lg-12">
-                                                        <h6><i class="fas fa-map-marker-alt mr-2" style="margin-right: 5px;"></i>Alamat</h6>
-                                                        <input type="text" id="fname" class="input-text" placeholder="{{$data->alamat}}" name="fname" aria-required="true" readonly>
-                                                    </div><!-- col-lg-12 -->
-
-                                                    <div class="col-lg-6">
-                                                        <h6><i class="fas fa-envelope mr-2" style="margin-right: 5px;"></i>Email</h6>
-                                                        <input type="text" id="fname" class="input-text" placeholder="{{$data->email}}" name="fname" aria-required="true" readonly>
-                                                    </div><!-- col-lg-6 -->
-
-                                                    <div class="col-lg-6">
-                                                        <h6><i class="fas fa-user-tie mr-2" style="margin-right: 5px;"></i>Penanggung Jawab Umum</h6>
-                                                        <input type="text" id="fname" class="input-text" placeholder="{{$data->pju}}" name="fname" aria-required="true" readonly>
-                                                    </div><!-- col-lg-6 -->
-
-                                                    <div class="col-lg-6">
-                                                        <h6><i class="fas fa-file-alt mr-2" style="margin-right: 5px;"></i>No Akte</h6>
-                                                        <input type="text" id="fname" class="input-text" placeholder="{{$data->no_akte}}" name="fname" aria-required="true" readonly>
-                                                    </div><!-- col-lg-6 -->
-
-                                                    <div class="col-lg-6">
-                                                        <h6><i class="fas fa-calendar mr-2" style="margin-right: 5px;"></i>Tanggal</h6>
-                                                        <input type="text" id="fname" class="input-text" placeholder="{{$data->tanggal}}" name="fname" aria-required="true" readonly>
-                                                    </div><!-- col-lg-6 -->
-
-                                                    <div class="col-lg-6">
-                                                        <h6><i class="fas fa-pencil-alt mr-2" style="margin-right: 5px;"></i>Notaris</h6>
-                                                        <input type="text" id="fname" class="input-text" placeholder="{{$data->nama_notaris}}" name="fname" aria-required="true" readonly>
-                                                    </div><!-- col-lg-6 -->
-
-                                                    <div class="col-lg-6">
-                                                        <h6><i class="fas fa-check-circle mr-2" style="margin-right: 5px;"></i>No Pengesahan</h6>
-                                                        <input type="text" id="fname" class="input-text" placeholder="{{$data->no_pengesahan}}" name="fname" aria-required="true" readonly>
-                                                    </div><!-- col-lg-6 -->
-                                                                                </div><!-- row row-gutter-10 -->
-                                            </form><!-- contact-form -->
                                         </div><!-- donate-box-inner -->
                                     </div><!-- col-xl-8 col-lg-12 -->
 
