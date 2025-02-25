@@ -94,6 +94,7 @@ color: #45a049;
                 border-radius: 10px;
                 display: inline-block;
                 font-size: 1rem;
+                border: none !important;
                 text-align: center;
                 font-size: 12px;
                 cursor: pointer;
