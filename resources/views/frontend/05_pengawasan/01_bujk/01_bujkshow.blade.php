@@ -517,6 +517,7 @@ color: #45a049;
     });
 </script>
 
+<button id="downloadBtn">Download as PDF</button>
 
 <div class="container-fluid" style="justify-content: right; margin-top:20px;">
 
@@ -526,7 +527,6 @@ color: #45a049;
         </button>
     </a>
 
-    <button id="downloadBtn">Download as PDF</button>
 
 
 </div>
