@@ -295,15 +295,19 @@ color: #45a049;
         </tr>
 
         <tr>
-            <th style="text-align:center; color: black; width:50px;">
+            <th style="text-align:center; color: white; width:50px; background-color: #2e7d32;">
                 <!-- Add your icon here -->
                 <i class="fas fa-info-circle"></i>
             </th>
-            <th colspan="11" style="text-align:left; color: black; width:300px;">Kode Proyek</th>
-            <th colspan="11" style="text-align:center; color: black; width:20px;">:</th>
-
-            <td colspan="12" style="text-align:left; width:1000px;">{{$data->kodeproyek}}</td>
+            <th colspan="11" style="text-align:left; color: white; background-color: #2e7d32; padding-left: 10px;">
+                Kode Proyek
+            </th>
+            <th colspan="1" style="text-align:center; color: white; background-color: #2e7d32;">:</th>
+            <td colspan="12" style="text-align:left; background-color: #2e7d32; padding-left: 10px; color: white;">
+                {{$data->kodeproyek}}
+            </td>
         </tr>
+
 
     </thead>
 </table>
