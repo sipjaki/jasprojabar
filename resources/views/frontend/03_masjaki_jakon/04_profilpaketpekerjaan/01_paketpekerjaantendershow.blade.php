@@ -408,6 +408,9 @@ color: #45a049;
                                                     </div><!-- col-lg-6 -->
                                                 </div><!-- row row-gutter-10 -->
 
+                                            </form><!-- contact-form -->
+
+
 
                                             <div style="display: flex; align-items: right;">
                                                 <a href="javascript:history.back()" style="background: white;">
@@ -416,9 +419,6 @@ color: #45a049;
                                                     </button>
                                                 </a>
                                             </div>
-
-                                            </form><!-- contact-form -->
-
 
 
                                         </div><!-- donate-box-inner -->
