@@ -293,6 +293,135 @@ color: #45a049;
             </td>
         </tr>
 
+        <tr>
+            <th style="text-align:center; color: black; width:50px; background-color: white;">
+                <i class="fas fa-list" style="font-size:20px; margin-right:8px;"></i> <!-- Changed icon to list for KBLI description -->
+            </th>
+            <th colspan="11" style="text-align:left; color: black; background-color: white; padding-left: 10px; width:300px;">
+                Uraian KBLI
+            </th>
+            <th colspan="1" style="text-align:center; color: black; background-color: white; width:25px;">:</th>
+            <td colspan="12" style="text-align:left; background-color: white; padding-left: 10px; color: black; width:1000px;">
+                {{$data->uraiankbli}}
+            </td>
+        </tr>
+
+        <tr>
+            <th style="text-align:center; color: black; width:50px; background-color: white;">
+                <i class="fas fa-industry" style="font-size:20px; margin-right:8px;"></i> <!-- Changed icon to industry for sector -->
+            </th>
+            <th colspan="11" style="text-align:left; color: black; background-color: white; padding-left: 10px; width:300px;">
+                Sektor
+            </th>
+            <th colspan="1" style="text-align:center; color: black; background-color: white; width:25px;">:</th>
+            <td colspan="12" style="text-align:left; background-color: white; padding-left: 10px; color: black; width:1000px;">
+                {{$data->sektor}}
+            </td>
+        </tr>
+
+        <tr>
+            <th style="text-align:center; color: black; width:50px; background-color: white;">
+                <i class="fas fa-map-marked-alt" style="font-size:20px; margin-right:8px;"></i> <!-- Changed icon to map marker for project address -->
+            </th>
+            <th colspan="11" style="text-align:left; color: black; background-color: white; padding-left: 10px; width:300px;">
+                Alamat Proyek
+            </th>
+            <th colspan="1" style="text-align:center; color: black; background-color: white; width:25px;">:</th>
+            <td colspan="12" style="text-align:left; background-color: white; padding-left: 10px; color: black; width:1000px;">
+                {{$data->alamatproyek}}
+            </td>
+        </tr>
+
+        <tr>
+            <th style="text-align:center; color: black; width:50px; background-color: white;">
+                <i class="fas fa-globe" style="font-size:20px; margin-right:8px;"></i> <!-- Changed icon to globe for region -->
+            </th>
+            <th colspan="11" style="text-align:left; color: black; background-color: white; padding-left: 10px; width:300px;">
+                Wilayah
+            </th>
+            <th colspan="1" style="text-align:center; color: black; background-color: white; width:25px;">:</th>
+            <td colspan="12" style="text-align:left; background-color: white; padding-left: 10px; color: black; width:1000px;">
+                {{$data->wilayah}}
+            </td>
+        </tr>
+
+        <tr>
+            <th style="text-align:center; color: black; width:50px; background-color: white;">
+                <i class="fas fa-home" style="font-size:20px; margin-right:8px;"></i> <!-- Changed icon to home for land area -->
+            </th>
+            <th colspan="11" style="text-align:left; color: black; background-color: white; padding-left: 10px; width:300px;">
+                Luas Tanah
+            </th>
+            <th colspan="1" style="text-align:center; color: black; background-color: white; width:25px;">:</th>
+            <td colspan="12" style="text-align:left; background-color: white; padding-left: 10px; color: black; width:1000px;">
+                {{$data->luastanah}}
+            </td>
+        </tr>
+
+        <tr>
+            <th style="text-align:center; color: black; width:50px; background-color: white;">
+                <i class="fas fa-male" style="font-size:20px; margin-right:8px;"></i> <!-- Changed icon to male for male TKI -->
+            </th>
+            <th colspan="11" style="text-align:left; color: black; background-color: white; padding-left: 10px; width:300px;">
+                TKI Laki Laki
+            </th>
+            <th colspan="1" style="text-align:center; color: black; background-color: white; width:25px;">:</th>
+            <td colspan="12" style="text-align:left; background-color: white; padding-left: 10px; color: black; width:1000px;">
+                {{$data->tki_lakilaki}}
+            </td>
+        </tr>
+
+        <tr>
+            <th style="text-align:center; color: black; width:50px; background-color: white;">
+                <i class="fas fa-female" style="font-size:20px; margin-right:8px;"></i> <!-- Changed icon to female for female TKI -->
+            </th>
+            <th colspan="11" style="text-align:left; color: black; background-color: white; padding-left: 10px; width:300px;">
+                TKI Perempuan
+            </th>
+            <th colspan="1" style="text-align:center; color: black; background-color: white; width:25px;">:</th>
+            <td colspan="12" style="text-align:left; background-color: white; padding-left: 10px; color: black; width:1000px;">
+                {{$data->tki_perempuan}}
+            </td>
+        </tr>
+
+        <tr>
+            <th style="text-align:center; color: black; width:50px; background-color: white;">
+                <i class="fas fa-mars" style="font-size:20px; margin-right:8px;"></i> <!-- Changed icon to mars for male TKA -->
+            </th>
+            <th colspan="11" style="text-align:left; color: black; background-color: white; padding-left: 10px; width:300px;">
+                TKA Laki Laki
+            </th>
+            <th colspan="1" style="text-align:center; color: black; background-color: white; width:25px;">:</th>
+            <td colspan="12" style="text-align:left; background-color: white; padding-left: 10px; color: black; width:1000px;">
+                {{$data->tka_lakilaki}}
+            </td>
+        </tr>
+
+        <tr>
+            <th style="text-align:center; color: black; width:50px; background-color: white;">
+                <i class="fas fa-venus" style="font-size:20px; margin-right:8px;"></i> <!-- Changed icon to venus for female TKA -->
+            </th>
+            <th colspan="11" style="text-align:left; color: black; background-color: white; padding-left: 10px; width:300px;">
+                TKA Perempuan
+            </th>
+            <th colspan="1" style="text-align:center; color: black; background-color: white; width:25px;">:</th>
+            <td colspan="12" style="text-align:left; background-color: white; padding-left: 10px; color: black; width:1000px;">
+                {{$data->tka_perempuan}}
+            </td>
+        </tr>
+
+        <tr>
+            <th style="text-align:center; color: black; width:50px; background-color: white;">
+                <i class="fas fa-exclamation-circle" style="font-size:20px; margin-right:8px;"></i> <!-- Changed icon to exclamation-circle for risk -->
+            </th>
+            <th colspan="11" style="text-align:left; color: black; background-color: white; padding-left: 10px; width:300px;">
+                Resiko
+            </th>
+            <th colspan="1" style="text-align:center; color: black; background-color: white; width:25px;">:</th>
+            <td colspan="12" style="text-align:left; background-color: white; padding-left: 10px; color: black; width:1000px;">
+                {{$data->resiko}}
+            </td>
+        </tr>
 
     </thead>
 </table>
