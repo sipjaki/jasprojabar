@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 
 use App\Models\profilpaketkonsultasi;
+use App\Models\prosespaketkonsultasi;
 
 use Illuminate\Http\Request;
 
@@ -27,8 +28,9 @@ class ProfilpaketkonsultasiController extends Controller
 
     public function paketkonsultasishow($jenispekerjaan)
     {
-        $data = profilpaketkonsultasi::where('jenispekerjaan', $jenispekerjaan)->first();
+        $datapaketkonsultasi = profilpaketkonsultasi::where('jenispekerjaan', $jenispekerjaan)->first();
 
+        $subdata = prosespaketkonsultasi::all();
         // if (!$databujkkontraktor) {
         //     // Tangani jika kegiatan tidak ditemukan
         //     return redirect()->back()->with('error', 'Kegiatan tidak ditemukan.');
@@ -46,7 +48,9 @@ class ProfilpaketkonsultasiController extends Controller
 
     return view('frontend.03_masjaki_jakon.04_profilpaketpekerjaan.03_paketkonsultasitendershow', [
         'title' => 'Profil Paket Pekerjaan Konstruksi & Konsultasi Kabupaten Blora',
-        'data' => $data,
+        'data' => $datapaketkonsultasi,
+        'subdata' => $subdata,
+        'user' => $user,
 
     ]);
     }
