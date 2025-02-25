@@ -284,8 +284,8 @@ color: #45a049;
                                 <th style="text-align:center" style="color: black">Nama Pengurus</th>
                                 <td>1</td>
 
-                                <td>{{$data->nama_pengurus}}</td>
-                                <td>{{$data->nama_pengurus}}</td>
+                                <td>{{$data->namaperusahaan}}</td>
+                                <td>{{$data->namaperusahaan}}</td>
 
                             </tr>
                         </thead>
