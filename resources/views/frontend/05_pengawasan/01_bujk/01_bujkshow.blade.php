@@ -250,7 +250,7 @@ color: #45a049;
     </thead>
 </table>
 
-<div class="container-fluid">
+<div class="container-fluid" style="justify-content: right; margin-top:20px;">
 
     <a href="/pengawasanbujk" style="background: white;">
         <button class="badgekembali" style="border: none; font-size: 12px; cursor: pointer; margin-right: 10px;">
