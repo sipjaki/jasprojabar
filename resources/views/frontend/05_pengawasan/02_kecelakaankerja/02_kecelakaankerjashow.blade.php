@@ -278,7 +278,7 @@ color: #45a049;
             <th colspan="1" style="text-align:center; color: black; background-color: white; width:25px;">:</th>
             <td colspan="12" style="text-align:left; background-color: white; padding-left: 10px; color: black; width:1000px;">
                 {{-- {{$data->lokasikecelakaan}} --}}
-                {{ \Carbon\Carbon::parse($item->waktukecelakaan)->isoFormat('D MMMM YYYY') }}
+                {{ \Carbon\Carbon::parse($data->waktukecelakaan)->isoFormat('D MMMM YYYY') }}
 
             </td>
         </tr>
@@ -306,7 +306,7 @@ color: #45a049;
             </th>
             <th colspan="1" style="text-align:center; color: black; background-color: white; width:25px;">:</th>
             <td colspan="12" style="text-align:left; background-color: white; padding-left: 10px; color: black; width:1000px;">
-                Rp {{ number_format($item->nilaikerugian, 0, ',', '.') }}
+                Rp {{ number_format($data->nilaikerugian, 0, ',', '.') }}
             </td>
         </tr>
 
