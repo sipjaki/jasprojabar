@@ -283,8 +283,9 @@ color: #45a049;
                                 <th style="text-align:center" style="color: black">Nama Pengurus</th>
                                 <th style="text-align:center" style="color: black">Nama Pengurus</th>
                                 <td>1</td>
-                                <td>{{$item->nama_pengurus}}</td>
-                                <td>{{$item->nama_pengurus}}</td>
+
+                                <td>{{$data->nama_pengurus}}</td>
+                                <td>{{$data->nama_pengurus}}</td>
 
                             </tr>
                         </thead>
