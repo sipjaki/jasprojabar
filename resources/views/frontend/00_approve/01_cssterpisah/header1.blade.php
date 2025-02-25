@@ -16,20 +16,22 @@
 								<i class="fa-solid fa-database"></i>
 							</div><!-- topbar-icon --> --}}
 							<div class="topbar-text" style="margin-right: 20px;
-  border-radius: 20px;
-  background-color: white;
-  color: green;
-  padding: 5px;
-  overflow: hidden;
-  white-space: nowrap;
-  display: inline-block;
-  width: 100%;">
-  <marquee behavior="scroll" direction="left">
-    <a href="/404" style="color: green; text-decoration: none;">
-      Sistem Informasi Pembina Jasa Konstruksi Dinas Pekerjaan Umum dan Penataan Ruang Kabupaten Blora Provinsi Jawa Tengah
-    </a>
-  </marquee>
-</div>
+                            border-radius: 20px;
+                            background-color: white;
+                            color: green;
+                            padding: 5px;
+                            overflow: hidden;
+                            font-size:18px;
+                            white-space: nowrap;
+                            display: inline-block;
+                            width: 100%;">
+
+                            <marquee behavior="scroll" direction="left">
+                                <a href="/404" style="color: green; text-decoration: none;">
+                                Selamat Datan di Mas Jaki DPUPR Kab Blora Sistem Informasi Pembina Jasa Konstruksi Dinas Pekerjaan Umum dan Penataan Ruang Kabupaten Blora Provinsi Jawa Tengah
+                                </a>
+                            </marquee>
+                            </div>
 
                             <div class="topbar-icon">
 								<i class="fa-solid fa-envelope"></i>
