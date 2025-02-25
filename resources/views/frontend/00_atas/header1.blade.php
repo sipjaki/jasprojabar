@@ -90,5 +90,6 @@
         </div>
     </div>
 </header>
-
-@include('frontend.00_approve.01_cssterpisah.logo')
+<section>
+    @include('frontend.00_approve.01_cssterpisah.logo')
+</section>
