@@ -223,7 +223,3 @@
 		</div><!--main-menu-inner-->
 	</div><!--main-menu-->
 </header><!--header-->
-
-<section>
-    @include('frontend.00_approve.01_cssterpisah.logo')
-</section>
