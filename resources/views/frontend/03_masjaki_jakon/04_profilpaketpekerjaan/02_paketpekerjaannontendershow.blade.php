@@ -676,7 +676,7 @@ color: #45a049;
 }
 
 .progress-step.in-progress .circle {
-    background-color: yellow;
+    background-color: orange;
 }
 
 .progress-step.not-started .circle {
@@ -692,7 +692,7 @@ color: #45a049;
 }
 
 .line.in-progress {
-    background-color: yellow;
+    background-color: orange;
 }
 
 .line.not-started {
