@@ -23,7 +23,6 @@
                             color: green;
                             padding: 5px;
                             overflow: hidden;
-                            font-size:25px;
                             white-space: nowrap;
                             display: inline-block;
                             width: 100%;">
