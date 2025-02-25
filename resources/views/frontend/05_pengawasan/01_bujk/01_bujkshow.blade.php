@@ -1,32 +1,17 @@
 <style>
     /* Import font Poppins */
     @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
-    .fl-table {
-    width: 100%;
-    border-collapse: collapse;
-    table-layout: fixed;
-}
 
-.fl-table th, .fl-table td {
+
+    .fl-table th {
     padding: 10px;
     text-align: center;
 }
 
-.fl-table th {
-    background-color: #f2f2f2;
-    font-weight: bold;
+.fl-table i {
+    font-size: 20px; /* Adjust icon size */
+    margin-right: 8px; /* Add space between icon and text */
 }
-
-.fl-table td {
-    background-color: #fff;
-}
-
-.fl-table td[colspan="12"], .fl-table th[colspan="12"] {
-    width: 100%;
-}
-
-
-
 
 
 
@@ -218,12 +203,10 @@
                                         </head>
 
                     <body>
-                 <!-- Add this inside your HTML <head> for FontAwesome -->
+                    <div class="table-wrapper">
+
+                  <!-- Add this inside your HTML <head> for FontAwesome -->
 <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
-
-
-
-
 
 <table class="fl-table" style="width: 100%; border-collapse: collapse;">
     <thead>
@@ -251,7 +234,6 @@
         </tr>
     </thead>
 </table>
-
 
                     </div>
                                                 </div><!-- document-details-list -->
