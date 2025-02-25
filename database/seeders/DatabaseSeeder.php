@@ -6189,7 +6189,7 @@ prosespaketkonsultasinontender::create([
 //     'nilaikerugian' => ' Rp825.031 ',
 // ]);
 
-Kecelakaankerjamasjaki::create([
+kecelakaankerjamasjaki::create([
     'namapaketpekerjaan' => 'PAKET PEKERJAAN KONSTRUKSI PEMBANGUNAN BENDUNGAN RANDUGUNTING',
     'tahun' => 2022,  // Menggunakan angka tahun, bukan string
     'namaperusahaan' => 'WIJAYA KARYA 2022',

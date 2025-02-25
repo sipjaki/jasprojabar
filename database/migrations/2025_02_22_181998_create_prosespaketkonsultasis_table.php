@@ -13,12 +13,12 @@ return new class extends Migration
     {
         Schema::create('prosespaketkonsultasis', function (Blueprint $table) {
             $table->id();
-            $table->foreignId('profilpaketkonsultasi_id');
-            $table->string('persiapan');
-            $table->string('pengadaan');
-            $table->string('pelaksanaan');
-            $table->string('pemeliharaan');
-            $table->string('paketselesai');
+            $table->foreignId('profilpaketkonsultasi_id')->nullable();;
+            $table->string('persiapan')->nullable();;
+            $table->string('pengadaan')->nullable();;
+            $table->string('pelaksanaan')->nullable();;
+            $table->string('pemeliharaan')->nullable();;
+            $table->string('paketselesai')->nullable();;
             $table->softDeletes();
             $table->timestamps();
         });
