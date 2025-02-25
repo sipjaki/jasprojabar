@@ -280,11 +280,14 @@ color: #45a049;
                             <tr>
                                 {{-- <th style="text-align:center" >No</th> --}}
                                 <th style="text-align:center" style="color: black" >No</th>
-                                <th style="text-align:center" style="color: black">Nama Pengurus</th>
-                                <th style="text-align:center" style="color: black">Nama Pengurus</th>
                                 <td>1</td>
-
+                            </tr>
+                            <tr>
+                                <th style="text-align:center" style="color: black">Nama Pengurus</th>
                                 <td>{{$data->namaperusahaan}}</td>
+                            </tr>
+                            <tr>
+                                <th style="text-align:center" style="color: black">Nama Pengurus</th>
                                 <td>{{$data->namaperusahaan}}</td>
 
                             </tr>
