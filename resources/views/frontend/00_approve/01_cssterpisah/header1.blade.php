@@ -12,14 +12,14 @@
 				<div class="topbar-info">
 					<ul>
 						<li>
-							<div class="topbar-icon">
+							{{-- <div class="topbar-a">
 								<i class="fa-solid fa-database"></i>
-							</div><!-- topbar-icon -->
+							</div><!-- topbar-icon --> --}}
 							<div class="topbar-text" style="margin-right: 20px;
   border-radius: 20px;
   background-color: white;
   color: green;
-  padding: 10px;
+  padding: 5px;
   overflow: hidden;
   white-space: nowrap;
   display: inline-block;
