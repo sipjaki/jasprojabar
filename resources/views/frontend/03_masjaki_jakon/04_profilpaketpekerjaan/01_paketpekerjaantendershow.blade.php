@@ -394,7 +394,6 @@ color: #45a049;
                     </div><!--service-two-card-content-->
                 </div><!--service-two-card-->
             </div><!--col-12 col-lg-4 col-xl-4-->
-
             <div class="progress-cards">
                 <!-- Card 1 -->
                 <div class="progress-card">
@@ -423,7 +422,7 @@ color: #45a049;
                         <p class="step-title">Tahap 3</p>
                         <p class="step-status">Sedang Proses</p>
                     </div>
-                    <div class="line"></div>
+                    <div class="line in-progress"></div>
                 </div>
 
                 <!-- Card 4 -->
@@ -447,12 +446,13 @@ color: #45a049;
             </div>
 
 <style>
-    .progress-cards {
+.progress-cards {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 20px 0;
     flex-wrap: wrap;
+    position: relative;
 }
 
 .progress-card {
@@ -463,6 +463,7 @@ color: #45a049;
     border-radius: 8px;
     text-align: center;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
 }
 
 .progress-step {
@@ -491,6 +492,8 @@ color: #45a049;
     top: 50%;
     left: 50%;
     transform: translateX(-50%);
+    opacity: 0;
+    animation: animateLine 1.5s ease-in-out forwards;
 }
 
 .completed .circle {
@@ -514,14 +517,27 @@ color: #45a049;
 
 .completed .line {
     background-color: green;
+    opacity: 1;
 }
 
 .in-progress .line {
     background-color: orange;
+    opacity: 1;
 }
 
 .progress-card:last-child .line {
     display: none;
+}
+
+@keyframes animateLine {
+    0% {
+        width: 0;
+        opacity: 1;
+    }
+    100% {
+        width: 100%;
+        opacity: 1;
+    }
 }
 
 </style>
