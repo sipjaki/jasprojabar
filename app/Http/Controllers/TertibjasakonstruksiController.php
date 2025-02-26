@@ -58,6 +58,25 @@ class TertibjasakonstruksiController extends Controller
         ]);
     }
 
+    public function tertibjasakonstruksiusahanonpu()
+    {
+        // $data = tertibjasakonstruksi::paginate(10);
+        $data = tertibjasakonstruksi::whereHas('penyediastatustertibjakon', function ($query) {
+            // Mengambil data dengan penyedia_id pertama
+            $query->where('penyediastatustertibjakon_id', 2); // 1 bisa diganti dengan ID pertama yang diinginkan
+        })->paginate(10);
+
+        $datasub = penyediastatustertibjakon::paginate(15);
+        $user = Auth::user();
+
+        return view('frontend.05_pengawasan.03_tertibjakon.01_tertibusaha.00_filter.tertibusahanonpu', [
+            'title' => 'Non-PU Tertib Usaha Jasa Konstruksi',
+            'user' => $user, // Mengirimkan data paginasi ke view
+            'data' => $data, // Mengirimkan data paginasi ke view
+            'datasub' => $datasub, // Mengirimkan data paginasi ke view
+        ]);
+    }
+
     public function tertibjasakonstruksishow($namabadanusaha)
     {
         $datatertibusaha = tertibjasakonstruksi::where('namabadanusaha', $namabadanusaha)->first();
