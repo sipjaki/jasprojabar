@@ -190,7 +190,7 @@ color: #45a049;
                                             </button>
                                         </a>
 
-                                        <a href="/tertibjasakonstruksi" style="background: white;">
+                                        <a href="/tertibjasakonstruksiusaha/nonpu" style="background: white;">
                                             <button class="badgemenu" style="border: none; font-size: 12px; cursor: pointer; margin-right: 10px;">
                                                 <i class="fas fa-edit mr-2" style="margin-right: 15px;"></i><span style="color: black; font-weight:bold">Non-PU</span>
                                             </button>
