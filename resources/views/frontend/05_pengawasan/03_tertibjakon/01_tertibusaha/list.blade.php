@@ -252,7 +252,7 @@ color: #45a049;
 
                                 @foreach ($data as $item )
                                 <tr>
-                                    <td>{{ $loop->iteration + $start - 1 }}</td>
+                                    <td style="text-align: center;">{{ $loop->iteration + $start - 1 }}</td>
                                     <td>{{$item->penyediastatustertibjakon->penyedia}}</td>
                                     {{-- <td>{{$item->nib}}</td> --}}
                                     <td>{{$item->namabadanusaha}}</td>
