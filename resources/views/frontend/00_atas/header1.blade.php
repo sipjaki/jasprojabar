@@ -1,5 +1,5 @@
 
-<header class="top" style="background: orange">
+<header class="top">
 
     <div class="container">
         {{-- <p>081321455855</p> --}}
