@@ -98,10 +98,10 @@
                                     {{-- <img class="img-fluid w-100 h-100" src="{{ asset('storage/'. $item->gambar )}}" style="object-fit: cover;"> --}}
                                     <div class="overlay">
                                     <div class="mb-2">
-                                        <a class="badge badge-success text-uppercase font-weight-semi-bold p-2 mr-2" href="/portalberita/{{$item->judul}}">News</a>
+                                        {{-- <a class="badge badge-success text-uppercase font-weight-semi-bold p-2 mr-2" href="/portalberita/{{$item->judul}}">News</a> --}}
                                         {{-- <a class="text-white" href=""><small>Jan 01, 2045</small></a> --}}
                                     </div>
-                                    <a class="h6 m-0 text-white text-uppercase font-weight-semi-bold" href="/portalberita/{{$item->judul}}">{{ $item->judul }}</a>
+                                    {{-- <a class="h6 m-0 text-white text-uppercase font-weight-semi-bold" href="/portalberita/{{$item->judul}}">{{ $item->judul }}</a> --}}
                                 </div>
                             </a>
 
