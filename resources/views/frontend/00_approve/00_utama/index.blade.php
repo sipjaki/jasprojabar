@@ -54,33 +54,33 @@
 		</div><!-- main-slider-swiper -->
 
 
+
+
     <!-- Main News Slider Start -->
-    <div class="container-fluid" style="margin-top: 160px;">
+    <div class="container-fluid" style="margin-top:165px;">
         <div class="row">
             <div class="col-lg-7 px-0">
-                <div class="owl-carousel main-carousel position-relative" style="color: green">
+                <div class="owl-carousel main-carousel position-relative">
 
-                    {{-- @foreach ($data as $item ) --}}
+                    @foreach ($databerita as $item )
 
 
                     <div class="position-relative overflow-hidden" style="height: 500px;">
-                        {{-- <a href="/portalberita/{{ $item->judul}}"> --}}
-                            {{-- <img class="img-fluid h-100" src="{{ asset('storage/' . $item->gambar) }}" style="object-fit: cover;"> --}}
-
+                        <a href="/portalberita/{{ $item->judul}}">
+                            <img class="img-fluid h-100" src="{{asset('storage/' . $item->gambar ) }}" style="object-fit: cover;">
                         </a>
                         <div class="overlay">
                             <div class="mb-2">
-                                {{-- <a class="badge badge-success text-uppercase font-weight-semi-bold p-2 mr-2"
-                                href="/portalberita/{{ $item->judul}}">News</a> --}}
-
-
+                                <a class="badge badge-primary text-uppercase font-weight-semi-bold p-2 mr-2"
+                                href="/portalberita/{{ $item->judul}}">News</a>
+                                {{-- <a class="text-white" href="">Jan 01, 2045</a> --}}
                             </div>
-                            {{-- <a class="h2 m-0 text-white text-uppercase font-weight-bold" style="font-size: 24px;" href="/portalberita/{{ $item->judul}}">{{ $item->judul }}</a> --}}
+                            <a class="h2 m-0 text-white text-uppercase font-weight-bold" style="font-size: 24px;" href="/portalberita/{{ $item->judul}}">{{ $item->judul }}</a>
                         </div>
                     </div>
 
 
-                    {{-- @endforeach --}}
+                    @endforeach
 
 
 
@@ -88,26 +88,25 @@
             </div>
             <div class="col-lg-5 px-0">
                 <div class="row mx-0">
-
-                    {{-- @foreach ($data->slice(-4) as $item) --}}
+                    @foreach ($databerita->slice(-4) as $item)
 
                         <div class="col-md-6 px-0">
-                            {{-- <a href="/portalberita/{{$item->judul}}"> --}}
+                            <a href="/portalberita/{{$item->judul}}">
 
                                 <div class="position-relative overflow-hidden" style="height: 250px;">
-                                    {{-- <img class="img-fluid w-100 h-100" src="{{ asset('storage/'. $item->gambar )}}" style="object-fit: cover;"> --}}
+                                    <img class="img-fluid w-100 h-100" src="{{asset('storage/' . $item->gambar ) }}" style="object-fit: cover;">
                                     <div class="overlay">
                                     <div class="mb-2">
-                                        {{-- <a class="badge badge-success text-uppercase font-weight-semi-bold p-2 mr-2" href="/portalberita/{{$item->judul}}">News</a> --}}
+                                        <a class="badge badge-primary text-uppercase font-weight-semi-bold p-2 mr-2" href="/portalberita/{{$item->judul}}">News</a>
                                         {{-- <a class="text-white" href=""><small>Jan 01, 2045</small></a> --}}
                                     </div>
-                                    {{-- <a class="h6 m-0 text-white text-uppercase font-weight-semi-bold" href="/portalberita/{{$item->judul}}">{{ $item->judul }}</a> --}}
+                                    <a class="h6 m-0 text-white text-uppercase font-weight-semi-bold" href="/portalberita/{{$item->judul}}">{{ $item->judul }}</a>
                                 </div>
                             </a>
 
                             </div>
                         </div>
-                    {{-- @endforeach --}}
+                    @endforeach
 
                 </div>
             </div>
@@ -123,12 +122,12 @@
                 <div class="col-12">
                     <a href="">
                         <div class="d-flex justify-content-between">
-                            <div class="bg-success text-dark text-center font-weight-medium py-2" style="width: 170px;">News</div>
+                            <div class="bg-primary text-dark text-center font-weight-medium py-2" style="width: 170px;">News</div>
                             <div class="owl-carousel tranding-carousel position-relative d-inline-flex align-items-center ml-3"
                             style="width: calc(100% - 170px); padding-right: 90px;">
-                            {{-- @foreach ($data as $item) --}}
-                            {{-- <div class="text-truncate"><a class="text-white text-uppercase font-weight-semi-bold" href="">{{$item->judul}}</a></div> --}}
-                            {{-- @endforeach --}}
+                            @foreach ($databerita as $item)
+                            <div class="text-truncate"><a class="text-white text-uppercase font-weight-semi-bold" href="/portalberita/{{$item->judul}}">{{$item->judul}}</a></div>
+                            @endforeach
                         </div>
                     </a>
                     </div>
