@@ -44,7 +44,7 @@ class TertibjasakonstruksiController extends Controller
         // $data = tertibjasakonstruksi::paginate(10);
         $data = tertibjasakonstruksi::whereHas('penyediastatustertibjakon', function ($query) {
             // Mengambil data dengan penyedia_id pertama
-            $query->where('penyedia_id', 1); // 1 bisa diganti dengan ID pertama yang diinginkan
+            $query->where('penyediastatustertibjakon_id', 1); // 1 bisa diganti dengan ID pertama yang diinginkan
         })->paginate(10);
 
         $datasub = penyediastatustertibjakon::paginate(15);
