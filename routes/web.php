@@ -171,6 +171,8 @@ Route::get('/tertibjasakonstruksi', [TertibjasakonstruksiController::class, 'ind
 Route::get('/tertibjasakonstruksilist', [TertibjasakonstruksiController::class, 'tertibjasakonstruksilist']);
 Route::get('/tertibjasakonstruksilist/{namabadanusaha}', [TertibjasakonstruksiController::class, 'tertibjasakonstruksishow']);
 
+Route::get('/tertibjasakonstruksiusaha/pu', [TertibjasakonstruksiController::class, 'index']);
+
 // fort
 
 // ------------- HALAMAN UNTUK DATA SERTIFIKASI TENAGA KERJA AHLI -----------------
