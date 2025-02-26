@@ -127,7 +127,7 @@
                             <div class="owl-carousel tranding-carousel position-relative d-inline-flex align-items-center ml-3"
                             style="width: calc(100% - 170px); padding-right: 90px;">
                             {{-- @foreach ($data as $item) --}}
-                            <div class="text-truncate"><a class="text-white text-uppercase font-weight-semi-bold" href="">{{$item->judul}}</a></div>
+                            {{-- <div class="text-truncate"><a class="text-white text-uppercase font-weight-semi-bold" href="">{{$item->judul}}</a></div> --}}
                             {{-- @endforeach --}}
                         </div>
                     </a>
