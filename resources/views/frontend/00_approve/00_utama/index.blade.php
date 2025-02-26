@@ -24,7 +24,7 @@
 				</div><!-- container -->
 			</div><!--item-->
 			<div class="item">
-				<div class="item-slider-bg"  style="background-image: url(assets/00_dokmasjaki/01_beranda/masjaki1.jpg)"></div>
+				<div class="item-slider-bg"  style="background-image: url(assets/00_dokmasjaki/03_datajakon/petaindonesiabaru.png)"></div>
 				<div class="container">
 					<div class="row">
 						<div class="col-md-12">
