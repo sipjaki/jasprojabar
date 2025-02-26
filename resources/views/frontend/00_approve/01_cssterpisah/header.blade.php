@@ -19,16 +19,6 @@
 	<link rel="stylesheet" href="/assets/approve/vendor/youtube-popup/youtube-popup.css">
 	<link rel="stylesheet" type="text/css" href="/assets/approve/css/style.css">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="/assets/bahan2/css/bootstrap.min.css">
-    <!----css3---->
-    <link rel="stylesheet" href="/assets/bahan2/css/custom.css">
-
-    <link rel="stylesheet" href="/assets/bahan2/font/flaticon.css">
-    <!-- SLIDER REVOLUTION 4.x CSS SETTINGS -->
-   <link rel="stylesheet" type="text/css" href="/assets/bahan2/css/settings.css" media="screen" />
-
-
     <!-- Menambahkan link FontAwesome di bagian head -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 
