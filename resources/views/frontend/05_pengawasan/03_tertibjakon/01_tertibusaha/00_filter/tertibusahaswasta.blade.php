@@ -23,7 +23,7 @@ overflow: hidden;
 
 /* Header styling */
 .fl-table thead {
-background: #ffae00;
+background: #FFD100;
 text-transform: uppercase;
 font-weight: 600;
 letter-spacing: 0.5px;
@@ -106,7 +106,7 @@ color: #45a049;
             }
 
             .badgemenu {
-                background: linear-gradient(to right, orange, green);
+                background: linear-gradient(to right, #FFD100, green);
                 color: white;
                 padding: 10px 20px;
                 border-radius: 10px;
