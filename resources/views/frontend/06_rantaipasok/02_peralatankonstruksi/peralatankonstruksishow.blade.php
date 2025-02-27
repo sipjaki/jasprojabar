@@ -176,6 +176,17 @@ color: #45a049;
 
                                 </div>
 
+                                <div class="container-fluid" style="justify-content: right; margin-top:20px;">
+
+                                    <a href="javascript:window.history.back()" style="background: white;">
+                                        <button class="badgekembali" style="border: none; font-size: 12px; cursor: pointer; margin-right: 10px;">
+                                            <i class="fas fa-arrow-circle-left mr-2" style="margin-right: 15px;"></i> KEMBALI
+                                        </button>
+                                    </a>
+
+                                </div>
+
+
 
                                                         {{-- TABLE DATA  --}}
                                         </head>
@@ -238,19 +249,37 @@ color: #45a049;
                 {{$data->notelepon}}
             </td>
         </tr>
-        <tr>
-            {{-- <th style="text-align:center" >No</th> --}}
-            <th style="text-align:center; color:black: width:75px;">No</th>
-            <th style="text-align:center; color:black: width:400px;">Alat Berat</th>
-            <th style="text-align:center; color:black: width:600px;">Jumlah </th>
-
-            </tr>
-
 
     </thead>
 
+<div class="col-lg-12">
 
+    <div class="document-details">
+        <div class="document-details-list">
+            <div class="centered-button" style="margin-top: -15px">
+                <button class="green-button" style="margin-bottom:10px; text-transform:uppercase">
+                    <i class="fas fa-file mr-2" style="margin-right:5px;"></i> JUMLAH ALAT BERAT : {{$data->namabadanusaha}}
+                </button>
+
+            </div>
+
+
+                                    {{-- TABLE DATA  --}}
+                    </head>
+
+<body>
+<div class="table-wrapper">
+<table class="fl-table">
     <thead>
+        <tr>
+            {{-- <th style="text-align:center" >No</th> --}}
+            <th style="text-align:center" style="color: black" >No</th>
+            <th style="text-align:center" style="color: black"> Alat Berat</th>
+            <th style="text-align:center" style="color: black"> Jumlah </th>
+
+            </tr>
+    </thead>
+    <tbody>
 
     {{-- @php
         // Pastikan $data tidak null atau tidak terdefinisi
@@ -266,19 +295,22 @@ color: #45a049;
     @endforeach
 
     </tbody>
+</table>
+</div>
+                            </div><!-- document-details-list -->
 
+                        </div><!-- document-details -->
+                    </div><!-- document-details-inner -->
+
+
+                </div><!-- col-lg-8 -->
+            </div><!-- row -->
+        </div><!-- container -->
+    </div><!--page-wrapper-->
+</div><!--page-wrapper-->
+</div><!--page-wrapper-->
 
 </table>
-
-<div class="container-fluid" style="justify-content: right; margin-top:20px;">
-
-    <a href="javascript:window.history.back()" style="background: white;">
-        <button class="badgekembali" style="border: none; font-size: 12px; cursor: pointer; margin-right: 10px;">
-            <i class="fas fa-arrow-circle-left mr-2" style="margin-right: 15px;"></i> KEMBALI
-        </button>
-    </a>
-
-</div>
 
 
 
