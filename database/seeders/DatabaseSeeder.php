@@ -93,6 +93,7 @@ use App\Models\kecamatanblora;
 use App\Models\rantaipasokblora;
 use App\Models\peralatankonstruksi;
 use App\Models\alatberat;
+use App\Models\tokobangunanblora;
 
 
 // modelbaru
@@ -4504,6 +4505,219 @@ peralatankonstruksi::create([
         'alatberat' => 'Backhoe Loader',
         'jumlahalatberat' => 4,
     ]);
+
+    //======================== ===================================================================================
+    // PENGAWASAN BUJK MAS JAKI BLORA
+    tokobangunanblora::create([
+        'kecamatanblora_id' => '1',
+        'namatokobangunan' => 'Toko Bangunan Sumber Jaya',
+        'pemilik' => 'Budi Santoso',
+        'alamat' => 'Jl. Pemuda No. 10, Blora',
+        'notelepon' => '081234567890',
+        'email' => 'sumberjaya@email.com',
+        'jenisprodukbangunan' => 'Semen, Besi, Pasir, Cat',
+        'keterangan' => 'Menyediakan bahan bangunan lengkap dengan layanan antar',
+    ]);
+
+    tokobangunanblora::create([
+        'kecamatanblora_id' => '1',
+        'namatokobangunan' => 'Toko Bangunan Makmur',
+        'pemilik' => 'Siti Rohmah',
+        'alamat' => 'Jl. Raya Randublatung No. 25, Blora',
+        'notelepon' => '082112345678',
+        'email' => 'tokomakmur@email.com',
+        'jenisprodukbangunan' => 'Batu bata, Semen, Atap, Pipa',
+        'keterangan' => 'Melayani pembelian dalam jumlah besar dan kecil',
+    ]);
+
+    tokobangunanblora::create([
+        'kecamatanblora_id' => '2',
+        'namatokobangunan' => 'Toko Bangunan Sejahtera',
+        'pemilik' => 'Agus Wijaya',
+        'alamat' => 'Jl. Blora Cepu KM 7, Blora',
+        'notelepon' => '085678901234',
+        'email' => 'sejahtera_bangunan@email.com',
+        'jenisprodukbangunan' => 'Kaca, Kayu, Triplek, GRC',
+        'keterangan' => 'Tersedia berbagai jenis kayu dan material finishing',
+    ]);
+
+    tokobangunanblora::create([
+        'kecamatanblora_id' => '2',
+        'namatokobangunan' => 'Toko Bangunan Maju Jaya',
+        'pemilik' => 'Hendro Prasetyo',
+        'alamat' => 'Jl. Ronggolawe No. 45, Blora',
+        'notelepon' => '087876543210',
+        'email' => 'tokomajujaya@email.com',
+        'jenisprodukbangunan' => 'Besi Beton, Pasir, Batu Koral',
+        'keterangan' => 'Menyediakan bahan material konstruksi berat',
+    ]);
+
+    tokobangunanblora::create([
+        'kecamatanblora_id' => '3',
+        'namatokobangunan' => 'Toko Bangunan Sentosa',
+        'pemilik' => 'Rina Kartika',
+        'alamat' => 'Jl. Veteran No. 15, Blora',
+        'notelepon' => '081356789012',
+        'email' => 'tokosentosa@email.com',
+        'jenisprodukbangunan' => 'Genteng, Keramik, Cat Tembok',
+        'keterangan' => 'Diskon spesial untuk pembelian partai besar',
+    ]);
+
+    tokobangunanblora::create([
+        'kecamatanblora_id' => '3',
+        'namatokobangunan' => 'Toko Bangunan Jaya Abadi',
+        'pemilik' => 'Slamet Riyadi',
+        'alamat' => 'Jl. Sukarno Hatta No. 11, Blora',
+        'notelepon' => '081245678901',
+        'email' => 'jayaabadi@email.com',
+        'jenisprodukbangunan' => 'Besi, Baja, Semen',
+        'keterangan' => 'Melayani pembelian eceran dan grosir',
+    ]);
+
+    tokobangunanblora::create([
+        'kecamatanblora_id' => '4',
+        'namatokobangunan' => 'Toko Bangunan Cipta Karya',
+        'pemilik' => 'Teguh Prasetyo',
+        'alamat' => 'Jl. Gajah Mada No. 22, Blora',
+        'notelepon' => '081356789013',
+        'email' => 'ciptakarya@email.com',
+        'jenisprodukbangunan' => 'Keramik, Batu Bata, Pasir',
+        'keterangan' => 'Spesialis dalam material finishing rumah',
+    ]);
+
+    tokobangunanblora::create([
+        'kecamatanblora_id' => '4',
+        'namatokobangunan' => 'Toko Bangunan Mitra Sejati',
+        'pemilik' => 'Rudi Hartanto',
+        'alamat' => 'Jl. Pemuda No. 77, Blora',
+        'notelepon' => '082312345678',
+        'email' => 'mitrasejati@email.com',
+        'jenisprodukbangunan' => 'Semen, Genteng, Cat Tembok',
+        'keterangan' => 'Menyediakan layanan konsultasi bahan bangunan',
+    ]);
+
+    tokobangunanblora::create([
+        'kecamatanblora_id' => '5',
+        'namatokobangunan' => 'Toko Bangunan Bina Karya',
+        'pemilik' => 'Hadi Susanto',
+        'alamat' => 'Jl. Kartini No. 5, Blora',
+        'notelepon' => '083112345678',
+        'email' => 'binakarya@email.com',
+        'jenisprodukbangunan' => 'Pipa PVC, Cat Kayu, Triplek',
+        'keterangan' => 'Diskon untuk kontraktor dan proyek besar',
+    ]);
+
+    tokobangunanblora::create([
+        'kecamatanblora_id' => '5',
+        'namatokobangunan' => 'Toko Bangunan Sukses Mandiri',
+        'pemilik' => 'Dian Setiawan',
+        'alamat' => 'Jl. Raden Patah No. 33, Blora',
+        'notelepon' => '085267890123',
+        'email' => 'suksesmandiri@email.com',
+        'jenisprodukbangunan' => 'Kaca, Aluminium, Keramik',
+        'keterangan' => 'Menyediakan bahan interior dan eksterior',
+    ]);
+
+    tokobangunanblora::create([
+        'kecamatanblora_id' => '6',
+        'namatokobangunan' => 'Toko Bangunan Mulia Jaya',
+        'pemilik' => 'Eka Putra',
+        'alamat' => 'Jl. Sultan Agung No. 19, Blora',
+        'notelepon' => '081278901234',
+        'email' => 'muliajaya@email.com',
+        'jenisprodukbangunan' => 'Papan Gypsum, Pintu, Kusen',
+        'keterangan' => 'Pusat bahan konstruksi interior dan eksterior',
+    ]);
+
+    tokobangunanblora::create([
+        'kecamatanblora_id' => '6',
+        'namatokobangunan' => 'Toko Bangunan Sejahtera Baru',
+        'pemilik' => 'Sri Hartini',
+        'alamat' => 'Jl. Diponegoro No. 55, Blora',
+        'notelepon' => '081345678912',
+        'email' => 'sejahterabaru@email.com',
+        'jenisprodukbangunan' => 'Paving, Semen, Besi Beton',
+        'keterangan' => 'Menjual berbagai jenis paving berkualitas',
+    ]);
+
+    tokobangunanblora::create([
+        'kecamatanblora_id' => '7',
+        'namatokobangunan' => 'Toko Bangunan Lancar Jaya',
+        'pemilik' => 'Sutrisno',
+        'alamat' => 'Jl. Jendral Sudirman No. 88, Blora',
+        'notelepon' => '085678912345',
+        'email' => 'lancarjaya@email.com',
+        'jenisprodukbangunan' => 'Pasir, Batu Koral, Semen',
+        'keterangan' => 'Bahan material dasar bangunan tersedia lengkap',
+    ]);
+
+    tokobangunanblora::create([
+        'kecamatanblora_id' => '7',
+        'namatokobangunan' => 'Toko Bangunan Berkah Mulia',
+        'pemilik' => 'Siti Aminah',
+        'alamat' => 'Jl. KH. Ahmad Dahlan No. 17, Blora',
+        'notelepon' => '082345678901',
+        'email' => 'berkahmulia@email.com',
+        'jenisprodukbangunan' => 'Genteng, Cat, Pipa',
+        'keterangan' => 'Menjual produk berkualitas dengan harga terjangkau',
+    ]);
+
+    tokobangunanblora::create([
+        'kecamatanblora_id' => '8',
+        'namatokobangunan' => 'Toko Bangunan Mandiri Jaya',
+        'pemilik' => 'Teguh Santoso',
+        'alamat' => 'Jl. Kyai Mojo No. 42, Blora',
+        'notelepon' => '083456789012',
+        'email' => 'mandirijaya@email.com',
+        'jenisprodukbangunan' => 'Keramik, Granit, Cat Tembok',
+        'keterangan' => 'Banyak pilihan motif keramik dan granit tersedia',
+    ]);
+
+    tokobangunanblora::create([
+        'kecamatanblora_id' => '8',
+        'namatokobangunan' => 'Toko Bangunan Citra Abadi',
+        'pemilik' => 'Rina Sari',
+        'alamat' => 'Jl. Pattimura No. 60, Blora',
+        'notelepon' => '081289012345',
+        'email' => 'citraabadi@email.com',
+        'jenisprodukbangunan' => 'Cat Kayu, Gypsum, Atap Baja Ringan',
+        'keterangan' => 'Spesialis bahan bangunan interior rumah',
+    ]);
+
+    tokobangunanblora::create([
+        'kecamatanblora_id' => '9',
+        'namatokobangunan' => 'Toko Bangunan Putra Bangsa',
+        'pemilik' => 'Andi Wijaya',
+        'alamat' => 'Jl. Wahid Hasyim No. 14, Blora',
+        'notelepon' => '081567890123',
+        'email' => 'putrabangsa@email.com',
+        'jenisprodukbangunan' => 'Pintu, Kusen, Lantai Vinyl',
+        'keterangan' => 'Menjual berbagai perlengkapan finishing rumah',
+    ]);
+
+    tokobangunanblora::create([
+        'kecamatanblora_id' => '9',
+        'namatokobangunan' => 'Toko Bangunan Karya Sejati',
+        'pemilik' => 'Bambang Setiawan',
+        'alamat' => 'Jl. Ahmad Yani No. 32, Blora',
+        'notelepon' => '081678901234',
+        'email' => 'karyasejati@email.com',
+        'jenisprodukbangunan' => 'Pasir, Batu Koral, Semen',
+        'keterangan' => 'Harga grosir dan eceran tersedia',
+    ]);
+
+    tokobangunanblora::create([
+        'kecamatanblora_id' => '10',
+        'namatokobangunan' => 'Toko Bangunan Gemilang',
+        'pemilik' => 'Yuni Rahmawati',
+        'alamat' => 'Jl. Letjen Suprapto No. 99, Blora',
+        'notelepon' => '081789012345',
+        'email' => 'tokogemilang@email.com',
+        'jenisprodukbangunan' => 'Besi, Baja, Pipa PVC',
+        'keterangan' => 'Melayani pengiriman ke seluruh wilayah Blora',
+    ]);
+
+
 
 // fort
 

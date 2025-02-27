@@ -28,6 +28,7 @@ use App\Http\Controllers\PengawasanbujkController;
 use App\Http\Controllers\KecelakaankerjamasjakiController;
 use App\Http\Controllers\TertibjasakonstruksiController;
 use App\Http\Controllers\RantaipasokbloraController;
+use App\Http\Controllers\TokobangunanbloraController;
 use App\Http\Controllers\UndangundangController;
 use Database\Factories\DatajakonFactory;
 use Database\Factories\SkktenagakerjaFactory;
@@ -203,9 +204,14 @@ Route::get('/statistiktertibusahajakon', [DatastatistikajakonbloraController::cl
 // ==========================================================================================================
 Route::get('/rantaipasokmaterial', [RantaipasokbloraController::class, 'index']);
 Route::get('/rantaipasokmaterial/{distributor}', [RantaipasokbloraController::class, 'rantaipasokblora']);
-
 Route::get('/peralatankonstruksi', [RantaipasokbloraController::class, 'peralatankonstruksi']);
 Route::get('/peralatankonstruksi/{namabadanusaha}', [RantaipasokbloraController::class, 'peralatankonstruksishow']);
+
+
+// DATA TOKO BANGUNAN KAB BLORA MAS JAKI BLORA
+// ==========================================================================================================
+Route::get('/tokobangunanblora', [TokobangunanbloraController::class, 'index']);
+Route::get('/tokobangunanblora/{kecamatanblora}', [TokobangunanbloraController::class, 'tokobangunanblorashow']);
 
 
 // fort

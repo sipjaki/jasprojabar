@@ -13,6 +13,7 @@ return new class extends Migration
     {
         Schema::create('kecamatanbloras', function (Blueprint $table) {
             $table->id();
+            $table->foreignId('tokobangunanblora_id')->nullable();
             $table->string('kecamatanblora')->nullable();
             $table->softDeletes();
             $table->timestamps();
