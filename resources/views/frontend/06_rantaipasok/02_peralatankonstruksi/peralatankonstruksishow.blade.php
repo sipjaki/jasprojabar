@@ -262,8 +262,8 @@ color: #45a049;
     <thead>
         <tr>
             {{-- <th style="text-align:center" >No</th> --}}
-            <th style="text-align:center" style="color: black" >No</th>
-            <th style="text-align:center" style="color: black"> Alat Berat</th>
+            <th style="text-align:center" style="color: black; width:75px" >No</th>
+            <th style="text-align:center" style="color: black; width:500px"> Alat Berat</th>
             <th style="text-align:center" style="color: black"> Jumlah </th>
 
             </tr>
@@ -296,20 +296,21 @@ color: #45a049;
             </div><!-- row -->
         </div><!-- container -->
     </div><!--page-wrapper-->
+    <div class="container-fluid" style="justify-content: right; margin-top:20px;">
+
+        <a href="javascript:window.history.back()" style="background: white;">
+            <button class="badgekembali" style="border: none; font-size: 12px; cursor: pointer; margin-right: 10px;">
+                <i class="fas fa-arrow-circle-left mr-2" style="margin-right: 15px;"></i> KEMBALI
+            </button>
+        </a>
+
+    </div>
+
 </div><!--page-wrapper-->
 </div><!--page-wrapper-->
 
 </table>
 
-<div class="container-fluid" style="justify-content: right; margin-top:20px;">
-
-    <a href="javascript:window.history.back()" style="background: white;">
-        <button class="badgekembali" style="border: none; font-size: 12px; cursor: pointer; margin-right: 10px;">
-            <i class="fas fa-arrow-circle-left mr-2" style="margin-right: 15px;"></i> KEMBALI
-        </button>
-    </a>
-
-</div>
 
 
                     </div>
