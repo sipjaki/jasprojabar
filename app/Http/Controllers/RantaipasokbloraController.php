@@ -80,7 +80,7 @@ class RantaipasokbloraController extends Controller
         }
 
         // Menggunakan paginate() untuk pagination
-        $subdata = alatberat::where('alatberat_id', $dataperalatankonstruksi->id)->paginate(10);
+        $subdata = alatberat::where('peralatankonstruksi_id', $dataperalatankonstruksi->id)->paginate(10);
 
           // Menghitung nomor urut mulai
             $start = ($subdata->currentPage() - 1) * $subdata->perPage() + 1;
