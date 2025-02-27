@@ -183,7 +183,7 @@ color: #45a049;
                                     <!-- Tombol dan kolom pencarian di kanan -->
                                     <div style="display: flex; align-items: center;">
 
-
+{{--
                                         <a href="/tertibjakonpemanfaatan/pu" style="background: white;">
                                             <button class="badgemenu" style="border: none; font-size: 12px; cursor: pointer; margin-right: 10px;">
                                                 <i class="fas fa-edit mr-2" style="margin-right: 15px;"></i><span style="color: black; font-weight:bold">PU</span>
@@ -201,13 +201,13 @@ color: #45a049;
                                                 <i class="fas fa-edit mr-2" style="margin-right: 15px;"></i><span style="color: black; font-weight:bold">Swasta</span>
                                             </button>
                                         </a>
+ --}}
 
-
-                                        <a href="/tertibjasakonstruksi" style="background: white;">
+                                        {{-- <a href="/tertibjasakonstruksi" style="background: white;">
                                             <button class="badgekembali" style="border: none; font-size: 12px; cursor: pointer; margin-right: 10px;">
                                                 <i class="fas fa-arrow-circle-left mr-2" style="margin-right: 15px;"></i><span style="color: black; font-weight:bold">KEMBALI</span>
                                             </button>
-                                        </a>
+                                        </a> --}}
 
                                         <div style="position: relative; display: inline-block; margin-right:10px;">
                                             <input type="search" placeholder="Pencarian...." style="border: 1px solid #ccc; padding: 5px 10px; font-size: 14px; border-radius: 5px; width: 200px;">
