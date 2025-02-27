@@ -1,3 +1,94 @@
+<style>
+    /* Import font Poppins */
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+/* Wrapper untuk tabel */
+.table-wrapper {
+overflow-x: auto;
+max-width: 100%;
+padding: 10px;
+}
+
+/* Style dasar tabel */
+.fl-table {
+width: 100%;
+border-collapse: collapse;
+font-family: 'Poppins', sans-serif; /* Font modern pemerintah */
+font-size: 14px;
+background: #fff; /* Tetap netral */
+box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+border-radius: 8px;
+overflow: hidden;
+}
+
+/* Header styling */
+.fl-table thead {
+background: #ffae00;
+text-transform: uppercase;
+font-weight: 600;
+letter-spacing: 0.5px;
+color: black;
+}
+
+.fl-table th,
+.fl-table td {
+padding: 12px 15px;
+text-align: left;
+border-bottom: 1px solid #ddd;
+}
+
+/* Hover effect */
+.fl-table tbody tr:hover {
+background: rgba(0, 0, 0, 0.05);
+}
+
+/* Responsive styling */
+@media (max-width: 768px) {
+.fl-table thead {
+display: none; /* Sembunyikan header di tampilan kecil */
+}
+
+.fl-table tr {
+display: block;
+margin-bottom: 10px;
+border: 1px solid #ddd;
+border-radius: 5px;
+overflow: hidden;
+}
+
+.fl-table td {
+display: block;
+text-align: right;
+font-size: 14px;
+border-bottom: 1px solid #eee;
+position: relative;
+padding-left: 50%;
+}
+
+.fl-table td::before {
+content: attr(data-label);
+position: absolute;
+left: 10px;
+width: 45%;
+font-weight: 600;
+text-align: left;
+}
+}
+
+/* Style untuk ikon view */
+.view-icon {
+color: #4CAF50;
+cursor: pointer;
+font-size: 18px;
+}
+
+.view-icon:hover {
+color: #45a049;
+}
+
+</style>
+
+
 @include('frontend.00_approve.01_cssterpisah.header')
 
 
@@ -78,90 +169,93 @@
 
 				</div><!--col-12 col-lg-4 col-xl-4-->
 				<div class="col-lg-12">
-                    <table border="1" cellpadding="5" cellspacing="0">
-                        <thead>
-                            <tr>
-                                <th style="background-color: #d1f7d1;">No</th>
-                                <th style="background-color: #d1f7d1;">Bahan Material</th>
-                                <th style="background-color: #d1f7d1;">Satuan</th>
-                                <th style="background-color: #d1f7d1;">Harga</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td>1</td>
-                                <td>Pasir</td>
-                                <td>Meter Kubik</td>
-                                <td>Rp 100.000</td>
-                            </tr>
-                            <tr>
-                                <td>2</td>
-                                <td>Batu Bata</td>
-                                <td>Ribu</td>
-                                <td>Rp 1.500</td>
-                            </tr>
-                            <tr>
-                                <td>3</td>
-                                <td>Semen</td>
-                                <td>Karung</td>
-                                <td>Rp 75.000</td>
-                            </tr>
-                            <tr>
-                                <td>4</td>
-                                <td>Gipsum</td>
-                                <td>Plester</td>
-                                <td>Rp 50.000</td>
-                            </tr>
-                            <tr>
-                                <td>5</td>
-                                <td>Keramik</td>
-                                <td>Per Dus</td>
-                                <td>Rp 450.000</td>
-                            </tr>
-                            <tr>
-                                <td>6</td>
-                                <td>Cat Dinding</td>
-                                <td>Kaleng</td>
-                                <td>Rp 120.000</td>
-                            </tr>
-                            <tr>
-                                <td>7</td>
-                                <td>Paku</td>
-                                <td>Kilogram</td>
-                                <td>Rp 30.000</td>
-                            </tr>
-                            <tr>
-                                <td>8</td>
-                                <td>Tripleks</td>
-                                <td>Lembar</td>
-                                <td>Rp 150.000</td>
-                            </tr>
-                            <tr>
-                                <td>9</td>
-                                <td>Atap Zincalume</td>
-                                <td>Meter</td>
-                                <td>Rp 200.000</td>
-                            </tr>
-                            <tr>
-                                <td>10</td>
-                                <td>Kayu</td>
-                                <td>Meter</td>
-                                <td>Rp 75.000</td>
-                            </tr>
-                            <tr>
-                                <td>11</td>
-                                <td>Plafon PVC</td>
-                                <td>Meter Persegi</td>
-                                <td>Rp 100.000</td>
-                            </tr>
-                            <tr>
-                                <td>12</td>
-                                <td>Wiremesh</td>
-                                <td>Roll</td>
-                                <td>Rp 250.000</td>
-                            </tr>
-                        </tbody>
-                    </table>
+
+                    <div class="table-wrapper">
+                        <table class="fl-table">
+                            <thead>
+                                <tr>
+                                    <th>No</th>
+                                    <th>Bahan Material</th>
+                                    <th>Satuan</th>
+                                    <th>Harga</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td data-label="No">1</td>
+                                    <td data-label="Bahan Material">Pasir</td>
+                                    <td data-label="Satuan">Meter Kubik</td>
+                                    <td data-label="Harga">Rp 100.000</td>
+                                </tr>
+                                <tr>
+                                    <td data-label="No">2</td>
+                                    <td data-label="Bahan Material">Batu Bata</td>
+                                    <td data-label="Satuan">Ribu</td>
+                                    <td data-label="Harga">Rp 1.500</td>
+                                </tr>
+                                <tr>
+                                    <td data-label="No">3</td>
+                                    <td data-label="Bahan Material">Semen</td>
+                                    <td data-label="Satuan">Karung</td>
+                                    <td data-label="Harga">Rp 75.000</td>
+                                </tr>
+                                <tr>
+                                    <td data-label="No">4</td>
+                                    <td data-label="Bahan Material">Gipsum</td>
+                                    <td data-label="Satuan">Plester</td>
+                                    <td data-label="Harga">Rp 50.000</td>
+                                </tr>
+                                <tr>
+                                    <td data-label="No">5</td>
+                                    <td data-label="Bahan Material">Keramik</td>
+                                    <td data-label="Satuan">Per Dus</td>
+                                    <td data-label="Harga">Rp 450.000</td>
+                                </tr>
+                                <tr>
+                                    <td data-label="No">6</td>
+                                    <td data-label="Bahan Material">Cat Dinding</td>
+                                    <td data-label="Satuan">Kaleng</td>
+                                    <td data-label="Harga">Rp 120.000</td>
+                                </tr>
+                                <tr>
+                                    <td data-label="No">7</td>
+                                    <td data-label="Bahan Material">Paku</td>
+                                    <td data-label="Satuan">Kilogram</td>
+                                    <td data-label="Harga">Rp 30.000</td>
+                                </tr>
+                                <tr>
+                                    <td data-label="No">8</td>
+                                    <td data-label="Bahan Material">Tripleks</td>
+                                    <td data-label="Satuan">Lembar</td>
+                                    <td data-label="Harga">Rp 150.000</td>
+                                </tr>
+                                <tr>
+                                    <td data-label="No">9</td>
+                                    <td data-label="Bahan Material">Atap Zincalume</td>
+                                    <td data-label="Satuan">Meter</td>
+                                    <td data-label="Harga">Rp 200.000</td>
+                                </tr>
+                                <tr>
+                                    <td data-label="No">10</td>
+                                    <td data-label="Bahan Material">Kayu</td>
+                                    <td data-label="Satuan">Meter</td>
+                                    <td data-label="Harga">Rp 75.000</td>
+                                </tr>
+                                <tr>
+                                    <td data-label="No">11</td>
+                                    <td data-label="Bahan Material">Plafon PVC</td>
+                                    <td data-label="Satuan">Meter Persegi</td>
+                                    <td data-label="Harga">Rp 100.000</td>
+                                </tr>
+                                <tr>
+                                    <td data-label="No">12</td>
+                                    <td data-label="Bahan Material">Wiremesh</td>
+                                    <td data-label="Satuan">Roll</td>
+                                    <td data-label="Harga">Rp 250.000</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
 
                 </div><!-- col-lg-8 -->
 			</div><!-- row -->
