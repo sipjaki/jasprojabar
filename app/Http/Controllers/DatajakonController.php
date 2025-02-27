@@ -481,6 +481,9 @@ class DatajakonController extends Controller
     public function standarbiayaumum()
     {
         $data = standarbiayaumum::paginate(15);
+        $datasbu1 = sbulampiran1::paginate(15);
+        $datasbu2 = sbulampiran2::paginate(15);
+        $datasbu3 = sbulampiran3::paginate(15);
 
         $user = Auth::user();
 
@@ -488,6 +491,9 @@ class DatajakonController extends Controller
             'title' => 'Standar Biaya Umum ',
             'user' => $user,
             'data' => $data,
+            'datasbu1' => $datasbu1,
+            'datasbu2' => $datasbu2,
+            'datasbu3' => $datasbu3,
 
         ]);
     }

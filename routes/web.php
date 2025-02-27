@@ -214,6 +214,10 @@ Route::get('/tokobangunanblora', [TokobangunanbloraController::class, 'index']);
 Route::get('/tokobangunanblora/{kecamatanblora}', [TokobangunanbloraController::class, 'tokobangunanblorashow']);
 Route::get('/tokobangunanbloralist/{namatokobangunan}', [TokobangunanbloraController::class, 'tokobangunanbloralistdetails']);
 
+// ==========================================================================================================
+Route::get('/tokobangunanblora', [TokobangunanbloraController::class, 'index']);
+Route::get('/tokobangunanblora/{kecamatanblora}', [TokobangunanbloraController::class, 'tokobangunanblorashow']);
+
 
 // fort
 // ------------- HALAMAN UNTUK DATA SERTIFIKASI TENAGA KERJA AHLI -----------------
@@ -227,8 +231,8 @@ Route::get('/datajakon/asosiasi', [DatajakonController::class, 'asosiasi']);
 Route::get('/datajakon/asosiasi/{nama_asosiasi}', [DatajakonController::class, 'asosiasishowfrontend']);
 
 // -------- BAGIAN 03 STANDAR BIAYA UMUM JASA KONSTRUKSI  ---------------------------------
-Route::get('/datajakon/standarbiayaumum', [DatajakonController::class, 'standarbiayaumum']);
-Route::get('/datajakon/standarbiayaumum/{judul}', [DatajakonController::class, 'standarbiayaumumshowbyjudulfe']);
+Route::get('/standarbiayaumum', [DatajakonController::class, 'standarbiayaumum']);
+Route::get('/standarbiayaumum/{judul}', [DatajakonController::class, 'standarbiayaumumshowbyjudulfe']);
 
 Route::get('/datajakon/fesbulampiran3', [DatajakonController::class, 'fesbulampiran3']);
 Route::get('/datajakon/fesbulampiran3/{judul}', [DatajakonController::class, 'fesbulampiran3showbyjudulfe']);
