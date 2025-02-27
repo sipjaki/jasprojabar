@@ -181,9 +181,9 @@ Route::get('/tertibjasakonstruksiusaha/swasta', [TertibjasakonstruksiController:
 Route::get('/tertibjasakonstruksipemanfaatan', [TertibjasakonstruksiController::class, 'tertibjasakonstruksipemanfaatan']);
 Route::get('/tertibjasakonstruksipemanfaatan/{namabangunan}', [TertibjasakonstruksiController::class, 'tertibjasakonstruksipemanfaatanshow']);
 
-Route::get('/tertibjasakonstruksipemanfaatan/pu', [TertibjasakonstruksiController::class, 'tertibjasakonstruksipemanfaatanpu']);
-Route::get('/tertibjasakonstruksipemanfaatan/nonpu', [TertibjasakonstruksiController::class, 'tertibjasakonstruksipemanfaatanpu']);
-Route::get('/tertibjasakonstruksipemanfaatan/swasta', [TertibjasakonstruksiController::class, 'tertibjasakonstruksipemanfaatanpu']);
+Route::get('/tertibjakonpemanfaatan/pu', [TertibjasakonstruksiController::class, 'tertibjasakonstruksipemanfaatanpu']);
+Route::get('/tertibjakonpemanfaatan/nonpu', [TertibjasakonstruksiController::class, 'tertibjasakonstruksipemanfaatanpu']);
+Route::get('/tertibjakonpemanfaatan/swasta', [TertibjasakonstruksiController::class, 'tertibjasakonstruksipemanfaatanpu']);
 
 // fort
 
