@@ -232,7 +232,7 @@ color: #45a049;
                                     <th style="text-align:center"> Nama Badan Usaha</th>
                                     <th style="text-align:center"> NIB</th>
                                     <th style="text-align:center"> No Telepon</th>
-                                    <th style="text-align:center"> Alat Berat</th>
+                                    {{-- <th style="text-align:center"> Alat Berat</th> --}}
 
                                     <th style="text-align:center" >View</th>
                                 </tr>
@@ -250,7 +250,7 @@ color: #45a049;
                                     <td>{{$item->namabadanusaha}}</td>
                                     <td>{{$item->nib}}</td>
                                     <td>{{$item->notelepon}}</td>
-                                    <td>{{$item->alatberat->alatberat}}</td>
+                                    {{-- <td>{{$item->alatberat->alatberat}}</td> --}}
                                     {{-- <td>{{ \Carbon\Carbon::parse($item->tanggal)->isoFormat('D MMMM YYYY') }}</td> --}}
 
                                     <td style="text-align: center">
