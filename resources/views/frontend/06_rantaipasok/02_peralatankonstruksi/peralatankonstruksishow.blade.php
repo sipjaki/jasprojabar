@@ -245,9 +245,9 @@ color: #45a049;
     <thead>
         <tr>
             {{-- <th style="text-align:center" >No</th> --}}
-            <th style="text-align:center" style="color: black; width:75px" >No</th>
-            <th style="text-align:center" style="color: black; width:500px"> Alat Berat</th>
-            <th style="text-align:center" style="color: black"> Jumlah </th>
+            <th style="text-align:center; color:black: width:75px;">No</th>
+            <th style="text-align:center; color:black: width:400px;">Alat Berat</th>
+            <th style="text-align:center; color:black: width:600px;">Jumlah </th>
 
             </tr>
 
