@@ -89,7 +89,7 @@ class RantaipasokbloraController extends Controller
     // Ambil data user saat ini
     $user = Auth::user();
 
-    return view('frontend.06_rantaipasok.02_peralatankonstruksi.peralatankonstruksi', [
+    return view('frontend.06_rantaipasok.02_peralatankonstruksi.peralatankonstruksishow', [
         'title' => 'Data Peralatan Konstruksi',
         'data' => $dataperalatankonstruksi,
         'subData' => $subdata,  // Jika Anda ingin mengirimkan data sub kontraktor juga
