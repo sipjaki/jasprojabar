@@ -184,19 +184,19 @@ color: #45a049;
                                     <div style="display: flex; align-items: center;">
 
 
-                                        <a href="/tertibjasakonstruksipemanfaatan/pu" style="background: white;">
+                                        <a href="/tertibjasakonstruksiusaha/pu" style="background: white;">
                                             <button class="badgemenu" style="border: none; font-size: 12px; cursor: pointer; margin-right: 10px;">
                                                 <i class="fas fa-edit mr-2" style="margin-right: 15px;"></i><span style="color: black; font-weight:bold">PU</span>
                                             </button>
                                         </a>
 
-                                        <a href="/tertibjasakonstruksipemanfaatan/nonpu" style="background: white;">
+                                        <a href="/tertibjasakonstruksiusaha/nonpu" style="background: white;">
                                             <button class="badgemenu" style="border: none; font-size: 12px; cursor: pointer; margin-right: 10px;">
                                                 <i class="fas fa-edit mr-2" style="margin-right: 15px;"></i><span style="color: black; font-weight:bold">Non-PU</span>
                                             </button>
                                         </a>
 
-                                        <a href="/tertibjasakonstruksipemanfaatan/swasta" style="background: white;">
+                                        <a href="/tertibjasakonstruksiusaha/swasta" style="background: white;">
                                             <button class="badgemenu" style="border: none; font-size: 12px; cursor: pointer; margin-right: 10px;">
                                                 <i class="fas fa-edit mr-2" style="margin-right: 15px;"></i><span style="color: black; font-weight:bold">Swasta</span>
                                             </button>
@@ -229,18 +229,18 @@ color: #45a049;
                                 <tr>
                                     <th style="text-align:center"> No</th>
                                     <th style="text-align:center"> Status Penyedia</th>
-                                    <th style="text-align:center"> Nama Bangunan</th>
-                                    <th style="text-align:center"> Nomor Kontrak</th>
-                                    <th style="text-align:center"> Lokasi</th>
-                                    {{-- <th style="text-align:center"> Tanggal Pembangunan</th>
-                                    <th style="text-align:center"> Tanggal Pemanfaatan</th>
-                                    <th style="text-align:center"> Umur Konstruksi (Tahun) </th>
-                                    <th style="text-align:center"> Peruntukan Fungsi </th>
-                                    <th style="text-align:center"> Peruntukan Lokasi </th>
-                                    <th style="text-align:center"> Rencana Umur </th>
-                                    <th style="text-align:center"> Kapasitas dan Beban </th>
-                                    <th style="text-align:center"> Pemeliharaaan Bangunan </th>
-                                    <th style="text-align:center"> Pemeliharaaan Program </th> --}}
+                                    {{-- <th style="text-align:center" >NIB</th> --}}
+                                    <th style="text-align:center" >Nama Badan Usaha</th>
+                                    <th style="text-align:center" >PJBU</th>
+                                    {{-- <th style="text-align:center" >Kegiatan Jenis</th>
+                                    <th style="text-align:center" >Kegiatan Sifat</th>
+                                    <th style="text-align:center" >Kegiatan Klasifikasi</th>
+                                    <th style="text-align:center" >Kegiatan Layanan</th>
+                                    <th style="text-align:center" >Segmentasi Pasar Bentuk</th>
+                                    <th style="text-align:center" >Segmentasi Pasar Kualifikasi</th>
+                                    <th style="text-align:center" >Syarat SBU</th>
+                                    <th style="text-align:center" >Syarat NIB</th>
+                                    <th style="text-align:center" >Pelaksanaan Pengembangan</th> --}}
                                     <th style="text-align:center" >View</th>
                                 </tr>
                             </thead>
@@ -254,23 +254,23 @@ color: #45a049;
                                 <tr>
                                     <td style="text-align: center;">{{ $loop->iteration + $start - 1 }}</td>
                                     <td>{{$item->penyediastatustertibjakon->penyedia}}</td>
-                                    <td>{{$item->namabangunan}}</td>
-                                    <td>{{$item->nomorkontrak}}</td>
-                                    <td>{{$item->lokasi}}</td>
-                                    {{-- <td>{{$item->tanggalpembangunan}}</td> --}}
-                                    {{-- <td>{{$item->tanggalpemanfaatan}}</td> --}}
-                                    {{-- <td>{{$item->umurkonstruksi}}</td> --}}
-                                    {{-- <td>{{$item->peruntukan_fungsi}}</td>
-                                    <td>{{$item->peruntukan_lokasi}}</td>
-                                    <td>{{$item->rencanaumur}}</td>
-                                    <td>{{$item->kapasitasdanbeban}}</td>
-                                    <td>{{$item->pemeliharaan_konstruksi}}</td>
-                                    <td>{{$item->pemeliharaan_struktur}}</td> --}}
+                                    {{-- <td>{{$item->nib}}</td> --}}
+                                    <td>{{$item->namabadanusaha}}</td>
+                                    <td>{{$item->pjbu}}</td>
+                                    {{-- <td>{{$item->sesuai_jenis}}</td>
+                                    <td>{{$item->sesuai_sifat}}</td>
+                                    <td>{{$item->sesuai_klasifikasi}}</td>
+                                    <td>{{$item->sesuai_layanan}}</td>
+                                    <td>{{$item->segmentasipasar_bentuk}}</td>
+                                    <td>{{$item->segmentasipasar_kualifikasi}}</td>
+                                    <td>{{$item->syarat_SBU}}</td>
+                                    <td>{{$item->syarat_NIB}}</td> --}}
+                                    {{-- <td>{{$item->pelaksanaanpengembangan}}</td> --}}
 
                                     {{-- <td>{{ \Carbon\Carbon::parse($item->tanggal)->isoFormat('D MMMM YYYY') }}</td> --}}
 
                                     <td style="text-align: center">
-                                        <a href="/tertibjasakonstruksipemanfaatan/{{$item->namabangunan}}">
+                                        <a href="/tertibjasakonstruksilist/{{$item->namabadanusaha}}">
                                             <i class="fas fa-eye view-icon" onclick="alert('View clicked!')"></i>
                                         </a>
                                     </td>

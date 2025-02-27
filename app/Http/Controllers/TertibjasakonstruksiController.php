@@ -141,62 +141,62 @@ class TertibjasakonstruksiController extends Controller
         ]);
     }
 
-    // public function tertibjasakonstruksiusahapu()
-    // {
-    //     // $data = tertibjasakonstruksi::paginate(10);
-    //     $data = tertibjasakonstruksi::whereHas('penyediastatustertibjakon', function ($query) {
-    //         // Mengambil data dengan penyedia_id pertama
-    //         $query->where('penyediastatustertibjakon_id', 1); // 1 bisa diganti dengan ID pertama yang diinginkan
-    //     })->paginate(10);
+    public function tertibjasakonstruksipemanfaatanpu()
+    {
+        // $data = tertibjasakonstruksi::paginate(10);
+        $data = tertibjakonpemanfaatan::whereHas('penyediastatustertibjakon', function ($query) {
+            // Mengambil data dengan penyedia_id pertama
+            $query->where('penyediastatustertibjakon_id', 1); // 1 bisa diganti dengan ID pertama yang diinginkan
+        })->paginate(10);
 
-    //     $datasub = penyediastatustertibjakon::paginate(15);
-    //     $user = Auth::user();
+        $datasub = penyediastatustertibjakon::paginate(15);
+        $user = Auth::user();
 
-    //     return view('frontend.05_pengawasan.03_tertibjakon.01_tertibusaha.00_filter.tertibusahapu', [
-    //         'title' => 'PU Tertib Usaha Jasa Konstruksi',
-    //         'user' => $user, // Mengirimkan data paginasi ke view
-    //         'data' => $data, // Mengirimkan data paginasi ke view
-    //         'datasub' => $datasub, // Mengirimkan data paginasi ke view
-    //     ]);
-    // }
+        return view('frontend.05_pengawasan.03_tertibjakon.02_tertibpemanfaatan.00_filter.tertibpemanfaatanpu', [
+            'title' => 'PU Tertib Pemanfaatan Jasa Konstruksi',
+            'user' => $user, // Mengirimkan data paginasi ke view
+            'data' => $data, // Mengirimkan data paginasi ke view
+            'datasub' => $datasub, // Mengirimkan data paginasi ke view
+        ]);
+    }
 
-    // public function tertibjasakonstruksiusahanonpu()
-    // {
-    //     // $data = tertibjasakonstruksi::paginate(10);
-    //     $data = tertibjasakonstruksi::whereHas('penyediastatustertibjakon', function ($query) {
-    //         // Mengambil data dengan penyedia_id pertama
-    //         $query->where('penyediastatustertibjakon_id', 2); // 1 bisa diganti dengan ID pertama yang diinginkan
-    //     })->paginate(10);
+    public function tertibjasakonstruksipemanfaatannonpu()
+    {
+        // $data = tertibjasakonstruksi::paginate(10);
+        $data = tertibjasakonstruksi::whereHas('penyediastatustertibjakon', function ($query) {
+            // Mengambil data dengan penyedia_id pertama
+            $query->where('penyediastatustertibjakon_id', 2); // 1 bisa diganti dengan ID pertama yang diinginkan
+        })->paginate(10);
 
-    //     $datasub = penyediastatustertibjakon::paginate(15);
-    //     $user = Auth::user();
+        $datasub = penyediastatustertibjakon::paginate(15);
+        $user = Auth::user();
 
-    //     return view('frontend.05_pengawasan.03_tertibjakon.01_tertibusaha.00_filter.tertibusahanonpu', [
-    //         'title' => 'Non-PU Tertib Usaha Jasa Konstruksi',
-    //         'user' => $user, // Mengirimkan data paginasi ke view
-    //         'data' => $data, // Mengirimkan data paginasi ke view
-    //         'datasub' => $datasub, // Mengirimkan data paginasi ke view
-    //     ]);
-    // }
+        return view('frontend.05_pengawasan.03_tertibjakon.02_tertibpemanfaatan.00_filter.tertibpemanfaatannonpu', [
+            'title' => 'Non-PU Tertib Pemanfaatan Jasa Konstruksi',
+            'user' => $user, // Mengirimkan data paginasi ke view
+            'data' => $data, // Mengirimkan data paginasi ke view
+            'datasub' => $datasub, // Mengirimkan data paginasi ke view
+        ]);
+    }
 
-    // public function tertibjasakonstruksiusahaswasta()
-    // {
-    //     // $data = tertibjasakonstruksi::paginate(10);
-    //     $data = tertibjasakonstruksi::whereHas('penyediastatustertibjakon', function ($query) {
-    //         // Mengambil data dengan penyedia_id pertama
-    //         $query->where('penyediastatustertibjakon_id', 3); // 1 bisa diganti dengan ID pertama yang diinginkan
-    //     })->paginate(10);
+    public function tertibjasakonstruksipemanfaatanswasta()
+    {
+        // $data = tertibjasakonstruksi::paginate(10);
+        $data = tertibjasakonstruksi::whereHas('penyediastatustertibjakon', function ($query) {
+            // Mengambil data dengan penyedia_id pertama
+            $query->where('penyediastatustertibjakon_id', 3); // 1 bisa diganti dengan ID pertama yang diinginkan
+        })->paginate(10);
 
-    //     $datasub = penyediastatustertibjakon::paginate(15);
-    //     $user = Auth::user();
+        $datasub = penyediastatustertibjakon::paginate(15);
+        $user = Auth::user();
 
-    //     return view('frontend.05_pengawasan.03_tertibjakon.01_tertibusaha.00_filter.tertibusahaswasta', [
-    //         'title' => 'Swasta Tertib Usaha Jasa Konstruksi',
-    //         'user' => $user, // Mengirimkan data paginasi ke view
-    //         'data' => $data, // Mengirimkan data paginasi ke view
-    //         'datasub' => $datasub, // Mengirimkan data paginasi ke view
-    //     ]);
-    // }
+        return view('frontend.05_pengawasan.03_tertibjakon.02_tertibpemanfaatan.00_filter.tertibpemanfaatanswasta', [
+            'title' => 'Swasta Tertib Pemanfaatan Jasa Konstruksi',
+            'user' => $user, // Mengirimkan data paginasi ke view
+            'data' => $data, // Mengirimkan data paginasi ke view
+            'datasub' => $datasub, // Mengirimkan data paginasi ke view
+        ]);
+    }
 
     public function tertibjasakonstruksipemanfaatanshow($namabangunan)
     {
