@@ -90,6 +90,7 @@ use App\Models\tertibjasakonstruksi;
 use App\Models\tertibjakonpemanfaatan;
 use App\Models\tertibjakonpenyelenggaraan;
 use App\Models\kecamatanblora;
+use App\Models\rantaipasokblora;
 
 
 // modelbaru
@@ -4237,6 +4238,128 @@ tertibjakonpenyelenggaraan::create([
 
           // Menghilangkan 'Rp' dan menyimpan sebagai angka decimal
 ]);
+
+rantaipasokblora::create([
+    [
+        'distributor' => 'PT. VARIA USAHA UNIT BLORA',
+        'nib' => '-',
+        'alamat' => '-',
+        'notelepon' => '-',
+        'materialproduk' => 'SEMEN',
+        'submaterialproduk' => 'PCC',
+        'merkproduk' => 'Semen Indonesia',
+    ],
+    [
+        'distributor' => 'PT. SEMEN HOLCIM',
+        'nib' => '-',
+        'alamat' => '-',
+        'notelepon' => '-',
+        'materialproduk' => 'SEMEN',
+        'submaterialproduk' => 'OPC',
+        'merkproduk' => 'Holcim',
+    ],
+    [
+        'distributor' => 'UD. TIGA PUTRA',
+        'nib' => '-',
+        'alamat' => '-',
+        'notelepon' => '-',
+        'materialproduk' => 'PASIR',
+        'submaterialproduk' => 'PASIR SUNGAI',
+        'merkproduk' => 'Lokal',
+    ],
+    [
+        'distributor' => 'CV. ANUGERAH MAKMUR',
+        'nib' => '-',
+        'alamat' => '-',
+        'notelepon' => '-',
+        'materialproduk' => 'BATU SPLIT',
+        'submaterialproduk' => '5-10 MM',
+        'merkproduk' => 'Lokal',
+    ],
+    [
+        'distributor' => 'PT. BAJA MAJU SEJAHTERA',
+        'nib' => '-',
+        'alamat' => '-',
+        'notelepon' => '-',
+        'materialproduk' => 'BAJA',
+        'submaterialproduk' => 'WF',
+        'merkproduk' => 'Gunung Garuda',
+    ],
+    [
+        'distributor' => 'CV. SUKSES ABADI',
+        'nib' => '-',
+        'alamat' => '-',
+        'notelepon' => '-',
+        'materialproduk' => 'BATU BATA',
+        'submaterialproduk' => 'MERAH',
+        'merkproduk' => 'Lokal',
+    ],
+    [
+        'distributor' => 'UD. JAYA BETON',
+        'nib' => '-',
+        'alamat' => '-',
+        'notelepon' => '-',
+        'materialproduk' => 'BETON READY MIX',
+        'submaterialproduk' => 'K-225',
+        'merkproduk' => 'SCG',
+    ],
+    [
+        'distributor' => 'PT. KERAMIK MEGAH JAYA',
+        'nib' => '-',
+        'alamat' => '-',
+        'notelepon' => '-',
+        'materialproduk' => 'KERAMIK',
+        'submaterialproduk' => '60x60 cm',
+        'merkproduk' => 'Roman',
+    ],
+    [
+        'distributor' => 'CV. CAT WARNA INDAH',
+        'nib' => '-',
+        'alamat' => '-',
+        'notelepon' => '-',
+        'materialproduk' => 'CAT',
+        'submaterialproduk' => 'EKSTERIOR',
+        'merkproduk' => 'Dulux',
+    ],
+    [
+        'distributor' => 'UD. RANGKAI BESI',
+        'nib' => '-',
+        'alamat' => '-',
+        'notelepon' => '-',
+        'materialproduk' => 'BESI BETON',
+        'submaterialproduk' => 'D 10',
+        'merkproduk' => 'Krakatau Steel',
+    ],
+    [
+        'distributor' => 'PT. TEKNIK ATAP SEJAHTERA',
+        'nib' => '-',
+        'alamat' => '-',
+        'notelepon' => '-',
+        'materialproduk' => 'ATAP',
+        'submaterialproduk' => 'SPANDREL',
+        'merkproduk' => 'BjLS',
+    ],
+    [
+        'distributor' => 'CV. PINTU KARYA',
+        'nib' => '-',
+        'alamat' => '-',
+        'notelepon' => '-',
+        'materialproduk' => 'PINTU',
+        'submaterialproduk' => 'KAYU JATI',
+        'merkproduk' => 'Lokal',
+    ],
+    [
+        'distributor' => 'UD. KACA MULIA',
+        'nib' => '-',
+        'alamat' => '-',
+        'notelepon' => '-',
+        'materialproduk' => 'KACA',
+        'submaterialproduk' => 'TEMPERED',
+        'merkproduk' => 'Asahimas',
+    ],
+]);
+
+
 
 // fort
 

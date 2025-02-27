@@ -16,6 +16,7 @@ return new class extends Migration
             $table->string('distributor');
             $table->string('nib');
             $table->string('alamat');
+            $table->string('notelepon');
             $table->string('materialproduk');
             $table->string('submaterialproduk');
             $table->string('merkproduk');
