@@ -168,85 +168,91 @@ color: #45a049;
                 <div class="col-lg-12">
                         <div class="document-details">
 							<div class="document-details-list">
-                                <div class="centered-button" style="margin-top: -15px">
-                                    <button class="green-button" style="margin-bottom:10px; text-transform:uppercase">
-                                        <img src="/assets/icon/logokabupatenblora.png" class="img-fluid" alt="img-25" width="50" height="50" style="margin-right: 20px;" loading="lazy">
-                                        <i class="fas fa-file mr-2" style="margin-right:5px;"></i> <span style="color: black;">{{$title}} : {{$data->kecamatanblora->kecamatanblora}}</span>
+                                <div class="button-container" style="display: flex; justify-content: space-between; align-items: center; margin-top: -15px;">
+                                    <!-- Tombol di Kiri -->
+                                    <button class="green-button" style="text-transform: uppercase; display: flex; align-items: center; padding: 10px; border: none; background-color: #4CAF50; color: black;">
+                                        <img src="/assets/icon/logokabupatenblora.png" class="img-fluid" alt="img-25" width="50" height="50" style="margin-right: 10px;" loading="lazy">
+                                        <i class="fas fa-file mr-2" style="margin-right: 5px;"></i>
+                                        <span>{{$title}} : {{$data->kecamatanblora->kecamatanblora}}</span>
                                     </button>
 
-
+                                    <!-- Tombol di Kanan -->
+                                    <a href="javascript:window.history.back()" style="text-decoration: none;">
+                                        <button class="badgekembali" style="border: none; font-size: 12px; cursor: pointer; padding: 10px 15px; background: white; display: flex; align-items: center;">
+                                            <i class="fas fa-arrow-circle-left" style="margin-right: 8px;"></i> KEMBALI
+                                        </button>
+                                    </a>
                                 </div>
-
 
                     <div class="table-wrapper">
                     <!-- Add this inside your HTML <head> for FontAwesome -->
-<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+                                <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
 
-<table  id="datakeluar" class="fl-table" style="width: 100%; border-collapse: collapse" class="fl-table">
-    <thead>
-        <tr>
-            <th style="text-align:center; color: white; width:50px; background-color: #2e7d32;">
-                <i class="fas fa-info-circle"></i>
-            </th>
-            <th colspan="11" style="text-align:left; color: white; background-color: #2e7d32; padding-left: 10px; width:300px;">
-                Informasi
-            </th>
-            <th colspan="1" style="text-align:center; color: white; background-color: #2e7d32; width:25px;">:</th>
-            <td colspan="12" style="text-align:left; background-color: #2e7d32; padding-left: 10px; color: white; width:1000px;">
-                Keterangan
-            </td>
-        </tr>
+                                <table  id="datakeluar" class="fl-table" style="width: 100%; border-collapse: collapse" class="fl-table">
+                                    <thead>
+                                        <tr>
+                                            <th style="text-align:center; color: white; width:50px; background-color: #2e7d32;">
+                                                <i class="fas fa-info-circle"></i>
+                                            </th>
+                                            <th colspan="11" style="text-align:left; color: white; background-color: #2e7d32; padding-left: 10px; width:300px;">
+                                                Informasi
+                                            </th>
+                                            <th colspan="1" style="text-align:center; color: white; background-color: #2e7d32; width:25px;">:</th>
+                                            <td colspan="12" style="text-align:left; background-color: #2e7d32; padding-left: 10px; color: white; width:1000px;">
+                                                Keterangan
+                                            </td>
+                                        </tr>
 
-        <tr>
-            <th style="text-align:center; color: black; width:50px; background-color: white;">
-                <i class="fas fa-building" style="font-size:20px; margin-right:8px;"></i> <!-- Ikon untuk Nama Badan Usaha -->
-            </th>
-            <th colspan="11" style="text-align:left; color: black; background-color: white; padding-left: 10px; width:300px;">
-                Nama Badan Usaha
-            </th>
-            <th colspan="1" style="text-align:center; color: black; background-color: white; width:25px;">:</th>
-            <td colspan="12" style="text-align:left; background-color: white; padding-left: 10px; color: black; width:1000px;">
-                {{$data->namabadanusaha}}
-            </td>
-        </tr>
+                                        <tr>
+                                            <th style="text-align:center; color: black; width:50px; background-color: white;">
+                                                <i class="fas fa-building" style="font-size:20px; margin-right:8px;"></i> <!-- Ikon untuk Nama Badan Usaha -->
+                                            </th>
+                                            <th colspan="11" style="text-align:left; color: black; background-color: white; padding-left: 10px; width:300px;">
+                                                Nama Badan Usaha
+                                            </th>
+                                            <th colspan="1" style="text-align:center; color: black; background-color: white; width:25px;">:</th>
+                                            <td colspan="12" style="text-align:left; background-color: white; padding-left: 10px; color: black; width:1000px;">
+                                                {{$data->namabadanusaha}}
+                                            </td>
+                                        </tr>
 
-        <tr>
-            <th style="text-align:center; color: black; width:50px; background-color: white;">
-                <i class="fas fa-building" style="font-size:20px; margin-right:8px;"></i> <!-- Ikon untuk Nama Badan Usaha -->
-            </th>
-            <th colspan="11" style="text-align:left; color: black; background-color: white; padding-left: 10px; width:300px;">
-                Nomor Induk Berusaha
-            </th>
-            <th colspan="1" style="text-align:center; color: black; background-color: white; width:25px;">:</th>
-            <td colspan="12" style="text-align:left; background-color: white; padding-left: 10px; color: black; width:1000px;">
-                {{$data->nib}}
-            </td>
-        </tr>
+                                        <tr>
+                                            <th style="text-align:center; color: black; width:50px; background-color: white;">
+                                                <i class="fas fa-building" style="font-size:20px; margin-right:8px;"></i> <!-- Ikon untuk Nama Badan Usaha -->
+                                            </th>
+                                            <th colspan="11" style="text-align:left; color: black; background-color: white; padding-left: 10px; width:300px;">
+                                                Nomor Induk Berusaha
+                                            </th>
+                                            <th colspan="1" style="text-align:center; color: black; background-color: white; width:25px;">:</th>
+                                            <td colspan="12" style="text-align:left; background-color: white; padding-left: 10px; color: black; width:1000px;">
+                                                {{$data->nib}}
+                                            </td>
+                                        </tr>
 
-        <tr>
-            <th style="text-align:center; color: black; width:50px; background-color: white;">
-                <i class="fas fa-phone" style="font-size:20px; margin-right:8px;"></i> <!-- Ikon untuk Nomor Telepon -->
-            </th>
-            <th colspan="11" style="text-align:left; color: black; background-color: white; padding-left: 10px; width:300px;">
-                Nomor Telepon
-            </th>
-            <th colspan="1" style="text-align:center; color: black; background-color: white; width:25px;">:</th>
-            <td colspan="12" style="text-align:left; background-color: white; padding-left: 10px; color: black; width:1000px;">
-                {{$data->notelepon}}
-            </td>
-        </tr>
+                                        <tr>
+                                            <th style="text-align:center; color: black; width:50px; background-color: white;">
+                                                <i class="fas fa-phone" style="font-size:20px; margin-right:8px;"></i> <!-- Ikon untuk Nomor Telepon -->
+                                            </th>
+                                            <th colspan="11" style="text-align:left; color: black; background-color: white; padding-left: 10px; width:300px;">
+                                                Nomor Telepon
+                                            </th>
+                                            <th colspan="1" style="text-align:center; color: black; background-color: white; width:25px;">:</th>
+                                            <td colspan="12" style="text-align:left; background-color: white; padding-left: 10px; color: black; width:1000px;">
+                                                {{$data->notelepon}}
+                                            </td>
+                                        </tr>
 
-    </thead>
+                                    </thead>
 
-<div class="col-lg-12">
+                                <div class="col-lg-12">
 
-    <div class="document-details">
-        <div class="document-details-list">
-
-
+                                    <div class="document-details">
+                                        <div class="document-details-list">
 
 
-</table>
+
+
+                                </table>
 
 
 <div class="table-wrapper">
@@ -295,21 +301,6 @@ color: #45a049;
                         </div><!--page-wrapper-->
                     </div><!--page-wrapper-->
                 </div><!--page-wrapper-->
-            </div><!--page-wrapper-->
-        </div><!--page-wrapper-->
-    </section><!-- department-details-section -->
-
-
-	<section class="department-details-section" style="margin-top: -200px;">
-		<div class="container">
-			<div class="row">
-
-                <a href="javascript:window.history.back()" style="background: white;">
-                    <button class="badgekembali" style="border: none; font-size: 12px; cursor: pointer; margin-right: 10px;">
-                        <i class="fas fa-arrow-circle-left mr-2" style="margin-right: 15px;"></i> KEMBALI
-                    </button>
-                </a>
-                {{-- ------------------------------------------------------------------------------------------ --}}
             </div><!--page-wrapper-->
         </div><!--page-wrapper-->
     </section><!-- department-details-section -->
