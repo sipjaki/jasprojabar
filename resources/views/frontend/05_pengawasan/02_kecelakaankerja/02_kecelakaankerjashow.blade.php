@@ -161,11 +161,11 @@ color: #45a049;
                     <div class="service-two-imgbox" >
 
 
-	<section class="department-details-section" style="margin-top: -200px;">
+	<section class="department-details-section" style="margin-top: -200px;" style="background: linear-gradient(to bottom, green, #FFD100, white);">
 		<div class="container" style="margin-top: -100px;">
 			<div class="row">
                 {{-- ------------------------------------------------------------------------------------------ --}}
-                <div class="col-lg-12" style="background: linear-gradient(to bottom, green, #FFD100, white);">
+                <div class="col-lg-12">
                         <div class="document-details">
 							<div class="document-details-list">
                                 <div class="centered-button" style="margin-top: -15px">
