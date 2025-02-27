@@ -24,14 +24,14 @@ class FedashboardController extends Controller
     public function index()
     {
         $data = berita::orderBy('created_at', 'desc')->get(); //
-        $databerita = berita::orderBy('created_at', 'desc')->get(); //
-        $data_layanankami = layanankami::orderBy('created_at', 'desc')->get(); //
-        $data_kegiatanjaskon = kegiatanjaskon::orderBy('created_at', 'desc')->get(); //
-        $dataqapertanyaan = qa::orderBy('created_at', 'desc')->get(); //
-        $dataqasebagai = qasebagai::orderBy('created_at', 'desc')->get(); //
-        $dataqapertanyaan = qapertanyaan::orderBy('created_at', 'desc')->get(); //
+        // $databerita = berita::orderBy('created_at', 'desc')->get(); //
+        // $data_layanankami = layanankami::orderBy('created_at', 'desc')->get(); //
+        // $data_kegiatanjaskon = kegiatanjaskon::orderBy('created_at', 'desc')->get(); //
+        // $dataqapertanyaan = qa::orderBy('created_at', 'desc')->get(); //
+        // $dataqasebagai = qasebagai::orderBy('created_at', 'desc')->get(); //
+        // $dataqapertanyaan = qapertanyaan::orderBy('created_at', 'desc')->get(); //
 
-        $himbauandinas = himbauandinas::orderBy('created_at', 'desc')->get(); //
+        // $himbauandinas = himbauandinas::orderBy('created_at', 'desc')->get(); //
 
         $user = Auth::user();
 
@@ -41,14 +41,14 @@ class FedashboardController extends Controller
         return view('frontend.00_approve.00_utama.index', [
             'title' => 'Mas Jaki DPUPR Blora | Sistem Informasi Pembina Jasa Konstruksi ',
             'data' => $data, // Mengirimkan data paginasi ke view
-            'dataqapertanyaan' => $dataqapertanyaan, // Mengirimkan data paginasi ke view
-            'data_layanankami' => $data_layanankami, // Mengirimkan data paginasi ke view
-            'data_jaskon' => $data_kegiatanjaskon, // Mengirimkan data paginasi ke view
-            'dataqasebagai' => $dataqasebagai, // Mengirimkan data paginasi ke view
-            'dataqapertanyaan' => $dataqapertanyaan, // Mengirimkan data paginasi ke view
-            'datahimbauandinas' => $himbauandinas, // Mengirimkan data paginasi ke view
+            // 'dataqapertanyaan' => $dataqapertanyaan, // Mengirimkan data paginasi ke view
+            // 'data_layanankami' => $data_layanankami, // Mengirimkan data paginasi ke view
+            // 'data_jaskon' => $data_kegiatanjaskon, // Mengirimkan data paginasi ke view
+            // 'dataqasebagai' => $dataqasebagai, // Mengirimkan data paginasi ke view
+            // 'dataqapertanyaan' => $dataqapertanyaan, // Mengirimkan data paginasi ke view
+            // 'datahimbauandinas' => $himbauandinas, // Mengirimkan data paginasi ke view
             'user' => $user, // Mengirimkan data paginasi ke view
-            'databerita' => $databerita, // Mengirimkan data paginasi ke view
+            // 'databerita' => $databerita, // Mengirimkan data paginasi ke view
         ]);
     }
 
