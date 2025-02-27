@@ -30,7 +30,7 @@
 
                                 {{-- @include('frontend.00_approve.01_cssterpisah.peraturanjasakonstruksi') --}}
                                 <li><a href="javascript:history.back()"><i class="fa-solid fa-arrow-left-long"></i>Kembali Ke Data Toko Bangunan</a></li>
-                                <li><a href="#"><i class="fa-solid fa-arrow-right-long"></i>Toko Bangunan : {{$data->namatokobangunan}}</a></li>
+                                <li><a href="#"><i class="fa-solid fa-arrow-right-long"></i>Nama : {{$data->namatokobangunan}}</a></li>
                                 <li><a href="#"><i class="fa-solid fa-arrow-right-long"></i>Kecamatan : {{$data->kecamatanblora->kecamatanblora}}</a></li>
                                 <li><a href="#"><i class="fa-solid fa-arrow-right-long"></i>Pemilik : {{$data->pemilik}}</a></li>
                                 <li><a href="#"><i class="fa-solid fa-arrow-right-long"></i>Alamat : {{$data->alamat}}</a></li>
