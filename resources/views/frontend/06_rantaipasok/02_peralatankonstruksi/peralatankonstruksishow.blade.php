@@ -239,6 +239,66 @@ color: #45a049;
 
 </div>
 
+<div class="col-lg-12">
+
+
+    <div class="document-details">
+        <div class="document-details-list">
+            <div class="centered-button" style="margin-top: -15px">
+                <button class="green-button" style="margin-bottom:10px; text-transform:uppercase">
+                    <i class="fas fa-file mr-2" style="margin-right:5px;"></i> JUMLAH ALAT BERAT : {{$data->namabadanusaha}}
+                </button>
+
+            </div>
+
+
+                                    {{-- TABLE DATA  --}}
+                    </head>
+
+<body>
+<div class="table-wrapper">
+<table class="fl-table">
+    <thead>
+        <tr>
+            {{-- <th style="text-align:center" >No</th> --}}
+            <th style="text-align:center" style="color: black" >No</th>
+            <th style="text-align:center" style="color: black"> Alat Berat</th>
+            <th style="text-align:center" style="color: black"> Jumlah </th>
+
+            </tr>
+    </thead>
+    <tbody>
+
+    {{-- @php
+        // Pastikan $data tidak null atau tidak terdefinisi
+        $start = ($data && $data->currentPage()) ? ($data->currentPage() - 1) * $data->perPage() + 1 : 1;
+    @endphp --}}
+
+    @foreach ($subData as $item)
+    <tr>
+        <td>{{ $loop->iteration + $start - 1 }}</td>
+        <td>{{$item->alatberat}}</td>
+        <td>{{$item->jumlahalatberat}}</td>
+    </tr>
+    @endforeach
+
+    </tbody>
+</table>
+</div>
+                            </div><!-- document-details-list -->
+
+                        </div><!-- document-details -->
+                    </div><!-- document-details-inner -->
+
+
+                </div><!-- col-lg-8 -->
+            </div><!-- row -->
+        </div><!-- container -->
+    </div><!--page-wrapper-->
+</div><!--page-wrapper-->
+</div><!--page-wrapper-->
+
+
                     </div>
                                                 </div><!-- document-details-list -->
 
@@ -261,64 +321,6 @@ color: #45a049;
 		<div class="container">
 			<div class="row">
                 {{-- ------------------------------------------------------------------------------------------ --}}
-                <div class="col-lg-12">
-
-
-                        <div class="document-details">
-							<div class="document-details-list">
-                                <div class="centered-button" style="margin-top: -15px">
-                                    <button class="green-button" style="margin-bottom:10px; text-transform:uppercase">
-                                        <i class="fas fa-file mr-2" style="margin-right:5px;"></i> JUMLAH ALAT BERAT : {{$data->namabadanusaha}}
-                                    </button>
-
-                                </div>
-
-
-                                                        {{-- TABLE DATA  --}}
-                                        </head>
-
-                    <body>
-                    <div class="table-wrapper">
-                    <table class="fl-table">
-                        <thead>
-                            <tr>
-                                {{-- <th style="text-align:center" >No</th> --}}
-                                <th style="text-align:center" style="color: black" >No</th>
-                                <th style="text-align:center" style="color: black"> Alat Berat</th>
-                                <th style="text-align:center" style="color: black"> Jumlah </th>
-
-                                </tr>
-                        </thead>
-                        <tbody>
-
-                        {{-- @php
-                            // Pastikan $data tidak null atau tidak terdefinisi
-                            $start = ($data && $data->currentPage()) ? ($data->currentPage() - 1) * $data->perPage() + 1 : 1;
-                        @endphp --}}
-
-                        @foreach ($subData as $item)
-                        <tr>
-                            <td>{{ $loop->iteration + $start - 1 }}</td>
-                            <td>{{$item->alatberat}}</td>
-                            <td>{{$item->jumlahalatberat}}</td>
-                        </tr>
-                        @endforeach
-
-                        </tbody>
-                    </table>
-                    </div>
-                                                </div><!-- document-details-list -->
-
-                                            </div><!-- document-details -->
-                                        </div><!-- document-details-inner -->
-
-
-                                    </div><!-- col-lg-8 -->
-                                </div><!-- row -->
-                            </div><!-- container -->
-                        </div><!--page-wrapper-->
-                    </div><!--page-wrapper-->
-                </div><!--page-wrapper-->
             </div><!--page-wrapper-->
         </div><!--page-wrapper-->
     </section><!-- department-details-section -->
