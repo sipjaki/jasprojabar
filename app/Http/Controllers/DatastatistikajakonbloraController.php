@@ -884,7 +884,7 @@ public function statistiktertibusahajakon()
 
     // Menghitung jumlah data berdasarkan penyediastatustertibjakon_id
     $dataByStatus = tertibjasakonstruksi::select('penyediastatustertibjakon_id', DB::raw('count(*) as jumlah'))
-        ->groupBy('penyediastatustertibjakon_id')
+        ->groupBy('penyediastatustertibjakon_id->penyedia')
         ->get();
 
     // Menghitung persentase tiap kategori
