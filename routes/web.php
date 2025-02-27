@@ -27,6 +27,7 @@ use App\Http\Controllers\PembinaanController;
 use App\Http\Controllers\PengawasanbujkController;
 use App\Http\Controllers\KecelakaankerjamasjakiController;
 use App\Http\Controllers\TertibjasakonstruksiController;
+use App\Http\Controllers\RantaipasokbloraController;
 use App\Http\Controllers\UndangundangController;
 use Database\Factories\DatajakonFactory;
 use Database\Factories\SkktenagakerjaFactory;
@@ -197,8 +198,13 @@ Route::get('/tertibjakonpenyelenggaraan/swasta', [TertibjasakonstruksiController
 // ==========================================================================================================
 Route::get('/statistiktertibjakonblora', [DatastatistikajakonbloraController::class, 'tertibjakonblora']);
 Route::get('/statistiktertibusahajakon', [DatastatistikajakonbloraController::class, 'statistiktertibusahajakon']);
-// fort
 
+// DATA STATITIK TERTIB JAKON MAS JAKI BLORA
+// ==========================================================================================================
+Route::get('/rantaipasokmaterial', [RantaipasokbloraController::class, 'index']);
+Route::get('/rantaipasokmaterial/{distributor}', [RantaipasokbloraController::class, 'rantaipasokblora']);
+
+// fort
 // ------------- HALAMAN UNTUK DATA SERTIFIKASI TENAGA KERJA AHLI -----------------
 
 // -------- BAGIAN 01 PENGAWASAN DAN KETERTIBAN  ---------------------------------

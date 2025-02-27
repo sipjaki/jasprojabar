@@ -169,7 +169,7 @@
                         <li class="active has-dropdown">
 							<a href="#">Rantai Pasok </a>
 							<ul class="list-unstyled">
-								<li><a href="/404">Material Bangunan Gedung </a></li>
+								<li><a href="/rantaipasokmaterial">Material Bangunan Gedung </a></li>
 								<li><a href="/404">Peralatan Konstruksi</a></li>
 								<li><a href="/404">Toko Bangunan Kab Blora</a></li>
 							</ul><!-- list-unstyled -->
