@@ -184,19 +184,19 @@ color: #45a049;
                                     <div style="display: flex; align-items: center;">
 
 
-                                        <a href="/tertibjasakonstruksipenyelenggaraan/pu" style="background: white;">
+                                        <a href="/tertibjakonpenyelenggaraan/pu" style="background: white;">
                                             <button class="badgemenu" style="border: none; font-size: 12px; cursor: pointer; margin-right: 10px;">
                                                 <i class="fas fa-edit mr-2" style="margin-right: 15px;"></i><span style="color: black; font-weight:bold">PU</span>
                                             </button>
                                         </a>
 
-                                        <a href="/tertibjasakonstruksipenyelenggaraan/nonpu" style="background: white;">
+                                        <a href="/tertibjakonpenyelenggaraan/nonpu" style="background: white;">
                                             <button class="badgemenu" style="border: none; font-size: 12px; cursor: pointer; margin-right: 10px;">
                                                 <i class="fas fa-edit mr-2" style="margin-right: 15px;"></i><span style="color: black; font-weight:bold">Non-PU</span>
                                             </button>
                                         </a>
 
-                                        <a href="/tertibjasakonstruksipenyelenggaraan/swasta" style="background: white;">
+                                        <a href="/tertibjakonpenyelenggaraan/swasta" style="background: white;">
                                             <button class="badgemenu" style="border: none; font-size: 12px; cursor: pointer; margin-right: 10px;">
                                                 <i class="fas fa-edit mr-2" style="margin-right: 15px;"></i><span style="color: black; font-weight:bold">Swasta</span>
                                             </button>
