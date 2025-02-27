@@ -23,7 +23,7 @@ overflow: hidden;
 
 /* Header styling */
 .fl-table thead {
-background: #ffae00;
+background: #ffd100;
 text-transform: uppercase;
 font-weight: 600;
 letter-spacing: 0.5px;
@@ -88,7 +88,7 @@ color: #45a049;
 
 
 .badgekembali {
-    background: linear-gradient(to right, orange, green);
+    background: linear-gradient(to right, #ffd100, green);
                 color: white;
                 padding: 10px 20px;
                 border-radius: 10px;
@@ -109,7 +109,7 @@ color: #45a049;
             }
 
             .green-button {
-                background: linear-gradient(to right, green, green, orange);
+                background: linear-gradient(to right, green, green, #ffd100);
                 color: white;
                 padding: 10px 20px;
                 border-radius: 10px;
@@ -157,13 +157,13 @@ color: #45a049;
 
 
 <section class="service-two-section" style="background-image: url('/assets/00_dokmasjaki/03_datajakon/banner1.jpg');">
-    <div class="container">
+    <div class="container" style="background: #FFD100; border-radius:20px;">
         <div class="row row-gutter-y-40">
             <div class="col-12 col-lg-12 col-xl-12">
                 <div class="service-two-card">
                     <div class="service-two-imgbox" >
 
-                        <section class="donate-section">
+                        <section class="donate-section" style="background: linear-gradient(to bottom, green, #FFD100, white);">
                             <div class="container">
                                 <div class="row row-gutter-30">
                                     <div class="col-lg-12">
