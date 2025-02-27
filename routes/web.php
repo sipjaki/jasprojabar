@@ -212,6 +212,7 @@ Route::get('/peralatankonstruksi/{namabadanusaha}', [RantaipasokbloraController:
 // ==========================================================================================================
 Route::get('/tokobangunanblora', [TokobangunanbloraController::class, 'index']);
 Route::get('/tokobangunanblora/{kecamatanblora}', [TokobangunanbloraController::class, 'tokobangunanblorashow']);
+Route::get('/tokobangunanbloralist/{namatokobangunan}', [TokobangunanbloraController::class, 'tokobangunanbloralistdetails']);
 
 
 // fort

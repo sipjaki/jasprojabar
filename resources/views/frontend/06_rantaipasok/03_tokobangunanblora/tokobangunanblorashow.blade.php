@@ -257,10 +257,11 @@ color: #45a049;
                                     <td>{{$item->notelepon}}</td>
                                     <td>{{$item->email}}</td>
                                     <td>{{$item->jenisprodukbangunan}}</td>
+                                    <td>{{$item->keterangan}}</td>
 
                                     <td style="text-align: center">
                                         {{-- <a href="/rantaipasokmaterial/{{$item->distributor}}"> --}}
-                                        <a href="/peralatankonstruksi/{{$item->namabadanusaha}}">
+                                        <a href="/peralatankonstruksi/{{$item->namatokobangunan}}">
                                             <i class="fas fa-eye view-icon" onclick="alert('View clicked!')"></i>
                                         </a>
                                     </td>
