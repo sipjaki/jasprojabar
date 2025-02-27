@@ -196,6 +196,7 @@ Route::get('/tertibjakonpenyelenggaraan/swasta', [TertibjasakonstruksiController
 // DATA STATITIK TERTIB JAKON MAS JAKI BLORA
 // ==========================================================================================================
 Route::get('/statistiktertibjakonblora', [DatastatistikajakonbloraController::class, 'tertibjakonblora']);
+Route::get('/statistiktertibusahajakon', [DatastatistikajakonbloraController::class, 'statistiktertibusahajakon']);
 // fort
 
 // ------------- HALAMAN UNTUK DATA SERTIFIKASI TENAGA KERJA AHLI -----------------

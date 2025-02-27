@@ -23,6 +23,7 @@ use App\Models\tertibjasakonstruksi;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\DB;
 
+
 class DatastatistikajakonbloraController extends Controller
 {
     //
@@ -870,6 +871,32 @@ public function tertibjakonblora()
         'persenJakon' => round($persenJakon, 2), // Dibulatkan ke 2 desimal
         'persenPemanfaatan' => round($persenPemanfaatan, 2),
         'persenPenyelenggaraan' => round($persenPenyelenggaraan, 2),
+    ]);
+}
+
+
+public function statistiktertibusahajakon()
+{
+    $user = Auth::user();
+
+    // Menghitung jumlah total data
+    $totalData = tertibjasakonstruksi::count();
+
+    // Menghitung jumlah data berdasarkan penyediastatustertibjakon_id
+    $dataByStatus = tertibjasakonstruksi::select('penyediastatustertibjakon_id', DB::raw('count(*) as jumlah'))
+        ->groupBy('penyediastatustertibjakon_id')
+        ->get();
+
+    // Menghitung persentase tiap kategori
+    $persentaseData = [];
+    foreach ($dataByStatus as $data) {
+        $persentaseData[$data->penyediastatustertibjakon_id] = ($totalData > 0) ? round(($data->jumlah / $totalData) * 100, 2) : 0;
+    }
+
+    return view('frontend.05_pengawasan.03_tertibjakon.00_datastatistika.01_tertibusaha', [
+        'title' => 'Data Statistika Tertib Usaha Jasa Konstruksi',
+        'persentaseData' => $persentaseData,
+        'user' => $user,
     ]);
 }
 
