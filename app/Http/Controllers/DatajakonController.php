@@ -509,9 +509,9 @@ class DatajakonController extends Controller
 
         return view('frontend.07_ahsp.01_standarbiayaumum.standarbiayaumumshow', [
             'data' => $data,
-            'datasbu1' => $datasbu1,
-            'datasbu2' => $datasbu2,
-            'datasbu3' => $datasbu3,
+            'data' => $datasbu1,
+            'data' => $datasbu2,
+            'data' => $datasbu3,
             'title' => 'Peraturan Standar Biaya Umum',
         ]);
     }
