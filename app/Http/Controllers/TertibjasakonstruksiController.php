@@ -163,7 +163,7 @@ class TertibjasakonstruksiController extends Controller
     public function tertibjasakonstruksipemanfaatannonpu()
     {
         // $data = tertibjasakonstruksi::paginate(10);
-        $data = tertibjasakonstruksi::whereHas('penyediastatustertibjakon', function ($query) {
+        $data = tertibjakonpemanfaatan::whereHas('penyediastatustertibjakon', function ($query) {
             // Mengambil data dengan penyedia_id pertama
             $query->where('penyediastatustertibjakon_id', 2); // 1 bisa diganti dengan ID pertama yang diinginkan
         })->paginate(10);
@@ -182,7 +182,7 @@ class TertibjasakonstruksiController extends Controller
     public function tertibjasakonstruksipemanfaatanswasta()
     {
         // $data = tertibjasakonstruksi::paginate(10);
-        $data = tertibjasakonstruksi::whereHas('penyediastatustertibjakon', function ($query) {
+        $data = tertibjakonpemanfaatan::whereHas('penyediastatustertibjakon', function ($query) {
             // Mengambil data dengan penyedia_id pertama
             $query->where('penyediastatustertibjakon_id', 3); // 1 bisa diganti dengan ID pertama yang diinginkan
         })->paginate(10);
