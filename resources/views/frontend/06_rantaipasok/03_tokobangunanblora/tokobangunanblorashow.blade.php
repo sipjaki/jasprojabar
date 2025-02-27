@@ -153,7 +153,7 @@ color: #45a049;
                     <div class="service-two-card">
                         <div class="service-two-imgbox">
 
-                            <section class="donate-section" style="background: linear-gradient(to bottom, green, #FFD100, white);">
+                            <section class="donate-section" style="background: linear-gradient(to bottom, green, #FFD100, white); border-radius:20px;">
                                 <div class="container" style="margin-top: -100px;">
                                     <div class="row row-gutter-30">
 
@@ -166,7 +166,7 @@ color: #45a049;
                         </head>
 
                         <section class="document-section" style="margin-top: -100px;">
-                            <div class="container" >
+                            <div class="container" style="border-radius:20px;">
                               <ul class="nav nav-pills" id="pills-tab" role="tablist">
                                   {{-- <img src="/assets/icon/logopupr.png" class="img-fluid" alt="img-25" width="50" style="margin-right: 20px;" loading="lazy"> --}}
 
@@ -261,7 +261,7 @@ color: #45a049;
 
                                     <td style="text-align: center">
                                         {{-- <a href="/rantaipasokmaterial/{{$item->distributor}}"> --}}
-                                        <a href="/peralatankonstruksi/{{$item->namatokobangunan}}">
+                                        <a href="/tokobangunanbloralist/{{$item->namatokobangunan}}">
                                             <i class="fas fa-eye view-icon" onclick="alert('View clicked!')"></i>
                                         </a>
                                     </td>

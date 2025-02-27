@@ -498,3 +498,5 @@ orange
 
 
 #FFD100 kuning emas pupr
+
+background: linear-gradient(to bottom, green, #FFD100, white); border-radius:20px;
