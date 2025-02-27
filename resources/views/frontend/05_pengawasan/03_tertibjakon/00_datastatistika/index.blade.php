@@ -32,8 +32,9 @@
 							<ul>
 								<li><a href="/datajakon/bujk"><i class="fa-solid fa-arrow-left-long"></i>Kembali</a></li>
 								<li style="text-align: center"><a style="text-align: center;" href="#">Data Statistika<i class="fa-solid fa-database" style="margin-left: 10px;"></i></a></li>
-								<li style="text-align: center"><a style="text-align: center;" href="#">Total Data Kontraktor : {{ $datakontraktor }}<i class="fa-solid fa-edit" style="margin-left: 10px;"></i></li>
-								<li style="text-align: center"><a style="text-align: center;" href="#">Total Data Konsultan : {{ $datakonsultan }}<i class="fa-solid fa-edit" style="margin-left: 10px;"></i></li>
+								<li style="text-align: center"><a style="text-align: center;" href="#">Total Data Tertib Usaha : {{ $datajakon }}<i class="fa-solid fa-edit" style="margin-left: 10px;"></i></li>
+								<li style="text-align: center"><a style="text-align: center;" href="#">Total Data Tertib Pemanfaaatan : {{ $datapemanfaatan }}<i class="fa-solid fa-edit" style="margin-left: 10px;"></i></li>
+								<li style="text-align: center"><a style="text-align: center;" href="#">Total Data Tertib Penyelenggaraan : {{ $datapenyelenggaraan }}<i class="fa-solid fa-edit" style="margin-left: 10px;"></i></li>
 
 							</ul><!-- ul -->
 						</div><!-- sidebar-widget-list-inner -->
