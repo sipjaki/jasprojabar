@@ -78,71 +78,84 @@
 
 				</div><!--col-12 col-lg-4 col-xl-4-->
 				<div class="col-lg-12">
-                    <table border="1">
+                    <table border="1" cellpadding="5" cellspacing="0">
                         <thead>
                             <tr>
-                                <th>Bahan Material</th>
-                                <th>Satuan</th>
-                                <th>Harga</th>
+                                <th style="background-color: #d1f7d1;">No</th>
+                                <th style="background-color: #d1f7d1;">Bahan Material</th>
+                                <th style="background-color: #d1f7d1;">Satuan</th>
+                                <th style="background-color: #d1f7d1;">Harga</th>
                             </tr>
                         </thead>
                         <tbody>
                             <tr>
+                                <td>1</td>
                                 <td>Pasir</td>
                                 <td>Meter Kubik</td>
                                 <td>Rp 100.000</td>
                             </tr>
                             <tr>
+                                <td>2</td>
                                 <td>Batu Bata</td>
                                 <td>Ribu</td>
                                 <td>Rp 1.500</td>
                             </tr>
                             <tr>
+                                <td>3</td>
                                 <td>Semen</td>
                                 <td>Karung</td>
                                 <td>Rp 75.000</td>
                             </tr>
                             <tr>
+                                <td>4</td>
                                 <td>Gipsum</td>
                                 <td>Plester</td>
                                 <td>Rp 50.000</td>
                             </tr>
                             <tr>
+                                <td>5</td>
                                 <td>Keramik</td>
                                 <td>Per Dus</td>
                                 <td>Rp 450.000</td>
                             </tr>
                             <tr>
+                                <td>6</td>
                                 <td>Cat Dinding</td>
                                 <td>Kaleng</td>
                                 <td>Rp 120.000</td>
                             </tr>
                             <tr>
+                                <td>7</td>
                                 <td>Paku</td>
                                 <td>Kilogram</td>
                                 <td>Rp 30.000</td>
                             </tr>
                             <tr>
+                                <td>8</td>
                                 <td>Tripleks</td>
                                 <td>Lembar</td>
                                 <td>Rp 150.000</td>
                             </tr>
                             <tr>
+                                <td>9</td>
                                 <td>Atap Zincalume</td>
                                 <td>Meter</td>
                                 <td>Rp 200.000</td>
                             </tr>
                             <tr>
+                                <td>10</td>
                                 <td>Kayu</td>
                                 <td>Meter</td>
                                 <td>Rp 75.000</td>
                             </tr>
                             <tr>
+                                <td>11</td>
                                 <td>Plafon PVC</td>
                                 <td>Meter Persegi</td>
                                 <td>Rp 100.000</td>
                             </tr>
                             <tr>
+                                <td>12</td>
                                 <td>Wiremesh</td>
                                 <td>Roll</td>
                                 <td>Rp 250.000</td>
