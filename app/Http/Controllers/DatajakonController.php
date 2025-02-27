@@ -478,7 +478,7 @@ class DatajakonController extends Controller
 
     //  -----------------------------------------------------------------------
 
-    public function standarbiayaumum()
+    public function newstandarbiayaumum()
     {
         $data = standarbiayaumum::paginate(15);
         $datasbu1 = sbulampiran1::paginate(15);
