@@ -184,8 +184,6 @@ color: #45a049;
                                         </button>
                                     </a>
                                 </div>
-                                </div>
-                                </div>
 
 
                     <div class="table-wrapper">
