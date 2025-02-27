@@ -487,7 +487,7 @@ class DatajakonController extends Controller
 
         $user = Auth::user();
 
-        return view('frontend.03_datajakon.02_standarbiayaumum', [
+        return view('frontend.07_ahsp.01_standarbiayaumum.standarbiayaumum', [
             'title' => 'Standar Biaya Umum ',
             'user' => $user,
             'data' => $data,
