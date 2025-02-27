@@ -401,14 +401,6 @@ KODE WARNA HIJAU :  #00820d
       #09ff00d7
 
 
-orange
-      #fdba00
-      #2ECC71 hijau modern
-
-      #ffae00
-
-
-      BERITA SISTEM INFORMASI
 
 
       <section class="portfolio-section" style="margin-top: -100px;">
@@ -500,3 +492,12 @@ orange
 #FFD100 kuning emas pupr
 
 background: linear-gradient(to bottom, green, #FFD100, white); border-radius:20px;
+
+orange
+      #fdba00
+      #2ECC71 hijau modern
+
+      #ffae00
+
+
+      BERITA SISTEM INFORMASI
