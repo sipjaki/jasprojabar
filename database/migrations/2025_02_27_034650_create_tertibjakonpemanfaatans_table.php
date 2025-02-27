@@ -22,7 +22,7 @@ return new class extends Migration
             $table->integer('umurkonstruksi')->nullable();
             $table->string('peruntukan_fungsi')->nullable();
             $table->string('peruntukan_lokasi')->nullable();
-            $table->integer('rencanaumur')->nullable();
+            $table->string('rencanaumur')->nullable();
             $table->string('kapasitasdanbeban')->nullable();
             $table->string('pemeliharaan_konstruksi')->nullable();
             $table->string('pemeliharaan_struktur')->nullable(); // Diperbaiki dari pemeliharaan_pemeliharaan
