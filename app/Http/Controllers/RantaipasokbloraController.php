@@ -3,6 +3,9 @@
 namespace App\Http\Controllers;
 
 use App\Models\rantaipasokblora;
+use App\Models\peralatankonstruksi;
+use App\Models\alatberat;
+use App\Models\kecamatanblora;
 use Illuminate\Http\Request;
 
 use Illuminate\Support\Facades\Auth;
@@ -52,5 +55,47 @@ class RantaipasokbloraController extends Controller
     //     'start' => $start,
     // ]);
     // }
+
+    public function peralatankonstruksi()
+    {
+        $data = peralatankonstruksi::paginate(10);
+        $datasub = alatberat::paginate(15);
+        $user = Auth::user();
+
+        return view('frontend.06_rantaipasok.02_peralatankonstruksi.peralatankonstruksi', [
+            'title' => 'Peralatan Konstruksi Wilayah Kab Blora',
+            'user' => $user, // Mengirimkan data paginasi ke view
+            'data' => $data, // Mengirimkan data paginasi ke view
+            'datasub' => $datasub, // Mengirimkan data paginasi ke view
+        ]);
+    }
+
+    public function rantaipasokblora($namabadanusaha)
+    {
+        $dataperalatankonstruksi =peralatankonstruksi::where('namabadanusaha', $namabadanusaha)->first();
+
+        if (!$dataperalatankonstruksi) {
+            // Tangani jika kegiatan tidak ditemukan
+            return redirect()->back()->with('error', 'Kegiatan tidak ditemukan.');
+        }
+
+        // Menggunakan paginate() untuk pagination
+        $subdata = alatberat::where('alatberat_id', $dataperalatankonstruksi->id)->paginate(10);
+
+          // Menghitung nomor urut mulai
+            $start = ($subdata->currentPage() - 1) * $subdata->perPage() + 1;
+
+
+    // Ambil data user saat ini
+    $user = Auth::user();
+
+    return view('frontend.06_rantaipasok.02_peralatankonstruksi.peralatankonstruksi', [
+        'title' => 'Data Peralatan Konstruksi',
+        'data' => $dataperalatankonstruksi,
+        'subData' => $subdata,  // Jika Anda ingin mengirimkan data sub kontraktor juga
+        'user' => $user,
+        'start' => $start,
+    ]);
+    }
 
 }

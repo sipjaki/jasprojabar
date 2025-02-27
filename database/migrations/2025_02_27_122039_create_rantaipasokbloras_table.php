@@ -13,13 +13,13 @@ return new class extends Migration
     {
         Schema::create('rantaipasokbloras', function (Blueprint $table) {
             $table->id();
-            $table->string('distributor');
-            $table->string('nib');
-            $table->string('alamat');
-            $table->string('notelepon');
-            $table->string('materialproduk');
-            $table->string('submaterialproduk');
-            $table->string('merkproduk');
+            $table->string('distributor')->nullable();
+            $table->string('nib')->nullable();
+            $table->string('alamat')->nullable();
+            $table->string('notelepon')->nullable();
+            $table->string('materialproduk')->nullable();
+            $table->string('submaterialproduk')->nullable();
+            $table->string('merkproduk')->nullable();
             $table->softDeletes();
             $table->timestamps();
         });

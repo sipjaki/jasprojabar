@@ -199,10 +199,14 @@ Route::get('/tertibjakonpenyelenggaraan/swasta', [TertibjasakonstruksiController
 Route::get('/statistiktertibjakonblora', [DatastatistikajakonbloraController::class, 'tertibjakonblora']);
 Route::get('/statistiktertibusahajakon', [DatastatistikajakonbloraController::class, 'statistiktertibusahajakon']);
 
-// DATA STATITIK TERTIB JAKON MAS JAKI BLORA
+// DATA RANTAI PASOK MATERIAL BANGUNAN GEDUNG JAKON MAS JAKI BLORA
 // ==========================================================================================================
 Route::get('/rantaipasokmaterial', [RantaipasokbloraController::class, 'index']);
 Route::get('/rantaipasokmaterial/{distributor}', [RantaipasokbloraController::class, 'rantaipasokblora']);
+
+Route::get('/peralatankonstruksi', [RantaipasokbloraController::class, 'peralatankonstruksi']);
+Route::get('/peralatankonstruksi/{namabadanusaha}', [RantaipasokbloraController::class, 'peralatankonstruksishow']);
+
 
 // fort
 // ------------- HALAMAN UNTUK DATA SERTIFIKASI TENAGA KERJA AHLI -----------------

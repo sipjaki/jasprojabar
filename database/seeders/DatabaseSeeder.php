@@ -91,6 +91,8 @@ use App\Models\tertibjakonpemanfaatan;
 use App\Models\tertibjakonpenyelenggaraan;
 use App\Models\kecamatanblora;
 use App\Models\rantaipasokblora;
+use App\Models\peralatankonstruksi;
+use App\Models\alatberat;
 
 
 // modelbaru
@@ -4390,6 +4392,118 @@ rantaipasokblora::create([
     'submaterialproduk' => 'TEMPERED',
     'merkproduk' => 'Asahimas',       // Menghilangkan 'Rp' dan menyimpan sebagai angka decimal
 ]);
+
+//======================== ===================================================================================
+// PERALATAN KONSTRUKSI MAS JAKI BLORA
+peralatankonstruksi::create([
+    'kecamatanblora_id' => '14',
+    'alatberat_id' => '1',
+    'namabadanusaha' => 'CV. Anugrah Jaya Makmur',
+    'nib' => '4765753435',
+    'notelepon' => '081321455855',           // Menghilangkan 'Rp' dan menyimpan sebagai angka decimal
+]);
+
+peralatankonstruksi::create([
+    'kecamatanblora_id' => '2',
+    'alatberat_id' => '2',
+    'namabadanusaha' => 'PT. Djawa Murni Kontraktor',
+    'nib' => '4353466346',
+    'notelepon' => '089345435435',           // Menghilangkan 'Rp' dan menyimpan sebagai angka decimal
+]);
+
+peralatankonstruksi::create([
+    'kecamatanblora_id' => '3',
+    'alatberat_id' => '3',
+    'namabadanusaha' => 'PT. Lintas Konstruksi Abadi',
+    'nib' => '4353466346',
+    'notelepon' => '089345435435',           // Menghilangkan 'Rp' dan menyimpan sebagai angka decimal
+]);
+
+//======================== ===================================================================================
+// PENGAWASAN BUJK MAS JAKI BLORA
+    alatberat::create([
+    'peralatankonstruksi_id' => '1',
+    'alatberat' => '',
+    'jumlahalatberat' => '7',           // Menghilangkan 'Rp' dan menyimpan sebagai angka decimal           // Menghilangkan 'Rp' dan menyimpan sebagai angka decimal
+    ]);
+
+    alatberat::create([
+        'peralatankonstruksi_id' => 1,
+        'alatberat' => 'Excavator',
+        'jumlahalatberat' => 7,
+    ]);
+
+    alatberat::create([
+        'peralatankonstruksi_id' => 1,
+        'alatberat' => 'Bulldozer',
+        'jumlahalatberat' => 4,
+    ]);
+
+    alatberat::create([
+        'peralatankonstruksi_id' => 1,
+        'alatberat' => 'Crane',
+        'jumlahalatberat' => 3,
+    ]);
+
+    alatberat::create([
+        'peralatankonstruksi_id' => 1,
+        'alatberat' => 'Dump Truck',
+        'jumlahalatberat' => 10,
+    ]);
+
+    alatberat::create([
+        'peralatankonstruksi_id' => 2,
+        'alatberat' => 'Motor Grader',
+        'jumlahalatberat' => 2,
+    ]);
+
+    alatberat::create([
+        'peralatankonstruksi_id' => 2,
+        'alatberat' => 'Vibro Roller',
+        'jumlahalatberat' => 5,
+    ]);
+
+    alatberat::create([
+        'peralatankonstruksi_id' => 2,
+        'alatberat' => 'Concrete Pump',
+        'jumlahalatberat' => 3,
+    ]);
+
+    alatberat::create([
+        'peralatankonstruksi_id' => 3,
+        'alatberat' => 'Tower Crane',
+        'jumlahalatberat' => 2,
+    ]);
+
+    alatberat::create([
+        'peralatankonstruksi_id' => 4,
+        'alatberat' => 'Hydraulic Breaker',
+        'jumlahalatberat' => 1,
+    ]);
+
+    alatberat::create([
+        'peralatankonstruksi_id' => 3,
+        'alatberat' => 'Asphalt Paver',
+        'jumlahalatberat' => 2,
+    ]);
+
+    alatberat::create([
+        'peralatankonstruksi_id' => 3,
+        'alatberat' => 'Skid Steer Loader',
+        'jumlahalatberat' => 3,
+    ]);
+
+    alatberat::create([
+        'peralatankonstruksi_id' => 3,
+        'alatberat' => 'Wheel Loader',
+        'jumlahalatberat' => 2,
+    ]);
+
+    alatberat::create([
+        'peralatankonstruksi_id' => 3,
+        'alatberat' => 'Backhoe Loader',
+        'jumlahalatberat' => 4,
+    ]);
 
 // fort
 

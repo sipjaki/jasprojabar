@@ -13,10 +13,10 @@ class kecamatanblora extends Model
 
     protected $guarded = ['id'];
 
-    // public function skktenagakerjablora()
-    // {
-    //     return $this->hasMany(skktenagakerjablora::class);
-    // }
+    public function peralatankonstruksi()
+    {
+        return $this->hasMany(peralatankonstruksi::class);
+    }
 
     // public function skktenagakerjabloralist()
     // {
