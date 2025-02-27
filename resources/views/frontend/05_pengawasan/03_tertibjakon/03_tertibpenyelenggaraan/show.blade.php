@@ -230,7 +230,7 @@ color: #45a049;
 
         <tr>
             <th style="text-align:center; color: black; width:50px; background-color: white;">
-                <i class="fas fa-file-contract" style="font-size:20px; margin-right:8px;"></i> <!-- Ikon untuk Nomor Kontrak -->
+                <i class="fas fa-file-signature" style="font-size:20px; margin-right:8px;"></i> <!-- Ikon untuk Nomor Kontrak -->
             </th>
             <th colspan="11" style="text-align:left; color: black; background-color: white; padding-left: 10px; width:300px;">
                 Nomor Kontrak
@@ -256,7 +256,7 @@ color: #45a049;
 
         <tr>
             <th style="text-align:center; color: black; width:50px; background-color: white;">
-                <i class="fas fa-tools" style="font-size:20px; margin-right:8px;"></i>
+                <i class="fas fa-cogs" style="font-size:20px; margin-right:8px;"></i> <!-- Ikon untuk Proses Pemilihan Penyedia Jasa -->
             </th>
             <th colspan="11" style="text-align:left; color: black; background-color: white; padding-left: 10px; width:300px;">
                 Proses Pemilihan Penyedia Jasa
@@ -272,7 +272,7 @@ color: #45a049;
 
         <tr>
             <th style="text-align:center; color: black; width:50px; background-color: white;">
-                <i class="fas fa-tools" style="font-size:20px; margin-right:8px;"></i>
+                <i class="fas fa-shield-alt" style="font-size:20px; margin-right:8px;"></i> <!-- Ikon untuk Pengawasan Terhadap Kontrak Kerja Konstruksi -->
             </th>
             <th colspan="11" style="text-align:left; color: black; background-color: white; padding-left: 10px; width:300px;">
                 Pengawasan Terhadap Kontrak Kerja Konstruksi
@@ -288,7 +288,7 @@ color: #45a049;
 
         <tr>
             <th style="text-align:center; color: black; width:50px; background-color: white;">
-                <i class="fas fa-tools" style="font-size:20px; margin-right:8px;"></i>
+                <i class="fas fa-file-signature" style="font-size:20px; margin-right:8px;"></i>
             </th>
             <th colspan="11" style="text-align:left; color: black; background-color: white; padding-left: 10px; width:300px;">
                 Pengawasan Terhadap Kontrak Kerja Konstruksi
@@ -304,7 +304,7 @@ color: #45a049;
 
         <tr>
             <th style="text-align:center; color: black; width:50px; background-color: white;">
-                <i class="fas fa-tools" style="font-size:20px; margin-right:8px;"></i>
+                <i class="fas fa-shield-alt" style="font-size:20px; margin-right:8px;"></i>
             </th>
             <th colspan="11" style="text-align:left; color: black; background-color: white; padding-left: 10px; width:300px;">
                 Pengawasan Terhadap Kontrak Kerja Konstruksi
@@ -320,7 +320,7 @@ color: #45a049;
 
         <tr>
             <th style="text-align:center; color: black; width:50px; background-color: white;">
-                <i class="fas fa-tools" style="font-size:20px; margin-right:8px;"></i>
+                <i class="fas fa-cogs" style="font-size:20px; margin-right:8px;"></i>
             </th>
             <th colspan="11" style="text-align:left; color: black; background-color: white; padding-left: 10px; width:300px;">
                 Pengawasan Terhadap Penerapan Standar K3
@@ -336,7 +336,7 @@ color: #45a049;
 
         <tr>
             <th style="text-align:center; color: black; width:50px; background-color: white;">
-                <i class="fas fa-tools" style="font-size:20px; margin-right:8px;"></i>
+                <i class="fas fa-cogs" style="font-size:20px; margin-right:8px;"></i>
             </th>
             <th colspan="11" style="text-align:left; color: black; background-color: white; padding-left: 10px; width:300px;">
                 Pengawasan Terhadap Penerapan Standar K3
@@ -352,7 +352,7 @@ color: #45a049;
 
         <tr>
             <th style="text-align:center; color: black; width:50px; background-color: white;">
-                <i class="fas fa-tools" style="font-size:20px; margin-right:8px;"></i>
+                <i class="fas fa-exclamation-triangle" style="font-size:20px; margin-right:8px;"></i>
             </th>
             <th colspan="11" style="text-align:left; color: black; background-color: white; padding-left: 10px; width:300px;">
                 Pengawasan Terhadap Penerapan Standar K3
@@ -365,7 +365,6 @@ color: #45a049;
                 </button>
             </td>
         </tr>
-
 
     </thead>
 </table>
