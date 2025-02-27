@@ -173,6 +173,7 @@ Route::get('/tertibjasakonstruksilist/{namabadanusaha}', [TertibjasakonstruksiCo
 
 Route::get('/tertibjasakonstruksiusaha/pu', [TertibjasakonstruksiController::class, 'tertibjasakonstruksiusahapu']);
 Route::get('/tertibjasakonstruksiusaha/nonpu', [TertibjasakonstruksiController::class, 'tertibjasakonstruksiusahanonpu']);
+Route::get('/tertibjasakonstruksiusaha/swasta', [TertibjasakonstruksiController::class, 'tertibjasakonstruksiusahaswasta']);
 
 // fort
 
