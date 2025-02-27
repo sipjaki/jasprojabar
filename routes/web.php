@@ -232,7 +232,7 @@ Route::get('/datajakon/asosiasi/{nama_asosiasi}', [DatajakonController::class, '
 
 // -------- BAGIAN 03 STANDAR BIAYA UMUM JASA KONSTRUKSI  ---------------------------------
 Route::get('/standarbiayaumummasjaki', [DatajakonController::class, 'newstandarbiayaumum']);
-Route::get('/standarbiayaumum/{judul}', [DatajakonController::class, 'standarbiayaumumshowbyjudulfe']);
+Route::get('/standarbiayaumummasjaki/{judul}', [DatajakonController::class, 'standarbiayaumumshowbyjudulfe']);
 
 Route::get('/datajakon/fesbulampiran3', [DatajakonController::class, 'fesbulampiran3']);
 Route::get('/datajakon/fesbulampiran3/{judul}', [DatajakonController::class, 'fesbulampiran3showbyjudulfe']);
