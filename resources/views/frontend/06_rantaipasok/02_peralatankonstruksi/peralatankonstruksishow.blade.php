@@ -182,10 +182,6 @@ color: #45a049;
                                 </div>
 
 
-                                                        {{-- TABLE DATA  --}}
-                                        </head>
-
-                    <body>
                     <div class="table-wrapper">
                     <!-- Add this inside your HTML <head> for FontAwesome -->
 <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
@@ -252,53 +248,41 @@ color: #45a049;
         <div class="document-details-list">
 
 
-                                    {{-- TABLE DATA  --}}
-                    </head>
 
-<body>
+
+</table>
+
+
 <div class="table-wrapper">
-<table class="fl-table">
-    <thead>
+    <table class="fl-table">
+        <thead>
+            <tr>
+                {{-- <th style="text-align:center" >No</th> --}}
+                <th style="text-align:center" style="color: black" >No</th>
+                <th style="text-align:center" style="color: black"> Alat Berat</th>
+                <th style="text-align:center" style="color: black"> Jumlah </th>
+
+                </tr>
+        </thead>
+        <tbody>
+
+        {{-- @php
+            // Pastikan $data tidak null atau tidak terdefinisi
+            $start = ($data && $data->currentPage()) ? ($data->currentPage() - 1) * $data->perPage() + 1 : 1;
+        @endphp --}}
+
+        @foreach ($subData as $item)
         <tr>
-            {{-- <th style="text-align:center" >No</th> --}}
-            <th style="text-align:center" style="color: black" >No</th>
-            <th style="text-align:center" style="color: black"> Alat Berat</th>
-            <th style="text-align:center" style="color: black"> Jumlah </th>
+            <td>{{ $loop->iteration + $start - 1 }}</td>
+            <td>{{$item->alatberat}}</td>
+            <td>{{$item->jumlahalatberat}}</td>
+        </tr>
+        @endforeach
 
-            </tr>
-    </thead>
-    <tbody>
+        </tbody>
+    </table>
+    </div>
 
-    {{-- @php
-        // Pastikan $data tidak null atau tidak terdefinisi
-        $start = ($data && $data->currentPage()) ? ($data->currentPage() - 1) * $data->perPage() + 1 : 1;
-    @endphp --}}
-
-    @foreach ($subData as $item)
-    <tr>
-        <td>{{ $loop->iteration + $start - 1 }}</td>
-        <td>{{$item->alatberat}}</td>
-        <td>{{$item->jumlahalatberat}}</td>
-    </tr>
-    @endforeach
-
-    </tbody>
-</table>
-</div>
-                            </div><!-- document-details-list -->
-
-                        </div><!-- document-details -->
-                    </div><!-- document-details-inner -->
-
-
-                </div><!-- col-lg-8 -->
-            </div><!-- row -->
-        </div><!-- container -->
-    </div><!--page-wrapper-->
-</div><!--page-wrapper-->
-</div><!--page-wrapper-->
-
-</table>
 
 
 
