@@ -177,6 +177,7 @@ color: #45a049;
                                     <th>No</th>
                                     <th>Bahan Material</th>
                                     <th>Satuan</th>
+                                    <th>Rp.</th>
                                     <th>Harga</th>
                                 </tr>
                             </thead>
@@ -185,73 +186,85 @@ color: #45a049;
                                     <td data-label="No">1</td>
                                     <td data-label="Bahan Material">Pasir</td>
                                     <td data-label="Satuan">Meter Kubik</td>
-                                    <td data-label="Harga">Rp 100.000</td>
+                                    <td data-label="Satuan">Rp.</td>
+                                    <td data-label="Harga" style="text-align: right"> 100.000</td>
                                 </tr>
                                 <tr>
                                     <td data-label="No">2</td>
                                     <td data-label="Bahan Material">Batu Bata</td>
                                     <td data-label="Satuan">Ribu</td>
-                                    <td data-label="Harga">Rp 1.500</td>
+                                    <td data-label="Satuan">Rp.</td>
+                                    <td data-label="Harga" style="text-align: right"> 1.500</td>
                                 </tr>
                                 <tr>
                                     <td data-label="No">3</td>
                                     <td data-label="Bahan Material">Semen</td>
                                     <td data-label="Satuan">Karung</td>
-                                    <td data-label="Harga">Rp 75.000</td>
+                                    <td data-label="Satuan">Rp.</td>
+                                    <td data-label="Harga" style="text-align: right"> 75.000</td>
                                 </tr>
                                 <tr>
                                     <td data-label="No">4</td>
                                     <td data-label="Bahan Material">Gipsum</td>
                                     <td data-label="Satuan">Plester</td>
-                                    <td data-label="Harga">Rp 50.000</td>
+                                    <td data-label="Harga">Rp. </td>
+                                    <td data-label="Harga" style="text-align: right"> 50.000</td>
                                 </tr>
                                 <tr>
                                     <td data-label="No">5</td>
                                     <td data-label="Bahan Material">Keramik</td>
                                     <td data-label="Satuan">Per Dus</td>
-                                    <td data-label="Harga">Rp 450.000</td>
+                                    <td data-label="Harga">Rp. </td>
+                                    <td data-label="Harga" style="text-align: right"> 450.000</td>
                                 </tr>
                                 <tr>
                                     <td data-label="No">6</td>
                                     <td data-label="Bahan Material">Cat Dinding</td>
                                     <td data-label="Satuan">Kaleng</td>
-                                    <td data-label="Harga">Rp 120.000</td>
+                                    <td data-label="Harga">Rp. </td>
+                                    <td data-label="Harga" style="text-align: right"> 120.000</td>
                                 </tr>
                                 <tr>
                                     <td data-label="No">7</td>
                                     <td data-label="Bahan Material">Paku</td>
                                     <td data-label="Satuan">Kilogram</td>
-                                    <td data-label="Harga">Rp 30.000</td>
+                                    <td data-label="Harga">Rp. </td>
+                                    <td data-label="Harga" style="text-align: right"> 30.000</td>
                                 </tr>
                                 <tr>
                                     <td data-label="No">8</td>
                                     <td data-label="Bahan Material">Tripleks</td>
                                     <td data-label="Satuan">Lembar</td>
-                                    <td data-label="Harga">Rp 150.000</td>
+                                    <td data-label="Harga">Rp. </td>
+                                    <td data-label="Harga" style="text-align: right"> 150.000</td>
                                 </tr>
                                 <tr>
                                     <td data-label="No">9</td>
                                     <td data-label="Bahan Material">Atap Zincalume</td>
                                     <td data-label="Satuan">Meter</td>
-                                    <td data-label="Harga">Rp 200.000</td>
+                                    <td data-label="Harga">Rp. </td>
+                                    <td data-label="Harga" style="text-align: right"> 200.000</td>
                                 </tr>
                                 <tr>
                                     <td data-label="No">10</td>
                                     <td data-label="Bahan Material">Kayu</td>
                                     <td data-label="Satuan">Meter</td>
-                                    <td data-label="Harga">Rp 75.000</td>
+                                    <td data-label="Harga">Rp. </td>
+                                    <td data-label="Harga" style="text-align: right"> 75.000</td>
                                 </tr>
                                 <tr>
                                     <td data-label="No">11</td>
                                     <td data-label="Bahan Material">Plafon PVC</td>
                                     <td data-label="Satuan">Meter Persegi</td>
-                                    <td data-label="Harga">Rp 100.000</td>
+                                    <td data-label="Harga">Rp. </td>
+                                    <td data-label="Harga" style="text-align: right"> 100.000</td>
                                 </tr>
                                 <tr>
                                     <td data-label="No">12</td>
                                     <td data-label="Bahan Material">Wiremesh</td>
                                     <td data-label="Satuan">Roll</td>
-                                    <td data-label="Harga">Rp 250.000</td>
+                                    <td data-label="Harga">Rp. </td>
+                                    <td data-label="Harga" style="text-align: right"> 250.000</td>
                                 </tr>
                             </tbody>
                         </table>
