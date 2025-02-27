@@ -173,11 +173,7 @@ color: #45a049;
                                         <img src="/assets/icon/logokabupatenblora.png" class="img-fluid" alt="img-25" width="50" height="50" style="margin-right: 20px;" loading="lazy">
                                         <i class="fas fa-file mr-2" style="margin-right:5px;"></i> <span style="color: black;">{{$title}} : {{$data->kecamatanblora->kecamatanblora}}</span>
                                     </button>
-                                    <a href="javascript:window.history.back()" style="background: white;">
-                                        <button class="badgekembali" style="border: none; font-size: 12px; cursor: pointer; margin-right: 10px;">
-                                            <i class="fas fa-arrow-circle-left mr-2" style="margin-right: 15px;"></i> KEMBALI
-                                        </button>
-                                    </a>
+
 
                                 </div>
 
@@ -307,6 +303,12 @@ color: #45a049;
 	<section class="department-details-section" style="margin-top: -200px;">
 		<div class="container">
 			<div class="row">
+
+                <a href="javascript:window.history.back()" style="background: white;">
+                    <button class="badgekembali" style="border: none; font-size: 12px; cursor: pointer; margin-right: 10px;">
+                        <i class="fas fa-arrow-circle-left mr-2" style="margin-right: 15px;"></i> KEMBALI
+                    </button>
+                </a>
                 {{-- ------------------------------------------------------------------------------------------ --}}
             </div><!--page-wrapper-->
         </div><!--page-wrapper-->
