@@ -261,7 +261,7 @@ color: #45a049;
         <thead>
             <tr>
                 {{-- <th style="text-align:center" >No</th> --}}
-                <th style="text-align:center" style="color: black" style="width: 75px" >No</th>
+                <th style="text-align:center" style="color: black" style="width: 25px" >No</th>
                 <th style="text-align:center" style="color: black" style="width: 600px;"> Alat Berat</th>
                 <th style="text-align:center" style="color: black" style="width: 400px;"> Jumlah </th>
 
@@ -277,8 +277,8 @@ color: #45a049;
         @foreach ($subData as $item)
         <tr>
             <td style="text-align: center">{{ $loop->iteration + $start - 1 }}</td>
-            <td style="text-align: left">{{$item->alatberat}}</td>
-            <td style="text-align: left">{{$item->jumlahalatberat}}</td>
+            <td style="text-align: center">{{$item->alatberat}}</td>
+            <td style="text-align: center">{{$item->jumlahalatberat}}</td>
         </tr>
         @endforeach
 
