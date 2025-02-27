@@ -89,6 +89,7 @@ use App\Models\penyediastatustertibjakon;
 use App\Models\tertibjasakonstruksi;
 use App\Models\tertibjakonpemanfaatan;
 use App\Models\tertibjakonpenyelenggaraan;
+use App\Models\kecamatanblora;
 
 
 // modelbaru
@@ -4238,6 +4239,88 @@ tertibjakonpenyelenggaraan::create([
 ]);
 
 // fort
+
+//======================== ===================================================================================
+// PENGAWASAN BUJK MAS JAKI BLORA
+kecamatanblora::create([
+    'id' => '1',
+    'kecamatanblora' => 'BANJAREJO 58253',          // Menghilangkan 'Rp' dan menyimpan sebagai angka decimal
+]);
+
+kecamatanblora::create([
+    'id' => '2',
+    'kecamatanblora' => 'BLORA (BLORA KOTA) 58211 - 58219',          // Menghilangkan 'Rp' dan menyimpan sebagai angka decimal
+]);
+
+kecamatanblora::create([
+    'id' => '3',
+    'kecamatanblora' => 'BOGOREJO 58262',          // Menghilangkan 'Rp' dan menyimpan sebagai angka decimal
+]);
+
+kecamatanblora::create([
+    'id' => '4',
+    'kecamatanblora' => 'CEPU 58311',          // Menghilangkan 'Rp' dan menyimpan sebagai angka decimal
+]);
+
+kecamatanblora::create([
+    'id' => '5',
+    'kecamatanblora' => 'JAPAH 58257',          // Menghilangkan 'Rp' dan menyimpan sebagai angka decimal
+]);
+
+kecamatanblora::create([
+    'id' => '6',
+    'kecamatanblora' => 'JATI 58384',          // Menghilangkan 'Rp' dan menyimpan sebagai angka decimal
+]);
+
+kecamatanblora::create([
+    'id' => '7',
+    'kecamatanblora' => 'JEPON 58261',          // Menghilangkan 'Rp' dan menyimpan sebagai angka decimal
+]);
+
+kecamatanblora::create([
+    'id' => '8',
+    'kecamatanblora' => 'JIKEN 58372',          // Menghilangkan 'Rp' dan menyimpan sebagai angka decimal
+]);
+
+kecamatanblora::create([
+    'id' => '9',
+    'kecamatanblora' => 'KEDUNGTUBAN 58381',          // Menghilangkan 'Rp' dan menyimpan sebagai angka decimal
+]);
+
+kecamatanblora::create([
+    'id' => '10',
+    'kecamatanblora' => 'KRADENAN 58383',          // Menghilangkan 'Rp' dan menyimpan sebagai angka decimal
+]);
+
+kecamatanblora::create([
+    'id' => '11',
+    'kecamatanblora' => 'KUNDURAN 58255',          // Menghilangkan 'Rp' dan menyimpan sebagai angka decimal
+]);
+
+kecamatanblora::create([
+    'id' => '12',
+    'kecamatanblora' => 'NGAWEN 58254',          // Menghilangkan 'Rp' dan menyimpan sebagai angka decimal
+]);
+
+kecamatanblora::create([
+    'id' => '13',
+    'kecamatanblora' => 'RANDUBLATUNG 58382',          // Menghilangkan 'Rp' dan menyimpan sebagai angka decimal
+]);
+
+kecamatanblora::create([
+    'id' => '14',
+    'kecamatanblora' => 'SAMBONG 58371',          // Menghilangkan 'Rp' dan menyimpan sebagai angka decimal
+]);
+
+kecamatanblora::create([
+    'id' => '15',
+    'kecamatanblora' => 'TODANAN 58256',          // Menghilangkan 'Rp' dan menyimpan sebagai angka decimal
+]);
+
+kecamatanblora::create([
+    'id' => '16',
+    'kecamatanblora' => 'TUNJUNGAN 58252',          // Menghilangkan 'Rp' dan menyimpan sebagai angka decimal
+]);
 
 //======================== ===================================================================================
 // PENGAWASAN BUJK MAS JAKI BLORA
