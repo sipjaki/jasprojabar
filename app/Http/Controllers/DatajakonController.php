@@ -501,17 +501,17 @@ class DatajakonController extends Controller
     public function standarbiayaumumshowbyjudul($judul)
     {
         $data = standarbiayaumum::where('judul', $judul)->firstOrFail();
-        $datasbu1 = sbulampiran1::where('judul', $judul)->firstOrFail();
-        $datasbu2 = sbulampiran2::where('judul', $judul)->firstOrFail();
-        $datasbu3 = sbulampiran3::where('judul', $judul)->firstOrFail();
+        // $datasbu1 = sbulampiran1::where('judul', $judul)->firstOrFail();
+        // $datasbu2 = sbulampiran2::where('judul', $judul)->firstOrFail();
+        // $datasbu3 = sbulampiran3::where('judul', $judul)->firstOrFail();
 
         $user = Auth::user();
 
         return view('frontend.07_ahsp.01_standarbiayaumum.standarbiayaumumshow', [
             'data' => $data,
-            'data' => $datasbu1,
-            'data' => $datasbu2,
-            'data' => $datasbu3,
+            // 'data' => $datasbu1,
+            // 'data' => $datasbu2,
+            // 'data' => $datasbu3,
             'title' => 'Peraturan Standar Biaya Umum',
         ]);
     }
