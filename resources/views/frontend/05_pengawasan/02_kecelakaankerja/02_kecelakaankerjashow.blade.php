@@ -154,7 +154,7 @@ color: #45a049;
 
 
 <section class="service-two-section" style="background-image: url('/assets/00_dokmasjaki/03_datajakon/banner1.jpg');">
-    <div class="container">
+    <div class="container" style="background: #FFD100; border-radius:20px;">
         <div class="row row-gutter-y-40">
             <div class="col-12 col-lg-12 col-xl-12">
                 <div class="service-two-card">
@@ -162,7 +162,7 @@ color: #45a049;
 
 
 	<section class="department-details-section" style="margin-top: -200px;">
-		<div class="container" style="margin-top: -100px;">
+		<div class="container" style="margin-top: -100px;" style="background: linear-gradient(to bottom, green, #FFD100, white);">
 			<div class="row">
                 {{-- ------------------------------------------------------------------------------------------ --}}
                 <div class="col-lg-12">
