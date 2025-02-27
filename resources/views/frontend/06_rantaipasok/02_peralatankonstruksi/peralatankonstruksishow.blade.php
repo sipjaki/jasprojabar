@@ -170,7 +170,7 @@ color: #45a049;
 							<div class="document-details-list">
                                 <div class="button-container" style="display: flex; justify-content: space-between; align-items: center; margin-top: -15px;">
                                     <!-- Tombol di Kiri -->
-                                    <button class="green-button" style="text-transform: uppercase; display: flex; align-items: center; padding: 10px 20px; border: none; background-color: #4CAF50; color: black;">
+                                    <button class="green-button">
                                         <img src="/assets/icon/logokabupatenblora.png" class="img-fluid" alt="img-25" width="50" height="50" style="margin-right: 10px; " loading="lazy">
                                         <i class="fas fa-file mr-2" style="margin-right: 5px;"></i>
                                         <span>{{$title}} : {{$data->kecamatanblora->kecamatanblora}}</span>
