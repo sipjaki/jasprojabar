@@ -172,7 +172,7 @@ class TertibjasakonstruksiController extends Controller
         $user = Auth::user();
 
         return view('frontend.05_pengawasan.03_tertibjakon.02_tertibpemanfaatan.00_filter.tertibpemanfaatannonpu', [
-            'title' => 'Non-PU Tertib Pemanfaatan Jasa Konstruksi',
+            'title' => 'Non-PU Tertib Pemanfaatan',
             'user' => $user, // Mengirimkan data paginasi ke view
             'data' => $data, // Mengirimkan data paginasi ke view
             'datasub' => $datasub, // Mengirimkan data paginasi ke view
@@ -191,7 +191,7 @@ class TertibjasakonstruksiController extends Controller
         $user = Auth::user();
 
         return view('frontend.05_pengawasan.03_tertibjakon.02_tertibpemanfaatan.00_filter.tertibpemanfaatanswasta', [
-            'title' => 'Swasta Tertib Pemanfaatan Jasa Konstruksi',
+            'title' => 'Swasta Tertib Pemanfaatan ',
             'user' => $user, // Mengirimkan data paginasi ke view
             'data' => $data, // Mengirimkan data paginasi ke view
             'datasub' => $datasub, // Mengirimkan data paginasi ke view
