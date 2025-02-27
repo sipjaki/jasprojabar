@@ -229,18 +229,16 @@ color: #45a049;
                                 <tr>
                                     <th style="text-align:center"> No</th>
                                     <th style="text-align:center"> Status Penyedia</th>
-                                    <th style="text-align:center"> Nama Bangunan</th>
+                                    <th style="text-align:center"> Kegiatan Konstruksi</th>
                                     <th style="text-align:center"> Nomor Kontrak</th>
-                                    <th style="text-align:center"> Lokasi</th>
-                                    {{-- <th style="text-align:center"> Tanggal Pembangunan</th>
-                                    <th style="text-align:center"> Tanggal Pemanfaatan</th>
-                                    <th style="text-align:center"> Umur Konstruksi (Tahun) </th>
-                                    <th style="text-align:center"> Peruntukan Fungsi </th>
-                                    <th style="text-align:center"> Peruntukan Lokasi </th>
-                                    <th style="text-align:center"> Rencana Umur </th>
-                                    <th style="text-align:center"> Kapasitas dan Beban </th>
-                                    <th style="text-align:center"> Pemeliharaaan Bangunan </th>
-                                    <th style="text-align:center"> Pemeliharaaan Program </th> --}}
+                                    <th style="text-align:center"> BUJK</th>
+                                    <th style="text-align:center"> Proses Pemilihan</th>
+                                    <th style="text-align:center"> Pengawasan Standar Kontrak</th>
+                                    <th style="text-align:center"> Pengawasan Tenaga Kerja</th>
+                                    <th style="text-align:center"> Pengawasan Penunjang</th>
+                                    <th style="text-align:center"> Pengawasan Dokumen K4</th>
+                                    <th style="text-align:center"> Pengawasan SMKK</th>
+                                    <th style="text-align:center"> Pengawasan Kecelakaan Kerja</th>
                                     <th style="text-align:center" >View</th>
                                 </tr>
                             </thead>
@@ -254,18 +252,16 @@ color: #45a049;
                                 <tr>
                                     <td style="text-align: center;">{{ $loop->iteration + $start - 1 }}</td>
                                     <td>{{$item->penyediastatustertibjakon->penyedia}}</td>
-                                    <td>{{$item->namabangunan}}</td>
+                                    <td>{{$item->kegiatankonstruksi}}</td>
+                                    <td>{{$item->bujk}}</td>
                                     <td>{{$item->nomorkontrak}}</td>
-                                    <td>{{$item->lokasi}}</td>
-                                    {{-- <td>{{$item->tanggalpembangunan}}</td> --}}
-                                    {{-- <td>{{$item->tanggalpemanfaatan}}</td> --}}
-                                    {{-- <td>{{$item->umurkonstruksi}}</td> --}}
-                                    {{-- <td>{{$item->peruntukan_fungsi}}</td>
-                                    <td>{{$item->peruntukan_lokasi}}</td>
-                                    <td>{{$item->rencanaumur}}</td>
-                                    <td>{{$item->kapasitasdanbeban}}</td>
-                                    <td>{{$item->pemeliharaan_konstruksi}}</td>
-                                    <td>{{$item->pemeliharaan_struktur}}</td> --}}
+                                    <td>{{$item->prosespemilihan}}</td>
+                                    <td>{{$item->pengawasan_standarkontrak}}</td>
+                                    <td>{{$item->pengawasan_tenagakerja}}</td>
+                                    <td>{{$item->pengawasan_penunjang}}</td>
+                                    <td>{{$item->pengawasan_dokumenk4}}</td>
+                                    <td>{{$item->pengawasan_smkk}}</td>
+                                    <td>{{$item->pengawasan_kecelakaankerja}}</td>
 
                                     {{-- <td>{{ \Carbon\Carbon::parse($item->tanggal)->isoFormat('D MMMM YYYY') }}</td> --}}
 

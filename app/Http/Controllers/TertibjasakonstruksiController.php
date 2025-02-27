@@ -236,7 +236,7 @@ class TertibjasakonstruksiController extends Controller
         $user = Auth::user();
 
         return view('frontend.05_pengawasan.03_tertibjakon.03_tertibpenyelenggaraan.list', [
-            'title' => 'Tertib Penyelenggaran Jasa Konstruksi',
+            'title' => 'Tertib Penyelenggaran',
             'user' => $user, // Mengirimkan data paginasi ke view
             'data' => $data, // Mengirimkan data paginasi ke view
             'datasub' => $datasub, // Mengirimkan data paginasi ke view
@@ -255,7 +255,7 @@ class TertibjasakonstruksiController extends Controller
         $user = Auth::user();
 
         return view('frontend.05_pengawasan.03_tertibjakon.03_tertibpenyelenggaraan.00_filter.tertibpenyelenggaraanpu', [
-            'title' => 'PU Tertib Pemanfaatan Jasa Konstruksi',
+            'title' => 'PU Tertib Penyelenggaraan',
             'user' => $user, // Mengirimkan data paginasi ke view
             'data' => $data, // Mengirimkan data paginasi ke view
             'datasub' => $datasub, // Mengirimkan data paginasi ke view
@@ -274,7 +274,7 @@ class TertibjasakonstruksiController extends Controller
         $user = Auth::user();
 
         return view('frontend.05_pengawasan.03_tertibjakon.03_tertibpenyelenggaraan.00_filter.tertibpenyelenggaraannonpu', [
-            'title' => 'Non-PU Tertib Pemanfaatan',
+            'title' => 'Non-PU Tertib Penyelenggaraan',
             'user' => $user, // Mengirimkan data paginasi ke view
             'data' => $data, // Mengirimkan data paginasi ke view
             'datasub' => $datasub, // Mengirimkan data paginasi ke view
@@ -293,7 +293,7 @@ class TertibjasakonstruksiController extends Controller
         $user = Auth::user();
 
         return view('frontend.05_pengawasan.03_tertibjakon.03_tertibpenyelenggaraan.00_filter.tertibpenyelenggaraanswasta', [
-            'title' => 'Swasta Tertib Pemanfaatan ',
+            'title' => 'Swasta Tertib Penyelenggaraan',
             'user' => $user, // Mengirimkan data paginasi ke view
             'data' => $data, // Mengirimkan data paginasi ke view
             'datasub' => $datasub, // Mengirimkan data paginasi ke view
