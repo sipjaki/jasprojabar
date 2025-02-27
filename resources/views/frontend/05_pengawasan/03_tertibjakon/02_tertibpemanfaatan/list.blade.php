@@ -270,7 +270,7 @@ color: #45a049;
                                     {{-- <td>{{ \Carbon\Carbon::parse($item->tanggal)->isoFormat('D MMMM YYYY') }}</td> --}}
 
                                     <td style="text-align: center">
-                                        <a href="/tertibjasakonstruksilist/{{$item->namabangunan}}">
+                                        <a href="/tertibjasakonstruksipemanfaatan/{{$item->namabangunan}}">
                                             <i class="fas fa-eye view-icon" onclick="alert('View clicked!')"></i>
                                         </a>
                                     </td>
