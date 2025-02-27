@@ -134,7 +134,7 @@ class TertibjasakonstruksiController extends Controller
         $user = Auth::user();
 
         return view('frontend.05_pengawasan.03_tertibjakon.02_tertibpemanfaatan.list', [
-            'title' => 'Tertib Usaha Jasa Konstruksi',
+            'title' => 'Tertib Pemanfaatan Jasa Konstruksi',
             'user' => $user, // Mengirimkan data paginasi ke view
             'data' => $data, // Mengirimkan data paginasi ke view
             'datasub' => $datasub, // Mengirimkan data paginasi ke view
