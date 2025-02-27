@@ -174,7 +174,7 @@ color: #45a049;
                                     <button class="green-button">
                                         <img src="/assets/icon/logokabupatenblora.png" class="img-fluid" alt="img-25" width="50" height="50" style="margin-right: 10px; " loading="lazy">
                                         <i class="fas fa-file mr-2" style="margin-right: 5px;"></i>
-                                        <span>{{$title}} : {{$data->kecamatanblora->kecamatanblora}}</span>
+                                        <span style="color: black;">{{$title}} : {{$data->kecamatanblora->kecamatanblora}}</span>
                                     </button>
 
                                     <!-- Tombol di Kanan -->
