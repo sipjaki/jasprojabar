@@ -161,7 +161,7 @@ color: #45a049;
                     <div class="service-two-imgbox" >
 
 
-	<section class="department-details-section" style="margin-top: -200px;" style="background: linear-gradient(to bottom, green, #FFD100, white);">
+	<section class="department-details-section" style="margin-top: -200px;" >
 		<div class="container" style="margin-top: -100px;">
 			<div class="row">
                 {{-- ------------------------------------------------------------------------------------------ --}}

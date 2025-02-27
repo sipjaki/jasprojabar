@@ -153,7 +153,7 @@ color: #45a049;
                     <div class="service-two-card">
                         <div class="service-two-imgbox">
 
-                            <section class="donate-section" style="background: linear-gradient(to bottom, green, #FFD100, white);;">
+                            <section class="donate-section" style="background: linear-gradient(to bottom, green, #FFD100, white);">
                                 <div class="container" style="margin-top: -100px;">
                                     <div class="row row-gutter-30">
 

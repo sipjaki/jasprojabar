@@ -88,7 +88,7 @@ color: #45a049;
 
 
             .badgekembali {
-                background: linear-gradient(to right, green, orange);
+                background: linear-gradient(to right, green, #FFD100);
                 color: white;
                 padding: 10px 20px;
                 border-radius: 10px;
@@ -154,7 +154,7 @@ color: #45a049;
 
 
 <section class="service-two-section" style="background-image: url('/assets/00_dokmasjaki/03_datajakon/banner1.jpg');">
-    <div class="container">
+    <div class="container" style="background: #FFD100; border-radius:20px;">
         <div class="row row-gutter-y-40">
             <div class="col-12 col-lg-12 col-xl-12">
                 <div class="service-two-card">
