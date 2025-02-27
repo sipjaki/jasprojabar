@@ -7,7 +7,7 @@
       function drawChart() {
         var data = google.visualization.arrayToDataTable([
           ['Kategori', 'Persentase'],
-          ['Tertib Jakon',     {{ $persenJakon }}],
+          ['Tertib Usaha',     {{ $persenJakon }}],
           ['Tertib Pemanfaatan', {{ $persenPemanfaatan }}],
           ['Tertib Penyelenggaraan',  {{ $persenPenyelenggaraan }}]
         ]);
