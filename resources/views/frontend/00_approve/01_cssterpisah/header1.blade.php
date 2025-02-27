@@ -178,8 +178,8 @@
                         <li class="active has-dropdown">
 							<a href="#">AHSP</a>
 							<ul class="list-unstyled">
-								<li><a href="/standarbiayaumum">Standar Biaya Umum </a></li>
-								<li><a href="/404">Harga Satuan Dasar </a></li>
+								<li><a href="/standarbiayaumummasjaki">Standar Biaya Umum </a></li>
+                                <li><a href="/404">Harga Satuan Dasar </a></li>
 								<li><a href="/404">HSP Konstruksi Umum </a></li>
 								<li><a href="/404">SHST Konstruksi</a></li>
 								{{-- <li><a href="/404">Daftar Material</a></li> --}}
