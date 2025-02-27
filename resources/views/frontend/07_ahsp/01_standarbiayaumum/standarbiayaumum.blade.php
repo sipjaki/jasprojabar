@@ -284,7 +284,7 @@ color: #45a049;
 
                                     <td style="text-align: center">
                                         {{-- <a href="/rantaipasokmaterial/{{$item->distributor}}"> --}}
-                                        <a href="/standarbiayaumummasjaki/{{$item->judul}}">
+                                        <a href="/standarbiayaumumsbu1/{{$item->judul}}">
                                             <i class="fas fa-eye view-icon" onclick="alert('View clicked!')"></i>
                                         </a>
                                     </td>
@@ -319,7 +319,7 @@ color: #45a049;
 
                                     <td style="text-align: center">
                                         {{-- <a href="/rantaipasokmaterial/{{$item->distributor}}"> --}}
-                                        <a href="/standarbiayaumummasjaki/{{$item->judul}}">
+                                        <a href="/standarbiayaumumsbu2/{{$item->judul}}">
                                             <i class="fas fa-eye view-icon" onclick="alert('View clicked!')"></i>
                                         </a>
                                     </td>
@@ -354,7 +354,7 @@ color: #45a049;
 
                                     <td style="text-align: center">
                                         {{-- <a href="/rantaipasokmaterial/{{$item->distributor}}"> --}}
-                                        <a href="/standarbiayaumummasjaki/{{$item->judul}}">
+                                        <a href="/standarbiayaumumsbu3/{{$item->judul}}">
                                             <i class="fas fa-eye view-icon" onclick="alert('View clicked!')"></i>
                                         </a>
                                     </td>
