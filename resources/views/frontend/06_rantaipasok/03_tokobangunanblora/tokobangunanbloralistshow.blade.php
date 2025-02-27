@@ -162,7 +162,7 @@ color: #45a049;
 		</div><!-- container -->
 	</section><!-- department-details-section -->
 
-    <section class="department-details-section" style="margin-top: -100px;">
+    <section class="department-details-section" style="margin-top: -250px;">
 		<div class="container">
 			<div class="row">
 				<div class="col-12 col-lg-12 col-xl-12">
