@@ -883,7 +883,7 @@ public function statistiktertibusahajakon()
     $totalData = tertibjasakonstruksi::count();
 
     // Menghitung jumlah data berdasarkan penyediastatustertibjakon_id
-    $dataByStatus = tertibjasakonstruksi::select('penyediastatustertibjakon_id', DB::raw('count(*) as jumlah'))
+    $dataByStatus = tertibjasakonstruksi::select('penyediastatustertibjakon_id->penyedia', DB::raw('count(*) as jumlah'))
         ->groupBy('penyediastatustertibjakon_id->penyedia')
         ->get();
 
