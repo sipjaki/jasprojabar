@@ -4428,79 +4428,79 @@ peralatankonstruksi::create([
     ]);
 
     alatberat::create([
-        'peralatankonstruksi_id' => 1,
+        'peralatankonstruksi_id' => '1',
         'alatberat' => 'Excavator',
         'jumlahalatberat' => 7,
     ]);
 
     alatberat::create([
-        'peralatankonstruksi_id' => 1,
+        'peralatankonstruksi_id' => '1',
         'alatberat' => 'Bulldozer',
         'jumlahalatberat' => 4,
     ]);
 
     alatberat::create([
-        'peralatankonstruksi_id' => 1,
+        'peralatankonstruksi_id' => '1',
         'alatberat' => 'Crane',
         'jumlahalatberat' => 3,
     ]);
 
     alatberat::create([
-        'peralatankonstruksi_id' => 1,
+        'peralatankonstruksi_id' => '1',
         'alatberat' => 'Dump Truck',
         'jumlahalatberat' => 10,
     ]);
 
     alatberat::create([
-        'peralatankonstruksi_id' => 2,
+        'peralatankonstruksi_id' => '2',
         'alatberat' => 'Motor Grader',
         'jumlahalatberat' => 2,
     ]);
 
     alatberat::create([
-        'peralatankonstruksi_id' => 2,
+        'peralatankonstruksi_id' => '2',
         'alatberat' => 'Vibro Roller',
         'jumlahalatberat' => 5,
     ]);
 
     alatberat::create([
-        'peralatankonstruksi_id' => 2,
+        'peralatankonstruksi_id' => '2',
         'alatberat' => 'Concrete Pump',
         'jumlahalatberat' => 3,
     ]);
 
     alatberat::create([
-        'peralatankonstruksi_id' => 3,
+        'peralatankonstruksi_id' => '3',
         'alatberat' => 'Tower Crane',
         'jumlahalatberat' => 2,
     ]);
 
     alatberat::create([
-        'peralatankonstruksi_id' => 4,
+        'peralatankonstruksi_id' => '4',
         'alatberat' => 'Hydraulic Breaker',
         'jumlahalatberat' => 1,
     ]);
 
     alatberat::create([
-        'peralatankonstruksi_id' => 3,
+        'peralatankonstruksi_id' => '3',
         'alatberat' => 'Asphalt Paver',
         'jumlahalatberat' => 2,
     ]);
 
     alatberat::create([
-        'peralatankonstruksi_id' => 3,
+        'peralatankonstruksi_id' => '3',
         'alatberat' => 'Skid Steer Loader',
         'jumlahalatberat' => 3,
     ]);
 
     alatberat::create([
-        'peralatankonstruksi_id' => 3,
+        'peralatankonstruksi_id' => '3',
         'alatberat' => 'Wheel Loader',
         'jumlahalatberat' => 2,
     ]);
 
     alatberat::create([
-        'peralatankonstruksi_id' => 3,
+        'peralatankonstruksi_id' => '3',
         'alatberat' => 'Backhoe Loader',
         'jumlahalatberat' => 4,
     ]);

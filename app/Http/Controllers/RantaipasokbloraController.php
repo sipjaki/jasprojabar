@@ -72,7 +72,7 @@ class RantaipasokbloraController extends Controller
 
     public function peralatankonstruksishow($namabadanusaha)
     {
-        $dataperalatankonstruksi =peralatankonstruksi::where('namabadanusaha', $namabadanusaha)->first();
+        $dataperalatankonstruksi = peralatankonstruksi::where('namabadanusaha', $namabadanusaha)->first();
 
         if (!$dataperalatankonstruksi) {
             // Tangani jika kegiatan tidak ditemukan
