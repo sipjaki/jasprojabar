@@ -28,7 +28,8 @@
 						<div class="sidebar-widget-list-inner">
 							<ul>
 
-                                @include('frontend.00_approve.01_cssterpisah.peraturanjasakonstruksi')
+                                {{-- @include('frontend.00_approve.01_cssterpisah.peraturanjasakonstruksi') --}}
+                                <li><a href="/peraturan/suratkeputusan">Surat Keputusan<i class="fa-solid fa-arrow-right-long"></i></a></li>
 
 							</ul><!-- ul -->
 						</div><!-- sidebar-widget-list-inner -->
