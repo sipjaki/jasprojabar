@@ -14,7 +14,7 @@ class TokobangunanbloraController extends Controller
     //
     public function index()
     {
-        $data = kecamatanblora::all(10);
+        $data = kecamatanblora::paginate(20);
         $datasub = tokobangunanblora::paginate(15);
         $user = Auth::user();
 
