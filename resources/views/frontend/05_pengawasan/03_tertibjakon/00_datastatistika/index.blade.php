@@ -38,7 +38,7 @@
 
                             </ul><!-- ul -->
                             <ul>
-                                	<li style="text-align: center"><a style="text-align: center;" href="/statistiktertibusahajakon">Statistika Tertib Jakon Usaha<i class="fa-solid fa-dashboard" style="margin-left: 10px;"></i></li>
+                                	<li style="text-align: center"><a style="text-align: center;" href="/statistiktertibusahajakon">Statistik Tertib Jakon Usaha<i class="fa-solid fa-dashboard" style="margin-left: 10px;"></i></li>
                             </ul>
 						</div><!-- sidebar-widget-list-inner -->
 						<div class="sidebar-widget sidebar-widget-card">
