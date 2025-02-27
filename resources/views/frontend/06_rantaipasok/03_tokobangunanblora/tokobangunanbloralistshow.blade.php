@@ -29,15 +29,16 @@
 							<ul>
 
                                 {{-- @include('frontend.00_approve.01_cssterpisah.peraturanjasakonstruksi') --}}
-                                <li><a href="javascript:history.back()"><i class="fa-solid fa-arrow-left-long"></i>Kembali Ke Data Toko Bangunan</a></li>
-                                <li><a href="#"><i class="fa-solid fa-arrow-right-long"></i>Nama : {{$data->namatokobangunan}}</a></li>
-                                <li><a href="#"><i class="fa-solid fa-arrow-right-long"></i>Kecamatan : {{$data->kecamatanblora->kecamatanblora}}</a></li>
-                                <li><a href="#"><i class="fa-solid fa-arrow-right-long"></i>Pemilik : {{$data->pemilik}}</a></li>
-                                <li><a href="#"><i class="fa-solid fa-arrow-right-long"></i>Alamat : {{$data->alamat}}</a></li>
-                                <li><a href="#"><i class="fa-solid fa-arrow-right-long"></i>No Telepon : {{$data->notelepon}}</a></li>
-                                <li><a href="#"><i class="fa-solid fa-arrow-right-long"></i>Email : {{$data->email}}</a></li>
-                                <li><a href="#"><i class="fa-solid fa-arrow-right-long"></i>Jenis Toko : {{$data->jenisprodukbangunan}}</a></li>
-							</ul><!-- ul -->
+                                <li><a href="javascript:history.back()"><i class="fa-solid fa-arrow-left-long"></i> Kembali Ke Data Toko Bangunan</a></li>
+                                <li><a href="#"><i class="fa-solid fa-store"></i> Nama : {{$data->namatokobangunan}}</a></li>
+                                <li><a href="#"><i class="fa-solid fa-map-marker-alt"></i> Kecamatan : {{$data->kecamatanblora->kecamatanblora}}</a></li>
+                                <li><a href="#"><i class="fa-solid fa-user"></i> Pemilik : {{$data->pemilik}}</a></li>
+                                <li><a href="#"><i class="fa-solid fa-location-arrow"></i> Alamat : {{$data->alamat}}</a></li>
+                                <li><a href="#"><i class="fa-solid fa-phone"></i> No Telepon : {{$data->notelepon}}</a></li>
+                                <li><a href="#"><i class="fa-solid fa-envelope"></i> Email : {{$data->email}}</a></li>
+                                <li><a href="#"><i class="fa-solid fa-cogs"></i> Jenis Toko : {{$data->jenisprodukbangunan}}</a></li>
+
+                            </ul><!-- ul -->
 						</div><!-- sidebar-widget-list-inner -->
 						<div class="sidebar-widget sidebar-widget-card">
 							<div class="sidebar-widget-card-icon">
