@@ -232,13 +232,13 @@ color: #45a049;
                                     <th style="text-align:center"> Kegiatan Konstruksi</th>
                                     <th style="text-align:center"> Nomor Kontrak</th>
                                     <th style="text-align:center"> BUJK</th>
-                                    <th style="text-align:center"> Proses Pemilihan</th>
+                                    {{-- <th style="text-align:center"> Proses Pemilihan</th>
                                     <th style="text-align:center"> Pengawasan Standar Kontrak</th>
                                     <th style="text-align:center"> Pengawasan Tenaga Kerja</th>
                                     <th style="text-align:center"> Pengawasan Penunjang</th>
                                     <th style="text-align:center"> Pengawasan Dokumen K4</th>
                                     <th style="text-align:center"> Pengawasan SMKK</th>
-                                    <th style="text-align:center"> Pengawasan Kecelakaan Kerja</th>
+                                    <th style="text-align:center"> Pengawasan Kecelakaan Kerja</th> --}}
                                     <th style="text-align:center" >View</th>
                                 </tr>
                             </thead>
@@ -253,15 +253,15 @@ color: #45a049;
                                     <td style="text-align: center;">{{ $loop->iteration + $start - 1 }}</td>
                                     <td>{{$item->penyediastatustertibjakon->penyedia}}</td>
                                     <td>{{$item->kegiatankonstruksi}}</td>
-                                    <td>{{$item->bujk}}</td>
                                     <td>{{$item->nomorkontrak}}</td>
-                                    <td>{{$item->prosespemilihan}}</td>
+                                    <td>{{$item->bujk}}</td>
+                                    {{-- <td>{{$item->prosespemilihan}}</td>
                                     <td>{{$item->pengawasan_standarkontrak}}</td>
                                     <td>{{$item->pengawasan_tenagakerja}}</td>
                                     <td>{{$item->pengawasan_penunjang}}</td>
                                     <td>{{$item->pengawasan_dokumenk4}}</td>
                                     <td>{{$item->pengawasan_smkk}}</td>
-                                    <td>{{$item->pengawasan_kecelakaankerja}}</td>
+                                    <td>{{$item->pengawasan_kecelakaankerja}}</td> --}}
 
                                     {{-- <td>{{ \Carbon\Carbon::parse($item->tanggal)->isoFormat('D MMMM YYYY') }}</td> --}}
 
