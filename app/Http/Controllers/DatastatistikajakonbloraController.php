@@ -874,7 +874,6 @@ public function tertibjakonblora()
     ]);
 }
 
-
 public function statistiktertibusahajakon()
 {
     $user = Auth::user();
@@ -882,15 +881,16 @@ public function statistiktertibusahajakon()
     // Menghitung jumlah total data
     $totalData = tertibjasakonstruksi::count();
 
-    // Menghitung jumlah data berdasarkan penyediastatustertibjakon_id
-    $dataByStatus = tertibjasakonstruksi::select('penyediastatustertibjakon_id->penyedia', DB::raw('count(*) as jumlah'))
-        ->groupBy('penyediastatustertibjakon_id->penyedia')
+    // Menghitung jumlah data berdasarkan penyedia status dengan join ke tabel penyediastatustertibjakon
+    $dataByStatus = tertibjasakonstruksi::select('penyediastatustertibjakon.penyedia', DB::raw('count(*) as jumlah'))
+        ->join('penyediastatustertibjakon', 'tertibjasakonstruksi.penyediastatustertibjakon_id', '=', 'penyediastatustertibjakon.id')
+        ->groupBy('penyediastatustertibjakon.penyedia')
         ->get();
 
     // Menghitung persentase tiap kategori
     $persentaseData = [];
     foreach ($dataByStatus as $data) {
-        $persentaseData[$data->penyediastatustertibjakon_id] = ($totalData > 0) ? round(($data->jumlah / $totalData) * 100, 2) : 0;
+        $persentaseData[$data->penyedia] = ($totalData > 0) ? round(($data->jumlah / $totalData) * 100, 2) : 0;
     }
 
     return view('frontend.05_pengawasan.03_tertibjakon.00_datastatistika.01_tertibusaha', [
@@ -899,6 +899,7 @@ public function statistiktertibusahajakon()
         'user' => $user,
     ]);
 }
+
 
 
 

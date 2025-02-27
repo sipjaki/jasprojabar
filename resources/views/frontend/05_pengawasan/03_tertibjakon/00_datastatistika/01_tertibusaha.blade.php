@@ -7,8 +7,8 @@
       function drawChart() {
         var data = google.visualization.arrayToDataTable([
           ['Kategori', 'Persentase'],
-          @foreach($persentaseData as $id => $persentase)
-            ['{{ $id }}', {{ $persentase }}],
+          @foreach($persentaseData as $penyedia => $persentase)
+            ['{{ $penyedia }}', {{ $persentase }}],
           @endforeach
         ]);
 
