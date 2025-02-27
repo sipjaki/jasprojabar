@@ -89,7 +89,7 @@ class TertibjasakonstruksiController extends Controller
         $user = Auth::user();
 
         return view('frontend.05_pengawasan.03_tertibjakon.01_tertibusaha.00_filter.tertibusahaswasta', [
-            'title' => 'Non-PU Tertib Usaha Jasa Konstruksi',
+            'title' => 'Swasta Tertib Usaha Jasa Konstruksi',
             'user' => $user, // Mengirimkan data paginasi ke view
             'data' => $data, // Mengirimkan data paginasi ke view
             'datasub' => $datasub, // Mengirimkan data paginasi ke view
