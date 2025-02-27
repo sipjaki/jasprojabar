@@ -275,7 +275,30 @@ color: #45a049;
                                         </div><!-- col-xl-8 col-lg-12 -->
                                     </div><!-- row -->
                                 </div><!-- container -->
-                                @include('frontend.00_approve.01_cssterpisah.paginator')
+
+                                {{-- ----------------------- --}}
+                                {{-- @include('frontend.00_approve.01_cssterpisah.paginator') --}}
+
+                                <div class="pagination-container" style="margin-top: 50px; display: flex; flex-direction: column; align-items: center;">
+                                    <div class="pagination-info mb-2" style="margin-bottom: 100px; color: black; font-weight: 500;">
+                                        Data Ke {{ $subData->firstItem() }} Sampai {{ $subData->lastItem() }} Dari {{ $subData->total() }} Jumlah {{$title}}
+                                    </div>
+                                    <ul class="pagination-paginate" style="display: flex; padding-left: 0; list-style: none; margin-top: 10px;">
+                                        <li class="page-item {{ $subData->onFirstPage() ? 'disabled' : '' }}" style="margin-right: 5px;">
+                                            <a class="page-link" href="{{ $subData->previousPageUrl() }}">
+                                                <i class="fas fa-arrow-left" style="margin-right: 10px;"></i>Previous
+                                            </a>
+                                        </li>
+                                        <li class="page-item {{ $subData->hasMorePages() ? '' : 'disabled' }}" style="margin-right: 5px;">
+                                            <a class="page-link" href="{{ $subData->nextPageUrl() }}">
+                                                Next <i class="fas fa-arrow-right" style="margin-left: 10px;"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+
+
+                            {{-- ---------------------------------------------------- --}}
                             </section><!-- donate-section -->
 
 
