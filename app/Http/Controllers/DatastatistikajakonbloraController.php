@@ -14,6 +14,9 @@ use App\Models\namasekolah;
 use App\Models\jenjangpendidikan;
 use App\Models\jurusan;
 use App\Models\jabatankerja;
+use App\Models\tertibjakon;
+use App\Models\tertibjakonpemanfaatan;
+use App\Models\tertibjakonpenyelenggaraan;
 use App\Models\jenjang;
 use App\Models\lpspenerbit;
 
@@ -832,6 +835,42 @@ public function datajenjang9()
             'jumlahstatistikJenjang' => $jumlahstatistikJenjang,
 
         ]);
+}
+
+
+
+public function tertibjakonblora()
+{
+    $user = Auth::user();
+
+    // Mengambil jumlah data dari masing-masing tabel
+    $datajakon = tertibjakon::count();
+    $datapemanfaatan = tertibjakonpemanfaatan::count();
+    $datapenyelenggaraan = tertibjakonpenyelenggaraan::count();
+
+    // Menghitung total data keseluruhan
+    $totalData = $datajakon + $datapemanfaatan + $datapenyelenggaraan;
+
+    // Menghindari pembagian dengan nol
+    if ($totalData > 0) {
+        $persenJakon = ($datajakon / $totalData) * 100;
+        $persenPemanfaatan = ($datapemanfaatan / $totalData) * 100;
+        $persenPenyelenggaraan = ($datapenyelenggaraan / $totalData) * 100;
+    } else {
+        $persenJakon = $persenPemanfaatan = $persenPenyelenggaraan = 0;
+    }
+
+    return view('frontend.05_pengawasan.03_tertibjakon.00_datastatistika.index', [
+        'title' => 'Data Statistika Tertib Jasa Konstruksi',
+        'user' => $user,
+        'datajakon' => $datajakon,
+        'datapemanfaatan' => $datapemanfaatan,
+        'datapenyelenggaraan' => $datapenyelenggaraan,
+        'totalData' => $totalData,
+        'persenJakon' => round($persenJakon, 2), // Dibulatkan ke 2 desimal
+        'persenPemanfaatan' => round($persenPemanfaatan, 2),
+        'persenPenyelenggaraan' => round($persenPenyelenggaraan, 2),
+    ]);
 }
 
 
