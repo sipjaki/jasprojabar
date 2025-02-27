@@ -25,101 +25,29 @@
   <section class="service-two-section" style="background-image: url('/assets/00_dokmasjaki/03_datajakon/banner1.jpg');">
     <div class="container">
         <div class="row row-gutter-y-40">
+
+            @foreach ($data as $item )
+
             <div class="col-6 col-lg-3 col-xl-3">
                 <div class="service-two-card">
                     <div class="service-two-imgbox">
                         <div class="service-two-image" style="display: flex; justify-content: center;">
-                            <img src="/assets/00_dokmasjaki/03_datajakon/pekerjaantender.png" class="img-fluid" alt="img-28" loading="lazy" style="width: 70%; padding:30px;">
-                            <a href="/datajakon/paketpekerjaantender "></a>
+                            <img src="/assets/icon/logokabupatenblora.png" class="img-fluid" alt="img-28" loading="lazy" style="width: 70%; padding:30px;">
+                            <a href="/tokobangunanblora/{{$item->kecamatanblora}}"></a>
                         </div><!-- service-two-image -->
                     </div><!-- service-two-imgbox -->
                     <div class="service-two-card-content">
-                        <h4>Profil Paket Pekerjaan Konstruksi dan Konsultasi</h4>
+                        <h4>Kecamatan <br> {{$item->kecamatan}}</h4>
                         {{-- <p>Dinas Pekerjaan Umum dan Penataan Ruang <br> Pemerintah Kabupaten Blora Provinsi Jawa Tengah</p> --}}
-                        <a href="/datajakon/paketpekerjaantender">
+                        <a href="/tokobangunanblora/{{$item->kecamatanblora}}">
                             <i class="fa-solid fa-arrow-right-long"></i>
-                            <span>Lihat Data</span>
+                            <span>Lihat Toko Bangunan</span>
                         </a>
                     </div><!--service-two-card-content-->
                 </div><!--service-two-card-->
             </div><!--col-12 col-lg-4 col-xl-4-->
 
-            {{-- <div class="col-12 col-lg-3 col-xl-3">
-                <div class="service-two-card">
-                    <div class="service-two-imgbox" >
-                        <div class="service-two-image" style="display: flex; justify-content: center;">
-                            <img src="/assets/00_dokmasjaki/03_datajakon/pekerjaannontender.png"  class="img-fluid" alt="img-29"  loading="lazy" style="width:70%; padding:30px; ">
-                            <a href="/datajakon/paketpekerjaannontender"></a>
-                        </div><!-- service-two-image -->
-                    </div><!-- service-two-imgbox -->
-                    <div class="service-two-card-content">
-                        <h4>Pekerjaan Non Tender</h4>
-                        <p>Dinas Pekerjaan Umum dan Penataan Ruang <br> Pemerintah Kabupaten Blora Provinsi Jawa Tengah</p>
-                        <a href="/datajakon/paketpekerjaannontender">
-                            <i class="fa-solid fa-arrow-right-long"></i>
-                            <span>Lihat Data</span>
-                        </a>
-                    </div><!--service-two-card-content-->
-                </div><!--service-two-card-->
-            </div><!--col-12 col-lg-4 col-xl-4--> --}}
-
-            {{-- <div class="col-12 col-lg-3 col-xl-3">
-                <div class="service-two-card">
-                    <div class="service-two-imgbox" >
-                        <div class="service-two-image" style="display: flex; justify-content: center;">
-                            <img src="/assets/00_dokmasjaki/03_datajakon/konsultantender.png"  class="img-fluid" alt="img-29"  loading="lazy" style="width:70%; padding:30px; ">
-                            <a href="/datajakon/paketkonsultasitender"></a>
-                        </div><!-- service-two-image -->
-                    </div><!-- service-two-imgbox -->
-                    <div class="service-two-card-content">
-                        <h4>Konstruksi Konsultasi Tender</h4>
-                        <p>Dinas Pekerjaan Umum dan Penataan Ruang <br> Pemerintah Kabupaten Blora Provinsi Jawa Tengah</p>
-                        <a href="/datajakon/paketkonsultasitender">
-                            <i class="fa-solid fa-arrow-right-long"></i>
-                            <span>Lihat Data</span>
-                        </a>
-                    </div><!--service-two-card-content-->
-                </div><!--service-two-card-->
-            </div><!--col-12 col-lg-4 col-xl-4--> --}}
-
-            {{-- <div class="col-12 col-lg-3 col-xl-3">
-                <div class="service-two-card">
-                    <div class="service-two-imgbox" >
-                        <div class="service-two-image" style="display: flex; justify-content: center;">
-                            <img src="/assets/00_dokmasjaki/03_datajakon/konsultannontender.png"  class="img-fluid" alt="img-29"  loading="lazy" style="width:70%; padding:30px; ">
-                            <a href="/datajakon/paketkonsultasinontender"></a>
-                        </div><!-- service-two-image -->
-                    </div><!-- service-two-imgbox -->
-                    <div class="service-two-card-content">
-                        <h4>Konstruksi Konsultasi Non Tender</h4>
-                        <p>Dinas Pekerjaan Umum dan Penataan Ruang <br> Pemerintah Kabupaten Blora Provinsi Jawa Tengah</p>
-                        <a href="/datajakon/paketkonsultasinontender">
-                            <i class="fa-solid fa-arrow-right-long"></i>
-                            <span>Lihat Data</span>
-                        </a>
-                    </div><!--service-two-card-content-->
-                </div><!--service-two-card-->
-            </div><!--col-12 col-lg-4 col-xl-4--> --}}
-
-            <div class="col-6 col-lg-3 col-xl-3">
-                <div class="service-two-card">
-                    <div class="service-two-imgbox" >
-                        <div class="service-two-image" style="display: flex; justify-content: center;">
-                            <img src="/assets/00_dokmasjaki/03_datajakon/statistikapekerjaan.png"  class="img-fluid" alt="img-29"  loading="lazy" style="width:70%; padding:30px; ">
-                            <a href="/404"></a>
-                        </div><!-- service-two-image -->
-                    </div><!-- service-two-imgbox -->
-                    <div class="service-two-card-content">
-                        <h4>Data Statistik Profil Paket Pekerjaan</h4>
-                        {{-- <p>Dinas Pekerjaan Umum dan Penataan Ruang <br> Pemerintah Kabupaten Blora Provinsi Jawa Tengah</p> --}}
-                        <a href="/datajakon/?">
-                            <i class="fa-solid fa-arrow-right-long"></i>
-                            <span>Lihat Data</span>
-                        </a>
-                    </div><!--service-two-card-content-->
-                </div><!--service-two-card-->
-            </div><!--col-12 col-lg-4 col-xl-4-->
-
+            @endforeach
 
         </div><!-- row -->
     </div><!-- container -->
