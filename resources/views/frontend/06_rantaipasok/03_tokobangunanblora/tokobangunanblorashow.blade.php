@@ -278,7 +278,7 @@ color: #45a049;
 
                                 {{-- ----------------------- --}}
                                 {{-- @include('frontend.00_approve.01_cssterpisah.paginator') --}}
-
+{{--
                                 <div class="pagination-container" style="margin-top: 50px; display: flex; flex-direction: column; align-items: center;">
                                     <div class="pagination-info mb-2" style="margin-bottom: 100px; color: black; font-weight: 500;">
                                         Data Ke {{ $subData->firstItem() }} Sampai {{ $subData->lastItem() }} Dari {{ $subData->total() }} Jumlah {{$title}}
@@ -295,7 +295,7 @@ color: #45a049;
                                             </a>
                                         </li>
                                     </ul>
-                                </div>
+                                </div> --}}
 
 
                             {{-- ---------------------------------------------------- --}}
