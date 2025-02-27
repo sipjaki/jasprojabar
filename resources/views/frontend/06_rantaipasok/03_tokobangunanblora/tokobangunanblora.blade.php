@@ -37,7 +37,7 @@
                         </div><!-- service-two-image -->
                     </div><!-- service-two-imgbox -->
                     <div class="service-two-card-content">
-                        <h4>Kecamatan {{$item->kecamatan}}</h4>
+                        <h4>Kecamatan {{$item->kecamatanblora}}</h4>
                         {{-- <p>Dinas Pekerjaan Umum dan Penataan Ruang <br> Pemerintah Kabupaten Blora Provinsi Jawa Tengah</p> --}}
                         <a href="/tokobangunanblora/{{$item->kecamatanblora}}">
                             <i class="fa-solid fa-arrow-right-long"></i>
