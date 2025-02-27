@@ -244,7 +244,7 @@ color: #45a049;
                             <tbody>
 
                                 @php
-                                $start = ($data->currentPage() - 1) * $data->perPage() + 1;
+                                $start = ($subData->currentPage() - 1) * $subData->perPage() + 1;
                                     @endphp
 
                                 @foreach ($subData as $item )
