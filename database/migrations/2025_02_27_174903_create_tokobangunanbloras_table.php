@@ -20,6 +20,7 @@ return new class extends Migration
             $table->string('notelepon')->nullable(); // Nomor telepon toko
             $table->string('email')->nullable(); // Email toko (jika ada)
             $table->string('jenisprodukbangunan')->nullable(); // Email toko (jika ada)
+            $table->string('fototokobangunan')->nullable(); // Email toko (jika ada)
             $table->text('keterangan')->nullable(); // Deskripsi singkat tentang toko
             $table->softDeletes();
             $table->timestamps();

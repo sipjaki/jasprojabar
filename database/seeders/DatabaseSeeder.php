@@ -4516,6 +4516,7 @@ peralatankonstruksi::create([
         'notelepon' => '081234567890',
         'email' => 'sumberjaya@email.com',
         'jenisprodukbangunan' => 'UMUM',
+        'fototokobangunan' => 'tokobangunan/tokobangunanblora.jpg',
         'keterangan' => 'Menyediakan bahan bangunan lengkap dengan layanan antar',
     ]);
 
@@ -4527,6 +4528,7 @@ peralatankonstruksi::create([
         'notelepon' => '082112345678',
         'email' => 'tokomakmur@email.com',
         'jenisprodukbangunan' => 'KHUSUS',
+        'fototokobangunan' => 'tokobangunan/tokobangunanblora.jpg',
         'keterangan' => 'Melayani pembelian dalam jumlah besar dan kecil',
     ]);
 
@@ -4538,6 +4540,7 @@ peralatankonstruksi::create([
         'notelepon' => '085678901234',
         'email' => 'sejahtera_bangunan@email.com',
         'jenisprodukbangunan' => 'UMUM',
+        'fototokobangunan' => 'tokobangunan/tokobangunanblora.jpg',
         'keterangan' => 'Tersedia berbagai jenis kayu dan material finishing',
     ]);
 
@@ -4549,6 +4552,7 @@ peralatankonstruksi::create([
         'notelepon' => '087876543210',
         'email' => 'tokomajujaya@email.com',
         'jenisprodukbangunan' => 'KHUSUS',
+        'fototokobangunan' => 'tokobangunan/tokobangunanblora.jpg',
         'keterangan' => 'Menyediakan bahan material konstruksi berat',
     ]);
 
@@ -4560,6 +4564,7 @@ peralatankonstruksi::create([
         'notelepon' => '081356789012',
         'email' => 'tokosentosa@email.com',
         'jenisprodukbangunan' => 'UMUM',
+        'fototokobangunan' => 'tokobangunan/tokobangunanblora.jpg',
         'keterangan' => 'Diskon spesial untuk pembelian partai besar',
     ]);
 
@@ -4571,6 +4576,7 @@ peralatankonstruksi::create([
         'notelepon' => '081245678901',
         'email' => 'jayaabadi@email.com',
         'jenisprodukbangunan' => 'KHUSUS',
+        'fototokobangunan' => 'tokobangunan/tokobangunanblora.jpg',
         'keterangan' => 'Melayani pembelian eceran dan grosir',
     ]);
 
@@ -4582,6 +4588,7 @@ peralatankonstruksi::create([
         'notelepon' => '081356789013',
         'email' => 'ciptakarya@email.com',
         'jenisprodukbangunan' => 'UMUM',
+        'fototokobangunan' => 'tokobangunan/contohtokobangunan.jpg',
         'keterangan' => 'Spesialis dalam material finishing rumah',
     ]);
 
@@ -4593,6 +4600,7 @@ peralatankonstruksi::create([
         'notelepon' => '082312345678',
         'email' => 'mitrasejati@email.com',
         'jenisprodukbangunan' => 'KHUSUS',
+        'fototokobangunan' => 'tokobangunan/contohtokobangunan.jpg',
         'keterangan' => 'Menyediakan layanan konsultasi bahan bangunan',
     ]);
 
@@ -4604,6 +4612,7 @@ peralatankonstruksi::create([
         'notelepon' => '083112345678',
         'email' => 'binakarya@email.com',
         'jenisprodukbangunan' => 'UMUM',
+        'fototokobangunan' => 'tokobangunan/tokobangunanblora.jpg',
         'keterangan' => 'Diskon untuk kontraktor dan proyek besar',
     ]);
 
@@ -4615,6 +4624,7 @@ peralatankonstruksi::create([
         'notelepon' => '085267890123',
         'email' => 'suksesmandiri@email.com',
         'jenisprodukbangunan' => 'KHUSUS',
+        'fototokobangunan' => 'tokobangunan/tokobangunanblora.jpg',
         'keterangan' => 'Menyediakan bahan interior dan eksterior',
     ]);
 
@@ -4626,6 +4636,7 @@ peralatankonstruksi::create([
         'notelepon' => '081278901234',
         'email' => 'muliajaya@email.com',
         'jenisprodukbangunan' => 'UMUM',
+        'fototokobangunan' => 'tokobangunan/tokobangunanblora.jpg',
         'keterangan' => 'Pusat bahan konstruksi interior dan eksterior',
     ]);
 
@@ -4637,6 +4648,7 @@ peralatankonstruksi::create([
         'notelepon' => '081345678912',
         'email' => 'sejahterabaru@email.com',
         'jenisprodukbangunan' => 'KHUSUS',
+        'fototokobangunan' => 'tokobangunan/tokobangunanblora.jpg',
         'keterangan' => 'Menjual berbagai jenis paving berkualitas',
     ]);
 
@@ -4648,6 +4660,7 @@ peralatankonstruksi::create([
         'notelepon' => '085678912345',
         'email' => 'lancarjaya@email.com',
         'jenisprodukbangunan' => 'UMUM',
+        'fototokobangunan' => 'tokobangunan/tokobangunanblora.jpg',
         'keterangan' => 'Bahan material dasar bangunan tersedia lengkap',
     ]);
 
@@ -4659,6 +4672,7 @@ peralatankonstruksi::create([
         'notelepon' => '082345678901',
         'email' => 'berkahmulia@email.com',
         'jenisprodukbangunan' => 'KHUSUS',
+        'fototokobangunan' => 'tokobangunan/tokobangunanblora.jpg',
         'keterangan' => 'Menjual produk berkualitas dengan harga terjangkau',
     ]);
 
@@ -4670,6 +4684,7 @@ peralatankonstruksi::create([
         'notelepon' => '083456789012',
         'email' => 'mandirijaya@email.com',
         'jenisprodukbangunan' => 'UMUM',
+        'fototokobangunan' => 'tokobangunan/tokobangunanblora.jpg',
         'keterangan' => 'Banyak pilihan motif keramik dan granit tersedia',
     ]);
 
@@ -4681,6 +4696,7 @@ peralatankonstruksi::create([
         'notelepon' => '081289012345',
         'email' => 'citraabadi@email.com',
         'jenisprodukbangunan' => 'KHUSUS',
+        'fototokobangunan' => 'tokobangunan/tokobangunanblora.jpg',
         'keterangan' => 'Spesialis bahan bangunan interior rumah',
     ]);
 
@@ -4692,6 +4708,7 @@ peralatankonstruksi::create([
         'notelepon' => '081567890123',
         'email' => 'putrabangsa@email.com',
         'jenisprodukbangunan' => 'UMUM',
+        'fototokobangunan' => 'tokobangunan/tokobangunanblora.jpg',
         'keterangan' => 'Menjual berbagai perlengkapan finishing rumah',
     ]);
 
@@ -4703,6 +4720,7 @@ peralatankonstruksi::create([
         'notelepon' => '081678901234',
         'email' => 'karyasejati@email.com',
         'jenisprodukbangunan' => 'KHUSUS',
+        'fototokobangunan' => 'tokobangunan/tokobangunanblora.jpg',
         'keterangan' => 'Harga grosir dan eceran tersedia',
     ]);
 
@@ -4714,6 +4732,7 @@ peralatankonstruksi::create([
         'notelepon' => '081789012345',
         'email' => 'tokogemilang@email.com',
         'jenisprodukbangunan' => 'UMUM',
+        'fototokobangunan' => 'tokobangunan/tokobangunanblora.jpg',
         'keterangan' => 'Melayani pengiriman ke seluruh wilayah Blora',
     ]);
 
