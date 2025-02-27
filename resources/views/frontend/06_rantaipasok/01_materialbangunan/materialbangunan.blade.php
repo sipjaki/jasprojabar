@@ -258,7 +258,8 @@ color: #45a049;
                                     {{-- <td>{{ \Carbon\Carbon::parse($item->tanggal)->isoFormat('D MMMM YYYY') }}</td> --}}
 
                                     <td style="text-align: center">
-                                        <a href="/rantaipasokmaterial/{{$item->distributor}}">
+                                        {{-- <a href="/rantaipasokmaterial/{{$item->distributor}}"> --}}
+                                        <a href="/404">
                                             <i class="fas fa-eye view-icon" onclick="alert('View clicked!')"></i>
                                         </a>
                                     </td>
