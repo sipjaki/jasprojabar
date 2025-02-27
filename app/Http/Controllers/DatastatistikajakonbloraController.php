@@ -19,7 +19,7 @@ use App\Models\tertibjakonpemanfaatan;
 use App\Models\tertibjakonpenyelenggaraan;
 use App\Models\jenjang;
 use App\Models\lpspenerbit;
-
+use App\Models\tertibjasakonstruksi;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\DB;
 
@@ -844,7 +844,7 @@ public function tertibjakonblora()
     $user = Auth::user();
 
     // Mengambil jumlah data dari masing-masing tabel
-    $datajakon = tertibjakon::count();
+    $datajakon = tertibjasakonstruksi::count();
     $datapemanfaatan = tertibjakonpemanfaatan::count();
     $datapenyelenggaraan = tertibjakonpenyelenggaraan::count();
 
