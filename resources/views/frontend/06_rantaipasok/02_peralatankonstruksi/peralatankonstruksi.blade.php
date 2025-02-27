@@ -255,7 +255,7 @@ color: #45a049;
 
                                     <td style="text-align: center">
                                         {{-- <a href="/rantaipasokmaterial/{{$item->distributor}}"> --}}
-                                        <a href="/404">
+                                        <a href="/peralatankonstruksi/{{$item->namabadanusaha}}">
                                             <i class="fas fa-eye view-icon" onclick="alert('View clicked!')"></i>
                                         </a>
                                     </td>
