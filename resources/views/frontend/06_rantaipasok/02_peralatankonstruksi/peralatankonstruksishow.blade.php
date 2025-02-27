@@ -238,11 +238,6 @@ color: #45a049;
                 {{$data->notelepon}}
             </td>
         </tr>
-
-    </thead>
-
-
-    <thead>
         <tr>
             {{-- <th style="text-align:center" >No</th> --}}
             <th style="text-align:center; color:black: width:75px;">No</th>
@@ -250,6 +245,12 @@ color: #45a049;
             <th style="text-align:center; color:black: width:600px;">Jumlah </th>
 
             </tr>
+
+
+    </thead>
+
+
+    <thead>
 
     {{-- @php
         // Pastikan $data tidak null atau tidak terdefinisi
