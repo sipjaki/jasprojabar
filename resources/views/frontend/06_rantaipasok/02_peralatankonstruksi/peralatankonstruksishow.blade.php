@@ -111,6 +111,7 @@ color: #45a049;
                 padding: 10px 20px;
                 border-radius: 10px;
                 display: inline-block;
+                border: none !important;
                 font-size: 1rem;
                 text-align: center;
                 font-size: 12px;
