@@ -246,12 +246,6 @@ color: #45a049;
 
                                     </thead>
 
-                                <div class="col-lg-12">
-
-                                    <div class="document-details">
-                                        <div class="document-details-list">
-
-
 
 
                                 </table>
