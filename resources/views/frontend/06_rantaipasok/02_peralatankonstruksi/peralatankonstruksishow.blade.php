@@ -192,6 +192,7 @@ color: #45a049;
 
                                 <table  id="datakeluar" class="fl-table" style="width: 100%; border-collapse: collapse" class="fl-table">
                                     <thead>
+
                                         <tr>
                                             <th style="text-align:center; color: white; width:50px; background-color: #2e7d32;">
                                                 <i class="fas fa-info-circle"></i>
@@ -220,10 +221,23 @@ color: #45a049;
 
                                         <tr>
                                             <th style="text-align:center; color: black; width:50px; background-color: white;">
-                                                <i class="fas fa-building" style="font-size:20px; margin-right:8px;"></i> <!-- Ikon untuk Nama Badan Usaha -->
+                                                <i class="fas fa-map-marker-alt" style="font-size:20px; margin-right:8px;"></i> <!-- Ikon untuk Kecamatan -->
                                             </th>
                                             <th colspan="11" style="text-align:left; color: black; background-color: white; padding-left: 10px; width:300px;">
-                                                Nomor Induk Berusaha
+                                                Kecamatan
+                                            </th>
+                                            <th colspan="1" style="text-align:center; color: black; background-color: white; width:25px;">:</th>
+                                            <td colspan="12" style="text-align:left; background-color: white; padding-left: 10px; color: black; width:1000px;">
+                                                {{$data->kecamatanblora->kecamatanblora}}
+                                            </td>
+                                        </tr>
+
+                                        <tr>
+                                            <th style="text-align:center; color: black; width:50px; background-color: white;">
+                                                <i class="fas fa-id-card" style="font-size:20px; margin-right:8px;"></i> <!-- Ikon untuk Nomor Induk Berusaha -->
+                                            </th>
+                                            <th colspan="11" style="text-align:left; color: black; background-color: white; padding-left: 10px; width:300px;">
+                                                Nomor Induk Berusaha (NIB)
                                             </th>
                                             <th colspan="1" style="text-align:center; color: black; background-color: white; width:25px;">:</th>
                                             <td colspan="12" style="text-align:left; background-color: white; padding-left: 10px; color: black; width:1000px;">
