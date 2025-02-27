@@ -229,9 +229,13 @@ color: #45a049;
                                 <tr>
                                     <th style="text-align:center"> No</th>
                                     <th style="text-align:center"> Kecamatan</th>
-                                    <th style="text-align:center"> Nama Badan Usaha</th>
-                                    <th style="text-align:center"> NIB</th>
+                                    <th style="text-align:center"> Nama Toko Bangunan </th>
+                                    <th style="text-align:center"> Pemilik</th>
+                                    <th style="text-align:center"> Alamat </th>
                                     <th style="text-align:center"> No Telepon</th>
+                                    <th style="text-align:center"> Email</th>
+                                    <th style="text-align:center"> Jenis Produk Bangunan</th>
+                                    <th style="text-align:center"> Keterangan</th>
                                     {{-- <th style="text-align:center"> Alat Berat</th> --}}
 
                                     <th style="text-align:center" >View</th>
@@ -243,15 +247,16 @@ color: #45a049;
                                 $start = ($data->currentPage() - 1) * $data->perPage() + 1;
                                     @endphp
 
-                                @foreach ($data as $item )
+                                @foreach ($subData as $item )
                                 <tr>
                                     <td style="text-align: center;">{{ $loop->iteration + $start - 1 }}</td>
                                     <td>{{$item->kecamatanblora->kecamatanblora}}</td>
-                                    <td>{{$item->namabadanusaha}}</td>
-                                    <td>{{$item->nib}}</td>
+                                    <td>{{$item->namatokobangunan}}</td>
+                                    <td>{{$item->pemilik}}</td>
+                                    <td>{{$item->alamat}}</td>
                                     <td>{{$item->notelepon}}</td>
-                                    {{-- <td>{{$item->alatberat->alatberat}}</td> --}}
-                                    {{-- <td>{{ \Carbon\Carbon::parse($item->tanggal)->isoFormat('D MMMM YYYY') }}</td> --}}
+                                    <td>{{$item->email}}</td>
+                                    <td>{{$item->jenisprodukbangunan}}</td>
 
                                     <td style="text-align: center">
                                         {{-- <a href="/rantaipasokmaterial/{{$item->distributor}}"> --}}
