@@ -168,12 +168,22 @@ Route::get('/kecelakaankerjalist/{namapaketpekerjaan}', [KecelakaankerjamasjakiC
 
 // ------------- HALAMAN AGENDA TERTIB JASA KONSTRUKSI MAS JAKI -----------------
 Route::get('/tertibjasakonstruksi', [TertibjasakonstruksiController::class, 'index']);
+
+// TERTIB USAHA JASA KONSTRUKSI MAS JAKI BLORA
 Route::get('/tertibjasakonstruksilist', [TertibjasakonstruksiController::class, 'tertibjasakonstruksilist']);
 Route::get('/tertibjasakonstruksilist/{namabadanusaha}', [TertibjasakonstruksiController::class, 'tertibjasakonstruksishow']);
 
 Route::get('/tertibjasakonstruksiusaha/pu', [TertibjasakonstruksiController::class, 'tertibjasakonstruksiusahapu']);
 Route::get('/tertibjasakonstruksiusaha/nonpu', [TertibjasakonstruksiController::class, 'tertibjasakonstruksiusahanonpu']);
 Route::get('/tertibjasakonstruksiusaha/swasta', [TertibjasakonstruksiController::class, 'tertibjasakonstruksiusahaswasta']);
+
+// TERTIB PEMANFAATAN JASA KONSTRUKSI MAS JAKI BLORA
+Route::get('/tertibjasakonstruksipemanfaatan', [TertibjasakonstruksiController::class, 'tertibjasakonstruksipemanfaatan']);
+Route::get('/tertibjasakonstruksipemanfaatan/{namabangunan}', [TertibjasakonstruksiController::class, 'tertibjasakonstruksipemanfaatanshow']);
+
+Route::get('/tertibjasakonstruksipemanfaatan/pu', [TertibjasakonstruksiController::class, 'tertibjasakonstruksipemanfaatanpu']);
+Route::get('/tertibjasakonstruksipemanfaatan/nonpu', [TertibjasakonstruksiController::class, 'tertibjasakonstruksipemanfaatanpu']);
+Route::get('/tertibjasakonstruksipemanfaatan/swasta', [TertibjasakonstruksiController::class, 'tertibjasakonstruksipemanfaatanpu']);
 
 // fort
 
