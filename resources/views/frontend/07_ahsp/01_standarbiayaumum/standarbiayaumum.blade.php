@@ -224,7 +224,7 @@ color: #45a049;
 
                         <body>
 
-                        <div class="table-wrapper" style="margin-top:-130px;">
+                        <div class="table-wrapper" style="margin-top:-130px; margin-bottom:400px;">
                         <table class="fl-table">
                             <thead>
                                 <tr>
@@ -258,9 +258,9 @@ color: #45a049;
                             </tbody>
                         </table>
                         </div>
-                        <br><br><br><br>
 
-                        <div class="table-wrapper" style="margin-top:-130px;">
+
+                        <div class="table-wrapper" style="margin-top:-130px; margin-bottom:400px;">
                         <table class="fl-table">
                             <thead>
                                 <tr>
@@ -294,9 +294,8 @@ color: #45a049;
                             </tbody>
                         </table>
                         </div>
-                        <br><br><br><br>
 
-                        <div class="table-wrapper" style="margin-top:-130px;">
+                        <div class="table-wrapper" style="margin-top:-130px; margin-bottom:400px;">
                         <table class="fl-table">
                             <thead>
                                 <tr>
@@ -330,9 +329,8 @@ color: #45a049;
                             </tbody>
                         </table>
                         </div>
-                        <br><br><br><br>
 
-                        <div class="table-wrapper" style="margin-top:-130px;">
+                        <div class="table-wrapper" style="margin-top:-130px; margin-bottom:400px;">
                         <table class="fl-table">
                             <thead>
                                 <tr>
