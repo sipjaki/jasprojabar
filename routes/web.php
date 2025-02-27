@@ -185,6 +185,14 @@ Route::get('/tertibjakonpemanfaatan/pu', [TertibjasakonstruksiController::class,
 Route::get('/tertibjakonpemanfaatan/nonpu', [TertibjasakonstruksiController::class, 'tertibjasakonstruksipemanfaatannonpu']);
 Route::get('/tertibjakonpemanfaatan/swasta', [TertibjasakonstruksiController::class, 'tertibjasakonstruksipemanfaatanswasta']);
 
+// TERTIB PENYELENGGARAAN JASA KONSTRUKSI MAS JAKI BLORA
+Route::get('/tertibjasakonstruksipenyelenggaraan', [TertibjasakonstruksiController::class, 'tertibjasakonstruksipenyelenggaraan']);
+Route::get('/tertibjasakonstruksipenyelenggaraan/{kegiatankonstruksi}', [TertibjasakonstruksiController::class, 'tertibjasakonstruksipenyelenggaraanshow']);
+
+Route::get('/tertibjasakonstruksipenyelenggaraan/pu', [TertibjasakonstruksiController::class, 'tertibjasakonstruksipenyelenggaraanpu']);
+Route::get('/tertibjasakonstruksipenyelenggaraan/nonpu', [TertibjasakonstruksiController::class, 'tertibjasakonstruksipenyelenggaraannonpu']);
+Route::get('/tertibjasakonstruksipenyelenggaraan/swasta', [TertibjasakonstruksiController::class, 'tertibjasakonstruksipenyelenggaraanswasta']);
+
 // fort
 
 // ------------- HALAMAN UNTUK DATA SERTIFIKASI TENAGA KERJA AHLI -----------------

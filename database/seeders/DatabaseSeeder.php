@@ -88,7 +88,10 @@ use App\Models\kecelakaankerjamasjaki;
 use App\Models\penyediastatustertibjakon;
 use App\Models\tertibjasakonstruksi;
 use App\Models\tertibjakonpemanfaatan;
+use App\Models\tertibjakonpenyelenggaraan;
 
+
+// modelbaru
 // use App\Models\paketpekerjaan;
 use Database\Factories\SkktenagakerjaFactory;
 // use Carbon\Carbon;
@@ -4404,7 +4407,57 @@ tertibjakonpemanfaatan::create([
           // Menghilangkan 'Rp' dan menyimpan sebagai angka decimal
 ]);
 
+// DATA TERTIB JASA KONSTRUKSI PENYELENGGARAAN MAS JAKI BLORA
+// ================================================================================================
+tertibjakonpenyelenggaraan::create([
+    'penyediastatustertibjakon_id' => '1',
+    'kegiatankonstruksi' => 'Peningkatan Jalan Adirejo - Sembungin - Karangtalun',
+    'nomorkontrak' => '620/BM.827/2024',
+    'bujk' => 'CV. TRIBHAKTI',
+    'prosespemilihan' => 'TERTIB',
+    'pengawasan_standarkontrak' => 'TERTIB',
+    'pengawasan_tenagakerja' => 'TERTIB',
+    'pengawasan_penunjang' => 'TERTIB',
+    'pengawasan_dokumenk4' => 'TERTIB',
+    'pengawasan_smkk' => 'TERTIB',
+    'pengawasan_kecelakaankerja' => 'TERTIB',
 
+          // Menghilangkan 'Rp' dan menyimpan sebagai angka decimal
+]);
+
+tertibjakonpenyelenggaraan::create([
+    'penyediastatustertibjakon_id' => '2',
+    'kegiatankonstruksi' => 'Rehabilitasi Ruang Kelas SMPN 2 BLORA',
+    'nomorkontrak' => '12894257/SPK/02.0014/DAU/2024',
+    'bujk' => 'CV. ANUGERAH ABADI',
+    'prosespemilihan' => 'TERTIB',
+    'pengawasan_standarkontrak' => 'TERTIB',
+    'pengawasan_tenagakerja' => 'TERTIB',
+    'pengawasan_penunjang' => 'TERTIB',
+    'pengawasan_dokumenk4' => 'TERTIB',
+    'pengawasan_smkk' => 'TERTIB',
+    'pengawasan_kecelakaankerja' => 'TERTIB',
+
+          // Menghilangkan 'Rp' dan menyimpan sebagai angka decimal
+]);
+
+tertibjakonpenyelenggaraan::create([
+    'penyediastatustertibjakon_id' => '3',
+    'kegiatankonstruksi' => 'KANTOR PT POS PROPERTI INDONESIA',
+    'nomorkontrak' => '-',
+    'bujk' => 'CV.CRYSTAL DESIGN',
+    'prosespemilihan' => 'BELUM',
+    'pengawasan_standarkontrak' => 'BELUM',
+    'pengawasan_tenagakerja' => 'BELUM',
+    'pengawasan_penunjang' => 'BELUM',
+    'pengawasan_dokumenk4' => 'TERTIB',
+    'pengawasan_smkk' => 'BELUM',
+    'pengawasan_kecelakaankerja' => 'BELUM',
+
+          // Menghilangkan 'Rp' dan menyimpan sebagai angka decimal
+]);
+
+// fort
 
 //======================== ===================================================================================
 // PENGAWASAN BUJK MAS JAKI BLORA
