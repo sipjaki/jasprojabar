@@ -32,7 +32,7 @@
                 <div class="service-two-card">
                     <div class="service-two-imgbox">
                         <div class="service-two-image" style="display: flex; justify-content: center;">
-                            <img src="/assets/icon/logokabupatenblora.png" class="img-fluid" alt="img-28" loading="lazy" style="width: 70%; padding:30px;">
+                            <img src="/assets/icon/logokabupatenblora.png" class="img-fluid" alt="img-28" loading="lazy" style="width: 50%; padding:30px;">
                             <a href="/tokobangunanblora/{{$item->kecamatanblora}}"></a>
                         </div><!-- service-two-image -->
                     </div><!-- service-two-imgbox -->
