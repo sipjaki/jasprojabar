@@ -70,7 +70,7 @@ class RantaipasokbloraController extends Controller
         ]);
     }
 
-    public function rantaipasokblora($namabadanusaha)
+    public function peralatankonstruksishow($namabadanusaha)
     {
         $dataperalatankonstruksi =peralatankonstruksi::where('namabadanusaha', $namabadanusaha)->first();
 
