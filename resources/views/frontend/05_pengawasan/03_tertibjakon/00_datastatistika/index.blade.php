@@ -34,7 +34,7 @@
 								<li style="text-align: center"><a style="text-align: center;" href="#">Data Statistika<i class="fa-solid fa-database" style="margin-left: 10px;"></i></a></li>
 								<li style="text-align: center"><a style="text-align: center;" href="#">Total Data Tertib Usaha : {{ $datajakon }}<i class="fa-solid fa-edit" style="margin-left: 10px;"></i></li>
 								<li style="text-align: center"><a style="text-align: center;" href="#">Total Data Tertib Pemanfaaatan : {{ $datapemanfaatan }}<i class="fa-solid fa-edit" style="margin-left: 10px;"></i></li>
-								<li style="text-align: center"><a style="text-align: center;" href="#">Total Data Tertib Penyelenggaraan : {{ $datapenyelenggaraan }}<i class="fa-solid fa-edit" style="margin-left: 10px;"></i></li>
+								{{-- <li style="text-align: center"><a style="text-align: center;" href="#">Total Data Tertib Penyelenggaraan : {{ $datapenyelenggaraan }}<i class="fa-solid fa-edit" style="margin-left: 10px;"></i></li> --}}
 
                             </ul><!-- ul -->
                             <ul>
