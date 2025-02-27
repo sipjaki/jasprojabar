@@ -4928,65 +4928,6 @@ sbulampiran3::create([
     'updated_at' => Carbon::now(),
     'deleted_at' => null, // Jika Anda menggunakan soft deletes
 ]);
-//======================== ===================================================================================
-// DATA BACKEND
-//======================== ===================================================================================
-tahunpilihan::create([
-    'id' => '1',
-    'tahun' => '2019',
-    'created_at' => Carbon::now(),
-    'updated_at' => Carbon::now(),
-    'deleted_at' => null, // Jika Anda menggunakan soft deletes
-]);
-
-tahunpilihan::create([
-    'id' => '2',
-    'tahun' => '2020',
-    'created_at' => Carbon::now(),
-    'updated_at' => Carbon::now(),
-    'deleted_at' => null, // Jika Anda menggunakan soft deletes
-]);
-
-tahunpilihan::create([
-    'id' => '3',
-    'tahun' => '2021',
-    'created_at' => Carbon::now(),
-    'updated_at' => Carbon::now(),
-    'deleted_at' => null, // Jika Anda menggunakan soft deletes
-]);
-
-tahunpilihan::create([
-    'id' => '4',
-    'tahun' => '2022',
-    'created_at' => Carbon::now(),
-    'updated_at' => Carbon::now(),
-    'deleted_at' => null, // Jika Anda menggunakan soft deletes
-]);
-
-tahunpilihan::create([
-    'id' => '5',
-    'tahun' => '2023',
-    'created_at' => Carbon::now(),
-    'updated_at' => Carbon::now(),
-    'deleted_at' => null, // Jika Anda menggunakan soft deletes
-]);
-
-tahunpilihan::create([
-    'id' => '6',
-    'tahun' => '2024',
-    'created_at' => Carbon::now(),
-    'updated_at' => Carbon::now(),
-    'deleted_at' => null, // Jika Anda menggunakan soft deletes
-]);
-
-tahunpilihan::create([
-    'id' => '7',
-    'tahun' => '2025',
-    'created_at' => Carbon::now(),
-    'updated_at' => Carbon::now(),
-    'deleted_at' => null, // Jika Anda menggunakan soft deletes
-]);
-
 
 //======================== ===================================================================================
 //======================== ===================================================================================
