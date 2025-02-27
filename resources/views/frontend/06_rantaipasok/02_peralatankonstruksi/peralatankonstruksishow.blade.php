@@ -178,7 +178,7 @@ color: #45a049;
 
                                     <!-- Tombol di Kanan -->
                                     <a href="javascript:window.history.back()" style="text-decoration: none;">
-                                        <button class="badgekembali" style="border: none; font-size: 12px; cursor: pointer; padding: 10px 15px; background: white; display: flex; align-items: center;">
+                                        <button class="green-button" style="border: none; font-size: 12px; cursor: pointer; padding: 10px 15px; background: white; display: flex; align-items: center;">
                                             <i class="fas fa-arrow-circle-left" style="margin-right: 8px;"></i> KEMBALI
                                         </button>
                                     </a>
