@@ -291,19 +291,42 @@ color: #45a049;
                                 window.location.href = url.toString();
                             }
 
-                            function searchTable() {
-                                let input = document.getElementById("searchInput").value;
-                                let url = new URL(window.location.href);
+                                function searchTable() {
+                                    let input = document.getElementById("searchInput").value;
 
-                                if (input) {
-                                    url.searchParams.set("search", input);
-                                } else {
-                                    url.searchParams.delete("search");
+                                    fetch(`/search-badan-usaha?query=${input}`)
+                                        .then(response => response.json())
+                                        .then(data => {
+                                            let tableBody = document.getElementById("tableBody");
+                                            tableBody.innerHTML = ""; // Kosongkan tabel sebelum menambahkan hasil pencarian
+
+                                            data.forEach((item, index) => {
+                                                let row = `
+                                                    <tr>
+                                                        <td>${index + 1}</td>
+                                                        <td class="namalengkap">${item.namalengkap}</td>
+                                                        <td>${item.alamat}</td>
+                                                        <td>${item.no_telepon}</td>
+                                                        <td>${item.email}</td>
+                                                        <td>${item.nib}</td>
+                                                        <td>${item.pju}</td>
+                                                        <td>${item.no_akte}</td>
+                                                        <td>${item.tanggal}</td>
+                                                        <td>${item.nama_notaris}</td>
+                                                        <td>${item.no_pengesahan}</td>
+                                                        <td style="text-align: center">
+                                                            <a href="/datajakon/bujkkontraktor/${item.namalengkap}">
+                                                                <i class="fas fa-eye view-icon"></i>
+                                                            </a>
+                                                        </td>
+                                                    </tr>
+                                                `;
+                                                tableBody.innerHTML += row;
+                                            });
+                                        });
                                 }
+                                </script>
 
-                                window.location.href = url.toString();
-                            }
-                                                      </script>
 
 
                         </div><!-- donate-box-inner -->
