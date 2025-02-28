@@ -180,7 +180,7 @@
 							<ul class="list-unstyled">
 								<li><a href="/standarbiayaumummasjaki">Standar Biaya Umum </a></li>
                                 <li><a href="/404">Harga Satuan Dasar </a></li>
-								<li><a href="/404">HSP Konstruksi Umum </a></li>
+								<li><a href="/hspkonstruksiumum">HSP Konstruksi Umum </a></li>
 								<li><a href="/shstblora">SHST Konstruksi</a></li>
 								{{-- <li><a href="/404">Daftar Material</a></li> --}}
 							</ul><!-- list-unstyled -->
