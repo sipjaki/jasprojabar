@@ -211,7 +211,7 @@ color: #45a049;
                                     </div>
                                 </div>
 
-                                <table class="fl-table" id="sortableTable" style="margin-top: 10px; width: 100%; border-collapse: collapse;">
+                                <table class="fl-table" id="sortableTable" style="margin-top: 15px; width: 100%; border-collapse: collapse;">
                                     <thead>
                                         <tr>
                                             <th onclick="sortTable(0)" style="cursor:pointer; text-align:center"> No <span class="sort-icon">⇅</span></th>
