@@ -38,17 +38,19 @@ class BujkkontraktorController extends Controller
     }
 
 
-    public function bujkkontraktor()
+    public function bujkkontraktor(Request $request)
     {
-        $data = bujkkontraktor::paginate(10);
+        $perPage = $request->input('perPage', 10); // Ambil jumlah data dari request, default 10
+        $data = bujkkontraktor::paginate($perPage);
         $datasub = bujkkontraktorsub::all();
         $user = Auth::user();
 
         return view('frontend.03_masjaki_jakon.01_bujkkontraktor.bujkkontraktor', [
             'title' => 'BUJK Kontraktor',
-            'user' => $user, // Mengirimkan data paginasi ke view
-            'data' => $data, // Mengirimkan data paginasi ke view
-            'datasub' => $datasub, // Mengirimkan data paginasi ke view
+            'user' => $user,
+            'data' => $data,
+            'datasub' => $datasub,
+            'perPage' => $perPage // Kirim nilai perPage ke view
         ]);
     }
 

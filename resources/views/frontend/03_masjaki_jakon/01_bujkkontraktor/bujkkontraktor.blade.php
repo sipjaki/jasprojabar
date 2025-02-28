@@ -258,35 +258,39 @@ color: #45a049;
                                 }
                             </style>
 
-                            <script>
-                            let sortDirection = {};
-                            function sortTable(columnIndex) {
-                                var table = document.getElementById("sortableTable");
-                                var tbody = table.querySelector("tbody");
-                                var rows = Array.from(tbody.rows);
-                                var isAscending = !sortDirection[columnIndex];
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        let sortDirection = {};
 
-                                rows.sort((rowA, rowB) => {
-                                    let cellA = rowA.cells[columnIndex].innerText.trim().toLowerCase();
-                                    let cellB = rowB.cells[columnIndex].innerText.trim().toLowerCase();
-                                    return isAscending ? cellA.localeCompare(cellB) : cellB.localeCompare(cellA);
-                                });
+        function sortTable(columnIndex) {
+            var table = document.getElementById("sortableTable");
+            var tbody = table.querySelector("tbody");
+            var rows = Array.from(tbody.rows);
+            var isAscending = !sortDirection[columnIndex];
 
-                                sortDirection[columnIndex] = isAscending;
-                                rows.forEach(row => tbody.appendChild(row));
-                            }
+            rows.sort((rowA, rowB) => {
+                let cellA = rowA.cells[columnIndex].innerText.trim().toLowerCase();
+                let cellB = rowB.cells[columnIndex].innerText.trim().toLowerCase();
+                return isAscending ? cellA.localeCompare(cellB) : cellB.localeCompare(cellA);
+            });
 
-                            function updateTable() {
-                                let selectedValue = document.getElementById("entries").value;
-                                let table = document.getElementById("sortableTable");
-                                let tbody = document.getElementById("tableBody");
-                                let rows = Array.from(tbody.rows);
+            sortDirection[columnIndex] = isAscending;
+            rows.forEach(row => tbody.appendChild(row));
+        }
 
-                                rows.forEach((row, index) => {
-                                    row.style.display = index < selectedValue ? "" : "none";
-                                });
-                            }
-                            </script>
+        function updateEntries() {
+            let selectedValue = document.getElementById("entries").value;
+            let url = new URL(window.location.href);
+            url.searchParams.set("perPage", selectedValue);
+            window.location.href = url.toString();
+        }
+
+        document.getElementById("entries").addEventListener("change", updateEntries);
+
+        window.sortTable = sortTable; // Pastikan fungsi ini bisa diakses dari elemen HTML (onclick)
+    });
+    </script>
+
 
                         </div><!-- donate-box-inner -->
                                         </div><!-- col-xl-8 col-lg-12 -->
