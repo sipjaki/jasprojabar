@@ -292,15 +292,18 @@ color: #45a049;
                             }
 
                             function searchTable() {
-                                let input = document.getElementById("searchInput").value.toLowerCase();
-                                let rows = document.querySelectorAll("#tableBody tr");
+                                let input = document.getElementById("searchInput").value;
+                                let url = new URL(window.location.href);
 
-                                rows.forEach(row => {
-                                    let namalengkap = row.querySelector(".namalengkap").innerText.toLowerCase();
-                                    row.style.display = namalengkap.includes(input) ? "" : "none";
-                                });
+                                if (input) {
+                                    url.searchParams.set("search", input);
+                                } else {
+                                    url.searchParams.delete("search");
+                                }
+
+                                window.location.href = url.toString();
                             }
-                            </script>
+                                                      </script>
 
 
                         </div><!-- donate-box-inner -->
