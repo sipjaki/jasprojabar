@@ -18,7 +18,6 @@ class ShstbloraController extends Controller
             'title' => 'Standar Harga Satuan Tertinggi',
             'user' => $user, // Mengirimkan data paginasi ke view
             'data' => $data, // Mengirimkan data paginasi ke view
-
         ]);
     }
 
