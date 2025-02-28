@@ -106,7 +106,7 @@ color: #45a049;
             }
 
             .green-button {
-                background: linear-gradient(to right, black, green);
+                background: linear-gradient(to right, white, green);
                 color: white;
                 padding: 10px 20px;
                 border-radius: 10px;
@@ -118,6 +118,24 @@ color: #45a049;
                 transition: background-color 0.3s, color 0.3s;
             }
             .green-button:hover {
+                background-color: white;
+                color: black;
+                background: white;
+            }
+
+            .menusub-button {
+                background: linear-gradient(to right, black, green);
+                color: white;
+                padding: 10px 20px;
+                border-radius: 10px;
+                display: inline-block;
+                font-size: 1rem;
+                text-align: center;
+                font-size: 12px;
+                cursor: pointer;
+                transition: background-color 0.3s, color 0.3s;
+            }
+            .menusub-button:hover {
                 background-color: white;
                 color: black;
                 background: white;
@@ -262,7 +280,7 @@ color: #45a049;
                         <div class="document-details">
 							<div class="document-details-list">
                                 <div class="centered-button" style="margin-top: -15px">
-                                    <button class="green-button" style="margin-bottom:10px; text-transform:uppercase">
+                                    <button class="menusub-button" style="margin-bottom:10px; text-transform:uppercase">
                                         <i class="fas fa-file mr-2" style="margin-right:5px;"></i> SUB KLASIFIKASI LAYANAN : {{$data->namalengkap}}
                                     </button>
 
