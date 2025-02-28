@@ -187,6 +187,108 @@ color: #45a049;
                         <body>
 
                             <div class="table-wrapper" style="margin-top:-130px; position: relative;">
+                                <div style="display: flex; justify-content: space-between; margin-bottom: 10px; align-items: center;">
+                                    <div class="pagination-info" style="color: black; font-weight: 500;">
+                                        Data Ke {{ $data->firstItem() }} Sampai {{ $data->lastItem() }} Dari {{ $data->total() }} Jumlah {{$title}}
+                                    </div>
+                                    <div>
+                                        <label for="entries" style="margin-right: 10px; font-weight: bold;">Show:</label>
+                                        <select id="entries" onchange="updateEntries()" style="padding: 5px; border: 1px solid black; background-color: white;">
+                                            <option value="10">10</option>
+                                            <option value="25">25</option>
+                                            <option value="50">50</option>
+                                            <option value="75">75</option>
+                                            <option value="100">100</option>
+                                            <option value="150">150</option>
+                                            <option value="200">200</option>
+                                        </select>
+                                    </div>
+                                </div>
+
+                                <table class="fl-table" id="sortableTable" style="margin-top: 50px; width: 100%; border-collapse: collapse;">
+                                    <thead>
+                                        <tr>
+                                            <th onclick="sortTable(0)" style="cursor:pointer; text-align:center"> No <span class="sort-icon">⇅</span></th>
+                                            <th onclick="sortTable(1)" style="cursor:pointer; text-align:center"> Nama Badan Usaha <span class="sort-icon">⇅</span></th>
+                                            <th onclick="sortTable(2)" style="cursor:pointer; text-align:center"> Alamat <span class="sort-icon">⇅</span></th>
+                                            <th onclick="sortTable(3)" style="cursor:pointer; text-align:center"> No Telepon <span class="sort-icon">⇅</span></th>
+                                            <th onclick="sortTable(4)" style="cursor:pointer; text-align:center"> Email <span class="sort-icon">⇅</span></th>
+                                            <th onclick="sortTable(5)" style="cursor:pointer; text-align:center"> NIB <span class="sort-icon">⇅</span></th>
+                                            <th onclick="sortTable(6)" style="cursor:pointer; text-align:center"> PJU <span class="sort-icon">⇅</span></th>
+                                            <th onclick="sortTable(7)" style="cursor:pointer; text-align:center"> Akte <span class="sort-icon">⇅</span></th>
+                                            <th onclick="sortTable(8)" style="cursor:pointer; text-align:center"> Tanggal <span class="sort-icon">⇅</span></th>
+                                            <th onclick="sortTable(9)" style="cursor:pointer; text-align:center"> Notaris <span class="sort-icon">⇅</span></th>
+                                            <th onclick="sortTable(10)" style="cursor:pointer; text-align:center"> Pengesahan <span class="sort-icon">⇅</span></th>
+                                            <th style="text-align:center"> View </th>
+                                        </tr>
+                                    </thead>
+                                    <tbody id="tableBody">
+                                        @php $start = ($data->currentPage() - 1) * $data->perPage() + 1; @endphp
+                                        @foreach ($data as $item )
+                                        <tr>
+                                            <td>{{ $loop->iteration + $start - 1 }}</td>
+                                            <td>{{$item->namalengkap}}</td>
+                                            <td>{{$item->alamat}}</td>
+                                            <td>{{$item->no_telepon}}</td>
+                                            <td>{{$item->email}}</td>
+                                            <td>{{$item->nib}}</td>
+                                            <td>{{$item->pju}}</td>
+                                            <td>{{$item->no_akte}}</td>
+                                            <td>{{ \Carbon\Carbon::parse($item->tanggal)->isoFormat('D MMMM YYYY') }}</td>
+                                            <td>{{$item->nama_notaris}}</td>
+                                            <td>{{$item->no_pengesahan}}</td>
+                                            <td style="text-align: center">
+                                                <a href="/datajakon/bujkkontraktor/{{$item->namalengkap}}">
+                                                    <i class="fas fa-eye view-icon" onclick="alert('View clicked!')"></i>
+                                                </a>
+                                            </td>
+                                        </tr>
+                                        @endforeach
+                                    </tbody>
+                                </table>
+
+                                <div class="pagination-container" style="margin-top: 50px; display: flex; flex-direction: column; align-items: center;">
+                                    <ul class="pagination-paginate" style="display: flex; padding-left: 0; list-style: none; margin-top: 10px;">
+                                        <li class="page-item {{ $data->onFirstPage() ? 'disabled' : '' }}" style="margin-right: 5px;">
+                                            <a class="page-link" href="{{ $data->previousPageUrl() }}">
+                                                <i class="fas fa-arrow-left" style="margin-right: 10px;"></i>Previous
+                                            </a>
+                                        </li>
+                                        <li class="page-item {{ $data->hasMorePages() ? '' : 'disabled' }}" style="margin-right: 5px;">
+                                            <a class="page-link" href="{{ $data->nextPageUrl() }}">
+                                                Next <i class="fas fa-arrow-right" style="margin-left: 10px;"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <style>
+                                .sort-icon {
+                                    font-size: 16px;
+                                    color: gray;
+                                    margin-left: 5px;
+                                }
+                                th {
+                                    padding: 10px;
+                                    border-bottom: 2px solid black;
+                                }
+                                th:hover {
+                                    background-color: #f2f2f2;
+                                }
+                            </style>
+
+                            <script>
+                            function updateEntries() {
+                                let selectedValue = document.getElementById("entries").value;
+                                let url = new URL(window.location.href);
+                                url.searchParams.set("perPage", selectedValue);
+                                window.location.href = url.toString();
+                            }
+                            </script>
+
+
+                            {{-- <div class="table-wrapper" style="margin-top:-130px; position: relative;">
                                 <div style="display: flex; justify-content: flex-end; margin-bottom: 10px;">
                                     <label for="entries" style="margin-right: 10px; font-weight: bold;">Show:</label>
                                     <select id="entries" onchange="updateTable()" style="padding: 5px; border: 1px solid black; background-color: white;">
@@ -289,7 +391,7 @@ color: #45a049;
 
         window.sortTable = sortTable; // Pastikan fungsi ini bisa diakses dari elemen HTML (onclick)
     });
-    </script>
+    </script> --}}
 
 
                         </div><!-- donate-box-inner -->
