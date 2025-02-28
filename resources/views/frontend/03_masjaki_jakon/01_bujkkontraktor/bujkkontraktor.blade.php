@@ -158,7 +158,7 @@ color: #45a049;
                                       <a href="#" style="background: white;">
                                           <button class="badgekembali" style="border: none; font-size: 12px; cursor: pointer;">
                                             <img src="/assets/icon/logokabupatenblora.png" class="img-fluid" alt="img-25" width="50" height="50" style="margin-right: 20px;" loading="lazy">
-                                            <i class="fas fa-list mr-2" style="margin-right: 10px;"></i> <span style="text-transform: uppercase">{{$title}}</span>
+                                            <i class="fas fa-edit mr-2" style="margin-right: 10px;"></i> <span style="text-transform: uppercase; color:black;">{{$title}}</span>
                                         </button>
                                     </a>
 
@@ -190,7 +190,7 @@ color: #45a049;
                             <thead>
                                 <tr>
                                     <th style="text-align:center"> No</th>
-                                    <th style="text-align:center"> Nama Pemilik</th>
+                                    <th style="text-align:center"> Nama Badan Usaha</th>
                                     <th style="text-align:center" >Alamat</th>
                                     {{-- <th style="text-align:center" >No Telepon</th> --}}
                                     <th style="text-align:center" >Email</th>
