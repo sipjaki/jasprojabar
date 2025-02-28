@@ -41,7 +41,7 @@ class DatastatistikajakonbloraController extends Controller
         $persen_konsultan = $total > 0 ? ($datakonsultan / $total) * 100 : 0;
 
         return view('frontend.03_masjaki_jakon.00_datastatistikabujk.datastatistikabujk', [
-            'title' => 'Data Statistika BUJK Kontraktor & Konsultan',
+            'title' => 'Data Statistika BUJK Konstruksi & Konsultasi Konstruksi',
             'user' => $user,
             'datakontraktor' => $datakontraktor,
             'datakonsultan' => $datakonsultan,
