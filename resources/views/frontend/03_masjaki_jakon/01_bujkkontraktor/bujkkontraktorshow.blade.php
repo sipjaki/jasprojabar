@@ -88,7 +88,7 @@ color: #45a049;
 
 
             .badgekembali {
-                background: linear-gradient(to right, green, green);
+                background: linear-gradient(to right, white, green);
                 color: white;
                 padding: 10px 20px;
                 border-radius: 10px;
@@ -170,10 +170,13 @@ color: #45a049;
                                             <ul class="nav nav-pills" id="pills-tab" role="tablist">
                                                 {{-- <img src="/assets/icon/logopupr.png" class="img-fluid" alt="img-25" width="50" style="margin-right: 20px;" loading="lazy"> --}}
                                                 <div style="display: flex; justify-content: space-between; width: 100%; align-items: center; margin-top: 20px;">
-                                                    <img src="/assets/icon/logokabupatenblora.png" class="img-fluid" alt="img-25" width="50" height="50" style="margin-right: 20px;" loading="lazy">
+                                                    {{-- <img src="/assets/icon/logokabupatenblora.png" class="img-fluid" alt="img-25" width="50" height="50" style="margin-right: 20px;" loading="lazy"> --}}
                                                     <!-- Tombol dan kolom pencarian di kanan -->
                                                     <div style="display: flex; align-items: center;">
-
+                                                        <button class="green-button" style="margin-bottom:10px; text-transform:uppercase">
+                                                            <img src="/assets/icon/logokabupatenblora.png" class="img-fluid" alt="img-25" width="50" height="50" style="margin-right: 20px;" loading="lazy">
+                                                            <i class="fas fa-file mr-2" style="margin-right:5px;"></i> INFORMASI BUJK KONTRAKTOR : {{$data->namalengkap}}
+                                                        </button>
                                                         <a href="/datajakon/bujkkontraktor" style="background: white;">
                                                             <button class="badgekembali" style="border: none; font-size: 12px; cursor: pointer; margin-right: 10px;">
                                                                 <i class="fas fa-arrow-circle-left mr-2" style="margin-right: 15px; color:red;"></i> KEMBALI
@@ -186,9 +189,6 @@ color: #45a049;
                                                 </ul>
 
                                             <div class="centered-button" style="margin-top: -15px;">
-                                                <button class="green-button" style="margin-bottom:10px; text-transform:uppercase">
-                                                    <i class="fas fa-file mr-2" style="margin-right:5px;"></i> INFORMASI BUJK KONTRAKTOR : {{$data->namalengkap}}
-                                                </button>
 
                                             </div>
                                             <form action="#" class="contact-form donation" method="post">
