@@ -240,7 +240,7 @@ color: #45a049;
                                 $start = ($data->currentPage() - 1) * $data->perPage() + 1;
                                     @endphp --}}
 
-                                {{-- @foreach ($data as $item ) --}}
+                                @foreach ($data as $item )
                                 <tr>
                                     <td style="text-align: center;">1</td>
                                     <td>Tidak Sederhana</td>
@@ -252,129 +252,11 @@ color: #45a049;
                                         </a>
                                     </td> --}}
                                 </tr>
-
-                                <tr>
-                                    <td style="text-align: center;">1</td>
-                                    <td>Sederhana</td>
-                                    <td>{{$data->bangunankantorsederhana}}</td>
-                                    {{-- <td style="text-align: center">
-                                        {{-- <a href="/rantaipasokmaterial/{{$item->distributor}}"> --}}
-                                        <a href="/standarbiayaumummasjaki/{{$item->judul}}">
-                                            <i class="fas fa-eye view-icon" onclick="alert('View clicked!')"></i>
-                                        </a>
-                                    </td> --}}
-                                </tr>
-
-                                {{-- @endforeach --}}
-                            </tbody>
-                        </table>
-                        </div>
-
-
-                        <div class="table-wrapper" style="margin-top:-130px; margin-bottom:150px;">
-                        <table class="fl-table">
-                            <thead>
-                                <tr>
-                                    <th style="text-align:center"> No</th>
-                                    <th style="text-align:center"> Judul</th>
-                                    <th style="text-align:center"> Peraturan</th>
-                                    <th style="text-align:center" >View</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-
-                                @php
-                                $start = ($data->currentPage() - 1) * $data->perPage() + 1;
-                                    @endphp
-
-                                @foreach ($datasbu1 as $item )
-                                <tr>
-                                    <td style="text-align: center;">{{ $loop->iteration + $start - 1 }}</td>
-                                    <td>{{$item->judul}}</td>
-                                    <td>{{$item->peraturan}}</td>
-
-                                    <td style="text-align: center">
-                                        {{-- <a href="/rantaipasokmaterial/{{$item->distributor}}"> --}}
-                                        <a href="/standarbiayaumumsbu1/{{$item->judul}}">
-                                            <i class="fas fa-eye view-icon" onclick="alert('View clicked!')"></i>
-                                        </a>
-                                    </td>
-                                </tr>
-
                                 @endforeach
                             </tbody>
                         </table>
                         </div>
 
-                        <div class="table-wrapper" style="margin-top:-130px; margin-bottom:150px;">
-                        <table class="fl-table">
-                            <thead>
-                                <tr>
-                                    <th style="text-align:center"> No</th>
-                                    <th style="text-align:center"> Judul</th>
-                                    <th style="text-align:center"> Peraturan</th>
-                                    <th style="text-align:center" >View</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-
-                                @php
-                                $start = ($data->currentPage() - 1) * $data->perPage() + 1;
-                                    @endphp
-
-                                @foreach ($datasbu2 as $item )
-                                <tr>
-                                    <td style="text-align: center;">{{ $loop->iteration + $start - 1 }}</td>
-                                    <td>{{$item->judul}}</td>
-                                    <td>{{$item->peraturan}}</td>
-
-                                    <td style="text-align: center">
-                                        {{-- <a href="/rantaipasokmaterial/{{$item->distributor}}"> --}}
-                                        <a href="/standarbiayaumumsbu2/{{$item->judul}}">
-                                            <i class="fas fa-eye view-icon" onclick="alert('View clicked!')"></i>
-                                        </a>
-                                    </td>
-                                </tr>
-
-                                @endforeach
-                            </tbody>
-                        </table>
-                        </div>
-
-                        <div class="table-wrapper" style="margin-top:-130px;">
-                        <table class="fl-table">
-                            <thead>
-                                <tr>
-                                    <th style="text-align:center"> No</th>
-                                    <th style="text-align:center"> Judul</th>
-                                    <th style="text-align:center"> Peraturan</th>
-                                    <th style="text-align:center" >View</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-
-                                @php
-                                $start = ($data->currentPage() - 1) * $data->perPage() + 1;
-                                    @endphp
-
-                                @foreach ($datasbu3 as $item )
-                                <tr>
-                                    <td style="text-align: center;">{{ $loop->iteration + $start - 1 }}</td>
-                                    <td>{{$item->judul}}</td>
-                                    <td>{{$item->peraturan}}</td>
-
-                                    <td style="text-align: center">
-                                        {{-- <a href="/rantaipasokmaterial/{{$item->distributor}}"> --}}
-                                        <a href="/standarbiayaumumsbu3/{{$item->judul}}">
-                                            <i class="fas fa-eye view-icon" onclick="alert('View clicked!')"></i>
-                                        </a>
-                                    </td>
-                                </tr>
-
-                                @endforeach
-                            </tbody>
-                        </table>
-                        </div>
 
 
 
