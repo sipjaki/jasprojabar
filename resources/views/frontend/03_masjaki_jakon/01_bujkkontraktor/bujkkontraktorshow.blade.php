@@ -106,7 +106,7 @@ color: #45a049;
             }
 
             .green-button {
-                background: linear-gradient(to right, navy, navy);
+                background: linear-gradient(to right, white, green);
                 color: white;
                 padding: 10px 20px;
                 border-radius: 10px;
