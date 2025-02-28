@@ -193,7 +193,7 @@ color: #45a049;
                                             Data Ke {{ $data->firstItem() }} Sampai {{ $data->lastItem() }} Dari {{ $data->total() }} Jumlah {{$title}}
                                         </div>
                                     </div>
-                                    <div style="margin-left: 300px;">
+                                    <div style="margin-left: 320px;">
                                         <label for="entries" style="margin-right: 10px; font-weight: bold;">Show:</label>
                                         <select id="entries" onchange="updateEntries()" style="padding: 5px; border: 1px solid black; background-color: white;">
                                             <option value="10">10</option>
@@ -211,7 +211,7 @@ color: #45a049;
                                     </div>
                                 </div>
 
-                                <table class="fl-table" id="sortableTable" style="margin-top: 50px; width: 100%; border-collapse: collapse;">
+                                <table class="fl-table" id="sortableTable" style="margin-top: 10px; width: 100%; border-collapse: collapse;">
                                     <thead>
                                         <tr>
                                             <th onclick="sortTable(0)" style="cursor:pointer; text-align:center"> No <span class="sort-icon">⇅</span></th>
