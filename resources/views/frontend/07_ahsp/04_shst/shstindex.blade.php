@@ -106,7 +106,7 @@ color: #45a049;
             }
 
             .badgemenu {
-                background: linear-gradient(to right, #FFD100, green);
+                background: linear-gradient(to right, orange, green);
                 color: white;
                 padding: 10px 20px;
                 border-radius: 10px;
@@ -223,31 +223,38 @@ color: #45a049;
 
 
                         <body>
-                            <p>Bangunan Kantor dan Bangunan Lainnya M2 (Meter Persegi)</p>
+                            <div class="div">
+                                <button class="green-button">Bangunan Kantor dan Bangunan Lainnya M2 (Meter Persegi)</button>
+                            </div>
+
                         <div class="table-wrapper" style="margin-top:-130px; margin-bottom:150px;">
                         <table class="fl-table">
                             <thead>
                                 <tr>
                                     <th style="text-align:center"> No</th>
                                     <th style="text-align:center"> Pekerjaan</th>
-                                    <th style="text-align:center"> Harga M2 (Meter Persegi)</th>
+                                    <th style="text-align:center"> Harga</th>
                                     {{-- <th style="text-align:center" >View</th> --}}
                                 </tr>
                             </thead>
                             <tbody>
 
+                                @php
+                                $start = ($data->currentPage() - 1) * $data->perPage() + 1;
+                                    @endphp
+
                                 @foreach ($data as $item )
                                 <tr>
                                     <td style="text-align: center;">1</td>
-                                    <td>Tidak Sederhana</td>
+                                    <td>Bangunan Tidak Sederhana</td>
                                     <td>{{$item->bangunankantortidaksederhana}}</td>
+
                                 </tr>
+
                                 @endforeach
                             </tbody>
                         </table>
                         </div>
-
-
 
 
                     </div><!-- donate-box-inner -->
