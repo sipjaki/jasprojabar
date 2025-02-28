@@ -251,6 +251,7 @@ color: #45a049;
                             </a>
                             <body>
 
+                            </section>
 
                         <div class="table-wrapper" style="margin-top:-130px; margin-bottom:150px;">
                         <table class="fl-table">
@@ -281,7 +282,6 @@ color: #45a049;
                         </table>
                         </div>
 
-                    </section>
 
                     </div><!-- donate-box-inner -->
                                         </div><!-- col-xl-8 col-lg-12 -->
