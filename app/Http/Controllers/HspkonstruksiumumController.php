@@ -17,7 +17,7 @@ class HspkonstruksiumumController extends Controller
         $user = Auth::user();
 
         return view('frontend.07_ahsp.03_hspkonstruksiumum.hspkonstruksiumum', [
-            'title' => 'Standar Harga Satuan Tertinggi Kabupaten Blora Tahun 2025',
+            'title' => 'HSP Konstruksi Umum',
             'user' => $user, // Mengirimkan data paginasi ke view
             // 'data' => $data, // Mengirimkan data paginasi ke view
         ]);
