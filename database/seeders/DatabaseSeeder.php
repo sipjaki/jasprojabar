@@ -273,29 +273,29 @@ bujkkontraktor::create([
 bujkkontraktor::create([
     'bujkkontraktorsub_id' => 2, // Ganti dengan ID yang sesuai
     'asosiasimasjaki_id' => 1, // Ganti dengan ID yang sesuai
-    'namalengkap' => 'Mandra Kanta Unggul',
-    'alamat' => 'Desa Tawangrejo 003/005 Kunduran Kab. Blora Jawa Tengah',
-    'no_telepon' => '82324908547',
-    'email' => 'mandrakantaunggul@gmail.com',
-    'nib' => '0208220001109',
-    'pju' => 'WINARSIH',
+    'namalengkap' => 'SIGIT',
+    'alamat' => 'SIGIT',
+    'no_telepon' => 'SIGIT',
+    'email' => 'SIGIT',
+    'nib' => 'SIGIT',
+    'pju' => 'SIGIT',
     'no_akte' => '25',
     'tanggal' => '2024-07-21',
-    'nama_notaris' => 'DIAH TRIMURTI SALEH S.E., S.H., M.KN',
-    'no_pengesahan' => ' AHU-0049177-AH.01.14'
+    'nama_notaris' => 'SIGIT',
+    'no_pengesahan' => 'SIGIT'
 ]);
 
 bujkkontraktorsub ::create([
     'bujkkontraktor_id' => 1, // Ganti dengan ID yang sesuai
-    'nama_pengurus' => 'Sigit',
-    'sub_klasifikasi_layanan' => 'Sigit',
-    'kode' => 'Sigit',
-    'kualifikasi' => 'Sigit',
-    'penerbit' => ' Sigit',
+    'nama_pengurus' => 'Muhammad Abdul Rozak',
+    'sub_klasifikasi_layanan' => 'Konstruksi Gedung Lainnya',
+    'kode' => 'BG-009',
+    'kualifikasi' => 'Kecil',
+    'penerbit' => ' LSBU GAPEKNAS INFRASTRUKTUR (GAPEKNAS)',
     'tanggal_terbit' => '2024-05-08',
     'masa_berlaku' => '2026-05-07',
-    'nama_psjk' => 'Sigit',
-    'sub_kualifikasi_bu' => 'Sigit'
+    'nama_psjk' => 'Nizar Sandy Saputra',
+    'sub_kualifikasi_bu' => 'Konstruksi Gedung Lainnya'
 ]);
 
 bujkkontraktorsub ::create([
