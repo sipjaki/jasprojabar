@@ -30,6 +30,9 @@ use App\Http\Controllers\TertibjasakonstruksiController;
 use App\Http\Controllers\RantaipasokbloraController;
 use App\Http\Controllers\TokobangunanbloraController;
 use App\Http\Controllers\UndangundangController;
+use App\Http\Controllers\ShstbloraController;
+
+
 use Database\Factories\DatajakonFactory;
 use Database\Factories\SkktenagakerjaFactory;
 use Illuminate\Support\Facades\Route;
@@ -217,6 +220,12 @@ Route::get('/tokobangunanbloralist/{namatokobangunan}', [TokobangunanbloraContro
 // ==========================================================================================================
 Route::get('/tokobangunanblora', [TokobangunanbloraController::class, 'index']);
 Route::get('/tokobangunanblora/{kecamatanblora}', [TokobangunanbloraController::class, 'tokobangunanblorashow']);
+
+
+// DATA SHST BLORA
+// ==========================================================================================================
+Route::get('/shstblora', [ShstbloraController::class, 'index']);
+// Route::get('/shstblora/{kecamatanblora}', [TokobangunanbloraController::class, 'tokobangunanblorashow']);
 
 
 // fort

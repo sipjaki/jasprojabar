@@ -94,6 +94,7 @@ use App\Models\rantaipasokblora;
 use App\Models\peralatankonstruksi;
 use App\Models\alatberat;
 use App\Models\tokobangunanblora;
+use App\Models\shstblora;
 
 
 // modelbaru
@@ -4738,8 +4739,25 @@ peralatankonstruksi::create([
 
 
 
-// fort
 
+    //======================== ===================================================================================
+    // PENGAWASAN BUJK MAS JAKI BLORA
+    shstblora::create([
+        'kabupaten' => 'Blora',
+        'bangunankantortidaksederhana' => '6050000',
+        'bangunankantorsederhana' => '4810000',
+        'rumahnegaratipea' => '5820000',
+        'rumahnegaratipeb' => '5570000',
+        'rumahnegaratipecde' => '4810000',
+        'pagarrumahdepan' => '2700000',
+        'pagarrumahbelakang' => '2290000',
+        'pagarrumahsamping' => '2210000',
+        'pagarrumahnegaradepan' => '2470000',
+        'pagarrumahnegarabelakang' => '1450000',
+        'pagarrumahnegarasamping' => '1380000',
+    ]);
+
+    // fort
 //======================== ===================================================================================
 // PENGAWASAN BUJK MAS JAKI BLORA
 kecamatanblora::create([
