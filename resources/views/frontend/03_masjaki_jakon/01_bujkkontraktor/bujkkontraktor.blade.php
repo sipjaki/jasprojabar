@@ -185,7 +185,20 @@ color: #45a049;
 
 
                         <body>
+
                             <div class="table-wrapper" style="margin-top:-180px; position: relative;">
+                                <div style="display: flex; justify-content: flex-end; margin-bottom: 10px;">
+                                    <label for="entries" style="margin-right: 10px; font-weight: bold;">Show:</label>
+                                    <select id="entries" onchange="updateTable()" style="padding: 5px; border: 1px solid black; background-color: white;">
+                                        <option value="10">10</option>
+                                        <option value="25">25</option>
+                                        <option value="50">50</option>
+                                        <option value="75">75</option>
+                                        <option value="100">100</option>
+                                        <option value="150">150</option>
+                                        <option value="200">200</option>
+                                    </select>
+                                </div>
                                 <table class="fl-table" id="sortableTable" style="margin-top: 50px; width: 100%; border-collapse: collapse;">
                                     <thead>
                                         <tr>
@@ -244,26 +257,38 @@ color: #45a049;
                                 }
                             </style>
 
-                            <script>
-                            let sortDirection = {};
-                            function sortTable(columnIndex) {
-                                var table = document.getElementById("sortableTable");
-                                var tbody = table.querySelector("tbody");
-                                var rows = Array.from(tbody.rows);
-                                var isAscending = !sortDirection[columnIndex];
 
-                                rows.sort((rowA, rowB) => {
-                                    let cellA = rowA.cells[columnIndex].innerText.trim().toLowerCase();
-                                    let cellB = rowB.cells[columnIndex].innerText.trim().toLowerCase();
+<script>
+    let sortDirection = {};
+    function sortTable(columnIndex) {
+        var table = document.getElementById("sortableTable");
+        var tbody = table.querySelector("tbody");
+        var rows = Array.from(tbody.rows);
+        var isAscending = !sortDirection[columnIndex];
 
-                                    return isAscending ? cellA.localeCompare(cellB) : cellB.localeCompare(cellA);
-                                });
+        rows.sort((rowA, rowB) => {
+            let cellA = rowA.cells[columnIndex].innerText.trim().toLowerCase();
+            let cellB = rowB.cells[columnIndex].innerText.trim().toLowerCase();
+            return isAscending ? cellA.localeCompare(cellB) : cellB.localeCompare(cellA);
+        });
 
-                                sortDirection[columnIndex] = isAscending;
-                                rows.forEach(row => tbody.appendChild(row));
-                            }
-                            </script>
-                                        </div><!-- donate-box-inner -->
+        sortDirection[columnIndex] = isAscending;
+        rows.forEach(row => tbody.appendChild(row));
+    }
+
+    function updateTable() {
+        let selectedValue = document.getElementById("entries").value;
+        let table = document.getElementById("sortableTable");
+        let tbody = document.getElementById("tableBody");
+        let rows = Array.from(tbody.rows);
+
+        rows.forEach((row, index) => {
+            row.style.display = index < selectedValue ? "" : "none";
+        });
+    }
+    </script>
+
+                        </div><!-- donate-box-inner -->
                                         </div><!-- col-xl-8 col-lg-12 -->
                                     </div><!-- row -->
                                 </div><!-- container -->
