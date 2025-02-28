@@ -189,7 +189,7 @@ color: #45a049;
                                 <table class="fl-table" id="sortableTable" style="margin-top: 50px; width: 100%; border-collapse: collapse;">
                                     <thead>
                                         <tr>
-                                            <th onclick="sortTable(0)" style="cursor:pointer; text-align:center; width: 200px;"> No <span class="sort-icon">⇅</span></th>
+                                            <th onclick="sortTable(0)" style="cursor:pointer; text-align:center; width: 100px;"> No <span class="sort-icon">⇅</span></th>
                                             <th onclick="sortTable(1)" style="cursor:pointer; text-align:center; width: 400px;"> Nama Badan Usaha <span class="sort-icon">⇅</span></th>
                                             <th onclick="sortTable(2)" style="cursor:pointer; text-align:center; width: 500px;" > Alamat <span class="sort-icon">⇅</span></th>
                                             <th onclick="sortTable(3)" style="cursor:pointer; text-align:center; width: 300px;"> No Telepon <span class="sort-icon">⇅</span></th>
@@ -207,7 +207,7 @@ color: #45a049;
                                         @php $start = ($data->currentPage() - 1) * $data->perPage() + 1; @endphp
                                         @foreach ($data as $item )
                                         <tr>
-                                            <td>{{ $loop->iteration + $start - 1 }}</td>
+                                            <td style="text-align: center;">{{ $loop->iteration + $start - 1 }}</td>
                                             <td>{{$item->namalengkap}}</td>
                                             <td>{{$item->alamat}}</td>
                                             <td>{{$item->no_telepon}}</td>
