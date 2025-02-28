@@ -231,7 +231,7 @@ color: #45a049;
 
                             <style>
                                 .sort-icon {
-                                    font-size: 12px;
+                                    font-size: 16px;
                                     color: gray;
                                     margin-left: 5px;
                                 }
