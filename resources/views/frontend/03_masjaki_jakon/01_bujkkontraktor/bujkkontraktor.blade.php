@@ -185,7 +185,7 @@ color: #45a049;
 
 
                         <body>
-                            <div class="table-wrapper" style="margin-top:-130px; position: relative;">
+                            <div class="table-wrapper" style="margin-top:-200px; position: relative;">
                                 <table class="fl-table" id="sortableTable" style="margin-top: 50px; width: 100%; border-collapse: collapse;">
                                     <thead>
                                         <tr>
