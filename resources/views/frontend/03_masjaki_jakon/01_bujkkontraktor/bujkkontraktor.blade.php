@@ -185,19 +185,34 @@ color: #45a049;
 
 
                         <body>
-                            <div class="table-wrapper" style="margin-top:-130px;">
+                            <div class="table-wrapper" style="margin-top:-130px; position: relative;">
+                                <div style="position: absolute; right: 0; top: -40px; background: white; border: 1px solid black; padding: 5px;">
+                                    <label for="sortOptions">Sort by:</label>
+                                    <select id="sortOptions" onchange="sortTable()">
+                                        <option value="1">Nama Badan Usaha (A-Z)</option>
+                                        <option value="1_desc">Nama Badan Usaha (Z-A)</option>
+                                        <option value="2">Alamat (A-Z)</option>
+                                        <option value="2_desc">Alamat (Z-A)</option>
+                                        <option value="3">No Telepon (Asc)</option>
+                                        <option value="3_desc">No Telepon (Desc)</option>
+                                    </select>
+                                </div>
+
                                 <table class="fl-table" id="sortableTable">
                                     <thead>
                                         <tr>
-                                            <th onclick="sortTable(0)" style="text-align:center"> No <span class="sort-icon">&#x21C5;</span></th>
-                                            <th onclick="sortTable(1)" style="text-align:center"> Nama <span class="sort-icon">&#x21C5;</span></th>
-                                            <th onclick="sortTable(2)" style="text-align:center"> Kota <span class="sort-icon">&#x21C5;</span></th>
-                                            <th onclick="sortTable(3)" style="text-align:center"> Provinsi <span class="sort-icon">&#x21C5;</span></th>
-                                            <th onclick="sortTable(4)" style="text-align:center"> Pendidikan <span class="sort-icon">&#x21C5;</span></th>
-                                            <th onclick="sortTable(5)" style="text-align:center"> Klasifikasi <span class="sort-icon">&#x21C5;</span></th>
-                                            <th onclick="sortTable(6)" style="text-align:center"> Dinas/Instansi/Perusahaan <span class="sort-icon">&#x21C5;</span></th>
-                                            <th onclick="sortTable(7)" style="text-align:center"> Nomor Sertifikat <span class="sort-icon">&#x21C5;</span></th>
-                                            <th onclick="sortTable(8)" style="text-align:center"> Tgl Berlaku Sertifikat <span class="sort-icon">&#x21C5;</span></th>
+                                            <th style="text-align:center"> No </th>
+                                            <th style="text-align:center"> Nama Badan Usaha </th>
+                                            <th style="text-align:center"> Alamat </th>
+                                            <th style="text-align:center"> No Telepon </th>
+                                            <th style="text-align:center"> Email </th>
+                                            <th style="text-align:center"> NIB </th>
+                                            <th style="text-align:center"> PJU </th>
+                                            <th style="text-align:center"> Akte </th>
+                                            <th style="text-align:center"> Tanggal </th>
+                                            <th style="text-align:center"> Notaris </th>
+                                            <th style="text-align:center"> Pengesahan </th>
+                                            <th style="text-align:center"> View </th>
                                         </tr>
                                     </thead>
                                     <tbody>
@@ -206,53 +221,43 @@ color: #45a049;
                                         <tr>
                                             <td>{{ $loop->iteration + $start - 1 }}</td>
                                             <td>{{$item->namalengkap}}</td>
-                                            <td>{{$item->kota}}</td>
-                                            <td>{{$item->provinsi}}</td>
-                                            <td>{{$item->pendidikan}}</td>
-                                            <td>{{$item->klasifikasi}}</td>
-                                            <td>{{$item->dinas_instansi}}</td>
-                                            <td>{{$item->nomor_sertifikat}}</td>
-                                            <td>{{ \Carbon\Carbon::parse($item->tgl_berlaku)->isoFormat('D MMMM YYYY') }}</td>
+                                            <td>{{$item->alamat}}</td>
+                                            <td>{{$item->no_telepon}}</td>
+                                            <td>{{$item->email}}</td>
+                                            <td>{{$item->nib}}</td>
+                                            <td>{{$item->pju}}</td>
+                                            <td>{{$item->no_akte}}</td>
+                                            <td>{{$item->tanggal}}</td>
+                                            <td>{{ \Carbon\Carbon::parse($item->tanggal)->isoFormat('D MMMM YYYY') }}</td>
+                                            <td>{{$item->nama_notaris}}</td>
+                                            <td>{{$item->no_pengesahan}}</td>
+                                            <td style="text-align: center">
+                                                <a href="/datajakon/bujkkontraktor/{{$item->namalengkap}}">
+                                                    <i class="fas fa-eye view-icon" onclick="alert('View clicked!')"></i>
+                                                </a>
+                                            </td>
                                         </tr>
                                         @endforeach
                                     </tbody>
                                 </table>
                             </div>
 
-                            <style>
-                                .sort-icon {
-                                    font-size: 14px;
-                                    color: gray;
-                                    margin-left: 5px;
-                                }
-                                thead th {
-                                    font-weight: bold;
-                                    cursor: pointer;
-                                }
-                            </style>
-
                             <script>
-                            function sortTable(columnIndex) {
+                            function sortTable() {
                                 var table = document.getElementById("sortableTable");
                                 var tbody = table.querySelector("tbody");
                                 var rows = Array.from(tbody.rows);
-                                var isAscending = table.getAttribute("data-sort") !== "asc";
+                                var select = document.getElementById("sortOptions");
+                                var selectedValue = select.value;
+                                var columnIndex = parseInt(selectedValue);
+                                var isDescending = selectedValue.includes("_desc");
 
                                 rows.sort((rowA, rowB) => {
-                                    let cellA = rowA.cells[columnIndex].innerText.trim();
-                                    let cellB = rowB.cells[columnIndex].innerText.trim();
+                                    let cellA = rowA.cells[columnIndex].innerText.trim().toLowerCase();
+                                    let cellB = rowB.cells[columnIndex].innerText.trim().toLowerCase();
 
-                                    let numA = parseFloat(cellA);
-                                    let numB = parseFloat(cellB);
-
-                                    if (!isNaN(numA) && !isNaN(numB)) {
-                                        return isAscending ? numA - numB : numB - numA;
-                                    } else {
-                                        return isAscending ? cellA.localeCompare(cellB) : cellB.localeCompare(cellA);
-                                    }
+                                    return isDescending ? cellB.localeCompare(cellA) : cellA.localeCompare(cellB);
                                 });
-
-                                table.setAttribute("data-sort", isAscending ? "asc" : "desc");
 
                                 rows.forEach(row => tbody.appendChild(row));
                             }
