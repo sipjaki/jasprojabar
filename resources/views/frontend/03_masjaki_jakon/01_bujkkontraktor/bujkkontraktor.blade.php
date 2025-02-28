@@ -185,69 +185,79 @@ color: #45a049;
 
 
                         <body>
+                            <div class="table-wrapper" style="margin-top:-130px;">
+                                <table class="fl-table" id="sortableTable">
+                                    <thead>
+                                        <tr>
+                                            <th onclick="sortTable(0)" style="text-align:center"> No &#x2195;</th>
+                                            <th onclick="sortTable(1)" style="text-align:center"> Nama Badan Usaha &#x2195;</th>
+                                            <th onclick="sortTable(2)" style="text-align:center"> Alamat &#x2195;</th>
+                                            <th onclick="sortTable(3)" style="text-align:center"> No Telepon &#x2195;</th>
+                                            <th onclick="sortTable(4)" style="text-align:center"> Email &#x2195;</th>
+                                            <th onclick="sortTable(5)" style="text-align:center"> NIB &#x2195;</th>
+                                            <th onclick="sortTable(6)" style="text-align:center"> PJU &#x2195;</th>
+                                            <th onclick="sortTable(7)" style="text-align:center"> Akte &#x2195;</th>
+                                            <th onclick="sortTable(8)" style="text-align:center"> Tanggal &#x2195;</th>
+                                            <th onclick="sortTable(9)" style="text-align:center"> Notaris &#x2195;</th>
+                                            <th onclick="sortTable(10)" style="text-align:center"> Pengesahan &#x2195;</th>
+                                            <th style="text-align:center"> View </th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        @php $start = ($data->currentPage() - 1) * $data->perPage() + 1; @endphp
+                                        @foreach ($data as $item )
+                                        <tr>
+                                            <td>{{ $loop->iteration + $start - 1 }}</td>
+                                            <td>{{$item->namalengkap}}</td>
+                                            <td>{{$item->alamat}}</td>
+                                            <td>{{$item->no_telepon}}</td>
+                                            <td>{{$item->email}}</td>
+                                            <td>{{$item->nib}}</td>
+                                            <td>{{$item->pju}}</td>
+                                            <td>{{$item->no_akte}}</td>
+                                            <td>{{$item->tanggal}}</td>
+                                            <td>{{ \Carbon\Carbon::parse($item->tanggal)->isoFormat('D MMMM YYYY') }}</td>
+                                            <td>{{$item->nama_notaris}}</td>
+                                            <td>{{$item->no_pengesahan}}</td>
+                                            <td style="text-align: center">
+                                                <a href="/datajakon/bujkkontraktor/{{$item->namalengkap}}">
+                                                    <i class="fas fa-eye view-icon" onclick="alert('View clicked!')"></i>
+                                                </a>
+                                            </td>
+                                        </tr>
+                                        @endforeach
+                                    </tbody>
+                                </table>
+                            </div>
 
-                        <div class="table-wrapper" style="margin-top:-130px;">
-                        <table class="fl-table" id="sortableTable">
-                            <thead>
-                                <tr>
-                                    <th onclick="sortTable(0)" style="text-align:center"> No &#x2195;</th>
-                                    <th onclick="sortTable(1)" style="text-align:center"> Nama Badan Usaha &#x2195;</th>
-                                    <th onclick="sortTable(2)" style="text-align:center"> Alamat &#x2195;</th>
-                                    <th onclick="sortTable(3)" style="text-align:center"> No Telepon &#x2195;</th>
-                                    <th onclick="sortTable(4)" style="text-align:center"> Email &#x2195;</th>
-                                    <th onclick="sortTable(5)" style="text-align:center"> NIB &#x2195;</th>
-                                    <th onclick="sortTable(6)" style="text-align:center"> PJU &#x2195;</th>
-                                    <th onclick="sortTable(7)" style="text-align:center"> Akte &#x2195;</th>
-                                    <th onclick="sortTable(8)" style="text-align:center"> Tanggal &#x2195;</th>
-                                    <th onclick="sortTable(9)" style="text-align:center"> Notaris &#x2195;</th>
-                                    <th onclick="sortTable(10)" style="text-align:center"> Pengesahan &#x2195;</th>
-                                    <th style="text-align:center"> View </th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                @php $start = ($data->currentPage() - 1) * $data->perPage() + 1; @endphp
-                                @foreach ($data as $item )
-                                <tr>
-                                    <td>{{ $loop->iteration + $start - 1 }}</td>
-                                    <td>{{$item->namalengkap}}</td>
-                                    <td>{{$item->alamat}}</td>
-                                    <td>{{$item->no_telepon}}</td>
-                                    <td>{{$item->email}}</td>
-                                    <td>{{$item->nib}}</td>
-                                    <td>{{$item->pju}}</td>
-                                    <td>{{$item->no_akte}}</td>
-                                    <td>{{$item->tanggal}}</td>
-                                    <td>{{ \Carbon\Carbon::parse($item->tanggal)->isoFormat('D MMMM YYYY') }}</td>
-                                    <td>{{$item->nama_notaris}}</td>
-                                    <td>{{$item->no_pengesahan}}</td>
-                                    <td style="text-align: center">
-                                        <a href="/datajakon/bujkkontraktor/{{$item->namalengkap}}">
-                                            <i class="fas fa-eye view-icon" onclick="alert('View clicked!')"></i>
-                                        </a>
-                                    </td>
-                                </tr>
-                                @endforeach
-                            </tbody>
-                        </table>
-                    </div>
+                            <script>
+                            function sortTable(columnIndex) {
+                                var table = document.getElementById("sortableTable");
+                                var tbody = table.querySelector("tbody");
+                                var rows = Array.from(tbody.rows);
+                                var isAscending = table.getAttribute("data-sort") !== "asc";
 
-                    <script>
-                    function sortTable(columnIndex) {
-                        var table = document.getElementById("sortableTable");
-                        var rows = Array.from(table.rows).slice(1);
-                        var isAscending = table.getAttribute("data-sort") !== "asc";
+                                rows.sort((rowA, rowB) => {
+                                    let cellA = rowA.cells[columnIndex].innerText.trim();
+                                    let cellB = rowB.cells[columnIndex].innerText.trim();
 
-                        rows.sort((rowA, rowB) => {
-                            let cellA = rowA.cells[columnIndex].innerText.trim().toLowerCase();
-                            let cellB = rowB.cells[columnIndex].innerText.trim().toLowerCase();
-                            return isAscending ? cellA.localeCompare(cellB) : cellB.localeCompare(cellA);
-                        });
+                                    // Coba parsing angka, jika gagal gunakan teks
+                                    let numA = parseFloat(cellA);
+                                    let numB = parseFloat(cellB);
 
-                        table.setAttribute("data-sort", isAscending ? "asc" : "desc");
+                                    if (!isNaN(numA) && !isNaN(numB)) {
+                                        return isAscending ? numA - numB : numB - numA;
+                                    } else {
+                                        return isAscending ? cellA.localeCompare(cellB) : cellB.localeCompare(cellA);
+                                    }
+                                });
 
-                        rows.forEach(row => table.appendChild(row));
-                    }
-                    </script>
+                                table.setAttribute("data-sort", isAscending ? "asc" : "desc");
+
+                                rows.forEach(row => tbody.appendChild(row));
+                            }
+                            </script>
+
                                         </div><!-- donate-box-inner -->
                                         </div><!-- col-xl-8 col-lg-12 -->
                                     </div><!-- row -->
