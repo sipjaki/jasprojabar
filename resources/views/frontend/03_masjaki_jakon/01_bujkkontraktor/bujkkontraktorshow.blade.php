@@ -210,20 +210,16 @@ color: #45a049;
                                             </div>
                                             <form action="#" class="contact-form donation" method="post">
                                                 <div class="row row-gutter-10">
-                                                    <div class="col-lg-6">
+                                                    <div class="col-lg-8">
                                                         <h6><i class="fas fa-user mr-2" style="margin-right: 5px;"></i>Nama Pemilik </h6>
                                                         <input type="text" id="fname" class="input-text" placeholder="{{$data->namalengkap}}" name="fname" aria-required="true" readonly>
                                                     </div><!-- col-lg-6 -->
 
-                                                    <div class="col-lg-3">
+                                                    <div class="col-lg-4">
                                                         <h6><i class="fas fa-phone-alt mr-2" style="margin-right: 5px;"></i>No Telepon</h6>
                                                         <input type="text" id="fname" class="input-text" placeholder="{{$data->no_telepon}}" name="fname" aria-required="true" readonly>
                                                     </div><!-- col-lg-3 -->
 
-                                                    <div class="col-lg-3">
-                                                        <h6><i class="fas fa-id-card mr-2" style="margin-right: 5px;"></i>Nomor Induk Berusaha</h6>
-                                                        <input type="text" id="fname" class="input-text" placeholder="{{$data->nib}}" name="fname" aria-required="true" readonly>
-                                                    </div><!-- col-lg-3 -->
 
                                                     <div class="col-lg-12">
                                                         <h6><i class="fas fa-map-marker-alt mr-2" style="margin-right: 5px;"></i>Alamat</h6>
@@ -234,6 +230,11 @@ color: #45a049;
                                                         <h6><i class="fas fa-envelope mr-2" style="margin-right: 5px;"></i>Email</h6>
                                                         <input type="text" id="fname" class="input-text" placeholder="{{$data->email}}" name="fname" aria-required="true" readonly>
                                                     </div><!-- col-lg-6 -->
+
+                                                    <div class="col-lg-6">
+                                                        <h6><i class="fas fa-id-card mr-2" style="margin-right: 5px;"></i>Nomor Induk Berusaha</h6>
+                                                        <input type="text" id="fname" class="input-text" placeholder="{{$data->nib}}" name="fname" aria-required="true" readonly>
+                                                    </div><!-- col-lg-3 -->
 
                                                     {{-- <div class="col-lg-6">
                                                         <h6><i class="fas fa-user-tie mr-2" style="margin-right: 5px;"></i>Penanggung Jawab Umum</h6>
