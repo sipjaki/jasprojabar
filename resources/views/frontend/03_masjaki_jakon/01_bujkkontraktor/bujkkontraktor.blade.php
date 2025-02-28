@@ -193,7 +193,7 @@ color: #45a049;
                                         </div>
                                     </div>
                                     <div>
-                                        <label for="entries" style="margin-right: 10px; font-weight: bold;">Show:</label>
+                                        <label for="entries" style="margin-right: 5px; margin-left: 325px; font-weight: bold;">Show:</label>
                                         <select id="entries" onchange="updateEntries()" style="padding: 5px; border: 1px solid black; background-color: white;">
                                             <option value="10">10</option>
                                             <option value="25">25</option>
