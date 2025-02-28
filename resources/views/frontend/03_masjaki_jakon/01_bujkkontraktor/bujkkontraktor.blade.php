@@ -186,7 +186,7 @@ color: #45a049;
 
                         <body>
 
-                            <div class="table-wrapper" style="margin-top:-180px; position: relative;">
+                            <div class="table-wrapper" style="margin-top:-130px; position: relative;">
                                 <div style="display: flex; justify-content: flex-end; margin-bottom: 10px;">
                                     <label for="entries" style="margin-right: 10px; font-weight: bold;">Show:</label>
                                     <select id="entries" onchange="updateTable()" style="padding: 5px; border: 1px solid black; background-color: white;">
@@ -199,38 +199,39 @@ color: #45a049;
                                         <option value="200">200</option>
                                     </select>
                                 </div>
+
                                 <table class="fl-table" id="sortableTable" style="margin-top: 50px; width: 100%; border-collapse: collapse;">
                                     <thead>
                                         <tr>
-                                            <th onclick="sortTable(0)" style="cursor:pointer; text-align:center; width: 100px;"> No <span class="sort-icon">⇅</span></th>
-                                            <th onclick="sortTable(1)" style="cursor:pointer; text-align:center; width: 400px;"> Nama Badan Usaha <span class="sort-icon">⇅</span></th>
-                                            <th onclick="sortTable(2)" style="cursor:pointer; text-align:center; width: 500px;" > Alamat <span class="sort-icon">⇅</span></th>
-                                            <th onclick="sortTable(3)" style="cursor:pointer; text-align:center; width: 300px;"> No Telepon <span class="sort-icon">⇅</span></th>
-                                            {{-- <th onclick="sortTable(4)" style="cursor:pointer; text-align:center; width: 300px;"> Email <span class="sort-icon">⇅</span></th> --}}
-                                            {{-- <th onclick="sortTable(5)" style="cursor:pointer; text-align:center"> NIB <span class="sort-icon">⇅</span></th>
+                                            <th onclick="sortTable(0)" style="cursor:pointer; text-align:center"> No <span class="sort-icon">⇅</span></th>
+                                            <th onclick="sortTable(1)" style="cursor:pointer; text-align:center"> Nama Badan Usaha <span class="sort-icon">⇅</span></th>
+                                            <th onclick="sortTable(2)" style="cursor:pointer; text-align:center"> Alamat <span class="sort-icon">⇅</span></th>
+                                            <th onclick="sortTable(3)" style="cursor:pointer; text-align:center"> No Telepon <span class="sort-icon">⇅</span></th>
+                                            <th onclick="sortTable(4)" style="cursor:pointer; text-align:center"> Email <span class="sort-icon">⇅</span></th>
+                                            <th onclick="sortTable(5)" style="cursor:pointer; text-align:center"> NIB <span class="sort-icon">⇅</span></th>
                                             <th onclick="sortTable(6)" style="cursor:pointer; text-align:center"> PJU <span class="sort-icon">⇅</span></th>
                                             <th onclick="sortTable(7)" style="cursor:pointer; text-align:center"> Akte <span class="sort-icon">⇅</span></th>
                                             <th onclick="sortTable(8)" style="cursor:pointer; text-align:center"> Tanggal <span class="sort-icon">⇅</span></th>
                                             <th onclick="sortTable(9)" style="cursor:pointer; text-align:center"> Notaris <span class="sort-icon">⇅</span></th>
-                                            <th onclick="sortTable(10)" style="cursor:pointer; text-align:center"> Pengesahan <span class="sort-icon">⇅</span></th> --}}
+                                            <th onclick="sortTable(10)" style="cursor:pointer; text-align:center"> Pengesahan <span class="sort-icon">⇅</span></th>
                                             <th style="text-align:center"> View </th>
                                         </tr>
                                     </thead>
-                                    <tbody>
+                                    <tbody id="tableBody">
                                         @php $start = ($data->currentPage() - 1) * $data->perPage() + 1; @endphp
                                         @foreach ($data as $item )
                                         <tr>
-                                            <td style="text-align: center;">{{ $loop->iteration + $start - 1 }}</td>
+                                            <td>{{ $loop->iteration + $start - 1 }}</td>
                                             <td>{{$item->namalengkap}}</td>
                                             <td>{{$item->alamat}}</td>
                                             <td>{{$item->no_telepon}}</td>
-                                            {{-- <td>{{$item->email}}</td> --}}
-                                            {{-- <td>{{$item->nib}}</td>
+                                            <td>{{$item->email}}</td>
+                                            <td>{{$item->nib}}</td>
                                             <td>{{$item->pju}}</td>
                                             <td>{{$item->no_akte}}</td>
                                             <td>{{ \Carbon\Carbon::parse($item->tanggal)->isoFormat('D MMMM YYYY') }}</td>
                                             <td>{{$item->nama_notaris}}</td>
-                                            <td>{{$item->no_pengesahan}}</td> --}}
+                                            <td>{{$item->no_pengesahan}}</td>
                                             <td style="text-align: center">
                                                 <a href="/datajakon/bujkkontraktor/{{$item->namalengkap}}">
                                                     <i class="fas fa-eye view-icon" onclick="alert('View clicked!')"></i>
@@ -257,36 +258,35 @@ color: #45a049;
                                 }
                             </style>
 
+                            <script>
+                            let sortDirection = {};
+                            function sortTable(columnIndex) {
+                                var table = document.getElementById("sortableTable");
+                                var tbody = table.querySelector("tbody");
+                                var rows = Array.from(tbody.rows);
+                                var isAscending = !sortDirection[columnIndex];
 
-<script>
-    let sortDirection = {};
-    function sortTable(columnIndex) {
-        var table = document.getElementById("sortableTable");
-        var tbody = table.querySelector("tbody");
-        var rows = Array.from(tbody.rows);
-        var isAscending = !sortDirection[columnIndex];
+                                rows.sort((rowA, rowB) => {
+                                    let cellA = rowA.cells[columnIndex].innerText.trim().toLowerCase();
+                                    let cellB = rowB.cells[columnIndex].innerText.trim().toLowerCase();
+                                    return isAscending ? cellA.localeCompare(cellB) : cellB.localeCompare(cellA);
+                                });
 
-        rows.sort((rowA, rowB) => {
-            let cellA = rowA.cells[columnIndex].innerText.trim().toLowerCase();
-            let cellB = rowB.cells[columnIndex].innerText.trim().toLowerCase();
-            return isAscending ? cellA.localeCompare(cellB) : cellB.localeCompare(cellA);
-        });
+                                sortDirection[columnIndex] = isAscending;
+                                rows.forEach(row => tbody.appendChild(row));
+                            }
 
-        sortDirection[columnIndex] = isAscending;
-        rows.forEach(row => tbody.appendChild(row));
-    }
+                            function updateTable() {
+                                let selectedValue = document.getElementById("entries").value;
+                                let table = document.getElementById("sortableTable");
+                                let tbody = document.getElementById("tableBody");
+                                let rows = Array.from(tbody.rows);
 
-    function updateTable() {
-        let selectedValue = document.getElementById("entries").value;
-        let table = document.getElementById("sortableTable");
-        let tbody = document.getElementById("tableBody");
-        let rows = Array.from(tbody.rows);
-
-        rows.forEach((row, index) => {
-            row.style.display = index < selectedValue ? "" : "none";
-        });
-    }
-    </script>
+                                rows.forEach((row, index) => {
+                                    row.style.display = index < selectedValue ? "" : "none";
+                                });
+                            }
+                            </script>
 
                         </div><!-- donate-box-inner -->
                                         </div><!-- col-xl-8 col-lg-12 -->
