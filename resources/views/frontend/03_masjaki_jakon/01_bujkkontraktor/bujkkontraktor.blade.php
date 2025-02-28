@@ -189,11 +189,11 @@ color: #45a049;
                                 <table class="fl-table" id="sortableTable" style="margin-top: 50px; width: 100%; border-collapse: collapse;">
                                     <thead>
                                         <tr>
-                                            <th onclick="sortTable(0)" style="cursor:pointer; text-align:center" style="width: 200px;"> No <span class="sort-icon">⇅</span></th>
-                                            <th onclick="sortTable(1)" style="cursor:pointer; text-align:center" style="width: 400px;"> Nama Badan Usaha <span class="sort-icon">⇅</span></th>
-                                            <th onclick="sortTable(2)" style="cursor:pointer; text-align:center"> Alamat <span class="sort-icon">⇅</span></th>
-                                            <th onclick="sortTable(3)" style="cursor:pointer; text-align:center"> No Telepon <span class="sort-icon">⇅</span></th>
-                                            <th onclick="sortTable(4)" style="cursor:pointer; text-align:center"> Email <span class="sort-icon">⇅</span></th>
+                                            <th onclick="sortTable(0)" style="cursor:pointer; text-align:center; width: 200px;"> No <span class="sort-icon">⇅</span></th>
+                                            <th onclick="sortTable(1)" style="cursor:pointer; text-align:center; width: 400px;"> Nama Badan Usaha <span class="sort-icon">⇅</span></th>
+                                            <th onclick="sortTable(2)" style="cursor:pointer; text-align:center; width: 500px;" > Alamat <span class="sort-icon">⇅</span></th>
+                                            <th onclick="sortTable(3)" style="cursor:pointer; text-align:center; width: 300px;"> No Telepon <span class="sort-icon">⇅</span></th>
+                                            {{-- <th onclick="sortTable(4)" style="cursor:pointer; text-align:center; width: 300px;"> Email <span class="sort-icon">⇅</span></th> --}}
                                             {{-- <th onclick="sortTable(5)" style="cursor:pointer; text-align:center"> NIB <span class="sort-icon">⇅</span></th>
                                             <th onclick="sortTable(6)" style="cursor:pointer; text-align:center"> PJU <span class="sort-icon">⇅</span></th>
                                             <th onclick="sortTable(7)" style="cursor:pointer; text-align:center"> Akte <span class="sort-icon">⇅</span></th>
@@ -211,7 +211,7 @@ color: #45a049;
                                             <td>{{$item->namalengkap}}</td>
                                             <td>{{$item->alamat}}</td>
                                             <td>{{$item->no_telepon}}</td>
-                                            <td>{{$item->email}}</td>
+                                            {{-- <td>{{$item->email}}</td> --}}
                                             {{-- <td>{{$item->nib}}</td>
                                             <td>{{$item->pju}}</td>
                                             <td>{{$item->no_akte}}</td>
