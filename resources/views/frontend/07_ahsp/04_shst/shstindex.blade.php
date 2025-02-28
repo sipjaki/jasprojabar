@@ -244,7 +244,7 @@ color: #45a049;
                                 <tr>
                                     <td style="text-align: center;">1</td>
                                     <td>Tidak Sederhana</td>
-                                    <td>{{$data->bangunankantortidaksederhana}}</td>
+                                    <td>{{$item->bangunankantortidaksederhana}}</td>
                                     {{-- <td style="text-align: center">
                                         {{-- <a href="/rantaipasokmaterial/{{$item->distributor}}"> --}}
                                         <a href="/standarbiayaumummasjaki/{{$item->judul}}">
