@@ -507,6 +507,2316 @@ bujkkontraktor::create([
     'nama_notaris' => 'DIAH TRIMURTI SALEH S.E., S.H., M.KN',
     'no_pengesahan' => ' AHU-0049177-AH.01.14'
 ]);
+bujkkontraktor::create([
+    'bujkkontraktorsub_id' => 1, // Ganti dengan ID yang sesuai
+    'asosiasimasjaki_id' => 1, // Ganti dengan ID yang sesuai
+    'namalengkap' => 'Mandra Kanta Unggul',
+    'alamat' => 'Desa Tawangrejo 003/005 Kunduran Kab. Blora Jawa Tengah',
+    'no_telepon' => '82324908547',
+    'email' => 'mandrakantaunggul@gmail.com',
+    'nib' => '0208220001109',
+    'pju' => 'WINARSIH',
+    'no_akte' => '25',
+    'tanggal' => '2024-07-21',
+    'nama_notaris' => 'DIAH TRIMURTI SALEH S.E., S.H., M.KN',
+    'no_pengesahan' => ' AHU-0049177-AH.01.14'
+]);
+bujkkontraktor::create([
+    'bujkkontraktorsub_id' => 1, // Ganti dengan ID yang sesuai
+    'asosiasimasjaki_id' => 1, // Ganti dengan ID yang sesuai
+    'namalengkap' => 'Mandra Kanta Unggul',
+    'alamat' => 'Desa Tawangrejo 003/005 Kunduran Kab. Blora Jawa Tengah',
+    'no_telepon' => '82324908547',
+    'email' => 'mandrakantaunggul@gmail.com',
+    'nib' => '0208220001109',
+    'pju' => 'WINARSIH',
+    'no_akte' => '25',
+    'tanggal' => '2024-07-21',
+    'nama_notaris' => 'DIAH TRIMURTI SALEH S.E., S.H., M.KN',
+    'no_pengesahan' => ' AHU-0049177-AH.01.14'
+]);
+bujkkontraktor::create([
+    'bujkkontraktorsub_id' => 1, // Ganti dengan ID yang sesuai
+    'asosiasimasjaki_id' => 1, // Ganti dengan ID yang sesuai
+    'namalengkap' => 'Mandra Kanta Unggul',
+    'alamat' => 'Desa Tawangrejo 003/005 Kunduran Kab. Blora Jawa Tengah',
+    'no_telepon' => '82324908547',
+    'email' => 'mandrakantaunggul@gmail.com',
+    'nib' => '0208220001109',
+    'pju' => 'WINARSIH',
+    'no_akte' => '25',
+    'tanggal' => '2024-07-21',
+    'nama_notaris' => 'DIAH TRIMURTI SALEH S.E., S.H., M.KN',
+    'no_pengesahan' => ' AHU-0049177-AH.01.14'
+]);
+bujkkontraktor::create([
+    'bujkkontraktorsub_id' => 1, // Ganti dengan ID yang sesuai
+    'asosiasimasjaki_id' => 1, // Ganti dengan ID yang sesuai
+    'namalengkap' => 'Mandra Kanta Unggul',
+    'alamat' => 'Desa Tawangrejo 003/005 Kunduran Kab. Blora Jawa Tengah',
+    'no_telepon' => '82324908547',
+    'email' => 'mandrakantaunggul@gmail.com',
+    'nib' => '0208220001109',
+    'pju' => 'WINARSIH',
+    'no_akte' => '25',
+    'tanggal' => '2024-07-21',
+    'nama_notaris' => 'DIAH TRIMURTI SALEH S.E., S.H., M.KN',
+    'no_pengesahan' => ' AHU-0049177-AH.01.14'
+]);
+bujkkontraktor::create([
+    'bujkkontraktorsub_id' => 1, // Ganti dengan ID yang sesuai
+    'asosiasimasjaki_id' => 1, // Ganti dengan ID yang sesuai
+    'namalengkap' => 'Mandra Kanta Unggul',
+    'alamat' => 'Desa Tawangrejo 003/005 Kunduran Kab. Blora Jawa Tengah',
+    'no_telepon' => '82324908547',
+    'email' => 'mandrakantaunggul@gmail.com',
+    'nib' => '0208220001109',
+    'pju' => 'WINARSIH',
+    'no_akte' => '25',
+    'tanggal' => '2024-07-21',
+    'nama_notaris' => 'DIAH TRIMURTI SALEH S.E., S.H., M.KN',
+    'no_pengesahan' => ' AHU-0049177-AH.01.14'
+]);
+bujkkontraktor::create([
+    'bujkkontraktorsub_id' => 1, // Ganti dengan ID yang sesuai
+    'asosiasimasjaki_id' => 1, // Ganti dengan ID yang sesuai
+    'namalengkap' => 'Mandra Kanta Unggul',
+    'alamat' => 'Desa Tawangrejo 003/005 Kunduran Kab. Blora Jawa Tengah',
+    'no_telepon' => '82324908547',
+    'email' => 'mandrakantaunggul@gmail.com',
+    'nib' => '0208220001109',
+    'pju' => 'WINARSIH',
+    'no_akte' => '25',
+    'tanggal' => '2024-07-21',
+    'nama_notaris' => 'DIAH TRIMURTI SALEH S.E., S.H., M.KN',
+    'no_pengesahan' => ' AHU-0049177-AH.01.14'
+]);
+bujkkontraktor::create([
+    'bujkkontraktorsub_id' => 1, // Ganti dengan ID yang sesuai
+    'asosiasimasjaki_id' => 1, // Ganti dengan ID yang sesuai
+    'namalengkap' => 'Mandra Kanta Unggul',
+    'alamat' => 'Desa Tawangrejo 003/005 Kunduran Kab. Blora Jawa Tengah',
+    'no_telepon' => '82324908547',
+    'email' => 'mandrakantaunggul@gmail.com',
+    'nib' => '0208220001109',
+    'pju' => 'WINARSIH',
+    'no_akte' => '25',
+    'tanggal' => '2024-07-21',
+    'nama_notaris' => 'DIAH TRIMURTI SALEH S.E., S.H., M.KN',
+    'no_pengesahan' => ' AHU-0049177-AH.01.14'
+]);
+bujkkontraktor::create([
+    'bujkkontraktorsub_id' => 1, // Ganti dengan ID yang sesuai
+    'asosiasimasjaki_id' => 1, // Ganti dengan ID yang sesuai
+    'namalengkap' => 'Mandra Kanta Unggul',
+    'alamat' => 'Desa Tawangrejo 003/005 Kunduran Kab. Blora Jawa Tengah',
+    'no_telepon' => '82324908547',
+    'email' => 'mandrakantaunggul@gmail.com',
+    'nib' => '0208220001109',
+    'pju' => 'WINARSIH',
+    'no_akte' => '25',
+    'tanggal' => '2024-07-21',
+    'nama_notaris' => 'DIAH TRIMURTI SALEH S.E., S.H., M.KN',
+    'no_pengesahan' => ' AHU-0049177-AH.01.14'
+]);
+bujkkontraktor::create([
+    'bujkkontraktorsub_id' => 1, // Ganti dengan ID yang sesuai
+    'asosiasimasjaki_id' => 1, // Ganti dengan ID yang sesuai
+    'namalengkap' => 'Mandra Kanta Unggul',
+    'alamat' => 'Desa Tawangrejo 003/005 Kunduran Kab. Blora Jawa Tengah',
+    'no_telepon' => '82324908547',
+    'email' => 'mandrakantaunggul@gmail.com',
+    'nib' => '0208220001109',
+    'pju' => 'WINARSIH',
+    'no_akte' => '25',
+    'tanggal' => '2024-07-21',
+    'nama_notaris' => 'DIAH TRIMURTI SALEH S.E., S.H., M.KN',
+    'no_pengesahan' => ' AHU-0049177-AH.01.14'
+]);
+bujkkontraktor::create([
+    'bujkkontraktorsub_id' => 1, // Ganti dengan ID yang sesuai
+    'asosiasimasjaki_id' => 1, // Ganti dengan ID yang sesuai
+    'namalengkap' => 'Mandra Kanta Unggul',
+    'alamat' => 'Desa Tawangrejo 003/005 Kunduran Kab. Blora Jawa Tengah',
+    'no_telepon' => '82324908547',
+    'email' => 'mandrakantaunggul@gmail.com',
+    'nib' => '0208220001109',
+    'pju' => 'WINARSIH',
+    'no_akte' => '25',
+    'tanggal' => '2024-07-21',
+    'nama_notaris' => 'DIAH TRIMURTI SALEH S.E., S.H., M.KN',
+    'no_pengesahan' => ' AHU-0049177-AH.01.14'
+]);
+bujkkontraktor::create([
+    'bujkkontraktorsub_id' => 1, // Ganti dengan ID yang sesuai
+    'asosiasimasjaki_id' => 1, // Ganti dengan ID yang sesuai
+    'namalengkap' => 'Mandra Kanta Unggul',
+    'alamat' => 'Desa Tawangrejo 003/005 Kunduran Kab. Blora Jawa Tengah',
+    'no_telepon' => '82324908547',
+    'email' => 'mandrakantaunggul@gmail.com',
+    'nib' => '0208220001109',
+    'pju' => 'WINARSIH',
+    'no_akte' => '25',
+    'tanggal' => '2024-07-21',
+    'nama_notaris' => 'DIAH TRIMURTI SALEH S.E., S.H., M.KN',
+    'no_pengesahan' => ' AHU-0049177-AH.01.14'
+]);
+bujkkontraktor::create([
+    'bujkkontraktorsub_id' => 1, // Ganti dengan ID yang sesuai
+    'asosiasimasjaki_id' => 1, // Ganti dengan ID yang sesuai
+    'namalengkap' => 'Mandra Kanta Unggul',
+    'alamat' => 'Desa Tawangrejo 003/005 Kunduran Kab. Blora Jawa Tengah',
+    'no_telepon' => '82324908547',
+    'email' => 'mandrakantaunggul@gmail.com',
+    'nib' => '0208220001109',
+    'pju' => 'WINARSIH',
+    'no_akte' => '25',
+    'tanggal' => '2024-07-21',
+    'nama_notaris' => 'DIAH TRIMURTI SALEH S.E., S.H., M.KN',
+    'no_pengesahan' => ' AHU-0049177-AH.01.14'
+]);
+bujkkontraktor::create([
+    'bujkkontraktorsub_id' => 1, // Ganti dengan ID yang sesuai
+    'asosiasimasjaki_id' => 1, // Ganti dengan ID yang sesuai
+    'namalengkap' => 'Mandra Kanta Unggul',
+    'alamat' => 'Desa Tawangrejo 003/005 Kunduran Kab. Blora Jawa Tengah',
+    'no_telepon' => '82324908547',
+    'email' => 'mandrakantaunggul@gmail.com',
+    'nib' => '0208220001109',
+    'pju' => 'WINARSIH',
+    'no_akte' => '25',
+    'tanggal' => '2024-07-21',
+    'nama_notaris' => 'DIAH TRIMURTI SALEH S.E., S.H., M.KN',
+    'no_pengesahan' => ' AHU-0049177-AH.01.14'
+]);
+bujkkontraktor::create([
+    'bujkkontraktorsub_id' => 1, // Ganti dengan ID yang sesuai
+    'asosiasimasjaki_id' => 1, // Ganti dengan ID yang sesuai
+    'namalengkap' => 'Mandra Kanta Unggul',
+    'alamat' => 'Desa Tawangrejo 003/005 Kunduran Kab. Blora Jawa Tengah',
+    'no_telepon' => '82324908547',
+    'email' => 'mandrakantaunggul@gmail.com',
+    'nib' => '0208220001109',
+    'pju' => 'WINARSIH',
+    'no_akte' => '25',
+    'tanggal' => '2024-07-21',
+    'nama_notaris' => 'DIAH TRIMURTI SALEH S.E., S.H., M.KN',
+    'no_pengesahan' => ' AHU-0049177-AH.01.14'
+]);
+bujkkontraktor::create([
+    'bujkkontraktorsub_id' => 1, // Ganti dengan ID yang sesuai
+    'asosiasimasjaki_id' => 1, // Ganti dengan ID yang sesuai
+    'namalengkap' => 'Mandra Kanta Unggul',
+    'alamat' => 'Desa Tawangrejo 003/005 Kunduran Kab. Blora Jawa Tengah',
+    'no_telepon' => '82324908547',
+    'email' => 'mandrakantaunggul@gmail.com',
+    'nib' => '0208220001109',
+    'pju' => 'WINARSIH',
+    'no_akte' => '25',
+    'tanggal' => '2024-07-21',
+    'nama_notaris' => 'DIAH TRIMURTI SALEH S.E., S.H., M.KN',
+    'no_pengesahan' => ' AHU-0049177-AH.01.14'
+]);
+bujkkontraktor::create([
+    'bujkkontraktorsub_id' => 1, // Ganti dengan ID yang sesuai
+    'asosiasimasjaki_id' => 1, // Ganti dengan ID yang sesuai
+    'namalengkap' => 'Mandra Kanta Unggul',
+    'alamat' => 'Desa Tawangrejo 003/005 Kunduran Kab. Blora Jawa Tengah',
+    'no_telepon' => '82324908547',
+    'email' => 'mandrakantaunggul@gmail.com',
+    'nib' => '0208220001109',
+    'pju' => 'WINARSIH',
+    'no_akte' => '25',
+    'tanggal' => '2024-07-21',
+    'nama_notaris' => 'DIAH TRIMURTI SALEH S.E., S.H., M.KN',
+    'no_pengesahan' => ' AHU-0049177-AH.01.14'
+]);
+bujkkontraktor::create([
+    'bujkkontraktorsub_id' => 1, // Ganti dengan ID yang sesuai
+    'asosiasimasjaki_id' => 1, // Ganti dengan ID yang sesuai
+    'namalengkap' => 'Mandra Kanta Unggul',
+    'alamat' => 'Desa Tawangrejo 003/005 Kunduran Kab. Blora Jawa Tengah',
+    'no_telepon' => '82324908547',
+    'email' => 'mandrakantaunggul@gmail.com',
+    'nib' => '0208220001109',
+    'pju' => 'WINARSIH',
+    'no_akte' => '25',
+    'tanggal' => '2024-07-21',
+    'nama_notaris' => 'DIAH TRIMURTI SALEH S.E., S.H., M.KN',
+    'no_pengesahan' => ' AHU-0049177-AH.01.14'
+]);
+bujkkontraktor::create([
+    'bujkkontraktorsub_id' => 1, // Ganti dengan ID yang sesuai
+    'asosiasimasjaki_id' => 1, // Ganti dengan ID yang sesuai
+    'namalengkap' => 'Mandra Kanta Unggul',
+    'alamat' => 'Desa Tawangrejo 003/005 Kunduran Kab. Blora Jawa Tengah',
+    'no_telepon' => '82324908547',
+    'email' => 'mandrakantaunggul@gmail.com',
+    'nib' => '0208220001109',
+    'pju' => 'WINARSIH',
+    'no_akte' => '25',
+    'tanggal' => '2024-07-21',
+    'nama_notaris' => 'DIAH TRIMURTI SALEH S.E., S.H., M.KN',
+    'no_pengesahan' => ' AHU-0049177-AH.01.14'
+]);
+bujkkontraktor::create([
+    'bujkkontraktorsub_id' => 1, // Ganti dengan ID yang sesuai
+    'asosiasimasjaki_id' => 1, // Ganti dengan ID yang sesuai
+    'namalengkap' => 'Mandra Kanta Unggul',
+    'alamat' => 'Desa Tawangrejo 003/005 Kunduran Kab. Blora Jawa Tengah',
+    'no_telepon' => '82324908547',
+    'email' => 'mandrakantaunggul@gmail.com',
+    'nib' => '0208220001109',
+    'pju' => 'WINARSIH',
+    'no_akte' => '25',
+    'tanggal' => '2024-07-21',
+    'nama_notaris' => 'DIAH TRIMURTI SALEH S.E., S.H., M.KN',
+    'no_pengesahan' => ' AHU-0049177-AH.01.14'
+]);
+bujkkontraktor::create([
+    'bujkkontraktorsub_id' => 1, // Ganti dengan ID yang sesuai
+    'asosiasimasjaki_id' => 1, // Ganti dengan ID yang sesuai
+    'namalengkap' => 'Mandra Kanta Unggul',
+    'alamat' => 'Desa Tawangrejo 003/005 Kunduran Kab. Blora Jawa Tengah',
+    'no_telepon' => '82324908547',
+    'email' => 'mandrakantaunggul@gmail.com',
+    'nib' => '0208220001109',
+    'pju' => 'WINARSIH',
+    'no_akte' => '25',
+    'tanggal' => '2024-07-21',
+    'nama_notaris' => 'DIAH TRIMURTI SALEH S.E., S.H., M.KN',
+    'no_pengesahan' => ' AHU-0049177-AH.01.14'
+]);
+bujkkontraktor::create([
+    'bujkkontraktorsub_id' => 1, // Ganti dengan ID yang sesuai
+    'asosiasimasjaki_id' => 1, // Ganti dengan ID yang sesuai
+    'namalengkap' => 'Mandra Kanta Unggul',
+    'alamat' => 'Desa Tawangrejo 003/005 Kunduran Kab. Blora Jawa Tengah',
+    'no_telepon' => '82324908547',
+    'email' => 'mandrakantaunggul@gmail.com',
+    'nib' => '0208220001109',
+    'pju' => 'WINARSIH',
+    'no_akte' => '25',
+    'tanggal' => '2024-07-21',
+    'nama_notaris' => 'DIAH TRIMURTI SALEH S.E., S.H., M.KN',
+    'no_pengesahan' => ' AHU-0049177-AH.01.14'
+]);
+bujkkontraktor::create([
+    'bujkkontraktorsub_id' => 1, // Ganti dengan ID yang sesuai
+    'asosiasimasjaki_id' => 1, // Ganti dengan ID yang sesuai
+    'namalengkap' => 'Mandra Kanta Unggul',
+    'alamat' => 'Desa Tawangrejo 003/005 Kunduran Kab. Blora Jawa Tengah',
+    'no_telepon' => '82324908547',
+    'email' => 'mandrakantaunggul@gmail.com',
+    'nib' => '0208220001109',
+    'pju' => 'WINARSIH',
+    'no_akte' => '25',
+    'tanggal' => '2024-07-21',
+    'nama_notaris' => 'DIAH TRIMURTI SALEH S.E., S.H., M.KN',
+    'no_pengesahan' => ' AHU-0049177-AH.01.14'
+]);
+bujkkontraktor::create([
+    'bujkkontraktorsub_id' => 1, // Ganti dengan ID yang sesuai
+    'asosiasimasjaki_id' => 1, // Ganti dengan ID yang sesuai
+    'namalengkap' => 'Mandra Kanta Unggul',
+    'alamat' => 'Desa Tawangrejo 003/005 Kunduran Kab. Blora Jawa Tengah',
+    'no_telepon' => '82324908547',
+    'email' => 'mandrakantaunggul@gmail.com',
+    'nib' => '0208220001109',
+    'pju' => 'WINARSIH',
+    'no_akte' => '25',
+    'tanggal' => '2024-07-21',
+    'nama_notaris' => 'DIAH TRIMURTI SALEH S.E., S.H., M.KN',
+    'no_pengesahan' => ' AHU-0049177-AH.01.14'
+]);
+bujkkontraktor::create([
+    'bujkkontraktorsub_id' => 1, // Ganti dengan ID yang sesuai
+    'asosiasimasjaki_id' => 1, // Ganti dengan ID yang sesuai
+    'namalengkap' => 'Mandra Kanta Unggul',
+    'alamat' => 'Desa Tawangrejo 003/005 Kunduran Kab. Blora Jawa Tengah',
+    'no_telepon' => '82324908547',
+    'email' => 'mandrakantaunggul@gmail.com',
+    'nib' => '0208220001109',
+    'pju' => 'WINARSIH',
+    'no_akte' => '25',
+    'tanggal' => '2024-07-21',
+    'nama_notaris' => 'DIAH TRIMURTI SALEH S.E., S.H., M.KN',
+    'no_pengesahan' => ' AHU-0049177-AH.01.14'
+]);
+bujkkontraktor::create([
+    'bujkkontraktorsub_id' => 1, // Ganti dengan ID yang sesuai
+    'asosiasimasjaki_id' => 1, // Ganti dengan ID yang sesuai
+    'namalengkap' => 'Mandra Kanta Unggul',
+    'alamat' => 'Desa Tawangrejo 003/005 Kunduran Kab. Blora Jawa Tengah',
+    'no_telepon' => '82324908547',
+    'email' => 'mandrakantaunggul@gmail.com',
+    'nib' => '0208220001109',
+    'pju' => 'WINARSIH',
+    'no_akte' => '25',
+    'tanggal' => '2024-07-21',
+    'nama_notaris' => 'DIAH TRIMURTI SALEH S.E., S.H., M.KN',
+    'no_pengesahan' => ' AHU-0049177-AH.01.14'
+]);
+bujkkontraktor::create([
+    'bujkkontraktorsub_id' => 1, // Ganti dengan ID yang sesuai
+    'asosiasimasjaki_id' => 1, // Ganti dengan ID yang sesuai
+    'namalengkap' => 'Mandra Kanta Unggul',
+    'alamat' => 'Desa Tawangrejo 003/005 Kunduran Kab. Blora Jawa Tengah',
+    'no_telepon' => '82324908547',
+    'email' => 'mandrakantaunggul@gmail.com',
+    'nib' => '0208220001109',
+    'pju' => 'WINARSIH',
+    'no_akte' => '25',
+    'tanggal' => '2024-07-21',
+    'nama_notaris' => 'DIAH TRIMURTI SALEH S.E., S.H., M.KN',
+    'no_pengesahan' => ' AHU-0049177-AH.01.14'
+]);
+bujkkontraktor::create([
+    'bujkkontraktorsub_id' => 1, // Ganti dengan ID yang sesuai
+    'asosiasimasjaki_id' => 1, // Ganti dengan ID yang sesuai
+    'namalengkap' => 'Mandra Kanta Unggul',
+    'alamat' => 'Desa Tawangrejo 003/005 Kunduran Kab. Blora Jawa Tengah',
+    'no_telepon' => '82324908547',
+    'email' => 'mandrakantaunggul@gmail.com',
+    'nib' => '0208220001109',
+    'pju' => 'WINARSIH',
+    'no_akte' => '25',
+    'tanggal' => '2024-07-21',
+    'nama_notaris' => 'DIAH TRIMURTI SALEH S.E., S.H., M.KN',
+    'no_pengesahan' => ' AHU-0049177-AH.01.14'
+]);
+bujkkontraktor::create([
+    'bujkkontraktorsub_id' => 1, // Ganti dengan ID yang sesuai
+    'asosiasimasjaki_id' => 1, // Ganti dengan ID yang sesuai
+    'namalengkap' => 'Mandra Kanta Unggul',
+    'alamat' => 'Desa Tawangrejo 003/005 Kunduran Kab. Blora Jawa Tengah',
+    'no_telepon' => '82324908547',
+    'email' => 'mandrakantaunggul@gmail.com',
+    'nib' => '0208220001109',
+    'pju' => 'WINARSIH',
+    'no_akte' => '25',
+    'tanggal' => '2024-07-21',
+    'nama_notaris' => 'DIAH TRIMURTI SALEH S.E., S.H., M.KN',
+    'no_pengesahan' => ' AHU-0049177-AH.01.14'
+]);
+bujkkontraktor::create([
+    'bujkkontraktorsub_id' => 1, // Ganti dengan ID yang sesuai
+    'asosiasimasjaki_id' => 1, // Ganti dengan ID yang sesuai
+    'namalengkap' => 'Mandra Kanta Unggul',
+    'alamat' => 'Desa Tawangrejo 003/005 Kunduran Kab. Blora Jawa Tengah',
+    'no_telepon' => '82324908547',
+    'email' => 'mandrakantaunggul@gmail.com',
+    'nib' => '0208220001109',
+    'pju' => 'WINARSIH',
+    'no_akte' => '25',
+    'tanggal' => '2024-07-21',
+    'nama_notaris' => 'DIAH TRIMURTI SALEH S.E., S.H., M.KN',
+    'no_pengesahan' => ' AHU-0049177-AH.01.14'
+]);
+bujkkontraktor::create([
+    'bujkkontraktorsub_id' => 1, // Ganti dengan ID yang sesuai
+    'asosiasimasjaki_id' => 1, // Ganti dengan ID yang sesuai
+    'namalengkap' => 'Mandra Kanta Unggul',
+    'alamat' => 'Desa Tawangrejo 003/005 Kunduran Kab. Blora Jawa Tengah',
+    'no_telepon' => '82324908547',
+    'email' => 'mandrakantaunggul@gmail.com',
+    'nib' => '0208220001109',
+    'pju' => 'WINARSIH',
+    'no_akte' => '25',
+    'tanggal' => '2024-07-21',
+    'nama_notaris' => 'DIAH TRIMURTI SALEH S.E., S.H., M.KN',
+    'no_pengesahan' => ' AHU-0049177-AH.01.14'
+]);
+bujkkontraktor::create([
+    'bujkkontraktorsub_id' => 1, // Ganti dengan ID yang sesuai
+    'asosiasimasjaki_id' => 1, // Ganti dengan ID yang sesuai
+    'namalengkap' => 'Mandra Kanta Unggul',
+    'alamat' => 'Desa Tawangrejo 003/005 Kunduran Kab. Blora Jawa Tengah',
+    'no_telepon' => '82324908547',
+    'email' => 'mandrakantaunggul@gmail.com',
+    'nib' => '0208220001109',
+    'pju' => 'WINARSIH',
+    'no_akte' => '25',
+    'tanggal' => '2024-07-21',
+    'nama_notaris' => 'DIAH TRIMURTI SALEH S.E., S.H., M.KN',
+    'no_pengesahan' => ' AHU-0049177-AH.01.14'
+]);
+bujkkontraktor::create([
+    'bujkkontraktorsub_id' => 1, // Ganti dengan ID yang sesuai
+    'asosiasimasjaki_id' => 1, // Ganti dengan ID yang sesuai
+    'namalengkap' => 'Mandra Kanta Unggul',
+    'alamat' => 'Desa Tawangrejo 003/005 Kunduran Kab. Blora Jawa Tengah',
+    'no_telepon' => '82324908547',
+    'email' => 'mandrakantaunggul@gmail.com',
+    'nib' => '0208220001109',
+    'pju' => 'WINARSIH',
+    'no_akte' => '25',
+    'tanggal' => '2024-07-21',
+    'nama_notaris' => 'DIAH TRIMURTI SALEH S.E., S.H., M.KN',
+    'no_pengesahan' => ' AHU-0049177-AH.01.14'
+]);
+bujkkontraktor::create([
+    'bujkkontraktorsub_id' => 1, // Ganti dengan ID yang sesuai
+    'asosiasimasjaki_id' => 1, // Ganti dengan ID yang sesuai
+    'namalengkap' => 'Mandra Kanta Unggul',
+    'alamat' => 'Desa Tawangrejo 003/005 Kunduran Kab. Blora Jawa Tengah',
+    'no_telepon' => '82324908547',
+    'email' => 'mandrakantaunggul@gmail.com',
+    'nib' => '0208220001109',
+    'pju' => 'WINARSIH',
+    'no_akte' => '25',
+    'tanggal' => '2024-07-21',
+    'nama_notaris' => 'DIAH TRIMURTI SALEH S.E., S.H., M.KN',
+    'no_pengesahan' => ' AHU-0049177-AH.01.14'
+]);
+bujkkontraktor::create([
+    'bujkkontraktorsub_id' => 1, // Ganti dengan ID yang sesuai
+    'asosiasimasjaki_id' => 1, // Ganti dengan ID yang sesuai
+    'namalengkap' => 'Mandra Kanta Unggul',
+    'alamat' => 'Desa Tawangrejo 003/005 Kunduran Kab. Blora Jawa Tengah',
+    'no_telepon' => '82324908547',
+    'email' => 'mandrakantaunggul@gmail.com',
+    'nib' => '0208220001109',
+    'pju' => 'WINARSIH',
+    'no_akte' => '25',
+    'tanggal' => '2024-07-21',
+    'nama_notaris' => 'DIAH TRIMURTI SALEH S.E., S.H., M.KN',
+    'no_pengesahan' => ' AHU-0049177-AH.01.14'
+]);
+bujkkontraktor::create([
+    'bujkkontraktorsub_id' => 1, // Ganti dengan ID yang sesuai
+    'asosiasimasjaki_id' => 1, // Ganti dengan ID yang sesuai
+    'namalengkap' => 'Mandra Kanta Unggul',
+    'alamat' => 'Desa Tawangrejo 003/005 Kunduran Kab. Blora Jawa Tengah',
+    'no_telepon' => '82324908547',
+    'email' => 'mandrakantaunggul@gmail.com',
+    'nib' => '0208220001109',
+    'pju' => 'WINARSIH',
+    'no_akte' => '25',
+    'tanggal' => '2024-07-21',
+    'nama_notaris' => 'DIAH TRIMURTI SALEH S.E., S.H., M.KN',
+    'no_pengesahan' => ' AHU-0049177-AH.01.14'
+]);
+bujkkontraktor::create([
+    'bujkkontraktorsub_id' => 1, // Ganti dengan ID yang sesuai
+    'asosiasimasjaki_id' => 1, // Ganti dengan ID yang sesuai
+    'namalengkap' => 'Mandra Kanta Unggul',
+    'alamat' => 'Desa Tawangrejo 003/005 Kunduran Kab. Blora Jawa Tengah',
+    'no_telepon' => '82324908547',
+    'email' => 'mandrakantaunggul@gmail.com',
+    'nib' => '0208220001109',
+    'pju' => 'WINARSIH',
+    'no_akte' => '25',
+    'tanggal' => '2024-07-21',
+    'nama_notaris' => 'DIAH TRIMURTI SALEH S.E., S.H., M.KN',
+    'no_pengesahan' => ' AHU-0049177-AH.01.14'
+]);
+bujkkontraktor::create([
+    'bujkkontraktorsub_id' => 1, // Ganti dengan ID yang sesuai
+    'asosiasimasjaki_id' => 1, // Ganti dengan ID yang sesuai
+    'namalengkap' => 'Mandra Kanta Unggul',
+    'alamat' => 'Desa Tawangrejo 003/005 Kunduran Kab. Blora Jawa Tengah',
+    'no_telepon' => '82324908547',
+    'email' => 'mandrakantaunggul@gmail.com',
+    'nib' => '0208220001109',
+    'pju' => 'WINARSIH',
+    'no_akte' => '25',
+    'tanggal' => '2024-07-21',
+    'nama_notaris' => 'DIAH TRIMURTI SALEH S.E., S.H., M.KN',
+    'no_pengesahan' => ' AHU-0049177-AH.01.14'
+]);
+bujkkontraktor::create([
+    'bujkkontraktorsub_id' => 1, // Ganti dengan ID yang sesuai
+    'asosiasimasjaki_id' => 1, // Ganti dengan ID yang sesuai
+    'namalengkap' => 'Mandra Kanta Unggul',
+    'alamat' => 'Desa Tawangrejo 003/005 Kunduran Kab. Blora Jawa Tengah',
+    'no_telepon' => '82324908547',
+    'email' => 'mandrakantaunggul@gmail.com',
+    'nib' => '0208220001109',
+    'pju' => 'WINARSIH',
+    'no_akte' => '25',
+    'tanggal' => '2024-07-21',
+    'nama_notaris' => 'DIAH TRIMURTI SALEH S.E., S.H., M.KN',
+    'no_pengesahan' => ' AHU-0049177-AH.01.14'
+]);
+bujkkontraktor::create([
+    'bujkkontraktorsub_id' => 1, // Ganti dengan ID yang sesuai
+    'asosiasimasjaki_id' => 1, // Ganti dengan ID yang sesuai
+    'namalengkap' => 'Mandra Kanta Unggul',
+    'alamat' => 'Desa Tawangrejo 003/005 Kunduran Kab. Blora Jawa Tengah',
+    'no_telepon' => '82324908547',
+    'email' => 'mandrakantaunggul@gmail.com',
+    'nib' => '0208220001109',
+    'pju' => 'WINARSIH',
+    'no_akte' => '25',
+    'tanggal' => '2024-07-21',
+    'nama_notaris' => 'DIAH TRIMURTI SALEH S.E., S.H., M.KN',
+    'no_pengesahan' => ' AHU-0049177-AH.01.14'
+]);
+bujkkontraktor::create([
+    'bujkkontraktorsub_id' => 1, // Ganti dengan ID yang sesuai
+    'asosiasimasjaki_id' => 1, // Ganti dengan ID yang sesuai
+    'namalengkap' => 'Mandra Kanta Unggul',
+    'alamat' => 'Desa Tawangrejo 003/005 Kunduran Kab. Blora Jawa Tengah',
+    'no_telepon' => '82324908547',
+    'email' => 'mandrakantaunggul@gmail.com',
+    'nib' => '0208220001109',
+    'pju' => 'WINARSIH',
+    'no_akte' => '25',
+    'tanggal' => '2024-07-21',
+    'nama_notaris' => 'DIAH TRIMURTI SALEH S.E., S.H., M.KN',
+    'no_pengesahan' => ' AHU-0049177-AH.01.14'
+]);
+bujkkontraktor::create([
+    'bujkkontraktorsub_id' => 1, // Ganti dengan ID yang sesuai
+    'asosiasimasjaki_id' => 1, // Ganti dengan ID yang sesuai
+    'namalengkap' => 'Mandra Kanta Unggul',
+    'alamat' => 'Desa Tawangrejo 003/005 Kunduran Kab. Blora Jawa Tengah',
+    'no_telepon' => '82324908547',
+    'email' => 'mandrakantaunggul@gmail.com',
+    'nib' => '0208220001109',
+    'pju' => 'WINARSIH',
+    'no_akte' => '25',
+    'tanggal' => '2024-07-21',
+    'nama_notaris' => 'DIAH TRIMURTI SALEH S.E., S.H., M.KN',
+    'no_pengesahan' => ' AHU-0049177-AH.01.14'
+]);
+bujkkontraktor::create([
+    'bujkkontraktorsub_id' => 1, // Ganti dengan ID yang sesuai
+    'asosiasimasjaki_id' => 1, // Ganti dengan ID yang sesuai
+    'namalengkap' => 'Mandra Kanta Unggul',
+    'alamat' => 'Desa Tawangrejo 003/005 Kunduran Kab. Blora Jawa Tengah',
+    'no_telepon' => '82324908547',
+    'email' => 'mandrakantaunggul@gmail.com',
+    'nib' => '0208220001109',
+    'pju' => 'WINARSIH',
+    'no_akte' => '25',
+    'tanggal' => '2024-07-21',
+    'nama_notaris' => 'DIAH TRIMURTI SALEH S.E., S.H., M.KN',
+    'no_pengesahan' => ' AHU-0049177-AH.01.14'
+]);
+bujkkontraktor::create([
+    'bujkkontraktorsub_id' => 1, // Ganti dengan ID yang sesuai
+    'asosiasimasjaki_id' => 1, // Ganti dengan ID yang sesuai
+    'namalengkap' => 'Mandra Kanta Unggul',
+    'alamat' => 'Desa Tawangrejo 003/005 Kunduran Kab. Blora Jawa Tengah',
+    'no_telepon' => '82324908547',
+    'email' => 'mandrakantaunggul@gmail.com',
+    'nib' => '0208220001109',
+    'pju' => 'WINARSIH',
+    'no_akte' => '25',
+    'tanggal' => '2024-07-21',
+    'nama_notaris' => 'DIAH TRIMURTI SALEH S.E., S.H., M.KN',
+    'no_pengesahan' => ' AHU-0049177-AH.01.14'
+]);
+bujkkontraktor::create([
+    'bujkkontraktorsub_id' => 1, // Ganti dengan ID yang sesuai
+    'asosiasimasjaki_id' => 1, // Ganti dengan ID yang sesuai
+    'namalengkap' => 'Mandra Kanta Unggul',
+    'alamat' => 'Desa Tawangrejo 003/005 Kunduran Kab. Blora Jawa Tengah',
+    'no_telepon' => '82324908547',
+    'email' => 'mandrakantaunggul@gmail.com',
+    'nib' => '0208220001109',
+    'pju' => 'WINARSIH',
+    'no_akte' => '25',
+    'tanggal' => '2024-07-21',
+    'nama_notaris' => 'DIAH TRIMURTI SALEH S.E., S.H., M.KN',
+    'no_pengesahan' => ' AHU-0049177-AH.01.14'
+]);
+bujkkontraktor::create([
+    'bujkkontraktorsub_id' => 1, // Ganti dengan ID yang sesuai
+    'asosiasimasjaki_id' => 1, // Ganti dengan ID yang sesuai
+    'namalengkap' => 'Mandra Kanta Unggul',
+    'alamat' => 'Desa Tawangrejo 003/005 Kunduran Kab. Blora Jawa Tengah',
+    'no_telepon' => '82324908547',
+    'email' => 'mandrakantaunggul@gmail.com',
+    'nib' => '0208220001109',
+    'pju' => 'WINARSIH',
+    'no_akte' => '25',
+    'tanggal' => '2024-07-21',
+    'nama_notaris' => 'DIAH TRIMURTI SALEH S.E., S.H., M.KN',
+    'no_pengesahan' => ' AHU-0049177-AH.01.14'
+]);
+bujkkontraktor::create([
+    'bujkkontraktorsub_id' => 1, // Ganti dengan ID yang sesuai
+    'asosiasimasjaki_id' => 1, // Ganti dengan ID yang sesuai
+    'namalengkap' => 'Mandra Kanta Unggul',
+    'alamat' => 'Desa Tawangrejo 003/005 Kunduran Kab. Blora Jawa Tengah',
+    'no_telepon' => '82324908547',
+    'email' => 'mandrakantaunggul@gmail.com',
+    'nib' => '0208220001109',
+    'pju' => 'WINARSIH',
+    'no_akte' => '25',
+    'tanggal' => '2024-07-21',
+    'nama_notaris' => 'DIAH TRIMURTI SALEH S.E., S.H., M.KN',
+    'no_pengesahan' => ' AHU-0049177-AH.01.14'
+]);
+bujkkontraktor::create([
+    'bujkkontraktorsub_id' => 1, // Ganti dengan ID yang sesuai
+    'asosiasimasjaki_id' => 1, // Ganti dengan ID yang sesuai
+    'namalengkap' => 'Mandra Kanta Unggul',
+    'alamat' => 'Desa Tawangrejo 003/005 Kunduran Kab. Blora Jawa Tengah',
+    'no_telepon' => '82324908547',
+    'email' => 'mandrakantaunggul@gmail.com',
+    'nib' => '0208220001109',
+    'pju' => 'WINARSIH',
+    'no_akte' => '25',
+    'tanggal' => '2024-07-21',
+    'nama_notaris' => 'DIAH TRIMURTI SALEH S.E., S.H., M.KN',
+    'no_pengesahan' => ' AHU-0049177-AH.01.14'
+]);
+bujkkontraktor::create([
+    'bujkkontraktorsub_id' => 1, // Ganti dengan ID yang sesuai
+    'asosiasimasjaki_id' => 1, // Ganti dengan ID yang sesuai
+    'namalengkap' => 'Mandra Kanta Unggul',
+    'alamat' => 'Desa Tawangrejo 003/005 Kunduran Kab. Blora Jawa Tengah',
+    'no_telepon' => '82324908547',
+    'email' => 'mandrakantaunggul@gmail.com',
+    'nib' => '0208220001109',
+    'pju' => 'WINARSIH',
+    'no_akte' => '25',
+    'tanggal' => '2024-07-21',
+    'nama_notaris' => 'DIAH TRIMURTI SALEH S.E., S.H., M.KN',
+    'no_pengesahan' => ' AHU-0049177-AH.01.14'
+]);
+bujkkontraktor::create([
+    'bujkkontraktorsub_id' => 1, // Ganti dengan ID yang sesuai
+    'asosiasimasjaki_id' => 1, // Ganti dengan ID yang sesuai
+    'namalengkap' => 'Mandra Kanta Unggul',
+    'alamat' => 'Desa Tawangrejo 003/005 Kunduran Kab. Blora Jawa Tengah',
+    'no_telepon' => '82324908547',
+    'email' => 'mandrakantaunggul@gmail.com',
+    'nib' => '0208220001109',
+    'pju' => 'WINARSIH',
+    'no_akte' => '25',
+    'tanggal' => '2024-07-21',
+    'nama_notaris' => 'DIAH TRIMURTI SALEH S.E., S.H., M.KN',
+    'no_pengesahan' => ' AHU-0049177-AH.01.14'
+]);
+bujkkontraktor::create([
+    'bujkkontraktorsub_id' => 1, // Ganti dengan ID yang sesuai
+    'asosiasimasjaki_id' => 1, // Ganti dengan ID yang sesuai
+    'namalengkap' => 'Mandra Kanta Unggul',
+    'alamat' => 'Desa Tawangrejo 003/005 Kunduran Kab. Blora Jawa Tengah',
+    'no_telepon' => '82324908547',
+    'email' => 'mandrakantaunggul@gmail.com',
+    'nib' => '0208220001109',
+    'pju' => 'WINARSIH',
+    'no_akte' => '25',
+    'tanggal' => '2024-07-21',
+    'nama_notaris' => 'DIAH TRIMURTI SALEH S.E., S.H., M.KN',
+    'no_pengesahan' => ' AHU-0049177-AH.01.14'
+]);
+bujkkontraktor::create([
+    'bujkkontraktorsub_id' => 1, // Ganti dengan ID yang sesuai
+    'asosiasimasjaki_id' => 1, // Ganti dengan ID yang sesuai
+    'namalengkap' => 'Mandra Kanta Unggul',
+    'alamat' => 'Desa Tawangrejo 003/005 Kunduran Kab. Blora Jawa Tengah',
+    'no_telepon' => '82324908547',
+    'email' => 'mandrakantaunggul@gmail.com',
+    'nib' => '0208220001109',
+    'pju' => 'WINARSIH',
+    'no_akte' => '25',
+    'tanggal' => '2024-07-21',
+    'nama_notaris' => 'DIAH TRIMURTI SALEH S.E., S.H., M.KN',
+    'no_pengesahan' => ' AHU-0049177-AH.01.14'
+]);
+bujkkontraktor::create([
+    'bujkkontraktorsub_id' => 1, // Ganti dengan ID yang sesuai
+    'asosiasimasjaki_id' => 1, // Ganti dengan ID yang sesuai
+    'namalengkap' => 'Mandra Kanta Unggul',
+    'alamat' => 'Desa Tawangrejo 003/005 Kunduran Kab. Blora Jawa Tengah',
+    'no_telepon' => '82324908547',
+    'email' => 'mandrakantaunggul@gmail.com',
+    'nib' => '0208220001109',
+    'pju' => 'WINARSIH',
+    'no_akte' => '25',
+    'tanggal' => '2024-07-21',
+    'nama_notaris' => 'DIAH TRIMURTI SALEH S.E., S.H., M.KN',
+    'no_pengesahan' => ' AHU-0049177-AH.01.14'
+]);
+bujkkontraktor::create([
+    'bujkkontraktorsub_id' => 1, // Ganti dengan ID yang sesuai
+    'asosiasimasjaki_id' => 1, // Ganti dengan ID yang sesuai
+    'namalengkap' => 'Mandra Kanta Unggul',
+    'alamat' => 'Desa Tawangrejo 003/005 Kunduran Kab. Blora Jawa Tengah',
+    'no_telepon' => '82324908547',
+    'email' => 'mandrakantaunggul@gmail.com',
+    'nib' => '0208220001109',
+    'pju' => 'WINARSIH',
+    'no_akte' => '25',
+    'tanggal' => '2024-07-21',
+    'nama_notaris' => 'DIAH TRIMURTI SALEH S.E., S.H., M.KN',
+    'no_pengesahan' => ' AHU-0049177-AH.01.14'
+]);
+bujkkontraktor::create([
+    'bujkkontraktorsub_id' => 1, // Ganti dengan ID yang sesuai
+    'asosiasimasjaki_id' => 1, // Ganti dengan ID yang sesuai
+    'namalengkap' => 'Mandra Kanta Unggul',
+    'alamat' => 'Desa Tawangrejo 003/005 Kunduran Kab. Blora Jawa Tengah',
+    'no_telepon' => '82324908547',
+    'email' => 'mandrakantaunggul@gmail.com',
+    'nib' => '0208220001109',
+    'pju' => 'WINARSIH',
+    'no_akte' => '25',
+    'tanggal' => '2024-07-21',
+    'nama_notaris' => 'DIAH TRIMURTI SALEH S.E., S.H., M.KN',
+    'no_pengesahan' => ' AHU-0049177-AH.01.14'
+]);
+bujkkontraktor::create([
+    'bujkkontraktorsub_id' => 1, // Ganti dengan ID yang sesuai
+    'asosiasimasjaki_id' => 1, // Ganti dengan ID yang sesuai
+    'namalengkap' => 'Mandra Kanta Unggul',
+    'alamat' => 'Desa Tawangrejo 003/005 Kunduran Kab. Blora Jawa Tengah',
+    'no_telepon' => '82324908547',
+    'email' => 'mandrakantaunggul@gmail.com',
+    'nib' => '0208220001109',
+    'pju' => 'WINARSIH',
+    'no_akte' => '25',
+    'tanggal' => '2024-07-21',
+    'nama_notaris' => 'DIAH TRIMURTI SALEH S.E., S.H., M.KN',
+    'no_pengesahan' => ' AHU-0049177-AH.01.14'
+]);
+bujkkontraktor::create([
+    'bujkkontraktorsub_id' => 1, // Ganti dengan ID yang sesuai
+    'asosiasimasjaki_id' => 1, // Ganti dengan ID yang sesuai
+    'namalengkap' => 'Mandra Kanta Unggul',
+    'alamat' => 'Desa Tawangrejo 003/005 Kunduran Kab. Blora Jawa Tengah',
+    'no_telepon' => '82324908547',
+    'email' => 'mandrakantaunggul@gmail.com',
+    'nib' => '0208220001109',
+    'pju' => 'WINARSIH',
+    'no_akte' => '25',
+    'tanggal' => '2024-07-21',
+    'nama_notaris' => 'DIAH TRIMURTI SALEH S.E., S.H., M.KN',
+    'no_pengesahan' => ' AHU-0049177-AH.01.14'
+]);
+bujkkontraktor::create([
+    'bujkkontraktorsub_id' => 1, // Ganti dengan ID yang sesuai
+    'asosiasimasjaki_id' => 1, // Ganti dengan ID yang sesuai
+    'namalengkap' => 'Mandra Kanta Unggul',
+    'alamat' => 'Desa Tawangrejo 003/005 Kunduran Kab. Blora Jawa Tengah',
+    'no_telepon' => '82324908547',
+    'email' => 'mandrakantaunggul@gmail.com',
+    'nib' => '0208220001109',
+    'pju' => 'WINARSIH',
+    'no_akte' => '25',
+    'tanggal' => '2024-07-21',
+    'nama_notaris' => 'DIAH TRIMURTI SALEH S.E., S.H., M.KN',
+    'no_pengesahan' => ' AHU-0049177-AH.01.14'
+]);
+bujkkontraktor::create([
+    'bujkkontraktorsub_id' => 1, // Ganti dengan ID yang sesuai
+    'asosiasimasjaki_id' => 1, // Ganti dengan ID yang sesuai
+    'namalengkap' => 'Mandra Kanta Unggul',
+    'alamat' => 'Desa Tawangrejo 003/005 Kunduran Kab. Blora Jawa Tengah',
+    'no_telepon' => '82324908547',
+    'email' => 'mandrakantaunggul@gmail.com',
+    'nib' => '0208220001109',
+    'pju' => 'WINARSIH',
+    'no_akte' => '25',
+    'tanggal' => '2024-07-21',
+    'nama_notaris' => 'DIAH TRIMURTI SALEH S.E., S.H., M.KN',
+    'no_pengesahan' => ' AHU-0049177-AH.01.14'
+]);
+bujkkontraktor::create([
+    'bujkkontraktorsub_id' => 1, // Ganti dengan ID yang sesuai
+    'asosiasimasjaki_id' => 1, // Ganti dengan ID yang sesuai
+    'namalengkap' => 'Mandra Kanta Unggul',
+    'alamat' => 'Desa Tawangrejo 003/005 Kunduran Kab. Blora Jawa Tengah',
+    'no_telepon' => '82324908547',
+    'email' => 'mandrakantaunggul@gmail.com',
+    'nib' => '0208220001109',
+    'pju' => 'WINARSIH',
+    'no_akte' => '25',
+    'tanggal' => '2024-07-21',
+    'nama_notaris' => 'DIAH TRIMURTI SALEH S.E., S.H., M.KN',
+    'no_pengesahan' => ' AHU-0049177-AH.01.14'
+]);
+bujkkontraktor::create([
+    'bujkkontraktorsub_id' => 1, // Ganti dengan ID yang sesuai
+    'asosiasimasjaki_id' => 1, // Ganti dengan ID yang sesuai
+    'namalengkap' => 'Mandra Kanta Unggul',
+    'alamat' => 'Desa Tawangrejo 003/005 Kunduran Kab. Blora Jawa Tengah',
+    'no_telepon' => '82324908547',
+    'email' => 'mandrakantaunggul@gmail.com',
+    'nib' => '0208220001109',
+    'pju' => 'WINARSIH',
+    'no_akte' => '25',
+    'tanggal' => '2024-07-21',
+    'nama_notaris' => 'DIAH TRIMURTI SALEH S.E., S.H., M.KN',
+    'no_pengesahan' => ' AHU-0049177-AH.01.14'
+]);
+bujkkontraktor::create([
+    'bujkkontraktorsub_id' => 1, // Ganti dengan ID yang sesuai
+    'asosiasimasjaki_id' => 1, // Ganti dengan ID yang sesuai
+    'namalengkap' => 'Mandra Kanta Unggul',
+    'alamat' => 'Desa Tawangrejo 003/005 Kunduran Kab. Blora Jawa Tengah',
+    'no_telepon' => '82324908547',
+    'email' => 'mandrakantaunggul@gmail.com',
+    'nib' => '0208220001109',
+    'pju' => 'WINARSIH',
+    'no_akte' => '25',
+    'tanggal' => '2024-07-21',
+    'nama_notaris' => 'DIAH TRIMURTI SALEH S.E., S.H., M.KN',
+    'no_pengesahan' => ' AHU-0049177-AH.01.14'
+]);
+bujkkontraktor::create([
+    'bujkkontraktorsub_id' => 1, // Ganti dengan ID yang sesuai
+    'asosiasimasjaki_id' => 1, // Ganti dengan ID yang sesuai
+    'namalengkap' => 'Mandra Kanta Unggul',
+    'alamat' => 'Desa Tawangrejo 003/005 Kunduran Kab. Blora Jawa Tengah',
+    'no_telepon' => '82324908547',
+    'email' => 'mandrakantaunggul@gmail.com',
+    'nib' => '0208220001109',
+    'pju' => 'WINARSIH',
+    'no_akte' => '25',
+    'tanggal' => '2024-07-21',
+    'nama_notaris' => 'DIAH TRIMURTI SALEH S.E., S.H., M.KN',
+    'no_pengesahan' => ' AHU-0049177-AH.01.14'
+]);
+bujkkontraktor::create([
+    'bujkkontraktorsub_id' => 1, // Ganti dengan ID yang sesuai
+    'asosiasimasjaki_id' => 1, // Ganti dengan ID yang sesuai
+    'namalengkap' => 'Mandra Kanta Unggul',
+    'alamat' => 'Desa Tawangrejo 003/005 Kunduran Kab. Blora Jawa Tengah',
+    'no_telepon' => '82324908547',
+    'email' => 'mandrakantaunggul@gmail.com',
+    'nib' => '0208220001109',
+    'pju' => 'WINARSIH',
+    'no_akte' => '25',
+    'tanggal' => '2024-07-21',
+    'nama_notaris' => 'DIAH TRIMURTI SALEH S.E., S.H., M.KN',
+    'no_pengesahan' => ' AHU-0049177-AH.01.14'
+]);
+bujkkontraktor::create([
+    'bujkkontraktorsub_id' => 1, // Ganti dengan ID yang sesuai
+    'asosiasimasjaki_id' => 1, // Ganti dengan ID yang sesuai
+    'namalengkap' => 'Mandra Kanta Unggul',
+    'alamat' => 'Desa Tawangrejo 003/005 Kunduran Kab. Blora Jawa Tengah',
+    'no_telepon' => '82324908547',
+    'email' => 'mandrakantaunggul@gmail.com',
+    'nib' => '0208220001109',
+    'pju' => 'WINARSIH',
+    'no_akte' => '25',
+    'tanggal' => '2024-07-21',
+    'nama_notaris' => 'DIAH TRIMURTI SALEH S.E., S.H., M.KN',
+    'no_pengesahan' => ' AHU-0049177-AH.01.14'
+]);
+bujkkontraktor::create([
+    'bujkkontraktorsub_id' => 1, // Ganti dengan ID yang sesuai
+    'asosiasimasjaki_id' => 1, // Ganti dengan ID yang sesuai
+    'namalengkap' => 'Mandra Kanta Unggul',
+    'alamat' => 'Desa Tawangrejo 003/005 Kunduran Kab. Blora Jawa Tengah',
+    'no_telepon' => '82324908547',
+    'email' => 'mandrakantaunggul@gmail.com',
+    'nib' => '0208220001109',
+    'pju' => 'WINARSIH',
+    'no_akte' => '25',
+    'tanggal' => '2024-07-21',
+    'nama_notaris' => 'DIAH TRIMURTI SALEH S.E., S.H., M.KN',
+    'no_pengesahan' => ' AHU-0049177-AH.01.14'
+]);
+bujkkontraktor::create([
+    'bujkkontraktorsub_id' => 1, // Ganti dengan ID yang sesuai
+    'asosiasimasjaki_id' => 1, // Ganti dengan ID yang sesuai
+    'namalengkap' => 'Mandra Kanta Unggul',
+    'alamat' => 'Desa Tawangrejo 003/005 Kunduran Kab. Blora Jawa Tengah',
+    'no_telepon' => '82324908547',
+    'email' => 'mandrakantaunggul@gmail.com',
+    'nib' => '0208220001109',
+    'pju' => 'WINARSIH',
+    'no_akte' => '25',
+    'tanggal' => '2024-07-21',
+    'nama_notaris' => 'DIAH TRIMURTI SALEH S.E., S.H., M.KN',
+    'no_pengesahan' => ' AHU-0049177-AH.01.14'
+]);
+bujkkontraktor::create([
+    'bujkkontraktorsub_id' => 1, // Ganti dengan ID yang sesuai
+    'asosiasimasjaki_id' => 1, // Ganti dengan ID yang sesuai
+    'namalengkap' => 'Mandra Kanta Unggul',
+    'alamat' => 'Desa Tawangrejo 003/005 Kunduran Kab. Blora Jawa Tengah',
+    'no_telepon' => '82324908547',
+    'email' => 'mandrakantaunggul@gmail.com',
+    'nib' => '0208220001109',
+    'pju' => 'WINARSIH',
+    'no_akte' => '25',
+    'tanggal' => '2024-07-21',
+    'nama_notaris' => 'DIAH TRIMURTI SALEH S.E., S.H., M.KN',
+    'no_pengesahan' => ' AHU-0049177-AH.01.14'
+]);
+bujkkontraktor::create([
+    'bujkkontraktorsub_id' => 1, // Ganti dengan ID yang sesuai
+    'asosiasimasjaki_id' => 1, // Ganti dengan ID yang sesuai
+    'namalengkap' => 'Mandra Kanta Unggul',
+    'alamat' => 'Desa Tawangrejo 003/005 Kunduran Kab. Blora Jawa Tengah',
+    'no_telepon' => '82324908547',
+    'email' => 'mandrakantaunggul@gmail.com',
+    'nib' => '0208220001109',
+    'pju' => 'WINARSIH',
+    'no_akte' => '25',
+    'tanggal' => '2024-07-21',
+    'nama_notaris' => 'DIAH TRIMURTI SALEH S.E., S.H., M.KN',
+    'no_pengesahan' => ' AHU-0049177-AH.01.14'
+]);
+bujkkontraktor::create([
+    'bujkkontraktorsub_id' => 1, // Ganti dengan ID yang sesuai
+    'asosiasimasjaki_id' => 1, // Ganti dengan ID yang sesuai
+    'namalengkap' => 'Mandra Kanta Unggul',
+    'alamat' => 'Desa Tawangrejo 003/005 Kunduran Kab. Blora Jawa Tengah',
+    'no_telepon' => '82324908547',
+    'email' => 'mandrakantaunggul@gmail.com',
+    'nib' => '0208220001109',
+    'pju' => 'WINARSIH',
+    'no_akte' => '25',
+    'tanggal' => '2024-07-21',
+    'nama_notaris' => 'DIAH TRIMURTI SALEH S.E., S.H., M.KN',
+    'no_pengesahan' => ' AHU-0049177-AH.01.14'
+]);
+bujkkontraktor::create([
+    'bujkkontraktorsub_id' => 1, // Ganti dengan ID yang sesuai
+    'asosiasimasjaki_id' => 1, // Ganti dengan ID yang sesuai
+    'namalengkap' => 'Mandra Kanta Unggul',
+    'alamat' => 'Desa Tawangrejo 003/005 Kunduran Kab. Blora Jawa Tengah',
+    'no_telepon' => '82324908547',
+    'email' => 'mandrakantaunggul@gmail.com',
+    'nib' => '0208220001109',
+    'pju' => 'WINARSIH',
+    'no_akte' => '25',
+    'tanggal' => '2024-07-21',
+    'nama_notaris' => 'DIAH TRIMURTI SALEH S.E., S.H., M.KN',
+    'no_pengesahan' => ' AHU-0049177-AH.01.14'
+]);
+bujkkontraktor::create([
+    'bujkkontraktorsub_id' => 1, // Ganti dengan ID yang sesuai
+    'asosiasimasjaki_id' => 1, // Ganti dengan ID yang sesuai
+    'namalengkap' => 'Mandra Kanta Unggul',
+    'alamat' => 'Desa Tawangrejo 003/005 Kunduran Kab. Blora Jawa Tengah',
+    'no_telepon' => '82324908547',
+    'email' => 'mandrakantaunggul@gmail.com',
+    'nib' => '0208220001109',
+    'pju' => 'WINARSIH',
+    'no_akte' => '25',
+    'tanggal' => '2024-07-21',
+    'nama_notaris' => 'DIAH TRIMURTI SALEH S.E., S.H., M.KN',
+    'no_pengesahan' => ' AHU-0049177-AH.01.14'
+]);
+bujkkontraktor::create([
+    'bujkkontraktorsub_id' => 1, // Ganti dengan ID yang sesuai
+    'asosiasimasjaki_id' => 1, // Ganti dengan ID yang sesuai
+    'namalengkap' => 'Mandra Kanta Unggul',
+    'alamat' => 'Desa Tawangrejo 003/005 Kunduran Kab. Blora Jawa Tengah',
+    'no_telepon' => '82324908547',
+    'email' => 'mandrakantaunggul@gmail.com',
+    'nib' => '0208220001109',
+    'pju' => 'WINARSIH',
+    'no_akte' => '25',
+    'tanggal' => '2024-07-21',
+    'nama_notaris' => 'DIAH TRIMURTI SALEH S.E., S.H., M.KN',
+    'no_pengesahan' => ' AHU-0049177-AH.01.14'
+]);
+bujkkontraktor::create([
+    'bujkkontraktorsub_id' => 1, // Ganti dengan ID yang sesuai
+    'asosiasimasjaki_id' => 1, // Ganti dengan ID yang sesuai
+    'namalengkap' => 'Mandra Kanta Unggul',
+    'alamat' => 'Desa Tawangrejo 003/005 Kunduran Kab. Blora Jawa Tengah',
+    'no_telepon' => '82324908547',
+    'email' => 'mandrakantaunggul@gmail.com',
+    'nib' => '0208220001109',
+    'pju' => 'WINARSIH',
+    'no_akte' => '25',
+    'tanggal' => '2024-07-21',
+    'nama_notaris' => 'DIAH TRIMURTI SALEH S.E., S.H., M.KN',
+    'no_pengesahan' => ' AHU-0049177-AH.01.14'
+]);
+bujkkontraktor::create([
+    'bujkkontraktorsub_id' => 1, // Ganti dengan ID yang sesuai
+    'asosiasimasjaki_id' => 1, // Ganti dengan ID yang sesuai
+    'namalengkap' => 'Mandra Kanta Unggul',
+    'alamat' => 'Desa Tawangrejo 003/005 Kunduran Kab. Blora Jawa Tengah',
+    'no_telepon' => '82324908547',
+    'email' => 'mandrakantaunggul@gmail.com',
+    'nib' => '0208220001109',
+    'pju' => 'WINARSIH',
+    'no_akte' => '25',
+    'tanggal' => '2024-07-21',
+    'nama_notaris' => 'DIAH TRIMURTI SALEH S.E., S.H., M.KN',
+    'no_pengesahan' => ' AHU-0049177-AH.01.14'
+]);
+bujkkontraktor::create([
+    'bujkkontraktorsub_id' => 1, // Ganti dengan ID yang sesuai
+    'asosiasimasjaki_id' => 1, // Ganti dengan ID yang sesuai
+    'namalengkap' => 'Mandra Kanta Unggul',
+    'alamat' => 'Desa Tawangrejo 003/005 Kunduran Kab. Blora Jawa Tengah',
+    'no_telepon' => '82324908547',
+    'email' => 'mandrakantaunggul@gmail.com',
+    'nib' => '0208220001109',
+    'pju' => 'WINARSIH',
+    'no_akte' => '25',
+    'tanggal' => '2024-07-21',
+    'nama_notaris' => 'DIAH TRIMURTI SALEH S.E., S.H., M.KN',
+    'no_pengesahan' => ' AHU-0049177-AH.01.14'
+]);
+bujkkontraktor::create([
+    'bujkkontraktorsub_id' => 1, // Ganti dengan ID yang sesuai
+    'asosiasimasjaki_id' => 1, // Ganti dengan ID yang sesuai
+    'namalengkap' => 'Mandra Kanta Unggul',
+    'alamat' => 'Desa Tawangrejo 003/005 Kunduran Kab. Blora Jawa Tengah',
+    'no_telepon' => '82324908547',
+    'email' => 'mandrakantaunggul@gmail.com',
+    'nib' => '0208220001109',
+    'pju' => 'WINARSIH',
+    'no_akte' => '25',
+    'tanggal' => '2024-07-21',
+    'nama_notaris' => 'DIAH TRIMURTI SALEH S.E., S.H., M.KN',
+    'no_pengesahan' => ' AHU-0049177-AH.01.14'
+]);
+bujkkontraktor::create([
+    'bujkkontraktorsub_id' => 1, // Ganti dengan ID yang sesuai
+    'asosiasimasjaki_id' => 1, // Ganti dengan ID yang sesuai
+    'namalengkap' => 'Mandra Kanta Unggul',
+    'alamat' => 'Desa Tawangrejo 003/005 Kunduran Kab. Blora Jawa Tengah',
+    'no_telepon' => '82324908547',
+    'email' => 'mandrakantaunggul@gmail.com',
+    'nib' => '0208220001109',
+    'pju' => 'WINARSIH',
+    'no_akte' => '25',
+    'tanggal' => '2024-07-21',
+    'nama_notaris' => 'DIAH TRIMURTI SALEH S.E., S.H., M.KN',
+    'no_pengesahan' => ' AHU-0049177-AH.01.14'
+]);
+bujkkontraktor::create([
+    'bujkkontraktorsub_id' => 1, // Ganti dengan ID yang sesuai
+    'asosiasimasjaki_id' => 1, // Ganti dengan ID yang sesuai
+    'namalengkap' => 'Mandra Kanta Unggul',
+    'alamat' => 'Desa Tawangrejo 003/005 Kunduran Kab. Blora Jawa Tengah',
+    'no_telepon' => '82324908547',
+    'email' => 'mandrakantaunggul@gmail.com',
+    'nib' => '0208220001109',
+    'pju' => 'WINARSIH',
+    'no_akte' => '25',
+    'tanggal' => '2024-07-21',
+    'nama_notaris' => 'DIAH TRIMURTI SALEH S.E., S.H., M.KN',
+    'no_pengesahan' => ' AHU-0049177-AH.01.14'
+]);
+bujkkontraktor::create([
+    'bujkkontraktorsub_id' => 1, // Ganti dengan ID yang sesuai
+    'asosiasimasjaki_id' => 1, // Ganti dengan ID yang sesuai
+    'namalengkap' => 'Mandra Kanta Unggul',
+    'alamat' => 'Desa Tawangrejo 003/005 Kunduran Kab. Blora Jawa Tengah',
+    'no_telepon' => '82324908547',
+    'email' => 'mandrakantaunggul@gmail.com',
+    'nib' => '0208220001109',
+    'pju' => 'WINARSIH',
+    'no_akte' => '25',
+    'tanggal' => '2024-07-21',
+    'nama_notaris' => 'DIAH TRIMURTI SALEH S.E., S.H., M.KN',
+    'no_pengesahan' => ' AHU-0049177-AH.01.14'
+]);
+bujkkontraktor::create([
+    'bujkkontraktorsub_id' => 1, // Ganti dengan ID yang sesuai
+    'asosiasimasjaki_id' => 1, // Ganti dengan ID yang sesuai
+    'namalengkap' => 'Mandra Kanta Unggul',
+    'alamat' => 'Desa Tawangrejo 003/005 Kunduran Kab. Blora Jawa Tengah',
+    'no_telepon' => '82324908547',
+    'email' => 'mandrakantaunggul@gmail.com',
+    'nib' => '0208220001109',
+    'pju' => 'WINARSIH',
+    'no_akte' => '25',
+    'tanggal' => '2024-07-21',
+    'nama_notaris' => 'DIAH TRIMURTI SALEH S.E., S.H., M.KN',
+    'no_pengesahan' => ' AHU-0049177-AH.01.14'
+]);
+bujkkontraktor::create([
+    'bujkkontraktorsub_id' => 1, // Ganti dengan ID yang sesuai
+    'asosiasimasjaki_id' => 1, // Ganti dengan ID yang sesuai
+    'namalengkap' => 'Mandra Kanta Unggul',
+    'alamat' => 'Desa Tawangrejo 003/005 Kunduran Kab. Blora Jawa Tengah',
+    'no_telepon' => '82324908547',
+    'email' => 'mandrakantaunggul@gmail.com',
+    'nib' => '0208220001109',
+    'pju' => 'WINARSIH',
+    'no_akte' => '25',
+    'tanggal' => '2024-07-21',
+    'nama_notaris' => 'DIAH TRIMURTI SALEH S.E., S.H., M.KN',
+    'no_pengesahan' => ' AHU-0049177-AH.01.14'
+]);
+bujkkontraktor::create([
+    'bujkkontraktorsub_id' => 1, // Ganti dengan ID yang sesuai
+    'asosiasimasjaki_id' => 1, // Ganti dengan ID yang sesuai
+    'namalengkap' => 'Mandra Kanta Unggul',
+    'alamat' => 'Desa Tawangrejo 003/005 Kunduran Kab. Blora Jawa Tengah',
+    'no_telepon' => '82324908547',
+    'email' => 'mandrakantaunggul@gmail.com',
+    'nib' => '0208220001109',
+    'pju' => 'WINARSIH',
+    'no_akte' => '25',
+    'tanggal' => '2024-07-21',
+    'nama_notaris' => 'DIAH TRIMURTI SALEH S.E., S.H., M.KN',
+    'no_pengesahan' => ' AHU-0049177-AH.01.14'
+]);
+bujkkontraktor::create([
+    'bujkkontraktorsub_id' => 1, // Ganti dengan ID yang sesuai
+    'asosiasimasjaki_id' => 1, // Ganti dengan ID yang sesuai
+    'namalengkap' => 'Mandra Kanta Unggul',
+    'alamat' => 'Desa Tawangrejo 003/005 Kunduran Kab. Blora Jawa Tengah',
+    'no_telepon' => '82324908547',
+    'email' => 'mandrakantaunggul@gmail.com',
+    'nib' => '0208220001109',
+    'pju' => 'WINARSIH',
+    'no_akte' => '25',
+    'tanggal' => '2024-07-21',
+    'nama_notaris' => 'DIAH TRIMURTI SALEH S.E., S.H., M.KN',
+    'no_pengesahan' => ' AHU-0049177-AH.01.14'
+]);
+bujkkontraktor::create([
+    'bujkkontraktorsub_id' => 1, // Ganti dengan ID yang sesuai
+    'asosiasimasjaki_id' => 1, // Ganti dengan ID yang sesuai
+    'namalengkap' => 'Mandra Kanta Unggul',
+    'alamat' => 'Desa Tawangrejo 003/005 Kunduran Kab. Blora Jawa Tengah',
+    'no_telepon' => '82324908547',
+    'email' => 'mandrakantaunggul@gmail.com',
+    'nib' => '0208220001109',
+    'pju' => 'WINARSIH',
+    'no_akte' => '25',
+    'tanggal' => '2024-07-21',
+    'nama_notaris' => 'DIAH TRIMURTI SALEH S.E., S.H., M.KN',
+    'no_pengesahan' => ' AHU-0049177-AH.01.14'
+]);
+bujkkontraktor::create([
+    'bujkkontraktorsub_id' => 1, // Ganti dengan ID yang sesuai
+    'asosiasimasjaki_id' => 1, // Ganti dengan ID yang sesuai
+    'namalengkap' => 'Mandra Kanta Unggul',
+    'alamat' => 'Desa Tawangrejo 003/005 Kunduran Kab. Blora Jawa Tengah',
+    'no_telepon' => '82324908547',
+    'email' => 'mandrakantaunggul@gmail.com',
+    'nib' => '0208220001109',
+    'pju' => 'WINARSIH',
+    'no_akte' => '25',
+    'tanggal' => '2024-07-21',
+    'nama_notaris' => 'DIAH TRIMURTI SALEH S.E., S.H., M.KN',
+    'no_pengesahan' => ' AHU-0049177-AH.01.14'
+]);
+bujkkontraktor::create([
+    'bujkkontraktorsub_id' => 1, // Ganti dengan ID yang sesuai
+    'asosiasimasjaki_id' => 1, // Ganti dengan ID yang sesuai
+    'namalengkap' => 'Mandra Kanta Unggul',
+    'alamat' => 'Desa Tawangrejo 003/005 Kunduran Kab. Blora Jawa Tengah',
+    'no_telepon' => '82324908547',
+    'email' => 'mandrakantaunggul@gmail.com',
+    'nib' => '0208220001109',
+    'pju' => 'WINARSIH',
+    'no_akte' => '25',
+    'tanggal' => '2024-07-21',
+    'nama_notaris' => 'DIAH TRIMURTI SALEH S.E., S.H., M.KN',
+    'no_pengesahan' => ' AHU-0049177-AH.01.14'
+]);
+bujkkontraktor::create([
+    'bujkkontraktorsub_id' => 1, // Ganti dengan ID yang sesuai
+    'asosiasimasjaki_id' => 1, // Ganti dengan ID yang sesuai
+    'namalengkap' => 'Mandra Kanta Unggul',
+    'alamat' => 'Desa Tawangrejo 003/005 Kunduran Kab. Blora Jawa Tengah',
+    'no_telepon' => '82324908547',
+    'email' => 'mandrakantaunggul@gmail.com',
+    'nib' => '0208220001109',
+    'pju' => 'WINARSIH',
+    'no_akte' => '25',
+    'tanggal' => '2024-07-21',
+    'nama_notaris' => 'DIAH TRIMURTI SALEH S.E., S.H., M.KN',
+    'no_pengesahan' => ' AHU-0049177-AH.01.14'
+]);
+bujkkontraktor::create([
+    'bujkkontraktorsub_id' => 1, // Ganti dengan ID yang sesuai
+    'asosiasimasjaki_id' => 1, // Ganti dengan ID yang sesuai
+    'namalengkap' => 'Mandra Kanta Unggul',
+    'alamat' => 'Desa Tawangrejo 003/005 Kunduran Kab. Blora Jawa Tengah',
+    'no_telepon' => '82324908547',
+    'email' => 'mandrakantaunggul@gmail.com',
+    'nib' => '0208220001109',
+    'pju' => 'WINARSIH',
+    'no_akte' => '25',
+    'tanggal' => '2024-07-21',
+    'nama_notaris' => 'DIAH TRIMURTI SALEH S.E., S.H., M.KN',
+    'no_pengesahan' => ' AHU-0049177-AH.01.14'
+]);
+bujkkontraktor::create([
+    'bujkkontraktorsub_id' => 1, // Ganti dengan ID yang sesuai
+    'asosiasimasjaki_id' => 1, // Ganti dengan ID yang sesuai
+    'namalengkap' => 'Mandra Kanta Unggul',
+    'alamat' => 'Desa Tawangrejo 003/005 Kunduran Kab. Blora Jawa Tengah',
+    'no_telepon' => '82324908547',
+    'email' => 'mandrakantaunggul@gmail.com',
+    'nib' => '0208220001109',
+    'pju' => 'WINARSIH',
+    'no_akte' => '25',
+    'tanggal' => '2024-07-21',
+    'nama_notaris' => 'DIAH TRIMURTI SALEH S.E., S.H., M.KN',
+    'no_pengesahan' => ' AHU-0049177-AH.01.14'
+]);
+bujkkontraktor::create([
+    'bujkkontraktorsub_id' => 1, // Ganti dengan ID yang sesuai
+    'asosiasimasjaki_id' => 1, // Ganti dengan ID yang sesuai
+    'namalengkap' => 'Mandra Kanta Unggul',
+    'alamat' => 'Desa Tawangrejo 003/005 Kunduran Kab. Blora Jawa Tengah',
+    'no_telepon' => '82324908547',
+    'email' => 'mandrakantaunggul@gmail.com',
+    'nib' => '0208220001109',
+    'pju' => 'WINARSIH',
+    'no_akte' => '25',
+    'tanggal' => '2024-07-21',
+    'nama_notaris' => 'DIAH TRIMURTI SALEH S.E., S.H., M.KN',
+    'no_pengesahan' => ' AHU-0049177-AH.01.14'
+]);
+bujkkontraktor::create([
+    'bujkkontraktorsub_id' => 1, // Ganti dengan ID yang sesuai
+    'asosiasimasjaki_id' => 1, // Ganti dengan ID yang sesuai
+    'namalengkap' => 'Mandra Kanta Unggul',
+    'alamat' => 'Desa Tawangrejo 003/005 Kunduran Kab. Blora Jawa Tengah',
+    'no_telepon' => '82324908547',
+    'email' => 'mandrakantaunggul@gmail.com',
+    'nib' => '0208220001109',
+    'pju' => 'WINARSIH',
+    'no_akte' => '25',
+    'tanggal' => '2024-07-21',
+    'nama_notaris' => 'DIAH TRIMURTI SALEH S.E., S.H., M.KN',
+    'no_pengesahan' => ' AHU-0049177-AH.01.14'
+]);
+bujkkontraktor::create([
+    'bujkkontraktorsub_id' => 1, // Ganti dengan ID yang sesuai
+    'asosiasimasjaki_id' => 1, // Ganti dengan ID yang sesuai
+    'namalengkap' => 'Mandra Kanta Unggul',
+    'alamat' => 'Desa Tawangrejo 003/005 Kunduran Kab. Blora Jawa Tengah',
+    'no_telepon' => '82324908547',
+    'email' => 'mandrakantaunggul@gmail.com',
+    'nib' => '0208220001109',
+    'pju' => 'WINARSIH',
+    'no_akte' => '25',
+    'tanggal' => '2024-07-21',
+    'nama_notaris' => 'DIAH TRIMURTI SALEH S.E., S.H., M.KN',
+    'no_pengesahan' => ' AHU-0049177-AH.01.14'
+]);
+bujkkontraktor::create([
+    'bujkkontraktorsub_id' => 1, // Ganti dengan ID yang sesuai
+    'asosiasimasjaki_id' => 1, // Ganti dengan ID yang sesuai
+    'namalengkap' => 'Mandra Kanta Unggul',
+    'alamat' => 'Desa Tawangrejo 003/005 Kunduran Kab. Blora Jawa Tengah',
+    'no_telepon' => '82324908547',
+    'email' => 'mandrakantaunggul@gmail.com',
+    'nib' => '0208220001109',
+    'pju' => 'WINARSIH',
+    'no_akte' => '25',
+    'tanggal' => '2024-07-21',
+    'nama_notaris' => 'DIAH TRIMURTI SALEH S.E., S.H., M.KN',
+    'no_pengesahan' => ' AHU-0049177-AH.01.14'
+]);
+bujkkontraktor::create([
+    'bujkkontraktorsub_id' => 1, // Ganti dengan ID yang sesuai
+    'asosiasimasjaki_id' => 1, // Ganti dengan ID yang sesuai
+    'namalengkap' => 'Mandra Kanta Unggul',
+    'alamat' => 'Desa Tawangrejo 003/005 Kunduran Kab. Blora Jawa Tengah',
+    'no_telepon' => '82324908547',
+    'email' => 'mandrakantaunggul@gmail.com',
+    'nib' => '0208220001109',
+    'pju' => 'WINARSIH',
+    'no_akte' => '25',
+    'tanggal' => '2024-07-21',
+    'nama_notaris' => 'DIAH TRIMURTI SALEH S.E., S.H., M.KN',
+    'no_pengesahan' => ' AHU-0049177-AH.01.14'
+]);
+bujkkontraktor::create([
+    'bujkkontraktorsub_id' => 1, // Ganti dengan ID yang sesuai
+    'asosiasimasjaki_id' => 1, // Ganti dengan ID yang sesuai
+    'namalengkap' => 'Mandra Kanta Unggul',
+    'alamat' => 'Desa Tawangrejo 003/005 Kunduran Kab. Blora Jawa Tengah',
+    'no_telepon' => '82324908547',
+    'email' => 'mandrakantaunggul@gmail.com',
+    'nib' => '0208220001109',
+    'pju' => 'WINARSIH',
+    'no_akte' => '25',
+    'tanggal' => '2024-07-21',
+    'nama_notaris' => 'DIAH TRIMURTI SALEH S.E., S.H., M.KN',
+    'no_pengesahan' => ' AHU-0049177-AH.01.14'
+]);
+bujkkontraktor::create([
+    'bujkkontraktorsub_id' => 1, // Ganti dengan ID yang sesuai
+    'asosiasimasjaki_id' => 1, // Ganti dengan ID yang sesuai
+    'namalengkap' => 'Mandra Kanta Unggul',
+    'alamat' => 'Desa Tawangrejo 003/005 Kunduran Kab. Blora Jawa Tengah',
+    'no_telepon' => '82324908547',
+    'email' => 'mandrakantaunggul@gmail.com',
+    'nib' => '0208220001109',
+    'pju' => 'WINARSIH',
+    'no_akte' => '25',
+    'tanggal' => '2024-07-21',
+    'nama_notaris' => 'DIAH TRIMURTI SALEH S.E., S.H., M.KN',
+    'no_pengesahan' => ' AHU-0049177-AH.01.14'
+]);
+bujkkontraktor::create([
+    'bujkkontraktorsub_id' => 1, // Ganti dengan ID yang sesuai
+    'asosiasimasjaki_id' => 1, // Ganti dengan ID yang sesuai
+    'namalengkap' => 'Mandra Kanta Unggul',
+    'alamat' => 'Desa Tawangrejo 003/005 Kunduran Kab. Blora Jawa Tengah',
+    'no_telepon' => '82324908547',
+    'email' => 'mandrakantaunggul@gmail.com',
+    'nib' => '0208220001109',
+    'pju' => 'WINARSIH',
+    'no_akte' => '25',
+    'tanggal' => '2024-07-21',
+    'nama_notaris' => 'DIAH TRIMURTI SALEH S.E., S.H., M.KN',
+    'no_pengesahan' => ' AHU-0049177-AH.01.14'
+]);
+bujkkontraktor::create([
+    'bujkkontraktorsub_id' => 1, // Ganti dengan ID yang sesuai
+    'asosiasimasjaki_id' => 1, // Ganti dengan ID yang sesuai
+    'namalengkap' => 'Mandra Kanta Unggul',
+    'alamat' => 'Desa Tawangrejo 003/005 Kunduran Kab. Blora Jawa Tengah',
+    'no_telepon' => '82324908547',
+    'email' => 'mandrakantaunggul@gmail.com',
+    'nib' => '0208220001109',
+    'pju' => 'WINARSIH',
+    'no_akte' => '25',
+    'tanggal' => '2024-07-21',
+    'nama_notaris' => 'DIAH TRIMURTI SALEH S.E., S.H., M.KN',
+    'no_pengesahan' => ' AHU-0049177-AH.01.14'
+]);
+bujkkontraktor::create([
+    'bujkkontraktorsub_id' => 1, // Ganti dengan ID yang sesuai
+    'asosiasimasjaki_id' => 1, // Ganti dengan ID yang sesuai
+    'namalengkap' => 'Mandra Kanta Unggul',
+    'alamat' => 'Desa Tawangrejo 003/005 Kunduran Kab. Blora Jawa Tengah',
+    'no_telepon' => '82324908547',
+    'email' => 'mandrakantaunggul@gmail.com',
+    'nib' => '0208220001109',
+    'pju' => 'WINARSIH',
+    'no_akte' => '25',
+    'tanggal' => '2024-07-21',
+    'nama_notaris' => 'DIAH TRIMURTI SALEH S.E., S.H., M.KN',
+    'no_pengesahan' => ' AHU-0049177-AH.01.14'
+]);
+bujkkontraktor::create([
+    'bujkkontraktorsub_id' => 1, // Ganti dengan ID yang sesuai
+    'asosiasimasjaki_id' => 1, // Ganti dengan ID yang sesuai
+    'namalengkap' => 'Mandra Kanta Unggul',
+    'alamat' => 'Desa Tawangrejo 003/005 Kunduran Kab. Blora Jawa Tengah',
+    'no_telepon' => '82324908547',
+    'email' => 'mandrakantaunggul@gmail.com',
+    'nib' => '0208220001109',
+    'pju' => 'WINARSIH',
+    'no_akte' => '25',
+    'tanggal' => '2024-07-21',
+    'nama_notaris' => 'DIAH TRIMURTI SALEH S.E., S.H., M.KN',
+    'no_pengesahan' => ' AHU-0049177-AH.01.14'
+]);
+bujkkontraktor::create([
+    'bujkkontraktorsub_id' => 1, // Ganti dengan ID yang sesuai
+    'asosiasimasjaki_id' => 1, // Ganti dengan ID yang sesuai
+    'namalengkap' => 'Mandra Kanta Unggul',
+    'alamat' => 'Desa Tawangrejo 003/005 Kunduran Kab. Blora Jawa Tengah',
+    'no_telepon' => '82324908547',
+    'email' => 'mandrakantaunggul@gmail.com',
+    'nib' => '0208220001109',
+    'pju' => 'WINARSIH',
+    'no_akte' => '25',
+    'tanggal' => '2024-07-21',
+    'nama_notaris' => 'DIAH TRIMURTI SALEH S.E., S.H., M.KN',
+    'no_pengesahan' => ' AHU-0049177-AH.01.14'
+]);
+bujkkontraktor::create([
+    'bujkkontraktorsub_id' => 1, // Ganti dengan ID yang sesuai
+    'asosiasimasjaki_id' => 1, // Ganti dengan ID yang sesuai
+    'namalengkap' => 'Mandra Kanta Unggul',
+    'alamat' => 'Desa Tawangrejo 003/005 Kunduran Kab. Blora Jawa Tengah',
+    'no_telepon' => '82324908547',
+    'email' => 'mandrakantaunggul@gmail.com',
+    'nib' => '0208220001109',
+    'pju' => 'WINARSIH',
+    'no_akte' => '25',
+    'tanggal' => '2024-07-21',
+    'nama_notaris' => 'DIAH TRIMURTI SALEH S.E., S.H., M.KN',
+    'no_pengesahan' => ' AHU-0049177-AH.01.14'
+]);
+bujkkontraktor::create([
+    'bujkkontraktorsub_id' => 1, // Ganti dengan ID yang sesuai
+    'asosiasimasjaki_id' => 1, // Ganti dengan ID yang sesuai
+    'namalengkap' => 'Mandra Kanta Unggul',
+    'alamat' => 'Desa Tawangrejo 003/005 Kunduran Kab. Blora Jawa Tengah',
+    'no_telepon' => '82324908547',
+    'email' => 'mandrakantaunggul@gmail.com',
+    'nib' => '0208220001109',
+    'pju' => 'WINARSIH',
+    'no_akte' => '25',
+    'tanggal' => '2024-07-21',
+    'nama_notaris' => 'DIAH TRIMURTI SALEH S.E., S.H., M.KN',
+    'no_pengesahan' => ' AHU-0049177-AH.01.14'
+]);
+bujkkontraktor::create([
+    'bujkkontraktorsub_id' => 1, // Ganti dengan ID yang sesuai
+    'asosiasimasjaki_id' => 1, // Ganti dengan ID yang sesuai
+    'namalengkap' => 'Mandra Kanta Unggul',
+    'alamat' => 'Desa Tawangrejo 003/005 Kunduran Kab. Blora Jawa Tengah',
+    'no_telepon' => '82324908547',
+    'email' => 'mandrakantaunggul@gmail.com',
+    'nib' => '0208220001109',
+    'pju' => 'WINARSIH',
+    'no_akte' => '25',
+    'tanggal' => '2024-07-21',
+    'nama_notaris' => 'DIAH TRIMURTI SALEH S.E., S.H., M.KN',
+    'no_pengesahan' => ' AHU-0049177-AH.01.14'
+]);
+bujkkontraktor::create([
+    'bujkkontraktorsub_id' => 1, // Ganti dengan ID yang sesuai
+    'asosiasimasjaki_id' => 1, // Ganti dengan ID yang sesuai
+    'namalengkap' => 'Mandra Kanta Unggul',
+    'alamat' => 'Desa Tawangrejo 003/005 Kunduran Kab. Blora Jawa Tengah',
+    'no_telepon' => '82324908547',
+    'email' => 'mandrakantaunggul@gmail.com',
+    'nib' => '0208220001109',
+    'pju' => 'WINARSIH',
+    'no_akte' => '25',
+    'tanggal' => '2024-07-21',
+    'nama_notaris' => 'DIAH TRIMURTI SALEH S.E., S.H., M.KN',
+    'no_pengesahan' => ' AHU-0049177-AH.01.14'
+]);
+bujkkontraktor::create([
+    'bujkkontraktorsub_id' => 1, // Ganti dengan ID yang sesuai
+    'asosiasimasjaki_id' => 1, // Ganti dengan ID yang sesuai
+    'namalengkap' => 'Mandra Kanta Unggul',
+    'alamat' => 'Desa Tawangrejo 003/005 Kunduran Kab. Blora Jawa Tengah',
+    'no_telepon' => '82324908547',
+    'email' => 'mandrakantaunggul@gmail.com',
+    'nib' => '0208220001109',
+    'pju' => 'WINARSIH',
+    'no_akte' => '25',
+    'tanggal' => '2024-07-21',
+    'nama_notaris' => 'DIAH TRIMURTI SALEH S.E., S.H., M.KN',
+    'no_pengesahan' => ' AHU-0049177-AH.01.14'
+]);
+bujkkontraktor::create([
+    'bujkkontraktorsub_id' => 1, // Ganti dengan ID yang sesuai
+    'asosiasimasjaki_id' => 1, // Ganti dengan ID yang sesuai
+    'namalengkap' => 'Mandra Kanta Unggul',
+    'alamat' => 'Desa Tawangrejo 003/005 Kunduran Kab. Blora Jawa Tengah',
+    'no_telepon' => '82324908547',
+    'email' => 'mandrakantaunggul@gmail.com',
+    'nib' => '0208220001109',
+    'pju' => 'WINARSIH',
+    'no_akte' => '25',
+    'tanggal' => '2024-07-21',
+    'nama_notaris' => 'DIAH TRIMURTI SALEH S.E., S.H., M.KN',
+    'no_pengesahan' => ' AHU-0049177-AH.01.14'
+]);
+bujkkontraktor::create([
+    'bujkkontraktorsub_id' => 1, // Ganti dengan ID yang sesuai
+    'asosiasimasjaki_id' => 1, // Ganti dengan ID yang sesuai
+    'namalengkap' => 'Mandra Kanta Unggul',
+    'alamat' => 'Desa Tawangrejo 003/005 Kunduran Kab. Blora Jawa Tengah',
+    'no_telepon' => '82324908547',
+    'email' => 'mandrakantaunggul@gmail.com',
+    'nib' => '0208220001109',
+    'pju' => 'WINARSIH',
+    'no_akte' => '25',
+    'tanggal' => '2024-07-21',
+    'nama_notaris' => 'DIAH TRIMURTI SALEH S.E., S.H., M.KN',
+    'no_pengesahan' => ' AHU-0049177-AH.01.14'
+]);
+bujkkontraktor::create([
+    'bujkkontraktorsub_id' => 1, // Ganti dengan ID yang sesuai
+    'asosiasimasjaki_id' => 1, // Ganti dengan ID yang sesuai
+    'namalengkap' => 'Mandra Kanta Unggul',
+    'alamat' => 'Desa Tawangrejo 003/005 Kunduran Kab. Blora Jawa Tengah',
+    'no_telepon' => '82324908547',
+    'email' => 'mandrakantaunggul@gmail.com',
+    'nib' => '0208220001109',
+    'pju' => 'WINARSIH',
+    'no_akte' => '25',
+    'tanggal' => '2024-07-21',
+    'nama_notaris' => 'DIAH TRIMURTI SALEH S.E., S.H., M.KN',
+    'no_pengesahan' => ' AHU-0049177-AH.01.14'
+]);
+bujkkontraktor::create([
+    'bujkkontraktorsub_id' => 1, // Ganti dengan ID yang sesuai
+    'asosiasimasjaki_id' => 1, // Ganti dengan ID yang sesuai
+    'namalengkap' => 'Mandra Kanta Unggul',
+    'alamat' => 'Desa Tawangrejo 003/005 Kunduran Kab. Blora Jawa Tengah',
+    'no_telepon' => '82324908547',
+    'email' => 'mandrakantaunggul@gmail.com',
+    'nib' => '0208220001109',
+    'pju' => 'WINARSIH',
+    'no_akte' => '25',
+    'tanggal' => '2024-07-21',
+    'nama_notaris' => 'DIAH TRIMURTI SALEH S.E., S.H., M.KN',
+    'no_pengesahan' => ' AHU-0049177-AH.01.14'
+]);
+bujkkontraktor::create([
+    'bujkkontraktorsub_id' => 1, // Ganti dengan ID yang sesuai
+    'asosiasimasjaki_id' => 1, // Ganti dengan ID yang sesuai
+    'namalengkap' => 'Mandra Kanta Unggul',
+    'alamat' => 'Desa Tawangrejo 003/005 Kunduran Kab. Blora Jawa Tengah',
+    'no_telepon' => '82324908547',
+    'email' => 'mandrakantaunggul@gmail.com',
+    'nib' => '0208220001109',
+    'pju' => 'WINARSIH',
+    'no_akte' => '25',
+    'tanggal' => '2024-07-21',
+    'nama_notaris' => 'DIAH TRIMURTI SALEH S.E., S.H., M.KN',
+    'no_pengesahan' => ' AHU-0049177-AH.01.14'
+]);
+bujkkontraktor::create([
+    'bujkkontraktorsub_id' => 1, // Ganti dengan ID yang sesuai
+    'asosiasimasjaki_id' => 1, // Ganti dengan ID yang sesuai
+    'namalengkap' => 'Mandra Kanta Unggul',
+    'alamat' => 'Desa Tawangrejo 003/005 Kunduran Kab. Blora Jawa Tengah',
+    'no_telepon' => '82324908547',
+    'email' => 'mandrakantaunggul@gmail.com',
+    'nib' => '0208220001109',
+    'pju' => 'WINARSIH',
+    'no_akte' => '25',
+    'tanggal' => '2024-07-21',
+    'nama_notaris' => 'DIAH TRIMURTI SALEH S.E., S.H., M.KN',
+    'no_pengesahan' => ' AHU-0049177-AH.01.14'
+]);
+bujkkontraktor::create([
+    'bujkkontraktorsub_id' => 1, // Ganti dengan ID yang sesuai
+    'asosiasimasjaki_id' => 1, // Ganti dengan ID yang sesuai
+    'namalengkap' => 'Mandra Kanta Unggul',
+    'alamat' => 'Desa Tawangrejo 003/005 Kunduran Kab. Blora Jawa Tengah',
+    'no_telepon' => '82324908547',
+    'email' => 'mandrakantaunggul@gmail.com',
+    'nib' => '0208220001109',
+    'pju' => 'WINARSIH',
+    'no_akte' => '25',
+    'tanggal' => '2024-07-21',
+    'nama_notaris' => 'DIAH TRIMURTI SALEH S.E., S.H., M.KN',
+    'no_pengesahan' => ' AHU-0049177-AH.01.14'
+]);
+bujkkontraktor::create([
+    'bujkkontraktorsub_id' => 1, // Ganti dengan ID yang sesuai
+    'asosiasimasjaki_id' => 1, // Ganti dengan ID yang sesuai
+    'namalengkap' => 'Mandra Kanta Unggul',
+    'alamat' => 'Desa Tawangrejo 003/005 Kunduran Kab. Blora Jawa Tengah',
+    'no_telepon' => '82324908547',
+    'email' => 'mandrakantaunggul@gmail.com',
+    'nib' => '0208220001109',
+    'pju' => 'WINARSIH',
+    'no_akte' => '25',
+    'tanggal' => '2024-07-21',
+    'nama_notaris' => 'DIAH TRIMURTI SALEH S.E., S.H., M.KN',
+    'no_pengesahan' => ' AHU-0049177-AH.01.14'
+]);
+bujkkontraktor::create([
+    'bujkkontraktorsub_id' => 1, // Ganti dengan ID yang sesuai
+    'asosiasimasjaki_id' => 1, // Ganti dengan ID yang sesuai
+    'namalengkap' => 'Mandra Kanta Unggul',
+    'alamat' => 'Desa Tawangrejo 003/005 Kunduran Kab. Blora Jawa Tengah',
+    'no_telepon' => '82324908547',
+    'email' => 'mandrakantaunggul@gmail.com',
+    'nib' => '0208220001109',
+    'pju' => 'WINARSIH',
+    'no_akte' => '25',
+    'tanggal' => '2024-07-21',
+    'nama_notaris' => 'DIAH TRIMURTI SALEH S.E., S.H., M.KN',
+    'no_pengesahan' => ' AHU-0049177-AH.01.14'
+]);
+bujkkontraktor::create([
+    'bujkkontraktorsub_id' => 1, // Ganti dengan ID yang sesuai
+    'asosiasimasjaki_id' => 1, // Ganti dengan ID yang sesuai
+    'namalengkap' => 'Mandra Kanta Unggul',
+    'alamat' => 'Desa Tawangrejo 003/005 Kunduran Kab. Blora Jawa Tengah',
+    'no_telepon' => '82324908547',
+    'email' => 'mandrakantaunggul@gmail.com',
+    'nib' => '0208220001109',
+    'pju' => 'WINARSIH',
+    'no_akte' => '25',
+    'tanggal' => '2024-07-21',
+    'nama_notaris' => 'DIAH TRIMURTI SALEH S.E., S.H., M.KN',
+    'no_pengesahan' => ' AHU-0049177-AH.01.14'
+]);
+bujkkontraktor::create([
+    'bujkkontraktorsub_id' => 1, // Ganti dengan ID yang sesuai
+    'asosiasimasjaki_id' => 1, // Ganti dengan ID yang sesuai
+    'namalengkap' => 'Mandra Kanta Unggul',
+    'alamat' => 'Desa Tawangrejo 003/005 Kunduran Kab. Blora Jawa Tengah',
+    'no_telepon' => '82324908547',
+    'email' => 'mandrakantaunggul@gmail.com',
+    'nib' => '0208220001109',
+    'pju' => 'WINARSIH',
+    'no_akte' => '25',
+    'tanggal' => '2024-07-21',
+    'nama_notaris' => 'DIAH TRIMURTI SALEH S.E., S.H., M.KN',
+    'no_pengesahan' => ' AHU-0049177-AH.01.14'
+]);
+bujkkontraktor::create([
+    'bujkkontraktorsub_id' => 1, // Ganti dengan ID yang sesuai
+    'asosiasimasjaki_id' => 1, // Ganti dengan ID yang sesuai
+    'namalengkap' => 'Mandra Kanta Unggul',
+    'alamat' => 'Desa Tawangrejo 003/005 Kunduran Kab. Blora Jawa Tengah',
+    'no_telepon' => '82324908547',
+    'email' => 'mandrakantaunggul@gmail.com',
+    'nib' => '0208220001109',
+    'pju' => 'WINARSIH',
+    'no_akte' => '25',
+    'tanggal' => '2024-07-21',
+    'nama_notaris' => 'DIAH TRIMURTI SALEH S.E., S.H., M.KN',
+    'no_pengesahan' => ' AHU-0049177-AH.01.14'
+]);
+bujkkontraktor::create([
+    'bujkkontraktorsub_id' => 1, // Ganti dengan ID yang sesuai
+    'asosiasimasjaki_id' => 1, // Ganti dengan ID yang sesuai
+    'namalengkap' => 'Mandra Kanta Unggul',
+    'alamat' => 'Desa Tawangrejo 003/005 Kunduran Kab. Blora Jawa Tengah',
+    'no_telepon' => '82324908547',
+    'email' => 'mandrakantaunggul@gmail.com',
+    'nib' => '0208220001109',
+    'pju' => 'WINARSIH',
+    'no_akte' => '25',
+    'tanggal' => '2024-07-21',
+    'nama_notaris' => 'DIAH TRIMURTI SALEH S.E., S.H., M.KN',
+    'no_pengesahan' => ' AHU-0049177-AH.01.14'
+]);
+bujkkontraktor::create([
+    'bujkkontraktorsub_id' => 1, // Ganti dengan ID yang sesuai
+    'asosiasimasjaki_id' => 1, // Ganti dengan ID yang sesuai
+    'namalengkap' => 'Mandra Kanta Unggul',
+    'alamat' => 'Desa Tawangrejo 003/005 Kunduran Kab. Blora Jawa Tengah',
+    'no_telepon' => '82324908547',
+    'email' => 'mandrakantaunggul@gmail.com',
+    'nib' => '0208220001109',
+    'pju' => 'WINARSIH',
+    'no_akte' => '25',
+    'tanggal' => '2024-07-21',
+    'nama_notaris' => 'DIAH TRIMURTI SALEH S.E., S.H., M.KN',
+    'no_pengesahan' => ' AHU-0049177-AH.01.14'
+]);
+bujkkontraktor::create([
+    'bujkkontraktorsub_id' => 1, // Ganti dengan ID yang sesuai
+    'asosiasimasjaki_id' => 1, // Ganti dengan ID yang sesuai
+    'namalengkap' => 'Mandra Kanta Unggul',
+    'alamat' => 'Desa Tawangrejo 003/005 Kunduran Kab. Blora Jawa Tengah',
+    'no_telepon' => '82324908547',
+    'email' => 'mandrakantaunggul@gmail.com',
+    'nib' => '0208220001109',
+    'pju' => 'WINARSIH',
+    'no_akte' => '25',
+    'tanggal' => '2024-07-21',
+    'nama_notaris' => 'DIAH TRIMURTI SALEH S.E., S.H., M.KN',
+    'no_pengesahan' => ' AHU-0049177-AH.01.14'
+]);
+bujkkontraktor::create([
+    'bujkkontraktorsub_id' => 1, // Ganti dengan ID yang sesuai
+    'asosiasimasjaki_id' => 1, // Ganti dengan ID yang sesuai
+    'namalengkap' => 'Mandra Kanta Unggul',
+    'alamat' => 'Desa Tawangrejo 003/005 Kunduran Kab. Blora Jawa Tengah',
+    'no_telepon' => '82324908547',
+    'email' => 'mandrakantaunggul@gmail.com',
+    'nib' => '0208220001109',
+    'pju' => 'WINARSIH',
+    'no_akte' => '25',
+    'tanggal' => '2024-07-21',
+    'nama_notaris' => 'DIAH TRIMURTI SALEH S.E., S.H., M.KN',
+    'no_pengesahan' => ' AHU-0049177-AH.01.14'
+]);
+bujkkontraktor::create([
+    'bujkkontraktorsub_id' => 1, // Ganti dengan ID yang sesuai
+    'asosiasimasjaki_id' => 1, // Ganti dengan ID yang sesuai
+    'namalengkap' => 'Mandra Kanta Unggul',
+    'alamat' => 'Desa Tawangrejo 003/005 Kunduran Kab. Blora Jawa Tengah',
+    'no_telepon' => '82324908547',
+    'email' => 'mandrakantaunggul@gmail.com',
+    'nib' => '0208220001109',
+    'pju' => 'WINARSIH',
+    'no_akte' => '25',
+    'tanggal' => '2024-07-21',
+    'nama_notaris' => 'DIAH TRIMURTI SALEH S.E., S.H., M.KN',
+    'no_pengesahan' => ' AHU-0049177-AH.01.14'
+]);
+bujkkontraktor::create([
+    'bujkkontraktorsub_id' => 1, // Ganti dengan ID yang sesuai
+    'asosiasimasjaki_id' => 1, // Ganti dengan ID yang sesuai
+    'namalengkap' => 'Mandra Kanta Unggul',
+    'alamat' => 'Desa Tawangrejo 003/005 Kunduran Kab. Blora Jawa Tengah',
+    'no_telepon' => '82324908547',
+    'email' => 'mandrakantaunggul@gmail.com',
+    'nib' => '0208220001109',
+    'pju' => 'WINARSIH',
+    'no_akte' => '25',
+    'tanggal' => '2024-07-21',
+    'nama_notaris' => 'DIAH TRIMURTI SALEH S.E., S.H., M.KN',
+    'no_pengesahan' => ' AHU-0049177-AH.01.14'
+]);
+bujkkontraktor::create([
+    'bujkkontraktorsub_id' => 1, // Ganti dengan ID yang sesuai
+    'asosiasimasjaki_id' => 1, // Ganti dengan ID yang sesuai
+    'namalengkap' => 'Mandra Kanta Unggul',
+    'alamat' => 'Desa Tawangrejo 003/005 Kunduran Kab. Blora Jawa Tengah',
+    'no_telepon' => '82324908547',
+    'email' => 'mandrakantaunggul@gmail.com',
+    'nib' => '0208220001109',
+    'pju' => 'WINARSIH',
+    'no_akte' => '25',
+    'tanggal' => '2024-07-21',
+    'nama_notaris' => 'DIAH TRIMURTI SALEH S.E., S.H., M.KN',
+    'no_pengesahan' => ' AHU-0049177-AH.01.14'
+]);
+bujkkontraktor::create([
+    'bujkkontraktorsub_id' => 1, // Ganti dengan ID yang sesuai
+    'asosiasimasjaki_id' => 1, // Ganti dengan ID yang sesuai
+    'namalengkap' => 'Mandra Kanta Unggul',
+    'alamat' => 'Desa Tawangrejo 003/005 Kunduran Kab. Blora Jawa Tengah',
+    'no_telepon' => '82324908547',
+    'email' => 'mandrakantaunggul@gmail.com',
+    'nib' => '0208220001109',
+    'pju' => 'WINARSIH',
+    'no_akte' => '25',
+    'tanggal' => '2024-07-21',
+    'nama_notaris' => 'DIAH TRIMURTI SALEH S.E., S.H., M.KN',
+    'no_pengesahan' => ' AHU-0049177-AH.01.14'
+]);
+bujkkontraktor::create([
+    'bujkkontraktorsub_id' => 1, // Ganti dengan ID yang sesuai
+    'asosiasimasjaki_id' => 1, // Ganti dengan ID yang sesuai
+    'namalengkap' => 'Mandra Kanta Unggul',
+    'alamat' => 'Desa Tawangrejo 003/005 Kunduran Kab. Blora Jawa Tengah',
+    'no_telepon' => '82324908547',
+    'email' => 'mandrakantaunggul@gmail.com',
+    'nib' => '0208220001109',
+    'pju' => 'WINARSIH',
+    'no_akte' => '25',
+    'tanggal' => '2024-07-21',
+    'nama_notaris' => 'DIAH TRIMURTI SALEH S.E., S.H., M.KN',
+    'no_pengesahan' => ' AHU-0049177-AH.01.14'
+]);
+bujkkontraktor::create([
+    'bujkkontraktorsub_id' => 1, // Ganti dengan ID yang sesuai
+    'asosiasimasjaki_id' => 1, // Ganti dengan ID yang sesuai
+    'namalengkap' => 'Mandra Kanta Unggul',
+    'alamat' => 'Desa Tawangrejo 003/005 Kunduran Kab. Blora Jawa Tengah',
+    'no_telepon' => '82324908547',
+    'email' => 'mandrakantaunggul@gmail.com',
+    'nib' => '0208220001109',
+    'pju' => 'WINARSIH',
+    'no_akte' => '25',
+    'tanggal' => '2024-07-21',
+    'nama_notaris' => 'DIAH TRIMURTI SALEH S.E., S.H., M.KN',
+    'no_pengesahan' => ' AHU-0049177-AH.01.14'
+]);
+bujkkontraktor::create([
+    'bujkkontraktorsub_id' => 1, // Ganti dengan ID yang sesuai
+    'asosiasimasjaki_id' => 1, // Ganti dengan ID yang sesuai
+    'namalengkap' => 'Mandra Kanta Unggul',
+    'alamat' => 'Desa Tawangrejo 003/005 Kunduran Kab. Blora Jawa Tengah',
+    'no_telepon' => '82324908547',
+    'email' => 'mandrakantaunggul@gmail.com',
+    'nib' => '0208220001109',
+    'pju' => 'WINARSIH',
+    'no_akte' => '25',
+    'tanggal' => '2024-07-21',
+    'nama_notaris' => 'DIAH TRIMURTI SALEH S.E., S.H., M.KN',
+    'no_pengesahan' => ' AHU-0049177-AH.01.14'
+]);
+bujkkontraktor::create([
+    'bujkkontraktorsub_id' => 1, // Ganti dengan ID yang sesuai
+    'asosiasimasjaki_id' => 1, // Ganti dengan ID yang sesuai
+    'namalengkap' => 'Mandra Kanta Unggul',
+    'alamat' => 'Desa Tawangrejo 003/005 Kunduran Kab. Blora Jawa Tengah',
+    'no_telepon' => '82324908547',
+    'email' => 'mandrakantaunggul@gmail.com',
+    'nib' => '0208220001109',
+    'pju' => 'WINARSIH',
+    'no_akte' => '25',
+    'tanggal' => '2024-07-21',
+    'nama_notaris' => 'DIAH TRIMURTI SALEH S.E., S.H., M.KN',
+    'no_pengesahan' => ' AHU-0049177-AH.01.14'
+]);
+bujkkontraktor::create([
+    'bujkkontraktorsub_id' => 1, // Ganti dengan ID yang sesuai
+    'asosiasimasjaki_id' => 1, // Ganti dengan ID yang sesuai
+    'namalengkap' => 'Mandra Kanta Unggul',
+    'alamat' => 'Desa Tawangrejo 003/005 Kunduran Kab. Blora Jawa Tengah',
+    'no_telepon' => '82324908547',
+    'email' => 'mandrakantaunggul@gmail.com',
+    'nib' => '0208220001109',
+    'pju' => 'WINARSIH',
+    'no_akte' => '25',
+    'tanggal' => '2024-07-21',
+    'nama_notaris' => 'DIAH TRIMURTI SALEH S.E., S.H., M.KN',
+    'no_pengesahan' => ' AHU-0049177-AH.01.14'
+]);
+bujkkontraktor::create([
+    'bujkkontraktorsub_id' => 1, // Ganti dengan ID yang sesuai
+    'asosiasimasjaki_id' => 1, // Ganti dengan ID yang sesuai
+    'namalengkap' => 'Mandra Kanta Unggul',
+    'alamat' => 'Desa Tawangrejo 003/005 Kunduran Kab. Blora Jawa Tengah',
+    'no_telepon' => '82324908547',
+    'email' => 'mandrakantaunggul@gmail.com',
+    'nib' => '0208220001109',
+    'pju' => 'WINARSIH',
+    'no_akte' => '25',
+    'tanggal' => '2024-07-21',
+    'nama_notaris' => 'DIAH TRIMURTI SALEH S.E., S.H., M.KN',
+    'no_pengesahan' => ' AHU-0049177-AH.01.14'
+]);
+bujkkontraktor::create([
+    'bujkkontraktorsub_id' => 1, // Ganti dengan ID yang sesuai
+    'asosiasimasjaki_id' => 1, // Ganti dengan ID yang sesuai
+    'namalengkap' => 'Mandra Kanta Unggul',
+    'alamat' => 'Desa Tawangrejo 003/005 Kunduran Kab. Blora Jawa Tengah',
+    'no_telepon' => '82324908547',
+    'email' => 'mandrakantaunggul@gmail.com',
+    'nib' => '0208220001109',
+    'pju' => 'WINARSIH',
+    'no_akte' => '25',
+    'tanggal' => '2024-07-21',
+    'nama_notaris' => 'DIAH TRIMURTI SALEH S.E., S.H., M.KN',
+    'no_pengesahan' => ' AHU-0049177-AH.01.14'
+]);
+bujkkontraktor::create([
+    'bujkkontraktorsub_id' => 1, // Ganti dengan ID yang sesuai
+    'asosiasimasjaki_id' => 1, // Ganti dengan ID yang sesuai
+    'namalengkap' => 'Mandra Kanta Unggul',
+    'alamat' => 'Desa Tawangrejo 003/005 Kunduran Kab. Blora Jawa Tengah',
+    'no_telepon' => '82324908547',
+    'email' => 'mandrakantaunggul@gmail.com',
+    'nib' => '0208220001109',
+    'pju' => 'WINARSIH',
+    'no_akte' => '25',
+    'tanggal' => '2024-07-21',
+    'nama_notaris' => 'DIAH TRIMURTI SALEH S.E., S.H., M.KN',
+    'no_pengesahan' => ' AHU-0049177-AH.01.14'
+]);
+bujkkontraktor::create([
+    'bujkkontraktorsub_id' => 1, // Ganti dengan ID yang sesuai
+    'asosiasimasjaki_id' => 1, // Ganti dengan ID yang sesuai
+    'namalengkap' => 'Mandra Kanta Unggul',
+    'alamat' => 'Desa Tawangrejo 003/005 Kunduran Kab. Blora Jawa Tengah',
+    'no_telepon' => '82324908547',
+    'email' => 'mandrakantaunggul@gmail.com',
+    'nib' => '0208220001109',
+    'pju' => 'WINARSIH',
+    'no_akte' => '25',
+    'tanggal' => '2024-07-21',
+    'nama_notaris' => 'DIAH TRIMURTI SALEH S.E., S.H., M.KN',
+    'no_pengesahan' => ' AHU-0049177-AH.01.14'
+]);
+bujkkontraktor::create([
+    'bujkkontraktorsub_id' => 1, // Ganti dengan ID yang sesuai
+    'asosiasimasjaki_id' => 1, // Ganti dengan ID yang sesuai
+    'namalengkap' => 'Mandra Kanta Unggul',
+    'alamat' => 'Desa Tawangrejo 003/005 Kunduran Kab. Blora Jawa Tengah',
+    'no_telepon' => '82324908547',
+    'email' => 'mandrakantaunggul@gmail.com',
+    'nib' => '0208220001109',
+    'pju' => 'WINARSIH',
+    'no_akte' => '25',
+    'tanggal' => '2024-07-21',
+    'nama_notaris' => 'DIAH TRIMURTI SALEH S.E., S.H., M.KN',
+    'no_pengesahan' => ' AHU-0049177-AH.01.14'
+]);
+bujkkontraktor::create([
+    'bujkkontraktorsub_id' => 1, // Ganti dengan ID yang sesuai
+    'asosiasimasjaki_id' => 1, // Ganti dengan ID yang sesuai
+    'namalengkap' => 'Mandra Kanta Unggul',
+    'alamat' => 'Desa Tawangrejo 003/005 Kunduran Kab. Blora Jawa Tengah',
+    'no_telepon' => '82324908547',
+    'email' => 'mandrakantaunggul@gmail.com',
+    'nib' => '0208220001109',
+    'pju' => 'WINARSIH',
+    'no_akte' => '25',
+    'tanggal' => '2024-07-21',
+    'nama_notaris' => 'DIAH TRIMURTI SALEH S.E., S.H., M.KN',
+    'no_pengesahan' => ' AHU-0049177-AH.01.14'
+]);
+bujkkontraktor::create([
+    'bujkkontraktorsub_id' => 1, // Ganti dengan ID yang sesuai
+    'asosiasimasjaki_id' => 1, // Ganti dengan ID yang sesuai
+    'namalengkap' => 'Mandra Kanta Unggul',
+    'alamat' => 'Desa Tawangrejo 003/005 Kunduran Kab. Blora Jawa Tengah',
+    'no_telepon' => '82324908547',
+    'email' => 'mandrakantaunggul@gmail.com',
+    'nib' => '0208220001109',
+    'pju' => 'WINARSIH',
+    'no_akte' => '25',
+    'tanggal' => '2024-07-21',
+    'nama_notaris' => 'DIAH TRIMURTI SALEH S.E., S.H., M.KN',
+    'no_pengesahan' => ' AHU-0049177-AH.01.14'
+]);
+bujkkontraktor::create([
+    'bujkkontraktorsub_id' => 1, // Ganti dengan ID yang sesuai
+    'asosiasimasjaki_id' => 1, // Ganti dengan ID yang sesuai
+    'namalengkap' => 'Mandra Kanta Unggul',
+    'alamat' => 'Desa Tawangrejo 003/005 Kunduran Kab. Blora Jawa Tengah',
+    'no_telepon' => '82324908547',
+    'email' => 'mandrakantaunggul@gmail.com',
+    'nib' => '0208220001109',
+    'pju' => 'WINARSIH',
+    'no_akte' => '25',
+    'tanggal' => '2024-07-21',
+    'nama_notaris' => 'DIAH TRIMURTI SALEH S.E., S.H., M.KN',
+    'no_pengesahan' => ' AHU-0049177-AH.01.14'
+]);
+bujkkontraktor::create([
+    'bujkkontraktorsub_id' => 1, // Ganti dengan ID yang sesuai
+    'asosiasimasjaki_id' => 1, // Ganti dengan ID yang sesuai
+    'namalengkap' => 'Mandra Kanta Unggul',
+    'alamat' => 'Desa Tawangrejo 003/005 Kunduran Kab. Blora Jawa Tengah',
+    'no_telepon' => '82324908547',
+    'email' => 'mandrakantaunggul@gmail.com',
+    'nib' => '0208220001109',
+    'pju' => 'WINARSIH',
+    'no_akte' => '25',
+    'tanggal' => '2024-07-21',
+    'nama_notaris' => 'DIAH TRIMURTI SALEH S.E., S.H., M.KN',
+    'no_pengesahan' => ' AHU-0049177-AH.01.14'
+]);
+bujkkontraktor::create([
+    'bujkkontraktorsub_id' => 1, // Ganti dengan ID yang sesuai
+    'asosiasimasjaki_id' => 1, // Ganti dengan ID yang sesuai
+    'namalengkap' => 'Mandra Kanta Unggul',
+    'alamat' => 'Desa Tawangrejo 003/005 Kunduran Kab. Blora Jawa Tengah',
+    'no_telepon' => '82324908547',
+    'email' => 'mandrakantaunggul@gmail.com',
+    'nib' => '0208220001109',
+    'pju' => 'WINARSIH',
+    'no_akte' => '25',
+    'tanggal' => '2024-07-21',
+    'nama_notaris' => 'DIAH TRIMURTI SALEH S.E., S.H., M.KN',
+    'no_pengesahan' => ' AHU-0049177-AH.01.14'
+]);
+bujkkontraktor::create([
+    'bujkkontraktorsub_id' => 1, // Ganti dengan ID yang sesuai
+    'asosiasimasjaki_id' => 1, // Ganti dengan ID yang sesuai
+    'namalengkap' => 'Mandra Kanta Unggul',
+    'alamat' => 'Desa Tawangrejo 003/005 Kunduran Kab. Blora Jawa Tengah',
+    'no_telepon' => '82324908547',
+    'email' => 'mandrakantaunggul@gmail.com',
+    'nib' => '0208220001109',
+    'pju' => 'WINARSIH',
+    'no_akte' => '25',
+    'tanggal' => '2024-07-21',
+    'nama_notaris' => 'DIAH TRIMURTI SALEH S.E., S.H., M.KN',
+    'no_pengesahan' => ' AHU-0049177-AH.01.14'
+]);
+bujkkontraktor::create([
+    'bujkkontraktorsub_id' => 1, // Ganti dengan ID yang sesuai
+    'asosiasimasjaki_id' => 1, // Ganti dengan ID yang sesuai
+    'namalengkap' => 'Mandra Kanta Unggul',
+    'alamat' => 'Desa Tawangrejo 003/005 Kunduran Kab. Blora Jawa Tengah',
+    'no_telepon' => '82324908547',
+    'email' => 'mandrakantaunggul@gmail.com',
+    'nib' => '0208220001109',
+    'pju' => 'WINARSIH',
+    'no_akte' => '25',
+    'tanggal' => '2024-07-21',
+    'nama_notaris' => 'DIAH TRIMURTI SALEH S.E., S.H., M.KN',
+    'no_pengesahan' => ' AHU-0049177-AH.01.14'
+]);
+bujkkontraktor::create([
+    'bujkkontraktorsub_id' => 1, // Ganti dengan ID yang sesuai
+    'asosiasimasjaki_id' => 1, // Ganti dengan ID yang sesuai
+    'namalengkap' => 'Mandra Kanta Unggul',
+    'alamat' => 'Desa Tawangrejo 003/005 Kunduran Kab. Blora Jawa Tengah',
+    'no_telepon' => '82324908547',
+    'email' => 'mandrakantaunggul@gmail.com',
+    'nib' => '0208220001109',
+    'pju' => 'WINARSIH',
+    'no_akte' => '25',
+    'tanggal' => '2024-07-21',
+    'nama_notaris' => 'DIAH TRIMURTI SALEH S.E., S.H., M.KN',
+    'no_pengesahan' => ' AHU-0049177-AH.01.14'
+]);
+bujkkontraktor::create([
+    'bujkkontraktorsub_id' => 1, // Ganti dengan ID yang sesuai
+    'asosiasimasjaki_id' => 1, // Ganti dengan ID yang sesuai
+    'namalengkap' => 'Mandra Kanta Unggul',
+    'alamat' => 'Desa Tawangrejo 003/005 Kunduran Kab. Blora Jawa Tengah',
+    'no_telepon' => '82324908547',
+    'email' => 'mandrakantaunggul@gmail.com',
+    'nib' => '0208220001109',
+    'pju' => 'WINARSIH',
+    'no_akte' => '25',
+    'tanggal' => '2024-07-21',
+    'nama_notaris' => 'DIAH TRIMURTI SALEH S.E., S.H., M.KN',
+    'no_pengesahan' => ' AHU-0049177-AH.01.14'
+]);
+bujkkontraktor::create([
+    'bujkkontraktorsub_id' => 1, // Ganti dengan ID yang sesuai
+    'asosiasimasjaki_id' => 1, // Ganti dengan ID yang sesuai
+    'namalengkap' => 'Mandra Kanta Unggul',
+    'alamat' => 'Desa Tawangrejo 003/005 Kunduran Kab. Blora Jawa Tengah',
+    'no_telepon' => '82324908547',
+    'email' => 'mandrakantaunggul@gmail.com',
+    'nib' => '0208220001109',
+    'pju' => 'WINARSIH',
+    'no_akte' => '25',
+    'tanggal' => '2024-07-21',
+    'nama_notaris' => 'DIAH TRIMURTI SALEH S.E., S.H., M.KN',
+    'no_pengesahan' => ' AHU-0049177-AH.01.14'
+]);
+bujkkontraktor::create([
+    'bujkkontraktorsub_id' => 1, // Ganti dengan ID yang sesuai
+    'asosiasimasjaki_id' => 1, // Ganti dengan ID yang sesuai
+    'namalengkap' => 'Mandra Kanta Unggul',
+    'alamat' => 'Desa Tawangrejo 003/005 Kunduran Kab. Blora Jawa Tengah',
+    'no_telepon' => '82324908547',
+    'email' => 'mandrakantaunggul@gmail.com',
+    'nib' => '0208220001109',
+    'pju' => 'WINARSIH',
+    'no_akte' => '25',
+    'tanggal' => '2024-07-21',
+    'nama_notaris' => 'DIAH TRIMURTI SALEH S.E., S.H., M.KN',
+    'no_pengesahan' => ' AHU-0049177-AH.01.14'
+]);
+bujkkontraktor::create([
+    'bujkkontraktorsub_id' => 1, // Ganti dengan ID yang sesuai
+    'asosiasimasjaki_id' => 1, // Ganti dengan ID yang sesuai
+    'namalengkap' => 'Mandra Kanta Unggul',
+    'alamat' => 'Desa Tawangrejo 003/005 Kunduran Kab. Blora Jawa Tengah',
+    'no_telepon' => '82324908547',
+    'email' => 'mandrakantaunggul@gmail.com',
+    'nib' => '0208220001109',
+    'pju' => 'WINARSIH',
+    'no_akte' => '25',
+    'tanggal' => '2024-07-21',
+    'nama_notaris' => 'DIAH TRIMURTI SALEH S.E., S.H., M.KN',
+    'no_pengesahan' => ' AHU-0049177-AH.01.14'
+]);
+bujkkontraktor::create([
+    'bujkkontraktorsub_id' => 1, // Ganti dengan ID yang sesuai
+    'asosiasimasjaki_id' => 1, // Ganti dengan ID yang sesuai
+    'namalengkap' => 'Mandra Kanta Unggul',
+    'alamat' => 'Desa Tawangrejo 003/005 Kunduran Kab. Blora Jawa Tengah',
+    'no_telepon' => '82324908547',
+    'email' => 'mandrakantaunggul@gmail.com',
+    'nib' => '0208220001109',
+    'pju' => 'WINARSIH',
+    'no_akte' => '25',
+    'tanggal' => '2024-07-21',
+    'nama_notaris' => 'DIAH TRIMURTI SALEH S.E., S.H., M.KN',
+    'no_pengesahan' => ' AHU-0049177-AH.01.14'
+]);
+bujkkontraktor::create([
+    'bujkkontraktorsub_id' => 1, // Ganti dengan ID yang sesuai
+    'asosiasimasjaki_id' => 1, // Ganti dengan ID yang sesuai
+    'namalengkap' => 'Mandra Kanta Unggul',
+    'alamat' => 'Desa Tawangrejo 003/005 Kunduran Kab. Blora Jawa Tengah',
+    'no_telepon' => '82324908547',
+    'email' => 'mandrakantaunggul@gmail.com',
+    'nib' => '0208220001109',
+    'pju' => 'WINARSIH',
+    'no_akte' => '25',
+    'tanggal' => '2024-07-21',
+    'nama_notaris' => 'DIAH TRIMURTI SALEH S.E., S.H., M.KN',
+    'no_pengesahan' => ' AHU-0049177-AH.01.14'
+]);
+bujkkontraktor::create([
+    'bujkkontraktorsub_id' => 1, // Ganti dengan ID yang sesuai
+    'asosiasimasjaki_id' => 1, // Ganti dengan ID yang sesuai
+    'namalengkap' => 'Mandra Kanta Unggul',
+    'alamat' => 'Desa Tawangrejo 003/005 Kunduran Kab. Blora Jawa Tengah',
+    'no_telepon' => '82324908547',
+    'email' => 'mandrakantaunggul@gmail.com',
+    'nib' => '0208220001109',
+    'pju' => 'WINARSIH',
+    'no_akte' => '25',
+    'tanggal' => '2024-07-21',
+    'nama_notaris' => 'DIAH TRIMURTI SALEH S.E., S.H., M.KN',
+    'no_pengesahan' => ' AHU-0049177-AH.01.14'
+]);
+bujkkontraktor::create([
+    'bujkkontraktorsub_id' => 1, // Ganti dengan ID yang sesuai
+    'asosiasimasjaki_id' => 1, // Ganti dengan ID yang sesuai
+    'namalengkap' => 'Mandra Kanta Unggul',
+    'alamat' => 'Desa Tawangrejo 003/005 Kunduran Kab. Blora Jawa Tengah',
+    'no_telepon' => '82324908547',
+    'email' => 'mandrakantaunggul@gmail.com',
+    'nib' => '0208220001109',
+    'pju' => 'WINARSIH',
+    'no_akte' => '25',
+    'tanggal' => '2024-07-21',
+    'nama_notaris' => 'DIAH TRIMURTI SALEH S.E., S.H., M.KN',
+    'no_pengesahan' => ' AHU-0049177-AH.01.14'
+]);
+bujkkontraktor::create([
+    'bujkkontraktorsub_id' => 1, // Ganti dengan ID yang sesuai
+    'asosiasimasjaki_id' => 1, // Ganti dengan ID yang sesuai
+    'namalengkap' => 'Mandra Kanta Unggul',
+    'alamat' => 'Desa Tawangrejo 003/005 Kunduran Kab. Blora Jawa Tengah',
+    'no_telepon' => '82324908547',
+    'email' => 'mandrakantaunggul@gmail.com',
+    'nib' => '0208220001109',
+    'pju' => 'WINARSIH',
+    'no_akte' => '25',
+    'tanggal' => '2024-07-21',
+    'nama_notaris' => 'DIAH TRIMURTI SALEH S.E., S.H., M.KN',
+    'no_pengesahan' => ' AHU-0049177-AH.01.14'
+]);
+bujkkontraktor::create([
+    'bujkkontraktorsub_id' => 1, // Ganti dengan ID yang sesuai
+    'asosiasimasjaki_id' => 1, // Ganti dengan ID yang sesuai
+    'namalengkap' => 'Mandra Kanta Unggul',
+    'alamat' => 'Desa Tawangrejo 003/005 Kunduran Kab. Blora Jawa Tengah',
+    'no_telepon' => '82324908547',
+    'email' => 'mandrakantaunggul@gmail.com',
+    'nib' => '0208220001109',
+    'pju' => 'WINARSIH',
+    'no_akte' => '25',
+    'tanggal' => '2024-07-21',
+    'nama_notaris' => 'DIAH TRIMURTI SALEH S.E., S.H., M.KN',
+    'no_pengesahan' => ' AHU-0049177-AH.01.14'
+]);
+bujkkontraktor::create([
+    'bujkkontraktorsub_id' => 1, // Ganti dengan ID yang sesuai
+    'asosiasimasjaki_id' => 1, // Ganti dengan ID yang sesuai
+    'namalengkap' => 'Mandra Kanta Unggul',
+    'alamat' => 'Desa Tawangrejo 003/005 Kunduran Kab. Blora Jawa Tengah',
+    'no_telepon' => '82324908547',
+    'email' => 'mandrakantaunggul@gmail.com',
+    'nib' => '0208220001109',
+    'pju' => 'WINARSIH',
+    'no_akte' => '25',
+    'tanggal' => '2024-07-21',
+    'nama_notaris' => 'DIAH TRIMURTI SALEH S.E., S.H., M.KN',
+    'no_pengesahan' => ' AHU-0049177-AH.01.14'
+]);
+bujkkontraktor::create([
+    'bujkkontraktorsub_id' => 1, // Ganti dengan ID yang sesuai
+    'asosiasimasjaki_id' => 1, // Ganti dengan ID yang sesuai
+    'namalengkap' => 'Mandra Kanta Unggul',
+    'alamat' => 'Desa Tawangrejo 003/005 Kunduran Kab. Blora Jawa Tengah',
+    'no_telepon' => '82324908547',
+    'email' => 'mandrakantaunggul@gmail.com',
+    'nib' => '0208220001109',
+    'pju' => 'WINARSIH',
+    'no_akte' => '25',
+    'tanggal' => '2024-07-21',
+    'nama_notaris' => 'DIAH TRIMURTI SALEH S.E., S.H., M.KN',
+    'no_pengesahan' => ' AHU-0049177-AH.01.14'
+]);
+bujkkontraktor::create([
+    'bujkkontraktorsub_id' => 1, // Ganti dengan ID yang sesuai
+    'asosiasimasjaki_id' => 1, // Ganti dengan ID yang sesuai
+    'namalengkap' => 'Mandra Kanta Unggul',
+    'alamat' => 'Desa Tawangrejo 003/005 Kunduran Kab. Blora Jawa Tengah',
+    'no_telepon' => '82324908547',
+    'email' => 'mandrakantaunggul@gmail.com',
+    'nib' => '0208220001109',
+    'pju' => 'WINARSIH',
+    'no_akte' => '25',
+    'tanggal' => '2024-07-21',
+    'nama_notaris' => 'DIAH TRIMURTI SALEH S.E., S.H., M.KN',
+    'no_pengesahan' => ' AHU-0049177-AH.01.14'
+]);
+bujkkontraktor::create([
+    'bujkkontraktorsub_id' => 1, // Ganti dengan ID yang sesuai
+    'asosiasimasjaki_id' => 1, // Ganti dengan ID yang sesuai
+    'namalengkap' => 'Mandra Kanta Unggul',
+    'alamat' => 'Desa Tawangrejo 003/005 Kunduran Kab. Blora Jawa Tengah',
+    'no_telepon' => '82324908547',
+    'email' => 'mandrakantaunggul@gmail.com',
+    'nib' => '0208220001109',
+    'pju' => 'WINARSIH',
+    'no_akte' => '25',
+    'tanggal' => '2024-07-21',
+    'nama_notaris' => 'DIAH TRIMURTI SALEH S.E., S.H., M.KN',
+    'no_pengesahan' => ' AHU-0049177-AH.01.14'
+]);
+bujkkontraktor::create([
+    'bujkkontraktorsub_id' => 1, // Ganti dengan ID yang sesuai
+    'asosiasimasjaki_id' => 1, // Ganti dengan ID yang sesuai
+    'namalengkap' => 'Mandra Kanta Unggul',
+    'alamat' => 'Desa Tawangrejo 003/005 Kunduran Kab. Blora Jawa Tengah',
+    'no_telepon' => '82324908547',
+    'email' => 'mandrakantaunggul@gmail.com',
+    'nib' => '0208220001109',
+    'pju' => 'WINARSIH',
+    'no_akte' => '25',
+    'tanggal' => '2024-07-21',
+    'nama_notaris' => 'DIAH TRIMURTI SALEH S.E., S.H., M.KN',
+    'no_pengesahan' => ' AHU-0049177-AH.01.14'
+]);
+bujkkontraktor::create([
+    'bujkkontraktorsub_id' => 1, // Ganti dengan ID yang sesuai
+    'asosiasimasjaki_id' => 1, // Ganti dengan ID yang sesuai
+    'namalengkap' => 'Mandra Kanta Unggul',
+    'alamat' => 'Desa Tawangrejo 003/005 Kunduran Kab. Blora Jawa Tengah',
+    'no_telepon' => '82324908547',
+    'email' => 'mandrakantaunggul@gmail.com',
+    'nib' => '0208220001109',
+    'pju' => 'WINARSIH',
+    'no_akte' => '25',
+    'tanggal' => '2024-07-21',
+    'nama_notaris' => 'DIAH TRIMURTI SALEH S.E., S.H., M.KN',
+    'no_pengesahan' => ' AHU-0049177-AH.01.14'
+]);
+bujkkontraktor::create([
+    'bujkkontraktorsub_id' => 1, // Ganti dengan ID yang sesuai
+    'asosiasimasjaki_id' => 1, // Ganti dengan ID yang sesuai
+    'namalengkap' => 'Mandra Kanta Unggul',
+    'alamat' => 'Desa Tawangrejo 003/005 Kunduran Kab. Blora Jawa Tengah',
+    'no_telepon' => '82324908547',
+    'email' => 'mandrakantaunggul@gmail.com',
+    'nib' => '0208220001109',
+    'pju' => 'WINARSIH',
+    'no_akte' => '25',
+    'tanggal' => '2024-07-21',
+    'nama_notaris' => 'DIAH TRIMURTI SALEH S.E., S.H., M.KN',
+    'no_pengesahan' => ' AHU-0049177-AH.01.14'
+]);
+bujkkontraktor::create([
+    'bujkkontraktorsub_id' => 1, // Ganti dengan ID yang sesuai
+    'asosiasimasjaki_id' => 1, // Ganti dengan ID yang sesuai
+    'namalengkap' => 'Mandra Kanta Unggul',
+    'alamat' => 'Desa Tawangrejo 003/005 Kunduran Kab. Blora Jawa Tengah',
+    'no_telepon' => '82324908547',
+    'email' => 'mandrakantaunggul@gmail.com',
+    'nib' => '0208220001109',
+    'pju' => 'WINARSIH',
+    'no_akte' => '25',
+    'tanggal' => '2024-07-21',
+    'nama_notaris' => 'DIAH TRIMURTI SALEH S.E., S.H., M.KN',
+    'no_pengesahan' => ' AHU-0049177-AH.01.14'
+]);
+bujkkontraktor::create([
+    'bujkkontraktorsub_id' => 1, // Ganti dengan ID yang sesuai
+    'asosiasimasjaki_id' => 1, // Ganti dengan ID yang sesuai
+    'namalengkap' => 'Mandra Kanta Unggul',
+    'alamat' => 'Desa Tawangrejo 003/005 Kunduran Kab. Blora Jawa Tengah',
+    'no_telepon' => '82324908547',
+    'email' => 'mandrakantaunggul@gmail.com',
+    'nib' => '0208220001109',
+    'pju' => 'WINARSIH',
+    'no_akte' => '25',
+    'tanggal' => '2024-07-21',
+    'nama_notaris' => 'DIAH TRIMURTI SALEH S.E., S.H., M.KN',
+    'no_pengesahan' => ' AHU-0049177-AH.01.14'
+]);
+bujkkontraktor::create([
+    'bujkkontraktorsub_id' => 1, // Ganti dengan ID yang sesuai
+    'asosiasimasjaki_id' => 1, // Ganti dengan ID yang sesuai
+    'namalengkap' => 'Mandra Kanta Unggul',
+    'alamat' => 'Desa Tawangrejo 003/005 Kunduran Kab. Blora Jawa Tengah',
+    'no_telepon' => '82324908547',
+    'email' => 'mandrakantaunggul@gmail.com',
+    'nib' => '0208220001109',
+    'pju' => 'WINARSIH',
+    'no_akte' => '25',
+    'tanggal' => '2024-07-21',
+    'nama_notaris' => 'DIAH TRIMURTI SALEH S.E., S.H., M.KN',
+    'no_pengesahan' => ' AHU-0049177-AH.01.14'
+]);
+bujkkontraktor::create([
+    'bujkkontraktorsub_id' => 1, // Ganti dengan ID yang sesuai
+    'asosiasimasjaki_id' => 1, // Ganti dengan ID yang sesuai
+    'namalengkap' => 'Mandra Kanta Unggul',
+    'alamat' => 'Desa Tawangrejo 003/005 Kunduran Kab. Blora Jawa Tengah',
+    'no_telepon' => '82324908547',
+    'email' => 'mandrakantaunggul@gmail.com',
+    'nib' => '0208220001109',
+    'pju' => 'WINARSIH',
+    'no_akte' => '25',
+    'tanggal' => '2024-07-21',
+    'nama_notaris' => 'DIAH TRIMURTI SALEH S.E., S.H., M.KN',
+    'no_pengesahan' => ' AHU-0049177-AH.01.14'
+]);
 
 // -----------------------
 
