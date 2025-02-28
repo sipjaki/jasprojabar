@@ -15,24 +15,55 @@ use Illuminate\Support\Facades\Auth;
 class BujkkonsultanController extends Controller
 {
     //
+    // public function bujkkonsultan(Request $request)
+    // {
+
+    //     $perPage = $request->input('perPage', 200); // Ambil jumlah data dari request, default 10
+    //     $data = bujkkonsultan::paginate($perPage);
+    //     $datasub = bujkkonsultansub::all();
+    //     $user = Auth::user();
+
+    //     return view('frontend.03_masjaki_jakon.02_bujkkonsultan.bujkkonsultan', [
+    //         'title' => 'BUJK Konstruksi',
+    //         'user' => $user,
+    //         'data' => $data,
+    //         'datasub' => $datasub,
+    //         'perPage' => $perPage // Kirim nilai perPage ke view
+    //     ]);
+
+
+    // }
+
+
     public function bujkkonsultan(Request $request)
-    {
+{
+    $perPage = $request->input('perPage', 10);
+    $search = $request->input('search');
 
-        $perPage = $request->input('perPage', 200); // Ambil jumlah data dari request, default 10
-        $data = bujkkonsultan::paginate($perPage);
-        $datasub = bujkkonsultansub::all();
-        $user = Auth::user();
+    $query = bujkkontraktor::query();
 
-        return view('frontend.03_masjaki_jakon.02_bujkkonsultan.bujkkonsultan', [
-            'title' => 'BUJK Konstruksi',
-            'user' => $user,
-            'data' => $data,
-            'datasub' => $datasub,
-            'perPage' => $perPage // Kirim nilai perPage ke view
-        ]);
-
-
+    if ($search) {
+        $query->where('namalengkap', 'LIKE', "%{$search}%")
+              ->orWhere('alamat', 'LIKE', "%{$search}%")
+              ->orWhere('email', 'LIKE', "%{$search}%")
+              ->orWhere('nib', 'LIKE', "%{$search}%");
     }
+
+    $data = $query->paginate($perPage);
+
+    if ($request->ajax()) {
+        return response()->json([
+            'html' => view('frontend.03_masjaki_jakon.02_bujkkonsultan.partials.table', compact('data'))->render()
+        ]);
+    }
+
+    return view('frontend.03_masjaki_jakon.02_bujkkonsultan.bujkkonsultan', [
+        'title' => 'BUJK Konsultasi Konstruksi',
+        'data' => $data,
+        'perPage' => $perPage,
+        'search' => $search
+    ]);
+}
 
     public function bujkkonsultanshow($namalengkap)
     {

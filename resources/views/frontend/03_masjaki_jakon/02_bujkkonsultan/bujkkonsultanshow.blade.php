@@ -88,7 +88,7 @@ color: #45a049;
 
 
             .badgekembali {
-                background: linear-gradient(to right, green, green);
+                background: linear-gradient(to right, white, green);
                 color: white;
                 padding: 10px 20px;
                 border-radius: 10px;
@@ -106,7 +106,7 @@ color: #45a049;
             }
 
             .green-button {
-                background: linear-gradient(to right, navy, navy);
+                background: linear-gradient(to right, white, green);
                 color: white;
                 padding: 10px 20px;
                 border-radius: 10px;
@@ -118,6 +118,24 @@ color: #45a049;
                 transition: background-color 0.3s, color 0.3s;
             }
             .green-button:hover {
+                background-color: white;
+                color: black;
+                background: white;
+            }
+
+            .menusub-button {
+                background: linear-gradient(to right, black, green);
+                color: white;
+                padding: 10px 20px;
+                border-radius: 10px;
+                display: inline-block;
+                font-size: 1rem;
+                text-align: center;
+                font-size: 12px;
+                cursor: pointer;
+                transition: background-color 0.3s, color 0.3s;
+            }
+            .menusub-button:hover {
                 background-color: white;
                 color: black;
                 background: white;
@@ -166,47 +184,42 @@ color: #45a049;
                                     <div class="col-lg-12">
                                                                             </div><!-- col-lg-12 -->
                                     <div class="col-xxl-12 col-lg-12">
-                                        <div class="donate-box-inner" style="margin-top: -120px;">
+                                        <div class="donate-box-inner" style="margin-top: -85px;">
                                             <ul class="nav nav-pills" id="pills-tab" role="tablist">
                                                 {{-- <img src="/assets/icon/logopupr.png" class="img-fluid" alt="img-25" width="50" style="margin-right: 20px;" loading="lazy"> --}}
                                                 <div style="display: flex; justify-content: space-between; width: 100%; align-items: center; margin-top: 20px;">
-                                                    <img src="/assets/icon/logokabupatenblora.png" class="img-fluid" alt="img-25" width="50" height="50" style="margin-right: 20px;" loading="lazy">
+                                                    {{-- <img src="/assets/icon/logokabupatenblora.png" class="img-fluid" alt="img-25" width="50" height="50" style="margin-right: 20px;" loading="lazy"> --}}
                                                     <!-- Tombol dan kolom pencarian di kanan -->
-                                                    <div style="display: flex; align-items: center;">
-
-                                                        <a href="/datajakon/bujkkonsultan" style="background: white;">
+                                                        <button class="green-button" style="margin-bottom:10px; text-transform:uppercase">
+                                                            <img src="/assets/icon/logokabupatenblora.png" class="img-fluid" alt="img-25" width="50" height="50" style="margin-right: 20px;" loading="lazy">
+                                                            <i class="fas fa-file mr-2" style="margin-right:5px;"></i> <span style="color: black;">INFORMASI BUJK KONTRAKTOR : {{$data->namalengkap}}</span>
+                                                        </button>
+                                                        <a href="/datajakon/bujkkontraktor" style="background: white;">
                                                             <button class="badgekembali" style="border: none; font-size: 12px; cursor: pointer; margin-right: 10px;">
-                                                                <i class="fas fa-arrow-circle-left mr-2" style="margin-right: 15px;"></i> KEMBALI
+                                                                <i class="fas fa-arrow-circle-left mr-2" style="margin-right: 15px; color:red;"></i> <span style="color: black;">KEMBALI</span>
                                                             </button>
                                                         </a>
 
-                                                    </div>
+
                                                 </div>
 
                                                 </ul>
 
                                             <div class="centered-button" style="margin-top: -15px;">
-                                                <button class="green-button" style="margin-bottom:10px; text-transform:uppercase">
-                                                    <i class="fas fa-file mr-2" style="margin-right:5px;"></i> INFORMASI BUJK KONTRAKTOR : {{$data->namalengkap}}
-                                                </button>
 
                                             </div>
                                             <form action="#" class="contact-form donation" method="post">
                                                 <div class="row row-gutter-10">
-                                                    <div class="col-lg-6">
+                                                    <div class="col-lg-8">
                                                         <h6><i class="fas fa-user mr-2" style="margin-right: 5px;"></i>Nama Pemilik </h6>
                                                         <input type="text" id="fname" class="input-text" placeholder="{{$data->namalengkap}}" name="fname" aria-required="true" readonly>
                                                     </div><!-- col-lg-6 -->
 
-                                                    <div class="col-lg-3">
+                                                    <div class="col-lg-4">
                                                         <h6><i class="fas fa-phone-alt mr-2" style="margin-right: 5px;"></i>No Telepon</h6>
                                                         <input type="text" id="fname" class="input-text" placeholder="{{$data->no_telepon}}" name="fname" aria-required="true" readonly>
                                                     </div><!-- col-lg-3 -->
 
-                                                    <div class="col-lg-3">
-                                                        <h6><i class="fas fa-id-card mr-2" style="margin-right: 5px;"></i>Nomor Induk Berusaha</h6>
-                                                        <input type="text" id="fname" class="input-text" placeholder="{{$data->nib}}" name="fname" aria-required="true" readonly>
-                                                    </div><!-- col-lg-3 -->
 
                                                     <div class="col-lg-12">
                                                         <h6><i class="fas fa-map-marker-alt mr-2" style="margin-right: 5px;"></i>Alamat</h6>
@@ -219,6 +232,11 @@ color: #45a049;
                                                     </div><!-- col-lg-6 -->
 
                                                     <div class="col-lg-6">
+                                                        <h6><i class="fas fa-id-card mr-2" style="margin-right: 5px;"></i>Nomor Induk Berusaha</h6>
+                                                        <input type="text" id="fname" class="input-text" placeholder="{{$data->nib}}" name="fname" aria-required="true" readonly>
+                                                    </div><!-- col-lg-3 -->
+
+                                                    {{-- <div class="col-lg-6">
                                                         <h6><i class="fas fa-user-tie mr-2" style="margin-right: 5px;"></i>Penanggung Jawab Umum</h6>
                                                         <input type="text" id="fname" class="input-text" placeholder="{{$data->pju}}" name="fname" aria-required="true" readonly>
                                                     </div><!-- col-lg-6 -->
@@ -241,7 +259,7 @@ color: #45a049;
                                                     <div class="col-lg-6">
                                                         <h6><i class="fas fa-check-circle mr-2" style="margin-right: 5px;"></i>No Pengesahan</h6>
                                                         <input type="text" id="fname" class="input-text" placeholder="{{$data->no_pengesahan}}" name="fname" aria-required="true" readonly>
-                                                    </div><!-- col-lg-6 -->
+                                                    </div><!-- col-lg-6 --> --}}
                                                                                 </div><!-- row row-gutter-10 -->
                                             </form><!-- contact-form -->
                                         </div><!-- donate-box-inner -->
@@ -263,7 +281,7 @@ color: #45a049;
                         <div class="document-details">
 							<div class="document-details-list">
                                 <div class="centered-button" style="margin-top: -15px">
-                                    <button class="green-button" style="margin-bottom:10px; text-transform:uppercase">
+                                    <button class="menusub-button" style="margin-bottom:10px; text-transform:uppercase">
                                         <i class="fas fa-file mr-2" style="margin-right:5px;"></i> SUB KLASIFIKASI LAYANAN : {{$data->namalengkap}}
                                     </button>
 
@@ -288,7 +306,7 @@ color: #45a049;
                                 <th style="text-align:center" style="color: black">Tanggal Terbit</th>
                                 <th style="text-align:center" style="color: black">Masa Berlaku</th>
                                 <th style="text-align:center" style="color: black">Nama PSJK</th>
-                                <th style="text-align:center" style="color: black">Sub Kualifikasi Badan Usaha</th>
+                                {{-- <th style="text-align:center" style="color: black">Sub Kualifikasi Badan Usaha</th> --}}
                                 </tr>
                         </thead>
                         <tbody>
@@ -300,7 +318,7 @@ color: #45a049;
 
                         @foreach ($subData as $item)
                         <tr>
-                            <td>{{ $loop->iteration + $start - 1 }}</td>
+                            <td style="text-align: center;">{{ $loop->iteration + $start - 1 }}</td>
                             <td>{{$item->nama_pengurus}}</td>
                             <td>{{$item->sub_klasifikasi_layanan}}</td>
                             <td>{{$item->kode}}</td>
@@ -309,7 +327,7 @@ color: #45a049;
                             <td>{{$item->tanggal_terbit}}</td>
                             <td>{{$item->masa_berlaku}}</td>
                             <td>{{$item->nama_psjk}}</td>
-                            <td>{{$item->sub_kualifikasi_bu}}</td>
+                            {{-- <td>{{$item->sub_kualifikasi_bu}}</td> --}}
                         </tr>
                         @endforeach
 
