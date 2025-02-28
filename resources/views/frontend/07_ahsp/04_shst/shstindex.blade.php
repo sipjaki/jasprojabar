@@ -275,6 +275,11 @@ color: #45a049;
                                     <td>Bangunan Tidak Sederhana</td>
                                     <td>{{ 'Rp ' . number_format($item->bangunankantortidaksederhana, 0, ',', '.') }}</td>
                                 </tr>
+                                <tr>
+                                    <td style="text-align: center;">1</td>
+                                    <td>Bangunan Sederhana</td>
+                                    <td>{{ 'Rp ' . number_format($item->bangunankantorsederhana, 0, ',', '.') }}</td>
+                                </tr>
 
                                 @endforeach
                             </tbody>
@@ -288,7 +293,7 @@ color: #45a049;
                             <a href="#" style="background: white;">
                                 <button class="badgepupr" style="border: none; font-size: 12px; cursor: pointer;">
                                     <img src="/assets/icon/pupr.png" class="img-fluid" alt="img-25" width="50" height="50" style="margin-right: 20px;" loading="lazy">
-                                    <i class="fas fa-list mr-2" style="margin-right: 10px;"></i> <span style="text-transform: uppercase; font-weight:800; color:black">Bangunan Kantor dan Bangunan Lainya Per M2 (Meter Persegi)</span>
+                                    <i class="fas fa-list mr-2" style="margin-right: 10px;"></i> <span style="text-transform: uppercase; font-weight:800; color:black">Bangunan Gedung Rumah Negara Per M2 (Meter Persegi)</span>
                                 </button>
                             </a>
                             <body>
@@ -314,8 +319,18 @@ color: #45a049;
                                 @foreach ($data as $item )
                                 <tr>
                                     <td style="text-align: center;">1</td>
-                                    <td>Bangunan Tidak Sederhana</td>
-                                    <td>{{ 'Rp ' . number_format($item->bangunankantortidaksederhana, 0, ',', '.') }}</td>
+                                    <td>Rumah Negara Tipe A</td>
+                                    <td>{{ 'Rp ' . number_format($item->rumahnegaratipea, 0, ',', '.') }}</td>
+                                </tr>
+                                <tr>
+                                    <td style="text-align: center;">1</td>
+                                    <td>Rumah Negara Tipe B</td>
+                                    <td>{{ 'Rp ' . number_format($item->rumahnegaratipea, 0, ',', '.') }}</td>
+                                </tr>
+                                <tr>
+                                    <td style="text-align: center;">1</td>
+                                    <td>Rumah Negara Tipe C, D, E</td>
+                                    <td>{{ 'Rp ' . number_format($item->rumahnegaratipecde, 0, ',', '.') }}</td>
                                 </tr>
 
                                 @endforeach
