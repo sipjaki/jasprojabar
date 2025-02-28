@@ -276,7 +276,7 @@ color: #45a049;
                                     <td>{{ 'Rp ' . number_format($item->bangunankantortidaksederhana, 0, ',', '.') }}</td>
                                 </tr>
                                 <tr>
-                                    <td style="text-align: center;">1</td>
+                                    <td style="text-align: center;">2</td>
                                     <td>Bangunan Sederhana</td>
                                     <td>{{ 'Rp ' . number_format($item->bangunankantorsederhana, 0, ',', '.') }}</td>
                                 </tr>
@@ -323,12 +323,12 @@ color: #45a049;
                                     <td>{{ 'Rp ' . number_format($item->rumahnegaratipea, 0, ',', '.') }}</td>
                                 </tr>
                                 <tr>
-                                    <td style="text-align: center;">1</td>
+                                    <td style="text-align: center;">2</td>
                                     <td>Rumah Negara Tipe B</td>
                                     <td>{{ 'Rp ' . number_format($item->rumahnegaratipea, 0, ',', '.') }}</td>
                                 </tr>
                                 <tr>
-                                    <td style="text-align: center;">1</td>
+                                    <td style="text-align: center;">3</td>
                                     <td>Rumah Negara Tipe C, D, E</td>
                                     <td>{{ 'Rp ' . number_format($item->rumahnegaratipecde, 0, ',', '.') }}</td>
                                 </tr>
