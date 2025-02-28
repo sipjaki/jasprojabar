@@ -39,34 +39,36 @@ class BujkkontraktorController extends Controller
 
 
     public function bujkkontraktor(Request $request)
-    {
-        $perPage = $request->input('perPage', 10); // Default 10
-        $search = $request->input('search'); // Ambil query pencarian dari request
+{
+    $perPage = $request->input('perPage', 10);
+    $search = $request->input('search');
 
-        // Query utama
-        $query = bujkkontraktor::query();
+    $query = bujkkontraktor::query();
 
-        // Jika ada input pencarian, tambahkan kondisi ke query
-        if ($search) {
-            $query->where('namalengkap', 'LIKE', "%{$search}%")
-                  ->orWhere('alamat', 'LIKE', "%{$search}%")
-                  ->orWhere('email', 'LIKE', "%{$search}%")
-                  ->orWhere('nib', 'LIKE', "%{$search}%");
-        }
+    if ($search) {
+        $query->where('namalengkap', 'LIKE', "%{$search}%")
+              ->orWhere('alamat', 'LIKE', "%{$search}%")
+              ->orWhere('email', 'LIKE', "%{$search}%")
+              ->orWhere('nib', 'LIKE', "%{$search}%");
+    }
 
-        $data = $query->paginate($perPage); // Pagination dengan hasil filter
-        $datasub = bujkkontraktorsub::all();
-        $user = Auth::user();
+    $data = $query->paginate($perPage);
 
-        return view('frontend.03_masjaki_jakon.01_bujkkontraktor.bujkkontraktor', [
-            'title' => 'BUJK Konstruksi',
-            'user' => $user,
-            'data' => $data,
-            'datasub' => $datasub,
-            'perPage' => $perPage, // Kirim nilai perPage ke view
-            'search' => $search // Kirim kata kunci pencarian ke view
+    // Jika permintaan berasal dari AJAX, kirim hanya tabel sebagai respons
+    if ($request->ajax()) {
+        return response()->json([
+            'html' => view('frontend.03_masjaki_jakon.01_bujkkontraktor.partials.table', compact('data'))->render()
         ]);
     }
+
+    return view('frontend.03_masjaki_jakon.01_bujkkontraktor.bujkkontraktor', [
+        'title' => 'BUJK Konstruksi',
+        'data' => $data,
+        'perPage' => $perPage,
+        'search' => $search
+    ]);
+}
+
     public function bujkkontraktorshow($namalengkap)
     {
         $databujkkontraktor = bujkkontraktor::where('namalengkap', $namalengkap)->first();
