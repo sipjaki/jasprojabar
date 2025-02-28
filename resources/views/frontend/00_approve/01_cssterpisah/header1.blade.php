@@ -115,10 +115,10 @@
 				</div><!--main-menu-logo-->
 				<div class="navigation">
 					<ul class="main-menu-list list-unstyled">
-                        <li class="active"><a href="/">Beranda</a>
+                        <li class="active"><a href="/">BERANDA</a>
 
 						<li class="active has-dropdown">
-							<a href="#">Kelembagaan</a>
+							<a href="#">KELEMBAGAAN</a>
 							<ul class="list-unstyled">
 								<li><a href="/profil/struktur">Struktur DPUPR Kab Blora</a></li>
 								<li><a href="/profil/rencanastrategis">Renstra Program Kab Blora</a></li>
@@ -127,7 +127,7 @@
 						</li><!--has-dropdown-->
 
 						<li class="active has-dropdown">
-							<a href="#">Berita</a>
+							<a href="#">BERITA</a>
 							<ul class="list-unstyled">
 								<li><a href="/404">Jasa Konstruksi</a></li>
 								<li><a href="/404">Dokumen Sertifikasi</a></li>
@@ -136,7 +136,7 @@
 						</li><!--has-dropdown-->
 
                         <li class="active has-dropdown">
-							<a href="#">Data Jakon</a>
+							<a href="#">DATA JAKON</a>
 							<ul class="list-unstyled">
 								<li><a href="/datajakon/bujk">BUJK Kontraktor dan Konsultan</a></li>
 								{{-- <li><a href="/404">BUJK Konsultan</a></li> --}}
@@ -146,7 +146,7 @@
 						</li><!--has-dropdown-->
 
                         <li class="active has-dropdown">
-							<a href="#">Pembinaan</a>
+							<a href="#">PEMBINAAN</a>
 							<ul class="list-unstyled">
 								<li><a href="/agendapembinaan">Agenda Pembinaan</a></li>
 								<li><a href="/404">Pelatihan</a></li>
@@ -158,7 +158,7 @@
 						</li><!--has-dropdown-->
 
                         <li class="active has-dropdown">
-							<a href="#">Pengawasan</a>
+							<a href="#">PENGAWASAN</a>
 							<ul class="list-unstyled">
 								<li><a href="/pengawasanbujk">Pengawasan BUJK</a></li>
 								<li><a href="/kecelakaankerja">Kecelakaan Kerja</a></li>
@@ -167,7 +167,7 @@
 						</li><!--has-dropdown-->
 
                         <li class="active has-dropdown">
-							<a href="#">Rantai Pasok </a>
+							<a href="#">RANTAI PASOK</a>
 							<ul class="list-unstyled">
 								<li><a href="/rantaipasokmaterial">Material Bangunan Gedung </a></li>
 								<li><a href="/peralatankonstruksi">Peralatan Konstruksi</a></li>
@@ -178,7 +178,6 @@
                         <li class="active has-dropdown">
 							<a href="#">AHSP</a>
 							<ul class="list-unstyled">
-								<li><a href="/standarbiayaumummasjaki">Standar Biaya Umum </a></li>
                                 <li><a href="/404">Harga Satuan Dasar </a></li>
 								<li><a href="/hspkonstruksiumum">HSP Konstruksi Umum </a></li>
 								<li><a href="/shstblora">SHST Konstruksi</a></li>
@@ -187,8 +186,9 @@
 						</li><!--has-dropdown-->
 
                         <li class="active has-dropdown">
-							<a href="#">Peraturan</a>
+                            <a href="#">PERATURAN</a>
 							<ul class="list-unstyled">
+                                <li><a href="/standarbiayaumummasjaki">Standar Biaya Umum </a></li>
 								<li><a href="/peraturan/undangundang">Undang - Undang </a></li>
 								<li><a href="/peraturan/pemerintah">Peraturan Pemerintah</a></li>
 								<li><a href="/peraturan/presiden">Peraturan Presiden</a></li>
