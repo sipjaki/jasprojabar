@@ -176,7 +176,7 @@ color: #45a049;
 
                                                         <a href="/datajakon/bujkkontraktor" style="background: white;">
                                                             <button class="badgekembali" style="border: none; font-size: 12px; cursor: pointer; margin-right: 10px;">
-                                                                <i class="fas fa-arrow-circle-left mr-2" style="margin-right: 15px;"></i> KEMBALI
+                                                                <i class="fas fa-arrow-circle-left mr-2" style="margin-right: 15px; color:red;"></i> KEMBALI
                                                             </button>
                                                         </a>
 
