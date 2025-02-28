@@ -18,7 +18,7 @@ class BujkkonsultanController extends Controller
     public function bujkkonsultan(Request $request)
     {
 
-        $perPage = $request->input('perPage', 10); // Ambil jumlah data dari request, default 10
+        $perPage = $request->input('perPage', 200); // Ambil jumlah data dari request, default 10
         $data = bujkkonsultan::paginate($perPage);
         $datasub = bujkkonsultansub::all();
         $user = Auth::user();
