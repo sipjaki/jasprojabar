@@ -186,32 +186,20 @@ color: #45a049;
 
                         <body>
                             <div class="table-wrapper" style="margin-top:-130px; position: relative;">
-                                <div style="position: absolute; right: 10px; top: -50px; background: white; border: 1px solid black; padding: 5px; z-index: 100;">
-                                    <label for="sortOptions">Sort by:</label>
-                                    <select id="sortOptions" onchange="sortTable()" style="margin-left: 5px;">
-                                        <option value="1">Nama Badan Usaha (A-Z)</option>
-                                        <option value="1_desc">Nama Badan Usaha (Z-A)</option>
-                                        <option value="2">Alamat (A-Z)</option>
-                                        <option value="2_desc">Alamat (Z-A)</option>
-                                        <option value="3">No Telepon (Asc)</option>
-                                        <option value="3_desc">No Telepon (Desc)</option>
-                                    </select>
-                                </div>
-
-                                <table class="fl-table" id="sortableTable">
+                                <table class="fl-table" id="sortableTable" style="margin-top: 50px; width: 100%; border-collapse: collapse;">
                                     <thead>
                                         <tr>
-                                            <th style="text-align:center"> No </th>
-                                            <th style="text-align:center"> Nama Badan Usaha </th>
-                                            <th style="text-align:center"> Alamat </th>
-                                            <th style="text-align:center"> No Telepon </th>
-                                            <th style="text-align:center"> Email </th>
-                                            <th style="text-align:center"> NIB </th>
-                                            <th style="text-align:center"> PJU </th>
-                                            <th style="text-align:center"> Akte </th>
-                                            <th style="text-align:center"> Tanggal </th>
-                                            <th style="text-align:center"> Notaris </th>
-                                            <th style="text-align:center"> Pengesahan </th>
+                                            <th onclick="sortTable(0)" style="cursor:pointer; text-align:center"> No <span class="sort-icon">⇅</span></th>
+                                            <th onclick="sortTable(1)" style="cursor:pointer; text-align:center"> Nama Badan Usaha <span class="sort-icon">⇅</span></th>
+                                            <th onclick="sortTable(2)" style="cursor:pointer; text-align:center"> Alamat <span class="sort-icon">⇅</span></th>
+                                            <th onclick="sortTable(3)" style="cursor:pointer; text-align:center"> No Telepon <span class="sort-icon">⇅</span></th>
+                                            <th onclick="sortTable(4)" style="cursor:pointer; text-align:center"> Email <span class="sort-icon">⇅</span></th>
+                                            <th onclick="sortTable(5)" style="cursor:pointer; text-align:center"> NIB <span class="sort-icon">⇅</span></th>
+                                            <th onclick="sortTable(6)" style="cursor:pointer; text-align:center"> PJU <span class="sort-icon">⇅</span></th>
+                                            <th onclick="sortTable(7)" style="cursor:pointer; text-align:center"> Akte <span class="sort-icon">⇅</span></th>
+                                            <th onclick="sortTable(8)" style="cursor:pointer; text-align:center"> Tanggal <span class="sort-icon">⇅</span></th>
+                                            <th onclick="sortTable(9)" style="cursor:pointer; text-align:center"> Notaris <span class="sort-icon">⇅</span></th>
+                                            <th onclick="sortTable(10)" style="cursor:pointer; text-align:center"> Pengesahan <span class="sort-icon">⇅</span></th>
                                             <th style="text-align:center"> View </th>
                                         </tr>
                                     </thead>
@@ -241,27 +229,40 @@ color: #45a049;
                                 </table>
                             </div>
 
+                            <style>
+                                .sort-icon {
+                                    font-size: 12px;
+                                    color: gray;
+                                    margin-left: 5px;
+                                }
+                                th {
+                                    padding: 10px;
+                                    border-bottom: 2px solid black;
+                                }
+                                th:hover {
+                                    background-color: #f2f2f2;
+                                }
+                            </style>
+
                             <script>
-                            function sortTable() {
+                            let sortDirection = {};
+                            function sortTable(columnIndex) {
                                 var table = document.getElementById("sortableTable");
                                 var tbody = table.querySelector("tbody");
                                 var rows = Array.from(tbody.rows);
-                                var select = document.getElementById("sortOptions");
-                                var selectedValue = select.value;
-                                var columnIndex = parseInt(selectedValue);
-                                var isDescending = selectedValue.includes("_desc");
+                                var isAscending = !sortDirection[columnIndex];
 
                                 rows.sort((rowA, rowB) => {
                                     let cellA = rowA.cells[columnIndex].innerText.trim().toLowerCase();
                                     let cellB = rowB.cells[columnIndex].innerText.trim().toLowerCase();
 
-                                    return isDescending ? cellB.localeCompare(cellA) : cellA.localeCompare(cellB);
+                                    return isAscending ? cellA.localeCompare(cellB) : cellB.localeCompare(cellA);
                                 });
 
+                                sortDirection[columnIndex] = isAscending;
                                 rows.forEach(row => tbody.appendChild(row));
                             }
                             </script>
-
                                         </div><!-- donate-box-inner -->
                                         </div><!-- col-xl-8 col-lg-12 -->
                                     </div><!-- row -->
