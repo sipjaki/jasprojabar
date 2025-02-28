@@ -54,7 +54,6 @@ class BujkkontraktorController extends Controller
 
     $data = $query->paginate($perPage);
 
-    // Jika permintaan berasal dari AJAX, kirim hanya tabel sebagai respons
     if ($request->ajax()) {
         return response()->json([
             'html' => view('frontend.03_masjaki_jakon.01_bujkkontraktor.partials.table', compact('data'))->render()

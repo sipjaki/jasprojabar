@@ -318,7 +318,7 @@ color: #45a049;
 
                         @foreach ($subData as $item)
                         <tr>
-                            <td>{{ $loop->iteration + $start - 1 }}</td>
+                            <td style="text-align: center;">{{ $loop->iteration + $start - 1 }}</td>
                             <td>{{$item->nama_pengurus}}</td>
                             <td>{{$item->sub_klasifikasi_layanan}}</td>
                             <td>{{$item->kode}}</td>
