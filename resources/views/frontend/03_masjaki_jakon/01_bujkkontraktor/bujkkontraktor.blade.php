@@ -186,7 +186,7 @@ color: #45a049;
 
                         <body>
 
-                            <div class="table-wrapper" style="margin-top:-130px; position: relative;">
+                            <div class="table-wrapper" style="margin-top:-150px; position: relative;">
                                 <div style="display: flex; justify-content: space-between; margin-bottom: 10px; align-items: center;">
                                     <div style="border: 1px solid #ccc; padding: 10px; border-radius: 5px; background-color: #f9f9f9; display: inline-block;">
                                         <div class="pagination-info" style="color: black; font-weight: 500;">
