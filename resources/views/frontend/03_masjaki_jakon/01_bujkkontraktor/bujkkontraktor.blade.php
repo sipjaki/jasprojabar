@@ -156,8 +156,8 @@ color: #45a049;
                                   <div style="display: flex; justify-content: space-between; width: 100%; align-items: center; margin-top: 20px;">
                                       <!-- Tombol di kiri -->
                                       <a href="#" style="background: white;">
-                                        <img src="/assets/icon/logokabupatenblora.png" class="img-fluid" alt="img-25" width="50" height="50" style="margin-right: 20px;" loading="lazy">
-                                        <button class="badgekembali" style="border: none; font-size: 12px; cursor: pointer;">
+                                          <button class="badgekembali" style="border: none; font-size: 12px; cursor: pointer;">
+                                            <img src="/assets/icon/logokabupatenblora.png" class="img-fluid" alt="img-25" width="50" height="50" style="margin-right: 20px;" loading="lazy">
                                             <i class="fas fa-list mr-2" style="margin-right: 10px;"></i> <span style="text-transform: uppercase">{{$title}}</span>
                                         </button>
                                     </a>
