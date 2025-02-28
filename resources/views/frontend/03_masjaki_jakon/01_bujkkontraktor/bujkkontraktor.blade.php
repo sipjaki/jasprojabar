@@ -231,7 +231,7 @@ color: #45a049;
                                         @php $start = ($data->currentPage() - 1) * $data->perPage() + 1; @endphp
                                         @foreach ($data as $item )
                                         <tr>
-                                            <td>{{ $loop->iteration + $start - 1 }}</td>
+                                            <td style="text-align: center;">{{ $loop->iteration + $start - 1 }}</td>
                                             <td class="namalengkap">{{$item->namalengkap}}</td>
                                             <td>{{$item->alamat}}</td>
                                             <td>{{$item->no_telepon}}</td>
