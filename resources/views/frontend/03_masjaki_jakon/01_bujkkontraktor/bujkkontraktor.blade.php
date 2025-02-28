@@ -193,7 +193,7 @@ color: #45a049;
                                             Data Ke {{ $data->firstItem() }} Sampai {{ $data->lastItem() }} Dari {{ $data->total() }} Jumlah {{$title}}
                                         </div>
                                     </div>
-                                    <div>
+                                    <div style="margin-left: 500px;">
                                         <label for="entries" style="margin-right: 10px; font-weight: bold;">Show:</label>
                                         <select id="entries" onchange="updateEntries()" style="padding: 5px; border: 1px solid black; background-color: white;">
                                             <option value="10">10</option>
