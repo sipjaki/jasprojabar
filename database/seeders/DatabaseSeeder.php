@@ -270,21 +270,6 @@ bujkkontraktor::create([
     'no_pengesahan' => ' AHU-0049177-AH.01.14'
 ]);
 
-bujkkontraktor::create([
-    'bujkkontraktorsub_id' => 2, // Ganti dengan ID yang sesuai
-    'asosiasimasjaki_id' => 1, // Ganti dengan ID yang sesuai
-    'namalengkap' => 'SIGIT',
-    'alamat' => 'SIGIT',
-    'no_telepon' => 'SIGIT',
-    'email' => 'SIGIT',
-    'nib' => 'SIGIT',
-    'pju' => 'SIGIT',
-    'no_akte' => '25',
-    'tanggal' => '2024-07-21',
-    'nama_notaris' => 'SIGIT',
-    'no_pengesahan' => 'SIGIT'
-]);
-
 bujkkontraktorsub ::create([
     'bujkkontraktor_id' => 1, // Ganti dengan ID yang sesuai
     'nama_pengurus' => 'Muhammad Abdul Rozak',
