@@ -273,8 +273,7 @@ color: #45a049;
                                 <tr>
                                     <td style="text-align: center;">1</td>
                                     <td>Bangunan Tidak Sederhana</td>
-                                    <td>{{$item->bangunankantortidaksederhana}}</td>
-
+                                    <td>{{ 'Rp ' . number_format($item->bangunankantortidaksederhana, 0, ',', '.') }}</td>
                                 </tr>
 
                                 @endforeach
