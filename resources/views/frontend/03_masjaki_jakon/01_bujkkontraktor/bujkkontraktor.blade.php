@@ -186,9 +186,9 @@ color: #45a049;
 
                         <body>
                             <div class="table-wrapper" style="margin-top:-130px; position: relative;">
-                                <div style="position: absolute; right: 0; top: -40px; background: white; border: 1px solid black; padding: 5px;">
+                                <div style="position: absolute; right: 10px; top: -50px; background: white; border: 1px solid black; padding: 5px; z-index: 100;">
                                     <label for="sortOptions">Sort by:</label>
-                                    <select id="sortOptions" onchange="sortTable()">
+                                    <select id="sortOptions" onchange="sortTable()" style="margin-left: 5px;">
                                         <option value="1">Nama Badan Usaha (A-Z)</option>
                                         <option value="1_desc">Nama Badan Usaha (Z-A)</option>
                                         <option value="2">Alamat (A-Z)</option>
@@ -227,7 +227,6 @@ color: #45a049;
                                             <td>{{$item->nib}}</td>
                                             <td>{{$item->pju}}</td>
                                             <td>{{$item->no_akte}}</td>
-                                            <td>{{$item->tanggal}}</td>
                                             <td>{{ \Carbon\Carbon::parse($item->tanggal)->isoFormat('D MMMM YYYY') }}</td>
                                             <td>{{$item->nama_notaris}}</td>
                                             <td>{{$item->no_pengesahan}}</td>
