@@ -89,7 +89,7 @@ class BujkkontraktorController extends Controller
     $user = Auth::user();
 
     return view('frontend.03_masjaki_jakon.01_bujkkontraktor.bujkkontraktorshow', [
-        'title' => 'Data Bujk Kontraktor',
+        'title' => 'Data Bujk Konstruksi',
         'data' => $databujkkontraktor,
         'subData' => $subdata,  // Jika Anda ingin mengirimkan data sub kontraktor juga
         'user' => $user,
