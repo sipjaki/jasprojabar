@@ -40,7 +40,7 @@ class BujkkonsultanController extends Controller
     $perPage = $request->input('perPage', 10);
     $search = $request->input('search');
 
-    $query = bujkkontraktor::query();
+    $query = bujkkonsultan::query();
 
     if ($search) {
         $query->where('namalengkap', 'LIKE', "%{$search}%")
