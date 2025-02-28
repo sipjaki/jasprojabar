@@ -46,7 +46,7 @@ class BujkkontraktorController extends Controller
         $user = Auth::user();
 
         return view('frontend.03_masjaki_jakon.01_bujkkontraktor.bujkkontraktor', [
-            'title' => 'BUJK Kontraktor',
+            'title' => 'BUJK Konstruksi',
             'user' => $user,
             'data' => $data,
             'datasub' => $datasub,
