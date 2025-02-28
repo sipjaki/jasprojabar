@@ -398,7 +398,7 @@ color: #45a049;
                                         </div><!-- col-xl-8 col-lg-12 -->
                                     </div><!-- row -->
                                 </div><!-- container -->
-                                @include('frontend.00_approve.01_cssterpisah.paginator')
+                                {{-- @include('frontend.00_approve.01_cssterpisah.paginator') --}}
                             </section><!-- donate-section -->
 
 
