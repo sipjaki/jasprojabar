@@ -235,7 +235,7 @@ color: #45a049;
                                                         <input type="text" id="fname" class="input-text" placeholder="{{$data->email}}" name="fname" aria-required="true" readonly>
                                                     </div><!-- col-lg-6 -->
 
-                                                    <div class="col-lg-6">
+                                                    {{-- <div class="col-lg-6">
                                                         <h6><i class="fas fa-user-tie mr-2" style="margin-right: 5px;"></i>Penanggung Jawab Umum</h6>
                                                         <input type="text" id="fname" class="input-text" placeholder="{{$data->pju}}" name="fname" aria-required="true" readonly>
                                                     </div><!-- col-lg-6 -->
@@ -258,7 +258,7 @@ color: #45a049;
                                                     <div class="col-lg-6">
                                                         <h6><i class="fas fa-check-circle mr-2" style="margin-right: 5px;"></i>No Pengesahan</h6>
                                                         <input type="text" id="fname" class="input-text" placeholder="{{$data->no_pengesahan}}" name="fname" aria-required="true" readonly>
-                                                    </div><!-- col-lg-6 -->
+                                                    </div><!-- col-lg-6 --> --}}
                                                                                 </div><!-- row row-gutter-10 -->
                                             </form><!-- contact-form -->
                                         </div><!-- donate-box-inner -->
@@ -305,7 +305,7 @@ color: #45a049;
                                 <th style="text-align:center" style="color: black">Tanggal Terbit</th>
                                 <th style="text-align:center" style="color: black">Masa Berlaku</th>
                                 <th style="text-align:center" style="color: black">Nama PSJK</th>
-                                <th style="text-align:center" style="color: black">Sub Kualifikasi Badan Usaha</th>
+                                {{-- <th style="text-align:center" style="color: black">Sub Kualifikasi Badan Usaha</th> --}}
                                 </tr>
                         </thead>
                         <tbody>
@@ -326,7 +326,7 @@ color: #45a049;
                             <td>{{$item->tanggal_terbit}}</td>
                             <td>{{$item->masa_berlaku}}</td>
                             <td>{{$item->nama_psjk}}</td>
-                            <td>{{$item->sub_kualifikasi_bu}}</td>
+                            {{-- <td>{{$item->sub_kualifikasi_bu}}</td> --}}
                         </tr>
                         @endforeach
 
