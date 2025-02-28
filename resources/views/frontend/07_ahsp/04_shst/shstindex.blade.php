@@ -236,21 +236,11 @@ color: #45a049;
                             </thead>
                             <tbody>
 
-                                {{-- @php
-                                $start = ($data->currentPage() - 1) * $data->perPage() + 1;
-                                    @endphp --}}
-
                                 @foreach ($data as $item )
                                 <tr>
                                     <td style="text-align: center;">1</td>
                                     <td>Tidak Sederhana</td>
                                     <td>{{$item->bangunankantortidaksederhana}}</td>
-                                    {{-- <td style="text-align: center">
-                                        {{-- <a href="/rantaipasokmaterial/{{$item->distributor}}"> --}}
-                                        <a href="/standarbiayaumummasjaki/{{$item->judul}}">
-                                            <i class="fas fa-eye view-icon" onclick="alert('View clicked!')"></i>
-                                        </a>
-                                    </td> --}}
                                 </tr>
                                 @endforeach
                             </tbody>
