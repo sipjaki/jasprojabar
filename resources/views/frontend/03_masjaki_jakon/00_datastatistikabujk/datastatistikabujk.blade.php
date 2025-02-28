@@ -61,8 +61,8 @@
                           function drawChart() {
                             var data = google.visualization.arrayToDataTable([
                               ['Jenis BUJK', 'Persentase'],
-                              ['Kontraktor',  {{ $persen_kontraktor }}],
-                              ['Konsultan',   {{ $persen_konsultan }}]
+                              ['Konstruksi',  {{ $persen_kontraktor }}],
+                              ['Konsultasi Konstruksi',   {{ $persen_konsultan }}]
                             ]);
 
                             var options = {
