@@ -197,7 +197,7 @@ color: #45a049;
                                     {{-- <th style="text-align:center" >NIB</th> --}}
                                     <th style="text-align:center" >PJU</th>
                                     {{-- <th style="text-align:center" >Akte</th> --}}
-                                    <th style="text-align:center" >Tanggal</th>
+                                    {{-- <th style="text-align:center" >Tanggal</th> --}}
                                     {{-- <th style="text-align:center" >Notaris</th> --}}
                                     {{-- <th style="text-align:center" >Pengesahan</th> --}}
                                     <th style="text-align:center" >View</th>
@@ -220,7 +220,7 @@ color: #45a049;
                                     <td>{{$item->pju}}</td>
                                     {{-- <td>{{$item->no_akte}}</td> --}}
                                     {{-- <td>{{$item->tanggal}}</td> --}}
-                                    <td>{{ \Carbon\Carbon::parse($item->tanggal)->isoFormat('D MMMM YYYY') }}</td>
+                                    {{-- <td>{{ \Carbon\Carbon::parse($item->tanggal)->isoFormat('D MMMM YYYY') }}</td> --}}
                                     {{-- <td>{{$item->nama_notaris}}</td> --}}
                                     {{-- <td>{{$item->no_pengesahan}}</td> --}}
                                     <td style="text-align: center">
