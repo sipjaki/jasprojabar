@@ -287,15 +287,15 @@ bujkkontraktor::create([
 
 bujkkontraktorsub ::create([
     'bujkkontraktor_id' => 1, // Ganti dengan ID yang sesuai
-    'nama_pengurus' => 'Muhammad Abdul Rozak',
-    'sub_klasifikasi_layanan' => 'Konstruksi Gedung Lainnya',
-    'kode' => 'BG-009',
-    'kualifikasi' => 'Kecil',
-    'penerbit' => ' LSBU GAPEKNAS INFRASTRUKTUR (GAPEKNAS)',
+    'nama_pengurus' => 'Sigit',
+    'sub_klasifikasi_layanan' => 'Sigit',
+    'kode' => 'Sigit',
+    'kualifikasi' => 'Sigit',
+    'penerbit' => ' Sigit',
     'tanggal_terbit' => '2024-05-08',
     'masa_berlaku' => '2026-05-07',
-    'nama_psjk' => 'Nizar Sandy Saputra',
-    'sub_kualifikasi_bu' => 'Konstruksi Gedung Lainnya'
+    'nama_psjk' => 'Sigit',
+    'sub_kualifikasi_bu' => 'Sigit'
 ]);
 
 bujkkontraktorsub ::create([
