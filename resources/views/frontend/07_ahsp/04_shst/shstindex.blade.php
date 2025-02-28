@@ -239,7 +239,7 @@ color: #45a049;
                             </div>
                         </section>
 
-                    <section class="document-section" style="margin-top: -215px; margin-bottom:20px;" >
+                    <section class="document-section" style="margin-top: -215px; margin-bottom:35px;" >
 
                         <div style="display: flex; justify-content: space-between; width: 100%; align-items: center; margin-top: 20px;">
                             <!-- Tombol di kiri -->
