@@ -15,18 +15,23 @@ use Illuminate\Support\Facades\Auth;
 class BujkkonsultanController extends Controller
 {
     //
-    public function bujkkonsultan()
+    public function bujkkonsultan(Request $request)
     {
-        $data = bujkkonsultan::paginate(10);
-        $datasub = bujkkonsultansub::paginate(15);
+
+        $perPage = $request->input('perPage', 10); // Ambil jumlah data dari request, default 10
+        $data = bujkkonsultan::paginate($perPage);
+        $datasub = bujkkonsultansub::all();
         $user = Auth::user();
 
         return view('frontend.03_masjaki_jakon.02_bujkkonsultan.bujkkonsultan', [
-            'title' => 'BUJK Konsultan',
-            'user' => $user, // Mengirimkan data paginasi ke view
-            'data' => $data, // Mengirimkan data paginasi ke view
-            'datasub' => $datasub, // Mengirimkan data paginasi ke view
+            'title' => 'BUJK Konstruksi',
+            'user' => $user,
+            'data' => $data,
+            'datasub' => $datasub,
+            'perPage' => $perPage // Kirim nilai perPage ke view
         ]);
+
+
     }
 
     public function bujkkonsultanshow($namalengkap)
