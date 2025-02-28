@@ -9,7 +9,7 @@ use Illuminate\Support\Facades\Auth;
 class ShstbloraController extends Controller
 {
     //
-    public function bujkkonsultan()
+    public function index()
     {
         $data = shstblora::paginate(10);
         $user = Auth::user();
