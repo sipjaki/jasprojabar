@@ -189,18 +189,15 @@ color: #45a049;
                                 <table class="fl-table" id="sortableTable">
                                     <thead>
                                         <tr>
-                                            <th onclick="sortTable(0)" style="text-align:center"> No &#x2195;</th>
-                                            <th onclick="sortTable(1)" style="text-align:center"> Nama Badan Usaha &#x2195;</th>
-                                            <th onclick="sortTable(2)" style="text-align:center"> Alamat &#x2195;</th>
-                                            <th onclick="sortTable(3)" style="text-align:center"> No Telepon &#x2195;</th>
-                                            <th onclick="sortTable(4)" style="text-align:center"> Email &#x2195;</th>
-                                            <th onclick="sortTable(5)" style="text-align:center"> NIB &#x2195;</th>
-                                            <th onclick="sortTable(6)" style="text-align:center"> PJU &#x2195;</th>
-                                            <th onclick="sortTable(7)" style="text-align:center"> Akte &#x2195;</th>
-                                            <th onclick="sortTable(8)" style="text-align:center"> Tanggal &#x2195;</th>
-                                            <th onclick="sortTable(9)" style="text-align:center"> Notaris &#x2195;</th>
-                                            <th onclick="sortTable(10)" style="text-align:center"> Pengesahan &#x2195;</th>
-                                            <th style="text-align:center"> View </th>
+                                            <th onclick="sortTable(0)" style="text-align:center"> No <span class="sort-icon">&#x21C5;</span></th>
+                                            <th onclick="sortTable(1)" style="text-align:center"> Nama <span class="sort-icon">&#x21C5;</span></th>
+                                            <th onclick="sortTable(2)" style="text-align:center"> Kota <span class="sort-icon">&#x21C5;</span></th>
+                                            <th onclick="sortTable(3)" style="text-align:center"> Provinsi <span class="sort-icon">&#x21C5;</span></th>
+                                            <th onclick="sortTable(4)" style="text-align:center"> Pendidikan <span class="sort-icon">&#x21C5;</span></th>
+                                            <th onclick="sortTable(5)" style="text-align:center"> Klasifikasi <span class="sort-icon">&#x21C5;</span></th>
+                                            <th onclick="sortTable(6)" style="text-align:center"> Dinas/Instansi/Perusahaan <span class="sort-icon">&#x21C5;</span></th>
+                                            <th onclick="sortTable(7)" style="text-align:center"> Nomor Sertifikat <span class="sort-icon">&#x21C5;</span></th>
+                                            <th onclick="sortTable(8)" style="text-align:center"> Tgl Berlaku Sertifikat <span class="sort-icon">&#x21C5;</span></th>
                                         </tr>
                                     </thead>
                                     <tbody>
@@ -209,26 +206,30 @@ color: #45a049;
                                         <tr>
                                             <td>{{ $loop->iteration + $start - 1 }}</td>
                                             <td>{{$item->namalengkap}}</td>
-                                            <td>{{$item->alamat}}</td>
-                                            <td>{{$item->no_telepon}}</td>
-                                            <td>{{$item->email}}</td>
-                                            <td>{{$item->nib}}</td>
-                                            <td>{{$item->pju}}</td>
-                                            <td>{{$item->no_akte}}</td>
-                                            <td>{{$item->tanggal}}</td>
-                                            <td>{{ \Carbon\Carbon::parse($item->tanggal)->isoFormat('D MMMM YYYY') }}</td>
-                                            <td>{{$item->nama_notaris}}</td>
-                                            <td>{{$item->no_pengesahan}}</td>
-                                            <td style="text-align: center">
-                                                <a href="/datajakon/bujkkontraktor/{{$item->namalengkap}}">
-                                                    <i class="fas fa-eye view-icon" onclick="alert('View clicked!')"></i>
-                                                </a>
-                                            </td>
+                                            <td>{{$item->kota}}</td>
+                                            <td>{{$item->provinsi}}</td>
+                                            <td>{{$item->pendidikan}}</td>
+                                            <td>{{$item->klasifikasi}}</td>
+                                            <td>{{$item->dinas_instansi}}</td>
+                                            <td>{{$item->nomor_sertifikat}}</td>
+                                            <td>{{ \Carbon\Carbon::parse($item->tgl_berlaku)->isoFormat('D MMMM YYYY') }}</td>
                                         </tr>
                                         @endforeach
                                     </tbody>
                                 </table>
                             </div>
+
+                            <style>
+                                .sort-icon {
+                                    font-size: 14px;
+                                    color: gray;
+                                    margin-left: 5px;
+                                }
+                                thead th {
+                                    font-weight: bold;
+                                    cursor: pointer;
+                                }
+                            </style>
 
                             <script>
                             function sortTable(columnIndex) {
@@ -241,7 +242,6 @@ color: #45a049;
                                     let cellA = rowA.cells[columnIndex].innerText.trim();
                                     let cellB = rowB.cells[columnIndex].innerText.trim();
 
-                                    // Coba parsing angka, jika gagal gunakan teks
                                     let numA = parseFloat(cellA);
                                     let numB = parseFloat(cellB);
 
