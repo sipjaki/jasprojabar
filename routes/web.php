@@ -31,6 +31,7 @@ use App\Http\Controllers\RantaipasokbloraController;
 use App\Http\Controllers\TokobangunanbloraController;
 use App\Http\Controllers\UndangundangController;
 use App\Http\Controllers\ShstbloraController;
+use App\Http\Controllers\HspkonstruksiumumController;
 
 
 use Database\Factories\DatajakonFactory;
@@ -225,6 +226,11 @@ Route::get('/tokobangunanblora/{kecamatanblora}', [TokobangunanbloraController::
 // DATA SHST BLORA
 // ==========================================================================================================
 Route::get('/shstblora', [ShstbloraController::class, 'index']);
+// Route::get('/shstblora/{kecamatanblora}', [TokobangunanbloraController::class, 'tokobangunanblorashow']);
+
+// DATA HSP KONSTRUKSI UMUM
+// ==========================================================================================================
+Route::get('/hspkonstruksiumum', [HspkonstruksiumumController::class, 'index']);
 // Route::get('/shstblora/{kecamatanblora}', [TokobangunanbloraController::class, 'tokobangunanblorashow']);
 
 
