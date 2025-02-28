@@ -371,18 +371,71 @@ color: #45a049;
                                 @foreach ($data as $item )
                                 <tr>
                                     <td style="text-align: center;">1</td>
-                                    <td>Pagar Depan Rumah M1 (Rupiah) </td>
+                                    <td>Pagar Depan M1 (Rupiah) </td>
                                     <td>{{ 'Rp ' . number_format($item->pagarrumahdepan, 0, ',', '.') }}</td>
                                 </tr>
                                 <tr>
                                     <td style="text-align: center;">2</td>
-                                    <td>Pagar Belakang Rumah M1 (Rupiah) </td>
+                                    <td>Pagar Belakang M1 (Rupiah) </td>
                                     <td>{{ 'Rp ' . number_format($item->pagarrumahbelakang, 0, ',', '.') }}</td>
                                 </tr>
                                 <tr>
                                     <td style="text-align: center;">3</td>
-                                    <td>Pagar Samping Rumah M1 (Rupiah) </td>
+                                    <td>Pagar Samping M1 (Rupiah) </td>
                                     <td>{{ 'Rp ' . number_format($item->pagarrumahsamping, 0, ',', '.') }}</td>
+                                </tr>
+
+                                @endforeach
+                            </tbody>
+                        </table>
+                        </div>
+
+
+                        <section class="document-section" style="margin-top: -215px; margin-bottom:35px;" >
+
+                        <div style="display: flex; justify-content: space-between; width: 100%; align-items: center; margin-top: 20px;">
+                            <!-- Tombol di kiri -->
+                            <a href="#" style="background: white;">
+                                <button class="badgepupr" style="border: none; font-size: 12px; cursor: pointer;">
+                                    <img src="/assets/icon/pupr.png" class="img-fluid" alt="img-25" width="50" height="50" style="margin-right: 20px;" loading="lazy">
+                                    <i class="fas fa-list mr-2" style="margin-right: 10px;"></i> <span style="text-transform: uppercase; font-weight:800; color:black">Pagar Rumah Negera Per M1 (Meter Lari)</span>
+                                </button>
+                            </a>
+                            <body>
+
+                            </section>
+
+                        <div class="table-wrapper" style="margin-top:-130px; margin-bottom:150px;">
+                        <table class="fl-table">
+                            <thead>
+                                <tr>
+                                    <th style="text-align:center"> No</th>
+                                    <th style="text-align:center"> Pekerjaan</th>
+                                    <th style="text-align:center"> Harga</th>
+                                    {{-- <th style="text-align:center" >View</th> --}}
+                                </tr>
+                            </thead>
+                            <tbody>
+
+                                @php
+                                $start = ($data->currentPage() - 1) * $data->perPage() + 1;
+                                    @endphp
+
+                                @foreach ($data as $item )
+                                <tr>
+                                    <td style="text-align: center;">1</td>
+                                    <td>Pagar Depan Rumah Negara M1 (Rupiah) </td>
+                                    <td>{{ 'Rp ' . number_format($item->pagarrumahnegaradepan, 0, ',', '.') }}</td>
+                                </tr>
+                                <tr>
+                                    <td style="text-align: center;">2</td>
+                                    <td>Pagar Belakang Rumah Negara M1 (Rupiah) </td>
+                                    <td>{{ 'Rp ' . number_format($item->pagarrumahnegarabelakang, 0, ',', '.') }}</td>
+                                </tr>
+                                <tr>
+                                    <td style="text-align: center;">3</td>
+                                    <td>Pagar Samping Rumah Negara M1 (Rupiah) </td>
+                                    <td>{{ 'Rp ' . number_format($item->pagarrumahnegarasamping, 0, ',', '.') }}</td>
                                 </tr>
 
                                 @endforeach
