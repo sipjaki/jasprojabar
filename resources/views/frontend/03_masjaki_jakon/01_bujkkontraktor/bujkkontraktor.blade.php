@@ -172,7 +172,7 @@ color: #45a049;
 
                                         <a href="/datajakon/bujk" style="background: white;">
                                             <button class="badgekembali" style="border: none; font-size: 12px; cursor: pointer; margin-right: 10px;">
-                                                <i style="color: rebeccapurple" class="fas fa-arrow-circle-left mr-2" style="margin-right: 30px;"></i><span style="color: black">KEMBALI</span>
+                                                <i class="fas fa-arrow-circle-left mr-2" style="margin-right: 20px; color:red;"></i><span style="color: black">KEMBALI</span>
                                             </button>
                                         </a>
 
