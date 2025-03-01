@@ -69,7 +69,7 @@ class SkktenagakerjabloraController extends Controller
             }
 
         return view('frontend.03_masjaki_jakon.03_tenagakerjakonstruksi.tenagakerjakonstruksi', [
-            'title' => 'SKK Tenaga Konstruksi Di',
+            'title' => 'SKK Tenaga Konstruksi Di Selenggarakan DPUPR Kab Blora',
             'user' => $user, // Mengirimkan data paginasi ke view
 
             'data' => $data, // Mengirimkan data paginasi ke view
@@ -176,46 +176,9 @@ class SkktenagakerjabloraController extends Controller
             'dataasosiasimasjaki' => $dataasosiasimasjaki, // Mengirimkan data paginasi ke view
             'user' => $user, // Mengirimkan data paginasi ke view
 
-    ]);
+        ]);
 
 
     }
-
-
-    // public function datastatistikskktenagakerjablora()
-    // {
-    //     $dataskklist = skktenagakerjabloralist::all();
-
-    //     $datanamasekolah = namasekolah::all();
-    //     $datajenjangpendidikan = jenjangpendidikan::all();
-    //     $datajurusan = jurusan::all();
-    //     $datajabatankerja = jabatankerja::all();
-    //     $datajenjang = jenjang::all();
-    //     $datalpspenerbit = lpspenerbit::all();
-    //     $dataasosiasimasjaki = asosiasimasjaki::all();
-
-
-    //     // Ambil data user saat ini
-    //     $user = Auth::user();
-
-    //     return view('frontend.03_masjaki_jakon.03_tenagakerjakonstruksi.listtenagakerjakonstruksishow', [
-    //         'title' => 'Data SKK Tenaga Ahli Konstruksi',
-
-    //         'data' => $dataskklist, // Mengirimkan data paginasi ke view
-    //         'datanamasekolah' => $datanamasekolah, // Mengirimkan data paginasi ke view
-    //         'datajenjangpendidikan' => $datajenjangpendidikan, // Mengirimkan data paginasi ke view
-    //         'datajurusan' => $datajurusan, // Mengirimkan data paginasi ke view
-    //         'datajabatankerja' => $datajabatankerja, // Mengirimkan data paginasi ke view
-    //         'datajenjang' => $datajenjang, // Mengirimkan data paginasi ke view
-    //         'datalpspenerbit' => $datalpspenerbit, // Mengirimkan data paginasi ke view
-    //         'dataasosiasimasjaki' => $dataasosiasimasjaki, // Mengirimkan data paginasi ke view
-    //         'user' => $user, // Mengirimkan data paginasi ke view
-
-    // ]);
-
-
-    // }
-
-
 }
 
