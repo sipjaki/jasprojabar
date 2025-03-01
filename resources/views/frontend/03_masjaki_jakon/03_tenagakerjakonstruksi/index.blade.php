@@ -43,6 +43,7 @@
                     </div><!--service-two-card-content-->
                 </div><!--service-two-card-->
             </div><!--col-12 col-lg-4 col-xl-4-->
+{{--
             <div class="col-12 col-lg-3 col-xl-3">
                 <div class="service-two-card">
                     <div class="service-two-imgbox" >
@@ -53,14 +54,14 @@
                     </div><!-- service-two-imgbox -->
                     <div class="service-two-card-content">
                         <h4>Data Statistik Berdasarkan Jabatan</h4>
-                        {{-- <p>Dinas Pekerjaan Umum dan Penataan Ruang <br> Pemerintah Kabupaten Blora Provinsi Jawa Tengah</p> --}}
+                        <p>Dinas Pekerjaan Umum dan Penataan Ruang <br> Pemerintah Kabupaten Blora Provinsi Jawa Tengah</p>
                         <a href="/datajakon/statistikaskktenagakerjablora">
                             <i class="fa-solid fa-arrow-right-long"></i>
                             <span>Lihat Data</span>
                         </a>
                     </div><!--service-two-card-content-->
                 </div><!--service-two-card-->
-            </div><!--col-12 col-lg-4 col-xl-4-->
+            </div><!--col-12 col-lg-4 col-xl-4--> --}}
 
             <div class="col-12 col-lg-3 col-xl-3">
                 <div class="service-two-card">

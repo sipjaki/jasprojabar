@@ -447,8 +447,6 @@ color: #45a049;
                                 {{-- @include('frontend.00_approve.01_cssterpisah.paginator') --}}
                             </section><!-- donate-section -->
 
-
-
                         </div><!-- service-two-imgbox -->
                     </div><!--service-two-card-->
                 </div><!--col-12 col-lg-4 col-xl-4-->
