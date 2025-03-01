@@ -257,13 +257,13 @@ color: #45a049;
 
                                 <div class="pagination-container" style="margin-top: 50px; display: flex; flex-direction: column; align-items: center;">
                                     <ul class="pagination-paginate" style="display: flex; padding-left: 0; list-style: none; margin-top: 10px;">
-                                        <li class="page-item {{ $databujkkontraktor->onFirstPage() ? 'disabled' : '' }}" style="margin-right: 5px;">
-                                            <a class="page-link" href="{{ $databujkkontraktor->previousPageUrl() }}">
+                                        <li class="page-item {{ $data->onFirstPage() ? 'disabled' : '' }}" style="margin-right: 5px;">
+                                            <a class="page-link" href="{{ $data->previousPageUrl() }}">
                                                 <i class="fas fa-arrow-left" style="margin-right: 10px;"></i>Previous
                                             </a>
                                         </li>
-                                        <li class="page-item {{ $databujkkontraktor->hasMorePages() ? '' : 'disabled' }}" style="margin-right: 5px;">
-                                            <a class="page-link" href="{{ $databujkkontraktor->nextPageUrl() }}">
+                                        <li class="page-item {{ $data->hasMorePages() ? '' : 'disabled' }}" style="margin-right: 5px;">
+                                            <a class="page-link" href="{{ $data->nextPageUrl() }}">
                                                 Next <i class="fas fa-arrow-right" style="margin-left: 10px;"></i>
                                             </a>
                                         </li>
