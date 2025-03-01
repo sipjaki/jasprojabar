@@ -124,7 +124,7 @@ color: #45a049;
             }
 
             .menusub-button {
-                background: linear-gradient(to right, black, green);
+                background: linear-gradient(to right, #ffd100, #FFD100);
                 color: white;
                 padding: 10px 20px;
                 border-radius: 10px;
