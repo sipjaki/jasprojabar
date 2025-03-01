@@ -248,7 +248,7 @@ color: #45a049;
                                             {{-- <td>{{ \Carbon\Carbon::parse($item->tanggalhabis)->isoFormat('D MMMM YYYY') }}</td> --}}
                                             {{-- <td>{{$item->statusterbit}}</td> --}}
                                             <td style="text-align: center">
-                                                <a href="/datajakon/skktenagakerjablora/{{$item->nama}}">
+                                                <a href="/datajakon/skktenagakerjabloralist/{{$item->nama}}">
                                                     <i class="fas fa-eye view-icon" onclick="alert('View clicked!')"></i>
                                                 </a>
                                             </td>
@@ -298,7 +298,7 @@ color: #45a049;
                             function searchTable() {
                             let input = document.getElementById("searchInput").value;
 
-                            fetch(`/datajakon/skktenagakerjablora?search=${input}`)
+                            fetch(`/datajakon/skktenagakerjabloralist?search=${input}`)
                                 .then(response => response.text())
                                 .then(html => {
                                     let parser = new DOMParser();
