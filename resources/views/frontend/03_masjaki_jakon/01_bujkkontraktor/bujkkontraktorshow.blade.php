@@ -298,14 +298,14 @@ color: #45a049;
                             <tr>
                                 {{-- <th style="text-align:center" >No</th> --}}
                                 <th style="text-align:center" style="color: black" >No</th>
-                                <th style="text-align:center" style="color: black">Nama Pengurus</th>
+                                {{-- <th style="text-align:center" style="color: black">Nama Pengurus</th> --}}
                                 <th style="text-align:center" style="color: black" >Sub Klasifikasi Layanan</th>
                                 <th style="text-align:center" style="color: black" >Kode</th>
                                 <th style="text-align:center" style="color: black" >Kualifikasi</th>
                                 <th style="text-align:center" style="color: black">Penerbit</th>
                                 <th style="text-align:center" style="color: black">Tanggal Terbit</th>
                                 <th style="text-align:center" style="color: black">Masa Berlaku</th>
-                                <th style="text-align:center" style="color: black">Nama PSJK</th>
+                                {{-- <th style="text-align:center" style="color: black">Nama PSJK</th> --}}
                                 {{-- <th style="text-align:center" style="color: black">Sub Kualifikasi Badan Usaha</th> --}}
                                 </tr>
                         </thead>
@@ -319,14 +319,14 @@ color: #45a049;
                         @foreach ($subData as $item)
                         <tr>
                             <td style="text-align: center;">{{ $loop->iteration + $start - 1 }}</td>
-                            <td>{{$item->nama_pengurus}}</td>
+                            {{-- <td>{{$item->nama_pengurus}}</td> --}}
                             <td>{{$item->sub_klasifikasi_layanan}}</td>
                             <td>{{$item->kode}}</td>
                             <td>{{$item->kualifikasi}}</td>
                             <td>{{$item->penerbit}}</td>
                             <td>{{$item->tanggal_terbit}}</td>
                             <td>{{$item->masa_berlaku}}</td>
-                            <td>{{$item->nama_psjk}}</td>
+                            {{-- <td>{{$item->nama_psjk}}</td> --}}
                             {{-- <td>{{$item->sub_kualifikasi_bu}}</td> --}}
                         </tr>
                         @endforeach
