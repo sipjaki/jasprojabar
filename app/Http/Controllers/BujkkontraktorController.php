@@ -65,7 +65,7 @@ class BujkkontraktorController extends Controller
         }
 
         return view('frontend.03_masjaki_jakon.05_asosiasimasjaki.index', [
-            'title' => 'Asosiasi Konstruksi dan Konstruksi Konsultasi',
+            'title' => 'Asosiasi Konstruksi dan Konsultasi Konstruksi',
             'user' => $user, // Mengirimkan data paginasi ke view
             'data' => $data, // Mengirimkan data paginasi ke view
             'perPage' => $perPage,
