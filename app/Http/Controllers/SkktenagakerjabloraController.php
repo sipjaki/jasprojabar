@@ -52,10 +52,10 @@ class SkktenagakerjabloraController extends Controller
                 $query->where('nama', 'LIKE', "%{$search}%")
                         ->orWhere('alamat', 'LIKE', "%{$search}%")
                         ->orWhere('tahunlulus', 'LIKE', "%{$search}%")
-                        ->orWhereHas('jabatankerja', function ($q) use ($search) {
+                        ->orWhereHas('jabatankerja_id', function ($q) use ($search) {
                         $q->where('jabatankerja', 'LIKE', "%{$search}%");
                             })
-                            ->orWhereHas('jenjang', function ($q) use ($search) {
+                            ->orWhereHas('jenjang_id', function ($q) use ($search) {
                                 $q->where('jenjang', 'LIKE', "%{$search}%");
                             });
 
