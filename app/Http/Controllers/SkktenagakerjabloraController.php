@@ -65,7 +65,7 @@ class SkktenagakerjabloraController extends Controller
             }
 
         return view('frontend.03_masjaki_jakon.03_tenagakerjakonstruksi.tenagakerjakonstruksi', [
-            'title' => 'SKK Tenaga Konstruksi',
+            'title' => 'SKK Tenaga Konstruksi Di Selenggarakan DPUPR',
             'user' => $user, // Mengirimkan data paginasi ke view
 
             'data' => $data, // Mengirimkan data paginasi ke view
