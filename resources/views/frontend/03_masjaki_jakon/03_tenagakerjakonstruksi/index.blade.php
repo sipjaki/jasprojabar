@@ -74,7 +74,7 @@
                     <div class="service-two-card-content">
                         <h4>TKK Kabupaten Blora</h4>
                         {{-- <p>Dinas Pekerjaan Umum dan Penataan Ruang <br> Pemerintah Kabupaten Blora Provinsi Jawa Tengah</p> --}}
-                        <a href="/datajakon/?">
+                        <a href="/datajakon/skktenagakerjabloralis">
                             <i class="fa-solid fa-arrow-right-long"></i>
                             <span>Lihat Data</span>
                         </a>
@@ -93,7 +93,7 @@
                     <div class="service-two-card-content">
                         <h4>Data Statistik Tenaga Ahli Konstruksi</h4>
                         {{-- <p>Dinas Pekerjaan Umum dan Penataan Ruang <br> Pemerintah Kabupaten Blora Provinsi Jawa Tengah</p> --}}
-                        <a href="/datajakon/?">
+                        <a href="/datajakon/statistikaskktenagakerjabloralist">
                             <i class="fa-solid fa-arrow-right-long"></i>
                             <span>Lihat Data</span>
                         </a>

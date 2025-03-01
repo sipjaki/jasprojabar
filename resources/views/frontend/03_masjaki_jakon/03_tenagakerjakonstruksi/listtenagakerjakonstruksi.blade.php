@@ -170,7 +170,7 @@ color: #45a049;
                                             <i class="fas fa-search" style="position: absolute; right: 10px; top: 50%; transform: translateY(-50%); font-size: 16px; color: #888;"></i>
                                         </div> --}}
 
-                                        <a href="/datajakon/bujk" style="background: white;">
+                                        <a href="/datajakon/skktenagakerja" style="background: white;">
                                             <button class="badgekembali" style="border: none; font-size: 12px; cursor: pointer; margin-right: 10px;">
                                                 <i class="fas fa-arrow-circle-left mr-2" style="margin-right: 20px; color:red;"></i><span style="color: black">KEMBALI</span>
                                             </button>
@@ -188,7 +188,7 @@ color: #45a049;
 
                             <div class="table-wrapper" style="margin-top:-130px; position: relative;">
                                 <div style="display: flex; justify-content: space-between; margin-bottom: 10px; align-items: center;">
-                                    <div class="pagination-info-box" style="margin-right:250px; padding: 10px; border: 1px solid black; background-color: #f9f9f9; border-radius: 5px;">
+                                    <div class="pagination-info-box" style="margin-right:50px; padding: 10px; border: 1px solid black; background-color: #f9f9f9; border-radius: 5px;">
                                         <div class="pagination-info" style="color: black; font-weight: 500;">
                                             Data Ke {{ $data->firstItem() }} Sampai {{ $data->lastItem() }} Dari {{ $data->total() }} Jumlah {{$title}}
                                         </div>
@@ -206,7 +206,7 @@ color: #45a049;
                                         </select>
                                     </div>
                                     <div style="position: relative; display: inline-block; margin-right:10px;">
-                                        <input type="search" id="searchInput" placeholder="Badan Usaha ...." onkeyup="searchTable()" style="border: 1px solid #ccc; padding: 10px 20px; font-size: 14px; border-radius: 10px; width: 300px;">
+                                        <input type="search" id="searchInput" placeholder="Cari Data ...." onkeyup="searchTable()" style="border: 1px solid #ccc; padding: 20px 20px; font-size: 14px; border-radius: 10px; width: 300px;">
                                         <i class="fas fa-search" style="position: absolute; right: 10px; top: 50%; transform: translateY(-50%); font-size: 16px; color: #888;"></i>
                                     </div>
                                 </div>
@@ -216,16 +216,17 @@ color: #45a049;
                                         <tr>
                                             <th onclick="sortTable(0)" style="cursor:pointer; text-align:center"> No <span class="sort-icon">⇅</span></th>
                                             <th onclick="sortTable(1)" style="cursor:pointer; text-align:center"> Nama Lengkap <span class="sort-icon">⇅</span></th>
-                                            <th onclick="sortTable(2)" style="cursor:pointer; text-align:center"> Sekolah/Universitas/Instansi<span class="sort-icon">⇅</span></th>
+                                            <th onclick="sortTable(2)" style="cursor:pointer; text-align:center"> Alamat<span class="sort-icon">⇅</span></th>
+                                            {{-- <th onclick="sortTable(2)" style="cursor:pointer; text-align:center"> Sekolah/Universitas/Instansi<span class="sort-icon">⇅</span></th>
                                             <th onclick="sortTable(3)" style="cursor:pointer; text-align:center"> Jenjang Pendidikan <span class="sort-icon">⇅</span></th>
                                             <th onclick="sortTable(4)" style="cursor:pointer; text-align:center"> Jurusan <span class="sort-icon">⇅</span></th>
-                                            <th onclick="sortTable(5)" style="cursor:pointer; text-align:center"> Tahun Lulus <span class="sort-icon">⇅</span></th>
+                                            <th onclick="sortTable(5)" style="cursor:pointer; text-align:center"> Tahun Lulus <span class="sort-icon">⇅</span></th> --}}
                                             <th onclick="sortTable(6)" style="cursor:pointer; text-align:center"> Jabatan Kerja <span class="sort-icon">⇅</span></th>
                                             <th onclick="sortTable(7)" style="cursor:pointer; text-align:center"> Jenjang <span class="sort-icon">⇅</span></th>
-                                            <th onclick="sortTable(8)" style="cursor:pointer; text-align:center"> LPS Penerbit<span class="sort-icon">⇅</span></th>
+                                            {{-- <th onclick="sortTable(8)" style="cursor:pointer; text-align:center"> LPS Penerbit<span class="sort-icon">⇅</span></th>
                                             <th onclick="sortTable(9)" style="cursor:pointer; text-align:center"> Tanggal Terbit <span class="sort-icon">⇅</span></th>
                                             <th onclick="sortTable(9)" style="cursor:pointer; text-align:center"> Tanggal Habis <span class="sort-icon">⇅</span></th>
-                                            <th onclick="sortTable(10)" style="cursor:pointer; text-align:center"> Status Terbit<span class="sort-icon">⇅</span></th>
+                                            <th onclick="sortTable(10)" style="cursor:pointer; text-align:center"> Status Terbit<span class="sort-icon">⇅</span></th> --}}
                                             <th style="text-align:center"> View </th>
                                         </tr>
                                     </thead>
@@ -236,16 +237,16 @@ color: #45a049;
                                             <td style="text-align: center;">{{ $loop->iteration + $start - 1 }}</td>
                                             <td class="namalengkap">{{$item->nama}}</td>
                                             <td>{{$item->alamat}}</td>
-                                            <td>{{$item->namasekolah_id->namasekolah}}</td>
-                                            <td>{{$item->jenjangpendidikan_id->jenjangpendidikan}}</td>
-                                            <td>{{$item->jurusan_id->jurusan}}</td>
-                                            <td>{{$item->tahunlulus}}</td>
-                                            <td>{{$item->jabatankerja_id->jabatankerja}}</td>
-                                            <td>{{$item->jenjang_id->jenjang}}</td>
-                                            <td>{{$item->lpspenerbit_id->lpspenerbit}}</td>
-                                            <td>{{ \Carbon\Carbon::parse($item->tanggalterbit)->isoFormat('D MMMM YYYY') }}</td>
-                                            <td>{{ \Carbon\Carbon::parse($item->tanggalhabis)->isoFormat('D MMMM YYYY') }}</td>
-                                            <td>{{$item->statusterbit}}</td>
+                                            {{-- <td>{{$item->namasekolah_id->namasekolah}}</td> --}}
+                                            {{-- <td>{{$item->jenjangpendidikan_id->jenjangpendidikan}}</td> --}}
+                                            {{-- <td>{{$item->jurusan_id->jurusan}}</td> --}}
+                                            {{-- <td>{{$item->tahunlulus}}</td> --}}
+                                            <td>{{$item->jabatankerja->jabatankerja}}</td>
+                                            <td style="text-align: center;">{{$item->jenjang->jenjang}}</td>
+                                            {{-- <td>{{$item->lpspenerbit_id->lpspenerbit}}</td> --}}
+                                            {{-- <td>{{ \Carbon\Carbon::parse($item->tanggalterbit)->isoFormat('D MMMM YYYY') }}</td> --}}
+                                            {{-- <td>{{ \Carbon\Carbon::parse($item->tanggalhabis)->isoFormat('D MMMM YYYY') }}</td> --}}
+                                            {{-- <td>{{$item->statusterbit}}</td> --}}
                                             <td style="text-align: center">
                                                 <a href="/datajakon/skktenagakerjablora/{{$item->nama}}">
                                                     <i class="fas fa-eye view-icon" onclick="alert('View clicked!')"></i>

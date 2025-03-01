@@ -118,12 +118,11 @@ class SkktenagakerjabloraController extends Controller
 
     // =============================================================================
 
-    public function datalistskktenagakerjablora()
+    public function datalistskktenagakerjablora(Request $request)
     {
         $user = Auth::user();
 
-        $data = skktenagakerjabloralist::paginate(10);
-
+        // $data = skktenagakerjablora::paginate(10);
         $datanamasekolah = namasekolah::all();
         $datajenjangpendidikan = jenjangpendidikan::all();
         $datajurusan = jurusan::all();
@@ -132,8 +131,33 @@ class SkktenagakerjabloraController extends Controller
         $datalpspenerbit = lpspenerbit::all();
         $dataasosiasimasjaki = asosiasimasjaki::all();
 
+        $perPage = $request->input('perPage', 10);
+            $search = $request->input('search');
+
+            $query = skktenagakerjabloralist::query();
+
+            if ($search) {
+                $query->where('nama', 'LIKE', "%{$search}%")
+                      ->orWhere('alamat', 'LIKE', "%{$search}%")
+                      ->orWhere('tahunlulus', 'LIKE', "%{$search}%")
+                      ->orWhereHas('jabatankerja', function ($q) use ($search) {
+                          $q->where('jabatankerja', 'LIKE', "%{$search}%"); // 'jabatankerja' = nama kolom di tabel jabatankerja
+                      })
+                      ->orWhereHas('jenjang', function ($q) use ($search) {
+                          $q->where('jenjang', 'LIKE', "%{$search}%"); // 'jenjang' = nama kolom di tabel jenjang
+                      });
+            }
+
+            $data = $query->paginate($perPage);
+
+            if ($request->ajax()) {
+                return response()->json([
+                    'html' => view('frontend.03_masjaki_jakon.03_tenagakerjakonstruksi.partials.table', compact('data'))->render()
+                ]);
+            }
+
         return view('frontend.03_masjaki_jakon.03_tenagakerjakonstruksi.listtenagakerjakonstruksi', [
-            'title' => 'Daftar Tenaga Konstruksi Kabupaten Blora',
+            'title' => 'SKK Tenaga Konstruksi Seluruh Kab Blora',
             'user' => $user, // Mengirimkan data paginasi ke view
 
             'data' => $data, // Mengirimkan data paginasi ke view
