@@ -192,7 +192,7 @@ color: #45a049;
                                                     <!-- Tombol dan kolom pencarian di kanan -->
                                                         <button class="green-button" style="margin-bottom:10px; text-transform:uppercase">
                                                             <img src="/assets/icon/logokabupatenblora.png" class="img-fluid" alt="img-25" width="50" height="50" style="margin-right: 20px;" loading="lazy">
-                                                            <i class="fas fa-file mr-2" style="margin-right:5px;"></i> <span style="color: black;">INFORMASI BUJK KONTRAKTOR : {{$data->namalengkap}}</span>
+                                                            <i class="fas fa-file mr-2" style="margin-right:5px;"></i> <span style="color: black;">INFORMASI BUJK KONSTRUKSI : {{$data->namalengkap}}</span>
                                                         </button>
                                                         <a href="/datajakon/bujkkontraktor" style="background: white;">
                                                             <button class="badgekembali" style="border: none; font-size: 12px; cursor: pointer; margin-right: 10px;">
