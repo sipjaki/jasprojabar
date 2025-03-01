@@ -31,17 +31,38 @@ class SkktenagakerjabloraController extends Controller
         ]);
     }
 
-    public function listskktenagakerjablora()
+    public function listskktenagakerjablora(Request $request)
     {
         $user = Auth::user();
 
-        $data = skktenagakerjablora::paginate(10);
+        // $data = skktenagakerjablora::paginate(10);
         $datanamasekolah = namasekolah::all();
         $datajenjangpendidikan = jenjangpendidikan::all();
         $datajurusan = jurusan::all();
         $datajabatankerja = jabatankerja::all();
         $datajenjang = jenjang::all();
         $datalpspenerbit = lpspenerbit::all();
+
+        $perPage = $request->input('perPage', 10);
+            $search = $request->input('search');
+
+            $query = skktenagakerjablora::query();
+
+            if ($search) {
+                $query->where('nama', 'LIKE', "%{$search}%")
+                    ->orWhere('alamat', 'LIKE', "%{$search}%")
+                    ->orWhere('tahunlulus', 'LIKE', "%{$search}%")
+                    ->orWhere('jabatankerja_id->jabatankerja', 'LIKE', "%{$search}%")
+                    ->orWhere('jenjang_id->jenjang', 'LIKE', "%{$search}%");
+            }
+
+            $data = $query->paginate($perPage);
+
+            if ($request->ajax()) {
+                return response()->json([
+                    'html' => view('frontend.03_masjaki_jakon.03_tenagakerjakonstruksi.partials.table', compact('data'))->render()
+                ]);
+            }
 
         return view('frontend.03_masjaki_jakon.03_tenagakerjakonstruksi.tenagakerjakonstruksi', [
             'title' => 'SKK Tenaga Konstruksi',
