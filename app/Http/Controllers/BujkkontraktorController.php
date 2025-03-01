@@ -46,7 +46,8 @@ class BujkkontraktorController extends Controller
         $user = Auth::user();
         // $data = asosiasimasjaki::paginate(15);
 
-        $query = asosiasimasjaki::query();
+        $query = bujkkonsultan::query();
+        $query = bujkkontraktor::query();
 
         if ($search) {
             $query->where('namaasosiasi', 'LIKE', "%{$search}%");
