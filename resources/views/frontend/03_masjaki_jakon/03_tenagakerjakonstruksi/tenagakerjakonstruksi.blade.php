@@ -216,16 +216,17 @@ color: #45a049;
                                         <tr>
                                             <th onclick="sortTable(0)" style="cursor:pointer; text-align:center"> No <span class="sort-icon">⇅</span></th>
                                             <th onclick="sortTable(1)" style="cursor:pointer; text-align:center"> Nama Lengkap <span class="sort-icon">⇅</span></th>
-                                            <th onclick="sortTable(2)" style="cursor:pointer; text-align:center"> Sekolah/Universitas/Instansi<span class="sort-icon">⇅</span></th>
+                                            <th onclick="sortTable(2)" style="cursor:pointer; text-align:center"> Alamat<span class="sort-icon">⇅</span></th>
+                                            {{-- <th onclick="sortTable(2)" style="cursor:pointer; text-align:center"> Sekolah/Universitas/Instansi<span class="sort-icon">⇅</span></th>
                                             <th onclick="sortTable(3)" style="cursor:pointer; text-align:center"> Jenjang Pendidikan <span class="sort-icon">⇅</span></th>
                                             <th onclick="sortTable(4)" style="cursor:pointer; text-align:center"> Jurusan <span class="sort-icon">⇅</span></th>
-                                            <th onclick="sortTable(5)" style="cursor:pointer; text-align:center"> Tahun Lulus <span class="sort-icon">⇅</span></th>
+                                            <th onclick="sortTable(5)" style="cursor:pointer; text-align:center"> Tahun Lulus <span class="sort-icon">⇅</span></th> --}}
                                             <th onclick="sortTable(6)" style="cursor:pointer; text-align:center"> Jabatan Kerja <span class="sort-icon">⇅</span></th>
                                             <th onclick="sortTable(7)" style="cursor:pointer; text-align:center"> Jenjang <span class="sort-icon">⇅</span></th>
-                                            <th onclick="sortTable(8)" style="cursor:pointer; text-align:center"> LPS Penerbit<span class="sort-icon">⇅</span></th>
+                                            {{-- <th onclick="sortTable(8)" style="cursor:pointer; text-align:center"> LPS Penerbit<span class="sort-icon">⇅</span></th>
                                             <th onclick="sortTable(9)" style="cursor:pointer; text-align:center"> Tanggal Terbit <span class="sort-icon">⇅</span></th>
                                             <th onclick="sortTable(9)" style="cursor:pointer; text-align:center"> Tanggal Habis <span class="sort-icon">⇅</span></th>
-                                            <th onclick="sortTable(10)" style="cursor:pointer; text-align:center"> Status Terbit<span class="sort-icon">⇅</span></th>
+                                            <th onclick="sortTable(10)" style="cursor:pointer; text-align:center"> Status Terbit<span class="sort-icon">⇅</span></th> --}}
                                             <th style="text-align:center"> View </th>
                                         </tr>
                                     </thead>
@@ -236,16 +237,16 @@ color: #45a049;
                                             <td style="text-align: center;">{{ $loop->iteration + $start - 1 }}</td>
                                             <td class="namalengkap">{{$item->nama}}</td>
                                             <td>{{$item->alamat}}</td>
-                                            <td>{{$item->namasekolah_id->namasekolah}}</td>
-                                            <td>{{$item->jenjangpendidikan_id->jenjangpendidikan}}</td>
-                                            <td>{{$item->jurusan_id->jurusan}}</td>
-                                            <td>{{$item->tahunlulus}}</td>
+                                            {{-- <td>{{$item->namasekolah_id->namasekolah}}</td> --}}
+                                            {{-- <td>{{$item->jenjangpendidikan_id->jenjangpendidikan}}</td> --}}
+                                            {{-- <td>{{$item->jurusan_id->jurusan}}</td> --}}
+                                            {{-- <td>{{$item->tahunlulus}}</td> --}}
                                             <td>{{$item->jabatankerja_id->jabatankerja}}</td>
                                             <td>{{$item->jenjang_id->jenjang}}</td>
-                                            <td>{{$item->lpspenerbit_id->lpspenerbit}}</td>
-                                            <td>{{ \Carbon\Carbon::parse($item->tanggalterbit)->isoFormat('D MMMM YYYY') }}</td>
-                                            <td>{{ \Carbon\Carbon::parse($item->tanggalhabis)->isoFormat('D MMMM YYYY') }}</td>
-                                            <td>{{$item->statusterbit}}</td>
+                                            {{-- <td>{{$item->lpspenerbit_id->lpspenerbit}}</td> --}}
+                                            {{-- <td>{{ \Carbon\Carbon::parse($item->tanggalterbit)->isoFormat('D MMMM YYYY') }}</td> --}}
+                                            {{-- <td>{{ \Carbon\Carbon::parse($item->tanggalhabis)->isoFormat('D MMMM YYYY') }}</td> --}}
+                                            {{-- <td>{{$item->statusterbit}}</td> --}}
                                             <td style="text-align: center">
                                                 <a href="/datajakon/skktenagakerjablora/{{$item->nama}}">
                                                     <i class="fas fa-eye view-icon" onclick="alert('View clicked!')"></i>
