@@ -213,7 +213,7 @@ color: #45a049;
                                 <table class="fl-table" id="sortableTable" style="margin-top: 15px; width: 100%; border-collapse: collapse;">
                                     <thead>
                                         <tr>
-                                            <th onclick="sortTable(0)" style="cursor:pointer; text-align:center"> No <span class="sort-icon">⇅</span></th>
+                                            <th onclick="sortTable(0)" style="cursor:pointer; text-align:center; width:100px;"> No <span class="sort-icon">⇅</span></th>
                                             <th onclick="sortTable(1)" style="cursor:pointer; text-align:center"> Nama Asosiasi <span class="sort-icon">⇅</span></th>
                                             <th onclick="sortTable(2)" style="cursor:pointer; text-align:center"> Jumlah <span class="sort-icon">⇅</span></th>
                                             {{-- <th onclick="sortTable(3)" style="cursor:pointer; text-align:center"> No Telepon <span class="sort-icon">⇅</span></th> --}}
@@ -237,7 +237,7 @@ color: #45a049;
                                         <tr>
                                             <td style="text-align: center;">{{ $nomor++ }}</td>
                                             <td>{{$item->asosiasimasjaki->namaasosiasi}}</td>
-                                            <td>{{$item->jumlah}}</td>
+                                            <td style="text-align: center;">{{$item->jumlah}}</td>
                                             {{-- <td>{{$item->email}}</td>
                                             <td>{{$item->nib}}</td>
                                             <td>{{$item->pju}}</td>
