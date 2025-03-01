@@ -228,10 +228,14 @@ color: #45a049;
                                         </tr>
                                     </thead>
                                     <tbody id="tableBody">
-                                        @php $start = ($databujkkontraktor->currentPage() - 1) * $databujkkontraktor->perPage() + 1; @endphp
+                                        @php
+                                                $nomor = $start ?? 1; // Pastikan $start memiliki nilai default
+                                        @endphp
+
                                         @foreach ($databujkkontraktor as $item )
+
                                         <tr>
-                                            <td style="text-align: center;">{{ $loop->iteration + $start - 1 }}</td>
+                                            <td style="text-align: center;">{{ $nomor++ }}</td>
                                             <td>{{$item->namaasosiasi}}</td>
                                             <td>{{$item->jumlah}}</td>
                                             {{-- <td>{{$item->email}}</td>
