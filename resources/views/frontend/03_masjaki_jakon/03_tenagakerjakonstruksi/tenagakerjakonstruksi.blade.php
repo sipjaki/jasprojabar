@@ -215,7 +215,7 @@ color: #45a049;
                                     <thead>
                                         <tr>
                                             <th onclick="sortTable(0)" style="cursor:pointer; text-align:center"> No <span class="sort-icon">⇅</span></th>
-                                            <th onclick="sortTable(1)" style="cursor:pointer; text-align:center"> Nama Lengkap <span class="sort-icon">⇅</span></th>
+                                            <th onclick="sortTable(1)" style="cursor:pointer; text-align:center; width:100px;"> Nama Lengkap <span class="sort-icon">⇅</span></th>
                                             <th onclick="sortTable(2)" style="cursor:pointer; text-align:center"> Alamat<span class="sort-icon">⇅</span></th>
                                             {{-- <th onclick="sortTable(2)" style="cursor:pointer; text-align:center"> Sekolah/Universitas/Instansi<span class="sort-icon">⇅</span></th>
                                             <th onclick="sortTable(3)" style="cursor:pointer; text-align:center"> Jenjang Pendidikan <span class="sort-icon">⇅</span></th>
