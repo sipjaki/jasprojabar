@@ -224,7 +224,7 @@ color: #45a049;
                                             <th onclick="sortTable(8)" style="cursor:pointer; text-align:center"> Tanggal <span class="sort-icon">⇅</span></th>
                                             <th onclick="sortTable(9)" style="cursor:pointer; text-align:center"> Notaris <span class="sort-icon">⇅</span></th>
                                             <th onclick="sortTable(10)" style="cursor:pointer; text-align:center"> Pengesahan <span class="sort-icon">⇅</span></th> --}}
-                                            <th style="text-align:center"> View </th>
+                                            {{-- <th style="text-align:center"> View </th> --}}
                                         </tr>
                                     </thead>
                                     <tbody id="tableBody">
