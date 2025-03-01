@@ -20,7 +20,7 @@ class BujkkontraktorController extends Controller
         $user = Auth::user();
 
         return view('frontend.03_masjaki_jakon.01_bujkkontraktor.index', [
-            'title' => 'BUJK Kontraktor & Konsultan',
+            'title' => 'BUJK Konstruksi & Konsultasi Konstruksi',
             'user' => $user, // Mengirimkan data paginasi ke view
         ]);
     }
