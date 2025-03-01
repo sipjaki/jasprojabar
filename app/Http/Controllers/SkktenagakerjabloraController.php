@@ -51,13 +51,13 @@ class SkktenagakerjabloraController extends Controller
             if ($search) {
                 $query->where('nama', 'LIKE', "%{$search}%")
                         ->orWhere('alamat', 'LIKE', "%{$search}%")
-                        ->orWhere('tahunlulus', 'LIKE', "%{$search}%")
-                        ->orWhereHas('jabatankerja_id', function ($q) use ($search) {
-                        $q->where('jabatankerja', 'LIKE', "%{$search}%");
-                            })
-                            ->orWhereHas('jenjang_id', function ($q) use ($search) {
-                                $q->where('jenjang', 'LIKE', "%{$search}%");
-                            });
+                        ->orWhere('tahunlulus', 'LIKE', "%{$search}%");
+                        // ->orWhereHas('jabatankerja_id', function ($q) use ($search) {
+                        // $q->where('jabatankerja', 'LIKE', "%{$search}%");
+                        //     })
+                        //     ->orWhereHas('jenjang_id', function ($q) use ($search) {
+                        //         $q->where('jenjang', 'LIKE', "%{$search}%");
+                        //     });
 
             }
 
