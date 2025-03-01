@@ -50,15 +50,14 @@ class SkktenagakerjabloraController extends Controller
 
             if ($search) {
                 $query->where('nama', 'LIKE', "%{$search}%")
-                        ->orWhere('alamat', 'LIKE', "%{$search}%")
-                        ->orWhere('tahunlulus', 'LIKE', "%{$search}%");
-                        // ->orWhereHas('jabatankerja_id', function ($q) use ($search) {
-                        // $q->where('jabatankerja', 'LIKE', "%{$search}%");
-                        //     })
-                        //     ->orWhereHas('jenjang_id', function ($q) use ($search) {
-                        //         $q->where('jenjang', 'LIKE', "%{$search}%");
-                        //     });
-
+                      ->orWhere('alamat', 'LIKE', "%{$search}%")
+                      ->orWhere('tahunlulus', 'LIKE', "%{$search}%")
+                      ->orWhereHas('jabatankerja', function ($q) use ($search) {
+                          $q->where('jabatankerja', 'LIKE', "%{$search}%"); // 'jabatankerja' = nama kolom di tabel jabatankerja
+                      })
+                      ->orWhereHas('jenjang', function ($q) use ($search) {
+                          $q->where('jenjang', 'LIKE', "%{$search}%"); // 'jenjang' = nama kolom di tabel jenjang
+                      });
             }
 
             $data = $query->paginate($perPage);
@@ -70,7 +69,7 @@ class SkktenagakerjabloraController extends Controller
             }
 
         return view('frontend.03_masjaki_jakon.03_tenagakerjakonstruksi.tenagakerjakonstruksi', [
-            'title' => 'SKK Tenaga Konstruksi Di Selenggarakan DPUPR',
+            'title' => 'SKK Tenaga Konstruksi Di',
             'user' => $user, // Mengirimkan data paginasi ke view
 
             'data' => $data, // Mengirimkan data paginasi ke view
@@ -219,3 +218,4 @@ class SkktenagakerjabloraController extends Controller
 
 
 }
+
