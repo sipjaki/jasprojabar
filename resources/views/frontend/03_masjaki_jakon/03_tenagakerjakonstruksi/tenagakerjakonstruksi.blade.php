@@ -242,7 +242,7 @@ color: #45a049;
                                             {{-- <td>{{$item->jurusan_id->jurusan}}</td> --}}
                                             {{-- <td>{{$item->tahunlulus}}</td> --}}
                                             <td>{{$item->jabatankerja->jabatankerja}}</td>
-                                            <td>{{$item->jenjang->jenjang}}</td>
+                                            <td style="text-align: center;">{{$item->jenjang->jenjang}}</td>
                                             {{-- <td>{{$item->lpspenerbit_id->lpspenerbit}}</td> --}}
                                             {{-- <td>{{ \Carbon\Carbon::parse($item->tanggalterbit)->isoFormat('D MMMM YYYY') }}</td> --}}
                                             {{-- <td>{{ \Carbon\Carbon::parse($item->tanggalhabis)->isoFormat('D MMMM YYYY') }}</td> --}}
