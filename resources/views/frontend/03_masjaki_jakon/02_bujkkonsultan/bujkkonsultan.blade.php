@@ -189,7 +189,7 @@ color: #45a049;
                                 <div style="display: flex; justify-content: space-between; margin-bottom: 10px; align-items: center;">
                                     <div class="pagination-info-box" style="margin-right:250px; padding: 10px; border: 1px solid black; background-color: #f9f9f9; border-radius: 5px;">
                                         <div class="pagination-info" style="color: black; font-weight: 500;">
-                                            Data Ke {{ $databujkkontraktor->firstItem() }} Sampai {{ $databujkkontraktor->lastItem() }} Dari {{ $databujkkontraktor->total() }} Jumlah {{$title}}
+                                            Data Ke {{ $data->firstItem() }} Sampai {{ $data->lastItem() }} Dari {{ $data->total() }} Jumlah {{$title}}
                                         </div>
                                     </div>
                                     <div>
@@ -204,35 +204,49 @@ color: #45a049;
                                             <option value="200">200</option>
                                         </select>
                                     </div>
-                                    {{-- <div style="position: relative; display: inline-block; margin-right:10px;">
+                                    <div style="position: relative; display: inline-block; margin-right:10px;">
                                         <input type="search" id="searchInput" placeholder="Badan Usaha ...." onkeyup="searchTable()" style="border: 1px solid #ccc; padding: 10px 20px; font-size: 14px; border-radius: 10px; width: 300px;">
                                         <i class="fas fa-search" style="position: absolute; right: 10px; top: 50%; transform: translateY(-50%); font-size: 16px; color: #888;"></i>
-                                    </div> --}}
+                                    </div>
                                 </div>
 
                                 <table class="fl-table" id="sortableTable" style="margin-top: 15px; width: 100%; border-collapse: collapse;">
                                     <thead>
                                         <tr>
                                             <th onclick="sortTable(0)" style="cursor:pointer; text-align:center"> No <span class="sort-icon">⇅</span></th>
-                                            <th onclick="sortTable(1)" style="cursor:pointer; text-align:center"> Nama Asosiasi <span class="sort-icon">⇅</span></th>
-                                            <th onclick="sortTable(2)" style="cursor:pointer; text-align:center"> Jumlah<span class="sort-icon">⇅</span></th>
-                                            {{-- <th onclick="sortTable(3)" style="cursor:pointer; text-align:center"> No Telepon <span class="sort-icon">⇅</span></th> --}}
-                                            {{-- <th style="text-align:center"> View </th> --}}
+                                            <th onclick="sortTable(1)" style="cursor:pointer; text-align:center"> Nama Badan Usaha <span class="sort-icon">⇅</span></th>
+                                            <th onclick="sortTable(2)" style="cursor:pointer; text-align:center"> Alamat <span class="sort-icon">⇅</span></th>
+                                            <th onclick="sortTable(3)" style="cursor:pointer; text-align:center"> No Telepon <span class="sort-icon">⇅</span></th>
+                                            {{-- <th onclick="sortTable(4)" style="cursor:pointer; text-align:center"> Email <span class="sort-icon">⇅</span></th>
+                                            <th onclick="sortTable(5)" style="cursor:pointer; text-align:center"> NIB <span class="sort-icon">⇅</span></th>
+                                            <th onclick="sortTable(6)" style="cursor:pointer; text-align:center"> PJU <span class="sort-icon">⇅</span></th>
+                                            <th onclick="sortTable(7)" style="cursor:pointer; text-align:center"> Akte <span class="sort-icon">⇅</span></th>
+                                            <th onclick="sortTable(8)" style="cursor:pointer; text-align:center"> Tanggal <span class="sort-icon">⇅</span></th>
+                                            <th onclick="sortTable(9)" style="cursor:pointer; text-align:center"> Notaris <span class="sort-icon">⇅</span></th>
+                                            <th onclick="sortTable(10)" style="cursor:pointer; text-align:center"> Pengesahan <span class="sort-icon">⇅</span></th> --}}
+                                            <th style="text-align:center"> View </th>
                                         </tr>
                                     </thead>
                                     <tbody id="tableBody">
-                                        @php $start = ($databujkkontraktor->currentPage() - 1) * $databujkkontraktor->perPage() + 1; @endphp
-
-                                        @foreach ($databujkkontraktor as $item )
+                                        @php $start = ($data->currentPage() - 1) * $data->perPage() + 1; @endphp
+                                        @foreach ($data as $item )
                                         <tr>
                                             <td style="text-align: center;">{{ $loop->iteration + $start - 1 }}</td>
-                                            <td class="namalengkap">{{$item->asosiasimasjaki->namaasosiasi}}</td>
-                                            <td class="namalengkap">{{$item->jumlah}}</td>
-                                            {{-- <td style="text-align: center">
+                                            <td class="namalengkap">{{$item->namalengkap}}</td>
+                                            <td>{{$item->alamat}}</td>
+                                            <td>{{$item->no_telepon}}</td>
+                                            {{-- <td>{{$item->email}}</td>
+                                            <td>{{$item->nib}}</td>
+                                            <td>{{$item->pju}}</td>
+                                            <td>{{$item->no_akte}}</td>
+                                            <td>{{ \Carbon\Carbon::parse($item->tanggal)->isoFormat('D MMMM YYYY') }}</td>
+                                            <td>{{$item->nama_notaris}}</td>
+                                            <td>{{$item->no_pengesahan}}</td> --}}
+                                            <td style="text-align: center">
                                                 <a href="/datajakon/bujkkontraktor/{{$item->namalengkap}}">
                                                     <i class="fas fa-eye view-icon" onclick="alert('View clicked!')"></i>
                                                 </a>
-                                            </td> --}}
+                                            </td>
                                         </tr>
                                         @endforeach
                                     </tbody>
@@ -240,13 +254,13 @@ color: #45a049;
 
                                 <div class="pagination-container" style="margin-top: 50px; display: flex; flex-direction: column; align-items: center;">
                                     <ul class="pagination-paginate" style="display: flex; padding-left: 0; list-style: none; margin-top: 10px;">
-                                        <li class="page-item {{ $databujkkontraktor->onFirstPage() ? 'disabled' : '' }}" style="margin-right: 5px;">
+                                        <li class="page-item {{ $data->onFirstPage() ? 'disabled' : '' }}" style="margin-right: 5px;">
                                             <a class="page-link" href="{{ $data->previousPageUrl() }}">
                                                 <i class="fas fa-arrow-left" style="margin-right: 10px;"></i>Previous
                                             </a>
                                         </li>
-                                        <li class="page-item {{ $databujkkontraktor->hasMorePages() ? '' : 'disabled' }}" style="margin-right: 5px;">
-                                            <a class="page-link" href="{{ $databujkkontraktor->nextPageUrl() }}">
+                                        <li class="page-item {{ $data->hasMorePages() ? '' : 'disabled' }}" style="margin-right: 5px;">
+                                            <a class="page-link" href="{{ $data->nextPageUrl() }}">
                                                 Next <i class="fas fa-arrow-right" style="margin-left: 10px;"></i>
                                             </a>
                                         </li>
@@ -279,7 +293,7 @@ color: #45a049;
                             function searchTable() {
                             let input = document.getElementById("searchInput").value;
 
-                            fetch(`/datajakon/bujkkontraktor?search=${input}`)
+                            fetch(`/datajakon/bujkkonsultan?search=${input}`)
                                 .then(response => response.text())
                                 .then(html => {
                                     let parser = new DOMParser();
