@@ -124,7 +124,7 @@ color: #45a049;
             }
 
             .menusub-button {
-                background: linear-gradient(to right, black, green);
+                background: linear-gradient(to right, #ffd100, #ffd100);
                 color: white;
                 padding: 10px 20px;
                 border-radius: 10px;
@@ -282,7 +282,7 @@ color: #45a049;
 							<div class="document-details-list">
                                 <div class="centered-button" style="margin-top: -15px">
                                     <button class="menusub-button" style="margin-bottom:10px; text-transform:uppercase">
-                                        <i class="fas fa-file mr-2" style="margin-right:5px;"></i> SUB KLASIFIKASI LAYANAN : {{$data->namalengkap}}
+                                        <i class="fas fa-file mr-2" style="margin-right:5px;"></i><span style="color: black;"> SUB KLASIFIKASI LAYANAN : {{$data->namalengkap}}</span>
                                     </button>
 
                                 </div>
