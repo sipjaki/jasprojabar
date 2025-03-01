@@ -241,8 +241,8 @@ color: #45a049;
                                             {{-- <td>{{$item->jenjangpendidikan_id->jenjangpendidikan}}</td> --}}
                                             {{-- <td>{{$item->jurusan_id->jurusan}}</td> --}}
                                             {{-- <td>{{$item->tahunlulus}}</td> --}}
-                                            <td>{{$item->jabatankerja_id->jabatankerja}}</td>
-                                            <td>{{$item->jenjang_id->jenjang}}</td>
+                                            <td>{{$item->jabatankerja->jabatankerja}}</td>
+                                            <td>{{$item->jenjang->jenjang}}</td>
                                             {{-- <td>{{$item->lpspenerbit_id->lpspenerbit}}</td> --}}
                                             {{-- <td>{{ \Carbon\Carbon::parse($item->tanggalterbit)->isoFormat('D MMMM YYYY') }}</td> --}}
                                             {{-- <td>{{ \Carbon\Carbon::parse($item->tanggalhabis)->isoFormat('D MMMM YYYY') }}</td> --}}
