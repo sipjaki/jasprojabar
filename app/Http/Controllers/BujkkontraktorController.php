@@ -3,11 +3,13 @@
 namespace App\Http\Controllers;
 
 use App\Models\asosiasimasjaki;
+use App\Models\bujkkonsultan;
 use App\Models\bujkkontraktor;
 use App\Models\bujkkontraktorsub;
 use Illuminate\Http\Request;
 
 use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\DB;
 
 
 
@@ -25,15 +27,50 @@ class BujkkontraktorController extends Controller
         ]);
     }
 
-    public function asosiasimasjaki()
+    public function asosiasimasjaki(Request $request)
     {
+
+        $databujkkontraktor = bujkkontraktor::select('asosiasimasjaki_id', DB::raw('count(*) as jumlah'))
+        ->groupBy('asosiasimasjaki_id')
+        ->with('asosiasimasjaki') // Pastikan ada relasi ke tabel asosiasi
+        ->get();
+
+        $databujkkonsultan = bujkkonsultan::select('asosiasimasjaki_id', DB::raw('count(*) as jumlah'))
+        ->groupBy('asosiasimasjaki_id')
+        ->with('asosiasimasjaki') // Pastikan ada relasi ke tabel asosiasi
+        ->get();
+
+        $perPage = $request->input('perPage', 10);
+        $search = $request->input('search');
+
         $user = Auth::user();
-        $data = asosiasimasjaki::paginate(15);
+        // $data = asosiasimasjaki::paginate(15);
+
+        $query = asosiasimasjaki::query();
+
+        if ($search) {
+            $query->where('namaasosiasi', 'LIKE', "%{$search}%");
+                //   ->orWhere('alamat', 'LIKE', "%{$search}%")
+                //   ->orWhere('email', 'LIKE', "%{$search}%")
+                //   ->orWhere('nib', 'LIKE', "%{$search}%");
+        }
+
+        $data = $query->paginate($perPage);
+
+        if ($request->ajax()) {
+            return response()->json([
+                'html' => view('frontend.03_masjaki_jakon.05_asosiasimasjaki.partials.table', compact('data'))->render()
+            ]);
+        }
 
         return view('frontend.03_masjaki_jakon.05_asosiasimasjaki.index', [
             'title' => 'Asosiasi Konstruksi dan Konstruksi Konsultasi',
             'user' => $user, // Mengirimkan data paginasi ke view
             'data' => $data, // Mengirimkan data paginasi ke view
+            'perPage' => $perPage,
+            'search' => $search,
+            'databujkkontraktor' => $databujkkontraktor,
+            'databujkkonsultan' => $databujkkonsultan,
         ]);
     }
 
