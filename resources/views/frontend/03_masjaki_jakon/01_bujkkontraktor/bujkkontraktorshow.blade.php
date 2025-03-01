@@ -282,7 +282,7 @@ color: #45a049;
 							<div class="document-details-list">
                                 <div class="centered-button" style="margin-top: -15px">
                                     <button class="menusub-button" style="margin-bottom:10px; text-transform:uppercase">
-                                        <i class="fas fa-file mr-2" style="margin-right:5px;"></i> SUB KLASIFIKASI LAYANAN : {{$data->namalengkap}}
+                                        <i class="fas fa-building mr-2" style="margin-right:5px;"></i><span style="color: black;">SUB KLASIFIKASI LAYANAN : {{$data->namalengkap}}</span>
                                     </button>
 
                                 </div>
