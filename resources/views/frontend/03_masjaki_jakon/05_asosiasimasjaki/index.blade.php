@@ -236,7 +236,7 @@ color: #45a049;
 
                                         <tr>
                                             <td style="text-align: center;">{{ $nomor++ }}</td>
-                                            <td>{{$item->namaasosiasi}}</td>
+                                            <td>{{$item->asosiasimasjaki->namaasosiasi}}</td>
                                             <td>{{$item->jumlah}}</td>
                                             {{-- <td>{{$item->email}}</td>
                                             <td>{{$item->nib}}</td>
