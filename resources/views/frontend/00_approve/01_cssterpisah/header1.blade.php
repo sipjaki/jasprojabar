@@ -182,7 +182,7 @@
 									<ul class="list-unstyled">
 										<li><a href="/hspkonstruksiumum">HSP Konstruksi Umum</a></li>
 										<li><a href="/shstblora">SHST Konstruksi Kab Blora</a></li>
-										<li><a href="/404">Satuan Harga Dasar</a></li>
+										<li><a href="/satuanhargamaterial">Satuan Harga Dasar</a></li>
                                     </ul><!-- list-unstyled -->
 								</li>
                                 <li><a href="/404">AHSP Bina Marga </a></li>
