@@ -168,9 +168,10 @@ color: #45a049;
                 <div class="col-lg-12">
                         <div class="document-details">
 							<div class="document-details-list">
+
                                 <div class="centered-button" style="display: flex; justify-content: space-between; align-items: center; margin-top: -20px;">
                                     <!-- Tombol di kiri -->
-                                    <button class="green-button" style="display: flex; align-items: center; margin-bottom: 10px; text-transform: uppercase; border: none; background: none; cursor: pointer;">
+                                    <button class="green-button" style="display: flex; align-items: center; margin-bottom: 10px; text-transform: uppercase; border: none; cursor: pointer;">
                                         <img src="/assets/icon/logokabupatenblora.png" class="img-fluid" alt="img-25" width="50" height="50" style="margin-right: 10px;" loading="lazy">
                                         <i class="fas fa-file mr-2" style="margin-right: 5px;"></i>
                                         <span style="color: black;">{{$title}} : {{$data->kodeproyek}}</span>
@@ -178,7 +179,7 @@ color: #45a049;
 
                                     <!-- Tombol di kanan -->
                                     <a href="/pengawasanbujk">
-                                        <button class="badgekembali" style="border: none; font-size: 12px; background: white; cursor: pointer; display: flex; align-items: center;">
+                                        <button class="badgekembali" style="border: none; font-size: 12px; cursor: pointer; display: flex; align-items: center;">
                                             <i class="fas fa-arrow-circle-left" style="margin-right: 5px;"></i> KEMBALI
                                         </button>
                                     </a>
