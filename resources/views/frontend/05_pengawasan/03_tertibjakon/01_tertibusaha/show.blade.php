@@ -443,7 +443,7 @@ color: #45a049;
 <thead>
     <tr>
         <th colspan="4">Kesesuaian Kegiatan Konstruksi</th>
-        <th rowspan="2">Nama</th>
+        <th colspan="2">Kesesuaian Jasa Konstruksi & Segmentasi Pasar Jasa Konstruksi</th>
         <th rowspan="2">Detail</th>
         <th rowspan="2">Total</th>
     </tr>
@@ -460,24 +460,13 @@ color: #45a049;
         <td>{{$data->sesuai_sifat}}</td>
         <td>{{$data->sesuai_klasifikasi}}</td>
         <td>{{$data->sesuai_layanan}}</td>
+        <td>{{$data->segmentasipasar_bentuk}}</td>
+        <td>{{$data->segmentasipasar_kualifikasi}}</td>
         <td>1</td>
         <td>5</td>
-        <td>3</td>
-        <td>8</td>
+
     </tr>
-    <tr>
-        <td>2</td>
-        <td>Budi</td> <!-- Merge baris -->
-        <td>2</td>
-        <td>6</td>
-        <td>8</td>
-    </tr>
-    <tr>
-        <td>3</td>
-        <td>1</td>
-        <td>4</td>
-        <td>5</td>
-    </tr>
+
 </tbody>
 </table>
 
