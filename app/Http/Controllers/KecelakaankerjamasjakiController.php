@@ -24,17 +24,49 @@ class KecelakaankerjamasjakiController extends Controller
         ]);
     }
 
-    public function kecelakaankerjalist()
-    {
-        $data = kecelakaankerjamasjaki::paginate(10);
-        $user = Auth::user();
+    // public function kecelakaankerjalist()
+    // {
+    //     $data = kecelakaankerjamasjaki::paginate(10);
+    //     $user = Auth::user();
 
-        return view('frontend.05_pengawasan.02_kecelakaankerja.02_kecelakaankerjalist', [
-            'title' => 'Angka Kecelakaan Kerja',
-            'user' => $user, // Mengirimkan data paginasi ke view
-            'data' => $data, // Mengirimkan data paginasi ke view
+    //     return view('frontend.05_pengawasan.02_kecelakaankerja.02_kecelakaankerjalist', [
+    //         'title' => 'Angka Kecelakaan Kerja',
+    //         'user' => $user, // Mengirimkan data paginasi ke view
+    //         'data' => $data, // Mengirimkan data paginasi ke view
+    //     ]);
+    // }
+
+    public function kecelakaankerjalist(Request $request)
+{
+    $perPage = $request->input('perPage', 10);
+    $search = $request->input('search');
+
+    $query = kecelakaankerjamasjaki::query();
+
+    if ($search) {
+        $query->where('namapaketpekerjaan', 'LIKE', "%{$search}%")
+              ->orWhere('tahun', 'LIKE', "%{$search}%")
+              ->orWhere('namaperusahaan', 'LIKE', "%{$search}%")
+              ->orWhere('namatenagakerja', 'LIKE', "%{$search}%")
+              ->orWhere('lokasikecelakaan', 'LIKE', "%{$search}%")
+              ->orWhere('keterangan', 'LIKE', "%{$search}%");
+    }
+
+    $data = $query->paginate($perPage);
+
+    if ($request->ajax()) {
+        return response()->json([
+            'html' => view('frontend.05_pengawasan.02_kecelakaankerja.partials.table', compact('data'))->render()
         ]);
     }
+
+    return view('frontend.05_pengawasan.02_kecelakaankerja.02_kecelakaankerjalist', [
+        'title' => 'BUJK Konstruksi',
+        'data' => $data,
+        'perPage' => $perPage,
+        'search' => $search
+    ]);
+}
 
     public function kecelakaankerjashow($namapaketpekerjaan)
     {
