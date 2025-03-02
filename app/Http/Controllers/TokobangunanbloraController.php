@@ -113,8 +113,8 @@ class TokobangunanbloraController extends Controller
     // Ambil data user saat ini
     $user = Auth::user();
 
-    return view('frontend.06_rantaipasok.03_tokobangunanblora.tokobangunanbloralistshow', [
-        'title' => 'Toko Bangunan Cakupan Per Kecamatan',
+    return view('frontend.06_rantaipasok.03_tokobangunanblora.new.tokobangunanshow', [
+        'title' => 'Data Toko Bangunan',
         'data' => $datatokobangunan,
         'subData' => $subdata,  // Jika Anda ingin mengirimkan data sub kontraktor juga
         'user' => $user,
