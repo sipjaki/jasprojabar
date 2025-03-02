@@ -283,6 +283,7 @@ color: #45a049;
                 <th style="text-align:center" style="color: black" style="width: 600px;"> Nama Produk</th>
                 <th style="text-align:center" style="color: black" style="width: 600px;"> Rp.</th>
                 <th style="text-align:center" style="color: black" style="width: 400px;"> Harga</th>
+                <th style="text-align:center" style="color: black" style="width: 400px;"> Spesifikasi</th>
             </tr>
         </thead>
         <tbody>
@@ -298,11 +299,12 @@ color: #45a049;
             <td style="text-align: center; vertical-align: middle;">1</td>
             <td style="text-align: center; vertical-align: middle;">
                 <img src="/assets/icon/logokabupatenblora.png" alt="Gambar Semen"
-                     style="width: 80px; height: 80px; object-fit: cover; border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.2);">
+                style="width: 80px; height: 80px; object-fit: cover; border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.2);">
             </td>
             <td style="text-align: center; vertical-align: middle;">Semen</td>
             <td>Rp.</td>
             <td style="text-align: center; vertical-align: middle;">50.000</td>
+            <td style="text-align: center; vertical-align: middle;">Keterangan Spesifikasi</td>
         </tr>
 
         <tr>
@@ -314,17 +316,19 @@ color: #45a049;
             <td style="text-align: center; vertical-align: middle;">Paku</td>
             <td>Rp.</td>
             <td style="text-align: center; vertical-align: middle;">5.000</td>
+            <td style="text-align: center; vertical-align: middle;">Keterangan Spesifikasi</td>
         </tr>
 
         <tr>
             <td style="text-align: center; vertical-align: middle;">1</td>
             <td style="text-align: center; vertical-align: middle;">
                 <img src="/assets/icon/logokabupatenblora.png" alt="Gambar Semen"
-                     style="width: 80px; height: 80px; object-fit: cover; border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.2);">
+                style="width: 80px; height: 80px; object-fit: cover; border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.2);">
             </td>
             <td style="text-align: center; vertical-align: middle;">Cat</td>
             <td>Rp.</td>
             <td style="text-align: center; vertical-align: middle;">125.000</td>
+            <td style="text-align: center; vertical-align: middle;">Keterangan Spesifikasi</td>
         </tr>
         <tr>
             <td style="text-align: center; vertical-align: middle;">1</td>
@@ -335,6 +339,7 @@ color: #45a049;
             <td style="text-align: center; vertical-align: middle;">Pasir</td>
             <td>Rp.</td>
             <td style="text-align: center; vertical-align: middle;">345.000</td>
+            <td style="text-align: center; vertical-align: middle;">Keterangan Spesifikasi</td>
         </tr>
         {{-- @endforeach --}}
 
