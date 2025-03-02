@@ -180,7 +180,7 @@ color: #45a049;
                                     <!-- Tombol di kanan -->
                                     <a href="/pengawasanbujk">
                                         <button class="badgekembali">
-                                            <i class="fas fa-arrow-circle-left" style="margin-right: 5px;"></i> KEMBALI
+                                            <i class="fas fa-arrow-circle-left" style="margin-right: 5px; color:red;"></i> KEMBALI
                                         </button>
                                     </a>
                                 </div>
