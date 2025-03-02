@@ -274,7 +274,7 @@ color: #45a049;
 
 
 <div class="table-wrapper">
-    <table class="fl-table">
+    <table class="fl-table" style="background: #ffd100">
         <thead>
             <tr>
                 {{-- <th style="text-align:center" >No</th> --}}
