@@ -257,7 +257,6 @@ color: #45a049;
                                             </td>
                                         </tr>
 
-
                                     </thead>
 
                                 </table>
