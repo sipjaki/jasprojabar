@@ -257,7 +257,7 @@ color: #45a049;
                         <table class="fl-table">
                             <thead>
                                 <tr>
-                                    <th style="text-align:center" colspan="2"> Satuan Harga Dasar </th>
+                                    <th style="text-align:center" colspan="3"> Satuan Harga Dasar </th>
                                     {{-- <th style="text-align:center" >View</th> --}}
                                 </tr>
                                 <tr>
@@ -270,21 +270,21 @@ color: #45a049;
                                 <tr>
                                     <td style="text-align: center;">
                                         <a href="your-link-here" style="text-decoration: none;">
-                                            <button style="background-color: blue; color: white; font-weight: bold; font-size: 18px; border: none; padding: 10px 20px; border-radius: 5px; cursor: pointer; transition: 0.3s;">
+                                            <button style="background-color: blue; color: white; font-weight: 300; font-size: 18px; border: none; padding: 10px 20px; border-radius: 5px; cursor: pointer; transition: 0.3s;">
                                                 Lihat Table
                                             </button>
                                         </a>
                                     </td>
                                     <td style="text-align: center;">
                                         <a href="your-link-here" style="text-decoration: none;">
-                                            <button style="background-color: blue; color: white; font-weight: bold; font-size: 18px; border: none; padding: 10px 20px; border-radius: 5px; cursor: pointer; transition: 0.3s;">
+                                            <button style="background-color: blue; color: white; font-weight: 300; font-size: 18px; border: none; padding: 10px 20px; border-radius: 5px; cursor: pointer; transition: 0.3s;">
                                                 Lihat Table
                                             </button>
                                         </a>
                                     </td>
                                     <td style="text-align: center;">
                                         <a href="your-link-here" style="text-decoration: none;">
-                                            <button style="background-color: blue; color: white; font-weight: bold; font-size: 18px; border: none; padding: 10px 20px; border-radius: 5px; cursor: pointer; transition: 0.3s;">
+                                            <button style="background-color: blue; color: white; font-weight: 300; font-size: 18px; border: none; padding: 10px 20px; border-radius: 5px; cursor: pointer; transition: 0.3s;">
                                                 Lihat Table
                                             </button>
                                         </a>
