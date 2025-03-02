@@ -217,6 +217,7 @@ color: #45a049;
                                             <th onclick="sortTable(1)" style="cursor:pointer; text-align:center"> Kecamatan <span class="sort-icon">⇅</span></th>
                                             <th onclick="sortTable(2)" style="cursor:pointer; text-align:center"> Nama Badan Usaha<span class="sort-icon">⇅</span></th>
                                             <th onclick="sortTable(3)" style="cursor:pointer; text-align:center"> No Telepon <span class="sort-icon">⇅</span></th>
+                                            <th onclick="sortTable(3)" style="cursor:pointer; text-align:center"> Foto Badan Usaha <span class="sort-icon">⇅</span></th>
                                             {{-- <th onclick="sortTable(4)" style="cursor:pointer; text-align:center"> NIB<span class="sort-icon">⇅</span></th> --}}
                                             <th style="text-align:center"> View </th>
                                         </tr>
@@ -229,6 +230,10 @@ color: #45a049;
                                             <td>{{$item->kecamatanblora->kecamatanblora}}</td>
                                             <td>{{$item->namabadanusaha}}</td>
                                             <td style="text-align: center">{{$item->notelepon}}</td>
+                                            <td style="text-align: center">
+                                                <img src="{{ asset('storage/' . $item->foto) }}" alt="Foto Toko Bangunan" width="100">
+
+                                            </td>
                                             {{-- <td>{{$item->nib}}</td> --}}
                                             <td style="text-align: center">
                                                 <a href="/peralatankonstruksi/{{$item->namabadanusaha}}">
