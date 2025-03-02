@@ -38,7 +38,7 @@ class RantaipasokbloraController extends Controller
         if ($search) {
             $query->where('distributor', 'LIKE', "%{$search}%")
                   ->orWhere('alamat', 'LIKE', "%{$search}%")
-                  ->orWhere('email', 'LIKE', "%{$search}%")
+                //   ->orWhere('email', 'LIKE', "%{$search}%")
                   ->orWhere('notelepon', 'LIKE', "%{$search}%")
                   ->orWhere('materialproduk', 'LIKE', "%{$search}%");
         }
