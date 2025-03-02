@@ -177,6 +177,12 @@ color: #45a049;
                                         <span style="color: black; text-transform:uppercase">{{$title}} : {{$data->namabadanusaha}}</span>
                                     </button>
 
+                                    <a href="https://wa.me/081321455855" target="_blank" style="text-decoration: none; margin-left: 600px; margin-right:10px;">
+                                        <button class="bagdewa">
+                                            <i class="fab fa-whatsapp" style="color: green; font-size:24px;"></i>
+                                        </button>
+                                    </a>
+
                                     <!-- Tombol di Kanan -->
                                     <a href="javascript:window.history.back()" style="text-decoration: none;">
                                         <button class="badgekembali">
@@ -206,44 +212,6 @@ color: #45a049;
                                             </td>
                                         </tr>
 
-                                        <tr>
-                                            <th style="text-align:center; color: black; width:50px; background-color: white;">
-                                                <i class="fas fa-truck" style="font-size:20px; margin-right:8px;"></i> <!-- Ikon untuk Distributor -->
-                                            </th>
-                                            <th colspan="11" style="text-align:left; color: black; background-color: white; padding-left: 10px; width:300px;">
-                                                Kecamatan
-                                            </th>
-                                            <th colspan="1" style="text-align:center; color: black; background-color: white; width:25px;">:</th>
-                                            <td colspan="12" style="text-align:left; background-color: white; padding-left: 10px; color: black; width:1000px;">
-                                                {{$data->kecamatanblora->kecamatanblora}}
-                                            </td>
-                                        </tr>
-
-                                        <tr>
-                                            <th style="text-align:center; color: black; width:50px; background-color: white;">
-                                                <i class="fas fa-id-card" style="font-size:20px; margin-right:8px;"></i> <!-- Ikon untuk Nomor Induk Berusaha -->
-                                            </th>
-                                            <th colspan="11" style="text-align:left; color: black; background-color: white; padding-left: 10px; width:300px;">
-                                                Nomor Induk Berusaha
-                                            </th>
-                                            <th colspan="1" style="text-align:center; color: black; background-color: white; width:25px;">:</th>
-                                            <td colspan="12" style="text-align:left; background-color: white; padding-left: 10px; color: black; width:1000px;">
-                                                {{$data->nib}}
-                                            </td>
-                                        </tr>
-
-                                        <tr>
-                                            <th style="text-align:center; color: black; width:50px; background-color: white;">
-                                                <i class="fas fa-map-marker-alt" style="font-size:20px; margin-right:8px;"></i> <!-- Ikon untuk Alamat -->
-                                            </th>
-                                            <th colspan="11" style="text-align:left; color: black; background-color: white; padding-left: 10px; width:300px;">
-                                                No Telepon
-                                            </th>
-                                            <th colspan="1" style="text-align:center; color: black; background-color: white; width:25px;">:</th>
-                                            <td colspan="12" style="text-align:left; background-color: white; padding-left: 10px; color: black; width:1000px;">
-                                                {{$data->notelepon}}
-                                            </td>
-                                        </tr>
 {{--
                                         <tr>
                                             <th style="text-align:center; color: black; width:50px; background-color: white;">
