@@ -242,7 +242,7 @@ color: #45a049;
 
                                         <tr>
                                             <th style="text-align:center; color: black; width:50px; background-color: white;">
-                                                <i class="fas fa-phone-alt" style="font-size:20px; margin-right:8px;"></i> <!-- Ikon untuk No Telepon -->
+                                                <i class="fas fa-map-marker-alt" style="font-size:20px; margin-right:8px;"></i> <!-- Ikon untuk Kecamatan -->
                                             </th>
                                             <th colspan="11" style="text-align:left; color: black; background-color: white; padding-left: 10px; width:300px;">
                                                 Kecamatan
@@ -255,7 +255,7 @@ color: #45a049;
 
                                         <tr>
                                             <th style="text-align:center; color: black; width:50px; background-color: white;">
-                                                <i class="fas fa-phone-alt" style="font-size:20px; margin-right:8px;"></i> <!-- Ikon untuk No Telepon -->
+                                                <i class="fas fa-building" style="font-size:20px; margin-right:8px;"></i> <!-- Ikon untuk Nama Badan Usaha -->
                                             </th>
                                             <th colspan="11" style="text-align:left; color: black; background-color: white; padding-left: 10px; width:300px;">
                                                 Nama Badan Usaha
@@ -268,7 +268,7 @@ color: #45a049;
 
                                         <tr>
                                             <th style="text-align:center; color: black; width:50px; background-color: white;">
-                                                <i class="fas fa-phone-alt" style="font-size:20px; margin-right:8px;"></i> <!-- Ikon untuk No Telepon -->
+                                                <i class="fas fa-id-card" style="font-size:20px; margin-right:8px;"></i> <!-- Ikon untuk Nomor Induk Berusaha -->
                                             </th>
                                             <th colspan="11" style="text-align:left; color: black; background-color: white; padding-left: 10px; width:300px;">
                                                 Nomor Induk Berusaha
