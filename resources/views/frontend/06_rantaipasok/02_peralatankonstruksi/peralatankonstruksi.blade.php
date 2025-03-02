@@ -228,7 +228,7 @@ color: #45a049;
                                             <td style="text-align: center;">{{ $loop->iteration + $start - 1 }}</td>
                                             <td>{{$item->kecamatanblora->kecamatanblora}}</td>
                                             <td>{{$item->namabadanusaha}}</td>
-                                            <td>{{$item->notelepon}}</td>
+                                            <td style="text-align: center">{{$item->notelepon}}</td>
                                             {{-- <td>{{$item->nib}}</td> --}}
                                             <td style="text-align: center">
                                                 <a href="/peralatankonstruksi/{{$item->namabadanusaha}}">
