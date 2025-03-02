@@ -88,19 +88,60 @@ class RantaipasokbloraController extends Controller
     ]);
     }
 
-    public function peralatankonstruksi()
-    {
-        $data = peralatankonstruksi::paginate(10);
-        $datasub = alatberat::paginate(15);
-        $user = Auth::user();
 
-        return view('frontend.06_rantaipasok.02_peralatankonstruksi.peralatankonstruksi', [
-            'title' => 'Peralatan Konstruksi Wilayah Kab Blora',
-            'user' => $user, // Mengirimkan data paginasi ke view
-            'data' => $data, // Mengirimkan data paginasi ke view
-            'datasub' => $datasub, // Mengirimkan data paginasi ke view
+    // DAFTAR RANTAI PASOK MAATERIAL KONSTRUKSI
+
+    // public function peralatankonstruksi()
+    // {
+    //     $data = peralatankonstruksi::paginate(10);
+    //     $datasub = alatberat::paginate(15);
+    //     $user = Auth::user();
+
+    //     return view('frontend.06_ranstaipasok.02_peralatankonstruksi.peralatankonstruksi', [
+    //         'title' => 'Peralatan Konstruksi Wilayah Kab Blora',
+    //         'user' => $user, // Mengirimkan data paginasi ke view
+    //         'data' => $data, // Mengirimkan data paginasi ke view
+    //         'datasub' => $datasub, // Mengirimkan data paginasi ke view
+    //     ]);
+    // }
+
+    public function peralatankonstruksi(Request $request)
+    {
+        $perPage = $request->input('perPage', 10);
+        $search = $request->input('search');
+
+        $query = peralatankonstruksi::query();
+
+        if ($search) {
+            $query->where('namabadanusaha', 'LIKE', "%{$search}%")
+                  ->orWhere('nib', 'LIKE', "%{$search}%")
+                //   ->orWhere('email', 'LIKE', "%{$search}%")
+                  ->orWhere('notelepon', 'LIKE', "%{$search}%")
+                //   ->orWhere('materialproduk', 'LIKE', "%{$search}%")
+                  ->orWhereHas('kecamatanblora', function ($q) use ($search) {
+                    $q->where('kecamatanblora', 'LIKE', "%{$search}%"); // 'jabatankerja' = nama kolom di tabel jabatankerja
+                })
+                  ->orWhereHas('alatberat', function ($q) use ($search) {
+                    $q->where('alatberat', 'LIKE', "%{$search}%"); // 'jabatankerja' = nama kolom di tabel jabatankerja
+                });
+        }
+
+        $data = $query->paginate($perPage);
+
+        if ($request->ajax()) {
+            return response()->json([
+                'html' => view('frontend.06_ranstaipasok.02_peralatankonstruksi.partials.table', compact('data'))->render()
+            ]);
+        }
+
+        return view('frontend.06_ranstaipasok.02_peralatankonstruksi.peralatankonstruksi', [
+            'title' => 'Rantai Pasok Peralatan Konstruksi Bangunan Gedung',
+            'data' => $data,
+            'perPage' => $perPage,
+            'search' => $search
         ]);
     }
+
 
     public function peralatankonstruksishow($namabadanusaha)
     {
