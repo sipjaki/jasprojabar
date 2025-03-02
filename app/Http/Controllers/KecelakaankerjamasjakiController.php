@@ -61,7 +61,7 @@ class KecelakaankerjamasjakiController extends Controller
     }
 
     return view('frontend.05_pengawasan.02_kecelakaankerja.02_kecelakaankerjalist', [
-        'title' => 'BUJK Konstruksi',
+        'title' => 'Daftar Kecelakaan Kerja',
         'data' => $data,
         'perPage' => $perPage,
         'search' => $search
