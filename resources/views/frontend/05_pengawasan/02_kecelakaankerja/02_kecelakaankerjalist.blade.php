@@ -231,7 +231,7 @@ color: #45a049;
                                         <tr>
                                             <td style="text-align: center;">{{ $loop->iteration + $start - 1 }}</td>
                                             <td>{{$item->namapaketpekerjaan}}</td>
-                                            <td>{{$item->tahun}}</td>
+                                            <td style="text-align: center;">{{$item->tahun}}</td>
                                             <td>{{$item->namaperusahaan}}</td>
                                             {{-- <td>{{$item->namatenagakerja}}</td> --}}
                                             {{-- <td>{{$item->lokasikecelakaan}}</td> --}}
