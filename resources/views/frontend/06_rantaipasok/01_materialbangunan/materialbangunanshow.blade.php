@@ -292,13 +292,25 @@ color: #45a049;
             $start = ($data && $data->currentPage()) ? ($data->currentPage() - 1) * $data->perPage() + 1 : 1;
         @endphp --}}
 
-        {{-- @foreach ($subData as $item)
+        {{-- @foreach ($subData as $item) --}}
         <tr>
-            <td style="text-align: center">{{ $loop->iteration + $start - 1 }}</td>
-            <td style="text-align: center">{{$item->alatberat}}</td>
-            <td style="text-align: center">{{$item->jumlahalatberat}}</td>
+            <!-- Nomor Urut -->
+            <td style="text-align: center; vertical-align: middle;">1</td>
+
+            <!-- Gambar Produk -->
+            <td style="text-align: center; vertical-align: middle;">
+                <img src="https://via.placeholder.com/100x100.png?text=Semen"
+                     alt="Gambar Semen"
+                     style="width: 80px; height: 80px; object-fit: cover; border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.2);">
+            </td>
+<td>Rp.</td>
+            <!-- Nama Produk -->
+            <td style="text-align: center; vertical-align: middle;">Semen</td>
+
+            <!-- Jumlah -->
+            <td style="text-align: center; vertical-align: middle;">10.0000</td>
         </tr>
-        @endforeach --}}
+                {{-- @endforeach --}}
 
         </tbody>
     </table>
