@@ -237,10 +237,10 @@ color: #45a049;
                                             <td>{{$item->namaperusahaan}}</td>
                                             {{-- <td>{{$item->alamatperusahaan}}</td> --}}
                                             <td>{{$item->statusmodal}}</td>
-                                            <td>{{$item->jenisperusahaan}}</td>
+                                            {{-- <td>{{$item->jenisperusahaan}}</td>
                                             <td>{{$item->nib}}</td>
                                             <td>{{$item->kbli}}</td>
-                                            <td>{{$item->uraiankbli}}</td>
+                                            <td>{{$item->uraiankbli}}</td> --}}
                                             <td>{{$item->sektor}}</td>
                                             {{-- <td>{{$item->alamatproyek}}</td> --}}
                                             <td>{{$item->wilayah}}</td>
