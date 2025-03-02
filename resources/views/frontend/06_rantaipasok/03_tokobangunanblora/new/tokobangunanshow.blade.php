@@ -212,7 +212,7 @@ color: #45a049;
 
 
                                 <div style="text-align: center; margin-top: 20px;">
-                                    <img src="{{ asset('storage/' . $data->fototokobangunan) }}" alt="Foto Toko Bangunan" style="width: 350px; height: 350px; object-fit: cover; border-radius: 10px; box-shadow: 0 6px 12px rgba(0,0,0,0.2);">
+                                    <img src="{{ asset('storage/' . $data->foto) }}" alt="Foto Toko Bangunan" style="width: 350px; height: 350px; object-fit: cover; border-radius: 10px; box-shadow: 0 6px 12px rgba(0,0,0,0.2);">
                                     <p style="margin-top: 10px; font-weight: 600; color: black; font-family: 'Poppins', sans-serif; font-size: 18px;">
                                         Foto Badan Usaha Peralatan Bangunan
                                     </p>
@@ -322,8 +322,9 @@ color: #45a049;
 
         <tr>
             <td style="text-align: center; vertical-align: middle;">1</td>
-            <td style="text-align: center">
-                <img src="{{ asset('storage/' . $data->fototokobangunan) }}" alt="Foto Toko Bangunan" width="100">
+            <td style="text-align: center; vertical-align: middle;">
+                <img src="/assets/icon/logokabupatenblora.png" alt="Gambar Semen"
+                style="width: 80px; height: 80px; object-fit: cover; border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.2);">
             </td>
             <td style="text-align: center; vertical-align: middle;">Semen</td>
             <td style="text-align: center">Rp.</td>
@@ -333,10 +334,10 @@ color: #45a049;
 
         <tr>
             <td style="text-align: center; vertical-align: middle;">1</td>
-            <td style="text-align: center">
-                <img src="{{ asset('storage/' . $data->fototokobangunan) }}" alt="Foto Toko Bangunan" width="100">
+            <td style="text-align: center; vertical-align: middle;">
+                <img src="/assets/icon/logokabupatenblora.png" alt="Gambar Semen"
+                     style="width: 80px; height: 80px; object-fit: cover; border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.2);">
             </td>
-
             <td style="text-align: center; vertical-align: middle;">Paku</td>
             <td style="text-align: center">Rp.</td>
             <td style="text-align: center; vertical-align: middle;">5.000</td>
@@ -345,10 +346,10 @@ color: #45a049;
 
         <tr>
             <td style="text-align: center; vertical-align: middle;">1</td>
-            <td style="text-align: center">
-                <img src="{{ asset('storage/' . $data->fototokobangunan) }}" alt="Foto Toko Bangunan" width="100">
+            <td style="text-align: center; vertical-align: middle;">
+                <img src="/assets/icon/logokabupatenblora.png" alt="Gambar Semen"
+                style="width: 80px; height: 80px; object-fit: cover; border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.2);">
             </td>
-
             <td style="text-align: center; vertical-align: middle;">Cat</td>
             <td style="text-align: center">Rp.</td>
             <td style="text-align: center; vertical-align: middle;">125.000</td>
@@ -356,10 +357,10 @@ color: #45a049;
         </tr>
         <tr>
             <td style="text-align: center; vertical-align: middle;">1</td>
-            <td style="text-align: center">
-                <img src="{{ asset('storage/' . $data->fototokobangunan) }}" alt="Foto Toko Bangunan" width="100">
+            <td style="text-align: center; vertical-align: middle;">
+                <img src="/assets/icon/logokabupatenblora.png" alt="Gambar Semen"
+                     style="width: 80px; height: 80px; object-fit: cover; border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.2);">
             </td>
-
             <td style="text-align: center; vertical-align: middle;">Pasir</td>
             <td style="text-align: center">Rp.</td>
             <td style="text-align: center; vertical-align: middle;">345.000</td>
