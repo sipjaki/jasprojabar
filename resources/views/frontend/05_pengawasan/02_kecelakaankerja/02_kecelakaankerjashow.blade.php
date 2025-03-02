@@ -168,6 +168,7 @@ color: #45a049;
                 <div class="col-lg-12">
                         <div class="document-details">
 							<div class="document-details-list">
+
                                 <div class="centered-button" style="display: flex; justify-content: space-between; align-items: center; margin-top: 0px;">
                                     <!-- Tombol di kiri -->
                                     <button class="green-button">
