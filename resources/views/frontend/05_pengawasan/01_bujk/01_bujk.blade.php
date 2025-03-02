@@ -224,7 +224,7 @@ color: #45a049;
                                             {{-- <th onclick="sortTable(7)" style="cursor:pointer; text-align:center"> Uraian KBLI <span class="sort-icon">⇅</span></th> --}}
                                             <th onclick="sortTable(8)" style="cursor:pointer; text-align:center"> Sektor<span class="sort-icon">⇅</span></th>
                                             {{-- <th onclick="sortTable(8)" style="cursor:pointer; text-align:center"> Alamat Proyek<span class="sort-icon">⇅</span></th> --}}
-                                            <th onclick="sortTable(9)" style="cursor:pointer; text-align:center"> Wilayah <span class="sort-icon">⇅</span></th>
+                                            {{-- <th onclick="sortTable(9)" style="cursor:pointer; text-align:center"> Wilayah <span class="sort-icon">⇅</span></th> --}}
                                             <th style="text-align:center"> View </th>
                                         </tr>
                                     </thead>
@@ -243,7 +243,7 @@ color: #45a049;
                                             <td>{{$item->uraiankbli}}</td> --}}
                                             <td>{{$item->sektor}}</td>
                                             {{-- <td>{{$item->alamatproyek}}</td> --}}
-                                            <td>{{$item->wilayah}}</td>
+                                            {{-- <td>{{$item->wilayah}}</td> --}}
                                             <td style="text-align: center">
                                                 <a href="/datajakon/bujkkontraktor/{{$item->namaperusahaan}}">
                                                     <i class="fas fa-eye view-icon" onclick="alert('View clicked!')"></i>
