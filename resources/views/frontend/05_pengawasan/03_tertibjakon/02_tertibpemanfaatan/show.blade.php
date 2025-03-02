@@ -450,27 +450,27 @@ color: #45a049;
 </thead>
 <tbody>
     <tr>
-        <td class="{{ $data->peruntukan_fungsi == 'BELUM' ? 'bg-red-500 text-white' : '' }}">
+        <td class="{{ $data->peruntukan_fungsi == 'BELUM' ?  'text-red-500' : '' }}">
             {{ $data->peruntukan_fungsi }}
         </td>
 
-        <td class="{{ $data->peruntukan_lokasi == 'BELUM' ? 'bg-red-500 text-white' : '' }}">
+        <td class="{{ $data->peruntukan_lokasi == 'BELUM' ?  'text-red-500' : '' }}">
             {{ $data->peruntukan_lokasi }}
         </td>
 
-        <td class="{{ $data->rencanaumur == 'BELUM' ? 'bg-red-500 text-white' : '' }}">
+        <td class="{{ $data->rencanaumur == 'BELUM' ?  'text-red-500' : '' }}">
             {{ $data->rencanaumur }}
         </td>
 
-        <td class="{{ $data->kapasitasdanbeban == 'BELUM' ? 'bg-red-500 text-white' : '' }}">
+        <td class="{{ $data->kapasitasdanbeban == 'BELUM' ?  'text-red-500' : '' }}">
             {{ $data->kapasitasdanbeban }}
         </td>
 
-        <td class="{{ $data->pemeliharaan_konstruksi == 'BELUM' ? 'bg-red-500 text-white' : '' }}">
+        <td class="{{ $data->pemeliharaan_konstruksi == 'BELUM' ?  'text-red-500' : '' }}">
             {{ $data->pemeliharaan_konstruksi }}
         </td>
 
-        <td class="{{ $data->pemeliharaan_struktur == 'BELUM' ? 'bg-red-500 text-white' : '' }}">
+        <td class="{{ $data->pemeliharaan_struktur == 'BELUM' ?  'text-red-500' : '' }}">
             {{ $data->pemeliharaan_struktur }}
         </td>
     </tr>
