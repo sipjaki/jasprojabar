@@ -32,7 +32,7 @@ class PengawasanbujkController extends Controller
     $query = pengawasanbujk::query();
 
     if ($search) {
-        $query->where('namalengkap', 'LIKE', "%{$search}%")
+        $query->where('kodeproyek', 'LIKE', "%{$search}%")
               ->orWhere('kodeproyek', 'LIKE', "%{$search}%")
               ->orWhere('namaperusahaan', 'LIKE', "%{$search}%")
               ->orWhere('statusmodal', 'LIKE', "%{$search}%")
