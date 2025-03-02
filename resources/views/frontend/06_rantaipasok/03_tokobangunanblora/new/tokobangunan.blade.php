@@ -244,7 +244,7 @@ color: #45a049;
                                             </td>
                                             {{-- <td>{{$item->keterangan}}</td> --}}
                                             <td style="text-align: center">
-                                                <a href="/tokobangunanblora/{{$item->namatokobangunan}}">
+                                                <a href="/tokobangunanbloralist/{{$item->namatokobangunan}}">
                                                     <i class="fas fa-eye view-icon" onclick="alert('View clicked!')"></i>
                                                 </a>
                                             </td>
