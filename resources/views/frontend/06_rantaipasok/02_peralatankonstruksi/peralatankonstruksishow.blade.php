@@ -211,6 +211,14 @@ color: #45a049;
                                 </div>
 
 
+                                <div style="text-align: center; margin-top: 20px;">
+                                    <img src="{{ asset('storage/' . $data->foto) }}" alt="Foto Toko Bangunan" style="width: 350px; height: 350px; object-fit: cover; border-radius: 10px; box-shadow: 0 6px 12px rgba(0,0,0,0.2);">
+                                    <p style="margin-top: 10px; font-weight: 600; color: black; font-family: 'Poppins', sans-serif; font-size: 18px;">
+                                        Foto Badan Usaha Peralatan Bangunan
+                                    </p>
+                                </div>
+
+
                     <div class="table-wrapper" style="margin-top: 15px;">
                     <!-- Add this inside your HTML <head> for FontAwesome -->
                                 <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
@@ -231,7 +239,46 @@ color: #45a049;
                                             </td>
                                         </tr>
 
-{{--
+
+                                        <tr>
+                                            <th style="text-align:center; color: black; width:50px; background-color: white;">
+                                                <i class="fas fa-phone-alt" style="font-size:20px; margin-right:8px;"></i> <!-- Ikon untuk No Telepon -->
+                                            </th>
+                                            <th colspan="11" style="text-align:left; color: black; background-color: white; padding-left: 10px; width:300px;">
+                                                Kecamatan
+                                            </th>
+                                            <th colspan="1" style="text-align:center; color: black; background-color: white; width:25px;">:</th>
+                                            <td colspan="12" style="text-align:left; background-color: white; padding-left: 10px; color: black; width:1000px;">
+                                                {{$data->kecamatanblora->kecamatanblora}}
+                                            </td>
+                                        </tr>
+
+                                        <tr>
+                                            <th style="text-align:center; color: black; width:50px; background-color: white;">
+                                                <i class="fas fa-phone-alt" style="font-size:20px; margin-right:8px;"></i> <!-- Ikon untuk No Telepon -->
+                                            </th>
+                                            <th colspan="11" style="text-align:left; color: black; background-color: white; padding-left: 10px; width:300px;">
+                                                Nama Badan Usaha
+                                            </th>
+                                            <th colspan="1" style="text-align:center; color: black; background-color: white; width:25px;">:</th>
+                                            <td colspan="12" style="text-align:left; background-color: white; padding-left: 10px; color: black; width:1000px;">
+                                                {{$data->namabadanusaha}}
+                                            </td>
+                                        </tr>
+
+                                        <tr>
+                                            <th style="text-align:center; color: black; width:50px; background-color: white;">
+                                                <i class="fas fa-phone-alt" style="font-size:20px; margin-right:8px;"></i> <!-- Ikon untuk No Telepon -->
+                                            </th>
+                                            <th colspan="11" style="text-align:left; color: black; background-color: white; padding-left: 10px; width:300px;">
+                                                Nomor Induk Berusaha
+                                            </th>
+                                            <th colspan="1" style="text-align:center; color: black; background-color: white; width:25px;">:</th>
+                                            <td colspan="12" style="text-align:left; background-color: white; padding-left: 10px; color: black; width:1000px;">
+                                                {{$data->nib}}
+                                            </td>
+                                        </tr>
+
                                         <tr>
                                             <th style="text-align:center; color: black; width:50px; background-color: white;">
                                                 <i class="fas fa-phone-alt" style="font-size:20px; margin-right:8px;"></i> <!-- Ikon untuk No Telepon -->
@@ -243,18 +290,12 @@ color: #45a049;
                                             <td colspan="12" style="text-align:left; background-color: white; padding-left: 10px; color: black; width:1000px;">
                                                 {{$data->notelepon}}
                                             </td>
-                                        </tr> --}}
+                                        </tr>
 
                                     </thead>
 
                                 </table>
 
-                                <div style="text-align: center; margin-top: 20px;">
-                                    <img src="{{ asset('storage/' . $data->foto) }}" alt="Foto Toko Bangunan" style="width: 350px; height: 350px; object-fit: cover; border-radius: 10px; box-shadow: 0 6px 12px rgba(0,0,0,0.2);">
-                                    <p style="margin-top: 10px; font-weight: 600; color: black; font-family: 'Poppins', sans-serif; font-size: 18px;">
-                                        Foto Badan Usaha Peralatan Bangunan
-                                    </p>
-                                </div>
 
 
 <div class="table-wrapper">
