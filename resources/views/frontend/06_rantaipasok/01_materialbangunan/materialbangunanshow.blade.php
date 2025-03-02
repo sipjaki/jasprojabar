@@ -211,33 +211,20 @@ color: #45a049;
                                                 <i class="fas fa-building" style="font-size:20px; margin-right:8px;"></i> <!-- Ikon untuk Nama Badan Usaha -->
                                             </th>
                                             <th colspan="11" style="text-align:left; color: black; background-color: white; padding-left: 10px; width:300px;">
-                                                Nama Badan Usaha
+                                                Nama Distributor Badan Usaha
                                             </th>
                                             <th colspan="1" style="text-align:center; color: black; background-color: white; width:25px;">:</th>
                                             <td colspan="12" style="text-align:left; background-color: white; padding-left: 10px; color: black; width:1000px;">
-                                                {{$data->namabadanusaha}}
+                                                {{$data->distributor}}
                                             </td>
                                         </tr>
 
                                         <tr>
                                             <th style="text-align:center; color: black; width:50px; background-color: white;">
-                                                <i class="fas fa-map-marker-alt" style="font-size:20px; margin-right:8px;"></i> <!-- Ikon untuk Kecamatan -->
+                                                <i class="fas fa-building" style="font-size:20px; margin-right:8px;"></i> <!-- Ikon untuk Nama Badan Usaha -->
                                             </th>
                                             <th colspan="11" style="text-align:left; color: black; background-color: white; padding-left: 10px; width:300px;">
-                                                Kecamatan
-                                            </th>
-                                            <th colspan="1" style="text-align:center; color: black; background-color: white; width:25px;">:</th>
-                                            <td colspan="12" style="text-align:left; background-color: white; padding-left: 10px; color: black; width:1000px;">
-                                                {{$data->kecamatanblora->kecamatanblora}}
-                                            </td>
-                                        </tr>
-
-                                        <tr>
-                                            <th style="text-align:center; color: black; width:50px; background-color: white;">
-                                                <i class="fas fa-id-card" style="font-size:20px; margin-right:8px;"></i> <!-- Ikon untuk Nomor Induk Berusaha -->
-                                            </th>
-                                            <th colspan="11" style="text-align:left; color: black; background-color: white; padding-left: 10px; width:300px;">
-                                                Nomor Induk Berusaha (NIB)
+                                                Nomor Induk Berusaha
                                             </th>
                                             <th colspan="1" style="text-align:center; color: black; background-color: white; width:25px;">:</th>
                                             <td colspan="12" style="text-align:left; background-color: white; padding-left: 10px; color: black; width:1000px;">
@@ -247,10 +234,23 @@ color: #45a049;
 
                                         <tr>
                                             <th style="text-align:center; color: black; width:50px; background-color: white;">
-                                                <i class="fas fa-phone" style="font-size:20px; margin-right:8px;"></i> <!-- Ikon untuk Nomor Telepon -->
+                                                <i class="fas fa-building" style="font-size:20px; margin-right:8px;"></i> <!-- Ikon untuk Nama Badan Usaha -->
                                             </th>
                                             <th colspan="11" style="text-align:left; color: black; background-color: white; padding-left: 10px; width:300px;">
-                                                Nomor Telepon
+                                                Alamat
+                                            </th>
+                                            <th colspan="1" style="text-align:center; color: black; background-color: white; width:25px;">:</th>
+                                            <td colspan="12" style="text-align:left; background-color: white; padding-left: 10px; color: black; width:1000px;">
+                                                {{$data->alamat}}
+                                            </td>
+                                        </tr>
+
+                                        <tr>
+                                            <th style="text-align:center; color: black; width:50px; background-color: white;">
+                                                <i class="fas fa-building" style="font-size:20px; margin-right:8px;"></i> <!-- Ikon untuk Nama Badan Usaha -->
+                                            </th>
+                                            <th colspan="11" style="text-align:left; color: black; background-color: white; padding-left: 10px; width:300px;">
+                                                No Telepon
                                             </th>
                                             <th colspan="1" style="text-align:center; color: black; background-color: white; width:25px;">:</th>
                                             <td colspan="12" style="text-align:left; background-color: white; padding-left: 10px; color: black; width:1000px;">
