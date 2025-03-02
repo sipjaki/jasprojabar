@@ -216,7 +216,8 @@ color: #45a049;
                                             <th onclick="sortTable(0)" style="cursor:pointer; text-align:center"> No <span class="sort-icon">⇅</span></th>
                                             <th onclick="sortTable(1)" style="cursor:pointer; text-align:center"> Distributor <span class="sort-icon">⇅</span></th>
                                             {{-- <th onclick="sortTable(2)" style="cursor:pointer; text-align:center"> NIB <span class="sort-icon">⇅</span></th> --}}
-                                            <th onclick="sortTable(3)" style="cursor:pointer; text-align:center"> Alamat <span class="sort-icon">⇅</span></th>
+                                            <th onclick="sortTable(3)" style="cursor:pointer; text-align:center"> Foto Badan Usaha <span class="sort-icon">⇅</span></th>
+                                            {{-- <th onclick="sortTable(3)" style="cursor:pointer; text-align:center"> Alamat <span class="sort-icon">⇅</span></th> --}}
                                             <th onclick="sortTable(4)" style="cursor:pointer; text-align:center"> No Telepon <span class="sort-icon">⇅</span></th>
                                             <th onclick="sortTable(5)" style="cursor:pointer; text-align:center"> Material  Produk<span class="sort-icon">⇅</span></th>
                                             {{-- <th onclick="sortTable(6)" style="cursor:pointer; text-align:center"> Sub Material<span class="sort-icon">⇅</span></th>
@@ -231,6 +232,9 @@ color: #45a049;
                                             <td style="text-align: center;">{{ $loop->iteration + $start - 1 }}</td>
                                             <td>{{$item->distributor}}</td>
                                             {{-- <td>{{$item->nib}}</td> --}}
+                                            <td>
+                                                <img src="{{ asset('storage/' . $item->fototokobangunan) }}" alt="Foto Toko Bangunan" width="100">
+                                            </td>
                                             <td>{{$item->alamat}}</td>
                                             <td>{{$item->notelepon}}</td>
                                             <td>{{$item->materialproduk}}</td>
