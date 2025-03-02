@@ -260,13 +260,17 @@ color: #45a049;
                                     </thead>
 
                                 </table>
+                                <body>
+                                    <div style="text-align: center; margin-top: 20px;">
+                                        <img src="https://via.placeholder.com/600x400?text=Foto+Material+atau+Toko"
+                                             alt="Foto Material atau Toko"
+                                             style="width: 600px; height: 400px; object-fit: cover; border-radius: 10px; box-shadow: 0 6px 12px rgba(0,0,0,0.2);">
+                                        <p style="margin-top: 10px; font-weight: 600; color: black; font-family: 'Poppins', sans-serif; font-size: 18px;">
+                                            Foto Badan Usaha Material Bangunan
+                                        </p>
+                                    </div>
+                                </body>
 
-                                <div style="text-align: center; margin-top: 20px;">
-                                    <img src="https://via.placeholder.com/300x200?text=Foto+Material+atau+Toko"
-                                         alt="Foto Material atau Toko"
-                                         style="width: 300px; height: 200px; object-fit: cover; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
-                                    <p style="margin-top: 10px; font-weight: bold; color: black;">Foto Material / Toko Perusahaan</p>
-                                </div>
 
 
 <div class="table-wrapper">
