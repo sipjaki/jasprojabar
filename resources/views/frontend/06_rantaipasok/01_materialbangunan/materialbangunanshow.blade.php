@@ -205,10 +205,9 @@ color: #45a049;
                                                 Keterangan
                                             </td>
                                         </tr>
-
                                         <tr>
                                             <th style="text-align:center; color: black; width:50px; background-color: white;">
-                                                <i class="fas fa-building" style="font-size:20px; margin-right:8px;"></i> <!-- Ikon untuk Nama Badan Usaha -->
+                                                <i class="fas fa-truck" style="font-size:20px; margin-right:8px;"></i> <!-- Ikon untuk Distributor -->
                                             </th>
                                             <th colspan="11" style="text-align:left; color: black; background-color: white; padding-left: 10px; width:300px;">
                                                 Nama Distributor Badan Usaha
@@ -221,7 +220,7 @@ color: #45a049;
 
                                         <tr>
                                             <th style="text-align:center; color: black; width:50px; background-color: white;">
-                                                <i class="fas fa-building" style="font-size:20px; margin-right:8px;"></i> <!-- Ikon untuk Nama Badan Usaha -->
+                                                <i class="fas fa-id-card" style="font-size:20px; margin-right:8px;"></i> <!-- Ikon untuk Nomor Induk Berusaha -->
                                             </th>
                                             <th colspan="11" style="text-align:left; color: black; background-color: white; padding-left: 10px; width:300px;">
                                                 Nomor Induk Berusaha
@@ -234,7 +233,7 @@ color: #45a049;
 
                                         <tr>
                                             <th style="text-align:center; color: black; width:50px; background-color: white;">
-                                                <i class="fas fa-building" style="font-size:20px; margin-right:8px;"></i> <!-- Ikon untuk Nama Badan Usaha -->
+                                                <i class="fas fa-map-marker-alt" style="font-size:20px; margin-right:8px;"></i> <!-- Ikon untuk Alamat -->
                                             </th>
                                             <th colspan="11" style="text-align:left; color: black; background-color: white; padding-left: 10px; width:300px;">
                                                 Alamat
@@ -247,7 +246,7 @@ color: #45a049;
 
                                         <tr>
                                             <th style="text-align:center; color: black; width:50px; background-color: white;">
-                                                <i class="fas fa-building" style="font-size:20px; margin-right:8px;"></i> <!-- Ikon untuk Nama Badan Usaha -->
+                                                <i class="fas fa-phone-alt" style="font-size:20px; margin-right:8px;"></i> <!-- Ikon untuk No Telepon -->
                                             </th>
                                             <th colspan="11" style="text-align:left; color: black; background-color: white; padding-left: 10px; width:300px;">
                                                 No Telepon
@@ -257,6 +256,7 @@ color: #45a049;
                                                 {{$data->notelepon}}
                                             </td>
                                         </tr>
+
 
                                     </thead>
 
