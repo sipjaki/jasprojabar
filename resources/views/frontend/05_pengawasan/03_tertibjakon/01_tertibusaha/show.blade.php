@@ -434,7 +434,7 @@ color: #45a049;
     }
 
     .sifatjakon td[rowspan] {
-        background-color: #FFD100; /* Kuning */
+        background-color: white; /* Kuning */
         font-weight: bold;
     }
 </style>
@@ -462,7 +462,7 @@ color: #45a049;
     </tr>
     <tr>
         <td>2</td>
-        <td rowspan="2">Budi</td> <!-- Merge baris -->
+        <td>Budi</td> <!-- Merge baris -->
         <td>2</td>
         <td>6</td>
         <td>8</td>
