@@ -65,7 +65,7 @@ class TertibjasakonstruksiController extends Controller
 
     $datasub = penyediastatustertibjakon::paginate(15);
     return view('frontend.05_pengawasan.03_tertibjakon.01_tertibusaha.list', [
-        'title' => 'BUJK Konstruksi',
+        'title' => 'Tertib Usaha Jasa Konstruksi',
         'data' => $data,
         'datasub' => $datasub,
         'perPage' => $perPage,
