@@ -452,42 +452,42 @@ color: #45a049;
     <tr>
         <td>
             <button style="padding: 8px 12px; border: none; border-radius: 5px; color: white; font-weight: bold; cursor: pointer;
-                background-color: {{ $data->peruntukan_fungsi == 'BELUM' ? 'red' : 'blue' }};">
+                background-color: {{ $data->peruntukan_fungsi == 'BELUM TERTIB' ? 'red' : 'blue' }};">
                 {{ $data->peruntukan_fungsi }}
             </button>
         </td>
 
         <td>
             <button style="padding: 8px 12px; border: none; border-radius: 5px; color: white; font-weight: bold; cursor: pointer;
-                background-color: {{ $data->peruntukan_lokasi == 'BELUM' ? 'red' : 'blue' }};">
+                background-color: {{ $data->peruntukan_lokasi == 'BELUM TERTIB' ? 'red' : 'blue' }};">
                 {{ $data->peruntukan_lokasi }}
             </button>
         </td>
 
         <td>
             <button style="padding: 8px 12px; border: none; border-radius: 5px; color: white; font-weight: bold; cursor: pointer;
-                background-color: {{ $data->rencanaumur == 'BELUM' ? 'red' : 'blue' }};">
+                background-color: {{ $data->rencanaumur == 'BELUM TERTIB' ? 'red' : 'blue' }};">
                 {{ $data->rencanaumur }}
             </button>
         </td>
 
         <td>
             <button style="padding: 8px 12px; border: none; border-radius: 5px; color: white; font-weight: bold; cursor: pointer;
-                background-color: {{ $data->kapasitasdanbeban == 'BELUM' ? 'red' : 'blue' }};">
+                background-color: {{ $data->kapasitasdanbeban == 'BELUM TERTIB' ? 'red' : 'blue' }};">
                 {{ $data->kapasitasdanbeban }}
             </button>
         </td>
 
         <td>
             <button style="padding: 8px 12px; border: none; border-radius: 5px; color: white; font-weight: bold; cursor: pointer;
-                background-color: {{ $data->pemeliharaan_konstruksi == 'BELUM' ? 'red' : 'blue' }};">
+                background-color: {{ $data->pemeliharaan_konstruksi == 'BELUM TERTIB' ? 'red' : 'blue' }};">
                 {{ $data->pemeliharaan_konstruksi }}
             </button>
         </td>
 
         <td>
             <button style="padding: 8px 12px; border: none; border-radius: 5px; color: white; font-weight: bold; cursor: pointer;
-                background-color: {{ $data->pemeliharaan_struktur == 'BELUM' ? 'red' : 'blue' }};">
+                background-color: {{ $data->pemeliharaan_struktur == 'BELUM TERTIB' ? 'red' : 'blue' }};">
                 {{ $data->pemeliharaan_struktur }}
             </button>
         </td>

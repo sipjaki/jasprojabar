@@ -4589,9 +4589,9 @@ tertibjakonpemanfaatan::create([
     'peruntukan_fungsi' => 'TERTIB',
     'peruntukan_lokasi' => 'TERTIB',
     'rencanaumur' => 'TERTIB',
-    'kapasitasdanbeban' => 'BELUM',
-    'pemeliharaan_konstruksi' => 'BELUM',
-    'pemeliharaan_struktur' => 'BELUM',
+    'kapasitasdanbeban' => 'BELUM TERTIB',
+    'pemeliharaan_konstruksi' => 'BELUM TERTIB',
+    'pemeliharaan_struktur' => 'BELUM TERTIB',
           // Menghilangkan 'Rp' dan menyimpan sebagai angka decimal
 ]);
 
@@ -4606,9 +4606,9 @@ tertibjakonpemanfaatan::create([
     'peruntukan_fungsi' => 'TERTIB',
     'peruntukan_lokasi' => 'TERTIB',
     'rencanaumur' => 'TERTIB',
-    'kapasitasdanbeban' => 'BELUM',
-    'pemeliharaan_konstruksi' => 'BELUM',
-    'pemeliharaan_struktur' => 'BELUM',
+    'kapasitasdanbeban' => 'BELUM TERTIB',
+    'pemeliharaan_konstruksi' => 'BELUM TERTIB',
+    'pemeliharaan_struktur' => 'BELUM TERTIB',
           // Menghilangkan 'Rp' dan menyimpan sebagai angka decimal
 ]);
 
@@ -4623,9 +4623,9 @@ tertibjakonpemanfaatan::create([
     'peruntukan_fungsi' => 'TERTIB',
     'peruntukan_lokasi' => 'TERTIB',
     'rencanaumur' => 'TERTIB',
-    'kapasitasdanbeban' => 'BELUM',
-    'pemeliharaan_konstruksi' => 'BELUM',
-    'pemeliharaan_struktur' => 'BELUM',
+    'kapasitasdanbeban' => 'BELUM TERTIB',
+    'pemeliharaan_konstruksi' => 'BELUM TERTIB',
+    'pemeliharaan_struktur' => 'BELUM TERTIB',
           // Menghilangkan 'Rp' dan menyimpan sebagai angka decimal
 ]);
 
@@ -4668,13 +4668,13 @@ tertibjakonpenyelenggaraan::create([
     'kegiatankonstruksi' => 'KANTOR PT POS PROPERTI INDONESIA',
     'nomorkontrak' => '-',
     'bujk' => 'CV.CRYSTAL DESIGN',
-    'prosespemilihan' => 'BELUM',
-    'pengawasan_standarkontrak' => 'BELUM',
-    'pengawasan_tenagakerja' => 'BELUM',
-    'pengawasan_penunjang' => 'BELUM',
+    'prosespemilihan' => 'BELUM TERTIB',
+    'pengawasan_standarkontrak' => 'BELUM TERTIB',
+    'pengawasan_tenagakerja' => 'BELUM TERTIB',
+    'pengawasan_penunjang' => 'BELUM TERTIB',
     'pengawasan_dokumenk4' => 'TERTIB',
     'pengawasan_smkk' => 'BELUM',
-    'pengawasan_kecelakaankerja' => 'BELUM',
+    'pengawasan_kecelakaankerja' => 'BELUM TERTIB',
 
           // Menghilangkan 'Rp' dan menyimpan sebagai angka decimal
 ]);
