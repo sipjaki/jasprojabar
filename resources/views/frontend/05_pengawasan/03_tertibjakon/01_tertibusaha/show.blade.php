@@ -470,8 +470,9 @@ color: #45a049;
         <td>{{$data->segmentasipasar_bentuk}}</td>
         <td>{{$data->segmentasipasar_kualifikasi}}</td>
         <td>{{$data->syarat_SBU}}</td>
+        <td>{{$data->syarat_NIB}}</td>
         <td>{{$data->pelaksanaanpengembangan}}</td>
-        <td>1</td>
+        {{-- <td>1</td> --}}
     </tr>
 
 </tbody>
