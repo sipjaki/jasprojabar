@@ -401,6 +401,7 @@ color: #45a049;
     </thead>
 </table>
 
+<br>
 <table border="1" cellspacing="0" cellpadding="8" style="width: 100%; border-collapse: collapse; text-align: center;">
     <thead>
         <tr>
