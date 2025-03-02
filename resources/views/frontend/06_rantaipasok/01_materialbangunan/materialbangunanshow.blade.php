@@ -177,7 +177,13 @@ color: #45a049;
                                         <span style="color: black; text-transform:uppercase">{{$title}} : {{$data->namabadanusaha}}</span>
                                     </button>
 
-                                    <!-- Tombol di Kanan -->
+
+                                        <a href="https://wa.me/081321455855" target="_blank" style="text-decoration: none; margin-left: 10px;">
+                                            <button class="badgekembali">
+                                                <i class="fab fa-whatsapp" style="margin-right: 8px; color: green;"></i> WHATSAPP
+                                            </button>
+                                        </a>
+
                                     <a href="javascript:window.history.back()" style="text-decoration: none;">
                                         <button class="badgekembali">
                                             <i class="fas fa-arrow-circle-left" style="margin-right: 8px; color:red;"></i> KEMBALI

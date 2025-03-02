@@ -205,16 +205,17 @@ color: #45a049;
                                                 Keterangan
                                             </td>
                                         </tr>
+
                                         <tr>
                                             <th style="text-align:center; color: black; width:50px; background-color: white;">
                                                 <i class="fas fa-truck" style="font-size:20px; margin-right:8px;"></i> <!-- Ikon untuk Distributor -->
                                             </th>
                                             <th colspan="11" style="text-align:left; color: black; background-color: white; padding-left: 10px; width:300px;">
-                                                Nama Distributor Badan Usaha
+                                                Kecamatan
                                             </th>
                                             <th colspan="1" style="text-align:center; color: black; background-color: white; width:25px;">:</th>
                                             <td colspan="12" style="text-align:left; background-color: white; padding-left: 10px; color: black; width:1000px;">
-                                                {{$data->distributor}}
+                                                {{$data->kecamatanblora->kecamatanblora}}
                                             </td>
                                         </tr>
 
@@ -236,14 +237,14 @@ color: #45a049;
                                                 <i class="fas fa-map-marker-alt" style="font-size:20px; margin-right:8px;"></i> <!-- Ikon untuk Alamat -->
                                             </th>
                                             <th colspan="11" style="text-align:left; color: black; background-color: white; padding-left: 10px; width:300px;">
-                                                Alamat
+                                                No Telepon
                                             </th>
                                             <th colspan="1" style="text-align:center; color: black; background-color: white; width:25px;">:</th>
                                             <td colspan="12" style="text-align:left; background-color: white; padding-left: 10px; color: black; width:1000px;">
-                                                {{$data->alamat}}
+                                                {{$data->notelepon}}
                                             </td>
                                         </tr>
-
+{{--
                                         <tr>
                                             <th style="text-align:center; color: black; width:50px; background-color: white;">
                                                 <i class="fas fa-phone-alt" style="font-size:20px; margin-right:8px;"></i> <!-- Ikon untuk No Telepon -->
@@ -255,7 +256,7 @@ color: #45a049;
                                             <td colspan="12" style="text-align:left; background-color: white; padding-left: 10px; color: black; width:1000px;">
                                                 {{$data->notelepon}}
                                             </td>
-                                        </tr>
+                                        </tr> --}}
 
                                     </thead>
 
