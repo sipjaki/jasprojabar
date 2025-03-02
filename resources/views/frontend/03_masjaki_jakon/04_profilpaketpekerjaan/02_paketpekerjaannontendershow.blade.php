@@ -206,7 +206,7 @@ color: #45a049;
                                                             1
                                                         </div>
                                                         <p class="step-title">Persiapan</p>
-                                                        <p class="step-status">{{$data->prosespaketnontenderprosespaket->persiapan}}</p>
+                                                        <p class="step-status">{{$data->prosespaketnontender->persiapan}}</p>
                                                     </div>
                                                     <div class="line
                                                         @if($data->prosespaketnontender->persiapan == 'SELESAI')
