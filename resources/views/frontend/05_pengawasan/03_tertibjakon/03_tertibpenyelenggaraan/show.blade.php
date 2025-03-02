@@ -338,12 +338,12 @@ color: #45a049;
             </button>
         </td>
 
-        <td>
+        {{-- <td>
             <button style="padding: 8px 12px; border: none; border-radius: 5px; color: white; font-weight: bold; cursor: pointer;
                 background-color: {{ $pengawasan_penunjang == 'BELUM TERTIB' ? 'red' : 'blue' }};">
                 {{ $data->pengawasan_penunjang }}
             </button>
-        </td>
+        </td> --}}
 
         <td>
             <button style="padding: 8px 12px; border: none; border-radius: 5px; color: white; font-weight: bold; cursor: pointer;
