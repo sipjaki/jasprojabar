@@ -447,7 +447,8 @@ color: #45a049;
         <th colspan="4">Kesesuaian Kegiatan Konstruksi</th>
         <th colspan="2">Kesesuaian Jasa Konstruksi & Segmentasi Pasar Jasa Konstruksi</th>
         <th colspan="2">Pemenuhan Syarat Usaha</th>
-        <th rowspan="2">Total</th>
+        <th rowspan="2">Pelaksanaan Pengembangan Usaha
+        </th>
     </tr>
     <tr>
         <th>Jenis</th>
@@ -469,10 +470,8 @@ color: #45a049;
         <td>{{$data->segmentasipasar_bentuk}}</td>
         <td>{{$data->segmentasipasar_kualifikasi}}</td>
         <td>{{$data->syarat_SBU}}</td>
-        <td>{{$data->syarat_NIB}}</td>
+        <td>{{$data->pelaksanaanpengembangan}}</td>
         <td>1</td>
-        <td>5</td>
-
     </tr>
 
 </tbody>
