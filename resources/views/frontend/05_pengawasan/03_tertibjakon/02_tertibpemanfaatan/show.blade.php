@@ -450,7 +450,9 @@ color: #45a049;
 </thead>
 <tbody>
     <tr>
-        <td>{{$data->peruntukan_fungsi}}</td>
+        <td class="{{ $data->peruntukan_fungsi == 'BELUM' ? 'table-danger' : '' }}">
+            {{ $data->peruntukan_fungsi }}
+        </td>
         <td>{{$data->peruntukan_lokasi}}</td>
         <td>{{$data->rencanaumur}}</td>
         <td>{{$data->kapasitasdanbeban}}</td>
