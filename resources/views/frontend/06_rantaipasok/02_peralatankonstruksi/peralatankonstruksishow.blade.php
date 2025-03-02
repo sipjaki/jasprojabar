@@ -123,6 +123,25 @@ color: #45a049;
                 color: black;
                 background: white;
             }
+
+            .bagdewa {
+                background: linear-gradient(to right, white, white);
+                color: white;
+                padding: 10px 20px;
+                border-radius: 10px;
+                display: inline-block;
+                border: none !important;
+                font-size: 1rem;
+                text-align: center;
+                font-size: 12px;
+                cursor: pointer;
+                transition: background-color 0.3s, color 0.3s;
+            }
+            .bagdewa-button:hover {
+                background-color: lightblue;
+                color: black;
+                background: lightblue;
+            }
 </style>
 
 
