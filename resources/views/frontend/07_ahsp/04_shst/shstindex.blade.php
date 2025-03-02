@@ -257,26 +257,21 @@ color: #45a049;
                         <table class="fl-table">
                             <thead>
                                 <tr>
-                                    <th style="text-align:center"> No</th>
-                                    <th style="text-align:center"> Pekerjaan</th>
-                                    <th style="text-align:center"> Harga</th>
+                                    <th style="text-align:center" colspan="2"> Bangunan Kantor dan Bangunan Lainnya Per M2 (Meter Persegi)</th>
                                     {{-- <th style="text-align:center" >View</th> --}}
+                                </tr>
+                                <tr>
+                                    <th style="text-align: center">Bangunan Tidak Sederhana</th>
+                                    <th style="text-align: center">Bangunan Sederhana</th>
                                 </tr>
                             </thead>
                             <tbody>
 
-                                @php
-                                $start = ($data->currentPage() - 1) * $data->perPage() + 1;
-                                    @endphp
-
                                 @foreach ($data as $item )
                                 <tr>
-                                    <td style="text-align: center;">1</td>
-                                    <td>Bangunan Tidak Sederhana</td>
                                     <td>{{ 'Rp ' . number_format($item->bangunankantortidaksederhana, 0, ',', '.') }}</td>
                                 </tr>
                                 <tr>
-                                    <td style="text-align: center;">2</td>
                                     <td>Bangunan Sederhana</td>
                                     <td>{{ 'Rp ' . number_format($item->bangunankantorsederhana, 0, ',', '.') }}</td>
                                 </tr>
@@ -304,32 +299,23 @@ color: #45a049;
                         <table class="fl-table">
                             <thead>
                                 <tr>
-                                    <th style="text-align:center"> No</th>
-                                    <th style="text-align:center"> Pekerjaan</th>
-                                    <th style="text-align:center"> Harga</th>
-                                    {{-- <th style="text-align:center" >View</th> --}}
+                                    <th style="text-align:center" colspan="3">Bangunan Gedung Rumah Negara Per M2 (Meter Persegi)</th>
+                                </tr>
+                                <tr>
+                                    <th style="text-align: center;">Rumah Negara Tipe A</th>
+                                    <th style="text-align: center;">Rumah Negara Tipe B</th>
+                                    <th style="text-align: center;">Rumah Negara Tipe C, D, E</th>
                                 </tr>
                             </thead>
                             <tbody>
-
-                                @php
-                                $start = ($data->currentPage() - 1) * $data->perPage() + 1;
-                                    @endphp
-
                                 @foreach ($data as $item )
                                 <tr>
-                                    <td style="text-align: center;">1</td>
-                                    <td>Rumah Negara Tipe A</td>
                                     <td>{{ 'Rp ' . number_format($item->rumahnegaratipea, 0, ',', '.') }}</td>
                                 </tr>
                                 <tr>
-                                    <td style="text-align: center;">2</td>
-                                    <td>Rumah Negara Tipe B</td>
                                     <td>{{ 'Rp ' . number_format($item->rumahnegaratipea, 0, ',', '.') }}</td>
                                 </tr>
                                 <tr>
-                                    <td style="text-align: center;">3</td>
-                                    <td>Rumah Negara Tipe C, D, E</td>
                                     <td>{{ 'Rp ' . number_format($item->rumahnegaratipecde, 0, ',', '.') }}</td>
                                 </tr>
 
@@ -356,32 +342,24 @@ color: #45a049;
                         <table class="fl-table">
                             <thead>
                                 <tr>
-                                    <th style="text-align:center"> No</th>
-                                    <th style="text-align:center"> Pekerjaan</th>
-                                    <th style="text-align:center"> Harga</th>
-                                    {{-- <th style="text-align:center" >View</th> --}}
+                                    <th style="text-align:center" colspan="3">Pagar Bangunan Gedung Kantor & Bangunan Lainnya Per M1 (Meter Lari)</th>
+                                </tr>
+                                <tr>
+                                    <th>Pagar Depan M1 (Meter Lari) Rupiah</th>
+                                    <th>Pagar Belakang M1 (Meter Lari) Rupiah</th>
+                                    <th>Pagar Samping M1 (Meter Lari) Rupiah</th>
                                 </tr>
                             </thead>
                             <tbody>
 
-                                @php
-                                $start = ($data->currentPage() - 1) * $data->perPage() + 1;
-                                    @endphp
-
                                 @foreach ($data as $item )
                                 <tr>
-                                    <td style="text-align: center;">1</td>
-                                    <td>Pagar Depan M1 (Rupiah) </td>
                                     <td>{{ 'Rp ' . number_format($item->pagarrumahdepan, 0, ',', '.') }}</td>
                                 </tr>
                                 <tr>
-                                    <td style="text-align: center;">2</td>
-                                    <td>Pagar Belakang M1 (Rupiah) </td>
                                     <td>{{ 'Rp ' . number_format($item->pagarrumahbelakang, 0, ',', '.') }}</td>
                                 </tr>
                                 <tr>
-                                    <td style="text-align: center;">3</td>
-                                    <td>Pagar Samping M1 (Rupiah) </td>
                                     <td>{{ 'Rp ' . number_format($item->pagarrumahsamping, 0, ',', '.') }}</td>
                                 </tr>
 
@@ -409,32 +387,24 @@ color: #45a049;
                         <table class="fl-table">
                             <thead>
                                 <tr>
-                                    <th style="text-align:center"> No</th>
-                                    <th style="text-align:center"> Pekerjaan</th>
-                                    <th style="text-align:center"> Harga</th>
-                                    {{-- <th style="text-align:center" >View</th> --}}
+                                    <th style="text-align:center" colspan="3">Rumah Negara Per M1 (Meter Lari) </th>
+                                </tr>
+                                <tr>
+                                    <th style="text-align: center">Pagar Depan Rumah Negara M1 (Meter Lari) Rupiah</th>
+                                    <th style="text-align: center">Pagar Samping Rumah Negara M1 (Meter Lari) Rupiah</th>
+                                    <th style="text-align: center">Pagar Belakang Rumah Negara M1 (Meter Lari) Rupiah</th>
                                 </tr>
                             </thead>
                             <tbody>
 
-                                @php
-                                $start = ($data->currentPage() - 1) * $data->perPage() + 1;
-                                    @endphp
-
                                 @foreach ($data as $item )
                                 <tr>
-                                    <td style="text-align: center;">1</td>
-                                    <td>Pagar Depan Rumah Negara M1 (Rupiah) </td>
                                     <td>{{ 'Rp ' . number_format($item->pagarrumahnegaradepan, 0, ',', '.') }}</td>
                                 </tr>
                                 <tr>
-                                    <td style="text-align: center;">2</td>
-                                    <td>Pagar Belakang Rumah Negara M1 (Rupiah) </td>
                                     <td>{{ 'Rp ' . number_format($item->pagarrumahnegarabelakang, 0, ',', '.') }}</td>
                                 </tr>
                                 <tr>
-                                    <td style="text-align: center;">3</td>
-                                    <td>Pagar Samping Rumah Negara M1 (Rupiah) </td>
                                     <td>{{ 'Rp ' . number_format($item->pagarrumahnegarasamping, 0, ',', '.') }}</td>
                                 </tr>
 
