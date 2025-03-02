@@ -18,7 +18,7 @@ class TokobangunanbloraController extends Controller
         $datasub = tokobangunanblora::paginate(15);
         $user = Auth::user();
 
-        return view('frontend.06_rantaipasok.03_tokobangunanblora.tokobangunanblora', [
+        return view('frontend.06_rantaipasok.03_tokobangunanblora.new.tokobangunan', [
             'title' => 'Toko Bangunan Kabupaten Blora',
             'user' => $user, // Mengirimkan data paginasi ke view
             'data' => $data, // Mengirimkan data paginasi ke view
