@@ -270,9 +270,6 @@ color: #45a049;
                                 @foreach ($data as $item )
                                 <tr>
                                     <td>{{ 'Rp ' . number_format($item->bangunankantortidaksederhana, 0, ',', '.') }}</td>
-                                </tr>
-                                <tr>
-                                    <td>Bangunan Sederhana</td>
                                     <td>{{ 'Rp ' . number_format($item->bangunankantorsederhana, 0, ',', '.') }}</td>
                                 </tr>
 
