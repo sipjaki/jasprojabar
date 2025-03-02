@@ -218,7 +218,7 @@ color: #45a049;
                                             <th onclick="sortTable(2)" style="cursor:pointer; text-align:center"> Tahun <span class="sort-icon">⇅</span></th>
                                             <th onclick="sortTable(3)" style="cursor:pointer; text-align:center"> Nama Perusahaan <span class="sort-icon">⇅</span></th>
                                             {{-- <th onclick="sortTable(4)" style="cursor:pointer; text-align:center"> Tenaga Kerja <span class="sort-icon">⇅</span></th> --}}
-                                            <th onclick="sortTable(5)" style="cursor:pointer; text-align:center"> Lokasi Kecelakaan<span class="sort-icon">⇅</span></th>
+                                            {{-- <th onclick="sortTable(5)" style="cursor:pointer; text-align:center"> Lokasi Kecelakaan<span class="sort-icon">⇅</span></th> --}}
                                             {{-- <th onclick="sortTable(6)" style="cursor:pointer; text-align:center"> Waktu <span class="sort-icon">⇅</span></th> --}}
                                             {{-- <th onclick="sortTable(7)" style="cursor:pointer; text-align:center"> Keterangan <span class="sort-icon">⇅</span></th> --}}
                                             {{-- <th onclick="sortTable(8)" style="cursor:pointer; text-align:center"> Kerugian <span class="sort-icon">⇅</span></th> --}}
@@ -234,7 +234,7 @@ color: #45a049;
                                             <td>{{$item->tahun}}</td>
                                             <td>{{$item->namaperusahaan}}</td>
                                             {{-- <td>{{$item->namatenagakerja}}</td> --}}
-                                            <td>{{$item->lokasikecelakaan}}</td>
+                                            {{-- <td>{{$item->lokasikecelakaan}}</td> --}}
                                             {{-- <td>{{$item->waktukecelakaan}}</td> --}}
                                             {{-- <td>{{$item->keterangan}}</td> --}}
                                             {{-- <td>{{$item->nilaikerugian}}</td> --}}
