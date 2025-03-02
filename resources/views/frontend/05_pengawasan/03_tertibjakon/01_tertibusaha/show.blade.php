@@ -402,41 +402,78 @@ color: #45a049;
 </table>
 
 <br>
-<table border="1" cellspacing="0" cellpadding="8" style="width: 100%; border-collapse: collapse; text-align: center;">
-    <thead>
-        <tr>
-            <th rowspan="2">No</th>
-            <th rowspan="2">Nama</th>
-            <th colspan="2">Detail</th>
-            <th rowspan="2">Total</th>
-        </tr>
-        <tr>
-            <th>Item 1</th>
-            <th>Item 2</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td>1</td>
-            <td>Andi</td>
-            <td>5</td>
-            <td>3</td>
-            <td>8</td>
-        </tr>
-        <tr>
-            <td>2</td>
-            <td rowspan="2">Budi</td> <!-- Merge baris -->
-            <td>2</td>
-            <td>6</td>
-            <td>8</td>
-        </tr>
-        <tr>
-            <td>3</td>
-            <td>1</td>
-            <td>4</td>
-            <td>5</td>
-        </tr>
-    </tbody>
+
+<style>
+    .sifatjakon {
+        width: 100%;
+        border-collapse: collapse;
+        text-align: center;
+        font-family: Arial, sans-serif;
+    }
+
+    .sifatjakon th, .sifatjakon td {
+        border: 1px solid #ddd;
+        padding: 10px;
+    }
+
+    .sifatjakon thead {
+        background-color: #008000; /* Hijau */
+        color: white;
+    }
+
+    .sifatjakon th[colspan] {
+        background-color: #006400; /* Hijau tua */
+    }
+
+    .sifatjakon tbody tr:nth-child(even) {
+        background-color: #f2f2f2; /* Abu-abu muda */
+    }
+
+    .sifatjakon tbody tr:hover {
+        background-color: #c8e6c9; /* Hijau muda saat hover */
+    }
+
+    .sifatjakon td[rowspan] {
+        background-color: #FFD100; /* Kuning */
+        font-weight: bold;
+    }
+</style>
+
+<table class="sifatjakon">
+<thead>
+    <tr>
+        <th rowspan="2">No</th>
+        <th rowspan="2">Nama</th>
+        <th colspan="2">Detail</th>
+        <th rowspan="2">Total</th>
+    </tr>
+    <tr>
+        <th>Item 1</th>
+        <th>Item 2</th>
+    </tr>
+</thead>
+<tbody>
+    <tr>
+        <td>1</td>
+        <td>Andi</td>
+        <td>5</td>
+        <td>3</td>
+        <td>8</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td rowspan="2">Budi</td> <!-- Merge baris -->
+        <td>2</td>
+        <td>6</td>
+        <td>8</td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>1</td>
+        <td>4</td>
+        <td>5</td>
+    </tr>
+</tbody>
 </table>
 
 <div class="container-fluid" style="justify-content: right; margin-top:20px;">
