@@ -168,20 +168,31 @@ color: #45a049;
                 <div class="col-lg-12">
                         <div class="document-details">
 							<div class="document-details-list">
-                                <div class="centered-button" style="margin-top: -15px">
-                                    <button class="green-button" style="margin-bottom:10px; text-transform:uppercase">
-                                        <img src="/assets/icon/logokabupatenblora.png" class="img-fluid" alt="img-25" width="50" height="50" style="margin-right: 20px;" loading="lazy">
-                                        <i class="fas fa-file mr-2" style="margin-right:5px;"></i> <span style="color: black;">{{$title}} : {{$data->namabangunan}}</span>
+
+                                <div class="centered-button" style="display: flex; justify-content: space-between; align-items: center; margin-top: 15px;">
+                                    <!-- Tombol di kiri -->
+                                    <button class="green-button">
+                                        <img src="/assets/icon/logokabupatenblora.png" class="img-fluid" alt="img-25" width="50" height="50" style="margin-right: 10px;" loading="lazy">
+                                        <i class="fas fa-file mr-2" style="margin-right: 5px;"></i>
+                                        <span style="color: black;">{{$title}} : {{$data->namabangunan}}</span>
                                     </button>
 
+                                    <!-- Tombol di kanan -->
+                                    <a href="/tertibjasakonstruksipemanfaatan">
+                                        <button class="badgekembali">
+                                            <i class="fas fa-arrow-circle-left" style="margin-right: 5px; color:red;"></i> KEMBALI
+                                        </button>
+                                    </a>
                                 </div>
+
+
 
 
                                                         {{-- TABLE DATA  --}}
                                         </head>
 
                     <body>
-                    <div class="table-wrapper">
+                    <div class="table-wrapper" style="margin-top: 15px;">
                     <!-- Add this inside your HTML <head> for FontAwesome -->
 <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
 
@@ -220,17 +231,17 @@ color: #45a049;
                 <i class="fas fa-building" style="font-size:20px; margin-right:8px;"></i> <!-- Ikon untuk Nama Bangunan -->
             </th>
             <th colspan="11" style="text-align:left; color: black; background-color: white; padding-left: 10px; width:300px;">
-                Kegiatan Konstruksi
+                Nama Bangunan
             </th>
             <th colspan="1" style="text-align:center; color: black; background-color: white; width:25px;">:</th>
             <td colspan="12" style="text-align:left; background-color: white; padding-left: 10px; color: black; width:1000px;">
-                {{$data->kegiatankonstruksi}}
+                {{$data->namabangunan}}
             </td>
         </tr>
 
         <tr>
             <th style="text-align:center; color: black; width:50px; background-color: white;">
-                <i class="fas fa-file-signature" style="font-size:20px; margin-right:8px;"></i> <!-- Ikon untuk Nomor Kontrak -->
+                <i class="fas fa-file-contract" style="font-size:20px; margin-right:8px;"></i> <!-- Ikon untuk Nomor Kontrak -->
             </th>
             <th colspan="11" style="text-align:left; color: black; background-color: white; padding-left: 10px; width:300px;">
                 Nomor Kontrak
@@ -246,18 +257,153 @@ color: #45a049;
                 <i class="fas fa-map-marker-alt" style="font-size:20px; margin-right:8px;"></i> <!-- Ikon untuk Lokasi -->
             </th>
             <th colspan="11" style="text-align:left; color: black; background-color: white; padding-left: 10px; width:300px;">
-                BUJk
+                Lokasi
             </th>
             <th colspan="1" style="text-align:center; color: black; background-color: white; width:25px;">:</th>
             <td colspan="12" style="text-align:left; background-color: white; padding-left: 10px; color: black; width:1000px;">
-                {{$data->bujk}}
+                {{$data->lokasi}}
             </td>
         </tr>
 
+        <tr>
+            <th style="text-align:center; color: black; width:50px; background-color: white;">
+                <i class="fas fa-calendar-alt" style="font-size:20px; margin-right:8px;"></i> <!-- Ikon untuk Tanggal Pembuatan -->
+            </th>
+            <th colspan="11" style="text-align:left; color: black; background-color: white; padding-left: 10px; width:300px;">
+                Tanggal Pembuatan
+            </th>
+            <th colspan="1" style="text-align:center; color: black; background-color: white; width:25px;">:</th>
+            <td colspan="12" style="text-align:left; background-color: white; padding-left: 10px; color: black; width:1000px;">
+                {{ \Carbon\Carbon::parse($data->tanggalpembangunan)->translatedFormat('d F Y') }}
+            </td>
+        </tr>
+
+        <tr>
+            <th style="text-align:center; color: black; width:50px; background-color: white;">
+                <i class="fas fa-calendar-check" style="font-size:20px; margin-right:8px;"></i>
+            </th>
+            <th colspan="11" style="text-align:left; color: black; background-color: white; padding-left: 10px; width:300px;">
+                Tanggal Pemanfaatan
+            </th>
+            <th colspan="1" style="text-align:center; color: black; background-color: white; width:25px;">:</th>
+            <td colspan="12" style="text-align:left; background-color: white; padding-left: 10px; color: black; width:1000px;">
+                {{ \Carbon\Carbon::parse($data->tanggalpemanfaatan)->translatedFormat('d F Y') }}
+
+                {{-- {{$data->tanggalpemanfaatan}} --}}
+            </td>
+        </tr>
+
+        <tr>
+            <th style="text-align:center; color: black; width:50px; background-color: white;">
+                <i class="fas fa-hourglass-half" style="font-size:20px; margin-right:8px;"></i>
+            </th>
+            <th colspan="11" style="text-align:left; color: black; background-color: white; padding-left: 10px; width:300px;">
+                Umur Konstruksi
+            </th>
+            <th colspan="1" style="text-align:center; color: black; background-color: white; width:25px;">:</th>
+            <td colspan="12" style="text-align:left; background-color: white; padding-left: 10px; color: black; width:1000px;">
+                {{$data->umurkonstruksi}} Tahun
+            </td>
+        </tr>
+{{--
+        <tr>
+            <th style="text-align:center; color: black; width:50px; background-color: white;">
+                <i class="fas fa-check-circle" style="font-size:20px; margin-right:8px;"></i>
+            </th>
+            <th colspan="11" style="text-align:left; color: black; background-color: white; padding-left: 10px; width:300px;">
+                Kesesuaian Peruntukan Fungsi
+            </th>
+            <th colspan="1" style="text-align:center; color: black; background-color: white; width:25px;">:</th>
+            <td colspan="12" style="text-align:left; background-color: white; padding-left: 10px; color: black; width:1000px;">
+                Fungsi ->
+                <button class="btn {{ $data->peruntukan_fungsi == 'TERTIB' ? 'btn-success' : 'btn-danger' }}">
+                    {{$data->peruntukan_fungsi}}
+                </button>
+            </td>
+        </tr>
+
+        <tr>
+            <th style="text-align:center; color: black; width:50px; background-color: white;">
+                <i class="fas fa-map-marked-alt" style="font-size:20px; margin-right:8px;"></i>
+            </th>
+            <th colspan="11" style="text-align:left; color: black; background-color: white; padding-left: 10px; width:300px;">
+                Kesesuaian Peruntukan Lokasi
+            </th>
+            <th colspan="1" style="text-align:center; color: black; background-color: white; width:25px;">:</th>
+            <td colspan="12" style="text-align:left; background-color: white; padding-left: 10px; color: black; width:1000px;">
+                Lokasi ->
+                <button class="btn {{ $data->peruntukan_lokasi == 'TERTIB' ? 'btn-success' : 'btn-danger' }}">
+                    {{$data->peruntukan_lokasi}}
+                </button>
+            </td>
+        </tr>
+
+        <tr>
+            <th style="text-align:center; color: black; width:50px; background-color: white;">
+                <i class="fas fa-calendar-alt" style="font-size:20px; margin-right:8px;"></i>
+            </th>
+            <th colspan="11" style="text-align:left; color: black; background-color: white; padding-left: 10px; width:300px;">
+                Perencanaan Umur Konstruksi
+            </th>
+            <th colspan="1" style="text-align:center; color: black; background-color: white; width:25px;">:</th>
+            <td colspan="12" style="text-align:left; background-color: white; padding-left: 10px; color: black; width:1000px;">
+                Lokasi ->
+                <button class="btn {{ $data->rencanaumur == 'TERTIB' ? 'btn-success' : 'btn-danger' }}">
+                    {{$data->rencanaumur}}
+                </button>
+            </td>
+        </tr>
+
+        <tr>
+            <th style="text-align:center; color: black; width:50px; background-color: white;">
+                <i class="fas fa-dumbbell" style="font-size:20px; margin-right:8px;"></i>
+            </th>
+            <th colspan="11" style="text-align:left; color: black; background-color: white; padding-left: 10px; width:300px;">
+                Kapasitas Beban
+            </th>
+            <th colspan="1" style="text-align:center; color: black; background-color: white; width:25px;">:</th>
+            <td colspan="12" style="text-align:left; background-color: white; padding-left: 10px; color: black; width:1000px;">
+                Beban Bangunan ->
+                <button class="btn {{ $data->kapasitasdanbeban == 'TERTIB' ? 'btn-success' : 'btn-danger' }}">
+                    {{$data->kapasitasdanbeban}}
+                </button>
+            </td>
+        </tr>
+
+        <tr>
+            <th style="text-align:center; color: black; width:50px; background-color: white;">
+                <i class="fas fa-tools" style="font-size:20px; margin-right:8px;"></i>
+            </th>
+            <th colspan="11" style="text-align:left; color: black; background-color: white; padding-left: 10px; width:300px;">
+                Pemeliharaan Bangunan
+            </th>
+            <th colspan="1" style="text-align:center; color: black; background-color: white; width:25px;">:</th>
+            <td colspan="12" style="text-align:left; background-color: white; padding-left: 10px; color: black; width:1000px;">
+                Pemeliharaan ->
+                <button class="btn {{ $data->pemeliharaan_konstruksi == 'TERTIB' ? 'btn-success' : 'btn-danger' }}">
+                    {{$data->pemeliharaan_konstruksi}}
+                </button>
+            </td>
+        </tr>
+
+        <tr>
+            <th style="text-align:center; color: black; width:50px; background-color: white;">
+                <i class="fas fa-cogs" style="font-size:20px; margin-right:8px;"></i>
+            </th>
+            <th colspan="11" style="text-align:left; color: black; background-color: white; padding-left: 10px; width:300px;">
+                Program Pemeliharaan
+            </th>
+            <th colspan="1" style="text-align:center; color: black; background-color: white; width:25px;">:</th>
+            <td colspan="12" style="text-align:left; background-color: white; padding-left: 10px; color: black; width:1000px;">
+                Pemeliharaan ->
+                <button class="btn {{ $data->pemeliharaan_struktur == 'TERTIB' ? 'btn-success' : 'btn-danger' }}">
+                    {{$data->pemeliharaan_struktur}}
+                </button>
+            </td>
+        </tr> --}}
 
     </thead>
 </table>
-
 
 <style>
     .sifatjakon {
@@ -302,28 +448,62 @@ color: #45a049;
 <table class="sifatjakon">
 <thead>
     <tr>
-        <th rowspan="2">Proses Pemilihan Penyedia Jasa</th>
-        <th colspan="3">Pengawasan Terhadap Kontrak Kerja Konstruksi</th>
-        <th colspan="3">Pengawasan Terhadap Penerapan Standar Keamanan, Keselamatan, Kesehatan, dan Keberlanjutan Konstruksi</th>
+        <th colspan="2">Kesesuian Fungsi Peruntukan</th>
+        <th rowspan="2">Rencana Umum Konstruksi</th>
+        <th rowspan="2">Kapasitas & Beban</th>
+        <th colspan="2">Pemeliharaan Produk Konstruksi</th>
+        </th>
     </tr>
     <tr>
-        <th>Penerapan Standar Kontrak</th>
-        <th>Penggunaan Tenaga Kerja Konstruksi Bersertifikat</th>
-        <th>Pemberian Pekerjaan Utama dan/atau Penunjang Kepada Sub Penyedia Jasa</th>
-        <th>Ketersediaan Dokumen Standar K4</th>
-        <th>Penerapan SMKK</th>
-        <th>Kegiatan Antisipasi Kecelakaan Kerja</th>
+        <th>Fungsi</th>
+        <th>Lokasi</th>
+        <th>Pemeliharaan Bangunan</th>
+        <th>Program Pemeliharaan</th>
     </tr>
 </thead>
 <tbody>
     <tr>
         <td>
             <button style="padding: 8px 12px; border: none; border-radius: 5px; color: white; font-weight: bold; cursor: pointer;
-                background-color: {{ $data->prosespemilihan == 'BELUM TERTIB' ? 'red' : 'blue' }};">
-                {{ $data->prosespemilihan }}
+                background-color: {{ $data->peruntukan_fungsi == 'BELUM TERTIB' ? 'red' : 'blue' }};">
+                {{ $data->peruntukan_fungsi }}
             </button>
         </td>
 
+        <td>
+            <button style="padding: 8px 12px; border: none; border-radius: 5px; color: white; font-weight: bold; cursor: pointer;
+                background-color: {{ $data->peruntukan_lokasi == 'BELUM TERTIB' ? 'red' : 'blue' }};">
+                {{ $data->peruntukan_lokasi }}
+            </button>
+        </td>
+
+        <td>
+            <button style="padding: 8px 12px; border: none; border-radius: 5px; color: white; font-weight: bold; cursor: pointer;
+                background-color: {{ $data->rencanaumur == 'BELUM TERTIB' ? 'red' : 'blue' }};">
+                {{ $data->rencanaumur }}
+            </button>
+        </td>
+
+        <td>
+            <button style="padding: 8px 12px; border: none; border-radius: 5px; color: white; font-weight: bold; cursor: pointer;
+                background-color: {{ $data->kapasitasdanbeban == 'BELUM TERTIB' ? 'red' : 'blue' }};">
+                {{ $data->kapasitasdanbeban }}
+            </button>
+        </td>
+
+        <td>
+            <button style="padding: 8px 12px; border: none; border-radius: 5px; color: white; font-weight: bold; cursor: pointer;
+                background-color: {{ $data->pemeliharaan_konstruksi == 'BELUM TERTIB' ? 'red' : 'blue' }};">
+                {{ $data->pemeliharaan_konstruksi }}
+            </button>
+        </td>
+
+        <td>
+            <button style="padding: 8px 12px; border: none; border-radius: 5px; color: white; font-weight: bold; cursor: pointer;
+                background-color: {{ $data->pemeliharaan_struktur == 'BELUM TERTIB' ? 'red' : 'blue' }};">
+                {{ $data->pemeliharaan_struktur }}
+            </button>
+        </td>
 
     </tr>
 
