@@ -60,33 +60,33 @@ class RantaipasokbloraController extends Controller
     }
 
 
-    // public function rantaipasokblora($namalengkap)
-    // {
-    //     $databujkkonsultan = bujkkonsultan::where('namalengkap', $namalengkap)->first();
+    public function rantaipasokblorashow($distributor)
+    {
+        $datarantaipasokblora = rantaipasokblora::where('distributor', $distributor)->first();
 
-    //     if (!$databujkkonsultan) {
-    //         // Tangani jika kegiatan tidak ditemukan
-    //         return redirect()->back()->with('error', 'Kegiatan tidak ditemukan.');
-    //     }
+        // if (!$databujkkonsultan) {
+        //     // Tangani jika kegiatan tidak ditemukan
+        //     return redirect()->back()->with('error', 'Kegiatan tidak ditemukan.');
+        // }
 
-    //     // Menggunakan paginate() untuk pagination
-    //     $subdata = bujkkonsultansub::where('bujkkonsultan_id', $databujkkonsultan->id)->paginate(10);
+        // // Menggunakan paginate() untuk pagination
+        // $subdata = bujkkonsultansub::where('bujkkonsultan_id', $databujkkonsultan->id)->paginate(10);
 
-    //       // Menghitung nomor urut mulai
-    //         $start = ($subdata->currentPage() - 1) * $subdata->perPage() + 1;
+          // Menghitung nomor urut mulai
+            // $start = ($subdata->currentPage() - 1) * $subdata->perPage() + 1;
 
 
-    // // Ambil data user saat ini
-    // $user = Auth::user();
+    // Ambil data user saat ini
+    $user = Auth::user();
 
-    // return view('frontend.03_masjaki_jakon.02_bujkkonsultan.bujkkonsultanshow', [
-    //     'title' => 'Data Bujk Konsultan',
-    //     'data' => $databujkkonsultan,
-    //     'subData' => $subdata,  // Jika Anda ingin mengirimkan data sub kontraktor juga
-    //     'user' => $user,
-    //     'start' => $start,
-    // ]);
-    // }
+    return view('frontend.06_rantaipasok.01_materialbangunan.materialbangunanshow', [
+        'title' => 'Data Bujk Konsultan',
+        'data' => $datarantaipasokblora,
+        // 'subData' => $subdata,  // Jika Anda ingin mengirimkan data sub kontraktor juga
+        'user' => $user,
+        // 'start' => $start,
+    ]);
+    }
 
     public function peralatankonstruksi()
     {

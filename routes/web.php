@@ -207,7 +207,7 @@ Route::get('/statistiktertibusahajakon', [DatastatistikajakonbloraController::cl
 // DATA RANTAI PASOK MATERIAL BANGUNAN GEDUNG JAKON MAS JAKI BLORA
 // ==========================================================================================================
 Route::get('/rantaipasokmaterial', [RantaipasokbloraController::class, 'index']);
-Route::get('/rantaipasokmaterial/{distributor}', [RantaipasokbloraController::class, 'rantaipasokblora']);
+Route::get('/rantaipasokmaterial/{distributor}', [RantaipasokbloraController::class, 'rantaipasokblorashow']);
 Route::get('/peralatankonstruksi', [RantaipasokbloraController::class, 'peralatankonstruksi']);
 Route::get('/peralatankonstruksi/{namabadanusaha}', [RantaipasokbloraController::class, 'peralatankonstruksishow']);
 
