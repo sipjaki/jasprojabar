@@ -127,7 +127,7 @@ color: #45a049;
             .bagdewa {
     background: linear-gradient(to right, white, white);
     color: white;
-    padding: 15px 20px;
+    padding: 10px 20px;
     border-radius: 10px;
     border: 1px solid black !important; /* Menambahkan garis luar hitam 1px */
     display: inline-block;
