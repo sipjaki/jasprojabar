@@ -239,7 +239,7 @@ color: #45a049;
                                             <td>{{$item->notelepon}}</td>
                                             {{-- <td>{{$item->email}}</td>
                                             <td>{{$item->jenisprodukbangunan}}</td> --}}
-                                            <td>
+                                            <td style="text-align: center">
                                                 <img src="{{ asset('storage/' . $item->fototokobangunan) }}" alt="Foto Toko Bangunan" width="100">
                                             </td>
                                             {{-- <td>{{$item->keterangan}}</td> --}}
