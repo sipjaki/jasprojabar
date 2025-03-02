@@ -245,7 +245,7 @@ color: #45a049;
                                             {{-- <td>{{$item->alamatproyek}}</td> --}}
                                             {{-- <td>{{$item->wilayah}}</td> --}}
                                             <td style="text-align: center">
-                                                <a href="/datajakon/bujkkontraktor/{{$item->namaperusahaan}}">
+                                                <a href="/pengawasanbujk/{{$item->namaperusahaan}}">
                                                     <i class="fas fa-eye view-icon" onclick="alert('View clicked!')"></i>
                                                 </a>
                                             </td>
