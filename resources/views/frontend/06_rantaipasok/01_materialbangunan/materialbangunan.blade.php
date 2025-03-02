@@ -236,7 +236,7 @@ color: #45a049;
                                                 <img src="{{ asset('storage/' . $item->foto) }}" alt="Foto Toko Bangunan" width="100">
                                             </td>
                                             {{-- <td>{{$item->alamat}}</td> --}}
-                                            <td>{{$item->notelepon}}</td>
+                                            <td style="text-align: center">{{$item->notelepon}}</td>
                                             {{-- <td>{{$item->materialproduk}}</td> --}}
                                             {{-- <td>{{$item->submaterialproduk}}</td>
                                             <td>{{$item->merkproduk}}</td> --}}
