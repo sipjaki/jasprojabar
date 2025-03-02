@@ -307,13 +307,9 @@ color: #45a049;
                             <tbody>
                                 @foreach ($data as $item )
                                 <tr>
-                                    <td>{{ 'Rp ' . number_format($item->rumahnegaratipea, 0, ',', '.') }}</td>
-                                </tr>
-                                <tr>
-                                    <td>{{ 'Rp ' . number_format($item->rumahnegaratipea, 0, ',', '.') }}</td>
-                                </tr>
-                                <tr>
-                                    <td>{{ 'Rp ' . number_format($item->rumahnegaratipecde, 0, ',', '.') }}</td>
+                                    <td style="text-align: center; font-weight:bold; font-size:18px;">{{ 'Rp ' . number_format($item->rumahnegaratipea, 0, ',', '.') }}</td>
+                                    <td style="text-align: center; font-weight:bold; font-size:18px;">{{ 'Rp ' . number_format($item->rumahnegaratipea, 0, ',', '.') }}</td>
+                                    <td style="text-align: center; font-weight:bold; font-size:18px;">{{ 'Rp ' . number_format($item->rumahnegaratipecde, 0, ',', '.') }}</td>
                                 </tr>
 
                                 @endforeach
@@ -351,13 +347,9 @@ color: #45a049;
 
                                 @foreach ($data as $item )
                                 <tr>
-                                    <td>{{ 'Rp ' . number_format($item->pagarrumahdepan, 0, ',', '.') }}</td>
-                                </tr>
-                                <tr>
-                                    <td>{{ 'Rp ' . number_format($item->pagarrumahbelakang, 0, ',', '.') }}</td>
-                                </tr>
-                                <tr>
-                                    <td>{{ 'Rp ' . number_format($item->pagarrumahsamping, 0, ',', '.') }}</td>
+                                    <td style="text-align: center; font-weight:bold; font-size:18px;">{{ 'Rp ' . number_format($item->pagarrumahdepan, 0, ',', '.') }}</td>
+                                    <td style="text-align: center; font-weight:bold; font-size:18px;">{{ 'Rp ' . number_format($item->pagarrumahbelakang, 0, ',', '.') }}</td>
+                                    <td style="text-align: center; font-weight:bold; font-size:18px;">{{ 'Rp ' . number_format($item->pagarrumahsamping, 0, ',', '.') }}</td>
                                 </tr>
 
                                 @endforeach
@@ -396,13 +388,9 @@ color: #45a049;
 
                                 @foreach ($data as $item )
                                 <tr>
-                                    <td>{{ 'Rp ' . number_format($item->pagarrumahnegaradepan, 0, ',', '.') }}</td>
-                                </tr>
-                                <tr>
-                                    <td>{{ 'Rp ' . number_format($item->pagarrumahnegarabelakang, 0, ',', '.') }}</td>
-                                </tr>
-                                <tr>
-                                    <td>{{ 'Rp ' . number_format($item->pagarrumahnegarasamping, 0, ',', '.') }}</td>
+                                    <td style="text-align: center; font-weight:bold; font-size:18px;">{{ 'Rp ' . number_format($item->pagarrumahnegaradepan, 0, ',', '.') }}</td>
+                                    <td style="text-align: center; font-weight:bold; font-size:18px;">{{ 'Rp ' . number_format($item->pagarrumahnegarabelakang, 0, ',', '.') }}</td>
+                                    <td style="text-align: center; font-weight:bold; font-size:18px;">{{ 'Rp ' . number_format($item->pagarrumahnegarasamping, 0, ',', '.') }}</td>
                                 </tr>
 
                                 @endforeach
