@@ -210,10 +210,20 @@ color: #45a049;
                                     </a>
                                 </div>
 
+                                <div style="text-align: center; margin-top: 20px;">
+                                    <img src="/assets/icon/pupr.png"
+                                         alt="Foto Material atau Toko"
+                                         style="width: 350px; height: 350px; object-fit: cover; border-radius: 10px; box-shadow: 0 6px 12px rgba(0,0,0,0.2);">
+                                    <p style="margin-top: 10px; font-weight: 600; color: black; font-family: 'Poppins', sans-serif; font-size: 18px;">
+                                        Foto Badan Usaha Material Bangunan
+                                    </p>
+                                </div>
+
 
                     <div class="table-wrapper" style="margin-top: 15px;">
                     <!-- Add this inside your HTML <head> for FontAwesome -->
                                 <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+
 
                                 <table  id="datakeluar" class="fl-table" style="width: 100%; border-collapse: collapse" class="fl-table">
                                     <thead>
@@ -285,15 +295,6 @@ color: #45a049;
                                     </thead>
 
                                 </table>
-
-                                    <div style="text-align: center; margin-top: 20px;">
-                                        <img src="/assets/icon/pupr.png"
-                                             alt="Foto Material atau Toko"
-                                             style="width: 350px; height: 350px; object-fit: cover; border-radius: 10px; box-shadow: 0 6px 12px rgba(0,0,0,0.2);">
-                                        <p style="margin-top: 10px; font-weight: 600; color: black; font-family: 'Poppins', sans-serif; font-size: 18px;">
-                                            Foto Badan Usaha Material Bangunan
-                                        </p>
-                                    </div>
 
 
 
