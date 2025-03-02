@@ -216,6 +216,7 @@ color: #45a049;
                                             <th onclick="sortTable(0)" style="cursor:pointer; text-align:center"> No <span class="sort-icon">⇅</span></th>
                                             <th onclick="sortTable(1)" style="cursor:pointer; text-align:center"> Kode Proyek <span class="sort-icon">⇅</span></th>
                                             <th onclick="sortTable(2)" style="cursor:pointer; text-align:center"> Nama Perusahan <span class="sort-icon">⇅</span></th>
+                                            <th onclick="sortTable(2)" style="cursor:pointer; text-align:center"> Alamat Perusahaan<span class="sort-icon">⇅</span></th>
                                             <th onclick="sortTable(3)" style="cursor:pointer; text-align:center"> Status Modal <span class="sort-icon">⇅</span></th>
                                             <th onclick="sortTable(4)" style="cursor:pointer; text-align:center"> Jenis Perusahaan <span class="sort-icon">⇅</span></th>
                                             <th onclick="sortTable(5)" style="cursor:pointer; text-align:center"> NIB <span class="sort-icon">⇅</span></th>
