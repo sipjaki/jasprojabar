@@ -401,6 +401,43 @@ color: #45a049;
     </thead>
 </table>
 
+<table border="1" cellspacing="0" cellpadding="8" style="width: 100%; border-collapse: collapse; text-align: center;">
+    <thead>
+        <tr>
+            <th rowspan="2">No</th>
+            <th rowspan="2">Nama</th>
+            <th colspan="2">Detail</th>
+            <th rowspan="2">Total</th>
+        </tr>
+        <tr>
+            <th>Item 1</th>
+            <th>Item 2</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>1</td>
+            <td>Andi</td>
+            <td>5</td>
+            <td>3</td>
+            <td>8</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td rowspan="2">Budi</td> <!-- Merge baris -->
+            <td>2</td>
+            <td>6</td>
+            <td>8</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>1</td>
+            <td>4</td>
+            <td>5</td>
+        </tr>
+    </tbody>
+</table>
+
 <div class="container-fluid" style="justify-content: right; margin-top:20px;">
 
     <a href="javascript:window.history.back()" style="background: white;">
