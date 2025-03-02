@@ -265,12 +265,12 @@ color: #45a049;
                                     <th style="text-align: center">Bangunan Sederhana</th>
                                 </tr>
                             </thead>
-                            <tbody>
+                            <tbody style="background: white">
 
                                 @foreach ($data as $item )
                                 <tr>
-                                    <td>{{ 'Rp ' . number_format($item->bangunankantortidaksederhana, 0, ',', '.') }}</td>
-                                    <td>{{ 'Rp ' . number_format($item->bangunankantorsederhana, 0, ',', '.') }}</td>
+                                    <td style="text-align: center;">{{ 'Rp ' . number_format($item->bangunankantortidaksederhana, 0, ',', '.') }}</td>
+                                    <td style="text-align: center;">{{ 'Rp ' . number_format($item->bangunankantorsederhana, 0, ',', '.') }}</td>
                                 </tr>
 
                                 @endforeach
