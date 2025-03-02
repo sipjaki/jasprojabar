@@ -446,7 +446,7 @@ color: #45a049;
     <tr>
         <th colspan="4">Kesesuaian Kegiatan Konstruksi</th>
         <th colspan="2">Kesesuaian Jasa Konstruksi & Segmentasi Pasar Jasa Konstruksi</th>
-        <th rowspan="2">Detail</th>
+        <th rowspan="3">Pemenuhan Syarat Usaha</th>
         <th rowspan="2">Total</th>
     </tr>
     <tr>
@@ -456,6 +456,8 @@ color: #45a049;
         <th>Layanan</th>
         <th>Bentuk</th>
         <th>Kualifikasi</th>
+        <th>SBU</th>
+        <th>NIB</th>
     </tr>
 </thead>
 <tbody>
@@ -466,6 +468,8 @@ color: #45a049;
         <td>{{$data->sesuai_layanan}}</td>
         <td>{{$data->segmentasipasar_bentuk}}</td>
         <td>{{$data->segmentasipasar_kualifikasi}}</td>
+        <td>{{$data->syarat_SBU}}</td>
+        <td>{{$data->syarat_NIB}}</td>
         <td>1</td>
         <td>5</td>
 
