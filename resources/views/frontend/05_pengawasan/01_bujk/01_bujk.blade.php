@@ -216,13 +216,14 @@ color: #45a049;
                                             <th onclick="sortTable(0)" style="cursor:pointer; text-align:center"> No <span class="sort-icon">⇅</span></th>
                                             <th onclick="sortTable(1)" style="cursor:pointer; text-align:center"> Kode Proyek <span class="sort-icon">⇅</span></th>
                                             <th onclick="sortTable(2)" style="cursor:pointer; text-align:center"> Nama Perusahan <span class="sort-icon">⇅</span></th>
-                                            <th onclick="sortTable(2)" style="cursor:pointer; text-align:center"> Alamat Perusahaan<span class="sort-icon">⇅</span></th>
+                                            {{-- <th onclick="sortTable(2)" style="cursor:pointer; text-align:center"> Alamat Perusahaan<span class="sort-icon">⇅</span></th> --}}
                                             <th onclick="sortTable(3)" style="cursor:pointer; text-align:center"> Status Modal <span class="sort-icon">⇅</span></th>
-                                            <th onclick="sortTable(4)" style="cursor:pointer; text-align:center"> Jenis Perusahaan <span class="sort-icon">⇅</span></th>
-                                            <th onclick="sortTable(5)" style="cursor:pointer; text-align:center"> NIB <span class="sort-icon">⇅</span></th>
-                                            <th onclick="sortTable(6)" style="cursor:pointer; text-align:center"> KBLI <span class="sort-icon">⇅</span></th>
-                                            <th onclick="sortTable(7)" style="cursor:pointer; text-align:center"> Uraian KBLI <span class="sort-icon">⇅</span></th>
+                                            {{-- <th onclick="sortTable(4)" style="cursor:pointer; text-align:center"> Jenis Perusahaan <span class="sort-icon">⇅</span></th> --}}
+                                            {{-- <th onclick="sortTable(5)" style="cursor:pointer; text-align:center"> NIB <span class="sort-icon">⇅</span></th> --}}
+                                            {{-- <th onclick="sortTable(6)" style="cursor:pointer; text-align:center"> KBLI <span class="sort-icon">⇅</span></th> --}}
+                                            {{-- <th onclick="sortTable(7)" style="cursor:pointer; text-align:center"> Uraian KBLI <span class="sort-icon">⇅</span></th> --}}
                                             <th onclick="sortTable(8)" style="cursor:pointer; text-align:center"> Sektor<span class="sort-icon">⇅</span></th>
+                                            {{-- <th onclick="sortTable(8)" style="cursor:pointer; text-align:center"> Alamat Proyek<span class="sort-icon">⇅</span></th> --}}
                                             <th onclick="sortTable(9)" style="cursor:pointer; text-align:center"> Wilayah <span class="sort-icon">⇅</span></th>
                                             <th style="text-align:center"> View </th>
                                         </tr>
@@ -234,14 +235,14 @@ color: #45a049;
                                             <td style="text-align: center;">{{ $loop->iteration + $start - 1 }}</td>
                                             <td class="namalengkap">{{$item->kodeproyek}}</td>
                                             <td>{{$item->namaperusahaan}}</td>
-                                            <td>{{$item->alamatperusahaan}}</td>
+                                            {{-- <td>{{$item->alamatperusahaan}}</td> --}}
                                             <td>{{$item->statusmodal}}</td>
                                             <td>{{$item->jenisperusahaan}}</td>
                                             <td>{{$item->nib}}</td>
                                             <td>{{$item->kbli}}</td>
                                             <td>{{$item->uraiankbli}}</td>
                                             <td>{{$item->sektor}}</td>
-                                            <td>{{$item->alamatproyek}}</td>
+                                            {{-- <td>{{$item->alamatproyek}}</td> --}}
                                             <td>{{$item->wilayah}}</td>
                                             <td style="text-align: center">
                                                 <a href="/datajakon/bujkkontraktor/{{$item->namaperusahaan}}">
