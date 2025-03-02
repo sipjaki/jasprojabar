@@ -125,19 +125,18 @@ color: #45a049;
             }
 
             .bagdewa {
-                background: linear-gradient(to right, white, white);
-                color: white;
-                padding: 20px 20px;
-                border-radius: 10px;
-                border : 2px solid;
-                display: inline-block;
-                border: none !important;
-                font-size: 1rem;
-                text-align: center;
-                font-size: 12px;
-                cursor: pointer;
-                transition: background-color 0.3s, color 0.3s;
-            }
+    background: linear-gradient(to right, white, white);
+    color: white;
+    padding: 20px 20px;
+    border-radius: 10px;
+    border: 1px solid black !important; /* Menambahkan garis luar hitam 1px */
+    display: inline-block;
+    font-size: 12px;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
             .bagdewa:hover {
                 background-color: white;
                 color: black;
