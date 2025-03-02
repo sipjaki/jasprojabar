@@ -232,7 +232,7 @@ color: #45a049;
                                             <td style="text-align: center;">{{ $loop->iteration + $start - 1 }}</td>
                                             <td>{{$item->distributor}}</td>
                                             {{-- <td>{{$item->nib}}</td> --}}
-                                            <td>
+                                            <td style="text-align: center">
                                                 <img src="{{ asset('storage/' . $item->foto) }}" alt="Foto Toko Bangunan" width="100">
                                             </td>
                                             <td>{{$item->alamat}}</td>
