@@ -64,11 +64,11 @@ Route::get('/', [FedashboardController::class, 'index']);
 
 
 
-Route::get('/percobaankamera', function () {
-    // return view('welcome');
-    return view('percobaankamera', [
-        'title' => 'percobaan',
-    ]);
+// Route::get('/percobaankamera', function () {
+//     // return view('welcome');
+//     return view('percobaankamera', [
+//         'title' => 'percobaan',
+//     ]);
 });
 
 Route::get('/404', function () {
@@ -78,10 +78,10 @@ Route::get('/404', function () {
     ]);
 });
 
-Route::get('/bahan2', function () {
-    // return view('welcome');
-    return view('frontend.00_full.bahan2');
-});
+// Route::get('/bahan2', function () {
+//     // return view('welcome');
+//     return view('frontend.00_full.bahan2');
+// });
 
 // ---------------------- 01 PROFIL FRONTEND SIPJAKI KBB -----------------------//
 // -------- BAGIAN 1 ---------------------------------
