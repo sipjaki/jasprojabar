@@ -488,15 +488,6 @@ color: #45a049;
 </tbody>
 </table>
 
-<div class="container-fluid" style="justify-content: right; margin-top:20px;">
-
-    <a href="javascript:window.history.back()" style="background: white;">
-        <button class="badgekembali" style="border: none; font-size: 12px; cursor: pointer; margin-right: 10px;">
-            <i class="fas fa-arrow-circle-left mr-2" style="margin-right: 15px;"></i> KEMBALI
-        </button>
-    </a>
-
-</div>
 
                     </div>
                                                 </div><!-- document-details-list -->
