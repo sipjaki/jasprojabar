@@ -11,20 +11,60 @@ use Illuminate\Support\Facades\Auth;
 
 class TokobangunanbloraController extends Controller
 {
-    //
-    public function index()
-    {
-        $data = kecamatanblora::paginate(20);
-        $datasub = tokobangunanblora::paginate(15);
-        $user = Auth::user();
+    // //
+    // public function index()
+    // {
+    //     $data = kecamatanblora::paginate(20);
+    //     $datasub = tokobangunanblora::paginate(15);
+    //     $user = Auth::user();
 
-        return view('frontend.06_rantaipasok.03_tokobangunanblora.new.tokobangunan', [
-            'title' => 'Toko Bangunan Kabupaten Blora',
-            'user' => $user, // Mengirimkan data paginasi ke view
-            'data' => $data, // Mengirimkan data paginasi ke view
-            'datasub' => $datasub, // Mengirimkan data paginasi ke view
+    //     return view('frontend.06_rantaipasok.03_tokobangunanblora.new.tokobangunan', [
+    //         'title' => 'Toko Bangunan Kabupaten Blora',
+    //         'user' => $user, // Mengirimkan data paginasi ke view
+    //         'data' => $data, // Mengirimkan data paginasi ke view
+    //         'datasub' => $datasub, // Mengirimkan data paginasi ke view
+    //     ]);
+    // }
+
+
+    public function index(Request $request)
+    {
+        $perPage = $request->input('perPage', 10);
+        $search = $request->input('search');
+
+        $query = tokobangunanblora::query();
+
+        $query->where('namatokobangunan', 'LIKE', "%{$search}%")
+                      ->orWhere('pemilik', 'LIKE', "%{$search}%")
+                      ->orWhere('alamat', 'LIKE', "%{$search}%")
+                      ->orWhere('notelepon', 'LIKE', "%{$search}%")
+                      ->orWhere('email', 'LIKE', "%{$search}%")
+                      ->orWhere('jenisprodukbangunan', 'LIKE', "%{$search}%")
+                      ->orWhere('fototokobangunan', 'LIKE', "%{$search}%")
+                      ->orWhere('keterangan', 'LIKE', "%{$search}%")
+                      ->orWhereHas('kecamatanblora', function ($q) use ($search) {
+                          $q->where('kecamatanblora', 'LIKE', "%{$search}%"); // 'jabatankerja' = nama kolom di tabel jabatankerja
+                      });
+
+    $data = $query->paginate($perPage);
+
+    if ($request->ajax()) {
+        return response()->json([
+            'html' => view('frontend.06_rantaipasok.03_tokobangunanblora.new.partials.table', compact('data'))->render()
         ]);
     }
+
+    $datasub = tokobangunanblora::paginate(15);
+    return view('frontend.06_rantaipasok.03_tokobangunanblora.new.tokobangunan', [
+        'title' => 'Tertib Penyelenggaraan Jasa Konstruksi',
+        'data' => $data,
+        'datasub' => $datasub,
+        'perPage' => $perPage,
+        'search' => $search
+    ]);
+
+}
+
 
     public function tokobangunanblorashow($kecamatanblora)
     {
