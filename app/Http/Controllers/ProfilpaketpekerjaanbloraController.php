@@ -31,7 +31,7 @@ class ProfilpaketpekerjaanbloraController extends Controller
         $datasub = prosespaket::all();
 
         return view('frontend.03_masjaki_jakon.04_profilpaketpekerjaan.01_paketpekerjaantender', [
-            'title' => 'Profil Paket Pekerjaan Konstruksi & Konsultasi Kabupaten Blora',
+            'title' => 'Profil Paket Pekerjaan Konstruksi & Konsultasi Konstruksi Kabupaten Blora',
             'user' => $user, // Mengirimkan data paginasi ke view
             'data' => $data, // Mengirimkan data paginasi ke view
             'datasub' => $datasub, // Mengirimkan data paginasi ke view
