@@ -23,7 +23,7 @@ overflow: hidden;
 
 /* Header styling */
 .fl-table thead {
-background: #FFD100;
+background: lightblue;
 text-transform: uppercase;
 font-weight: 600;
 letter-spacing: 0.5px;
