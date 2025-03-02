@@ -138,9 +138,9 @@ color: #45a049;
 }
 
             .bagdewa:hover {
-                background-color: lightblue;
+                background-color: #ffd100;
                 color: white;
-                background: lightblue;
+                background: #ffd100;
             }
 </style>
 
