@@ -178,9 +178,9 @@ color: #45a049;
                                     </button>
 
 
-                                        <a href="https://wa.me/081321455855" target="_blank" style="text-decoration: none; margin-left: 10px;">
+                                        <a href="https://wa.me/081321455855" target="_blank" style="text-decoration: none; margin-left: 600px; margin-right:10px;">
                                             <button class="badgekembali">
-                                                <i class="fab fa-whatsapp" style="margin-right: 8px; color: green;"></i> WHATSAPP
+                                                <i class="fab fa-whatsapp" style="margin-right: 8px; color: green; font-size:24px;"></i>
                                             </button>
                                         </a>
 
