@@ -12,17 +12,49 @@ class PengawasanbujkController extends Controller
     //
 
 
-    public function index()
-    {
-        $user = Auth::user();
-        $data = pengawasanbujk::paginate(10);
+    // public function index()
+    // {
+    //     $user = Auth::user();
+    //     $data = pengawasanbujk::paginate(10);
 
-        return view('frontend.05_pengawasan.01_bujk.01_bujk', [
-            'title' => 'Pengawasan BUJK',
-            'user' => $user, // Mengirimkan data paginasi ke view
-            'data' => $data, // Mengirimkan data paginasi ke view
+    //     return view('frontend.05_pengawasan.01_bujk.01_bujk', [
+    //         'title' => 'Pengawasan BUJK',
+    //         'user' => $user, // Mengirimkan data paginasi ke view
+    //         'data' => $data, // Mengirimkan data paginasi ke view
+    //     ]);
+    // }
+
+    public function index(Request $request)
+{
+    $perPage = $request->input('perPage', 10);
+    $search = $request->input('search');
+
+    $query = pengawasanbujk::query();
+
+    if ($search) {
+        $query->where('namalengkap', 'LIKE', "%{$search}%")
+              ->orWhere('kodeproyek', 'LIKE', "%{$search}%")
+              ->orWhere('namaperusahaan', 'LIKE', "%{$search}%")
+              ->orWhere('statusmodal', 'LIKE', "%{$search}%")
+              ->orWhere('nib', 'LIKE', "%{$search}%")
+              ->orWhere('jenisperusahaan', 'LIKE', "%{$search}%");
+    }
+
+    $data = $query->paginate($perPage);
+
+    if ($request->ajax()) {
+        return response()->json([
+            'html' => view('frontend.05_pengawasan.01_bujk.partials.table', compact('data'))->render()
         ]);
     }
+
+    return view('frontend.05_pengawasan.01_bujk.01_bujk', [
+        'title' => 'Pengawasan BUJK',
+        'data' => $data,
+        'perPage' => $perPage,
+        'search' => $search
+    ]);
+}
 
     public function bujkpengwasanshowmasjaki($namaperusahaan)
     {
