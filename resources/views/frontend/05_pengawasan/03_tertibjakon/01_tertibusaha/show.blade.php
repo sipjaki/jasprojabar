@@ -446,7 +446,7 @@ color: #45a049;
     <tr>
         <th colspan="4">Kesesuaian Kegiatan Konstruksi</th>
         <th colspan="2">Kesesuaian Jasa Konstruksi & Segmentasi Pasar Jasa Konstruksi</th>
-        <th rowspan="3">Pemenuhan Syarat Usaha</th>
+        <th colspan="3">Pemenuhan Syarat Usaha</th>
         <th rowspan="2">Total</th>
     </tr>
     <tr>
