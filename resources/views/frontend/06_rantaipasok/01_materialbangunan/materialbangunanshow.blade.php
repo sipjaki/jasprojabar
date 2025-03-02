@@ -293,24 +293,50 @@ color: #45a049;
         @endphp --}}
 
         {{-- @foreach ($subData as $item) --}}
-        <tr>
-            <!-- Nomor Urut -->
-            <td style="text-align: center; vertical-align: middle;">1</td>
 
-            <!-- Gambar Produk -->
+        <tr>
+            <td style="text-align: center; vertical-align: middle;">1</td>
             <td style="text-align: center; vertical-align: middle;">
-                <img src="https://via.placeholder.com/100x100.png?text=Semen"
-                     alt="Gambar Semen"
+                <img src="/assets/icon/logokabupatenblora.png" alt="Gambar Semen"
                      style="width: 80px; height: 80px; object-fit: cover; border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.2);">
             </td>
-<td>Rp.</td>
-            <!-- Nama Produk -->
             <td style="text-align: center; vertical-align: middle;">Semen</td>
-
-            <!-- Jumlah -->
-            <td style="text-align: center; vertical-align: middle;">10.0000</td>
+            <td>Rp.</td>
+            <td style="text-align: center; vertical-align: middle;">50.000</td>
         </tr>
-                {{-- @endforeach --}}
+
+        <tr>
+            <td style="text-align: center; vertical-align: middle;">1</td>
+            <td style="text-align: center; vertical-align: middle;">
+                <img src="/assets/icon/logokabupatenblora.png" alt="Gambar Semen"
+                     style="width: 80px; height: 80px; object-fit: cover; border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.2);">
+            </td>
+            <td style="text-align: center; vertical-align: middle;">Paku</td>
+            <td>Rp.</td>
+            <td style="text-align: center; vertical-align: middle;">5.000</td>
+        </tr>
+
+        <tr>
+            <td style="text-align: center; vertical-align: middle;">1</td>
+            <td style="text-align: center; vertical-align: middle;">
+                <img src="/assets/icon/logokabupatenblora.png" alt="Gambar Semen"
+                     style="width: 80px; height: 80px; object-fit: cover; border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.2);">
+            </td>
+            <td style="text-align: center; vertical-align: middle;">Cat</td>
+            <td>Rp.</td>
+            <td style="text-align: center; vertical-align: middle;">125.000</td>
+        </tr>
+        <tr>
+            <td style="text-align: center; vertical-align: middle;">1</td>
+            <td style="text-align: center; vertical-align: middle;">
+                <img src="/assets/icon/logokabupatenblora.png" alt="Gambar Semen"
+                     style="width: 80px; height: 80px; object-fit: cover; border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.2);">
+            </td>
+            <td style="text-align: center; vertical-align: middle;">Pasir</td>
+            <td>Rp.</td>
+            <td style="text-align: center; vertical-align: middle;">345.000</td>
+        </tr>
+        {{-- @endforeach --}}
 
         </tbody>
     </table>
