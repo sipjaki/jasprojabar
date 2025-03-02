@@ -184,8 +184,8 @@ Route::get('/tertibjasakonstruksilist/{namabadanusaha}', [TertibjasakonstruksiCo
 // Route::get('/tertibjasakonstruksiusaha/swasta', [TertibjasakonstruksiController::class, 'tertibjasakonstruksiusahaswasta']);
 
 // TERTIB PEMANFAATAN JASA KONSTRUKSI MAS JAKI BLORA
-// Route::get('/tertibjasakonstruksipemanfaatan', [TertibjasakonstruksiController::class, 'tertibjasakonstruksipemanfaatan']);
-// Route::get('/tertibjasakonstruksipemanfaatan/{namabangunan}', [TertibjasakonstruksiController::class, 'tertibjasakonstruksipemanfaatanshow']);
+Route::get('/tertibjasakonstruksipemanfaatan', [TertibjasakonstruksiController::class, 'tertibjasakonstruksipemanfaatan']);
+Route::get('/tertibjasakonstruksipemanfaatan/{namabangunan}', [TertibjasakonstruksiController::class, 'tertibjasakonstruksipemanfaatanshow']);
 
 // Route::get('/tertibjakonpemanfaatan/pu', [TertibjasakonstruksiController::class, 'tertibjasakonstruksipemanfaatanpu']);
 // Route::get('/tertibjakonpemanfaatan/nonpu', [TertibjasakonstruksiController::class, 'tertibjasakonstruksipemanfaatannonpu']);
