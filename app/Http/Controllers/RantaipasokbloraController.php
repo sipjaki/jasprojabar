@@ -14,19 +14,51 @@ class RantaipasokbloraController extends Controller
 {
     //
 
-    public function index()
+    // public function index()
+    // {
+    //     $data = rantaipasokblora::paginate(10);
+    //     // $datasub = bujkkonsultansub::paginate(15);
+    //     $user = Auth::user();
+
+    //     return view('frontend.06_rantaipasok.01_materialbangunan.materialbangunan', [
+    //         'title' => 'Rantai Pasok Material Bahan Bangunan',
+    //         'user' => $user, // Mengirimkan data paginasi ke view
+    //         'data' => $data, // Mengirimkan data paginasi ke view
+    //         // 'datasub' => $datasub, // Mengirimkan data paginasi ke view
+    //     ]);
+    // }
+
+    public function index(Request $request)
     {
-        $data = rantaipasokblora::paginate(10);
-        // $datasub = bujkkonsultansub::paginate(15);
-        $user = Auth::user();
+        $perPage = $request->input('perPage', 10);
+        $search = $request->input('search');
+
+        $query = rantaipasokblora::query();
+
+        if ($search) {
+            $query->where('distributor', 'LIKE', "%{$search}%")
+                  ->orWhere('alamat', 'LIKE', "%{$search}%")
+                  ->orWhere('email', 'LIKE', "%{$search}%")
+                  ->orWhere('notelepon', 'LIKE', "%{$search}%")
+                  ->orWhere('materialproduk', 'LIKE', "%{$search}%");
+        }
+
+        $data = $query->paginate($perPage);
+
+        if ($request->ajax()) {
+            return response()->json([
+                'html' => view('frontend.06_rantaipasok.01_materialbangunan.partials.table', compact('data'))->render()
+            ]);
+        }
 
         return view('frontend.06_rantaipasok.01_materialbangunan.materialbangunan', [
             'title' => 'Rantai Pasok Material Bahan Bangunan',
-            'user' => $user, // Mengirimkan data paginasi ke view
-            'data' => $data, // Mengirimkan data paginasi ke view
-            // 'datasub' => $datasub, // Mengirimkan data paginasi ke view
+            'data' => $data,
+            'perPage' => $perPage,
+            'search' => $search
         ]);
     }
+
 
     // public function rantaipasokblora($namalengkap)
     // {
