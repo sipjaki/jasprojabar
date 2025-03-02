@@ -196,7 +196,7 @@ color: #45a049;
                                         <span style="color: black; text-transform:uppercase">{{$title}} : {{$data->namabadanusaha}}</span>
                                     </button>
 
-                                    <a href="https://wa.me/081321455855" target="_blank" style="text-decoration: none; margin-left: 800px; margin-right:10px;">
+                                    <a href="https://wa.me/081321455855" target="_blank" style="text-decoration: none; margin-left: 700px; margin-right:10px;">
                                         <button class="bagdewa">
                                             <i class="fab fa-whatsapp" style="color: green; font-size:24px;"></i>
                                         </button>
