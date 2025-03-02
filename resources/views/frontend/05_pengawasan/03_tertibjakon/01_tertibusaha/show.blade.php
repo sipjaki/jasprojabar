@@ -473,15 +473,79 @@ color: #45a049;
 </thead>
 <tbody>
     <tr>
-        <td>{{$data->sesuai_jenis}}</td>
-        <td>{{$data->sesuai_sifat}}</td>
-        <td>{{$data->sesuai_klasifikasi}}</td>
-        <td>{{$data->sesuai_layanan}}</td>
-        <td>{{$data->segmentasipasar_bentuk}}</td>
-        <td>{{$data->segmentasipasar_kualifikasi}}</td>
-        <td>{{$data->syarat_SBU}}</td>
-        <td>{{$data->syarat_NIB}}</td>
-        <td>{{$data->pelaksanaanpengembangan}}</td>
+
+        <td>
+            <button style="padding: 8px 12px; border: none; border-radius: 5px; color: white; font-weight: bold; cursor: pointer;
+                background-color: {{ $data->sesuai_jenis == 'BELUM TERTIB' ? 'red' : 'blue' }};">
+                {{ $data->sesuai_jenis }}
+            </button>
+        </td>
+
+        <td>
+            <button style="padding: 8px 12px; border: none; border-radius: 5px; color: white; font-weight: bold; cursor: pointer;
+                background-color: {{ $data->sesuai_sifat == 'BELUM TERTIB' ? 'red' : 'blue' }};">
+                {{ $data->sesuai_sifat }}
+            </button>
+        </td>
+
+        <td>
+            <button style="padding: 8px 12px; border: none; border-radius: 5px; color: white; font-weight: bold; cursor: pointer;
+                background-color: {{ $data->sesuai_klasifikasi == 'BELUM TERTIB' ? 'red' : 'blue' }};">
+                {{ $data->sesuai_klasifikasi }}
+            </button>
+        </td>
+
+        <td>
+            <button style="padding: 8px 12px; border: none; border-radius: 5px; color: white; font-weight: bold; cursor: pointer;
+                background-color: {{ $data->sesuai_layanan == 'BELUM TERTIB' ? 'red' : 'blue' }};">
+                {{ $data->sesuai_layanan }}
+            </button>
+        </td>
+
+        <td>
+            <button style="padding: 8px 12px; border: none; border-radius: 5px; color: white; font-weight: bold; cursor: pointer;
+                background-color: {{ $data->segmentasipasar_bentuk == 'BELUM TERTIB' ? 'red' : 'blue' }};">
+                {{ $data->segmentasipasar_bentuk }}
+            </button>
+        </td>
+
+        <td>
+            <button style="padding: 8px 12px; border: none; border-radius: 5px; color: white; font-weight: bold; cursor: pointer;
+                background-color: {{ $data->segmentasipasar_kualifikasi == 'BELUM TERTIB' ? 'red' : 'blue' }};">
+                {{ $data->segmentasipasar_kualifikasi }}
+            </button>
+        </td>
+
+        <td>
+            <button style="padding: 8px 12px; border: none; border-radius: 5px; color: white; font-weight: bold; cursor: pointer;
+                background-color: {{ $data->syarat_SBU == 'BELUM TERTIB' ? 'red' : 'blue' }};">
+                {{ $data->syarat_SBU }}
+            </button>
+        </td>
+
+        <td>
+            <button style="padding: 8px 12px; border: none; border-radius: 5px; color: white; font-weight: bold; cursor: pointer;
+                background-color: {{ $data->syarat_NIB == 'BELUM TERTIB' ? 'red' : 'blue' }};">
+                {{ $data->syarat_NIB }}
+            </button>
+        </td>
+
+        <td>
+            <button style="padding: 8px 12px; border: none; border-radius: 5px; color: white; font-weight: bold; cursor: pointer;
+                background-color: {{ $data->pelaksanaanpengembangan == 'BELUM TERTIB' ? 'red' : 'blue' }};">
+                {{ $data->pelaksanaanpengembangan }}
+            </button>
+        </td>
+
+        {{-- <td>{{$data->sesuai_jenis}}</td> --}}
+        {{-- <td>{{$data->sesuai_sifat}}</td> --}}
+        {{-- <td>{{$data->sesuai_klasifikasi}}</td> --}}
+        {{-- <td>{{$data->sesuai_layanan}}</td> --}}
+        {{-- <td>{{$data->segmentasipasar_bentuk}}</td> --}}
+        {{-- <td>{{$data->segmentasipasar_kualifikasi}}</td> --}}
+        {{-- <td>{{$data->syarat_SBU}}</td> --}}
+        {{-- <td>{{$data->syarat_NIB}}</td> --}}
+        {{-- <td>{{$data->pelaksanaanpengembangan}}</td> --}}
         {{-- <td>1</td> --}}
     </tr>
 
