@@ -169,7 +169,7 @@ color: #45a049;
                         <div class="document-details">
 							<div class="document-details-list">
 
-                                <div class="centered-button" style="display: flex; justify-content: space-between; align-items: center; margin-top: 0px;">
+                                <div class="centered-button" style="display: flex; justify-content: space-between; align-items: center; margin-top: 15px;">
                                     <!-- Tombol di kiri -->
                                     <button class="green-button">
                                         <img src="/assets/icon/logokabupatenblora.png" class="img-fluid" alt="img-25" width="50" height="50" style="margin-right: 10px;" loading="lazy">
