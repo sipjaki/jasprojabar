@@ -179,17 +179,17 @@ Route::get('/tertibjasakonstruksi', [TertibjasakonstruksiController::class, 'ind
 Route::get('/tertibjasakonstruksilist', [TertibjasakonstruksiController::class, 'tertibjasakonstruksilist']);
 Route::get('/tertibjasakonstruksilist/{namabadanusaha}', [TertibjasakonstruksiController::class, 'tertibjasakonstruksishow']);
 
-Route::get('/tertibjasakonstruksiusaha/pu', [TertibjasakonstruksiController::class, 'tertibjasakonstruksiusahapu']);
-Route::get('/tertibjasakonstruksiusaha/nonpu', [TertibjasakonstruksiController::class, 'tertibjasakonstruksiusahanonpu']);
-Route::get('/tertibjasakonstruksiusaha/swasta', [TertibjasakonstruksiController::class, 'tertibjasakonstruksiusahaswasta']);
+// Route::get('/tertibjasakonstruksiusaha/pu', [TertibjasakonstruksiController::class, 'tertibjasakonstruksiusahapu']);
+// Route::get('/tertibjasakonstruksiusaha/nonpu', [TertibjasakonstruksiController::class, 'tertibjasakonstruksiusahanonpu']);
+// Route::get('/tertibjasakonstruksiusaha/swasta', [TertibjasakonstruksiController::class, 'tertibjasakonstruksiusahaswasta']);
 
 // TERTIB PEMANFAATAN JASA KONSTRUKSI MAS JAKI BLORA
-Route::get('/tertibjasakonstruksipemanfaatan', [TertibjasakonstruksiController::class, 'tertibjasakonstruksipemanfaatan']);
-Route::get('/tertibjasakonstruksipemanfaatan/{namabangunan}', [TertibjasakonstruksiController::class, 'tertibjasakonstruksipemanfaatanshow']);
+// Route::get('/tertibjasakonstruksipemanfaatan', [TertibjasakonstruksiController::class, 'tertibjasakonstruksipemanfaatan']);
+// Route::get('/tertibjasakonstruksipemanfaatan/{namabangunan}', [TertibjasakonstruksiController::class, 'tertibjasakonstruksipemanfaatanshow']);
 
-Route::get('/tertibjakonpemanfaatan/pu', [TertibjasakonstruksiController::class, 'tertibjasakonstruksipemanfaatanpu']);
-Route::get('/tertibjakonpemanfaatan/nonpu', [TertibjasakonstruksiController::class, 'tertibjasakonstruksipemanfaatannonpu']);
-Route::get('/tertibjakonpemanfaatan/swasta', [TertibjasakonstruksiController::class, 'tertibjasakonstruksipemanfaatanswasta']);
+// Route::get('/tertibjakonpemanfaatan/pu', [TertibjasakonstruksiController::class, 'tertibjasakonstruksipemanfaatanpu']);
+// Route::get('/tertibjakonpemanfaatan/nonpu', [TertibjasakonstruksiController::class, 'tertibjasakonstruksipemanfaatannonpu']);
+// Route::get('/tertibjakonpemanfaatan/swasta', [TertibjasakonstruksiController::class, 'tertibjasakonstruksipemanfaatanswasta']);
 
 // TERTIB PENYELENGGARAAN JASA KONSTRUKSI MAS JAKI BLORA
 Route::get('/tertibjasakonstruksipenyelenggaraan', [TertibjasakonstruksiController::class, 'tertibjasakonstruksipenyelenggaraan']);
