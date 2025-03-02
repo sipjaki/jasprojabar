@@ -237,7 +237,7 @@ color: #45a049;
                                             <td>{{$item->submaterialproduk}}</td>
                                             <td>{{$item->merkproduk}}</td>
                                             <td style="text-align: center">
-                                                <a href="/tertibjasakonstruksilist/{{$item->distributor}}">
+                                                <a href="/rantaipasokmaterial/{{$item->distributor}}">
                                                     <i class="fas fa-eye view-icon" onclick="alert('View clicked!')"></i>
                                                 </a>
                                             </td>
