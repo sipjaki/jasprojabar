@@ -279,7 +279,8 @@ color: #45a049;
             <tr>
                 {{-- <th style="text-align:center" >No</th> --}}
                 <th style="text-align:center" style="color: black" style="width: 25px" >No</th>
-                <th style="text-align:center" style="color: black" style="width: 600px;"> Alat Berat</th>
+                <th style="text-align:center" style="color: black" style="width: 600px;"> Foto Produk</th>
+                <th style="text-align:center" style="color: black" style="width: 600px;"> Nama Produk</th>
                 <th style="text-align:center" style="color: black" style="width: 400px;"> Jumlah </th>
 
                 </tr>
