@@ -88,7 +88,7 @@ color: #45a049;
 
 
             .badgekembali {
-                background: linear-gradient(to right, green, orange);
+                background: linear-gradient(to right, #ffd100, green);
                 color: white;
                 padding: 10px 20px;
                 border-radius: 10px;
@@ -180,7 +180,7 @@ color: #45a049;
                                     <!-- Tombol di Kanan -->
                                     <a href="javascript:window.history.back()" style="text-decoration: none;">
                                         <button class="badgekembali">
-                                            <i class="fas fa-arrow-circle-left" style="margin-right: 8px;"></i> KEMBALI
+                                            <i class="fas fa-arrow-circle-left" style="margin-right: 8px; color:red;"></i> KEMBALI
                                         </button>
                                     </a>
                                 </div>
