@@ -233,8 +233,8 @@ color: #45a049;
                                     <th style="text-align:center"> Sumber Dana</th>
                                     {{-- <th style="text-align:center"> Jenis Konstrak</th> --}}
                                     {{-- <th style="text-align:center"> Karakter Kontrak</th> --}}
-                                    <th style="text-align:center"> Mulai </th>
-                                    <th style="text-align:center"> Selesai</th>
+                                    {{-- <th style="text-align:center"> Mulai </th>
+                                    <th style="text-align:center"> Selesai</th> --}}
                                     <th style="text-align:center"> Dinas</th>
                                     <th style="text-align:center" >View</th>
                                 </tr>
@@ -256,8 +256,8 @@ color: #45a049;
                                     <td>{{$item->sumberdana}}</td>
                                     {{-- <td>{{$item->jeniskontrak}}</td> --}}
                                     {{-- <td>{{$item->karakteristikkontrak}}</td> --}}
-                                    <td>{{$item->bulanmulai}}</td>
-                                    <td>{{$item->bulanselesai}}</td>
+                                    {{-- <td>{{$item->bulanmulai}}</td>
+                                    <td>{{$item->bulanselesai}}</td> --}}
                                     <td>{{$item->dinas}}</td>
                                     {{-- <td>{{$item->prosespaket->persiapan}}</td> --}}
                                     <td style="text-align: center">
