@@ -269,8 +269,8 @@ color: #45a049;
 
                                 @foreach ($data as $item )
                                 <tr>
-                                    <td style="text-align: center;">{{ 'Rp ' . number_format($item->bangunankantortidaksederhana, 0, ',', '.') }}</td>
-                                    <td style="text-align: center;">{{ 'Rp ' . number_format($item->bangunankantorsederhana, 0, ',', '.') }}</td>
+                                    <td style="text-align: center; font-weight:bold; font-size:18px;">{{ 'Rp ' . number_format($item->bangunankantortidaksederhana, 0, ',', '.') }}</td>
+                                    <td style="text-align: center; font-weight:bold; font-size:18px;">{{ 'Rp ' . number_format($item->bangunankantorsederhana, 0, ',', '.') }}</td>
                                 </tr>
 
                                 @endforeach
