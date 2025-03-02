@@ -253,7 +253,7 @@ color: #45a049;
         {{$data->pjbu}}
     </td>
 </tr>
-
+{{--
 <tr>
     <th style="text-align:center; color: black; width:50px; background-color: white;">
         <i class="fas fa-hard-hat" style="font-size:20px; margin-right:8px;"></i> <!-- Ikon untuk Kesesuaian Kegiatan Konstruksi -->
@@ -396,7 +396,7 @@ color: #45a049;
             {{$data->pelaksanaanpengembangan}}
         </button>
     </td>
-</tr>
+</tr> --}}
 
     </thead>
 </table>
