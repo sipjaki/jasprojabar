@@ -203,7 +203,7 @@ color: #45a049;
                                     </a>
 
                                     <!-- Tombol di Kanan -->
-                                    <a href="javascript:window.history.back()" style="text-decoration: none;">
+                                    <a href="javascript:window.history.back()" style="text-decoration: none;" style="margin-left: -100px;">
                                         <button class="badgekembali">
                                             <i class="fas fa-arrow-circle-left" style="margin-right: 8px; color:red;"></i> KEMBALI
                                         </button>
