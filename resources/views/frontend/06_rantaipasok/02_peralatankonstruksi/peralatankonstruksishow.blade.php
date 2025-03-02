@@ -275,12 +275,12 @@ color: #45a049;
 
 <div class="table-wrapper">
     <table class="fl-table">
-        <thead style="background: #ffd100">
+        <thead style="background: navy">
             <tr>
                 {{-- <th style="text-align:center" >No</th> --}}
                 <th style="text-align:center" style="color: black" style="width: 25px" >No</th>
                 <th style="text-align:center" style="color: black" style="width: 600px;"> Foto Produk</th>
-                <th style="text-align:center" style="color: black" style="width: 600px;"> Nama Produk</th>
+                <th style="text-align:center" style="color: black" style="width: 600px;"> Nama Peralatan</th>
                 <th style="text-align:center" style="color: black" style="width: 600px;"> Rp.</th>
                 <th style="text-align:center" style="color: black" style="width: 400px;"> Harga</th>
                 <th style="text-align:center" style="color: black" style="width: 400px;"> Spesifikasi</th>
