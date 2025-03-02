@@ -453,11 +453,26 @@ color: #45a049;
         <td class="{{ $data->peruntukan_fungsi == 'BELUM' ? 'table-danger' : '' }}">
             {{ $data->peruntukan_fungsi }}
         </td>
-        <td>{{$data->peruntukan_lokasi}}</td>
-        <td>{{$data->rencanaumur}}</td>
-        <td>{{$data->kapasitasdanbeban}}</td>
-        <td>{{$data->pemeliharaan_konstruksi}}</td>
-        <td>{{$data->pemeliharaan_struktur}}</td>
+
+        <td class="{{ $data->peruntukan_lokasi == 'BELUM' ? 'table-danger' : '' }}">
+            {{ $data->peruntukan_lokasi }}
+        </td>
+
+        <td class="{{ $data->rencanaumur == 'BELUM' ? 'table-danger' : '' }}">
+            {{ $data->rencanaumur }}
+        </td>
+
+        <td class="{{ $data->kapasitasdanbeban == 'BELUM' ? 'table-danger' : '' }}">
+            {{ $data->kapasitasdanbeban }}
+        </td>
+
+        <td class="{{ $data->pemeliharaan_konstruksi == 'BELUM' ? 'table-danger' : '' }}">
+            {{ $data->pemeliharaan_konstruksi }}
+        </td>
+
+        <td class="{{ $data->pemeliharaan_struktur == 'BELUM' ? 'table-danger' : '' }}">
+            {{ $data->pemeliharaan_struktur }}
+        </td>
     </tr>
 
 </tbody>
