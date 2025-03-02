@@ -195,9 +195,9 @@ Route::get('/tertibjasakonstruksipemanfaatan/{namabangunan}', [Tertibjasakonstru
 Route::get('/tertibjasakonstruksipenyelenggaraan', [TertibjasakonstruksiController::class, 'tertibjasakonstruksipenyelenggaraan']);
 Route::get('/tertibjasakonstruksipenyelenggaraan/{kegiatankonstruksi}', [TertibjasakonstruksiController::class, 'tertibjasakonstruksipenyelenggaraanshow']);
 
-Route::get('/tertibjakonpenyelenggaraan/pu', [TertibjasakonstruksiController::class, 'tertibjasakonstruksipenyelenggaraanpu']);
-Route::get('/tertibjakonpenyelenggaraan/nonpu', [TertibjasakonstruksiController::class, 'tertibjasakonstruksipenyelenggaraannonpu']);
-Route::get('/tertibjakonpenyelenggaraan/swasta', [TertibjasakonstruksiController::class, 'tertibjasakonstruksipenyelenggaraanswasta']);
+// Route::get('/tertibjakonpenyelenggaraan/pu', [TertibjasakonstruksiController::class, 'tertibjasakonstruksipenyelenggaraanpu']);
+// Route::get('/tertibjakonpenyelenggaraan/nonpu', [TertibjasakonstruksiController::class, 'tertibjasakonstruksipenyelenggaraannonpu']);
+// Route::get('/tertibjakonpenyelenggaraan/swasta', [TertibjasakonstruksiController::class, 'tertibjasakonstruksipenyelenggaraanswasta']);
 
 // DATA STATITIK TERTIB JAKON MAS JAKI BLORA
 // ==========================================================================================================

@@ -214,9 +214,10 @@ color: #45a049;
                                     <thead>
                                         <tr>
                                             <th onclick="sortTable(0)" style="cursor:pointer; text-align:center"> No <span class="sort-icon">⇅</span></th>
-                                            <th onclick="sortTable(1)" style="cursor:pointer; text-align:center"> Nama Bangunan <span class="sort-icon">⇅</span></th>
-                                            <th onclick="sortTable(2)" style="cursor:pointer; text-align:center"> Nomor Kontrak <span class="sort-icon">⇅</span></th>
-                                            <th onclick="sortTable(3)" style="cursor:pointer; text-align:center"> Lokasi <span class="sort-icon">⇅</span></th>
+                                            <th onclick="sortTable(1)" style="cursor:pointer; text-align:center"> Status Pengguna <span class="sort-icon">⇅</span></th>
+                                            <th onclick="sortTable(2)" style="cursor:pointer; text-align:center"> Nama Bangunan <span class="sort-icon">⇅</span></th>
+                                            <th onclick="sortTable(3)" style="cursor:pointer; text-align:center"> Nomor Kontrak <span class="sort-icon">⇅</span></th>
+                                            <th onclick="sortTable(4)" style="cursor:pointer; text-align:center"> Lokasi <span class="sort-icon">⇅</span></th>
                                             <th style="text-align:center"> View </th>
                                         </tr>
                                     </thead>
@@ -225,6 +226,7 @@ color: #45a049;
                                         @foreach ($data as $item )
                                         <tr>
                                             <td style="text-align: center;">{{ $loop->iteration + $start - 1 }}</td>
+                                            <td>{{$item->penyediastatustertibjakon->penyedia}}</td>
                                             <td>{{$item->namabangunan}}</td>
                                             <td>{{$item->nomorkontrak}}</td>
                                             <td>{{$item->lokasi}}</td>
