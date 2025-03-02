@@ -139,7 +139,7 @@ color: #45a049;
 
             .bagdewa:hover {
                 background-color: green;
-                color: black;
+                color: white;
                 background: green;
             }
 </style>
