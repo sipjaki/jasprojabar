@@ -452,6 +452,8 @@ color: #45a049;
         <th>Sifat</th>
         <th>Klasifikasi</th>
         <th>Layanan</th>
+        <th>Bentuk</th>
+        <th>Kualifikasi</th>
     </tr>
 </thead>
 <tbody>
