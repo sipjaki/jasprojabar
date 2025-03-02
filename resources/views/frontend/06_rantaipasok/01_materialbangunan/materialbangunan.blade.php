@@ -234,6 +234,7 @@ color: #45a049;
                                             {{-- <td>{{$item->nib}}</td> --}}
                                             <td style="text-align: center">
                                                 <img src="{{ asset('storage/' . $item->foto) }}" alt="Foto Toko Bangunan" width="100">
+
                                             </td>
                                             {{-- <td>{{$item->alamat}}</td> --}}
                                             <td style="text-align: center">{{$item->notelepon}}</td>
