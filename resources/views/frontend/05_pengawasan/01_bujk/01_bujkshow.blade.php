@@ -191,7 +191,7 @@ color: #45a049;
                                         </head>
 
                     <body>
-                    <div class="table-wrapper" style="margin-top: 25px;">
+                    <div class="table-wrapper" style="margin-top: 15px;">
                     <!-- Add this inside your HTML <head> for FontAwesome -->
 <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
 
