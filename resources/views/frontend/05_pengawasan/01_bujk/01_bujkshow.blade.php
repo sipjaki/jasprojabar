@@ -329,7 +329,7 @@ color: #45a049;
             </td>
         </tr>
 
-        <tr>
+        {{-- <tr>
             <th style="text-align:center; color: black; width:50px; background-color: white;">
                 <i class="fas fa-map-marked-alt" style="font-size:20px; margin-right:8px;"></i> <!-- Changed icon to map marker for project address -->
             </th>
@@ -431,7 +431,7 @@ color: #45a049;
             <td colspan="12" style="text-align:left; background-color: white; padding-left: 10px; color: black; width:1000px;">
                 {{$data->resiko}}
             </td>
-        </tr>
+        </tr> --}}
         <tr>
             <th style="text-align:center; color: black; width:50px; background-color: white;">
                 <i class="fas fa-database" style="font-size:20px; margin-right:8px;"></i> <!-- Database icon for Sumber Data -->
