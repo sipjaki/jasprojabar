@@ -262,7 +262,7 @@ color: #45a049;
                                 </table>
 
                                     <div style="text-align: center; margin-top: 20px;">
-                                        <img src="https://via.placeholder.com/600x400.png?text=Foto+Material+atau+Toko"
+                                        <img src="/assets/icon/pupr.png"
                                              alt="Foto Material atau Toko"
                                              style="width: 600px; height: 400px; object-fit: cover; border-radius: 10px; box-shadow: 0 6px 12px rgba(0,0,0,0.2);">
                                         <p style="margin-top: 10px; font-weight: 600; color: black; font-family: 'Poppins', sans-serif; font-size: 18px;">
