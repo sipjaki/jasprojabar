@@ -239,7 +239,7 @@ color: #45a049;
                                             {{-- <td>{{$item->keterangan}}</td> --}}
                                             {{-- <td>{{$item->nilaikerugian}}</td> --}}
                                             <td style="text-align: center">
-                                                <a href="/datajakon/bujkkontraktor/{{$item->namapaketpekerjaan}}">
+                                                <a href="/kecelakaankerjalist/{{$item->namapaketpekerjaan}}">
                                                     <i class="fas fa-eye view-icon" onclick="alert('View clicked!')"></i>
                                                 </a>
                                             </td>
