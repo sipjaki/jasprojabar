@@ -229,7 +229,7 @@ color: #45a049;
                                             <td>{{$item->nomorkontrak}}</td>
                                             <td>{{$item->lokasi}}</td>
                                             <td style="text-align: center">
-                                                <a href="/tertibjasakonstruksipemanfaatan/{{$item->namabangunan}}">
+                                                <a href="/404">
                                                     <i class="fas fa-eye view-icon" onclick="alert('View clicked!')"></i>
                                                 </a>
                                             </td>
