@@ -215,8 +215,14 @@ color: #45a049;
                                         <tr>
                                             <th onclick="sortTable(0)" style="cursor:pointer; text-align:center"> No <span class="sort-icon">⇅</span></th>
                                             <th onclick="sortTable(1)" style="cursor:pointer; text-align:center"> Kecamatan <span class="sort-icon">⇅</span></th>
-                                            <th onclick="sortTable(2)" style="cursor:pointer; text-align:center"> Nama Badan Usaha<span class="sort-icon">⇅</span></th>
-                                            <th onclick="sortTable(3)" style="cursor:pointer; text-align:center"> No Telepon <span class="sort-icon">⇅</span></th>
+                                            <th onclick="sortTable(2)" style="cursor:pointer; text-align:center"> Nama Toko Bangunan <span class="sort-icon">⇅</span></th>
+                                            <th onclick="sortTable(3)" style="cursor:pointer; text-align:center"> Pemilik <span class="sort-icon">⇅</span></th>
+                                            <th onclick="sortTable(4)" style="cursor:pointer; text-align:center"> Alamat <span class="sort-icon">⇅</span></th>
+                                            <th onclick="sortTable(4)" style="cursor:pointer; text-align:center"> No Telepon <span class="sort-icon">⇅</span></th>
+                                            <th onclick="sortTable(4)" style="cursor:pointer; text-align:center"> Email <span class="sort-icon">⇅</span></th>
+                                            <th onclick="sortTable(4)" style="cursor:pointer; text-align:center"> Jenis Produk Bangunan <span class="sort-icon">⇅</span></th>
+                                            <th onclick="sortTable(4)" style="cursor:pointer; text-align:center"> Foto Toko Bangunan <span class="sort-icon">⇅</span></th>
+                                            <th onclick="sortTable(4)" style="cursor:pointer; text-align:center"> Keterangan <span class="sort-icon">⇅</span></th>
                                             {{-- <th onclick="sortTable(4)" style="cursor:pointer; text-align:center"> NIB<span class="sort-icon">⇅</span></th> --}}
                                             <th style="text-align:center"> View </th>
                                         </tr>
@@ -227,11 +233,16 @@ color: #45a049;
                                         <tr>
                                             <td style="text-align: center;">{{ $loop->iteration + $start - 1 }}</td>
                                             <td>{{$item->kecamatanblora->kecamatanblora}}</td>
-                                            <td>{{$item->namabadanusaha}}</td>
-                                            <td style="text-align: center">{{$item->notelepon}}</td>
-                                            {{-- <td>{{$item->nib}}</td> --}}
+                                            <td>{{$item->namatokobangunan}}</td>
+                                            <td>{{$item->pemilik}}</td>
+                                            <td>{{$item->alamat}}</td>
+                                            <td>{{$item->notelepon}}</td>
+                                            <td>{{$item->email}}</td>
+                                            <td>{{$item->jenisprodukbangunan}}</td>
+                                            <td>{{$item->fototokobangunan}}</td>
+                                            <td>{{$item->keterangan}}</td>
                                             <td style="text-align: center">
-                                                <a href="/peralatankonstruksi/{{$item->namabadanusaha}}">
+                                                <a href="/tokobangunanbloralist/{{$item->namatokobangunan}}">
                                                     <i class="fas fa-eye view-icon" onclick="alert('View clicked!')"></i>
                                                 </a>
                                             </td>
