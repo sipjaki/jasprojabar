@@ -219,7 +219,7 @@ color: #45a049;
                                             <th onclick="sortTable(3)" style="cursor:pointer; text-align:center"> Foto Badan Usaha <span class="sort-icon">⇅</span></th>
                                             {{-- <th onclick="sortTable(3)" style="cursor:pointer; text-align:center"> Alamat <span class="sort-icon">⇅</span></th> --}}
                                             <th onclick="sortTable(4)" style="cursor:pointer; text-align:center"> No Telepon <span class="sort-icon">⇅</span></th>
-                                            <th onclick="sortTable(5)" style="cursor:pointer; text-align:center"> Material  Produk<span class="sort-icon">⇅</span></th>
+                                            {{-- <th onclick="sortTable(5)" style="cursor:pointer; text-align:center"> Material  Produk<span class="sort-icon">⇅</span></th> --}}
                                             {{-- <th onclick="sortTable(6)" style="cursor:pointer; text-align:center"> Sub Material<span class="sort-icon">⇅</span></th>
                                             <th onclick="sortTable(7)" style="cursor:pointer; text-align:center"> Merk Produk <span class="sort-icon">⇅</span></th> --}}
                                             <th style="text-align:center"> View </th>
@@ -237,7 +237,7 @@ color: #45a049;
                                             </td>
                                             {{-- <td>{{$item->alamat}}</td> --}}
                                             <td>{{$item->notelepon}}</td>
-                                            <td>{{$item->materialproduk}}</td>
+                                            {{-- <td>{{$item->materialproduk}}</td> --}}
                                             {{-- <td>{{$item->submaterialproduk}}</td>
                                             <td>{{$item->merkproduk}}</td> --}}
                                             <td style="text-align: center">
