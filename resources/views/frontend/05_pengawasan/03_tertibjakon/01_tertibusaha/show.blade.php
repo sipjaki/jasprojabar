@@ -168,13 +168,23 @@ color: #45a049;
                 <div class="col-lg-12">
                         <div class="document-details">
 							<div class="document-details-list">
-                                <div class="centered-button" style="margin-top: -15px">
-                                    <button class="green-button" style="margin-bottom:10px; text-transform:uppercase">
-                                        <img src="/assets/icon/logokabupatenblora.png" class="img-fluid" alt="img-25" width="50" height="50" style="margin-right: 20px;" loading="lazy">
-                                        <i class="fas fa-file mr-2" style="margin-right:5px;"></i> <span style="color: black;">{{$title}} : {{$data->kodeproyek}}</span>
+
+                                <div class="centered-button" style="display: flex; justify-content: space-between; align-items: center; margin-top: 0px;">
+                                    <!-- Tombol di kiri -->
+                                    <button class="green-button">
+                                        <img src="/assets/icon/logokabupatenblora.png" class="img-fluid" alt="img-25" width="50" height="50" style="margin-right: 10px;" loading="lazy">
+                                        <i class="fas fa-file mr-2" style="margin-right: 5px;"></i>
+                                        <span style="color: black;">{{$title}} : {{$data->namabadanusaha}}</span>
                                     </button>
 
+                                    <!-- Tombol di kanan -->
+                                    <a href="/tertibjasakonstruksilist">
+                                        <button class="badgekembali">
+                                            <i class="fas fa-arrow-circle-left" style="margin-right: 5px; color:red;"></i> KEMBALI
+                                        </button>
+                                    </a>
                                 </div>
+
 
 
                                                         {{-- TABLE DATA  --}}
