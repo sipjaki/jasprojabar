@@ -279,7 +279,7 @@ color: #45a049;
             <tr>
                 {{-- <th style="text-align:center" >No</th> --}}
                 <th style="text-align:center" style="color: white" style="width: 25px" >No</th>
-                <th style="text-align:center" style="color: white" style="width: 600px;"> Foto Produk</th>
+                <th style="text-align:center" style="color: white" style="width: 600px;"> Foto Peralatan/Alat Berat/Lainnya</th>
                 <th style="text-align:center" style="color: white" style="width: 600px;"> Nama Peralatan</th>
                 <th style="text-align:center" style="color: white" style="width: 600px;"> Rp.</th>
                 <th style="text-align:center" style="color: white" style="width: 400px;"> Harga</th>
