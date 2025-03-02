@@ -21,7 +21,7 @@ class SatuanhargamaterialController extends Controller
         // $data = satuanhargamaterial::all();
 
         return view('frontend.07_ahsp.02_hargasatuandasar.01_hargasatuanmaterial.index', [
-            'title' => 'Harga Satuan Material',
+            'title' => 'Satuan Harga Dasar',
             'user' => $user, // Mengirimkan data paginasi ke view
             // 'data' => $data, // Mengirimkan data paginasi ke view
         ]);
