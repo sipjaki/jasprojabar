@@ -381,7 +381,7 @@ color: #45a049;
 
                                                     <div class="col-lg-3">
                                                         <h6><i class="fas fa-dollar-sign mr-2" style="margin-right: 5px;"></i>Nilai Kontrak</h6>
-                                                        <input type="text" id="fname" class="input-text" placeholder="{{$data->nilaikontrak}}" name="fname" aria-required="true" readonly>
+                                                        <input type="text" id="fname" class="input-text" placeholder="Rp. {{ number_format($data->nilaikontrak, 0, ',', '.') }}" name="fname" aria-required="true" readonly>
                                                     </div><!-- col-lg-6 -->
 
                                                     <div class="col-lg-3">
