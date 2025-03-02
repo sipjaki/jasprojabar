@@ -407,8 +407,9 @@ color: #45a049;
     .sifatjakon {
         width: 100%;
         border-collapse: collapse;
+        font-family: 'Poppins', sans-serif; /* Font modern pemerintah */
         text-align: center;
-        font-family: Arial, sans-serif;
+        /* font-family: Arial, sans-serif; */
     }
 
     .sifatjakon th, .sifatjakon td {
@@ -419,6 +420,7 @@ color: #45a049;
     .sifatjakon thead {
         background-color: green; /* Hijau */
         color: white;
+        border-radius: 20px;
     }
 
     .sifatjakon th[colspan] {
