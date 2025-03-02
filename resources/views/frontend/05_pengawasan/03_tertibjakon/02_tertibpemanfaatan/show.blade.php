@@ -292,7 +292,7 @@ color: #45a049;
                 {{$data->umurkonstruksi}} Tahun
             </td>
         </tr>
-
+{{--
         <tr>
             <th style="text-align:center; color: black; width:50px; background-color: white;">
                 <i class="fas fa-check-circle" style="font-size:20px; margin-right:8px;"></i>
@@ -387,20 +387,78 @@ color: #45a049;
                     {{$data->pemeliharaan_struktur}}
                 </button>
             </td>
-        </tr>
+        </tr> --}}
 
     </thead>
 </table>
 
-<div class="container-fluid" style="justify-content: right; margin-top:20px;">
+<style>
+    .sifatjakon {
+        width: 100%;
+        border-collapse: collapse;
+        font-family: 'Poppins', sans-serif; /* Font modern pemerintah */
+        text-align: center;
+        /* font-family: Arial, sans-serif; */
+    }
 
-    <a href="javascript:window.history.back()" style="background: white;">
-        <button class="badgekembali" style="border: none; font-size: 12px; cursor: pointer; margin-right: 10px;">
-            <i class="fas fa-arrow-circle-left mr-2" style="margin-right: 15px;"></i> KEMBALI
-        </button>
-    </a>
+    .sifatjakon th, .sifatjakon td {
+        border: 1px solid #ddd;
+        padding: 10px;
+    }
 
-</div>
+    .sifatjakon thead {
+        background-color: green; /* Hijau */
+        color: white;
+        border-radius: 20px;
+    }
+
+    .sifatjakon th[colspan] {
+        background-color: green; /* Hijau tua */
+    }
+
+    .sifatjakon tbody tr:nth-child(even) {
+        background-color: #f2f2f2; /* Abu-abu muda */
+    }
+
+    .sifatjakon tbody tr:hover {
+        background-color: #c8e6c9; /* Hijau muda saat hover */
+    }
+
+    .sifatjakon td[rowspan] {
+        background-color: white; /* Kuning */
+        font-weight: bold;
+    }
+</style>
+
+<table class="sifatjakon">
+<thead>
+    <tr>
+        <th colspan="2">Kesesuian Fungsi Peruntukan</th>
+        <th rowspan="2">Rencana Umum Konstruksi</th>
+        <th rowspan="2">Kapasitas & Beban</th>
+        <th colspan="2">Pemeliharaan Produk Konstruksi</th>
+        </th>
+    </tr>
+    <tr>
+        <th>Fungsi</th>
+        <th>Lokasi</th>
+        <th>Pemeliharaan Bangunan</th>
+        <th>Program Pemeliharaan</th>
+    </tr>
+</thead>
+<tbody>
+    <tr>
+        <td>{{$data->peruntukan_fungsi}}</td>
+        <td>{{$data->peruntukan_lokasi}}</td>
+        <td>{{$data->rencanaumur}}</td>
+        <td>{{$data->kapasitasdanbeban}}</td>
+        <td>{{$data->pemeliharaan_konstruksi}}</td>
+        <td>{{$data->pemeliharaan_struktur}}</td>
+    </tr>
+
+</tbody>
+</table>
+
 
                     </div>
                                                 </div><!-- document-details-list -->
