@@ -109,7 +109,7 @@ color: #45a049;
             }
 
             .green-button {
-                background: linear-gradient(to right,  #ffd100, green);
+                background: linear-gradient(to right, green, green, #ffd100);
                 color: white;
                 padding: 10px 20px;
                 border-radius: 10px;
@@ -172,14 +172,7 @@ color: #45a049;
                                         <div class="donate-box-inner" style="margin-top: -120px;">
                                             <ul class="nav nav-pills" id="pills-tab" role="tablist">
                                                 {{-- <img src="/assets/icon/logopupr.png" class="img-fluid" alt="img-25" width="50" style="margin-right: 20px;" loading="lazy"> --}}
-                                                <div style="display: flex; width: 100%; align-items: center; margin-top: 20px;">
-                                                    <img src="/assets/icon/logokabupatenblora.png" class="img-fluid" alt="img-25" width="50" height="50" style="margin-right: 20px;" loading="lazy">
-                                                    <p style="text-align: left">Dinas Pekerjaan Umum Dan Penataan Ruang Kabupaten Blora</p>
-                                                    <!-- Tombol dan kolom pencarian di kanan -->
-
-                                                </div>
-
-                                                </ul>
+                                            </ul>
 
 
 
@@ -187,6 +180,7 @@ color: #45a049;
 
 
                                                 <button class="green-button" style="margin-bottom:10px; text-transform:uppercase">
+                                                    <img src="/assets/icon/logokabupatenblora.png" class="img-fluid" alt="img-25" width="50" height="50" style="margin-right: 20px;" loading="lazy">
                                                     <i class="fas fa-file mr-2" style="margin-right:5px;"></i> INFORMASI {{$title}} : <span style="font-weight: bold;">{{$data->namapekerjaan}}</span>
 
                                                 </button>
@@ -198,13 +192,13 @@ color: #45a049;
                                                 <!-- Card 1 -->
                                                 <div class="progress-card">
                                                     <div class="progress-step
-                                                        @if($data->prosespaketkonsultasinontender->persiapan == 'SELESAI')
+                                                        @if($data->prosespaket->persiapan == 'SELESAI')
                                                             completed
-                                                        @elseif($data->prosespaketkonsultasinontender->persiapan == 'PROSES')
+                                                        @elseif($data->prosespaket->persiapan == 'PROSES')
                                                             in-progress
-                                                        @elseif($data->prosespaketkonsultasinontender->persiapan == 'BELUM DI MULAI')
+                                                        @elseif($data->prosespaket->persiapan == 'BELUM DI MULAI')
                                                             not-started
-                                                        @elseif($data->prosespaketkonsultasinontender->persiapan == 'PAKET DI BATALKAN')
+                                                        @elseif($data->prosespaket->persiapan == 'PAKET DI BATALKAN')
                                                             cancelled
                                                         @endif
                                                     ">
@@ -212,16 +206,16 @@ color: #45a049;
                                                             1
                                                         </div>
                                                         <p class="step-title">Persiapan</p>
-                                                        <p class="step-status">{{$data->prosespaketkonsultasinontender->persiapan}}</p>
+                                                        <p class="step-status">{{$data->prosespaket->persiapan}}</p>
                                                     </div>
                                                     <div class="line
-                                                        @if($data->prosespaketkonsultasinontender->persiapan == 'SELESAI')
+                                                        @if($data->prosespaket->persiapan == 'SELESAI')
                                                             completed
-                                                        @elseif($data->prosespaketkonsultasinontender->persiapan == 'PROSES')
+                                                        @elseif($data->prosespaket->persiapan == 'PROSES')
                                                             in-progress
-                                                        @elseif($data->prosespaketkonsultasinontender->persiapan == 'BELUM DI MULAI')
+                                                        @elseif($data->prosespaket->persiapan == 'BELUM DI MULAI')
                                                             not-started
-                                                        @elseif($data->prosespaketkonsultasinontender->persiapan == 'PAKET DI BATALKAN')
+                                                        @elseif($data->prosespaket->persiapan == 'PAKET DI BATALKAN')
                                                             cancelled
                                                         @endif
                                                     "></div>
@@ -230,13 +224,13 @@ color: #45a049;
                                                 <!-- Card 2 -->
                                                 <div class="progress-card">
                                                     <div class="progress-step
-                                                        @if($data->prosespaketkonsultasinontender->pengadaan == 'SELESAI')
+                                                        @if($data->prosespaket->pengadaan == 'SELESAI')
                                                             completed
-                                                        @elseif($data->prosespaketkonsultasinontender->pengadaan == 'PROSES')
+                                                        @elseif($data->prosespaket->pengadaan == 'PROSES')
                                                             in-progress
-                                                        @elseif($data->prosespaketkonsultasinontender->pengadaan == 'BELUM DI MULAI')
+                                                        @elseif($data->prosespaket->pengadaan == 'BELUM DI MULAI')
                                                             not-started
-                                                        @elseif($data->prosespaketkonsultasinontender->pengadaan == 'PAKET DI BATALKAN')
+                                                        @elseif($data->prosespaket->pengadaan == 'PAKET DI BATALKAN')
                                                             cancelled
                                                         @endif
                                                     ">
@@ -244,16 +238,16 @@ color: #45a049;
                                                             2
                                                         </div>
                                                         <p class="step-title">Pengadaan</p>
-                                                        <p class="step-status">{{$data->prosespaketkonsultasinontender->pengadaan}}</p>
+                                                        <p class="step-status">{{$data->prosespaket->pengadaan}}</p>
                                                     </div>
                                                     <div class="line
-                                                        @if($data->prosespaketkonsultasinontender->pengadaan == 'SELESAI')
+                                                        @if($data->prosespaket->pengadaan == 'SELESAI')
                                                             completed
-                                                        @elseif($data->prosespaketkonsultasinontender->pengadaan == 'PROSES')
+                                                        @elseif($data->prosespaket->pengadaan == 'PROSES')
                                                             in-progress
-                                                        @elseif($data->prosespaketkonsultasinontender->pengadaan == 'BELUM DI MULAI')
+                                                        @elseif($data->prosespaket->pengadaan == 'BELUM DI MULAI')
                                                             not-started
-                                                        @elseif($data->prosespaketkonsultasinontender->pengadaan == 'PAKET DI BATALKAN')
+                                                        @elseif($data->prosespaket->pengadaan == 'PAKET DI BATALKAN')
                                                             cancelled
                                                         @endif
                                                     "></div>
@@ -262,13 +256,13 @@ color: #45a049;
                                                 <!-- Card 3 -->
                                                 <div class="progress-card">
                                                     <div class="progress-step
-                                                        @if($data->prosespaketkonsultasinontender->pelaksanaan == 'SELESAI')
+                                                        @if($data->prosespaket->pelaksanaan == 'SELESAI')
                                                             completed
-                                                        @elseif($data->prosespaketkonsultasinontender->pelaksanaan == 'PROSES')
+                                                        @elseif($data->prosespaket->pelaksanaan == 'PROSES')
                                                             in-progress
-                                                        @elseif($data->prosespaketkonsultasinontender->pelaksanaan == 'BELUM DI MULAI')
+                                                        @elseif($data->prosespaket->pelaksanaan == 'BELUM DI MULAI')
                                                             not-started
-                                                        @elseif($data->prosespaketkonsultasinontender->pelaksanaan == 'PAKET DI BATALKAN')
+                                                        @elseif($data->prosespaket->pelaksanaan == 'PAKET DI BATALKAN')
                                                             cancelled
                                                         @endif
                                                     ">
@@ -276,16 +270,16 @@ color: #45a049;
                                                             3
                                                         </div>
                                                         <p class="step-title">Pelaksanaan</p>
-                                                        <p class="step-status">{{$data->prosespaketkonsultasinontender->pelaksanaan}}</p>
+                                                        <p class="step-status">{{$data->prosespaket->pelaksanaan}}</p>
                                                     </div>
                                                     <div class="line
-                                                        @if($data->prosespaketkonsultasinontender->pelaksanaan == 'SELESAI')
+                                                        @if($data->prosespaket->pelaksanaan == 'SELESAI')
                                                             completed
-                                                        @elseif($data->prosespaketkonsultasinontender->pelaksanaan == 'PROSES')
+                                                        @elseif($data->prosespaket->pelaksanaan == 'PROSES')
                                                             in-progress
-                                                        @elseif($data->prosespaketkonsultasinontender->pelaksanaan == 'BELUM DI MULAI')
+                                                        @elseif($data->prosespaket->pelaksanaan == 'BELUM DI MULAI')
                                                             not-started
-                                                        @elseif($data->prosespaketkonsultasinontender->pelaksanaan == 'PAKET DI BATALKAN')
+                                                        @elseif($data->prosespaket->pelaksanaan == 'PAKET DI BATALKAN')
                                                             cancelled
                                                         @endif
                                                     "></div>
@@ -294,13 +288,13 @@ color: #45a049;
                                                 <!-- Card 4 -->
                                                 <div class="progress-card">
                                                     <div class="progress-step
-                                                        @if($data->prosespaketkonsultasinontender->pemeliharaan == 'SELESAI')
+                                                        @if($data->prosespaket->pemeliharaan == 'SELESAI')
                                                             completed
-                                                        @elseif($data->prosespaketkonsultasinontender->pemeliharaan == 'PROSES')
+                                                        @elseif($data->prosespaket->pemeliharaan == 'PROSES')
                                                             in-progress
-                                                        @elseif($data->prosespaketkonsultasinontender->pemeliharaan == 'BELUM DI MULAI')
+                                                        @elseif($data->prosespaket->pemeliharaan == 'BELUM DI MULAI')
                                                             not-started
-                                                        @elseif($data->prosespaketkonsultasinontender->pemeliharaan == 'PAKET DI BATALKAN')
+                                                        @elseif($data->prosespaket->pemeliharaan == 'PAKET DI BATALKAN')
                                                             cancelled
                                                         @endif
                                                     ">
@@ -308,16 +302,16 @@ color: #45a049;
                                                             4
                                                         </div>
                                                         <p class="step-title">Pemeliharaan</p>
-                                                        <p class="step-status">{{$data->prosespaketkonsultasinontender->pemeliharaan}}</p>
+                                                        <p class="step-status">{{$data->prosespaket->pemeliharaan}}</p>
                                                     </div>
                                                     <div class="line
-                                                        @if($data->prosespaketkonsultasinontender->pemeliharaan == 'SELESAI')
+                                                        @if($data->prosespaket->pemeliharaan == 'SELESAI')
                                                             completed
-                                                        @elseif($data->prosespaketkonsultasinontender->pemeliharaan == 'PROSES')
+                                                        @elseif($data->prosespaket->pemeliharaan == 'PROSES')
                                                             in-progress
-                                                        @elseif($data->prosespaketkonsultasinontender->pemeliharaan == 'BELUM DI MULAI')
+                                                        @elseif($data->prosespaket->pemeliharaan == 'BELUM DI MULAI')
                                                             not-started
-                                                        @elseif($data->prosespaketkonsultasinontender->pemeliharaan == 'PAKET DI BATALKAN')
+                                                        @elseif($data->prosespaket->pemeliharaan == 'PAKET DI BATALKAN')
                                                             cancelled
                                                         @endif
                                                     "></div>
@@ -326,13 +320,13 @@ color: #45a049;
                                                 <!-- Card 5 -->
                                                 <div class="progress-card">
                                                     <div class="progress-step
-                                                        @if($data->prosespaketkonsultasinontender->paketselesai == 'SELESAI')
+                                                        @if($data->prosespaket->paketselesai == 'SELESAI')
                                                             completed
-                                                        @elseif($data->prosespaketkonsultasinontender->paketselesai == 'PROSES')
+                                                        @elseif($data->prosespaket->paketselesai == 'PROSES')
                                                             in-progress
-                                                        @elseif($data->prosespaketkonsultasinontender->paketselesai == 'BELUM DI MULAI')
+                                                        @elseif($data->prosespaket->paketselesai == 'BELUM DI MULAI')
                                                             not-started
-                                                        @elseif($data->prosespaketkonsultasinontender->paketselesai == 'PAKET DI BATALKAN')
+                                                        @elseif($data->prosespaket->paketselesai == 'PAKET DI BATALKAN')
                                                             cancelled
                                                         @endif
                                                     ">
@@ -340,16 +334,16 @@ color: #45a049;
                                                             5
                                                         </div>
                                                         <p class="step-title">Paket Selesai</p>
-                                                        <p class="step-status">{{$data->prosespaketkonsultasinontender->paketselesai}}</p>
+                                                        <p class="step-status">{{$data->prosespaket->paketselesai}}</p>
                                                     </div>
                                                     <div class="line
-                                                        @if($data->prosespaketkonsultasinontender->paketselesai == 'SELESAI')
+                                                        @if($data->prosespaket->paketselesai == 'SELESAI')
                                                             completed
-                                                        @elseif($data->prosespaketkonsultasinontender->paketselesai == 'PROSES')
+                                                        @elseif($data->prosespaket->paketselesai == 'PROSES')
                                                             in-progress
-                                                        @elseif($data->prosespaketkonsultasinontender->paketselesai == 'BELUM DI MULAI')
+                                                        @elseif($data->prosespaket->paketselesai == 'BELUM DI MULAI')
                                                             not-started
-                                                        @elseif($data->prosespaketkonsultasinontender->paketselesai == 'PAKET DI BATALKAN')
+                                                        @elseif($data->prosespaket->paketselesai == 'PAKET DI BATALKAN')
                                                             cancelled
                                                         @endif
                                                     "></div>
@@ -418,7 +412,7 @@ color: #45a049;
                                             <div style="display: flex; align-items: right;">
                                                 <a href="/datajakon/paketpekerjaantender" style="background: white;">
                                                     <button class="badgekembali" style="border: none; font-size: 12px; cursor: pointer; margin-right: 10px;">
-                                                        <i class="fas fa-arrow-circle-left mr-2" style="margin-right: 15px;"></i> KEMBALI
+                                                        <i class="fas fa-arrow-circle-left mr-2" style="margin-right: 15px; color:red;"></i> KEMBALI
                                                     </button>
                                                 </a>
                                             </div>
@@ -430,145 +424,6 @@ color: #45a049;
                                 </div><!-- row -->
                             </div><!-- container -->
                         </section><!-- donate-section -->
-
-                        <section class="history-section" style="margin-top: -150px;">
-                            <div class="container">
-                                <div class="section-box text-center">
-                                    <h2 style="font-size: 22px;" class="section-title">Paket : {{$data->namapekerjaan }}</h2>
-                                    <div class="section-text">
-                                        <p>Dinas Pekerjaan Umum dan Penataan Ruang Kabupaten Blora</p>
-                                    </div><!-- section-text -->
-                                </div><!-- section-box -->
-
-                                <div class="history-card">
-                                    <div class="history-card-list">
-                                        <div class="history-card-item history-image">
-                                            <div class="history-card-image" style="width: 70%">
-                                                <img src="/assets/00_dokmasjaki/03_datajakon/prosespaket.png" class="img-fluid" alt="img-25" width="250" style="margin-left: 50px;">
-                                            </div><!-- history-card-image -->
-
-                                            <div class="history-card-meta history-card-data-content">
-                                                <div class="history-card-years {{ $data->prosespaketkonsultasinontender->persiapan == 'BELUM' ? 'bg-danger text-white' : '' }}">
-                                                    {{$data->prosespaketkonsultasinontender->persiapan}}
-                                                </div>
-                                                {{-- <div class="history-card-date">1 May</div> --}}
-                                            </div><!-- history-card-meta -->
-
-                                            <div class="history-card-detail"></div><!-- history-card-detail -->
-                                            <div class="history-card-content">
-                                                <h3>Persiapan</h3>
-                                                {{-- <p>Many desktop publishing packages and web page editors now use Lorem Ipsum as their web sites still in their infancy.</p> --}}
-                                            </div><!-- history-card-content -->
-                                        </div><!-- history-card-item -->
-                                    </div><!-- history-card-list -->
-                                    <div class="history-card-list history-even">
-                                        <div class="history-card-item">
-                                            <div class="history-card-content">
-                                                <h3>Pengadaan</h3>
-                                                {{-- <p>Many desktop publishing packages and web page editors now use Lorem Ipsum as their web sites still in their infancy.</p> --}}
-                                            </div><!-- history-card-content -->
-
-                                            <div class="history-card-meta meta-box">
-                                                <div class="history-card-years {{ $data->prosespaketkonsultasinontender->persiapan == 'BELUM' ? 'bg-danger text-white' : '' }}">
-                                                    {{$data->prosespaketkonsultasinontender->persiapan}}
-                                                </div>
-                                                {{-- <div class="history-card-date">1 May</div> --}}
-                                            </div><!-- history-card-meta -->
-
-
-                                            <div class="history-card-option"></div><!-- history-card-option -->
-                                            <div class="history-card-image">
-                                                <img src="/assets/00_dokmasjaki/03_datajakon/prosespaket.png" class="img-fluid" alt="img-25" width="250" style="margin-right: 50px;">
-                                            </div><!-- history-card-image -->
-                                        </div><!-- history-card-item -->
-                                    </div><!-- history-card-list -->
-                                    <div class="history-card-list">
-                                        <div class="history-card-item">
-                                            <div class="history-card-image">
-                                                <img src="/assets/00_dokmasjaki/03_datajakon/prosespaket.png" class="img-fluid" alt="img-25" width="250" style="margin-left: 50px;">
-                                            </div><!-- history-card-image -->
-
-                                            <div class="history-card-meta">
-                                                <div class="history-card-years {{ $data->prosespaketkonsultasinontender->pelaksanaan == 'BELUM' ? 'bg-danger text-white' : '' }}">
-                                                    {{$data->prosespaketkonsultasinontender->pelaksanaan}}
-                                                </div>
-                                                {{-- <div class="history-card-date">1 May</div> --}}
-                                            </div><!-- history-card-meta -->
-
-                                            <div class="history-card-detail"></div><!-- history-card-detail -->
-                                            <div class="history-card-content">
-                                                <h3>Pelaksanaan</h3>
-                                                {{-- <p>Many desktop publishing packages and web page editors now use Lorem Ipsum as their web sites still in their infancy.</p> --}}
-                                            </div><!-- history-card-content -->
-                                        </div><!-- history-card-item -->
-                                    </div><!-- history-card-list -->
-                                    <div class="history-card-list history-even">
-                                        <div class="history-card-item">
-                                            <div class="history-card-content">
-                                                <h3>Pemeliharaan</h3>
-                                                {{-- <p>Many desktop publishing packages and web page editors now use Lorem Ipsum as their web sites still in their infancy.</p> --}}
-                                            </div><!-- history-card-content -->
-
-                                            <div class="history-card-meta history-card-data-content">
-                                                <div class="history-card-years {{ $data->prosespaketkonsultasinontender->pemeliharaan == 'BELUM' ? 'bg-danger text-white' : '' }}">
-                                                    {{$data->prosespaketkonsultasinontender->pemeliharaan}}
-                                                </div>
-                                                {{-- <div class="history-card-date">1 May</div> --}}
-                                            </div><!-- history-card-meta -->
-
-                                            <div class="history-card-option"></div><!-- history-card-option -->
-                                            <div class="history-card-image">
-                                                <img src="/assets/00_dokmasjaki/03_datajakon/prosespaket.png" class="img-fluid" alt="img-25" width="250" style="margin-right: 50px;">
-
-                                            </div><!-- history-card-image -->
-                                        </div><!-- history-card-item -->
-                                    </div><!-- history-card-list -->
-
-                                    <div class="history-card-list">
-                                        <div class="history-card-item">
-                                            <div class="history-card-image">
-                                                <img src="/assets/00_dokmasjaki/03_datajakon/selesai.png" class="img-fluid" alt="img-25" width="250" style="margin-left: 50px;">
-
-                                            </div><!-- history-card-image -->
-
-                                            <div class="history-card-meta history-card-data-content">
-                                                <div class="history-card-years {{ $data->prosespaketkonsultasinontender->paketselesai == 'BELUM' ? 'bg-danger text-white' : '' }}">
-                                                    {{$data->prosespaketkonsultasinontender->paketselesai}}
-                                                </div>
-                                                {{-- <div class="history-card-date">1 May</div> --}}
-                                            </div><!-- history-card-meta -->
-
-                                            {{-- <div class="history-card-detail"></div><!-- history-card-detail --> --}}
-
-                                            <div class="history-card-content">
-                                                <h3>Selesai</h3>
-                                                {{-- <p>Many desktop publishing packages and web page editors now use Lorem Ipsum as their web sites still in their infancy.</p> --}}
-                                            </div><!-- history-card-content -->
-                                        </div><!-- history-card-item -->
-                                    </div><!-- history-card-list -->
-
-                                    {{-- <div class="history-card-list history-even">
-                                        <div class="history-card-item">
-                                            <div class="history-card-content">
-                                                <h3>96% Educated People</h3>
-                                                <p>Many desktop publishing packages and web page editors now use Lorem Ipsum as their web sites still in their infancy.</p>
-                                            </div><!-- history-card-content -->
-                                            <div class="history-card-meta meta-box">
-                                                <div class="history-card-years">Laporan</div>
-                                                <div class="history-card-date">15 September</div>
-                                            </div><!-- history-card-meta -->
-                                            <div class="history-card-image">
-                                                <img src="/assets/00_dokmasjaki/03_datajakon/exit.png" class="img-fluid" alt="img-25" width="250" style="margin-right: 50px;">
-                                            </div><!-- history-card-image -->
-                                        </div><!-- history-card-item -->
-                                    </div><!-- history-card-list --> --}}
-                                {{-- </div><!-- history-card --> --}}
-
-                                </div><!-- history-card -->
-                                {{-- @endforeach --}}
-                            </div><!-- container -->
-                        </section><!--history-section-->
-
 
                     </div><!--service-two-card-content-->
                 </div><!--service-two-card-->
@@ -676,7 +531,7 @@ color: #45a049;
 }
 
 .progress-step.in-progress .circle {
-    background-color: orange;
+    background-color: yellow;
 }
 
 .progress-step.not-started .circle {
@@ -692,7 +547,7 @@ color: #45a049;
 }
 
 .line.in-progress {
-    background-color: orange;
+    background-color: yellow;
 }
 
 .line.not-started {
