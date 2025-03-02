@@ -260,8 +260,6 @@ color: #45a049;
 
                                     </thead>
 
-
-
                                 </table>
 
 
