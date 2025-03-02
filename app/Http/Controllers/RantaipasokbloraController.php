@@ -134,7 +134,7 @@ class RantaipasokbloraController extends Controller
             ]);
         }
 
-        return view('frontend.06_ranstaipasok.02_peralatankonstruksi.peralatankonstruksi', [
+        return view('frontend.06_rantaipasok.02_peralatankonstruksi.peralatankonstruksi', [
             'title' => 'Rantai Pasok Peralatan Konstruksi Bangunan Gedung',
             'data' => $data,
             'perPage' => $perPage,
