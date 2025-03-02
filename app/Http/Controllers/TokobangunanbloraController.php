@@ -56,7 +56,7 @@ class TokobangunanbloraController extends Controller
 
     $datasub = tokobangunanblora::paginate(15);
     return view('frontend.06_rantaipasok.03_tokobangunanblora.new.tokobangunan', [
-        'title' => 'Tertib Penyelenggaraan Jasa Konstruksi',
+        'title' => 'Toko Bangunan Kab Blora',
         'data' => $data,
         'datasub' => $datasub,
         'perPage' => $perPage,
