@@ -219,8 +219,8 @@ Route::get('/tokobangunanblora/{kecamatanblora}', [TokobangunanbloraController::
 Route::get('/tokobangunanbloralist/{namatokobangunan}', [TokobangunanbloraController::class, 'tokobangunanbloralistdetails']);
 
 // ==========================================================================================================
-Route::get('/tokobangunanblora', [TokobangunanbloraController::class, 'index']);
-Route::get('/tokobangunanblora/{kecamatanblora}', [TokobangunanbloraController::class, 'tokobangunanblorashow']);
+// Route::get('/tokobangunanblora', [TokobangunanbloraController::class, 'index']);
+// Route::get('/tokobangunanblora/{kecamatanblora}', [TokobangunanbloraController::class, 'tokobangunanblorashow']);
 
 
 // DATA SHST BLORA
