@@ -233,7 +233,7 @@ color: #45a049;
                                             <td>{{$item->distributor}}</td>
                                             {{-- <td>{{$item->nib}}</td> --}}
                                             <td>
-                                                <img src="{{ asset('storage/' . $item->fototokobangunan) }}" alt="Foto Toko Bangunan" width="100">
+                                                <img src="{{ asset('storage/' . $item->foto) }}" alt="Foto Toko Bangunan" width="100">
                                             </td>
                                             <td>{{$item->alamat}}</td>
                                             <td>{{$item->notelepon}}</td>
