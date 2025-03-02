@@ -302,6 +302,76 @@ color: #45a049;
 
 
 
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Excel Table Editor</title>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+        <style>
+            table {
+                width: 100%;
+                border-collapse: collapse;
+            }
+            th, td {
+                border: 1px solid black;
+                padding: 8px;
+                text-align: left;
+            }
+            th {
+                background-color: #f2f2f2;
+            }
+            button {
+                margin-top: 10px;
+                padding: 10px;
+                background-color: blue;
+                color: white;
+                border: none;
+                cursor: pointer;
+            }
+            button:hover {
+                background-color: darkblue;
+            }
+        </style>
+    </head>
+    <body>
+        <h2>Excel-like Table</h2>
+        <table id="excelTable">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>Age</th>
+                    <th>Email</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td contenteditable="true" id="id_1">1</td>
+                    <td contenteditable="true" id="name_1">John Doe</td>
+                    <td contenteditable="true" id="age_1">25</td>
+                    <td contenteditable="true" id="email_1">john@example.com</td>
+                </tr>
+                <tr>
+                    <td contenteditable="true" id="id_2">2</td>
+                    <td contenteditable="true" id="name_2">Jane Smith</td>
+                    <td contenteditable="true" id="age_2">30</td>
+                    <td contenteditable="true" id="email_2">jane@example.com</td>
+                </tr>
+            </tbody>
+        </table>
+        <button onclick="exportToExcel()">Export to Excel</button>
+
+        <script>
+            function exportToExcel() {
+                let table = document.getElementById("excelTable");
+                let wb = XLSX.utils.table_to_book(table, { sheet: "Sheet1" });
+                XLSX.writeFile(wb, "Excel_Table.xlsx");
+            }
+        </script>
+    </body>
+    </html>
 
 
 </div><!--page-wrapper-->
