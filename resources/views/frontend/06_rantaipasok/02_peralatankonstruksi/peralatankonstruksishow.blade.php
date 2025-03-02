@@ -261,7 +261,7 @@ color: #45a049;
 
 <div class="table-wrapper">
     <table class="fl-table">
-        <thead style="background: lightblue">
+        <thead style="background: #ffd100">
             <tr>
                 {{-- <th style="text-align:center" >No</th> --}}
                 <th style="text-align:center" style="color: white" style="width: 25px" >No</th>
