@@ -202,6 +202,13 @@
 								<li><a href="/peraturan/suratkeputusan">Surat Keputusan</a></li>
 							</ul><!-- list-unstyled -->
 						</li><!--has-dropdown-->
+                        <li><a href="portfolio.html">Portfolio</a>
+                            <ul class="list-unstyled">
+                                <li><a href="portfolio.html">Portfolio</a></li>
+                                <li><a href="portfolio-details.html">Portfolio Details</a></li>
+                                <li><a href="portfolio-details-2.html">Portfolio Details 2</a></li>
+                            </ul><!-- list-unstyled -->
+                        </li>
 
 					</ul><!-- main-menu-list -->
 				</div><!--navigation-->
