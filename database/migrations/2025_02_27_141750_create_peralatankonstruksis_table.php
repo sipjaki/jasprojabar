@@ -16,6 +16,7 @@ return new class extends Migration
             $table->foreignId('kecamatanblora_id')->nullable();
             $table->foreignId('alatberat_id')->nullable();
             $table->string('namabadanusaha')->nullable();
+            $table->string('foto')->nullable();
             $table->string('nib')->nullable();
             $table->string('notelepon')->nullable();
             $table->softDeletes();

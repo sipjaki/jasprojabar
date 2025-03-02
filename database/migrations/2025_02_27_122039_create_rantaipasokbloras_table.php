@@ -18,6 +18,7 @@ return new class extends Migration
             $table->string('alamat')->nullable();
             $table->string('notelepon')->nullable();
             $table->string('materialproduk')->nullable();
+            $table->string('foto')->nullable();
             $table->string('submaterialproduk')->nullable();
             $table->string('merkproduk')->nullable();
             $table->softDeletes();

@@ -4688,6 +4688,7 @@ rantaipasokblora::create([
     'notelepon' => '-',
     'materialproduk' => 'SEMEN',
     'submaterialproduk' => 'PCC',
+    'foto' => 'tokobangunan/tokobangunanblora.jpg',
     'merkproduk' => 'Semen Indonesia',       // Menghilangkan 'Rp' dan menyimpan sebagai angka decimal
 ]);
 
@@ -4698,6 +4699,7 @@ rantaipasokblora::create([
     'notelepon' => '-',
     'materialproduk' => 'SEMEN',
     'submaterialproduk' => 'PCC',
+    'foto' => 'tokobangunan/tokobangunanblora.jpg',
     'merkproduk' => 'Semen Indonesia',       // Menghilangkan 'Rp' dan menyimpan sebagai angka decimal
 ]);
 
@@ -4708,6 +4710,7 @@ rantaipasokblora::create([
     'notelepon' => '-',
     'materialproduk' => 'SEMEN',
     'submaterialproduk' => 'OPC',
+    'foto' => 'tokobangunan/tokobangunanblora.jpg',
     'merkproduk' => 'Holcim',       // Menghilangkan 'Rp' dan menyimpan sebagai angka decimal
 ]);
 
@@ -4718,6 +4721,7 @@ rantaipasokblora::create([
     'notelepon' => '-',
     'materialproduk' => 'PASIR',
     'submaterialproduk' => 'PASIR SUNGAI',
+    'foto' => 'tokobangunan/tokobangunanblora.jpg',
     'merkproduk' => 'Lokal',       // Menghilangkan 'Rp' dan menyimpan sebagai angka decimal
 ]);
 
@@ -4728,6 +4732,7 @@ rantaipasokblora::create([
     'notelepon' => '-',
     'materialproduk' => 'BATU SPLIT',
     'submaterialproduk' => '5-10 MM',
+    'foto' => 'tokobangunan/tokobangunanblora.jpg',
     'merkproduk' => 'Lokal',       // Menghilangkan 'Rp' dan menyimpan sebagai angka decimal
 ]);
 
@@ -4738,6 +4743,7 @@ rantaipasokblora::create([
     'notelepon' => '-',
     'materialproduk' => 'BAJA',
     'submaterialproduk' => 'WF',
+    'foto' => 'tokobangunan/tokobangunanblora.jpg',
     'merkproduk' => 'Gunung Garuda',       // Menghilangkan 'Rp' dan menyimpan sebagai angka decimal
 ]);
 
@@ -4748,6 +4754,7 @@ rantaipasokblora::create([
     'notelepon' => '-',
     'materialproduk' => 'BATU BATA',
     'submaterialproduk' => 'MERAH',
+    'foto' => 'tokobangunan/tokobangunanblora.jpg',
     'merkproduk' => 'Lokal',       // Menghilangkan 'Rp' dan menyimpan sebagai angka decimal
 ]);
 
@@ -4758,6 +4765,7 @@ rantaipasokblora::create([
     'notelepon' => '-',
     'materialproduk' => 'BETON READY MIX',
     'submaterialproduk' => 'K-225',
+    'foto' => 'tokobangunan/tokobangunanblora.jpg',
     'merkproduk' => 'SCG',       // Menghilangkan 'Rp' dan menyimpan sebagai angka decimal
 ]);
 
@@ -4768,6 +4776,7 @@ rantaipasokblora::create([
     'notelepon' => '-',
     'materialproduk' => 'KERAMIK',
     'submaterialproduk' => '60x60 cm',
+    'foto' => 'tokobangunan/tokobangunanblora.jpg',
     'merkproduk' => 'Roman',       // Menghilangkan 'Rp' dan menyimpan sebagai angka decimal
 ]);
 
@@ -4778,6 +4787,7 @@ rantaipasokblora::create([
     'notelepon' => '-',
     'materialproduk' => 'CAT',
     'submaterialproduk' => 'EKSTERIOR',
+    'foto' => 'tokobangunan/tokobangunanblora.jpg',
     'merkproduk' => 'Dulux',       // Menghilangkan 'Rp' dan menyimpan sebagai angka decimal
 ]);
 
@@ -4788,6 +4798,7 @@ rantaipasokblora::create([
     'notelepon' => '-',
     'materialproduk' => 'BESI BETON',
     'submaterialproduk' => 'D 10',
+    'foto' => 'tokobangunan/tokobangunanblora.jpg',
     'merkproduk' => 'Krakatau Steel',       // Menghilangkan 'Rp' dan menyimpan sebagai angka decimal
 ]);
 
@@ -4798,6 +4809,7 @@ rantaipasokblora::create([
     'notelepon' => '-',
     'materialproduk' => 'BESI BETON',
     'submaterialproduk' => 'D 10',
+    'foto' => 'tokobangunan/tokobangunanblora.jpg',
     'merkproduk' => 'Krakatau Steel',       // Menghilangkan 'Rp' dan menyimpan sebagai angka decimal
 ]);
 
@@ -4808,6 +4820,7 @@ rantaipasokblora::create([
     'notelepon' => '-',
     'materialproduk' => 'ATAP',
     'submaterialproduk' => 'SPANDREL',
+    'foto' => 'tokobangunan/tokobangunanblora.jpg',
     'merkproduk' => 'BjLS',       // Menghilangkan 'Rp' dan menyimpan sebagai angka decimal
 ]);
 
@@ -4817,6 +4830,7 @@ rantaipasokblora::create([
     'alamat' => '-',
     'notelepon' => '-',
     'materialproduk' => 'PINTU',
+    'foto' => 'tokobangunan/tokobangunanblora.jpg',
     'submaterialproduk' => 'KAYU JATI',
     'merkproduk' => 'Lokal',       // Menghilangkan 'Rp' dan menyimpan sebagai angka decimal
 ]);
@@ -4827,6 +4841,7 @@ rantaipasokblora::create([
     'alamat' => '-',
     'notelepon' => '-',
     'materialproduk' => 'KACA',
+    'foto' => 'tokobangunan/tokobangunanblora.jpg',
     'submaterialproduk' => 'TEMPERED',
     'merkproduk' => 'Asahimas',       // Menghilangkan 'Rp' dan menyimpan sebagai angka decimal
 ]);
@@ -4837,6 +4852,7 @@ peralatankonstruksi::create([
     'kecamatanblora_id' => '14',
     'alatberat_id' => '1',
     'namabadanusaha' => 'CV. Anugrah Jaya Makmur',
+    'foto' => 'tokobangunan/tokobangunanblora.jpg',
     'nib' => '4765753435',
     'notelepon' => '081321455855',           // Menghilangkan 'Rp' dan menyimpan sebagai angka decimal
 ]);
@@ -4846,6 +4862,7 @@ peralatankonstruksi::create([
     'alatberat_id' => '2',
     'namabadanusaha' => 'PT. Djawa Murni Kontraktor',
     'nib' => '4353466346',
+    'foto' => 'tokobangunan/tokobangunanblora.jpg',
     'notelepon' => '089345435435',           // Menghilangkan 'Rp' dan menyimpan sebagai angka decimal
 ]);
 
@@ -4854,6 +4871,97 @@ peralatankonstruksi::create([
     'alatberat_id' => '3',
     'namabadanusaha' => 'PT. Lintas Konstruksi Abadi',
     'nib' => '4353466346',
+    'foto' => 'tokobangunan/tokobangunanblora.jpg',
+    'notelepon' => '089345435435',           // Menghilangkan 'Rp' dan menyimpan sebagai angka decimal
+]);
+
+peralatankonstruksi::create([
+    'kecamatanblora_id' => '3',
+    'alatberat_id' => '3',
+    'namabadanusaha' => 'PT. Lintas Konstruksi Abadi',
+    'nib' => '4353466346',
+    'foto' => 'tokobangunan/tokobangunanblora.jpg',
+    'notelepon' => '089345435435',           // Menghilangkan 'Rp' dan menyimpan sebagai angka decimal
+]);
+
+peralatankonstruksi::create([
+    'kecamatanblora_id' => '3',
+    'alatberat_id' => '3',
+    'namabadanusaha' => 'PT. Lintas Konstruksi Abadi',
+    'nib' => '4353466346',
+    'foto' => 'tokobangunan/tokobangunanblora.jpg',
+    'notelepon' => '089345435435',           // Menghilangkan 'Rp' dan menyimpan sebagai angka decimal
+]);
+
+peralatankonstruksi::create([
+    'kecamatanblora_id' => '3',
+    'alatberat_id' => '3',
+    'namabadanusaha' => 'PT. Lintas Konstruksi Abadi',
+    'nib' => '4353466346',
+    'foto' => 'tokobangunan/tokobangunanblora.jpg',
+    'notelepon' => '089345435435',           // Menghilangkan 'Rp' dan menyimpan sebagai angka decimal
+]);
+
+peralatankonstruksi::create([
+    'kecamatanblora_id' => '3',
+    'alatberat_id' => '3',
+    'namabadanusaha' => 'PT. Lintas Konstruksi Abadi',
+    'nib' => '4353466346',
+    'foto' => 'tokobangunan/tokobangunanblora.jpg',
+    'notelepon' => '089345435435',           // Menghilangkan 'Rp' dan menyimpan sebagai angka decimal
+]);
+
+peralatankonstruksi::create([
+    'kecamatanblora_id' => '3',
+    'alatberat_id' => '3',
+    'namabadanusaha' => 'PT. Lintas Konstruksi Abadi',
+    'nib' => '4353466346',
+    'foto' => 'tokobangunan/tokobangunanblora.jpg',
+    'notelepon' => '089345435435',           // Menghilangkan 'Rp' dan menyimpan sebagai angka decimal
+]);
+
+peralatankonstruksi::create([
+    'kecamatanblora_id' => '3',
+    'alatberat_id' => '3',
+    'namabadanusaha' => 'PT. Lintas Konstruksi Abadi',
+    'nib' => '4353466346',
+    'foto' => 'tokobangunan/tokobangunanblora.jpg',
+    'notelepon' => '089345435435',           // Menghilangkan 'Rp' dan menyimpan sebagai angka decimal
+]);
+
+peralatankonstruksi::create([
+    'kecamatanblora_id' => '3',
+    'alatberat_id' => '3',
+    'namabadanusaha' => 'PT. Lintas Konstruksi Abadi',
+    'nib' => '4353466346',
+    'foto' => 'tokobangunan/tokobangunanblora.jpg',
+    'notelepon' => '089345435435',           // Menghilangkan 'Rp' dan menyimpan sebagai angka decimal
+]);
+
+peralatankonstruksi::create([
+    'kecamatanblora_id' => '3',
+    'alatberat_id' => '3',
+    'namabadanusaha' => 'PT. Lintas Konstruksi Abadi',
+    'nib' => '4353466346',
+    'foto' => 'tokobangunan/tokobangunanblora.jpg',
+    'notelepon' => '089345435435',           // Menghilangkan 'Rp' dan menyimpan sebagai angka decimal
+]);
+
+peralatankonstruksi::create([
+    'kecamatanblora_id' => '3',
+    'alatberat_id' => '3',
+    'namabadanusaha' => 'PT. Lintas Konstruksi Abadi',
+    'nib' => '4353466346',
+    'foto' => 'tokobangunan/tokobangunanblora.jpg',
+    'notelepon' => '089345435435',           // Menghilangkan 'Rp' dan menyimpan sebagai angka decimal
+]);
+
+peralatankonstruksi::create([
+    'kecamatanblora_id' => '3',
+    'alatberat_id' => '3',
+    'namabadanusaha' => 'PT. Lintas Konstruksi Abadi',
+    'nib' => '4353466346',
+    'foto' => 'tokobangunan/tokobangunanblora.jpg',
     'notelepon' => '089345435435',           // Menghilangkan 'Rp' dan menyimpan sebagai angka decimal
 ]);
 
