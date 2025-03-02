@@ -80,7 +80,7 @@ class RantaipasokbloraController extends Controller
     $user = Auth::user();
 
     return view('frontend.06_rantaipasok.01_materialbangunan.materialbangunanshow', [
-        'title' => 'Data Material Bahan Bangunan',
+        'title' => 'Rantai Pasok Material Bahan Bangunan',
         'data' => $datarantaipasokblora,
         // 'subData' => $subdata,  // Jika Anda ingin mengirimkan data sub kontraktor juga
         'user' => $user,
