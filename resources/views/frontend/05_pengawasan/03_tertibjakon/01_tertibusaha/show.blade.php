@@ -417,12 +417,12 @@ color: #45a049;
     }
 
     .sifatjakon thead {
-        background-color: #008000; /* Hijau */
+        background-color: green; /* Hijau */
         color: white;
     }
 
     .sifatjakon th[colspan] {
-        background-color: #006400; /* Hijau tua */
+        background-color: green; /* Hijau tua */
     }
 
     .sifatjakon tbody tr:nth-child(even) {
