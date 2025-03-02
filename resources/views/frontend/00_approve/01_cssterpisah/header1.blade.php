@@ -178,9 +178,17 @@
                         <li class="active has-dropdown">
 							<a href="#">AHSP</a>
 							<ul class="list-unstyled">
-                                <li><a href="/404">Harga Satuan Dasar </a></li>
-								<li><a href="/hspkonstruksiumum">HSP Konstruksi Umum </a></li>
-								<li><a href="/shstblora">SHST Konstruksi</a></li>
+                                <li><a href="#">AHSP Keciptakaryaan</a>
+									<ul class="list-unstyled">
+										<li><a href="/hspkonstruksiumum">HSP Konstruksi Umum</a></li>
+										<li><a href="/shstblora">SHST Konstruksi Kab Blora</a></li>
+										<li><a href="/404">Satuan Harga Dasar</a></li>
+                                    </ul><!-- list-unstyled -->
+								</li>
+                                <li><a href="/404">AHSP Bina Marga </a></li>
+                                <li><a href="/404">AHSP Sumber Daya Air </a></li>
+								{{-- <li><a href="/hspkonstruksiumum">HSP Konstruksi Umum </a></li>
+								<li><a href="/shstblora">SHST Konstruksi</a></li> --}}
 								{{-- <li><a href="/404">Daftar Material</a></li> --}}
 							</ul><!-- list-unstyled -->
 						</li><!--has-dropdown-->
@@ -202,13 +210,35 @@
 								<li><a href="/peraturan/suratkeputusan">Surat Keputusan</a></li>
 							</ul><!-- list-unstyled -->
 						</li><!--has-dropdown-->
-                        <li><a href="portfolio.html">Portfolio</a>
-                            <ul class="list-unstyled">
-                                <li><a href="portfolio.html">Portfolio</a></li>
-                                <li><a href="portfolio-details.html">Portfolio Details</a></li>
-                                <li><a href="portfolio-details-2.html">Portfolio Details 2</a></li>
-                            </ul><!-- list-unstyled -->
-                        </li>
+                        <li class="has-dropdown">
+							<a href="#">Pages</a>
+							<ul class="list-unstyled">
+								<li><a href="about.html">About</a></li>
+								<li><a href="team.html">Team</a>
+									<ul class="list-unstyled">
+										<li><a href="team.html">Team</a></li>
+										<li><a href="team-details.html">Team Details</a></li>
+									</ul><!-- list-unstyled -->
+								</li>
+
+								<li><a href="causes.html">Causes</a>
+									<ul class="list-unstyled">
+										<li><a href="causes.html">Causes</a></li>
+										<li><a href="cause-details.html">Cause Details</a></li>
+										<li><a href="donation.html">Donate</a></li>
+									</ul><!-- list-unstyled -->
+								</li>
+								<li><a href="documentations.html">Documentation</a>
+									<ul class="list-unstyled">
+										<li><a href="documentations.html">Documentation</a></li>
+										<li><a href="documentation-details.html">Documentation Details</a></li>
+									</ul><!-- list-unstyled -->
+								</li>
+								<li><a href="history.html">History</a></li>
+								<li><a href="faq.html">Faq</a></li>
+								<li><a href="404-page.html">404 Page</a></li>
+							</ul><!-- list-unstyled -->
+						</li><!--has-dropdown-->
 
 					</ul><!-- main-menu-list -->
 				</div><!--navigation-->
