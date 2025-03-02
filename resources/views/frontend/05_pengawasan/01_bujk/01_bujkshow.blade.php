@@ -168,11 +168,19 @@ color: #45a049;
                 <div class="col-lg-12">
                         <div class="document-details">
 							<div class="document-details-list">
-                                <div class="centered-button" style="margin-top: -15px">
+                                <div class="centered-button" style="justify-content: space-between; margin-top:-20px;">
                                     <button class="green-button" style="margin-bottom:10px; text-transform:uppercase">
                                         <img src="/assets/icon/logokabupatenblora.png" class="img-fluid" alt="img-25" width="50" height="50" style="margin-right: 20px;" loading="lazy">
                                         <i class="fas fa-file mr-2" style="margin-right:5px;"></i> <span style="color: black;">{{$title}} : {{$data->kodeproyek}}</span>
                                     </button>
+
+
+                                    <a href="/pengawasanbujk" style="background: white;">
+                                        <button class="badgekembali" style="border: none; font-size: 12px; cursor: pointer; margin-right: 10px;">
+                                            <i class="fas fa-arrow-circle-left mr-2" style="margin-right: 15px;"></i> KEMBALI
+                                        </button>
+                                    </a>
+
 
                                 </div>
 
@@ -493,14 +501,6 @@ color: #45a049;
 
 
 <div class="container-fluid" style="justify-content: right; margin-top:20px;">
-
-    <a href="/pengawasanbujk" style="background: white;">
-        <button class="badgekembali" style="border: none; font-size: 12px; cursor: pointer; margin-right: 10px;">
-            <i class="fas fa-arrow-circle-left mr-2" style="margin-right: 15px;"></i> KEMBALI
-        </button>
-    </a>
-
-
 
 </div>
 
