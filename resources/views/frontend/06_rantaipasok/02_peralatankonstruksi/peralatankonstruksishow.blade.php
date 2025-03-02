@@ -88,7 +88,7 @@ color: #45a049;
 
 
             .badgekembali {
-                background: linear-gradient(to right, green, orange);
+                background: linear-gradient(to right, #ffd100, green);
                 color: white;
                 padding: 10px 20px;
                 border-radius: 10px;
@@ -169,7 +169,7 @@ color: #45a049;
                 <div class="col-lg-12">
                         <div class="document-details">
 							<div class="document-details-list">
-                                <div class="button-container" style="display: flex; justify-content: space-between; align-items: center; margin-top: -15px;">
+                                <div class="button-container" style="display: flex; justify-content: space-between; align-items: center; margin-top: 15px;">
                                     <!-- Tombol di Kiri -->
                                     <button class="green-button">
                                         <img src="/assets/icon/logokabupatenblora.png" class="img-fluid" alt="img-25" width="50" height="50" style="margin-right: 10px; " loading="lazy">
@@ -180,13 +180,13 @@ color: #45a049;
                                     <!-- Tombol di Kanan -->
                                     <a href="javascript:window.history.back()" style="text-decoration: none;">
                                         <button class="badgekembali">
-                                            <i class="fas fa-arrow-circle-left" style="margin-right: 8px;"></i> KEMBALI
+                                            <i class="fas fa-arrow-circle-left" style="margin-right: 8px; color:red;"></i> KEMBALI
                                         </button>
                                     </a>
                                 </div>
 
 
-                    <div class="table-wrapper">
+                    <div class="table-wrapper" style="margin-top: 15px;">
                     <!-- Add this inside your HTML <head> for FontAwesome -->
                                 <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
 
@@ -205,30 +205,16 @@ color: #45a049;
                                                 Keterangan
                                             </td>
                                         </tr>
-
                                         <tr>
                                             <th style="text-align:center; color: black; width:50px; background-color: white;">
-                                                <i class="fas fa-building" style="font-size:20px; margin-right:8px;"></i> <!-- Ikon untuk Nama Badan Usaha -->
+                                                <i class="fas fa-truck" style="font-size:20px; margin-right:8px;"></i> <!-- Ikon untuk Distributor -->
                                             </th>
                                             <th colspan="11" style="text-align:left; color: black; background-color: white; padding-left: 10px; width:300px;">
-                                                Nama Badan Usaha
+                                                Nama Distributor Badan Usaha
                                             </th>
                                             <th colspan="1" style="text-align:center; color: black; background-color: white; width:25px;">:</th>
                                             <td colspan="12" style="text-align:left; background-color: white; padding-left: 10px; color: black; width:1000px;">
-                                                {{$data->namabadanusaha}}
-                                            </td>
-                                        </tr>
-
-                                        <tr>
-                                            <th style="text-align:center; color: black; width:50px; background-color: white;">
-                                                <i class="fas fa-map-marker-alt" style="font-size:20px; margin-right:8px;"></i> <!-- Ikon untuk Kecamatan -->
-                                            </th>
-                                            <th colspan="11" style="text-align:left; color: black; background-color: white; padding-left: 10px; width:300px;">
-                                                Kecamatan
-                                            </th>
-                                            <th colspan="1" style="text-align:center; color: black; background-color: white; width:25px;">:</th>
-                                            <td colspan="12" style="text-align:left; background-color: white; padding-left: 10px; color: black; width:1000px;">
-                                                {{$data->kecamatanblora->kecamatanblora}}
+                                                {{$data->distributor}}
                                             </td>
                                         </tr>
 
@@ -237,7 +223,7 @@ color: #45a049;
                                                 <i class="fas fa-id-card" style="font-size:20px; margin-right:8px;"></i> <!-- Ikon untuk Nomor Induk Berusaha -->
                                             </th>
                                             <th colspan="11" style="text-align:left; color: black; background-color: white; padding-left: 10px; width:300px;">
-                                                Nomor Induk Berusaha (NIB)
+                                                Nomor Induk Berusaha
                                             </th>
                                             <th colspan="1" style="text-align:center; color: black; background-color: white; width:25px;">:</th>
                                             <td colspan="12" style="text-align:left; background-color: white; padding-left: 10px; color: black; width:1000px;">
@@ -247,10 +233,23 @@ color: #45a049;
 
                                         <tr>
                                             <th style="text-align:center; color: black; width:50px; background-color: white;">
-                                                <i class="fas fa-phone" style="font-size:20px; margin-right:8px;"></i> <!-- Ikon untuk Nomor Telepon -->
+                                                <i class="fas fa-map-marker-alt" style="font-size:20px; margin-right:8px;"></i> <!-- Ikon untuk Alamat -->
                                             </th>
                                             <th colspan="11" style="text-align:left; color: black; background-color: white; padding-left: 10px; width:300px;">
-                                                Nomor Telepon
+                                                Alamat
+                                            </th>
+                                            <th colspan="1" style="text-align:center; color: black; background-color: white; width:25px;">:</th>
+                                            <td colspan="12" style="text-align:left; background-color: white; padding-left: 10px; color: black; width:1000px;">
+                                                {{$data->alamat}}
+                                            </td>
+                                        </tr>
+
+                                        <tr>
+                                            <th style="text-align:center; color: black; width:50px; background-color: white;">
+                                                <i class="fas fa-phone-alt" style="font-size:20px; margin-right:8px;"></i> <!-- Ikon untuk No Telepon -->
+                                            </th>
+                                            <th colspan="11" style="text-align:left; color: black; background-color: white; padding-left: 10px; width:300px;">
+                                                No Telepon
                                             </th>
                                             <th colspan="1" style="text-align:center; color: black; background-color: white; width:25px;">:</th>
                                             <td colspan="12" style="text-align:left; background-color: white; padding-left: 10px; color: black; width:1000px;">
@@ -260,21 +259,32 @@ color: #45a049;
 
                                     </thead>
 
-
-
                                 </table>
+
+                                    <div style="text-align: center; margin-top: 20px;">
+                                        <img src="/assets/icon/pupr.png"
+                                             alt="Foto Material atau Toko"
+                                             style="width: 350px; height: 350px; object-fit: cover; border-radius: 10px; box-shadow: 0 6px 12px rgba(0,0,0,0.2);">
+                                        <p style="margin-top: 10px; font-weight: 600; color: black; font-family: 'Poppins', sans-serif; font-size: 18px;">
+                                            Foto Badan Usaha Material Bangunan
+                                        </p>
+                                    </div>
+
+
 
 
 <div class="table-wrapper">
     <table class="fl-table">
-        <thead>
+        <thead style="background: #ffd100">
             <tr>
                 {{-- <th style="text-align:center" >No</th> --}}
                 <th style="text-align:center" style="color: black" style="width: 25px" >No</th>
-                <th style="text-align:center" style="color: black" style="width: 600px;"> Alat Berat</th>
-                <th style="text-align:center" style="color: black" style="width: 400px;"> Jumlah </th>
-
-                </tr>
+                <th style="text-align:center" style="color: black" style="width: 600px;"> Foto Produk</th>
+                <th style="text-align:center" style="color: black" style="width: 600px;"> Nama Produk</th>
+                <th style="text-align:center" style="color: black" style="width: 600px;"> Rp.</th>
+                <th style="text-align:center" style="color: black" style="width: 400px;"> Harga</th>
+                <th style="text-align:center" style="color: black" style="width: 400px;"> Spesifikasi</th>
+            </tr>
         </thead>
         <tbody>
 
@@ -283,13 +293,55 @@ color: #45a049;
             $start = ($data && $data->currentPage()) ? ($data->currentPage() - 1) * $data->perPage() + 1 : 1;
         @endphp --}}
 
-        @foreach ($subData as $item)
+        {{-- @foreach ($subData as $item) --}}
+
         <tr>
-            <td style="text-align: center">{{ $loop->iteration + $start - 1 }}</td>
-            <td style="text-align: center">{{$item->alatberat}}</td>
-            <td style="text-align: center">{{$item->jumlahalatberat}}</td>
+            <td style="text-align: center; vertical-align: middle;">1</td>
+            <td style="text-align: center; vertical-align: middle;">
+                <img src="/assets/icon/logokabupatenblora.png" alt="Gambar Semen"
+                style="width: 80px; height: 80px; object-fit: cover; border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.2);">
+            </td>
+            <td style="text-align: center; vertical-align: middle;">Semen</td>
+            <td style="text-align: center">Rp.</td>
+            <td style="text-align: center; vertical-align: middle;">50.000</td>
+            <td style="text-align: center; vertical-align: middle;">Keterangan Spesifikasi</td>
         </tr>
-        @endforeach
+
+        <tr>
+            <td style="text-align: center; vertical-align: middle;">1</td>
+            <td style="text-align: center; vertical-align: middle;">
+                <img src="/assets/icon/logokabupatenblora.png" alt="Gambar Semen"
+                     style="width: 80px; height: 80px; object-fit: cover; border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.2);">
+            </td>
+            <td style="text-align: center; vertical-align: middle;">Paku</td>
+            <td style="text-align: center">Rp.</td>
+            <td style="text-align: center; vertical-align: middle;">5.000</td>
+            <td style="text-align: center; vertical-align: middle;">Keterangan Spesifikasi</td>
+        </tr>
+
+        <tr>
+            <td style="text-align: center; vertical-align: middle;">1</td>
+            <td style="text-align: center; vertical-align: middle;">
+                <img src="/assets/icon/logokabupatenblora.png" alt="Gambar Semen"
+                style="width: 80px; height: 80px; object-fit: cover; border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.2);">
+            </td>
+            <td style="text-align: center; vertical-align: middle;">Cat</td>
+            <td style="text-align: center">Rp.</td>
+            <td style="text-align: center; vertical-align: middle;">125.000</td>
+            <td style="text-align: center; vertical-align: middle;">Keterangan Spesifikasi</td>
+        </tr>
+        <tr>
+            <td style="text-align: center; vertical-align: middle;">1</td>
+            <td style="text-align: center; vertical-align: middle;">
+                <img src="/assets/icon/logokabupatenblora.png" alt="Gambar Semen"
+                     style="width: 80px; height: 80px; object-fit: cover; border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.2);">
+            </td>
+            <td style="text-align: center; vertical-align: middle;">Pasir</td>
+            <td style="text-align: center">Rp.</td>
+            <td style="text-align: center; vertical-align: middle;">345.000</td>
+            <td style="text-align: center; vertical-align: middle;">Keterangan Spesifikasi</td>
+        </tr>
+        {{-- @endforeach --}}
 
         </tbody>
     </table>
