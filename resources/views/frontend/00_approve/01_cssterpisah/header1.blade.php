@@ -210,35 +210,6 @@
 								<li><a href="/peraturan/suratkeputusan">Surat Keputusan</a></li>
 							</ul><!-- list-unstyled -->
 						</li><!--has-dropdown-->
-                        <li class="has-dropdown">
-							<a href="#">Pages</a>
-							<ul class="list-unstyled">
-								<li><a href="about.html">About</a></li>
-								<li><a href="team.html">Team</a>
-									<ul class="list-unstyled">
-										<li><a href="team.html">Team</a></li>
-										<li><a href="team-details.html">Team Details</a></li>
-									</ul><!-- list-unstyled -->
-								</li>
-
-								<li><a href="causes.html">Causes</a>
-									<ul class="list-unstyled">
-										<li><a href="causes.html">Causes</a></li>
-										<li><a href="cause-details.html">Cause Details</a></li>
-										<li><a href="donation.html">Donate</a></li>
-									</ul><!-- list-unstyled -->
-								</li>
-								<li><a href="documentations.html">Documentation</a>
-									<ul class="list-unstyled">
-										<li><a href="documentations.html">Documentation</a></li>
-										<li><a href="documentation-details.html">Documentation Details</a></li>
-									</ul><!-- list-unstyled -->
-								</li>
-								<li><a href="history.html">History</a></li>
-								<li><a href="faq.html">Faq</a></li>
-								<li><a href="404-page.html">404 Page</a></li>
-							</ul><!-- list-unstyled -->
-						</li><!--has-dropdown-->
 
 					</ul><!-- main-menu-list -->
 				</div><!--navigation-->
