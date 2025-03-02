@@ -323,7 +323,7 @@ color: #45a049;
         <tr>
             <td style="text-align: center; vertical-align: middle;">1</td>
             <td style="text-align: center">
-                <img src="{{ asset('storage/' . $item->fototokobangunan) }}" alt="Foto Toko Bangunan" width="100">
+                <img src="{{ asset('storage/' . $data->fototokobangunan) }}" alt="Foto Toko Bangunan" width="100">
             </td>
             <td style="text-align: center; vertical-align: middle;">Semen</td>
             <td style="text-align: center">Rp.</td>
@@ -334,7 +334,7 @@ color: #45a049;
         <tr>
             <td style="text-align: center; vertical-align: middle;">1</td>
             <td style="text-align: center">
-                <img src="{{ asset('storage/' . $item->fototokobangunan) }}" alt="Foto Toko Bangunan" width="100">
+                <img src="{{ asset('storage/' . $data->fototokobangunan) }}" alt="Foto Toko Bangunan" width="100">
             </td>
 
             <td style="text-align: center; vertical-align: middle;">Paku</td>
@@ -346,7 +346,7 @@ color: #45a049;
         <tr>
             <td style="text-align: center; vertical-align: middle;">1</td>
             <td style="text-align: center">
-                <img src="{{ asset('storage/' . $item->fototokobangunan) }}" alt="Foto Toko Bangunan" width="100">
+                <img src="{{ asset('storage/' . $data->fototokobangunan) }}" alt="Foto Toko Bangunan" width="100">
             </td>
 
             <td style="text-align: center; vertical-align: middle;">Cat</td>
@@ -357,7 +357,7 @@ color: #45a049;
         <tr>
             <td style="text-align: center; vertical-align: middle;">1</td>
             <td style="text-align: center">
-                <img src="{{ asset('storage/' . $item->fototokobangunan) }}" alt="Foto Toko Bangunan" width="100">
+                <img src="{{ asset('storage/' . $data->fototokobangunan) }}" alt="Foto Toko Bangunan" width="100">
             </td>
 
             <td style="text-align: center; vertical-align: middle;">Pasir</td>
