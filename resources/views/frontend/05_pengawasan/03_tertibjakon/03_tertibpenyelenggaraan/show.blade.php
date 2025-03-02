@@ -254,130 +254,123 @@ color: #45a049;
             </td>
         </tr>
 
-        <tr>
-            <th style="text-align:center; color: black; width:50px; background-color: white;">
-                <i class="fas fa-cogs" style="font-size:20px; margin-right:8px;"></i> <!-- Ikon untuk Proses Pemilihan Penyedia Jasa -->
-            </th>
-            <th colspan="11" style="text-align:left; color: black; background-color: white; padding-left: 10px; width:300px;">
-                Proses Pemilihan Penyedia Jasa
-            </th>
-            <th colspan="1" style="text-align:center; color: black; background-color: white; width:25px;">:</th>
-            <td colspan="12" style="text-align:left; background-color: white; padding-left: 10px; color: black; width:1000px;">
-                Status ->
-                <button class="btn {{ $data->prosespemilihan == 'TERTIB' ? 'btn-success' : 'btn-danger' }}">
-                    {{$data->prosespemilihan}}
-                </button>
-            </td>
-        </tr>
-
-        <tr>
-            <th style="text-align:center; color: black; width:50px; background-color: white;">
-                <i class="fas fa-shield-alt" style="font-size:20px; margin-right:8px;"></i> <!-- Ikon untuk Pengawasan Terhadap Kontrak Kerja Konstruksi -->
-            </th>
-            <th colspan="11" style="text-align:left; color: black; background-color: white; padding-left: 10px; width:300px;">
-                Pengawasan Terhadap Kontrak Kerja Konstruksi
-            </th>
-            <th colspan="1" style="text-align:center; color: black; background-color: white; width:25px;">:</th>
-            <td colspan="12" style="text-align:left; background-color: white; padding-left: 10px; color: black; width:1000px;">
-                Penerapan Standar Kontrak ->
-                <button class="btn {{ $data->pengawasan_standarkontrak == 'TERTIB' ? 'btn-success' : 'btn-danger' }}">
-                    {{$data->pengawasan_standarkontrak}}
-                </button>
-            </td>
-        </tr>
-
-        <tr>
-            <th style="text-align:center; color: black; width:50px; background-color: white;">
-                <i class="fas fa-file-signature" style="font-size:20px; margin-right:8px;"></i>
-            </th>
-            <th colspan="11" style="text-align:left; color: black; background-color: white; padding-left: 10px; width:300px;">
-                Pengawasan Terhadap Kontrak Kerja Konstruksi
-            </th>
-            <th colspan="1" style="text-align:center; color: black; background-color: white; width:25px;">:</th>
-            <td colspan="12" style="text-align:left; background-color: white; padding-left: 10px; color: black; width:1000px;">
-                Penggunaan Tenaga Kerja Konstruksi Bersertifikat ->
-                <button class="btn {{ $data->pengawasan_tenagakerja == 'TERTIB' ? 'btn-success' : 'btn-danger' }}">
-                    {{$data->pengawasan_tenagakerja}}
-                </button>
-            </td>
-        </tr>
-
-        <tr>
-            <th style="text-align:center; color: black; width:50px; background-color: white;">
-                <i class="fas fa-shield-alt" style="font-size:20px; margin-right:8px;"></i>
-            </th>
-            <th colspan="11" style="text-align:left; color: black; background-color: white; padding-left: 10px; width:300px;">
-                Pengawasan Terhadap Kontrak Kerja Konstruksi
-            </th>
-            <th colspan="1" style="text-align:center; color: black; background-color: white; width:25px;">:</th>
-            <td colspan="12" style="text-align:left; background-color: white; padding-left: 10px; color: black; width:1000px;">
-                Pemberian Pekerjaan Utama ->
-                <button class="btn {{ $data->pengawasan_penunjang == 'TERTIB' ? 'btn-success' : 'btn-danger' }}">
-                    {{$data->pengawasan_penunjang}}
-                </button>
-            </td>
-        </tr>
-
-        <tr>
-            <th style="text-align:center; color: black; width:50px; background-color: white;">
-                <i class="fas fa-cogs" style="font-size:20px; margin-right:8px;"></i>
-            </th>
-            <th colspan="11" style="text-align:left; color: black; background-color: white; padding-left: 10px; width:300px;">
-                Pengawasan Terhadap Penerapan Standar K3
-            </th>
-            <th colspan="1" style="text-align:center; color: black; background-color: white; width:25px;">:</th>
-            <td colspan="12" style="text-align:left; background-color: white; padding-left: 10px; color: black; width:1000px;">
-                Dokumen Standar K4 ->
-                <button class="btn {{ $data->pengawasan_dokumenk4 == 'TERTIB' ? 'btn-success' : 'btn-danger' }}">
-                    {{$data->pengawasan_dokumenk4}}
-                </button>
-            </td>
-        </tr>
-
-        <tr>
-            <th style="text-align:center; color: black; width:50px; background-color: white;">
-                <i class="fas fa-cogs" style="font-size:20px; margin-right:8px;"></i>
-            </th>
-            <th colspan="11" style="text-align:left; color: black; background-color: white; padding-left: 10px; width:300px;">
-                Pengawasan Terhadap Penerapan Standar K3
-            </th>
-            <th colspan="1" style="text-align:center; color: black; background-color: white; width:25px;">:</th>
-            <td colspan="12" style="text-align:left; background-color: white; padding-left: 10px; color: black; width:1000px;">
-                Penerapan SMKK
-                <button class="btn {{ $data->pengawasan_smkk == 'TERTIB' ? 'btn-success' : 'btn-danger' }}">
-                    {{$data->pengawasan_smkk}}
-                </button>
-            </td>
-        </tr>
-
-        <tr>
-            <th style="text-align:center; color: black; width:50px; background-color: white;">
-                <i class="fas fa-exclamation-triangle" style="font-size:20px; margin-right:8px;"></i>
-            </th>
-            <th colspan="11" style="text-align:left; color: black; background-color: white; padding-left: 10px; width:300px;">
-                Pengawasan Terhadap Penerapan Standar K3
-            </th>
-            <th colspan="1" style="text-align:center; color: black; background-color: white; width:25px;">:</th>
-            <td colspan="12" style="text-align:left; background-color: white; padding-left: 10px; color: black; width:1000px;">
-                Kegiatan Antisipasi Kecelakaan Kerja
-                <button class="btn {{ $data->pengawasan_kecelakaankerja == 'TERTIB' ? 'btn-success' : 'btn-danger' }}">
-                    {{$data->pengawasan_kecelakaankerja}}
-                </button>
-            </td>
-        </tr>
 
     </thead>
 </table>
 
-<div class="container-fluid" style="justify-content: right; margin-top:20px;">
 
-    <a href="javascript:window.history.back()" style="background: white;">
-        <button class="badgekembali" style="border: none; font-size: 12px; cursor: pointer; margin-right: 10px;">
-            <i class="fas fa-arrow-circle-left mr-2" style="margin-right: 15px;"></i> KEMBALI
-        </button>
-    </a>
+<style>
+    .sifatjakon {
+        width: 100%;
+        border-collapse: collapse;
+        font-family: 'Poppins', sans-serif; /* Font modern pemerintah */
+        text-align: center;
+        /* font-family: Arial, sans-serif; */
+    }
 
-</div>
+    .sifatjakon th, .sifatjakon td {
+        border: 1px solid #ddd;
+        padding: 10px;
+    }
+
+    .sifatjakon thead {
+        background-color: green; /* Hijau */
+        color: white;
+        border-radius: 20px;
+    }
+
+    .sifatjakon th[colspan] {
+        background-color: green; /* Hijau tua */
+    }
+
+    .sifatjakon tbody tr:nth-child(even) {
+        background-color: #f2f2f2; /* Abu-abu muda */
+    }
+
+    .sifatjakon tbody tr:hover {
+        background-color: #c8e6c9; /* Hijau muda saat hover */
+    }
+
+    .sifatjakon td[rowspan] {
+        background-color: white; /* Kuning */
+        font-weight: bold;
+    }
+</style>
+
+<br>
+
+<table class="sifatjakon">
+<thead>
+    <tr>
+        <th rowspan="2">Proses Pemilihan Penyedia Jasa</th>
+        <th colspan="3">Pengawasan Terhadap Kontrak Kerja Konstruksi</th>
+        <th colspan="3">Pengawasan Terhadap Penerapan Standar Keamanan, Keselamatan, Kesehatan, dan Keberlanjutan Konstruksi</th>
+    </tr>
+    <tr>
+        <th>Penerapan Standar Kontrak</th>
+        <th>Penggunaan Tenaga Kerja Konstruksi Bersertifikat</th>
+        <th>Pemberian Pekerjaan Utama dan/atau Penunjang Kepada Sub Penyedia Jasa</th>
+        <th>Ketersediaan Dokumen Standar K4</th>
+        <th>Penerapan SMKK</th>
+        <th>Kegiatan Antisipasi Kecelakaan Kerja</th>
+    </tr>
+</thead>
+<tbody>
+    <tr>
+        <td>
+            <button style="padding: 8px 12px; border: none; border-radius: 5px; color: white; font-weight: bold; cursor: pointer;
+                background-color: {{ $data->prosespemilihan == 'BELUM TERTIB' ? 'red' : 'blue' }};">
+                {{ $data->prosespemilihan }}
+            </button>
+        </td>
+
+        <td>
+            <button style="padding: 8px 12px; border: none; border-radius: 5px; color: white; font-weight: bold; cursor: pointer;
+                background-color: {{ $data->pengawasan_standarkontrak == 'BELUM TERTIB' ? 'red' : 'blue' }};">
+                {{ $data->pengawasan_standarkontrak }}
+            </button>
+        </td>
+
+        <td>
+            <button style="padding: 8px 12px; border: none; border-radius: 5px; color: white; font-weight: bold; cursor: pointer;
+                background-color: {{ $data->pengawasan_tenagakerja == 'BELUM TERTIB' ? 'red' : 'blue' }};">
+                {{ $data->pengawasan_tenagakerja }}
+            </button>
+        </td>
+
+        <td>
+            <button style="padding: 8px 12px; border: none; border-radius: 5px; color: white; font-weight: bold; cursor: pointer;
+                background-color: {{ $pengawasan_penunjang == 'BELUM TERTIB' ? 'red' : 'blue' }};">
+                {{ $data->pengawasan_penunjang }}
+            </button>
+        </td>
+
+        <td>
+            <button style="padding: 8px 12px; border: none; border-radius: 5px; color: white; font-weight: bold; cursor: pointer;
+                background-color: {{ $pengawasan_dokumenk4 == 'BELUM TERTIB' ? 'red' : 'blue' }};">
+                {{ $data->pengawasan_dokumenk4 }}
+            </button>
+        </td>
+
+        <td>
+            <button style="padding: 8px 12px; border: none; border-radius: 5px; color: white; font-weight: bold; cursor: pointer;
+                background-color: {{ $pengawasan_smkk == 'BELUM TERTIB' ? 'red' : 'blue' }};">
+                {{ $data->pengawasan_smkk }}
+            </button>
+        </td>
+
+        <td>
+            <button style="padding: 8px 12px; border: none; border-radius: 5px; color: white; font-weight: bold; cursor: pointer;
+                background-color: {{ $pengawasan_kecelakaankerja == 'BELUM TERTIB' ? 'red' : 'blue' }};">
+                {{ $data->pengawasan_kecelakaankerja }}
+            </button>
+        </td>
+
+    </tr>
+
+</tbody>
+</table>
+
 
                     </div>
                                                 </div><!-- document-details-list -->
