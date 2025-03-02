@@ -324,47 +324,6 @@ color: #45a049;
             </button>
         </td>
 
-        <td>
-            <button style="padding: 8px 12px; border: none; border-radius: 5px; color: white; font-weight: bold; cursor: pointer;
-                background-color: {{ $data->pengawasan_standarkontrak == 'BELUM TERTIB' ? 'red' : 'blue' }};">
-                {{ $data->pengawasan_standarkontrak }}
-            </button>
-        </td>
-
-        <td>
-            <button style="padding: 8px 12px; border: none; border-radius: 5px; color: white; font-weight: bold; cursor: pointer;
-                background-color: {{ $data->pengawasan_tenagakerja == 'BELUM TERTIB' ? 'red' : 'blue' }};">
-                {{ $data->pengawasan_tenagakerja }}
-            </button>
-        </td>
-
-        {{-- <td>
-            <button style="padding: 8px 12px; border: none; border-radius: 5px; color: white; font-weight: bold; cursor: pointer;
-                background-color: {{ $pengawasan_penunjang == 'BELUM TERTIB' ? 'red' : 'blue' }};">
-                {{ $data->pengawasan_penunjang }}
-            </button>
-        </td> --}}
-
-        <td>
-            <button style="padding: 8px 12px; border: none; border-radius: 5px; color: white; font-weight: bold; cursor: pointer;
-                background-color: {{ $pengawasan_dokumenk4 == 'BELUM TERTIB' ? 'red' : 'blue' }};">
-                {{ $data->pengawasan_dokumenk4 }}
-            </button>
-        </td>
-
-        <td>
-            <button style="padding: 8px 12px; border: none; border-radius: 5px; color: white; font-weight: bold; cursor: pointer;
-                background-color: {{ $pengawasan_smkk == 'BELUM TERTIB' ? 'red' : 'blue' }};">
-                {{ $data->pengawasan_smkk }}
-            </button>
-        </td>
-
-        <td>
-            <button style="padding: 8px 12px; border: none; border-radius: 5px; color: white; font-weight: bold; cursor: pointer;
-                background-color: {{ $pengawasan_kecelakaankerja == 'BELUM TERTIB' ? 'red' : 'blue' }};">
-                {{ $data->pengawasan_kecelakaankerja }}
-            </button>
-        </td>
 
     </tr>
 
