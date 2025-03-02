@@ -302,7 +302,7 @@ color: #45a049;
                 style="width: 80px; height: 80px; object-fit: cover; border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.2);">
             </td>
             <td style="text-align: center; vertical-align: middle;">Semen</td>
-            <td>Rp.</td>
+            <td style="text-align: center">Rp.</td>
             <td style="text-align: center; vertical-align: middle;">50.000</td>
             <td style="text-align: center; vertical-align: middle;">Keterangan Spesifikasi</td>
         </tr>
@@ -314,7 +314,7 @@ color: #45a049;
                      style="width: 80px; height: 80px; object-fit: cover; border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.2);">
             </td>
             <td style="text-align: center; vertical-align: middle;">Paku</td>
-            <td>Rp.</td>
+            <td style="text-align: center">Rp.</td>
             <td style="text-align: center; vertical-align: middle;">5.000</td>
             <td style="text-align: center; vertical-align: middle;">Keterangan Spesifikasi</td>
         </tr>
@@ -326,7 +326,7 @@ color: #45a049;
                 style="width: 80px; height: 80px; object-fit: cover; border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.2);">
             </td>
             <td style="text-align: center; vertical-align: middle;">Cat</td>
-            <td>Rp.</td>
+            <td style="text-align: center">Rp.</td>
             <td style="text-align: center; vertical-align: middle;">125.000</td>
             <td style="text-align: center; vertical-align: middle;">Keterangan Spesifikasi</td>
         </tr>
@@ -337,7 +337,7 @@ color: #45a049;
                      style="width: 80px; height: 80px; object-fit: cover; border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.2);">
             </td>
             <td style="text-align: center; vertical-align: middle;">Pasir</td>
-            <td>Rp.</td>
+            <td style="text-align: center">Rp.</td>
             <td style="text-align: center; vertical-align: middle;">345.000</td>
             <td style="text-align: center; vertical-align: middle;">Keterangan Spesifikasi</td>
         </tr>
