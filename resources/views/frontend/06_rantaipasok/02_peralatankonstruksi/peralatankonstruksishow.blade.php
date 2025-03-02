@@ -125,21 +125,21 @@ color: #45a049;
             }
 
             .bagdewa {
-                background: linear-gradient(to right, white, white);
-                color: white;
-                padding: 10px 20px;
-                border-radius: 10px;
-                display: inline-block;
-                border: none !important;
-                font-size: 1rem;
-                text-align: center;
-                font-size: 12px;
-                cursor: pointer;
-                transition: background-color 0.3s, color 0.3s;
-            }
-            .bagdewa-button:hover {
+    background: linear-gradient(to right, white, white);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 1px solid black !important; /* Menambahkan garis luar hitam 1px */
+    display: inline-block;
+    font-size: 12px;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+            .bagdewa:hover {
                 background-color: lightblue;
-                color: black;
+                color: white;
                 background: lightblue;
             }
 </style>
@@ -196,7 +196,7 @@ color: #45a049;
                                         <span style="color: black; text-transform:uppercase">{{$title}} : {{$data->namabadanusaha}}</span>
                                     </button>
 
-                                    <a href="https://wa.me/081321455855" target="_blank" style="text-decoration: none; margin-left: 400px; margin-right:10px;">
+                                    <a href="https://wa.me/081321455855" target="_blank" style="text-decoration: none; margin-left: 450px; margin-right:10px;">
                                         <button class="bagdewa">
                                             <i class="fab fa-whatsapp" style="color: green; font-size:24px;"></i>
                                         </button>
