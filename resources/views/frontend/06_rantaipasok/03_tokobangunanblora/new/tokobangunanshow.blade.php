@@ -333,9 +333,8 @@ color: #45a049;
 
         <tr>
             <td style="text-align: center; vertical-align: middle;">1</td>
-            <td style="text-align: center; vertical-align: middle;">
-                <img src="/assets/icon/logokabupatenblora.png" alt="Gambar Semen"
-                     style="width: 80px; height: 80px; object-fit: cover; border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.2);">
+            <td style="text-align: center">
+                <img src="{{ asset('storage/' . $data->fototokobangunan) }}" alt="Foto Toko Bangunan" width="100">
             </td>
             <td style="text-align: center; vertical-align: middle;">Paku</td>
             <td style="text-align: center">Rp.</td>
@@ -345,9 +344,8 @@ color: #45a049;
 
         <tr>
             <td style="text-align: center; vertical-align: middle;">1</td>
-            <td style="text-align: center; vertical-align: middle;">
-                <img src="/assets/icon/logokabupatenblora.png" alt="Gambar Semen"
-                style="width: 80px; height: 80px; object-fit: cover; border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.2);">
+            <td style="text-align: center">
+                <img src="{{ asset('storage/' . $data->fototokobangunan) }}" alt="Foto Toko Bangunan" width="100">
             </td>
             <td style="text-align: center; vertical-align: middle;">Cat</td>
             <td style="text-align: center">Rp.</td>
@@ -356,9 +354,8 @@ color: #45a049;
         </tr>
         <tr>
             <td style="text-align: center; vertical-align: middle;">1</td>
-            <td style="text-align: center; vertical-align: middle;">
-                <img src="/assets/icon/logokabupatenblora.png" alt="Gambar Semen"
-                     style="width: 80px; height: 80px; object-fit: cover; border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.2);">
+            <td style="text-align: center">
+                <img src="{{ asset('storage/' . $data->fototokobangunan) }}" alt="Foto Toko Bangunan" width="100">
             </td>
             <td style="text-align: center; vertical-align: middle;">Pasir</td>
             <td style="text-align: center">Rp.</td>
