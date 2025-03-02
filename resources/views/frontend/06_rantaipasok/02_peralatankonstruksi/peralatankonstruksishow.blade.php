@@ -278,12 +278,12 @@ color: #45a049;
         <thead style="background: navy">
             <tr>
                 {{-- <th style="text-align:center" >No</th> --}}
-                <th style="text-align:center" style="color: black" style="width: 25px" >No</th>
-                <th style="text-align:center" style="color: black" style="width: 600px;"> Foto Produk</th>
-                <th style="text-align:center" style="color: black" style="width: 600px;"> Nama Peralatan</th>
-                <th style="text-align:center" style="color: black" style="width: 600px;"> Rp.</th>
-                <th style="text-align:center" style="color: black" style="width: 400px;"> Harga</th>
-                <th style="text-align:center" style="color: black" style="width: 400px;"> Spesifikasi</th>
+                <th style="text-align:center" style="color: white" style="width: 25px" >No</th>
+                <th style="text-align:center" style="color: white" style="width: 600px;"> Foto Produk</th>
+                <th style="text-align:center" style="color: white" style="width: 600px;"> Nama Peralatan</th>
+                <th style="text-align:center" style="color: white" style="width: 600px;"> Rp.</th>
+                <th style="text-align:center" style="color: white" style="width: 400px;"> Harga</th>
+                <th style="text-align:center" style="color: white" style="width: 400px;"> Spesifikasi</th>
             </tr>
         </thead>
         <tbody>
