@@ -274,8 +274,8 @@ color: #45a049;
 
 
 <div class="table-wrapper">
-    <table class="fl-table" style="background: #ffd100">
-        <thead>
+    <table class="fl-table">
+        <thead style="background: #ffd100">
             <tr>
                 {{-- <th style="text-align:center" >No</th> --}}
                 <th style="text-align:center" style="color: black" style="width: 25px" >No</th>
@@ -283,8 +283,7 @@ color: #45a049;
                 <th style="text-align:center" style="color: black" style="width: 600px;"> Nama Produk</th>
                 <th style="text-align:center" style="color: black" style="width: 600px;"> Rp.</th>
                 <th style="text-align:center" style="color: black" style="width: 400px;"> Harga</th>
-
-                </tr>
+            </tr>
         </thead>
         <tbody>
 
