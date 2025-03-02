@@ -169,7 +169,7 @@ color: #45a049;
                 <div class="col-lg-12">
                         <div class="document-details">
 							<div class="document-details-list">
-                                <div class="button-container" style="display: flex; justify-content: space-between; align-items: center; margin-top: -15px;">
+                                <div class="button-container" style="display: flex; justify-content: space-between; align-items: center; margin-top: 15px;">
                                     <!-- Tombol di Kiri -->
                                     <button class="green-button">
                                         <img src="/assets/icon/logokabupatenblora.png" class="img-fluid" alt="img-25" width="50" height="50" style="margin-right: 10px; " loading="lazy">
@@ -186,7 +186,7 @@ color: #45a049;
                                 </div>
 
 
-                    <div class="table-wrapper">
+                    <div class="table-wrapper" style="margin-top: 15px;">
                     <!-- Add this inside your HTML <head> for FontAwesome -->
                                 <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
 
