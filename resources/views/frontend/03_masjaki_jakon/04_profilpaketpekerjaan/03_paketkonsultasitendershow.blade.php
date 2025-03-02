@@ -527,11 +527,11 @@ color: #45a049;
 
 /* Warna untuk status yang berbeda */
 .progress-step.completed .circle {
-    background-color: greenyellow;
+    background-color: green;
 }
 
 .progress-step.in-progress .circle {
-    background-color: yellow;
+    background-color: orange;
 }
 
 .progress-step.not-started .circle {
@@ -543,11 +543,11 @@ color: #45a049;
 }
 
 .line.completed {
-    background-color: greenyellow;
+    background-color: green;
 }
 
 .line.in-progress {
-    background-color: yellow;
+    background-color: orange;
 }
 
 .line.not-started {
