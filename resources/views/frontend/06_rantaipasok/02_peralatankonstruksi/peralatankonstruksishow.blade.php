@@ -266,11 +266,9 @@ color: #45a049;
                                              alt="Foto Material atau Toko"
                                              style="width: 350px; height: 350px; object-fit: cover; border-radius: 10px; box-shadow: 0 6px 12px rgba(0,0,0,0.2);">
                                         <p style="margin-top: 10px; font-weight: 600; color: black; font-family: 'Poppins', sans-serif; font-size: 18px;">
-                                            Foto Badan Usaha Material Bangunan
+                                            Foto Badan Usaha Peralatan Konstruksi Bangunan Gedung
                                         </p>
                                     </div>
-
-
 
 
 <div class="table-wrapper">
