@@ -32,6 +32,7 @@ use App\Http\Controllers\TokobangunanbloraController;
 use App\Http\Controllers\UndangundangController;
 use App\Http\Controllers\ShstbloraController;
 use App\Http\Controllers\HspkonstruksiumumController;
+use App\Http\Controllers\SatuanhargamaterialController;
 
 
 use Database\Factories\DatajakonFactory;
@@ -222,6 +223,12 @@ Route::get('/tokobangunanbloralist/{namatokobangunan}', [TokobangunanbloraContro
 // Route::get('/tokobangunanblora', [TokobangunanbloraController::class, 'index']);
 // Route::get('/tokobangunanblora/{kecamatanblora}', [TokobangunanbloraController::class, 'tokobangunanblorashow']);
 
+
+// AHSP HARGA SATUAN DASAR MATERIAL PERALATAN DAN BAHAN
+// ==============================================================================================================
+Route::get('/satuanhargamaterial', [SatuanhargamaterialController::class, 'index']);
+
+// fort
 
 // DATA SHST BLORA
 // ==========================================================================================================
