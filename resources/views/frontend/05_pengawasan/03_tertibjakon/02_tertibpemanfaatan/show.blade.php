@@ -430,6 +430,8 @@ color: #45a049;
     }
 </style>
 
+<br>
+
 <table class="sifatjakon">
 <thead>
     <tr>
