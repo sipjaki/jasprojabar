@@ -527,7 +527,7 @@ color: #45a049;
 
 /* Warna untuk status yang berbeda */
 .progress-step.completed .circle {
-    background-color: green;
+    background-color: greenyellow;
 }
 
 .progress-step.in-progress .circle {
@@ -543,7 +543,7 @@ color: #45a049;
 }
 
 .line.completed {
-    background-color: green;
+    background-color: greenyellow;
 }
 
 .line.in-progress {
