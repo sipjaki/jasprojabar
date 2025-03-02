@@ -1,73 +1,307 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Construction Cost Table</title>
-    <style>
-        table {
-            width: 100%;
-            border-collapse: collapse;
-        }
-        th, td {
-            border: 1px solid #aaa;
-            padding: 8px;
-            text-align: left;
-        }
-        th {
-            background-color: #007BFF;
-            color: white;
-        }
-        h2 {
-            text-align: center;
-        }
-    </style>
-</head>
+<style>
+    /* Import font Poppins */
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+/* Wrapper untuk tabel */
+.table-wrapper {
+overflow-x: auto;
+max-width: 100%;
+padding: 10px;
+}
+
+/* Style dasar tabel */
+.fl-table {
+width: 100%;
+border-collapse: collapse;
+font-family: 'Poppins', sans-serif; /* Font modern pemerintah */
+font-size: 14px;
+background: #fff; /* Tetap netral */
+box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+border-radius: 8px;
+overflow: hidden;
+}
+
+/* Header styling */
+.fl-table thead {
+background: #FFD100;
+text-transform: uppercase;
+font-weight: 600;
+letter-spacing: 0.5px;
+color: black;
+}
+
+.fl-table th,
+.fl-table td {
+padding: 12px 15px;
+text-align: left;
+border-bottom: 1px solid #ddd;
+}
+
+/* Hover effect */
+.fl-table tbody tr:hover {
+background: rgba(0, 0, 0, 0.05);
+}
+
+/* Responsive styling */
+@media (max-width: 768px) {
+.fl-table thead {
+display: none; /* Sembunyikan header di tampilan kecil */
+}
+
+.fl-table tr {
+display: block;
+margin-bottom: 10px;
+border: 1px solid #ddd;
+border-radius: 5px;
+overflow: hidden;
+}
+
+.fl-table td {
+display: block;
+text-align: right;
+font-size: 14px;
+border-bottom: 1px solid #eee;
+position: relative;
+padding-left: 50%;
+}
+
+.fl-table td::before {
+content: attr(data-label);
+position: absolute;
+left: 10px;
+width: 45%;
+font-weight: 600;
+text-align: left;
+}
+}
+
+/* Style untuk ikon view */
+.view-icon {
+color: #4CAF50;
+cursor: pointer;
+font-size: 18px;
+}
+
+.view-icon:hover {
+color: #45a049;
+}
+
+
+            .badgekembali {
+                background: linear-gradient(to right, white, green);
+                color: white;
+                padding: 10px 20px;
+                border-radius: 10px;
+                border: 3px solid black; /* Garis luar yang lebih tebal dan lebih jelas */
+                display: inline-block;
+                font-size: 12px;
+                text-align: center;
+                cursor: pointer;
+                transition: background-color 0.3s, color 0.3s, border-color 0.3s; /* Tambahkan transisi untuk border */
+            }
+            .badgekembali:hover {
+                background-color: white;
+                color: black;
+                background: white;
+            }
+
+            .badgepupr {
+                background: linear-gradient(to right, white, #FFD100);
+                color: white;
+                padding: 10px 20px;
+                border-radius: 10px;
+                border: 3px solid black; /* Garis luar yang lebih tebal dan lebih jelas */
+                display: inline-block;
+                font-size: 12px;
+                text-align: center;
+                cursor: pointer;
+                transition: background-color 0.3s, color 0.3s, border-color 0.3s; /* Tambahkan transisi untuk border */
+            }
+            .badgepupr:hover {
+                background-color: white;
+                color: black;
+                background: white;
+            }
+
+            .badgemenu {
+                background: linear-gradient(to right, #FFD100, green);
+                color: white;
+                padding: 10px 20px;
+                border-radius: 10px;
+                border: 3px solid black; /* Garis luar yang lebih tebal dan lebih jelas */
+                display: inline-block;
+                font-size: 12px;
+                text-align: center;
+                cursor: pointer;
+                transition: background-color 0.3s, color 0.3s, border-color 0.3s; /* Tambahkan transisi untuk border */
+            }
+            .badgemenu:hover {
+                background-color: white;
+                color: black;
+                background: white;
+            }
+</style>
+
+{{-- ================================ --}}
+
+@include('frontend.00_approve.01_cssterpisah.header')
+
+
 <body>
 
-<h2>Construction Cost Estimation</h2>
+    @include('frontend.00_approve.01_cssterpisah.loader')
+    @include('frontend.00_approve.01_cssterpisah.header1')
 
-<table>
-    <thead>
-        <tr>
-            <th>No.</th>
-            <th>Uraian</th>
-            <th>Kode</th>
-            <th>Satuan</th>
-            <th>Koefisien</th>
-            <th>Harga Satuan (Rp)</th>
-            <th>Jumlah Harga (Rp)</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr><td colspan="7">A. Tenaga Kerja</td></tr>
-        <tr><td>1</td><td>PEKERJA</td><td>L.01</td><td>OH</td><td>0.250</td><td>94.206</td><td>23.552</td></tr>
-        <tr><td>2</td><td>TUKANG KAYU</td><td>L.02</td><td>OH</td><td>0.125</td><td>111.055</td><td>13.882</td></tr>
-        <tr><td>3</td><td>TUKANG BATU</td><td>L.02</td><td>OH</td><td>0.125</td><td>111.055</td><td>13.882</td></tr>
-        <tr><td>4</td><td-KEPALA TUKANG</td><td>L.03</td><td>OH</td><td>0.025</td><td>128.000</td><td>3.200</td></tr>
-        <tr><td>5</td><td>MANDOR</td><td>L.04</td><td>OH</td><td>0.008</td><td>125.685</td><td>1.005</td></tr>
-        <tr><td colspan="6">Jumlah Harga Tenaga Kerja</td><td>55.521</td></tr>
+    <div class="page-wrapper">
 
-        <tr><td colspan="7">B. Bahan</td></tr>
-        <tr><td>1</td><td>Kayu Kaso 5/7 (lebar 5 cm, tinggi 7 cm)</td><td>M.35.a</td><td>m3</td><td>0.0310</td><td>2.340.000</td><td>72.540</td></tr>
-        <tr><td>2</td><td>Semen Portland</td><td>-</td><td>kg</td><td>-</td><td>26.406</td><td>1.411</td></tr>
-        <tr><td>3</td><td>PASIR Beton</td><td>-</td><td>kg</td><td>-</td><td>61.56</td><td>185</td></tr>
-        <tr><td>4</td><td>Kerikil (Maks 30 mm)</td><td>-</td><td>kg</td><td>-</td><td>83.349</td><td>248</td></tr>
-        <tr><td>5</td><td>Air</td><td>-</td><td>liter</td><td>-</td><td>17.415</td><td>60</td></tr>
-        <tr><td>6</td><td>Paku biasa 2" - 5"</td><td>-</td><td>kg</td><td>-</td><td>0.4271</td><td>21.000</td></tr>
-        <tr><td colspan="6">Jumlah Harga Bahan</td><td>151.898</td></tr>
+	<section class="page-banner">
+		<div class="container">
+			<div class="page-banner-title">
+				<h3 style="color: black; font-size:30px;">{{$title}}</h3>
+			</div><!-- page-banner-title -->
+		</div><!-- container -->
+	</section><!--page-banner-->
 
-        <tr><td colspan="7">C. Peralatan</td></tr>
-        <tr><td colspan="6">Jumlah Harga Peralatan</td><td>0</td></tr>
+    {{-- <section class="service-two-section" > --}}
+        <section class="service-two-section" style="background-image: url('/assets/00_dokmasjaki/03_datajakon/banner1.jpg');">
+        <div class="container" style="background: #FFD100; border-radius:20px;">
+            <div class="row row-gutter-y-40">
 
-        <tr><td colspan="6">D. Jumlah Harga Tenaga, Bahan dan Peralatan (A+B+C)</td><td>207.419</td></tr>
-        <tr><td colspan="6">E. Overhead + profit (10%)</td><td>20.742</td></tr>
-        <tr><td colspan="6">F. Harga Satuan Pekerjaan (D+E)</td><td>228.160</td></tr>
-    </tbody>
-</table>
+                <div class="col-12 col-lg-12 col-xl-12">
+                    <div class="service-two-card">
+                        <div class="service-two-imgbox">
 
-<p>Catatan :<br>
-Harga satuan bahan bangunan yang tercantum tidak mengikat hanya sebagai ancang-ancang dalam menyusun perencanaan pekerjaan konstruksi oleh pemanfaat baik.</p>
+                            <section class="donate-section" style="background: linear-gradient(to bottom, green, #FFD100, white);">
+                                <div class="container" style="margin-top: -100px;">
+                                    <div class="row row-gutter-30">
 
-</body>
-</html>
+                                        <div class="col-xxl-12 col-lg-12">
+                                            <div class="donate-box-inner">
+
+
+                                                {{-- TABLE DATA  --}}
+
+                        </head>
+
+                        <section class="document-section" style="margin-top: -100px;">
+                            <div class="container" >
+                              <ul class="nav nav-pills" id="pills-tab" role="tablist">
+                                  {{-- <img src="/assets/icon/logopupr.png" class="img-fluid" alt="img-25" width="50" style="margin-right: 20px;" loading="lazy"> --}}
+
+                                  {{-- <br><p style="font-size: 16px; color:black;">Dinas Pekerjaan Umum dan Penataan Ruang Kabupaten Blora</p> --}}
+                                  <div style="display: flex; justify-content: space-between; width: 100%; align-items: center; margin-top: 20px;">
+                                      <!-- Tombol di kiri -->
+                                      <a href="#" style="background: white;">
+                                          <button class="badgekembali" style="border: none; font-size: 12px; cursor: pointer;">
+                                            <img src="/assets/icon/logokabupatenblora.png" class="img-fluid" alt="img-25" width="50" height="50" style="margin-right: 20px;" loading="lazy">
+                                            <i class="fas fa-list mr-2" style="margin-right: 10px;"></i> <span style="text-transform: uppercase; font-weight:800; color:black">{{$title}}</span>
+                                        </button>
+                                    </a>
+
+                                    <!-- Tombol dan kolom pencarian di kanan -->
+                                    <div style="display: flex; align-items: center;">
+
+{{--
+                                        <a href="/tertibjakonpemanfaatan/pu" style="background: white;">
+                                            <button class="badgemenu" style="border: none; font-size: 12px; cursor: pointer; margin-right: 10px;">
+                                                <i class="fas fa-edit mr-2" style="margin-right: 15px;"></i><span style="color: black; font-weight:bold">PU</span>
+                                            </button>
+                                        </a>
+
+                                        <a href="/tertibjakonpemanfaatan/nonpu" style="background: white;">
+                                            <button class="badgemenu" style="border: none; font-size: 12px; cursor: pointer; margin-right: 10px;">
+                                                <i class="fas fa-edit mr-2" style="margin-right: 15px;"></i><span style="color: black; font-weight:bold">Non-PU</span>
+                                            </button>
+                                        </a>
+
+                                        <a href="/tertibjakonpemanfaatan/swasta" style="background: white;">
+                                            <button class="badgemenu" style="border: none; font-size: 12px; cursor: pointer; margin-right: 10px;">
+                                                <i class="fas fa-edit mr-2" style="margin-right: 15px;"></i><span style="color: black; font-weight:bold">Swasta</span>
+                                            </button>
+                                        </a>
+ --}}
+
+                                        {{-- <a href="/tertibjasakonstruksi" style="background: white;">
+                                            <button class="badgekembali" style="border: none; font-size: 12px; cursor: pointer; margin-right: 10px;">
+                                                <i class="fas fa-arrow-circle-left mr-2" style="margin-right: 15px;"></i><span style="color: black; font-weight:bold">KEMBALI</span>
+                                            </button>
+                                        </a> --}}
+{{--
+                                        <div style="position: relative; display: inline-block; margin-right:10px;">
+                                            <input type="search" placeholder="Pencarian...." style="border: 1px solid #ccc; padding: 5px 10px; font-size: 14px; border-radius: 5px; width: 200px;">
+                                            <i class="fas fa-search" style="position: absolute; right: 10px; top: 50%; transform: translateY(-50%); font-size: 16px; color: #888;"></i>
+                                        </div> --}}
+
+                                    </div>
+                                </div>
+
+                                </ul>
+                            </div>
+                        </section>
+
+
+
+                        <div class="table-wrapper" style="margin-top:-130px; margin-bottom:150px;">
+                        <table class="fl-table">
+                            <thead>
+                                <tr>
+                                    <th style="text-align:center" colspan="3"> Satuan Harga Dasar </th>
+                                    {{-- <th style="text-align:center" >View</th> --}}
+                                </tr>
+                                <tr>
+                                    <th style="text-align: center">Material</th>
+                                    <th style="text-align: center">Upah Tenaga Kerja</th>
+                                    <th style="text-align: center">Peralatan</th>
+                                </tr>
+                            </thead>
+                            <tbody style="background: white">
+                                <tr>
+                                    <td style="text-align: center;">
+                                        <a href="your-link-here" style="text-decoration: none;">
+                                            <button style="background-color: blue; color: white; font-weight: 300; font-size: 18px; border: none; padding: 10px 20px; border-radius: 5px; cursor: pointer; transition: 0.3s;">
+                                                Lihat Table
+                                            </button>
+                                        </a>
+                                    </td>
+                                    <td style="text-align: center;">
+                                        <a href="your-link-here" style="text-decoration: none;">
+                                            <button style="background-color: blue; color: white; font-weight: 300; font-size: 18px; border: none; padding: 10px 20px; border-radius: 5px; cursor: pointer; transition: 0.3s;">
+                                                Lihat Table
+                                            </button>
+                                        </a>
+                                    </td>
+                                    <td style="text-align: center;">
+                                        <a href="your-link-here" style="text-decoration: none;">
+                                            <button style="background-color: blue; color: white; font-weight: 300; font-size: 18px; border: none; padding: 10px 20px; border-radius: 5px; cursor: pointer; transition: 0.3s;">
+                                                Lihat Table
+                                            </button>
+                                        </a>
+                                    </td>
+
+                                </tr>
+                            </tbody>
+                        </table>
+                        </div>
+
+                    </div><!-- donate-box-inner -->
+                                        </div><!-- col-xl-8 col-lg-12 -->
+                                    </div><!-- row -->
+                                </div><!-- container -->
+                                {{-- @include('frontend.00_approve.01_cssterpisah.paginator') --}}
+                            </section><!-- donate-section -->
+
+
+
+                        </div><!-- service-two-imgbox -->
+                    </div><!--service-two-card-->
+                </div><!--col-12 col-lg-4 col-xl-4-->
+
+            </div><!-- row -->
+        </div><!-- container -->
+    </section><!-- service-two-section -->
+
+
+
+</div><!--page-wrapper-->
+@include('frontend.00_approve.01_cssterpisah.footer1')
+@include('frontend.00_approve.01_cssterpisah.footer')
