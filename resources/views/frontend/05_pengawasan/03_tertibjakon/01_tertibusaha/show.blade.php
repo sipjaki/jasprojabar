@@ -442,20 +442,25 @@ color: #45a049;
 <table class="sifatjakon">
 <thead>
     <tr>
-        <th rowspan="2">No</th>
+        <th colspan="4">Kesesuaian Kegiatan Konstruksi</th>
         <th rowspan="2">Nama</th>
-        <th colspan="2">Detail</th>
+        <th rowspan="2">Detail</th>
         <th rowspan="2">Total</th>
     </tr>
     <tr>
-        <th>Item 1</th>
-        <th>Item 2</th>
+        <th>Jenis</th>
+        <th>Sifat</th>
+        <th>Klasifikasi</th>
+        <th>Layanan</th>
     </tr>
 </thead>
 <tbody>
     <tr>
+        <td>{{$data->sesuai_jenis}}</td>
+        <td>{{$data->sesuai_sifat}}</td>
+        <td>{{$data->sesuai_klasifikasi}}</td>
+        <td>{{$data->sesuai_layanan}}</td>
         <td>1</td>
-        <td>Andi</td>
         <td>5</td>
         <td>3</td>
         <td>8</td>
