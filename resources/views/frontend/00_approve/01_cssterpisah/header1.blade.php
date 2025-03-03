@@ -179,8 +179,6 @@
                         <li class="active has-dropdown">
 							<a href="#">PENGAWASAN</a>
 							<ul class="list-unstyled">
-								<li><a href="/pengawasanbujk">Pengawasan BUJK</a></li>
-								<li><a href="/kecelakaankerja">Kecelakaan Kerja</a></li>
 								{{-- <li><a href="/tertibjasakonstruksi">Tertib Jasa Konstruksi</a></li> --}}
                                 <li><a href="#">Tertib Jasa Konstruksi</a>
 									<ul class="list-unstyled">
@@ -189,6 +187,8 @@
 										<li><a href="/tertibjasakonstruksipenyelenggaraan">Tertib Penyelenggaraan Jakon</a></li>
                                     </ul><!-- list-unstyled -->
 								</li>
+                                <li><a href="/pengawasanbujk">Pengawasan BUJK</a></li>
+								<li><a href="/kecelakaankerja">Kecelakaan Kerja</a></li>
 							</ul><!-- list-unstyled -->
 						</li><!--has-dropdown-->
 
