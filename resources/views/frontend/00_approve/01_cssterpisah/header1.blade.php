@@ -129,9 +129,9 @@
 						<li class="active has-dropdown">
 							<a href="#">BERITA</a>
 							<ul class="list-unstyled">
-								<li><a href="/404">Jasa Konstruksi</a></li>
-								<li><a href="/404">Dokumen Sertifikasi</a></li>
-								<li><a href="/404">Agenda Sertifikasi</a></li>
+								<li><a href="/404">Berita Jakon</a></li>
+								<li><a href="/404">Artikel Jakon</a></li>
+								{{-- <li><a href="/404">Agenda Sertifikasi</a></li> --}}
 							</ul><!-- list-unstyled -->
 						</li><!--has-dropdown-->
 
