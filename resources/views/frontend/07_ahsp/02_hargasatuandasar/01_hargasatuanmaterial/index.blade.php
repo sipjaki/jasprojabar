@@ -218,6 +218,7 @@ color: #45a049;
                                             <th onclick="sortTable(2)" style="cursor:pointer; text-align:center; width:100px;"> Satuan <span class="sort-icon">⇅</span></th>
                                             <th onclick="sortTable(3)" style="cursor:pointer; text-align:center; width:50px;"> Rp. <span class="sort-icon">⇅</span></th>
                                             <th onclick="sortTable(4)" style="cursor:pointer; text-align:center; width:200px;"> Besaran <span class="sort-icon">⇅</span></th>
+                                            <th onclick="sortTable(5)" style="cursor:pointer; text-align:center; width:200px;"> Keterangan <span class="sort-icon">⇅</span></th>
                                             {{-- <th style="text-align:center"> View </th> --}}
                                         </tr>
                                     </thead>
