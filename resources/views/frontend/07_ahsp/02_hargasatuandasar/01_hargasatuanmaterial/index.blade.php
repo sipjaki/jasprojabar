@@ -218,7 +218,7 @@ color: #45a049;
                                             <th onclick="sortTable(2)" style="cursor:pointer; text-align:center; width:400px;"> Satuan <span class="sort-icon">⇅</span></th>
                                             <th onclick="sortTable(3)" style="cursor:pointer; text-align:center; width:50px;"> Rp. <span class="sort-icon">⇅</span></th>
                                             <th onclick="sortTable(4)" style="cursor:pointer; text-align:center; width:200px;"> Besaran <span class="sort-icon">⇅</span></th>
-                                            <th style="text-align:center"> View </th>
+                                            {{-- <th style="text-align:center"> View </th> --}}
                                         </tr>
                                     </thead>
                                     <tbody id="tableBody">
@@ -229,13 +229,13 @@ color: #45a049;
                                             <td style="text-transform: capitalize;">{{ ucwords(strtolower($item->uraian)) }}</td>
                                             <td>{{$item->satuan}}</td>
                                             <td>Rp.</td>
-                                            <td>Rp {{ number_format($item->besaran, 0, ',', '.') }}</td>
+                                            <td>{{ number_format($item->besaran, 0, ',', '.') }}</td>
                                             <td>{{$item->keterangan}}</td>
-                                            <td style="text-align: center">
+                                            {{-- <td style="text-align: center">
                                                 <a href="/404">
                                                     <i class="fas fa-eye view-icon" onclick="alert('View clicked!')"></i>
                                                 </a>
-                                            </td>
+                                            </td> --}}
                                         </tr>
                                         @endforeach
                                     </tbody>
