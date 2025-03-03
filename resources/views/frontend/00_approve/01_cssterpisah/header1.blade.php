@@ -131,8 +131,26 @@
 							<ul class="list-unstyled">
 								<li><a href="/404">Berita Jakon</a></li>
 								<li><a href="/404">Artikel Jakon</a></li>
+                                <li><a href="#">Asuransi Jasa Konstruksi</a>
+                                    <ul class="list-unstyled">
+                                        <li><a href="/standarbiayaumummasjaki">Standar Biaya Umum </a></li>
+                                        <li><a href="/peraturan/undangundang">Undang - Undang </a></li>
+                                        <li><a href="/peraturan/pemerintah">Peraturan Pemerintah</a></li>
+                                        <li><a href="/peraturan/presiden">Peraturan Presiden</a></li>
+                                        <li><a href="/peraturan/menteri">Peraturan Menteri</a></li>
+                                        <li><a href="/peraturan/keputusanmenteri">Keputusan Menteri</a></li>
+                                        <li><a href="/peraturan/suratedaranmenteri">Surat Edaran Menteri</a></li>
+                                        <li><a href="/peraturan/referensi">Referensi</a></li>
+                                        <li><a href="/peraturan/daerah">Peraturan Daerah</a></li>
+                                        <li><a href="/peraturan/peraturangubernur">Peraturan Gubernur</a></li>
+                                        <li><a href="/peraturan/walikotadanbupati">Peraturan Walikota/Bupati</a></li>
+                                        <li><a href="/peraturan/suratkeputusan">Surat Keputusan</a></li>
+                                    </ul><!-- list-unstyled -->
+                                </li>
+
 								{{-- <li><a href="/404">Agenda Sertifikasi</a></li> --}}
 							</ul><!-- list-unstyled -->
+
 						</li><!--has-dropdown-->
 
                         <li class="active has-dropdown">
@@ -194,21 +212,10 @@
 						</li><!--has-dropdown-->
 
                         <li class="active has-dropdown">
-                            <a href="#">PERATURAN</a>
+                            <a href="#"></a>
+
 							<ul class="list-unstyled">
-                                <li><a href="/standarbiayaumummasjaki">Standar Biaya Umum </a></li>
-								<li><a href="/peraturan/undangundang">Undang - Undang </a></li>
-								<li><a href="/peraturan/pemerintah">Peraturan Pemerintah</a></li>
-								<li><a href="/peraturan/presiden">Peraturan Presiden</a></li>
-								<li><a href="/peraturan/menteri">Peraturan Menteri</a></li>
-								<li><a href="/peraturan/keputusanmenteri">Keputusan Menteri</a></li>
-								<li><a href="/peraturan/suratedaranmenteri">Surat Edaran Menteri</a></li>
-								<li><a href="/peraturan/referensi">Referensi</a></li>
-								<li><a href="/peraturan/daerah">Peraturan Daerah</a></li>
-								<li><a href="/peraturan/peraturangubernur">Peraturan Gubernur</a></li>
-								<li><a href="/peraturan/walikotadanbupati">Peraturan Walikota/Bupati</a></li>
-								<li><a href="/peraturan/suratkeputusan">Surat Keputusan</a></li>
-							</ul><!-- list-unstyled -->
+                        	</ul><!-- list-unstyled -->
 						</li><!--has-dropdown-->
 
 					</ul><!-- main-menu-list -->
