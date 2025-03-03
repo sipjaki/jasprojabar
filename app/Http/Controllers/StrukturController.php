@@ -462,7 +462,7 @@ public function tupoksifekbb()
     $user = Auth::user();
 
     return view('frontend.01_masjaki_kelembagaan.03_tupoksi.index', [
-        'title' => 'Tupoksi Dinas PUPR Kabupaten Blora',
+        'title' => 'Tupoksi Jakon DPUPR Kabupaten Blora',
         'data' => $data, // Mengirimkan data paginasi ke view
         'user' => $user, // Mengirimkan data paginasi ke view
     ]);
