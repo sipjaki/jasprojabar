@@ -195,7 +195,7 @@ color: #45a049;
                                     <div>
                                         <label for="entries" style="margin-right: 5px; font-weight: bold;">Show:</label>
                                         <select id="entries" onchange="updateEntries()" style="padding: 5px; border: 1px solid black; background-color: white;">
-                                            <option value="10">10</option>
+                                            {{-- <option value="15">15</option> --}}
                                             <option value="25">25</option>
                                             <option value="50">50</option>
                                             <option value="75">75</option>
