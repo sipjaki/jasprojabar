@@ -239,25 +239,27 @@ color: #45a049;
                             </div>
                         </section>
 
-                        <section class="document-section" style="margin-top: -215px; margin-bottom:35px;" >
+                        {{-- <section class="document-section" style="margin-top: -215px; margin-bottom:35px;" >
 
                         <div style="display: flex; justify-content: space-between; width: 100%; align-items: center; margin-top: 20px;">
                             <!-- Tombol di kiri -->
                             <a href="#" style="background: white;">
                                 <button class="badgepupr" style="border: none; font-size: 12px; cursor: pointer;">
                                     <img src="/assets/icon/pupr.png" class="img-fluid" alt="img-25" width="50" height="50" style="margin-right: 20px;" loading="lazy">
-                                    <i style="color: black" class="fas fa-building mr-2" style="margin-right: 10px;"></i> <span style="text-transform: uppercase; font-weight:800; color:black">Bangunan Kantor dan Bangunan Lainya Per M2 (Meter Persegi)</span>
+
+                                    <i style="color: black" class="fas fa-building mr-2" style="margin-right: 10px;"></i> <span style="text-transform: uppercase; font-weight:800; color:black">Harga Satuan Pembangunan Gedung Negara Per M2 (Meter Persegi)</span>
                                 </button>
                             </a>
                             <body>
 
-                            </section>
+                            </section> --}}
 
                         <div class="table-wrapper" style="margin-top:-130px; margin-bottom:150px;">
                         <table class="fl-table">
                             <thead>
                                 <tr>
-                                    <th style="text-align:center" colspan="2"> Bangunan Kantor dan Bangunan Lainnya Per M2 (Meter Persegi)</th>
+                                    <th style="text-align:center" rowspan="2"><img src="/assets/icon/pupr.png" class="img-fluid" alt="img-25" width="50" height="50" style="margin-right: 20px;" loading="lazy"></th>
+                                    <th style="text-align:center" colspan="2"> Harga Satuan Perumahan Bangunan Gedung Negara Per M2 (Meter Persegi)</th>
                                     {{-- <th style="text-align:center" >View</th> --}}
                                 </tr>
                                 <tr>
@@ -269,6 +271,7 @@ color: #45a049;
 
                                 @foreach ($data as $item )
                                 <tr>
+                                    <td style="text-align: center; font-weight:bold; font-size:18px;"></td>
                                     <td style="text-align: center; font-weight:bold; font-size:18px;">{{ 'Rp ' . number_format($item->bangunankantortidaksederhana, 0, ',', '.') }},00</td>
                                     <td style="text-align: center; font-weight:bold; font-size:18px;">{{ 'Rp ' . number_format($item->bangunankantorsederhana, 0, ',', '.') }},00</td>
                                 </tr>
@@ -296,7 +299,7 @@ color: #45a049;
                         <table class="fl-table">
                             <thead>
                                 <tr>
-                                    <th style="text-align:center" colspan="3">Bangunan Gedung Rumah Negara Per M2 (Meter Persegi)</th>
+                                    <th style="text-align:center" colspan="3">Harga Satuan Pembangunan Pagar Gedung Negara Per M2 (Meter Persegi)</th>
                                 </tr>
                                 <tr>
                                     <th style="text-align: center;">Rumah Negara Tipe A</th>
@@ -335,7 +338,7 @@ color: #45a049;
                         <table class="fl-table">
                             <thead>
                                 <tr>
-                                    <th style="text-align:center" colspan="3">Pagar Bangunan Gedung Kantor & Bangunan Lainnya Per M1 (Meter Lari)</th>
+                                    <th style="text-align:center" colspan="3">Harga Satuan Pembangunan Pagar Rumah Negara Per M1 (Meter Lari)</th>
                                 </tr>
                                 <tr>
                                     <th>Pagar Depan M1 (Meter Lari) Rupiah</th>
@@ -376,7 +379,7 @@ color: #45a049;
                         <table class="fl-table">
                             <thead>
                                 <tr>
-                                    <th style="text-align:center" colspan="3">Rumah Negara Per M1 (Meter Lari) </th>
+                                    <th style="text-align:center" colspan="3">Harga Satuan Pembangunan Pagar Rumah Negara Per M1 (Meter Lari) </th>
                                 </tr>
                                 <tr>
                                     <th style="text-align: center">Pagar Depan Rumah Negara M1 (Meter Lari) Rupiah</th>
