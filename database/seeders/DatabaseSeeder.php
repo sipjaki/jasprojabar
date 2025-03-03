@@ -361,10 +361,10 @@ bujkkontraktor::create([
     'email' => 'ramaijayaabadi18@gmail.com',
     'nib' => '9120004380419',
     'pju' => 'LINDA CRISTIYAWATI',
-    'no_akte' => '-',
-    'tanggal' => '2020-10-10',
-    'nama_notaris' => '-',
-    'no_pengesahan' => '-'
+    'no_akte' => null,
+    'tanggal' => null,
+    'nama_notaris' => null,
+    'no_pengesahan' => null
 ]);
 
 // -----------------------
@@ -414,9 +414,9 @@ bujkkontraktorsub ::create([
     'sub_klasifikasi_layanan' => 'Pengerukan',
     'kode' => 'Persyaratan Belum Lengkap (OSS)',
     'kualifikasi' => '',
-    'penerbit' => '',
-    'tanggal_terbit' => '2020-10-10',
-    'masa_berlaku' => '2020-10-10',
+    'penerbit' => '-',
+    'tanggal_terbit' => null,
+    'masa_berlaku' => null,
     'nama_psjk' => '-',
     'sub_kualifikasi_bu' => '-'
 ]);
@@ -426,10 +426,10 @@ bujkkontraktorsub ::create([
     'nama_pengurus' => '-',
     'sub_klasifikasi_layanan' => 'Konstruksi Gedung Hunian',
     'kode' => 'Persyaratan Belum Lengkap (OSS)',
-    'kualifikasi' => '',
-    'penerbit' => '',
-    'tanggal_terbit' => '2020-10-10',
-    'masa_berlaku' => '2020-10-10',
+    'kualifikasi' => '-',
+    'penerbit' => '-',
+    'tanggal_terbit' => null,
+    'masa_berlaku' => null,
     'nama_psjk' => '-',
     'sub_kualifikasi_bu' => '-'
 ]);
@@ -439,10 +439,10 @@ bujkkontraktorsub ::create([
     'nama_pengurus' => '-',
     'sub_klasifikasi_layanan' => 'Konstruksi Gedung Industri',
     'kode' => 'Persyaratan Belum Lengkap (OSS)',
-    'kualifikasi' => '',
-    'penerbit' => '',
-    'tanggal_terbit' => '2020-10-10',
-    'masa_berlaku' => '2020-10-10',
+    'kualifikasi' => '-',
+    'penerbit' => '-',
+    'tanggal_terbit' => null,
+    'masa_berlaku' => null,
     'nama_psjk' => '-',
     'sub_kualifikasi_bu' => '-'
 ]);
@@ -452,10 +452,10 @@ bujkkontraktorsub ::create([
     'nama_pengurus' => '-',
     'sub_klasifikasi_layanan' => 'Konstruksi Gedung Lainnya',
     'kode' => 'Persyaratan Belum Lengkap (OSS)',
-    'kualifikasi' => '',
-    'penerbit' => '',
-    'tanggal_terbit' => '2020-10-10',
-    'masa_berlaku' => '2020-10-10',
+    'kualifikasi' => '-',
+    'penerbit' => '-',
+    'tanggal_terbit' => null,
+    'masa_berlaku' => null,
     'nama_psjk' => '-',
     'sub_kualifikasi_bu' => '-'
 ]);
@@ -465,10 +465,10 @@ bujkkontraktorsub ::create([
     'nama_pengurus' => '-',
     'sub_klasifikasi_layanan' => 'Konstruksi Bangunan Sipil Jembatan, Jalan Layang, Fly Over, dan Underpass',
     'kode' => 'Persyaratan Belum Lengkap (OSS)',
-    'kualifikasi' => '',
-    'penerbit' => '',
-    'tanggal_terbit' => '2020-10-10',
-    'masa_berlaku' => '2020-10-10',
+    'kualifikasi' => '-',
+    'penerbit' => '-',
+    'tanggal_terbit' => null,
+    'masa_berlaku' => null,
     'nama_psjk' => '-',
     'sub_kualifikasi_bu' => '-'
 ]);
@@ -479,10 +479,10 @@ bujkkontraktorsub ::create([
     'nama_pengurus' => '-',
     'sub_klasifikasi_layanan' => 'Instalasi Elektronika',
     'kode' => 'Persyaratan Belum Lengkap (OSS)',
-    'kualifikasi' => '',
-    'penerbit' => '',
-    'tanggal_terbit' => '2020-10-10',
-    'masa_berlaku' => '2020-10-10',
+    'kualifikasi' => '-',
+    'penerbit' => '-',
+    'tanggal_terbit' => null,
+    'masa_berlaku' => null,
     'nama_psjk' => '-',
     'sub_kualifikasi_bu' => '-'
 ]);
@@ -492,10 +492,10 @@ bujkkontraktorsub ::create([
     'nama_pengurus' => '-',
     'sub_klasifikasi_layanan' => 'Konstruksi Bangunan Sipil Minyak dan Gas Bumi',
     'kode' => 'Persyaratan Belum Lengkap (OSS)',
-    'kualifikasi' => '',
-    'penerbit' => '',
-    'tanggal_terbit' => '2020-10-10',
-    'masa_berlaku' => '2020-10-10',
+    'kualifikasi' => '-',
+    'penerbit' => '-',
+    'tanggal_terbit' => null,
+    'masa_berlaku' => null,
     'nama_psjk' => '-',
     'sub_kualifikasi_bu' => '-'
 ]);
@@ -505,10 +505,10 @@ bujkkontraktorsub ::create([
     'nama_pengurus' => '-',
     'sub_klasifikasi_layanan' => 'Penyewaan Alat Konstruksi Dengan Operator',
     'kode' => 'Persyaratan Belum Lengkap (OSS)',
-    'kualifikasi' => '',
-    'penerbit' => '',
-    'tanggal_terbit' => '2020-10-10',
-    'masa_berlaku' => '2020-10-10',
+    'kualifikasi' => '-',
+    'penerbit' => '-',
+    'tanggal_terbit' => null,
+    'masa_berlaku' => null,
     'nama_psjk' => '-',
     'sub_kualifikasi_bu' => '-'
 ]);
@@ -518,10 +518,10 @@ bujkkontraktorsub ::create([
     'nama_pengurus' => '-',
     'sub_klasifikasi_layanan' => 'Aktivitas Keinsinyuran dan Konsultasi Teknis YBDI',
     'kode' => 'Persyaratan Belum Lengkap (OSS)',
-    'kualifikasi' => '',
-    'penerbit' => '',
-    'tanggal_terbit' => '2020-10-10',
-    'masa_berlaku' => '2020-10-10',
+    'kualifikasi' => '-',
+    'penerbit' => '-',
+    'tanggal_terbit' => null,
+    'masa_berlaku' => null,
     'nama_psjk' => '-',
     'sub_kualifikasi_bu' => '-'
 ]);
@@ -531,10 +531,10 @@ bujkkontraktorsub ::create([
     'nama_pengurus' => '-',
     'sub_klasifikasi_layanan' => 'Penyiapan Lahan',
     'kode' => 'Persyaratan Belum Lengkap (OSS)',
-    'kualifikasi' => '',
-    'penerbit' => '',
-    'tanggal_terbit' => '2020-10-10',
-    'masa_berlaku' => '2020-10-10',
+    'kualifikasi' => '-',
+    'penerbit' => '-',
+    'tanggal_terbit' => null,
+    'masa_berlaku' => null,
     'nama_psjk' => '-',
     'sub_kualifikasi_bu' => '-'
 ]);
@@ -544,10 +544,10 @@ bujkkontraktorsub ::create([
     'nama_pengurus' => '-',
     'sub_klasifikasi_layanan' => 'Konstruksi Bangunan Sipil Pertambangan',
     'kode' => 'Persyaratan Belum Lengkap (OSS)',
-    'kualifikasi' => '',
-    'penerbit' => '',
-    'tanggal_terbit' => '2020-10-10',
-    'masa_berlaku' => '2020-10-10',
+    'kualifikasi' => '-',
+    'penerbit' => '-',
+    'tanggal_terbit' => null,
+    'masa_berlaku' => null,
     'nama_psjk' => '-',
     'sub_kualifikasi_bu' => '-'
 ]);
@@ -557,10 +557,10 @@ bujkkontraktorsub ::create([
     'nama_pengurus' => '-',
     'sub_klasifikasi_layanan' => 'Konstruksi Bangunan Sipil Panas Bumi',
     'kode' => 'Persyaratan Belum Lengkap (OSS)',
-    'kualifikasi' => '',
-    'penerbit' => '',
-    'tanggal_terbit' => '2020-10-10',
-    'masa_berlaku' => '2020-10-10',
+    'kualifikasi' => '-',
+    'penerbit' => '-',
+    'tanggal_terbit' => null,
+    'masa_berlaku' => null,
     'nama_psjk' => '-',
     'sub_kualifikasi_bu' => '-'
 ]);
@@ -570,10 +570,10 @@ bujkkontraktorsub ::create([
     'nama_pengurus' => '-',
     'sub_klasifikasi_layanan' => 'Pembongkaran',
     'kode' => 'Persyaratan Belum Lengkap (OSS)',
-    'kualifikasi' => '',
-    'penerbit' => '',
-    'tanggal_terbit' => '2020-10-10',
-    'masa_berlaku' => '2020-10-10',
+    'kualifikasi' => '-',
+    'penerbit' => '-',
+    'tanggal_terbit' => null,
+    'masa_berlaku' => null,
     'nama_psjk' => '-',
     'sub_kualifikasi_bu' => '-'
 ]);
@@ -583,10 +583,10 @@ bujkkontraktorsub ::create([
     'nama_pengurus' => '-',
     'sub_klasifikasi_layanan' => 'Pemasangan Pondasi Dan Tiang Pancang',
     'kode' => 'Persyaratan Belum Lengkap (OSS)',
-    'kualifikasi' => '',
-    'penerbit' => '',
-    'tanggal_terbit' => '2020-10-10',
-    'masa_berlaku' => '2020-10-10',
+    'kualifikasi' => '-',
+    'penerbit' => '-',
+    'tanggal_terbit' => null,
+    'masa_berlaku' => null,
     'nama_psjk' => '-',
     'sub_kualifikasi_bu' => '-'
 ]);
@@ -596,10 +596,10 @@ bujkkontraktorsub ::create([
     'nama_pengurus' => '-',
     'sub_klasifikasi_layanan' => 'Konstruksi Khusus Lainnya Ytdl',
     'kode' => 'Persyaratan Belum Lengkap (OSS)',
-    'kualifikasi' => '',
-    'penerbit' => '',
-    'tanggal_terbit' => '2020-10-10',
-    'masa_berlaku' => '2020-10-10',
+    'kualifikasi' => '-',
+    'penerbit' => '-',
+    'tanggal_terbit' => null,
+    'masa_berlaku' => null,
     'nama_psjk' => '-',
     'sub_kualifikasi_bu' => '-'
 ]);
@@ -609,10 +609,10 @@ bujkkontraktorsub ::create([
     'nama_pengurus' => '-',
     'sub_klasifikasi_layanan' => 'Instalasi Saluran Air (Plambing)',
     'kode' => 'Persyaratan Belum Lengkap (OSS)',
-    'kualifikasi' => '',
-    'penerbit' => '',
-    'tanggal_terbit' => '2020-10-10',
-    'masa_berlaku' => '2020-10-10',
+    'kualifikasi' => '-',
+    'penerbit' => '-',
+    'tanggal_terbit' => null,
+    'masa_berlaku' => null,
     'nama_psjk' => '-',
     'sub_kualifikasi_bu' => '-'
 ]);
@@ -622,10 +622,10 @@ bujkkontraktorsub ::create([
     'nama_pengurus' => '-',
     'sub_klasifikasi_layanan' => 'Pengerjaan Lantai, Dinding, Peralatan Saniter Dan Plafon',
     'kode' => 'Persyaratan Belum Lengkap (OSS)',
-    'kualifikasi' => '',
-    'penerbit' => '',
-    'tanggal_terbit' => '2020-10-10',
-    'masa_berlaku' => '2020-10-10',
+    'kualifikasi' => '-',
+    'penerbit' => '-',
+    'tanggal_terbit' => null,
+    'masa_berlaku' => null,
     'nama_psjk' => '-',
     'sub_kualifikasi_bu' => '-'
 ]);
@@ -635,10 +635,10 @@ bujkkontraktorsub ::create([
     'nama_pengurus' => '-',
     'sub_klasifikasi_layanan' => 'Pengecatan',
     'kode' => 'Persyaratan Belum Lengkap (OSS)',
-    'kualifikasi' => '',
-    'penerbit' => '',
-    'tanggal_terbit' => '2020-10-10',
-    'masa_berlaku' => '2020-10-10',
+    'kualifikasi' => '-',
+    'penerbit' => '-',
+    'tanggal_terbit' => null,
+    'masa_berlaku' => null,
     'nama_psjk' => '-',
     'sub_kualifikasi_bu' => '-'
 ]);
@@ -648,10 +648,10 @@ bujkkontraktorsub ::create([
     'nama_pengurus' => '-',
     'sub_klasifikasi_layanan' => 'Penyelesaian Konstruksi Bangunan Lainnya',
     'kode' => 'Persyaratan Belum Lengkap (OSS)',
-    'kualifikasi' => '',
-    'penerbit' => '',
-    'tanggal_terbit' => '2020-10-10',
-    'masa_berlaku' => '2020-10-10',
+    'kualifikasi' => '-',
+    'penerbit' => '-',
+    'tanggal_terbit' => null,
+    'masa_berlaku' => null,
     'nama_psjk' => '-',
     'sub_kualifikasi_bu' => '-'
 ]);
@@ -661,10 +661,10 @@ bujkkontraktorsub ::create([
     'nama_pengurus' => '-',
     'sub_klasifikasi_layanan' => 'Dekorasi Eksterior',
     'kode' => 'Persyaratan Belum Lengkap (OSS)',
-    'kualifikasi' => '',
-    'penerbit' => '',
-    'tanggal_terbit' => '2020-10-10',
-    'masa_berlaku' => '2020-10-10',
+    'kualifikasi' => '-',
+    'penerbit' => '-',
+    'tanggal_terbit' => null,
+    'masa_berlaku' => null,
     'nama_psjk' => '-',
     'sub_kualifikasi_bu' => '-'
 ]);
@@ -674,10 +674,10 @@ bujkkontraktorsub ::create([
     'nama_pengurus' => '-',
     'sub_klasifikasi_layanan' => 'Konstruksi Khusus Lainnya Ytdl',
     'kode' => 'Persyaratan Belum Lengkap (OSS)',
-    'kualifikasi' => '',
-    'penerbit' => '',
-    'tanggal_terbit' => '2020-10-10',
-    'masa_berlaku' => '2020-10-10',
+    'kualifikasi' => '-',
+    'penerbit' => '-',
+    'tanggal_terbit' => null,
+    'masa_berlaku' => null,
     'nama_psjk' => '-',
     'sub_kualifikasi_bu' => '-'
 ]);
@@ -687,10 +687,10 @@ bujkkontraktorsub ::create([
     'nama_pengurus' => '-',
     'sub_klasifikasi_layanan' => 'Aktivitas Arsitektur',
     'kode' => 'Persyaratan Belum Lengkap (OSS)',
-    'kualifikasi' => '',
-    'penerbit' => '',
-    'tanggal_terbit' => '2020-10-10',
-    'masa_berlaku' => '2020-10-10',
+    'kualifikasi' => '-',
+    'penerbit' => '-',
+    'tanggal_terbit' => null,
+    'masa_berlaku' => null,
     'nama_psjk' => '-',
     'sub_kualifikasi_bu' => '-'
 ]);
@@ -700,12 +700,106 @@ bujkkontraktorsub ::create([
     'nama_pengurus' => '-',
     'sub_klasifikasi_layanan' => 'Konstruksi Jalan Rel',
     'kode' => 'Persyaratan Belum Lengkap (OSS)',
-    'kualifikasi' => '',
-    'penerbit' => '',
-    'tanggal_terbit' => '2020-10-10',
-    'masa_berlaku' => '2020-10-10',
+    'kualifikasi' => '-',
+    'penerbit' => '-',
+    'tanggal_terbit' => null,
+    'masa_berlaku' => null,
     'nama_psjk' => '-',
     'sub_kualifikasi_bu' => '-'
+]);
+
+// ----------------------------
+bujkkontraktor::create([
+    'bujkkontraktorsub_id' => 3, // Ganti dengan ID yang sesuai
+    'asosiasimasjaki_id' => 1, // Ganti dengan ID yang sesuai
+    'namalengkap' => 'TRIBAKTI BINTANG SEJAHTERA',
+    'alamat' => 'BERAN 001/003 Blora Kab. Blora Jawa Tengah',
+    'no_telepon' => null,
+    'email' => 'cvtribaktibintangsejahtera@gmail.com',
+    'nib' => '2601230022904',
+    'pju' => 'IRHAM MUHDLORIN',
+    'no_akte' => '21',
+    'tanggal' => '2024-02-05',
+    'nama_notaris' => 'YANI DWI RAHAYU S.H., M.Kn.',
+    'no_pengesahan' => 'AHU-0006809-AH.01.16'
+]);
+
+bujkkontraktorsub ::create([
+    'bujkkontraktor_id' => 3, // Ganti dengan ID yang sesuai
+    'nama_pengurus' => '-',
+    'sub_klasifikasi_layanan' => 'Konstruksi Gedung Lainnya',
+    'kode' => 'Persyaratan Belum Lengkap (OSS)',
+    'kualifikasi' => '-',
+    'penerbit' => '-',
+    'tanggal_terbit' => null,
+    'masa_berlaku' => null,
+    'nama_psjk' => '-',
+    'sub_kualifikasi_bu' => '-'
+]);
+
+bujkkontraktorsub ::create([
+    'bujkkontraktor_id' => 3, // Ganti dengan ID yang sesuai
+    'nama_pengurus' => '-',
+    'sub_klasifikasi_layanan' => 'Konstruksi Gedung Perkantoran',
+    'kode' => 'Persyaratan Belum Lengkap (OSS)',
+    'kualifikasi' => '-',
+    'penerbit' => '-',
+    'tanggal_terbit' => null,
+    'masa_berlaku' => null,
+    'nama_psjk' => '-',
+    'sub_kualifikasi_bu' => '-'
+]);
+
+bujkkontraktorsub ::create([
+    'bujkkontraktor_id' => 3, // Ganti dengan ID yang sesuai
+    'nama_pengurus' => '-',
+    'sub_klasifikasi_layanan' => 'Konstruksi Jaringan Irigasi dan Drainase',
+    'kode' => 'Persyaratan Belum Lengkap (OSS)',
+    'kualifikasi' => '-',
+    'penerbit' => '-',
+    'tanggal_terbit' => null,
+    'masa_berlaku' => null,
+    'nama_psjk' => '-',
+    'sub_kualifikasi_bu' => '-'
+]);
+
+bujkkontraktorsub ::create([
+    'bujkkontraktor_id' => 3, // Ganti dengan ID yang sesuai
+    'nama_pengurus' => 'ASKIA AZAMZAMI',
+    'sub_klasifikasi_layanan' => 'Konstruksi Bangunan Sipil Jalan',
+    'kode' => 'BS001',
+    'kualifikasi' => 'Kecil',
+    'penerbit' => 'Gamana Krida Bhakti (GAPENSI)',
+    'tanggal_terbit' => '2023-04-16',
+    'masa_berlaku' => '2026-04-15',
+    'nama_psjk' => 'WAWAN SUWANDI',
+    'sub_kualifikasi_bu' => 'Konstruksi Bangunan Sipil Jalan'
+]);
+
+bujkkontraktorsub ::create([
+    'bujkkontraktor_id' => 3, // Ganti dengan ID yang sesuai
+    'nama_pengurus' => 'ASKIA AZAMZAMI',
+    'sub_klasifikasi_layanan' => 'Konstruksi Gedung Kesehatan',
+    'kode' => 'BG005',
+    'kualifikasi' => 'Kecil',
+    'penerbit' => 'Gamana Krida Bhakti (GAPENSI)',
+    'tanggal_terbit' => '2024-08-07',
+    'masa_berlaku' => '2027-08-06',
+    'nama_psjk' => 'AHMAD FAIZAL ABADI',
+    'sub_kualifikasi_bu' => 'Konstruksi Gedung Kesehatan'
+]);
+
+bujkkontraktorsub ::create([
+    'bujkkontraktor_id' => 3, // Ganti dengan ID yang sesuai
+    'nama_pengurus' => 'ASKIA AZAMZAMI',
+    'sub_klasifikasi_layanan' => 'Konstruksi Gedung Pendidikan',
+    'kode' => 'BG006',
+    'kualifikasi' => 'Kecil',
+    'penerbit' => 'Gamana Krida Bhakti (GAPENSI)',
+    'tanggal_terbit' => '2024-08-07',
+    'masa_berlaku' => '2027-08-07',
+    'nama_psjk' => 'AHMAD FAIZAL ABADI',
+    'sub_kualifikasi_bu' => 'Konstruksi Gedung Pendidikan'
 ]);
 
 // fort
