@@ -17,4 +17,14 @@ class profilpaketkonsultasinontender extends Model
     {
         return $this->belongsTo(prosespaketkonsultasinontender::class);
     }
+
+    public function profiljenispekerjaan()
+    {
+        return $this->belongsTo(profiljenispekerjaan::class);
+    }
+
+    public function sumberdana()
+    {
+        return $this->belongsTo(sumberdana::class);
+    }
 }

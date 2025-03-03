@@ -18,4 +18,14 @@ class profilpaketkonsultasi extends Model
         return $this->belongsTo(prosespaketkonsultasi::class);
     }
 
+    public function profiljenispekerjaan()
+    {
+        return $this->belongsTo(profiljenispekerjaan::class);
+    }
+
+    public function sumberdana()
+    {
+        return $this->belongsTo(sumberdana::class);
+    }
+
 }

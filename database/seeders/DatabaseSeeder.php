@@ -95,6 +95,8 @@ use App\Models\peralatankonstruksi;
 use App\Models\alatberat;
 use App\Models\tokobangunanblora;
 use App\Models\shstblora;
+use App\Models\profiljenispekerjaan;
+use App\Models\sumberdana;
 
 
 // modelbaru
@@ -1675,7 +1677,7 @@ bujkkonsultan::create([
     'nama_notaris' => 'Selamet Mulyono M.Kn.',
     'no_pengesahan' => 'AHU-0030674-AH.01.16 Tahun 2022'
 ]);
-// 
+//
 
 bujkkonsultansub ::create([
     'bujkkonsultan_id' => 1, // Ganti dengan ID yang sesuai
@@ -1920,6 +1922,107 @@ bujkkonsultansub::create([
 
 
 
+
+//======================== ===================================================================================
+// DATA NAMA SEKOLAH MAS JAKI BLORA
+profiljenispekerjaan::create([
+    'id' => '1',
+    'jenispekerjaan' => 'Checkdam',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+profiljenispekerjaan::create([
+    'id' => '2',
+    'jenispekerjaan' => 'Belanja Konstruksi',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+profiljenispekerjaan::create([
+    'id' => '3',
+    'jenispekerjaan' => 'Drainase',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+profiljenispekerjaan::create([
+    'id' => '4',
+    'jenispekerjaan' => 'Embung',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+profiljenispekerjaan::create([
+    'id' => '5',
+    'jenispekerjaan' => 'Gedung',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+profiljenispekerjaan::create([
+    'id' => '6',
+    'jenispekerjaan' => 'Irigasi',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+profiljenispekerjaan::create([
+    'id' => '7',
+    'jenispekerjaan' => 'Jalan',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+profiljenispekerjaan::create([
+    'id' => '8',
+    'jenispekerjaan' => 'Jembatan   ',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+profiljenispekerjaan::create([
+    'id' => '9',
+    'jenispekerjaan' => 'Pasar',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+profiljenispekerjaan::create([
+    'id' => '10',
+    'jenispekerjaan' => 'Ruang Terbuka Hijau',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+profiljenispekerjaan::create([
+    'id' => '11',
+    'jenispekerjaan' => 'SPAM',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+
+//======================== ===================================================================================
+// DATA NAMA SEKOLAH MAS JAKI BLORA
+sumberdana::create([
+    'id' => '1',
+    'sumberdana' => 'APBN',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
 
 // fort
 
@@ -5050,457 +5153,224 @@ skktenagakerjabloralist::create([
 
 profilpaketpekerjaanblora::create([
     'prosespaket_id' => 1,
-    'jenispekerjaan' => 'Pekerjaan Konstruksi Gedung',
-    'namapekerjaan' => 'Pembangunan Gedung Perkantoran Blora',
-    'tahunpelaksanaan' => 2023,
-    'cvptpenyedia' => 'CV. Maju Bersama',
-    'nib' => '1234567890',
-    'nilaikontrak' => 500000000.00,
-    'sumberdana' => 'APBD',
-    'jeniskontrak' => 'Kontrak Pembangunan',
-    'karakteristikkontrak' => 'Konstruksi Gedung Perkantoran',
-    'bulanmulai' => '2023-01-01',
-    'bulanselesai' => '2023-12-31',
-    'dinas' => 'Dinas Pekerjaan Umum Blora',
-]);
-
-profilpaketpekerjaanblora::create([
-    'prosespaket_id' => 1,
-    'jenispekerjaan' => 'Pekerjaan Konstruksi Jalan',
-    'namapekerjaan' => 'Pembangunan Jalan Raya Blora',
+    'profiljenispekerjaan_id' => 1,
+    'namapekerjaan' => 'Rehabilitasi Checkdam Talokwohmojo Kec Ngawen Lanjutan',
     'tahunpelaksanaan' => 2024,
-    'cvptpenyedia' => 'PT. Jalan Jaya',
-    'nib' => '9876543210',
-    'nilaikontrak' => 250000000.00,
-    'sumberdana' => 'APBN',
-    'jeniskontrak' => 'Kontrak Pemeliharaan',
-    'karakteristikkontrak' => 'Pemeliharaan Jalan Raya',
-    'bulanmulai' => '2024-03-01',
-    'bulanselesai' => '2024-11-30',
-    'dinas' => 'Dinas Bina Marga Blora',
+    'cvptpenyedia' => 'CV Restu Bumi Mustika',
+    'nib' => '1105240037134',
+    'nilaikontrak' =>  691260716.59,
+    'sumberdana_id' => 1,
+    'jeniskontrak' => 'Harga Satuan',
+    'karakteristikkontrak' => 'Tahun Tunggal',
+    'bulanmulai' => 'Agustus',
+    'bulanselesai' => 'Desember',
+    'dinas' => 'Dinas Pekerjaan Umum dan Penataan Ruang',
 ]);
 
 profilpaketpekerjaanblora::create([
     'prosespaket_id' => 1,
-    'jenispekerjaan' => 'Pekerjaan Infrastruktur',
-    'namapekerjaan' => 'Pembangunan Saluran Air Bersih Blora',
-    'tahunpelaksanaan' => 2025,
-    'cvptpenyedia' => 'CV. Air Bersih Sejahtera',
-    'nib' => '5647382910',
-    'nilaikontrak' => 100000000.00,
-    'sumberdana' => 'APBN',
-    'jeniskontrak' => 'Kontrak Penyediaan Infrastruktur',
-    'karakteristikkontrak' => 'Pembangunan Saluran Air Bersih',
-    'bulanmulai' => '2025-06-01',
-    'bulanselesai' => '2025-12-31',
-    'dinas' => 'Dinas Perumahan dan Permukiman Blora',
+    'profiljenispekerjaan_id' => 2,
+    'namapekerjaan' => 'BELANJA MODAL BANGUNAN KESEHATAN-BELANJA MODAL PAGAR',
+    'tahunpelaksanaan' => 2024,
+    'cvptpenyedia' => 'CV. REZEKY MUJI KONSTRUKSI',
+    'nib' => '3011220047491',
+    'nilaikontrak' =>   857589920.00,
+    'sumberdana_id' => 1,
+    'jeniskontrak' => 'Harga Satuan',
+    'karakteristikkontrak' => 'Tahun Tunggal',
+    'bulanmulai' => 'Oktober',
+    'bulanselesai' => 'Desember',
+    'dinas' => 'Dinas Kesehatan',
 ]);
 
 profilpaketpekerjaanblora::create([
     'prosespaket_id' => 1,
-    'jenispekerjaan' => 'Pekerjaan Pemeliharaan Jalan',
-    'namapekerjaan' => 'Pemeliharaan Jalan Utama Blora',
-    'tahunpelaksanaan' => 2026,
-    'cvptpenyedia' => 'PT. Jalan Sehat',
-    'nib' => '1029384756',
-    'nilaikontrak' => 150000000.00,
-    'sumberdana' => 'APBD',
-    'jeniskontrak' => 'Kontrak Pemeliharaan',
-    'karakteristikkontrak' => 'Pemeliharaan Jalan Utama',
-    'bulanmulai' => '2026-02-01',
-    'bulanselesai' => '2026-08-31',
-    'dinas' => 'Dinas Pekerjaan Umum Blora',
+    'profiljenispekerjaan_id' => 3,
+    'namapekerjaan' => 'Pembangunan Saluran Pengendali Banjir Kecamatan Cepu Lanjutan',
+    'tahunpelaksanaan' => 2024,
+    'cvptpenyedia' => 'CV. KINAN KARYA GEMILANG',
+    'nib' => '0260010050988',
+    'nilaikontrak' =>    763241000.00,
+    'sumberdana_id' => 1,
+    'jeniskontrak' => 'Harga Satuan',
+    'karakteristikkontrak' => 'Tahun Tunggal',
+    'bulanmulai' => 'Juli',
+    'bulanselesai' => 'Desember',
+    'dinas' => 'DINAS PEKERJAAN UMUM DAN PENATAAN RUANG',
 ]);
 
 profilpaketpekerjaanblora::create([
     'prosespaket_id' => 1,
-    'jenispekerjaan' => 'Pekerjaan Pembangunan Jembatan',
-    'namapekerjaan' => 'Pembangunan Jembatan Sungai Blora',
-    'tahunpelaksanaan' => 2027,
-    'cvptpenyedia' => 'PT. Jembatan Permai',
-    'nib' => '3216549870',
-    'nilaikontrak' => 300000000.00,
-    'sumberdana' => 'APBN',
-    'jeniskontrak' => 'Kontrak Pembangunan',
-    'karakteristikkontrak' => 'Pembangunan Jembatan di atas Sungai Blora',
-    'bulanmulai' => '2027-05-01',
-    'bulanselesai' => '2027-12-31',
-    'dinas' => 'Dinas Bina Marga Blora',
+    'profiljenispekerjaan_id' => 3,
+    'namapekerjaan' => 'Pembangunan Saluran Pengendali Banjir Ruas Jalan Sonokidul Kecamatan Kunduran',
+    'tahunpelaksanaan' => 2024,
+    'cvptpenyedia' => 'CV Restu Bumi Mustika',
+    'nib' => '1105240037134',
+    'nilaikontrak' =>     451076000.00,
+    'sumberdana_id' => 1,
+    'jeniskontrak' => 'Harga Satuan',
+    'karakteristikkontrak' => 'Tahun Tunggal',
+    'bulanmulai' => 'Agustus',
+    'bulanselesai' => 'Desember',
+    'dinas' => 'DINAS PEKERJAAN UMUM DAN PENATAAN RUANG',
 ]);
 
 profilpaketpekerjaanblora::create([
     'prosespaket_id' => 1,
-    'jenispekerjaan' => 'Pekerjaan Renovasi Gedung',
-    'namapekerjaan' => 'Renovasi Gedung Pemerintahan Blora',
-    'tahunpelaksanaan' => 2028,
-    'cvptpenyedia' => 'CV. Renovasi Sejahtera',
-    'nib' => '5463728190',
-    'nilaikontrak' => 200000000.00,
-    'sumberdana' => 'APBD',
-    'jeniskontrak' => 'Kontrak Renovasi',
-    'karakteristikkontrak' => 'Renovasi Gedung Pemerintahan',
-    'bulanmulai' => '2028-04-01',
-    'bulanselesai' => '2028-12-31',
-    'dinas' => 'Dinas Perumahan dan Permukiman Blora',
+    'profiljenispekerjaan_id' => 3,
+    'namapekerjaan' => 'PEMBANGUNAN SARANA DAN PRASARANA DRAINASE LINGKUNGAN PERMUKIMAN KUMUH DRAINASE LINGKUNGAN RT 2 RW 9 KELURAHAN CEPU KECAMATAN CEPU KAB. BLORA',
+    'tahunpelaksanaan' => 2024,
+    'cvptpenyedia' => 'CV.KEMBAR DUA',
+    'nib' => '0246000912019',
+    'nilaikontrak' => 161453878.91,
+    'sumberdana_id' => 1,
+    'jeniskontrak' => 'Harga Satuan',
+    'karakteristikkontrak' => 'Tahun Tunggal',
+    'bulanmulai' => 'Agustus',
+    'bulanselesai' => 'November',
+    'dinas' => 'DINAS PERUMAHAN PEMUKIMAN DAN PERHUBUNGAN',
 ]);
 
 profilpaketpekerjaanblora::create([
     'prosespaket_id' => 1,
-    'jenispekerjaan' => 'Pekerjaan Pengadaan Alat Berat',
-    'namapekerjaan' => 'Pengadaan Alat Berat untuk Konstruksi Blora',
-    'tahunpelaksanaan' => 2029,
-    'cvptpenyedia' => 'PT. Alat Berat Nusantara',
-    'nib' => '1938475620',
-    'nilaikontrak' => 80000000.00,
-    'sumberdana' => 'APBN',
-    'jeniskontrak' => 'Kontrak Pengadaan',
-    'karakteristikkontrak' => 'Pengadaan Alat Berat untuk Proyek Konstruksi',
-    'bulanmulai' => '2029-07-01',
-    'bulanselesai' => '2029-12-31',
-    'dinas' => 'Dinas Sumber Daya Alam Blora',
+    'profiljenispekerjaan_id' => 3,
+    'namapekerjaan' => 'Pembangunan Saluran Pengendali Banjir Kel. Kunduran Kec. Kunduran Lanjutan',
+    'tahunpelaksanaan' => 2024,
+    'cvptpenyedia' => 'CV. WIRATAMA GEMILANG',
+    'nib' => 'N/A',
+    'nilaikontrak' =>  421000000.00,
+    'sumberdana_id' => 1,
+    'jeniskontrak' => 'Harga Satuan',
+    'karakteristikkontrak' => 'Tahun Tunggal',
+    'bulanmulai' => 'Agustus',
+    'bulanselesai' => 'Desember',
+    'dinas' => 'DINAS PEKERJAAN UMUM DAN PENATAAN RUANG',
 ]);
+
+profilpaketpekerjaanblora::create([
+    'prosespaket_id' => 1,
+    'profiljenispekerjaan_id' => 4,
+    'namapekerjaan' => 'Rehabilitasi Embung Kelurahan Kunduran Kec Kunduran Lanjutan',
+    'tahunpelaksanaan' => 2024,
+    'cvptpenyedia' => 'CV. RAFI JAYA BERKARYA',
+    'nib' => '9120311032313',
+    'nilaikontrak' =>   675691000.00,
+    'sumberdana_id' => 1,
+    'jeniskontrak' => 'Harga Satuan',
+    'karakteristikkontrak' => 'Tahun Tunggal',
+    'bulanmulai' => 'Juli',
+    'bulanselesai' => 'Desember',
+    'dinas' => 'DINAS PEKERJAAN UMUM DAN PENATAAN RUANG',
+]);
+
+profilpaketpekerjaanblora::create([
+    'prosespaket_id' => 1,
+    'profiljenispekerjaan_id' => 4,
+    'namapekerjaan' => 'Pembangunan Embung Pangkat Purwosari Kecamatan Blora KAB. BLORA',
+    'tahunpelaksanaan' => 2024,
+    'cvptpenyedia' => 'CV. VARIA USAHA MANDIRI',
+    'nib' => '9120303900127',
+    'nilaikontrak' => 598000000.00,
+    'sumberdana_id' => 1,
+    'jeniskontrak' => 'Harga Satuan',
+    'karakteristikkontrak' => 'Tahun Tunggal',
+    'bulanmulai' => 'Agustus',
+    'bulanselesai' => 'Desember',
+    'dinas' => 'DINAS PEKERJAAN UMUM DAN PENATAAN RUANG',
+]);
+
+
+profilpaketpekerjaanblora::create([
+    'prosespaket_id' => 1,
+    'profiljenispekerjaan_id' => 4,
+    'namapekerjaan' => 'Pembangunan Embung Nglebok Kecamatan Cepu Lanjutan',
+    'tahunpelaksanaan' => 2024,
+    'cvptpenyedia' => 'CV. Putro Sembodo',
+    'nib' => '0210010040157',
+    'nilaikontrak' =>  1372970000.00,
+    'sumberdana_id' => 1,
+    'jeniskontrak' => 'Harga Satuan',
+    'karakteristikkontrak' => 'Tahun Tunggal',
+    'bulanmulai' => 'Juli',
+    'bulanselesai' => 'Desember',
+    'dinas' => 'DINAS PEKERJAAN UMUM DAN PENATAAN RUANG',
+]);
+
+profilpaketpekerjaanblora::create([
+    'prosespaket_id' => 1,
+    'profiljenispekerjaan_id' => 4,
+    'namapekerjaan' => 'Pembangunan Embung Desa Gedangdowo Kecamatan Jepon KAB. BLORA',
+    'tahunpelaksanaan' => 2024,
+    'cvptpenyedia' => 'CV. CITROSUMO',
+    'nib' => '0220006292358',
+    'nilaikontrak' => 598300000.00,
+    'sumberdana_id' => 1,
+    'jeniskontrak' => 'Harga Satuan',
+    'karakteristikkontrak' => 'Tahun Tunggal',
+    'bulanmulai' => 'Agustus',
+    'bulanselesai' => 'Desember',
+    'dinas' => 'DINAS PEKERJAAN UMUM DAN PENATAAN RUANG',
+]);
+
+// garis
 
 //======================== ===================================================================================
 // PAKET PEKERJAAN NON TENDER MAS JAKI BLORA
-profilpaketpekerjaannontender::create([
-    'prosespaketnontender_id' => 1,
-    'jenispekerjaan' => 'Pekerjaan Konstruksi Jalan',
-    'namapekerjaan' => 'Rehabilitasi Jalan Kabupaten Blora',
-    'tahunpelaksanaan' => 2023,
-    'cvptpenyedia' => 'PT. Karya Jalan Raya',
-    'nib' => '1122334455',
-    'nilaikontrak' => 600000000.00,
-    'sumberdana' => 'APBD',
-    'jeniskontrak' => 'Kontrak Rehabilitasi',
-    'karakteristikkontrak' => 'Perbaikan dan Rehabilitasi Jalan',
-    'bulanmulai' => '2023-02-01',
-    'bulanselesai' => '2023-10-31',
-    'dinas' => 'Dinas Pekerjaan Umum Blora',
-]);
 
-profilpaketpekerjaannontender::create([
-    'prosespaketnontender_id' => 1,
-    'jenispekerjaan' => 'Pekerjaan Pembangunan Irigasi',
-    'namapekerjaan' => 'Pembangunan Irigasi Desa Blora',
-    'tahunpelaksanaan' => 2024,
-    'cvptpenyedia' => 'CV. Air Lancar',
-    'nib' => '5566778899',
-    'nilaikontrak' => 350000000.00,
-    'sumberdana' => 'APBN',
-    'jeniskontrak' => 'Kontrak Pembangunan',
-    'karakteristikkontrak' => 'Pembangunan Saluran Irigasi',
-    'bulanmulai' => '2024-04-01',
-    'bulanselesai' => '2024-12-31',
-    'dinas' => 'Dinas Pertanian Blora',
-]);
-
-profilpaketpekerjaannontender::create([
-    'prosespaketnontender_id' => 1,
-    'jenispekerjaan' => 'Pekerjaan Pembangunan Jembatan',
-    'namapekerjaan' => 'Pembangunan Jembatan Desa Blora',
-    'tahunpelaksanaan' => 2025,
-    'cvptpenyedia' => 'PT. Jembatan Kuat',
-    'nib' => '9988776655',
-    'nilaikontrak' => 450000000.00,
-    'sumberdana' => 'APBD',
-    'jeniskontrak' => 'Kontrak Pembangunan',
-    'karakteristikkontrak' => 'Pembangunan Jembatan Penghubung',
-    'bulanmulai' => '2025-06-01',
-    'bulanselesai' => '2025-11-30',
-    'dinas' => 'Dinas Bina Marga Blora',
-]);
-
-profilpaketpekerjaannontender::create([
-    'prosespaketnontender_id' => 1,
-    'jenispekerjaan' => 'Pekerjaan Renovasi Gedung',
-    'namapekerjaan' => 'Renovasi Gedung Sekolah Blora',
-    'tahunpelaksanaan' => 2026,
-    'cvptpenyedia' => 'CV. Bangun Sejahtera',
-    'nib' => '3344556677',
-    'nilaikontrak' => 250000000.00,
-    'sumberdana' => 'APBN',
-    'jeniskontrak' => 'Kontrak Renovasi',
-    'karakteristikkontrak' => 'Renovasi Gedung Sekolah',
-    'bulanmulai' => '2026-03-01',
-    'bulanselesai' => '2026-09-30',
-    'dinas' => 'Dinas Pendidikan Blora',
-]);
-
-profilpaketpekerjaannontender::create([
-    'prosespaketnontender_id' => 1,
-    'jenispekerjaan' => 'Pekerjaan Pengadaan Peralatan',
-    'namapekerjaan' => 'Pengadaan Peralatan Kesehatan Blora',
-    'tahunpelaksanaan' => 2027,
-    'cvptpenyedia' => 'PT. Medika Sehat',
-    'nib' => '1122446688',
-    'nilaikontrak' => 180000000.00,
-    'sumberdana' => 'APBD',
-    'jeniskontrak' => 'Kontrak Pengadaan',
-    'karakteristikkontrak' => 'Pengadaan Alat Kesehatan untuk Rumah Sakit',
-    'bulanmulai' => '2027-07-01',
-    'bulanselesai' => '2027-12-31',
-    'dinas' => 'Dinas Kesehatan Blora',
-]);
-
-profilpaketpekerjaannontender::create([
-    'prosespaketnontender_id' => 1,
-    'jenispekerjaan' => 'Pekerjaan Pemeliharaan Jalan',
-    'namapekerjaan' => 'Pemeliharaan Jalan Desa Blora',
-    'tahunpelaksanaan' => 2028,
-    'cvptpenyedia' => 'PT. Aspal Mulus',
-    'nib' => '4455667788',
-    'nilaikontrak' => 220000000.00,
-    'sumberdana' => 'APBD',
-    'jeniskontrak' => 'Kontrak Pemeliharaan',
-    'karakteristikkontrak' => 'Pemeliharaan Jalan Desa',
-    'bulanmulai' => '2028-05-01',
-    'bulanselesai' => '2028-10-31',
-    'dinas' => 'Dinas Pekerjaan Umum Blora',
-]);
-
-profilpaketpekerjaannontender::create([
-    'prosespaketnontender_id' => 1,
-    'jenispekerjaan' => 'Pekerjaan Pembangunan Sistem Drainase',
-    'namapekerjaan' => 'Pembangunan Sistem Drainase Kota Blora',
-    'tahunpelaksanaan' => 2029,
-    'cvptpenyedia' => 'CV. Drainase Lancar',
-    'nib' => '7788990011',
-    'nilaikontrak' => 300000000.00,
-    'sumberdana' => 'APBN',
-    'jeniskontrak' => 'Kontrak Pembangunan',
-    'karakteristikkontrak' => 'Pembangunan Sistem Drainase Kota',
-    'bulanmulai' => '2029-08-01',
-    'bulanselesai' => '2029-12-31',
-    'dinas' => 'Dinas Perumahan dan Permukiman Blora',
-]);
+// profilpaketpekerjaannontender::create([
+//     'prosespaketnontender_id' => 1,
+//     'jenispekerjaan' => 'Pekerjaan Pembangunan Sistem Drainase',
+//     'namapekerjaan' => 'Pembangunan Sistem Drainase Kota Blora',
+//     'tahunpelaksanaan' => 2029,
+//     'cvptpenyedia' => 'CV. Drainase Lancar',
+//     'nib' => '7788990011',
+//     'nilaikontrak' => 300000000.00,
+//     'sumberdana' => 'APBN',
+//     'jeniskontrak' => 'Kontrak Pembangunan',
+//     'karakteristikkontrak' => 'Pembangunan Sistem Drainase Kota',
+//     'bulanmulai' => '2029-08-01',
+//     'bulanselesai' => '2029-12-31',
+//     'dinas' => 'Dinas Perumahan dan Permukiman Blora',
+// ]);
 
 //======================== ===================================================================================
 // PAKET KONSULTASI TENDER MAS JAKI BLORA
-profilpaketkonsultasi::create([
-    'prosespaketkonsultasi_id' => 1,
-    'jenispekerjaan' => 'Pekerjaan Pembangunan Sistem Drainase',
-    'namapekerjaan' => 'Pembangunan Sistem Drainase Kota Blora',
-    'tahunpelaksanaan' => 2029,
-    'cvptpenyedia' => 'CV. Drainase Lancar',
-    'nib' => '7788990011',
-    'nilaikontrak' => 300000000.00,
-    'sumberdana' => 'APBN',
-    'jeniskontrak' => 'Kontrak Pembangunan',
-    'karakteristikkontrak' => 'Pembangunan Sistem Drainase Kota',
-    'bulanmulai' => '2029-08-01',
-    'bulanselesai' => '2029-12-31',
-    'dinas' => 'Dinas Perumahan dan Permukiman Blora',
-]);
 
-profilpaketkonsultasi::create([
-    'prosespaketkonsultasi_id' => 1,
-    'jenispekerjaan' => 'Pekerjaan Rehabilitasi Jalan',
-    'namapekerjaan' => 'Rehabilitasi Jalan Utama Kecamatan Cepu',
-    'tahunpelaksanaan' => 2028,
-    'cvptpenyedia' => 'PT. Jalan Mulus',
-    'nib' => '1122334455',
-    'nilaikontrak' => 500000000.00,
-    'sumberdana' => 'APBD',
-    'jeniskontrak' => 'Kontrak Rehabilitasi',
-    'karakteristikkontrak' => 'Perbaikan Jalan dan Pengaspalan',
-    'bulanmulai' => '2028-05-01',
-    'bulanselesai' => '2028-10-31',
-    'dinas' => 'Dinas Pekerjaan Umum Blora',
-]);
-
-profilpaketkonsultasi::create([
-    'prosespaketkonsultasi_id' => 1,
-    'jenispekerjaan' => 'Pekerjaan Pembangunan Gedung',
-    'namapekerjaan' => 'Pembangunan Gedung Kantor Kecamatan',
-    'tahunpelaksanaan' => 2030,
-    'cvptpenyedia' => 'CV. Bangun Jaya',
-    'nib' => '6677889900',
-    'nilaikontrak' => 750000000.00,
-    'sumberdana' => 'DAK',
-    'jeniskontrak' => 'Kontrak Pembangunan',
-    'karakteristikkontrak' => 'Pembangunan Gedung Bertingkat',
-    'bulanmulai' => '2030-03-01',
-    'bulanselesai' => '2030-09-30',
-    'dinas' => 'Dinas Cipta Karya Blora',
-]);
-
-profilpaketkonsultasi::create([
-    'prosespaketkonsultasi_id' => 1,
-    'jenispekerjaan' => 'Pekerjaan Pengadaan Air Bersih',
-    'namapekerjaan' => 'Pengadaan Sumur Bor dan Instalasi Air',
-    'tahunpelaksanaan' => 2027,
-    'cvptpenyedia' => 'PT. Tirta Sejahtera',
-    'nib' => '9988776655',
-    'nilaikontrak' => 200000000.00,
-    'sumberdana' => 'APBN',
-    'jeniskontrak' => 'Kontrak Pengadaan',
-    'karakteristikkontrak' => 'Pembangunan Sumur Bor dan Pipanisasi',
-    'bulanmulai' => '2027-06-01',
-    'bulanselesai' => '2027-11-30',
-    'dinas' => 'Dinas Perumahan dan Permukiman Blora',
-]);
-
-profilpaketkonsultasi::create([
-    'prosespaketkonsultasi_id' => 1,
-    'jenispekerjaan' => 'Pekerjaan Pembangunan Jembatan',
-    'namapekerjaan' => 'Pembangunan Jembatan Desa Sumber',
-    'tahunpelaksanaan' => 2031,
-    'cvptpenyedia' => 'CV. Jembatan Kuat',
-    'nib' => '3344556677',
-    'nilaikontrak' => 900000000.00,
-    'sumberdana' => 'APBD',
-    'jeniskontrak' => 'Kontrak Konstruksi',
-    'karakteristikkontrak' => 'Pembangunan Jembatan Beton',
-    'bulanmulai' => '2031-04-01',
-    'bulanselesai' => '2031-12-31',
-    'dinas' => 'Dinas Pekerjaan Umum Blora',
-]);
-
-profilpaketkonsultasi::create([
-    'prosespaketkonsultasi_id' => 1,
-    'jenispekerjaan' => 'Pekerjaan Pengadaan Alat Medis',
-    'namapekerjaan' => 'Pengadaan Alat Medis Puskesmas',
-    'tahunpelaksanaan' => 2026,
-    'cvptpenyedia' => 'PT. Medika Sejahtera',
-    'nib' => '5566778899',
-    'nilaikontrak' => 150000000.00,
-    'sumberdana' => 'DAK',
-    'jeniskontrak' => 'Kontrak Pengadaan',
-    'karakteristikkontrak' => 'Pengadaan Alat Medis dan Sarana Kesehatan',
-    'bulanmulai' => '2026-02-01',
-    'bulanselesai' => '2026-07-31',
-    'dinas' => 'Dinas Kesehatan Blora',
-]);
-
-profilpaketkonsultasi::create([
-    'prosespaketkonsultasi_id' => 1,
-    'jenispekerjaan' => 'Pekerjaan Pembangunan Saluran Irigasi',
-    'namapekerjaan' => 'Pembangunan Saluran Irigasi Desa Jiken',
-    'tahunpelaksanaan' => 2032,
-    'cvptpenyedia' => 'CV. Irigasi Jaya',
-    'nib' => '2233445566',
-    'nilaikontrak' => 600000000.00,
-    'sumberdana' => 'APBN',
-    'jeniskontrak' => 'Kontrak Pembangunan',
-    'karakteristikkontrak' => 'Pembangunan Saluran Irigasi Primer',
-    'bulanmulai' => '2032-07-01',
-    'bulanselesai' => '2032-12-31',
-    'dinas' => 'Dinas Pertanian Blora',
-]);
-
-profilpaketkonsultasi::create([
-    'prosespaketkonsultasi_id' => 1,
-    'jenispekerjaan' => 'Pekerjaan Pembangunan Pasar Tradisional',
-    'namapekerjaan' => 'Pembangunan Pasar Tradisional Blora',
-    'tahunpelaksanaan' => 2025,
-    'cvptpenyedia' => 'PT. Pasar Makmur',
-    'nib' => '8899001122',
-    'nilaikontrak' => 800000000.00,
-    'sumberdana' => 'APBD',
-    'jeniskontrak' => 'Kontrak Pembangunan',
-    'karakteristikkontrak' => 'Pembangunan Pasar Tradisional Modern',
-    'bulanmulai' => '2025-03-01',
-    'bulanselesai' => '2025-09-30',
-    'dinas' => 'Dinas Perdagangan Blora',
-]);
+// profilpaketkonsultasi::create([
+//     'prosespaketkonsultasi_id' => 1,
+//     'jenispekerjaan' => 'Pekerjaan Pembangunan Pasar Tradisional',
+//     'namapekerjaan' => 'Pembangunan Pasar Tradisional Blora',
+//     'tahunpelaksanaan' => 2025,
+//     'cvptpenyedia' => 'PT. Pasar Makmur',
+//     'nib' => '8899001122',
+//     'nilaikontrak' => 800000000.00,
+//     'sumberdana' => 'APBD',
+//     'jeniskontrak' => 'Kontrak Pembangunan',
+//     'karakteristikkontrak' => 'Pembangunan Pasar Tradisional Modern',
+//     'bulanmulai' => '2025-03-01',
+//     'bulanselesai' => '2025-09-30',
+//     'dinas' => 'Dinas Perdagangan Blora',
+// ]);
 
 //======================== ===================================================================================
 // PAKET KONSULTASI TENDER MAS JAKI BLORA
-profilpaketkonsultasinontender::create([
-    'prosespaketkonsultasinontender_id' => 1,
-    'jenispekerjaan' => 'Pekerjaan Perencanaan Drainase',
-    'namapekerjaan' => 'Perencanaan Sistem Drainase Kota Blora',
-    'tahunpelaksanaan' => 2029,
-    'cvptpenyedia' => 'CV. Konsultan Drainase',
-    'nib' => '7788990011',
-    'nilaikontrak' => 250000000.00,
-    'sumberdana' => 'APBN',
-    'jeniskontrak' => 'Kontrak Konsultasi',
-    'karakteristikkontrak' => 'Studi dan Perencanaan Drainase Kota',
-    'bulanmulai' => '2029-05-01',
-    'bulanselesai' => '2029-10-31',
-    'dinas' => 'Dinas Pekerjaan Umum Blora',
-]);
 
-profilpaketkonsultasinontender::create([
-    'prosespaketkonsultasinontender_id' => 1,
-    'jenispekerjaan' => 'Pekerjaan Konsultasi Jalan',
-    'namapekerjaan' => 'Studi Kelayakan Rehabilitasi Jalan Utama Kecamatan Cepu',
-    'tahunpelaksanaan' => 2028,
-    'cvptpenyedia' => 'PT. Konsultan Jalan',
-    'nib' => '1122334455',
-    'nilaikontrak' => 400000000.00,
-    'sumberdana' => 'APBD',
-    'jeniskontrak' => 'Kontrak Konsultasi',
-    'karakteristikkontrak' => 'Studi dan Desain Rehabilitasi Jalan',
-    'bulanmulai' => '2028-03-01',
-    'bulanselesai' => '2028-08-31',
-    'dinas' => 'Dinas Pekerjaan Umum Blora',
-]);
 
-profilpaketkonsultasinontender::create([
-    'prosespaketkonsultasinontender_id' => 1,
-    'jenispekerjaan' => 'Pekerjaan Konsultasi Gedung',
-    'namapekerjaan' => 'Perencanaan Gedung Kantor Kecamatan',
-    'tahunpelaksanaan' => 2030,
-    'cvptpenyedia' => 'CV. Arsitek Jaya',
-    'nib' => '6677889900',
-    'nilaikontrak' => 600000000.00,
-    'sumberdana' => 'DAK',
-    'jeniskontrak' => 'Kontrak Konsultasi',
-    'karakteristikkontrak' => 'Perencanaan dan Desain Gedung Bertingkat',
-    'bulanmulai' => '2030-02-01',
-    'bulanselesai' => '2030-07-31',
-    'dinas' => 'Dinas Cipta Karya Blora',
-]);
-
-profilpaketkonsultasinontender::create([
-    'prosespaketkonsultasinontender_id' => 1,
-    'jenispekerjaan' => 'Pekerjaan Studi Air Bersih',
-    'namapekerjaan' => 'Studi Pengadaan Sumur Bor dan Instalasi Air',
-    'tahunpelaksanaan' => 2027,
-    'cvptpenyedia' => 'PT. Konsultan Tirta',
-    'nib' => '9988776655',
-    'nilaikontrak' => 180000000.00,
-    'sumberdana' => 'APBN',
-    'jeniskontrak' => 'Kontrak Konsultasi',
-    'karakteristikkontrak' => 'Analisis Kebutuhan dan Perencanaan Air Bersih',
-    'bulanmulai' => '2027-04-01',
-    'bulanselesai' => '2027-09-30',
-    'dinas' => 'Dinas Perumahan dan Permukiman Blora',
-]);
-
-profilpaketkonsultasinontender::create([
-    'prosespaketkonsultasinontender_id' => 1,
-    'jenispekerjaan' => 'Pekerjaan Studi Jembatan',
-    'namapekerjaan' => 'Analisis dan Desain Jembatan Desa Sumber',
-    'tahunpelaksanaan' => 2031,
-    'cvptpenyedia' => 'CV. Konsultan Jembatan',
-    'nib' => '3344556677',
-    'nilaikontrak' => 700000000.00,
-    'sumberdana' => 'APBD',
-    'jeniskontrak' => 'Kontrak Konsultasi',
-    'karakteristikkontrak' => 'Studi Kelayakan dan Desain Jembatan Beton',
-    'bulanmulai' => '2031-03-01',
-    'bulanselesai' => '2031-09-30',
-    'dinas' => 'Dinas Pekerjaan Umum Blora',
-]);
-
-profilpaketkonsultasinontender::create([
-    'prosespaketkonsultasinontender_id' => 1,
-    'jenispekerjaan' => 'Pekerjaan Studi Medis',
-    'namapekerjaan' => 'Kajian Pengadaan Alat Medis Puskesmas',
-    'tahunpelaksanaan' => 2026,
-    'cvptpenyedia' => 'PT. Medika Konsultan',
-    'nib' => '5566778899',
-    'nilaikontrak' => 120000000.00,
-    'sumberdana' => 'DAK',
-    'jeniskontrak' => 'Kontrak Konsultasi',
-    'karakteristikkontrak' => 'Analisis Kebutuhan dan Spesifikasi Alat Medis',
-    'bulanmulai' => '2026-01-01',
-    'bulanselesai' => '2026-06-30',
-    'dinas' => 'Dinas Kesehatan Blora',
-]);
+// profilpaketkonsultasinontender::create([
+//     'prosespaketkonsultasinontender_id' => 1,
+//     'jenispekerjaan' => 'Pekerjaan Studi Medis',
+//     'namapekerjaan' => 'Kajian Pengadaan Alat Medis Puskesmas',
+//     'tahunpelaksanaan' => 2026,
+//     'cvptpenyedia' => 'PT. Medika Konsultan',
+//     'nib' => '5566778899',
+//     'nilaikontrak' => 120000000.00,
+//     'sumberdana' => 'DAK',
+//     'jeniskontrak' => 'Kontrak Konsultasi',
+//     'karakteristikkontrak' => 'Analisis Kebutuhan dan Spesifikasi Alat Medis',
+//     'bulanmulai' => '2026-01-01',
+//     'bulanselesai' => '2026-06-30',
+//     'dinas' => 'Dinas Kesehatan Blora',
+// ]);
 
 
 // =========================================================
@@ -5509,9 +5379,90 @@ prosespaket::create([
     'profilpaketpekerjaanblora_id' => 1, // Sesuaikan dengan ID yang ada di tabel terkait
     'persiapan' => 'SELESAI',
     'pengadaan' => 'SELESAI',
-    'pelaksanaan' => 'BELUM DI MULAI',
-    'pemeliharaan' => 'BELUM DI MULAI',
-    'paketselesai' => 'BELUM DI MULAI',
+    'pelaksanaan' => 'SELESAI',
+    'pemeliharaan' => 'SELESAI',
+    'paketselesai' => 'SELESAI',
+]);
+
+prosespaket::create([
+    'profilpaketpekerjaanblora_id' => 2, // Sesuaikan dengan ID yang ada di tabel terkait
+    'persiapan' => 'SELESAI',
+    'pengadaan' => 'SELESAI',
+    'pelaksanaan' => 'SELESAI',
+    'pemeliharaan' => 'SELESAI',
+    'paketselesai' => 'SELESAI',
+]);
+
+prosespaket::create([
+    'profilpaketpekerjaanblora_id' => 3, // Sesuaikan dengan ID yang ada di tabel terkait
+    'persiapan' => 'SELESAI',
+    'pengadaan' => 'SELESAI',
+    'pelaksanaan' => 'SELESAI',
+    'pemeliharaan' => 'SELESAI',
+    'paketselesai' => 'SELESAI',
+]);
+
+prosespaket::create([
+    'profilpaketpekerjaanblora_id' => 4, // Sesuaikan dengan ID yang ada di tabel terkait
+    'persiapan' => 'SELESAI',
+    'pengadaan' => 'SELESAI',
+    'pelaksanaan' => 'SELESAI',
+    'pemeliharaan' => 'SELESAI',
+    'paketselesai' => 'SELESAI',
+]);
+
+prosespaket::create([
+    'profilpaketpekerjaanblora_id' => 5, // Sesuaikan dengan ID yang ada di tabel terkait
+    'persiapan' => 'SELESAI',
+    'pengadaan' => 'SELESAI',
+    'pelaksanaan' => 'SELESAI',
+    'pemeliharaan' => 'SELESAI',
+    'paketselesai' => 'SELESAI',
+]);
+
+prosespaket::create([
+    'profilpaketpekerjaanblora_id' => 6, // Sesuaikan dengan ID yang ada di tabel terkait
+    'persiapan' => 'SELESAI',
+    'pengadaan' => 'SELESAI',
+    'pelaksanaan' => 'SELESAI',
+    'pemeliharaan' => 'SELESAI',
+    'paketselesai' => 'SELESAI',
+]);
+
+prosespaket::create([
+    'profilpaketpekerjaanblora_id' => 7, // Sesuaikan dengan ID yang ada di tabel terkait
+    'persiapan' => 'SELESAI',
+    'pengadaan' => 'SELESAI',
+    'pelaksanaan' => 'SELESAI',
+    'pemeliharaan' => 'SELESAI',
+    'paketselesai' => 'SELESAI',
+]);
+
+prosespaket::create([
+    'profilpaketpekerjaanblora_id' => 8, // Sesuaikan dengan ID yang ada di tabel terkait
+    'persiapan' => 'SELESAI',
+    'pengadaan' => 'SELESAI',
+    'pelaksanaan' => 'SELESAI',
+    'pemeliharaan' => 'SELESAI',
+    'paketselesai' => 'SELESAI',
+]);
+
+prosespaket::create([
+    'profilpaketpekerjaanblora_id' => 9, // Sesuaikan dengan ID yang ada di tabel terkait
+    'persiapan' => 'SELESAI',
+    'pengadaan' => 'SELESAI',
+    'pelaksanaan' => 'SELESAI',
+    'pemeliharaan' => 'SELESAI',
+    'paketselesai' => 'SELESAI',
+]);
+
+prosespaket::create([
+    'profilpaketpekerjaanblora_id' => 10, // Sesuaikan dengan ID yang ada di tabel terkait
+    'persiapan' => 'SELESAI',
+    'pengadaan' => 'SELESAI',
+    'pelaksanaan' => 'SELESAI',
+    'pemeliharaan' => 'SELESAI',
+    'paketselesai' => 'SELESAI',
 ]);
 
 prosespaketnontender::create([
