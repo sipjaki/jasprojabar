@@ -203,12 +203,12 @@ color: #45a049;
                                     <!-- Tombol dan kolom pencarian di kanan -->
                                     <div style="display: flex; align-items: center;">
 
-
+{{--
                                         <a href="/datajakon/datapaketpekerjaanblora" style="background: white;">
                                             <button class="kembali" style="border: none; font-size: 12px; cursor: pointer; margin-right: 10px;">
                                                 <i class="fas fa-arrow-circle-left mr-2" style="margin-right: 15px; color:red;"></i> KEMBALI
                                             </button>
-                                        </a>
+                                        </a> --}}
 
                                     </div>
                                 </div>
