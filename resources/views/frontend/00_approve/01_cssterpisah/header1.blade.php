@@ -157,8 +157,14 @@
                         <li class="active has-dropdown">
 							<a href="#">DATA JAKON</a>
 							<ul class="list-unstyled">
-								<li><a href="/datajakon/bujk">BUJK Kontraktor dan Konsultan</a></li>
-								{{-- <li><a href="/404">BUJK Konsultan</a></li> --}}
+								<li><a href="#">Badan Usaha Jasa Konstruksi</a>
+                                    <ul class="list-unstyled">
+                                        <li><a href="/datajakon/bujkkontraktor">BUJK Konstruksi</a></li>
+                                        <li><a href="/datajakon/bujkkonsultan">BUJK Konsultan</a></li>
+                                        <li><a href="/datajakon/bujkkonsultan">Asosiasi Konstruksi</a></li>
+                                        <li><a href="/datajakon/statistikabujkblora">Data Statistik BUJK</a></li>
+                                    </ul>
+                                </li>
 								<li><a href="/datajakon/skktenagakerja">Tenaga Kerja Konstruksi</a></li>
 								<li><a href="/datajakon/datapaketpekerjaanblora">Profil Paket Pekerjaan Konstruksi & Konsultasi</a></li>
 							</ul><!-- list-unstyled -->
