@@ -148,16 +148,16 @@ Route::get('/datajakon/skktenagakerjabloralist/{nama}', [SkktenagakerjabloraCont
 Route::get('/datajakon/datapaketpekerjaanblora', [ProfilpaketpekerjaanbloraController::class, 'index']);
 // =--
 Route::get('/datajakon/paketpekerjaantender', [ProfilpaketpekerjaanbloraController::class, 'paketpekerjaantender']);
-Route::get('/datajakon/paketpekerjaantender/{jenispekerjaan}', [ProfilpaketpekerjaanbloraController::class, 'datapaketpekerjaanblorashow']);
+Route::get('/datajakon/paketpekerjaantender/{namapekerjaan}', [ProfilpaketpekerjaanbloraController::class, 'datapaketpekerjaanblorashow']);
 // =--
 Route::get('/datajakon/paketpekerjaannontender', [ProfilpaketpekerjaannontenderController::class, 'paketpekerjaannontender']);
-Route::get('/datajakon/paketpekerjaannontender/{jenispekerjaan}', [ProfilpaketpekerjaannontenderController::class, 'paketpekerjaannontendershow']);
+Route::get('/datajakon/paketpekerjaannontender/{namapekerjaan}', [ProfilpaketpekerjaannontenderController::class, 'paketpekerjaannontendershow']);
 // =--
 Route::get('/datajakon/paketkonsultasitender', [ProfilpaketkonsultasiController::class, 'paketkonsultasi']);
-Route::get('/datajakon/paketkonsultasitender/{jenispekerjaan}', [ProfilpaketkonsultasiController::class, 'paketkonsultasishow']);
+Route::get('/datajakon/paketkonsultasitender/{namapekerjaan}', [ProfilpaketkonsultasiController::class, 'paketkonsultasishow']);
 // =--
 Route::get('/datajakon/paketkonsultasinontender', [ProfilpaketkonsultasinontenderController::class, 'paketkonsultasinontender']);
-Route::get('/datajakon/paketkonsultasinontender/{jenispekerjaan}', [ProfilpaketkonsultasinontenderController::class, 'paketkonsultasinontendershow']);
+Route::get('/datajakon/paketkonsultasinontender/{namapekerjaan}', [ProfilpaketkonsultasinontenderController::class, 'paketkonsultasinontendershow']);
 
 // ---------------------- 05 DATA JAKON BUJK KONTRAKTOR-----------------------//
 // ------------- HALAMAN AGENDA PEMBINAAN MAS JAKI BLORA -----------------
