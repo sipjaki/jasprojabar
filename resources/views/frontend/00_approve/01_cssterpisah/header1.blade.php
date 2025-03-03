@@ -161,7 +161,7 @@
                                     <ul class="list-unstyled">
                                         <li><a href="/datajakon/bujkkontraktor">BUJK Konstruksi</a></li>
                                         <li><a href="/datajakon/bujkkonsultan">BUJK Konsultan</a></li>
-                                        <li><a href="/datajakon/bujkkonsultan">Asosiasi Konstruksi</a></li>
+                                        <li><a href="/datajakon/asosiasimasjaki">Asosiasi Konstruksi</a></li>
                                         <li><a href="/datajakon/statistikabujkblora">Data Statistik BUJK</a></li>
                                     </ul>
                                 </li>
