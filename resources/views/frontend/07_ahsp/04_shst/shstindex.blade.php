@@ -259,7 +259,7 @@ color: #45a049;
                             <thead>
                                 <tr>
                                     <th style="text-align:center" rowspan="2"><img src="/assets/icon/pupr.png" class="img-fluid" alt="img-25" width="50" height="50" style="margin-right: 20px;" loading="lazy"></th>
-                                    <th style="text-align:center" colspan="2"> Harga Satuan Perumahan Bangunan Gedung Negara Per M2 (Meter Persegi)</th>
+                                    <th style="text-align:center" colspan="2"> Harga Satuan Pembangunan Gedung Negara Per M2 (Meter Persegi)</th>
                                     {{-- <th style="text-align:center" >View</th> --}}
                                 </tr>
                                 <tr>
@@ -281,7 +281,7 @@ color: #45a049;
                         </table>
                         </div>
 
-                        <section class="document-section" style="margin-top: -215px; margin-bottom:35px;" >
+                        {{-- <section class="document-section" style="margin-top: -215px; margin-bottom:35px;" >
 
                         <div style="display: flex; justify-content: space-between; width: 100%; align-items: center; margin-top: 20px;">
                             <!-- Tombol di kiri -->
@@ -293,13 +293,14 @@ color: #45a049;
                             </a>
                             <body>
 
-                            </section>
+                            </section> --}}
 
                         <div class="table-wrapper" style="margin-top:-130px; margin-bottom:150px;">
                         <table class="fl-table">
                             <thead>
                                 <tr>
-                                    <th style="text-align:center" colspan="3">Harga Satuan Pembangunan Pagar Gedung Negara Per M2 (Meter Persegi)</th>
+                                    <th style="text-align:center" rowspan="3"><img src="/assets/icon/pupr.png" class="img-fluid" alt="img-25" width="50" height="50" style="margin-right: 20px;" loading="lazy"></th>
+                                    <th style="text-align:center" colspan="3">Harga Satuan Pembangunan Rumah Negara Per M2 (Meter Persegi)</th>
                                 </tr>
                                 <tr>
                                     <th style="text-align: center;">Rumah Negara Tipe A</th>
@@ -310,6 +311,7 @@ color: #45a049;
                             <tbody>
                                 @foreach ($data as $item )
                                 <tr>
+                                    <td></td>
                                     <td style="text-align: center; font-weight:bold; font-size:18px;">{{ 'Rp ' . number_format($item->rumahnegaratipea, 0, ',', '.') }},00</td>
                                     <td style="text-align: center; font-weight:bold; font-size:18px;">{{ 'Rp ' . number_format($item->rumahnegaratipea, 0, ',', '.') }},00</td>
                                     <td style="text-align: center; font-weight:bold; font-size:18px;">{{ 'Rp ' . number_format($item->rumahnegaratipecde, 0, ',', '.') }},00</td>
@@ -320,7 +322,7 @@ color: #45a049;
                         </table>
                         </div>
 
-                        <section class="document-section" style="margin-top: -215px; margin-bottom:35px;" >
+                        {{-- <section class="document-section" style="margin-top: -215px; margin-bottom:35px;" >
 
                         <div style="display: flex; justify-content: space-between; width: 100%; align-items: center; margin-top: 20px;">
                             <!-- Tombol di kiri -->
@@ -332,13 +334,14 @@ color: #45a049;
                             </a>
                             <body>
 
-                            </section>
+                            </section> --}}
 
                         <div class="table-wrapper" style="margin-top:-130px; margin-bottom:150px;">
                         <table class="fl-table">
                             <thead>
                                 <tr>
-                                    <th style="text-align:center" colspan="3">Harga Satuan Pembangunan Pagar Rumah Negara Per M1 (Meter Lari)</th>
+                                    <th style="text-align:center" rowspan="3"><img src="/assets/icon/pupr.png" class="img-fluid" alt="img-25" width="50" height="50" style="margin-right: 20px;" loading="lazy"></th>
+                                    <th style="text-align:center" colspan="3">Harga Satuan Pembangunan Pagar Gedung Negara Per M1 (Meter Lari)</th>
                                 </tr>
                                 <tr>
                                     <th>Pagar Depan M1 (Meter Lari) Rupiah</th>
@@ -350,6 +353,7 @@ color: #45a049;
 
                                 @foreach ($data as $item )
                                 <tr>
+                                    <td></td>
                                     <td style="text-align: center; font-weight:bold; font-size:18px;">{{ 'Rp ' . number_format($item->pagarrumahdepan, 0, ',', '.') }},00</td>
                                     <td style="text-align: center; font-weight:bold; font-size:18px;">{{ 'Rp ' . number_format($item->pagarrumahbelakang, 0, ',', '.') }},00</td>
                                     <td style="text-align: center; font-weight:bold; font-size:18px;">{{ 'Rp ' . number_format($item->pagarrumahsamping, 0, ',', '.') }},00</td>
@@ -361,7 +365,7 @@ color: #45a049;
                         </div>
 
 
-                        <section class="document-section" style="margin-top: -215px; margin-bottom:35px;" >
+                        {{-- <section class="document-section" style="margin-top: -215px; margin-bottom:35px;" >
 
                         <div style="display: flex; justify-content: space-between; width: 100%; align-items: center; margin-top: 20px;">
                             <!-- Tombol di kiri -->
@@ -373,12 +377,13 @@ color: #45a049;
                             </a>
                             <body>
 
-                            </section>
+                            </section> --}}
 
                         <div class="table-wrapper" style="margin-top:-130px; margin-bottom:150px;">
                         <table class="fl-table">
                             <thead>
                                 <tr>
+                                    <th style="text-align:center" rowspan="3"><img src="/assets/icon/pupr.png" class="img-fluid" alt="img-25" width="50" height="50" style="margin-right: 20px;" loading="lazy"></th>
                                     <th style="text-align:center" colspan="3">Harga Satuan Pembangunan Pagar Rumah Negara Per M1 (Meter Lari) </th>
                                 </tr>
                                 <tr>
@@ -391,6 +396,7 @@ color: #45a049;
 
                                 @foreach ($data as $item )
                                 <tr>
+                                    <td></td>
                                     <td style="text-align: center; font-weight:bold; font-size:18px;">{{ 'Rp ' . number_format($item->pagarrumahnegaradepan, 0, ',', '.') }},00</td>
                                     <td style="text-align: center; font-weight:bold; font-size:18px;">{{ 'Rp ' . number_format($item->pagarrumahnegarabelakang, 0, ',', '.') }},00</td>
                                     <td style="text-align: center; font-weight:bold; font-size:18px;">{{ 'Rp ' . number_format($item->pagarrumahnegarasamping, 0, ',', '.') }},00</td>

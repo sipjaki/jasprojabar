@@ -5288,16 +5288,16 @@ peralatankonstruksi::create([
     // PENGAWASAN BUJK MAS JAKI BLORA
     shstblora::create([
         'kabupaten' => 'Blora',
-        'bangunankantortidaksederhana' => '6050000',
-        'bangunankantorsederhana' => '4810000',
-        'rumahnegaratipea' => '5820000',
-        'rumahnegaratipeb' => '5570000',
-        'rumahnegaratipecde' => '4810000',
-        'pagarrumahdepan' => '2700000',
-        'pagarrumahbelakang' => '2290000',
-        'pagarrumahsamping' => '2210000',
-        'pagarrumahnegaradepan' => '2470000',
-        'pagarrumahnegarabelakang' => '1450000',
+        'bangunankantortidaksederhana' => '6080000',
+        'bangunankantorsederhana' => '5050000',
+        'rumahnegaratipea' => '5940000',
+        'rumahnegaratipeb' => '5370000',
+        'rumahnegaratipecde' => '4630000',
+        'pagarrumahdepan' => '2730000',
+        'pagarrumahbelakang' => '2090000',
+        'pagarrumahsamping' => '1440000',
+        'pagarrumahnegaradepan' => '2310000',
+        'pagarrumahnegarabelakang' => '2030000',
         'pagarrumahnegarasamping' => '1380000',
     ]);
 
