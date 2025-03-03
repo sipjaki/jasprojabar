@@ -206,9 +206,15 @@
 							<ul class="list-unstyled">
                                 <li><a href="#">AHSP Keciptakaryaan</a>
 									<ul class="list-unstyled">
+                                        <li><a href="#">Satuan Harga Dasar</a>
+                                            <ul class="list-unstyled">
+                                                <li><a href="/404">Harga Satuan Material</a></li>
+                                                <li><a href="/404">Harga Satuan Upah Tenaga Kerja</a></li>
+                                                <li><a href="/404">Harga Satuan Peralatan</a></li>
+                                            </ul>
+                                        </li>
 										<li><a href="/hspkonstruksiumum">HSP Konstruksi Umum</a></li>
 										<li><a href="/shstblora">SHST Konstruksi Kab Blora</a></li>
-										<li><a href="/satuanhargamaterial">Satuan Harga Dasar</a></li>
                                     </ul><!-- list-unstyled -->
 								</li>
                                 <li><a href="/404">AHSP Bina Marga </a></li>

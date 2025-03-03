@@ -17,7 +17,6 @@ use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\DB;
 
 
-
 class SkktenagakerjabloraController extends Controller
 {
     //
