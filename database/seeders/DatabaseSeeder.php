@@ -1675,6 +1675,7 @@ bujkkonsultan::create([
     'nama_notaris' => 'Selamet Mulyono M.Kn.',
     'no_pengesahan' => 'AHU-0030674-AH.01.16 Tahun 2022'
 ]);
+// 
 
 bujkkonsultansub ::create([
     'bujkkonsultan_id' => 1, // Ganti dengan ID yang sesuai
