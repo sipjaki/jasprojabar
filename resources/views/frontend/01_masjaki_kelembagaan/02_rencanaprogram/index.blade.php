@@ -9,7 +9,7 @@
 	<section class="page-banner" style="background-image: url('/assets/approve/image/bg/page-banner.png')">
 		<div class="container">
 			<div class="page-banner-title">
-				<h3 style="color: black">{{$title}}</h3>
+				<h3 style="color: black; font-size:30px;">{{$title}}</h3>
 			</div><!-- page-banner-title -->
 		</div><!-- container -->
 	</section><!--page-banner-->
@@ -49,12 +49,9 @@
 				</div><!-- portfolio-details-content-title -->
 				<div class="portfolio-details-content-text">
 					<p style="text-align: justify" >
-                        Rencana Strategis Dinas Pekerjaan Umum dan Penataan Ruang (DPUPR) Pemerintah Kabupaten Blora dirancang untuk mencapai visi pembangunan infrastruktur yang berkualitas dan berkelanjutan, seiring dengan kebutuhan masyarakat yang terus berkembang. Rencana ini bertujuan untuk meningkatkan efisiensi dan efektivitas dalam pelaksanaan tugas-tugas Dinas PUPR melalui berbagai program yang mencakup pembangunan dan pemeliharaan infrastruktur seperti jalan, jembatan, dan fasilitas umum lainnya. Selain itu, penataan ruang wilayah yang terencana menjadi fokus utama dalam rangka menciptakan keseimbangan antara pembangunan fisik dan pelestarian lingkungan.
+                        OPD yang menangani Bina Jasa Konstruksi di DPUPR Kab Blora setara dengan Eselon IV di bawah Bidang Bangunan Gedung. Pada Bidang Bangunan Gedung terdapat 2 Sub Koordinator yaitu Sub Koordinator Bangunan dan Lingkungan serta Sub Koordinator Bina Jasa Konstruksi. Hal tersebut tertuang dalam Peraturan Bupati No 66 Tahun 2021 Tentang Kedudukan, Susunan Organisasi, Tugas dan Fungsi, Serta Tata Kerja Dinas Pekerjaan Umum dan Penataan Ruang Kabupaten Blora. Sub Koordinator Bina Jasa Konstruksi mempunyai 4 Personil Jabatan Fungsional Bina Jasa Konstruksi
                     </p>
 
-                    <p style="text-align: justify">
-                        Dalam rencana strategis ini, DPUPR Kabupaten Blora akan memprioritaskan pembangunan yang berbasis pada kebutuhan masyarakat, dengan memperhatikan potensi sumber daya yang ada serta menjamin keberlanjutan pembangunan di masa depan. Program-program unggulan seperti pengelolaan sumber daya air, pengembangan sistem transportasi yang terintegrasi, serta pembangunan infrastruktur yang ramah lingkungan akan dijalankan dengan melibatkan berbagai pihak, baik itu pemerintah pusat, daerah, maupun masyarakat. Dengan landasan tersebut, DPUPR Kabupaten Blora berkomitmen untuk mempercepat pencapaian pembangunan yang merata dan meningkatkan kualitas hidup masyarakat Blora secara keseluruhan.
-                    </p >
                 </div><!-- portfolio-details-content-text -->
 			</div><!-- portfolio-details-content -->
 		</div><!-- container -->

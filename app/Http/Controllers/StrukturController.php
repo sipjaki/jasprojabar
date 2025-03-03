@@ -448,7 +448,7 @@ public function rencanastrategisdpuprkabblora()
     $user = Auth::user();
 
     return view('frontend.01_masjaki_kelembagaan.02_rencanaprogram.index', [
-        'title' => 'Rencana Strategis DPUPR Kabupaten Blora',
+        'title' => 'Profil Jakon DPUPR Kabupaten Blora',
         'data' => $data, // Mengirimkan data paginasi ke view
         'user' => $user, // Mengirimkan data paginasi ke view
     ]);
