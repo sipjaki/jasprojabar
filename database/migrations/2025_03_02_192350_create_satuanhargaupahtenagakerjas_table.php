@@ -13,6 +13,13 @@ return new class extends Migration
     {
         Schema::create('satuanhargaupahtenagakerjas', function (Blueprint $table) {
             $table->id();
+            $table->string('uraian')->nullable();
+            $table->string('kode')->nullable();
+            $table->string('satuan')->nullable();
+            $table->string('besaran')->nullable();
+            $table->string('besaranperjam')->nullable();
+            $table->string('keterangan')->nullable();
+            $table->softDeletes();
             $table->timestamps();
         });
     }

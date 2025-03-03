@@ -98,6 +98,7 @@ use App\Models\shstblora;
 use App\Models\profiljenispekerjaan;
 use App\Models\sumberdana;
 use App\Models\satuanhargamaterial;
+use App\Models\satuanhargaupahtenagakerja;
 
 
 // modelbaru
@@ -5545,6 +5546,161 @@ satuanhargamaterial::create([
     'uraian' => 'Dolken kayu φ 8- 10/400 cm',
     'satuan' => 'M1',
     'besaran' => '14600',
+    'keterangan' => 'AHSP Kab Blora Tahun 2025',
+]);
+
+//======================== ===================================================================================
+// SATUAN HARGA UPAH MAS JAKI BLORA
+satuanhargaupahtenagakerja::create([
+    'uraian' => 'Pekerja',
+    'kode' => 'L.01',
+    'satuan' => 'Orang/Hari',
+    'besaran' => '96000',
+    'besaranperjam' => '13714',
+    'keterangan' => 'AHSP Kab Blora Tahun 2025',
+]);
+
+satuanhargaupahtenagakerja::create([
+    'uraian' => 'Tukang',
+    'kode' => 'L.02',
+    'satuan' => 'Orang/Hari',
+    'besaran' => '106000',
+    'besaranperjam' => '15143',
+    'keterangan' => 'AHSP Kab Blora Tahun 2025',
+]);
+
+satuanhargaupahtenagakerja::create([
+    'uraian' => 'Tukang batu/tembok',
+    'kode' => 'L.02',
+    'satuan' => 'Orang/Hari',
+    'besaran' => '106000',
+    'besaranperjam' => '15143',
+    'keterangan' => 'AHSP Kab Blora Tahun 2025',
+]);
+
+satuanhargaupahtenagakerja::create([
+    'uraian' => 'Tukang kayu',
+    'kode' => 'L.02',
+    'satuan' => 'Orang/Hari',
+    'besaran' => '106000',
+    'besaranperjam' => '15143',
+    'keterangan' => 'AHSP Kab Blora Tahun 2025',
+]);
+
+satuanhargaupahtenagakerja::create([
+    'uraian' => 'Tukang besi/besi beton',
+    'kode' => 'L.02',
+    'satuan' => 'Orang/Hari',
+    'besaran' => '106000',
+    'besaranperjam' => '15143',
+    'keterangan' => 'AHSP Kab Blora Tahun 2025',
+]);
+
+satuanhargaupahtenagakerja::create([
+    'uraian' => 'Tukang cat/pelitur',
+    'kode' => 'L.02',
+    'satuan' => 'Orang/Hari',
+    'besaran' => '106000',
+    'besaranperjam' => '15143',
+    'keterangan' => 'AHSP Kab Blora Tahun 2025',
+]);
+
+satuanhargaupahtenagakerja::create([
+    'uraian' => 'Tukang pipa',
+    'kode' => 'L.02',
+    'satuan' => 'Orang/Hari',
+    'besaran' => '106000',
+    'besaranperjam' => '15143',
+    'keterangan' => 'AHSP Kab Blora Tahun 2025',
+]);
+
+satuanhargaupahtenagakerja::create([
+    'uraian' => 'Tukang penganyam bronjong',
+    'kode' => 'L.02',
+    'satuan' => 'Orang/Hari',
+    'besaran' => '106000',
+    'besaranperjam' => '15143',
+    'keterangan' => 'AHSP Kab Blora Tahun 2025',
+]);
+
+satuanhargaupahtenagakerja::create([
+    'uraian' => 'Tukang tebas',
+    'kode' => 'L.02',
+    'satuan' => 'Orang/Hari',
+    'besaran' => '106000',
+    'besaranperjam' => '15143',
+    'keterangan' => 'AHSP Kab Blora Tahun 2025',
+]);
+
+satuanhargaupahtenagakerja::create([
+    'uraian' => 'Tukang las',
+    'kode' => 'L.02',
+    'satuan' => 'Orang/Hari',
+    'besaran' => '106000',
+    'besaranperjam' => '15143',
+    'keterangan' => 'AHSP Kab Blora Tahun 2025',
+]);
+
+satuanhargaupahtenagakerja::create([
+    'uraian' => 'Tukang las geotextile',
+    'kode' => 'L.02',
+    'satuan' => 'Orang/Hari',
+    'besaran' => '106000',
+    'besaranperjam' => '15143',
+    'keterangan' => 'AHSP Kab Blora Tahun 2025',
+]);
+
+satuanhargaupahtenagakerja::create([
+    'uraian' => 'Tukang listrik/ elektronik',
+    'kode' => 'L.02',
+    'satuan' => 'Orang/Hari',
+    'besaran' => '106000',
+    'besaranperjam' => '15143',
+    'keterangan' => 'AHSP Kab Blora Tahun 2025',
+]);
+
+satuanhargaupahtenagakerja::create([
+    'uraian' => 'Tukang alumunium',
+    'kode' => 'L.02',
+    'satuan' => 'Orang/Hari',
+    'besaran' => '106000',
+    'besaranperjam' => '15143',
+    'keterangan' => 'AHSP Kab Blora Tahun 2025',
+]);
+
+satuanhargaupahtenagakerja::create([
+    'uraian' => 'Tukang kaca',
+    'kode' => 'L.02',
+    'satuan' => 'Orang/Hari',
+    'besaran' => '106000',
+    'besaranperjam' => '15143',
+    'keterangan' => 'AHSP Kab Blora Tahun 2025',
+]);
+
+satuanhargaupahtenagakerja::create([
+    'uraian' => 'Tukang Ereksi',
+    'kode' => 'L.02',
+    'satuan' => 'Orang/Hari',
+    'besaran' => '106000',
+    'besaranperjam' => '15143',
+    'keterangan' => 'AHSP Kab Blora Tahun 2025',
+]);
+
+satuanhargaupahtenagakerja::create([
+    'uraian' => 'Tukang tanam',
+    'kode' => 'L.02',
+    'satuan' => 'Orang/Hari',
+    'besaran' => '106000',
+    'besaranperjam' => '15143',
+    'keterangan' => 'AHSP Kab Blora Tahun 2025',
+]);
+
+satuanhargaupahtenagakerja::create([
+    'uraian' => 'Tukang pemelihara taman',
+    'kode' => 'L.02',
+    'satuan' => 'Orang/Hari',
+    'besaran' => '106000',
+    'besaranperjam' => '15143',
     'keterangan' => 'AHSP Kab Blora Tahun 2025',
 ]);
 

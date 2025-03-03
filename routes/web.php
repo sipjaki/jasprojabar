@@ -227,6 +227,7 @@ Route::get('/tokobangunanbloralist/{namatokobangunan}', [TokobangunanbloraContro
 // AHSP HARGA SATUAN DASAR MATERIAL PERALATAN DAN BAHAN
 // ==============================================================================================================
 Route::get('/satuanhargamaterial', [SatuanhargamaterialController::class, 'index']);
+Route::get('/satuanhargaupah', [SatuanhargamaterialController::class, 'satuanhargaupah']);
 
 // fort
 
