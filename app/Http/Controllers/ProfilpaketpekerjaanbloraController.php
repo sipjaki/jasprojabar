@@ -27,7 +27,7 @@ class ProfilpaketpekerjaanbloraController extends Controller
     public function paketpekerjaantender()
     {
         $user = Auth::user();
-        $data = profilpaketpekerjaanblora::paginate(15);
+        $data = profilpaketpekerjaanblora::paginate(50);
         $datasub = prosespaket::all();
 
         return view('frontend.03_masjaki_jakon.04_profilpaketpekerjaan.01_paketpekerjaantender', [
