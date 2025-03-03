@@ -415,8 +415,8 @@ bujkkontraktorsub ::create([
     'kode' => 'Persyaratan Belum Lengkap (OSS)',
     'kualifikasi' => '',
     'penerbit' => '',
-    'tanggal_terbit' => '',
-    'masa_berlaku' => '',
+    'tanggal_terbit' => '2020-10-10',
+    'masa_berlaku' => '2020-10-10',
     'nama_psjk' => '-',
     'sub_kualifikasi_bu' => '-'
 ]);
@@ -428,8 +428,8 @@ bujkkontraktorsub ::create([
     'kode' => 'Persyaratan Belum Lengkap (OSS)',
     'kualifikasi' => '',
     'penerbit' => '',
-    'tanggal_terbit' => '',
-    'masa_berlaku' => '',
+    'tanggal_terbit' => '2020-10-10',
+    'masa_berlaku' => '2020-10-10',
     'nama_psjk' => '-',
     'sub_kualifikasi_bu' => '-'
 ]);
@@ -441,8 +441,8 @@ bujkkontraktorsub ::create([
     'kode' => 'Persyaratan Belum Lengkap (OSS)',
     'kualifikasi' => '',
     'penerbit' => '',
-    'tanggal_terbit' => '',
-    'masa_berlaku' => '',
+    'tanggal_terbit' => '2020-10-10',
+    'masa_berlaku' => '2020-10-10',
     'nama_psjk' => '-',
     'sub_kualifikasi_bu' => '-'
 ]);
@@ -454,8 +454,8 @@ bujkkontraktorsub ::create([
     'kode' => 'Persyaratan Belum Lengkap (OSS)',
     'kualifikasi' => '',
     'penerbit' => '',
-    'tanggal_terbit' => '',
-    'masa_berlaku' => '',
+    'tanggal_terbit' => '2020-10-10',
+    'masa_berlaku' => '2020-10-10',
     'nama_psjk' => '-',
     'sub_kualifikasi_bu' => '-'
 ]);
@@ -467,8 +467,8 @@ bujkkontraktorsub ::create([
     'kode' => 'Persyaratan Belum Lengkap (OSS)',
     'kualifikasi' => '',
     'penerbit' => '',
-    'tanggal_terbit' => '',
-    'masa_berlaku' => '',
+    'tanggal_terbit' => '2020-10-10',
+    'masa_berlaku' => '2020-10-10',
     'nama_psjk' => '-',
     'sub_kualifikasi_bu' => '-'
 ]);
@@ -481,8 +481,8 @@ bujkkontraktorsub ::create([
     'kode' => 'Persyaratan Belum Lengkap (OSS)',
     'kualifikasi' => '',
     'penerbit' => '',
-    'tanggal_terbit' => '',
-    'masa_berlaku' => '',
+    'tanggal_terbit' => '2020-10-10',
+    'masa_berlaku' => '2020-10-10',
     'nama_psjk' => '-',
     'sub_kualifikasi_bu' => '-'
 ]);
@@ -494,8 +494,8 @@ bujkkontraktorsub ::create([
     'kode' => 'Persyaratan Belum Lengkap (OSS)',
     'kualifikasi' => '',
     'penerbit' => '',
-    'tanggal_terbit' => '',
-    'masa_berlaku' => '',
+    'tanggal_terbit' => '2020-10-10',
+    'masa_berlaku' => '2020-10-10',
     'nama_psjk' => '-',
     'sub_kualifikasi_bu' => '-'
 ]);
@@ -507,8 +507,8 @@ bujkkontraktorsub ::create([
     'kode' => 'Persyaratan Belum Lengkap (OSS)',
     'kualifikasi' => '',
     'penerbit' => '',
-    'tanggal_terbit' => '',
-    'masa_berlaku' => '',
+    'tanggal_terbit' => '2020-10-10',
+    'masa_berlaku' => '2020-10-10',
     'nama_psjk' => '-',
     'sub_kualifikasi_bu' => '-'
 ]);
@@ -520,8 +520,8 @@ bujkkontraktorsub ::create([
     'kode' => 'Persyaratan Belum Lengkap (OSS)',
     'kualifikasi' => '',
     'penerbit' => '',
-    'tanggal_terbit' => '',
-    'masa_berlaku' => '',
+    'tanggal_terbit' => '2020-10-10',
+    'masa_berlaku' => '2020-10-10',
     'nama_psjk' => '-',
     'sub_kualifikasi_bu' => '-'
 ]);
@@ -533,8 +533,8 @@ bujkkontraktorsub ::create([
     'kode' => 'Persyaratan Belum Lengkap (OSS)',
     'kualifikasi' => '',
     'penerbit' => '',
-    'tanggal_terbit' => '',
-    'masa_berlaku' => '',
+    'tanggal_terbit' => '2020-10-10',
+    'masa_berlaku' => '2020-10-10',
     'nama_psjk' => '-',
     'sub_kualifikasi_bu' => '-'
 ]);
@@ -546,8 +546,8 @@ bujkkontraktorsub ::create([
     'kode' => 'Persyaratan Belum Lengkap (OSS)',
     'kualifikasi' => '',
     'penerbit' => '',
-    'tanggal_terbit' => '',
-    'masa_berlaku' => '',
+    'tanggal_terbit' => '2020-10-10',
+    'masa_berlaku' => '2020-10-10',
     'nama_psjk' => '-',
     'sub_kualifikasi_bu' => '-'
 ]);
@@ -559,8 +559,8 @@ bujkkontraktorsub ::create([
     'kode' => 'Persyaratan Belum Lengkap (OSS)',
     'kualifikasi' => '',
     'penerbit' => '',
-    'tanggal_terbit' => '',
-    'masa_berlaku' => '',
+    'tanggal_terbit' => '2020-10-10',
+    'masa_berlaku' => '2020-10-10',
     'nama_psjk' => '-',
     'sub_kualifikasi_bu' => '-'
 ]);
@@ -572,8 +572,8 @@ bujkkontraktorsub ::create([
     'kode' => 'Persyaratan Belum Lengkap (OSS)',
     'kualifikasi' => '',
     'penerbit' => '',
-    'tanggal_terbit' => '',
-    'masa_berlaku' => '',
+    'tanggal_terbit' => '2020-10-10',
+    'masa_berlaku' => '2020-10-10',
     'nama_psjk' => '-',
     'sub_kualifikasi_bu' => '-'
 ]);
@@ -585,8 +585,8 @@ bujkkontraktorsub ::create([
     'kode' => 'Persyaratan Belum Lengkap (OSS)',
     'kualifikasi' => '',
     'penerbit' => '',
-    'tanggal_terbit' => '',
-    'masa_berlaku' => '',
+    'tanggal_terbit' => '2020-10-10',
+    'masa_berlaku' => '2020-10-10',
     'nama_psjk' => '-',
     'sub_kualifikasi_bu' => '-'
 ]);
@@ -598,8 +598,8 @@ bujkkontraktorsub ::create([
     'kode' => 'Persyaratan Belum Lengkap (OSS)',
     'kualifikasi' => '',
     'penerbit' => '',
-    'tanggal_terbit' => '',
-    'masa_berlaku' => '',
+    'tanggal_terbit' => '2020-10-10',
+    'masa_berlaku' => '2020-10-10',
     'nama_psjk' => '-',
     'sub_kualifikasi_bu' => '-'
 ]);
@@ -611,8 +611,8 @@ bujkkontraktorsub ::create([
     'kode' => 'Persyaratan Belum Lengkap (OSS)',
     'kualifikasi' => '',
     'penerbit' => '',
-    'tanggal_terbit' => '',
-    'masa_berlaku' => '',
+    'tanggal_terbit' => '2020-10-10',
+    'masa_berlaku' => '2020-10-10',
     'nama_psjk' => '-',
     'sub_kualifikasi_bu' => '-'
 ]);
@@ -624,8 +624,8 @@ bujkkontraktorsub ::create([
     'kode' => 'Persyaratan Belum Lengkap (OSS)',
     'kualifikasi' => '',
     'penerbit' => '',
-    'tanggal_terbit' => '',
-    'masa_berlaku' => '',
+    'tanggal_terbit' => '2020-10-10',
+    'masa_berlaku' => '2020-10-10',
     'nama_psjk' => '-',
     'sub_kualifikasi_bu' => '-'
 ]);
@@ -637,8 +637,8 @@ bujkkontraktorsub ::create([
     'kode' => 'Persyaratan Belum Lengkap (OSS)',
     'kualifikasi' => '',
     'penerbit' => '',
-    'tanggal_terbit' => '',
-    'masa_berlaku' => '',
+    'tanggal_terbit' => '2020-10-10',
+    'masa_berlaku' => '2020-10-10',
     'nama_psjk' => '-',
     'sub_kualifikasi_bu' => '-'
 ]);
@@ -650,8 +650,8 @@ bujkkontraktorsub ::create([
     'kode' => 'Persyaratan Belum Lengkap (OSS)',
     'kualifikasi' => '',
     'penerbit' => '',
-    'tanggal_terbit' => '',
-    'masa_berlaku' => '',
+    'tanggal_terbit' => '2020-10-10',
+    'masa_berlaku' => '2020-10-10',
     'nama_psjk' => '-',
     'sub_kualifikasi_bu' => '-'
 ]);
@@ -663,8 +663,8 @@ bujkkontraktorsub ::create([
     'kode' => 'Persyaratan Belum Lengkap (OSS)',
     'kualifikasi' => '',
     'penerbit' => '',
-    'tanggal_terbit' => '',
-    'masa_berlaku' => '',
+    'tanggal_terbit' => '2020-10-10',
+    'masa_berlaku' => '2020-10-10',
     'nama_psjk' => '-',
     'sub_kualifikasi_bu' => '-'
 ]);
@@ -676,8 +676,8 @@ bujkkontraktorsub ::create([
     'kode' => 'Persyaratan Belum Lengkap (OSS)',
     'kualifikasi' => '',
     'penerbit' => '',
-    'tanggal_terbit' => '',
-    'masa_berlaku' => '',
+    'tanggal_terbit' => '2020-10-10',
+    'masa_berlaku' => '2020-10-10',
     'nama_psjk' => '-',
     'sub_kualifikasi_bu' => '-'
 ]);
@@ -689,8 +689,8 @@ bujkkontraktorsub ::create([
     'kode' => 'Persyaratan Belum Lengkap (OSS)',
     'kualifikasi' => '',
     'penerbit' => '',
-    'tanggal_terbit' => '',
-    'masa_berlaku' => '',
+    'tanggal_terbit' => '2020-10-10',
+    'masa_berlaku' => '2020-10-10',
     'nama_psjk' => '-',
     'sub_kualifikasi_bu' => '-'
 ]);
@@ -702,8 +702,8 @@ bujkkontraktorsub ::create([
     'kode' => 'Persyaratan Belum Lengkap (OSS)',
     'kualifikasi' => '',
     'penerbit' => '',
-    'tanggal_terbit' => '',
-    'masa_berlaku' => '',
+    'tanggal_terbit' => '2020-10-10',
+    'masa_berlaku' => '2020-10-10',
     'nama_psjk' => '-',
     'sub_kualifikasi_bu' => '-'
 ]);
