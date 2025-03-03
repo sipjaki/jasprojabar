@@ -165,7 +165,13 @@
                                         <li><a href="/datajakon/statistikabujkblora">Data Statistik BUJK</a></li>
                                     </ul>
                                 </li>
-								<li><a href="/datajakon/skktenagakerja">Tenaga Kerja Konstruksi</a></li>
+								<li><a href="#">Tenaga Kerja Konstruksi</a>
+                                    <ul class="list-unstyled">
+                                    <li><a href="/datajakon/skktenagakerjablora">TKK Diselenggarakan DPUPR</a></li>
+                                    <li><a href="/datajakon/skktenagakerjabloralist">TKK Kabupaten Blora</a></li>
+                                    <li><a href="/datajakon/statistikaskktenagakerjabloralist">Data Statistik TKK</a></li>
+                                </ul>
+                                </li>
 								<li><a href="/datajakon/datapaketpekerjaanblora">Profil Paket Pekerjaan Konstruksi & Konsultasi</a></li>
 							</ul><!-- list-unstyled -->
 						</li><!--has-dropdown-->
