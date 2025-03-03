@@ -215,10 +215,13 @@ color: #45a049;
                                         <tr>
                                             <th onclick="sortTable(0)" style="cursor:pointer; text-align:center; width:75px;"> No <span class="sort-icon">⇅</span></th>
                                             <th onclick="sortTable(1)" style="cursor:pointer; text-align:center; width:275px;"> Uraian <span class="sort-icon">⇅</span></th>
+                                            <th onclick="sortTable(2)" style="cursor:pointer; text-align:center; width:75px;"> Kode <span class="sort-icon">⇅</span></th>
                                             <th onclick="sortTable(2)" style="cursor:pointer; text-align:center; width:100px;"> Satuan <span class="sort-icon">⇅</span></th>
-                                            <th onclick="sortTable(3)" style="cursor:pointer; text-align:center; width:100px;"> Rp. <span class="sort-icon">⇅</span></th>
-                                            <th onclick="sortTable(4)" style="cursor:pointer; text-align:center; width:150px;"> Besaran <span class="sort-icon">⇅</span></th>
-                                            <th onclick="sortTable(5)" style="cursor:pointer; text-align:center; width:200px;"> Keterangan <span class="sort-icon">⇅</span></th>
+                                            <th onclick="sortTable(3)" style="cursor:pointer; text-align:center; width:75px;"> Rp. <span class="sort-icon">⇅</span></th>
+                                            <th onclick="sortTable(2)" style="cursor:pointer; text-align:center; width:100px;"> Besaran <span class="sort-icon">⇅</span></th>
+                                            <th onclick="sortTable(3)" style="cursor:pointer; text-align:center; width:75px;"> Rp. <span class="sort-icon">⇅</span></th>
+                                            <th onclick="sortTable(4)" style="cursor:pointer; text-align:center; width:150px;"> Besaran Per Jam <span class="sort-icon">⇅</span></th>
+                                            {{-- <th onclick="sortTable(5)" style="cursor:pointer; text-align:center; width:200px;"> Keterangan <span class="sort-icon">⇅</span></th> --}}
                                             {{-- <th style="text-align:center"> View </th> --}}
                                         </tr>
                                     </thead>
@@ -228,11 +231,13 @@ color: #45a049;
                                         <tr>
                                             <td style="text-align: center;">{{ $loop->iteration + $start - 1 }}</td>
                                             <td style="text-transform: capitalize;">{{ ucwords(strtolower($item->uraian)) }}</td>
+                                            <td style="text-align: center;">{{$item->kode}}</td>
                                             <td style="text-align: center;">{{$item->satuan}}</td>
                                             <td style="text-align: center;">Rp.</td>
                                             <td style="text-align: right;">{{ number_format((float) $item->besaran, 0, ',', '.') }},-</td>
-
-                                            <td>{{$item->keterangan}}</td>
+                                            <td style="text-align: center;">Rp.</td>
+                                            <td style="text-align: right;">{{ number_format((float) $item->besaranperjam, 0, ',', '.') }},-</td>
+                                            {{-- <td>{{$item->keterangan}}</td> --}}
                                             {{-- <td style="text-align: center">
                                                 <a href="/404">
                                                     <i class="fas fa-eye view-icon" onclick="alert('View clicked!')"></i>
@@ -284,7 +289,7 @@ color: #45a049;
                             function searchTable() {
                             let input = document.getElementById("searchInput").value;
 
-                            fetch(`/satuanhargamaterial?search=${input}`)
+                            fetch(`/satuanhargaupah?search=${input}`)
                                 .then(response => response.text())
                                 .then(html => {
                                     let parser = new DOMParser();
