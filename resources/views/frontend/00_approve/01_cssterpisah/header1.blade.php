@@ -213,7 +213,7 @@
 						</li><!--has-dropdown-->
 
                         <li class="active has-dropdown">
-                            <a href="#">Asuransi Konstruksi </a>
+                            <a href="#">ASURANSI KONSTRUKSI</a>
 							<ul class="list-unstyled">
                         	</ul><!-- list-unstyled -->
 						</li><!--has-dropdown-->
