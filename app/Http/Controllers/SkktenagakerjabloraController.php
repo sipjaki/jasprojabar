@@ -26,7 +26,7 @@ class SkktenagakerjabloraController extends Controller
         $user = Auth::user();
 
         return view('frontend.03_masjaki_jakon.03_tenagakerjakonstruksi.index', [
-            'title' => 'SKK Tenaga Konstruksi',
+            'title' => 'Tenaga Kerja Konstruksi Kabupaten Blora',
             'user' => $user, // Mengirimkan data paginasi ke view
         ]);
     }
