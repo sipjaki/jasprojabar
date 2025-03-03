@@ -2013,12 +2013,68 @@ profiljenispekerjaan::create([
     'deleted_at' => null, // Jika Anda menggunakan soft deletes
 ]);
 
+profiljenispekerjaan::create([
+    'id' => '12',
+    'jenispekerjaan' => 'Bangunan Air',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+profiljenispekerjaan::create([
+    'id' => '13',
+    'jenispekerjaan' => 'Belanja Konstruksi',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+profiljenispekerjaan::create([
+    'id' => '14',
+    'jenispekerjaan' => 'Fasilitas Umum',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+profiljenispekerjaan::create([
+    'id' => '15',
+    'jenispekerjaan' => 'Pipanisasi',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+profiljenispekerjaan::create([
+    'id' => '16',
+    'jenispekerjaan' => 'Sumur',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+profiljenispekerjaan::create([
+    'id' => '17',
+    'jenispekerjaan' => 'Talud',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
 
 //======================== ===================================================================================
 // DATA NAMA SEKOLAH MAS JAKI BLORA
 sumberdana::create([
     'id' => '1',
     'sumberdana' => 'APBN',
+    'created_at' => Carbon::now(),
+    'updated_at' => Carbon::now(),
+    'deleted_at' => null, // Jika Anda menggunakan soft deletes
+]);
+
+sumberdana::create([
+    'id' => '2',
+    'sumberdana' => 'APBD',
     'created_at' => Carbon::now(),
     'updated_at' => Carbon::now(),
     'deleted_at' => null, // Jika Anda menggunakan soft deletes
@@ -5168,7 +5224,7 @@ profilpaketpekerjaanblora::create([
 ]);
 
 profilpaketpekerjaanblora::create([
-    'prosespaket_id' => 1,
+    'prosespaket_id' => 2,
     'profiljenispekerjaan_id' => 2,
     'namapekerjaan' => 'BELANJA MODAL BANGUNAN KESEHATAN-BELANJA MODAL PAGAR',
     'tahunpelaksanaan' => 2024,
@@ -5184,7 +5240,7 @@ profilpaketpekerjaanblora::create([
 ]);
 
 profilpaketpekerjaanblora::create([
-    'prosespaket_id' => 1,
+    'prosespaket_id' => 3,
     'profiljenispekerjaan_id' => 3,
     'namapekerjaan' => 'Pembangunan Saluran Pengendali Banjir Kecamatan Cepu Lanjutan',
     'tahunpelaksanaan' => 2024,
@@ -5200,7 +5256,7 @@ profilpaketpekerjaanblora::create([
 ]);
 
 profilpaketpekerjaanblora::create([
-    'prosespaket_id' => 1,
+    'prosespaket_id' => 4,
     'profiljenispekerjaan_id' => 3,
     'namapekerjaan' => 'Pembangunan Saluran Pengendali Banjir Ruas Jalan Sonokidul Kecamatan Kunduran',
     'tahunpelaksanaan' => 2024,
@@ -5216,7 +5272,7 @@ profilpaketpekerjaanblora::create([
 ]);
 
 profilpaketpekerjaanblora::create([
-    'prosespaket_id' => 1,
+    'prosespaket_id' => 5,
     'profiljenispekerjaan_id' => 3,
     'namapekerjaan' => 'PEMBANGUNAN SARANA DAN PRASARANA DRAINASE LINGKUNGAN PERMUKIMAN KUMUH DRAINASE LINGKUNGAN RT 2 RW 9 KELURAHAN CEPU KECAMATAN CEPU KAB. BLORA',
     'tahunpelaksanaan' => 2024,
@@ -5232,7 +5288,7 @@ profilpaketpekerjaanblora::create([
 ]);
 
 profilpaketpekerjaanblora::create([
-    'prosespaket_id' => 1,
+    'prosespaket_id' => 6,
     'profiljenispekerjaan_id' => 3,
     'namapekerjaan' => 'Pembangunan Saluran Pengendali Banjir Kel. Kunduran Kec. Kunduran Lanjutan',
     'tahunpelaksanaan' => 2024,
@@ -5248,7 +5304,7 @@ profilpaketpekerjaanblora::create([
 ]);
 
 profilpaketpekerjaanblora::create([
-    'prosespaket_id' => 1,
+    'prosespaket_id' => 7,
     'profiljenispekerjaan_id' => 4,
     'namapekerjaan' => 'Rehabilitasi Embung Kelurahan Kunduran Kec Kunduran Lanjutan',
     'tahunpelaksanaan' => 2024,
@@ -5264,7 +5320,7 @@ profilpaketpekerjaanblora::create([
 ]);
 
 profilpaketpekerjaanblora::create([
-    'prosespaket_id' => 1,
+    'prosespaket_id' => 8,
     'profiljenispekerjaan_id' => 4,
     'namapekerjaan' => 'Pembangunan Embung Pangkat Purwosari Kecamatan Blora KAB. BLORA',
     'tahunpelaksanaan' => 2024,
@@ -5281,7 +5337,7 @@ profilpaketpekerjaanblora::create([
 
 
 profilpaketpekerjaanblora::create([
-    'prosespaket_id' => 1,
+    'prosespaket_id' => 9,
     'profiljenispekerjaan_id' => 4,
     'namapekerjaan' => 'Pembangunan Embung Nglebok Kecamatan Cepu Lanjutan',
     'tahunpelaksanaan' => 2024,
@@ -5297,7 +5353,7 @@ profilpaketpekerjaanblora::create([
 ]);
 
 profilpaketpekerjaanblora::create([
-    'prosespaket_id' => 1,
+    'prosespaket_id' => 10,
     'profiljenispekerjaan_id' => 4,
     'namapekerjaan' => 'Pembangunan Embung Desa Gedangdowo Kecamatan Jepon KAB. BLORA',
     'tahunpelaksanaan' => 2024,
@@ -5312,26 +5368,92 @@ profilpaketpekerjaanblora::create([
     'dinas' => 'DINAS PEKERJAAN UMUM DAN PENATAAN RUANG',
 ]);
 
-// garis
 
 //======================== ===================================================================================
 // PAKET PEKERJAAN NON TENDER MAS JAKI BLORA
 
-// profilpaketpekerjaannontender::create([
-//     'prosespaketnontender_id' => 1,
-//     'jenispekerjaan' => 'Pekerjaan Pembangunan Sistem Drainase',
-//     'namapekerjaan' => 'Pembangunan Sistem Drainase Kota Blora',
-//     'tahunpelaksanaan' => 2029,
-//     'cvptpenyedia' => 'CV. Drainase Lancar',
-//     'nib' => '7788990011',
-//     'nilaikontrak' => 300000000.00,
-//     'sumberdana' => 'APBN',
-//     'jeniskontrak' => 'Kontrak Pembangunan',
-//     'karakteristikkontrak' => 'Pembangunan Sistem Drainase Kota',
-//     'bulanmulai' => '2029-08-01',
-//     'bulanselesai' => '2029-12-31',
-//     'dinas' => 'Dinas Perumahan dan Permukiman Blora',
-// ]);
+profilpaketpekerjaannontender::create([
+    'prosespaketnontender_id' => 1,
+    'profiljenispekerjaan_id' => 5,
+    'namapekerjaan' => 'Fisik Pemeliharaan Gedung Kantor Kelurahan Bangkle',
+    'tahunpelaksanaan' => 2024,
+    'cvptpenyedia' => 'CV MANDRA KANTA UNGGUL',
+    'nib' => '0208220001109',
+    'nilaikontrak' =>  45338671.95,
+    'sumberdana_id' => 2,
+    'jeniskontrak' => 'Harga Satuan',
+    'karakteristikkontrak' => 'Tahun Tunggal',
+    'bulanmulai' => 'Agustus',
+    'bulanselesai' => 'Oktober',
+    'dinas' => 'KECAMATAN BLORA',
+]);
+
+profilpaketpekerjaannontender::create([
+    'prosespaketnontender_id' => 2,
+    'profiljenispekerjaan_id' => 12,
+    'namapekerjaan' => 'Pengadaan Instalasi Air Bersih Puskesmas Doplang',
+    'tahunpelaksanaan' => 2024,
+    'cvptpenyedia' => 'TRUBUS UTOMO',
+    'nib' => '9120209960021',
+    'nilaikontrak' =>   99822122.43,
+    'sumberdana_id' => 2,
+    'jeniskontrak' => 'Harga Satuan',
+    'karakteristikkontrak' => 'Tahun Tunggal',
+    'bulanmulai' => 'April',
+    'bulanselesai' => 'Agustus',
+    'dinas' => 'DINAS KESEHATAN',
+]);
+
+profilpaketpekerjaannontender::create([
+    'prosespaketnontender_id' => 3,
+    'profiljenispekerjaan_id' => 12,
+    'namapekerjaan' => 'Pembangunan IPAL RPH-Unggas',
+    'tahunpelaksanaan' => 2024,
+    'cvptpenyedia' => 'CV. GRIYA LARAS',
+    'nib' => '0220001392418',
+    'nilaikontrak' =>  151874000.00,
+    'sumberdana_id' => 2,
+    'jeniskontrak' => 'Harga Satuan',
+    'karakteristikkontrak' => 'Tahun Tunggal',
+    'bulanmulai' => 'Maret',
+    'bulanselesai' => 'Mei',
+    'dinas' => 'DINAS PANGAN, PERTANIAN, PETERNAKAN, DAN PERIKANAN',
+]);
+
+profilpaketpekerjaannontender::create([
+    'prosespaketnontender_id' => 4,
+    'profiljenispekerjaan_id' => 12,
+    'namapekerjaan' => 'NORMALISASI AREA TAMPUNGAN BENDUNG',
+    'tahunpelaksanaan' => 2024,
+    'cvptpenyedia' => 'CV.BASKORO BERKAH JAYA',
+    'nib' => '0220001392418',
+    'nilaikontrak' =>  99424000.00,
+    'sumberdana_id' => 2,
+    'jeniskontrak' => 'Harga Satuan',
+    'karakteristikkontrak' => 'Tahun Tunggal',
+    'bulanmulai' => 'Agustus',
+    'bulanselesai' => 'Oktober',
+    'dinas' => 'DINAS PANGAN, PERTANIAN, PETERNAKAN, DAN PERIKANAN',
+]);
+
+profilpaketpekerjaannontender::create([
+    'prosespaketnontender_id' => 5,
+    'profiljenispekerjaan_id' => 13,
+    'namapekerjaan' => 'Belanja Modal Jalan Lingkungan (Fisik Pavingisasi RT 05 RW 03 Kelurahan Jepon)',
+    'tahunpelaksanaan' => 2024,
+    'cvptpenyedia' => 'CV WARU BENGKONG',
+    'nib' => '2805230004372',
+    'nilaikontrak' =>  190310299.19,
+    'sumberdana_id' => 2,
+    'jeniskontrak' => 'Harga Satuan',
+    'karakteristikkontrak' => 'Tahun Tunggal',
+    'bulanmulai' => 'Juni',
+    'bulanselesai' => 'Desember',
+    'dinas' => 'KECAMATAN JEPON',
+]);
+
+
+// garis
 
 //======================== ===================================================================================
 // PAKET KONSULTASI TENDER MAS JAKI BLORA
