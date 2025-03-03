@@ -148,11 +148,11 @@
                         <li class="active has-dropdown">
 							<a href="#">PEMBINAAN</a>
 							<ul class="list-unstyled">
-								<li><a href="/agendapembinaan">Agenda Pembinaan</a></li>
+								<li><a href="/agendapembinaan">Agenda Pelatihan</a></li>
 								{{-- <li><a href="/404">Pelatihan</a></li>
 								<li><a href="/404">Bimbingan Teknis</a></li>
 								<li><a href="/404">Workshop</a></li> --}}
-								<li><a href="/404">SKK Tenaga Ahli</a></li>
+								<li><a href="/404">SKK Tenaga Kerja Konstruksi</a></li>
 								{{-- <li><a href="/404">Daftar Tenaga Ahli</a></li> --}}
 							</ul><!-- list-unstyled -->
 						</li><!--has-dropdown-->
