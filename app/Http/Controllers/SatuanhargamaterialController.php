@@ -7,6 +7,7 @@ use Illuminate\Http\Request;
 
 use App\Models\bujkkontraktorsub;
 use App\Models\satuanhargamaterial;
+use App\Models\satuanhargaupahtenagakerja;
 
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\DB;
@@ -50,6 +51,38 @@ class SatuanhargamaterialController extends Controller
         }
 
         return view('frontend.07_ahsp.02_hargasatuandasar.01_hargasatuanmaterial.index', [
+            'title' => 'Satuan Harga Dasar Material',
+            'data' => $data,
+            'perPage' => $perPage,
+            'search' => $search
+        ]);
+    }
+
+    public function satuanhargaupah(Request $request)
+    {
+        $perPage = $request->input('perPage', 25);
+        $search = $request->input('search');
+
+        $query = satuanhargaupahtenagakerja::query();
+
+        if ($search) {
+            $query->where('uraian', 'LIKE', "%{$search}%")
+                  ->orWhere('kode', 'LIKE', "%{$search}%")
+                  ->orWhere('satuan', 'LIKE', "%{$search}%")
+                  ->orWhere('besaran', 'LIKE', "%{$search}%")
+                  ->orWhere('besaranperjam', 'LIKE', "%{$search}%")
+                  ->orWhere('keterangan', 'LIKE', "%{$search}%");
+        }
+
+        $data = $query->paginate($perPage);
+
+        if ($request->ajax()) {
+            return response()->json([
+                'html' => view('frontend.07_ahsp.02_hargasatuandasar.02_hargasatuanupah.partials.table', compact('data'))->render()
+            ]);
+        }
+
+        return view('frontend.07_ahsp.02_hargasatuandasar.02_hargasatuanupah.index', [
             'title' => 'Satuan Harga Dasar Material',
             'data' => $data,
             'perPage' => $perPage,
