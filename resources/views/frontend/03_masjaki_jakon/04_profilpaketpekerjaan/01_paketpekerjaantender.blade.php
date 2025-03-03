@@ -247,13 +247,13 @@ color: #45a049;
                                 @foreach ($data as $item )
                                 <tr>
                                     <td>{{ $loop->iteration + $start - 1 }}</td>
-                                    <td>{{$item->jenispekerjaan}}</td>
+                                    {{-- <td>{{$item->jenispekerjaan}}</td> --}}
                                     <td>{{$item->namapekerjaan}}</td>
                                     <td style="text-align: center;">{{$item->tahunpelaksanaan}}</td>
                                     <td>{{$item->cvptpenyedia}}</td>
                                     {{-- <td>{{$item->nib}}</td> --}}
                                     {{-- <td>{{$item->nilaikontrak}}</td> --}}
-                                    <td>{{$item->sumberdana}}</td>
+                                    <td>{{$item->sumberdana->sumberdana}}</td>
                                     {{-- <td>{{$item->jeniskontrak}}</td> --}}
                                     {{-- <td>{{$item->karakteristikkontrak}}</td> --}}
                                     {{-- <td>{{$item->bulanmulai}}</td>
