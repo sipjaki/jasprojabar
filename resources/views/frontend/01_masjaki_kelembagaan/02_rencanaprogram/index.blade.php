@@ -45,7 +45,7 @@
 			</div><!--/.portfolio-details-info--> --}}
 			<div class="portfolio-details-content">
 				<div class="portfolio-details-content-title">
-					<h3>Rencana Strategis DPUPR Pemerintah Kabupaten Blora</h3>
+					<h3>Profil Jakon DPUPR Kabupaten BLora </h3>
 				</div><!-- portfolio-details-content-title -->
 				<div class="portfolio-details-content-text">
 					<p style="text-align: justify" >
