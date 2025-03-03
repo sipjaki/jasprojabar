@@ -5587,31 +5587,47 @@ prosespaket::create([
     'paketselesai' => 'SELESAI',
 ]);
 
+// ================================================
+
 prosespaketnontender::create([
     'profilpaketpekerjaannontender_id' => 1, // Sesuaikan dengan ID yang ada di tabel terkait
     'persiapan' => 'SELESAI',
     'pengadaan' => 'SELESAI',
-    'pelaksanaan' => 'PROSES',
-    'pemeliharaan' => 'PAKET DI BATALKAN',
-    'paketselesai' => 'BELUM DI MULAI',
+    'pelaksanaan' => 'SELESAI',
+    'pemeliharaan' => 'SELESAI',
+    'paketselesai' => 'SELESAI',
 ]);
-
-prosespaketkonsultasi::create([
-    'profilpaketkonsultasi_id' => 1, // Sesuaikan dengan ID yang ada di tabel terkait
+prosespaketnontender::create([
+    'profilpaketpekerjaannontender_id' => 2, // Sesuaikan dengan ID yang ada di tabel terkait
     'persiapan' => 'SELESAI',
     'pengadaan' => 'SELESAI',
     'pelaksanaan' => 'SELESAI',
     'pemeliharaan' => 'SELESAI',
-    'paketselesai' => 'BELUM',
+    'paketselesai' => 'SELESAI',
 ]);
-
-prosespaketkonsultasinontender::create([
-    'profilpaketkonsultasinontender_id' => 1, // Sesuaikan dengan ID yang ada di tabel terkait
-    'persiapan' => 'PAKET DI BATALKAN',
-    'pengadaan' => 'BELUM',
-    'pelaksanaan' => 'BELUM',
-    'pemeliharaan' => 'BELUM',
-    'paketselesai' => 'BELUM',
+prosespaketnontender::create([
+    'profilpaketpekerjaannontender_id' => 3, // Sesuaikan dengan ID yang ada di tabel terkait
+    'persiapan' => 'SELESAI',
+    'pengadaan' => 'SELESAI',
+    'pelaksanaan' => 'SELESAI',
+    'pemeliharaan' => 'SELESAI',
+    'paketselesai' => 'SELESAI',
+]);
+prosespaketnontender::create([
+    'profilpaketpekerjaannontender_id' => 4, // Sesuaikan dengan ID yang ada di tabel terkait
+    'persiapan' => 'SELESAI',
+    'pengadaan' => 'SELESAI',
+    'pelaksanaan' => 'SELESAI',
+    'pemeliharaan' => 'SELESAI',
+    'paketselesai' => 'SELESAI',
+]);
+prosespaketnontender::create([
+    'profilpaketpekerjaannontender_id' => 5, // Sesuaikan dengan ID yang ada di tabel terkait
+    'persiapan' => 'SELESAI',
+    'pengadaan' => 'SELESAI',
+    'pelaksanaan' => 'SELESAI',
+    'pemeliharaan' => 'SELESAI',
+    'paketselesai' => 'SELESAI',
 ]);
 
 //======================== ===================================================================================
