@@ -122,7 +122,7 @@
 							<ul class="list-unstyled">
 								<li><a href="/profil/struktur">Struktur DPUPR Kab Blora</a></li>
 								<li><a href="/profil/rencanastrategis">Profil Jakon DPUPR Blora</a></li>
-								<li><a href="/profil/tupoksi">Tupoksi Program Jasa Konstruksi</a></li>
+								<li><a href="/profil/tupoksi">Tupoksi Jakon DPUPR Kab Blora</a></li>
 							</ul><!-- list-unstyled -->
 						</li><!--has-dropdown-->
 
