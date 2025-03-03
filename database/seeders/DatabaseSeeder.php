@@ -1659,8 +1659,6 @@ bujkkontraktorsub ::create([
 // ]);
 
 
-// fort
-
 // DATA BUJK KONSULTAN MAS JAKI APLIKASI
 //======================== ===================================================================================
 bujkkonsultan::create([
@@ -1730,6 +1728,199 @@ bujkkonsultansub::create([
     'sub_kualifikasi_bu' => null
 ]);
 
+//======================== ===================================================================================
+// DATA 2 BUJK KONSULTAN
+bujkkonsultan::create([
+    'bujkkonsultansub_id' => 2, // Ganti dengan ID yang sesuai
+    'asosiasimasjaki_id' => null,
+    'namalengkap' => 'KARYA INTI KONSULTAN',
+    'alamat' => 'DUKUH SENDANG KLAMPOK, Desa/Kelurahan Tempurejo, Kec. Blora, Kab. Blora, Provinsi Jawa Tengah ',
+    'no_telepon' => '082133220199',
+    'email' => 'karyaintikonsultan@gmail.com',
+    'nib' => '2101230013886',
+    'pju' => 'AHMAD FAHRUDIN',
+    'no_akte' => '55',
+    'tanggal' => '2021-01-11',
+    'nama_notaris' => 'YANI DWI RAHAYU S.H., M.KN.',
+    'no_pengesahan' => 'AHU-0004201-AH.01.14'
+]);
+
+bujkkonsultansub::create([
+    'bujkkonsultan_id' => 2, // Ganti dengan ID yang sesuai
+    'nama_pengurus' => 'AHMAD FAHRUDIN', // Kosong tapi tetap ada
+    'sub_klasifikasi_layanan' => 'Jasa Rekayasa Konstruksi Bangunan Gedung Hunian dan Non Hunian',
+    'kode' =>  'RK001',
+    'kualifikasi' => 'Kecil',
+    'penerbit' =>  'Lembaga Sertiﬁkasi INKINDO',
+    'tanggal_terbit' => '2023-05-16',
+    'masa_berlaku' => '2026-05-15',
+    'nama_psjk' => 'BAGUS SETIYO BUDI, S.T',
+    'sub_kualifikasi_bu' => 'Jasa Rekayasa Konstruksi Bangunan Gedung Hunian dan Non Hunian'
+]);
+
+bujkkonsultansub::create([
+    'bujkkonsultan_id' => 2, // Ganti dengan ID yang sesuai
+    'nama_pengurus' => 'AHMAD FAHRUDIN', // Kosong tapi tetap ada
+    'sub_klasifikasi_layanan' => 'Jasa Rekayasa Pekerjaan Teknik Sipil Transportasi',
+    'kode' =>  'RK003',
+    'kualifikasi' => 'Kecil',
+    'penerbit' =>  'Lembaga Sertiﬁkasi INKINDO',
+    'tanggal_terbit' => '2023-04-05',
+    'masa_berlaku' => '2026-04-04',
+    'nama_psjk' => 'BAGUS SETIYO BUDI, S.T',
+    'sub_kualifikasi_bu' => 'Jasa Rekayasa Pekerjaan Teknik Sipil Transportasi'
+]);
+
+
+//======================== ===================================================================================
+// DATA 3 BUJK KONSULTAN
+bujkkonsultan::create([
+    'bujkkonsultansub_id' => 3, // Ganti dengan ID yang sesuai
+    'asosiasimasjaki_id' => null,
+    'namalengkap' => 'BEGAWAN ABIYOSO',
+    'alamat' => ' DUKUH WUNI, Desa/Kelurahan Balong, Kec. Jepon, Kab. Blora, Provinsi Jawa Tengah ',
+    'no_telepon' => '085292559491',
+    'email' => 'begawanabiyoso2023@gmail.com ',
+    'nib' => '220001632033',
+    'pju' => 'TEJO',
+    'no_akte' => '72',
+    'tanggal' => '2020-06-15',
+    'nama_notaris' => 'YANI DWI RAHAYU S.H., M.KN.',
+    'no_pengesahan' => 'AHU-0019129-AH.01.16'
+]);
+
+bujkkonsultansub::create([
+    'bujkkonsultan_id' => 3, // Ganti dengan ID yang sesuai
+    'nama_pengurus' => 'TEJO, S.T., M.M. ', // Kosong tapi tetap ada
+    'sub_klasifikasi_layanan' => 'Jasa Rekayasa Pekerjaan Teknik Sipil Transportasi',
+    'kode' =>  'RK003',
+    'kualifikasi' => 'Kecil',
+    'penerbit' =>  'Lembaga Sertiﬁkasi INKINDO',
+    'tanggal_terbit' => '2022-05-22',
+    'masa_berlaku' => '2026-05-21',
+    'nama_psjk' => 'FERONIKA MIVONIA, ST',
+    'sub_kualifikasi_bu' => 'Jasa Rekayasa Pekerjaan Teknik Sipil Transportasi'
+]);
+
+
+
+//======================== ===================================================================================
+// DATA 4 BUJK KONSULTAN
+bujkkonsultan::create([
+    'bujkkonsultansub_id' => 4, // Ganti dengan ID yang sesuai
+    'asosiasimasjaki_id' => null,
+    'namalengkap' => 'GRAHACIPTA PERKASA',
+    'alamat' => ' Ds. Tambahrejo, Desa/Kelurahan Tambahrejo, Kec. Tunjungan, Kab. Blora, Provinsi Jawa Tengah',
+    'no_telepon' => '081327421757',
+    'email' => 'grahaciptaperkasa@yahoo.co.id',
+    'nib' => '9120404852668',
+    'pju' => 'TEGUH PRIYANTO',
+    'no_akte' => '152',
+    'tanggal' => '2010-10-23',
+    'nama_notaris' => 'ELIZABETH ESTININGSIH, S.H.',
+    'no_pengesahan' => '14 / CV / 2011 / PN.Bla'
+]);
+
+bujkkonsultansub::create([
+    'bujkkonsultan_id' => 4, // Ganti dengan ID yang sesuai
+    'nama_pengurus' => 'TEGUH PRIYANTO, ST.,MT', // Kosong tapi tetap ada
+    'sub_klasifikasi_layanan' => 'Jasa Rekayasa Konstruksi Bangunan Gedung Hunian dan Non Hunian',
+    'kode' =>  'RK001',
+    'kualifikasi' => 'Kecil',
+    'penerbit' =>  'Lembaga Sertiﬁkasi INKINDO',
+    'tanggal_terbit' => '2022-10-07',
+    'masa_berlaku' => '2025-10-06',
+    'nama_psjk' => 'SULTON ERBOWO, ST ',
+    'sub_kualifikasi_bu' => 'Jasa Rekayasa Konstruksi Bangunan Gedung Hunian dan Non Hunian'
+]);
+
+bujkkonsultansub::create([
+    'bujkkonsultan_id' => 4, // Ganti dengan ID yang sesuai
+    'nama_pengurus' => 'TEGUH PRIYANTO, ST.,MT', // Kosong tapi tetap ada
+    'sub_klasifikasi_layanan' => 'Jasa Rekayasa Pekerjaan Teknik Sipil Sumber Daya Air',
+    'kode' =>  'RK002',
+    'kualifikasi' => 'Kecil',
+    'penerbit' =>  'Lembaga Sertiﬁkasi INKINDO',
+    'tanggal_terbit' => '2023-06-14',
+    'masa_berlaku' => '2026-06-13',
+    'nama_psjk' => 'EDDY SAPTONO, ST ',
+    'sub_kualifikasi_bu' => 'Jasa Rekayasa Pekerjaan Teknik Sipil Sumber Daya Air'
+]);
+
+bujkkonsultansub::create([
+    'bujkkonsultan_id' => 4, // Ganti dengan ID yang sesuai
+    'nama_pengurus' => 'TEGUH PRIYANTO, ST.,MT', // Kosong tapi tetap ada
+    'sub_klasifikasi_layanan' => 'Jasa Rekayasa Pekerjaan Teknik Sipil Transportasi',
+    'kode' =>  'RK003',
+    'kualifikasi' => 'Kecil',
+    'penerbit' =>  'Lembaga Sertiﬁkasi INKINDO',
+    'tanggal_terbit' => '2022-07-10',
+    'masa_berlaku' => NULL,
+    'nama_psjk' => 'YOGA ALDI DWI LAKSONO',
+    'sub_kualifikasi_bu' => 'Jasa Rekayasa Pekerjaan Teknik Sipil Transportasi'
+]);
+
+
+//======================== ===================================================================================
+// DATA 5 BUJK KONSULTAN
+bujkkonsultan::create([
+    'bujkkonsultansub_id' => 5, // Ganti dengan ID yang sesuai
+    'asosiasimasjaki_id' => null,
+    'namalengkap' => 'BEKONS',
+    'alamat' => 'Dukuh Bengir, Desa/Kelurahan Keser, Kec. Tunjungan, Kab. Blora, Provinsi Jawa Tengah ',
+    'no_telepon' => '085326420963',
+    'email' => 'gapuro_ireng@yahoo.com ',
+    'nib' => '220004621089',
+    'pju' => 'UTOMO, SARJANA',
+    'no_akte' => '34',
+    'tanggal' => '2016-03-16',
+    'nama_notaris' => 'BAMBANG HARIJANTO, SH., M.KN',
+    'no_pengesahan' => 'AHU-0028069-AH.01.15 Tahun 2020'
+]);
+
+bujkkonsultansub::create([
+    'bujkkonsultan_id' => 5, // Ganti dengan ID yang sesuai
+    'nama_pengurus' => 'UTOMO, ST', // Kosong tapi tetap ada
+    'sub_klasifikasi_layanan' => 'Jasa Arsitektural Bangunan Gedung Hunian dan Non Hunian',
+    'kode' =>  'AR001',
+    'kualifikasi' => 'Kecil',
+    'penerbit' =>  'Lembaga Sertiﬁkasi INKINDO',
+    'tanggal_terbit' => '2023-08-09',
+    'masa_berlaku' => '2026-08-08',
+    'nama_psjk' => 'AGNIE SWASTIKA NINGRUM, S.Ars',
+    'sub_kualifikasi_bu' => 'Jasa Arsitektural Bangunan Gedung Hunian dan Non Hunian'
+]);
+
+bujkkonsultansub::create([
+    'bujkkonsultan_id' => 5, // Ganti dengan ID yang sesuai
+    'nama_pengurus' => 'UTOMO, ST', // Kosong tapi tetap ada
+    'sub_klasifikasi_layanan' => 'Jasa Rekayasa Konstruksi Bangunan Gedung Hunian dan Non Hunian',
+    'kode' =>  ' RK001 ',
+    'kualifikasi' => 'Kecil',
+    'penerbit' =>  'Lembaga Sertiﬁkasi INKINDO',
+    'tanggal_terbit' => '2022-11-16',
+    'masa_berlaku' => '2025-11-17',
+    'nama_psjk' => 'SETYO NIHANTORO, S.T. ',
+    'sub_kualifikasi_bu' => 'Jasa Rekayasa Konstruksi Bangunan Gedung Hunian dan Non Hunian'
+]);
+
+bujkkonsultansub::create([
+    'bujkkonsultan_id' => 5, // Ganti dengan ID yang sesuai
+    'nama_pengurus' => 'UTOMO, ST', // Kosong tapi tetap ada
+    'sub_klasifikasi_layanan' => 'Jasa Rekayasa Pekerjaan Teknik Sipil Sumber Daya Air',
+    'kode' =>  'RK002',
+    'kualifikasi' => 'Kecil',
+    'penerbit' =>  'Lembaga Sertiﬁkasi INKINDO',
+    'tanggal_terbit' => '2022-11-18',
+    'masa_berlaku' => '2025-11-17',
+    'nama_psjk' => 'LARTO KUNDARTO, ST',
+    'sub_kualifikasi_bu' => 'Jasa Rekayasa Pekerjaan Teknik Sipil Sumber Daya Air'
+]);
+
+
+
+
+// fort
 
 
 //======================== ===================================================================================
