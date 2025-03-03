@@ -248,6 +248,7 @@ color: #45a049;
                                 <tr>
                                     <td>{{ $loop->iteration + $start - 1 }}</td>
                                     {{-- <td>{{$item->jenispekerjaan}}</td> --}}
+                                    <td>{{$item->profiljenispekerjaan->jenispekerjaan}}</td>
                                     <td>{{$item->namapekerjaan}}</td>
                                     <td style="text-align: center;">{{$item->tahunpelaksanaan}}</td>
                                     <td>{{$item->cvptpenyedia}}</td>
