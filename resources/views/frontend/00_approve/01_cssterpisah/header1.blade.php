@@ -120,9 +120,9 @@
 						<li class="active has-dropdown">
 							<a href="#">KELEMBAGAAN</a>
 							<ul class="list-unstyled">
-								<li><a href="/profil/struktur">Struktur DPUPR</a></li>
-								<li><a href="/profil/rencanastrategis">Profil Jakon</a></li>
-								<li><a href="/profil/tupoksi">Tupoksi Jakon</a></li>
+								<li><a href="/profil/struktur">Struktur DPUPR Blora</a></li>
+								<li><a href="/profil/rencanastrategis">Profil Jakon DPUPR BLora</a></li>
+								<li><a href="/profil/tupoksi">Tupoksi Jakon DPUPR Blora</a></li>
 							</ul><!-- list-unstyled -->
 						</li><!--has-dropdown-->
 
