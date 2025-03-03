@@ -29,9 +29,9 @@ class ProfilpaketpekerjaannontenderController extends Controller
         ]);
     }
 
-    public function paketpekerjaannontendershow($jenispekerjaan)
+    public function paketpekerjaannontendershow($namapekerjaan)
     {
-        $datapaketpekerjaannontender = profilpaketpekerjaannontender::where('jenispekerjaan', $jenispekerjaan)->first();
+        $datapaketpekerjaannontender = profilpaketpekerjaannontender::where('namapekerjaan', $namapekerjaan)->first();
         $datasub = prosespaketnontender::all();
 
         // if (!$databujkkontraktor) {

@@ -27,9 +27,9 @@ class ProfilpaketkonsultasiController extends Controller
         ]);
     }
 
-    public function paketkonsultasishow($jenispekerjaan)
+    public function paketkonsultasishow($namapekerjaan)
     {
-        $datapaketkonsultasi = profilpaketkonsultasi::where('jenispekerjaan', $jenispekerjaan)->first();
+        $datapaketkonsultasi = profilpaketkonsultasi::where('namapekerjaan', $namapekerjaan)->first();
 
         $subdata = prosespaketkonsultasi::all();
         // if (!$databujkkontraktor) {

@@ -25,9 +25,9 @@ class ProfilpaketkonsultasinontenderController extends Controller
         ]);
     }
 
-    public function paketkonsultasinontendershow($jenispekerjaan)
+    public function paketkonsultasinontendershow($namapekerjaan)
     {
-        $data = profilpaketkonsultasinontender::where('jenispekerjaan', $jenispekerjaan)->first();
+        $data = profilpaketkonsultasinontender::where('namapekerjaan', $namapekerjaan)->first();
 
         // if (!$databujkkontraktor) {
         //     // Tangani jika kegiatan tidak ditemukan

@@ -203,8 +203,8 @@ color: #45a049;
                                     <!-- Tombol dan kolom pencarian di kanan -->
                                     <div style="display: flex; align-items: center;">
 
-{{--
-                                        <a href="/datajakon/datapaketpekerjaanblora" style="background: white;">
+
+                                        {{-- <a href="/datajakon/datapaketpekerjaanblora" style="background: white;">
                                             <button class="kembali" style="border: none; font-size: 12px; cursor: pointer; margin-right: 10px;">
                                                 <i class="fas fa-arrow-circle-left mr-2" style="margin-right: 15px; color:red;"></i> KEMBALI
                                             </button>
@@ -247,20 +247,22 @@ color: #45a049;
                                 @foreach ($data as $item )
                                 <tr>
                                     <td>{{ $loop->iteration + $start - 1 }}</td>
-                                    <td>{{$item->jenispekerjaan}}</td>
+                                    {{-- <td>{{$item->jenispekerjaan}}</td> --}}
+                                    <td>{{$item->profiljenispekerjaan->jenispekerjaan}}</td>
                                     <td>{{$item->namapekerjaan}}</td>
                                     <td style="text-align: center;">{{$item->tahunpelaksanaan}}</td>
                                     <td>{{$item->cvptpenyedia}}</td>
                                     {{-- <td>{{$item->nib}}</td> --}}
                                     {{-- <td>{{$item->nilaikontrak}}</td> --}}
-                                    <td>{{$item->sumberdana}}</td>
+                                    <td>{{$item->sumberdana->sumberdana}}</td>
                                     {{-- <td>{{$item->jeniskontrak}}</td> --}}
                                     {{-- <td>{{$item->karakteristikkontrak}}</td> --}}
                                     {{-- <td>{{$item->bulanmulai}}</td>
                                     <td>{{$item->bulanselesai}}</td> --}}
                                     <td>{{$item->dinas}}</td>
+                                    {{-- <td>{{$item->prosespaket->persiapan}}</td> --}}
                                     <td style="text-align: center">
-                                        <a href="/datajakon/paketpekerjaannontender/{{$item->jenispekerjaan}}">
+                                        <a href="/datajakon/paketpekerjaantendernontender/{{$item->namapekerjaan}}">
                                             <i class="fas fa-eye view-icon" onclick="alert('View clicked!')"></i>
                                         </a>
                                     </td>
