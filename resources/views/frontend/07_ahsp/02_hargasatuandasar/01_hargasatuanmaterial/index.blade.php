@@ -23,7 +23,7 @@ overflow: hidden;
 
 /* Header styling */
 .fl-table thead {
-background: #FFD100;
+background: #ffd100;
 text-transform: uppercase;
 font-weight: 600;
 letter-spacing: 0.5px;
@@ -92,50 +92,14 @@ color: #45a049;
                 color: white;
                 padding: 10px 20px;
                 border-radius: 10px;
-                border: 3px solid black; /* Garis luar yang lebih tebal dan lebih jelas */
                 display: inline-block;
-                font-size: 12px;
+                font-size: 1rem;
                 text-align: center;
+                font-size: 12px;
                 cursor: pointer;
-                transition: background-color 0.3s, color 0.3s, border-color 0.3s; /* Tambahkan transisi untuk border */
+                transition: background-color 0.3s, color 0.3s;
             }
             .badgekembali:hover {
-                background-color: white;
-                color: black;
-                background: white;
-            }
-
-            .badgepupr {
-                background: linear-gradient(to right, white, #FFD100);
-                color: white;
-                padding: 10px 20px;
-                border-radius: 10px;
-                border: 3px solid black; /* Garis luar yang lebih tebal dan lebih jelas */
-                display: inline-block;
-                font-size: 12px;
-                text-align: center;
-                cursor: pointer;
-                transition: background-color 0.3s, color 0.3s, border-color 0.3s; /* Tambahkan transisi untuk border */
-            }
-            .badgepupr:hover {
-                background-color: white;
-                color: black;
-                background: white;
-            }
-
-            .badgemenu {
-                background: linear-gradient(to right, #FFD100, green);
-                color: white;
-                padding: 10px 20px;
-                border-radius: 10px;
-                border: 3px solid black; /* Garis luar yang lebih tebal dan lebih jelas */
-                display: inline-block;
-                font-size: 12px;
-                text-align: center;
-                cursor: pointer;
-                transition: background-color 0.3s, color 0.3s, border-color 0.3s; /* Tambahkan transisi untuk border */
-            }
-            .badgemenu:hover {
                 background-color: white;
                 color: black;
                 background: white;
@@ -194,43 +158,23 @@ color: #45a049;
                                       <a href="#" style="background: white;">
                                           <button class="badgekembali" style="border: none; font-size: 12px; cursor: pointer;">
                                             <img src="/assets/icon/logokabupatenblora.png" class="img-fluid" alt="img-25" width="50" height="50" style="margin-right: 20px;" loading="lazy">
-                                            <i class="fas fa-list mr-2" style="margin-right: 10px;"></i> <span style="text-transform: uppercase; font-weight:800; color:black">{{$title}}</span>
+                                            <i class="fas fa-edit mr-2" style="margin-right: 10px; color:#ffd100;"></i> <span style="text-transform: uppercase; color:black;">{{$title}}</span>
                                         </button>
                                     </a>
 
                                     <!-- Tombol dan kolom pencarian di kanan -->
                                     <div style="display: flex; align-items: center;">
-
-{{--
-                                        <a href="/tertibjakonpemanfaatan/pu" style="background: white;">
-                                            <button class="badgemenu" style="border: none; font-size: 12px; cursor: pointer; margin-right: 10px;">
-                                                <i class="fas fa-edit mr-2" style="margin-right: 15px;"></i><span style="color: black; font-weight:bold">PU</span>
-                                            </button>
-                                        </a>
-
-                                        <a href="/tertibjakonpemanfaatan/nonpu" style="background: white;">
-                                            <button class="badgemenu" style="border: none; font-size: 12px; cursor: pointer; margin-right: 10px;">
-                                                <i class="fas fa-edit mr-2" style="margin-right: 15px;"></i><span style="color: black; font-weight:bold">Non-PU</span>
-                                            </button>
-                                        </a>
-
-                                        <a href="/tertibjakonpemanfaatan/swasta" style="background: white;">
-                                            <button class="badgemenu" style="border: none; font-size: 12px; cursor: pointer; margin-right: 10px;">
-                                                <i class="fas fa-edit mr-2" style="margin-right: 15px;"></i><span style="color: black; font-weight:bold">Swasta</span>
-                                            </button>
-                                        </a>
- --}}
-
-                                        {{-- <a href="/tertibjasakonstruksi" style="background: white;">
-                                            <button class="badgekembali" style="border: none; font-size: 12px; cursor: pointer; margin-right: 10px;">
-                                                <i class="fas fa-arrow-circle-left mr-2" style="margin-right: 15px;"></i><span style="color: black; font-weight:bold">KEMBALI</span>
-                                            </button>
-                                        </a> --}}
 {{--
                                         <div style="position: relative; display: inline-block; margin-right:10px;">
                                             <input type="search" placeholder="Pencarian...." style="border: 1px solid #ccc; padding: 5px 10px; font-size: 14px; border-radius: 5px; width: 200px;">
                                             <i class="fas fa-search" style="position: absolute; right: 10px; top: 50%; transform: translateY(-50%); font-size: 16px; color: #888;"></i>
                                         </div> --}}
+
+                                        <a href="/datajakon/bujk" style="background: white;">
+                                            <button class="badgekembali" style="border: none; font-size: 12px; cursor: pointer; margin-right: 10px;">
+                                                <i class="fas fa-arrow-circle-left mr-2" style="margin-right: 20px; color:red;"></i><span style="color: black">KEMBALI</span>
+                                            </button>
+                                        </a>
 
                                     </div>
                                 </div>
@@ -240,50 +184,131 @@ color: #45a049;
                         </section>
 
 
+                        <body>
+                            <div class="table-wrapper" style="margin-top:-130px; position: relative;">
+                                <div style="display: flex; justify-content: space-between; margin-bottom: 10px; align-items: center;">
+                                    <div class="pagination-info-box" style="margin-right:300px; padding: 10px; border: 1px solid black; background-color: #f9f9f9; border-radius: 5px;">
+                                        <div class="pagination-info" style="color: black; font-weight: 500; font-size:14px;">
+                                            Data Ke {{ $data->firstItem() }} Sampai {{ $data->lastItem() }} Dari {{ $data->total() }} Jumlah {{$title}}
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <label for="entries" style="margin-right: 5px; font-weight: bold;">Show:</label>
+                                        <select id="entries" onchange="updateEntries()" style="padding: 5px; border: 1px solid black; background-color: white;">
+                                            <option value="10">10</option>
+                                            <option value="25">25</option>
+                                            <option value="50">50</option>
+                                            <option value="75">75</option>
+                                            <option value="100">100</option>
+                                            <option value="150">150</option>
+                                            <option value="200">200</option>
+                                        </select>
+                                    </div>
+                                    <div style="position: relative; display: inline-block; margin-right:10px;">
+                                        <input type="search" id="searchInput" placeholder="Badan Usaha ...." onkeyup="searchTable()" style="border: 1px solid #ccc; padding: 10px 20px; font-size: 14px; border-radius: 10px; width: 300px;">
+                                        <i class="fas fa-search" style="position: absolute; right: 10px; top: 50%; transform: translateY(-50%); font-size: 16px; color: #888;"></i>
+                                    </div>
+                                </div>
 
-                        <div class="table-wrapper" style="margin-top:-130px; margin-bottom:150px;">
-                        <table class="fl-table">
-                            <thead>
-                                <tr>
-                                    <th style="text-align:center" colspan="3"> Satuan Harga Dasar </th>
-                                    {{-- <th style="text-align:center" >View</th> --}}
-                                </tr>
-                                <tr>
-                                    <th style="text-align: center">Material</th>
-                                    <th style="text-align: center">Upah Tenaga Kerja</th>
-                                    <th style="text-align: center">Peralatan</th>
-                                </tr>
-                            </thead>
-                            <tbody style="background: white">
-                                <tr>
-                                    <td style="text-align: center;">
-                                        <a href="your-link-here" style="text-decoration: none;">
-                                            <button style="background-color: blue; color: white; font-weight: 300; font-size: 18px; border: none; padding: 10px 20px; border-radius: 5px; cursor: pointer; transition: 0.3s;">
-                                                Lihat Table
-                                            </button>
-                                        </a>
-                                    </td>
-                                    <td style="text-align: center;">
-                                        <a href="your-link-here" style="text-decoration: none;">
-                                            <button style="background-color: blue; color: white; font-weight: 300; font-size: 18px; border: none; padding: 10px 20px; border-radius: 5px; cursor: pointer; transition: 0.3s;">
-                                                Lihat Table
-                                            </button>
-                                        </a>
-                                    </td>
-                                    <td style="text-align: center;">
-                                        <a href="your-link-here" style="text-decoration: none;">
-                                            <button style="background-color: blue; color: white; font-weight: 300; font-size: 18px; border: none; padding: 10px 20px; border-radius: 5px; cursor: pointer; transition: 0.3s;">
-                                                Lihat Table
-                                            </button>
-                                        </a>
-                                    </td>
+                                <table class="fl-table" id="sortableTable" style="margin-top: 15px; width: 100%; border-collapse: collapse;">
+                                    <thead>
+                                        <tr>
+                                            <th onclick="sortTable(0)" style="cursor:pointer; text-align:center; width:100px;"> No <span class="sort-icon">⇅</span></th>
+                                            <th onclick="sortTable(1)" style="cursor:pointer; text-align:center; width:300px;"> Nama Badan Usaha <span class="sort-icon">⇅</span></th>
+                                            <th onclick="sortTable(2)" style="cursor:pointer; text-align:center; width:400px;"> Alamat <span class="sort-icon">⇅</span></th>
+                                            <th onclick="sortTable(3)" style="cursor:pointer; text-align:center"> No Telepon <span class="sort-icon">⇅</span></th>
+                                            {{-- <th onclick="sortTable(4)" style="cursor:pointer; text-align:center"> Email <span class="sort-icon">⇅</span></th>
+                                            <th onclick="sortTable(5)" style="cursor:pointer; text-align:center"> NIB <span class="sort-icon">⇅</span></th>
+                                            <th onclick="sortTable(6)" style="cursor:pointer; text-align:center"> PJU <span class="sort-icon">⇅</span></th>
+                                            <th onclick="sortTable(7)" style="cursor:pointer; text-align:center"> Akte <span class="sort-icon">⇅</span></th>
+                                            <th onclick="sortTable(8)" style="cursor:pointer; text-align:center"> Tanggal <span class="sort-icon">⇅</span></th>
+                                            <th onclick="sortTable(9)" style="cursor:pointer; text-align:center"> Notaris <span class="sort-icon">⇅</span></th>
+                                            <th onclick="sortTable(10)" style="cursor:pointer; text-align:center"> Pengesahan <span class="sort-icon">⇅</span></th> --}}
+                                            <th style="text-align:center"> View </th>
+                                        </tr>
+                                    </thead>
+                                    <tbody id="tableBody">
+                                        @php $start = ($data->currentPage() - 1) * $data->perPage() + 1; @endphp
+                                        @foreach ($data as $item )
+                                        <tr>
+                                            <td style="text-align: center;">{{ $loop->iteration + $start - 1 }}</td>
+                                            <td style="text-transform: capitalize;">{{ ucwords(strtolower($item->namalengkap)) }}</td>
+                                            <td>{{$item->alamat}}</td>
+                                            <td>{{$item->no_telepon}}</td>
+                                            {{-- <td>{{$item->email}}</td>
+                                            <td>{{$item->nib}}</td>
+                                            <td>{{$item->pju}}</td>
+                                            <td>{{$item->no_akte}}</td>
+                                            <td>{{ \Carbon\Carbon::parse($item->tanggal)->isoFormat('D MMMM YYYY') }}</td>
+                                            <td>{{$item->nama_notaris}}</td>
+                                            <td>{{$item->no_pengesahan}}</td> --}}
+                                            <td style="text-align: center">
+                                                <a href="/datajakon/bujkkontraktor/{{$item->namalengkap}}">
+                                                    <i class="fas fa-eye view-icon" onclick="alert('View clicked!')"></i>
+                                                </a>
+                                            </td>
+                                        </tr>
+                                        @endforeach
+                                    </tbody>
+                                </table>
 
-                                </tr>
-                            </tbody>
-                        </table>
-                        </div>
+                                <div class="pagination-container" style="margin-top: 50px; display: flex; flex-direction: column; align-items: center;">
+                                    <ul class="pagination-paginate" style="display: flex; padding-left: 0; list-style: none; margin-top: 10px;">
+                                        <li class="page-item {{ $data->onFirstPage() ? 'disabled' : '' }}" style="margin-right: 5px;">
+                                            <a class="page-link" href="{{ $data->previousPageUrl() }}">
+                                                <i class="fas fa-arrow-left" style="margin-right: 10px;"></i>Previous
+                                            </a>
+                                        </li>
+                                        <li class="page-item {{ $data->hasMorePages() ? '' : 'disabled' }}" style="margin-right: 5px;">
+                                            <a class="page-link" href="{{ $data->nextPageUrl() }}">
+                                                Next <i class="fas fa-arrow-right" style="margin-left: 10px;"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
 
-                    </div><!-- donate-box-inner -->
+                            <style>
+                                .sort-icon {
+                                    font-size: 16px;
+                                    color: gray;
+                                    margin-left: 5px;
+                                }
+                                th {
+                                    padding: 10px;
+                                    border-bottom: 2px solid black;
+                                }
+                                th:hover {
+                                    background-color: #f2f2f2;
+                                }
+                            </style>
+
+                            <script>
+                            function updateEntries() {
+                                let selectedValue = document.getElementById("entries").value;
+                                let url = new URL(window.location.href);
+                                url.searchParams.set("perPage", selectedValue);
+                                window.location.href = url.toString();
+                            }
+                            function searchTable() {
+                            let input = document.getElementById("searchInput").value;
+
+                            fetch(`/datajakon/bujkkontraktor?search=${input}`)
+                                .then(response => response.text())
+                                .then(html => {
+                                    let parser = new DOMParser();
+                                    let doc = parser.parseFromString(html, "text/html");
+                                    let newTableBody = doc.querySelector("#tableBody").innerHTML;
+                                    document.querySelector("#tableBody").innerHTML = newTableBody;
+                                })
+                                .catch(error => console.error("Error fetching search results:", error));
+                        }
+
+                                </script>
+
+
+
+                        </div><!-- donate-box-inner -->
                                         </div><!-- col-xl-8 col-lg-12 -->
                                     </div><!-- row -->
                                 </div><!-- container -->
@@ -299,6 +324,8 @@ color: #45a049;
             </div><!-- row -->
         </div><!-- container -->
     </section><!-- service-two-section -->
+
+
 
 
 

@@ -97,6 +97,7 @@ use App\Models\tokobangunanblora;
 use App\Models\shstblora;
 use App\Models\profiljenispekerjaan;
 use App\Models\sumberdana;
+use App\Models\satuanhargamaterial;
 
 
 // modelbaru
@@ -5452,6 +5453,100 @@ profilpaketpekerjaannontender::create([
     'dinas' => 'KECAMATAN JEPON',
 ]);
 
+
+//======================== ===================================================================================
+// PAKET KONSULTASI TENDER MAS JAKI BLORA
+
+satuanhargamaterial::create([
+    'uraian' => 'Agregat Pokok',
+    'satuan' => 'M3',
+    'besaran' => '322200',
+    'keterangan' => 'AHSP Kab Blora Tahun 2025',
+]);
+
+satuanhargamaterial::create([
+    'uraian' => 'Agregat Pengunci',
+    'satuan' => 'M3',
+    'besaran' => '322200',
+    'keterangan' => 'AHSP Kab Blora Tahun 2025',
+]);
+
+satuanhargamaterial::create([
+    'uraian' => 'Agregat Penutup',
+    'satuan' => 'Kg',
+    'besaran' => '239',
+    'keterangan' => 'AHSP Kab Blora Tahun 2025',
+]);
+
+satuanhargamaterial::create([
+    'uraian' => 'Angkur M16 panjang 50 cm',
+    'satuan' => 'Buah',
+    'besaran' => '28600',
+    'keterangan' => 'AHSP Kab Blora Tahun 2025',
+]);
+
+satuanhargamaterial::create([
+    'uraian' => 'Asbes gelombang',
+    'satuan' => 'Lembar',
+    'besaran' => '112200',
+    'keterangan' => 'AHSP Kab Blora Tahun 2025',
+]);
+
+satuanhargamaterial::create([
+    'uraian' => 'Baja L 40.40.4',
+    'satuan' => 'Kg',
+    'besaran' => '18000',
+    'keterangan' => 'AHSP Kab Blora Tahun 2025',
+]);
+
+satuanhargamaterial::create([
+    'uraian' => 'Banner plastik 0,6 x 0,8 m2',
+    'satuan' => 'M2',
+    'besaran' => '133900',
+    'keterangan' => 'AHSP Kab Blora Tahun 2025',
+]);
+
+satuanhargamaterial::create([
+    'uraian' => 'Batu kerikil uk. 2-3 cm, 4-5 cm dan 5-7 cm',
+    'satuan' => 'M3',
+    'besaran' => '329200',
+    'keterangan' => 'AHSP Kab Blora Tahun 2025',
+]);
+
+satuanhargamaterial::create([
+    'uraian' => 'Bentonite',
+    'satuan' => 'Kg',
+    'besaran' => '3960',
+    'keterangan' => 'AHSP Kab Blora Tahun 2025',
+]);
+
+satuanhargamaterial::create([
+    'uraian' => 'Besi strip',
+    'satuan' => 'Kg',
+    'besaran' => '17600',
+    'keterangan' => 'AHSP Kab Blora Tahun 2025',
+]);
+
+satuanhargamaterial::create([
+    'uraian' => 'Cuka Bibit',
+    'satuan' => 'Liter',
+    'besaran' => '26800',
+    'keterangan' => 'AHSP Kab Blora Tahun 2025',
+]);
+
+satuanhargamaterial::create([
+    'uraian' => 'Dinding triplek 4mm',
+    'satuan' => 'Lembar',
+    'besaran' => '70.700,00',
+    'keterangan' => 'AHSP Kab Blora Tahun 2025',
+]);
+
+satuanhargamaterial::create([
+    'uraian' => 'Dolken kayu φ 8- 10/400 cm',
+    'satuan' => 'M1',
+    'besaran' => '14600',
+    'keterangan' => 'AHSP Kab Blora Tahun 2025',
+]);
 
 // garis
 
