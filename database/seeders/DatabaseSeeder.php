@@ -724,44 +724,6 @@ bujkkontraktor::create([
     'no_pengesahan' => 'AHU-0006809-AH.01.16'
 ]);
 
-bujkkontraktorsub ::create([
-    'bujkkontraktor_id' => 3, // Ganti dengan ID yang sesuai
-    'nama_pengurus' => '-',
-    'sub_klasifikasi_layanan' => 'Konstruksi Gedung Lainnya',
-    'kode' => 'Persyaratan Belum Lengkap (OSS)',
-    'kualifikasi' => '-',
-    'penerbit' => '-',
-    'tanggal_terbit' => null,
-    'masa_berlaku' => null,
-    'nama_psjk' => '-',
-    'sub_kualifikasi_bu' => '-'
-]);
-
-bujkkontraktorsub ::create([
-    'bujkkontraktor_id' => 3, // Ganti dengan ID yang sesuai
-    'nama_pengurus' => '-',
-    'sub_klasifikasi_layanan' => 'Konstruksi Gedung Perkantoran',
-    'kode' => 'Persyaratan Belum Lengkap (OSS)',
-    'kualifikasi' => '-',
-    'penerbit' => '-',
-    'tanggal_terbit' => null,
-    'masa_berlaku' => null,
-    'nama_psjk' => '-',
-    'sub_kualifikasi_bu' => '-'
-]);
-
-bujkkontraktorsub ::create([
-    'bujkkontraktor_id' => 3, // Ganti dengan ID yang sesuai
-    'nama_pengurus' => '-',
-    'sub_klasifikasi_layanan' => 'Konstruksi Jaringan Irigasi dan Drainase',
-    'kode' => 'Persyaratan Belum Lengkap (OSS)',
-    'kualifikasi' => '-',
-    'penerbit' => '-',
-    'tanggal_terbit' => null,
-    'masa_berlaku' => null,
-    'nama_psjk' => '-',
-    'sub_kualifikasi_bu' => '-'
-]);
 
 bujkkontraktorsub ::create([
     'bujkkontraktor_id' => 3, // Ganti dengan ID yang sesuai
@@ -800,6 +762,46 @@ bujkkontraktorsub ::create([
     'masa_berlaku' => '2027-08-07',
     'nama_psjk' => 'AHMAD FAIZAL ABADI',
     'sub_kualifikasi_bu' => 'Konstruksi Gedung Pendidikan'
+]);
+
+
+bujkkontraktorsub ::create([
+    'bujkkontraktor_id' => 3, // Ganti dengan ID yang sesuai
+    'nama_pengurus' => '-',
+    'sub_klasifikasi_layanan' => 'Konstruksi Gedung Lainnya',
+    'kode' => 'Persyaratan Belum Lengkap (OSS)',
+    'kualifikasi' => '-',
+    'penerbit' => '-',
+    'tanggal_terbit' => null,
+    'masa_berlaku' => null,
+    'nama_psjk' => '-',
+    'sub_kualifikasi_bu' => '-'
+]);
+
+bujkkontraktorsub ::create([
+    'bujkkontraktor_id' => 3, // Ganti dengan ID yang sesuai
+    'nama_pengurus' => '-',
+    'sub_klasifikasi_layanan' => 'Konstruksi Gedung Perkantoran',
+    'kode' => 'Persyaratan Belum Lengkap (OSS)',
+    'kualifikasi' => '-',
+    'penerbit' => '-',
+    'tanggal_terbit' => null,
+    'masa_berlaku' => null,
+    'nama_psjk' => '-',
+    'sub_kualifikasi_bu' => '-'
+]);
+
+bujkkontraktorsub ::create([
+    'bujkkontraktor_id' => 3, // Ganti dengan ID yang sesuai
+    'nama_pengurus' => '-',
+    'sub_klasifikasi_layanan' => 'Konstruksi Jaringan Irigasi dan Drainase',
+    'kode' => 'Persyaratan Belum Lengkap (OSS)',
+    'kualifikasi' => '-',
+    'penerbit' => '-',
+    'tanggal_terbit' => null,
+    'masa_berlaku' => null,
+    'nama_psjk' => '-',
+    'sub_kualifikasi_bu' => '-'
 ]);
 
 // fort
