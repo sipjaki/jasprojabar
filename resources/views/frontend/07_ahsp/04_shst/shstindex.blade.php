@@ -313,7 +313,7 @@ color: #45a049;
                                 <tr>
                                     <td></td>
                                     <td style="text-align: center; font-weight:bold; font-size:18px;">{{ 'Rp ' . number_format($item->rumahnegaratipea, 0, ',', '.') }},00</td>
-                                    <td style="text-align: center; font-weight:bold; font-size:18px;">{{ 'Rp ' . number_format($item->rumahnegaratipea, 0, ',', '.') }},00</td>
+                                    <td style="text-align: center; font-weight:bold; font-size:18px;">{{ 'Rp ' . number_format($item->rumahnegaratipeb, 0, ',', '.') }},00</td>
                                     <td style="text-align: center; font-weight:bold; font-size:18px;">{{ 'Rp ' . number_format($item->rumahnegaratipecde, 0, ',', '.') }},00</td>
                                 </tr>
 
