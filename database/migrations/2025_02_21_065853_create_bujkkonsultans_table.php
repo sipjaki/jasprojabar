@@ -14,13 +14,13 @@ return new class extends Migration
         Schema::create('bujkkonsultans', function (Blueprint $table) {
             $table->id();
             $table->foreignId('bujkkonsultansub_id')->nullable();
-            // $table->foreignId('asosiasimasjaki_id')->nullable();
+            $table->foreignId('asosiasimasjaki_id')->nullable();
             // $table->foreignId('asosiasimasjaki_id')->nullable()->constrained(false);
             // $table->foreignId('asosiasimasjaki_id')->nullable()->constrained()->nullOnDelete();
-            $table->foreignId('asosiasimasjaki_id')
-                                ->nullable()
-                                ->constrained('namaasosiasi')
-                                ->nullOnDelete();
+            // $table->foreignId('asosiasimasjaki_id')
+            //                     ->nullable()
+            //                     ->constrained('namaasosiasi')
+            //                     ->nullOnDelete();
             $table->string('namalengkap')->nullable();
             $table->text('alamat')->nullable();
             $table->string('no_telepon')->nullable();

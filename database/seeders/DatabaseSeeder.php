@@ -1732,7 +1732,7 @@ bujkkonsultansub::create([
 // DATA 2 BUJK KONSULTAN
 bujkkonsultan::create([
     'bujkkonsultansub_id' => 2, // Ganti dengan ID yang sesuai
-    'asosiasimasjaki_id' => null,
+    'asosiasimasjaki_id' => 5,
     'namalengkap' => 'KARYA INTI KONSULTAN',
     'alamat' => 'DUKUH SENDANG KLAMPOK, Desa/Kelurahan Tempurejo, Kec. Blora, Kab. Blora, Provinsi Jawa Tengah ',
     'no_telepon' => '082133220199',
@@ -1776,7 +1776,7 @@ bujkkonsultansub::create([
 // DATA 3 BUJK KONSULTAN
 bujkkonsultan::create([
     'bujkkonsultansub_id' => 3, // Ganti dengan ID yang sesuai
-    'asosiasimasjaki_id' => null,
+    'asosiasimasjaki_id' => 4,
     'namalengkap' => 'BEGAWAN ABIYOSO',
     'alamat' => ' DUKUH WUNI, Desa/Kelurahan Balong, Kec. Jepon, Kab. Blora, Provinsi Jawa Tengah ',
     'no_telepon' => '085292559491',
@@ -1808,7 +1808,7 @@ bujkkonsultansub::create([
 // DATA 4 BUJK KONSULTAN
 bujkkonsultan::create([
     'bujkkonsultansub_id' => 4, // Ganti dengan ID yang sesuai
-    'asosiasimasjaki_id' => null,
+    'asosiasimasjaki_id' => 2,
     'namalengkap' => 'GRAHACIPTA PERKASA',
     'alamat' => ' Ds. Tambahrejo, Desa/Kelurahan Tambahrejo, Kec. Tunjungan, Kab. Blora, Provinsi Jawa Tengah',
     'no_telepon' => '081327421757',
@@ -1865,7 +1865,7 @@ bujkkonsultansub::create([
 // DATA 5 BUJK KONSULTAN
 bujkkonsultan::create([
     'bujkkonsultansub_id' => 5, // Ganti dengan ID yang sesuai
-    'asosiasimasjaki_id' => null,
+    'asosiasimasjaki_id' => 3,
     'namalengkap' => 'BEKONS',
     'alamat' => 'Dukuh Bengir, Desa/Kelurahan Keser, Kec. Tunjungan, Kab. Blora, Provinsi Jawa Tengah ',
     'no_telepon' => '085326420963',
