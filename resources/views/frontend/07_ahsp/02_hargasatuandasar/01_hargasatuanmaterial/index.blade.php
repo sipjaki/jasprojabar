@@ -283,7 +283,7 @@ color: #45a049;
                             function searchTable() {
                             let input = document.getElementById("searchInput").value;
 
-                            fetch(`/datajakon/bujkkontraktor?search=${input}`)
+                            fetch(`/satuanhargamaterial?search=${input}`)
                                 .then(response => response.text())
                                 .then(html => {
                                     let parser = new DOMParser();
