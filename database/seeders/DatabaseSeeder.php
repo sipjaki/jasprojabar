@@ -5537,7 +5537,7 @@ satuanhargamaterial::create([
 satuanhargamaterial::create([
     'uraian' => 'Dinding triplek 4mm',
     'satuan' => 'Lembar',
-    'besaran' => '70.700,00',
+    'besaran' => '70700',
     'keterangan' => 'AHSP Kab Blora Tahun 2025',
 ]);
 
