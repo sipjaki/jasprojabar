@@ -362,7 +362,7 @@ bujkkontraktor::create([
     'nib' => '9120004380419',
     'pju' => 'LINDA CRISTIYAWATI',
     'no_akte' => '-',
-    'tanggal' => '',
+    'tanggal' => '2020-10-10',
     'nama_notaris' => '-',
     'no_pengesahan' => '-'
 ]);
