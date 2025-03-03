@@ -214,7 +214,7 @@
                                             </ul>
                                         </li>
 										<li><a href="/hspkonstruksiumum">HSP Konstruksi Umum</a></li>
-										<li><a href="/shstblora">SHST Konstruksi Kab Blora</a></li>
+										<li><a href="/shstblora">SHST 2025</a></li>
                                     </ul><!-- list-unstyled -->
 								</li>
                                 <li><a href="/404">AHSP Bina Marga </a></li>
