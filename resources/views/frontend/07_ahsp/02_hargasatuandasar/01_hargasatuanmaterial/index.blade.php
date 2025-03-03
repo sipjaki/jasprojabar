@@ -230,7 +230,7 @@ color: #45a049;
                                             <td style="text-transform: capitalize;">{{ ucwords(strtolower($item->uraian)) }}</td>
                                             <td style="text-align: center;">{{$item->satuan}}</td>
                                             <td style="text-align: center;">Rp.</td>
-                                            <td>Rp {{ number_format((float) ($item->besaran ?? 0), 0, ',', '.') }}</td>
+                                            <td>Rp {{ number_format((float) $item->besaran, 0, ',', '.') }},-</td>
 
                                             <td>{{$item->keterangan}}</td>
                                             {{-- <td style="text-align: center">
