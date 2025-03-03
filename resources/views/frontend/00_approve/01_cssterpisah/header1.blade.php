@@ -129,9 +129,7 @@
 						<li class="active has-dropdown">
 							<a href="#">BERITA</a>
 							<ul class="list-unstyled">
-								<li><a href="/404">Berita Jakon</a></li>
-								<li><a href="/404">Artikel Jakon</a></li>
-                                <li><a href="#">Asuransi Jasa Konstruksi</a>
+								<li><a href="#">Peraturan</a>
                                     <ul class="list-unstyled">
                                         <li><a href="/standarbiayaumummasjaki">Standar Biaya Umum </a></li>
                                         <li><a href="/peraturan/undangundang">Undang - Undang </a></li>
@@ -147,6 +145,9 @@
                                         <li><a href="/peraturan/suratkeputusan">Surat Keputusan</a></li>
                                     </ul><!-- list-unstyled -->
                                 </li>
+                                <li><a href="/404">Berita Jakon</a></li>
+								<li><a href="/404">Artikel Jakon</a></li>
+
 
 								{{-- <li><a href="/404">Agenda Sertifikasi</a></li> --}}
 							</ul><!-- list-unstyled -->
@@ -212,8 +213,7 @@
 						</li><!--has-dropdown-->
 
                         <li class="active has-dropdown">
-                            <a href="#"></a>
-
+                            <a href="#">Asuransi Konstruksi </a>
 							<ul class="list-unstyled">
                         	</ul><!-- list-unstyled -->
 						</li><!--has-dropdown-->
