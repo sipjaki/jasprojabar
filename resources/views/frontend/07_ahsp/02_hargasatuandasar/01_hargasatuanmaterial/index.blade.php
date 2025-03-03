@@ -215,7 +215,7 @@ color: #45a049;
                                         <tr>
                                             <th onclick="sortTable(0)" style="cursor:pointer; text-align:center; width:100px;"> No <span class="sort-icon">⇅</span></th>
                                             <th onclick="sortTable(1)" style="cursor:pointer; text-align:center; width:300px;"> Uraian <span class="sort-icon">⇅</span></th>
-                                            <th onclick="sortTable(2)" style="cursor:pointer; text-align:center; width:400px;"> Satuan <span class="sort-icon">⇅</span></th>
+                                            <th onclick="sortTable(2)" style="cursor:pointer; text-align:center; width:100px;"> Satuan <span class="sort-icon">⇅</span></th>
                                             <th onclick="sortTable(3)" style="cursor:pointer; text-align:center; width:50px;"> Rp. <span class="sort-icon">⇅</span></th>
                                             <th onclick="sortTable(4)" style="cursor:pointer; text-align:center; width:200px;"> Besaran <span class="sort-icon">⇅</span></th>
                                             {{-- <th style="text-align:center"> View </th> --}}
@@ -229,7 +229,7 @@ color: #45a049;
                                             <td style="text-transform: capitalize;">{{ ucwords(strtolower($item->uraian)) }}</td>
                                             <td>{{$item->satuan}}</td>
                                             <td>Rp.</td>
-                                            <td>{{ number_format($item->besaran, 0, ',', '.') }}</td>
+                                            <td style="text-align: right;">{{ number_format($item->besaran, 0, ',', '.') }}</td>
                                             <td>{{$item->keterangan}}</td>
                                             {{-- <td style="text-align: center">
                                                 <a href="/404">
