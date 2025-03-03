@@ -213,7 +213,20 @@
                                                 <li><a href="/404">Harga Satuan Peralatan</a></li>
                                             </ul>
                                         </li>
-										<li><a href="/hspkonstruksiumum">HSP Konstruksi Umum</a></li>
+										<li><a href="#">HSP Konstruksi Umum</a>
+                                            <ul class="list-unstyled">
+                                                <li><a href="/404">Divisi I Persiapan Pekerjaan</a></li>
+                                                <li><a href="/404">Divisi II Pekerjaan Struktur</a></li>
+                                                <li><a href="/404">Divisi III Pekerjaan Arsitektur</a></li>
+                                                <li><a href="/404">Divisi IV Pekerjaan Lansekap</a></li>
+                                                <li><a href="/404">Divisi IV Pekerjaan Lansekap</a></li>
+                                                <li><a href="/404">Divisi V Pekerjaan Mekanikal & Elektrikal</a></li>
+                                                <li><a href="/404">Divisi VI Pekerjaan Plambing</a></li>
+                                                <li><a href="/404">Divisi VII Jalan Pada Pemukiman</a></li>
+                                                <li><a href="/404">Divisi VIII Drainase Jalan</a></li>
+                                                <li><a href="/404">Divisi IX Pekerjaan Jaringan Pipa Di Luar Gedung</a></li>
+                                            </ul>
+                                        </li>
 										<li><a href="/shstblora">SHST 2025</a></li>
                                     </ul><!-- list-unstyled -->
 								</li>
