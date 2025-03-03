@@ -260,14 +260,14 @@ bujkkontraktor::create([
     'asosiasimasjaki_id' => 1, // Ganti dengan ID yang sesuai
     'namalengkap' => 'Mandra Kanta Unggul',
     'alamat' => 'Desa Tawangrejo 003/005 Kunduran Kab. Blora Jawa Tengah',
-    'no_telepon' => '82324908547',
+    'no_telepon' => '082324908547',
     'email' => 'mandrakantaunggul@gmail.com',
     'nib' => '0208220001109',
     'pju' => 'WINARSIH',
     'no_akte' => '25',
     'tanggal' => '2024-07-21',
     'nama_notaris' => 'DIAH TRIMURTI SALEH S.E., S.H., M.KN',
-    'no_pengesahan' => ' AHU-0049177-AH.01.14'
+    'no_pengesahan' => 'AHU-0049177-AH.01.14'
 ]);
 
 // -----------------------
@@ -349,6 +349,366 @@ bujkkontraktorsub::create([
     'nama_psjk' => null,
     'sub_kualifikasi_bu' => null
 ]);
+
+// ---------------
+
+bujkkontraktor::create([
+    'bujkkontraktorsub_id' => 2, // Ganti dengan ID yang sesuai
+    'asosiasimasjaki_id' => 1, // Ganti dengan ID yang sesuai
+    'namalengkap' => 'Ramai Jaya Bumi',
+    'alamat' => 'Jl. Gajah Mada No. 24A 000/000 Cepu Kab. Blora Jawa Tengah',
+    'no_telepon' => '02965104662',
+    'email' => 'ramaijayaabadi18@gmail.com',
+    'nib' => '9120004380419',
+    'pju' => 'LINDA CRISTIYAWATI',
+    'no_akte' => '-',
+    'tanggal' => '-',
+    'nama_notaris' => '-',
+    'no_pengesahan' => '-'
+]);
+
+// -----------------------
+
+bujkkontraktorsub ::create([
+    'bujkkontraktor_id' => 2, // Ganti dengan ID yang sesuai
+    'nama_pengurus' => 'OKTAVIA COKRODIHARJO',
+    'sub_klasifikasi_layanan' => 'Konstruksi Bangunan Sipil Jalan',
+    'kode' => 'BS001',
+    'kualifikasi' => 'Menengah',
+    'penerbit' => 'LSBU KONSTRUKSI INDONESIA (ASPEKINDO)',
+    'tanggal_terbit' => '2024-04-22',
+    'masa_berlaku' => '2027-04-21',
+    'nama_psjk' => 'MUHAMMAD KHAFID SAHRONI',
+    'sub_kualifikasi_bu' => 'Konstruksi Bangunan Sipil Jalan'
+]);
+
+bujkkontraktorsub ::create([
+    'bujkkontraktor_id' => 2, // Ganti dengan ID yang sesuai
+    'nama_pengurus' => 'OKTAVIA COKRODIHARJO',
+    'sub_klasifikasi_layanan' => 'Instalasi Minyak Dan Gas',
+    'kode' => 'IN004',
+    'kualifikasi' => 'Spesialis',
+    'penerbit' => 'LSBU KONSTRUKSI INDONESIA (ASPEKINDO)',
+    'tanggal_terbit' => '2023-07-14',
+    'masa_berlaku' => '2026-07-13',
+    'nama_psjk' => 'Dedi Setyawan',
+    'sub_kualifikasi_bu' => 'Instalasi Minyak Dan Gas'
+]);
+
+bujkkontraktorsub ::create([
+    'bujkkontraktor_id' => 2, // Ganti dengan ID yang sesuai
+    'nama_pengurus' => 'OKTAVIA COKRODIHARJO',
+    'sub_klasifikasi_layanan' => 'Instalasi Mekanikal',
+    'kode' => 'IN001',
+    'kualifikasi' => 'Spesialis',
+    'penerbit' => 'LSBU KONSTRUKSI INDONESIA (ASPEKINDO)',
+    'tanggal_terbit' => '2023-07-24',
+    'masa_berlaku' => '2026-07-23',
+    'nama_psjk' => 'Dedi Setyawan',
+    'sub_kualifikasi_bu' => 'Instalasi Mekanikal'
+]);
+
+bujkkontraktorsub ::create([
+    'bujkkontraktor_id' => 2, // Ganti dengan ID yang sesuai
+    'nama_pengurus' => '-',
+    'sub_klasifikasi_layanan' => 'Pengerukan',
+    'kode' => 'Persyaratan Belum Lengkap (OSS)',
+    'kualifikasi' => '',
+    'penerbit' => '',
+    'tanggal_terbit' => '-',
+    'masa_berlaku' => '-',
+    'nama_psjk' => '-',
+    'sub_kualifikasi_bu' => '-'
+]);
+
+bujkkontraktorsub ::create([
+    'bujkkontraktor_id' => 2, // Ganti dengan ID yang sesuai
+    'nama_pengurus' => '-',
+    'sub_klasifikasi_layanan' => 'Konstruksi Gedung Hunian',
+    'kode' => 'Persyaratan Belum Lengkap (OSS)',
+    'kualifikasi' => '',
+    'penerbit' => '',
+    'tanggal_terbit' => '-',
+    'masa_berlaku' => '-',
+    'nama_psjk' => '-',
+    'sub_kualifikasi_bu' => '-'
+]);
+
+bujkkontraktorsub ::create([
+    'bujkkontraktor_id' => 2, // Ganti dengan ID yang sesuai
+    'nama_pengurus' => '-',
+    'sub_klasifikasi_layanan' => 'Konstruksi Gedung Industri',
+    'kode' => 'Persyaratan Belum Lengkap (OSS)',
+    'kualifikasi' => '',
+    'penerbit' => '',
+    'tanggal_terbit' => '-',
+    'masa_berlaku' => '-',
+    'nama_psjk' => '-',
+    'sub_kualifikasi_bu' => '-'
+]);
+
+bujkkontraktorsub ::create([
+    'bujkkontraktor_id' => 2, // Ganti dengan ID yang sesuai
+    'nama_pengurus' => '-',
+    'sub_klasifikasi_layanan' => 'Konstruksi Gedung Lainnya',
+    'kode' => 'Persyaratan Belum Lengkap (OSS)',
+    'kualifikasi' => '',
+    'penerbit' => '',
+    'tanggal_terbit' => '-',
+    'masa_berlaku' => '-',
+    'nama_psjk' => '-',
+    'sub_kualifikasi_bu' => '-'
+]);
+
+bujkkontraktorsub ::create([
+    'bujkkontraktor_id' => 2, // Ganti dengan ID yang sesuai
+    'nama_pengurus' => '-',
+    'sub_klasifikasi_layanan' => 'Konstruksi Bangunan Sipil Jembatan, Jalan Layang, Fly Over, dan Underpass',
+    'kode' => 'Persyaratan Belum Lengkap (OSS)',
+    'kualifikasi' => '',
+    'penerbit' => '',
+    'tanggal_terbit' => '-',
+    'masa_berlaku' => '-',
+    'nama_psjk' => '-',
+    'sub_kualifikasi_bu' => '-'
+]);
+
+
+bujkkontraktorsub ::create([
+    'bujkkontraktor_id' => 2, // Ganti dengan ID yang sesuai
+    'nama_pengurus' => '-',
+    'sub_klasifikasi_layanan' => 'Instalasi Elektronika',
+    'kode' => 'Persyaratan Belum Lengkap (OSS)',
+    'kualifikasi' => '',
+    'penerbit' => '',
+    'tanggal_terbit' => '-',
+    'masa_berlaku' => '-',
+    'nama_psjk' => '-',
+    'sub_kualifikasi_bu' => '-'
+]);
+
+bujkkontraktorsub ::create([
+    'bujkkontraktor_id' => 2, // Ganti dengan ID yang sesuai
+    'nama_pengurus' => '-',
+    'sub_klasifikasi_layanan' => 'Konstruksi Bangunan Sipil Minyak dan Gas Bumi',
+    'kode' => 'Persyaratan Belum Lengkap (OSS)',
+    'kualifikasi' => '',
+    'penerbit' => '',
+    'tanggal_terbit' => '-',
+    'masa_berlaku' => '-',
+    'nama_psjk' => '-',
+    'sub_kualifikasi_bu' => '-'
+]);
+
+bujkkontraktorsub ::create([
+    'bujkkontraktor_id' => 2, // Ganti dengan ID yang sesuai
+    'nama_pengurus' => '-',
+    'sub_klasifikasi_layanan' => 'Penyewaan Alat Konstruksi Dengan Operator',
+    'kode' => 'Persyaratan Belum Lengkap (OSS)',
+    'kualifikasi' => '',
+    'penerbit' => '',
+    'tanggal_terbit' => '-',
+    'masa_berlaku' => '-',
+    'nama_psjk' => '-',
+    'sub_kualifikasi_bu' => '-'
+]);
+
+bujkkontraktorsub ::create([
+    'bujkkontraktor_id' => 2, // Ganti dengan ID yang sesuai
+    'nama_pengurus' => '-',
+    'sub_klasifikasi_layanan' => 'Aktivitas Keinsinyuran dan Konsultasi Teknis YBDI',
+    'kode' => 'Persyaratan Belum Lengkap (OSS)',
+    'kualifikasi' => '',
+    'penerbit' => '',
+    'tanggal_terbit' => '-',
+    'masa_berlaku' => '-',
+    'nama_psjk' => '-',
+    'sub_kualifikasi_bu' => '-'
+]);
+
+bujkkontraktorsub ::create([
+    'bujkkontraktor_id' => 2, // Ganti dengan ID yang sesuai
+    'nama_pengurus' => '-',
+    'sub_klasifikasi_layanan' => 'Penyiapan Lahan',
+    'kode' => 'Persyaratan Belum Lengkap (OSS)',
+    'kualifikasi' => '',
+    'penerbit' => '',
+    'tanggal_terbit' => '-',
+    'masa_berlaku' => '-',
+    'nama_psjk' => '-',
+    'sub_kualifikasi_bu' => '-'
+]);
+
+bujkkontraktorsub ::create([
+    'bujkkontraktor_id' => 2, // Ganti dengan ID yang sesuai
+    'nama_pengurus' => '-',
+    'sub_klasifikasi_layanan' => 'Konstruksi Bangunan Sipil Pertambangan',
+    'kode' => 'Persyaratan Belum Lengkap (OSS)',
+    'kualifikasi' => '',
+    'penerbit' => '',
+    'tanggal_terbit' => '-',
+    'masa_berlaku' => '-',
+    'nama_psjk' => '-',
+    'sub_kualifikasi_bu' => '-'
+]);
+
+bujkkontraktorsub ::create([
+    'bujkkontraktor_id' => 2, // Ganti dengan ID yang sesuai
+    'nama_pengurus' => '-',
+    'sub_klasifikasi_layanan' => 'Konstruksi Bangunan Sipil Panas Bumi',
+    'kode' => 'Persyaratan Belum Lengkap (OSS)',
+    'kualifikasi' => '',
+    'penerbit' => '',
+    'tanggal_terbit' => '-',
+    'masa_berlaku' => '-',
+    'nama_psjk' => '-',
+    'sub_kualifikasi_bu' => '-'
+]);
+
+bujkkontraktorsub ::create([
+    'bujkkontraktor_id' => 2, // Ganti dengan ID yang sesuai
+    'nama_pengurus' => '-',
+    'sub_klasifikasi_layanan' => 'Pembongkaran',
+    'kode' => 'Persyaratan Belum Lengkap (OSS)',
+    'kualifikasi' => '',
+    'penerbit' => '',
+    'tanggal_terbit' => '-',
+    'masa_berlaku' => '-',
+    'nama_psjk' => '-',
+    'sub_kualifikasi_bu' => '-'
+]);
+
+bujkkontraktorsub ::create([
+    'bujkkontraktor_id' => 2, // Ganti dengan ID yang sesuai
+    'nama_pengurus' => '-',
+    'sub_klasifikasi_layanan' => 'Pemasangan Pondasi Dan Tiang Pancang',
+    'kode' => 'Persyaratan Belum Lengkap (OSS)',
+    'kualifikasi' => '',
+    'penerbit' => '',
+    'tanggal_terbit' => '-',
+    'masa_berlaku' => '-',
+    'nama_psjk' => '-',
+    'sub_kualifikasi_bu' => '-'
+]);
+
+bujkkontraktorsub ::create([
+    'bujkkontraktor_id' => 2, // Ganti dengan ID yang sesuai
+    'nama_pengurus' => '-',
+    'sub_klasifikasi_layanan' => 'Konstruksi Khusus Lainnya Ytdl',
+    'kode' => 'Persyaratan Belum Lengkap (OSS)',
+    'kualifikasi' => '',
+    'penerbit' => '',
+    'tanggal_terbit' => '-',
+    'masa_berlaku' => '-',
+    'nama_psjk' => '-',
+    'sub_kualifikasi_bu' => '-'
+]);
+
+bujkkontraktorsub ::create([
+    'bujkkontraktor_id' => 2, // Ganti dengan ID yang sesuai
+    'nama_pengurus' => '-',
+    'sub_klasifikasi_layanan' => 'Instalasi Saluran Air (Plambing)',
+    'kode' => 'Persyaratan Belum Lengkap (OSS)',
+    'kualifikasi' => '',
+    'penerbit' => '',
+    'tanggal_terbit' => '-',
+    'masa_berlaku' => '-',
+    'nama_psjk' => '-',
+    'sub_kualifikasi_bu' => '-'
+]);
+
+bujkkontraktorsub ::create([
+    'bujkkontraktor_id' => 2, // Ganti dengan ID yang sesuai
+    'nama_pengurus' => '-',
+    'sub_klasifikasi_layanan' => 'Pengerjaan Lantai, Dinding, Peralatan Saniter Dan Plafon',
+    'kode' => 'Persyaratan Belum Lengkap (OSS)',
+    'kualifikasi' => '',
+    'penerbit' => '',
+    'tanggal_terbit' => '-',
+    'masa_berlaku' => '-',
+    'nama_psjk' => '-',
+    'sub_kualifikasi_bu' => '-'
+]);
+
+bujkkontraktorsub ::create([
+    'bujkkontraktor_id' => 2, // Ganti dengan ID yang sesuai
+    'nama_pengurus' => '-',
+    'sub_klasifikasi_layanan' => 'Pengecatan',
+    'kode' => 'Persyaratan Belum Lengkap (OSS)',
+    'kualifikasi' => '',
+    'penerbit' => '',
+    'tanggal_terbit' => '-',
+    'masa_berlaku' => '-',
+    'nama_psjk' => '-',
+    'sub_kualifikasi_bu' => '-'
+]);
+
+bujkkontraktorsub ::create([
+    'bujkkontraktor_id' => 2, // Ganti dengan ID yang sesuai
+    'nama_pengurus' => '-',
+    'sub_klasifikasi_layanan' => 'Penyelesaian Konstruksi Bangunan Lainnya',
+    'kode' => 'Persyaratan Belum Lengkap (OSS)',
+    'kualifikasi' => '',
+    'penerbit' => '',
+    'tanggal_terbit' => '-',
+    'masa_berlaku' => '-',
+    'nama_psjk' => '-',
+    'sub_kualifikasi_bu' => '-'
+]);
+
+bujkkontraktorsub ::create([
+    'bujkkontraktor_id' => 2, // Ganti dengan ID yang sesuai
+    'nama_pengurus' => '-',
+    'sub_klasifikasi_layanan' => 'Dekorasi Eksterior',
+    'kode' => 'Persyaratan Belum Lengkap (OSS)',
+    'kualifikasi' => '',
+    'penerbit' => '',
+    'tanggal_terbit' => '-',
+    'masa_berlaku' => '-',
+    'nama_psjk' => '-',
+    'sub_kualifikasi_bu' => '-'
+]);
+
+bujkkontraktorsub ::create([
+    'bujkkontraktor_id' => 2, // Ganti dengan ID yang sesuai
+    'nama_pengurus' => '-',
+    'sub_klasifikasi_layanan' => 'Konstruksi Khusus Lainnya Ytdl',
+    'kode' => 'Persyaratan Belum Lengkap (OSS)',
+    'kualifikasi' => '',
+    'penerbit' => '',
+    'tanggal_terbit' => '-',
+    'masa_berlaku' => '-',
+    'nama_psjk' => '-',
+    'sub_kualifikasi_bu' => '-'
+]);
+
+bujkkontraktorsub ::create([
+    'bujkkontraktor_id' => 2, // Ganti dengan ID yang sesuai
+    'nama_pengurus' => '-',
+    'sub_klasifikasi_layanan' => 'Aktivitas Arsitektur',
+    'kode' => 'Persyaratan Belum Lengkap (OSS)',
+    'kualifikasi' => '',
+    'penerbit' => '',
+    'tanggal_terbit' => '-',
+    'masa_berlaku' => '-',
+    'nama_psjk' => '-',
+    'sub_kualifikasi_bu' => '-'
+]);
+
+bujkkontraktorsub ::create([
+    'bujkkontraktor_id' => 2, // Ganti dengan ID yang sesuai
+    'nama_pengurus' => '-',
+    'sub_klasifikasi_layanan' => 'Konstruksi Jalan Rel',
+    'kode' => 'Persyaratan Belum Lengkap (OSS)',
+    'kualifikasi' => '',
+    'penerbit' => '',
+    'tanggal_terbit' => '-',
+    'masa_berlaku' => '-',
+    'nama_psjk' => '-',
+    'sub_kualifikasi_bu' => '-'
+]);
+
+// fort
 
 // DATA BUJK KONSULTAN MAS JAKI APLIKASI
 //======================== ===================================================================================
@@ -4867,7 +5227,7 @@ peralatankonstruksi::create([
         'pagarrumahnegarasamping' => '1380000',
     ]);
 
-    // fort
+
 //======================== ===================================================================================
 // PENGAWASAN BUJK MAS JAKI BLORA
 kecamatanblora::create([
