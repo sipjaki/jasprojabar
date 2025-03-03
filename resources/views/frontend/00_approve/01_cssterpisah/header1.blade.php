@@ -192,14 +192,6 @@
 							</ul><!-- list-unstyled -->
 						</li><!--has-dropdown-->
 
-                        <li class="active has-dropdown">
-							<a href="#">RANTAI PASOK</a>
-							<ul class="list-unstyled">
-								<li><a href="/rantaipasokmaterial">Material Bangunan Gedung </a></li>
-								<li><a href="/peralatankonstruksi">Peralatan Konstruksi</a></li>
-								<li><a href="/tokobangunanblora">Toko Bangunan Kab Blora</a></li>
-							</ul><!-- list-unstyled -->
-						</li><!--has-dropdown-->
 
                         <li class="active has-dropdown">
 							<a href="#">AHSP</a>
@@ -235,6 +227,16 @@
 								{{-- <li><a href="/hspkonstruksiumum">HSP Konstruksi Umum </a></li>
 								<li><a href="/shstblora">SHST Konstruksi</a></li> --}}
 								{{-- <li><a href="/404">Daftar Material</a></li> --}}
+							</ul><!-- list-unstyled -->
+						</li><!--has-dropdown-->
+
+
+                        <li class="active has-dropdown">
+							<a href="#">RANTAI PASOK</a>
+							<ul class="list-unstyled">
+								<li><a href="/rantaipasokmaterial">Material Bangunan Gedung </a></li>
+								<li><a href="/peralatankonstruksi">Peralatan Konstruksi</a></li>
+								<li><a href="/tokobangunanblora">Toko Bangunan Kab Blora</a></li>
 							</ul><!-- list-unstyled -->
 						</li><!--has-dropdown-->
 
