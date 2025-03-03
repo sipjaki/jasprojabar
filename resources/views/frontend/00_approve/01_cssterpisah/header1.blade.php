@@ -207,7 +207,7 @@
                                 <li><a href="/pengawasanbujk">Pengawasan BUJK</a></li>
 								<li><a href="#">Kecelakaan Kerja</a>
                                     <ul class="list-unstyled">
-                                        <li><a href="/kecelakaankerja">Data Kecelakaan</a></li>
+                                        <li><a href="/kecelakaankerjalist">Data Kecelakaan</a></li>
                                         <li><a href="/404">Data Statistik Kecelakaan</a></li>
                                     </ul>
                                 </li>
