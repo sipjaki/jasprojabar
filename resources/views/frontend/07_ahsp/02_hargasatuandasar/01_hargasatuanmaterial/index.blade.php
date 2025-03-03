@@ -213,10 +213,10 @@ color: #45a049;
                                 <table class="fl-table" id="sortableTable" style="margin-top: 15px; width: 100%; border-collapse: collapse;">
                                     <thead>
                                         <tr>
-                                            <th onclick="sortTable(0)" style="cursor:pointer; text-align:center; width:100px;"> No <span class="sort-icon">⇅</span></th>
+                                            <th onclick="sortTable(0)" style="cursor:pointer; text-align:center; width:75px;"> No <span class="sort-icon">⇅</span></th>
                                             <th onclick="sortTable(1)" style="cursor:pointer; text-align:center; width:275px;"> Uraian <span class="sort-icon">⇅</span></th>
                                             <th onclick="sortTable(2)" style="cursor:pointer; text-align:center; width:100px;"> Satuan <span class="sort-icon">⇅</span></th>
-                                            <th onclick="sortTable(3)" style="cursor:pointer; text-align:center; width:125px;"> Rp. <span class="sort-icon">⇅</span></th>
+                                            <th onclick="sortTable(3)" style="cursor:pointer; text-align:center; width:100px;"> Rp. <span class="sort-icon">⇅</span></th>
                                             <th onclick="sortTable(4)" style="cursor:pointer; text-align:center; width:200px;"> Besaran <span class="sort-icon">⇅</span></th>
                                             <th onclick="sortTable(5)" style="cursor:pointer; text-align:center; width:200px;"> Keterangan <span class="sort-icon">⇅</span></th>
                                             {{-- <th style="text-align:center"> View </th> --}}
@@ -228,8 +228,8 @@ color: #45a049;
                                         <tr>
                                             <td style="text-align: center;">{{ $loop->iteration + $start - 1 }}</td>
                                             <td style="text-transform: capitalize;">{{ ucwords(strtolower($item->uraian)) }}</td>
-                                            <td>{{$item->satuan}}</td>
-                                            <td>Rp.</td>
+                                            <td style="text-align: center;">{{$item->satuan}}</td>
+                                            <td style="text-align: center;">Rp.</td>
                                             <td style="text-align: right;">{{ number_format($item->besaran, 0, ',', '.') }}</td>
                                             <td>{{$item->keterangan}}</td>
                                             {{-- <td style="text-align: center">
