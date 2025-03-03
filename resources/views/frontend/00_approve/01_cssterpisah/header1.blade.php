@@ -181,7 +181,14 @@
 							<ul class="list-unstyled">
 								<li><a href="/pengawasanbujk">Pengawasan BUJK</a></li>
 								<li><a href="/kecelakaankerja">Kecelakaan Kerja</a></li>
-								<li><a href="/tertibjasakonstruksi">Tertib Jasa Konstruksi</a></li>
+								{{-- <li><a href="/tertibjasakonstruksi">Tertib Jasa Konstruksi</a></li> --}}
+                                <li><a href="#">Tertib Jasa Konstruksi</a>
+									<ul class="list-unstyled">
+										<li><a href="/tertibjasakonstruksilist">Tertib Usaha Jakon</a></li>
+										<li><a href="/tertibjasakonstruksipemanfaatan">Tertib Pemanfaatan Jakon</a></li>
+										<li><a href="/tertibjasakonstruksipenyelenggaraan">Tertib Penyelenggaraan Jakon</a></li>
+                                    </ul><!-- list-unstyled -->
+								</li>
 							</ul><!-- list-unstyled -->
 						</li><!--has-dropdown-->
 
