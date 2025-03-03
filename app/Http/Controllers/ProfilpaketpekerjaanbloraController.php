@@ -38,10 +38,10 @@ class ProfilpaketpekerjaanbloraController extends Controller
         ]);
     }
 
-    public function datapaketpekerjaanblorashow($jenispekerjaan)
+    public function datapaketpekerjaanblorashow($namapekerjaan)
     {
         // Pastikan model dan nama tabel sudah benar
-        $datapaketpekerjaan = profilpaketpekerjaanblora::where('jenispekerjaan', $jenispekerjaan)->first();
+        $datapaketpekerjaan = profilpaketpekerjaanblora::where('namapekerjaan', $namapekerjaan)->first();
         $datasub = prosespaket::all();
         // if (!$datapaketpekerjaan) {
         //     // Jika data tidak ditemukan, arahkan kembali dengan pesan error
