@@ -289,7 +289,7 @@ color: #45a049;
                             function searchTable() {
                             let input = document.getElementById("searchInput").value;
 
-                            fetch(`/satuanhargaupah?search=${input}`)
+                            fetch(`/satuanhargaperalatan?search=${input}`)
                                 .then(response => response.text())
                                 .then(html => {
                                     let parser = new DOMParser();
