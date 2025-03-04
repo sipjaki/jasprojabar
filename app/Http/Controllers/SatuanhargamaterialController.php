@@ -111,12 +111,12 @@ class SatuanhargamaterialController extends Controller
 
         if ($request->ajax()) {
             return response()->json([
-                'html' => view('frontend.07_ahsp.02_hargasatuandasar.02_hargasatuanupah.partials.table', compact('data'))->render()
+                'html' => view('frontend.07_ahsp.02_hargasatuandasar.03_hargasatuanperalatan.partials.table', compact('data'))->render()
             ]);
         }
 
-        return view('frontend.07_ahsp.02_hargasatuandasar.02_hargasatuanupah.index', [
-            'title' => 'Satuan Harga Dasar Material',
+        return view('frontend.07_ahsp.02_hargasatuandasar.03_hargasatuanperalatan.index', [
+            'title' => 'Satuan Harga Dasar Peralatan',
             'data' => $data,
             'perPage' => $perPage,
             'search' => $search
