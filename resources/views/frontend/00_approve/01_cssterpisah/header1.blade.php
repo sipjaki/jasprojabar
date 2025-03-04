@@ -224,7 +224,7 @@
                                             <ul class="list-unstyled">
                                                 <li><a href="/satuanhargamaterial">Harga Satuan Material</a></li>
                                                 <li><a href="/satuanhargaupah">Harga Satuan Upah Tenaga Kerja</a></li>
-                                                <li><a href="/404">Harga Satuan Peralatan</a></li>
+                                                <li><a href="/hargasatuanperalatan">Harga Satuan Peralatan</a></li>
                                             </ul>
                                         </li>
 										<li><a href="#">HSP Konstruksi Umum</a>

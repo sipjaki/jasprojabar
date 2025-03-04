@@ -124,5 +124,4 @@ class SatuanhargamaterialController extends Controller
     }
 
 
-
 }
