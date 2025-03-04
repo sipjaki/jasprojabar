@@ -13,6 +13,7 @@ return new class extends Migration
     {
         Schema::create('hsppakets', function (Blueprint $table) {
             $table->id();
+            $table->foreignId('hspkonstruksiumum_id')->nullable();
             $table->foreignId('hspdivisi_id')->nullable();
             $table->string('hsppaket')->nullable();
             $table->softDeletes();

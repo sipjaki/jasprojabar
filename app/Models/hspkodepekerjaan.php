@@ -18,5 +18,10 @@ class hspkodepekerjaan extends Model
         return $this->hasMany(hsppaket::class);
     }
 
+    public function hspkonstruksiumum()
+    {
+        return $this->belongsTo(hspkonstruksiumum::class);
+    }
+
 
 }

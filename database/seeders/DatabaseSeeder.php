@@ -5939,21 +5939,25 @@ hsppaket::create([
 //======================== ===================================================================================
 // HSP PAKET HARGA MAS JAKI BLORA
 hspkodepekerjaan::create([
+    'id' => 1,
     'hsppaket_id' => 1,
     'namapekerjaan' => 'Pembuatan pagar proyek',
 ]);
 
 hspkodepekerjaan::create([
+    'id' => 2,
     'hsppaket_id' => 1,
     'namapekerjaan' => 'Alat dan/atau sarana penunjang',
 ]);
 
 hspkodepekerjaan::create([
+    'id' => 3,
     'hsppaket_id' => 1,
     'namapekerjaan' => 'Pembersihan dan pengupasan permukaan tanah',
 ]);
 
 hspkodepekerjaan::create([
+    'id' => 4,
     'hsppaket_id' => 1,
     'namapekerjaan' => 'Pengukuran dan pasangan bouwplank',
 ]);
@@ -5963,29 +5967,36 @@ hspkodepekerjaan::create([
 // HSP PAKET HARGA MAS JAKI BLORA
 hspkonstruksiumum::create([
     'hspdivisi_id' => 1,
+    'hsppaket_id' => 1,
+    'hspkodepekerjaan_id' => 1,
     'kode' => '1',
     'jenispekerjaan' => 'Pembuatan 1 m’ pagar sementara dari kayu tinggi 2 meter',
     'hargasatuan' => '380843.37',
 ]);
 hspkonstruksiumum::create([
     'hspdivisi_id' => 1,
+    'hsppaket_id' => 1,
+    'hspkodepekerjaan_id' => 1,
     'kode' => '2',
     'jenispekerjaan' => 'Pembuatan 1 m’ pagar sementara dari seng gelombang rangka kayu tinggi 2 meter ',
     'hargasatuan' => '295990.26',
 ]);
 hspkonstruksiumum::create([
     'hspdivisi_id' => 1,
+    'hsppaket_id' => 1,
+    'hspkodepekerjaan_id' => 1,
     'kode' => '3',
     'jenispekerjaan' => 'Pembuatan 1 m’ pagar sementara dari kawat duri tinggi 2 meter',
     'hargasatuan' => '1254695.60',
 ]);
 hspkonstruksiumum::create([
     'hspdivisi_id' => 1,
+    'hsppaket_id' => 1,
+    'hspkodepekerjaan_id' => 1,
     'kode' => '4',
     'jenispekerjaan' => 'Pembuatan 1 m’ pagar sementara seng gelombang rangka baja L.40.40.4, tinggi pagar 1,8 m’ ',
     'hargasatuan' => '550180.75',
 ]);
-
 
 
 // garis

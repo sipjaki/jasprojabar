@@ -18,4 +18,14 @@ class hspkonstruksiumum extends Model
         return $this->belongsTo(hspdivisi::class);
     }
 
+    public function hsppaket()
+    {
+        return $this->belongsTo(hsppaket::class);
+    }
+
+    public function hspkodepekerjaan()
+    {
+        return $this->belongsTo(hspkodepekerjaan::class);
+    }
+
 }
