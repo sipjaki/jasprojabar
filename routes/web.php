@@ -228,6 +228,7 @@ Route::get('/tokobangunanbloralist/{namatokobangunan}', [TokobangunanbloraContro
 // ==============================================================================================================
 Route::get('/satuanhargamaterial', [SatuanhargamaterialController::class, 'index']);
 Route::get('/satuanhargaupah', [SatuanhargamaterialController::class, 'satuanhargaupah']);
+Route::get('/satuanhargaperalatan', [SatuanhargamaterialController::class, 'satuanhargaperalatan']);
 
 // fort
 

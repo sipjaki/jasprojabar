@@ -99,6 +99,7 @@ use App\Models\profiljenispekerjaan;
 use App\Models\sumberdana;
 use App\Models\satuanhargamaterial;
 use App\Models\satuanhargaupahtenagakerja;
+use App\Models\satuanhargaperalatan;
 
 
 // modelbaru
@@ -5704,8 +5705,105 @@ satuanhargaupahtenagakerja::create([
     'keterangan' => 'AHSP Kab Blora Tahun 2025',
 ]);
 
-// garis
+//======================== ===================================================================================
+// SATUAN HARGA PERALATAN MAS JAKI BLORA
+satuanhargaperalatan::create([
+    'uraian' => 'Linggis (baja keras)/bh',
+    'kode' => null,
+    'satuan' => 'Buah',
+    'besaran' => '50000',
+    'keterangan' => 'AHSP Kab Blora Tahun 2025',
+]);
 
+satuanhargaperalatan::create([
+    'uraian' => 'Pahat beton (baja keras)',
+    'kode' => null,
+    'satuan' => 'Buah',
+    'besaran' => '50000',
+    'keterangan' => 'AHSP Kab Blora Tahun 2025',
+]);
+
+satuanhargaperalatan::create([
+    'uraian' => 'Palu/godam (baja keras)/bh',
+    'kode' => null,
+    'satuan' => 'Buah',
+    'besaran' => '50000',
+    'keterangan' => 'AHSP Kab Blora Tahun 2025',
+]);
+
+satuanhargaperalatan::create([
+    'uraian' => 'Sewa pipe support',
+    'kode' => null,
+    'satuan' => 'Buah',
+    'besaran' => '1900',
+    'keterangan' => 'AHSP Kab Blora Tahun 2025',
+]);
+
+satuanhargaperalatan::create([
+    'uraian' => 'Sewa scaffolding',
+    'kode' => null,
+    'satuan' => 'Buah',
+    'besaran' => '10000',
+    'keterangan' => 'AHSP Kab Blora Tahun 2025',
+]);
+
+satuanhargaperalatan::create([
+    'uraian' => 'Alat Pancang Mini Pile Driver (Vibrator) Hammer 500 kg (10 HP)',
+    'kode' => null,
+    'satuan' => 'Hari',
+    'besaran' => '413228.39',
+    'keterangan' => 'AHSP Kab Blora Tahun 2025',
+]);
+
+satuanhargaperalatan::create([
+    'uraian' => 'Alat Pancang Mini Pile Driver (Vibratory) Hammer 50 kg (1 HP)',
+    'kode' => null,
+    'satuan' => 'Hari',
+    'besaran' => '413228.39',
+    'keterangan' => 'AHSP Kab Blora Tahun 2025',
+]);
+
+satuanhargaperalatan::create([
+    'uraian' => 'Bender baja beton',
+    'kode' => null,
+    'satuan' => 'Hari',
+    'besaran' => '268819.47',
+    'keterangan' => 'AHSP Kab Blora Tahun 2025',
+]);
+
+satuanhargaperalatan::create([
+    'uraian' => 'Bor: Auger ∅ 20 cm',
+    'kode' => null,
+    'satuan' => 'Hari',
+    'besaran' => '100000',
+    'keterangan' => 'AHSP Kab Blora Tahun 2025',
+]);
+
+satuanhargaperalatan::create([
+    'uraian' => 'Bor: Auger ∅ 30 cm',
+    'kode' => null,
+    'satuan' => 'Hari',
+    'besaran' => '100000',
+    'keterangan' => 'AHSP Kab Blora Tahun 2025',
+]);
+
+satuanhargaperalatan::create([
+    'uraian' => 'Bor: Auger ∅ 40 cm',
+    'kode' => null,
+    'satuan' => 'Hari',
+    'besaran' => '100000',
+    'keterangan' => 'AHSP Kab Blora Tahun 2025',
+]);
+
+satuanhargaperalatan::create([
+    'uraian' => 'Bor: Auger ∅ 50 cm',
+    'kode' => null,
+    'satuan' => 'Hari',
+    'besaran' => '100000',
+    'keterangan' => 'AHSP Kab Blora Tahun 2025',
+]);
+
+// garis
 //======================== ===================================================================================
 // PAKET KONSULTASI TENDER MAS JAKI BLORA
 

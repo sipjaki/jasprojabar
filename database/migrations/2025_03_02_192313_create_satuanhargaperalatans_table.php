@@ -13,6 +13,12 @@ return new class extends Migration
     {
         Schema::create('satuanhargaperalatans', function (Blueprint $table) {
             $table->id();
+            $table->string('uraian')->nullable();
+            $table->string('kode')->nullable();
+            $table->string('satuan')->nullable();
+            $table->string('besaran')->nullable();
+            $table->string('keterangan')->nullable();
+            $table->softDeletes();
             $table->timestamps();
         });
     }
