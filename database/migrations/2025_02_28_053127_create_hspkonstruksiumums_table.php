@@ -13,6 +13,13 @@ return new class extends Migration
     {
         Schema::create('hspkonstruksiumums', function (Blueprint $table) {
             $table->id();
+            $table->string('hspdivisi_id')->nullable();
+            // $table->string('hsppaket_id')->nullable();
+            // $table->string('hspkodepekerjaan_id')->nullable();
+            $table->string('kode')->nullable();
+            $table->string('jenispekerjaan')->nullable();
+            $table->string('hargasatuan')->nullable();
+            $table->softDeletes();
             $table->timestamps();
         });
     }

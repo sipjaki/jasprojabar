@@ -100,6 +100,10 @@ use App\Models\sumberdana;
 use App\Models\satuanhargamaterial;
 use App\Models\satuanhargaupahtenagakerja;
 use App\Models\satuanhargaperalatan;
+use App\Models\hspdivisi;
+use App\Models\hsppaket;
+use App\Models\hspkodepekerjaan;
+use App\Models\hspkonstruksiumum;
 
 
 // modelbaru
@@ -5803,10 +5807,188 @@ satuanhargaperalatan::create([
     'keterangan' => 'AHSP Kab Blora Tahun 2025',
 ]);
 
-// garis
 //======================== ===================================================================================
 // PAKET KONSULTASI TENDER MAS JAKI BLORA
+hspdivisi::create([
+    'id' => 1,
+    'hspdivisi' => 'Persiapan Lapangan/Site Work',
+]);
 
+hspdivisi::create([
+    'id' => 2,
+    'hspdivisi' => 'Pekerjaan Struktur',
+]);
+
+hspdivisi::create([
+    'id' => 3,
+    'hspdivisi' => 'Pekerjaan Arsitektur',
+]);
+
+hspdivisi::create([
+    'id' => 4,
+    'hspdivisi' => 'Pekerjaan Lansekap',
+]);
+
+hspdivisi::create([
+    'id' => 5,
+    'hspdivisi' => 'Pekerjaan Mekanikal Elektrikal',
+]);
+
+hspdivisi::create([
+    'id' => 6,
+    'hspdivisi' => 'Pekerjaan Plambing',
+]);
+
+hspdivisi::create([
+    'id' => 7,
+    'hspdivisi' => 'Jalan Pada Permukiman',
+]);
+
+hspdivisi::create([
+    'id' => 8,
+    'hspdivisi' => 'Drainase Jalan',
+]);
+
+hspdivisi::create([
+    'id' => 9,
+    'hspdivisi' => 'Pekerjaan Jaringan Pipa di Luar Bangunan Gedung',
+]);
+
+
+//======================== ===================================================================================
+// HSP PAKET HARGA MAS JAKI BLORA
+hsppaket::create([
+    'id' => 1,
+    'hspdivisi_id' => 1,
+    'hsppaket' => 'Pekerjaan Persiapan',
+]);
+
+hsppaket::create([
+    'id' => 2,
+    'hspdivisi_id' => 1,
+    'hsppaket' => 'Pekerjaan Galian Tanah',
+]);
+
+hsppaket::create([
+    'id' => 3,
+    'hspdivisi_id' => 1,
+    'hsppaket' => 'PEKERJAAN TIMBUNAN DAN PEMADATAN (TERMASUK PERATAAN DAN PERAPIHAN)',
+]);
+
+hsppaket::create([
+    'id' => 4,
+    'hspdivisi_id' => 1,
+    'hsppaket' => 'PEKERJAAN ANGKUTAN MATERIAL DAN/ATAU HASIL GALIAN',
+]);
+
+hsppaket::create([
+    'id' => 5,
+    'hspdivisi_id' => 1,
+    'hsppaket' => 'PEKERJAAN GEOTEKSTIL DAN GEOMEMBRAN',
+]);
+
+hsppaket::create([
+    'id' => 6,
+    'hspdivisi_id' => 1,
+    'hsppaket' => 'PEKERJAAN PEMBONGKARAN',
+]);
+
+// PAKET PEKERJAAN DIVISI 2
+// hsppaket::create([
+//     'id' => 7,
+//     'hspdivisi_id' => 2,
+//     'hsppaket' => 'PEKERJAAN RANGKA ATAP',
+// ]);
+
+// hsppaket::create([
+//     'id' => 8,
+//     'hspdivisi_id' => 2,
+//     'hsppaket' => 'PEKERJAAN STRUKTUR BETON',
+// ]);
+
+// hsppaket::create([
+//     'id' => 9,
+//     'hspdivisi_id' => 2,
+//     'hsppaket' => 'PEKERJAAN STRUKTUR BAJA',
+// ]);
+
+// hsppaket::create([
+//     'id' => 10,
+//     'hspdivisi_id' => 2,
+//     'hsppaket' => 'PEKERJAAN STRUKTUR BETON PRACETAK',
+// ]);
+
+// hsppaket::create([
+//     'id' => 11,
+//     'hspdivisi_id' => 2,
+//     'hsppaket' => 'PEKERJAAN STRUKTUR BETON PRATEGANG',
+// ]);
+
+// hsppaket::create([
+//     'id' => 12,
+//     'hspdivisi_id' => 2,
+//     'hsppaket' => 'PEKERJAAN STRUKTUR KAYU',
+// ]);
+
+// hsppaket::create([
+//     'id' => 13,
+//     'hspdivisi_id' => 2,
+//     'hsppaket' => 'PEKERJAAN DINDING PENAHAN TANAH',
+// ]);
+
+//======================== ===================================================================================
+// HSP PAKET HARGA MAS JAKI BLORA
+hspkodepekerjaan::create([
+    'hsppaket_id' => 1,
+    'namapekerjaan' => 'Pembuatan pagar proyek',
+]);
+
+hspkodepekerjaan::create([
+    'hsppaket_id' => 1,
+    'namapekerjaan' => 'Alat dan/atau sarana penunjang',
+]);
+
+hspkodepekerjaan::create([
+    'hsppaket_id' => 1,
+    'namapekerjaan' => 'Pembersihan dan pengupasan permukaan tanah',
+]);
+
+hspkodepekerjaan::create([
+    'hsppaket_id' => 1,
+    'namapekerjaan' => 'Pengukuran dan pasangan bouwplank',
+]);
+
+
+//======================== ===================================================================================
+// HSP PAKET HARGA MAS JAKI BLORA
+hspkonstruksiumum::create([
+    'hspdivisi_id' => 1,
+    'kode' => '1',
+    'jenispekerjaan' => 'Pembuatan 1 m’ pagar sementara dari kayu tinggi 2 meter',
+    'hargasatuan' => '380843.37',
+]);
+hspkonstruksiumum::create([
+    'hspdivisi_id' => 1,
+    'kode' => '2',
+    'jenispekerjaan' => 'Pembuatan 1 m’ pagar sementara dari seng gelombang rangka kayu tinggi 2 meter ',
+    'hargasatuan' => '295990.26',
+]);
+hspkonstruksiumum::create([
+    'hspdivisi_id' => 1,
+    'kode' => '3',
+    'jenispekerjaan' => 'Pembuatan 1 m’ pagar sementara dari kawat duri tinggi 2 meter',
+    'hargasatuan' => '1254695.60',
+]);
+hspkonstruksiumum::create([
+    'hspdivisi_id' => 1,
+    'kode' => '4',
+    'jenispekerjaan' => 'Pembuatan 1 m’ pagar sementara seng gelombang rangka baja L.40.40.4, tinggi pagar 1,8 m’ ',
+    'hargasatuan' => '550180.75',
+]);
+
+
+
+// garis
 // profilpaketkonsultasi::create([
 //     'prosespaketkonsultasi_id' => 1,
 //     'jenispekerjaan' => 'Pekerjaan Pembangunan Pasar Tradisional',

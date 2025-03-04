@@ -12,4 +12,10 @@ class hspkonstruksiumum extends Model
     use HasFactory, SoftDeletes, HasApiTokens;
 
     protected $guarded = ['id'];
+
+    public function hspdivisi()
+    {
+        return $this->belongsTo(hspdivisi::class);
+    }
+
 }
