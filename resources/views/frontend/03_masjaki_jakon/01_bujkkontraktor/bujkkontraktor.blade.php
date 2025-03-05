@@ -332,7 +332,7 @@ color: #45a049;
             var tahun = $(this).val();
 
             $.ajax({
-                url: "{{ route('/datajakon/bujkkontraktor') }}",
+                url: "{{ route('bujkkontraktor') }}",
                 type: "GET",
                 data: { tahun: tahun },
                 success: function(response) {
