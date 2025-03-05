@@ -127,7 +127,7 @@ color: #45a049;
 	</section><!--page-banner-->
 
     {{-- <section class="service-two-section" > --}}
-        <section class="service-two-section" style="background-image: url('/assets/00_dokmasjaki/03_datajakon/banner1.jpg');">
+        {{-- <section class="service-two-section" style="background-image: url('/assets/00_dokmasjaki/03_datajakon/banner1.jpg');">
         <div class="container"
                 style="
                 background: #FFD100;
@@ -143,6 +143,7 @@ color: #45a049;
                 <div class="col-12 col-lg-12 col-xl-12">
                     <div class="service-two-card">
                         <div class="service-two-imgbox">
+                             --}}
                             <section class="donate-section" style="background: linear-gradient(to bottom, green, #FFD100, white);">
                                 <div class="container" style="
                                 background: white;
@@ -334,13 +335,13 @@ color: #45a049;
 
 
 
-                        </div><!-- service-two-imgbox -->
+                        {{-- </div><!-- service-two-imgbox -->
                     </div><!--service-two-card-->
                 </div><!--col-12 col-lg-4 col-xl-4-->
 
             </div><!-- row -->
         </div><!-- container -->
-    </section><!-- service-two-section -->
+    </section><!-- service-two-section --> --}}
 
 
 
