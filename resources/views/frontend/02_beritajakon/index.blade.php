@@ -181,20 +181,6 @@
 								<div class="sidebar-recent-post-img">
 									<img src="assets/image/blog/blog-details-3.jpg" alt="img-198">
 								</div><!-- sidebar-recent-post-img -->
-								<div class="sidebar-recent-post-content">
-									<div class="sidebar-meta">
-										<div class="sidebar-meta-item">
-											<div class="sidebar-meta-icon">
-												<span class="author">
-													by<a href="news-details.html">Admin</a>
-												</span><!-- author -->
-											</div><!-- sidebar-meta-icon -->
-										</div><!-- sidebar-meta-item -->
-										<div class="sidebar-post-title">
-											<h5><a href="#">Learn how access to municipal council</a></h5>
-										</div><!-- sidebar-post-title -->
-									</div><!-- sidebar-meta -->
-								</div><!-- sidebar-recent-post-content -->
 							</div><!-- sidebar-recent-post -->
 							<div class="sidebar-recent-post">
 								<div class="sidebar-recent-post-img">
