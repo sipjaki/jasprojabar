@@ -9,6 +9,7 @@ use App\Models\bujkkontraktorsub;
 use App\Models\satuanhargamaterial;
 use App\Models\satuanhargaperalatan;
 use App\Models\satuanhargaupahtenagakerja;
+use App\Models\hspkonstruksiumum;
 
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\DB;
@@ -105,6 +106,47 @@ class SatuanhargamaterialController extends Controller
                   ->orWhere('satuan', 'LIKE', "%{$search}%")
                   ->orWhere('besaran', 'LIKE', "%{$search}%")
                   ->orWhere('keterangan', 'LIKE', "%{$search}%");
+        }
+
+        $data = $query->paginate($perPage);
+
+        if ($request->ajax()) {
+            return response()->json([
+                'html' => view('frontend.07_ahsp.02_hargasatuandasar.03_hargasatuanperalatan.partials.table', compact('data'))->render()
+            ]);
+        }
+
+        return view('frontend.07_ahsp.02_hargasatuandasar.03_hargasatuanperalatan.index', [
+            'title' => 'Satuan Harga Dasar Peralatan',
+            'data' => $data,
+            'perPage' => $perPage,
+            'search' => $search
+        ]);
+    }
+
+    public function hspdivis1(Request $request)
+    {
+        $perPage = $request->input('perPage', 25);
+        $search = $request->input('search');
+
+        $query = hspkonstruksiumum::query();
+
+        if ($search) {
+            $query->where('kode', 'LIKE', "%{$search}%")
+                  ->orWhere('jenispekerjaan', 'LIKE', "%{$search}%")
+                  ->orWhere('hargasatuan', 'LIKE', "%{$search}%")
+
+                  ->orWhereHas('hspdivisi', function ($q) use ($search) {
+                      $q->where('hspdivisi', 'LIKE', "%{$search}%"); // 'jabatankerja' = nama kolom di tabel jabatankerja
+                  })
+
+                  ->orWhereHas('hsppaket', function ($q) use ($search) {
+                      $q->where('hsppaket', 'LIKE', "%{$search}%"); // 'jenjang' = nama kolom di tabel jenjang
+                  })
+
+                  ->orWhereHas('hspkodepekerjaan', function ($q) use ($search) {
+                      $q->where('namapekerjaan', 'LIKE', "%{$search}%"); // 'jenjang' = nama kolom di tabel jenjang
+                  });
         }
 
         $data = $query->paginate($perPage);

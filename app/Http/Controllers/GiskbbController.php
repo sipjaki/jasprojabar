@@ -5,7 +5,7 @@ namespace App\Http\Controllers;
 use App\Models\giskbb;
 use Illuminate\Http\Request;
 
-use Illuminate\Support\Facades\Auth; 
+use Illuminate\Support\Facades\Auth;
 
 
 
@@ -13,7 +13,7 @@ use Illuminate\Support\Facades\Auth;
 
 class GiskbbController extends Controller
 {
-    
+
     public function index()
     {
         // Mengambil data dengan pagination
@@ -54,6 +54,6 @@ class GiskbbController extends Controller
 
 
 
-    
-    
+
+
 }

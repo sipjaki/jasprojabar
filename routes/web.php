@@ -230,6 +230,10 @@ Route::get('/satuanhargamaterial', [SatuanhargamaterialController::class, 'index
 Route::get('/satuanhargaupah', [SatuanhargamaterialController::class, 'satuanhargaupah']);
 Route::get('/satuanhargaperalatan', [SatuanhargamaterialController::class, 'satuanhargaperalatan']);
 
+// AHSP HARGA SATUAN DASAR PERDIVISI
+// ==============================================================================================================
+Route::get('/hspdivisi1', [SatuanhargamaterialController::class, 'hspdivis1']);
+
 // fort
 
 // DATA SHST BLORA
@@ -275,45 +279,11 @@ Route::get('/datajakon/fesbulampiran1/{judul}', [DatajakonController::class, 'fe
 Route::get('/datajakon/paketpekerjaan', [DatajakonController::class, 'paketpekerjaan']);
 
 
-// ---------------------- 04 TENAGA KERJA -----------------------//
-// -------- BAGIAN 01 ---------------------------------
-Route::get('/tenagakerja/skaskt', [SkktenagakerjaController::class, 'feskktenagakerja']);
-Route::get('/tenagakerja/skaskt/{nama}', [SkktenagakerjaController::class, 'feskktenagakerjashowByName']);
-Route::get('/tenagakerja/showskaskt/{nama}', [SkktenagakerjaController::class, 'feskktenagakerjadokumentasishowByName']);
-
-// RUTE UNTUK MENCARI BERDASARKAN KECAMATAN KOTA
-Route::get('/skk/kecamatan', [SkktenagakerjaController::class, 'listkecamatan']);
-Route::get('/tenagakerja/kecamatan', [SkktenagakerjaController::class, 'feskktenagakerjakecamatanshowBykecamatan']);
-
-// RUTE BERDASARKAN DESA
-Route::get('/skk/desa', [SkktenagakerjaController::class, 'listdesa']);
-Route::get('/tenagakerja/desa', [SkktenagakerjaController::class, 'feskktenagakerjadesashowBydesa']);
-
-// RUTE BERDASARKAN KETERAMPILAN PARA PEKERJA
-Route::get('/skk/keterampilan', [SkktenagakerjaController::class, 'listketerampilan']);
-Route::get('/tenagakerja/keterampilan', [SkktenagakerjaController::class, 'feskktenagakerjaketerampilanshowByketerampilan']);
-
-// RUTE BERDASARKAN TAHUN BIMBINGAN TEKNIS PARA PEKERJA KONSTRUKSI
-Route::get('/skk/register', [SkktenagakerjaController::class, 'listregister']);
-Route::get('/tenagakerja/bimtek', [SkktenagakerjaController::class, 'feskktenagakerjabimtekshowBybimtek']);
-
-// RUTE UNTUK MENCARI DATA BERDASARKAN STATISTIKA
-Route::get('/skk/statistika', [SkktenagakerjaController::class, 'liststatistika']);
-Route::get('/skkchart/keterampilan', [SkktenagakerjaController::class, 'chartketerampilan']);
-Route::get('/skkskkchart/kecamatan', [SkktenagakerjaController::class, 'chartkecamatan']);
-Route::get('/skkchart/desa', [SkktenagakerjaController::class, 'chartdesa']);
-Route::get('/skkchart/register', [SkktenagakerjaController::class, 'chartregister']);
-
 // -------- BAGIAN 02 ---------------------------------
 // RUTE UNTUK MEMETAKAN LOKASI PETA WILAYAH KABUPATEN BANDUNG BARAT
 Route::get('/giskbb', [GiskbbController::class, 'index']);
 Route::get('/giskbb/{nama_kecamatan}', [GiskbbController::class, 'namakecamatanshowBykecamatan']);
 
-
-// -------- BAGIAN 03 ---------------------------------
-// RUTE UNTUK MENJALANKAN PENANGGUNG JAWAB TEKNIS
-Route::get('/tenagakerja/pjt', [SkktenagakerjaController::class, 'penanggungjawabteknis']);
-Route::get('/tenagakerja/timpembina', [SkktenagakerjaController::class, 'timpembinajasakonstruksi']);
 
 // ---------------------- 05 INFORMASI SPM -----------------------//
 // -------- BAGIAN 1 ---------------------------------
@@ -576,45 +546,6 @@ Route::get('/sbulampiran2/{judul}', [StrukturController::class, 'sbulampiran2sho
 Route::get('/sbulampiran3', [StrukturController::class, 'sbulampiran3'])->middleware('auth');
 Route::get('/sbulampiran3/{judul}', [StrukturController::class, 'sbulampiran3showbyjudul'])->middleware('auth');
 
-
-// ------------------------ BAGIAN 03 BACKEND TENAGA KERJA -------------------
-// ================================ TENAGA KERJA ============================================================================
-Route::get('/beskktenagakerja', [SkktenagakerjaController::class, 'index'])->middleware('auth');
-Route::get('/skktenagakerja/{nama}', [SkktenagakerjaController::class, 'showByName'])->name('skktenagakerja.show');
-Route::get('/showtenagakerja/{nama}', [SkktenagakerjaController::class, 'showkegiatanshowByName'])->name('skktenagakerjakegiatan.show');
-
-Route::get('/newtenagakerja/update/{nama}', [SkktenagakerjaController::class, 'updatetenagakerja'])->middleware('auth')->name('update.tenagakerja');
-Route::post('/newtenagakerja/{nama}', [SkktenagakerjaController::class, 'createupdatetenagakerja'])->middleware('auth')->name('updatestore.tenagakerja');
-Route::get('/newtenagakerjacreate', [SkktenagakerjaController::class, 'createtenagakerja'])->middleware('auth');
-Route::post('/newtenagakerjastore', [SkktenagakerjaController::class, 'createstoretenagakerja'])->middleware('auth')->name('create.tenagakerja');
-
-Route::post('/newtenagakerjadelete/{nama}', [SkktenagakerjaController::class, 'deletetenagakerja'])
-->middleware('auth')
-->name('delete.tenagakerja');
-
-// ======================================== PENANGGUNG JAWAB TEKNIS ====================================================================
-Route::get('/datapjt', [SkktenagakerjaController::class, 'datapjt'])->middleware('auth');
-Route::get('/datapjt/{nama_lengkap}', [SkktenagakerjaController::class, 'datapjtshowByName'])->name('datapjt.show');
-Route::get('/datapjt/update/{nama_lengkap}', [SkktenagakerjaController::class, 'updatedatapjt'])->middleware('auth')->name('update.datapjt');
-Route::post('/datapjtupdatestore/{id}', [SkktenagakerjaController::class, 'createupdatedatapjtnew'])->middleware('auth')->name('updatestore.datapjt');
-Route::get('/datapjtcreate', [SkktenagakerjaController::class, 'createdatapjt'])->middleware('auth');
-Route::post('/datapjtstorenewdata', [SkktenagakerjaController::class, 'createstoredatapjt'])->middleware('auth')->name('create.datapjt');
-
-Route::post('/datapjt/{nama_lengkap}', [SkktenagakerjaController::class, 'deletedatapjt'])
-->middleware('auth')
-->name('delete.datapjt');
-
-// ======================================== TIMPEMBINA JASA KONSTRUKSI ====================================================================
-Route::get('/timpembina', [SkktenagakerjaController::class, 'timpembina'])->middleware('auth');
-// Route::get('/timpembina/{nama_lengkap}', [SkktenagakerjaController::class, 'timpembinashowByName'])->name('timpembina.show');
-Route::get('/timpembina/update/{nama_lengkap}', [SkktenagakerjaController::class, 'updatedatatimpembina'])->middleware('auth')->name('update.timpembina');
-Route::post('/timpembinaupdatestore/{nama_lengkap}', [SkktenagakerjaController::class, 'createupdatetimpembina'])->middleware('auth')->name('updatestore.timpembina');
-Route::get('/timpembinacreate', [SkktenagakerjaController::class, 'createtimpembina'])->middleware('auth');
-Route::post('/timpembinastore', [SkktenagakerjaController::class, 'createstoretimpembina'])->middleware('auth')->name('create.timpembina');
-
-Route::post('/timpembina/{nama_lengkap}', [SkktenagakerjaController::class, 'deletedatatimpembina'])
-->middleware('auth')
-->name('delete.timpembina');
 
 // ======================================== DATA IUJK JASA KONSTRUKSI ====================================================================
 Route::get('/dataiujk', [UijkController::class, 'dataiujk'])->middleware('auth');
