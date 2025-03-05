@@ -136,7 +136,7 @@
 					</div><!--footer-widget-->
 
 
-                        <div class="footer-widget-explore" style="margin-top: 50px;">
+                        <div class="footer-widget" style="margin-top: 10px;">
                             <div class="footer-widget-contact">
                                 <h4 class="footer-widget-title">
                                     <i class="fas fa-map-marker-alt" style="margin-right: 5px;"></i> Lokasi Kami
