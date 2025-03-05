@@ -113,11 +113,7 @@
 									</div><!-- sidebar-meta -->
 								</div><!-- sidebar-recent-post-content -->
 							</div><!-- sidebar-recent-post -->
-							<div class="sidebar-recent-post">
-								<div class="sidebar-recent-post-img">
-									<img src="assets/image/blog/blog-details-3.jpg" alt="img-198">
-								</div><!-- sidebar-recent-post-img -->
-							</div><!-- sidebar-recent-post -->
+
 							<div class="sidebar-recent-post">
 								<div class="sidebar-recent-post-img">
 									<img src="assets/image/blog/blog-details-4.jpg" alt="img-199">
@@ -137,6 +133,7 @@
 									</div><!-- sidebar-meta -->
 								</div><!-- sidebar-recent-post-content -->
 							</div><!-- sidebar-recent-post -->
+
 						</div><!-- sidebar-widget sidebar-widget-recent-post -->
 						<div class="sidebar-widget sidebar-widget-recent-category">
 							<div class="sidebar-widget-recent-category-box">
