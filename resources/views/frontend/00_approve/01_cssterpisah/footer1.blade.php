@@ -61,7 +61,7 @@
 				<div class="col-lg-2">
 					<div class="footer-widget">
 						<div class="footer-widget-department">
-							<h4 class="footer-widget-title">Layanan Kami</h4>
+							<h4 class="footer-widget-title">Peraturan Pemerintah</h4>
 							<ul class="list-unstyled">
 								<li><a href="department-details.html">Pelatihan</a></li>
 								<li><a href="department-details.html">Bimbingan Teknis</a></li>
