@@ -29,7 +29,7 @@
                             animation: scrolling-text 5s linear infinite;
                             width: 100%;">
 
-                            <marquee behavior="scroll" direction="left" style="width: 950px;">
+                            <marquee behavior="scroll" direction="left" style="width: 1025px;">
                                 <a href="#" style="color: navy; text-decoration: none;">
                                 Selamat Datang di Mas Jaki DPUPR Kab Blora Sistem Informasi Pembina Jasa Konstruksi Dinas Pekerjaan Umum dan Penataan Ruang Kabupaten Blora Provinsi Jawa Tengah
                                 </a>
@@ -37,15 +37,14 @@
 
                             </div>
 
-                            <div class="btn" style="background: #ffd100; border: none;" class="d-flex align-items-center">
-                                <div class="topbar-icon" style="background: #ffd100; padding: 5px; border-radius: 5px;">
+                            <div class="btn d-flex align-items-center" style="background: #ffd100; border: none; padding: 5px;">
+                                <div class="topbar-icon me-2" style="background: #ffd100; padding: 5px; border-radius: 5px;">
                                     <i class="fa-solid fa-envelope" style="color: black;"></i>
                                 </div>
-                                <div class="topbar-text ms-2" style="background: #ffd100; padding: 5px; border-radius: 5px;">
+                                <div class="topbar-text" style="background: #ffd100; padding: 5px; border-radius: 5px;">
                                     <a href="#" style="color: black; text-decoration: none;">konstruksi@masjakidpuprblora.co.id</a>
                                 </div>
                             </div>
-
 
                             </li><!-- li -->
 						<li>
