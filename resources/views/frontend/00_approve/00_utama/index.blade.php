@@ -84,7 +84,7 @@
 
                             <div class="event-card-image">
 								<div class="event-card-image-inner">
-									<a href="event-details.html"><img src="/assets/icon/.jpg" class="img-fluid" alt="img-21"></a>
+									<img src="/assets/00_dokmasjaki/03_datajakon/tokobangunanblora.jpg" class="img-fluid" alt="img-21">
 									<div class="event-card-meta">
 										<div class="event-meta-number">
 											<span>-</span>
@@ -96,7 +96,7 @@
 								</div><!-- event-card-image-inner -->
 							</div><!-- event-card-image -->
 
-                            <div class="event-card-content">
+                            <div class="event-card-content" style="height: 20vh;">
 								<div class="event-card-title">
 									<h4><a href="event-details.html">Organizing 2022 city photography new contest</a></h4>
 								</div><!-- event-card-title -->
