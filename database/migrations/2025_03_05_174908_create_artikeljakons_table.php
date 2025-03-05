@@ -15,6 +15,7 @@ return new class extends Migration
             $table->id();
             $table->string('judul')->nullable();
             $table->string('berkas')->nullable();
+            $table->date('tanggal')->nullable();
             $table->softDeletes();
             $table->timestamps();
         });
