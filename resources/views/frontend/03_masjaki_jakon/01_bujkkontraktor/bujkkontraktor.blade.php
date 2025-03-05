@@ -168,7 +168,17 @@ color: #45a049;
 
                         </head>
 
-                        <section class="document-section" style="margin-top: -100px;">
+                        <section class="document-section" style="margin-top: -100px;"
+                        style="
+                                max-width: 95%;
+                                margin: 30px auto;
+                                padding: 20px;
+                                height: auto;
+                                border-radius: 20px;
+                                box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+                                position: relative;
+                                z-index: 10;"
+                        >
                             <div class="container"
                             >
                               <ul class="nav nav-pills" id="pills-tab" role="tablist">
