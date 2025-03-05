@@ -71,7 +71,7 @@
         border: 1px solid black;
         padding: 8px;
         text-align: left;
-        font-size: 14px; /* Sesuaikan ukuran teks */
+        font-size: 18px; /* Sesuaikan ukuran teks */
     }
 
     th {
