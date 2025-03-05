@@ -95,10 +95,9 @@
 									</div><!-- event-card-meta -->
 								</div><!-- event-card-image-inner -->
 
-
                             </div><!-- event-card-image -->
 
-                            <div class="event-card-content" style="height: 20vh;">
+                            <div class="event-card-image-inner">
                                 <div class="event-card-title">
                                     <h4><a href="event-details.html">Organizing 2022 city photography new contest</a></h4>
                                 </div><!-- event-card-title -->
