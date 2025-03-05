@@ -31,6 +31,25 @@
                         <a href="tel:+621234567890"><i class="fa-solid fa-phone"></i></a>
 
 					</div><!-- footer-widget-socials -->
+                    <div class="footer-widget" style="margin-top: -20px;">
+						<div class="footer-widget-contact">
+							<h4 class="footer-widget-title">Kontak Kami</h4>
+							<p>Jl. Nusantara No.62, Jetis, Kauman, Kec. Blora<br>Kabupaten Blora 58214 Provinsi Jawa Tengah </p>
+						</div><!-- footer-widget-contact -->
+						<div class="footer-widget-contact-list">
+							<i class="fa-solid fa-envelope"></i>
+							<div class="footer-widget-contact-item">
+								<a href="mailto:needhelp@company.com">kontraktor@masjakidpuprblora.co.id</a>
+							</div><!-- footer-widget-contact-item -->
+						</div><!-- footer-widget-contact-list -->
+						{{-- <div class="footer-widget-contact-list">
+							<i class="fa-solid fa-phone"></i>
+							<div class="footer-widget-contact-item">
+								<a href="tel:+92-003-68-090">0813 2145 5855</a>
+							</div><!-- footer-widget-contact-item -->
+						</div><!-- footer-widget-contact-list --> --}}
+					</div><!--footer-widget-->
+
 				</div><!--col-lg-4-->
 				<div class="col-lg-3">
 					<div class="footer-widget">
@@ -96,27 +115,8 @@
 								<li><a href="/404">HSP Divisi VII Pekerjaan Jalan Pada Pemukiman</a></li>
 								<li><a href="/404">HSP Divisi VIII Drainase Jalan</a></li>
 								<li><a href="/404">HSP Divisi VIII Pekerjaan Jaringan Pipa</a></li>
-
 							</ul><!-- list-unstyled -->
 						</div><!-- footer-widget-department -->
-					</div><!--footer-widget-->
-                    <div class="footer-widget" style="margin-top: -20px;">
-						<div class="footer-widget-contact">
-							<h4 class="footer-widget-title">Kontak Kami</h4>
-							<p>Jl. Nusantara No.62, Jetis, Kauman, Kec. Blora<br>Kabupaten Blora 58214 Provinsi Jawa Tengah </p>
-						</div><!-- footer-widget-contact -->
-						<div class="footer-widget-contact-list">
-							<i class="fa-solid fa-envelope"></i>
-							<div class="footer-widget-contact-item">
-								<a href="mailto:needhelp@company.com">kontraktor@masjakidpuprblora.co.id</a>
-							</div><!-- footer-widget-contact-item -->
-						</div><!-- footer-widget-contact-list -->
-						{{-- <div class="footer-widget-contact-list">
-							<i class="fa-solid fa-phone"></i>
-							<div class="footer-widget-contact-item">
-								<a href="tel:+92-003-68-090">0813 2145 5855</a>
-							</div><!-- footer-widget-contact-item -->
-						</div><!-- footer-widget-contact-list --> --}}
 					</div><!--footer-widget-->
 
 				</div><!--col-lg-2-->
