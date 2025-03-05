@@ -129,7 +129,7 @@
 			<div class="main-menu-left">
 				<div class="navigation" style="margin-left: 100px;">
 					<ul class="main-menu-list list-unstyled">
-                        <li style="color: white"><a href="/">BERANDA</a>
+                        <li><a href="/" style="color: white;">BERANDA</a>
 
 						<li class="has-dropdown">
 							<a href="#">KELEMBAGAAN</a>
