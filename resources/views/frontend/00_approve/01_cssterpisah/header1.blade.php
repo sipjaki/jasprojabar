@@ -105,18 +105,19 @@
 		</div><!-- topbar-inner -->
 	</div><!--topbar-->
 
-    <div style="display: flex; align-items: center; ">
-        {{-- <img src="/assets/icon/pupr.png" alt="Logo SIPJAKIKBB" style="width: 50px; height: 50px; object-fit: cover; padding: 0;"> --}}
-        {{-- <img src="/assets/icon/logokabupatenblora.png" alt="Logo SIPJAKIKBB" style="width: 50px; height: 50px; object-fit: cover; padding: 0;"> --}}
-        <img src="/assets/icon/pupr.png" alt="Logo SIPJAKIKBB" style="width: 50px; height: 50px; object-fit: cover; padding: 0;">
-        <h1 style="margin-left: 5px;">
-            <span>MASJAKI</span>BLORA
-            <p style="margin: 0; font-size: 16px; color: white" >Dinas Pekerjaan Umum & Penataan Ruang</p>
-        </h1>
-    </div>
 
 	<div class="main-menu sticky-header" style="background: black">
     	<div class="main-menu-inner">
+            <div style="display: flex; align-items: center; ">
+                {{-- <img src="/assets/icon/pupr.png" alt="Logo SIPJAKIKBB" style="width: 50px; height: 50px; object-fit: cover; padding: 0;"> --}}
+                {{-- <img src="/assets/icon/logokabupatenblora.png" alt="Logo SIPJAKIKBB" style="width: 50px; height: 50px; object-fit: cover; padding: 0;"> --}}
+                <img src="/assets/icon/pupr.png" alt="Logo SIPJAKIKBB" style="width: 50px; height: 50px; object-fit: cover; padding: 0;">
+                <h1 style="margin-left: 5px;">
+                    <span>MASJAKI</span>BLORA
+                    <p style="margin: 0; font-size: 16px; color: white" >Dinas Pekerjaan Umum & Penataan Ruang</p>
+                </h1>
+            </div>
+
 			<div class="main-menu-left">
 				<div class="navigation">
 					<ul class="main-menu-list list-unstyled">
