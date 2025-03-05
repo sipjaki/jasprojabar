@@ -13,7 +13,7 @@ class asosiasipengusaha extends Model
 
     protected $guarded = ['id'];
 
-    
+
     public function pengawasanlokasi()
     {
         return $this->belongsTo(pengawasanlokasi::class);
