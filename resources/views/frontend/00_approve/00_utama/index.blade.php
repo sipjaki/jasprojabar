@@ -93,30 +93,25 @@
     </section><!--client-section-->
 
     <style>
-        .client-section {
-            text-align: center;
-            padding: 40px 0;
+        .video-item {
+            width: 100%;
+            max-width: 700px; /* Atur ukuran maksimal video */
+            height: 400px; /* Pastikan tinggi seragam */
+            border-radius: 10px; /* Opsional: membuat sudut video melengkung */
+            object-fit: cover; /* Pastikan video tetap proporsional */
         }
 
-        .client-carousel .item {
+        /* Pastikan Owl Carousel berjalan dengan baik */
+        .owl-carousel .owl-stage-outer {
             display: flex;
             justify-content: center;
             align-items: center;
         }
 
-        .video-item {
-            width: 100%;
-            max-width: 600px; /* Atur ukuran maksimal */
-            height: 340px; /* Atur tinggi video agar seragam */
-            border-radius: 10px; /* Opsional: membuat sudut video melengkung */
-            object-fit: cover; /* Memastikan video tetap proporsional */
-        }
 
-        .owl-carousel .owl-stage-outer {
-            display: flex;
-            justify-content: center;
-        }
     </style>
+
+    <!-- Tambahkan jQuery & Owl Carousel jika belum ada
 
 
     {{-- REKOMENDASI BERITA HIGHLIGHT --}}
