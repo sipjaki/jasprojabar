@@ -71,7 +71,7 @@
                         Browser Anda tidak mendukung tag video.
                     </video>
                 </div><!--item-->
-                <div class="item">
+                {{-- <div class="item">
                     <video class="img-fluid" controls>
                         <source src="/assets/00_dokmasjaki/00_video/video2.mp4" type="video/mp4">
                         Browser Anda tidak mendukung tag video.
@@ -82,7 +82,7 @@
                         <source src="/assets/00_dokmasjaki/00_video/video3.mp4" type="video/mp4">
                         Browser Anda tidak mendukung tag video.
                     </video>
-                </div><!--item-->
+                </div><!--item--> --}}
                 <div class="item">
                     <video class="img-fluid" controls>
                         <source src="/assets/00_dokmasjaki/00_video/video4.mp4" type="video/mp4">
