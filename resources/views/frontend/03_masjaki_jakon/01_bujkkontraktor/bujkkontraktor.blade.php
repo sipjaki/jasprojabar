@@ -243,7 +243,6 @@ color: #45a049;
                                             <th onclick="sortTable(8)" style="cursor:pointer; text-align:center"> Tanggal <span class="sort-icon">⇅</span></th>
                                             <th onclick="sortTable(9)" style="cursor:pointer; text-align:center"> Notaris <span class="sort-icon">⇅</span></th>
                                             <th onclick="sortTable(10)" style="cursor:pointer; text-align:center"> Pengesahan <span class="sort-icon">⇅</span></th> --}}
-                                            <th style="text-align:center; width:100px;"> Tahun </th>
                                             <th style="text-align:center; width:100px;"> View </th>
                                         </tr>
                                     </thead>
@@ -262,7 +261,6 @@ color: #45a049;
                                             <td>{{ \Carbon\Carbon::parse($item->tanggal)->isoFormat('D MMMM YYYY') }}</td>
                                             <td>{{$item->nama_notaris}}</td>
                                             <td>{{$item->no_pengesahan}}</td> --}}
-                                            <td>{{$item->tahun}}</td> --}}
                                             <td style="text-align: center">
                                                 <a href="/datajakon/bujkkontraktor/{{$item->namalengkap}}">
                                                     <i class="fas fa-eye view-icon" onclick="alert('View clicked!')"></i>
