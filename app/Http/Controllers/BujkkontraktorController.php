@@ -98,13 +98,6 @@ class BujkkontraktorController extends Controller
         ]);
     }
 
-    $tahunpilihan = $request->tahunpilihan;
-
-    // Query langsung ke database tanpa paginasi
-    $data = bujkkontraktor::where('tahunpilihan_id', $tahunpilihan)->get();
-
-    return response()->json($data);
-
     return view('frontend.03_masjaki_jakon.01_bujkkontraktor.bujkkontraktor', [
         'title' => 'BUJK Konstruksi',
         'data' => $data,
