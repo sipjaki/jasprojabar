@@ -141,7 +141,7 @@
 						</li><!--has-dropdown-->
 
 						<li class="active has-dropdown">
-							<a href="#">BERITA</a>
+							<a href="#" style="color: white;">BERITA</a>
 							<ul class="list-unstyled">
 								<li><a href="#">Peraturan</a>
                                     <ul class="list-unstyled">
@@ -169,7 +169,7 @@
 						</li><!--has-dropdown-->
 
                         <li class="active has-dropdown">
-							<a href="#">DATA JAKON</a>
+							<a href="#" style="color: white;">DATA JAKON</a>
 							<ul class="list-unstyled">
 								<li><a href="#">Badan Usaha Jasa Konstruksi</a>
                                     <ul class="list-unstyled">
@@ -196,7 +196,7 @@
 						</li><!--has-dropdown-->
 
                         <li class="active has-dropdown">
-							<a href="#">PEMBINAAN</a>
+							<a href="#" style="color: white;">PEMBINAAN</a>
 							<ul class="list-unstyled">
 								<li><a href="/agendapembinaan">Agenda Pelatihan</a></li>
 								{{-- <li><a href="/404">Pelatihan</a></li>
@@ -208,7 +208,7 @@
 						</li><!--has-dropdown-->
 
                         <li class="active has-dropdown">
-							<a href="#">PENGAWASAN</a>
+							<a href="#" style="color: white;">PENGAWASAN</a>
 							<ul class="list-unstyled">
 								{{-- <li><a href="/tertibjasakonstruksi">Tertib Jasa Konstruksi</a></li> --}}
                                 <li><a href="#">Tertib Jasa Konstruksi</a>
@@ -230,7 +230,7 @@
 
 
                         <li class="active has-dropdown">
-							<a href="#">AHSP</a>
+							<a href="#" style="color: white;">AHSP</a>
 							<ul class="list-unstyled">
                                 <li><a href="#">AHSP Keciptakaryaan, Bangunan Gedung dan Perumahan</a>
 									<ul class="list-unstyled">
@@ -268,18 +268,13 @@
 
 
                         <li class="active has-dropdown">
-							<a href="#">RANTAI PASOK</a>
+							<a href="#" style="color: white;">RANTAI PASOK</a>
 							<ul class="list-unstyled">
+								<li><a href="/404">Asuransi Konstruksi </a></li>
 								<li><a href="/rantaipasokmaterial">Material Bangunan Gedung </a></li>
 								<li><a href="/peralatankonstruksi">Peralatan Konstruksi</a></li>
 								<li><a href="/tokobangunanblora">Toko Bangunan Kab Blora</a></li>
 							</ul><!-- list-unstyled -->
-						</li><!--has-dropdown-->
-
-                        <li class="active has-dropdown">
-                            <a href="#">ASURANSI KONSTRUKSI</a>
-							<ul class="list-unstyled">
-                        	</ul><!-- list-unstyled -->
 						</li><!--has-dropdown-->
 
 					</ul><!-- main-menu-list -->
