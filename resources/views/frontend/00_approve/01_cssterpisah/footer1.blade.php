@@ -63,12 +63,12 @@
 								<a href="mailto:needhelp@company.com">kontraktor@masjakidpuprblora.co.id</a>
 							</div><!-- footer-widget-contact-item -->
 						</div><!-- footer-widget-contact-list -->
-						<div class="footer-widget-contact-list">
+						{{-- <div class="footer-widget-contact-list">
 							<i class="fa-solid fa-phone"></i>
 							<div class="footer-widget-contact-item">
-								{{-- <a href="tel:+92-003-68-090">0813 2145 5855</a> --}}
+								<a href="tel:+92-003-68-090">0813 2145 5855</a>
 							</div><!-- footer-widget-contact-item -->
-						</div><!-- footer-widget-contact-list -->
+						</div><!-- footer-widget-contact-list --> --}}
 					</div><!--footer-widget-->
 				</div><!--col-lg-3-->
 			</div><!-- row -->
