@@ -322,7 +322,8 @@
 						</div><!--cta-two-title-->
 					</div><!--col-xl-5-->
 					<div class="col-xl-7">
-						<form action="/404" class="cta-two-form" method="post">
+						{{-- <form action="/404" class="cta-two-form" method="post"> --}}
+						<form class="cta-two-form">
 							{{-- <div class="cta-two-form-group">
 								<input type="email" id="email" class="input-text" placeholder="Email address" name="email" required>
 							</div><!-- cta-two-card-form --> --}}
