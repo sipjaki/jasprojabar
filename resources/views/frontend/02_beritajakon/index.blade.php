@@ -84,48 +84,6 @@
 							<p>Cursus massa at urnaaculis estie. Sed aliquamellus vitae ultrs condmentum lightly believable. If you are going to use a of you need to be sure there isn't anything embarrassing.</p>
 						</div><!-- news-details-author-content -->
 					</div><!--news-details-author-box -->
-					<div class="news-details-comment-list-box">
-						<h3>02 Comments</h3>
-						<div class="news-details-comment-image">
-							<img src="assets/image/blog/blog-details-6.jpg" alt="195">
-							<div class="news-details-comment-content">
-								<div class="news-details-meta">
-									<div class="news-details-meta-number">
-										<h5>Kevin Martin</h5>
-									</div><!-- news-details-meta-number -->
-									<div class="news-details-meta-date">
-										<span>20 Oct, 2022</span>
-									</div><!-- news-details-meta-date -->
-								</div><!-- news-details-meta-->
-								<div class="news-details-comment-text">
-									<p>Cursus massa at urnaaculis estie. Sed aliquamellus vitae ultrs condmentum lightly believable. If you are going to use a of you need to be sure there isn't anything embarrassing.</p>
-								</div><!-- news-details-comment-text -->
-							</div><!--news-details-comment-content -->
-							<div class="news-details-comment-button">
-								<a href="news-details.html" class="btn btn-primary">Reply</a>
-							</div><!-- news-details-comment-button -->
-						</div><!-- news-details-comment-image -->
-						<div class="news-details-comment-image">
-							<img src="assets/image/blog/blog-details-7.jpg" alt="196">
-							<div class="news-details-comment-content">
-								<div class="news-details-meta">
-									<div class="news-details-meta-number">
-										<h5>Sarah Albert</h5>
-									</div><!-- news-details-meta-number -->
-									<div class="news-details-meta-date">
-										<span>20 Oct, 2022</span>
-									</div><!-- news-details-meta-date -->
-								</div><!-- news-details-meta-->
-								<div class="news-details-comment-text">
-									<p>Cursus massa at urnaaculis estie. Sed aliquamellus vitae ultrs condmentum lightly believable. If you are going to use a of you need to be sure there isn't anything embarrassing.</p>
-								</div><!-- news-details-comment-text -->
-							</div><!--news-details-comment-content -->
-							<div class="news-details-comment-button">
-								<a href="news-details.html" class="btn btn-primary">Reply</a>
-							</div><!-- news-details-comment-button -->
-						</div><!-- news-details-comment-image -->
-					</div><!-- news-details-comment-list-box -->
-
 
                     {{-- <div class="news-details-comment-form">
 						<h3>Leave a Comment</h3>
