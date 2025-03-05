@@ -56,120 +56,109 @@
 	</section><!--main-slider-->
 
 
-    {{-- class="blog-section"  --}}
-    <section style="background-image: url(assets/00_dokmasjaki/03_datajakon/bannerbetter.jpg)">
-		<div class="container" style="background: white; height: 100vh; width:250vh;" >
-        	<div class="blog-box">
-				<div class="section-title-box text-center">
-					{{-- <div class="section-tagline">DIRECT FROM THE BLOG POSTS</div> --}}
-					<h2 class="section-title" style="font-size: 32px;">Berita Jasa Konstruksi Kab Blora 2025</h2>
-				</div><!-- section-title-box -->
-			</div><!--blog-box-->
 
-            {{-- <div class="client-carousel owl-carousel owl-theme"> --}}
+    <section class="blog-section" style="background-image: url(assets/00_dokmasjaki/03_datajakon/bannerbetter.jpg);">
+        <div class="container" style="background: white; max-width: calc(100% - 300px); margin: 0 auto; height: 100vh;">
+            <div class="blog-box">
+                <div class="section-title-box text-center">
+                    <h2 class="section-title" style="font-size: 32px;">Berita Jasa Konstruksi Kab Blora 2025</h2>
+                </div>
+            </div>
 
-			<div class="row row-gutter-y-155 ">
+            <div class="row row-gutter-y-155">
                 <div class="col-lg-4">
                     <div class="blog-card">
                         <div class="blog-card-image">
                             <img src="/assets/00_dokmasjaki/01_berita/berita1.JPG" class="img-fluid" alt="img-22">
                             <a href="news-details.html"></a>
-                        </div><!-- blog-card-image -->
+                        </div>
                         <div class="blog-card-date">
                             <a href="news-details.html">10JAN2025</a>
-                        </div><!-- blog-card-date -->
+                        </div>
                         <div class="blog-card-content">
                             <h4><a href="news-details.html">Digitalisasi Sistem Pembinaan Jasa Konstruksi Blora</a></h4>
-                            {{-- <p>Pemanfaatan teknologi dalam mendukung pengelolaan data konstruksi.</p> --}}
-                        </div><!-- blog-card-content -->
-                    </div><!-- blog-card -->
-                </div><!-- col-lg-4 -->
+                        </div>
+                    </div>
+                </div>
 
                 <div class="col-lg-4">
                     <div class="blog-card">
                         <div class="blog-card-image">
                             <img src="/assets/00_dokmasjaki/01_berita/berita2.JPG" class="img-fluid" alt="img-23">
                             <a href="news-details.html"></a>
-                        </div><!-- blog-card-image -->
+                        </div>
                         <div class="blog-card-date">
                             <a href="news-details.html">25FEB2025</a>
-                        </div><!-- blog-card-date -->
+                        </div>
                         <div class="blog-card-content">
                             <h4><a href="news-details.html">Peran Sistem Informasi dalam Peningkatan Kualitas Proyek</a></h4>
-                            {{-- <p>Sistem informasi membantu pengawasan proyek konstruksi secara lebih efektif.</p> --}}
-                        </div><!-- blog-card-content -->
-                    </div><!-- blog-card -->
-                </div><!-- col-lg-4 -->
+                        </div>
+                    </div>
+                </div>
 
                 <div class="col-lg-4">
                     <div class="blog-card">
                         <div class="blog-card-image">
                             <img src="/assets/00_dokmasjaki/01_berita/berita3.JPG" class="img-fluid" alt="img-24">
                             <a href="news-details.html"></a>
-                        </div><!-- blog-card-image -->
+                        </div>
                         <div class="blog-card-date">
                             <a href="news-details.html">15MAR2025</a>
-                        </div><!-- blog-card-date -->
+                        </div>
                         <div class="blog-card-content">
                             <h4><a href="news-details.html">Sosialisasi Penggunaan Aplikasi Pembina Jasa Konstruksi</a></h4>
-                            {{-- <p>DPU PR Blora mengadakan pelatihan bagi penyedia jasa konstruksi.</p> --}}
-                        </div><!-- blog-card-content -->
-                    </div><!-- blog-card -->
-                </div><!-- col-lg-4 -->
+                        </div>
+                    </div>
+                </div>
 
                 <div class="col-lg-4">
                     <div class="blog-card">
                         <div class="blog-card-image">
                             <img src="/assets/00_dokmasjaki/01_berita/berita4.JPG" class="img-fluid" alt="img-25">
                             <a href="news-details.html"></a>
-                        </div><!-- blog-card-image -->
+                        </div>
                         <div class="blog-card-date">
                             <a href="news-details.html">02APR2025</a>
-                        </div><!-- blog-card-date -->
+                        </div>
                         <div class="blog-card-content">
                             <h4><a href="news-details.html">Keamanan Data dalam Sistem Jasa Konstruksi Blora</a></h4>
-                            {{-- <p>Upaya perlindungan data dan sistem terhadap ancaman siber.</p> --}}
-                        </div><!-- blog-card-content -->
-                    </div><!-- blog-card -->
-                </div><!-- col-lg-4 -->
+                        </div>
+                    </div>
+                </div>
 
                 <div class="col-lg-4">
                     <div class="blog-card">
                         <div class="blog-card-image">
                             <img src="/assets/00_dokmasjaki/01_berita/berita5.jpg" class="img-fluid" alt="img-26">
                             <a href="news-details.html"></a>
-                        </div><!-- blog-card-image -->
+                        </div>
                         <div class="blog-card-date">
                             <a href="news-details.html">18MEI2025</a>
-                        </div><!-- blog-card-date -->
+                        </div>
                         <div class="blog-card-content">
                             <h4><a href="news-details.html">Sinergi Pemerintah dan Kontraktor dalam Pengelolaan Data</a></h4>
-                            {{-- <p>Kolaborasi dalam optimalisasi sistem informasi jasa konstruksi.</p> --}}
-                        </div><!-- blog-card-content -->
-                    </div><!-- blog-card -->
-                </div><!-- col-lg-4 -->
+                        </div>
+                    </div>
+                </div>
+
                 <div class="col-lg-4">
                     <div class="blog-card">
                         <div class="blog-card-image">
                             <img src="/assets/00_dokmasjaki/01_berita/berita6.JPG" class="img-fluid" alt="img-26">
                             <a href="news-details.html"></a>
-                        </div><!-- blog-card-image -->
+                        </div>
                         <div class="blog-card-date">
                             <a href="news-details.html">18MEI2025</a>
-                        </div><!-- blog-card-date -->
+                        </div>
                         <div class="blog-card-content">
                             <h4><a href="news-details.html">Transformasi Digital dalam Pengelolaan Jasa Konstruksi</a></h4>
-                            {{-- <p>Kolaborasi dalam optimalisasi sistem informasi jasa konstruksi.</p> --}}
-                        </div><!-- blog-card-content -->
-                    </div><!-- blog-card -->
-                </div><!-- col-lg-4 -->
+                        </div>
+                    </div>
+                </div>
 
-			{{-- </div><!-- row --> --}}
-
-
+            </div>
         </div>
-		</div><!-- container -->
-	</section><!-- blog-section -->
+    </section>
 
 
     <section class="client-section" style="background: #2ECC71">
