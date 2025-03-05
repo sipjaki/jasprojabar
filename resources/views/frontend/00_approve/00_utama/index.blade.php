@@ -62,7 +62,7 @@
 
 
 ?	<section class="client-section">
-		<h5 class="client-text">Our partners & suppoters</h5>
+		<h5 class="client-text">Dokumentasi Video Kami</h5>
 		<div class="container">
 			<div class="client-carousel owl-carousel owl-theme">
 				<div class="item">
