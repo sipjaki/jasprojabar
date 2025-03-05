@@ -77,7 +77,7 @@
 						</div><!--event-content-box-->
 					</div><!-- col-lg-6 -->
 				</div><!-- row -->
-				<div class="row row-gutter-y-40">
+				<div class="row row-gutter-y-100">
 
 					<div class="col-xl-12">
 						<div class="event-card">
