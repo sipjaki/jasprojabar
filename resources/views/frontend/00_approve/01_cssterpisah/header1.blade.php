@@ -112,9 +112,8 @@
             <h1 style="margin-left: 10px; display: flex; flex-direction: column;">
                <h1 style="margin-left: 5px;">
                 <span>MASJAKI</span>BLORA
-
-               </h1>
                 <p style="margin: 0; font-size: 16px; color: white;">Dinas Pekerjaan Umum & Penataan Ruang Kabupaten Blora</p>
+               </h1>
             </h1>
         </div>
 
