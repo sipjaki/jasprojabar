@@ -57,7 +57,7 @@
 
 
 
-    <section class="blog-section " >
+    <section class="blog-section" style="background-image: url(assets/00_dokmasjaki/03_datajakon/putihputih.jpg)">
 		<div class="container" >
         	<div class="blog-box">
 				<div class="section-title-box text-center">
@@ -323,13 +323,14 @@
 						</div><!--cta-two-title-->
 					</div><!--col-xl-5-->
 					<div class="col-xl-7">
-						<form action="assets/inc/sendemail.php" class="cta-two-form" method="post">
+						<form action="/404" class="cta-two-form" method="post">
 							{{-- <div class="cta-two-form-group">
 								<input type="email" id="email" class="input-text" placeholder="Email address" name="email" required>
 							</div><!-- cta-two-card-form --> --}}
                             <a href="">
                                 <button class="btn btn-primary">Form Saran</button>
                             </a>
+
 						</form><!-- cta-two-form -->
 					</div><!-- col-xl-7-->
 				</div><!-- row -->
