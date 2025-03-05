@@ -4,14 +4,14 @@
 	<div class="topbar" style="background: #2ECC71;>
 		<div class="topbar-inner" style="background: #2ECC71 " >
 			<div class="topbar-left" style="background: #2ECC71 ">
-				<div class="topbar-socials" style="height: 5vh;">
+				<div class="topbar-socials" style="height: 8vh;">
                     <a href="#"><i class="fa-brands fa-tiktok" style="font-size: 28px;"></i></a>
                     {{-- <a href="#"><i class="fa-solid fa-envelope" style="font-size: 25px;"></i></a> --}}
                     <a href="#"><i class="fa-brands fa-instagram" style="font-size: 28px;"></i></a>
                     <a href="#"><i class="fa-brands fa-whatsapp" style="font-size: 28px;"></i></a>
                     <a href="#"><i class="fa-brands fa-facebook" style="font-size: 28px;"></i></a>
 				</div><!--topbar-socials-->
-				<div class="topbar-info" style="height: 5vh;">
+				<div class="topbar-info" style="height: 8vh;">
 					<ul>
 						<li>
 							{{-- <div class="topbar-a">
@@ -29,7 +29,7 @@
                             animation: scrolling-text 5s linear infinite;
                             width: 100%;">
 
-                            <marquee behavior="scroll" direction="left" style="width: 1000px;">
+                            <marquee behavior="scroll" direction="left" style="width: 1000px; margin-top:-10px;">
                                 <a href="#" style="color: navy; text-decoration: none;">
                                 Selamat Datang di Mas Jaki DPUPR Kab Blora Sistem Informasi Pembina Jasa Konstruksi Dinas Pekerjaan Umum dan Penataan Ruang Kabupaten Blora Provinsi Jawa Tengah
                                 </a>
