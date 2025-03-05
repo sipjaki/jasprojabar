@@ -120,7 +120,7 @@
 											</div><!-- sidebar-meta-icon -->
 										</div><!-- sidebar-meta-item -->
 										<div class="sidebar-post-title">
-											<h5><a href="#">Meningkatkan Kualitas Tenaga Kerja: Pelatihan dan Uji Kompetensi SKK Digelar di Blora</a></h5>
+											<h5><a href="#">{{$item->judulberita}}</a></h5>
 										</div><!-- sidebar-post-title -->
 									</div><!-- sidebar-meta -->
 								</div><!-- sidebar-recent-post-content -->
