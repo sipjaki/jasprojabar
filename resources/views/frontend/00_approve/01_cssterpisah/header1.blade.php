@@ -132,7 +132,7 @@
                         <li><a href="/" style="color: white;">BERANDA</a>
 
 						<li class="has-dropdown">
-							<a style="color: white;" href="#">KELEMBAGAAN</a>
+							<a href="#" style="color: white;" >KELEMBAGAAN</a>
 							<ul class="list-unstyled">
 								<li><a href="/profil/struktur">Struktur DPUPR Blora</a></li>
 								<li><a href="/profil/rencanastrategis">Profil Jakon DPUPR BLora</a></li>
