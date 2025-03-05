@@ -36,9 +36,10 @@
     }
 
     .header-surat img {
-        width: 75px; /* Perbesar sedikit agar lebih proporsional */
-        height: 75px;
+        width: 100px; /* Perbesar sedikit agar lebih proporsional */
+        height: 100px;
         margin-right: 80px; /* Jarak antara logo dan teks */
+        margin-bottom: 30px; /* Jarak antara logo dan teks */
     }
 
     .header-surat-text {
