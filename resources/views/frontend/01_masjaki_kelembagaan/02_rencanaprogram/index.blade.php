@@ -27,16 +27,38 @@
     }
 
     /* Styling untuk kop surat */
-    .header img {
+    .header-surat {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .header-surat img {
         width: 60px; /* Perbesar sedikit agar lebih proporsional */
         height: 60px;
         margin-right: 15px; /* Jarak antara logo dan teks */
     }
-    /* Tambahkan font Poppins ke seluruh halaman */
-    .container-surat {
-    font-family: 'Times New Roman', serif;
+
+    .header-surat-text {
+        flex: 1; /* Supaya teks mengisi sisa ruang */
     }
 
+    .header-surat h3, .header-surat h4, .header-surat p {
+        margin: 2px 0; /* Supaya tidak ada jarak berlebihan */
+        font-size: 16px; /* Sesuaikan ukuran font */
+    }
+
+    .header-surat h4 {
+        font-size: 14px;
+        font-weight: normal;
+    }
+
+    /* Tambahkan font Poppins ke seluruh halaman */
+    .container-surat {
+        font-family: 'times new roman', sans-serif;
+    }
 
     table {
         width: 100%;
@@ -59,7 +81,7 @@
 
 
 <div class="container-surat">
-    <div class="header">
+    <div class="header-surat">
         <img src="/assets/icon/logokabupatenblora.png" alt="Logo Kabupaten Blora">
         <div class="header-text">
             <h3>PEMERINTAH KABUPATEN BLORA</h3>
