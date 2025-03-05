@@ -137,7 +137,7 @@
                 <div class="col-lg-4">
                     <div class="blog-card">
                         <div class="blog-card-image">
-                            <img src="/assets/00_dokmasjaki/01_berita/berita5.JPG" class="img-fluid" alt="img-26">
+                            <img src="/assets/00_dokmasjaki/01_berita/berita5.jpg" class="img-fluid" alt="img-26">
                             <a href="news-details.html"></a>
                         </div><!-- blog-card-image -->
                         <div class="blog-card-date">
@@ -145,6 +145,21 @@
                         </div><!-- blog-card-date -->
                         <div class="blog-card-content">
                             <h4><a href="news-details.html">Sinergi Pemerintah dan Kontraktor dalam Pengelolaan Data</a></h4>
+                            <p>Kolaborasi dalam optimalisasi sistem informasi jasa konstruksi.</p>
+                        </div><!-- blog-card-content -->
+                    </div><!-- blog-card -->
+                </div><!-- col-lg-4 -->
+                <div class="col-lg-4">
+                    <div class="blog-card">
+                        <div class="blog-card-image">
+                            <img src="/assets/00_dokmasjaki/01_berita/berita6.JPG" class="img-fluid" alt="img-26">
+                            <a href="news-details.html"></a>
+                        </div><!-- blog-card-image -->
+                        <div class="blog-card-date">
+                            <a href="news-details.html">18MEI2025</a>
+                        </div><!-- blog-card-date -->
+                        <div class="blog-card-content">
+                            <h4><a href="news-details.html">Transformasi Digital dalam Pengelolaan Jasa Konstruksi</a></h4>
                             <p>Kolaborasi dalam optimalisasi sistem informasi jasa konstruksi.</p>
                         </div><!-- blog-card-content -->
                     </div><!-- blog-card -->
