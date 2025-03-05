@@ -2,7 +2,16 @@
 <section class="footer">
 	<div class="footer-inner">
 		{{-- <div class="container" style="max-width: calc(100% - 300px); margin: 0 auto;"> --}}
-		<div class="container">
+		<div class="container" style="
+        background: white;
+        max-width: 95%;
+        margin: 30px auto;
+        padding: 20px;
+        height: auto;
+        border-radius: 20px;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+        position: relative;
+        z-index: 10;">
 			<div class="row">
 				<div class="col-lg-4">
 					{{-- <div class="footer-widget-logo">
