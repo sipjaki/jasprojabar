@@ -291,12 +291,17 @@
 						<i class="flaticon-search-interface-symbol"></i>
 					</a><!-- search-toggler -->
 				</div><!-- search-box --> --}}
-				<div style="padding: 5px 15px;">
-					<a href="/login" class="btn btn-primary">Login</a>
-				</div><!-- main-menu-right-button -->
-				<div style="padding: 5px 15px;">
-					<a href="/login" class="btn btn-primary">Login</a>
-				</div><!-- main-menu-right-button -->
+                <div style="padding: 5px 15px;">
+                    <a href="/login" class="btn btn-primary">
+                        <i class="fas fa-sign-in-alt"></i> Login
+                    </a>
+                </div><!-- main-menu-right-button -->
+
+                <div style="padding: 5px 15px;">
+                    <a href="/login" class="btn btn-primary">
+                        <i class="fas fa-sign-in-alt"></i> Login
+                    </a>
+                </div>
 			</div><!--main-menu-right-->
 		</div><!--main-menu-inner-->
 	</div><!--main-menu-->
