@@ -26,6 +26,13 @@
         border: 1px solid black;
     }
 
+    /* Styling untuk kop surat */
+    .header img {
+        width: 60px; /* Perbesar sedikit agar lebih proporsional */
+        height: 60px;
+        margin-right: 15px; /* Jarak antara logo dan teks */
+    }
+    /* Tambahkan font Poppins ke seluruh halaman */
     .container-surat {
     font-family: 'Times New Roman', serif;
     }
