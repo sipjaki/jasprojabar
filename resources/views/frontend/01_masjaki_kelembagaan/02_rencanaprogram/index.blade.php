@@ -24,7 +24,7 @@
             width: 80%;
             margin: auto;
             padding: 20px;
-            border: 1px solid black;
+            /* border: 1px solid black; */
         }
         .header {
             text-align: center;
