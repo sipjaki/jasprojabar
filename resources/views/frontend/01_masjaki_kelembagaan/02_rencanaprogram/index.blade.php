@@ -36,9 +36,9 @@
     }
 
     .header-surat img {
-        width: 60px; /* Perbesar sedikit agar lebih proporsional */
-        height: 60px;
-        margin-right: 15px; /* Jarak antara logo dan teks */
+        width: 100px; /* Perbesar sedikit agar lebih proporsional */
+        height: 100px;
+        margin-right: 100px; /* Jarak antara logo dan teks */
     }
 
     .header-surat-text {
@@ -88,6 +88,7 @@
             <h3>DINAS PEKERJAAN UMUM DAN PENATAAN RUANG</h3>
             <p>Jl. Nusantara No. 62 Telp. (0296) 531004</p>
             <h3>BLORA 58214</h3>
+            <hr><hr>
             <h3>PROFIL OPD JASA KONSTRUKSI</h3>
             <h4>DINAS PEKERJAAN UMUM DAN PENATAAN RUANG KABUPATEN BLORA</h4>
         </div>
