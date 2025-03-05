@@ -76,7 +76,6 @@
 								<li><a href="/">Rantai Pasok Toko Bangunan </a></li>
 							</ul><!-- list-unstyled -->
 						</div><!-- footer-widget-explore -->
-
                         <div class="footer-widget" style="margin-top: -0px;">
                             <div class="footer-widget-contact">
                                 <h4 class="footer-widget-title">Lokasi Kami</h4>
@@ -91,6 +90,7 @@
 
 					</div><!--footer-widget-->
 				</div><!--col-lg-3-->
+
 				<div class="col-lg-3">
 					<div class="footer-widget">
 						<div class="footer-widget-department">
