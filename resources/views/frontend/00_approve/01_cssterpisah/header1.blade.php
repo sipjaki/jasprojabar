@@ -291,7 +291,7 @@
 						<i class="flaticon-search-interface-symbol"></i>
 					</a><!-- search-toggler -->
 				</div><!-- search-box --> --}}
-				<div class="main-menu-right-button">
+				<div class="padding: 10px 20px;">
 					<a href="/login" class="btn btn-primary">Login</a>
 				</div><!-- main-menu-right-button -->
 			</div><!--main-menu-right-->
