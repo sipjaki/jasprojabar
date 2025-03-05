@@ -44,6 +44,15 @@
 								<li><a href="/">Agenda Pelatihan</a></li>
 								<li><a href="/">Tertib Jasa Konstruksi</a></li>
 								<li><a href="/">Kecelakaan Kerja</a></li>
+								<li><a href="/">Rantai Pasok Material Bangunan </a></li>
+								<li><a href="/">Rantai Pasok Peralatan Konstruksi</a></li>
+								<li><a href="/">Rantai Pasok Asuransi Konstruksi</a></li>
+								<li><a href="/">Rantai Pasok Toko Bangunan </a></li>
+								{{-- <li><a href="/">Satuan Harga Material </a></li>
+								<li><a href="/">Satuan Harga Upah Tenaga Kerja </a></li>
+								<li><a href="/">Satuan Harga Peralatan </a></li> --}}
+								{{-- <li><a href="/">Kecelakaan Kerja</a></li>
+								<li><a href="/">Kecelakaan Kerja</a></li> --}}
 							</ul><!-- list-unstyled -->
 						</div><!-- footer-widget-explore -->
 					</div><!--footer-widget-->
