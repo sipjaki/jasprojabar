@@ -33,8 +33,10 @@
 
                     <div class="footer-widget" style="margin-top: -0px;">
 						<div class="footer-widget-contact">
-							<h4 class="footer-widget-title">Kontak Kami</h4>
-							<p>Jl. Nusantara No.62, Jetis, Kauman, Kec. Blora<br>Kabupaten Blora 58214 Provinsi Jawa Tengah </p>
+							<h4 class="footer-widget-title">
+                                <i class="fas fa-phone-alt" style="margin-right: 5px;"></i> Kontak Kami
+                            </h4>
+                            <p>Jl. Nusantara No.62, Jetis, Kauman, Kec. Blora<br>Kabupaten Blora 58214 Provinsi Jawa Tengah </p>
 						</div><!-- footer-widget-contact -->
 						<div class="footer-widget-contact-list">
 							<i class="fa-solid fa-envelope"></i>
@@ -56,7 +58,7 @@
 					<div class="footer-widget">
 						<div class="footer-widget-explore">
                             <h4 class="footer-widget-title">
-                                <i class="fas fa-compass"></i> Jelajah Menu
+                                <i class="fas fa-compass" style="margin-right: 5px;"></i> Jelajah Menu
                             </h4>
                             <ul class="list-unstyled">
 								<li><a href="/">Berita Jasa Konstruksi</a></li>
@@ -81,7 +83,7 @@
                         <div class="footer-widget-explore" style="margin-top: 50px;">
                             <div class="footer-widget-contact">
                                 <h4 class="footer-widget-title">
-                                    <i class="fas fa-map-marker-alt"></i> Lokasi Kami
+                                    <i class="fas fa-map-marker-alt" style="margin-right: 5px;"></i> Lokasi Kami
                                 </h4>
 
                                 {{-- <p>Jl. Merdeka No.10, Kecamatan Pusat, Kota Contoh<br>Provinsi Jawa Barat 12345</p> --}}
@@ -100,7 +102,7 @@
 					<div class="footer-widget">
 						<div class="footer-widget-department">
 							<h4 class="footer-widget-title">
-                                <i class="fas fa-gavel"></i> Peraturan Pemerintah
+                                <i class="fas fa-gavel" style="margin-right: 5px;"></i> Peraturan Pemerintah
                             </h4>
 
                             <ul class="list-unstyled">
@@ -124,7 +126,7 @@
 					<div class="footer-widget">
 						<div class="footer-widget-department">
                             <h4 class="footer-widget-title">
-                                <i class="fas fa-book"></i> AHSP Kab Blora 2025
+                                <i class="fas fa-book" style="margin-right: 5px;"></i> AHSP Kab Blora 2025
                             </h4>
 
                             <ul class="list-unstyled">
