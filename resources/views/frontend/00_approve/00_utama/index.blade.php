@@ -94,6 +94,7 @@
 										</div><!-- event-meta-date -->
 									</div><!-- event-card-meta -->
 								</div><!-- event-card-image-inner -->
+                                <p>hdsjghfdsjghfdsjghfd</p>
 							</div><!-- event-card-image -->
 
                             <div class="event-card-content" style="height: 20vh;">
