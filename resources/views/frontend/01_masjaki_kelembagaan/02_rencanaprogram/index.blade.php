@@ -57,14 +57,9 @@
 
     /* Tambahkan font Poppins ke seluruh halaman */
     .container-surat {
-        font-family: 'Poppins', sans-serif;
+    font-family: 'Times New Roman', serif;
     }
 
-    .header {
-        text-align: center;
-        font-weight: bold;
-        font-size: 20px; /* Tambahkan ukuran agar lebih terlihat */
-    }
 
     table {
         width: 100%;
