@@ -1,7 +1,8 @@
 
 <section class="footer">
 	<div class="footer-inner">
-		<div class="container" style="max-width: calc(100% - 300px); margin: 0 auto;">
+		{{-- <div class="container" style="max-width: calc(100% - 300px); margin: 0 auto;"> --}}
+		<div class="container">
 			<div class="row">
 				<div class="col-lg-4">
 					{{-- <div class="footer-widget-logo">
