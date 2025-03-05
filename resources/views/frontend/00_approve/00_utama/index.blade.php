@@ -61,45 +61,6 @@
 
 
 
-    {{-- ============================================================================================ --}}
-	<section class="service-section">
-		<div class="container">
-			<div class="row justify-content-between">
-				<div class="col-lg-6">
-					<div class="section-title-box">
-						<div class="section-tagline">Government Service</div><!-- section-tagline -->
-						<h2 class="section-title text-white">Explore our Online<br> Governmet Services <br> & Resources</h2>
-						<div class="section-text">
-							<p>Aliquam viverra arcu. Donec aliquet blandit enim feugiat. Suspendisse id quam sed eros tincidunt luctus sit amet eu nibh egestas tempus turpis, sit amet mattis magna varius non.</p>
-						</div><!-- section-text -->
-						<div class="service-arrow-image">
-							<img src="/assets/approve/image/shapes/arrow.png" alt="img-6">
-						</div><!-- service-arrow-image -->
-					</div><!--section-title-box-->
-				</div><!--col-lg-6-->
-				<div class="col-lg-5">
-					<div class="service-card">
-						<div class="service-card-video">
-							<a href="https://www.youtube.com/watch?v=rzfmZC3kg3M" class="video-popup">
-								<i class="fa fa-play"></i>
-							</a><!-- video-popup -->
-						</div><!-- service-card-video -->
-						<ul class="list-unstyled">
-							<li><a href="department-details.html">Parking Permission <i class="fa-solid fa-chevron-right"></i></a></li>
-							<li><a href="department-details.html">File a Tax Return <i class="fa-solid fa-chevron-right"></i></a></li>
-							<li><a href="department-details.html">Order Birth Certificate <i class="fa-solid fa-chevron-right"></i></a></li>
-							<li><a href="department-details.html">Get Building Permission <i class="fa-solid fa-chevron-right"></i></a></li>
-							<li><a href="department-details.html">Apply for Driving License <i class="fa-solid fa-chevron-right"></i></a></li>
-							<li><a href="department-details.html">Report Polution <i class="fa-solid fa-chevron-right"></i></a></li>
-						</ul><!-- list-unstyled -->
-						<div class="service-button">
-							<a href="department-details.html" class="btn btn-primary">Discover More</a>
-						</div><!-- service-button -->
-					</div><!--service-card-->
-				</div><!--col-lg-5-->
-			</div><!-- row -->
-		</div><!-- container -->
-	</section><!--service-section-->
 ?	<section class="client-section">
 		<h5 class="client-text">Our partners & suppoters</h5>
 		<div class="container">
