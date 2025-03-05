@@ -54,7 +54,37 @@
         font-size: 14px;
         font-weight: normal;
     }
+
+    /* Tambahkan font Poppins ke seluruh halaman */
+    .container-surat {
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .header {
+        text-align: center;
+        font-weight: bold;
+        font-size: 20px; /* Tambahkan ukuran agar lebih terlihat */
+    }
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 10px;
+    }
+
+    th, td {
+        border: 1px solid black;
+        padding: 8px;
+        text-align: left;
+        font-size: 14px; /* Sesuaikan ukuran teks */
+    }
+
+    th {
+        background-color: #ddd;
+        font-weight: 600; /* Lebih tebal agar judul tabel lebih jelas */
+    }
 </style>
+
 
 <div class="container-surat">
     <div class="header">
