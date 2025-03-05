@@ -173,7 +173,7 @@
 
 
     <section class="client-section" style="background: #2ECC71">
-        <h5 class="client-text" style="font-weight: 800; color:black; font-size:18px; text-transform:capitalize; font-size:12px;" >Dokumentasi Video Kami</h5>
+        <h5 class="client-text" style="font-weight: 800; color:black; font-size:18px; text-transform:capitalize; font-size:12px;" >Dokumentasi Video</h5>
         <div class="container">
             <div class="client-carousel owl-carousel owl-theme">
                 <div class="item">
