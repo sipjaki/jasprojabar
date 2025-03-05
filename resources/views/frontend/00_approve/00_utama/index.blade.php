@@ -77,7 +77,7 @@
 							<a href="news-details.html"></a>
 						</div><!-- blog-card-image -->
 						<div class="blog-card-date">
-							<a href="news-details.html">28SEP</a>
+							<a href="news-details.html">05MAR2025</a>
 						</div><!-- blog-card-date -->
 						<div class="blog-card-content">
 							<h4><a href="news-details.html">Supporting local business to bounce back</a></h4>
