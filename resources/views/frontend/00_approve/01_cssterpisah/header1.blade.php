@@ -128,7 +128,7 @@
 		<div class="main-menu-inner">
 			<div class="main-menu-left">
 				<div class="navigation">
-					<ul class="list-unstyled">
+					<ul class="main-menu-list list-unstyled">
                         <li class="active"><a href="/">BERANDA</a>
 
 						<li class="active has-dropdown">
