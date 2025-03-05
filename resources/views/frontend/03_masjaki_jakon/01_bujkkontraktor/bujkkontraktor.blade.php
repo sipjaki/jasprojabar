@@ -326,7 +326,7 @@ color: #45a049;
                             function filterByYear() {
     let selectedYear = document.getElementById("yearFilter").value;
 
-    fetch(`/datajakon/bujkkontraktor?year=${selectedYear}`)
+    fetch(`/datajakon/bujkkontraktor?{{$data->tahunpilihan->tahunpilihan}}=${selectedYear}`)
         .then(response => {
             if (!response.ok) {
                 throw new Error(`HTTP error! Status: ${response.status}`);
