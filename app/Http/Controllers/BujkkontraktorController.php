@@ -103,7 +103,7 @@ class BujkkontraktorController extends Controller
 
     $tahunpilihan_id = $request->query('tahunpilihan_id'); // Ambil parameter dari request
 
-    $data = BujkKontraktor::when($tahunpilihan_id, function ($query) use ($tahunpilihan_id) {
+    $datatahun = BujkKontraktor::when($tahunpilihan_id, function ($query) use ($tahunpilihan_id) {
         return $query->where('tahunpilihan_id', $tahunpilihan_id);
     })->get();
 
@@ -115,7 +115,8 @@ class BujkkontraktorController extends Controller
         'title' => 'BUJK Konstruksi',
         'data' => $data,
         'perPage' => $perPage,
-        'search' => $search
+        'search' => $search,
+        'datatahun' => $datatahun
     ]);
 }
 
