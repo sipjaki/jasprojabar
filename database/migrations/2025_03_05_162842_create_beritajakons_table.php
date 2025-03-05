@@ -15,7 +15,7 @@ return new class extends Migration
             $table->id();
             $table->string('judulberita')->nullable();
             $table->date('tanggal')->nullable();
-            $table->string('keterangan')->nullable();
+            $table->text('keterangan')->nullable();
             $table->string('foto')->nullable();
             $table->softDeletes();
             $table->timestamps();
