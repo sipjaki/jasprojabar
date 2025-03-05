@@ -25,7 +25,7 @@
 						<div class="event-card">
 							<div class="event-card-image">
 								<div class="event-card-image-inner">
-									<a href="#"><img src="assets/image/event/event-2.jpg" class="img-fluid" alt="img-164"></a>
+									<a href="#"><img src="/assets/00_dokmasjaki/03_datajakon/konsultannontender.png" class="img-fluid" alt="img-164"></a>
 									<div class="event-card-meta">
 										<div class="event-meta-number">
 											<span>28</span>
