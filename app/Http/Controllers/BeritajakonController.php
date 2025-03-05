@@ -30,12 +30,12 @@ class BeritajakonController extends Controller
     public function artikeljakon()
     {
         $user = Auth::user();
-        $databerita = beritajakon::paginate(15);
+        $dataartikel = beritajakon::paginate(15);
 
         return view('frontend.02_beritajakon.artikeljakon', [
             'title' => 'Artikel Jasa Konstruksi',
             'user' => $user, // Mengirimkan data paginasi ke view
-            'data' => $databerita, // Mengirimkan data paginasi ke view
+            'data' => $dataartikel, // Mengirimkan data paginasi ke view
         ]);
     }
 
