@@ -63,15 +63,16 @@
 				<div class="row">
 					<div class="col-lg-6">
 						<div class="section-title-box">
-							<div class="section-tagline">LATEST EVENTS</div>
-							<h2 class="section-title">Explore Upcoming City Event Schedule</h2>
+							<div class="section-tagline">Agenda Kami</div>
+							<h2 class="section-title">Berita Jasa Konstruksi</h2>
 						</div><!-- section-title-box -->
 					</div><!--col-lg-6-->
 					<div class="col-lg-6">
 						<div class="event-content-box">
 							<div class="section-text">
-								<p>Aliquam viverra arcu. Donec aliquet blandit enim feugiat.
-									Suspendisse id quam sed eros tincidunt luctus sit amet eu nibh egestas tempus turpis.</p>
+								<p>
+                                Cooming Soon
+                                </p>
 							</div><!-- section-text -->
 						</div><!--event-content-box-->
 					</div><!-- col-lg-6 -->
