@@ -1,5 +1,5 @@
 
-<section class="footer" style="background-image: url('/assets/00_dokmasjaki/03_datajakon/footercrane.jpg');">
+<section class="footer" style="background-image: url('/assets/00_dokmasjaki/03_datajakon/halo.jpg');">
 	<div class="footer-inner">
 		<div class="container">
 			<div class="row">
