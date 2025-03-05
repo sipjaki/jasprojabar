@@ -324,10 +324,12 @@
 					</div><!--col-xl-5-->
 					<div class="col-xl-7">
 						<form action="assets/inc/sendemail.php" class="cta-two-form" method="post">
-							<div class="cta-two-form-group">
+							{{-- <div class="cta-two-form-group">
 								<input type="email" id="email" class="input-text" placeholder="Email address" name="email" required>
-							</div><!-- cta-two-card-form -->
-							<button class="btn btn-primary">Form Saran</button>
+							</div><!-- cta-two-card-form --> --}}
+                            <a href="">
+                                <button class="btn btn-primary">Form Saran</button>
+                            </a>
 						</form><!-- cta-two-form -->
 					</div><!-- col-xl-7-->
 				</div><!-- row -->
