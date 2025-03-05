@@ -250,7 +250,7 @@
 			<div class="blog-box">
 				<div class="section-title-box text-center">
 					{{-- <div class="section-tagline">DIRECT FROM THE BLOG POSTS</div> --}}
-					<h2 class="section-title">Analisa Harga Satuan Pekerjaan Kab Blora 2025</h2>
+					<h2 class="section-title" style="font-size: 18px;">Analisa Harga Satuan Pekerjaan Kab Blora 2025</h2>
 				</div><!-- section-title-box -->
 			</div><!--blog-box-->
 			<div class="row row-gutter-y-155">
