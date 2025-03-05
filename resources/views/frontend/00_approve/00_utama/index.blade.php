@@ -264,7 +264,7 @@
 
 
     {{-- REKOMENDASI BERITA HIGHLIGHT --}}
-    <section class="event-section">
+    {{-- <section class="event-section">
 		<div class="container">
 			<div class="event-section-inner">
 				<div class="row">
@@ -373,7 +373,7 @@
 				</div><!-- row -->
 			</div><!--event-section-inner-->
 		</div><!--container-->
-	</section><!--event-section-->
+	</section><!--event-section--> --}}
 
 	<section class="cta-five-section">
 		<div class="container">
