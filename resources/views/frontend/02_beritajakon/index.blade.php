@@ -96,7 +96,7 @@
 							<h4>Daftar Berita</h4>
 							<div class="sidebar-recent-post">
 								<div class="sidebar-recent-post-img">
-									<img src="/assets/00_dokmasjaki/01_berita/berita2.JPG" alt="img-197" width="200px">
+									<img src="/assets/00_dokmasjaki/01_berita/berita2.JPG" alt="img-197" width="200px" loading="lazy">
 								</div><!-- sidebar-recent-post-img -->
 								<div class="sidebar-recent-post-content">
 									<div class="sidebar-meta">
@@ -116,7 +116,7 @@
 
 							<div class="sidebar-recent-post">
 								<div class="sidebar-recent-post-img">
-									<img src="/assets/00_dokmasjaki/01_berita/berita3.JPG" alt="img-199">
+									<img src="/assets/00_dokmasjaki/01_berita/berita3.JPG" alt="img-199" width="200px" loading="lazy">
 								</div><!-- sidebar-recent-post-img -->
 								<div class="sidebar-recent-post-content">
 									<div class="sidebar-meta">
@@ -133,9 +133,9 @@
 									</div><!-- sidebar-meta -->
 								</div><!-- sidebar-recent-post-content -->
 							</div><!-- sidebar-recent-post -->
-
 						</div><!-- sidebar-widget sidebar-widget-recent-post -->
-						<div class="sidebar-widget sidebar-widget-recent-category">
+
+                        <div class="sidebar-widget sidebar-widget-recent-category">
 							<div class="sidebar-widget-recent-category-box">
 								<h4 class="section-title text-left">Categories</h4>
 								<ul class="list-unstyled">
