@@ -260,7 +260,7 @@
                 <div class="col-lg-3">
 					<div class="blog-card">
 						<div class="blog-card-image">
-							<img src="/assets/00_dokmasjaki/03_datajakon/konsultannontender.png" class="img-fluid" alt="img-22">
+							<img src="/assets/00_dokmasjaki/03_datajakon/analisisdata.png" class="img-fluid" alt="img-22">
 							<a href="/satuanhargamaterial"></a>
 						</div><!-- blog-card-image -->
 						<div class="blog-card-content">
