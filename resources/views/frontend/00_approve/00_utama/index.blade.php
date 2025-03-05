@@ -66,16 +66,16 @@
 		<div class="container">
 			<div class="client-carousel owl-carousel owl-theme">
 				<div class="item">
-					<img src="/assets/approve/image/shapes/client-1.png" class="img-fluid" alt="img-13">
+					<img src="/assets/00_dokmasjaki/00_video/video1.mp4" class="img-fluid" alt="img-13">
 				</div><!--item-->
 				<div class="item">
-					<img src="/assets/approve/image/shapes/client-1.png" class="img-fluid" alt="img-14">
+					<img src="/assets/00_dokmasjaki/00_video/video2.mp4" class="img-fluid" alt="img-14">
 				</div><!--item-->
 				<div class="item">
-					<img src="/assets/approve/image/shapes/client-1.png" class="img-fluid" alt="img-15">
+					<img src="/assets/00_dokmasjaki/00_video/video3.mp4" class="img-fluid" alt="img-15">
 				</div><!--item-->
 				<div class="item">
-					<img src="/assets/approve/image/shapes/client-1.png" class="img-fluid" alt="img-16">
+					<img src="/assets/00_dokmasjaki/00_video/video4.mp4" class="img-fluid" alt="img-16">
 				</div><!--item-->
 			</div><!--client-carousel owl-carousel owl-theme-->
 		</div><!--container-->
