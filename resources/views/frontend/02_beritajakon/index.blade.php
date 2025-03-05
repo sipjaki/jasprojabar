@@ -93,10 +93,10 @@
 							</div><!-- sidebar__item -->
 						</div><!-- sidebar-form-content -->
 						<div class="sidebar-widget sidebar-widget-recent-post">
-							<h4>Recent Posts</h4>
+							<h4>Daftar Berita</h4>
 							<div class="sidebar-recent-post">
 								<div class="sidebar-recent-post-img">
-									<img src="assets/image/blog/blog-details-2.jpg" alt="img-197">
+									<img src="/assets/00_dokmasjaki/01_berita/berita2.JPG" alt="img-197">
 								</div><!-- sidebar-recent-post-img -->
 								<div class="sidebar-recent-post-content">
 									<div class="sidebar-meta">
