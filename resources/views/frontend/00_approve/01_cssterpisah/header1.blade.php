@@ -127,11 +127,11 @@
 
 		<div class="main-menu-inner">
 			<div class="main-menu-left">
-				<div class="navigation">
+				<div class="navigation" style="margin-left: 100px;">
 					<ul class="main-menu-list list-unstyled">
-                        <li class="active"><a href="/">BERANDA</a>
+                        <li style="color: white"><a href="/">BERANDA</a>
 
-						<li class="active has-dropdown">
+						<li class="has-dropdown">
 							<a href="#">KELEMBAGAAN</a>
 							<ul class="list-unstyled">
 								<li><a href="/profil/struktur">Struktur DPUPR Blora</a></li>
