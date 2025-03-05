@@ -262,10 +262,43 @@
 					<div class="blog-card">
 						<div class="blog-card-image">
 							<img src="/assets/icon/pupr.png" class="img-fluid" alt="img-22">
-							{{-- <a href="news-details.html"></a> --}}
+							<a href="/satuanhargamaterial"></a>
 						</div><!-- blog-card-image -->
 						<div class="blog-card-content">
 							<h4><a href="news-details.html">Satuan Harga Material</a></h4>
+                        </div><!-- blog-card-content -->
+					</div><!-- blog-card -->
+				</div><!-- col-lg-4 -->
+                <div class="col-lg-3">
+					<div class="blog-card">
+						<div class="blog-card-image">
+							<img src="/assets/icon/pupr.png" class="img-fluid" alt="img-22">
+							<a href="/satuanhargaupah"></a>
+						</div><!-- blog-card-image -->
+						<div class="blog-card-content">
+							<h4><a href="news-details.html">Satuan Harga Tenaga Kerja</a></h4>
+                        </div><!-- blog-card-content -->
+					</div><!-- blog-card -->
+				</div><!-- col-lg-4 -->
+                <div class="col-lg-3">
+					<div class="blog-card">
+						<div class="blog-card-image">
+							<img src="/assets/icon/pupr.png" class="img-fluid" alt="img-22">
+							<a href="/satuanhargaperalatan"></a>
+						</div><!-- blog-card-image -->
+						<div class="blog-card-content">
+							<h4><a href="news-details.html">Satuan Harga Peralatan</a></h4>
+                        </div><!-- blog-card-content -->
+					</div><!-- blog-card -->
+				</div><!-- col-lg-4 -->
+                <div class="col-lg-3">
+					<div class="blog-card">
+						<div class="blog-card-image">
+							<img src="/assets/icon/pupr.png" class="img-fluid" alt="img-22">
+							<a href="/shstblora"></a>
+						</div><!-- blog-card-image -->
+						<div class="blog-card-content">
+							<h4><a href="news-details.html">Standar Harga Satuan Tertinggi Kab Blora </a></h4>
                         </div><!-- blog-card-content -->
 					</div><!-- blog-card -->
 				</div><!-- col-lg-4 -->
