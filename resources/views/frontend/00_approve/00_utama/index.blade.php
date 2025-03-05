@@ -57,7 +57,7 @@
 
 
 
-    <section class="blog-section" style="background-image: url(assets/00_dokmasjaki/03_datajakon/putihbaru.jpg)">
+    <section class="blog-section" style="background-image: url(assets/00_dokmasjaki/03_datajakon/bannerbetter.jpg)">
 		<div class="container" style="background: white; height: 100vh;" >
         	<div class="blog-box">
 				<div class="section-title-box text-center">
