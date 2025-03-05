@@ -63,11 +63,18 @@
 						<div class="footer-widget-department">
 							<h4 class="footer-widget-title">Peraturan Pemerintah</h4>
 							<ul class="list-unstyled">
-								<li><a href="department-details.html">Pelatihan</a></li>
-								<li><a href="department-details.html">Bimbingan Teknis</a></li>
-								<li><a href="department-details.html">Workshop</a></li>
-								<li><a href="department-details.html">SKK Tenaga Ahli</a></li>
-								{{-- <li><a href="department-details.html"></a></li> --}}
+								<li><a href="/404">Standar Biaya Umum</a></li>
+								<li><a href="/404">Undang - Undang</a></li>
+								<li><a href="/404">Peraturan Pemerintah</a></li>
+								<li><a href="/404">Peraturan Presiden</a></li>
+								<li><a href="/404">Peraturan Menteri</a></li>
+								<li><a href="/404">Keputusan Menteri</a></li>
+								<li><a href="/404">Surat Edaran Menteri</a></li>
+								<li><a href="/404">Referensi</a></li>
+								<li><a href="/404">Peraturan Daerah</a></li>
+								<li><a href="/404">Peraturan Gubernur</a></li>
+								<li><a href="/404">Peraturan Walikota/Bupati</a></li>
+								<li><a href="/404">Surat Keputusan</a></li>
 							</ul><!-- list-unstyled -->
 						</div><!-- footer-widget-department -->
 					</div><!--footer-widget-->
