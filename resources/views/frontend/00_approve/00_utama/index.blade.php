@@ -58,7 +58,8 @@
 
 
     <section class="blog-section" style="background-image: url(assets/00_dokmasjaki/03_datajakon/bannerbetter.jpg);">
-        <div class="container" style="
+        <div class="container"
+        style="
         background: white;
         max-width: 95%;
         margin: 30px auto;
@@ -67,7 +68,8 @@
         border-radius: 20px;
         box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
         position: relative;
-        z-index: 10;">
+        z-index: 10;"
+        >
             <div class="blog-box">
                 <div class="section-title-box text-center" style="margin-top: 20px;">
                     <h2 class="section-title" style="font-size: 32px;">Berita Jasa Konstruksi</h2>
