@@ -1,5 +1,5 @@
 
-<section class="footer">
+<section class="footer" style="background: #2ECC71">
 	<div class="footer-inner">
 		<div class="container">
 			<div class="row">
