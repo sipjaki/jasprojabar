@@ -224,6 +224,7 @@ color: #45a049;
                                             <option value="200">200</option>
                                         </select>
                                     </div>
+
                                     <div>
                                         <label for="yearFilter" style="margin-right: 5px; font-weight: bold;">Filter Tahun:</label>
                                         <select id="yearFilter" onchange="filterByYear()" style="padding: 5px; border: 1px solid black; background-color: white;">
@@ -233,8 +234,6 @@ color: #45a049;
                                             @endforeach
                                         </select>
                                     </div>
-
-
 
                                     <div style="position: relative; display: inline-block; margin-right:10px;">
                                         <input type="search" id="searchInput" placeholder="Badan Usaha ...." onkeyup="searchTable()" style="border: 1px solid #ccc; padding: 10px 20px; font-size: 14px; border-radius: 10px; width: 300px;">
@@ -326,15 +325,18 @@ color: #45a049;
                             }
 
                             function filterByYear() {
-                                let selectedYear = document.getElementById("yearFilter").value;
-                                let url = new URL(window.location.href);
-                                if (selectedYear) {
-                                    url.searchParams.set("year", selectedYear);
-                                } else {
-                                    url.searchParams.delete("year");
-                                }
-                                window.location.href = url.toString();
-                            }
+    let selectedYear = document.getElementById("yearFilter").value;
+
+    fetch(`/datajakon/bujkkontraktor?year=${selectedYear}`)
+        .then(response => response.text())
+        .then(html => {
+            let parser = new DOMParser();
+            let doc = parser.parseFromString(html, "text/html");
+            let newTableBody = doc.querySelector("#tableBody").innerHTML;
+            document.querySelector("#tableBody").innerHTML = newTableBody;
+        })
+        .catch(error => console.error("Error fetching filtered results:", error));
+}
 
 
                             function searchTable() {
