@@ -119,8 +119,6 @@
 					</div><!--footer-widget-->
 
 				</div><!--col-lg-2-->
-				<div class="col-lg-3">
-				</div><!--col-lg-3-->
 			</div><!-- row -->
 		</div><!-- container -->
 	</div><!--footer-inner-->
