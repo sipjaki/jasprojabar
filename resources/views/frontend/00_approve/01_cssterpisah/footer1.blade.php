@@ -7,8 +7,8 @@
 					{{-- <div class="footer-widget-logo">
                     </div><!-- footer-widget-logo --> --}}
 					<div class="footer-widget-text">
-                        <a href="/"><img src="/assets/icon/logokabupatenblora.png" class="img-fluid" alt="img-25" width="50" style="margin-right: 5px;" loading="lazy"></a>
-                        <a href="/"><img src="/assets/icon/pupr.png" class="img-fluid" alt="img-25" width="50" loading="lazy"></a>
+                        <a href="/"><img src="/assets/icon/logokabupatenblora.png" class="img-fluid" alt="img-25" width="70" style="margin-right: 5px;" loading="lazy"></a>
+                        <a href="/"><img src="/assets/icon/pupr.png" class="img-fluid" alt="img-25" width="70" loading="lazy"></a>
                         <h1 style="display: flex; align-items: center; gap: 5px; margin: 0;">
                             <span style="color: white; font-style: italic;">MASJAKI</span>
                             <span style="color: green; font-style: italic;">BLORA</span>
