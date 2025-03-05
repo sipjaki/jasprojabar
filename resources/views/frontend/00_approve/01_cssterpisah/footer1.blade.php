@@ -9,7 +9,7 @@
 						<a href="/"><img src="/assets/icon/pupr.png" class="img-fluid" alt="img-25" width="50" loading="lazy"></a>
 					</div><!-- footer-widget-logo -->
 					<div class="footer-widget-text">
-						<p>Dinas Pekerjaan Umum dan Penataan Ruang Pemerintah Kabupaten Blora</p>
+						<p>Dinas Pekerjaan Umum dan Penataan Ruang Kabupaten Blora</p>
 					</div><!-- footer-widget-text -->
 					<div class="footer-widget-socials">
 						<a href="/404"><i class="fa-brands fa-twitter"></i></a>
@@ -80,7 +80,7 @@
 			<img src="/assets/icon/pupr.png" width="40" height="40" alt="26" loading="lazy" style="margin-bottom:5px;">
             <br>
 		</div><!-- container -->
-        <p style="color: white">© Dinas Pekerjaan Umum dan Penataan Ruang Pemerintah Kabupaten Blora Provinsi Jawa Tengah | 2025 </p>
+        <p style="color: white">© Dinas Pekerjaan Umum dan Penataan Ruang Kabupaten Blora Provinsi Jawa Tengah | 2025 </p>
 	</div><!--bottom-footer-->
 </section><!--footer-->
 <div class="mobile-nav-wrapper">
