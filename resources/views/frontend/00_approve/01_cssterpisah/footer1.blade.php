@@ -33,16 +33,17 @@
 						<div class="footer-widget-explore">
 							<h4 class="footer-widget-title">Jelajah Menu</h4>
 							<ul class="list-unstyled">
-								<li><a href="/">Beranda</a></li>
-								<li><a href="/">Kelembagaan</a></li>
-								<li><a href="/">Berita</a></li>
-								<li><a href="/">Data Jakon</a></li>
-								<li><a href="/">Pembinaan</a></li>
-								<li><a href="/">Pengawasan</a></li>
-								<li><a href="/">Rantai Pasok</a></li>
-								<li><a href="/">AHSP</a></li>
-								<li><a href="/">Peraturan</a></li>
-								<li><a href="/">Login</a></li>
+								<li><a href="/">Struktur DPUPR Blora</a></li>
+								<li><a href="/">Profil Jakon DPUPR Blora</a></li>
+								<li><a href="/">Tupoksi Jakon DPUPR Blora</a></li>
+								<li><a href="/">Badan Usaha Jasa Konstruksi</a></li>
+								<li><a href="/">Badan Usaha Jasa Konsultasi Konstruksi</a></li>
+								<li><a href="/">Tenaga Kerja Konstruksi DPUPR</a></li>
+								<li><a href="/">Tenaga Kerja Kab Blora</a></li>
+								<li><a href="/">Profil Paket Pekerjaan</a></li>
+								<li><a href="/">Agenda Pelatihan</a></li>
+								<li><a href="/">Tertib Jasa Konstruksi</a></li>
+								<li><a href="/">Kecelakaan Kerja</a></li>
 							</ul><!-- list-unstyled -->
 						</div><!-- footer-widget-explore -->
 					</div><!--footer-widget-->
