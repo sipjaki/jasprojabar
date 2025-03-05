@@ -14,8 +14,8 @@
 		</div><!-- container -->
 	</section><!--page-banner-->
 
-	<section class="portfolio-details" style="background-image: url(assets/00_dokmasjaki/03_datajakon/bannerbetter.jpg);">
-		<div class="container">
+	<section class="portfolio-details">
+		<div class="container" style="background-image: url(assets/00_dokmasjaki/03_datajakon/bannerbetter.jpg);">
 			{{-- <img src="assets/image/portfolio/portfolio-details-1.jpg" class="img-fluid" alt="img-109"> --}}
 
             @foreach ($data as $item )
