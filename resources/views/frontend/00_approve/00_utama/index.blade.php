@@ -84,7 +84,7 @@
 
                             <div class="event-card-image">
 								<div class="event-card-image-inner">
-									<img src="/assets/00_dokmasjaki/03_datajakon/tokobangunanblora.jpg" class="img-fluid" alt="img-21">
+									<img src="/assets/00_dokmasjaki/03_datajakon/tokobangunanblora.jpg" class="img-fluid" alt="img-21" width="5%">
 									<div class="event-card-meta">
 										<div class="event-meta-number">
 											<span>-</span>
