@@ -229,7 +229,7 @@ color: #45a049;
                                         <label for="yearFilter" style="margin-right: 5px; font-weight: bold;">Filter Tahun:</label>
                                         <select id="yearFilter" onchange="filterByYear()" style="padding: 5px; border: 1px solid black; background-color: white;">
                                             <option value="">Pilih Tahun</option>
-                                            @foreach ($data as $item)
+                                            @foreach ($data->unique('tahunpilihan_id') as $item)
                                                 <option value="{{ $item->tahunpilihan->tahunpilihan }}">{{ $item->tahunpilihan->tahunpilihan }}</option>
                                             @endforeach
                                         </select>
