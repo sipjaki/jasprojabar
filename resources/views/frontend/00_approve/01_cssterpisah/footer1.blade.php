@@ -15,7 +15,7 @@
                         </h1>
 						<p>Dinas Pekerjaan Umum dan Penataan Ruang Kabupaten Blora</p>
 					</div><!-- footer-widget-text -->
-					<div class="footer-widget-socials">
+					<div>
                         <h6>Mas Jaki DPUPR Blora adalah Sistem Informasi Pembina Jasa Konstruksi Kabupaten Blora Provinsi Jawa Tengah, sebuah platform digital untuk meningkatkan efisiensi dan transparansi dalam pendataan jasa konstruksi. Sistem ini memantau pelaksanaan proyek paket pekerjaan, memastikan kepatuhan terhadap standar, dan memfasilitasi komunikasi antara pemerintah, kontraktor, pengawas, tenaga ahli, dan masyarakat. Hal ini diharapkan dapat meningkatkan kualitas infrastruktur dan mempercepat proses administrasi.
                         </h6>
                     </div><!-- footer-widget-socials -->
