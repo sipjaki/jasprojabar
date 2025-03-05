@@ -224,7 +224,7 @@ color: #45a049;
                                             <option value="200">200</option>
                                         </select>
                                     </div>
-
+{{--
                                     <div>
                                         <label for="yearFilter" style="margin-right: 5px; font-weight: bold;">Filter Tahun:</label>
                                         <select id="yearFilter" onchange="filterByYear()" style="padding: 5px; border: 1px solid black; background-color: white;">
@@ -233,7 +233,7 @@ color: #45a049;
                                                 <option value="{{ $tahun }}">{{ $tahun }}</option>
                                             @endforeach
                                         </select>
-                                    </div>
+                                    </div> --}}
 
                                     <div style="position: relative; display: inline-block; margin-right:10px;">
                                         <input type="search" id="searchInput" placeholder="Badan Usaha ...." onkeyup="searchTable()" style="border: 1px solid #ccc; padding: 10px 20px; font-size: 14px; border-radius: 10px; width: 300px;">
@@ -323,30 +323,30 @@ color: #45a049;
                                 url.searchParams.set("perPage", selectedValue);
                                 window.location.href = url.toString();
                             }
-                            function filterByYear() {
-    let selectedYear = document.getElementById("yearFilter").value;
+//                             function filterByYear() {
+//     let selectedYear = document.getElementById("yearFilter").value;
 
-    fetch(`/datajakon/bujkkontraktor?year=${selectedYear}`)
-        .then(response => {
-            if (!response.ok) {
-                throw new Error(`HTTP error! Status: ${response.status}`);
-            }
-            return response.text();
-        })
-        .then(html => {
-            let parser = new DOMParser();
-            let doc = parser.parseFromString(html, "text/html");
-            let newTableBody = doc.querySelector("#tableBody");
-            let currentTableBody = document.querySelector("#tableBody");
+//     fetch(`/datajakon/bujkkontraktor?year=${selectedYear}`)
+//         .then(response => {
+//             if (!response.ok) {
+//                 throw new Error(`HTTP error! Status: ${response.status}`);
+//             }
+//             return response.text();
+//         })
+//         .then(html => {
+//             let parser = new DOMParser();
+//             let doc = parser.parseFromString(html, "text/html");
+//             let newTableBody = doc.querySelector("#tableBody");
+//             let currentTableBody = document.querySelector("#tableBody");
 
-            if (newTableBody && currentTableBody) {
-                currentTableBody.innerHTML = newTableBody.innerHTML;
-            } else {
-                console.error("Element #tableBody not found in response or current document.");
-            }
-        })
-        .catch(error => console.error("Error fetching filtered results:", error));
-}
+//             if (newTableBody && currentTableBody) {
+//                 currentTableBody.innerHTML = newTableBody.innerHTML;
+//             } else {
+//                 console.error("Element #tableBody not found in response or current document.");
+//             }
+//         })
+//         .catch(error => console.error("Error fetching filtered results:", error));
+// }
 
 
                             function searchTable() {

@@ -101,22 +101,12 @@ class BujkkontraktorController extends Controller
         ]);
     }
 
-    $tahunpilihan_id = $request->query('tahunpilihan_id'); // Ambil parameter dari request
-
-    $datatahun = BujkKontraktor::when($tahunpilihan_id, function ($query) use ($tahunpilihan_id) {
-        return $query->where('tahunpilihan_id', $tahunpilihan_id);
-    })->get();
-
-    if ($request->ajax()) {
-        return view('frontend.03_masjaki_jakon.01_bujkkontraktor.partials.table', compact('datatahun'))->render(); // Load hanya tbody jika request AJAX
-    }
 
     return view('frontend.03_masjaki_jakon.01_bujkkontraktor.bujkkontraktor', [
         'title' => 'BUJK Konstruksi',
         'data' => $data,
         'perPage' => $perPage,
-        'search' => $search,
-        'datatahun' => $datatahun
+        'search' => $search
     ]);
 }
 
