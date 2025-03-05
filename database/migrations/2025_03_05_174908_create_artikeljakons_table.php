@@ -13,6 +13,9 @@ return new class extends Migration
     {
         Schema::create('artikeljakons', function (Blueprint $table) {
             $table->id();
+            $table->string('judul')->nullable();
+            $table->string('berkas')->nullable();
+            $table->softDeletes();
             $table->timestamps();
         });
     }
