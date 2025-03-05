@@ -103,14 +103,17 @@
 						</div><!-- sidebar-form-content -->
 						<div class="sidebar-widget sidebar-widget-recent-post">
 							<h4>Daftar Berita</h4>
-							<div class="sidebar-recent-post">
+
+                            @foreach ($data as $item )
+
+                            <div class="sidebar-recent-post">
 								<div class="sidebar-recent-post-img">
-									<img src="/assets/00_dokmasjaki/01_berita/berita2.JPG" alt="img-197" width="200px" loading="lazy">
+                                    <img src="{{ asset('storage' . {{$item->foto}}) }}" alt="Gambar Pelatihan SKK Blora" width="200px" loading="lazy">
 								</div><!-- sidebar-recent-post-img -->
 								<div class="sidebar-recent-post-content">
-									<div class="sidebar-meta">
-										<div class="sidebar-meta-item">
-											<div class="sidebar-meta-icon">
+                                    <div class="sidebar-meta">
+                                        <div class="sidebar-meta-item">
+                                            <div class="sidebar-meta-icon">
 												<span class="author">
 													by<a href="news-details.html">Mas Zaki</a>
 												</span><!-- author -->
@@ -123,86 +126,8 @@
 								</div><!-- sidebar-recent-post-content -->
 							</div><!-- sidebar-recent-post -->
 
-							<div class="sidebar-recent-post">
-								<div class="sidebar-recent-post-img">
-									<img src="/assets/00_dokmasjaki/01_berita/berita3.JPG" alt="img-199" width="200px" loading="lazy">
-								</div><!-- sidebar-recent-post-img -->
-								<div class="sidebar-recent-post-content">
-									<div class="sidebar-meta">
-										<div class="sidebar-meta-item">
-											<div class="sidebar-meta-icon">
-												<span class="author">
-													by<a href="news-details.html">Admin</a>
-												</span><!-- author -->
-											</div><!-- sidebar-meta-icon -->
-										</div><!-- sidebar-meta-item -->
-										<div class="sidebar-post-title">
-											<h5><a href="#">Puluhan Tenaga Konstruksi Blora Ikuti Sertifikasi Kompetensi Kerja Jenjang 4</a></h5>
-										</div><!-- sidebar-post-title -->
-									</div><!-- sidebar-meta -->
-								</div><!-- sidebar-recent-post-content -->
-							</div><!-- sidebar-recent-post -->
 
-							<div class="sidebar-recent-post">
-								<div class="sidebar-recent-post-img">
-									<img src="/assets/00_dokmasjaki/01_berita/berita4.JPG" alt="img-199" width="200px" loading="lazy">
-								</div><!-- sidebar-recent-post-img -->
-								<div class="sidebar-recent-post-content">
-									<div class="sidebar-meta">
-										<div class="sidebar-meta-item">
-											<div class="sidebar-meta-icon">
-												<span class="author">
-													by<a href="news-details.html">Admin</a>
-												</span><!-- author -->
-											</div><!-- sidebar-meta-icon -->
-										</div><!-- sidebar-meta-item -->
-										<div class="sidebar-post-title">
-											<h5><a href="#">Dorong Profesionalisme, Dinas PUPR Blora Selenggarakan Uji Kompetensi SKK Konstruksi</a></h5>
-										</div><!-- sidebar-post-title -->
-									</div><!-- sidebar-meta -->
-								</div><!-- sidebar-recent-post-content -->
-							</div><!-- sidebar-recent-post -->
-
-							<div class="sidebar-recent-post">
-								<div class="sidebar-recent-post-img">
-									<img src="/assets/00_dokmasjaki/01_berita/berita5.jpg" alt="img-199" width="200px" loading="lazy">
-								</div><!-- sidebar-recent-post-img -->
-								<div class="sidebar-recent-post-content">
-									<div class="sidebar-meta">
-										<div class="sidebar-meta-item">
-											<div class="sidebar-meta-icon">
-												<span class="author">
-													by<a href="news-details.html">Admin</a>
-												</span><!-- author -->
-											</div><!-- sidebar-meta-icon -->
-										</div><!-- sidebar-meta-item -->
-										<div class="sidebar-post-title">
-											<h5><a href="#">Pelatihan dan Sertifikasi SKK di Blora: Upaya Meningkatkan Standar Tenaga Konstruksi</a></h5>
-										</div><!-- sidebar-post-title -->
-									</div><!-- sidebar-meta -->
-								</div><!-- sidebar-recent-post-content -->
-							</div><!-- sidebar-recent-post -->
-
-							<div class="sidebar-recent-post">
-								<div class="sidebar-recent-post-img">
-									<img src="/assets/00_dokmasjaki/01_berita/berita6.JPG" alt="img-199" width="200px" loading="lazy">
-								</div><!-- sidebar-recent-post-img -->
-								<div class="sidebar-recent-post-content">
-									<div class="sidebar-meta">
-										<div class="sidebar-meta-item">
-											<div class="sidebar-meta-icon">
-												<span class="author">
-													by<a href="news-details.html">Admin</a>
-												</span><!-- author -->
-											</div><!-- sidebar-meta-icon -->
-										</div><!-- sidebar-meta-item -->
-										<div class="sidebar-post-title">
-											<h5><a href="#">Dinas PUPR Blora Gelar Pelatihan dan Uji Kompetensi SKK Jenjang 4 bagi Tenaga Konstruksi</a></h5>
-										</div><!-- sidebar-post-title -->
-									</div><!-- sidebar-meta -->
-								</div><!-- sidebar-recent-post-content -->
-							</div><!-- sidebar-recent-post -->
-
+                            @endforeach
 
 
                         </div><!-- sidebar-widget sidebar-widget-recent-post -->

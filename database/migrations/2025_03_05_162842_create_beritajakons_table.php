@@ -13,6 +13,11 @@ return new class extends Migration
     {
         Schema::create('beritajakons', function (Blueprint $table) {
             $table->id();
+            $table->string('judulberita')->nullable();
+            $table->date('tanggal')->nullable();
+            $table->string('keterangan')->nullable();
+            $table->string('foto')->nullable();
+            $table->softDeletes();
             $table->timestamps();
         });
     }
