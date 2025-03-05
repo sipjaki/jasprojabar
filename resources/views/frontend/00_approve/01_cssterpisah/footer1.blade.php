@@ -127,10 +127,14 @@
 			</li><!-- li -->
 		</ul><!-- mobile-nav-contact -->
 		<ul class="mobile-nav-social list-unstyled">
-			<li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
-			<li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
-			{{-- <li><a href="#"><i class="fa-brands fa-pinterest-p"></i></a></li> --}}
-			<li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+			<li><a href="#"><i class="fa-solid fa-envelope"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-tiktok"></i></a></li>
+            <li><a href="https://wa.me/6281321455855"><i class="fa-brands fa-whatsapp"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+            <li><a href="#"><i class="fa-solid fa-phone"></i></a></li>
+
 		</ul><!-- mobile-nav-social -->
 	</div><!-- mobile-nav-content -->
 </div><!--mobile-nav-wrapper-->
