@@ -26,36 +26,6 @@
         border: 1px solid black;
     }
 
-    /* Styling untuk kop surat */
-    .header {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-        margin-bottom: 20px;
-    }
-
-    .header img {
-        width: 60px; /* Perbesar sedikit agar lebih proporsional */
-        height: 60px;
-        margin-right: 15px; /* Jarak antara logo dan teks */
-    }
-
-    .header-text {
-        flex: 1; /* Supaya teks mengisi sisa ruang */
-    }
-
-    .header h3, .header h4, .header p {
-        margin: 2px 0; /* Supaya tidak ada jarak berlebihan */
-        font-size: 16px; /* Sesuaikan ukuran font */
-    }
-
-    .header h4 {
-        font-size: 14px;
-        font-weight: normal;
-    }
-
-    /* Tambahkan font Poppins ke seluruh halaman */
     .container-surat {
     font-family: 'Times New Roman', serif;
     }
