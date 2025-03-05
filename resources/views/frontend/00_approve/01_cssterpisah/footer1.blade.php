@@ -79,7 +79,7 @@
 						</div><!-- footer-widget-department -->
 					</div><!--footer-widget-->
 				</div><!--col-lg-2-->
-				<div class="col-lg-3">
+				<div class="col-lg-2">
 					<div class="footer-widget">
 						<div class="footer-widget-department">
 							<h4 class="footer-widget-title">Analisis Satuan Harga Pekerjaan (AHSP) Kab Blora</h4>
