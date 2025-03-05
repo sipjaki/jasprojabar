@@ -221,7 +221,7 @@ color: #45a049;
                                             <th onclick="sortTable(5)" style="cursor:pointer; text-align:center; width:100px;"> Besaran <span class="sort-icon">⇅</span></th>
                                             {{-- <th onclick="sortTable(6)" style="cursor:pointer; text-align:center; width:75px;"> Rp. <span class="sort-icon">⇅</span></th>
                                             <th onclick="sortTable(7)" style="cursor:pointer; text-align:center; width:100px;"> Besaran Per Jam <span class="sort-icon">⇅</span></th> --}}
-                                            <th onclick="sortTable(6)" style="cursor:pointer; text-align:center; width:200px;"> Keterangan <span class="sort-icon">⇅</span></th>
+                                            {{-- <th onclick="sortTable(6)" style="cursor:pointer; text-align:center; width:200px;"> Keterangan <span class="sort-icon">⇅</span></th> --}}
                                             {{-- <th style="text-align:center"> View </th> --}}
                                         </tr>
                                     </thead>
@@ -237,7 +237,7 @@ color: #45a049;
                                             <td style="text-align: right;">{{ number_format((float) $item->besaran, 0, ',', '.') }},-</td>
                                             {{-- <td style="text-align: center;">Rp.</td>
                                             <td style="text-align: right;">{{ number_format((float) $item->besaranperjam, 0, ',', '.') }},-</td> --}}
-                                            <td>{{$item->keterangan}}</td>
+                                            {{-- <td>{{$item->keterangan}}</td> --}}
                                             {{-- <td style="text-align: center">
                                                 <a href="/404">
                                                     <i class="fas fa-eye view-icon" onclick="alert('View clicked!')"></i>
@@ -247,6 +247,10 @@ color: #45a049;
                                         @endforeach
                                     </tbody>
                                 </table>
+
+
+<p>Keterangan : AHSP Kabupaten Blora Tahuan 2025</p>
+
 
                                 <div class="pagination-container" style="margin-top: 50px; display: flex; flex-direction: column; align-items: center;">
                                     <ul class="pagination-paginate" style="display: flex; padding-left: 0; list-style: none; margin-top: 10px;">
