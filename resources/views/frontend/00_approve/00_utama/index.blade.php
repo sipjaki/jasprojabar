@@ -62,7 +62,7 @@
         	<div class="blog-box">
 				<div class="section-title-box text-center">
 					{{-- <div class="section-tagline">DIRECT FROM THE BLOG POSTS</div> --}}
-					<h2 class="section-title" style="font-size: 18px;">Berita Jasa Konstruksi Kab Blora 2025</h2>
+					<h2 class="section-title" style="font-size: 32px;">Berita Jasa Konstruksi Kab Blora 2025</h2>
 				</div><!-- section-title-box -->
 			</div><!--blog-box-->
 
@@ -95,7 +95,7 @@
 
 
     <section class="client-section" style="background: #2ECC71">
-        <h5 class="client-text" style="font-weight: 800; color:black; font-size:18px; text-transform:capitalize" >Dokumentasi Video Kami</h5>
+        <h5 class="client-text" style="font-weight: 800; color:black; font-size:18px; text-transform:capitalize; font-size:32px;" >Dokumentasi Video Kami</h5>
         <div class="container">
             <div class="client-carousel owl-carousel owl-theme">
                 <div class="item">
