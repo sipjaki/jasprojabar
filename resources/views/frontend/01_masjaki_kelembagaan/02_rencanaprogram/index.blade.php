@@ -38,7 +38,7 @@
     .header-surat img {
         width: 100px; /* Perbesar sedikit agar lebih proporsional */
         height: 100px;
-        margin-right: 65px; /* Jarak antara logo dan teks */
+        margin-right: 50px; /* Jarak antara logo dan teks */
         margin-bottom: 100px; /* Jarak antara logo dan teks */
     }
 
