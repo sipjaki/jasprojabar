@@ -61,26 +61,37 @@
 
 
 
-?	<section class="client-section">
-		<h5 class="client-text">Dokumentasi Video Kami</h5>
-		<div class="container">
-			<div class="client-carousel owl-carousel owl-theme">
-				<div class="item">
-					<img src="/assets/00_dokmasjaki/00_video/video1.mp4" class="img-fluid" alt="img-13">
-				</div><!--item-->
-				<div class="item">
-					<img src="/assets/00_dokmasjaki/00_video/video2.mp4" class="img-fluid" alt="img-14">
-				</div><!--item-->
-				<div class="item">
-					<img src="/assets/00_dokmasjaki/00_video/video3.mp4" class="img-fluid" alt="img-15">
-				</div><!--item-->
-				<div class="item">
-					<img src="/assets/00_dokmasjaki/00_video/video4.mp4" class="img-fluid" alt="img-16">
-				</div><!--item-->
-			</div><!--client-carousel owl-carousel owl-theme-->
-		</div><!--container-->
-	</section><!--client-section-->
-
+    <section class="client-section">
+        <h5 class="client-text">Dokumentasi Video Kami</h5>
+        <div class="container">
+            <div class="client-carousel owl-carousel owl-theme">
+                <div class="item">
+                    <video class="img-fluid" controls>
+                        <source src="/assets/00_dokmasjaki/00_video/video1.mp4" type="video/mp4">
+                        Browser Anda tidak mendukung tag video.
+                    </video>
+                </div><!--item-->
+                <div class="item">
+                    <video class="img-fluid" controls>
+                        <source src="/assets/00_dokmasjaki/00_video/video2.mp4" type="video/mp4">
+                        Browser Anda tidak mendukung tag video.
+                    </video>
+                </div><!--item-->
+                <div class="item">
+                    <video class="img-fluid" controls>
+                        <source src="/assets/00_dokmasjaki/00_video/video3.mp4" type="video/mp4">
+                        Browser Anda tidak mendukung tag video.
+                    </video>
+                </div><!--item-->
+                <div class="item">
+                    <video class="img-fluid" controls>
+                        <source src="/assets/00_dokmasjaki/00_video/video4.mp4" type="video/mp4">
+                        Browser Anda tidak mendukung tag video.
+                    </video>
+                </div><!--item-->
+            </div><!--client-carousel owl-carousel owl-theme-->
+        </div><!--container-->
+    </section><!--client-section-->
 
 
     {{-- REKOMENDASI BERITA HIGHLIGHT --}}
