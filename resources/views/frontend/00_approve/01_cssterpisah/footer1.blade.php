@@ -84,22 +84,23 @@
 						<div class="footer-widget-department">
 							<h4 class="footer-widget-title">AHSP Kab Blora 2025</h4>
 							<ul class="list-unstyled">
-								<li><a href="/404">Standar Biaya Umum</a></li>
-								<li><a href="/404">Undang - Undang</a></li>
-								<li><a href="/404">Peraturan Pemerintah</a></li>
-								<li><a href="/404">Peraturan Presiden</a></li>
-								<li><a href="/404">Peraturan Menteri</a></li>
-								<li><a href="/404">Keputusan Menteri</a></li>
-								<li><a href="/404">Surat Edaran Menteri</a></li>
-								<li><a href="/404">Referensi</a></li>
-								<li><a href="/404">Peraturan Daerah</a></li>
-								<li><a href="/404">Peraturan Gubernur</a></li>
-								<li><a href="/404">Peraturan Walikota/Bupati</a></li>
-								<li><a href="/404">Surat Keputusan</a></li>
+								<li><a href="/404">Standar Harga Material Bangunan</a></li>
+								<li><a href="/404">Standar Harga Upah Tenaga Kerja</a></li>
+								<li><a href="/404">Standar Harga Peralatan</a></li>
+								<li><a href="/404">HSP Divisi I Persiapan Pekerjaan</a></li>
+								<li><a href="/404">HSP Divisi II Pekerjaan Struktur</a></li>
+								<li><a href="/404">HSP Divisi III Pekerjaan Arsitektur</a></li>
+								<li><a href="/404">HSP Divisi IV Pekerjaan Lansekap</a></li>
+								<li><a href="/404">HSP Divisi V Pekerjaan Mekanikal Elektrikal</a></li>
+								<li><a href="/404">HSP Divisi VI Pekerjaan Plambing</a></li>
+								<li><a href="/404">HSP Divisi VII Pekerjaan Jalan Pada Pemukiman</a></li>
+								<li><a href="/404">HSP Divisi VIII Drainase Jalan</a></li>
+								<li><a href="/404">HSP Divisi VIII Pekerjaan Jaringan Pipa</a></li>
+
 							</ul><!-- list-unstyled -->
 						</div><!-- footer-widget-department -->
 					</div><!--footer-widget-->
-                    <div class="footer-widget" style="margin-top: -50px;">
+                    <div class="footer-widget" style="margin-top: -20px;">
 						<div class="footer-widget-contact">
 							<h4 class="footer-widget-title">Kontak Kami</h4>
 							<p>Jl. Nusantara No.62, Jetis, Kauman, Kec. Blora<br>Kabupaten Blora 58214 Provinsi Jawa Tengah </p>
