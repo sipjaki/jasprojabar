@@ -20,11 +20,11 @@
 {{-- ==================================================== --}}
 
     <style>
-        .container {
+        .container-surat {
             width: 80%;
             margin: auto;
             padding: 20px;
-            /* border: 1px solid black; */
+            border: 1px solid black;
         }
         .header {
             text-align: center;
@@ -45,7 +45,7 @@
         }
     </style>
 
-<div class="container">
+<div class="container-surat">
     <div class="header">
         <h3>PEMERINTAH KABUPATEN BLORA</h3>
         <h3>DINAS PEKERJAAN UMUM DAN PENATAAN RUANG</h3>
