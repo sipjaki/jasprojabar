@@ -60,30 +60,31 @@
 
 
 
+
     <section class="client-section">
         <h5 class="client-text">Dokumentasi Video Kami</h5>
         <div class="container">
             <div class="client-carousel owl-carousel owl-theme">
                 <div class="item">
-                    <video class="video-item" controls>
+                    <video class="img-fluid" controls>
                         <source src="/assets/00_dokmasjaki/00_video/video1.mp4" type="video/mp4">
                         Browser Anda tidak mendukung tag video.
                     </video>
                 </div><!--item-->
                 <div class="item">
-                    <video class="video-item" controls>
+                    <video class="img-fluid" controls>
                         <source src="/assets/00_dokmasjaki/00_video/video2.mp4" type="video/mp4">
                         Browser Anda tidak mendukung tag video.
                     </video>
                 </div><!--item-->
                 <div class="item">
-                    <video class="video-item" controls>
+                    <video class="img-fluid" controls>
                         <source src="/assets/00_dokmasjaki/00_video/video3.mp4" type="video/mp4">
                         Browser Anda tidak mendukung tag video.
                     </video>
                 </div><!--item-->
                 <div class="item">
-                    <video class="video-item" controls>
+                    <video class="img-fluid" controls>
                         <source src="/assets/00_dokmasjaki/00_video/video4.mp4" type="video/mp4">
                         Browser Anda tidak mendukung tag video.
                     </video>
@@ -91,27 +92,6 @@
             </div><!--client-carousel owl-carousel owl-theme-->
         </div><!--container-->
     </section><!--client-section-->
-
-    <style>
-        .video-item {
-            width: 100%;
-            max-width: 700px; /* Atur ukuran maksimal video */
-            height: 400px; /* Pastikan tinggi seragam */
-            border-radius: 10px; /* Opsional: membuat sudut video melengkung */
-            object-fit: cover; /* Pastikan video tetap proporsional */
-        }
-
-        /* Pastikan Owl Carousel berjalan dengan baik */
-        .owl-carousel .owl-stage-outer {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-
-
-    </style>
-
-    <!-- Tambahkan jQuery & Owl Carousel jika belum ada
 
 
     {{-- REKOMENDASI BERITA HIGHLIGHT --}}
