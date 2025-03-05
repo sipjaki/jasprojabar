@@ -77,13 +77,13 @@
 						</div><!--event-content-box-->
 					</div><!-- col-lg-6 -->
 				</div><!-- row -->
-				<div class="row row-gutter-y-100">
+				<div class="row row-gutter-y-40">
 
 					<div class="col-xl-12">
 						<div class="event-card">
 							<div class="event-card-image">
 								<div class="event-card-image-inner">
-									<a href="event-details.html"><img src="/assets/icon/.jpg" class="img-fluid" alt="img-21"></a>
+									<a href="event-details.html"><img src="/assets/00_dokmasjaki/03_datajakon/tokobangunanblora.jpg" class="img-fluid" alt="img-21"></a>
 									<div class="event-card-meta">
 										<div class="event-meta-number">
 											<span>-</span>
