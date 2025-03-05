@@ -60,31 +60,30 @@
 
 
 
-
     <section class="client-section">
         <h5 class="client-text">Dokumentasi Video Kami</h5>
         <div class="container">
             <div class="client-carousel owl-carousel owl-theme">
                 <div class="item">
-                    <video class="img-fluid" controls>
+                    <video class="video-item" controls>
                         <source src="/assets/00_dokmasjaki/00_video/video1.mp4" type="video/mp4">
                         Browser Anda tidak mendukung tag video.
                     </video>
                 </div><!--item-->
                 <div class="item">
-                    <video class="img-fluid" controls>
+                    <video class="video-item" controls>
                         <source src="/assets/00_dokmasjaki/00_video/video2.mp4" type="video/mp4">
                         Browser Anda tidak mendukung tag video.
                     </video>
                 </div><!--item-->
                 <div class="item">
-                    <video class="img-fluid" controls>
+                    <video class="video-item" controls>
                         <source src="/assets/00_dokmasjaki/00_video/video3.mp4" type="video/mp4">
                         Browser Anda tidak mendukung tag video.
                     </video>
                 </div><!--item-->
                 <div class="item">
-                    <video class="img-fluid" controls>
+                    <video class="video-item" controls>
                         <source src="/assets/00_dokmasjaki/00_video/video4.mp4" type="video/mp4">
                         Browser Anda tidak mendukung tag video.
                     </video>
@@ -92,6 +91,32 @@
             </div><!--client-carousel owl-carousel owl-theme-->
         </div><!--container-->
     </section><!--client-section-->
+
+    <style>
+        .client-section {
+            text-align: center;
+            padding: 40px 0;
+        }
+
+        .client-carousel .item {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .video-item {
+            width: 100%;
+            max-width: 600px; /* Atur ukuran maksimal */
+            height: 340px; /* Atur tinggi video agar seragam */
+            border-radius: 10px; /* Opsional: membuat sudut video melengkung */
+            object-fit: cover; /* Memastikan video tetap proporsional */
+        }
+
+        .owl-carousel .owl-stage-outer {
+            display: flex;
+            justify-content: center;
+        }
+    </style>
 
 
     {{-- REKOMENDASI BERITA HIGHLIGHT --}}
