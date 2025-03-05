@@ -20,7 +20,7 @@
 				<div class="col-lg-8">
 					<div class="news-details-box-image">
 						<div class="news-details-box-image-inner">
-							<img src="assets/image/blog/blog-details-1.jpg" class="img-fluid" alt="img-193">
+							<img src="/assets/00_dokmasjaki/01_berita/berita1.JPG" class="img-fluid" alt="img-193">
 							<a href="news-details.html" class="news-details-box-date">28 SEP</a>
 						</div><!-- news-details-box-image-inner -->
 					</div><!-- news-details-box-image -->
