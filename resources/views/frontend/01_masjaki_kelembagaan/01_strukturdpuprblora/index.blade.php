@@ -13,7 +13,8 @@
 			</div><!-- page-banner-title -->
 		</div><!-- container -->
 	</section><!--page-banner-->
-	<section class="portfolio-details">
+
+	<section class="portfolio-details" style="background-image: url(assets/00_dokmasjaki/03_datajakon/bannerbetter.jpg);">
 		<div class="container">
 			{{-- <img src="assets/image/portfolio/portfolio-details-1.jpg" class="img-fluid" alt="img-109"> --}}
 

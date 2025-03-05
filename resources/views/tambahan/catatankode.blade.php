@@ -478,7 +478,6 @@ KODE WARNA HIJAU :  #00820d
 {{-- ================================================== --}}
 
 
-
 # ssh -p 65002 u782898958@153.92.10.241
 # SSH SIPJAKI PEMERINTAH KABUPATEN BLORA
 # PASSWORD Adminadmin123$$
