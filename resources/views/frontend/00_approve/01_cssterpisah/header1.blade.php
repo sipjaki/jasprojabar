@@ -37,8 +37,8 @@
 
                             </div>
 
-                            <div class="btn d-flex align-items-center" style="background: #ffd100; border: none; padding: 5px;">
-                                <div class="topbar-icon me-2" style="background: #ffd100; padding: 5px; border-radius: 5px;">
+                            <div class="btn d-flex align-items-center" style="background: #ffd100; border: none; padding: 5px; border-radius:20px;">
+                                <div class="topbar-icon" style="background: #ffd100; padding: 5px; border-radius: 5px;">
                                     <i class="fa-solid fa-envelope" style="color: black;"></i>
                                 </div>
                                 <div class="topbar-text" style="background: #ffd100; padding: 5px; border-radius: 5px;">
