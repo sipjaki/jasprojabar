@@ -26,7 +26,7 @@
                             font-size:25px;
                             white-space: nowrap;
                             display: inline-block;
-                            animation: scrolling-text 50ms linear infinite;
+                            animation: scrolling-text 3s linear infinite;
                             width: 100%;">
 
                             <marquee behavior="scroll" direction="left" style="width: 1000px; margin-top:-10px;">
