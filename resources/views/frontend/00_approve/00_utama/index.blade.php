@@ -102,38 +102,6 @@
 						<div class="event-card">
 							<div class="event-card-image">
 								<div class="event-card-image-inner">
-									<a href="event-details.html"><img src="assets/image/event/event-2.jpg" class="img-fluid" alt="img-20"></a>
-									<div class="event-card-meta">
-										<div class="event-meta-number">
-											<span>28</span>
-										</div><!-- event-meta-number -->
-										<div class="event-meta-date">
-											<span>October 2022</span>
-										</div><!-- event-meta-date -->
-									</div><!-- event-card-meta -->
-								</div><!-- event-card-image-inner -->
-							</div><!--event-card-image-->
-							<div class="event-card-content">
-								<div class="event-card-info">
-									<ul class="list-unstyled">
-										<li>
-											<i class="fa-solid fa-clock"></i>
-											<span>08:00am - 05:00pm</span>
-										</li><!-- li -->
-										<li>
-											<i class="fa-sharp fa-solid fa-location-pin"></i>
-											<span>New Hyde Park, NY 11040</span>
-										</li><!-- li -->
-									</ul><!-- list-unstyled -->
-								</div><!--event-card-info-->
-								<div class="event-card-title">
-									<h4><a href="event-details.html">Organizing 2022 city photography new contest</a></h4>
-								</div><!-- event-card-title -->
-							</div><!--"event-card-content-->
-						</div><!--event-card-->
-						<div class="event-card">
-							<div class="event-card-image">
-								<div class="event-card-image-inner">
 									<a href="event-details.html"><img src="/assets/approve/image/event/event-3.jpg" class="img-fluid" alt="img-21"></a>
 									<div class="event-card-meta">
 										<div class="event-meta-number">
