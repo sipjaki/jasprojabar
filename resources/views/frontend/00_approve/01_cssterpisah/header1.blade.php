@@ -110,7 +110,7 @@
         <div style="display: flex; align-items: center; margin-left: 100px;">
             <img src="/assets/icon/pupr.png" alt="Logo SIPJAKIKBB" style="width: 50px; height: 50px; object-fit: cover; padding: 0;">
             <h1 style="margin-left: 10px; display: flex; flex-direction: column;">
-                <span style="color: white; font-style: italic;">MASJAKI</span><span style="color: green; font-style: italic;">BLORA</span>
+                <span style="font-style: italic;"><h6 style="color: white">MASJAKI</h6><h6 style="color: #2ECC71">BLORA</h6></span>
                 <p style="margin: 0; font-size: 16px; color: white;">Dinas Pekerjaan Umum & Penataan Ruang Kabupaten Blora</p>
             </h1>
         </div>
