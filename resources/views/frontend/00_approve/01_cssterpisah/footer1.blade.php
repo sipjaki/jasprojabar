@@ -33,6 +33,8 @@
 						<div class="footer-widget-explore">
 							<h4 class="footer-widget-title">Jelajah Menu</h4>
 							<ul class="list-unstyled">
+								<li><a href="/">Berita Jasa Konstruksi</a></li>
+								<li><a href="/">Artikel Jasa Konstruksi</a></li>
 								<li><a href="/">Struktur DPUPR Blora</a></li>
 								<li><a href="/">Profil Jakon DPUPR Blora</a></li>
 								<li><a href="/">Tupoksi Jakon DPUPR Blora</a></li>
@@ -48,11 +50,6 @@
 								<li><a href="/">Rantai Pasok Peralatan Konstruksi</a></li>
 								<li><a href="/">Rantai Pasok Asuransi Konstruksi</a></li>
 								<li><a href="/">Rantai Pasok Toko Bangunan </a></li>
-								{{-- <li><a href="/">Satuan Harga Material </a></li>
-								<li><a href="/">Satuan Harga Upah Tenaga Kerja </a></li>
-								<li><a href="/">Satuan Harga Peralatan </a></li> --}}
-								{{-- <li><a href="/">Kecelakaan Kerja</a></li>
-								<li><a href="/">Kecelakaan Kerja</a></li> --}}
 							</ul><!-- list-unstyled -->
 						</div><!-- footer-widget-explore -->
 					</div><!--footer-widget-->
