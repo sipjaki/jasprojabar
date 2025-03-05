@@ -32,7 +32,6 @@
 					<div class="footer-widget">
 						<div class="footer-widget-explore">
 							<h4 class="footer-widget-title">Jelajah Menu</h4>
-							<h4 class="footer-widget-title">Jelajah Menu</h4>
 							<ul class="list-unstyled">
 								<li><a href="/">Beranda</a></li>
 								<li><a href="/">Kelembagaan</a></li>
