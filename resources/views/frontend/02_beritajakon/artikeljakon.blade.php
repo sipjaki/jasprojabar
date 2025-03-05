@@ -29,7 +29,9 @@
                                 <a href="#"><img src="/assets/00_dokmasjaki/03_datajakon/konsultannontender.png" class="img-fluid" alt="img-164" width="200px;"></a>
                                 <div class="event-card-meta">
                                     <div class="event-meta-number">
-										<span><i class="fas fa-download"></i></span>
+                                        <a href="/404">
+                                            <span><i class="fas fa-download"></i></span>
+                                        </a>
 										</div><!-- event-meta-number -->
 										<div class="event-meta-date">
                                             <span>Maret 2025</span>
