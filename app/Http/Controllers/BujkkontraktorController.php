@@ -108,7 +108,7 @@ class BujkkontraktorController extends Controller
     })->get();
 
     if ($request->ajax()) {
-        return view('frontend.03_masjaki_jakon.01_bujkkontraktor.partials.table', compact('data'))->render(); // Load hanya tbody jika request AJAX
+        return view('frontend.03_masjaki_jakon.01_bujkkontraktor.partials.table', compact('datatahun'))->render(); // Load hanya tbody jika request AJAX
     }
 
     return view('frontend.03_masjaki_jakon.01_bujkkontraktor.bujkkontraktor', [
