@@ -104,7 +104,7 @@
 			</div><!-- topbar-left -->
 		</div><!-- topbar-inner -->
 	</div><!--topbar-->
-	<div class="main-menu sticky-header">
+	<div class="main-menu sticky-header" style="background: black">
 		<div class="main-menu-inner">
 			<div class="main-menu-left">
 				<div class="main-menu-logo">
