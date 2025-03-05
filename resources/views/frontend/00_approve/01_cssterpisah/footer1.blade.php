@@ -82,7 +82,7 @@
 				<div class="col-lg-2">
 					<div class="footer-widget">
 						<div class="footer-widget-department">
-							<h4 class="footer-widget-title">Analisis Satuan Harga Pekerjaan (AHSP) Kab Blora</h4>
+							<h4 class="footer-widget-title">AHSP Kab Blora 2025</h4>
 							<ul class="list-unstyled">
 								<li><a href="/404">Standar Biaya Umum</a></li>
 								<li><a href="/404">Undang - Undang</a></li>
