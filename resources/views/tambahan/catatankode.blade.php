@@ -579,3 +579,20 @@ Harga satuan bahan bangunan yang tercantum tidak mengikat hanya sebagai ancang-a
 
 </body>
 </html>
+
+
+
+
+{{-- =================================== --}}
+
+
+style="
+        background: white;
+        max-width: 95%;
+        margin: 30px auto;
+        padding: 20px;
+        height: auto;
+        border-radius: 20px;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+        position: relative;
+        z-index: 10;"

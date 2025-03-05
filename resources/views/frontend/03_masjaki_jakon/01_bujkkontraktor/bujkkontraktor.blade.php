@@ -148,7 +148,19 @@ color: #45a049;
                         </head>
 
                         <section class="document-section" style="margin-top: -100px;">
-                            <div class="container" >
+                            <div class="container"
+
+style="
+background: white;
+max-width: 95%;
+margin: 30px auto;
+padding: 20px;
+height: auto;
+border-radius: 20px;
+box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+position: relative;
+z-index: 10;"
+>
                               <ul class="nav nav-pills" id="pills-tab" role="tablist">
                                   {{-- <img src="/assets/icon/logopupr.png" class="img-fluid" alt="img-25" width="50" style="margin-right: 20px;" loading="lazy"> --}}
 
