@@ -16,10 +16,10 @@
 	<section class="portfolio-details">
 		<div class="container">
 			{{-- <img src="assets/image/portfolio/portfolio-details-1.jpg" class="img-fluid" alt="img-109"> --}}
-            {{-- @foreach ($data as $item )
+            {{-- {{-- @foreach ($data as $item )
             <iframe src="{{ asset('storage/' . $item->peraturan) }}" width="100%" height="750" style="border: none; margin-bottom:25px;"></iframe>
             @endforeach --}}
-			{{-- <div class="portfolio-details-info">
+			{{-- <div class="portfolio-details-info"> --}}
 				<div class="portfolio-details-info-item">
 					<span>Category:</span>
 					<p>Business</p>
