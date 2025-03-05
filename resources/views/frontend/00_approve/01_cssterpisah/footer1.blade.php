@@ -31,7 +31,7 @@
                         <a href="tel:+621234567890"><i class="fa-solid fa-phone"></i></a>
 
 					</div><!-- footer-widget-socials -->
-                    <div class="footer-widget" style="margin-top: -10px;">
+                    <div class="footer-widget">
 						<div class="footer-widget-contact">
 							<h4 class="footer-widget-title">Kontak Kami</h4>
 							<p>Jl. Nusantara No.62, Jetis, Kauman, Kec. Blora<br>Kabupaten Blora 58214 Provinsi Jawa Tengah </p>
