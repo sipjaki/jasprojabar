@@ -9,7 +9,12 @@
 						<a href="/"><img src="/assets/icon/pupr.png" class="img-fluid" alt="img-25" width="50" loading="lazy"></a>
 					</div><!-- footer-widget-logo -->
 					<div class="footer-widget-text">
+                        <h1 style="display: flex; align-items: center; gap: 5px; margin: 0;">
+                            <span style="color: white; font-style: italic;">MASJAKI</span>
+                            <span style="color: green; font-style: italic;">BLORA</span>
+                        </h1>
 						<p>Dinas Pekerjaan Umum dan Penataan Ruang Kabupaten Blora</p>
+
 					</div><!-- footer-widget-text -->
 					<div class="footer-widget-socials">
 						<a href="/404"><i class="fa-brands fa-twitter"></i></a>
