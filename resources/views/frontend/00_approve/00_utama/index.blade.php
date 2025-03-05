@@ -56,9 +56,9 @@
 	</section><!--main-slider-->
 
 
-
-    <section class="blog-section" style="background-image: url(assets/00_dokmasjaki/03_datajakon/bannerbetter.jpg)">
-		<div class="container" style="background: white; height: 100vh; width:200vh;" >
+    {{-- class="blog-section"  --}}
+    <section style="background-image: url(assets/00_dokmasjaki/03_datajakon/bannerbetter.jpg)">
+		<div class="container" style="background: white; height: 100vh; width:250vh;" >
         	<div class="blog-box">
 				<div class="section-title-box text-center">
 					{{-- <div class="section-tagline">DIRECT FROM THE BLOG POSTS</div> --}}
