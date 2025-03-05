@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\artikeljakon;
 use App\Models\beritajakon;
 use Illuminate\Http\Request;
 
@@ -30,7 +31,7 @@ class BeritajakonController extends Controller
     public function artikeljakon()
     {
         $user = Auth::user();
-        $dataartikel = beritajakon::paginate(15);
+        $dataartikel = artikeljakon::paginate(15);
 
         return view('frontend.02_beritajakon.artikeljakon', [
             'title' => 'Artikel Jasa Konstruksi',
