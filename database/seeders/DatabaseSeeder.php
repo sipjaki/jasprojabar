@@ -228,7 +228,7 @@ class DatabaseSeeder extends Seeder
 //======================== ===================================================================================
 strukturdinas::create([
     'judul' => 'Struktur Dinas Pekerjaan Umum Dan Penataan Ruang Pemerintah Kabupaten Blora',
-    'peraturan' => 'struktur/01_dinas/STRUKTUR_KEDINASAN.pdf',
+    'peraturan' => 'struktur/01_dinas/Struktur_Organisasi_PUPR_Blora.pdf',
     'created_at' => Carbon::now(),
     'updated_at' => Carbon::now(),
     'deleted_at' => null, // Jika Anda menggunakan soft deletes
