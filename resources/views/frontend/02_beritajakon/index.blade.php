@@ -150,7 +150,7 @@
 								</ul><!-- list-unstyled -->
 							</div><!-- sidebar-widget-recent-category-box -->
 						</div><!-- sidebar-widget-one sidebar-widget-recent-category -->
-						<div class="sidebar-widget sidebar-widget-tag">
+						{{-- <div class="sidebar-widget sidebar-widget-tag">
 							<h4>Tags</h4>
 							<div class="sidebar-widget-tag-inner">
 								<a href="news-details.html">Culture</a>
@@ -159,7 +159,7 @@
 								<a href="news-details.html">Development</a>
 								<a href="news-details.html">Life</a>
 							</div><!-- sidebar-widget-tag-inner -->
-						</div><!-- sidebar-widget sidebar-widget-tag -->
+						</div><!-- sidebar-widget sidebar-widget-tag --> --}}
 					</div><!-- sidebar -->
 				</div><!-- col-lg-4 -->
 			</div><!-- row -->
