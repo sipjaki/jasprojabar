@@ -70,7 +70,7 @@
         z-index: 10;">
             <div class="blog-box">
                 <div class="section-title-box text-center" style="margin-top: 20px;">
-                    <h2 class="section-title" style="font-size: 32px;">Berita Jasa Konstruksi Kab Blora 2025</h2>
+                    <h2 class="section-title" style="font-size: 32px;">Berita Jasa Konstruksi</h2>
                 </div>
             </div>
 
