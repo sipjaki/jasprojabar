@@ -160,7 +160,7 @@
                                     </ul><!-- list-unstyled -->
                                 </li>
                                 <li><a href="/beritajakon">Berita Jakon</a></li>
-								<li><a href="/404">Artikel Jakon</a></li>
+								<li><a href="/artikeljakon">Artikel Jakon</a></li>
 
 
 								{{-- <li><a href="/404">Agenda Sertifikasi</a></li> --}}
