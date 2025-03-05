@@ -16,7 +16,7 @@
 						<p>Dinas Pekerjaan Umum dan Penataan Ruang Kabupaten Blora</p>
 					</div><!-- footer-widget-text -->
 					<div class="footer-widget-text">
-              			<p style="text-align: justify;" class="footer-widget-title">
+              			<p style="text-align: justify;">
                             Mas Jaki DPUPR Blora adalah Sistem Informasi Pembina Jasa Konstruksi Kabupaten Blora yang mendigitalisasi pendataan SKK Tenaga Kerja Konstruksi, serta pengawasan Badan Usaha Jasa Konstruksi (BUJK) Konstruksi dan Konsultasi. Sistem ini memastikan kepatuhan regulasi, memantau progres proyek secara real-time, dan menilai kinerja kontraktor serta tenaga ahli. Selain itu, platform ini memfasilitasi komunikasi antar pemangku kepentingan untuk menciptakan ekosistem konstruksi yang profesional, transparan, dan berkelanjutan.
                         </p>
                     </div><!-- footer-widget-text -->
@@ -31,6 +31,7 @@
 				<div class="col-lg-3">
 					<div class="footer-widget">
 						<div class="footer-widget-explore">
+							<h4 class="footer-widget-title">Jelajah Menu</h4>
 							<h4 class="footer-widget-title">Jelajah Menu</h4>
 							<ul class="list-unstyled">
 								<li><a href="/">Beranda</a></li>
