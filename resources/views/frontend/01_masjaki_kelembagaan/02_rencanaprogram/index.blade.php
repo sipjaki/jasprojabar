@@ -18,32 +18,44 @@
 
 
 {{-- ==================================================== --}}
+<style>
+    /* Tambahkan font Poppins ke seluruh halaman */
+    body {
+        font-family: 'Poppins', sans-serif;
+    }
 
-    <style>
-        .container-surat {
-            width: 80%;
-            margin: auto;
-            padding: 20px;
-            border: 1px solid black;
-        }
-        .header {
-            text-align: center;
-            font-weight: bold;
-        }
-        table {
-            width: 100%;
-            border-collapse: collapse;
-            margin-top: 10px;
-        }
-        th, td {
-            border: 1px solid black;
-            padding: 8px;
-            text-align: left;
-        }
-        th {
-            background-color: #ddd;
-        }
-    </style>
+    .container-surat {
+        width: 80%;
+        margin: auto;
+        padding: 20px;
+        border: 1px solid black;
+    }
+
+    .header {
+        text-align: center;
+        font-weight: bold;
+        font-size: 20px; /* Tambahkan ukuran agar lebih terlihat */
+    }
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 10px;
+    }
+
+    th, td {
+        border: 1px solid black;
+        padding: 8px;
+        text-align: left;
+        font-size: 14px; /* Sesuaikan ukuran teks */
+    }
+
+    th {
+        background-color: #ddd;
+        font-weight: 600; /* Lebih tebal agar judul tabel lebih jelas */
+    }
+</style>
+
 
 <div class="container-surat">
     <div class="header">
