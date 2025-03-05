@@ -33,7 +33,7 @@
 					<div class="news-details-box-image">
 						<div class="news-details-box-image-inner">
 							<img src="/assets/00_dokmasjaki/01_berita/berita1.JPG" class="img-fluid" alt="img-193">
-							<a href="news-details.html" class="news-details-box-date">28 SEP</a>
+							<a href="news-details.html" class="news-details-box-date">MARET 2025</a>
 						</div><!-- news-details-box-image-inner -->
 					</div><!-- news-details-box-image -->
 
@@ -49,11 +49,20 @@
 					</div><!-- news-details-meta-box --> --}}
 <br><br>
                     <div class="news-details-content-box" style="margin-left: 25px;">
-						<h4>Supporting local business to bounce back</h4>
-						<p>Tliq is notm hendr erit a augue insu image pellen tes que id erat quis sollicitud. Lorem ipsum dolor sit amet, consectetur adipiscing ullam blandit hendrerit faucibus suspendisse. There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. </p>
-						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum ley of type and scrambled it to make a type specimen book.</p>
-						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including version.</p>
-					</div><!-- /.news-details-content-box -->
+						<h4>Pelatihan dan Uji Kompetensi SKK Jenjang 4 bagi Tenaga Kerja Konstruksi di Kabupaten Blora</h4>
+
+                        <p>
+                            Blora, Dinas Pekerjaan Umum dan Penataan Ruang (DPUPR) Kabupaten Blora menggelar Pelatihan dan Uji Kompetensi Sertifikat Kompetensi Kerja (SKK) Jenjang 4 bagi tenaga kerja konstruksi. Kegiatan ini bertujuan untuk meningkatkan kualitas dan profesionalisme tenaga kerja konstruksi sesuai dengan standar nasional yang berlaku.
+                            Pelatihan dan uji kompetensi ini berlangsung di [lokasi kegiatan] dan diikuti oleh puluhan peserta yang berasal dari berbagai sektor konstruksi. Para peserta mendapatkan pembekalan teori serta praktik langsung yang dipandu oleh instruktur berpengalaman dan asesor kompetensi bersertifikat.
+                        </p>
+
+                        <p>
+                            Kepala Dinas PUPR Kabupaten Blora, Nidzamudin Al-Hudda, ST dalam sambutannya menyampaikan bahwa sertifikasi kompetensi kerja ini merupakan langkah penting dalam meningkatkan daya saing tenaga kerja konstruksi di Blora. “Kami berharap dengan adanya pelatihan dan sertifikasi ini, tenaga kerja konstruksi dapat bekerja lebih profesional dan kompeten sesuai dengan standar yang telah ditetapkan,” ujarnya.
+                            Selain itu, kegiatan ini juga sejalan dengan regulasi pemerintah yang mengharuskan setiap tenaga kerja konstruksi memiliki sertifikat kompetensi sesuai dengan Undang-Undang Jasa Konstruksi. Dengan adanya SKK, tenaga kerja konstruksi akan lebih mudah mendapatkan peluang kerja di berbagai proyek, baik yang dikelola oleh pemerintah maupun sektor swasta.
+                        </p>
+
+
+                    </div><!-- /.news-details-content-box -->
 
 
 
