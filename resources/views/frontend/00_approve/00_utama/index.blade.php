@@ -62,7 +62,7 @@
 
 
     {{-- ============================================================================================== --}}
-	{{-- <section class="about-section">
+	<section class="about-section">
 		<div class="container">
 			<div class="row justify-content-between">
 				<div class="col-lg-6">
@@ -117,10 +117,10 @@
 				</div><!--col-lg-6-->
 			</div><!-- row -->
 		</div><!-- container -->
-	</section><!--about-section--> --}}
+	</section><!--about-section-->
 
     {{-- ============================================================================================ --}}
-	{{-- <section class="service-section">
+	<section class="service-section">
 		<div class="container">
 			<div class="row justify-content-between">
 				<div class="col-lg-6">
@@ -157,56 +157,8 @@
 				</div><!--col-lg-5-->
 			</div><!-- row -->
 		</div><!-- container -->
-	</section><!--service-section--> --}}
-    {{--
-    <section class="mayor-section">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-6">
-					<div class="mayor-box">
-						<div class="section-title-box">
-							<div class="section-tagline">DPUPR Kab Blora</div><!-- section-tagline -->
-							<h2 class="section-title">Kepala Bidang Bangunan Gedung</h2>
-							<p>
-                                "Membangun masa depan dimulai dari langkah pertama yang bijak. Melalui Mas Jaki, kita hadirkan kemudahan, transparansi, dan keandalan dalam dunia konstruksi. Bersama, kita pastikan setiap proyek berjalan dengan profesional, berkualitas, dan terukur."
-                            </p>
-						</div><!--section-title-box-->
-						<div class="mayor-icon-box">
-							<div class="mayor-icon">
-								<i class="flaticon-professor"></i>
-							</div><!-- mayor-icon -->
-							<h4 class="mayor-icon-title">Meet Ideological Leader for Youth Generation</h4>
-						</div><!--mayor-icon-box-->
-						<ul class="list-unstyled list-style-one">
-							<li>
-								<i class="fa-solid fa-circle-check"></i>
-								<p>Making this the first true generator on the Internet</p>
-							</li><!-- li -->
-							<li>
-								<i class="fa-solid fa-circle-check"></i>
-								<p>Lorem Ipsum is not simply random text</p>
-							</li><!-- li -->
-							<li>
-								<i class="fa-solid fa-circle-check"></i>
-								<p>If you are going to use a passage</p>
-							</li><!-- li -->
-						</ul><!-- ul -->
-					</div><!--mayor-box-->
-				</div><!-- col-lg-6 -->
-				<div class="col-lg-6">
-					<div class="mayor-img">
-						<img src="/assets/approve/image/shapes/shape-1.png" class="floated-image-one" alt="img-7">
-						<img src="/assets/00_dokmasjaki/01_berita/arifhidayat.jpg" alt="img-8" width="900">
-						<div class="mayor-name">
-							Mohamad Arif Hidayat, ST
-						</div><!-- mayor-name -->
-					</div><!--mayor-img-->
-				</div><!--col-lg-6"-->
-			</div><!-- row -->
-		</div><!-- container -->
-	</section><!--mayor-section--> --}}
-
-	{{-- <section class="client-section">
+	</section><!--service-section-->
+?	<section class="client-section">
 		<h5 class="client-text">Our partners & suppoters</h5>
 		<div class="container">
 			<div class="client-carousel owl-carousel owl-theme">
@@ -224,10 +176,10 @@
 				</div><!--item-->
 			</div><!--client-carousel owl-carousel owl-theme-->
 		</div><!--container-->
-	</section><!--client-section--> --}}
+	</section><!--client-section-->
 
 
-	{{-- <section class="testimonial-section">
+	<section class="testimonial-section">
 		<div class="container">
 			<div class="testimonial-name">TESTIMONIALS</div>
 			<div class="testimonial-slider">
@@ -308,11 +260,11 @@
 				</div><!--testimonial-thumb-->
 			</div><!--testimonial-slider-->
 		</div><!-- container -->
-	</section><!--testimonial-section--> --}}
+	</section><!--testimonial-section-->
 
 
     {{-- REKOMENDASI BERITA HIGHLIGHT --}}
-    {{-- <section class="event-section">
+    <section class="event-section">
 		<div class="container">
 			<div class="event-section-inner">
 				<div class="row">
@@ -421,9 +373,9 @@
 				</div><!-- row -->
 			</div><!--event-section-inner-->
 		</div><!--container-->
-	</section><!--event-section--> --}}
+	</section><!--event-section-->
 
-	{{-- <section class="cta-five-section">
+	<section class="cta-five-section">
 		<div class="container">
 			<div class="cta-five-card">
 				<div class="cta-five-card-icon">
@@ -442,9 +394,9 @@
 				</div><!-- cta-five-img -->
 			</div><!--cta-five-card-->
 		</div><!-- container -->
-	</section><!--cta-five-section--> --}}
+	</section><!--cta-five-section-->
 
-    {{-- <section class="blog-section">
+    <section class="blog-section">
 		<div class="container">
 			<div class="blog-box">
 				<div class="section-title-box text-center">
@@ -524,7 +476,7 @@
 				</div><!-- col-lg-4 -->
 			</div><!-- row -->
 		</div><!-- container -->
-	</section><!-- blog-section --> --}}
+	</section><!-- blog-section -->
 
     <section class="cta-two-section">
 		<div class="container">
