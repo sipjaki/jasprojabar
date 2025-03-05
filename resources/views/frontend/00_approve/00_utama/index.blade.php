@@ -89,6 +89,24 @@
                         Browser Anda tidak mendukung tag video.
                     </video>
                 </div><!--item-->
+                <div class="item">
+                    <video class="img-fluid" controls>
+                        <source src="/assets/00_dokmasjaki/00_video/video5.mp4" type="video/mp4">
+                        Browser Anda tidak mendukung tag video.
+                    </video>
+                </div><!--item-->
+                <div class="item">
+                    <video class="img-fluid" controls>
+                        <source src="/assets/00_dokmasjaki/00_video/video6.mp4" type="video/mp4">
+                        Browser Anda tidak mendukung tag video.
+                    </video>
+                </div><!--item-->
+                <div class="item">
+                    <video class="img-fluid" controls>
+                        <source src="/assets/00_dokmasjaki/00_video/video7.mp4" type="video/mp4">
+                        Browser Anda tidak mendukung tag video.
+                    </video>
+                </div><!--item-->
             </div><!--client-carousel owl-carousel owl-theme-->
         </div><!--container-->
     </section><!--client-section-->
