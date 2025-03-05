@@ -61,64 +61,6 @@
 
 
 
-    {{-- ============================================================================================== --}}
-	<section class="about-section">
-		<div class="container">
-			<div class="row justify-content-between">
-				<div class="col-lg-6">
-					<div class="about-image">
-						<div class="about-image-inner img-one">
-							<img src="/assets/approve/image/gallery/about-1.jpg" class="img-fluid" alt="img-2">
-							<div class="sign-text">Kevin Martin</div><!-- sign-text -->
-							<div class="about-image-caption">
-								<div class="about-image-caption-inner">
-									<span class="about-caption-number">18</span>
-									<span class="about-caption-text">Years of<br>experience</span>
-								</div><!-- about-image-caption-inner -->
-							</div><!--about-image-caption-->
-						</div><!--about-image-inner img-one-->
-						<div class="about-image-inner img-two">
-							<img src="/assets/approve/image/shapes/about-3.jpg" class="floated-image" alt="img-3">
-							<img src="/assets/approve/image/gallery/about-2.jpg" class="img-fluid" alt="img-4">
-						</div><!--about-image-inner img-two-->
-					</div><!--about-image-->
-				</div><!--col-lg-6-->
-				<div class="col-lg-6">
-					<div class="about-inner">
-						<div class="section-title-box">
-							<div class="section-tagline">Our introductions</div><!-- section-tagline -->
-							<h2 class="section-title">Welcome & Support to City Municipal</h2>
-							<p>Aliquam viverra arcu. Donec aliquet blandit enim feugiat. Suspendisse id quam sed eros tincidunt luctus sit amet eu nibh egestas tempus turpis, sit amet mattis magna varius non.</p>
-						</div><!-- section-title-box -->
-						<div class="row">
-							<div class="col-xl-6 col-lg-12 col-md-6">
-								<div class="about-card">
-									<h4 class="about-title"><i class="fa-solid fa-circle-check"></i>Business & Economy</h4>
-									<p class="about-text">Lorem ipsum dolor sited amet consectetur notted.</p>
-								</div><!-- about-card -->
-							</div><!-- col-xl-6 col-lg-12 col-md-6 -->
-							<div class="col-xl-6 col-lg-12 col-md-6">
-								<div class="about-card">
-									<h4 class="about-title"><i class="fa-solid fa-circle-check"></i>Health & Education</h4>
-									<p class="about-text">Lorem ipsum dolor sited amet consectetur notted.</p>
-								</div><!-- about-card -->
-							</div><!-- col-xl-6 col-lg-12 col-md-6 -->
-						</div><!--row-->
-						<div class="about-author-box">
-							<div class="about-author-image">
-								<img src="assets/image/gallery/about-4.png" class="img-fluid" alt="img-5">
-							</div><!-- about-author-image -->
-							<div class="about-author-box-meta">
-								<h5>Mr. Kevin Martin</h5>
-								<span>City Mayor</span>
-							</div><!-- about-author-box-meta -->
-						</div><!--about-author-box-->
-					</div><!-- about-inner -->
-				</div><!--col-lg-6-->
-			</div><!-- row -->
-		</div><!-- container -->
-	</section><!--about-section-->
-
     {{-- ============================================================================================ --}}
 	<section class="service-section">
 		<div class="container">
@@ -374,7 +316,7 @@
 			</div><!--event-section-inner-->
 		</div><!--container-->
 	</section><!--event-section--> --}}
-
+{{--
 	<section class="cta-five-section">
 		<div class="container">
 			<div class="cta-five-card">
@@ -394,7 +336,7 @@
 				</div><!-- cta-five-img -->
 			</div><!--cta-five-card-->
 		</div><!-- container -->
-	</section><!--cta-five-section-->
+	</section><!--cta-five-section--> --}}
 
     <section class="blog-section">
 		<div class="container">
