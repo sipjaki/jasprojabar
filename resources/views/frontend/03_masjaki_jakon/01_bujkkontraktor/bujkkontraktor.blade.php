@@ -235,7 +235,7 @@ color: #45a049;
                                             <th onclick="sortTable(0)" style="cursor:pointer; text-align:center; width:100px;"> No <span class="sort-icon">⇅</span></th>
                                             <th onclick="sortTable(1)" style="cursor:pointer; text-align:center; width:300px;"> Nama Badan Usaha <span class="sort-icon">⇅</span></th>
                                             <th onclick="sortTable(2)" style="cursor:pointer; text-align:center; width:400px;"> Alamat <span class="sort-icon">⇅</span></th>
-                                            <th onclick="sortTable(3)" style="cursor:pointer; text-align:center"> No Telepon <span class="sort-icon">⇅</span></th>
+                                            <th onclick="sortTable(3)" style="cursor:pointer; text-align:center; width:150px;"> No Telepon <span class="sort-icon">⇅</span></th>
                                             {{-- <th onclick="sortTable(4)" style="cursor:pointer; text-align:center"> Email <span class="sort-icon">⇅</span></th>
                                             <th onclick="sortTable(5)" style="cursor:pointer; text-align:center"> NIB <span class="sort-icon">⇅</span></th>
                                             <th onclick="sortTable(6)" style="cursor:pointer; text-align:center"> PJU <span class="sort-icon">⇅</span></th>
