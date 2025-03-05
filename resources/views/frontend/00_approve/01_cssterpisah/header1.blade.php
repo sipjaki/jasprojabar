@@ -116,7 +116,7 @@
         </div>
 
 		<div class="main-menu-inner">
-			<div class="main-menu-left" style="background: white;">
+			<div class="main-menu-left">
 				<div class="navigation">
 					<ul class="main-menu-list list-unstyled">
                         <li class="active"><a href="/">BERANDA</a>
