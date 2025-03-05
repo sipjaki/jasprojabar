@@ -74,9 +74,9 @@
 			</div><!-- row -->
 		</div><!-- container -->
 	</div><!--footer-inner-->
-	<div class="bottom-footer" style="background: #2ECC71">
+	<div class="bottom-footer" style="background: black">
 		<div class="conatiner">
-			<p>© Dinas Pekerjaan Umum dan Penataan Ruang Pemerintah Kabupaten Blora Provinsi Jawa Tengah | 2025 </p>
+			<p style="color: white">© Dinas Pekerjaan Umum dan Penataan Ruang Pemerintah Kabupaten Blora Provinsi Jawa Tengah | 2025 </p>
 		</div><!-- container -->
 	</div><!--bottom-footer-->
 </section><!--footer-->
