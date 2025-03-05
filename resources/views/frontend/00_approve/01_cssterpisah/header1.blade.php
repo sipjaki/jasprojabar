@@ -48,12 +48,15 @@
 
                             </li><!-- li -->
 						<li>
-							<div class="topbar-icon">
-								<i class="fa-solid fa-clock" style="color: black;"></i>
-							</div><!-- topbar-icon -->
-							<div class="topbar-text">
-								<span style="color: black">Senin - Jum`at 09.00 - 15.30</span>
-							</div><!-- topbar-text -->
+							<div class="btn d-flex align-items-center" style="background: #ffd100; border: none; padding: 5px; border-radius:20px;">
+                                <div class="topbar-icon" style="background: #ffd100; padding: 5px; border-radius: 5px;">
+                                    <i class="fa-solid fa-clock" style="color: black;"></i>
+                                </div>
+                                <div class="topbar-text" style="background: #ffd100; padding: 5px; border-radius: 5px;">
+                                    <a href="#" style="color: black; text-decoration: none;">konstruksi@masjakidpuprblora.co.id</a>
+                                </div>
+                            </div>
+
 						</li><!-- li -->
 						<li>
 
