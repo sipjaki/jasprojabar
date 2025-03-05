@@ -117,7 +117,7 @@
 											</div><!-- sidebar-meta-icon -->
 										</div><!-- sidebar-meta-item -->
 										<div class="sidebar-post-title">
-											<h5><a href="#">Learn how access to municipal council</a></h5>
+											<h5><a href="#">Meningkatkan Kualitas Tenaga Kerja: Pelatihan dan Uji Kompetensi SKK Digelar di Blora</a></h5>
 										</div><!-- sidebar-post-title -->
 									</div><!-- sidebar-meta -->
 								</div><!-- sidebar-recent-post-content -->
@@ -137,7 +137,7 @@
 											</div><!-- sidebar-meta-icon -->
 										</div><!-- sidebar-meta-item -->
 										<div class="sidebar-post-title">
-											<h5><a href="#">Learn how access to municipal council</a></h5>
+											<h5><a href="#">Puluhan Tenaga Konstruksi Blora Ikuti Sertifikasi Kompetensi Kerja Jenjang 4</a></h5>
 										</div><!-- sidebar-post-title -->
 									</div><!-- sidebar-meta -->
 								</div><!-- sidebar-recent-post-content -->
@@ -157,7 +157,7 @@
 											</div><!-- sidebar-meta-icon -->
 										</div><!-- sidebar-meta-item -->
 										<div class="sidebar-post-title">
-											<h5><a href="#">Learn how access to municipal council</a></h5>
+											<h5><a href="#">Dorong Profesionalisme, Dinas PUPR Blora Selenggarakan Uji Kompetensi SKK Konstruksi</a></h5>
 										</div><!-- sidebar-post-title -->
 									</div><!-- sidebar-meta -->
 								</div><!-- sidebar-recent-post-content -->
@@ -177,7 +177,7 @@
 											</div><!-- sidebar-meta-icon -->
 										</div><!-- sidebar-meta-item -->
 										<div class="sidebar-post-title">
-											<h5><a href="#">Learn how access to municipal council</a></h5>
+											<h5><a href="#">Pelatihan dan Sertifikasi SKK di Blora: Upaya Meningkatkan Standar Tenaga Konstruksi</a></h5>
 										</div><!-- sidebar-post-title -->
 									</div><!-- sidebar-meta -->
 								</div><!-- sidebar-recent-post-content -->
@@ -197,7 +197,7 @@
 											</div><!-- sidebar-meta-icon -->
 										</div><!-- sidebar-meta-item -->
 										<div class="sidebar-post-title">
-											<h5><a href="#">Learn how access to municipal council</a></h5>
+											<h5><a href="#">Dinas PUPR Blora Gelar Pelatihan dan Uji Kompetensi SKK Jenjang 4 bagi Tenaga Konstruksi</a></h5>
 										</div><!-- sidebar-post-title -->
 									</div><!-- sidebar-meta -->
 								</div><!-- sidebar-recent-post-content -->
