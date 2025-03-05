@@ -55,8 +55,10 @@
 				<div class="col-lg-3">
 					<div class="footer-widget">
 						<div class="footer-widget-explore">
-							<h4 class="footer-widget-title">Jelajah Menu</h4>
-							<ul class="list-unstyled">
+                            <h4 class="footer-widget-title">
+                                <i class="fas fa-compass"></i> Jelajah Menu
+                            </h4>
+                            <ul class="list-unstyled">
 								<li><a href="/">Berita Jasa Konstruksi</a></li>
 								<li><a href="/">Artikel Jasa Konstruksi</a></li>
 								<li><a href="/">Struktur DPUPR Blora</a></li>
@@ -78,7 +80,10 @@
 						</div><!-- footer-widget-explore -->
                         <div class="footer-widget-explore" style="margin-top: 50px;">
                             <div class="footer-widget-contact">
-                                <h4 class="footer-widget-title">Lokasi Kami</h4>
+                                <h4 class="footer-widget-title">
+                                    <i class="fas fa-map-marker-alt"></i> Lokasi Kami
+                                </h4>
+
                                 {{-- <p>Jl. Merdeka No.10, Kecamatan Pusat, Kota Contoh<br>Provinsi Jawa Barat 12345</p> --}}
                                 <iframe
                                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3958.523764685145!2d111.4188524747965!3d-7.179069792829058!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7712b6c5e5f9d7%3A0x98b939fa9f2c6b88!2sJl.%20Nusantara%20No.62%2C%20Jetis%2C%20Kauman%2C%20Kec.%20Blora%2C%20Kabupaten%20Blora%2C%20Jawa%20Tengah%2058214!5e0!3m2!1sen!2sid!4v1710000000000"
@@ -94,8 +99,11 @@
 				<div class="col-lg-3">
 					<div class="footer-widget">
 						<div class="footer-widget-department">
-							<h4 class="footer-widget-title">Peraturan Pemerintah</h4>
-							<ul class="list-unstyled">
+							<h4 class="footer-widget-title">
+                                <i class="fas fa-gavel"></i> Peraturan Pemerintah
+                            </h4>
+
+                            <ul class="list-unstyled">
 								<li><a href="/404">Standar Biaya Umum</a></li>
 								<li><a href="/404">Undang - Undang</a></li>
 								<li><a href="/404">Peraturan Pemerintah</a></li>
@@ -115,8 +123,11 @@
 				<div class="col-lg-2">
 					<div class="footer-widget">
 						<div class="footer-widget-department">
-							<h4 class="footer-widget-title">AHSP Kab Blora 2025</h4>
-							<ul class="list-unstyled">
+                            <h4 class="footer-widget-title">
+                                <i class="fas fa-book"></i> AHSP Kab Blora 2025
+                            </h4>
+
+                            <ul class="list-unstyled">
 								<li><a href="/404">Standar Harga Material Bangunan</a></li>
 								<li><a href="/404">Standar Harga Upah Tenaga Kerja</a></li>
 								<li><a href="/404">Standar Harga Peralatan</a></li>
