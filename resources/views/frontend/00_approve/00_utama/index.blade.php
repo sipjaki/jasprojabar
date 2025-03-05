@@ -271,7 +271,7 @@
                 <div class="col-lg-3">
 					<div class="blog-card">
 						<div class="blog-card-image">
-							<img src="/assets/icon/pupr.png" class="img-fluid" alt="img-22">
+							<img src="/assets/00_dokmasjaki/03_datajakon/analisisharga.png" class="img-fluid" alt="img-22">
 							<a href="/satuanhargaupah"></a>
 						</div><!-- blog-card-image -->
 						<div class="blog-card-content">
@@ -282,7 +282,7 @@
                 <div class="col-lg-3">
 					<div class="blog-card">
 						<div class="blog-card-image">
-							<img src="/assets/icon/pupr.png" class="img-fluid" alt="img-22">
+							<img src="/assets/00_dokmasjaki/03_datajakon/analisisharga.png" class="img-fluid" alt="img-22">
 							<a href="/satuanhargaperalatan"></a>
 						</div><!-- blog-card-image -->
 						<div class="blog-card-content">
@@ -293,7 +293,7 @@
                 <div class="col-lg-3">
 					<div class="blog-card">
 						<div class="blog-card-image">
-							<img src="/assets/icon/pupr.png" class="img-fluid" alt="img-22">
+							<img src="/assets/00_dokmasjaki/03_datajakon/analisisharga.png" class="img-fluid" alt="img-22">
 							<a href="/shstblora"></a>
 						</div><!-- blog-card-image -->
 						<div class="blog-card-content">
