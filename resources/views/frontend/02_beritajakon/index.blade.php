@@ -133,9 +133,72 @@
 									</div><!-- sidebar-meta -->
 								</div><!-- sidebar-recent-post-content -->
 							</div><!-- sidebar-recent-post -->
-						</div><!-- sidebar-widget sidebar-widget-recent-post -->
 
-                        <div class="sidebar-widget sidebar-widget-recent-category">
+							<div class="sidebar-recent-post">
+								<div class="sidebar-recent-post-img">
+									<img src="/assets/00_dokmasjaki/01_berita/berita4.JPG" alt="img-199" width="200px" loading="lazy">
+								</div><!-- sidebar-recent-post-img -->
+								<div class="sidebar-recent-post-content">
+									<div class="sidebar-meta">
+										<div class="sidebar-meta-item">
+											<div class="sidebar-meta-icon">
+												<span class="author">
+													by<a href="news-details.html">Admin</a>
+												</span><!-- author -->
+											</div><!-- sidebar-meta-icon -->
+										</div><!-- sidebar-meta-item -->
+										<div class="sidebar-post-title">
+											<h5><a href="#">Learn how access to municipal council</a></h5>
+										</div><!-- sidebar-post-title -->
+									</div><!-- sidebar-meta -->
+								</div><!-- sidebar-recent-post-content -->
+							</div><!-- sidebar-recent-post -->
+
+							<div class="sidebar-recent-post">
+								<div class="sidebar-recent-post-img">
+									<img src="/assets/00_dokmasjaki/01_berita/berita5.jpg" alt="img-199" width="200px" loading="lazy">
+								</div><!-- sidebar-recent-post-img -->
+								<div class="sidebar-recent-post-content">
+									<div class="sidebar-meta">
+										<div class="sidebar-meta-item">
+											<div class="sidebar-meta-icon">
+												<span class="author">
+													by<a href="news-details.html">Admin</a>
+												</span><!-- author -->
+											</div><!-- sidebar-meta-icon -->
+										</div><!-- sidebar-meta-item -->
+										<div class="sidebar-post-title">
+											<h5><a href="#">Learn how access to municipal council</a></h5>
+										</div><!-- sidebar-post-title -->
+									</div><!-- sidebar-meta -->
+								</div><!-- sidebar-recent-post-content -->
+							</div><!-- sidebar-recent-post -->
+
+							<div class="sidebar-recent-post">
+								<div class="sidebar-recent-post-img">
+									<img src="/assets/00_dokmasjaki/01_berita/berita6.JPG" alt="img-199" width="200px" loading="lazy">
+								</div><!-- sidebar-recent-post-img -->
+								<div class="sidebar-recent-post-content">
+									<div class="sidebar-meta">
+										<div class="sidebar-meta-item">
+											<div class="sidebar-meta-icon">
+												<span class="author">
+													by<a href="news-details.html">Admin</a>
+												</span><!-- author -->
+											</div><!-- sidebar-meta-icon -->
+										</div><!-- sidebar-meta-item -->
+										<div class="sidebar-post-title">
+											<h5><a href="#">Learn how access to municipal council</a></h5>
+										</div><!-- sidebar-post-title -->
+									</div><!-- sidebar-meta -->
+								</div><!-- sidebar-recent-post-content -->
+							</div><!-- sidebar-recent-post -->
+
+
+
+                        </div><!-- sidebar-widget sidebar-widget-recent-post -->
+
+                        {{-- <div class="sidebar-widget sidebar-widget-recent-category">
 							<div class="sidebar-widget-recent-category-box">
 								<h4 class="section-title text-left">Categories</h4>
 								<ul class="list-unstyled">
@@ -146,7 +209,7 @@
 									<li><a href="news-details.html">Government<i class="fa-solid fa-chevron-right"></i></a></li>
 								</ul><!-- list-unstyled -->
 							</div><!-- sidebar-widget-recent-category-box -->
-						</div><!-- sidebar-widget-one sidebar-widget-recent-category -->
+						</div><!-- sidebar-widget-one sidebar-widget-recent-category --> --}}
 						{{-- <div class="sidebar-widget sidebar-widget-tag">
 							<h4>Tags</h4>
 							<div class="sidebar-widget-tag-inner">
