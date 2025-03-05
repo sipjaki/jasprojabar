@@ -57,59 +57,35 @@
 
 
 
-    <section class="event-section" style="margin-top: 5px;">
+    <section class="blog-section">
 		<div class="container">
-			<div class="event-section-inner">
-				<div class="row">
-					<div class="col-lg-6">
-						<div class="section-title-box">
-							<div class="section-tagline">Agenda Kami</div>
-							<h2 class="section-title">Berita Jasa Konstruksi</h2>
-						</div><!-- section-title-box -->
-					</div><!--col-lg-6-->
-					<div class="col-lg-6">
-						<div class="event-content-box">
-							<div class="section-text">
-								<p>
-                                Cooming Soon
-                                </p>
-							</div><!-- section-text -->
-						</div><!--event-content-box-->
-					</div><!-- col-lg-6 -->
-				</div><!-- row -->
-				<div class="row row-gutter-y-40">
+			<div class="blog-box">
+				<div class="section-title-box text-center">
+					{{-- <div class="section-tagline">DIRECT FROM THE BLOG POSTS</div> --}}
+					<h2 class="section-title" style="font-size: 18px;">Berita Jasa Konstruksi Kab Blora 2025</h2>
+				</div><!-- section-title-box -->
+			</div><!--blog-box-->
+			<div class="row row-gutter-y-155">
 
-					<div class="col-xl-12">
-						<div class="event-card">
+                <div class="col-lg-4">
+					<div class="blog-card">
+						<div class="blog-card-image">
+							<img src="/assets/approve/image/blog/blog-1.jpg" class="img-fluid" alt="img-22">
+							<a href="news-details.html"></a>
+						</div><!-- blog-card-image -->
+						<div class="blog-card-date">
+							<a href="news-details.html">28SEP</a>
+						</div><!-- blog-card-date -->
+						<div class="blog-card-content">
+							<h4><a href="news-details.html">Supporting local business to bounce back</a></h4>
+							<p>Tellus amet vel nisi, vel felis morbi sit et. Risus, pulvinar ultricie</p>
+						</div><!-- blog-card-content -->
+					</div><!-- blog-card -->
+				</div><!-- col-lg-4 -->
 
-                            <div class="event-card-image">
-								<div class="event-card-image-inner">
-                                    <div class="event-card-meta">
-                                        <div class="event-meta-number">
-                                            <span>-</span>
-										</div><!-- event-meta-number -->
-										<div class="event-meta-date">
-                                            <span>Maret 2025</span>
-										</div><!-- event-meta-date -->
-									</div><!-- event-card-meta -->
-
-								</div><!-- event-card-image-inner -->
-
-                            </div><!-- event-card-image -->
-
-                            <div class="event-card-image-inner">
-                                <div class="event-card-title">
-                                    <img src="/assets/00_dokmasjaki/03_datajakon/tokobangunanblora.jpg" class="img-fluid" alt="img-21" width="5%">
-                                    <h4><a href="event-details.html">Organizing 2022 city photography new contest</a></h4>
-                                </div><!-- event-card-title -->
-                            </div><!--event-card-content-->
-						</div><!--event-card-->
-					</div><!-- col-xl-7 -->
-				</div><!-- row -->
-			</div><!--event-section-inner-->
-		</div><!--container-->
-	</section><!--event-section-->
-
+			</div><!-- row -->
+		</div><!-- container -->
+	</section><!-- blog-section -->
 
 
     <section class="client-section" style="background: #2ECC71">
