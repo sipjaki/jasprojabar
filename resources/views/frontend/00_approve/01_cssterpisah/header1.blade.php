@@ -1,7 +1,7 @@
 
 
 <header class="header">
-	<div class="topbar">
+	<div class="topbar" style="background: #2ECC71 ">
 		<div class="topbar-inner">
 			<div class="topbar-left">
 				<div class="topbar-socials">
@@ -29,8 +29,8 @@
                             animation: scrolling-text 5s linear infinite;
                             width: 100%;">
 
-                            <marquee behavior="scroll" direction="left" style="width: 700px;">
-                                <a href="/404" style="color: navy; text-decoration: none;">
+                            <marquee behavior="scroll" direction="left" style="width: 900px;">
+                                <a href="#" style="color: navy; text-decoration: none;">
                                 Selamat Datang di Mas Jaki DPUPR Kab Blora Sistem Informasi Pembina Jasa Konstruksi Dinas Pekerjaan Umum dan Penataan Ruang Kabupaten Blora Provinsi Jawa Tengah
                                 </a>
                             </marquee>
@@ -96,14 +96,6 @@
 					</ul><!-- ul -->
 				</div><!--topbar-info-->
 			</div><!-- topbar-left -->
-			<div class="topbar-right">
-				<ul>
-					{{-- <li><a href="/404"><i class="fas fa-phone mr-2"> 0813 2145 5855</i></a></li> --}}
-					{{-- <li><a href="department-details.html">Council</a></li>
-					<li><a href="departments.html">Government</a></li>
-					<li><a href="contact.html">Complaints</a></li> --}}
-				</ul><!-- ul -->
-			</div><!--topbar-right-->
 		</div><!-- topbar-inner -->
 	</div><!--topbar-->
 	<div class="main-menu sticky-header">
