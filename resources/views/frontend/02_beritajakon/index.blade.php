@@ -54,36 +54,8 @@
 						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum ley of type and scrambled it to make a type specimen book.</p>
 						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including version.</p>
 					</div><!-- /.news-details-content-box -->
-					<div class="news-details-share-box">
-						<div class="news-details-inner">
-							<div class="news-details-list">
-								<div class="news-details-list-title">
-									<h4>Tags</h4>
-								</div><!-- news-details-list-title -->
-								<div class="news-details-list-button">
-									<a href="news-details.html" class="btn btn-primary">Culture</a>
-									<a href="news-details.html" class="btn btn-primary">Government</a>
-								</div><!-- news-details-list-button -->
-							</div><!--news-details-list-->
-							<div class="news-details-list">
-								<div class="news-details-socials">
-									<a href="#"><i class="fa-brands fa-twitter"></i></a>
-									<a href="#"><i class="fa-brands fa-facebook"></i></a>
-									<a href="#"><i class="fa-brands fa-pinterest-p"></i></a>
-									<a href="#"><i class="fa-brands fa-instagram"></i></a>
-								</div><!-- news-details-socials -->
-							</div><!-- news-details-list -->
-						</div><!-- news-details-inner -->
-					</div><!-- news-details-share-box -->
-					<div class="news-details-author-box">
-						<div class="news-details-author-image">
-							<img src="assets/image/blog/blog-details-5.jpg" alt="img-194">
-						</div><!-- news-details-author-image -->
-						<div class="news-details-author-content">
-							<h4>Jessica Brown</h4>
-							<p>Cursus massa at urnaaculis estie. Sed aliquamellus vitae ultrs condmentum lightly believable. If you are going to use a of you need to be sure there isn't anything embarrassing.</p>
-						</div><!-- news-details-author-content -->
-					</div><!--news-details-author-box -->
+
+
 
                     {{-- <div class="news-details-comment-form">
 						<h3>Leave a Comment</h3>
