@@ -253,24 +253,20 @@
 			<div class="blog-box">
 				<div class="section-title-box text-center">
 					{{-- <div class="section-tagline">DIRECT FROM THE BLOG POSTS</div> --}}
-					<h2 class="section-title" style="font-size: 18px;">Analisa Harga Satuan Pekerjaan Kab Blora 2025</h2>
+					<h2 class="section-title" style="font-size: 32px;">Analisa Harga Satuan Pekerjaan Kab Blora 2025</h2>
 				</div><!-- section-title-box -->
 			</div><!--blog-box-->
 			<div class="row row-gutter-y-155">
 
-                <div class="col-lg-4">
+                <div class="col-lg-3">
 					<div class="blog-card">
 						<div class="blog-card-image">
-							<img src="/assets/approve/image/blog/blog-1.jpg" class="img-fluid" alt="img-22">
-							<a href="news-details.html"></a>
+							<img src="/assets/icon/pupr.png" class="img-fluid" alt="img-22">
+							{{-- <a href="news-details.html"></a> --}}
 						</div><!-- blog-card-image -->
-						<div class="blog-card-date">
-							<a href="news-details.html">28SEP</a>
-						</div><!-- blog-card-date -->
 						<div class="blog-card-content">
-							<h4><a href="news-details.html">Supporting local business to bounce back</a></h4>
-							<p>Tellus amet vel nisi, vel felis morbi sit et. Risus, pulvinar ultricie</p>
-						</div><!-- blog-card-content -->
+							<h4><a href="news-details.html">Satuan Harga Material</a></h4>
+                        </div><!-- blog-card-content -->
 					</div><!-- blog-card -->
 				</div><!-- col-lg-4 -->
 
