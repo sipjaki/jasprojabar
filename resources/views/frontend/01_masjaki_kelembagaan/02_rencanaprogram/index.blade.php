@@ -47,7 +47,7 @@
 
     .header-surat h3, .header-surat h4, .header-surat p {
         margin: 2px 0; /* Supaya tidak ada jarak berlebihan */
-        font-size: 16px; /* Sesuaikan ukuran font */
+        font-size: 20px; /* Sesuaikan ukuran font */
     }
 
     .header-surat h4 {
