@@ -108,11 +108,11 @@
 	<div class="main-menu sticky-header" style="background: #1d1d1b">
                 <br>
             <div style="display: flex; align-items: center; margin-left: 100px;">
-                {{-- <img src="/assets/icon/pupr.png" alt="Logo SIPJAKIKBB" style="width: 80px; height: 80px; object-fit: cover; padding: 0;"> --}}
-                <h1 style="margin-left: 10px; display: flex; flex-direction: column;">
+                <img src="/assets/icon/pupr.png" alt="Logo SIPJAKIKBB" style="width: 80px; height: 80px; object-fit: cover; padding: 0;">
+                {{-- <h1 style="margin-left: 10px; display: flex; flex-direction: column;">
                         <span style="color: white; font-style:italic;">MASJAKI</span> <h1 style="color: green; font-style:italic;">BLORA</h1><br>
                         <p style="margin: 0; font-size: 16px; color: white;">Dinas Pekerjaan Umum & Penataan Ruang Kabupaten Blora</p>
-                </h1>
+                </h1> --}}
                 <div style="margin-left: 10px; display: flex; flex-direction: column;">
                     <h1 style="display: flex; align-items: center; gap: 5px; margin: 0;">
                         <span style="color: white; font-style: italic;">MASJAKI</span>
