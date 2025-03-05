@@ -80,6 +80,28 @@
 								<li><a href="/">Rantai Pasok Toko Bangunan </a></li> --}}
 							</ul><!-- list-unstyled -->
 						</div><!-- footer-widget-explore -->
+
+                        <div class="footer-widget-department">
+							<h4 class="footer-widget-title">
+                                <i class="fas fa-gavel" style="margin-right: 5px;"></i> Peraturan Pemerintah
+                            </h4>
+
+                            <ul class="list-unstyled">
+								<li><a href="/404">Standar Biaya Umum</a></li>
+								<li><a href="/404">Undang - Undang</a></li>
+								<li><a href="/404">Peraturan Pemerintah</a></li>
+								<li><a href="/404">Peraturan Presiden</a></li>
+								<li><a href="/404">Peraturan Menteri</a></li>
+								<li><a href="/404">Keputusan Menteri</a></li>
+								<li><a href="/404">Surat Edaran Menteri</a></li>
+								<li><a href="/404">Referensi</a></li>
+								<li><a href="/404">Peraturan Daerah</a></li>
+								<li><a href="/404">Peraturan Gubernur</a></li>
+								<li><a href="/404">Peraturan Walikota/Bupati</a></li>
+								<li><a href="/404">Surat Keputusan</a></li>
+							</ul><!-- list-unstyled -->
+						</div><!-- footer-widget-department -->
+
                         <div class="footer-widget-explore" style="margin-top: 50px;">
                             <div class="footer-widget-contact">
                                 <h4 class="footer-widget-title">
@@ -100,26 +122,7 @@
 
 				<div class="col-lg-3">
 					<div class="footer-widget">
-						<div class="footer-widget-department">
-							<h4 class="footer-widget-title">
-                                <i class="fas fa-gavel" style="margin-right: 5px;"></i> Peraturan Pemerintah
-                            </h4>
 
-                            <ul class="list-unstyled">
-								<li><a href="/404">Standar Biaya Umum</a></li>
-								<li><a href="/404">Undang - Undang</a></li>
-								<li><a href="/404">Peraturan Pemerintah</a></li>
-								<li><a href="/404">Peraturan Presiden</a></li>
-								<li><a href="/404">Peraturan Menteri</a></li>
-								<li><a href="/404">Keputusan Menteri</a></li>
-								<li><a href="/404">Surat Edaran Menteri</a></li>
-								<li><a href="/404">Referensi</a></li>
-								<li><a href="/404">Peraturan Daerah</a></li>
-								<li><a href="/404">Peraturan Gubernur</a></li>
-								<li><a href="/404">Peraturan Walikota/Bupati</a></li>
-								<li><a href="/404">Surat Keputusan</a></li>
-							</ul><!-- list-unstyled -->
-						</div><!-- footer-widget-department -->
 					</div><!--footer-widget-->
 				</div><!--col-lg-2-->
 				<div class="col-lg-2">
