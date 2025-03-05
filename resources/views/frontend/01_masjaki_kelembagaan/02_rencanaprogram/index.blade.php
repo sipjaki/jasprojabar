@@ -84,7 +84,6 @@
     <div class="header-surat">
         <img src="/assets/icon/logokabupatenblora.png" alt="Logo Kabupaten Blora">
         <br>
-        <p>___________________</p>
         <div class="header-text">
             <h3>PEMERINTAH KABUPATEN BLORA</h3>
             <h3>DINAS PEKERJAAN UMUM DAN PENATAAN RUANG</h3>
