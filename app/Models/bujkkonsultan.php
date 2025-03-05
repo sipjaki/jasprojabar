@@ -23,5 +23,10 @@ class bujkkonsultan extends Model
         return $this->belongsTo(asosiasimasjaki::class);
     }
 
+    public function tahunpilihan()
+    {
+        return $this->belongsTo(tahunpilihan::class);
+    }
+
 
 }

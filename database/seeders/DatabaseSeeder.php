@@ -279,7 +279,7 @@ bujkkontraktor::create([
     'tanggal' => '2024-07-21',
     'nama_notaris' => 'DIAH TRIMURTI SALEH S.E., S.H., M.KN',
     'no_pengesahan' => 'AHU-0049177-AH.01.14',
-    'tahun' => '2024',
+    'tahunpilihan_id' => 4, // Ganti dengan ID yang sesuai
 ]);
 
 // -----------------------
@@ -377,7 +377,7 @@ bujkkontraktor::create([
     'tanggal' => null,
     'nama_notaris' => null,
     'no_pengesahan' => null,
-    'tahun' => '2024',
+    'tahunpilihan_id' => 4,
 ]);
 
 // -----------------------
@@ -735,7 +735,7 @@ bujkkontraktor::create([
     'tanggal' => '2024-02-05',
     'nama_notaris' => 'YANI DWI RAHAYU S.H., M.Kn.',
     'no_pengesahan' => 'AHU-0006809-AH.01.16',
-    'tahun' => '2024'
+    'tahunpilihan_id' => 4,
 ]);
 
 
@@ -832,7 +832,7 @@ bujkkontraktor::create([
     'tanggal' => null,
     'nama_notaris' => 'ERLY MAIDA, SH., M.KN',
     'no_pengesahan' => 'AHU-0005350-AH.01.17',
-    'tahun' => '2024'
+    'tahunpilihan_id' => 4,
 ]);
 
 bujkkontraktorsub ::create([
@@ -1005,7 +1005,7 @@ bujkkontraktor::create([
     'tanggal' => '2022-06-20',
     'nama_notaris' => 'NIKEN SUKMAWATI S.H., M.KN.',
     'no_pengesahan' => 'AHU-0042025-AH.01.14',
-    'tahun' => '2024'
+    'tahunpilihan_id' => 4,
 ]);
 
 bujkkontraktorsub ::create([
@@ -1166,7 +1166,7 @@ bujkkontraktor::create([
     'tanggal' => '2022-02-21',
     'nama_notaris' => 'NIKEN SUKMAWATI S.H., M.Kn.',
     'no_pengesahan' => 'AHU-0011469-AH.01.16',
-    'tahun' => '2024'
+    'tahunpilihan_id' => 4,
 ]);
 
 bujkkontraktorsub ::create([
@@ -1326,7 +1326,7 @@ bujkkontraktor::create([
     'tanggal' => '2023-01-16',
     'nama_notaris' => 'DIAH TRIMURTI SALEH S.E., S.H., M.KN.',
     'no_pengesahan' => 'AHU-0004908-AH.01.14',
-    'tahun' => '2024'
+    'tahunpilihan_id' => 4,
 ]);
 
 bujkkontraktorsub ::create([
@@ -1408,7 +1408,7 @@ bujkkontraktor::create([
     'tanggal' => null,
     'nama_notaris' => 'DIAH TRIMURTI SALEH S.E., S.H., M.Kn.',
     'no_pengesahan' => 'AHU-0022831-AH.01.16',
-    'tahun' => '2024'
+    'tahunpilihan_id' => 4,
 ]);
 
 bujkkontraktorsub ::create([
@@ -1542,7 +1542,7 @@ bujkkontraktor::create([
     'tanggal' => '2023-03-09',
     'nama_notaris' => 'YANI DWI RAHAYU S.H., M.Kn.',
     'no_pengesahan' => 'AHU-0012312-AH.01.16',
-    'tahun' => '2024'
+    'tahunpilihan_id' => 4,
 ]);
 
 bujkkontraktorsub ::create([
@@ -1598,7 +1598,7 @@ bujkkontraktor::create([
     'tanggal' => '2018-06-06',
     'nama_notaris' => 'ELIZABETH ESTININGSIH, S.H.',
     'no_pengesahan' => '72/CV/2018/PN.BLA',
-    'tahun' => '2024'
+    'tahunpilihan_id' => 4,
 ]);
 
 bujkkontraktorsub ::create([
@@ -6112,6 +6112,46 @@ artikeljakon::create([
     'berkas' => null,
     'tanggal' => null,
 ]);
+
+// ===============================
+// DATA TAHUN PILIHAN
+
+tahunpilihan::create([
+    'id' => 1,
+    'tahunpilihan' => '2021',
+]);
+
+tahunpilihan::create([
+    'id' => 2,
+    'tahunpilihan' => '2022',
+]);
+
+tahunpilihan::create([
+    'id' => 3,
+    'tahunpilihan' => '2023',
+]);
+
+tahunpilihan::create([
+    'id' => 4,
+    'tahunpilihan' => '2024',
+]);
+
+tahunpilihan::create([
+    'id' => 5,
+    'tahunpilihan' => '2025',
+]);
+
+tahunpilihan::create([
+    'id' => 6,
+    'tahunpilihan' => '2026',
+]);
+
+tahunpilihan::create([
+    'id' => 7,
+    'tahunpilihan' => '2027',
+]);
+
+
 
 // garis
 // profilpaketkonsultasi::create([

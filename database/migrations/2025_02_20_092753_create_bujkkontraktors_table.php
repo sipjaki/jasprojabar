@@ -26,7 +26,7 @@ return new class extends Migration
             $table->date('tanggal')->nullable();
             $table->string('nama_notaris')->nullable();
             $table->string('no_pengesahan')->nullable();
-            $table->string('tahun')->nullable();
+            $table->foreignId('tahunpilihan_id')->nullable();
             $table->softDeletes();
             $table->timestamps();
         });

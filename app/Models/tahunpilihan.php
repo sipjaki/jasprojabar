@@ -13,9 +13,14 @@ class tahunpilihan extends Model
 
     protected $guarded = ['id'];
 
-    public function tukangterampil()
+    public function bujkkontraktor()
     {
-        return $this->hasMany(tukangterampil::class);
+        return $this->hasMany(bujkkontraktor::class);
+    }
+
+    public function bujkkonsultan()
+    {
+        return $this->hasMany(bujkkonsultan::class);
     }
 
 }
