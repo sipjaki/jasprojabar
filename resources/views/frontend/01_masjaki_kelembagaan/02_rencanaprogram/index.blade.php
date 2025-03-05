@@ -319,6 +319,84 @@
                 Tugas dan Fungsi Serta Tata Kerja Dinas Pekerjaan Umum dan Penataan Ruang Kabupaten Blora.</td>
             </tr>
         </table>
+        <br>
+
+    <h4>IV. Kontak OPD</h4>
+    <table>
+        <tr>
+            <td>1</td>
+            <td>Nomor Telepon</td>
+            <td>:</td>
+            <td>(0296) 531004 </td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Instagram</td>
+            <td>:</td>
+            <td>'@dpuprblora'</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Tiktok</td>
+            <td>:</td>
+            <td>'@bangunan.gedung.dpupr'</td>
+        </tr>
+    </table>
+
+<br>
+    <h4>V. SK SIPJAKI</h4>
+    <table>
+        <tr>
+            <td></td>
+            <td>Nomor</td>
+            <td>:</td>
+            <td>900/008.A/2024 tanggal 2 Januari 2024</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>Nama Operator SIPJAKI</td>
+            <td>:</td>
+            <td>Miftahunnuril Anam, SE </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td>:</td>
+            <td>Muhammad Yusuf Zaqi Efendi, SE</td>
+        </tr>
+    </table>
+
+<br>
+    <h4>VI. SK PERSONIL JABATAN FUNGSIONAL JASA KONSTRUKSI</h4>
+    <table>
+        <tr>
+            <td>1</td>
+            <td>Ahli Muda Bina Jasa Konstruksi</td>
+            <td>:</td>
+            <td>Anex Fachrian, ST, MT</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Ahli Pertama - Jasa Konstruksi</td>
+            <td>:</td>
+            <td>Miftahunnuril Anam, SE</td>
+        </tr>
+
+        <tr>
+            <td>3</td>
+            <td>Ahli Pertama - Jasa Konstruksi</td>
+            <td>:</td>
+            <td>Maretha Riantiarni, SE</td>
+        </tr>
+
+        <tr>
+            <td>4</td>
+            <td>Ahli Pertama - Jasa Konstruksi</td>
+            <td>:</td>
+            <td>Yudha Prasetyowidadi, SE</td>
+        </tr>
+
+    </table>
 
 </div>
 
