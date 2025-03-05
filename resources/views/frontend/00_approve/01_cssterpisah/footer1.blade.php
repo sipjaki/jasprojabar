@@ -76,8 +76,8 @@
 	</div><!--footer-inner-->
 	<div class="bottom-footer" style="background: #1d1d1b">
 		<div class="conatiner">
-            <a href="#"><img src="/assets/icon/logokabupatenblora.png" width="25" height="25" alt="26" style="margin-right: 5px;" loading="lazy"></a>
-			<a href="#"><img src="/assets/icon/pupr.png" width="25" height="25" alt="26" loading="lazy"></a>
+            <a href="#"><img src="/assets/icon/logokabupatenblora.png" width="40" height="40" alt="26" style="margin-right: 5px;" loading="lazy"></a>
+			<a href="#"><img src="/assets/icon/pupr.png" width="40" height="40" alt="26" loading="lazy"></a>
 			<p style="color: white">© Dinas Pekerjaan Umum dan Penataan Ruang Pemerintah Kabupaten Blora Provinsi Jawa Tengah | 2025 </p>
 		</div><!-- container -->
 	</div><!--bottom-footer-->
