@@ -227,10 +227,10 @@ color: #45a049;
 
                                     <div>
                                         <label for="yearFilter" style="margin-right: 5px; font-weight: bold;">Filter Tahun:</label>
-                                        <select id="yearFilter" onchange="filterByYear()" style="padding: 5px; border: 1px solid black; background-color: white;">
+                                        <select id="yearFilter" style="padding: 5px; border: 1px solid black; background-color: white;">
                                             <option value="">Pilih Tahun</option>
-                                            @foreach ($data->unique('tahunpilihan_id') as $item)
-                                                <option value="{{ $item->tahunpilihan->tahunpilihan }}">{{ $item->tahunpilihan->tahunpilihan }}</option>
+                                            @foreach ($data->unique('tahunpilihan') as $item)
+                                                <option value="{{ $item->tahunpilihan }}">{{ $item->tahunpilihan }}</option>
                                             @endforeach
                                         </select>
                                     </div>
@@ -325,16 +325,26 @@ color: #45a049;
                                 window.location.href = url.toString();
                             }
 
-                            function filterByYear() {
-                                let selectedYear = document.getElementById("yearFilter").value;
-                                let url = new URL(window.location.href);
-                                if (selectedYear) {
-                                    url.searchParams.set("year", selectedYear);
-                                } else {
-                                    url.searchParams.delete("year");
-                                }
-                                window.location.href = url.toString();
-                            }
+
+
+                            $(document).ready(function() {
+        $('#yearFilter').change(function() {
+            var tahun = $(this).val();
+
+            $.ajax({
+                url: "{{ route('search') }}",
+                type: "GET",
+                data: { tahun: tahun },
+                success: function(response) {
+                    var rows = "";
+                    response.forEach(function(item) {
+                        rows += "<tr><td>" + item.id + "</td><td>" + item.nama + "</td><td>" + item.tahunpilihan + "</td></tr>";
+                    });
+                    $("#data-table tbody").html(rows);
+                }
+            });
+        });
+    });
 
 
                             function searchTable() {

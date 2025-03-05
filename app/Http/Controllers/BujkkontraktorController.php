@@ -75,36 +75,47 @@ class BujkkontraktorController extends Controller
         ]);
     }
 
-
     public function bujkkontraktor(Request $request)
-{
-    $perPage = $request->input('perPage', 10);
-    $search = $request->input('search');
+    {
+        $perPage = $request->input('perPage', 10);
+        $search = $request->input('search');
+        $tahunpilihan = $request->input('tahunpilihan');
 
-    $query = bujkkontraktor::query();
+        // Query dasar
+        $query = bujkkontraktor::query();
 
-    if ($search) {
-        $query->where('namalengkap', 'LIKE', "%{$search}%")
-              ->orWhere('alamat', 'LIKE', "%{$search}%")
-              ->orWhere('email', 'LIKE', "%{$search}%")
-              ->orWhere('nib', 'LIKE', "%{$search}%");
-    }
+        // Filter pencarian
+        if ($search) {
+            $query->where('namalengkap', 'LIKE', "%{$search}%")
+                  ->orWhere('alamat', 'LIKE', "%{$search}%")
+                  ->orWhere('email', 'LIKE', "%{$search}%")
+                  ->orWhere('nib', 'LIKE', "%{$search}%");
+        }
 
-    $data = $query->paginate($perPage);
+        // Filter berdasarkan tahunpilihan (tanpa paginasi jika ada filter ini)
+        if ($tahunpilihan) {
+            $data = $query->where('tahunpilihan_id', $tahunpilihan)->get();
+            return response()->json($data);
+        } else {
+            $data = $query->paginate($perPage);
+        }
 
-    if ($request->ajax()) {
-        return response()->json([
-            'html' => view('frontend.03_masjaki_jakon.01_bujkkontraktor.partials.table', compact('data'))->render()
+        // Jika request adalah AJAX, kembalikan partial view untuk update dinamis
+        if ($request->ajax()) {
+            return response()->json([
+                'html' => view('frontend.03_masjaki_jakon.01_bujkkontraktor.partials.table', compact('data'))->render()
+            ]);
+        }
+
+        // Return ke view utama jika bukan AJAX request
+        return view('frontend.03_masjaki_jakon.01_bujkkontraktor.bujkkontraktor', [
+            'title' => 'BUJK Konstruksi',
+            'data' => $data,
+            'perPage' => $perPage,
+            'search' => $search
         ]);
     }
 
-    return view('frontend.03_masjaki_jakon.01_bujkkontraktor.bujkkontraktor', [
-        'title' => 'BUJK Konstruksi',
-        'data' => $data,
-        'perPage' => $perPage,
-        'search' => $search
-    ]);
-}
 
     public function bujkkontraktorshow($namalengkap)
     {
