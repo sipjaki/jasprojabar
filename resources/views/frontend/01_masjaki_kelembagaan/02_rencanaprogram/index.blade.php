@@ -95,6 +95,7 @@
             <h4>DINAS PEKERJAAN UMUM DAN PENATAAN RUANG KABUPATEN BLORA</h4>
         </div>
     </div>
+    <br>
 
     <h4>I. IDENTITAS OPD</h4>
     <table>
@@ -106,12 +107,12 @@
         <tr>
             <td>2.</td>
             <td>Alamat OPD</td>
-            <td>: Jl. Nusantara No. 6 2</td>
+            <td>: Jl. Nusantara No. 62</td>
         </tr>
         <tr>
             <td></td>
             <td>RT / RW</td>
-            <td>: -</td>
+            <td>: - </td>
         </tr>
         <tr>
             <td></td>
@@ -155,6 +156,8 @@
         </tr>
     </table>
 
+    <br>
+
     <h4>II. PROFIL PIMPINAN OPD</h4>
 
     <h5>KEPALA DINAS</h5>
@@ -167,17 +170,17 @@
         <tr>
             <td>2.</td>
             <td>NIP</td>
-            <td>: 19720326 200604 1 005</td>
+            <td>: - </td>
         </tr>
         <tr>
             <td>3.</td>
             <td>Tempat, Tanggal Lahir</td>
-            <td>: Sleman, 26 Maret 1972</td>
+            <td> - </td>
         </tr>
         <tr>
             <td>4.</td>
             <td>Pangkat / Golongan</td>
-            <td>: Pembina / IVa</td>
+            <td>: - </td>
         </tr>
         <tr>
             <td>5.</td>
@@ -196,6 +199,8 @@
         </tr>
     </table>
 
+    <br>
+
     <h5>KEPALA BIDANG BANGUNAN GEDUNG</h5>
     <table>
         <tr>
@@ -206,17 +211,17 @@
         <tr>
             <td>2.</td>
             <td>NIP</td>
-            <td>: 19710506 199403 1 011</td>
+            <td>: - </td>
         </tr>
         <tr>
             <td>3.</td>
             <td>Tempat, Tanggal Lahir</td>
-            <td>: Blora, 06 Mei 1971</td>
+            <td>: - </td>
         </tr>
         <tr>
             <td>4.</td>
             <td>Pangkat / Golongan</td>
-            <td>: Pembina / IVa</td>
+            <td>: - </td>
         </tr>
         <tr>
             <td>5.</td>
@@ -235,6 +240,8 @@
         </tr>
     </table>
 
+    <br>
+
     <h5>SUBKOORDINATOR BINA JASA KONSTRUKSI</h5>
     <table>
         <tr>
@@ -245,14 +252,43 @@
         <tr>
             <td>2.</td>
             <td>NIP</td>
-            <td>: 19810728 201012 1 004</td>
+            <td>: - </td>
         </tr>
         <tr>
             <td>3.</td>
             <td>Tempat, Tanggal Lahir</td>
-            <td>: Blora, 28 Juli 1981</td>
+            <td>: - </td>
+        </tr>
+        <tr>
+            <td>4.</td>
+            <td>Pangkat/Golongan</td>
+            <td>: - </td>
+        </tr>
+        <tr>
+            <td>5.</td>
+            <td>Jabatan</td>
+            <td>: Subkoordinator Bina Jasa Konstruksi Dinas Pekerjaan Umum Dan Penataan Ruang Kabupaten Blora </td>
+        </tr>
+        <tr>
+            <td>6.</td>
+            <td>Pendidikan Terakhir</td>
+            <td>: Magister (S2) </td>
         </tr>
     </table>
+    <br>
+
+    <h4>III. OPD Jakon</h4>
+    <table>
+        <tr>
+            <td></td>
+            <td>OPD yang menangani Bina Jasa Konstruksi di DPUPR Kabupaten Blora setara dengan eselon IV,
+                dibawah Bidang Bangunan Gedung. Pada Bidang Bangunan Gedung terdapat dua subkoordinator
+                yaitu Subkoordinator Bangunan dan Lingkungan serta Subkoordinator Bina Jasa Konstruksi,   hal
+                tersebut tertuang dalam Perbup Nomor 66 Tahun 2021 tentang Kedudukan, Susunan Organisasi,
+                Tugas dan Fungsi Serta Tata Kerja Dinas Pekerjaan Umum dan Penataan Ruang Kabupaten Blora.</td>
+        </tr>
+    </table>
+
 
 </div>
 
