@@ -47,7 +47,7 @@
 							</span><!-- comment -->
 						</div><!-- news-details-meta-box-inner -->
 					</div><!-- news-details-meta-box --> --}}
-
+<br><br>
                     <div class="news-details-content-box" style="margin-left: 25px;">
 						<h4>Supporting local business to bounce back</h4>
 						<p>Tliq is notm hendr erit a augue insu image pellen tes que id erat quis sollicitud. Lorem ipsum dolor sit amet, consectetur adipiscing ullam blandit hendrerit faucibus suspendisse. There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. </p>
