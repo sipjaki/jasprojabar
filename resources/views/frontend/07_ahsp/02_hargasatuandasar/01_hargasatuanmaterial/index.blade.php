@@ -243,7 +243,9 @@ color: #45a049;
                                     </tbody>
                                 </table>
 
-                                <p>
+                                <br>
+
+                                <p style="color: black;">
                                     Keterangan : AHSP Kabupaten Blora Tahuan 2025
                                 </p>
 
