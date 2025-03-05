@@ -37,16 +37,16 @@
 
                             </div>
 
-                            <div class="topbar-icon">
-								<i class="fa-solid fa-envelope"></i>
+                            <div class="topbar-icon" style="background:#ffd100" >
+								<i class="fa-solid fa-envelope" style="color: black;"></i>
 							</div><!-- topbar-icon -->
-							<div class="topbar-text">
+							<div class="topbar-text" style="background: #ffd100" >
 								<a href="#" style="color: black">konstruksi@masjakidpuprblora.co.id</a>
 							</div><!-- topbar-text -->
 						</li><!-- li -->
 						<li>
 							<div class="topbar-icon">
-								<i class="fa-solid fa-clock"></i>
+								<i class="fa-solid fa-clock" style="color: black;"></i>
 							</div><!-- topbar-icon -->
 							<div class="topbar-text">
 								<span style="color: black">Senin - Jum`at 09.00 - 15.30</span>
