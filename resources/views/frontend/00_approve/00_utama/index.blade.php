@@ -58,7 +58,7 @@
 
 
     <section class="blog-section" style="background-image: url(assets/00_dokmasjaki/03_datajakon/bannerbetter.jpg);">
-        <div class="container" style="background: white; max-width: calc(100% - 300px); margin: 0 auto; height: 100vh;">
+        <div class="container" style="background: white; max-width: calc(100% - 300px); margin: 0 auto; height: 120vh;">
             <div class="blog-box">
                 <div class="section-title-box text-center">
                     <h2 class="section-title" style="font-size: 32px;">Berita Jasa Konstruksi Kab Blora 2025</h2>
