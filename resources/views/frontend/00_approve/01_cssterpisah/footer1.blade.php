@@ -76,7 +76,7 @@
 								<li><a href="/">Rantai Pasok Toko Bangunan </a></li>
 							</ul><!-- list-unstyled -->
 						</div><!-- footer-widget-explore -->
-                        <div class="footer-widget" style="margin-top: -0px;">
+                        <div class="footer-widget-explore" style="margin-top: -0px;">
                             <div class="footer-widget-contact">
                                 <h4 class="footer-widget-title">Lokasi Kami</h4>
                                 {{-- <p>Jl. Merdeka No.10, Kecamatan Pusat, Kota Contoh<br>Provinsi Jawa Barat 12345</p> --}}
