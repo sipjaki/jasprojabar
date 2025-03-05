@@ -37,14 +37,16 @@
 
                             </div>
 
-                                <div class="btn btn-warning">
-
-                                    <div class="topbar-icon" style="background:#ffd100" >
-                                        <i class="fa-solid fa-envelope" style="color: black;"></i>
-                                        <a href="#" style="color: black">konstruksi@masjakidpuprblora.co.id</a>
-                                    </div><!-- topbar-text -->
-
+                            <div class="btn" style="background: #ffd100; border: none;" class="d-flex align-items-center">
+                                <div class="topbar-icon" style="background: #ffd100; padding: 5px; border-radius: 5px;">
+                                    <i class="fa-solid fa-envelope" style="color: black;"></i>
                                 </div>
+                                <div class="topbar-text ms-2" style="background: #ffd100; padding: 5px; border-radius: 5px;">
+                                    <a href="#" style="color: black; text-decoration: none;">konstruksi@masjakidpuprblora.co.id</a>
+                                </div>
+                            </div>
+
+
                             </li><!-- li -->
 						<li>
 							<div class="topbar-icon">
