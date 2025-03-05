@@ -75,44 +75,43 @@ class BujkkontraktorController extends Controller
         ]);
     }
 
+
     public function bujkkontraktor(Request $request)
-    {
-        $perPage = $request->input('perPage', 10);
-        $search = $request->input('search');
-        $tahunpilihan = $request->input('tahunpilihan');
+{
+    $perPage = $request->input('perPage', 10);
+    $search = $request->input('search');
 
-        $query = bujkkontraktor::query();
+    $query = bujkkontraktor::query();
 
-        // Filter pencarian
-        if ($search) {
-            $query->where('namalengkap', 'LIKE', "%{$search}%")
-                  ->orWhere('alamat', 'LIKE', "%{$search}%")
-                  ->orWhere('email', 'LIKE', "%{$search}%")
-                  ->orWhere('nib', 'LIKE', "%{$search}%");
-        }
+    if ($search) {
+        $query->where('namalengkap', 'LIKE', "%{$search}%")
+              ->orWhere('alamat', 'LIKE', "%{$search}%")
+              ->orWhere('email', 'LIKE', "%{$search}%")
+              ->orWhere('nib', 'LIKE', "%{$search}%");
+    }
 
-        // Filter berdasarkan tahun
-        if ($tahunpilihan) {
-            $query->where('tahunpilihan_id', $tahunpilihan);
-        }
+    $data = $query->paginate($perPage);
 
-        // Jika filter tahun digunakan, ambil semua tanpa paginasi
-        $data = $tahunpilihan ? $query->get() : $query->paginate($perPage);
-
-        if ($request->ajax()) {
-            return response()->json([
-                'html' => view('frontend.03_masjaki_jakon.01_bujkkontraktor.partials.table', compact('data'))->render()
-            ]);
-        }
-
-        return view('frontend.03_masjaki_jakon.01_bujkkontraktor.bujkkontraktor', [
-            'title' => 'BUJK Konstruksi',
-            'data' => $data,
-            'perPage' => $perPage,
-            'search' => $search
+    if ($request->ajax()) {
+        return response()->json([
+            'html' => view('frontend.03_masjaki_jakon.01_bujkkontraktor.partials.table', compact('data'))->render()
         ]);
     }
 
+    $tahunpilihan = $request->tahunpilihan;
+
+    // Query langsung ke database tanpa paginasi
+    $data = bujkkontraktor::where('tahunpilihan_id', $tahunpilihan)->get();
+
+    return response()->json($data);
+
+    return view('frontend.03_masjaki_jakon.01_bujkkontraktor.bujkkontraktor', [
+        'title' => 'BUJK Konstruksi',
+        'data' => $data,
+        'perPage' => $perPage,
+        'search' => $search
+    ]);
+}
 
     public function bujkkontraktorshow($namalengkap)
     {
