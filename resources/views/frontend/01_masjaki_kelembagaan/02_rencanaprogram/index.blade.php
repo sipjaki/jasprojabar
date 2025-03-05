@@ -102,57 +102,68 @@
         <tr>
             <td>1.</td>
             <td>Nama OPD</td>
-            <td>: Dinas Pekerjaan Umum Dan Penataan Ruang Kabupaten Blora</td>
+            <td>:</td>
+            <td>Dinas Pekerjaan Umum Dan Penataan Ruang Kabupaten Blora</td>
         </tr>
         <tr>
             <td>2.</td>
             <td>Alamat OPD</td>
-            <td>: Jl. Nusantara No. 62</td>
+            <td>:</td>
+            <td>Jl. Nusantara No. 62</td>
         </tr>
         <tr>
             <td></td>
             <td>RT / RW</td>
-            <td>: - </td>
+            <td>:</td>
+            <td> - </td>
         </tr>
         <tr>
             <td></td>
             <td>Kode Pos</td>
-            <td>: 58214</td>
+            <td>:</td>
+            <td>58214</td>
         </tr>
         <tr>
             <td></td>
             <td>Kelurahan</td>
-            <td>: Jetis</td>
+            <td>:</td>
+            <td>Jetis</td>
         </tr>
         <tr>
             <td></td>
             <td>Kecamatan</td>
-            <td>: Blora</td>
+            <td>:</td>
+            <td>Blora</td>
         </tr>
         <tr>
             <td></td>
             <td>Kota</td>
-            <td>: Blora</td>
+            <td>:</td>
+            <td>Blora</td>
         </tr>
         <tr>
             <td></td>
             <td>Provinsi</td>
-            <td>: Jawa Tengah</td>
+            <td>:</td>
+            <td>Jawa Tengah</td>
         </tr>
         <tr>
             <td></td>
             <td>Negara</td>
-            <td>: Indonesia</td>
+            <td>:</td>
+            <td>Indonesia</td>
         </tr>
         <tr>
             <td>3.</td>
             <td>Posisi Geografis</td>
-            <td>: -6.976853 Lintang, 111.410894 Bujur</td>
+            <td>:</td>
+            <td>-6.976853 Lintang, 111.410894 Bujur</td>
         </tr>
         <tr>
             <td>4.</td>
             <td>Tipe Dinas</td>
-            <td>: B</td>
+            <td>:</td>
+            <td>B</td>
         </tr>
     </table>
 
@@ -165,37 +176,44 @@
         <tr>
             <td>1.</td>
             <td>Nama Lengkap</td>
-            <td>: NIDZAMUDIN AL HUDDA, ST</td>
+            <td>:</td>
+            <td>NIDZAMUDIN AL HUDDA, ST</td>
         </tr>
         <tr>
             <td>2.</td>
             <td>NIP</td>
-            <td>: - </td>
+            <td>:</td>
+            <td> - </td>
         </tr>
         <tr>
             <td>3.</td>
             <td>Tempat, Tanggal Lahir</td>
+            <td>:</td>
             <td> - </td>
         </tr>
         <tr>
             <td>4.</td>
             <td>Pangkat / Golongan</td>
-            <td>: - </td>
+            <td>:</td>
+            <td> - </td>
         </tr>
         <tr>
             <td>5.</td>
             <td>Jabatan</td>
-            <td>: Plt. Kepala Dinas Pekerjaan Umum Dan Penataan Ruang Kabupaten Blora</td>
+            <td>:</td>
+            <td>Plt. Kepala Dinas Pekerjaan Umum Dan Penataan Ruang Kabupaten Blora</td>
         </tr>
         <tr>
             <td>6.</td>
             <td>Perangkat Daerah</td>
-            <td>: Dinas Pekerjaan Umum Dan Penataan Ruang Kabupaten Blora</td>
+            <td>:</td>
+            <td>Dinas Pekerjaan Umum Dan Penataan Ruang Kabupaten Blora</td>
         </tr>
         <tr>
             <td>7.</td>
             <td>Pendidikan Terakhir</td>
-            <td>: Strata 1 (S1)</td>
+            <td>:</td>
+            <td>Strata 1 (S1)</td>
         </tr>
     </table>
 
@@ -206,37 +224,44 @@
         <tr>
             <td>1.</td>
             <td>Nama Lengkap</td>
-            <td>: MOHAMAD ARIF HIDAYAT, ST</td>
+            <td>:</td>
+            <td>MOHAMAD ARIF HIDAYAT, ST</td>
         </tr>
         <tr>
             <td>2.</td>
             <td>NIP</td>
-            <td>: - </td>
+            <td>:</td>
+            <td> - </td>
         </tr>
         <tr>
             <td>3.</td>
             <td>Tempat, Tanggal Lahir</td>
-            <td>: - </td>
+            <td>:</td>
+            <td> - </td>
         </tr>
         <tr>
             <td>4.</td>
             <td>Pangkat / Golongan</td>
-            <td>: - </td>
+            <td>:</td>
+            <td> - </td>
         </tr>
         <tr>
             <td>5.</td>
             <td>Jabatan</td>
-            <td>: Kepala Bidang Bangunan Gedung Dinas Pekerjaan Umum Dan Penataan Ruang Kabupaten Blora</td>
+            <td>:</td>
+            <td>Kepala Bidang Bangunan Gedung Dinas Pekerjaan Umum Dan Penataan Ruang Kabupaten Blora</td>
         </tr>
         <tr>
             <td>6.</td>
             <td>Perangkat Daerah</td>
-            <td>: Dinas Pekerjaan Umum Dan Penataan Ruang Kabupaten Blora</td>
+            <td>:</td>
+            <td>Dinas Pekerjaan Umum Dan Penataan Ruang Kabupaten Blora</td>
         </tr>
         <tr>
             <td>7.</td>
             <td>Pendidikan Terakhir</td>
-            <td>: Strata 1 (S1)</td>
+            <td>:</td>
+            <td>Strata 1 (S1)</td>
         </tr>
     </table>
 
@@ -247,32 +272,38 @@
         <tr>
             <td>1.</td>
             <td>Nama Lengkap</td>
-            <td>: ANEX FACHRIAN ST, MT</td>
+            <td>:</td>
+            <td>ANEX FACHRIAN ST, MT</td>
         </tr>
         <tr>
             <td>2.</td>
             <td>NIP</td>
-            <td>: - </td>
+            <td>:</td>
+            <td> - </td>
         </tr>
         <tr>
             <td>3.</td>
             <td>Tempat, Tanggal Lahir</td>
-            <td>: - </td>
+            <td>:</td>
+            <td> - </td>
         </tr>
         <tr>
             <td>4.</td>
             <td>Pangkat/Golongan</td>
-            <td>: - </td>
+            <td>:</td>
+            <td> - </td>
         </tr>
         <tr>
             <td>5.</td>
             <td>Jabatan</td>
-            <td>: Subkoordinator Bina Jasa Konstruksi Dinas Pekerjaan Umum Dan Penataan Ruang Kabupaten Blora </td>
+            <td>:</td>
+            <td>Subkoordinator Bina Jasa Konstruksi Dinas Pekerjaan Umum Dan Penataan Ruang Kabupaten Blora </td>
         </tr>
         <tr>
             <td>6.</td>
             <td>Pendidikan Terakhir</td>
-            <td>: Magister (S2) </td>
+            <td>:</td>
+            <td>Magister (S2) </td>
         </tr>
     </table>
     <br>
@@ -286,9 +317,8 @@
                 yaitu Subkoordinator Bangunan dan Lingkungan serta Subkoordinator Bina Jasa Konstruksi,   hal
                 tersebut tertuang dalam Perbup Nomor 66 Tahun 2021 tentang Kedudukan, Susunan Organisasi,
                 Tugas dan Fungsi Serta Tata Kerja Dinas Pekerjaan Umum dan Penataan Ruang Kabupaten Blora.</td>
-        </tr>
-    </table>
-
+            </tr>
+        </table>
 
 </div>
 
