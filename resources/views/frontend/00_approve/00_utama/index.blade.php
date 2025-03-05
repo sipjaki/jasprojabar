@@ -81,7 +81,7 @@
                         </div><!-- blog-card-date -->
                         <div class="blog-card-content">
                             <h4><a href="news-details.html">Digitalisasi Sistem Pembinaan Jasa Konstruksi Blora</a></h4>
-                            <p>Pemanfaatan teknologi dalam mendukung pengelolaan data konstruksi.</p>
+                            {{-- <p>Pemanfaatan teknologi dalam mendukung pengelolaan data konstruksi.</p> --}}
                         </div><!-- blog-card-content -->
                     </div><!-- blog-card -->
                 </div><!-- col-lg-4 -->
@@ -97,7 +97,7 @@
                         </div><!-- blog-card-date -->
                         <div class="blog-card-content">
                             <h4><a href="news-details.html">Peran Sistem Informasi dalam Peningkatan Kualitas Proyek</a></h4>
-                            <p>Sistem informasi membantu pengawasan proyek konstruksi secara lebih efektif.</p>
+                            {{-- <p>Sistem informasi membantu pengawasan proyek konstruksi secara lebih efektif.</p> --}}
                         </div><!-- blog-card-content -->
                     </div><!-- blog-card -->
                 </div><!-- col-lg-4 -->
@@ -113,7 +113,7 @@
                         </div><!-- blog-card-date -->
                         <div class="blog-card-content">
                             <h4><a href="news-details.html">Sosialisasi Penggunaan Aplikasi Pembina Jasa Konstruksi</a></h4>
-                            <p>DPU PR Blora mengadakan pelatihan bagi penyedia jasa konstruksi.</p>
+                            {{-- <p>DPU PR Blora mengadakan pelatihan bagi penyedia jasa konstruksi.</p> --}}
                         </div><!-- blog-card-content -->
                     </div><!-- blog-card -->
                 </div><!-- col-lg-4 -->
@@ -129,7 +129,7 @@
                         </div><!-- blog-card-date -->
                         <div class="blog-card-content">
                             <h4><a href="news-details.html">Keamanan Data dalam Sistem Jasa Konstruksi Blora</a></h4>
-                            <p>Upaya perlindungan data dan sistem terhadap ancaman siber.</p>
+                            {{-- <p>Upaya perlindungan data dan sistem terhadap ancaman siber.</p> --}}
                         </div><!-- blog-card-content -->
                     </div><!-- blog-card -->
                 </div><!-- col-lg-4 -->
@@ -145,7 +145,7 @@
                         </div><!-- blog-card-date -->
                         <div class="blog-card-content">
                             <h4><a href="news-details.html">Sinergi Pemerintah dan Kontraktor dalam Pengelolaan Data</a></h4>
-                            <p>Kolaborasi dalam optimalisasi sistem informasi jasa konstruksi.</p>
+                            {{-- <p>Kolaborasi dalam optimalisasi sistem informasi jasa konstruksi.</p> --}}
                         </div><!-- blog-card-content -->
                     </div><!-- blog-card -->
                 </div><!-- col-lg-4 -->
@@ -160,7 +160,7 @@
                         </div><!-- blog-card-date -->
                         <div class="blog-card-content">
                             <h4><a href="news-details.html">Transformasi Digital dalam Pengelolaan Jasa Konstruksi</a></h4>
-                            <p>Kolaborasi dalam optimalisasi sistem informasi jasa konstruksi.</p>
+                            {{-- <p>Kolaborasi dalam optimalisasi sistem informasi jasa konstruksi.</p> --}}
                         </div><!-- blog-card-content -->
                     </div><!-- blog-card -->
                 </div><!-- col-lg-4 -->
