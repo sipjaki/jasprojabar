@@ -41,7 +41,7 @@
 								<i class="fa-solid fa-envelope"></i>
 							</div><!-- topbar-icon -->
 							<div class="topbar-text">
-								<a href="/404">konstruksi@masjakidpuprblora.co.id</a>
+								<a href="#" style="color: black">konstruksi@masjakidpuprblora.co.id</a>
 							</div><!-- topbar-text -->
 						</li><!-- li -->
 						<li>
@@ -49,7 +49,7 @@
 								<i class="fa-solid fa-clock"></i>
 							</div><!-- topbar-icon -->
 							<div class="topbar-text">
-								<span>Senin - Jum`at 09.00 - 15.30</span>
+								<span style="color: black">Senin - Jum`at 09.00 - 15.30</span>
 							</div><!-- topbar-text -->
 						</li><!-- li -->
 						<li>
@@ -64,7 +64,7 @@
                                 font-family: Arial, sans-serif;">
                                 <p id="jam" style="
                                     font-size: 14px;
-                                    background: #2ECC71;
+                                    background: navy;
                                     color: #fff;
                                     padding: 10px 10px;
                                     border-radius: 15px;
