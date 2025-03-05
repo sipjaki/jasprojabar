@@ -105,9 +105,8 @@
 		</div><!-- topbar-inner -->
 	</div><!--topbar-->
 
-	<div class="main-menu sticky-header" style="background: #1a1a18">
+	<div class="main-menu sticky-header" style="background: #282825">
 
-        <div style="margin-top:10px;">
             <div style="display: flex; align-items: center; margin-left: 100px;">
                 <img src="/assets/icon/pupr.png" alt="Logo SIPJAKIKBB" style="width: 50px; height: 50px; object-fit: cover; padding: 0;">
                 <h1 style="margin-left: 10px; display: flex; flex-direction: column;">
@@ -117,7 +116,6 @@
                     <p style="margin: 0; font-size: 16px; color: white;">Dinas Pekerjaan Umum & Penataan Ruang Kabupaten Blora</p>
                 </h1>
             </div>
-        </div>
 
 		<div class="main-menu-inner">
 			<div class="main-menu-left">
