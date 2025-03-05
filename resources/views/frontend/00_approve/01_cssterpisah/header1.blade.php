@@ -4,14 +4,14 @@
 	<div class="topbar" style="background: #2ECC71;>
 		<div class="topbar-inner" style="background: #2ECC71 " >
 			<div class="topbar-left" style="background: #2ECC71 ">
-				<div class="topbar-socials" style="height: 10vh;">
+				<div class="topbar-socials" style="height: 5vh;">
                     <a href="#"><i class="fa-brands fa-tiktok" style="font-size: 28px;"></i></a>
                     {{-- <a href="#"><i class="fa-solid fa-envelope" style="font-size: 25px;"></i></a> --}}
                     <a href="#"><i class="fa-brands fa-instagram" style="font-size: 28px;"></i></a>
                     <a href="#"><i class="fa-brands fa-whatsapp" style="font-size: 28px;"></i></a>
                     <a href="#"><i class="fa-brands fa-facebook" style="font-size: 28px;"></i></a>
 				</div><!--topbar-socials-->
-				<div class="topbar-info" style="height: 10vh;">
+				<div class="topbar-info" style="height: 5vh;">
 					<ul>
 						<li>
 							{{-- <div class="topbar-a">
