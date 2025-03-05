@@ -108,8 +108,8 @@
 
                             <div class="sidebar-recent-post">
 								<div class="sidebar-recent-post-img">
-                                    <img src="{{ asset('storage' . {{$item->foto}}) }}" alt="Gambar Pelatihan SKK Blora" width="200px" loading="lazy">
-								</div><!-- sidebar-recent-post-img -->
+                                    <img src="{{ asset('storage/' . $item->foto) }}" alt="Gambar Pelatihan SKK Blora" width="200px" loading="lazy">
+                                </div><!-- sidebar-recent-post-img -->
 								<div class="sidebar-recent-post-content">
                                     <div class="sidebar-meta">
                                         <div class="sidebar-meta-item">
