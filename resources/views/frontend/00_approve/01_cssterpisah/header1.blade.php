@@ -53,7 +53,7 @@
                                     <i class="fa-solid fa-clock" style="color: black;"></i>
                                 </div>
                                 <div class="topbar-text" style="background: #ffd100; padding: 5px; border-radius: 5px;">
-                                    <a href="#" style="color: black; text-decoration: none;">konstruksi@masjakidpuprblora.co.id</a>
+                                    <a href="#" style="color: black; text-decoration: none;">Senin - Jum`at 09.00 - 15.00 </a>
                                 </div>
                             </div>
 
