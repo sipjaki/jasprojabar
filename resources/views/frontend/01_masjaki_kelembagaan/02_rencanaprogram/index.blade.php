@@ -38,7 +38,7 @@
     .header-surat img {
         width: 75px; /* Perbesar sedikit agar lebih proporsional */
         height: 75px;
-        margin-right: 100px; /* Jarak antara logo dan teks */
+        margin-right: 80px; /* Jarak antara logo dan teks */
     }
 
     .header-surat-text {
@@ -89,7 +89,7 @@
             <h3>DINAS PEKERJAAN UMUM DAN PENATAAN RUANG</h3>
             <p>Jl. Nusantara No. 62 Telp. (0296) 531004</p>
             <h3>BLORA 58214</h3>
-            <p>______________________________________________________________________</p>
+            <p>_____________________________________________________________</p>
             <h3>PROFIL OPD JASA KONSTRUKSI</h3>
             <h4>DINAS PEKERJAAN UMUM DAN PENATAAN RUANG KABUPATEN BLORA</h4>
         </div>
