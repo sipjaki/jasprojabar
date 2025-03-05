@@ -15,10 +15,213 @@
 	</section><!--page-banner-->
 	<section class="portfolio-details">
 		<div class="container">
+
+
+{{-- ==================================================== --}}
+
+    <style>
+        .container {
+            width: 80%;
+            margin: auto;
+            padding: 20px;
+            border: 1px solid black;
+        }
+        .header {
+            text-align: center;
+            font-weight: bold;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #ddd;
+        }
+    </style>
+
+<div class="container">
+    <div class="header">
+        <h3>PEMERINTAH KABUPATEN BLORA</h3>
+        <h3>DINAS PEKERJAAN UMUM DAN PENATAAN RUANG</h3>
+        <p>Jl. Nusantara No. 62 Telp. (0296) 531004</p>
+        <h3>BLORA 58214</h3>
+        <h3>PROFIL OPD JASA KONSTRUKSI</h3>
+        <h4>DINAS PEKERJAAN UMUM DAN PENATAAN RUANG KABUPATEN BLORA</h4>
+    </div>
+
+    <h4>I. IDENTITAS OPD</h4>
+    <table>
+        <tr>
+            <td>1.</td>
+            <td>Nama OPD</td>
+            <td>: Dinas Pekerjaan Umum Dan Penataan Ruang Kabupaten Blora</td>
+        </tr>
+        <tr>
+            <td>2.</td>
+            <td>Alamat OPD</td>
+            <td>: Jl. Nusantara No. 6 2</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>RT / RW</td>
+            <td>: -</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>Kode Pos</td>
+            <td>: 58214</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>Kelurahan</td>
+            <td>: Jetis</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>Kecamatan</td>
+            <td>: Blora</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>Kota</td>
+            <td>: Blora</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>Provinsi</td>
+            <td>: Jawa Tengah</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>Negara</td>
+            <td>: Indonesia</td>
+        </tr>
+        <tr>
+            <td>3.</td>
+            <td>Posisi Geografis</td>
+            <td>: -6.976853 Lintang, 111.410894 Bujur</td>
+        </tr>
+        <tr>
+            <td>4.</td>
+            <td>Tipe Dinas</td>
+            <td>: B</td>
+        </tr>
+    </table>
+
+    <h4>II. PROFIL PIMPINAN OPD</h4>
+
+    <h5>KEPALA DINAS</h5>
+    <table>
+        <tr>
+            <td>1.</td>
+            <td>Nama Lengkap</td>
+            <td>: NIDZAMUDIN AL HUDDA, ST</td>
+        </tr>
+        <tr>
+            <td>2.</td>
+            <td>NIP</td>
+            <td>: 19720326 200604 1 005</td>
+        </tr>
+        <tr>
+            <td>3.</td>
+            <td>Tempat, Tanggal Lahir</td>
+            <td>: Sleman, 26 Maret 1972</td>
+        </tr>
+        <tr>
+            <td>4.</td>
+            <td>Pangkat / Golongan</td>
+            <td>: Pembina / IVa</td>
+        </tr>
+        <tr>
+            <td>5.</td>
+            <td>Jabatan</td>
+            <td>: Plt. Kepala Dinas Pekerjaan Umum Dan Penataan Ruang Kabupaten Blora</td>
+        </tr>
+        <tr>
+            <td>6.</td>
+            <td>Perangkat Daerah</td>
+            <td>: Dinas Pekerjaan Umum Dan Penataan Ruang Kabupaten Blora</td>
+        </tr>
+        <tr>
+            <td>7.</td>
+            <td>Pendidikan Terakhir</td>
+            <td>: Strata 1 (S1)</td>
+        </tr>
+    </table>
+
+    <h5>KEPALA BIDANG BANGUNAN GEDUNG</h5>
+    <table>
+        <tr>
+            <td>1.</td>
+            <td>Nama Lengkap</td>
+            <td>: MOHAMAD ARIF HIDAYAT, ST</td>
+        </tr>
+        <tr>
+            <td>2.</td>
+            <td>NIP</td>
+            <td>: 19710506 199403 1 011</td>
+        </tr>
+        <tr>
+            <td>3.</td>
+            <td>Tempat, Tanggal Lahir</td>
+            <td>: Blora, 06 Mei 1971</td>
+        </tr>
+        <tr>
+            <td>4.</td>
+            <td>Pangkat / Golongan</td>
+            <td>: Pembina / IVa</td>
+        </tr>
+        <tr>
+            <td>5.</td>
+            <td>Jabatan</td>
+            <td>: Kepala Bidang Bangunan Gedung Dinas Pekerjaan Umum Dan Penataan Ruang Kabupaten Blora</td>
+        </tr>
+        <tr>
+            <td>6.</td>
+            <td>Perangkat Daerah</td>
+            <td>: Dinas Pekerjaan Umum Dan Penataan Ruang Kabupaten Blora</td>
+        </tr>
+        <tr>
+            <td>7.</td>
+            <td>Pendidikan Terakhir</td>
+            <td>: Strata 1 (S1)</td>
+        </tr>
+    </table>
+
+    <h5>SUBKOORDINATOR BINA JASA KONSTRUKSI</h5>
+    <table>
+        <tr>
+            <td>1.</td>
+            <td>Nama Lengkap</td>
+            <td>: ANEX FACHRIAN ST, MT</td>
+        </tr>
+        <tr>
+            <td>2.</td>
+            <td>NIP</td>
+            <td>: 19810728 201012 1 004</td>
+        </tr>
+        <tr>
+            <td>3.</td>
+            <td>Tempat, Tanggal Lahir</td>
+            <td>: Blora, 28 Juli 1981</td>
+        </tr>
+    </table>
+
+</div>
+
+
+{{-- ==================================================== --}}
+
 			{{-- <img src="assets/image/portfolio/portfolio-details-1.jpg" class="img-fluid" alt="img-109"> --}}
-            @foreach ($data as $item )
+            {{-- @foreach ($data as $item )
             <iframe src="{{ asset('storage/' . $item->peraturan) }}" width="100%" height="750" style="border: none;"></iframe>
-            @endforeach
+            @endforeach --}}
 			{{-- <div class="portfolio-details-info">
 				<div class="portfolio-details-info-item">
 					<span>Category:</span>
