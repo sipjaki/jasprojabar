@@ -212,158 +212,107 @@ color: #45a049;
                                             Data Ke {{ $data->firstItem() }} Sampai {{ $data->lastItem() }} Dari {{ $data->total() }} Jumlah {{$title}}
                                         </div>
                                     </div>
+
+                                    <!-- Show Entries -->
                                     <div>
                                         <label for="entries" style="margin-right: 5px; font-weight: bold;">Show:</label>
-                                        <select id="entries" onchange="updateEntries()" style="padding: 5px; border: 1px solid black; background-color: white;">
+                                        <select id="entries" style="padding: 5px; border: 1px solid black; background-color: white;">
                                             <option value="10">10</option>
                                             <option value="25">25</option>
                                             <option value="50">50</option>
                                             <option value="75">75</option>
                                             <option value="100">100</option>
-                                            <option value="150">150</option>
-                                            <option value="200">200</option>
                                         </select>
                                     </div>
 
+                                    <!-- Filter Tahun -->
                                     <div>
                                         <label for="yearFilter" style="margin-right: 5px; font-weight: bold;">Filter Tahun:</label>
                                         <select id="yearFilter" style="padding: 5px; border: 1px solid black; background-color: white;">
                                             <option value="">Pilih Tahun</option>
-                                            @foreach ($data->unique('tahunpilihan') as $item)
-                                                <option value="{{ $item->tahunpilihan }}">{{ $item->tahunpilihan }}</option>
+                                            @foreach ($data->pluck('tahunpilihan')->unique() as $tahun)
+                                                <option value="{{ $tahun }}">{{ $tahun }}</option>
                                             @endforeach
                                         </select>
                                     </div>
 
-
-                                    <div style="position: relative; display: inline-block; margin-right:10px;">
-                                        <input type="search" id="searchInput" placeholder="Badan Usaha ...." onkeyup="searchTable()" style="border: 1px solid #ccc; padding: 10px 20px; font-size: 14px; border-radius: 10px; width: 300px;">
+                                    <!-- Search Input -->
+                                    <div style="position: relative; display: inline-block;">
+                                        <input type="search" id="searchInput" placeholder="Badan Usaha ...." style="border: 1px solid #ccc; padding: 10px 20px; font-size: 14px; border-radius: 10px; width: 300px;">
                                         <i class="fas fa-search" style="position: absolute; right: 10px; top: 50%; transform: translateY(-50%); font-size: 16px; color: #888;"></i>
                                     </div>
                                 </div>
 
+                                <!-- Table -->
                                 <table class="fl-table" id="sortableTable" style="margin-top: 15px; width: 100%; border-collapse: collapse;">
                                     <thead>
                                         <tr>
-                                            <th onclick="sortTable(0)" style="cursor:pointer; text-align:center; width:100px;"> No <span class="sort-icon">⇅</span></th>
-                                            <th onclick="sortTable(1)" style="cursor:pointer; text-align:center; width:300px;"> Nama Badan Usaha <span class="sort-icon">⇅</span></th>
-                                            <th onclick="sortTable(2)" style="cursor:pointer; text-align:center; width:400px;"> Alamat <span class="sort-icon">⇅</span></th>
-                                            <th onclick="sortTable(3)" style="cursor:pointer; text-align:center; width:150px;"> No Telepon <span class="sort-icon">⇅</span></th>
-                                            {{-- <th onclick="sortTable(4)" style="cursor:pointer; text-align:center"> Email <span class="sort-icon">⇅</span></th>
-                                            <th onclick="sortTable(5)" style="cursor:pointer; text-align:center"> NIB <span class="sort-icon">⇅</span></th>
-                                            <th onclick="sortTable(6)" style="cursor:pointer; text-align:center"> PJU <span class="sort-icon">⇅</span></th>
-                                            <th onclick="sortTable(7)" style="cursor:pointer; text-align:center"> Akte <span class="sort-icon">⇅</span></th>
-                                            <th onclick="sortTable(8)" style="cursor:pointer; text-align:center"> Tanggal <span class="sort-icon">⇅</span></th>
-                                            <th onclick="sortTable(9)" style="cursor:pointer; text-align:center"> Notaris <span class="sort-icon">⇅</span></th>
-                                            <th onclick="sortTable(10)" style="cursor:pointer; text-align:center"> Pengesahan <span class="sort-icon">⇅</span></th> --}}
-                                            <th style="text-align:center; width:100px;"> Tahun </th>
-                                            <th style="text-align:center; width:100px;"> View </th>
+                                            <th>No</th>
+                                            <th>Nama Badan Usaha</th>
+                                            <th>Alamat</th>
+                                            <th>No Telepon</th>
+                                            <th>Tahun</th>
+                                            <th>View</th>
                                         </tr>
                                     </thead>
                                     <tbody id="tableBody">
-                                        @php $start = ($data->currentPage() - 1) * $data->perPage() + 1; @endphp
-                                        @foreach ($data as $item )
+                                        @foreach ($data as $key => $item)
                                         <tr>
-                                            <td style="text-align: center;">{{ $loop->iteration + $start - 1 }}</td>
-                                            <td style="text-transform: capitalize;">{{ ucwords(strtolower($item->namalengkap)) }}</td>
-                                            <td>{{$item->alamat}}</td>
-                                            <td style="text-align: center;">{{$item->no_telepon}}</td>
-                                            {{-- <td>{{$item->email}}</td>
-                                            <td>{{$item->nib}}</td>
-                                            <td>{{$item->pju}}</td>
-                                            <td>{{$item->no_akte}}</td>
-                                            <td>{{ \Carbon\Carbon::parse($item->tanggal)->isoFormat('D MMMM YYYY') }}</td>
-                                            <td>{{$item->nama_notaris}}</td>
-                                            <td>{{$item->no_pengesahan}}</td> --}}
-                                            <td style="text-align: center;">{{$item->tahun}}</td>
-                                            <td style="text-align: center">
-                                                <a href="/datajakon/bujkkontraktor/{{$item->namalengkap}}">
-                                                    <i class="fas fa-eye view-icon" onclick="alert('View clicked!')"></i>
-                                                </a>
-                                            </td>
+                                            <td>{{ $loop->iteration }}</td>
+                                            <td>{{ ucwords(strtolower($item->namalengkap)) }}</td>
+                                            <td>{{ $item->alamat }}</td>
+                                            <td>{{ $item->no_telepon }}</td>
+                                            <td>{{ $item->tahun }}</td>
+                                            <td><a href="/datajakon/bujkkontraktor/{{$item->id}}"><i class="fas fa-eye"></i></a></td>
                                         </tr>
                                         @endforeach
                                     </tbody>
                                 </table>
 
+                                <!-- Pagination -->
                                 <div class="pagination-container" style="margin-top: 50px; display: flex; flex-direction: column; align-items: center;">
-                                    <ul class="pagination-paginate" style="display: flex; padding-left: 0; list-style: none; margin-top: 10px;">
-                                        <li class="page-item {{ $data->onFirstPage() ? 'disabled' : '' }}" style="margin-right: 5px;">
-                                            <a class="page-link" href="{{ $data->previousPageUrl() }}">
-                                                <i class="fas fa-arrow-left" style="margin-right: 10px;"></i>Previous
-                                            </a>
-                                        </li>
-                                        <li class="page-item {{ $data->hasMorePages() ? '' : 'disabled' }}" style="margin-right: 5px;">
-                                            <a class="page-link" href="{{ $data->nextPageUrl() }}">
-                                                Next <i class="fas fa-arrow-right" style="margin-left: 10px;"></i>
-                                            </a>
-                                        </li>
-                                    </ul>
+                                    {{ $data->links() }}
                                 </div>
                             </div>
 
-                            <style>
-                                .sort-icon {
-                                    font-size: 16px;
-                                    color: gray;
-                                    margin-left: 5px;
-                                }
-                                th {
-                                    padding: 10px;
-                                    border-bottom: 2px solid black;
-                                }
-                                th:hover {
-                                    background-color: #f2f2f2;
-                                }
-                            </style>
-
                             <script>
-                            function updateEntries() {
-                                let selectedValue = document.getElementById("entries").value;
-                                let url = new URL(window.location.href);
-                                url.searchParams.set("perPage", selectedValue);
-                                window.location.href = url.toString();
-                            }
-
-
-
-                            $(document).ready(function() {
-        $('#yearFilter').change(function() {
-            var tahun = $(this).val();
-
-            $.ajax({
-                url: "{{ route('bujkkontraktor') }}",
-                type: "GET",
-                data: { tahun: tahun },
-                success: function(response) {
-                    var rows = "";
-                    response.forEach(function(item) {
-                        rows += "<tr><td>" + item.id + "</td><td>" + item.nama + "</td><td>" + item.tahunpilihan + "</td></tr>";
-                    });
-                    $("#data-table tbody").html(rows);
-                }
-            });
-        });
+                                $(document).ready(function () {
+    // Filter Tahun
+    $('#yearFilter').change(function () {
+        let tahun = $(this).val();
+        fetchData({ tahun: tahun });
     });
 
+    // Show Entries
+    $('#entries').change(function () {
+        let perPage = $(this).val();
+        fetchData({ perPage: perPage });
+    });
 
-                            function searchTable() {
-                            let input = document.getElementById("searchInput").value;
+    // Search
+    $('#searchInput').keyup(function () {
+        let search = $(this).val();
+        fetchData({ search: search });
+    });
 
-                            fetch(`/datajakon/bujkkontraktor?search=${input}`)
-                                .then(response => response.text())
-                                .then(html => {
-                                    let parser = new DOMParser();
-                                    let doc = parser.parseFromString(html, "text/html");
-                                    let newTableBody = doc.querySelector("#tableBody").innerHTML;
-                                    document.querySelector("#tableBody").innerHTML = newTableBody;
-                                })
-                                .catch(error => console.error("Error fetching search results:", error));
-                        }
+    function fetchData(params) {
+        $.ajax({
+            url: "{{ route('bujkkontraktor') }}",
+            type: "GET",
+            data: params,
+            success: function (response) {
+                let parser = new DOMParser();
+                let doc = parser.parseFromString(response.html, "text/html");
+                $("#tableBody").html(doc.querySelector("#tableBody").innerHTML);
+            },
+            error: function (xhr) {
+                console.error("Terjadi kesalahan:", xhr.responseText);
+            }
+        });
+    }
+});
 
-                                </script>
-
-
+                            </script>
 
                         </div><!-- donate-box-inner -->
                                         </div><!-- col-xl-8 col-lg-12 -->

@@ -81,7 +81,6 @@ class BujkkontraktorController extends Controller
         $search = $request->input('search');
         $tahunpilihan = $request->input('tahunpilihan');
 
-        // Query dasar
         $query = bujkkontraktor::query();
 
         // Filter pencarian
@@ -92,22 +91,20 @@ class BujkkontraktorController extends Controller
                   ->orWhere('nib', 'LIKE', "%{$search}%");
         }
 
-        // Filter berdasarkan tahunpilihan (tanpa paginasi jika ada filter ini)
+        // Filter berdasarkan tahun
         if ($tahunpilihan) {
-            $data = $query->where('tahunpilihan_id', $tahunpilihan)->get();
-            return response()->json($data);
-        } else {
-            $data = $query->paginate($perPage);
+            $query->where('tahunpilihan_id', $tahunpilihan);
         }
 
-        // Jika request adalah AJAX, kembalikan partial view untuk update dinamis
+        // Jika filter tahun digunakan, ambil semua tanpa paginasi
+        $data = $tahunpilihan ? $query->get() : $query->paginate($perPage);
+
         if ($request->ajax()) {
             return response()->json([
                 'html' => view('frontend.03_masjaki_jakon.01_bujkkontraktor.partials.table', compact('data'))->render()
             ]);
         }
 
-        // Return ke view utama jika bukan AJAX request
         return view('frontend.03_masjaki_jakon.01_bujkkontraktor.bujkkontraktor', [
             'title' => 'BUJK Konstruksi',
             'data' => $data,
