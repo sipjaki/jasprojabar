@@ -57,7 +57,7 @@
 
 
 
-    <section class="event-section">
+    <section class="event-section" style="margin-top: 200px;">
 		<div class="container">
 			<div class="event-section-inner">
 				<div class="row">
