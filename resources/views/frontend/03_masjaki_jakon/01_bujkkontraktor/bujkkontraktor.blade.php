@@ -204,6 +204,7 @@ color: #45a049;
 
 
                         <body>
+
                             <div class="table-wrapper" style="margin-top:-130px; position: relative;">
                                 <div style="display: flex; justify-content: space-between; margin-bottom: 10px; align-items: center;">
                                     <div class="pagination-info-box" style="margin-right:300px; padding: 10px; border: 1px solid black; background-color: #f9f9f9; border-radius: 5px;">
@@ -223,6 +224,18 @@ color: #45a049;
                                             <option value="200">200</option>
                                         </select>
                                     </div>
+
+                                    <div>
+                                        <label for="yearFilter" style="margin-right: 5px; font-weight: bold;">Filter Tahun:</label>
+                                        <select id="yearFilter" onchange="filterByYear()" style="padding: 5px; border: 1px solid black; background-color: white;">
+                                            <option value="">Pilih Tahun</option>
+                                            @foreach ($data as $item)
+                                                <option value="{{ $item->tahun }}">{{ $item->tahun }}</option>
+                                            @endforeach
+                                        </select>
+                                    </div>
+
+
                                     <div style="position: relative; display: inline-block; margin-right:10px;">
                                         <input type="search" id="searchInput" placeholder="Badan Usaha ...." onkeyup="searchTable()" style="border: 1px solid #ccc; padding: 10px 20px; font-size: 14px; border-radius: 10px; width: 300px;">
                                         <i class="fas fa-search" style="position: absolute; right: 10px; top: 50%; transform: translateY(-50%); font-size: 16px; color: #888;"></i>
@@ -311,6 +324,19 @@ color: #45a049;
                                 url.searchParams.set("perPage", selectedValue);
                                 window.location.href = url.toString();
                             }
+
+                            function filterByYear() {
+                                let selectedYear = document.getElementById("yearFilter").value;
+                                let url = new URL(window.location.href);
+                                if (selectedYear) {
+                                    url.searchParams.set("year", selectedYear);
+                                } else {
+                                    url.searchParams.delete("year");
+                                }
+                                window.location.href = url.toString();
+                            }
+
+
                             function searchTable() {
                             let input = document.getElementById("searchInput").value;
 
