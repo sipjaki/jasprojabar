@@ -140,7 +140,7 @@
 							</ul><!-- list-unstyled -->
 						</li><!--has-dropdown-->
 
-						<li class="active has-dropdown">
+						<li class="has-dropdown">
 							<a href="#" style="color: white;">BERITA</a>
 							<ul class="list-unstyled">
 								<li><a href="#">Peraturan</a>
@@ -168,7 +168,7 @@
 
 						</li><!--has-dropdown-->
 
-                        <li class="active has-dropdown">
+                        <li class="has-dropdown">
 							<a href="#" style="color: white;">DATA JAKON</a>
 							<ul class="list-unstyled">
 								<li><a href="#">Badan Usaha Jasa Konstruksi</a>
@@ -195,7 +195,7 @@
 							</ul><!-- list-unstyled -->
 						</li><!--has-dropdown-->
 
-                        <li class="active has-dropdown">
+                        <li class="has-dropdown">
 							<a href="#" style="color: white;">PEMBINAAN</a>
 							<ul class="list-unstyled">
 								<li><a href="/agendapembinaan">Agenda Pelatihan</a></li>
@@ -207,7 +207,7 @@
 							</ul><!-- list-unstyled -->
 						</li><!--has-dropdown-->
 
-                        <li class="active has-dropdown">
+                        <li class="has-dropdown">
 							<a href="#" style="color: white;">PENGAWASAN</a>
 							<ul class="list-unstyled">
 								{{-- <li><a href="/tertibjasakonstruksi">Tertib Jasa Konstruksi</a></li> --}}
@@ -229,7 +229,7 @@
 						</li><!--has-dropdown-->
 
 
-                        <li class="active has-dropdown">
+                        <li class="has-dropdown">
 							<a href="#" style="color: white;">AHSP</a>
 							<ul class="list-unstyled">
                                 <li><a href="#">AHSP Keciptakaryaan, Bangunan Gedung dan Perumahan</a>
@@ -267,7 +267,7 @@
 						</li><!--has-dropdown-->
 
 
-                        <li class="active has-dropdown">
+                        <li class="has-dropdown">
 							<a href="#" style="color: white;">RANTAI PASOK</a>
 							<ul class="list-unstyled">
 								<li><a href="/404">Asuransi Konstruksi </a></li>
