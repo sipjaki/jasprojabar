@@ -6042,7 +6042,7 @@ beritajakon::create([
     'judulberita' => 'Dinas PUPR Blora Gelar Pelatihan dan Uji Kompetensi SKK Jenjang 4 bagi Tenaga Konstruksi',
     'tanggal' => '2025-03-05',
     'keterangan' => 'Blora, Dinas PUPR Kabupaten Blora menyelenggarakan Pelatihan dan Uji Kompetensi Sertifikat Kompetensi Kerja (SKK) Jenjang 4 untuk meningkatkan kualitas tenaga kerja konstruksi di daerah tersebut. Kegiatan ini diikuti oleh puluhan peserta dari berbagai sektor yang mendapatkan pembekalan teori dan praktik dari instruktur serta asesor bersertifikat. Kepala Dinas PUPR Kabupaten Blora, [Nama], menyampaikan bahwa sertifikasi ini bertujuan untuk memastikan tenaga kerja memiliki kompetensi sesuai standar nasional dan siap bersaing di industri konstruksi. Salah satu peserta, [Nama Peserta], mengungkapkan bahwa pelatihan ini sangat membantu dalam meningkatkan keterampilan dan peluang kerja. Dengan adanya program ini, diharapkan tenaga kerja konstruksi di Blora semakin profesional dan mampu mendukung pembangunan infrastruktur yang berkualitas.',
-    'foto' => '00_dokmasjaki/01_berita/berita6.JPG',
+    'foto' => '01_berita/berita6.JPG',
 ]);
 
 
