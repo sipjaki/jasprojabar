@@ -107,6 +107,8 @@
 
 	<div class="main-menu sticky-header" style="background: #1d1d1b">
 
+        <div class="container" style="margin-top: 10px;">
+
             <div style="display: flex; align-items: center; margin-left: 100px;">
                 <img src="/assets/icon/pupr.png" alt="Logo SIPJAKIKBB" style="width: 50px; height: 50px; object-fit: cover; padding: 0;">
                 <h1 style="margin-left: 10px; display: flex; flex-direction: column;">
@@ -117,6 +119,7 @@
                 </h1>
             </div>
 
+        </div>
 		<div class="main-menu-inner">
 			<div class="main-menu-left">
 				<div class="navigation">
