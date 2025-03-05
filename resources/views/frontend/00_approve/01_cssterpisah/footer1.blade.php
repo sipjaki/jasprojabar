@@ -21,7 +21,7 @@
                         </p>
                     </div><!-- footer-widget-text -->
 
-                    <div class="footer-widget-socials">
+                    <div class="footer-widget-socials" style="margin-bottom: 5px;">
                         <a href="mailto:example@email.com"><i class="fa-solid fa-envelope"></i></a>
                         <a href="#"><i class="fa-brands fa-tiktok"></i></a>
                         <a href="https://wa.me/6281234567890"><i class="fa-brands fa-whatsapp"></i></a>
