@@ -113,12 +113,12 @@
                         <span style="color: white; font-style:italic;">MASJAKI</span> <h1 style="color: green; font-style:italic;">BLORA</h1><br>
                         <p style="margin: 0; font-size: 16px; color: white;">Dinas Pekerjaan Umum & Penataan Ruang Kabupaten Blora</p>
                 </h1> --}}
-                <div style="margin-left: 10px; display: flex; flex-direction: column;">
+                <div style="margin-left: 5px; display: flex; flex-direction: column;">
                     <h1 style="display: flex; align-items: center; gap: 5px; margin: 0;">
                         <span style="color: white; font-style: italic;">MASJAKI</span>
                         <span style="color: green; font-style: italic;">BLORA</span>
                     </h1>
-                    <p style="margin: 0; font-size: 16px; color: white;">
+                    <p style="margin: 0; font-size: 16px; color: white; font-size:16px; font-weight:600;">
                         Dinas Pekerjaan Umum & Penataan Ruang Kabupaten Blora
                     </p>
                 </div>
