@@ -71,20 +71,79 @@
 			<div class="row row-gutter-y-155 ">
 
                 <div class="col-lg-4">
-					<div class="blog-card">
-						<div class="blog-card-image">
-							<img src="/assets/00_dokmasjaki/01_berita/berita1.JPG" class="img-fluid" alt="img-22">
-							<a href="news-details.html"></a>
-						</div><!-- blog-card-image -->
-						<div class="blog-card-date">
-							<a href="news-details.html">05MAR2025</a>
-						</div><!-- blog-card-date -->
-						<div class="blog-card-content">
-							<h4><a href="news-details.html">Supporting local business to bounce back</a></h4>
-							<p>Tellus amet vel nisi, vel felis morbi sit et. Risus, pulvinar ultricie</p>
-						</div><!-- blog-card-content -->
-					</div><!-- blog-card -->
-				</div><!-- col-lg-4 -->
+                    <div class="blog-card">
+                        <div class="blog-card-image">
+                            <img src="/assets/approve/image/blog/blog-1.jpg" class="img-fluid" alt="img-22">
+                            <a href="news-details.html"></a>
+                        </div><!-- blog-card-image -->
+                        <div class="blog-card-date">
+                            <a href="news-details.html">MAR</a>
+                        </div><!-- blog-card-date -->
+                        <div class="blog-card-content">
+                            <h4><a href="news-details.html">Digitalisasi Data Jasa Konstruksi Blora: Menuju Efisiensi</a></h4>
+                        </div><!-- blog-card-content -->
+                    </div><!-- blog-card -->
+                </div><!-- col-lg-4 -->
+
+                <div class="col-lg-4">
+                    <div class="blog-card">
+                        <div class="blog-card-image">
+                            <img src="/assets/approve/image/blog/blog-2.jpg" class="img-fluid" alt="img-23">
+                            <a href="news-details.html"></a>
+                        </div><!-- blog-card-image -->
+                        <div class="blog-card-date">
+                            <a href="news-details.html">MAR</a>
+                        </div><!-- blog-card-date -->
+                        <div class="blog-card-content">
+                            <h4><a href="news-details.html">Peran Sistem Informasi dalam Pengawasan Proyek Konstruksi</a></h4>
+                        </div><!-- blog-card-content -->
+                    </div><!-- blog-card -->
+                </div><!-- col-lg-4 -->
+
+                <div class="col-lg-4">
+                    <div class="blog-card">
+                        <div class="blog-card-image">
+                            <img src="/assets/approve/image/blog/blog-3.jpg" class="img-fluid" alt="img-24">
+                            <a href="news-details.html"></a>
+                        </div><!-- blog-card-image -->
+                        <div class="blog-card-date">
+                            <a href="news-details.html">MAR</a>
+                        </div><!-- blog-card-date -->
+                        <div class="blog-card-content">
+                            <h4><a href="news-details.html">Implementasi Teknologi pada Sistem Jasa Konstruksi Blora</a></h4>
+                        </div><!-- blog-card-content -->
+                    </div><!-- blog-card -->
+                </div><!-- col-lg-4 -->
+
+                <div class="col-lg-4">
+                    <div class="blog-card">
+                        <div class="blog-card-image">
+                            <img src="/assets/approve/image/blog/blog-4.jpg" class="img-fluid" alt="img-25">
+                            <a href="news-details.html"></a>
+                        </div><!-- blog-card-image -->
+                        <div class="blog-card-date">
+                            <a href="news-details.html">MAR</a>
+                        </div><!-- blog-card-date -->
+                        <div class="blog-card-content">
+                            <h4><a href="news-details.html">Sosialisasi Sistem Informasi Pembinaan Jasa Konstruksi</a></h4>
+                        </div><!-- blog-card-content -->
+                    </div><!-- blog-card -->
+                </div><!-- col-lg-4 -->
+
+                <div class="col-lg-4">
+                    <div class="blog-card">
+                        <div class="blog-card-image">
+                            <img src="/assets/approve/image/blog/blog-5.jpg" class="img-fluid" alt="img-26">
+                            <a href="news-details.html"></a>
+                        </div><!-- blog-card-image -->
+                        <div class="blog-card-date">
+                            <a href="news-details.html">MAR</a>
+                        </div><!-- blog-card-date -->
+                        <div class="blog-card-content">
+                            <h4><a href="news-details.html">Penguatan Regulasi dalam Sistem Jasa Konstruksi Blora</a></h4>
+                        </div><!-- blog-card-content -->
+                    </div><!-- blog-card -->
+                </div><!-- col-lg-4 -->
 
 			{{-- </div><!-- row --> --}}
 
@@ -179,21 +238,21 @@
 			</div><!--blog-box-->
 			<div class="row row-gutter-y-155">
 
-                <div class="col-lg-4">
-					<div class="blog-card">
-						<div class="blog-card-image">
-							<img src="/assets/approve/image/blog/blog-1.jpg" class="img-fluid" alt="img-22">
-							<a href="news-details.html"></a>
-						</div><!-- blog-card-image -->
-						<div class="blog-card-date">
-							<a href="news-details.html">28SEP</a>
-						</div><!-- blog-card-date -->
-						<div class="blog-card-content">
-							<h4><a href="news-details.html">Supporting local business to bounce back</a></h4>
-							<p>Tellus amet vel nisi, vel felis morbi sit et. Risus, pulvinar ultricie</p>
-						</div><!-- blog-card-content -->
-					</div><!-- blog-card -->
-				</div><!-- col-lg-4 -->
+                    <div class="col-lg-4">
+                        <div class="blog-card">
+                            <div class="blog-card-image">
+                                <img src="/assets/approve/image/blog/blog-1.jpg" class="img-fluid" alt="img-22">
+                                <a href="news-details.html"></a>
+                            </div><!-- blog-card-image -->
+                            <div class="blog-card-date">
+                                <a href="news-details.html">28SEP</a>
+                            </div><!-- blog-card-date -->
+                            <div class="blog-card-content">
+                                <h4><a href="news-details.html">Supporting local business to bounce back</a></h4>
+                                {{-- <p>Tellus amet vel nisi, vel felis morbi sit et. Risus, pulvinar ultricie</p> --}}
+                            </div><!-- blog-card-content -->
+                        </div><!-- blog-card -->
+                    </div><!-- col-lg-4 -->
 
 			</div><!-- row -->
 		</div><!-- container -->
