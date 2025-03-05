@@ -57,7 +57,7 @@
 
 
 
-    <section class="blog-section" style="background-image: url(assets/00_dokmasjaki/03_datajakon/putihputih.jpg)">
+    <section class="blog-section" style="background-image: url(assets/00_dokmasjaki/03_datajakon/putihbaru.jpg)">
 		<div class="container" style="background: white">
         	<div class="blog-box">
 				<div class="section-title-box text-center">
