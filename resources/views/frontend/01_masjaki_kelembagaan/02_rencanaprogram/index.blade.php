@@ -20,7 +20,7 @@
 {{-- ==================================================== --}}
 <style>
     /* Tambahkan font Poppins ke seluruh halaman */
-    body {
+    .container-surat {
         font-family: 'Poppins', sans-serif;
     }
 
