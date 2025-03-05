@@ -66,7 +66,7 @@
 				</div><!-- section-title-box -->
 			</div><!--blog-box-->
 
-            <div class="client-carousel owl-carousel owl-theme">
+            {{-- <div class="client-carousel owl-carousel owl-theme"> --}}
 
 			<div class="row row-gutter-y-155 ">
 
@@ -86,7 +86,7 @@
 					</div><!-- blog-card -->
 				</div><!-- col-lg-4 -->
 
-			</div><!-- row -->
+			{{-- </div><!-- row --> --}}
 
 
         </div>
