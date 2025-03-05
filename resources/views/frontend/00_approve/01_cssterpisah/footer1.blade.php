@@ -99,9 +99,7 @@
 							</ul><!-- list-unstyled -->
 						</div><!-- footer-widget-department -->
 					</div><!--footer-widget-->
-				</div><!--col-lg-2-->
-				<div class="col-lg-3">
-					<div class="footer-widget">
+                    <div class="footer-widget">
 						<div class="footer-widget-contact">
 							<h4 class="footer-widget-title">Kontak Kami</h4>
 							<p>Jl. Nusantara No.62, Jetis, Kauman, Kec. Blora<br>Kabupaten Blora 58214 Provinsi Jawa Tengah </p>
@@ -119,6 +117,9 @@
 							</div><!-- footer-widget-contact-item -->
 						</div><!-- footer-widget-contact-list --> --}}
 					</div><!--footer-widget-->
+
+				</div><!--col-lg-2-->
+				<div class="col-lg-3">
 				</div><!--col-lg-3-->
 			</div><!-- row -->
 		</div><!-- container -->
