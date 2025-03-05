@@ -116,7 +116,7 @@
 
 							<div class="sidebar-recent-post">
 								<div class="sidebar-recent-post-img">
-									<img src="assets/image/blog/blog-details-4.jpg" alt="img-199">
+									<img src="/assets/00_dokmasjaki/01_berita/berita3.JPG" alt="img-199">
 								</div><!-- sidebar-recent-post-img -->
 								<div class="sidebar-recent-post-content">
 									<div class="sidebar-meta">
