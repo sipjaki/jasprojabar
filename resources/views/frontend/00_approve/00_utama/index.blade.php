@@ -58,7 +58,7 @@
 
 
     <section class="blog-section" style="background-image: url(assets/00_dokmasjaki/03_datajakon/putihputih.jpg)">
-		<div class="container" >
+		<div class="container" style="background: white">
         	<div class="blog-box">
 				<div class="section-title-box text-center">
 					{{-- <div class="section-tagline">DIRECT FROM THE BLOG POSTS</div> --}}
@@ -69,7 +69,6 @@
             {{-- <div class="client-carousel owl-carousel owl-theme"> --}}
 
 			<div class="row row-gutter-y-155 ">
-
                 <div class="col-lg-4">
                     <div class="blog-card">
                         <div class="blog-card-image">
