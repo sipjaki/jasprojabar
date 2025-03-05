@@ -21,7 +21,7 @@
                         </p>
                     </div><!-- footer-widget-text -->
 
-                    <div class="footer-widget-socials" style="margin-bottom: 5px;">
+                    <div class="footer-widget-socials" style="margin-bottom: 20px;">
                         <a href="mailto:example@email.com"><i class="fa-solid fa-envelope"></i></a>
                         <a href="#"><i class="fa-brands fa-tiktok"></i></a>
                         <a href="https://wa.me/6281234567890"><i class="fa-brands fa-whatsapp"></i></a>
@@ -29,8 +29,8 @@
                         <a href="#"><i class="fa-brands fa-instagram"></i></a>
                         <a href="#"><i class="fa-brands fa-youtube"></i></a>
                         <a href="tel:+621234567890"><i class="fa-solid fa-phone"></i></a>
-
 					</div><!-- footer-widget-socials -->
+
                     <div class="footer-widget" style="margin-top: -0px;">
 						<div class="footer-widget-contact">
 							<h4 class="footer-widget-title">Kontak Kami</h4>
