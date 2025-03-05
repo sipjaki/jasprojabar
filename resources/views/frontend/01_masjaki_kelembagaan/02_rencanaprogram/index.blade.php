@@ -19,11 +19,6 @@
 
 {{-- ==================================================== --}}
 <style>
-    /* Tambahkan font Poppins ke seluruh halaman */
-    .container-surat {
-        font-family: 'Poppins', sans-serif;
-    }
-
     .container-surat {
         width: 80%;
         margin: auto;
@@ -31,40 +26,47 @@
         border: 1px solid black;
     }
 
+    /* Styling untuk kop surat */
     .header {
+        display: flex;
+        align-items: center;
+        justify-content: center;
         text-align: center;
-        font-weight: bold;
-        font-size: 20px; /* Tambahkan ukuran agar lebih terlihat */
+        margin-bottom: 20px;
     }
 
-    table {
-        width: 100%;
-        border-collapse: collapse;
-        margin-top: 10px;
+    .header img {
+        width: 60px; /* Perbesar sedikit agar lebih proporsional */
+        height: 60px;
+        margin-right: 15px; /* Jarak antara logo dan teks */
     }
 
-    th, td {
-        border: 1px solid black;
-        padding: 8px;
-        text-align: left;
-        font-size: 14px; /* Sesuaikan ukuran teks */
+    .header-text {
+        flex: 1; /* Supaya teks mengisi sisa ruang */
     }
 
-    th {
-        background-color: #ddd;
-        font-weight: 600; /* Lebih tebal agar judul tabel lebih jelas */
+    .header h3, .header h4, .header p {
+        margin: 2px 0; /* Supaya tidak ada jarak berlebihan */
+        font-size: 16px; /* Sesuaikan ukuran font */
+    }
+
+    .header h4 {
+        font-size: 14px;
+        font-weight: normal;
     }
 </style>
 
-
 <div class="container-surat">
     <div class="header">
-        <h3>PEMERINTAH KABUPATEN BLORA</h3>
-        <h3>DINAS PEKERJAAN UMUM DAN PENATAAN RUANG</h3>
-        <p>Jl. Nusantara No. 62 Telp. (0296) 531004</p>
-        <h3>BLORA 58214</h3>
-        <h3>PROFIL OPD JASA KONSTRUKSI</h3>
-        <h4>DINAS PEKERJAAN UMUM DAN PENATAAN RUANG KABUPATEN BLORA</h4>
+        <img src="/assets/icon/logokabupatenblora.png" alt="Logo Kabupaten Blora">
+        <div class="header-text">
+            <h3>PEMERINTAH KABUPATEN BLORA</h3>
+            <h3>DINAS PEKERJAAN UMUM DAN PENATAAN RUANG</h3>
+            <p>Jl. Nusantara No. 62 Telp. (0296) 531004</p>
+            <h3>BLORA 58214</h3>
+            <h3>PROFIL OPD JASA KONSTRUKSI</h3>
+            <h4>DINAS PEKERJAAN UMUM DAN PENATAAN RUANG KABUPATEN BLORA</h4>
+        </div>
     </div>
 
     <h4>I. IDENTITAS OPD</h4>
