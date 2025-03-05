@@ -114,8 +114,8 @@
                         <span style="color: white; font-style:italic;">MASJAKI</span> <h1 style="color: green; font-style:italic;">BLORA</h1><br>
                     </h1>
                 </h1>
-                <p style="margin: 0; font-size: 16px; color: white;">Dinas Pekerjaan Umum & Penataan Ruang Kabupaten Blora</p>
             </div>
+            <p style="margin: 0; font-size: 16px; color: white;">Dinas Pekerjaan Umum & Penataan Ruang Kabupaten Blora</p>
 
 		<div class="main-menu-inner">
 			<div class="main-menu-left">
