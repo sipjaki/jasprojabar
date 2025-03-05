@@ -78,37 +78,18 @@
 					</div><!-- col-lg-6 -->
 				</div><!-- row -->
 				<div class="row row-gutter-y-40">
-					<div class="col-xl-5">
-						<div class="event-subscribe-card">
-							<div class="event-details-card-title">
-								<div class="event-icon">
-									<i class="flaticon-envelope"></i>
-								</div><!-- event-icon -->
-								<h5>Subscribe</h5>
-								<p>Get latest news & events details</p>
-							</div><!-- event-details-card-title -->
-							<div class="event-details-card-content">
-								<form  action="assets/inc/sendemail.php" class="contact-form" method="post">
-									<div class="form-group">
-										<input type="email" id="Email" class="input-text" placeholder="Email address" name="email" required>
-									</div><!-- form-group -->
-									<button class="btn btn-primary w-100">Subscribe</button><!-- button -->
-									<p>Never share your email with others.</p>
-								</form><!-- form -->
-							</div><!-- event-details-card-content -->
-						</div><!-- event-subscribe-card -->
-					</div><!-- col-xl-5 -->
-					<div class="col-xl-7">
+
+					<div class="col-xl-12">
 						<div class="event-card">
 							<div class="event-card-image">
 								<div class="event-card-image-inner">
 									<a href="event-details.html"><img src="/assets/approve/image/event/event-3.jpg" class="img-fluid" alt="img-21"></a>
 									<div class="event-card-meta">
 										<div class="event-meta-number">
-											<span>28</span>
+											<span>-</span>
 										</div><!-- event-meta-number -->
 										<div class="event-meta-date">
-											<span>October 2022</span>
+											<span>Maret 2025</span>
 										</div><!-- event-meta-date -->
 									</div><!-- event-card-meta -->
 								</div><!-- event-card-image-inner -->
