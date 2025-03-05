@@ -73,14 +73,15 @@
                 <div class="col-lg-4">
                     <div class="blog-card">
                         <div class="blog-card-image">
-                            <img src="/assets/approve/image/blog/blog-1.jpg" class="img-fluid" alt="img-22">
+                            <img src="/assets/00_dokmasjaki/01_berita/berita1.JPG" class="img-fluid" alt="img-22">
                             <a href="news-details.html"></a>
                         </div><!-- blog-card-image -->
                         <div class="blog-card-date">
-                            <a href="news-details.html">MAR</a>
+                            <a href="news-details.html">10JAN2025</a>
                         </div><!-- blog-card-date -->
                         <div class="blog-card-content">
-                            <h4><a href="news-details.html">Digitalisasi Data Jasa Konstruksi Blora: Menuju Efisiensi</a></h4>
+                            <h4><a href="news-details.html">Digitalisasi Sistem Pembinaan Jasa Konstruksi Blora</a></h4>
+                            <p>Pemanfaatan teknologi dalam mendukung pengelolaan data konstruksi.</p>
                         </div><!-- blog-card-content -->
                     </div><!-- blog-card -->
                 </div><!-- col-lg-4 -->
@@ -88,14 +89,15 @@
                 <div class="col-lg-4">
                     <div class="blog-card">
                         <div class="blog-card-image">
-                            <img src="/assets/approve/image/blog/blog-2.jpg" class="img-fluid" alt="img-23">
+                            <img src="/assets/00_dokmasjaki/01_berita/berita2.JPG" class="img-fluid" alt="img-23">
                             <a href="news-details.html"></a>
                         </div><!-- blog-card-image -->
                         <div class="blog-card-date">
-                            <a href="news-details.html">MAR</a>
+                            <a href="news-details.html">25FEB2025</a>
                         </div><!-- blog-card-date -->
                         <div class="blog-card-content">
-                            <h4><a href="news-details.html">Peran Sistem Informasi dalam Pengawasan Proyek Konstruksi</a></h4>
+                            <h4><a href="news-details.html">Peran Sistem Informasi dalam Peningkatan Kualitas Proyek</a></h4>
+                            <p>Sistem informasi membantu pengawasan proyek konstruksi secara lebih efektif.</p>
                         </div><!-- blog-card-content -->
                     </div><!-- blog-card -->
                 </div><!-- col-lg-4 -->
@@ -103,14 +105,15 @@
                 <div class="col-lg-4">
                     <div class="blog-card">
                         <div class="blog-card-image">
-                            <img src="/assets/approve/image/blog/blog-3.jpg" class="img-fluid" alt="img-24">
+                            <img src="/assets/00_dokmasjaki/01_berita/berita3.JPG" class="img-fluid" alt="img-24">
                             <a href="news-details.html"></a>
                         </div><!-- blog-card-image -->
                         <div class="blog-card-date">
-                            <a href="news-details.html">MAR</a>
+                            <a href="news-details.html">15MAR2025</a>
                         </div><!-- blog-card-date -->
                         <div class="blog-card-content">
-                            <h4><a href="news-details.html">Implementasi Teknologi pada Sistem Jasa Konstruksi Blora</a></h4>
+                            <h4><a href="news-details.html">Sosialisasi Penggunaan Aplikasi Pembina Jasa Konstruksi</a></h4>
+                            <p>DPU PR Blora mengadakan pelatihan bagi penyedia jasa konstruksi.</p>
                         </div><!-- blog-card-content -->
                     </div><!-- blog-card -->
                 </div><!-- col-lg-4 -->
@@ -118,14 +121,15 @@
                 <div class="col-lg-4">
                     <div class="blog-card">
                         <div class="blog-card-image">
-                            <img src="/assets/approve/image/blog/blog-4.jpg" class="img-fluid" alt="img-25">
+                            <img src="/assets/00_dokmasjaki/01_berita/berita4.JPG" class="img-fluid" alt="img-25">
                             <a href="news-details.html"></a>
                         </div><!-- blog-card-image -->
                         <div class="blog-card-date">
-                            <a href="news-details.html">MAR</a>
+                            <a href="news-details.html">02APR2025</a>
                         </div><!-- blog-card-date -->
                         <div class="blog-card-content">
-                            <h4><a href="news-details.html">Sosialisasi Sistem Informasi Pembinaan Jasa Konstruksi</a></h4>
+                            <h4><a href="news-details.html">Keamanan Data dalam Sistem Jasa Konstruksi Blora</a></h4>
+                            <p>Upaya perlindungan data dan sistem terhadap ancaman siber.</p>
                         </div><!-- blog-card-content -->
                     </div><!-- blog-card -->
                 </div><!-- col-lg-4 -->
@@ -133,14 +137,15 @@
                 <div class="col-lg-4">
                     <div class="blog-card">
                         <div class="blog-card-image">
-                            <img src="/assets/approve/image/blog/blog-5.jpg" class="img-fluid" alt="img-26">
+                            <img src="/assets/00_dokmasjaki/01_berita/berita5.JPG" class="img-fluid" alt="img-26">
                             <a href="news-details.html"></a>
                         </div><!-- blog-card-image -->
                         <div class="blog-card-date">
-                            <a href="news-details.html">MAR</a>
+                            <a href="news-details.html">18MEI2025</a>
                         </div><!-- blog-card-date -->
                         <div class="blog-card-content">
-                            <h4><a href="news-details.html">Penguatan Regulasi dalam Sistem Jasa Konstruksi Blora</a></h4>
+                            <h4><a href="news-details.html">Sinergi Pemerintah dan Kontraktor dalam Pengelolaan Data</a></h4>
+                            <p>Kolaborasi dalam optimalisasi sistem informasi jasa konstruksi.</p>
                         </div><!-- blog-card-content -->
                     </div><!-- blog-card -->
                 </div><!-- col-lg-4 -->
@@ -238,21 +243,21 @@
 			</div><!--blog-box-->
 			<div class="row row-gutter-y-155">
 
-                    <div class="col-lg-4">
-                        <div class="blog-card">
-                            <div class="blog-card-image">
-                                <img src="/assets/approve/image/blog/blog-1.jpg" class="img-fluid" alt="img-22">
-                                <a href="news-details.html"></a>
-                            </div><!-- blog-card-image -->
-                            <div class="blog-card-date">
-                                <a href="news-details.html">28SEP</a>
-                            </div><!-- blog-card-date -->
-                            <div class="blog-card-content">
-                                <h4><a href="news-details.html">Supporting local business to bounce back</a></h4>
-                                {{-- <p>Tellus amet vel nisi, vel felis morbi sit et. Risus, pulvinar ultricie</p> --}}
-                            </div><!-- blog-card-content -->
-                        </div><!-- blog-card -->
-                    </div><!-- col-lg-4 -->
+                <div class="col-lg-4">
+					<div class="blog-card">
+						<div class="blog-card-image">
+							<img src="/assets/approve/image/blog/blog-1.jpg" class="img-fluid" alt="img-22">
+							<a href="news-details.html"></a>
+						</div><!-- blog-card-image -->
+						<div class="blog-card-date">
+							<a href="news-details.html">28SEP</a>
+						</div><!-- blog-card-date -->
+						<div class="blog-card-content">
+							<h4><a href="news-details.html">Supporting local business to bounce back</a></h4>
+							<p>Tellus amet vel nisi, vel felis morbi sit et. Risus, pulvinar ultricie</p>
+						</div><!-- blog-card-content -->
+					</div><!-- blog-card -->
+				</div><!-- col-lg-4 -->
 
 			</div><!-- row -->
 		</div><!-- container -->
