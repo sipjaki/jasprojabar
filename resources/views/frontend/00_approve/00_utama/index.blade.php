@@ -59,14 +59,15 @@
 
     <section class="blog-section " >
 		<div class="container" >
-            <div class="client-carousel owl-carousel owl-theme">
-
-			<div class="blog-box">
+        	<div class="blog-box">
 				<div class="section-title-box text-center">
 					{{-- <div class="section-tagline">DIRECT FROM THE BLOG POSTS</div> --}}
 					<h2 class="section-title" style="font-size: 18px;">Berita Jasa Konstruksi Kab Blora 2025</h2>
 				</div><!-- section-title-box -->
 			</div><!--blog-box-->
+
+            <div class="client-carousel owl-carousel owl-theme">
+
 			<div class="row row-gutter-y-155 ">
 
                 <div class="col-lg-4">
