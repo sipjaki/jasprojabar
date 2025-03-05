@@ -143,9 +143,9 @@ color: #45a049;
                 <div class="col-12 col-lg-12 col-xl-12">
                     <div class="service-two-card">
                         <div class="service-two-imgbox">
-                            <section class="donate-section">
+                            <section class="donate-section" style="background: linear-gradient(to bottom, green, #FFD100, white);">
                                 <div class="container" style="
-                                background: linear-gradient(to bottom, green, #FFD100, white);
+                                background: #FFD100;
                                 max-width: 95%;
                                 margin: 30px auto;
                                 padding: 20px;
