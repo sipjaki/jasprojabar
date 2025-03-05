@@ -159,7 +159,7 @@
                                         <li><a href="/peraturan/suratkeputusan">Surat Keputusan</a></li>
                                     </ul><!-- list-unstyled -->
                                 </li>
-                                <li><a href="/404">Berita Jakon</a></li>
+                                <li><a href="/beritajakon">Berita Jakon</a></li>
 								<li><a href="/404">Artikel Jakon</a></li>
 
 

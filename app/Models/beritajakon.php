@@ -7,9 +7,10 @@ use Illuminate\Database\Eloquent\SoftDeletes;
 use Laravel\Sanctum\HasApiTokens;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 
-class giskbb extends Model
+class beritajakon extends Model
 {
     use HasFactory, SoftDeletes, HasApiTokens;
 
     protected $guarded = ['id'];
+
 }

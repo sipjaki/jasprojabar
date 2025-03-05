@@ -33,6 +33,7 @@ use App\Http\Controllers\UndangundangController;
 use App\Http\Controllers\ShstbloraController;
 use App\Http\Controllers\HspkonstruksiumumController;
 use App\Http\Controllers\SatuanhargamaterialController;
+use App\Http\Controllers\BeritajakonController;
 
 
 use Database\Factories\DatajakonFactory;
@@ -246,6 +247,10 @@ Route::get('/shstblora', [ShstbloraController::class, 'index']);
 Route::get('/hspkonstruksiumum', [HspkonstruksiumumController::class, 'index']);
 // Route::get('/shstblora/{kecamatanblora}', [TokobangunanbloraController::class, 'tokobangunanblorashow']);
 
+// ==========================================================================================================
+Route::get('/beritajakon', [BeritajakonController::class, 'index']);
+// Route::get('/shstblora/{kecamatanblora}', [TokobangunanbloraController::class, 'tokobangunanblorashow']);
+
 
 // fort
 // ------------- HALAMAN UNTUK DATA SERTIFIKASI TENAGA KERJA AHLI -----------------
@@ -277,12 +282,6 @@ Route::get('/datajakon/fesbulampiran1/{judul}', [DatajakonController::class, 'fe
 
 // -------- BAGIAN 04 PROGRESS PAKET PEKERJAAN ---------------------------------
 Route::get('/datajakon/paketpekerjaan', [DatajakonController::class, 'paketpekerjaan']);
-
-
-// -------- BAGIAN 02 ---------------------------------
-// RUTE UNTUK MEMETAKAN LOKASI PETA WILAYAH KABUPATEN BANDUNG BARAT
-Route::get('/giskbb', [GiskbbController::class, 'index']);
-Route::get('/giskbb/{nama_kecamatan}', [GiskbbController::class, 'namakecamatanshowBykecamatan']);
 
 
 // ---------------------- 05 INFORMASI SPM -----------------------//
