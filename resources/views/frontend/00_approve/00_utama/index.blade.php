@@ -73,7 +73,7 @@
                 <div class="col-lg-4">
 					<div class="blog-card">
 						<div class="blog-card-image">
-							<img src="/assets/approve/image/blog/blog-1.jpg" class="img-fluid" alt="img-22">
+							<img src="/assets/00_dokmasjaki/01_berita.JPG" class="img-fluid" alt="img-22">
 							<a href="news-details.html"></a>
 						</div><!-- blog-card-image -->
 						<div class="blog-card-date">
