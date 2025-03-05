@@ -292,15 +292,15 @@
 					</a><!-- search-toggler -->
 				</div><!-- search-box --> --}}
 
-<div style="padding: 5px 15px;">
+<div style="padding: 5px 15px;" style="border-radius: 10px;">
     <a href="/register" class="btn btn-primary">
-        <i class="fas fa-user-plus"></i> Daftar
+        <i class="fas fa-user-plus" style="margin-right: 10px;"></i> Daftar
     </a>
 </div><!-- main-menu-right-button -->
 
-<div style="padding: 5px 15px;">
+<div style="padding: 5px 15px;" style="border-radius: 10px;">
     <a href="/login" class="btn btn-primary">
-        <i class="fas fa-sign-in-alt"></i> Masuk
+        <i class="fas fa-sign-in-alt" style="margin-right: 10px;"></i> Masuk
     </a>
 </div><!-- main-menu-right-button -->
 			</div><!--main-menu-right-->
