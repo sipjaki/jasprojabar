@@ -105,7 +105,7 @@
 		</div><!-- topbar-inner -->
 	</div><!--topbar-->
 
-	<div class="main-menu sticky-header" style="background: #282825">
+	<div class="main-menu sticky-header" style="background: #1d1d1b">
 
             <div style="display: flex; align-items: center; margin-left: 100px;">
                 <img src="/assets/icon/pupr.png" alt="Logo SIPJAKIKBB" style="width: 50px; height: 50px; object-fit: cover; padding: 0;">
