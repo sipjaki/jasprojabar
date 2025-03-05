@@ -89,7 +89,7 @@ class BujkkontraktorController extends Controller
               ->orWhere('email', 'LIKE', "%{$search}%")
               ->orWhere('nib', 'LIKE', "%{$search}%")
               ->orWhereHas('tahunpilihan', function ($q) use ($search) {
-                $q->where('tahunpilihan', 'LIKE', "%{$search}%");
+                $q->where('tahunpilihan', 'LIKE', "%{$search}%"); // 'jabatankerja' = nama kolom di tabel jabatankerja
             });
     }
 

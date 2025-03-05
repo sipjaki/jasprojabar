@@ -323,17 +323,27 @@ color: #45a049;
                                 url.searchParams.set("perPage", selectedValue);
                                 window.location.href = url.toString();
                             }
-
                             function filterByYear() {
     let selectedYear = document.getElementById("yearFilter").value;
 
     fetch(`/datajakon/bujkkontraktor?year=${selectedYear}`)
-        .then(response => response.text())
+        .then(response => {
+            if (!response.ok) {
+                throw new Error(`HTTP error! Status: ${response.status}`);
+            }
+            return response.text();
+        })
         .then(html => {
             let parser = new DOMParser();
             let doc = parser.parseFromString(html, "text/html");
-            let newTableBody = doc.querySelector("#tableBody").innerHTML;
-            document.querySelector("#tableBody").innerHTML = newTableBody;
+            let newTableBody = doc.querySelector("#tableBody");
+            let currentTableBody = document.querySelector("#tableBody");
+
+            if (newTableBody && currentTableBody) {
+                currentTableBody.innerHTML = newTableBody.innerHTML;
+            } else {
+                console.error("Element #tableBody not found in response or current document.");
+            }
         })
         .catch(error => console.error("Error fetching filtered results:", error));
 }
