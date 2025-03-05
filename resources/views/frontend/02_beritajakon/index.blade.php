@@ -125,7 +125,9 @@
 							</div><!-- news-details-comment-button -->
 						</div><!-- news-details-comment-image -->
 					</div><!-- news-details-comment-list-box -->
-					<div class="news-details-comment-form">
+
+
+                    {{-- <div class="news-details-comment-form">
 						<h3>Leave a Comment</h3>
 						<form class="contact-form contact-form-validated" action="assets/inc/sendemail.php" method="post">
 							<div class="row row-gutter-10">
@@ -143,8 +145,10 @@
 								</div><!-- col-12 col-lg-12 -->
 							</div><!-- row -->
 						</form><!-- contact-form -->
-					</div><!-- news-details-comment-form -->
-				</div><!-- col-lg-8 -->
+					</div><!-- news-details-comment-form --> --}}
+
+
+                </div><!-- col-lg-8 -->
 				<div class="col-lg-4">
 					<div class="sidebar">
 						<div class="sidebar-form-content">
