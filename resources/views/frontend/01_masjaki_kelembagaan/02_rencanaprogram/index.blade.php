@@ -8,8 +8,8 @@
     <div class="page-wrapper">
 	<section class="page-banner" style="background-image: url('/assets/approve/image/bg/page-banner.png')">
 		<div class="container">
-			<div class="page-banner-title">
-				<h3 style="color: black; font-size:30px;">{{$title}}</h3>
+			<div class="page-banner-title" style="border: none;">
+				<h3 style="color: black; font-size:30px; ">{{$title}}</h3>
 			</div><!-- page-banner-title -->
 		</div><!-- container -->
 	</section><!--page-banner-->
