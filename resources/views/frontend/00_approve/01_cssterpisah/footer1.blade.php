@@ -71,9 +71,9 @@
 								<li><a href="/">Tenaga Kerja Konstruksi DPUPR</a></li>
 								<li><a href="/">Tenaga Kerja Kab Blora</a></li>
 								<li><a href="/">Profil Paket Pekerjaan</a></li>
-								<li><a href="/">Agenda Pelatihan</a></li>
+								{{-- <li><a href="/">Agenda Pelatihan</a></li>
 								<li><a href="/">Tertib Jasa Konstruksi</a></li>
-								<li><a href="/">Kecelakaan Kerja</a></li>
+								<li><a href="/">Kecelakaan Kerja</a></li> --}}
 								{{-- <li><a href="/">Rantai Pasok Material Bangunan </a></li>
 								<li><a href="/">Rantai Pasok Peralatan Konstruksi</a></li>
 								<li><a href="/">Rantai Pasok Asuransi Konstruksi</a></li>
@@ -81,7 +81,7 @@
 							</ul><!-- list-unstyled -->
 						</div><!-- footer-widget-explore -->
 
-                        <div class="footer-widget-department">
+                        <div class="footer-widget-explore">
 							<h4 class="footer-widget-title">
                                 <i class="fas fa-gavel" style="margin-right: 5px;"></i> Peraturan Pemerintah
                             </h4>
