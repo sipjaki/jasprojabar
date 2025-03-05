@@ -21,7 +21,7 @@
                             border-radius: 20px;
                             background-color: white;
                             color: green;
-                            padding: 2px;
+                            padding: 5px;
                             overflow: hidden;
                             font-size:25px;
                             white-space: nowrap;
