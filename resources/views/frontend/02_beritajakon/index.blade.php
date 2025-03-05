@@ -14,7 +14,8 @@
 			</div><!-- page-banner-title -->
 		</div><!-- container -->
 	</section><!--page-banner-->
-	<section class="news-details-section">
+
+	<section class="news-details-section" style="background-image: url(assets/00_dokmasjaki/03_datajakon/bannerbetter.jpg);">
 		<div class="container"
         style="
         background: white;
