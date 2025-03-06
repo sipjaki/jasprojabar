@@ -276,7 +276,7 @@ color: #45a049;
                                             </tr>
                                             <tr class="clickable" data-no="2" data-kode="U.1.1.3 (c)" data-uraian="Pembuatan 1 m’ pagar sementara dari kawat duri tinggi 2 meter" data-satuan="m1" data-koefisien="1" data-hargasatuan="234454" data-jumlahharga="234454">
                                                 <td style="text-align: center;">2</td>
-                                                <td>U.1.1.3 (c)</td>
+                                                <td>U.1.1.3 (c)</td> df
                                                 <td class="text-primary" style="cursor: pointer;">Pembuatan 1 m’ pagar sementara dari kawat duri tinggi 2 meter</td>
                                                 <td>m1</td>
                                                 <td>Rp. 234.454,00</td>
