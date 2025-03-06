@@ -290,16 +290,10 @@
 						</div><!--cta-two-title-->
 					</div><!--col-xl-5-->
 					<div class="col-xl-7">
-						<form action="/kritikdansaran" class="cta-two-form" method="post">
-						{{-- <form class="cta-two-form"> --}}
-							{{-- <div class="cta-two-form-group">
-								<input type="email" id="email" class="input-text" placeholder="Email address" name="email" required>
-							</div><!-- cta-two-card-form --> --}}
-                            <a href="/kritikdansaran">
-                                <button class="btn btn-primary">Form Saran</button>
-                            </a>
+                        <a href="">
+                            <button class="btn btn-primary">Form Saran</button>
+                        </a>
 
-						</form><!-- cta-two-form -->
 					</div><!-- col-xl-7-->
 				</div><!-- row -->
 			</div><!-- cta-two-section-inner -->
