@@ -257,7 +257,13 @@ color: #45a049;
                                             <th onclick="sortTable(9)" style="cursor:pointer; text-align:center; width:250px;"> Jenjang Pendidikan <span class="sort-icon">⇅</span></th>
                                             <th onclick="sortTable(10)" style="cursor:pointer; text-align:center; width:250px;"> Nama Sekolah <span class="sort-icon">⇅</span></th>
                                             <th onclick="sortTable(11)" style="cursor:pointer; text-align:center; width:150px;"> Tahun Lulus <span class="sort-icon">⇅</span></th>
-                                            <th onclick="sortTable(12)" style="cursor:pointer; text-align:center; width:200px;"> Tahun Pilihan <span class="sort-icon">⇅</span></th>
+                                            <th onclick="sortTable(12)" style="cursor:pointer; text-align:center; width:200px;"> Tahun Bimtek <span class="sort-icon">⇅</span></th>
+                                            <th onclick="sortTable(12)" style="cursor:pointer; text-align:center; width:200px;"> KTP <span class="sort-icon">⇅</span></th>
+                                            <th onclick="sortTable(12)" style="cursor:pointer; text-align:center; width:200px;"> Foto <span class="sort-icon">⇅</span></th>
+                                            <th onclick="sortTable(12)" style="cursor:pointer; text-align:center; width:200px;"> Ijazah <span class="sort-icon">⇅</span></th>
+                                            <th onclick="sortTable(12)" style="cursor:pointer; text-align:center; width:200px;"> Pengalaman <span class="sort-icon">⇅</span></th>
+                                            <th onclick="sortTable(12)" style="cursor:pointer; text-align:center; width:200px;"> NPWP <span class="sort-icon">⇅</span></th>
+                                            <th onclick="sortTable(12)" style="cursor:pointer; text-align:center; width:200px;"> Riwayat Hidup <span class="sort-icon">⇅</span></th>
                                             <th onclick="sortTable(13)" style="cursor:pointer; text-align:center; width:200px;"> Nama Asosiasi <span class="sort-icon">⇅</span></th>
                                             <th onclick="sortTable(14)" style="cursor:pointer; text-align:center; width:180px;"> Punya SKK <span class="sort-icon">⇅</span></th>
                                             <th onclick="sortTable(15)" style="cursor:pointer; text-align:center; width:180px;"> Punya Akun SIKI <span class="sort-icon">⇅</span></th>
