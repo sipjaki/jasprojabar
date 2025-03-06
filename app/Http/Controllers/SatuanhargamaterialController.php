@@ -158,7 +158,7 @@ class SatuanhargamaterialController extends Controller
         }
 
         return view('frontend.07_ahsp.02_hargasatuandasar.03_hargasatuanperalatan.index', [
-            'title' => 'Satuan Harga Dasar Peralatan',
+            'title' => 'HSP Divisi I Persiapan Pekerjaan',
             'data' => $data,
             'perPage' => $perPage,
             'search' => $search
