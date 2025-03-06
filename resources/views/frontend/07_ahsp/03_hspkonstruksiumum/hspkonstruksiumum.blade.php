@@ -287,58 +287,102 @@ color: #45a049;
                                         @endforeach
                                     </tbody>
                                 </table> --}}
+
                                 <table class="fl-table" id="sortableTable" style="margin-top: 15px; width: 100%; border-collapse: collapse;">
-                                    <thead>
-                                        <tr>
-                                            <th onclick="sortTable(0)" style="cursor:pointer; text-align:center; width:100px;"> No <span class="sort-icon">⇅</span></th>
-                                            <th onclick="sortTable(1)" style="cursor:pointer; text-align:center; width:150px;"> Kode AHSP <span class="sort-icon">⇅</span></th>
-                                            <th onclick="sortTable(4)" style="cursor:pointer; text-align:center; width:250px;"> Kode Paket <span class="sort-icon">⇅</span></th>
-                                            <th onclick="sortTable(7)" style="cursor:pointer; text-align:center; width:600px;"> Jenis Pekerjaan <span class="sort-icon">⇅</span></th>
-                                            <th onclick="sortTable(6)" style="cursor:pointer; text-align:center; width:80px;"> Rp. <span class="sort-icon">⇅</span></th>
-                                            <th onclick="sortTable(8)" style="cursor:pointer; text-align:center; width:200px;"> Harga Satuan <span class="sort-icon">⇅</span></th>
-                                        </tr>
-                                    </thead>
-                                    <tbody id="tableBody">
-                                        @php $start = ($data->currentPage() - 1) * $data->perPage() + 1; @endphp
-                                        @foreach ($data as $item)
-                                        <tr>
-                                            <td style="text-align: center;">{{ $loop->iteration + $start - 1 }}</td>
-                                            <td style="text-align: center;">
-                                                {{ optional($item->hspdivisi)->id }}.
-                                                {{ optional($item->hsppaket)->id }}.
-                                                {{ optional($item->hspkodepekerjaan)->id }}.
-                                                {{ optional($item->kode)->id }}
-                                            </td>
-                                            <td style="text-align: center;">{{$item->hspkodepekerjaan->namapekerjaan}}</td>
-                                            <td style="cursor: pointer; color: blue; text-decoration: underline;" onclick="showModal('{{ $item->jenispekerjaan }}', '{{ number_format($item->hargasatuan, 2, ',', '.') }}')">{{$item->jenispekerjaan}}</td>
-                                            <td style="text-align: center;">Rp.</td>
-                                            <td style="text-align: right;">{{ number_format($item->hargasatuan, 2, ',', '.') }}</td>
-                                        </tr>
-                                        @endforeach
-                                    </tbody>
-                                </table>
+                                        <thead>
+                                            <tr>
+                                                <th onclick="sortTable(0)" style="cursor:pointer; text-align:center; width:100px;"> No <span class="sort-icon">⇅</span></th>
+                                                <th onclick="sortTable(1)" style="cursor:pointer; text-align:center; width:150px;"> Kode AHSP <span class="sort-icon">⇅</span></th>
+                                                <th onclick="sortTable(4)" style="cursor:pointer; text-align:center; width:250px;"> Kode Paket <span class="sort-icon">⇅</span></th>
+                                                <th onclick="sortTable(7)" style="cursor:pointer; text-align:center; width:600px;"> Jenis Pekerjaan <span class="sort-icon">⇅</span></th>
+                                                <th onclick="sortTable(6)" style="cursor:pointer; text-align:center; width:80px;"> Rp. <span class="sort-icon">⇅</span></th>
+                                                <th onclick="sortTable(8)" style="cursor:pointer; text-align:center; width:200px;"> Harga Satuan <span class="sort-icon">⇅</span></th>
+                                            </tr>
+                                        </thead>
+                                        <tbody id="tableBody">
+                                            @php $start = ($data->currentPage() - 1) * $data->perPage() + 1; @endphp
+                                            @foreach ($data as $item)
+                                            <tr>
+                                                <td style="text-align: center;">{{ $loop->iteration + $start - 1 }}</td>
+                                                <td style="text-align: center;">
+                                                    {{ optional($item->hspdivisi)->id }}.
+                                                    {{ optional($item->hsppaket)->id }}.
+                                                    {{ optional($item->hspkodepekerjaan)->id }}.
+                                                    {{ optional($item->kode)->id }}
+                                                </td>
+                                                <td style="text-align: center;">{{$item->hspkodepekerjaan->namapekerjaan}}</td>
+                                                <td style="cursor: pointer; color: blue; text-decoration: underline;" onclick="showModal('{{ $item->jenispekerjaan }}')">{{$item->jenispekerjaan}}</td>
+                                                <td style="text-align: center;">Rp.</td>
+                                                <td style="text-align: right;">{{ number_format($item->hargasatuan, 2, ',', '.') }}</td>
+                                            </tr>
+                                            @endforeach
+                                        </tbody>
+                                    </table>
 
-                                <!-- Modal -->
-                                <div id="modalCard" class="modal" style="display: none; position: fixed; z-index: 1000; left: 0; top: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.5);">
-                                    <div class="modal-content" style="background-color: white; margin: 10% auto; padding: 20px; border-radius: 8px; width: 50%; text-align: center; position: relative;">
-                                        <span class="close" onclick="closeModal()" style="cursor: pointer; position: absolute; top: 10px; right: 15px; font-size: 20px; font-weight: bold;">&times;</span>
-                                        <h2 id="modalTitle">Jenis Pekerjaan</h2>
-                                        <p id="modalContent"></p>
-                                        <button onclick="closeModal()" style="margin-top: 20px; padding: 10px 20px; background-color: red; color: white; border: none; border-radius: 5px; cursor: pointer;">Close</button>
+                                    <!-- Modal -->
+                                    <div id="modalCard" class="modal" style="display: none; position: fixed; z-index: 1000; left: 0; top: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.5);">
+                                        <div class="modal-content" style="background-color: white; margin: 5% auto; padding: 20px; border-radius: 8px; width: 80%; text-align: left; position: relative;">
+                                            <span class="close" onclick="closeModal()" style="cursor: pointer; position: absolute; top: 10px; right: 15px; font-size: 20px; font-weight: bold;">&times;</span>
+                                            <h2 id="modalTitle">Analisa Harga Satuan Pekerjaan</h2>
+                                            <table border="1" width="100%" style="border-collapse: collapse; text-align: center;">
+                                                <thead>
+                                                    <tr>
+                                                        <th>No.</th>
+                                                        <th>Uraian</th>
+                                                        <th>Kode</th>
+                                                        <th>Satuan</th>
+                                                        <th>Koefisien</th>
+                                                        <th>Harga Satuan (Rp)</th>
+                                                        <th>Jumlah Harga (Rp)</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody id="modalContent">
+                                                    <tr>
+                                                        <td>1</td>
+                                                        <td>Pekerja</td>
+                                                        <td>L.01</td>
+                                                        <td>OH</td>
+                                                        <td>0.250</td>
+                                                        <td>94.206</td>
+                                                        <td>23.552</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>2</td>
+                                                        <td>Tukang Kayu</td>
+                                                        <td>L.02</td>
+                                                        <td>OH</td>
+                                                        <td>0.125</td>
+                                                        <td>111.055</td>
+                                                        <td>13.882</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td colspan="6">Jumlah Harga Tenaga Kerja</td>
+                                                        <td>55.521</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td colspan="6">Jumlah Harga Bahan</td>
+                                                        <td>151.898</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td colspan="6">Total</td>
+                                                        <td>228.160</td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                            <button onclick="closeModal()" style="margin-top: 20px; padding: 10px 20px; background-color: red; color: white; border: none; border-radius: 5px; cursor: pointer;">Tutup</button>
+                                        </div>
                                     </div>
-                                </div>
 
-                                <script>
-                                    function showModal(jenisPekerjaan, hargaSatuan) {
-                                        document.getElementById('modalTitle').innerText = jenisPekerjaan;
-                                        document.getElementById('modalContent').innerText = 'Harga Satuan: Rp. ' + hargaSatuan;
-                                        document.getElementById('modalCard').style.display = 'block';
-                                    }
+                                    <script>
+                                        function showModal(jenisPekerjaan) {
+                                            document.getElementById('modalTitle').innerText = jenisPekerjaan;
+                                            document.getElementById('modalCard').style.display = 'block';
+                                        }
 
-                                    function closeModal() {
-                                        document.getElementById('modalCard').style.display = 'none';
-                                    }
-                                </script>
+                                        function closeModal() {
+                                            document.getElementById('modalCard').style.display = 'none';
+                                        }
+                                    </script>
 
 
                                 <div class="pagination-container" style="margin-top: 50px; display: flex; flex-direction: column; align-items: center;">
