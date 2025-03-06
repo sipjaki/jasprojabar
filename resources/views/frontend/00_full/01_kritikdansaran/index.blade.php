@@ -114,8 +114,8 @@
 						<div class="cta-four-content">
 							<i class="flaticon-help"></i>
 							<div class="cta-four-content-box">
-								<span>Have Question?</span>
-								<p>Free +92 (8800) 6802</p>
+								<span>Ada Pertanyaan?</span>
+								<p>(0296) 531004</p>
 							</div><!-- cta-four-content-box -->
 						</div><!-- cta-four-content -->
 					</div><!-- col-12 col-lg-6 col-xl-3 -->
@@ -123,8 +123,8 @@
 						<div class="cta-four-content">
 							<i class="flaticon-envelope-3"></i>
 							<div class="cta-four-content-box">
-								<span>Write Email</span>
-								<p>needhelp@company.com</p>
+								<span>Kirim Email</span>
+								<p>konstruksi@masjakidpuprblora.co.id</p>
 							</div><!-- cta-four-content-box -->
 						</div><!-- cta-four-content -->
 					</div><!-- col-12 col-md-6 col-lg-6 col-xl-3 -->
