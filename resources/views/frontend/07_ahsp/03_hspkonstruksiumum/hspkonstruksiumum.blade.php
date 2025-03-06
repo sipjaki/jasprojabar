@@ -287,7 +287,6 @@ color: #45a049;
                                         @endforeach
                                     </tbody>
                                 </table> --}}
-
                                 <table class="fl-table" id="sortableTable" style="margin-top: 15px; width: 100%; border-collapse: collapse;">
                                     <thead>
                                         <tr>
@@ -308,7 +307,7 @@ color: #45a049;
                                                 {{ optional($item->hspdivisi)->id }}.
                                                 {{ optional($item->hsppaket)->id }}.
                                                 {{ optional($item->hspkodepekerjaan)->id }}.
-                                                {{ ($item->kode) }}
+                                                {{ optional($item->kode)->id }}
                                             </td>
                                             <td style="text-align: center;">{{$item->hspkodepekerjaan->namapekerjaan}}</td>
                                             <td style="cursor: pointer; color: blue; text-decoration: underline;" onclick="showModal('{{ $item->jenispekerjaan }}', '{{ number_format($item->hargasatuan, 2, ',', '.') }}')">{{$item->jenispekerjaan}}</td>
@@ -321,10 +320,11 @@ color: #45a049;
 
                                 <!-- Modal -->
                                 <div id="modalCard" class="modal" style="display: none; position: fixed; z-index: 1000; left: 0; top: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.5);">
-                                    <div class="modal-content" style="background-color: white; margin: 10% auto; padding: 20px; border-radius: 8px; width: 50%; text-align: center;">
-                                        <span class="close" onclick="closeModal()" style="cursor: pointer; float: right; font-size: 20px; font-weight: bold;">&times;</span>
+                                    <div class="modal-content" style="background-color: white; margin: 10% auto; padding: 20px; border-radius: 8px; width: 50%; text-align: center; position: relative;">
+                                        <span class="close" onclick="closeModal()" style="cursor: pointer; position: absolute; top: 10px; right: 15px; font-size: 20px; font-weight: bold;">&times;</span>
                                         <h2 id="modalTitle">Jenis Pekerjaan</h2>
                                         <p id="modalContent"></p>
+                                        <button onclick="closeModal()" style="margin-top: 20px; padding: 10px 20px; background-color: red; color: white; border: none; border-radius: 5px; cursor: pointer;">Close</button>
                                     </div>
                                 </div>
 
