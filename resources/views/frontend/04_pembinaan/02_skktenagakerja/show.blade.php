@@ -6,7 +6,7 @@
     @include('frontend.00_approve.01_cssterpisah.header1')
 
     <div class="page-wrapper">
-	<section class="page-banner" style="background-image: url('/assets/approve/image/bg/page-banner.png')">
+	<section class="page-banner" style="background-image: url('/assets/approve/image/bg/page-banner.png')" >
 		<div class="container">
 			<div class="page-banner-title" style="border: none;">
 				<h3 style="color: black; font-size:30px; ">{{$title}}</h3>
@@ -80,6 +80,7 @@
     }
 </style>
 
+<section style="background-image: url(/assets/00_dokmasjaki/03_datajakon/bannerbetter.jpg);>
 
 <div class="container-surat">
     <div class="header-surat">
@@ -400,6 +401,7 @@
 
 </div>
 
+</section>
 
 {{-- ==================================================== --}}
 
