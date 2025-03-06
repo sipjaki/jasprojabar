@@ -281,6 +281,9 @@
             <div class="row align-items-center">
                 <div class="col-xl-5">
                     <div class="cta-two-title d-flex align-items-center">
+                        <div class="cta-two-card-content">
+                            <h3 class="cta-title">Klik Kami Untuk </h3>
+                        </div>
                         <a href="/kritikdansaran">
                             <div class="cta-two-card-icon" style="transition: color 0.3s ease, transform 0.3s ease;">
                                 <i class="flaticon-envelope-2" style="color: white;"></i>
