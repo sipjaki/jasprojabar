@@ -128,7 +128,7 @@
 							<h4 class="footer-widget-title">
                                 <i class="fas fa-phone-alt" style="margin-right: 5px;"></i> Kontak Kami
                             </h4>
-                            <p>Jl. Nusantara No.62, Jetis, Kauman, Kec. Blora<br>Kabupaten Blora 58214 Provinsi Jawa Tengah </p>
+                            <p>Jl. Nusantara No.62, Jetis, Kauman, Kec. Blora Kabupaten Blora 58214 Provinsi Jawa Tengah </p>
 						</div><!-- footer-widget-contact -->
 						<div class="footer-widget-contact-list">
 							<i class="fa-solid fa-envelope"></i>
