@@ -87,9 +87,9 @@ class AllskktenagakerjabloraController extends Controller
     return view('frontend.04_pembinaan.02_skktenagakerja.show', [
         'title' => 'Data Peserta SKK Kabupaten Blora',
         'data' => $dataall,
-        'subData' => $subdata,  // Jika Anda ingin mengirimkan data sub kontraktor juga
+        // 'subData' => $subdata,  // Jika Anda ingin mengirimkan data sub kontraktor juga
         'user' => $user,
-        'start' => $start,
+        // 'start' => $start,
     ]);
     }
 
