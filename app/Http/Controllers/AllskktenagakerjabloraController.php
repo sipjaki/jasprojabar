@@ -18,100 +18,51 @@ class AllskktenagakerjabloraController extends Controller
 {
     //
 
-    public function index()
-    {
-        $user = Auth::user();
-        $data = allskktenagakerjablora::paginate(10);
+    // public function index()
+    // {
+    //     $user = Auth::user();
+    //     $data = allskktenagakerjablora::paginate(10);
 
-        return view('frontend.04_pembinaan.02_skktenagakerja.index', [
-            'title' => 'Daftar Peserta SKK Tenaga Konstruksi Kabupaten Blora',
-            'user' => $user, // Mengirimkan data paginasi ke view
-            'data' => $data, // Mengirimkan data paginasi ke view
+    //     return view('frontend.04_pembinaan.02_skktenagakerja.index', [
+    //         'title' => 'Daftar Peserta SKK Tenaga Konstruksi Kabupaten Blora',
+    //         'user' => $user, // Mengirimkan data paginasi ke view
+    //         'data' => $data, // Mengirimkan data paginasi ke view
+    //     ]);
+    // }
+
+    public function index(Request $request)
+{
+    $perPage = $request->input('perPage', 10);
+    $search = $request->input('search');
+
+    $query = allskktenagakerjablora::query();
+
+    if ($search) {
+        $query->where('namalengkap', 'LIKE', "%{$search}%")
+            //   ->orWhere('alamat', 'LIKE', "%{$search}%")
+            //   ->orWhere('email', 'LIKE', "%{$search}%")
+            //   ->orWhere('nib', 'LIKE', "%{$search}%")
+              ->orWhereHas('tahunpilihan', function ($q) use ($search) {
+                $q->where('tahunpilihan', 'LIKE', "%{$search}%"); // 'jabatankerja' = nama kolom di tabel jabatankerja
+            });
+    }
+
+    $data = $query->paginate($perPage);
+
+    if ($request->ajax()) {
+        return response()->json([
+            'html' => view('frontend.04_pembinaan.02_skktenagakerja.partials.table', compact('data'))->render()
         ]);
     }
 
-//     public function asosiasimasjaki(Request $request)
-//     {
 
-//         $databujkkontraktor = bujkkontraktor::select('asosiasimasjaki_id', DB::raw('count(*) as jumlah'))
-//         ->groupBy('asosiasimasjaki_id')
-//         ->with('asosiasimasjaki') // Pastikan ada relasi ke tabel asosiasi
-//         ->get();
-
-//         $databujkkonsultan = bujkkonsultan::select('asosiasimasjaki_id', DB::raw('count(*) as jumlah'))
-//         ->groupBy('asosiasimasjaki_id')
-//         ->with('asosiasimasjaki') // Pastikan ada relasi ke tabel asosiasi
-//         ->get();
-
-//         $perPage = $request->input('perPage', 10);
-//         $search = $request->input('search');
-
-//         $user = Auth::user();
-//         // $data = asosiasimasjaki::paginate(15);
-
-//         $query = bujkkonsultan::query();
-//         $query = bujkkontraktor::query();
-
-//         if ($search) {
-//             $query->where('namaasosiasi', 'LIKE', "%{$search}%");
-//                 //   ->orWhere('alamat', 'LIKE', "%{$search}%")
-//                 //   ->orWhere('email', 'LIKE', "%{$search}%")
-//                 //   ->orWhere('nib', 'LIKE', "%{$search}%");
-//         }
-
-//         $data = $query->paginate($perPage);
-
-//         if ($request->ajax()) {
-//             return response()->json([
-//                 'html' => view('frontend.03_masjaki_jakon.05_asosiasimasjaki.partials.table', compact('data'))->render()
-//             ]);
-//         }
-
-//         return view('frontend.03_masjaki_jakon.05_asosiasimasjaki.index', [
-//             'title' => 'Asosiasi Konstruksi dan Konsultasi Konstruksi',
-//             'user' => $user, // Mengirimkan data paginasi ke view
-//             'data' => $data, // Mengirimkan data paginasi ke view
-//             'perPage' => $perPage,
-//             'search' => $search,
-//             'databujkkontraktor' => $databujkkontraktor,
-//             'databujkkonsultan' => $databujkkonsultan,
-//         ]);
-//     }
-
-
-//     public function bujkkontraktor(Request $request)
-// {
-//     $perPage = $request->input('perPage', 10);
-//     $search = $request->input('search');
-
-//     $query = bujkkontraktor::query();
-
-//     if ($search) {
-//         $query->where('namalengkap', 'LIKE', "%{$search}%")
-//               ->orWhere('alamat', 'LIKE', "%{$search}%")
-//               ->orWhere('email', 'LIKE', "%{$search}%")
-//               ->orWhere('nib', 'LIKE', "%{$search}%")
-//               ->orWhereHas('tahunpilihan', function ($q) use ($search) {
-//                 $q->where('tahunpilihan', 'LIKE', "%{$search}%"); // 'jabatankerja' = nama kolom di tabel jabatankerja
-//             });
-//     }
-
-//     $data = $query->paginate($perPage);
-
-//     if ($request->ajax()) {
-//         return response()->json([
-//             'html' => view('frontend.03_masjaki_jakon.01_bujkkontraktor.partials.table', compact('data'))->render()
-//         ]);
-//     }
-
-
-//     return view('frontend.03_masjaki_jakon.01_bujkkontraktor.bujkkontraktor', [
-//         'title' => 'BUJK Konstruksi',
-//         'data' => $data,
-//         'perPage' => $perPage,
-//         'search' => $search
-//     ]);
-// }
+    return view('frontend.04_pembinaan.02_skktenagakerja.index', [
+        'title' => 'Daftar Peserta SKK Tenaga Konstruksi Kabupaten Blora',
+        'data' => $data,
+        'perPage' => $perPage,
+        'search' => $search
+    ]);
+}
 
 //     public function bujkkontraktorshow($namalengkap)
 //     {
