@@ -281,9 +281,11 @@
             <div class="row align-items-center">
                 <div class="col-xl-5">
                     <div class="cta-two-title d-flex align-items-center">
-                        <div class="cta-two-card-icon">
-                            <i class="flaticon-envelope-2"></i>
-                        </div>
+                        <a href="/kritikdansaran">
+                            <div class="cta-two-card-icon">
+                                <i class="flaticon-envelope-2"></i>
+                            </div>
+                        </a>
                         <div class="cta-two-card-content">
                             <h3 class="cta-title">Kritik dan Saran</h3>
                         </div>
