@@ -148,7 +148,7 @@ color: #45a049;
                              <section class="donate-section" style="background-image: url(/assets/00_dokmasjaki/03_datajakon/bannerbetter.jpg);">
                                 <div class="container" style="
                                 background: white;
-                                max-width: 95%;
+                                max-width: 90%;
                                 margin: 30px auto;
                                 padding: 20px;
                                 height: auto;
