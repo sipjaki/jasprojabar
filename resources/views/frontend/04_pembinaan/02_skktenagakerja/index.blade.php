@@ -244,10 +244,24 @@ color: #45a049;
                                 <table class="fl-table" id="sortableTable" style="margin-top: 15px; width: 100%; border-collapse: collapse;">
                                     <thead>
                                         <tr>
-                                            <th onclick="sortTable(0)" style="cursor:pointer; text-align:center; width:100px;"> No <span class="sort-icon">⇅</span></th>
-                                            <th onclick="sortTable(1)" style="cursor:pointer; text-align:center; width:300px;"> Jabatan kerja <span class="sort-icon">⇅</span></th>
-                                            <th onclick="sortTable(1)" style="cursor:pointer; text-align:center; width:300px;"> Nama Badan Usaha <span class="sort-icon">⇅</span></th>
-
+                                            <th onclick="sortTable(0)" style="cursor:pointer; text-align:center; width:200px;"> No <span class="sort-icon">⇅</span></th>
+                                            <th onclick="sortTable(0)" style="cursor:pointer; text-align:center; width:200px;"> Jabatan Kerja <span class="sort-icon">⇅</span></th>
+                                            <th onclick="sortTable(1)" style="cursor:pointer; text-align:center; width:250px;"> Nama Lengkap <span class="sort-icon">⇅</span></th>
+                                            <th onclick="sortTable(2)" style="cursor:pointer; text-align:center; width:200px;"> Tempat Lahir <span class="sort-icon">⇅</span></th>
+                                            <th onclick="sortTable(3)" style="cursor:pointer; text-align:center; width:180px;"> Tanggal Lahir <span class="sort-icon">⇅</span></th>
+                                            <th onclick="sortTable(4)" style="cursor:pointer; text-align:center; width:150px;"> Jenis Kelamin <span class="sort-icon">⇅</span></th>
+                                            <th onclick="sortTable(5)" style="cursor:pointer; text-align:center; width:200px;"> NIK <span class="sort-icon">⇅</span></th>
+                                            <th onclick="sortTable(6)" style="cursor:pointer; text-align:center; width:300px;"> Alamat <span class="sort-icon">⇅</span></th>
+                                            <th onclick="sortTable(7)" style="cursor:pointer; text-align:center; width:200px;"> No Telepon <span class="sort-icon">⇅</span></th>
+                                            <th onclick="sortTable(8)" style="cursor:pointer; text-align:center; width:250px;"> Email <span class="sort-icon">⇅</span></th>
+                                            <th onclick="sortTable(9)" style="cursor:pointer; text-align:center; width:250px;"> Jenjang Pendidikan <span class="sort-icon">⇅</span></th>
+                                            <th onclick="sortTable(10)" style="cursor:pointer; text-align:center; width:250px;"> Nama Sekolah <span class="sort-icon">⇅</span></th>
+                                            <th onclick="sortTable(11)" style="cursor:pointer; text-align:center; width:150px;"> Tahun Lulus <span class="sort-icon">⇅</span></th>
+                                            <th onclick="sortTable(12)" style="cursor:pointer; text-align:center; width:200px;"> Tahun Pilihan <span class="sort-icon">⇅</span></th>
+                                            <th onclick="sortTable(13)" style="cursor:pointer; text-align:center; width:200px;"> Nama Asosiasi <span class="sort-icon">⇅</span></th>
+                                            <th onclick="sortTable(14)" style="cursor:pointer; text-align:center; width:180px;"> Punya SKK <span class="sort-icon">⇅</span></th>
+                                            <th onclick="sortTable(15)" style="cursor:pointer; text-align:center; width:180px;"> Punya Akun SIKI <span class="sort-icon">⇅</span></th>
+                                            <th onclick="sortTable(16)" style="cursor:pointer; text-align:center; width:200px;"> Siap Taat Peraturan <span class="sort-icon">⇅</span></th>
                                             <th style="text-align:center; width:100px;"> View </th>
                                         </tr>
                                     </thead>
@@ -256,17 +270,30 @@ color: #45a049;
                                         @foreach ($data as $item )
                                         <tr>
                                             <td style="text-align: center;">{{ $loop->iteration + $start - 1 }}</td>
-                                            <td style="text-transform: capitalize;">{{ ucwords(strtolower($item->namalengkap)) }}</td>
+                                            <td>{{$item->jabatankerja}}</td>
+                                            <td>{{$item->namalengkap}}</td>
+                                            <td>{{$item->tempatlahir}}</td>
+                                            <td>{{$item->ttl}}</td>
+                                            <td>{{$item->jeniskelamin}}</td>
+                                            <td>{{$item->nik}}</td>
                                             <td>{{$item->alamat}}</td>
-                                            <td style="text-align: center;">{{$item->uploadktp}}</td>
-                                            {{-- <td>{{$item->email}}</td>
-                                            <td>{{$item->nib}}</td>
-                                            <td>{{$item->pju}}</td>
-                                            <td>{{$item->no_akte}}</td>
-                                            <td>{{ \Carbon\Carbon::parse($item->tanggal)->isoFormat('D MMMM YYYY') }}</td>
-                                            <td>{{$item->nama_notaris}}</td>
-                                            <td>{{$item->no_pengesahan}}</td> --}}
-                                            <td style="text-align: center;">{{$item->tahunpilihan->tahunpilihan}}</td>
+                                            <td>{{$item->notelepon}}</td>
+                                            <td>{{$item->email}}</td>
+                                            <td>{{$item->jenjangpendidikan->jenjangpendidikan}}</td>
+                                            <td>{{$item->namasekolah->namasekolah}}</td>
+                                            <td>{{$item->tahunlulus}}</td>
+                                            <td>{{$item->tahunpilihan->tahunpilihan}}</td>
+                                            <td>{{$item->uploadktp}}</td>
+                                            <td>{{$item->uploadfoto}}</td>
+                                            <td>{{$item->uploadijazah}}</td>
+                                            <td>{{$item->uploadpengalaman}}</td>
+                                            <td>{{$item->uploadnpwp}}</td>
+                                            <td>{{$item->uploaddaftarriwayathidup}}</td>
+                                            <td>{{$item->namaasosiasi}}</td>
+                                            <td>{{$item->punyaskk}}</td>
+                                            <td>{{$item->punyasiki}}</td>
+                                            <td>{{$item->siappatuh}}</td>
+
                                             <td style="text-align: center">
                                                 <a href="/datajakon/bujkkontraktor/{{$item->namalengkap}}">
                                                     <i class="fas fa-eye view-icon" onclick="alert('View clicked!')"></i>
