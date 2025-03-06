@@ -261,7 +261,7 @@ color: #45a049;
                                             <td style="text-align: center;">{{ $loop->iteration + $start - 1 }}</td>
                                             <td>{{$item->hspdivisi->hspdivisi}}</td>
                                             <td>{{$item->hsppaket->hsppaket}}</td>
-                                            <td>{{$item->hspkodepekerjaan}}</td>
+                                            <td>{{$item->hspkodepekerjaan->namapekerjaan}}</td>
                                             <td>{{$item->kode}}</td>
                                             <td>{{$item->jenispekerjaan}}</td>
                                             <td>{{$item->hargasatuan}}</td>
