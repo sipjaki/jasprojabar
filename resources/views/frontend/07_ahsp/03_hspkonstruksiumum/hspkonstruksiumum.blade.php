@@ -262,7 +262,7 @@ color: #45a049;
                                             <td>{{$item->hspdivisi->hspdivisi}}</td>
                                             <td>{{$item->hsppaket->hsppaket}}</td>
                                             <td>{{$item->hspkodepekerjaan->namapekerjaan}}</td>
-                                            <td>{{$item->kode}}</td>
+                                            <td style="text-align: center;">{{$item->kode}}</td>
                                             <td>{{$item->jenispekerjaan}}</td>
                                             <td>{{$item->hargasatuan}}</td>
 
