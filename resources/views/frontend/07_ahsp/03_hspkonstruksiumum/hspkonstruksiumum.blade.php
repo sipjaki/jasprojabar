@@ -245,6 +245,7 @@ color: #45a049;
                                     <thead>
                                         <tr>
                                             <th onclick="sortTable(0)" style="cursor:pointer; text-align:center; width:100px;"> No <span class="sort-icon">⇅</span></th>
+                                            <th onclick="sortTable(0)" style="cursor:pointer; text-align:center; width:100px;"> Kode AHSP<span class="sort-icon">⇅</span></th>
                                             <th onclick="sortTable(1)" style="cursor:pointer; text-align:center; width:300px;"> Divisi <span class="sort-icon">⇅</span></th>
                                             <th onclick="sortTable(1)" style="cursor:pointer; text-align:center; width:300px;"> Paket <span class="sort-icon">⇅</span></th>
                                             <th onclick="sortTable(1)" style="cursor:pointer; text-align:center; width:300px;"> Kode Paket <span class="sort-icon">⇅</span></th>
@@ -259,6 +260,7 @@ color: #45a049;
                                         @foreach ($data as $item )
                                         <tr>
                                             <td style="text-align: center;">{{ $loop->iteration + $start - 1 }}</td>
+                                            <td>{{$item->hspdivisi->id}}.{{$item->hsppaket->hsppaket}}.{{$item->hspkodepekerjaan->namapekerjaan}}.{{$item->kode}}</td>
                                             <td>{{$item->hspdivisi->hspdivisi}}</td>
                                             <td>{{$item->hsppaket->hsppaket}}</td>
                                             <td>{{$item->hspkodepekerjaan->namapekerjaan}}</td>
