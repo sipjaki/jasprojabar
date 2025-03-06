@@ -121,96 +121,25 @@
             </div>
 
             <div class="row row-gutter-y-155">
+
+                @foreach ($data as $item)
+
                 <div class="col-lg-4">
                     <div class="blog-card">
-                        <div class="blog-card-image">
-                            <img src="/assets/00_dokmasjaki/01_berita/berita1.JPG" class="img-fluid" alt="img-22">
+                        <div class="blog-card-image" style="width: 100%; height: 200px; overflow: hidden; border-radius: 8px;">
+                            <img src="{{ asset('storage/' . $item->foto) }}" class="img-fluid" alt="img-26" style="width: 100%; height: 100%; object-fit: cover;">
                             <a href="news-details.html"></a>
                         </div>
                         <div class="blog-card-date">
-                            <a href="news-details.html">10JAN2025</a>
+                            <a href="news-details.html">{{ $item->tanggal }}</a>
                         </div>
                         <div class="blog-card-content">
-                            <h4><a href="news-details.html">Digitalisasi Sistem Pembinaan Jasa Konstruksi Blora</a></h4>
+                            <h4><a href="#">{{ $item->judulberita }}</a></h4>
                         </div>
                     </div>
                 </div>
 
-                <div class="col-lg-4">
-                    <div class="blog-card">
-                        <div class="blog-card-image">
-                            <img src="/assets/00_dokmasjaki/01_berita/berita2.JPG" class="img-fluid" alt="img-23">
-                            <a href="news-details.html"></a>
-                        </div>
-                        <div class="blog-card-date">
-                            <a href="news-details.html">25FEB2025</a>
-                        </div>
-                        <div class="blog-card-content">
-                            <h4><a href="news-details.html">Peran Sistem Informasi dalam Peningkatan Kualitas Proyek</a></h4>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4">
-                    <div class="blog-card">
-                        <div class="blog-card-image">
-                            <img src="/assets/00_dokmasjaki/01_berita/berita3.JPG" class="img-fluid" alt="img-24">
-                            <a href="news-details.html"></a>
-                        </div>
-                        <div class="blog-card-date">
-                            <a href="news-details.html">15MAR2025</a>
-                        </div>
-                        <div class="blog-card-content">
-                            <h4><a href="news-details.html">Sosialisasi Penggunaan Aplikasi Pembina Jasa Konstruksi</a></h4>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4">
-                    <div class="blog-card">
-                        <div class="blog-card-image">
-                            <img src="/assets/00_dokmasjaki/01_berita/berita4.JPG" class="img-fluid" alt="img-25">
-                            <a href="news-details.html"></a>
-                        </div>
-                        <div class="blog-card-date">
-                            <a href="news-details.html">02APR2025</a>
-                        </div>
-                        <div class="blog-card-content">
-                            <h4><a href="news-details.html">Keamanan Data dalam Sistem Jasa Konstruksi Blora</a></h4>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4">
-                    <div class="blog-card">
-                        <div class="blog-card-image">
-                            <img src="/assets/00_dokmasjaki/01_berita/berita5.jpg" class="img-fluid" alt="img-26">
-                            <a href="news-details.html"></a>
-                        </div>
-                        <div class="blog-card-date">
-                            <a href="news-details.html">18MEI2025</a>
-                        </div>
-                        <div class="blog-card-content">
-                            <h4><a href="news-details.html">Sinergi Pemerintah dan Kontraktor dalam Pengelolaan Data</a></h4>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4">
-                    <div class="blog-card">
-                        <div class="blog-card-image">
-                            <img src="/assets/00_dokmasjaki/01_berita/berita6.JPG" class="img-fluid" alt="img-26">
-                            <a href="news-details.html"></a>
-                        </div>
-                        <div class="blog-card-date">
-                            <a href="news-details.html">18MEI2025</a>
-                        </div>
-                        <div class="blog-card-content">
-                            <h4><a href="news-details.html">Transformasi Digital dalam Pengelolaan Jasa Konstruksi</a></h4>
-                        </div>
-                    </div>
-                </div>
-
+                @endforeach
             </div>
         </div>
     </section>

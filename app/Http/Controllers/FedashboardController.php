@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 
 use App\Models\berita; // Pastikan namespace model sesuai dengan struktur direktori
 use App\Models\beritaagenda;
+use App\Models\beritajakon;
 use App\Models\himbauandinas;
 use App\Models\kegiatanjaskon;
 use App\Models\laporankegiatan;
@@ -23,7 +24,7 @@ class FedashboardController extends Controller
 {
     public function index()
     {
-        $data = berita::orderBy('created_at', 'desc')->get(); //
+        $data = beritajakon::orderBy('created_at', 'desc')->get(); //
         // $databerita = berita::orderBy('created_at', 'desc')->get(); //
         // $data_layanankami = layanankami::orderBy('created_at', 'desc')->get(); //
         // $data_kegiatanjaskon = kegiatanjaskon::orderBy('created_at', 'desc')->get(); //
