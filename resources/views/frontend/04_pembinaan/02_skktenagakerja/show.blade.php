@@ -103,7 +103,7 @@
             <td>1.</td>
             <td>Nama Lengkap</td>
             <td>:</td>
-            <td>Dinas Pekerjaan Umum Dan Penataan Ruang Kabupaten Blora</td>
+            <td>{{$data->namalengkap}}</td>
             <td>
                 <img src="/assets/00_dokmasjaki/03_datajakon/jabatan.png" alt="">
             </td>
