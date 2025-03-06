@@ -162,7 +162,7 @@
                     <div class="event-card">
                         <div class="event-card-image">
                             <div class="event-card-image-inner">
-                                <a href="#"><img src="/assets/00_dokmasjaki/03_datajakon/konsultannontender.png" class="img-fluid" alt="img-164" width="200px;"></a>
+                                <a href="#"><img src="/assets/00_dokmasjaki/03_datajakon/hsp2.jpg" class="img-fluid" alt="img-164" width="200px;"></a>
                                 <div class="event-card-meta">
                                     <div class="event-meta-number">
                                         <a href="/404">
