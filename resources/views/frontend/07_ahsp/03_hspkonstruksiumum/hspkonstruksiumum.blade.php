@@ -260,34 +260,34 @@ color: #45a049;
                                         <thead>
                                             <tr>
                                                 <th style="text-align:center"> No</th>
-                                                <th style="text-align:center"> Kode</th>
-                                                <th style="text-align:center"> Uraian Pekerjaan</th>
-                                                <th style="text-align:center"> Satuan</th>
+                                                <th style="text-align:center"> HSP Divisi I</th>
+                                                <th style="text-align:center"> HSP Paket Pekerjaan </th>
+                                                <th style="text-align:center"> HSP Kode Pekerjaan </th>
+                                                <th style="text-align:center"> Kode </th>
+                                                <th style="text-align:center"> Jenis Pekerjaan </th>
                                                 <th style="text-align:center"> Harga Satuan</th>
                                             </tr>
                                         </thead>
                                         <tbody>
-                                            <tr class="clickable" data-no="1" data-kode="U.1.1.2 (c)" data-uraian="Pembuatan 1 m’ pagar sementara dari seng gelombang rangka kayu tinggi 2 meter" data-satuan="m1" data-koefisien="1" data-hargasatuan="228160" data-jumlahharga="228160">
-                                                <td style="text-align: center;">1</td>
-                                                <td>U.1.1.2 (c)</td>
-                                                <td class="text-primary" style="cursor: pointer;">Pembuatan 1 m’ pagar sementara dari seng gelombang rangka kayu tinggi 2 meter</td>
-                                                <td>m1</td>
-                                                <td>Rp. 228.160,00</td>
+
+                                            @php $start = ($data->currentPage() - 1) * $data->perPage() + 1; @endphp
+                                            @foreach ($data as $item )
+
+
+                                            @foreach ($data as $item )
+
+                                            <tr>
+                                                {{-- <td style="text-align: center;">iterationa</td> --}}
+                                                <td style="text-align: center;">{{ $loop->iteration + $start - 1 }}</td>
+                                                <td style="cursor: pointer;">{{$item->hspdivisi->hspdivisi}}</td>
+                                                <td style="cursor: pointer;">{{$item->hsppaket->hsppaket}}</td>
+                                                <td style="cursor: pointer;">{{$item->hspkodepekerjaan->hspkodepekerjaan}}</td>
+                                                <td style="cursor: pointer;">{{$item->kode}}</td>
+                                                <td style="cursor: pointer;">{{$item->jenispekerjaan}}</td>
+                                                <td style="cursor: pointer;">{{$item->hargasatuan}}</td>
                                             </tr>
-                                            <tr class="clickable" data-no="2" data-kode="U.1.1.3 (c)" data-uraian="Pembuatan 1 m’ pagar sementara dari kawat duri tinggi 2 meter" data-satuan="m1" data-koefisien="1" data-hargasatuan="234454" data-jumlahharga="234454">
-                                                <td style="text-align: center;">2</td>
-                                                <td>U.1.1.3 (c)</td> df
-                                                <td class="text-primary" style="cursor: pointer;">Pembuatan 1 m’ pagar sementara dari kawat duri tinggi 2 meter</td>
-                                                <td>m1</td>
-                                                <td>Rp. 234.454,00</td>
-                                            </tr>
-                                            <tr class="clickable" data-no="3" data-kode="U.1.2.1.d (a)" data-uraian="Pasangan 1 m’ Bouwplank" data-satuan="m1" data-koefisien="1" data-hargasatuan="51419" data-jumlahharga="51419">
-                                                <td style="text-align: center;">3</td>
-                                                <td>U.1.2.1.d (a)</td>
-                                                <td class="text-primary" style="cursor: pointer;">Pasangan 1 m’ Bouwplank</td>
-                                                <td>m1</td>
-                                                <td>Rp. 51.419,00</td>
-                                            </tr>
+
+                                            @endforeach
                                         </tbody>
                                     </table>
                                 </div>
