@@ -241,20 +241,20 @@ color: #45a049;
                                     </div>
                                 </div>
 
-                                <table class="fl-table" id="sortableTable" style="margin-top: 15px; width: 100%; border-collapse: collapse;">
+                                {{-- <table class="fl-table" id="sortableTable" style="margin-top: 15px; width: 100%; border-collapse: collapse;">
                                     <thead>
-                                        <tr>
-                                            <th onclick="sortTable(0)" style="cursor:pointer; text-align:center; width:100px;"> No <span class="sort-icon">⇅</span></th>
-                                            <th onclick="sortTable(1)" style="cursor:pointer; text-align:center; width:150px;"> Kode AHSP<span class="sort-icon">⇅</span></th>
+                                        <tr> --}}
+                                            {{-- <th onclick="sortTable(0)" style="cursor:pointer; text-align:center; width:100px;"> No <span class="sort-icon">⇅</span></th>
+                                            <th onclick="sortTable(1)" style="cursor:pointer; text-align:center; width:150px;"> Kode AHSP<span class="sort-icon">⇅</span></th> --}}
                                             {{-- <th onclick="sortTable(2)" style="cursor:pointer; text-align:center; width:300px;"> Divisi <span class="sort-icon">⇅</span></th> --}}
                                             {{-- <th onclick="sortTable(3)" style="cursor:pointer; text-align:center; width:300px;"> Paket <span class="sort-icon">⇅</span></th> --}}
-                                            <th onclick="sortTable(4)" style="cursor:pointer; text-align:center; width:250px;"> Kode Paket <span class="sort-icon">⇅</span></th>
+                                            {{-- <th onclick="sortTable(4)" style="cursor:pointer; text-align:center; width:250px;"> Kode Paket <span class="sort-icon">⇅</span></th> --}}
                                             {{-- <th onclick="sortTable(5)" style="cursor:pointer; text-align:center; width:125px;"> Kode <span class="sort-icon">⇅</span></th> --}}
-                                            <th onclick="sortTable(7)" style="cursor:pointer; text-align:center; width:600px;"> Jenis Pekerjaan <span class="sort-icon">⇅</span></th>
+                                            {{-- <th onclick="sortTable(7)" style="cursor:pointer; text-align:center; width:600px;"> Jenis Pekerjaan <span class="sort-icon">⇅</span></th>
                                             <th onclick="sortTable(6)" style="cursor:pointer; text-align:center; width:80px;"> Rp. <span class="sort-icon">⇅</span></th>
-                                            <th onclick="sortTable(8)" style="cursor:pointer; text-align:center; width:200px;"> Harga Satuan <span class="sort-icon">⇅</span></th>
+                                            <th onclick="sortTable(8)" style="cursor:pointer; text-align:center; width:200px;"> Harga Satuan <span class="sort-icon">⇅</span></th> --}}
                                             {{-- <th style="text-align:center; width:100px;"> View </th> --}}
-                                        </tr>
+                                        {{-- </tr>
                                     </thead>
                                     <tbody id="tableBody">
                                         @php $start = ($data->currentPage() - 1) * $data->perPage() + 1; @endphp
@@ -266,24 +266,80 @@ color: #45a049;
                                                 {{ optional($item->hsppaket)->id }}.
                                                 {{ optional($item->hspkodepekerjaan)->id }}.
                                                 {{ optional($item->kode)->id }}
-                                            </td>
+                                            </td> --}}
                                             {{-- <td>{{$item->hspdivisi->hspdivisi}}</td> --}}
                                             {{-- <td>{{$item->hsppaket->hsppaket}}</td> --}}
-                                            <td style="text-align: center;">{{$item->hspkodepekerjaan->namapekerjaan}}</td>
+                                            {{-- <td style="text-align: center;">{{$item->hspkodepekerjaan->namapekerjaan}}</td> --}}
                                             {{-- <td style="text-align: center;">{{$item->kode}}</td> --}}
-                                            <td>{{$item->jenispekerjaan}}</td>
+                                            {{-- <a href="/">
+                                                <td style="text-primary">{{$item->jenispekerjaan}}</td>
+                                            </a>
+
                                             <td style="text-align: center;">Rp.</td>
-                                            <td style="text-align: right;">{{ number_format($item->hargasatuan, 2, ',', '.') }}</td>
+                                            <td style="text-align: right;">{{ number_format($item->hargasatuan, 2, ',', '.') }}</td> --}}
 
                                             {{-- <td style="text-align: center">
                                                 <a href="/datajakon/bujkkontraktor/{{$item->namalengkap}}">
                                                     <i class="fas fa-eye view-icon" onclick="alert('View clicked!')"></i>
                                                 </a>
                                             </td> --}}
+                                        {{-- </tr>
+                                        @endforeach
+                                    </tbody>
+                                </table> --}}
+
+                                <table class="fl-table" id="sortableTable" style="margin-top: 15px; width: 100%; border-collapse: collapse;">
+                                    <thead>
+                                        <tr>
+                                            <th onclick="sortTable(0)" style="cursor:pointer; text-align:center; width:100px;"> No <span class="sort-icon">⇅</span></th>
+                                            <th onclick="sortTable(1)" style="cursor:pointer; text-align:center; width:150px;"> Kode AHSP <span class="sort-icon">⇅</span></th>
+                                            <th onclick="sortTable(4)" style="cursor:pointer; text-align:center; width:250px;"> Kode Paket <span class="sort-icon">⇅</span></th>
+                                            <th onclick="sortTable(7)" style="cursor:pointer; text-align:center; width:600px;"> Jenis Pekerjaan <span class="sort-icon">⇅</span></th>
+                                            <th onclick="sortTable(6)" style="cursor:pointer; text-align:center; width:80px;"> Rp. <span class="sort-icon">⇅</span></th>
+                                            <th onclick="sortTable(8)" style="cursor:pointer; text-align:center; width:200px;"> Harga Satuan <span class="sort-icon">⇅</span></th>
+                                        </tr>
+                                    </thead>
+                                    <tbody id="tableBody">
+                                        @php $start = ($data->currentPage() - 1) * $data->perPage() + 1; @endphp
+                                        @foreach ($data as $item)
+                                        <tr>
+                                            <td style="text-align: center;">{{ $loop->iteration + $start - 1 }}</td>
+                                            <td style="text-align: center;">
+                                                {{ optional($item->hspdivisi)->id }}.
+                                                {{ optional($item->hsppaket)->id }}.
+                                                {{ optional($item->hspkodepekerjaan)->id }}.
+                                                {{ optional($item->kode)->id }}
+                                            </td>
+                                            <td style="text-align: center;">{{$item->hspkodepekerjaan->namapekerjaan}}</td>
+                                            <td style="cursor: pointer; color: blue; text-decoration: underline;" onclick="showModal('{{ $item->jenispekerjaan }}', '{{ number_format($item->hargasatuan, 2, ',', '.') }}')">{{$item->jenispekerjaan}}</td>
+                                            <td style="text-align: center;">Rp.</td>
+                                            <td style="text-align: right;">{{ number_format($item->hargasatuan, 2, ',', '.') }}</td>
                                         </tr>
                                         @endforeach
                                     </tbody>
                                 </table>
+
+                                <!-- Modal -->
+                                <div id="modalCard" class="modal" style="display: none; position: fixed; z-index: 1000; left: 0; top: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.5);">
+                                    <div class="modal-content" style="background-color: white; margin: 10% auto; padding: 20px; border-radius: 8px; width: 50%; text-align: center;">
+                                        <span class="close" onclick="closeModal()" style="cursor: pointer; float: right; font-size: 20px; font-weight: bold;">&times;</span>
+                                        <h2 id="modalTitle">Jenis Pekerjaan</h2>
+                                        <p id="modalContent"></p>
+                                    </div>
+                                </div>
+
+                                <script>
+                                    function showModal(jenisPekerjaan, hargaSatuan) {
+                                        document.getElementById('modalTitle').innerText = jenisPekerjaan;
+                                        document.getElementById('modalContent').innerText = 'Harga Satuan: Rp. ' + hargaSatuan;
+                                        document.getElementById('modalCard').style.display = 'block';
+                                    }
+
+                                    function closeModal() {
+                                        document.getElementById('modalCard').style.display = 'none';
+                                    }
+                                </script>
+
 
                                 <div class="pagination-container" style="margin-top: 50px; display: flex; flex-direction: column; align-items: center;">
                                     <ul class="pagination-paginate" style="display: flex; padding-left: 0; list-style: none; margin-top: 10px;">
