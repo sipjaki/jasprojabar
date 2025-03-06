@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\allskktenagakerjablora;
 use App\Models\asosiasimasjaki;
 use App\Models\bujkkonsultan;
 use App\Models\bujkkontraktor;
@@ -20,10 +21,12 @@ class AllskktenagakerjabloraController extends Controller
     public function index()
     {
         $user = Auth::user();
+        $data = allskktenagakerjablora::paginate(10);
 
         return view('frontend.04_pembinaan.02_skktenagakerja.index', [
             'title' => 'Daftar Peserta SKK Tenaga Konstruksi Kabupaten Blora',
             'user' => $user, // Mengirimkan data paginasi ke view
+            'data' => $data, // Mengirimkan data paginasi ke view
         ]);
     }
 
