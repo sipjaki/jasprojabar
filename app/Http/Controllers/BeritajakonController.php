@@ -19,7 +19,7 @@ class BeritajakonController extends Controller
     public function index()
     {
         $user = Auth::user();
-        $databerita = beritajakon::paginate(10);
+        $databerita = beritajakon::paginate(6);
 
 
         return view('frontend.02_beritajakon.index', [

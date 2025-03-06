@@ -15,6 +15,13 @@
 		</div><!-- container -->
 	</section><!--page-banner-->
 
+    <div class="pagination-info-box" style="margin-right:300px; padding: 10px; border: 1px solid black; background-color: #f9f9f9; border-radius: 5px;">
+        <div class="pagination-info" style="color: black; font-weight: 500; font-size:20px;">
+            Data Ke {{ $data->firstItem() }} Sampai {{ $data->lastItem() }} Dari {{ $data->total() }} Jumlah {{$title}}
+        </div>
+    </div>
+
+
 	<section class="event-three-section">
 		<div class="event-section-outer">
 			<div class="container">
@@ -54,6 +61,22 @@
 				</div><!-- row -->
 			</div><!-- container -->
 		</div><!-- event-section-outer -->
+
+        <div class="pagination-container" style="margin-top: 50px; display: flex; flex-direction: column; align-items: center;">
+            <ul class="pagination-paginate" style="display: flex; padding-left: 0; list-style: none; margin-top: 10px;">
+                <li class="page-item {{ $data->onFirstPage() ? 'disabled' : '' }}" style="margin-right: 5px;">
+                    <a class="page-link" href="{{ $data->previousPageUrl() }}">
+                        <i class="fas fa-arrow-left" style="margin-right: 10px;"></i>Previous
+                    </a>
+                </li>
+                <li class="page-item {{ $data->hasMorePages() ? '' : 'disabled' }}" style="margin-right: 5px;">
+                    <a class="page-link" href="{{ $data->nextPageUrl() }}">
+                        Next <i class="fas fa-arrow-right" style="margin-left: 10px;"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
 	</section><!--event-three-section-->
 </div><!--page-wrapper-->
 
