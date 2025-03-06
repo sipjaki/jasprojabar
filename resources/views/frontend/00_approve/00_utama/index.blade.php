@@ -126,7 +126,7 @@
 
                 <div class="col-lg-4">
                     <div class="blog-card">
-                        <div class="blog-card-image" style="width: 100%; height: 200px; overflow: hidden; border-radius: 8px;">
+                        <div class="blog-card-image" style="overflow: hidden; border-radius: 8px;">
                             <img src="{{ asset('storage/' . $item->foto) }}" class="img-fluid" alt="img-26" style="width: 100%; height: 100%; object-fit: cover;">
                             <a href="news-details.html"></a>
                         </div>
