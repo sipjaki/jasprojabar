@@ -6,7 +6,7 @@
     @include('frontend.00_approve.01_cssterpisah.header1')
 
     <div class="page-wrapper">
-	<section class="page-banner" style="background-image: url('/assets/approve/image/bg/page-banner.png')" >
+	<section class="page-banner" style="background-image: url('/assets/approve/image/bg/page-banner.png')">
 		<div class="container">
 			<div class="page-banner-title" style="border: none;">
 				<h3 style="color: black; font-size:30px; ">{{$title}}</h3>
@@ -79,18 +79,6 @@
         font-weight: 600; /* Lebih tebal agar judul tabel lebih jelas */
     }
 </style>
-
-<div class="container"
-style="
-                                background: white;
-                                max-width: 95%;
-                                margin: 30px auto;
-                                padding: 20px;
-                                height: auto;
-                                border-radius: 20px;
-                                box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-                                position: relative;
-                                z-index: 10;">
 
 
 <div class="container-surat">
@@ -412,7 +400,6 @@ style="
 
 </div>
 
-</div>
 
 {{-- ==================================================== --}}
 
