@@ -69,16 +69,16 @@ class AllskktenagakerjabloraController extends Controller
     {
         $dataall = allskktenagakerjablora::where('namalengkap', $namalengkap)->first();
 
-        if (!$dataall) {
-            // Tangani jika kegiatan tidak ditemukan
-            return redirect()->back()->with('error', 'Kegiatan tidak ditemukan.');
-        }
+        // if (!$dataall) {
+        //     // Tangani jika kegiatan tidak ditemukan
+        //     return redirect()->back()->with('error', 'Kegiatan tidak ditemukan.');
+        // }
 
-        // Menggunakan paginate() untuk pagination
-        $subdata = tahunpilihan::where('tahunpilihan_id', $dataall->id)->paginate(50);
+        // // Menggunakan paginate() untuk pagination
+        // $subdata = tahunpilihan::where('tahunpilihan_id', $dataall->id)->paginate(50);
 
-          // Menghitung nomor urut mulai
-            $start = ($subdata->currentPage() - 1) * $subdata->perPage() + 1;
+        //   // Menghitung nomor urut mulai
+        //     $start = ($subdata->currentPage() - 1) * $subdata->perPage() + 1;
 
 
     // Ambil data user saat ini
