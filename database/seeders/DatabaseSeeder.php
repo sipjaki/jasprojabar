@@ -6098,6 +6098,12 @@ artikeljakon::create([
 ]);
 
 artikeljakon::create([
+    'judul' => 'Mengenal Sistem Informasi Jasa Konstruksi: Manfaat dan Implementasinya',
+    'berkas' => null,
+    'tanggal' => null,
+]);
+
+artikeljakon::create([
     'judul' => 'Digitalisasi Manajemen Proyek: Peran Sistem Informasi dalam Jasa Konstruksi',
     'berkas' => null,
     'tanggal' => null,
