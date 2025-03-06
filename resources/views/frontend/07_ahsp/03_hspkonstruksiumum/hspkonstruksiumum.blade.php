@@ -250,7 +250,7 @@ color: #45a049;
                                             <th onclick="sortTable(3)" style="cursor:pointer; text-align:center; width:300px;"> Paket <span class="sort-icon">⇅</span></th>
                                             <th onclick="sortTable(4)" style="cursor:pointer; text-align:center; width:300px;"> Kode Paket <span class="sort-icon">⇅</span></th>
                                             <th onclick="sortTable(5)" style="cursor:pointer; text-align:center; width:125px;"> Kode <span class="sort-icon">⇅</span></th>
-                                            {{-- <th onclick="sortTable(6)" style="cursor:pointer; text-align:center; width:300px;"> Jenis Pekerjaan <span class="sort-icon">⇅</span></th> --}}
+                                            <th onclick="sortTable(6)" style="cursor:pointer; text-align:center; width:50px;"> Rp. <span class="sort-icon">⇅</span></th>
                                             <th onclick="sortTable(7)" style="cursor:pointer; text-align:center; width:300px;"> Jenis Pekerjaan <span class="sort-icon">⇅</span></th>
                                             <th onclick="sortTable(8)" style="cursor:pointer; text-align:center; width:300px;"> Harga Satuan <span class="sort-icon">⇅</span></th>
                                             {{-- <th style="text-align:center; width:100px;"> View </th> --}}
