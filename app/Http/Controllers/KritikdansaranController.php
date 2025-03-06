@@ -18,7 +18,7 @@ class KritikdansaranController extends Controller
         $user = Auth::user();
 
         return view('frontend.00_full.01_kritikdansaran.index', [
-            'title' => 'Form Kritik & Saran Mas Jaki',
+            'title' => 'Form Kritik & Saran Mas Jaki Blora',
             'user' => $user,
             // 'data' => $data,
         ]);
