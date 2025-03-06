@@ -282,10 +282,17 @@
                 <div class="col-xl-5">
                     <div class="cta-two-title d-flex align-items-center">
                         <a href="/kritikdansaran">
-                            <div class="cta-two-card-icon">
-                                <i class="flaticon-envelope-2"></i>
+                            <div class="cta-two-card-icon" style="transition: color 0.3s ease, transform 0.3s ease;">
+                                <i class="flaticon-envelope-2" style="color: inherit;"></i>
                             </div>
                         </a>
+
+                        <style>
+                            a:hover .cta-two-card-icon {
+                                color: #ffd100;
+                                transform: scale(1.1);
+                            }
+                        </style>
                         <div class="cta-two-card-content">
                             <h3 class="cta-title">Kritik dan Saran</h3>
                         </div>
