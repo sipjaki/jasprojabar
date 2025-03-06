@@ -17,38 +17,51 @@
 	<section class="contact-section">
 		<div class="container">
 			<div class="row">
-				<div class="col-lg-4">
-					<div class="contact-box">
-						<div class="section-tagline">
-							WRITE A MESSAGE
-						</div><!-- section-tagline -->
-						<h1 class="section-title">Always Here to Help you</h1>
-							<p>There are certain attributes of a profession and one has to catch hold of them in order to efficiently and grow in that business. I share my experience as an interior designer. </p>
-					</div><!-- contact-box -->
-				</div><!-- col-lg-4 -->
-				<div class="col-lg-8">
-					<form  action="assets/inc/sendemail.php" class="contact-form  contact-form-validated" method="post" >
-						<div class="row row-gutter-10">
-							<div class="col-12 col-lg-6">
-								<input type="text" id="name"  class="input-text" placeholder="Your name" name="name" aria-required="true">
-							</div><!-- col-12 col-lg-6 -->
-							<div class="col-12 col-lg-6">
-								<input type="email" id="email" class="input-text" placeholder="Email address" name="email" aria-required="true">
-							</div><!-- col-12 col-lg-6 -->
-							<div class="col-12 col-lg-6">
-								<input type="text" id="phone" class="input-text" placeholder="Phone number" name="phone" aria-required="true">
-							</div><!-- col-12 col-lg-6 -->
-							<div class="col-12 col-lg-6">
-								<input type="text" id="subject" class="input-text" placeholder="Subject" name="subject" aria-required="true">
-							</div><!-- col-12 col-lg-6 -->
-							<div class="col-12 col-lg-12">
-								<textarea name="message" placeholder="Write a message" class="input-text" aria-required="true"></textarea>
-							</div><!-- col-12 col-lg-12 -->
-							<div class="col-12 col-lg-12">
-								<button class="btn btn-primary">Send a Message</button>
-							</div><!-- col-12 col-lg-12 -->
-						</div><!-- row -->
-					</form><!-- contact-form -->
+
+				<div class="col-lg-12">
+
+                    <form action="/kritikdansaran" class="contact-form contact-form-validated" method="post">
+                        <div class="row row-gutter-10">
+                            <!-- Nama Lengkap -->
+                            <div class="col-12 col-lg-6">
+                                <div class="input-group">
+                                    <span class="input-icon"><i class="fas fa-user"></i></span>
+                                    <input type="text" id="namalengkap" class="input-text" placeholder="Nama Lengkap" name="namalengkap" aria-required="true">
+                                </div>
+                            </div>
+
+                            <!-- Nomor Telepon -->
+                            <div class="col-12 col-lg-6">
+                                <div class="input-group">
+                                    <span class="input-icon"><i class="fas fa-phone"></i></span>
+                                    <input type="text" id="notelepon" class="input-text" placeholder="Nomor Telepon" name="notelepon" aria-required="true">
+                                </div>
+                            </div>
+
+                            <!-- Pekerjaan -->
+                            <div class="col-12 col-lg-6">
+                                <div class="input-group">
+                                    <span class="input-icon"><i class="fas fa-briefcase"></i></span>
+                                    <input type="text" id="pekerjaan" class="input-text" placeholder="Pekerjaan" name="pekerjaan" aria-required="true">
+                                </div>
+                            </div>
+
+                            <!-- Keterangan -->
+                            <div class="col-12 col-lg-12">
+                                <div class="input-group">
+                                    <span class="input-icon"><i class="fas fa-comment"></i></span>
+                                    <textarea name="keterangan" id="keterangan" placeholder="Tuliskan Kritik atau Saran" class="input-text" aria-required="true"></textarea>
+                                </div>
+                            </div>
+
+                            <!-- Tombol Submit -->
+                            <div class="col-12 col-lg-12 text-center">
+                                <button class="btn btn-primary">Kirim Kritik & Saran</button>
+                            </div>
+                        </div>
+                    </form>
+
+
 				</div><!-- col-lg-8 -->
 			</div><!-- row -->
 		</div><!-- container -->
