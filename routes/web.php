@@ -34,8 +34,9 @@ use App\Http\Controllers\ShstbloraController;
 use App\Http\Controllers\HspkonstruksiumumController;
 use App\Http\Controllers\SatuanhargamaterialController;
 use App\Http\Controllers\BeritajakonController;
+use App\Http\Controllers\KritikdansaranController;
 
-
+// atas
 use Database\Factories\DatajakonFactory;
 use Database\Factories\SkktenagakerjaFactory;
 use Illuminate\Support\Facades\Route;
@@ -236,6 +237,11 @@ Route::get('/satuanhargaperalatan', [SatuanhargamaterialController::class, 'satu
 Route::get('/hspdivisi1', [SatuanhargamaterialController::class, 'hspdivisi1']);
 Route::get('/hspdivisi1show', [SatuanhargamaterialController::class, 'hspdivisi1show']);
 
+
+// DATA SHST BLORA
+// ==========================================================================================================
+Route::get('/kritikdansaran', [KritikdansaranController::class, 'index']);
+// Route::get('/shstblora/{kecamatanblora}', [TokobangunanbloraController::class, 'tokobangunanblorashow']);
 // fort
 
 // DATA SHST BLORA

@@ -9574,45 +9574,6 @@ uijk::create([
             ]);
 
 
-// ============================================================================
-
-//         himbauandinas::create([
-//             'nama_lengkap'          => 'Yuyu Yuhana, ST., MM',       // Menghasilkan nomor acak antara 1 dan 9
-//             'jabatan'               => 'Fungsional Pembina Jasa Konstruksi Ahli Muda Pemerintah Kabupaten Bandung Barat',       // Menghasilkan nomor acak antara 1 dan 9
-//             'himbauan'              => '<p>Kami mendorong semua pihak memanfaatkan Sistem Informasi Pembina Jasa Konstruksi (SIPJAKI) secara maksimal. Sistem ini dirancang untuk memudahkan akses informasi penting terkait peraturan dan sertifikasi dalam industri konstruksi. Dengan menggunakan SIPJK, saudara akan memperoleh informasi terkini dan membantu memastikan proyek konstruksi berjalan sesuai standar. Mari kita tingkatkan kualitas dan profesionalisme industri konstruksi bersama</p>',       // Menghasilkan nomor acak antara 1 dan 9
-//             'foto_pejabat'          => 'himbauan/dinas/PERSETUJUAN_BANGUNAN_GEDUNG.png',
-//             'created_at'            => now(),
-//             'updated_at'            => now(),
-// ]);
-
-        himbauandinas::create([
-            'nama_lengkap'          => '______',       // Menghasilkan nomor acak antara 1 dan 9
-            'jabatan'               => '______',       // Menghasilkan nomor acak antara 1 dan 9
-            'himbauan'              => '______',       // Menghasilkan nomor acak antara 1 dan 9
-            'foto_pejabat'          => '',
-            'created_at'            => now(),
-            'updated_at'            => now(),
-]);
-
-        himbauandinas::create([
-            'nama_lengkap'          => '_____',       // Menghasilkan nomor acak antara 1 dan 9
-            'jabatan'               => '_____',       // Menghasilkan nomor acak antara 1 dan 9
-            'himbauan'              => '_____',       // Menghasilkan nomor acak antara 1 dan 9
-            'foto_pejabat'          => '',
-            'created_at'            => now(),
-            'updated_at'            => now(),
-]);
-
-
-        himbauandinas::create([
-            'nama_lengkap'          => '_____',       // Menghasilkan nomor acak antara 1 dan 9
-            'jabatan'               => '_____',       // Menghasilkan nomor acak antara 1 dan 9
-            'himbauan'              => '_____',       // Menghasilkan nomor acak antara 1 dan 9
-            'foto_pejabat'          => '',
-            'created_at'            => now(),
-            'updated_at'            => now(),
-]);
-
 
     }
  /**

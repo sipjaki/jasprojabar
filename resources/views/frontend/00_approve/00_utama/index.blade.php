@@ -295,7 +295,7 @@
 							{{-- <div class="cta-two-form-group">
 								<input type="email" id="email" class="input-text" placeholder="Email address" name="email" required>
 							</div><!-- cta-two-card-form --> --}}
-                            <a href="/404">
+                            <a href="/kritikdansaran">
                                 <button class="btn btn-primary">Form Saran</button>
                             </a>
 
