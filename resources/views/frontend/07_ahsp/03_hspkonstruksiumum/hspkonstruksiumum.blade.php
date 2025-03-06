@@ -311,7 +311,7 @@ color: #45a049;
     </section><!-- service-two-section -->
 
 
-{{-- <!-- Modal -->
+<!-- Modal -->
 <div class="modal fade" id="detailModal" tabindex="-1" aria-labelledby="modalTitle" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content">
@@ -347,28 +347,9 @@ color: #45a049;
             </div>
         </div>
     </div>
-</div> --}}
+</div>
 
-{{-- <script>
-    document.addEventListener("DOMContentLoaded", function () {
-        const tableRows = document.querySelectorAll(".clickable");
 
-        tableRows.forEach(row => {
-            row.addEventListener("click", function () {
-                document.getElementById("modal-no").innerText = this.dataset.no;
-                document.getElementById("modal-uraian").innerText = this.dataset.uraian;
-                document.getElementById("modal-kode").innerText = this.dataset.kode;
-                document.getElementById("modal-satuan").innerText = this.dataset.satuan;
-                document.getElementById("modal-koefisien").innerText = this.dataset.koefisien;
-                document.getElementById("modal-hargasatuan").innerText = "Rp " + new Intl.NumberFormat("id-ID").format(this.dataset.hargasatuan);
-                document.getElementById("modal-jumlahharga").innerText = "Rp " + new Intl.NumberFormat("id-ID").format(this.dataset.jumlahharga);
-
-                new bootstrap.Modal(document.getElementById("detailModal")).show();
-            });
-        });
-    });
-</script>
- --}}
 
 
 </div><!--page-wrapper-->
