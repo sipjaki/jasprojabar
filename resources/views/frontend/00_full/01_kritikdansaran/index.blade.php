@@ -75,8 +75,34 @@
 	<div class="contact-gmap-section">
 		<div class="container">
 			<div class="responsive-map">
-				<iframe src="https://www.google.com/maps/place/Dinas+Pekerjaan+Umum+dan+Penataan+Ruang+(DPUPR)+Kabupaten+Blora/@-6.977182,111.4085298,17z/data=!3m1!4b1!4m6!3m5!1s0x2e77411bc797c1ed:0x5ddba5997190e35c!8m2!3d-6.977182!4d111.4111047!16s%2Fg%2F11b6dpfgz4?entry=ttu&g_ep=EgoyMDI1MDMwMy4wIKXMDSoJLDEwMjExNDU1SAFQAw%3D%3D"></iframe>
-			</div><!-- responsive-map -->
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3952.628066692034!2d111.4085298!3d-6.977182!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e77411bc797c1ed%3A0x5ddba5997190e35c!2sDinas%20Pekerjaan%20Umum%20dan%20Penataan%20Ruang%20(DPUPR)%20Kabupaten%20Blora!5e0!3m2!1sen!2sid!4v1710156789012"
+                    width="100%"
+                    height="400"
+                    style="border:0;"
+                    allowfullscreen=""
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+<style>
+    .responsive-map {
+    position: relative;
+    padding-bottom: 56.25%; /* Rasio 16:9 untuk responsivitas */
+    height: 0;
+    overflow: hidden;
+}
+
+.responsive-map iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+</style>
 		</div><!-- container -->
 	</div><!-- contact-gmap-section -->
 	<div class="cta-four-section">
