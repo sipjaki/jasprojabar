@@ -272,7 +272,7 @@ color: #45a049;
                                             <td>{{$item->hspkodepekerjaan->namapekerjaan}}</td>
                                             {{-- <td style="text-align: center;">{{$item->kode}}</td> --}}
                                             <td>{{$item->jenispekerjaan}}</td>
-                                            <td>Rp.</td>
+                                            <td style="text-align: center;">Rp.</td>
                                             <td style="text-align: right;">{{ number_format($item->hargasatuan, 2, ',', '.') }}</td>
 
                                             {{-- <td style="text-align: center">
