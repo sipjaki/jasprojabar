@@ -14,13 +14,13 @@ class KritikdansaranController extends Controller
     public function index()
     {
 
-        $data = kritikdansaran::all();
+        // $data = kritikdansaran::all();
         $user = Auth::user();
 
         return view('frontend.00_full.01_kritikdansaran.index', [
             'title' => 'Form Kritik & Saran Mas Jaki',
             'user' => $user,
-            'data' => $data,
+            // 'data' => $data,
         ]);
 
 
