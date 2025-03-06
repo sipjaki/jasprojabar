@@ -1,124 +1,176 @@
-<!DOCTYPE html>
-<html lang="id">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Form Pendaftaran</title>
+@include('frontend.00_atas.header')
+
+
+{{-- ------------------------------------------------------------------------------------------ --}}
+{{-- ------------------------------------------------------------------------------------------ --}}
+{{-- ------------------------------------------------------------------------------------------ --}}
+
+<section id="sec-0">
+
+    <div class="div" style="z-index: 9999; position: fixed;
+            top: 0; left: 0; width: 100%; z-index: 9999;
+            background-color: white; border-bottom: 1px solid black;
+            ">
+
+        @include('frontend.00_atas.header1')
+        <header>
+
+                @include('frontend.00_atas.header2_navbar')
+
+        </div>
+        </header>
+
+        <div class="div" style="
+            justify-content: center;
+            text-align:center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            position: relative;
+            margin-top:165px;
+        ">
+
+            <h2 style="
+    margin-top: 10px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    color: #333;
+    text-transform: uppercase;
+    text-align: center;
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 25px;
+    width: 500px;
+    background: linear-gradient(to right, #f0f0f0, #e0e0e0);
+    transition: background 0.5s ease, color 0.5s ease;
+    " onmouseover="this.style.background='linear-gradient(to right, #f0f0f0, #e0e0e0)'; this.style.color='black';" onmouseout="this.style.background='linear-gradient(to right, black, green )'; this.style.color='white';">
+
+Rencana Program Jasa Konstruksi <br> Kabupaten Blora
+</h2>
+</div>
+<div class="container" style="
+    display: flex;
+    flex-direction: column;
+    background-color: #00820d;
+    padding: 10px;
+    border: 1px solid black;
+    margin-bottom: 0px;
+    border-radius: 25px;
+    text-align: center;
+    width: 100%;
+    height: 120vh;
+    background: linear-gradient(to bottom, green, white, white);
+    align-items: center;
+    position: relative;
+">
+  <div style="display: flex; align-items: center;">
+    <img src="/assets/icon/pupr.png" alt="Logo SIPJAKIKBB" style="width: 50px; height: 50px; object-fit: cover; margin: 0 10px;">
+    <img src="/assets/icon/logokabupatenblora.png" alt="Logo SIPJAKIKBB" style="width: 55px; height: 55px; object-fit: cover; margin: 0 10px;">
+</div>
+
+
+    <h1 style="margin-top:10px; font-size: 16px; font-family: 'Lato', sans-serif; font-weight: 700;">Dinas Pekerjaan Umum Dan Penataan Ruang <br> Pemerintah Kabupaten Blora </h1>
+    <div class="container" style="margin-top: 20px;">
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 40px;
-            padding: 20px;
-            border: 1px solid #000;
-            max-width: 600px;
-            background-color: #f9f9f9;
+        .pdf-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            width: 80%;
+            height: 85vh;
+            margin: auto;
+            border: 1px solid black;
+            border-radius: 25px;
+            overflow: hidden;
+            background-color: #00820d;
+            background: linear-gradient(to bottom, green, white, white);
         }
-        h2 {
-            text-align: center;
-        }
-        .form-group {
-            margin-bottom: 15px;
-        }
-        label {
-            font-weight: bold;
-        }
-        input, select, textarea {
+        .pdf-frame {
             width: 100%;
-            padding: 8px;
-            margin-top: 5px;
-            border: 1px solid #ccc;
-            border-radius: 4px;
-        }
-        button {
-            background-color: #007bff;
-            color: white;
-            padding: 10px 15px;
+            height: 100%;
             border: none;
-            cursor: pointer;
-            width: 100%;
-            font-size: 16px;
         }
-        button:hover {
-            background-color: #0056b3;
-        }
+        .badgedownload {
+                background: linear-gradient(to right, orange, black);
+                color: white;
+                padding: 10px 20px;
+                border-radius: 10px;
+                display: inline-block;
+                font-size: 1rem;
+                text-align: center;
+                font-size: 12px;
+                margin-top: 20px;
+                margin-left: 500px;
+                transition: background-color 0.3s, color 0.3s;
+                margin-left: 225px;
+                cursor: pointer;
+
+            }
+
+            .badgedownload:hover {
+                background-color: white;
+                color: black;
+                background: white;
+            }
+
     </style>
-</head>
-<body>
-    <h2>Form Pendaftaran</h2>
-    <form action="#" method="POST">
-        <div class="form-group">
-            <label>Nama Lengkap:</label>
-            <input type="text" name="namalengkap" required>
-        </div>
-        <div class="form-group">
-            <label>Tempat, Tanggal Lahir:</label>
-            <input type="text" name="ttl" required>
-        </div>
-        <div class="form-group">
-            <label>Jenis Kelamin:</label>
-            <select name="jeniskelamin">
-                <option value="Laki-laki">Laki-laki</option>
-                <option value="Perempuan">Perempuan</option>
-            </select>
-        </div>
-        <div class="form-group">
-            <label>NIK:</label>
-            <input type="text" name="nik" required>
-        </div>
-        <div class="form-group">
-            <label>Alamat:</label>
-            <textarea name="alamat" required></textarea>
-        </div>
-        <div class="form-group">
-            <label>Nomor Telepon:</label>
-            <input type="text" name="notelepon" required>
-        </div>
-        <div class="form-group">
-            <label>Email:</label>
-            <input type="email" name="email" required>
-        </div>
-        <div class="form-group">
-            <label>Jenjang Pendidikan Terakhir:</label>
-            <input type="text" name="jenjangpendidikan" required>
-        </div>
-        <div class="form-group">
-            <label>Nama Sekolah/Universitas:</label>
-            <input type="text" name="namasekolah" required>
-        </div>
-        <div class="form-group">
-            <label>Tahun Lulus:</label>
-            <input type="text" name="tahunlulus" required>
-        </div>
-        <div class="form-group">
-            <label>Dokumen Pendukung:</label>
-            <input type="file" name="uploadfile" multiple>
-        </div>
-        <div class="form-group">
-            <label>Nama Asosiasi (Jika Ada):</label>
-            <input type="text" name="namaasosiasi">
-        </div>
-        <div class="form-group">
-            <label>Memiliki SKK?</label>
-            <select name="punyaskk">
-                <option value="Ya">Ya</option>
-                <option value="Tidak">Tidak</option>
-            </select>
-        </div>
-        <div class="form-group">
-            <label>Memiliki SIKI?</label>
-            <select name="punyasiki">
-                <option value="Ya">Ya</option>
-                <option value="Tidak">Tidak</option>
-            </select>
-        </div>
-        <div class="form-group">
-            <label>Siap Mematuhi Aturan?</label>
-            <select name="siappatuh">
-                <option value="Ya">Ya</option>
-                <option value="Tidak">Tidak</option>
-            </select>
-        </div>
-        <button type="submit">Kirim Pendaftaran</button>
-    </form>
-</body>
-</html>
+
+    @foreach ($data as $item )
+
+    <div class="pdf-container">
+        <iframe class="pdf-frame" src="{{asset('storage/' . $item->peraturan )}}"></iframe>
+    </div>
+    <div style="margin-left: 450px;">
+        <button class="download-btn badgedownload" id="downloadBtn"><i class="fas fa-download me-2"></i> Download PDF</button>
+    </div>
+</div>
+</div>
+
+
+<script>
+    document.getElementById('downloadBtn').addEventListener('click', function() {
+        // URL file PDF
+        const pdfUrl = '{{asset('storage/' . $item->peraturan)}}';
+
+        // Membuat elemen anchor
+        const link = document.createElement('a');
+        link.href = pdfUrl;
+        link.download = pdfUrl.substring(pdfUrl.lastIndexOf('/') + 1);
+
+        // Menyimulasikan klik pada elemen anchor
+        document.body.appendChild(link);
+        link.click();
+
+        // Menghapus elemen anchor dari dokumen
+        document.body.removeChild(link);
+    });
+</script>
+
+@endforeach
+
+<br><br>
+    </section>
+
+
+  {{-- ------------------------------------------------------------------------------------------ --}}
+  {{-- ------------------------------------------------------------------------------------------ --}}
+  {{-- ------------------------------------------------------------------------------------------ --}}
+
+
+  {{-- ------------------------------------------------------------------------------------------ --}}
+  {{-- ------------------------------------------------------------------------------------------ --}}
+  {{-- ------------------------------------------------------------------------------------------ --}}
+
+
+
+
+
+
+@include('frontend.00_atas.footer1')
+
+    {{-- ------------------------------------------------------------------------------- --}}
+    {{-- ------------------------------------------------------------------------------- --}}
+    {{-- ------------------------------------------------------------------------------- --}}
+@include('frontend.00_atas.footer2')
