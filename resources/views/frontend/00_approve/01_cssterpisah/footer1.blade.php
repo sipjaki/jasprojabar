@@ -197,7 +197,7 @@
 			</li><!-- li -->
 			<li>
 				<i class="fa-solid fa-map-marker-alt"></i>
-				Jl. Nusantara No.62, Jetis, Kauman, Kec. Blora<br>Kabupaten Blora 58214 Provinsi Jawa Tengah
+				Jl. Nusantara No.62, Jetis, Kauman, Kec. Blora Kabupaten Blora 58214 Provinsi Jawa Tengah
 			</li><!-- li -->
 		</ul><!-- mobile-nav-contact -->
 		<ul class="mobile-nav-social list-unstyled">

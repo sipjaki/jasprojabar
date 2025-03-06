@@ -132,8 +132,9 @@
 						<div class="cta-four-content">
 							<i class="flaticon-location-pin"></i>
 							<div class="cta-four-content-box">
-								<span>Visit Office</span>
-								<p>30 Broklyn Golden Street. USA</p>
+								<span>Lokasi Kami</span>
+								<p>Jl. Nusantara No.62, Jetis, Kauman, Kec. Blora
+                                    Kabupaten Blora 58214 Provinsi Jawa Tengah</p>
 							</div><!-- cta-four-content-box -->
 						</div><!-- cta-four-content -->
 					</div><!-- col-12 col-lg-6 col-xl-4 -->
