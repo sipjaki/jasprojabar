@@ -245,13 +245,14 @@ color: #45a049;
                                     <thead>
                                         <tr>
                                             <th onclick="sortTable(0)" style="cursor:pointer; text-align:center; width:100px;"> No <span class="sort-icon">⇅</span></th>
-                                            <th onclick="sortTable(0)" style="cursor:pointer; text-align:center; width:100px;"> Kode AHSP<span class="sort-icon">⇅</span></th>
-                                            <th onclick="sortTable(1)" style="cursor:pointer; text-align:center; width:300px;"> Divisi <span class="sort-icon">⇅</span></th>
-                                            <th onclick="sortTable(1)" style="cursor:pointer; text-align:center; width:300px;"> Paket <span class="sort-icon">⇅</span></th>
-                                            <th onclick="sortTable(1)" style="cursor:pointer; text-align:center; width:300px;"> Kode Paket <span class="sort-icon">⇅</span></th>
-                                            <th onclick="sortTable(1)" style="cursor:pointer; text-align:center; width:125px;"> Kode <span class="sort-icon">⇅</span></th>
-                                            <th onclick="sortTable(1)" style="cursor:pointer; text-align:center; width:300px;"> Jenis Pekerjaan <span class="sort-icon">⇅</span></th>
-                                            <th onclick="sortTable(1)" style="cursor:pointer; text-align:center; width:300px;"> Harga Satuan <span class="sort-icon">⇅</span></th>
+                                            <th onclick="sortTable(1)" style="cursor:pointer; text-align:center; width:100px;"> Kode AHSP<span class="sort-icon">⇅</span></th>
+                                            <th onclick="sortTable(2)" style="cursor:pointer; text-align:center; width:300px;"> Divisi <span class="sort-icon">⇅</span></th>
+                                            <th onclick="sortTable(3)" style="cursor:pointer; text-align:center; width:300px;"> Paket <span class="sort-icon">⇅</span></th>
+                                            <th onclick="sortTable(4)" style="cursor:pointer; text-align:center; width:300px;"> Kode Paket <span class="sort-icon">⇅</span></th>
+                                            <th onclick="sortTable(5)" style="cursor:pointer; text-align:center; width:125px;"> Kode <span class="sort-icon">⇅</span></th>
+                                            {{-- <th onclick="sortTable(6)" style="cursor:pointer; text-align:center; width:300px;"> Jenis Pekerjaan <span class="sort-icon">⇅</span></th> --}}
+                                            <th onclick="sortTable(7)" style="cursor:pointer; text-align:center; width:300px;"> Jenis Pekerjaan <span class="sort-icon">⇅</span></th>
+                                            <th onclick="sortTable(8)" style="cursor:pointer; text-align:center; width:300px;"> Harga Satuan <span class="sort-icon">⇅</span></th>
                                             {{-- <th style="text-align:center; width:100px;"> View </th> --}}
                                         </tr>
                                     </thead>
@@ -271,7 +272,8 @@ color: #45a049;
                                             <td>{{$item->hspkodepekerjaan->namapekerjaan}}</td>
                                             <td style="text-align: center;">{{$item->kode}}</td>
                                             <td>{{$item->jenispekerjaan}}</td>
-                                            <td>Rp. {{ number_format($item->hargasatuan, 2, ',', '.') }}</td>
+                                            <td>Rp.</td>
+                                            <td style="text-align: right;">{{ number_format($item->hargasatuan, 2, ',', '.') }}</td>
 
                                             {{-- <td style="text-align: center">
                                                 <a href="/datajakon/bujkkontraktor/{{$item->namalengkap}}">
