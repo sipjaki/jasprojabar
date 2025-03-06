@@ -266,7 +266,7 @@ color: #45a049;
                                             <td style="text-align: center;">{{ $loop->iteration + $start - 1 }}</td>
                                             <td style="text-transform: capitalize;">{{ ucwords(strtolower($item->namalengkap)) }}</td>
                                             <td>{{$item->alamat}}</td>
-                                            <td style="text-align: center;">{{$item->no_telepon}}</td>
+                                            <td style="text-align: center;">{{$item->uploadktp}}</td>
                                             {{-- <td>{{$item->email}}</td>
                                             <td>{{$item->nib}}</td>
                                             <td>{{$item->pju}}</td>
