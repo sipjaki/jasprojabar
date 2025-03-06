@@ -35,6 +35,7 @@ use App\Http\Controllers\HspkonstruksiumumController;
 use App\Http\Controllers\SatuanhargamaterialController;
 use App\Http\Controllers\BeritajakonController;
 use App\Http\Controllers\KritikdansaranController;
+use App\Http\Controllers\AllskktenagakerjabloraController;
 
 // atas
 use Database\Factories\DatajakonFactory;
@@ -259,6 +260,9 @@ Route::get('/beritajakon', [BeritajakonController::class, 'index']);
 Route::get('/artikeljakon', [BeritajakonController::class, 'artikeljakon']);
 // Route::get('/shstblora/{kecamatanblora}', [TokobangunanbloraController::class, 'tokobangunanblorashow']);
 
+// ==========================================================================================================
+// ALL DATA PENDAFTARAN SKK TENAG AKERJA BLORA MAS JAKI
+Route::get('/skktenagakerjablora', [AllskktenagakerjabloraController::class, 'index']);
 
 // fort
 // ------------- HALAMAN UNTUK DATA SERTIFIKASI TENAGA KERJA AHLI -----------------

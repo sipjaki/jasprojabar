@@ -23,4 +23,9 @@ class namasekolah extends Model
         return $this->hasMany(skktenagakerjabloralist::class);
     }
 
+    public function allskktenagakerjablora()
+    {
+        return $this->hasMany(allskktenagakerjablora::class);
+    }
+
 }

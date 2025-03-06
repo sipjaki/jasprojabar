@@ -202,7 +202,7 @@
 								{{-- <li><a href="/404">Pelatihan</a></li>
 								<li><a href="/404">Bimbingan Teknis</a></li>
 								<li><a href="/404">Workshop</a></li> --}}
-								<li><a href="/404">SKK Tenaga Kerja Konstruksi</a></li>
+								<li><a href="/skktenagakerjablora">SKK Tenaga Kerja Konstruksi</a></li>
 								{{-- <li><a href="/404">Daftar Tenaga Ahli</a></li> --}}
 							</ul><!-- list-unstyled -->
 						</li><!--has-dropdown-->

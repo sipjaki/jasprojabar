@@ -27,26 +27,7 @@ use App\Models\suratedaran;
 use App\Models\pergubernur;
 use App\Models\suratkeputusan;
 use App\Models\berita;
-use App\Models\beritaagenda;
-use App\Models\giskbb;
-use App\Models\himbauandinas;
-use App\Models\isadmin;
-use App\Models\kegiatanjaskon;
-use App\Models\keterampilanpekerja;
-use App\Models\ketertiban;
-use App\Models\metodepengadaan;
-use App\Models\paketpekerjaan;
-use App\Models\Paketpekerjaan as ModelsPaketpekerjaan;
 use App\Models\pelatihan;
-use App\Models\penanggungjawabteknis;
-use App\Models\pengawasanbangunangedung;
-use App\Models\pengawasanketertiban;
-use App\Models\pengawasanlokasi;
-use App\Models\pengawasanstatus;
-use App\Models\pengawasantindakan;
-use App\Models\qa;
-use App\Models\qapertanyaan;
-use App\Models\qasebagai;
 use App\Models\renstra;
 use App\Models\sbulampiran1;
 use App\Models\sbulampiran2;
@@ -57,8 +38,6 @@ use App\Models\statusadmin;
 use App\Models\statustertibjakon;
 use App\Models\strukturdinas;
 use App\Models\tahunpilihan;
-use App\Models\tertibjakon;
-use App\Models\timpembina;
 use App\Models\tupoksi;
 use App\Models\uijk;
 use App\Models\bujkkontraktor;
@@ -77,12 +56,8 @@ use App\Models\asosiasiblora;
 use App\Models\asosiasimasjaki;
 use App\Models\profilpaketpekerjaanblora;
 use App\Models\profilpaketpekerjaannontender;
-use App\Models\profilpaketkonsultasi;
-use App\Models\profilpaketkonsultasinontender;
 use App\Models\prosespaket;
 use App\Models\prosespaketnontender;
-use App\Models\prosespaketkonsultasi;
-use App\Models\prosespaketkonsultasinontender;
 use App\Models\pengawasanbujk;
 use App\Models\kecelakaankerjamasjaki;
 use App\Models\penyediastatustertibjakon;
@@ -105,6 +80,7 @@ use App\Models\hsppaket;
 use App\Models\hspkodepekerjaan;
 use App\Models\hspkonstruksiumum;
 use App\Models\beritajakon;
+use App\Models\allskktenagakerjablora;
 // use App\Models\artikeljakon;
 use App\Models\artikeljakonmasjaki;
 
@@ -2132,9 +2108,36 @@ sumberdana::create([
     'deleted_at' => null, // Jika Anda menggunakan soft deletes
 ]);
 
+
+//======================== ===================================================================================
+// DATA NAMA SEKOLAH MAS JAKI BLORA
+allskktenagakerjablora::create([
+    'jabatankerja' => 'Personil Keselamatan dan Kesehatan Kerja Jenjang 4',
+    'namalengkap' => 'ARIF WAHYUDI',
+    'tempatlahir' => 'Bojonegoro',
+    'ttl' => '1989-04-14',
+    'jeniskelamin' => 'Laki-laki',
+    'nik' => '3522251404890001',
+    'alamat' => 'RT 5 RW 7 dukuh cepu kidul,kelurahan cepu,kec.cepu,kab.blora,jateng',
+    'notelepon' => '087730573343',
+    'email' => 'arifwahyudicc548@gmail.com',
+    'jenjangpendidikan_id' => 3,
+    'namasekolah_id' => 23,
+    'tahunlulus' => '2007',
+    'tahunpilihan_id' => 4,
+    'uploadktp' => 'https://drive.google.com/open?id=1N_6cVJ44YPAzK8Kr5qCQuiCfSXTkB9n6',
+    'uploadfoto' => 'https://drive.google.com/open?id=1FNHTKVU6oowro4CJlzLpj3FG-YdRi6ki',
+    'uploadijazah' => 'https://drive.google.com/open?id=14IoOuj_gp6LDGGnsrha11DARikUWnDHe',
+    'uploadpengalaman' => 'https://drive.google.com/open?id=1rWXn8FTSBirY94dqrT-T8au7R5bWaFrL',
+    'uploadnpwp' => 'https://drive.google.com/open?id=1-3gPp9RYiRCWu1fjqskNzdIFtnzFcBH4',
+    'uploaddaftarriwayathidup' => 'https://drive.google.com/open?id=1plhsgum_GVs_HLtVu--Ke7bku8eKfDEU',
+    'namaasosiasi' => 'Perorangan',
+    'punyaskk' => 'TIDAK',
+    'punyasiki' => 'TIDAK',
+    'siappatuh' => 'BERSEDIA',
+]);
+
 // fort
-
-
 //======================== ===================================================================================
 // DATA NAMA SEKOLAH MAS JAKI BLORA
 namasekolah::create([

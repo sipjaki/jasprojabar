@@ -13,4 +13,14 @@ class artikeljakonmasjaki extends Model
 
     protected $guarded = ['id'];
 
+    public function namasekolah()
+    {
+        return $this->belongsTo(namasekolah::class);
+    }
+
+    public function jenjangpendidikan()
+    {
+        return $this->belongsTo(jenjangpendidikan::class);
+    }
+
 }
