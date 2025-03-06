@@ -12,6 +12,7 @@ use App\Models\kegiatanjaskon;
 use App\Models\laporankegiatan;
 use App\Models\layanankami;
 use App\Models\pengawasanlokasi;
+use App\Models\artikeljakonmasjaki;
 use App\Models\qapertanyaan;
 use App\Models\qasebagai;
 use App\Models\qa;
@@ -25,14 +26,8 @@ class FedashboardController extends Controller
     public function index()
     {
         $data = beritajakon::orderBy('created_at', 'desc')->get(); //
-        // $databerita = berita::orderBy('created_at', 'desc')->get(); //
-        // $data_layanankami = layanankami::orderBy('created_at', 'desc')->get(); //
-        // $data_kegiatanjaskon = kegiatanjaskon::orderBy('created_at', 'desc')->get(); //
-        // $dataqapertanyaan = qa::orderBy('created_at', 'desc')->get(); //
-        // $dataqasebagai = qasebagai::orderBy('created_at', 'desc')->get(); //
-        // $dataqapertanyaan = qapertanyaan::orderBy('created_at', 'desc')->get(); //
+        $dataartikel = artikeljakonmasjaki::orderBy('created_at', 'desc')->get(); //
 
-        // $himbauandinas = himbauandinas::orderBy('created_at', 'desc')->get(); //
 
         $user = Auth::user();
 

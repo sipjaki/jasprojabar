@@ -140,7 +140,53 @@
                 </div>
 
                 @endforeach
+
             </div>
+<br><br>
+            <div class="blog-box">
+                <div class="section-title-box text-center" style="margin-top: 20px;">
+                    <h2 class="section-title" style="font-size: 32px;">Artikel Jasa Konstruksi</h2>
+                </div>
+            </div>
+
+            <div class="row row-gutter-y-155">
+
+                @foreach ($dataartikel->take(3) as $item)
+
+
+{{-- ----------------------------------------------------------------------- --}}
+<div class="col-12 col-lg-6 col-xl-6">
+    <div class="event-card">
+        <div class="event-card-image">
+            <div class="event-card-image-inner">
+                <a href="#"><img src="/assets/00_dokmasjaki/03_datajakon/konsultannontender.png" class="img-fluid" alt="img-164" width="200px;"></a>
+                <div class="event-card-meta">
+                    <div class="event-meta-number">
+                        <a href="/404">
+                            <span><i class="fas fa-download"></i></span>
+                        </a>
+                        </div><!-- event-meta-number -->
+                        <div class="event-meta-date">
+                            <span>Maret 2025</span>
+                        </div><!-- event-meta-date -->
+                    </div><!-- event-card-meta -->
+                </div><!-- event-card-image-inner -->
+            </div><!--event-card-image-->
+            <div class="event-card-content">
+                <div class="event-card-title">
+                    <h4><a href="#">{{$item->judul}}</a></h4>
+                </div><!-- event-card-title -->
+            </div><!--event-card-content-->
+        </div><!--event-card-->
+    </div><!--col-12 col-lg-6 col-xl-6-->
+{{-- ----------------------------------------------------------------------- --}}
+
+
+@endforeach
+
+            </div>
+
+
         </div>
     </section>
 

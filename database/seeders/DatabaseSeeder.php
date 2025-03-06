@@ -105,7 +105,8 @@ use App\Models\hsppaket;
 use App\Models\hspkodepekerjaan;
 use App\Models\hspkonstruksiumum;
 use App\Models\beritajakon;
-use App\Models\artikeljakon;
+// use App\Models\artikeljakon;
+use App\Models\artikeljakonmasjaki;
 
 
 // modelbaru
@@ -6109,66 +6110,68 @@ beritajakon::create([
 //======================== ===================================================================================
 // DATA ARTIKEL JAKON MAS JAKI
 
-artikeljakon::create([
+artikeljakonmasjaki::create([
     'judul' => 'Mengenal Sistem Informasi Jasa Konstruksi: Manfaat dan Implementasinya',
     'berkas' => null,
     'tanggal' => null,
 ]);
 
-artikeljakon::create([
+artikeljakonmasjaki::create([
     'judul' => 'Mengenal Sistem Informasi Jasa Konstruksi: Manfaat dan Implementasinya',
     'berkas' => null,
     'tanggal' => null,
 ]);
 
-artikeljakon::create([
+artikeljakonmasjaki::create([
     'judul' => 'Digitalisasi Manajemen Proyek: Peran Sistem Informasi dalam Jasa Konstruksi',
     'berkas' => null,
     'tanggal' => null,
 ]);
 
-artikeljakon::create([
+artikeljakonmasjaki::create([
     'judul' => 'Panduan Memilih Sistem Informasi yang Tepat untuk Perusahaan Konstruksi',
     'berkas' => null,
     'tanggal' => null,
 ]);
 
-artikeljakon::create([
+artikeljakonmasjaki::create([
     'judul' => 'Teknologi dalam Jasa Konstruksi: Bagaimana Sistem Informasi Meningkatkan Efisiensi?',
     'berkas' => null,
     'tanggal' => null,
 ]);
 
-artikeljakon::create([
+artikeljakonmasjaki::create([
     'judul' => 'Keamanan Data dalam Sistem Informasi Jasa Konstruksi: Tantangan dan Solusi',
     'berkas' => null,
     'tanggal' => null,
 ]);
 
-artikeljakon::create([
+artikeljakonmasjaki::create([
     'judul' => 'Meningkatkan Produktivitas Konstruksi dengan Sistem Manajemen Informasi',
     'berkas' => null,
     'tanggal' => null,
 ]);
 
-artikeljakon::create([
+artikeljakonmasjaki::create([
     'judul' => 'Tren Digital dalam Industri Konstruksi: Integrasi BIM dan Sistem Informasi',
     'berkas' => null,
     'tanggal' => null,
 ]);
 
-artikeljakon::create([
+artikeljakonmasjaki::create([
     'judul' => 'Regulasi dan Standar dalam Sistem Informasi Jasa Konstruksi di Indonesia',
     'berkas' => null,
     'tanggal' => null,
 ]);
 
-artikeljakon::create([
+artikeljakonmasjaki::create([
     'judul' => 'Strategi Implementasi Sistem Informasi untuk Optimalisasi Pengelolaan Proyek Konstruksi',
     'berkas' => null,
     'tanggal' => null,
 ]);
 
+
+// ARIS AKHIR
 // ===============================
 // DATA TAHUN PILIHAN
 
