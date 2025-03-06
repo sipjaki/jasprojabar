@@ -260,7 +260,7 @@ color: #45a049;
                                         @foreach ($data as $item )
                                         <tr>
                                             <td style="text-align: center;">{{ $loop->iteration + $start - 1 }}</td>
-                                            <td>{{$item->hspdivisi->id}}.{{$item->hspkodepekerjaan->id}}.{{$item->kode->id}}</td>
+                                            <td>{{$item->hspdivisi->hspdivisi->id}}.{{$item->hsppaket->hsppaket->id}}.{{$item->hspkodepekerjaan->hspkodepekerjaan->id}}.{{$item->kode->id}}</td>
                                             <td>{{$item->hspdivisi->hspdivisi}}</td>
                                             <td>{{$item->hsppaket->hsppaket}}</td>
                                             <td>{{$item->hspkodepekerjaan->namapekerjaan}}</td>
