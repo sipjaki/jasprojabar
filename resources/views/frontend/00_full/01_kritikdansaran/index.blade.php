@@ -25,7 +25,7 @@
                             <!-- Nama Lengkap -->
                             <div class="col-12 col-lg-6">
                                 <div class="input-group">
-                                    <span class="input-icon"><i class="fas fa-user" style="color: black; margin-right:10px;">Nama Lengkap</i></span>
+                                    <span class="input-icon"><i class="fas fa-user" style="color: black; margin-right:10px;"></i>Nama Lengkap</span>
                                     <input type="text" id="namalengkap" class="input-text" placeholder="Isi Data" name="namalengkap" aria-required="true">
                                 </div>
                             </div>
