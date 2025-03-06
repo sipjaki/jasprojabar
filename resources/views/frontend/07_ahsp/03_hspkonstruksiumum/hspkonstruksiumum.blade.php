@@ -271,7 +271,7 @@ color: #45a049;
                                             <td>{{$item->hspkodepekerjaan->namapekerjaan}}</td>
                                             <td style="text-align: center;">{{$item->kode}}</td>
                                             <td>{{$item->jenispekerjaan}}</td>
-                                            <td>{{$item->hargasatuan}}</td>
+                                            <td>Rp. {{ number_format($item->hargasatuan, 2, ',', '.') }}</td>
 
                                             {{-- <td style="text-align: center">
                                                 <a href="/datajakon/bujkkontraktor/{{$item->namalengkap}}">
