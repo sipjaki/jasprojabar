@@ -149,16 +149,12 @@
                 </div>
             </div>
 
-
-
-        </div>
-    </section>
-
     <section class="event-three-section">
 		<div class="event-section-outer">
 			<div class="container">
 				<div class="row row-gutter-y-30">
-                    @foreach ($dataartikel as  $item)
+
+                    @foreach ($dataartikel->take(3) as $item)
 
 
 {{-- ----------------------------------------------------------------------- --}}
@@ -194,6 +190,12 @@
 			</div><!-- container -->
 		</div><!-- event-section-outer -->
 	</section><!--event-three-section-->
+
+
+
+
+        </div>
+    </section>
 
 
     <section class="client-section" style="background: #2ECC71">
