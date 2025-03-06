@@ -54,6 +54,7 @@
 		</div><!-- main-slider-swiper -->
 
 	</section><!--main-slider-->
+
     <section class="blog-section">
         <div class="container">
             <div class="blog-box">
@@ -64,8 +65,8 @@
             <div class="row d-flex justify-content-center">
                 <div class="col-lg-3">
                     <div class="blog-card text-center">
-                        <div class="blog-card-image" style="width: 100%; height: 200px; overflow: hidden; border-radius: 8px;">
-                            <img src="/assets/00_dokmasjaki/03_datajakon/analisisharga.png" class="img-fluid" alt="img-22" style="width: 100%; height: 100%; object-fit: cover;">
+                        <div class="blog-card-image">
+                            <img src="/assets/00_dokmasjaki/03_datajakon/analisisharga.png" class="img-fluid" alt="img-22" width="200px;">
                             <a href="/hspkonstruksiumum"></a>
                         </div><!-- blog-card-image -->
                         <div class="blog-card-content">
@@ -75,8 +76,8 @@
                 </div><!-- col-lg-3 -->
                 <div class="col-lg-3">
                     <div class="blog-card text-center">
-                        <div class="blog-card-image" style="width: 100%; height: 200px; overflow: hidden; border-radius: 8px;">
-                            <img src="/assets/00_dokmasjaki/03_datajakon/hsp1.jpg" class="img-fluid" alt="img-22" style="width: 100%; height: 100%; object-fit: cover;">
+                        <div class="blog-card-image">
+                            <img src="/assets/00_dokmasjaki/03_datajakon/analisisharga.png" class="img-fluid" alt="img-22" width="200px;">
                             <a href="/satuanhargamaterial"></a>
                         </div><!-- blog-card-image -->
                         <div class="blog-card-content">
@@ -86,12 +87,12 @@
                 </div><!-- col-lg-3 -->
                 <div class="col-lg-3">
                     <div class="blog-card text-center">
-                        <div class="blog-card-image" style="width: 100%; height: 200px; overflow: hidden; border-radius: 8px;">
-                            <img src="/assets/00_dokmasjaki/03_datajakon/hsp2.jpg" class="img-fluid" alt="img-22" style="width: 100%; height: 100%; object-fit: cover;">
+                        <div class="blog-card-image">
+                            <img src="/assets/00_dokmasjaki/03_datajakon/analisisharga.png" class="img-fluid" alt="img-22" width="200px;">
                             <a href="/shstblora"></a>
                         </div><!-- blog-card-image -->
                         <div class="blog-card-content">
-                            <h4><a href="news-details.html">SHST Kab Blora Tahun 2025</a></h4>
+                            <h4><a href="news-details.html">SHST Kab Blora Tahun 2025 </a></h4>
                         </div><!-- blog-card-content -->
                     </div><!-- blog-card -->
                 </div><!-- col-lg-3 -->
