@@ -4,80 +4,121 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Form Pendaftaran</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
-    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
     <style>
         body {
-            background-color: #f4f7f6;
-            font-family: 'Arial', sans-serif;
-        }
-        .container {
-            max-width: 800px;
-            background: #fff;
+            font-family: Arial, sans-serif;
+            margin: 40px;
             padding: 20px;
-            margin: 50px auto;
-            border-radius: 10px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border: 1px solid #000;
+            max-width: 600px;
+            background-color: #f9f9f9;
+        }
+        h2 {
+            text-align: center;
         }
         .form-group {
             margin-bottom: 15px;
         }
-        .form-control {
-            border-radius: 5px;
+        label {
+            font-weight: bold;
         }
-        .btn-submit {
-            background: #007bff;
-            color: white;
-            border-radius: 5px;
+        input, select, textarea {
             width: 100%;
+            padding: 8px;
+            margin-top: 5px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
         }
-        .btn-submit:hover {
-            background: #0056b3;
+        button {
+            background-color: #007bff;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            cursor: pointer;
+            width: 100%;
+            font-size: 16px;
+        }
+        button:hover {
+            background-color: #0056b3;
         }
     </style>
 </head>
 <body>
-    <div class="container">
-        <h2 class="text-center mb-4">Form Pendaftaran</h2>
-        <form action="/submit" method="post">
-            <div class="form-group">
-                <label>Nama Lengkap</label>
-                <input type="text" class="form-control" name="namalengkap" placeholder="Masukkan Nama Lengkap" required>
-            </div>
-            <div class="form-group">
-                <label>Tempat Lahir</label>
-                <input type="text" class="form-control" name="tempatlahir" placeholder="Masukkan Tempat Lahir" required>
-            </div>
-            <div class="form-group">
-                <label>Tanggal Lahir</label>
-                <input type="date" class="form-control" name="ttl" required>
-            </div>
-            <div class="form-group">
-                <label>Jenis Kelamin</label>
-                <select class="form-control" name="jeniskelamin" required>
-                    <option value="">Pilih</option>
-                    <option value="Laki-laki">Laki-laki</option>
-                    <option value="Perempuan">Perempuan</option>
-                </select>
-            </div>
-            <div class="form-group">
-                <label>NIK</label>
-                <input type="text" class="form-control" name="nik" placeholder="Masukkan NIK" required>
-            </div>
-            <div class="form-group">
-                <label>Alamat</label>
-                <textarea class="form-control" name="alamat" placeholder="Masukkan Alamat" required></textarea>
-            </div>
-            <div class="form-group">
-                <label>Nomor Telepon</label>
-                <input type="text" class="form-control" name="notelepon" placeholder="Masukkan Nomor Telepon" required>
-            </div>
-            <div class="form-group">
-                <label>Email</label>
-                <input type="email" class="form-control" name="email" placeholder="Masukkan Email" required>
-            </div>
-            <button type="submit" class="btn btn-submit">Daftar Sekarang</button>
-        </form>
-    </div>
+    <h2>Form Pendaftaran</h2>
+    <form action="#" method="POST">
+        <div class="form-group">
+            <label>Nama Lengkap:</label>
+            <input type="text" name="namalengkap" required>
+        </div>
+        <div class="form-group">
+            <label>Tempat, Tanggal Lahir:</label>
+            <input type="text" name="ttl" required>
+        </div>
+        <div class="form-group">
+            <label>Jenis Kelamin:</label>
+            <select name="jeniskelamin">
+                <option value="Laki-laki">Laki-laki</option>
+                <option value="Perempuan">Perempuan</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label>NIK:</label>
+            <input type="text" name="nik" required>
+        </div>
+        <div class="form-group">
+            <label>Alamat:</label>
+            <textarea name="alamat" required></textarea>
+        </div>
+        <div class="form-group">
+            <label>Nomor Telepon:</label>
+            <input type="text" name="notelepon" required>
+        </div>
+        <div class="form-group">
+            <label>Email:</label>
+            <input type="email" name="email" required>
+        </div>
+        <div class="form-group">
+            <label>Jenjang Pendidikan Terakhir:</label>
+            <input type="text" name="jenjangpendidikan" required>
+        </div>
+        <div class="form-group">
+            <label>Nama Sekolah/Universitas:</label>
+            <input type="text" name="namasekolah" required>
+        </div>
+        <div class="form-group">
+            <label>Tahun Lulus:</label>
+            <input type="text" name="tahunlulus" required>
+        </div>
+        <div class="form-group">
+            <label>Dokumen Pendukung:</label>
+            <input type="file" name="uploadfile" multiple>
+        </div>
+        <div class="form-group">
+            <label>Nama Asosiasi (Jika Ada):</label>
+            <input type="text" name="namaasosiasi">
+        </div>
+        <div class="form-group">
+            <label>Memiliki SKK?</label>
+            <select name="punyaskk">
+                <option value="Ya">Ya</option>
+                <option value="Tidak">Tidak</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label>Memiliki SIKI?</label>
+            <select name="punyasiki">
+                <option value="Ya">Ya</option>
+                <option value="Tidak">Tidak</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label>Siap Mematuhi Aturan?</label>
+            <select name="siappatuh">
+                <option value="Ya">Ya</option>
+                <option value="Tidak">Tidak</option>
+            </select>
+        </div>
+        <button type="submit">Kirim Pendaftaran</button>
+    </form>
 </body>
 </html>
