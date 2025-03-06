@@ -283,7 +283,7 @@
                     <div class="cta-two-title d-flex align-items-center">
                         <a href="/kritikdansaran">
                             <div class="cta-two-card-icon" style="transition: color 0.3s ease, transform 0.3s ease;">
-                                <i class="flaticon-envelope-2" style="color: inherit;"></i>
+                                <i class="flaticon-envelope-2" style="color: white;"></i>
                             </div>
                         </a>
 
