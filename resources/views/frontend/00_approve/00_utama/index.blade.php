@@ -149,7 +149,7 @@
                 </div>
             </div>
 
-    <section class="event-three-section">
+    <section class="event-three-section" style="margin-top:-100px;">
 		<div class="event-section-outer">
 			<div class="container">
 				<div class="row row-gutter-y-30">
