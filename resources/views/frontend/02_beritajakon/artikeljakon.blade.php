@@ -15,12 +15,6 @@
 		</div><!-- container -->
 	</section><!--page-banner-->
 
-    <div class="pagination-info-box" style="margin-right:300px; padding: 10px; border: 1px solid black; background-color: #f9f9f9; border-radius: 5px;">
-        <div class="pagination-info" style="color: black; font-weight: 500; font-size:20px;">
-            Data Ke {{ $data->firstItem() }} Sampai {{ $data->lastItem() }} Dari {{ $data->total() }} Jumlah {{$title}}
-        </div>
-    </div>
-
 
 	<section class="event-three-section">
 		<div class="event-section-outer">
@@ -61,6 +55,14 @@
 				</div><!-- row -->
 			</div><!-- container -->
 		</div><!-- event-section-outer -->
+
+
+    <div class="pagination-info-box" style="margin-right:300px; padding: 10px; border: 1px solid black; background-color: #f9f9f9; border-radius: 5px;">
+        <div class="pagination-info" style="color: black; font-weight: 500; font-size:20px;">
+            Data Ke {{ $data->firstItem() }} Sampai {{ $data->lastItem() }} Dari {{ $data->total() }} Jumlah {{$title}}
+        </div>
+    </div>
+
 
         <div class="pagination-container" style="margin-top: 50px; display: flex; flex-direction: column; align-items: center;">
             <ul class="pagination-paginate" style="display: flex; padding-left: 0; list-style: none; margin-top: 10px;">
