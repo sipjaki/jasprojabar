@@ -25,15 +25,15 @@
                             <!-- Nama Lengkap -->
                             <div class="col-12 col-lg-6">
                                 <div class="input-group">
-                                    <span class="input-icon"><i class="fas fa-user"></i></span>
-                                    <input type="text" id="namalengkap" class="input-text" placeholder="Nama Lengkap" name="namalengkap" aria-required="true">
+                                    <span class="input-icon"><i class="fas fa-user" style="color: black; margin-right:10px;">Nama Lengkap</i></span>
+                                    <input type="text" id="namalengkap" class="input-text" placeholder="Isi Data" name="namalengkap" aria-required="true">
                                 </div>
                             </div>
 
                             <!-- Nomor Telepon -->
                             <div class="col-12 col-lg-6">
                                 <div class="input-group">
-                                    <span class="input-icon"><i class="fas fa-phone"></i></span>
+                                    <span class="input-icon"><i class="fas fa-phone" style="color: black; margin-right:10px;"></i></span>
                                     <input type="text" id="notelepon" class="input-text" placeholder="Nomor Telepon" name="notelepon" aria-required="true">
                                 </div>
                             </div>
@@ -41,7 +41,7 @@
                             <!-- Pekerjaan -->
                             <div class="col-12 col-lg-6">
                                 <div class="input-group">
-                                    <span class="input-icon"><i class="fas fa-briefcase"></i></span>
+                                    <span class="input-icon"><i class="fas fa-briefcase" style="color: black; margin-right:10px;"></i></span>
                                     <input type="text" id="pekerjaan" class="input-text" placeholder="Pekerjaan" name="pekerjaan" aria-required="true">
                                 </div>
                             </div>
@@ -49,13 +49,13 @@
                             <!-- Keterangan -->
                             <div class="col-12 col-lg-12">
                                 <div class="input-group">
-                                    <span class="input-icon"><i class="fas fa-comment"></i></span>
+                                    <span class="input-icon"><i class="fas fa-comment" style="color: black; margin-right:10px;"></i></span>
                                     <textarea name="keterangan" id="keterangan" placeholder="Tuliskan Kritik atau Saran" class="input-text" aria-required="true"></textarea>
                                 </div>
                             </div>
 
                             <!-- Tombol Submit -->
-                            <div class="col-12 col-lg-12 text-center">
+                            <div class="col-12 col-lg-12 text-center" style="color: black; margin-right:10px;">
                                 <button class="btn btn-primary">Kirim Kritik & Saran</button>
                             </div>
                         </div>
