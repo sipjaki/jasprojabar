@@ -29,7 +29,7 @@
                             animation: scrolling-text 3s linear infinite;
                             width: 100%;">
 
-                            <marquee behavior="scroll" direction="left" style="width: 1000px; margin-top:-10px;">
+                            <marquee behavior="scroll" direction="left" style="width: 900px; margin-top:-10px;">
                                 <a href="#" style="color: navy; text-decoration: none;">
                                 Selamat Datang di Mas Jaki DPUPR Kab Blora Sistem Informasi Pembina Jasa Konstruksi Dinas Pekerjaan Umum dan Penataan Ruang Kabupaten Blora Provinsi Jawa Tengah
                                 </a>
