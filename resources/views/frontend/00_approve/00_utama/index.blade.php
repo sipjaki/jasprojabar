@@ -274,6 +274,7 @@
 	</section><!--cta-five-section--> --}}
 
 <br><br>
+
 <section class="cta-two-section">
     <div class="container">
         <div class="cta-two-section-inner">
@@ -289,7 +290,9 @@
                     </div>
                 </div>
                 <div class="col-xl-7 text-end">
-                    <a href="/kritikdansaran" class="btn btn-primary" aria-label="Buka Form Kritik dan Saran">Form Saran</a>
+                    <a href="form-kritik-saran.html" class="btn btn-primary btn-lg" role="button" aria-label="Buka Form Kritik dan Saran">
+                        Form Saran
+                    </a>
                 </div>
             </div>
         </div>
