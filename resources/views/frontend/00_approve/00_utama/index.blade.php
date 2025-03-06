@@ -274,31 +274,28 @@
 	</section><!--cta-five-section--> --}}
 
 <br><br>
-    <section class="cta-two-section">
-		<div class="container">
-			<div class="cta-two-section-inner">
-				<div class="row">
-					<div class="col-xl-5">
-						<div class="cta-two-title">
-							<div class="cta-two-card-icon">
-								<i class="flaticon-envelope-2"></i>
-							</div><!-- cta-two-card-icon -->
-							<div class="cta-two-card-content">
-								{{-- <p>Stay Connected</p> --}}
-								<h3 style="font-size: 25px;">Kritik dan Saran </h3>
-							</div><!-- cta-two-card-content -->
-						</div><!--cta-two-title-->
-					</div><!--col-xl-5-->
-					<div class="col-xl-7">
-                        <a href="">
-                            <button class="btn btn-primary">Form Saran</button>
-                        </a>
+<section class="cta-two-section">
+    <div class="container">
+        <div class="cta-two-section-inner">
+            <div class="row align-items-center">
+                <div class="col-xl-5">
+                    <div class="cta-two-title d-flex align-items-center">
+                        <div class="cta-two-card-icon">
+                            <i class="flaticon-envelope-2"></i>
+                        </div>
+                        <div class="cta-two-card-content">
+                            <h3 class="cta-title">Kritik dan Saran</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-7 text-end">
+                    <a href="/kritikdansaran" class="btn btn-primary" aria-label="Buka Form Kritik dan Saran">Form Saran</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
-					</div><!-- col-xl-7-->
-				</div><!-- row -->
-			</div><!-- cta-two-section-inner -->
-		</div><!-- container -->
-	</section><!--cta-two-section-->
 </div><!--page-wrapper-->
 
 
