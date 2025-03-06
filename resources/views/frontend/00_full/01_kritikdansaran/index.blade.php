@@ -75,7 +75,7 @@
 	<div class="contact-gmap-section">
 		<div class="container">
 			<div class="responsive-map">
-				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12083.735079362054!2d-74.01702461732008!3d40.785470167558394!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c258131938b8d5%3A0xe39c30a8afef2d96!2sWest%20New%20York%2C%20NJ%2007093%2C%20USA!5e0!3m2!1sen!2sin!4v1668832966742!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+				<iframe src="https://www.google.com/maps/place/Dinas+Pekerjaan+Umum+dan+Penataan+Ruang+(DPUPR)+Kabupaten+Blora/@-6.977182,111.4085298,17z/data=!3m1!4b1!4m6!3m5!1s0x2e77411bc797c1ed:0x5ddba5997190e35c!8m2!3d-6.977182!4d111.4111047!16s%2Fg%2F11b6dpfgz4?entry=ttu&g_ep=EgoyMDI1MDMwMy4wIKXMDSoJLDEwMjExNDU1SAFQAw%3D%3D"></iframe>
 			</div><!-- responsive-map -->
 		</div><!-- container -->
 	</div><!-- contact-gmap-section -->
