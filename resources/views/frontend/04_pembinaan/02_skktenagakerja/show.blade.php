@@ -105,7 +105,7 @@
             <td>:</td>
             <td>{{$data->namalengkap}}</td>
             <td>
-                <img src="/assets/00_dokmasjaki/03_datajakon/jabatan.png" alt="" height="600px;">
+                <img src="/assets/00_dokmasjaki/03_datajakon/jabatan.png" alt="" height="200px;">
             </td>
         </tr>
         <tr>
