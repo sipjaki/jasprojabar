@@ -6048,8 +6048,17 @@ hspkonstruksiumum::create([
     'hsppaket_id' => 1,
     'hspkodepekerjaan_id' => 1,
     'kode' => '5',
-    'jenispekerjaan' => 'Pembuatan 1 m’ pagar sementara seng gelombang rangka baja L.40.40.4, tinggi pagar 1,8 m’ ',
-    'hargasatuan' => '550180.75',
+    'jenispekerjaan' => 'Pembuatan 1 m2 pagar BRC galvanis’ ',
+    'hargasatuan' => '11395.20',
+]);
+
+hspkonstruksiumum::create([
+    'hspdivisi_id' => 1,
+    'hsppaket_id' => 1,
+    'hspkodepekerjaan_id' => 1,
+    'kode' => '6',
+    'jenispekerjaan' => 'Pemasangan 1 m2  Panel Beton Pracetak 50x50x240 untuk Pagar',
+    'hargasatuan' => '605010.56',
 ]);
 
 // garis hsp
