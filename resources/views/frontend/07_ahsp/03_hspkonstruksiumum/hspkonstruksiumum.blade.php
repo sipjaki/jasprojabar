@@ -310,48 +310,8 @@ color: #45a049;
         </div><!-- container -->
     </section><!-- service-two-section -->
 
-
-<!-- Modal -->
-<div class="modal fade" id="detailModal" tabindex="-1" aria-labelledby="modalTitle" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="modalTitle">Detail Uraian</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-                <table class="table table-striped">
-                    <thead>
-                        <tr>
-                            <th>No</th>
-                            <th>Uraian</th>
-                            <th>Kode</th>
-                            <th>Satuan</th>
-                            <th>Koefisien</th>
-                            <th>Harga Satuan</th>
-                            <th>Jumlah Harga</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td id="modal-no"></td>
-                            <td id="modal-uraian"></td>
-                            <td id="modal-kode"></td>
-                            <td id="modal-satuan"></td>
-                            <td id="modal-koefisien"></td>
-                            <td id="modal-hargasatuan"></td>
-                            <td id="modal-jumlahharga"></td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-        </div>
-    </div>
-</div>
-
-
-
-
 </div><!--page-wrapper-->
+
+
 @include('frontend.00_approve.01_cssterpisah.footer1')
 @include('frontend.00_approve.01_cssterpisah.footer')
