@@ -91,19 +91,22 @@
             <p>Jl. Nusantara No. 62 Telp. (0296) 531004</p>
             <h3>BLORA 58214</h3>
             <p>_____________________________________________________________</p>
-            <h3>PROFIL OPD JASA KONSTRUKSI</h3>
+            <h3>DAFTAR PESERTA SKK TENAGA KONSTRUKSI</h3>
             <h4>DINAS PEKERJAAN UMUM DAN PENATAAN RUANG KABUPATEN BLORA</h4>
         </div>
     </div>
     <br>
 
-    <h4>I. IDENTITAS OPD</h4>
+    <h4>I. IDENTITAS PESERTA</h4>
     <table>
         <tr>
             <td>1.</td>
-            <td>Nama OPD</td>
+            <td>Nama Lengkap</td>
             <td>:</td>
             <td>Dinas Pekerjaan Umum Dan Penataan Ruang Kabupaten Blora</td>
+            <td>
+                <img src="/assets/00_dokmasjaki/03_datajakon/jabatan.png" alt="">
+            </td>
         </tr>
         <tr>
             <td>2.</td>
