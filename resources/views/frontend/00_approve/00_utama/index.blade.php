@@ -122,7 +122,7 @@
 
             <div class="row row-gutter-y-155">
 
-                @foreach ($data as $item)
+                @foreach ($data->take(3) as $item)
 
                 <div class="col-lg-4">
                     <div class="blog-card">
