@@ -248,7 +248,7 @@ color: #45a049;
                                             <th onclick="sortTable(1)" style="cursor:pointer; text-align:center; width:150px;"> Kode AHSP<span class="sort-icon">⇅</span></th>
                                             {{-- <th onclick="sortTable(2)" style="cursor:pointer; text-align:center; width:300px;"> Divisi <span class="sort-icon">⇅</span></th> --}}
                                             {{-- <th onclick="sortTable(3)" style="cursor:pointer; text-align:center; width:300px;"> Paket <span class="sort-icon">⇅</span></th> --}}
-                                            <th onclick="sortTable(4)" style="cursor:pointer; text-align:center; width:300px;"> Kode Paket <span class="sort-icon">⇅</span></th>
+                                            <th onclick="sortTable(4)" style="cursor:pointer; text-align:center; width:250px;"> Kode Paket <span class="sort-icon">⇅</span></th>
                                             {{-- <th onclick="sortTable(5)" style="cursor:pointer; text-align:center; width:125px;"> Kode <span class="sort-icon">⇅</span></th> --}}
                                             <th onclick="sortTable(7)" style="cursor:pointer; text-align:center; width:600px;"> Jenis Pekerjaan <span class="sort-icon">⇅</span></th>
                                             <th onclick="sortTable(6)" style="cursor:pointer; text-align:center; width:80px;"> Rp. <span class="sort-icon">⇅</span></th>
@@ -269,7 +269,7 @@ color: #45a049;
                                             </td>
                                             {{-- <td>{{$item->hspdivisi->hspdivisi}}</td> --}}
                                             {{-- <td>{{$item->hsppaket->hsppaket}}</td> --}}
-                                            <td>{{$item->hspkodepekerjaan->namapekerjaan}}</td>
+                                            <td style="text-align: center;">{{$item->hspkodepekerjaan->namapekerjaan}}</td>
                                             {{-- <td style="text-align: center;">{{$item->kode}}</td> --}}
                                             <td>{{$item->jenispekerjaan}}</td>
                                             <td style="text-align: center;">Rp.</td>
