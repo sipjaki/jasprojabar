@@ -124,7 +124,7 @@ class SatuanhargamaterialController extends Controller
         ]);
     }
 
-    public function hspdivis1(Request $request)
+    public function hspdivisi1(Request $request)
     {
         $perPage = $request->input('perPage', 25);
         $search = $request->input('search');

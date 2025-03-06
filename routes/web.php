@@ -233,7 +233,7 @@ Route::get('/satuanhargaperalatan', [SatuanhargamaterialController::class, 'satu
 
 // AHSP HARGA SATUAN DASAR PERDIVISI
 // ==============================================================================================================
-Route::get('/hspdivisi1', [SatuanhargamaterialController::class, 'hspdivis1']);
+Route::get('/hspdivisi1', [SatuanhargamaterialController::class, 'hspdivisi1']);
 
 // fort
 
