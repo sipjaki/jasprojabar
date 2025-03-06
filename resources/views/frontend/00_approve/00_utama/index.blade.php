@@ -154,7 +154,7 @@
 			<div class="container">
 				<div class="row row-gutter-y-30">
 
-                    @foreach ($dataartikel->take(3) as $item)
+                    @foreach ($dataartikel->take(4) as $item)
 
 
 {{-- ----------------------------------------------------------------------- --}}
