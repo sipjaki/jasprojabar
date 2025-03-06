@@ -145,7 +145,7 @@ color: #45a049;
                     <div class="service-two-card">
                         <div class="service-two-imgbox">
                              --}}
-                            <section class="donate-section" style="background: linear-gradient(to bottom, green, #FFD100, white);">
+                             <section class="donate-section" style="background-image: url(/assets/00_dokmasjaki/03_datajakon/bannerbetter.jpg);">
                                 <div class="container" style="
                                 background: white;
                                 max-width: 95%;
