@@ -140,13 +140,13 @@
 					<div class="col-12 col-lg-6 col-xl-2">
 						<div class="cta-four-content">
 							<div class="cta-four-widget-socials">
-                                <li><a href="#"><i class="fa-solid fa-envelope"></i></a></li>
-                                <li><a href="#"><i class="fa-brands fa-tiktok"></i></a></li>
-                                <li><a href="https://wa.me/6281321455855"><i class="fa-brands fa-whatsapp"></i></a></li>
-                                <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
-                                <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
-                                <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
-                                <li><a href="#"><i class="fa-solid fa-phone"></i></a></li>
+                                <a href="#"><i class="fa-solid fa-envelope"></i></a>
+                                <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+                                <a href="https://wa.me/6281321455855"><i class="fa-brands fa-whatsapp"></i></a>
+                                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                                <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                                <a href="#"><i class="fa-solid fa-phone"></i></a>
 							</div><!-- cta-four-widget-socials -->
 						</div><!-- cta-four-content -->
 					</div><!-- col-12 col-lg-6 col-xl-2 -->
