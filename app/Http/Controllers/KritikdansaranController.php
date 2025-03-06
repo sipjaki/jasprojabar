@@ -11,7 +11,7 @@ use Illuminate\Support\Facades\Auth;
 class KritikdansaranController extends Controller
 {
 
-    public function bujkkonsultan()
+    public function index()
     {
 
         $data = kritikdansaran::all();
