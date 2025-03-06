@@ -263,6 +263,7 @@ Route::get('/artikeljakon', [BeritajakonController::class, 'artikeljakon']);
 // ==========================================================================================================
 // ALL DATA PENDAFTARAN SKK TENAG AKERJA BLORA MAS JAKI
 Route::get('/skktenagakerjablora', [AllskktenagakerjabloraController::class, 'index']);
+Route::get('/skktenagakerjablora/{namalengkap}', [AllskktenagakerjabloraController::class, 'skktenagakerjablorashow']);
 
 // fort
 // ------------- HALAMAN UNTUK DATA SERTIFIKASI TENAGA KERJA AHLI -----------------

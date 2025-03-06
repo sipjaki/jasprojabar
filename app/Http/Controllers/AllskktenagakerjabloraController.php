@@ -7,6 +7,7 @@ use App\Models\asosiasimasjaki;
 use App\Models\bujkkonsultan;
 use App\Models\bujkkontraktor;
 use App\Models\bujkkontraktorsub;
+use App\Models\tahunpilihan;
 use Illuminate\Http\Request;
 
 use Illuminate\Support\Facades\Auth;
@@ -64,33 +65,33 @@ class AllskktenagakerjabloraController extends Controller
     ]);
 }
 
-//     public function bujkkontraktorshow($namalengkap)
-//     {
-//         $databujkkontraktor = bujkkontraktor::where('namalengkap', $namalengkap)->first();
+    public function skktenagakerjablorashow($namalengkap)
+    {
+        $dataall = allskktenagakerjablora::where('namalengkap', $namalengkap)->first();
 
-//         if (!$databujkkontraktor) {
-//             // Tangani jika kegiatan tidak ditemukan
-//             return redirect()->back()->with('error', 'Kegiatan tidak ditemukan.');
-//         }
+        if (!$dataall) {
+            // Tangani jika kegiatan tidak ditemukan
+            return redirect()->back()->with('error', 'Kegiatan tidak ditemukan.');
+        }
 
-//         // Menggunakan paginate() untuk pagination
-//         $subdata = bujkkontraktorsub::where('bujkkontraktor_id', $databujkkontraktor->id)->paginate(50);
+        // Menggunakan paginate() untuk pagination
+        $subdata = tahunpilihan::where('tahunpilihan_id', $dataall->id)->paginate(50);
 
-//           // Menghitung nomor urut mulai
-//             $start = ($subdata->currentPage() - 1) * $subdata->perPage() + 1;
+          // Menghitung nomor urut mulai
+            $start = ($subdata->currentPage() - 1) * $subdata->perPage() + 1;
 
 
-//     // Ambil data user saat ini
-//     $user = Auth::user();
+    // Ambil data user saat ini
+    $user = Auth::user();
 
-//     return view('frontend.03_masjaki_jakon.01_bujkkontraktor.bujkkontraktorshow', [
-//         'title' => 'Data Bujk Konstruksi',
-//         'data' => $databujkkontraktor,
-//         'subData' => $subdata,  // Jika Anda ingin mengirimkan data sub kontraktor juga
-//         'user' => $user,
-//         'start' => $start,
-//     ]);
-//     }
+    return view('frontend.04_pembinaan.02_skktenagakerja.show', [
+        'title' => 'Data Peserta SKK Kabupaten Blora',
+        'data' => $dataall,
+        'subData' => $subdata,  // Jika Anda ingin mengirimkan data sub kontraktor juga
+        'user' => $user,
+        'start' => $start,
+    ]);
+    }
 
 
 }
