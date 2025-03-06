@@ -249,7 +249,7 @@ color: #45a049;
                                             {{-- <th onclick="sortTable(2)" style="cursor:pointer; text-align:center; width:300px;"> Divisi <span class="sort-icon">⇅</span></th> --}}
                                             {{-- <th onclick="sortTable(3)" style="cursor:pointer; text-align:center; width:300px;"> Paket <span class="sort-icon">⇅</span></th> --}}
                                             <th onclick="sortTable(4)" style="cursor:pointer; text-align:center; width:300px;"> Kode Paket <span class="sort-icon">⇅</span></th>
-                                            <th onclick="sortTable(5)" style="cursor:pointer; text-align:center; width:125px;"> Urutan <span class="sort-icon">⇅</span></th>
+                                            {{-- <th onclick="sortTable(5)" style="cursor:pointer; text-align:center; width:125px;"> Urutan <span class="sort-icon">⇅</span></th> --}}
                                             <th onclick="sortTable(7)" style="cursor:pointer; text-align:center; width:300px;"> Jenis Pekerjaan <span class="sort-icon">⇅</span></th>
                                             <th onclick="sortTable(6)" style="cursor:pointer; text-align:center; width:80px;"> Rp. <span class="sort-icon">⇅</span></th>
                                             <th onclick="sortTable(8)" style="cursor:pointer; text-align:center; width:300px;"> Harga Satuan <span class="sort-icon">⇅</span></th>
@@ -265,7 +265,7 @@ color: #45a049;
                                                 {{ optional($item->hspdivisi)->id }}.
                                                 {{ optional($item->hsppaket)->id }}.
                                                 {{ optional($item->hspkodepekerjaan)->id }}.
-                                                {{ optional($item->kode)->id }}
+                                                {{-- {{ optional($item->kode)->id }} --}}
                                             </td>
                                             {{-- <td>{{$item->hspdivisi->hspdivisi}}</td> --}}
                                             {{-- <td>{{$item->hsppaket->hsppaket}}</td> --}}
