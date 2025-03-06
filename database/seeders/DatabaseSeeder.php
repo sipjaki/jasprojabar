@@ -6043,6 +6043,15 @@ hspkonstruksiumum::create([
     'hargasatuan' => '550180.75',
 ]);
 
+hspkonstruksiumum::create([
+    'hspdivisi_id' => 1,
+    'hsppaket_id' => 1,
+    'hspkodepekerjaan_id' => 1,
+    'kode' => '5',
+    'jenispekerjaan' => 'Pembuatan 1 m’ pagar sementara seng gelombang rangka baja L.40.40.4, tinggi pagar 1,8 m’ ',
+    'hargasatuan' => '550180.75',
+]);
+
 // garis hsp
 //==========================================================================================================
 // DATA BERITA

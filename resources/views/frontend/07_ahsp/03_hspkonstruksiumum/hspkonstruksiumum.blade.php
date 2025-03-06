@@ -308,7 +308,7 @@ color: #45a049;
                                                 {{ optional($item->hspdivisi)->id }}.
                                                 {{ optional($item->hsppaket)->id }}.
                                                 {{ optional($item->hspkodepekerjaan)->id }}.
-                                                {{ optional($item->kode)->id }}
+                                                {{ optional($item->kode) }}
                                             </td>
                                             <td style="text-align: center;">{{$item->hspkodepekerjaan->namapekerjaan}}</td>
                                             <td style="cursor: pointer; color: blue; text-decoration: underline;" onclick="showModal('{{ $item->jenispekerjaan }}', '{{ number_format($item->hargasatuan, 2, ',', '.') }}')">{{$item->jenispekerjaan}}</td>
