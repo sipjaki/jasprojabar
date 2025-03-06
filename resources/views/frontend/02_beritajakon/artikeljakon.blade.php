@@ -70,14 +70,16 @@
                 <ul class="pagination-paginate" style="display: flex; padding-left: 0; list-style: none;">
                     <!-- Tombol Previous -->
                     <li class="page-item {{ $data->onFirstPage() ? 'disabled' : '' }}" style="margin-right: 10px;">
-                        <a class="page-link" href="{{ $data->previousPageUrl() }}" style="text-decoration: none; padding: 8px 12px; border: 1px solid black; border-radius: 5px; background-color: white; color: black;">
+                        <a class="page-link" href="{{ $data->previousPageUrl() }}"
+                           style="text-decoration: none; padding: 10px 16px; border: 1px solid #007bff; border-radius: 5px; background-color: #007bff; color: white; font-weight: bold;">
                             <i class="fas fa-arrow-left" style="margin-right: 5px;"></i> Previous
                         </a>
                     </li>
 
                     <!-- Tombol Next -->
                     <li class="page-item {{ $data->hasMorePages() ? '' : 'disabled' }}">
-                        <a class="page-link" href="{{ $data->nextPageUrl() }}" style="text-decoration: none; padding: 8px 12px; border: 1px solid black; border-radius: 5px; background-color: white; color: black;">
+                        <a class="page-link" href="{{ $data->nextPageUrl() }}"
+                           style="text-decoration: none; padding: 10px 16px; border: 1px solid #007bff; border-radius: 5px; background-color: #007bff; color: white; font-weight: bold;">
                             Next <i class="fas fa-arrow-right" style="margin-left: 5px;"></i>
                         </a>
                     </li>
@@ -85,6 +87,7 @@
             </div>
 
         </div>
+
 
 
 	</section><!--event-three-section-->
