@@ -6249,7 +6249,7 @@ agendapelatihan::create([
     'lokasi' => 'Jln Blora No. 10',
     'Keterangan' => 'Pelatihan untuk meningkatkan kualitas tenaga kerja konstruksi.',
     'isiagenda' => 'Pelatihan ini bertujuan untuk meningkatkan kemampuan manajemen konstruksi bagi tenaga kerja di bidang konstruksi. Materi yang diberikan mencakup perencanaan proyek, pengendalian biaya, dan strategi pengawasan yang efektif. Dengan pelatihan ini, diharapkan para peserta dapat lebih profesional dalam mengelola proyek konstruksi secara efisien.',
-    'foto' => '01_agendapelatihan/agendapelatihan.jpg',
+    'foto' => '01_agendapelatihan/agendapelatihans.jpg',
 ]);
 
 agendapelatihan::create([
@@ -6263,7 +6263,7 @@ agendapelatihan::create([
     'lokasi' => 'Balai Latihan Kerja Blora',
     'Keterangan' => 'Pelatihan sertifikasi ahli K3 di bidang konstruksi.',
     'isiagenda' => 'Pelatihan ini ditujukan bagi tenaga kerja konstruksi yang ingin mendapatkan sertifikasi Ahli K3. Materi meliputi identifikasi risiko kerja, prosedur keselamatan, serta penerapan standar K3 dalam proyek konstruksi. Dengan mengikuti pelatihan ini, peserta diharapkan mampu meningkatkan keselamatan dan kesehatan kerja di lingkungan konstruksi.',
-    'foto' => '01_agendapelatihan/agendapelatihan.jpg',
+    'foto' => '01_agendapelatihan/agendapelatihans.jpg',
 ]);
 
 agendapelatihan::create([
@@ -6277,7 +6277,7 @@ agendapelatihan::create([
     'lokasi' => 'Hotel Blora Indah',
     'Keterangan' => 'Pengenalan teknologi terbaru dalam konstruksi.',
     'isiagenda' => 'Workshop ini akan membahas perkembangan terbaru dalam teknologi konstruksi, termasuk penggunaan material inovatif, teknik pembangunan modern, dan pemanfaatan digitalisasi dalam proyek konstruksi. Para peserta akan mendapatkan wawasan langsung dari para ahli di bidang konstruksi dan inovasi teknologi.',
-    'foto' => '01_agendapelatihan/agendapelatihan.jpg',
+    'foto' => '01_agendapelatihan/agendapelatihans.jpg',
 ]);
 
 agendapelatihan::create([
@@ -6291,7 +6291,7 @@ agendapelatihan::create([
     'lokasi' => 'Gedung Serbaguna Blora',
     'Keterangan' => 'Pelatihan bagi tenaga pengawas proyek konstruksi.',
     'isiagenda' => 'Pelatihan ini memberikan pemahaman mendalam mengenai metode pengawasan proyek konstruksi, termasuk teknik inspeksi, pemantauan jadwal proyek, serta pengelolaan risiko di lapangan. Peserta akan mendapatkan studi kasus nyata untuk memperdalam pemahaman mereka dalam bidang ini.',
-    'foto' => '01_agendapelatihan/agendapelatihan.jpg',
+    'foto' => '01_agendapelatihan/agendapelatihans.jpg',
 ]);
 
 agendapelatihan::create([
@@ -6305,7 +6305,7 @@ agendapelatihan::create([
     'lokasi' => 'Aula Kantor PU Blora',
     'Keterangan' => 'Bimtek peningkatan kapasitas tenaga konstruksi.',
     'isiagenda' => 'Bimbingan teknis ini bertujuan untuk meningkatkan kompetensi tenaga kerja konstruksi dengan memberikan pemahaman tentang regulasi, teknik pelaksanaan, serta manajemen proyek konstruksi. Para peserta akan dilatih secara langsung oleh tenaga ahli berpengalaman.',
-    'foto' => '01_agendapelatihan/agendapelatihan.jpg',
+    'foto' => '01_agendapelatihan/agendapelatihans.jpg',
 ]);
 
 agendapelatihan::create([
@@ -6319,7 +6319,7 @@ agendapelatihan::create([
     'lokasi' => 'Universitas Blora',
     'Keterangan' => 'Seminar terkait pentingnya keselamatan kerja dalam konstruksi.',
     'isiagenda' => 'Seminar ini akan membahas pentingnya keselamatan kerja dalam industri konstruksi, mencakup strategi pencegahan kecelakaan, peraturan keselamatan yang berlaku, serta studi kasus insiden kerja. Tujuannya adalah untuk meningkatkan kesadaran dan penerapan standar keselamatan dalam proyek konstruksi.',
-    'foto' => '01_agendapelatihan/agendapelatihan.jpg',
+    'foto' => '01_agendapelatihan/agendapelatihans.jpg',
 ]);
 
 // 'foto' => '00_dokmasjaki/03_datajakon/agendapelatihan.jpg',
