@@ -26,7 +26,7 @@ return new class extends Migration
                     $table->foreignId('jenjangpendidikan_id')->nullable();
                     $table->foreignId('namasekolah_id')->nullable();
 
-                    $table->string('tahunlulus')->nullable();
+                    $table->integer('tahunlulus')->nullable();
 
                     $table->foreignId('tahunpilihan_id')->nullable();
 
