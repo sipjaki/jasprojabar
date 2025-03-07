@@ -243,21 +243,19 @@ color: #45a049;
 
                                 <table class="fl-table" id="sortableTable" style="margin-top: 15px; width: 100%; border-collapse: collapse;">
                                     <thead>
-                                        <tr>
-                                            <th onclick="sortTable(0)" style="cursor:pointer; text-align:center; width:100px;"> No <span class="sort-icon">⇅</span></th>
-                                            <th onclick="sortTable(1)" style="cursor:pointer; text-align:center; width:300px;"> Nama Badan Usaha <span class="sort-icon">⇅</span></th>
-                                            <th onclick="sortTable(2)" style="cursor:pointer; text-align:center; width:400px;"> Alamat <span class="sort-icon">⇅</span></th>
-                                            <th onclick="sortTable(3)" style="cursor:pointer; text-align:center; width:150px;"> No Telepon <span class="sort-icon">⇅</span></th>
-                                            {{-- <th onclick="sortTable(4)" style="cursor:pointer; text-align:center"> Email <span class="sort-icon">⇅</span></th>
-                                            <th onclick="sortTable(5)" style="cursor:pointer; text-align:center"> NIB <span class="sort-icon">⇅</span></th>
-                                            <th onclick="sortTable(6)" style="cursor:pointer; text-align:center"> PJU <span class="sort-icon">⇅</span></th>
-                                            <th onclick="sortTable(7)" style="cursor:pointer; text-align:center"> Akte <span class="sort-icon">⇅</span></th>
-                                            <th onclick="sortTable(8)" style="cursor:pointer; text-align:center"> Tanggal <span class="sort-icon">⇅</span></th>
-                                            <th onclick="sortTable(9)" style="cursor:pointer; text-align:center"> Notaris <span class="sort-icon">⇅</span></th>
-                                            <th onclick="sortTable(10)" style="cursor:pointer; text-align:center"> Pengesahan <span class="sort-icon">⇅</span></th> --}}
-                                            <th style="text-align:center; width:100px;"> Tahun </th>
-                                            <th style="text-align:center; width:100px;"> View </th>
-                                        </tr>
+                                            <tr>
+                                                <th onclick="sortTable(0)" style="cursor:pointer; text-align:center; width:100px;"> No <span class="sort-icon">⇅</span></th>
+                                                <th onclick="sortTable(1)" style="cursor:pointer; text-align:center; width:200px;"> Kategori Pelatihan <span class="sort-icon">⇅</span></th>
+                                                <th onclick="sortTable(2)" style="cursor:pointer; text-align:center; width:150px;"> Jenjang <span class="sort-icon">⇅</span></th>
+                                                <th onclick="sortTable(3)" style="cursor:pointer; text-align:center; width:300px;"> Nama Kegiatan <span class="sort-icon">⇅</span></th>
+                                                <th onclick="sortTable(4)" style="cursor:pointer; text-align:center; width:250px;"> Penyelenggara <span class="sort-icon">⇅</span></th>
+                                                <th onclick="sortTable(5)" style="cursor:pointer; text-align:center; width:200px;"> Waktu Pelaksanaan <span class="sort-icon">⇅</span></th>
+                                                <th onclick="sortTable(6)" style="cursor:pointer; text-align:center; width:150px;"> Jumlah Peserta <span class="sort-icon">⇅</span></th>
+                                                <th onclick="sortTable(7)" style="cursor:pointer; text-align:center; width:250px;"> Lokasi <span class="sort-icon">⇅</span></th>
+                                                <th onclick="sortTable(8)" style="cursor:pointer; text-align:center; width:300px;"> Keterangan <span class="sort-icon">⇅</span></th>
+                                                <th style="text-align:center; width:100px;"> View </th>
+                                            </tr>
+
                                     </thead>
                                     <tbody id="tableBody">
                                         @php $start = ($data->currentPage() - 1) * $data->perPage() + 1; @endphp
