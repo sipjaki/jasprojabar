@@ -170,6 +170,27 @@
             <td>{{$data->jenjangpendidikan->jenjangpendidikan}}</td>
         </tr>
 
+        <tr>
+            <td>2.</td>
+            <td>Sekolah/Universitas</td>
+            <td>:</td>
+            <td>{{$data->namasekolah->namasekolah}}</td>
+        </tr>
+
+        <tr>
+            <td>2.</td>
+            <td>Tahun Lulus</td>
+            <td>:</td>
+            <td>{{$data->tahunlulus->tahunlulus}}</td>
+        </tr>
+
+        <tr>
+            <td>2.</td>
+            <td>Tahun Bimtek</td>
+            <td>:</td>
+            <td>{{$data->tahunpilihan->tahunpilihan}}</td>
+        </tr>
+
     </table>
 
     <br>
