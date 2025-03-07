@@ -322,9 +322,9 @@
 
     </table>
 
-    <br><br>
+    <br>
 
-    <table>
+    <table style="border-collapse: collapse; border: none;">
 
         <tr>
             <td style="width: 40%;"></td>
@@ -362,7 +362,7 @@
             </tr>
 
 
-        </table>
+    </table>
 
 </div>
 
