@@ -107,11 +107,6 @@
                                             <i class="fas fa-arrow-left" style="margin-right:10px;"></i> Kembali
                                         </button>
                                     </a>
-
-                                    <!-- Tombol Download PDF -->
-                                    <button id="downloadPDF" class="download-btn">
-                                        <i class="fas fa-download" style="margin-right:10px;"></i> Download PDF
-                                    </button>
                                 </div>
 
 
