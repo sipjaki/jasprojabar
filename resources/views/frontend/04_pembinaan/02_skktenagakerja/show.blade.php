@@ -150,79 +150,79 @@
     <table>
 
         <tr>
-            <td>2.</td>
+            <td style="text-align: center;">2</td>
             <td>Jabatan Kerja </td>
-            <td>:</td>
+            <td style="text-align: center;">:</td>
             <td>{{$data->jabatankerja}}</td>
         </tr>
 
         <tr>
-            <td>2.</td>
+            <td style="text-align: center;">3</td>
             <td>Tempat Lahir </td>
-            <td>:</td>
+            <td style="text-align: center;">:</td>
             <td>{{$data->tempatlahir}}</td>
         </tr>
 
         <tr>
-            <td>2.</td>
+            <td style="text-align: center;">4</td>
             <td>Jenis Kelamin </td>
-            <td>:</td>
+            <td style="text-align: center;">:</td>
             <td>{{$data->jeniskelamin}}</td>
         </tr>
 
         <tr>
-            <td>2.</td>
+            <td style="text-align: center;">5</td>
             <td>KTP/KITAS</td>
-            <td>:</td>
+            <td style="text-align: center;">:</td>
             <td>{{$data->nik}}</td>
         </tr>
 
         <tr>
-            <td>2.</td>
+            <td style="text-align: center;">6</td>
             <td>Alamat</td>
-            <td>:</td>
+            <td style="text-align: center;">:</td>
             <td>{{$data->alamat}}</td>
         </tr>
 
         <tr>
-            <td>2.</td>
+            <td style="text-align: center;">7</td>
             <td>Telepon</td>
-            <td>:</td>
+            <td style="text-align: center;">:</td>
             <td>{{$data->notelepon}}</td>
         </tr>
 
         <tr>
-            <td>2.</td>
+            <td style="text-align: center;">8</td>
             <td>Email</td>
-            <td>:</td>
+            <td style="text-align: center;">:</td>
             <td>{{$data->email}}</td>
         </tr>
 
         <tr>
-            <td>2.</td>
+            <td style="text-align: center;">9</td>
             <td>Jenjang Pendidikan</td>
             <td>:</td>
             <td>{{$data->jenjangpendidikan->jenjangpendidikan}}</td>
         </tr>
 
         <tr>
-            <td>2.</td>
+            <td style="text-align: center;">10</td>
             <td>Sekolah/Universitas</td>
-            <td>:</td>
+            <td style="text-align: center;">:</td>
             <td>{{$data->namasekolah->namasekolah}}</td>
         </tr>
 
         <tr>
-            <td>2.</td>
+            <td style="text-align: center;">11</td>
             <td>Tahun Lulus</td>
-            <td>:</td>
+            <td style="text-align: center;">:</td>
             <td>{{$data->tahunlulus}}</td>
         </tr>
 
         <tr>
-            <td>2.</td>
+            <td style="text-align: center;">12</td>
             <td>Tahun Bimtek</td>
-            <td>:</td>
+            <td style="text-align: center;">:</td>
             <td>{{$data->tahunpilihan->tahunpilihan}}</td>
         </tr>
 
