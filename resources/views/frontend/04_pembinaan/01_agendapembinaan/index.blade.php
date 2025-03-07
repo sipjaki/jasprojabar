@@ -244,7 +244,7 @@ color: #adb6ad;
                                                 <th onclick="sortTable(7)" style="cursor:pointer; text-align:center; width:250px;"> Lokasi <span class="sort-icon">⇅</span></th>
                                                 <th onclick="sortTable(8)" style="cursor:pointer; text-align:center; width:300px;"> Keterangan <span class="sort-icon">⇅</span></th>
                                                 <th onclick="sortTable(8)" style="cursor:pointer; text-align:center; width:300px;"> Masa Pendaftaran <span class="sort-icon">⇅</span></th>
-                                                <th style="text-align:center; width:100px;"> Daftar </th>
+                                                {{-- <th style="text-align:center; width:100px;"> Daftar </th> --}}
                                             </tr>
 
                                     </thead>
