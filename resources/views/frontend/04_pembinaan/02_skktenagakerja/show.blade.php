@@ -248,133 +248,38 @@
 
         </tr>
 
+        <tr>
+            <td style="text-align: center;">Pengalaman Kerja</td>
+            <td style="text-align: center;">NPWP</td>
+            <td style="text-align: center;">Daftar Riwayat Hidup</td>
+        </tr>
+        <tr>
+            <td style="text-align: center;">
+                @if($data->uploadpengalaman)
+                    <button class="badge-kembali" style="text-align: center;">LENGKAP</button>
+                @else
+                    <button class="btn btn-secondary" disabled style="text-align: center;">BELUM</button>
+                @endif
+            </td>
+            <td style="text-align: center;">
+                @if($data->uploadnpwp)
+                    <button class="badge-kembali" style="text-align: center;">LENGKAP</button>
+                @else
+                    <button class="btn btn-secondary" disabled style="text-align: center;">BELUM</button>
+                @endif
+            </td>
+            <td style="text-align: center;">
+                @if($data->uploaddaftarriwayathidup)
+                    <button class="badge-kembali" style="text-align: center;">LENGKAP</button>
+                @else
+                    <button class="btn btn-secondary" disabled style="text-align: center;">BELUM</button>
+                @endif
+            </td>
+
+        </tr>
+
     </table>
 
-    <br>
-
-    <h5>KEPALA BIDANG BANGUNAN GEDUNG</h5>
-    <table>
-        <tr>
-            <td>1.</td>
-            <td>Nama Lengkap</td>
-            <td>:</td>
-            <td>MOHAMAD ARIF HIDAYAT, ST</td>
-        </tr>
-        <tr>
-            <td>2.</td>
-            <td>NIP</td>
-            <td>:</td>
-            <td> - </td>
-        </tr>
-        <tr>
-            <td>3.</td>
-            <td>Tempat, Tanggal Lahir</td>
-            <td>:</td>
-            <td> - </td>
-        </tr>
-        <tr>
-            <td>4.</td>
-            <td>Pangkat / Golongan</td>
-            <td>:</td>
-            <td> - </td>
-        </tr>
-        <tr>
-            <td>5.</td>
-            <td>Jabatan</td>
-            <td>:</td>
-            <td>Kepala Bidang Bangunan Gedung Dinas Pekerjaan Umum Dan Penataan Ruang Kabupaten Blora</td>
-        </tr>
-        <tr>
-            <td>6.</td>
-            <td>Perangkat Daerah</td>
-            <td>:</td>
-            <td>Dinas Pekerjaan Umum Dan Penataan Ruang Kabupaten Blora</td>
-        </tr>
-        <tr>
-            <td>7.</td>
-            <td>Pendidikan Terakhir</td>
-            <td>:</td>
-            <td>Strata 1 (S1)</td>
-        </tr>
-    </table>
-
-    <br>
-
-    <h5>SUBKOORDINATOR BINA JASA KONSTRUKSI</h5>
-    <table>
-        <tr>
-            <td>1.</td>
-            <td>Nama Lengkap</td>
-            <td>:</td>
-            <td>ANEX FACHRIAN ST, MT</td>
-        </tr>
-        <tr>
-            <td>2.</td>
-            <td>NIP</td>
-            <td>:</td>
-            <td> - </td>
-        </tr>
-        <tr>
-            <td>3.</td>
-            <td>Tempat, Tanggal Lahir</td>
-            <td>:</td>
-            <td> - </td>
-        </tr>
-        <tr>
-            <td>4.</td>
-            <td>Pangkat/Golongan</td>
-            <td>:</td>
-            <td> - </td>
-        </tr>
-        <tr>
-            <td>5.</td>
-            <td>Jabatan</td>
-            <td>:</td>
-            <td>Subkoordinator Bina Jasa Konstruksi Dinas Pekerjaan Umum Dan Penataan Ruang Kabupaten Blora </td>
-        </tr>
-        <tr>
-            <td>6.</td>
-            <td>Pendidikan Terakhir</td>
-            <td>:</td>
-            <td>Magister (S2) </td>
-        </tr>
-    </table>
-    <br>
-
-    <h4>III. OPD Jakon</h4>
-    <table>
-        <tr>
-            <td></td>
-            <td>OPD yang menangani Bina Jasa Konstruksi di DPUPR Kabupaten Blora setara dengan eselon IV,
-                dibawah Bidang Bangunan Gedung. Pada Bidang Bangunan Gedung terdapat dua subkoordinator
-                yaitu Subkoordinator Bangunan dan Lingkungan serta Subkoordinator Bina Jasa Konstruksi,   hal
-                tersebut tertuang dalam Perbup Nomor 66 Tahun 2021 tentang Kedudukan, Susunan Organisasi,
-                Tugas dan Fungsi Serta Tata Kerja Dinas Pekerjaan Umum dan Penataan Ruang Kabupaten Blora.</td>
-            </tr>
-        </table>
-        <br>
-
-    <h4>IV. Kontak OPD</h4>
-    <table>
-        <tr>
-            <td>1</td>
-            <td>Nomor Telepon</td>
-            <td>:</td>
-            <td>(0296) 531004 </td>
-        </tr>
-        <tr>
-            <td>2</td>
-            <td>Instagram</td>
-            <td>:</td>
-            <td>'@dpuprblora'</td>
-        </tr>
-        <tr>
-            <td>3</td>
-            <td>Tiktok</td>
-            <td>:</td>
-            <td>'@bangunan.gedung.dpupr'</td>
-        </tr>
-    </table>
 
 <br>
     <h4>V. SK SIPJAKI</h4>
