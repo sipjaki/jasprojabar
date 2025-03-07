@@ -181,7 +181,7 @@
             <td>2.</td>
             <td>Tahun Lulus</td>
             <td>:</td>
-            <td>{{$data->tahunlulus->tahunlulus}}</td>
+            <td>{{$data->tahunlulus}}</td>
         </tr>
 
         <tr>
