@@ -408,13 +408,13 @@
     <div style="display: flex; justify-content: flex-end; padding: 10px;">
         <a href="javascript:history.back()">
             <button class="download-btn" style="margin-right: 10px;">
-                <i class="fas fa-arrow-left"></i> Kembali
+                <i class="fas fa-arrow-left" style="margin-right:10px;"></i> Kembali
             </button>
         </a>
 
         <!-- Tombol Download PDF -->
         <button id="downloadPDF" class="download-btn">
-            <i class="fas fa-download"></i> Download PDF
+            <i class="fas fa-download" style="margin-right:10px;"></i> Download PDF
         </button>
     </div>
 
