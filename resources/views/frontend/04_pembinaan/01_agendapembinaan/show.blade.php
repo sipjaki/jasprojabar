@@ -1,3 +1,25 @@
+<style>
+    .download-btn {
+            background-color: #001f3f;
+            color: white;
+            border: 2px solid #001f3f;
+            padding: 10px 20px;
+            font-size: 16px;
+            font-weight: bold;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.3s ease-in-out;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Efek Hover */
+        .download-btn:hover {
+            background-color: white !important;
+            color: #001f3f !important;
+            border: 2px solid #001f3f !important;
+        }
+</style>
+
 @include('frontend.00_approve.01_cssterpisah.header')
 
 
@@ -79,13 +101,20 @@
 					<div class="sidebar">
 						<div class="sidebar-form-content">
 							<div class="sidebar__item sidebar__item--search">
-								<form action="#" class="sidebar__search">
-									<label for="search" class="sr-only">Cari Berita</label><!-- sr-only -->
-									<input type="text" placeholder="Cari Berita">
-									<button type="submit" aria-label="search submit" class="thm-btn">
-										<i class="flaticon-search-interface-symbol"></i>
-									</button><!-- thm-btn -->
-								</form><!-- sidebar__search -->
+                                <div style="display: flex; justify-content: flex-end; padding: 10px;">
+                                    <a href="/agendapembinaan">
+                                        <button class="download-btn" style="margin-right: 10px;">
+                                            <i class="fas fa-arrow-left" style="margin-right:10px;"></i> Kembali
+                                        </button>
+                                    </a>
+
+                                    <!-- Tombol Download PDF -->
+                                    <button id="downloadPDF" class="download-btn">
+                                        <i class="fas fa-download" style="margin-right:10px;"></i> Download PDF
+                                    </button>
+                                </div>
+
+
 							</div><!-- sidebar__item -->
 						</div><!-- sidebar-form-content -->
 						<div class="sidebar-widget sidebar-widget-recent-post">
