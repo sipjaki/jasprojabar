@@ -127,12 +127,12 @@
                                         <div class="sidebar-meta-item">
                                             <div class="sidebar-meta-icon">
 												<span class="author">
-													<a href="news-details.html">{{$item->penyelenggara}}</a>
+													<a href="news-details.html">{{$data->penyelenggara}}</a>
 												</span><!-- author -->
 											</div><!-- sidebar-meta-icon -->
 										</div><!-- sidebar-meta-item -->
 										<div class="sidebar-post-title">
-											<h5><a href="#">{{$item->judulberita}}</a></h5>
+											<h5><a href="#">{{$data->jumlahpeserta}}</a></h5>
 										</div><!-- sidebar-post-title -->
 									</div><!-- sidebar-meta -->
 								</div><!-- sidebar-recent-post-content -->
