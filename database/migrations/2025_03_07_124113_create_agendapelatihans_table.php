@@ -21,6 +21,7 @@ return new class extends Migration
             $table->integer('jumlahpeserta')->nullable();
             $table->string('lokasi')->nullable();
             $table->string('keterangan')->nullable();
+            $table->string('isiagenda')->nullable();
             $table->softDeletes();
             $table->timestamps();
         });
