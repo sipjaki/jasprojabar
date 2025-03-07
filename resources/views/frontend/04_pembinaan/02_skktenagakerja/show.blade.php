@@ -124,7 +124,7 @@
         <p></p>
     </div>
 
-    <div style="margin-top:-30px;">
+    <div style="margin-top:-80px;">
         <hr style="border: 4px solid black; width: 100%;">
         <h5 style="text-align: center;">DATA PESERTA SKK TENAGA KONSTRUKSI</h5>
         <h5 style="text-align: center;">DINAS PEKERJAAN UMUM DAN PENATAAN RUANG KABUPATEN BLORA</h5>
