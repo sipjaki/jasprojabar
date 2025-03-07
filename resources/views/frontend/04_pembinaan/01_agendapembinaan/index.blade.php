@@ -282,7 +282,6 @@ color: #adb6ad;
                                                         display: flex;
                                                         align-items: center;
                                                         justify-content: center;
-                                                        gap: 6px;
                                                     " disabled>
                                                         <i class="fas fa-times-circle"></i> Ditutup
                                                     </button>
@@ -301,7 +300,6 @@ color: #adb6ad;
                                                             display: flex;
                                                             align-items: center;
                                                             justify-content: center;
-                                                            gap: 6px;
                                                         " onmouseover="this.style.backgroundColor='white'; this.style.color='#001f3f';"
                                                            onmouseout="this.style.backgroundColor='#001f3f'; this.style.color='white';">
                                                             <i class="fas fa-user-check"></i> Daftar
