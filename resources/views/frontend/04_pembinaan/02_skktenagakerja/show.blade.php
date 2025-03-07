@@ -279,15 +279,46 @@
         </tr>
 
     </table>
-
+<br>
     <h5>II. NAMA ASOSIASI DAN KESEDIAAN MENGIKUTI BIMBINGAN TEKNIS</h4>
     {{-- <h5>KEPALA DINAS</h5> --}}
     <table>
         <tr>
             <td style="text-align: center;">Nama Asosiasi</td>
             <td style="text-align: center;">{{$data->namaasosiasi}}</td>
-            <td style="text-align: center;">Ijazah</td>
         </tr>
+    </table>
+    <table>
+        <tr>
+            <td style="text-align: center;">MEMPUNYAI SKK ?</td>
+            <td style="text-align: center;">MEMPUNYAI AKUN SIKI/ E-SIMPAN ?</td>
+            <td style="text-align: center;">BERSEDIA MEMATUHI PERATURAN</td>
+        </tr>
+        <tr>
+            <td style="text-align: center;">
+                @if($data->punyaskk)
+                    <button class="badge-kembali" style="text-align: center;">PUNYA</button>
+                @else
+                    <button class="btn btn-secondary" disabled style="text-align: center;">TIDAK PUNYA</button>
+                @endif
+            </td>
+            <td style="text-align: center;">
+                @if($data->punyasiki)
+                    <button class="badge-kembali" style="text-align: center;">YA</button>
+                @else
+                    <button class="btn btn-secondary" disabled style="text-align: center;">TIDAK</button>
+                @endif
+            </td>
+            <td style="text-align: center;">
+                @if($data->siappatuh)
+                    <button class="badge-kembali" style="text-align: center;">BERSEDIA</button>
+                @else
+                    <button class="btn btn-secondary" disabled style="text-align: center;">TIDAK BERSEDIA</button>
+                @endif
+            </td>
+
+        </tr>
+
     </table>
 
 </div>
