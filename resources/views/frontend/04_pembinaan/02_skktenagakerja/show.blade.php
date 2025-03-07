@@ -123,7 +123,7 @@
         </div>
     </div>
 
-    <div style="margin-top:-100px;">
+    <div style="margin-top:-80px;">
         <p style="text-align: center;">_______________________________________________________________________________________________</p>
         <h5 style="text-align: center;">DATA PESERTA SKK TENAGA KONSTRUKSI</h5>
         <h5 style="text-align: center;">DINAS PEKERJAAN UMUM DAN PENATAAN RUANG KABUPATEN BLORA</h5>
