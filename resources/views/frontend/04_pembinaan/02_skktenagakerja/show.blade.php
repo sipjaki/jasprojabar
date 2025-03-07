@@ -15,7 +15,14 @@
                 background-color: white;
                 color: black;
                 background: white;
-</style>
+
+
+                .borderbaru, .borderbaru tr, .borderbaru td {
+    border: none !important;
+}
+
+    </style>
+
 
 
 @include('frontend.00_approve.01_cssterpisah.header')
@@ -101,7 +108,7 @@
 </style>
 
 
-<div class="container-surat">
+<div class="container-surat" >
     <div class="header-surat">
         <img src="/assets/icon/logokabupatenblora.png" alt="Logo Kabupaten Blora">
         <br>
@@ -324,13 +331,6 @@
 
     <br>
 
-    <style>
-        .borderbaru, .borderbaru tr, .borderbaru td {
-    border: none !important;
-}
-
-    </style>
-
     <table class="borderbaru" style="border-collapse: collapse; border: none;">
 
         <tr>
@@ -381,10 +381,46 @@
 
     </table>
 
-
-
 </div>
 
+<script>
+    function downloadPDF() {
+    const element = document.querySelector('.container-surat');
+    const { jsPDF } = window.jspdf;
+
+    html2canvas(element, {
+        scale: 2
+    }).then(canvas => {
+        const imgData = canvas.toDataURL('image/png');
+        const pdf = new jsPDF('p', 'mm', 'a4');
+        const imgWidth = 210;
+        const pageHeight = 297;
+        const imgHeight = (canvas.height * imgWidth) / canvas.width;
+        let heightLeft = imgHeight;
+        let position = 0;
+
+        pdf.addImage(imgData, 'PNG', 0, position, imgWidth, imgHeight);
+        heightLeft -= pageHeight;
+
+        while (heightLeft > 0) {
+            position = heightLeft - imgHeight;
+            pdf.addPage();
+            pdf.addImage(imgData, 'PNG', 0, position, imgWidth, imgHeight);
+            heightLeft -= pageHeight;
+        }
+
+        pdf.save('Daftar_Peserta_SK_Konstruksi.pdf');
+    });
+}
+
+document.addEventListener("DOMContentLoaded", function() {
+    const button = document.createElement("button");
+    button.innerText = "Download PDF";
+    button.style.margin = "20px";
+    button.onclick = downloadPDF;
+    document.body.insertBefore(button, document.body.firstChild);
+});
+</script>
 
 {{-- ==================================================== --}}
 
