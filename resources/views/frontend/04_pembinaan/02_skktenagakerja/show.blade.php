@@ -123,9 +123,9 @@
         </div>
     </div>
 
-    <div class="header-text">
-        <p style="text-align: center;">________________________________________________________________________________</p>
-        <h5 style="text-align: center;">DAFTAR PESERTA SKK TENAGA KONSTRUKSI</h5>
+    <div style="margin-top:-100px;">
+        <p style="text-align: center;">_______________________________________________________________________________________________</p>
+        <h5 style="text-align: center;">DATA PESERTA SKK TENAGA KONSTRUKSI</h5>
         <h5 style="text-align: center;">DINAS PEKERJAAN UMUM DAN PENATAAN RUANG KABUPATEN BLORA</h5>
     </div>
 
