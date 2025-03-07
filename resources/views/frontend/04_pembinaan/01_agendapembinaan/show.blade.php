@@ -154,6 +154,54 @@
 								</div><!-- sidebar-recent-post-content -->
 							</div><!-- sidebar-recent-post -->
 
+                            <h4>Lokasi</h4>
+
+                            <div class="sidebar-recent-post">
+								<div class="sidebar-recent-post-content">
+                                    <div class="sidebar-meta">
+                                        <div class="sidebar-meta-item">
+                                            <div class="sidebar-meta-icon">
+												<span class="author">
+                                                    <p>{{$item->lokasi}}</p>
+                                                    </span><!-- author -->
+											</div><!-- sidebar-meta-icon -->
+										</div><!-- sidebar-meta-item -->
+									</div><!-- sidebar-meta -->
+								</div><!-- sidebar-recent-post-content -->
+							</div><!-- sidebar-recent-post -->
+
+                            <h4>Keterangan</h4>
+
+                            <div class="sidebar-recent-post">
+								<div class="sidebar-recent-post-content">
+                                    <div class="sidebar-meta">
+                                        <div class="sidebar-meta-item">
+                                            <div class="sidebar-meta-icon">
+												<span class="author">
+                                                    <p>{{$item->keterangan}}</p>
+                                                    </span><!-- author -->
+											</div><!-- sidebar-meta-icon -->
+										</div><!-- sidebar-meta-item -->
+									</div><!-- sidebar-meta -->
+								</div><!-- sidebar-recent-post-content -->
+							</div><!-- sidebar-recent-post -->
+
+                            <h4>Jenjang</h4>
+
+                            <div class="sidebar-recent-post">
+								<div class="sidebar-recent-post-content">
+                                    <div class="sidebar-meta">
+                                        <div class="sidebar-meta-item">
+                                            <div class="sidebar-meta-icon">
+												<span class="author">
+                                                    <p>{{$item->jenjang->jenjang}}</p>
+                                                    </span><!-- author -->
+											</div><!-- sidebar-meta-icon -->
+										</div><!-- sidebar-meta-item -->
+									</div><!-- sidebar-meta -->
+								</div><!-- sidebar-recent-post-content -->
+							</div><!-- sidebar-recent-post -->
+
 
                         </div><!-- sidebar-widget sidebar-widget-recent-post -->
 
