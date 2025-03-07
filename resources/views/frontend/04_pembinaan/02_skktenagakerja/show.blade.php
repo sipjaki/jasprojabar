@@ -112,14 +112,14 @@
 
 
 <div class="halaman-pertama" >
-    <div class="header-surat">
-        <img src="/assets/icon/logokabupatenblora.png" alt="Logo Kabupaten Blora" style="margin-right:300px; margin-top:100px;">
-        <br>
-        <div class="header-text">
-            <h3>PEMERINTAH KABUPATEN BLORA</h3>
-            <h3>DINAS PEKERJAAN UMUM DAN PENATAAN RUANG</h3>
-            <p>Jl. Nusantara No. 62 Telp. (0296) 531004</p>
-            <h3>KABUPATEN BLORA 58214 PROVINSI JAWA TENGAH </h3>
+    <div class="header-surat" style="display: flex; align-items: center; justify-content: center; border-bottom: 2px solid black; padding-bottom: 10px;">
+        <img src="/assets/icon/logokabupatenblora.png" alt="Logo Kabupaten Blora" style="width: 100px; height: auto; margin-right: 20px;">
+
+        <div class="header-text" style="text-align: center;">
+            <h3 style="margin: 5px 0;">PEMERINTAH KABUPATEN BLORA</h3>
+            <h3 style="margin: 5px 0;">DINAS PEKERJAAN UMUM DAN PENATAAN RUANG</h3>
+            <p style="margin: 5px 0;">Jl. Nusantara No. 62 Telp. (0296) 531004</p>
+            <h3 style="margin: 5px 0;">KABUPATEN BLORA 58214 PROVINSI JAWA TENGAH</h3>
         </div>
     </div>
 
