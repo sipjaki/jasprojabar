@@ -88,6 +88,7 @@
 
 
                 </div><!-- col-lg-8 -->
+
 				<div class="col-lg-4">
 					<div class="sidebar">
 						<div class="sidebar-form-content">
