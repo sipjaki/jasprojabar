@@ -210,7 +210,6 @@
     <br>
 
     <h4>II. KELENGKAPAN BERKAS PERSYARATAN PESERTA</h4>
-
     {{-- <h5>KEPALA DINAS</h5> --}}
     <table>
         <tr>
@@ -219,10 +218,28 @@
             <td>Ijazah</td>
         </tr>
         <tr>
-            <td>{{$item->uploadktp}}</td>
-            <td>NIP</td>
-            <td>:</td>
-            <td> - </td>
+            <td>
+                @if($item->uploadktp)
+                    <button class="btn btn-navy">LENGKAP</button>
+                @else
+                    <button class="btn btn-secondary" disabled>BELUM</button>
+                @endif
+            </td>
+            <td>
+                @if($item->uploadfoto)
+                    <button class="btn btn-navy">LENGKAP</button>
+                @else
+                    <button class="btn btn-secondary" disabled>BELUM</button>
+                @endif
+            </td>
+            <td>
+                @if($item->uploadijazah)
+                    <button class="btn btn-navy">LENGKAP</button>
+                @else
+                    <button class="btn btn-secondary" disabled>BELUM</button>
+                @endif
+            </td>
+
         </tr>
         <tr>
             <td>3.</td>
