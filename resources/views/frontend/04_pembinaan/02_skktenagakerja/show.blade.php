@@ -406,6 +406,11 @@
     </div>
 
     <div style="display: flex; justify-content: flex-end; padding: 10px;">
+        <a href="javascript:history.back()">
+            <button class="download-btn">
+                Download PDF
+            </button>
+        </a>
         <button id="downloadPDF" class="download-btn">
             Download PDF
         </button>
