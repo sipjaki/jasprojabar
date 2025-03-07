@@ -130,9 +130,44 @@
 
         <tr>
             <td>2.</td>
-            <td>Tanggal Lahir </td>
+            <td>Jenis Kelamin </td>
             <td>:</td>
-            <td>{{ \Carbon\Carbon::parse($data->ttl)->translatedFormat('d F Y') }}</td>
+            <td>{{$data->jeniskelamin}}</td>
+        </tr>
+
+        <tr>
+            <td>2.</td>
+            <td>KTP/KITAS</td>
+            <td>:</td>
+            <td>{{$data->nik}}</td>
+        </tr>
+
+        <tr>
+            <td>2.</td>
+            <td>Alamat</td>
+            <td>:</td>
+            <td>{{$data->alamat}}</td>
+        </tr>
+
+        <tr>
+            <td>2.</td>
+            <td>Telepon</td>
+            <td>:</td>
+            <td>{{$data->notelepon}}</td>
+        </tr>
+
+        <tr>
+            <td>2.</td>
+            <td>Email</td>
+            <td>:</td>
+            <td>{{$data->email}}</td>
+        </tr>
+
+        <tr>
+            <td>2.</td>
+            <td>Jenjang Pendidikan</td>
+            <td>:</td>
+            <td>{{$data->jenjangpendidikan->jenjangpendidikan}}</td>
         </tr>
 
     </table>
