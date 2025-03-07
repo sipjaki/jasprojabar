@@ -284,6 +284,9 @@
     </table>
 <br>
 
+</div>
+
+
 <div class="halaman-kedua">
 
     <h5>III. NAMA ASOSIASI DAN KESEDIAAN MENGIKUTI BIMBINGAN TEKNIS</h4>
@@ -337,7 +340,8 @@
 }
 
     </style>
-    <table class="borderbaru" style="border-collapse: collapse; border: none;">
+
+<table class="borderbaru" style="border-collapse: collapse; border: none;">
 
         <tr>
             <td style="width: 45%;"></td>
@@ -387,9 +391,7 @@
 
     </table>
 
-
     </div>
-</div>
 
 <button class="badge-kembali" id="downloadPDF">Download PDF</button>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
