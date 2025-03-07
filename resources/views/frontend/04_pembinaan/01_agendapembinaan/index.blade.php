@@ -77,14 +77,14 @@ text-align: left;
 }
 
 /* Style untuk ikon view */
-.view-icon {
+.register-icon {
 color: #4CAF50;
 cursor: pointer;
 font-size: 18px;
 }
 
-.view-icon:hover {
-color: #45a049;
+.register-icon:hover {
+color: #adb6ad;
 }
 
 
@@ -262,10 +262,9 @@ color: #45a049;
                                             <td>{{$item->keterangan}}</td>
                                             <td style="text-align: center">
                                                 <a href="/agendapembinaan/{{$item->namakegiatan}}">
-                                                    <i class="fas fa-user-check register-icon" onclick="alert('Pendaftaran diklik!')"></i>
+                                                    <i class="fas fa-user-check register-icon" onclick="alert('View clicked!')"></i>
                                                 </a>
                                             </td>
-
                                         </tr>
                                         @endforeach
                                     </tbody>
