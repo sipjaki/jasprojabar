@@ -120,10 +120,12 @@
             <h3>DINAS PEKERJAAN UMUM DAN PENATAAN RUANG</h3>
             <p>Jl. Nusantara No. 62 Telp. (0296) 531004</p>
             <h3>BLORA 58214</h3>
-            <p>_____________________________________________________________</p>
-            <h3>DAFTAR PESERTA SKK TENAGA KONSTRUKSI</h3>
-            <h4>DINAS PEKERJAAN UMUM DAN PENATAAN RUANG KABUPATEN BLORA</h4>
         </div>
+    </div>
+    <div class="header-text">
+        <p>_____________________________________________________________</p>
+        <h3>DAFTAR PESERTA SKK TENAGA KONSTRUKSI</h3>
+        <h4>DINAS PEKERJAAN UMUM DAN PENATAAN RUANG KABUPATEN BLORA</h4>
     </div>
     <br>
 
