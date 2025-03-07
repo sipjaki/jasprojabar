@@ -324,6 +324,13 @@
 
     <br>
 
+    <style>
+        .borderbaru, .borderbaru tr, .borderbaru td {
+    border: none !important;
+}
+
+    </style>
+
     <table class="borderbaru" style="border-collapse: collapse; border: none;">
 
         <tr>
@@ -363,6 +370,8 @@
 
 
     </table>
+
+
 
 </div>
 
