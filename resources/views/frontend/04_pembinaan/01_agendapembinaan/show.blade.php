@@ -109,7 +109,7 @@
                                     </a>
 
                                     <a href="/404">
-                                        <button class="download-btn" style="margin-right: 10px; margin-left:100px;">
+                                        <button class="download-btn" style="margin-right: 10px; margin-left:25px;">
                                             <i class="fas fa-file-alt" style="margin-right: 10px;"></i> Daftar Kegiatan
                                         </button>
                                     </a>
