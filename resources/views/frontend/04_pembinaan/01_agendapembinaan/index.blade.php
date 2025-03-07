@@ -268,40 +268,44 @@ color: #adb6ad;
                                                     $isClosed = $eventDate->lessThan($today); // Jika event sudah melewati batas
                                                 @endphp
 
-                                                <button style="
-                                                    background-color: {{ $isClosed ? '#FF0000' : '#28A745' }}; /* Merah untuk ditutup, hijau untuk dibuka */
-                                                    color: white;
-                                                    border: none;
-                                                    padding: 8px 12px;
-                                                    font-size: 14px;
-                                                    font-weight: bold;
-                                                    border-radius: 6px;
-                                                    cursor: default;
-                                                ">
-                                                    {{ $isClosed ? 'DITUTUP' : 'DIBUKA' }}
-                                                </button>
-                                            </td>
-
-                                            <td style="text-align: center">
-                                                <a href="/agendapembinaan/{{$item->namakegiatan}}">
+                                                @if ($isClosed)
                                                     <button style="
-                                                        background-color: #001f3f;
+                                                        background-color: #FF0000; /* Merah untuk status ditutup */
                                                         color: white;
-                                                        border: 2px solid #001f3f;
+                                                        border: 2px solid #FF0000;
                                                         padding: 8px 12px;
                                                         font-size: 14px;
                                                         font-weight: bold;
                                                         border-radius: 6px;
-                                                        cursor: pointer;
-                                                        transition: all 0.3s ease;
+                                                        cursor: not-allowed; /* Tidak bisa diklik */
+                                                        opacity: 0.6; /* Memberikan efek transparan */
                                                         display: flex;
                                                         align-items: center;
                                                         gap: 6px;
-                                                    " onmouseover="this.style.backgroundColor='white'; this.style.color='#001f3f';"
-                                                       onmouseout="this.style.backgroundColor='#001f3f'; this.style.color='white';">
-                                                        <i class="fas fa-user-check"></i> Daftar
+                                                    " disabled>
+                                                        <i class="fas fa-times-circle"></i> Ditutup
                                                     </button>
-                                                </a>
+                                                @else
+                                                    <a href="/agendapembinaan/{{$item->namakegiatan}}">
+                                                        <button style="
+                                                            background-color: #001f3f;
+                                                            color: white;
+                                                            border: 2px solid #001f3f;
+                                                            padding: 8px 12px;
+                                                            font-size: 14px;
+                                                            font-weight: bold;
+                                                            border-radius: 6px;
+                                                            cursor: pointer;
+                                                            transition: all 0.3s ease;
+                                                            display: flex;
+                                                            align-items: center;
+                                                            gap: 6px;
+                                                        " onmouseover="this.style.backgroundColor='white'; this.style.color='#001f3f';"
+                                                           onmouseout="this.style.backgroundColor='#001f3f'; this.style.color='white';">
+                                                            <i class="fas fa-user-check"></i> Daftar
+                                                        </button>
+                                                    </a>
+                                                @endif
                                             </td>
 
                                         </tr>
