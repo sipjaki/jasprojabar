@@ -37,22 +37,22 @@
 
                             </div>
 
-                            <div class="btn d-flex align-items-center" style="background: #ffd100; border: none; padding: 5px; border-radius:20px;">
-                                <div class="topbar-icon" style="background: #ffd100; padding: 5px; border-radius: 5px;">
+                            <div class="btn d-flex align-items-center" style="background: white; border: none; padding: 5px; border-radius:20px;">
+                                <div class="topbar-icon" style="background: white; padding: 5px; border-radius: 5px;">
                                     <i class="fa-solid fa-envelope" style="color: black;"></i>
                                 </div>
-                                <div class="topbar-text" style="background: #ffd100; padding: 5px; border-radius: 5px;">
+                                <div class="topbar-text" style="background: white; padding: 5px; border-radius: 5px;">
                                     <a href="#" style="color: black; text-decoration: none;">konstruksi@masjakidpuprblora.co.id</a>
                                 </div>
                             </div>
 
                             </li><!-- li -->
 						<li>
-							<div class="btn d-flex align-items-center" style="background: #ffd100; border: none; padding: 5px; border-radius:20px;">
-                                <div class="topbar-icon" style="background: #ffd100; padding: 5px; border-radius: 5px;">
+							<div class="btn d-flex align-items-center" style="background: white; border: none; padding: 5px; border-radius:20px;">
+                                <div class="topbar-icon" style="background: white; padding: 5px; border-radius: 5px;">
                                     <i class="fa-solid fa-clock" style="color: black;"></i>
                                 </div>
-                                <div class="topbar-text" style="background: #ffd100; padding: 5px; border-radius: 5px;">
+                                <div class="topbar-text" style="background: white; padding: 5px; border-radius: 5px;">
                                     <a href="#" style="color: black; text-decoration: none;">Senin - Jum`at 09.00 - 15.00 </a>
                                 </div>
                             </div>

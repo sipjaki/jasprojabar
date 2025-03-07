@@ -325,25 +325,29 @@
     <br><br>
 
     <table>
+
         <tr>
-            <td style="text-align: center;"></td>
-            <td style="text-align: center;">DITETAPKAN DI KABUPATEN BLORA</td>
-
-            <td style="text-align: center;"></td>
-            <td style="text-align: center;">PADA TANGGAL ______ </td>
-
-            <td style="text-align: center;"></td>
-            <td style="text-align: center;">ATAS NAMA </td>
-
-            <td style="text-align: center;"></td>
-            <td style="text-align: center;">DINAS PEKERJAAN UMUM DAN PENATAAN RUANG KAB BLORA <br> SUB KOORDINATOR BIDANG BANGUNAN GEDUNG </td>
-
-            <td style="text-align: center;"></td>
-            <td style="text-align: center;">NIP. ___________________________</td>
-
+            <td style="width: 50%;"></td>
+            <td style="width: 50%;">DI TETAPKAN DI KABUPATEN BLORA</td>
         </tr>
 
-    </table>
+        <tr>
+            <td style="width: 50%;"></td>
+            <td style="width: 50%;">PADA TANGGAL _____________</td>
+        </tr>
+        <br>
+        <tr>
+            <td style="width: 50%;"></td>
+            <td style="width: 50%;">DINAS PEKERJAAN UMUM DAN PENAATAAN RUANG <br> SUB KOORDINATOR BIDANG BANGUNAN GEDUNG </td>
+        </tr>
+
+        <br><br>
+            <tr>
+                <td style="width: 50%;"></td>
+                <td style="width: 50%;">ANEX FACHRIAN, S.T., M.T </td>
+            </tr>
+
+        </table>
 
 </div>
 
@@ -378,17 +382,6 @@
 					<a href="#"><i class="fa-brands fa-instagram"></i></a>
 				</div><!-- portfolio-details-info-socials -->
 			</div><!--/.portfolio-details-info--> --}}
-			<div class="portfolio-details-content">
-				<div class="portfolio-details-content-title">
-					<h3>Profil Jakon DPUPR Kabupaten BLora </h3>
-				</div><!-- portfolio-details-content-title -->
-				<div class="portfolio-details-content-text">
-					<p style="text-align: justify" >
-                        OPD yang menangani Bina Jasa Konstruksi di DPUPR Kab Blora setara dengan Eselon IV di bawah Bidang Bangunan Gedung. Pada Bidang Bangunan Gedung terdapat 2 Sub Koordinator yaitu Sub Koordinator Bangunan dan Lingkungan serta Sub Koordinator Bina Jasa Konstruksi. Hal tersebut tertuang dalam Peraturan Bupati No 66 Tahun 2021 Tentang Kedudukan, Susunan Organisasi, Tugas dan Fungsi, Serta Tata Kerja Dinas Pekerjaan Umum dan Penataan Ruang Kabupaten Blora. Sub Koordinator Bina Jasa Konstruksi mempunyai 4 Personil Jabatan Fungsional Bina Jasa Konstruksi
-                    </p>
-
-                </div><!-- portfolio-details-content-text -->
-			</div><!-- portfolio-details-content -->
 		</div><!-- container -->
 	</section><!-- portfolio-details -->
 
