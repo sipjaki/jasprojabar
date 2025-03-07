@@ -438,7 +438,7 @@
         const { jsPDF } = window.jspdf;
         const pdf = new jsPDF("p", "mm", "a4");
 
-        const margin = 20; // 2 cm margin di semua sisi
+        const margin = 15; // 2 cm margin di semua sisi
         const pdfWidth = 210 - 2 * margin; // Lebar A4 dikurangi margin kiri & kanan
         const pdfHeight = 297 - 2 * margin; // Tinggi A4 dikurangi margin atas & bawah
 
@@ -460,7 +460,7 @@
 
         addPageContent(page1, margin).then(() => {
             addPageContent(page2, margin, true).then(() => {
-                pdf.save("Dokumen_Peserta.pdf");
+                pdf.save("{{$data->namalengkap}}");
             });
         });
     });
