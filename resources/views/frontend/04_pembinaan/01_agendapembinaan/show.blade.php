@@ -39,17 +39,13 @@
 					</div><!-- news-details-meta-box --> --}}
 <br><br>
                     <div class="news-details-content-box" style="margin-left: 25px;">
-						<h4>Pelatihan dan Uji Kompetensi SKK Jenjang 4 bagi Tenaga Kerja Konstruksi di Kabupaten Blora</h4>
+						<h4>
+                                {{$data->namakegiatan}}
+                        </h4>
 
-                        <p>
-                            Blora, Dinas Pekerjaan Umum dan Penataan Ruang (DPUPR) Kabupaten Blora menggelar Pelatihan dan Uji Kompetensi Sertifikat Kompetensi Kerja (SKK) Jenjang 4 bagi tenaga kerja konstruksi. Kegiatan ini bertujuan untuk meningkatkan kualitas dan profesionalisme tenaga kerja konstruksi sesuai dengan standar nasional yang berlaku.
-                            Pelatihan dan uji kompetensi ini berlangsung di [lokasi kegiatan] dan diikuti oleh puluhan peserta yang berasal dari berbagai sektor konstruksi. Para peserta mendapatkan pembekalan teori serta praktik langsung yang dipandu oleh instruktur berpengalaman dan asesor kompetensi bersertifikat.
+                        <p>{{$data->isiagenda}}
                         </p>
 
-                        <p>
-                            Kepala Dinas PUPR Kabupaten Blora, Nidzamudin Al-Hudda, ST dalam sambutannya menyampaikan bahwa sertifikasi kompetensi kerja ini merupakan langkah penting dalam meningkatkan daya saing tenaga kerja konstruksi di Blora. “Kami berharap dengan adanya pelatihan dan sertifikasi ini, tenaga kerja konstruksi dapat bekerja lebih profesional dan kompeten sesuai dengan standar yang telah ditetapkan,” ujarnya.
-                            Selain itu, kegiatan ini juga sejalan dengan regulasi pemerintah yang mengharuskan setiap tenaga kerja konstruksi memiliki sertifikat kompetensi sesuai dengan Undang-Undang Jasa Konstruksi. Dengan adanya SKK, tenaga kerja konstruksi akan lebih mudah mendapatkan peluang kerja di berbagai proyek, baik yang dikelola oleh pemerintah maupun sektor swasta.
-                        </p>
 
 
                     </div><!-- /.news-details-content-box -->
