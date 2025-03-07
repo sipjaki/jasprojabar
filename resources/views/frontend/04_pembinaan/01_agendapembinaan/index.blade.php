@@ -224,16 +224,6 @@ color: #45a049;
                                             <option value="200">200</option>
                                         </select>
                                     </div>
-{{--
-                                    <div>
-                                        <label for="yearFilter" style="margin-right: 5px; font-weight: bold;">Filter Tahun:</label>
-                                        <select id="yearFilter" onchange="filterByYear()" style="padding: 5px; border: 1px solid black; background-color: white;">
-                                            <option value="">Pilih Tahun</option>
-                                            @foreach ($data->pluck('tahunpilihan.tahunpilihan')->unique() as $tahun)
-                                                <option value="{{ $tahun }}">{{ $tahun }}</option>
-                                            @endforeach
-                                        </select>
-                                    </div> --}}
 
                                     <div style="position: relative; display: inline-block; margin-right:10px;">
                                         <input type="search" id="searchInput" placeholder="Badan Usaha ...." onkeyup="searchTable()" style="border: 1px solid #ccc; padding: 10px 20px; font-size: 14px; border-radius: 10px; width: 300px;">
