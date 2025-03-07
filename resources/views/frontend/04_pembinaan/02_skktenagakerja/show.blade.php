@@ -396,16 +396,19 @@
     document.getElementById("downloadPDF").addEventListener("click", function () {
         const { jsPDF } = window.jspdf;
         const pdf = new jsPDF("p", "mm", "a4");
-        const element = document.querySelector(".container-surat"); // Target elemen yang akan dikonversi
 
-        const margin = 20; // 2 cm (20 mm)
-        const pdfWidth = 210 - 2 * margin; // Lebar A4 dikurangi margin kiri & kanan
-        const pdfHeight = 297 - 2 * margin; // Tinggi A4 dikurangi margin atas & bawah
+        const margin = 20; // 2 cm (20 mm) margin untuk semua sisi
+        const pdfWidth = 210 - 2 * margin; // Lebar A4 (210 mm) dikurangi margin kiri & kanan
+        const pdfHeight = 297 - 2 * margin; // Tinggi A4 (297 mm) dikurangi margin atas & bawah
+        let yOffset = margin; // Posisi awal teks dalam halaman PDF
 
-        html2canvas(element, { scale: 2 }).then((canvas) => {
+        const element = document.querySelector(".container-surat");
+
+        html2canvas(element, { scale: 2, scrollY: -window.scrollY }).then((canvas) => {
             const imgData = canvas.toDataURL("image/png");
             const imgWidth = pdfWidth;
             const imgHeight = (canvas.height * imgWidth) / canvas.width;
+
             let heightLeft = imgHeight;
             let position = margin;
 
@@ -413,8 +416,8 @@
             heightLeft -= pdfHeight;
 
             while (heightLeft > 0) {
-                position = margin - heightLeft;
                 pdf.addPage();
+                position = margin - heightLeft;
                 pdf.addImage(imgData, "PNG", margin, position, imgWidth, imgHeight);
                 heightLeft -= pdfHeight;
             }
