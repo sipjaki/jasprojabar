@@ -261,7 +261,7 @@ color: #adb6ad;
                                             <td>{{$item->jumlahpeserta}}</td>
                                             <td>{{$item->lokasi}}</td>
                                             <td>{{$item->keterangan}}</td>
-                                            <td style="text-align: center">
+                                            <td style="display: flex; justify-content: center; align-items: center; text-align: center; padding: 10px;">
                                                 @php
                                                     $today = \Carbon\Carbon::now()->subDays(7); // Hari ini dikurangi 7 hari
                                                     $eventDate = \Carbon\Carbon::parse($item->waktupelaksanaan);
@@ -281,6 +281,7 @@ color: #adb6ad;
                                                         opacity: 0.6; /* Memberikan efek transparan */
                                                         display: flex;
                                                         align-items: center;
+                                                        justify-content: center;
                                                         gap: 6px;
                                                     " disabled>
                                                         <i class="fas fa-times-circle"></i> Ditutup
@@ -299,8 +300,8 @@ color: #adb6ad;
                                                             transition: all 0.3s ease;
                                                             display: flex;
                                                             align-items: center;
+                                                            justify-content: center;
                                                             gap: 6px;
-                                                            text-align:center;
                                                         " onmouseover="this.style.backgroundColor='white'; this.style.color='#001f3f';"
                                                            onmouseout="this.style.backgroundColor='#001f3f'; this.style.color='white';">
                                                             <i class="fas fa-user-check"></i> Daftar
