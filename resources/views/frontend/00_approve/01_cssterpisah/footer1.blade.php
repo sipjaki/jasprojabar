@@ -1,5 +1,5 @@
 
-<section class="footer" style="margin-bottom: -100px;">
+<section class="footer">
 	<div class="footer-inner">
 		{{-- <div class="container" style="max-width: calc(100% - 300px); margin: 0 auto;"> --}}
 		<div class="container" style="
