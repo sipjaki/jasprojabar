@@ -113,7 +113,7 @@
 
 <div class="halaman-pertama" >
     <div class="header-surat">
-        <img src="/assets/icon/logokabupatenblora.png" alt="Logo Kabupaten Blora" style="margin-right:100px; margin-top:100px;">
+        <img src="/assets/icon/logokabupatenblora.png" alt="Logo Kabupaten Blora" style="margin-right:300px; margin-top:100px;">
         <br>
         <div class="header-text">
             <h3>PEMERINTAH KABUPATEN BLORA</h3>
