@@ -19,8 +19,8 @@ return new class extends Migration
             $table->string('penyelenggara')->nullable();
             $table->string('waktupelaksanaan')->nullable();
             $table->integer('jumlahpeserta')->nullable();
-            $table->integer('lokasi')->nullable();
-            $table->integer('keterangan')->nullable();
+            $table->string('lokasi')->nullable();
+            $table->string('keterangan')->nullable();
             $table->softDeletes();
             $table->timestamps();
         });
