@@ -69,7 +69,7 @@
 							</ul><!-- list-unstyled -->
 						</div><!-- footer-widget-explore -->
 
-                        <div class="footer-widget-explore">
+                        {{-- <div class="footer-widget-explore">
 							<h4 class="footer-widget-title">
                                 <i class="fas fa-gavel" style="margin-right: 5px;"></i> Peraturan Pemerintah
                             </h4>
@@ -88,7 +88,7 @@
 								<li><a href="/404">Peraturan Walikota/Bupati</a></li>
 								<li><a href="/404">Surat Keputusan</a></li>
 							</ul><!-- list-unstyled -->
-						</div><!-- footer-widget-department -->
+						</div><!-- footer-widget-department --> --}}
 
 
 
