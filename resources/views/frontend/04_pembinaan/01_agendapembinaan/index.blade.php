@@ -262,9 +262,26 @@ color: #adb6ad;
                                             <td>{{$item->keterangan}}</td>
                                             <td style="text-align: center">
                                                 <a href="/agendapembinaan/{{$item->namakegiatan}}">
-                                                    <i class="fas fa-user-check register-icon" onclick="alert('View clicked!')"></i>
+                                                    <button style="
+                                                        background-color: #001f3f;
+                                                        color: white;
+                                                        border: 2px solid #001f3f;
+                                                        padding: 8px 12px;
+                                                        font-size: 14px;
+                                                        font-weight: bold;
+                                                        border-radius: 6px;
+                                                        cursor: pointer;
+                                                        transition: all 0.3s ease;
+                                                        display: flex;
+                                                        align-items: center;
+                                                        gap: 6px;
+                                                    " onmouseover="this.style.backgroundColor='white'; this.style.color='#001f3f';"
+                                                       onmouseout="this.style.backgroundColor='#001f3f'; this.style.color='white';">
+                                                        <i class="fas fa-user-check"></i> Daftar
+                                                    </button>
                                                 </a>
                                             </td>
+
                                         </tr>
                                         @endforeach
                                     </tbody>
