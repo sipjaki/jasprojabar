@@ -23,7 +23,7 @@
 						<div class="news-details-box-image-inner">
                             <img src="{{ asset('storage/' . $data->foto) }}" class="img-fluid" alt="img-193">
 
-                            <a href="news-details.html" class="news-details-box-date">MARET 2025</a>
+                            <a href="news-details.html" class="news-details-box-date">{{$data->waktupelaksanaan}}</a>
 						</div><!-- news-details-box-image-inner -->
 					</div><!-- news-details-box-image -->
 
