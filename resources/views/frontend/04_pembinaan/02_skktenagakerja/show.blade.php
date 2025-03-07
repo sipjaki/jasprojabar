@@ -122,11 +122,13 @@
             <h3>BLORA 58214</h3>
         </div>
     </div>
+
     <div class="header-text">
-        <p>_____________________________________________________________</p>
-        <h3>DAFTAR PESERTA SKK TENAGA KONSTRUKSI</h3>
-        <h4>DINAS PEKERJAAN UMUM DAN PENATAAN RUANG KABUPATEN BLORA</h4>
+        <p style="text-align: center;">________________________________________________________________________________</p>
+        <h5 style="text-align: center;">DAFTAR PESERTA SKK TENAGA KONSTRUKSI</h5>
+        <h5 style="text-align: center;">DINAS PEKERJAAN UMUM DAN PENATAAN RUANG KABUPATEN BLORA</h5>
     </div>
+
     <br>
 
     <h5>I. IDENTITAS PESERTA</h4>
