@@ -288,6 +288,7 @@
             <td style="text-align: center;">{{$data->namaasosiasi}}</td>
         </tr>
     </table>
+
     <table>
         <tr>
             <td style="text-align: center;">MEMPUNYAI SKK ?</td>
@@ -316,6 +317,29 @@
                     <button class="btn btn-secondary" disabled style="text-align: center;">TIDAK BERSEDIA</button>
                 @endif
             </td>
+
+        </tr>
+
+    </table>
+
+    <br><br>
+
+    <table>
+        <tr>
+            <td style="text-align: center;"></td>
+            <td style="text-align: center;">DITETAPKAN DI KABUPATEN BLORA</td>
+
+            <td style="text-align: center;"></td>
+            <td style="text-align: center;">PADA TANGGAL ______ </td>
+
+            <td style="text-align: center;"></td>
+            <td style="text-align: center;">ATAS NAMA </td>
+
+            <td style="text-align: center;"></td>
+            <td style="text-align: center;">DINAS PEKERJAAN UMUM DAN PENATAAN RUANG KAB BLORA <br> SUB KOORDINATOR BIDANG BANGUNAN GEDUNG </td>
+
+            <td style="text-align: center;"></td>
+            <td style="text-align: center;">NIP. ___________________________</td>
 
         </tr>
 
