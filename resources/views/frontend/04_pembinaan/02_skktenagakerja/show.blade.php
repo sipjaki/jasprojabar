@@ -233,30 +233,30 @@
     {{-- <h5>KEPALA DINAS</h5> --}}
     <table>
         <tr>
-            <td>KTP/KITAS*</td>
-            <td>Foto</td>
-            <td>Ijazah</td>
+            <td style="text-align: center;">KTP/KITAS*</td>
+            <td style="text-align: center;">Foto</td>
+            <td style="text-align: center;">Ijazah</td>
         </tr>
         <tr>
             <td>
                 @if($data->uploadktp)
-                    <button class="badge-kembali">LENGKAP</button>
+                    <button class="badge-kembali" style="text-align: center;">LENGKAP</button>
                 @else
-                    <button class="btn btn-secondary" disabled>BELUM</button>
+                    <button class="btn btn-secondary" disabled style="text-align: center;">BELUM</button>
                 @endif
             </td>
             <td>
                 @if($data->uploadfoto)
-                    <button class="badge-kembali">LENGKAP</button>
+                    <button class="badge-kembali" style="text-align: center;">LENGKAP</button>
                 @else
-                    <button class="btn btn-secondary" disabled>BELUM</button>
+                    <button class="btn btn-secondary" disabled style="text-align: center;">BELUM</button>
                 @endif
             </td>
             <td>
                 @if($data->uploadijazah)
-                    <button class="badge-kembali">LENGKAP</button>
+                    <button class="badge-kembali" style="text-align: center;">LENGKAP</button>
                 @else
-                    <button class="btn btn-secondary" disabled>BELUM</button>
+                    <button class="btn btn-secondary" disabled style="text-align: center;">BELUM</button>
                 @endif
             </td>
 
