@@ -406,7 +406,13 @@
     </div>
 
     <div style="display: flex; justify-content: flex-end; padding: 10px;">
-        <button id="downloadPDF" style="
+        <button id="downloadPDF" class="download-btn">
+            Download PDF
+        </button>
+    </div>
+
+    <style>
+        .download-btn {
             background-color: #001f3f;
             color: white;
             border: 2px solid #001f3f;
@@ -415,18 +421,15 @@
             font-weight: bold;
             border-radius: 8px;
             cursor: pointer;
-            transition: all 0.3s ease;
+            transition: all 0.3s ease-in-out;
             box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
-        ">
-            Download PDF
-        </button>
-    </div>
+        }
 
-    <style>
-        #downloadPDF:hover {
-            background-color: white;
-            color: #001f3f;
-            border: 2px solid #001f3f;
+        /* Efek Hover */
+        .download-btn:hover {
+            background-color: white !important;
+            color: #001f3f !important;
+            border: 2px solid #001f3f !important;
         }
     </style>
 
