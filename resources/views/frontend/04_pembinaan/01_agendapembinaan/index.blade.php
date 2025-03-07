@@ -300,6 +300,7 @@ color: #adb6ad;
                                                             display: flex;
                                                             align-items: center;
                                                             gap: 6px;
+                                                            text-align:center;
                                                         " onmouseover="this.style.backgroundColor='white'; this.style.color='#001f3f';"
                                                            onmouseout="this.style.backgroundColor='#001f3f'; this.style.color='white';">
                                                             <i class="fas fa-user-check"></i> Daftar
