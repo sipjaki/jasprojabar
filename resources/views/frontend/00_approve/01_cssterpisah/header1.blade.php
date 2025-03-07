@@ -70,7 +70,7 @@
                                 font-family: Arial, sans-serif;">
                                 <p id="jam" style="
                                     font-size: 14px;
-                                    background: navy;
+                                    background: black;
                                     color: #fff;
                                     padding: 10px 10px;
                                     border-radius: 15px;
