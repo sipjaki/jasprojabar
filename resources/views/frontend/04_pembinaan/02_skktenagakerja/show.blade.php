@@ -99,75 +99,28 @@
 
     <h4>I. IDENTITAS PESERTA</h4>
     <table>
+
         <tr>
             <td>1.</td>
             <td>Nama Lengkap</td>
             <td>:</td>
             <td>{{$data->namalengkap}}</td>
             <td>
-                <img src="/assets/00_dokmasjaki/03_datajakon/jabatan.png" alt="" height="200px;">
+                <img src="/assets/00_dokmasjaki/03_datajakon/jabatan.png" alt="" width="200px;">
             </td>
         </tr>
+
+    </table>
+
+    <table>
+
         <tr>
-            <td>2.</td>
-            <td>Alamat OPD</td>
+            <td>1.</td>
+            <td>Jabatan Kerja </td>
             <td>:</td>
-            <td>Jl. Nusantara No. 62</td>
+            <td>{{$data->jabatankerja}}</td>
         </tr>
-        <tr>
-            <td></td>
-            <td>RT / RW</td>
-            <td>:</td>
-            <td> - </td>
-        </tr>
-        <tr>
-            <td></td>
-            <td>Kode Pos</td>
-            <td>:</td>
-            <td>58214</td>
-        </tr>
-        <tr>
-            <td></td>
-            <td>Kelurahan</td>
-            <td>:</td>
-            <td>Jetis</td>
-        </tr>
-        <tr>
-            <td></td>
-            <td>Kecamatan</td>
-            <td>:</td>
-            <td>Blora</td>
-        </tr>
-        <tr>
-            <td></td>
-            <td>Kota</td>
-            <td>:</td>
-            <td>Blora</td>
-        </tr>
-        <tr>
-            <td></td>
-            <td>Provinsi</td>
-            <td>:</td>
-            <td>Jawa Tengah</td>
-        </tr>
-        <tr>
-            <td></td>
-            <td>Negara</td>
-            <td>:</td>
-            <td>Indonesia</td>
-        </tr>
-        <tr>
-            <td>3.</td>
-            <td>Posisi Geografis</td>
-            <td>:</td>
-            <td>-6.976853 Lintang, 111.410894 Bujur</td>
-        </tr>
-        <tr>
-            <td>4.</td>
-            <td>Tipe Dinas</td>
-            <td>:</td>
-            <td>B</td>
-        </tr>
+
     </table>
 
     <br>
