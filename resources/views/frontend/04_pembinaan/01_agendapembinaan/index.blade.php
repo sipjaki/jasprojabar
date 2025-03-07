@@ -263,10 +263,10 @@ color: #adb6ad;
                                             <td>{{$item->keterangan}}</td>
                                             <td style="display: flex; justify-content: center; align-items: center; text-align: center; padding: 10px;">
                                                 @php
-                                                    $today = \Carbon\Carbon::now()->subDays(7); // Hari ini dikurangi 7 hari
-                                                    $eventDate = \Carbon\Carbon::parse($item->waktupelaksanaan);
-                                                    $isClosed = $eventDate->lessThan($today); // Jika event sudah melewati batas
-                                                @endphp
+                                                $eventDate = \Carbon\Carbon::parse($item->waktupelaksanaan)->subDays(7); // Tanggal pelaksanaan dikurangi 7 hari
+                                                $today = \Carbon\Carbon::now(); // Hari ini
+                                                $isClosed = $today->greaterThanOrEqualTo($eventDate); // Ditutup jika hari ini >= eventDate - 7 hari
+                                            @endphp
 
                                                 @if ($isClosed)
                                                     <button style="
