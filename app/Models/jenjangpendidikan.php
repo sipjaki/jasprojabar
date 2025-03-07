@@ -28,5 +28,10 @@ class jenjangpendidikan extends Model
         return $this->hasMany(allskktenagakerjablora::class);
     }
 
+    public function agendapelatihan()
+    {
+        return $this->hasMany(agendapelatihan::class);
+    }
+
 
 }

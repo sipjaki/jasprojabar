@@ -82,9 +82,13 @@ use App\Models\beritajakon;
 use App\Models\allskktenagakerjablora;
 // use App\Models\artikeljakon;
 use App\Models\artikeljakonmasjaki;
+use App\Models\kategoripelatihan;
+use App\Models\agendapelatihan;
+
 
 
 // modelbaru
+
 // use App\Models\paketpekerjaan;
 use Database\Factories\SkktenagakerjaFactory;
 // use Carbon\Carbon;
@@ -6212,12 +6216,102 @@ tahunpilihan::create([
     'tahunpilihan' => '2027',
 ]);
 
+// ===============================
+// DATA KATEGORI PELATIHAN
 
+kategoripelatihan::create([
+    'id' => 1,
+    'kategoripelatihan' => 'Bimbingan Teknis',
+]);
 
-// garis
+kategoripelatihan::create([
+    'id' => 2,
+    'kategoripelatihan' => 'Pelatihan',
+]);
+
+kategoripelatihan::create([
+    'id' => 3,
+    'kategoripelatihan' => 'Sosialisasi',
+]);
+
+// ===============================
+// DATA AGENDA PELATIHAN
+agendapelatihan::create([
+    'id' => 1,
+    'kategoripelatihan_id' => '1',
+    'namakegiatan' => 'Pelatihan Manajemen Konstruksi',
+    'penyelenggara' => 'Dinas Pekerjaan Umum dan Penataan Ruang Kab Blora',
+    'jenjang_id' => '4',
+    'waktupelaksanaan' => '2025-02-15',
+    'jumlahpeserta' => 40,
+    'lokasi' => 'Jln Blora No. 10',
+    'Keterangan' => 'Pelatihan untuk meningkatkan kualitas tenaga kerja konstruksi.',
+]);
+
+agendapelatihan::create([
+    'id' => 2,
+    'kategoripelatihan_id' => '2',
+    'namakegiatan' => 'Pelatihan Ahli K3 Konstruksi',
+    'penyelenggara' => 'Dinas Tenaga Kerja Kab Blora',
+    'jenjang_id' => '5',
+    'waktupelaksanaan' => '2025-03-10',
+    'jumlahpeserta' => 30,
+    'lokasi' => 'Balai Latihan Kerja Blora',
+    'Keterangan' => 'Pelatihan sertifikasi ahli K3 di bidang konstruksi.',
+]);
+
+agendapelatihan::create([
+    'id' => 3,
+    'kategoripelatihan_id' => '3',
+    'namakegiatan' => 'Workshop Teknologi Konstruksi',
+    'penyelenggara' => 'Asosiasi Konstruksi Indonesia',
+    'jenjang_id' => '4',
+    'waktupelaksanaan' => '2025-04-05',
+    'jumlahpeserta' => 50,
+    'lokasi' => 'Hotel Blora Indah',
+    'Keterangan' => 'Pengenalan teknologi terbaru dalam konstruksi.',
+]);
+
+agendapelatihan::create([
+    'id' => 4,
+    'kategoripelatihan_id' => '1',
+    'namakegiatan' => 'Pelatihan Pengawasan Proyek',
+    'penyelenggara' => 'Dinas PU dan PR Kab Blora',
+    'jenjang_id' => '4',
+    'waktupelaksanaan' => '2025-05-12',
+    'jumlahpeserta' => 25,
+    'lokasi' => 'Gedung Serbaguna Blora',
+    'Keterangan' => 'Pelatihan bagi tenaga pengawas proyek konstruksi.',
+]);
+
+agendapelatihan::create([
+    'id' => 5,
+    'kategoripelatihan_id' => '2',
+    'namakegiatan' => 'Bimbingan Teknis Konstruksi',
+    'penyelenggara' => 'Kementerian PUPR',
+    'jenjang_id' => '4',
+    'waktupelaksanaan' => '2025-06-20',
+    'jumlahpeserta' => 60,
+    'lokasi' => 'Aula Kantor PU Blora',
+    'Keterangan' => 'Bimtek peningkatan kapasitas tenaga konstruksi.',
+]);
+
+agendapelatihan::create([
+    'id' => 6,
+    'kategoripelatihan_id' => '3',
+    'namakegiatan' => 'Seminar Keselamatan Kerja',
+    'penyelenggara' => 'Dinas Ketenagakerjaan Kab Blora',
+    'jenjang_id' => '4',
+    'waktupelaksanaan' => '2025-07-15',
+    'jumlahpeserta' => 35,
+    'lokasi' => 'Universitas Blora',
+    'Keterangan' => 'Seminar terkait pentingnya keselamatan kerja dalam konstruksi.',
+]);
+
+// iqlima
 // profilpaketkonsultasi::create([
-//     'prosespaketkonsultasi_id' => 1,
-//     'jenispekerjaan' => 'Pekerjaan Pembangunan Pasar Tradisional',
+    //     'prosespaketkonsultasi_id' => 1,
+    //     'jenispekerjaan' => 'Pekerjaan Pembangunan Pasar Tradisional',
 //     'namapekerjaan' => 'Pembangunan Pasar Tradisional Blora',
 //     'tahunpelaksanaan' => 2025,
 //     'cvptpenyedia' => 'PT. Pasar Makmur',
