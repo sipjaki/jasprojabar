@@ -165,6 +165,7 @@ Route::get('/datajakon/paketkonsultasinontender/{namapekerjaan}', [Profilpaketko
 // ---------------------- 05 DATA JAKON BUJK KONTRAKTOR-----------------------//
 // ------------- HALAMAN AGENDA PEMBINAAN MAS JAKI BLORA -----------------
 Route::get('/agendapembinaan', [PembinaanController::class, 'index']);
+Route::get('/agendapembinaan/{namakegiatan}', [PembinaanController::class, 'namakegiatandaftar']);
 
 // ---------------------- 06 PENGAWASAN BUJK MAS JAKI -----------------------//
 // ------------- HALAMAN AGENDA PENGAWASAN BUJK -----------------

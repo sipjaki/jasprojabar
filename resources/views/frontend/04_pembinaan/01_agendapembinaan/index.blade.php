@@ -262,19 +262,17 @@ color: #45a049;
                                         @foreach ($data as $item )
                                         <tr>
                                             <td style="text-align: center;">{{ $loop->iteration + $start - 1 }}</td>
-                                            <td style="text-transform: capitalize;">{{ ucwords(strtolower($item->namalengkap)) }}</td>
-                                            <td>{{$item->alamat}}</td>
-                                            <td style="text-align: center;">{{$item->no_telepon}}</td>
-                                            {{-- <td>{{$item->email}}</td>
-                                            <td>{{$item->nib}}</td>
-                                            <td>{{$item->pju}}</td>
-                                            <td>{{$item->no_akte}}</td>
-                                            <td>{{ \Carbon\Carbon::parse($item->tanggal)->isoFormat('D MMMM YYYY') }}</td>
-                                            <td>{{$item->nama_notaris}}</td>
-                                            <td>{{$item->no_pengesahan}}</td> --}}
-                                            <td style="text-align: center;">{{$item->tahunpilihan->tahunpilihan}}</td>
+                                            <td>{{$item->kategoripelatihan->kategoripelatihan}}</td>
+                                            <td>{{$item->namakegiatan}}</td>
+                                            <td>{{$item->penyelenggara}}</td>
+                                            <td>{{$item->jenjang->jenjang}}</td>
+                                            <td>{{$item->waktupelaksanaan}}</td>
+                                            <td>{{$item->jumlahpeserta}}</td>
+                                            <td>{{$item->lokasi}}</td>
+                                            <td>{{$item->keterangan}}</td>
+                                            <td>{{$item->}}</td>
                                             <td style="text-align: center">
-                                                <a href="/datajakon/bujkkontraktor/{{$item->namalengkap}}">
+                                                <a href="/agendapembinaan/{{$item->namakegiatan}}">
                                                     <i class="fas fa-eye view-icon" onclick="alert('View clicked!')"></i>
                                                 </a>
                                             </td>
