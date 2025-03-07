@@ -343,9 +343,11 @@
 
         <br><br>
             <tr>
-                <td style="width: 50%;"></td>
-                <td style="width: 50%;">ANEX FACHRIAN, S.T., M.T </td>
+                <td style="width: 50%; border-bottom: 2px solid black; text-align: center;">
+                    ANEX FACHRIAN, S.T., M.T
+                </td>
             </tr>
+
 
         </table>
 
