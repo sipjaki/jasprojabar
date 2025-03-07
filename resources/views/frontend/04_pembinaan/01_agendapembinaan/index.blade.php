@@ -243,6 +243,7 @@ color: #adb6ad;
                                                 <th onclick="sortTable(6)" style="cursor:pointer; text-align:center; width:150px;"> Jumlah Peserta <span class="sort-icon">⇅</span></th>
                                                 <th onclick="sortTable(7)" style="cursor:pointer; text-align:center; width:250px;"> Lokasi <span class="sort-icon">⇅</span></th>
                                                 <th onclick="sortTable(8)" style="cursor:pointer; text-align:center; width:300px;"> Keterangan <span class="sort-icon">⇅</span></th>
+                                                <th onclick="sortTable(8)" style="cursor:pointer; text-align:center; width:300px;"> Masa Pendaftaran <span class="sort-icon">⇅</span></th>
                                                 <th style="text-align:center; width:100px;"> Daftar </th>
                                             </tr>
 
@@ -260,6 +261,27 @@ color: #adb6ad;
                                             <td>{{$item->jumlahpeserta}}</td>
                                             <td>{{$item->lokasi}}</td>
                                             <td>{{$item->keterangan}}</td>
+                                            <td style="text-align: center">
+                                                @php
+                                                    $today = \Carbon\Carbon::now()->subDays(7); // Hari ini dikurangi 7 hari
+                                                    $eventDate = \Carbon\Carbon::parse($item->waktupelaksanaan);
+                                                    $isClosed = $eventDate->lessThan($today); // Jika event sudah melewati batas
+                                                @endphp
+
+                                                <button style="
+                                                    background-color: {{ $isClosed ? '#FF0000' : '#28A745' }}; /* Merah untuk ditutup, hijau untuk dibuka */
+                                                    color: white;
+                                                    border: none;
+                                                    padding: 8px 12px;
+                                                    font-size: 14px;
+                                                    font-weight: bold;
+                                                    border-radius: 6px;
+                                                    cursor: default;
+                                                ">
+                                                    {{ $isClosed ? 'DITUTUP' : 'DIBUKA' }}
+                                                </button>
+                                            </td>
+
                                             <td style="text-align: center">
                                                 <a href="/agendapembinaan/{{$item->namakegiatan}}">
                                                     <button style="
