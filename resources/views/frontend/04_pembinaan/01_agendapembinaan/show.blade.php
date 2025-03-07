@@ -119,7 +119,8 @@
 							</div><!-- sidebar__item -->
 						</div><!-- sidebar-form-content -->
 						<div class="sidebar-widget sidebar-widget-recent-post">
-							<h4>Daftar Berita</h4>
+
+                            <h4>Penyelenggara</h4>
 
                             <div class="sidebar-recent-post">
 								<div class="sidebar-recent-post-content">
@@ -131,9 +132,22 @@
                                                 </span><!-- author -->
 											</div><!-- sidebar-meta-icon -->
 										</div><!-- sidebar-meta-item -->
-										<div class="sidebar-post-title">
-											<h5><a href="#">{{$data->jumlahpeserta}}</a></h5>
-										</div><!-- sidebar-post-title -->
+									</div><!-- sidebar-meta -->
+								</div><!-- sidebar-recent-post-content -->
+							</div><!-- sidebar-recent-post -->
+
+                            <h4>Waktu Pelaksanaan</h4>
+
+                            <div class="sidebar-recent-post">
+								<div class="sidebar-recent-post-content">
+                                    <div class="sidebar-meta">
+                                        <div class="sidebar-meta-item">
+                                            <div class="sidebar-meta-icon">
+												<span class="author">
+                                                        <p>{{$data->waktupelaksanaan}}</p>
+                                                </span><!-- author -->
+											</div><!-- sidebar-meta-icon -->
+										</div><!-- sidebar-meta-item -->
 									</div><!-- sidebar-meta -->
 								</div><!-- sidebar-recent-post-content -->
 							</div><!-- sidebar-recent-post -->
