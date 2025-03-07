@@ -117,7 +117,7 @@
     </div>
     <br>
 
-    <h4>I. IDENTITAS PESERTA</h4>
+    <h5>I. IDENTITAS PESERTA</h4>
     <table>
 
         <tr>
@@ -215,7 +215,7 @@
 
     <br>
 
-    <h4>II. KELENGKAPAN BERKAS PERSYARATAN PESERTA</h4>
+    <h5>II. KELENGKAPAN BERKAS PERSYARATAN PESERTA</h4>
     {{-- <h5>KEPALA DINAS</h5> --}}
     <table>
         <tr>
