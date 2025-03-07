@@ -115,7 +115,7 @@
     <div class="header-surat" style="display: flex; align-items: center; justify-content: center;">
         <img src="/assets/icon/logokabupatenblora.png" alt="Logo Kabupaten Blora" style="width: 100px; height: auto; margin-right: 200px;">
 
-        <div class="header-text" style="text-align: center;">
+        <div class="header-text" style="text-align: center;" style="margin-right: 500px;">
             <h3 style="margin: 2px 0;">PEMERINTAH KABUPATEN BLORA</h3>
             <h3 style="margin: 2px 0;">DINAS PEKERJAAN UMUM DAN PENATAAN RUANG</h3>
             <p style="margin: 2px 0;">Jl. Nusantara No. 62 Telp. (0296) 531004</p>
