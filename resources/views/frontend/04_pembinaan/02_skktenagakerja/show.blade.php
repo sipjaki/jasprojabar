@@ -324,7 +324,7 @@
 
     <br>
 
-    <table style="border-collapse: collapse; border: none;">
+    <table class="borderbaru" style="border-collapse: collapse; border: none;">
 
         <tr>
             <td style="width: 40%;"></td>
