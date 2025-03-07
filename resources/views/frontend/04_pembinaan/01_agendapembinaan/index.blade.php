@@ -260,7 +260,6 @@ color: #45a049;
                                             <td>{{$item->jumlahpeserta}}</td>
                                             <td>{{$item->lokasi}}</td>
                                             <td>{{$item->keterangan}}</td>
-                                            <td>{{$item->}}</td>
                                             <td style="text-align: center">
                                                 <a href="/agendapembinaan/{{$item->namakegiatan}}">
                                                     <i class="fas fa-eye view-icon" onclick="alert('View clicked!')"></i>
