@@ -334,36 +334,36 @@
     <table class="borderbaru" style="border-collapse: collapse; border: none;">
 
         <tr>
-            <td style="width: 40%;"></td>
-            <td style="width: 50%;">DI TETAPKAN DI KABUPATEN BLORA</td>
+            <td style="width: 45%;"></td>
+            <td style="width: 55%;">DI TETAPKAN DI KABUPATEN BLORA</td>
         </tr>
 
         <tr>
-            <td style="width: 40%;"></td>
-            <td style="width: 60%;">PADA TANGGAL _____________</td>
+            <td style="width: 45%;"></td>
+            <td style="width: 55%;">PADA TANGGAL _____________</td>
         </tr>
         <br>
         <tr>
-            <td style="width: 40%;"></td>
-            <td style="width: 60%;">DINAS PEKERJAAN UMUM DAN PENAATAAN RUANG <br> SUB KOORDINATOR BIDANG BANGUNAN GEDUNG </td>
+            <td style="width: 45%;"></td>
+            <td style="width: 55%;">DINAS PEKERJAAN UMUM DAN PENAATAAN RUANG <br> SUB KOORDINATOR BIDANG BANGUNAN GEDUNG </td>
         </tr>
 
         <br><br>
         <tr>
-            <td style="width: 40%;"></td>
-            <td style="width: 60%;"></td>
+            <td style="width: 45%;"></td>
+            <td style="width: 55%;"></td>
         </tr>
         <tr>
-            <td style="width: 40%;"></td>
-            <td style="width: 60%;"></td>
+            <td style="width: 45%;"></td>
+            <td style="width: 55%;"></td>
         </tr>
         <tr>
-            <td style="width: 40%;"></td>
-            <td style="width: 60%;"></td>
+            <td style="width: 45%;"></td>
+            <td style="width: 55%;"></td>
         </tr>
             <tr>
-                <td style="width: 40%;"></td>
-                <td style="width: 60%; border-bottom: 2px solid black; text-align: center;">
+                <td style="width: 45%;"></td>
+                <td style="width: 55%; border-bottom: 2px solid black; text-align: center;">
                     ANEX FACHRIAN, S.T., M.T
                 </td>
             </tr>
