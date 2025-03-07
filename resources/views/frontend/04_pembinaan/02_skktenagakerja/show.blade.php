@@ -1,6 +1,6 @@
 <style>
 .badgekembali {
-                background: linear-gradient(to right, navy, white);
+                background: linear-gradient(to right, navy, navy);
                 color: white;
                 padding: 10px 20px;
                 border-radius: 10px;
@@ -254,7 +254,7 @@
             </td>
             <td>
                 @if($data->uploadijazah)
-                    <button class="btn btn-navy">LENGKAP</button>
+                    <button class="badge-kembali">LENGKAP</button>
                 @else
                     <button class="btn btn-secondary" disabled>BELUM</button>
                 @endif
