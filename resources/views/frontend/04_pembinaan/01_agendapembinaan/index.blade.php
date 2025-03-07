@@ -261,7 +261,7 @@ color: #adb6ad;
                                             <td style="text-align: center;">{{$item->jumlahpeserta}}</td>
                                             <td>{{$item->lokasi}}</td>
                                             <td>{{$item->keterangan}}</td>
-                                            <td style="justify-content: center; align-items: center; text-align: center;">
+                                            <td style="display: flex; justify-content: center; align-items: center; text-align: center; padding: 10px;">
                                                 @php
                                                     $today = \Carbon\Carbon::now()->subDays(7); // Hari ini dikurangi 7 hari
                                                     $eventDate = \Carbon\Carbon::parse($item->waktupelaksanaan);
