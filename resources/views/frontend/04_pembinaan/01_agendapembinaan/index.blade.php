@@ -281,12 +281,13 @@ color: #adb6ad;
                                                         opacity: 0.6; /* Memberikan efek transparan */
                                                         display: flex;
                                                         align-items: center;
+                                                        justify-content: center;
                                                         gap: 6px;
                                                     " disabled>
                                                         <i class="fas fa-times-circle"></i> Ditutup
                                                     </button>
                                                 @else
-                                                    <a href="/agendapembinaan/{{$item->namakegiatan}}">
+                                                    <a href="/agendapembinaan/{{$item->namakegiatan}}" style="text-decoration: none;">
                                                         <button style="
                                                             background-color: #001f3f;
                                                             color: white;
@@ -299,8 +300,8 @@ color: #adb6ad;
                                                             transition: all 0.3s ease;
                                                             display: flex;
                                                             align-items: center;
+                                                            justify-content: center;
                                                             gap: 6px;
-                                                            text-align:center;
                                                         " onmouseover="this.style.backgroundColor='white'; this.style.color='#001f3f';"
                                                            onmouseout="this.style.backgroundColor='#001f3f'; this.style.color='white';">
                                                             <i class="fas fa-user-check"></i> Daftar
