@@ -23,7 +23,8 @@
 						<div class="news-details-box-image-inner">
                             <img src="{{ asset('storage/' . $data->foto) }}" class="img-fluid" alt="img-193">
 
-                            <a href="news-details.html" class="news-details-box-date">{{$data->waktupelaksanaan}}</a>
+                            <a href="news-details.html" class="news-details-box-date">{{ \Carbon\Carbon::parse($data->waktupelaksanaan)->translatedFormat('l, d F Y') }}
+                            </a>
 						</div><!-- news-details-box-image-inner -->
 					</div><!-- news-details-box-image -->
 
