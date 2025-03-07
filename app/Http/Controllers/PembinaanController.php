@@ -97,7 +97,7 @@ class PembinaanController extends Controller
     $user = Auth::user();
 
     return view('frontend.04_pembinaan.01_agendapembinaan.show', [
-        'title' => 'Data Bujk Konstruksi',
+        'title' => 'Agenda Pelatihan',
         'data' => $dataagendapelatihan,
         // 'subData' => $subdata,  // Jika Anda ingin mengirimkan data sub kontraktor juga
         'user' => $user,
