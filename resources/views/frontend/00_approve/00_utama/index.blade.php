@@ -102,18 +102,7 @@
 
 
 	<section class="news-details-section" style="background-image: url(assets/00_dokmasjaki/03_datajakon/bannerbetter.jpg);">
-		<div class="container"
-        style="
-        background: white;
-        max-width: 95%;
-        margin: 30px auto;
-        padding: 20px;
-        height: auto;
-        border-radius: 20px;
-        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-        position: relative;
-        z-index: 10;"
-        >
+		<div class="container">
 			<div class="row">
 				<div class="col-lg-8">
 					<div class="news-details-box-image">
