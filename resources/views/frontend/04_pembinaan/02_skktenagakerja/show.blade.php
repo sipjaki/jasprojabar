@@ -261,36 +261,7 @@
             </td>
 
         </tr>
-        <tr>
-            <td>3.</td>
-            <td>Tempat, Tanggal Lahir</td>
-            <td>:</td>
-            <td> - </td>
-        </tr>
-        <tr>
-            <td>4.</td>
-            <td>Pangkat / Golongan</td>
-            <td>:</td>
-            <td> - </td>
-        </tr>
-        <tr>
-            <td>5.</td>
-            <td>Jabatan</td>
-            <td>:</td>
-            <td>Plt. Kepala Dinas Pekerjaan Umum Dan Penataan Ruang Kabupaten Blora</td>
-        </tr>
-        <tr>
-            <td>6.</td>
-            <td>Perangkat Daerah</td>
-            <td>:</td>
-            <td>Dinas Pekerjaan Umum Dan Penataan Ruang Kabupaten Blora</td>
-        </tr>
-        <tr>
-            <td>7.</td>
-            <td>Pendidikan Terakhir</td>
-            <td>:</td>
-            <td>Strata 1 (S1)</td>
-        </tr>
+
     </table>
 
     <br>
