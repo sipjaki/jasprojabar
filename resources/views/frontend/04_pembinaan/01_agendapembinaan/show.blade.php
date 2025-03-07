@@ -139,9 +139,6 @@
 							</div><!-- sidebar-recent-post -->
 
 
-                            @endforeach
-
-
                         </div><!-- sidebar-widget sidebar-widget-recent-post -->
 
                         {{-- <div class="sidebar-widget sidebar-widget-recent-category">
