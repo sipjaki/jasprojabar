@@ -105,7 +105,7 @@
             <td>Nama Lengkap</td>
             <td>:</td>
             <td>{{$data->namalengkap}}</td>
-            <td>
+            <td style="width:200px;">
                 <img src="/assets/00_dokmasjaki/03_datajakon/jabatan.png" alt="" width="200px;">
             </td>
         </tr>
