@@ -162,7 +162,7 @@
                                         <div class="sidebar-meta-item">
                                             <div class="sidebar-meta-icon">
 												<span class="author">
-                                                    <p>{{$item->lokasi}}</p>
+                                                    <p>{{$data->lokasi}}</p>
                                                     </span><!-- author -->
 											</div><!-- sidebar-meta-icon -->
 										</div><!-- sidebar-meta-item -->
