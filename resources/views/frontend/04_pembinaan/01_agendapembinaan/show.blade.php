@@ -107,6 +107,12 @@
                                             <i class="fas fa-arrow-left" style="margin-right:10px;"></i> Kembali
                                         </button>
                                     </a>
+
+                                    <a href="/404">
+                                        <button class="download-btn" style="margin-right: 10px;">
+                                            <i class="fas fa-file-alt" style="margin-right: 10px;"></i> Daftar Kegiatan
+                                        </button>
+                                    </a>
                                 </div>
 
 
