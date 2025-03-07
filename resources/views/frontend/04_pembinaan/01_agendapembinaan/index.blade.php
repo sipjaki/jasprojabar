@@ -258,7 +258,7 @@ color: #adb6ad;
                                             <td>{{$item->penyelenggara}}</td>
                                             <td style="text-align: center;">{{$item->jenjang->jenjang}}</td>
                                             <td>{{ \Carbon\Carbon::parse($item->waktupelaksanaan)->translatedFormat('d F Y') }}</td>
-                                            <td>{{$item->jumlahpeserta}}</td>
+                                            <td style="text-align: center;">{{$item->jumlahpeserta}}</td>
                                             <td>{{$item->lokasi}}</td>
                                             <td>{{$item->keterangan}}</td>
                                             <td style="justify-content: center; align-items: center; text-align: center;">
