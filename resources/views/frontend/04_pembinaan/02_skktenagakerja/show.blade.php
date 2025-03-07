@@ -405,7 +405,31 @@
 
     </div>
 
-<button class="badge-kembali" id="downloadPDF">Download PDF</button>
+    <div style="display: flex; justify-content: flex-end; padding: 10px;">
+        <button id="downloadPDF" style="
+            background-color: #001f3f;
+            color: white;
+            border: 2px solid #001f3f;
+            padding: 10px 20px;
+            font-size: 16px;
+            font-weight: bold;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+        ">
+            Download PDF
+        </button>
+    </div>
+
+    <style>
+        #downloadPDF:hover {
+            background-color: white;
+            color: #001f3f;
+            border: 2px solid #001f3f;
+        }
+    </style>
+
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
 

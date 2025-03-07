@@ -5,7 +5,6 @@ namespace Database\Seeders;
 // use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 // namespace App\Models;
 
-use App\Models\agendasertifikasi;
 use App\Models\agendastatus;
 use App\Models\Agendastatus as ModelsAgendastatus;
 use App\Models\asosiasipengusaha;
