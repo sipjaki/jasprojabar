@@ -43,9 +43,12 @@ class PembinaanController extends Controller
                   ->orWhere('penyelenggara', 'LIKE', "%{$search}%")
                   ->orWhere('lokasi', 'LIKE', "%{$search}%")
                   ->orWhere('keterangan', 'LIKE', "%{$search}%")
+                  ->orWhereHas('kategoripelatihan', function ($q) use ($search) {
+                      $q->where('kategoripelatihan', 'LIKE', "%{$search}%");
+                  })
                   ->orWhereHas('jenjang', function ($q) use ($search) {
-                    $q->where('kategoripelatihan', 'LIKE', "%{$search}%"); // 'jabatankerja' = nama kolom di tabel jabatankerja
-                });
+                      $q->where('jenjang', 'LIKE', "%{$search}%");
+                  });
         }
 
         $data = $query->paginate($perPage);
