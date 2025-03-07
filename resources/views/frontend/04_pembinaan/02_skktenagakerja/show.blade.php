@@ -193,20 +193,33 @@
 
     </table>
 
+    <table>
+
+        <tr>
+            <td style="width:75px;">1.</td>
+            <td style="width:200px;">Nama Lengkap</td>
+            <td style="width:50px;">:</td>
+            <td style="width:200px;">{{$data->namalengkap}}</td>
+            <td style="width:300px;">
+                <img src="/assets/00_dokmasjaki/03_datajakon/jabatan.png" alt="" width="200px;">
+            </td>
+        </tr>
+
+    </table>
+
     <br>
 
-    <h4>II. PROFIL PIMPINAN OPD</h4>
+    <h4>II. KELENGKAPAN BERKAS PERSYARATAN PESERTA</h4>
 
-    <h5>KEPALA DINAS</h5>
+    {{-- <h5>KEPALA DINAS</h5> --}}
     <table>
         <tr>
-            <td>1.</td>
-            <td>Nama Lengkap</td>
-            <td>:</td>
-            <td>NIDZAMUDIN AL HUDDA, ST</td>
+            <td>KTP/KITAS*</td>
+            <td>Foto</td>
+            <td>Ijazah</td>
         </tr>
         <tr>
-            <td>2.</td>
+            <td>{{$item->uploadktp}}</td>
             <td>NIP</td>
             <td>:</td>
             <td> - </td>
