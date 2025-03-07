@@ -2,7 +2,9 @@
 
 namespace App\Http\Controllers;
 
-
+use App\Models\agendapelatihan;
+use App\Models\jenjang;
+use App\Models\kategoripelatihan;
 use App\Models\pembinaan;
 
 use Illuminate\Http\Request;
@@ -16,12 +18,16 @@ class PembinaanController extends Controller
     public function index()
     {
         $user = Auth::user();
-        // $data = pembinaan::paginate(15);
+        $data = agendapelatihan::paginate(15);
+        $datasub = jenjang::all();
+        $datasubkategori = kategoripelatihan::all();
 
         return view('frontend.04_pembinaan.01_agendapembinaan.index', [
             'title' => 'Agenda Pembinaan',
             'user' => $user, // Mengirimkan data paginasi ke view
-            // 'data' => $data, // Mengirimkan data paginasi ke view
+            'data' => $data, // Mengirimkan data paginasi ke view
+            'datasub' => $datasub, // Mengirimkan data paginasi ke view
+            'datasubkategori' => $datasubkategori, // Mengirimkan data paginasi ke view
         ]);
     }
 
