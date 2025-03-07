@@ -219,33 +219,6 @@
 
                         </div><!-- sidebar-widget sidebar-widget-recent-post -->
 
-                        {{-- <div class="sidebar-widget sidebar-widget-recent-category">
-							<div class="sidebar-widget-recent-category-box">
-								<h4 class="section-title text-left">Categories</h4>
-								<ul class="list-unstyled">
-									<li><a href="news-details.html">City News<i class="fa-solid fa-chevron-right"></i></a></li>
-									<li><a href="news-details.html">Community<i class="fa-solid fa-chevron-right"></i></a></li>
-									<li><a href="news-details.html">Culture <i class="fa-solid fa-chevron-right"></i></a></li>
-									<li><a href="news-details.html">Devlopement<i class="fa-solid fa-chevron-right"></i></a></li>
-									<li><a href="news-details.html">Government<i class="fa-solid fa-chevron-right"></i></a></li>
-								</ul><!-- list-unstyled -->
-							</div><!-- sidebar-widget-recent-category-box -->
-						</div><!-- sidebar-widget-one sidebar-widget-recent-category --> --}}
-						{{-- <div class="sidebar-widget sidebar-widget-tag">
-							<h4>Tags</h4>
-							<div class="sidebar-widget-tag-inner">
-								<a href="news-details.html">Culture</a>
-								<a href="news-details.html">Government</a>
-								<a href="news-details.html">City</a>
-								<a href="news-details.html">Development</a>
-								<a href="news-details.html">Life</a>
-							</div><!-- sidebar-widget-tag-inner -->
-						</div><!-- sidebar-widget sidebar-widget-tag --> --}}
-					</div><!-- sidebar -->
-				</div><!-- col-lg-4 -->
-			</div><!-- row -->
-		</div><!-- container -->
-
 
     <section class="event-three-section" style="margin-top:-200px;">
 		<div class="event-section-outer">
@@ -288,6 +261,34 @@
 			</div><!-- container -->
 		</div><!-- event-section-outer -->
 	</section><!--event-three-section-->
+
+
+                        {{-- <div class="sidebar-widget sidebar-widget-recent-category">
+							<div class="sidebar-widget-recent-category-box">
+								<h4 class="section-title text-left">Categories</h4>
+								<ul class="list-unstyled">
+									<li><a href="news-details.html">City News<i class="fa-solid fa-chevron-right"></i></a></li>
+									<li><a href="news-details.html">Community<i class="fa-solid fa-chevron-right"></i></a></li>
+									<li><a href="news-details.html">Culture <i class="fa-solid fa-chevron-right"></i></a></li>
+									<li><a href="news-details.html">Devlopement<i class="fa-solid fa-chevron-right"></i></a></li>
+									<li><a href="news-details.html">Government<i class="fa-solid fa-chevron-right"></i></a></li>
+								</ul><!-- list-unstyled -->
+							</div><!-- sidebar-widget-recent-category-box -->
+						</div><!-- sidebar-widget-one sidebar-widget-recent-category --> --}}
+						{{-- <div class="sidebar-widget sidebar-widget-tag">
+							<h4>Tags</h4>
+							<div class="sidebar-widget-tag-inner">
+								<a href="news-details.html">Culture</a>
+								<a href="news-details.html">Government</a>
+								<a href="news-details.html">City</a>
+								<a href="news-details.html">Development</a>
+								<a href="news-details.html">Life</a>
+							</div><!-- sidebar-widget-tag-inner -->
+						</div><!-- sidebar-widget sidebar-widget-tag --> --}}
+					</div><!-- sidebar -->
+				</div><!-- col-lg-4 -->
+			</div><!-- row -->
+		</div><!-- container -->
 
 
 
