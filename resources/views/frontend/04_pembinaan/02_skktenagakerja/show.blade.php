@@ -104,7 +104,7 @@
 </style>
 
 
-<div class="container-surat" >
+<div class="halaman-pertama" >
     <div class="header-surat">
         <img src="/assets/icon/logokabupatenblora.png" alt="Logo Kabupaten Blora">
         <br>
@@ -283,6 +283,9 @@
 
     </table>
 <br>
+
+<div class="halaman-kedua">
+
     <h5>III. NAMA ASOSIASI DAN KESEDIAAN MENGIKUTI BIMBINGAN TEKNIS</h4>
     {{-- <h5>KEPALA DINAS</h5> --}}
     <table>
@@ -385,10 +388,10 @@
     </table>
 
 
+    </div>
 </div>
 
 <button class="badge-kembali" id="downloadPDF">Download PDF</button>
-
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
 
@@ -397,35 +400,34 @@
         const { jsPDF } = window.jspdf;
         const pdf = new jsPDF("p", "mm", "a4");
 
-        const margin = 20; // 2 cm (20 mm) margin untuk semua sisi
-        const pdfWidth = 210 - 2 * margin; // Lebar A4 (210 mm) dikurangi margin kiri & kanan
-        const pdfHeight = 297 - 2 * margin; // Tinggi A4 (297 mm) dikurangi margin atas & bawah
-        let yOffset = margin; // Posisi awal teks dalam halaman PDF
+        const margin = 20; // 2 cm margin di semua sisi
+        const pdfWidth = 210 - 2 * margin; // Lebar A4 dikurangi margin kiri & kanan
+        const pdfHeight = 297 - 2 * margin; // Tinggi A4 dikurangi margin atas & bawah
 
-        const element = document.querySelector(".container-surat");
+        const page1 = document.querySelector(".halaman-pertama");
+        const page2 = document.querySelector(".halaman-kedua");
 
-        html2canvas(element, { scale: 2, scrollY: -window.scrollY }).then((canvas) => {
-            const imgData = canvas.toDataURL("image/png");
-            const imgWidth = pdfWidth;
-            const imgHeight = (canvas.height * imgWidth) / canvas.width;
+        function addPageContent(element, yOffset, addNewPage = false) {
+            return new Promise((resolve) => {
+                html2canvas(element, { scale: 2, scrollY: -window.scrollY }).then((canvas) => {
+                    if (addNewPage) pdf.addPage();
+                    const imgData = canvas.toDataURL("image/png");
+                    const imgWidth = pdfWidth;
+                    const imgHeight = (canvas.height * imgWidth) / canvas.width;
+                    pdf.addImage(imgData, "PNG", margin, yOffset, imgWidth, imgHeight);
+                    resolve();
+                });
+            });
+        }
 
-            let heightLeft = imgHeight;
-            let position = margin;
-
-            pdf.addImage(imgData, "PNG", margin, position, imgWidth, imgHeight);
-            heightLeft -= pdfHeight;
-
-            while (heightLeft > 0) {
-                pdf.addPage();
-                position = margin - heightLeft;
-                pdf.addImage(imgData, "PNG", margin, position, imgWidth, imgHeight);
-                heightLeft -= pdfHeight;
-            }
-
-            pdf.save("Dokumen_Peserta.pdf");
+        addPageContent(page1, margin).then(() => {
+            addPageContent(page2, margin, true).then(() => {
+                pdf.save("Dokumen_Peserta.pdf");
+            });
         });
     });
 </script>
+
 
 {{-- ==================================================== --}}
 
