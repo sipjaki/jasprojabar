@@ -407,8 +407,8 @@
 
     <div style="display: flex; justify-content: flex-end; padding: 10px;">
         <a href="javascript:history.back()">
-            <button class="download-btn">
-                Download PDF
+            <button class="download-btn" style="margin-right:10px;">
+                Kembali
             </button>
         </a>
         <button id="downloadPDF" class="download-btn">
