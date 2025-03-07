@@ -255,8 +255,8 @@ color: #45a049;
                                             <td>{{$item->kategoripelatihan->kategoripelatihan}}</td>
                                             <td>{{$item->namakegiatan}}</td>
                                             <td>{{$item->penyelenggara}}</td>
-                                            <td>{{$item->jenjang->jenjang}}</td>
-                                            <td>{{$item->waktupelaksanaan}}</td>
+                                            <td style="text-align: center;">{{$item->jenjang->jenjang}}</td>
+                                            <td>{{ \Carbon\Carbon::parse($item->waktupelaksanaan)->translatedFormat('d F Y') }}</td>
                                             <td>{{$item->jumlahpeserta}}</td>
                                             <td>{{$item->lokasi}}</td>
                                             <td>{{$item->keterangan}}</td>
