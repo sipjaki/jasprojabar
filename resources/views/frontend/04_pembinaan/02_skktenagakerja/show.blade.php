@@ -1,3 +1,23 @@
+<style>
+.badgekembali {
+                background: linear-gradient(to right, navy, white);
+                color: white;
+                padding: 10px 20px;
+                border-radius: 10px;
+                display: inline-block;
+                font-size: 1rem;
+                text-align: center;
+                font-size: 12px;
+                cursor: pointer;
+                transition: background-color 0.3s, color 0.3s;
+            }
+            .badgekembali:hover {
+                background-color: white;
+                color: black;
+                background: white;
+</style>
+
+
 @include('frontend.00_approve.01_cssterpisah.header')
 
 <body>
@@ -220,14 +240,14 @@
         <tr>
             <td>
                 @if($data->uploadktp)
-                    <button class="btn btn-navy">LENGKAP</button>
+                    <button class="badge-kembali">LENGKAP</button>
                 @else
                     <button class="btn btn-secondary" disabled>BELUM</button>
                 @endif
             </td>
             <td>
                 @if($data->uploadfoto)
-                    <button class="btn btn-navy">LENGKAP</button>
+                    <button class="badge-kembali">LENGKAP</button>
                 @else
                     <button class="btn btn-secondary" disabled>BELUM</button>
                 @endif
