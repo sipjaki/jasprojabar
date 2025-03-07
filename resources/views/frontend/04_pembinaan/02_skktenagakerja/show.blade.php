@@ -42,7 +42,7 @@
 
 {{-- ==================================================== --}}
 <style>
-    .container-surat {
+    .halaman-pertama {
         width: 80%;
         margin: auto;
         padding: 20px;
