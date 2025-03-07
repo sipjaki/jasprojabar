@@ -30,7 +30,7 @@
 					{{-- <div class="news-details-meta-box">
 						<div class="news-details-meta-box-inner">
 							<span class="author">
-								by<a href="news-details.html">Admin</a>
+								by<a href="news-details.html">Admin</a>pdatab
 							</span><!-- author -->
 							<span class="comment">
 								<a href="news-details.html">02 Comments</a>
