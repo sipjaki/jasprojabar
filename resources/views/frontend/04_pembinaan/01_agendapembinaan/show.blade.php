@@ -178,7 +178,7 @@
                                         <div class="sidebar-meta-item">
                                             <div class="sidebar-meta-icon">
 												<span class="author">
-                                                    <p>{{$item->keterangan}}</p>
+                                                    <p>{{$data->keterangan}}</p>
                                                     </span><!-- author -->
 											</div><!-- sidebar-meta-icon -->
 										</div><!-- sidebar-meta-item -->
@@ -194,7 +194,7 @@
                                         <div class="sidebar-meta-item">
                                             <div class="sidebar-meta-icon">
 												<span class="author">
-                                                    <p>{{$item->jenjang->jenjang}}</p>
+                                                    <p>{{$data->jenjang->jenjang}}</p>
                                                     </span><!-- author -->
 											</div><!-- sidebar-meta-icon -->
 										</div><!-- sidebar-meta-item -->
