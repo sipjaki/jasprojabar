@@ -342,7 +342,8 @@
         </tr>
 
         <br><br>
-            <tr><td style="width: 40%;"></td>
+            <tr style="margin-top: 20px;">
+                <td style="width: 40%;"></td>
                 <td style="width: 60%; border-bottom: 2px solid black; text-align: center;">
                     ANEX FACHRIAN, S.T., M.T
                 </td>
