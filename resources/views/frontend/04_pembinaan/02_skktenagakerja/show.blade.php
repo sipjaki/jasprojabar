@@ -224,21 +224,21 @@
             <td style="text-align: center;">Ijazah</td>
         </tr>
         <tr>
-            <td>
+            <td style="text-align: center;">
                 @if($data->uploadktp)
                     <button class="badge-kembali" style="text-align: center;">LENGKAP</button>
                 @else
                     <button class="btn btn-secondary" disabled style="text-align: center;">BELUM</button>
                 @endif
             </td>
-            <td>
+            <td style="text-align: center;">
                 @if($data->uploadfoto)
                     <button class="badge-kembali" style="text-align: center;">LENGKAP</button>
                 @else
                     <button class="btn btn-secondary" disabled style="text-align: center;">BELUM</button>
                 @endif
             </td>
-            <td>
+            <td style="text-align: center;">
                 @if($data->uploadijazah)
                     <button class="badge-kembali" style="text-align: center;">LENGKAP</button>
                 @else
