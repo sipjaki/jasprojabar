@@ -219,21 +219,21 @@
         </tr>
         <tr>
             <td>
-                @if($item->uploadktp)
+                @if($data->uploadktp)
                     <button class="btn btn-navy">LENGKAP</button>
                 @else
                     <button class="btn btn-secondary" disabled>BELUM</button>
                 @endif
             </td>
             <td>
-                @if($item->uploadfoto)
+                @if($data->uploadfoto)
                     <button class="btn btn-navy">LENGKAP</button>
                 @else
                     <button class="btn btn-secondary" disabled>BELUM</button>
                 @endif
             </td>
             <td>
-                @if($item->uploadijazah)
+                @if($data->uploadijazah)
                     <button class="btn btn-navy">LENGKAP</button>
                 @else
                     <button class="btn btn-secondary" disabled>BELUM</button>
