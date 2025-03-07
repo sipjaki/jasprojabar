@@ -243,7 +243,7 @@ color: #45a049;
                                                 <th onclick="sortTable(6)" style="cursor:pointer; text-align:center; width:150px;"> Jumlah Peserta <span class="sort-icon">⇅</span></th>
                                                 <th onclick="sortTable(7)" style="cursor:pointer; text-align:center; width:250px;"> Lokasi <span class="sort-icon">⇅</span></th>
                                                 <th onclick="sortTable(8)" style="cursor:pointer; text-align:center; width:300px;"> Keterangan <span class="sort-icon">⇅</span></th>
-                                                <th style="text-align:center; width:100px;"> View </th>
+                                                <th style="text-align:center; width:100px;"> Daftar </th>
                                             </tr>
 
                                     </thead>
@@ -262,9 +262,10 @@ color: #45a049;
                                             <td>{{$item->keterangan}}</td>
                                             <td style="text-align: center">
                                                 <a href="/agendapembinaan/{{$item->namakegiatan}}">
-                                                    <i class="fas fa-eye view-icon" onclick="alert('View clicked!')"></i>
+                                                    <i class="fas fa-user-check register-icon" onclick="alert('Pendaftaran diklik!')"></i>
                                                 </a>
                                             </td>
+
                                         </tr>
                                         @endforeach
                                     </tbody>
