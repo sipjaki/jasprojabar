@@ -46,14 +46,14 @@
         width: 80%;
         margin: auto;
         padding: 20px;
-        border: 1px solid black;
+        /* border: 1px solid black; */
     }
 
     .halaman-kedua {
         width: 80%;
         margin: auto;
         padding: 20px;
-        border: 1px solid black;
+        /* border: 1px solid black; */
     }
 
     /* Styling untuk kop surat */
