@@ -201,13 +201,13 @@
 			</li><!-- li -->
 		</ul><!-- mobile-nav-contact -->
 		<ul class="mobile-nav-social list-unstyled">
-			<li><a href="#"><i class="fa-solid fa-envelope"></i></a></li>
-            <li><a href="#"><i class="fa-brands fa-tiktok"></i></a></li>
-            <li><a href="https://wa.me/6281321455855"><i class="fa-brands fa-whatsapp"></i></a></li>
-            <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
-            <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
-            <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
-            <li><a href="#"><i class="fa-solid fa-phone"></i></a></li>
+			<li><a href="#"><i class="fa-solid fa-envelope" style="font-size: 20px;"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-tiktok" style="font-size: 20px;"></i></a></li>
+            <li><a href="https://wa.me/6281321455855"><i class="fa-brands fa-whatsapp" style="font-size: 20px;"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-facebook" style="font-size: 20px;"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-instagram" style="font-size: 20px;"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-youtube" style="font-size: 20px;"></i></a></li>
+            <li><a href="#"><i class="fa-solid fa-phone" style="font-size: 20px;"></i></a></li>
 
 		</ul><!-- mobile-nav-social -->
 	</div><!-- mobile-nav-content -->
