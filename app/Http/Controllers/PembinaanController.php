@@ -76,5 +76,34 @@ class PembinaanController extends Controller
     }
 
 
+
+    public function namakegiatandaftar($namakegiatan)
+    {
+        $dataagendapelatihan = agendapelatihan::where('namakegiatan', $namakegiatan)->first();
+
+        // if (!$databujkkontraktor) {
+        //     // Tangani jika kegiatan tidak ditemukan
+        //     return redirect()->back()->with('error', 'Kegiatan tidak ditemukan.');
+        // }
+
+        // // Menggunakan paginate() untuk pagination
+        // $subdata = bujkkontraktorsub::where('bujkkontraktor_id', $databujkkontraktor->id)->paginate(50);
+
+        //   // Menghitung nomor urut mulai
+        //     $start = ($subdata->currentPage() - 1) * $subdata->perPage() + 1;
+
+
+    // Ambil data user saat ini
+    $user = Auth::user();
+
+    return view('frontend.04_pembinaan.01_agendapembinaan.show', [
+        'title' => 'Data Bujk Konstruksi',
+        'data' => $dataagendapelatihan,
+        // 'subData' => $subdata,  // Jika Anda ingin mengirimkan data sub kontraktor juga
+        'user' => $user,
+        // 'start' => $start,
+    ]);
+    }
+
 }
 

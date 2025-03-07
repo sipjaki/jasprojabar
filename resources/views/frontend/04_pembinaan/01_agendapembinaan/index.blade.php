@@ -248,6 +248,7 @@ color: #adb6ad;
                                             </tr>
 
                                     </thead>
+
                                     <tbody id="tableBody">
                                         @php $start = ($data->currentPage() - 1) * $data->perPage() + 1; @endphp
                                         @foreach ($data as $item )
@@ -261,24 +262,24 @@ color: #adb6ad;
                                             <td style="text-align: center;">{{$item->jumlahpeserta}}</td>
                                             <td>{{$item->lokasi}}</td>
                                             <td>{{$item->keterangan}}</td>
+
                                             <td style="display: flex; justify-content: center; align-items: center; text-align: center; padding: 10px;">
                                                 @php
-                                                $eventDate = \Carbon\Carbon::parse($item->waktupelaksanaan)->subDays(7); // Tanggal pelaksanaan dikurangi 7 hari
-                                                $today = \Carbon\Carbon::now(); // Hari ini
-                                                $isClosed = $today->greaterThanOrEqualTo($eventDate); // Ditutup jika hari ini >= eventDate - 7 hari
-                                            @endphp
-
+                                                $eventDate = \Carbon\Carbon::parse($item->waktupelaksanaan)->subDays(7);
+                                                $today = \Carbon\Carbon::now();
+                                                $isClosed = $today->greaterThanOrEqualTo($eventDate);
+                                                @endphp
                                                 @if ($isClosed)
                                                     <button style="
-                                                        background-color: #FF0000; /* Merah untuk status ditutup */
+                                                        background-color: #FF0000;
                                                         color: white;
                                                         border: 2px solid #FF0000;
                                                         padding: 8px 12px;
                                                         font-size: 14px;
                                                         font-weight: bold;
                                                         border-radius: 6px;
-                                                        cursor: not-allowed; /* Tidak bisa diklik */
-                                                        opacity: 0.6; /* Memberikan efek transparan */
+                                                        cursor: not-allowed;
+                                                        opacity: 0.6;
                                                         display: flex;
                                                         align-items: center;
                                                         justify-content: center;
@@ -309,7 +310,6 @@ color: #adb6ad;
                                                     </a>
                                                 @endif
                                             </td>
-
                                         </tr>
                                         @endforeach
                                     </tbody>
