@@ -115,10 +115,24 @@
     <table>
 
         <tr>
-            <td>1.</td>
+            <td>2.</td>
             <td>Jabatan Kerja </td>
             <td>:</td>
             <td>{{$data->jabatankerja}}</td>
+        </tr>
+
+        <tr>
+            <td>2.</td>
+            <td>Tempat Lahir </td>
+            <td>:</td>
+            <td>{{$data->tempatlahir}}</td>
+        </tr>
+
+        <tr>
+            <td>2.</td>
+            <td>Tanggal Lahir </td>
+            <td>:</td>
+            <td>{{ \Carbon\Carbon::parse($data->ttl)->translatedFormat('d F Y') }}</td>
         </tr>
 
     </table>
