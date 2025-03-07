@@ -101,7 +101,8 @@
     </section><!-- blog-section -->
 
 
-	<section class="news-details-section" style="background-image: url(assets/00_dokmasjaki/03_datajakon/bannerbetter.jpg);">
+	{{-- <section class="news-details-section" style="background-image: url(assets/00_dokmasjaki/03_datajakon/bannerbetter.jpg);"> --}}
+	<section class="news-details-section" style="background:white">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-8">
