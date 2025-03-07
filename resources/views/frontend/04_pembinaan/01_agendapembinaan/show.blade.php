@@ -121,18 +121,13 @@
 						<div class="sidebar-widget sidebar-widget-recent-post">
 							<h4>Daftar Berita</h4>
 
-                            @foreach ($data->skip(1)->take(7) as $item)
-
                             <div class="sidebar-recent-post">
-								<div class="sidebar-recent-post-img">
-                                    <img src="{{ asset('storage/' . $item->foto) }}" alt="Gambar Pelatihan SKK Blora" width="200px" loading="lazy">
-                                </div><!-- sidebar-recent-post-img -->
 								<div class="sidebar-recent-post-content">
                                     <div class="sidebar-meta">
                                         <div class="sidebar-meta-item">
                                             <div class="sidebar-meta-icon">
 												<span class="author">
-													by<a href="news-details.html">Mas Zaki</a>
+													<a href="news-details.html">{{$item->penyelenggara}}</a>
 												</span><!-- author -->
 											</div><!-- sidebar-meta-icon -->
 										</div><!-- sidebar-meta-item -->
