@@ -47,16 +47,18 @@
         style="gap: 15px;">
        <img src="/assets/icon/logokabupatenblora.png" class="img-fluid" alt="Logo Kabupaten Blora" width="200" loading="lazy">
        <img src="/assets/icon/pupr.png" class="img-fluid" alt="Logo PUPR" width="200" loading="lazy">
-       <div class="header-text">
-        <h1 class="header-title">
-            <span class="header-title-white">MASJAKI</span>
-            <span class="header-title-green">BLORA</span>
+
+       <div class="header-text" style="text-align: center; margin-bottom: 20px;">
+        <h1 class="header-title" style="font-family: 'Poppins', sans-serif; font-size: 2.5rem; font-weight: bold;">
+            <span class="header-title-white" style="font-weight: bold; font-style: italic; color: #222;">MASJAKI</span>
+            <span class="header-title-green" style="font-weight: bold; font-style: italic; color: #064420;">BLORA</span>
         </h1>
-        <p class="header-description">
+        <p class="header-description" style="font-family: 'Poppins', sans-serif; font-size: 1rem; color: #555;">
             Dinas Pekerjaan Umum & Penataan Ruang Kabupaten Blora
         </p>
-    </div>
-       {{-- <h4>Dinas Pekerjaan Umum dan Penataan Ruang Kabupaten Blora Provinsi Jawa Tengah</h4> --}}
+        </div>
+
+        {{-- <h4>Dinas Pekerjaan Umum dan Penataan Ruang Kabupaten Blora Provinsi Jawa Tengah</h4> --}}
        </div>
            <div class="col-md-8 col-lg-6 col-xl-4 offset-xl-1">
           <form>
