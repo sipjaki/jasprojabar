@@ -73,7 +73,7 @@ public function authenticate(Request $request)
 
     // If authentication fails, send a custom error message and redirect back
     return back()->withErrors([
-        'loginError' => 'Email atau Password yang Anda masukkan salah.', // Custom message here
+        'pesanlogin' => 'Email atau Password yang Anda masukkan salah.', // Custom message here
     ])->withInput();  // Keep the email input to avoid re-entering
 }
 

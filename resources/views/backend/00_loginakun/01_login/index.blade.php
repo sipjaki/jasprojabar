@@ -107,9 +107,9 @@
             </div>
 
             <!-- General login error message (if authentication failed) -->
-            @if(session('loginError'))
+            @if(session('pesanlogin'))
                 <div class="alert alert-danger mb-2">
-                    {{ session('loginError') }}
+                    {{ session('pesanlogin') }}
                 </div>
             @endif
 
