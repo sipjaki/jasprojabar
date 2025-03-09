@@ -367,50 +367,52 @@
 						<i class="flaticon-search-interface-symbol"></i>
 					</a><!-- search-toggler -->
 				</div><!-- search-box --> --}}
+
+
                 <style>
                     .masuk-admin {
                         display: flex;
-                        gap: 10px;
+                        justify-content: space-between;
+                        width: 100%;
+                        max-width: 400px;
                         margin-top: 20px;
-                    }
-                    .masuk-admin div {
-                        padding: 5px 15px;
-                        border-radius: 10px;
                     }
                     .masuk-admin a {
                         display: flex;
                         align-items: center;
-                        gap: 10px;
+                        justify-content: center;
+                        gap: 8px;
                         text-decoration: none;
-                        background-color: #007bff;
+                        background-color: #28a745;
                         color: white;
-                        padding: 10px 15px;
-                        border-radius: 5px;
-                        font-size: 16px;
+                        padding: 8px 12px;
+                        border-radius: 8px;
+                        font-size: 14px;
                         font-weight: bold;
+                        transition: all 0.3s ease-in-out;
+                        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
                     }
                     .masuk-admin a:hover {
-                        background-color: #0056b3;
+                        background-color: white;
+                        color: black;
+                        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
                     }
                     @media (max-width: 768px) {
                         .masuk-admin {
-                            flex-direction: column;
-                            align-items: center;
+                            width: 90%;
                         }
                     }
                 </style>
+
                 <div class="masuk-admin">
-                    <div>
-                        <a href="/404" class="btn btn-primary">
-                            <i class="fas fa-user-plus"></i> Daftar
-                        </a>
-                    </div>
-                    <div>
-                        <a href="/404" class="btn btn-primary">
-                            <i class="fas fa-sign-in-alt"></i> Masuk
-                        </a>
-                    </div>
+                    <a href="/404" class="btn btn-primary">
+                        <i class="fas fa-user-plus"></i> Daftar
+                    </a>
+                    <a href="/404" class="btn btn-primary">
+                        <i class="fas fa-sign-in-alt"></i> Masuk
+                    </a>
                 </div>
+
 
             </div><!--main-menu-right-->
 		</div><!--main-menu-inner-->
