@@ -18,7 +18,7 @@
 
   <link rel="icon" href="/assets/icon/logokabupatenblora.png"  type="image/x-icon">
 
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+  {{-- <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet"> --}}
 
 
 </head>
