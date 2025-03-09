@@ -56,7 +56,7 @@
             <span class="header-title-white" style="font-weight: bold; font-style: italic; color: black; text-align:left;">MASJAKI</span>
             <span class="header-title-green" style="font-weight: bold; font-style: italic; color: #064420; text-align:left;">BLORA</span>
         </h1>
-        <p class="header-description" style="font-family: 'Montserrat', sans-serif; font-size: 1rem; color: black;">
+        <p class="header-description" style="font-family: 'Montserrat', sans-serif; font-size: 1rem; color: black; font-weight: bold;">
             Dinas Pekerjaan Umum Dan Penataan Ruang Kabupaten Blora
         </p>
         </div>
