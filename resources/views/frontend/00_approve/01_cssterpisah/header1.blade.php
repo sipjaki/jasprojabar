@@ -134,31 +134,29 @@
                     }
 
                     .header-text {
-                        margin-left: 5px;
+                        margin-left: 10px;
                         display: flex;
                         flex-direction: column;
                     }
 
                     .header-title {
                         display: flex;
-                        flex-direction: column; /* Bikin atas-bawah tanpa jarak */
+                        gap: 5px;
                         margin: 0;
                         padding: 0;
-                        line-height: 1; /* Hilangkan jarak antar teks */
+                        font-size: 32px;
+                        font-weight: bold;
+                        align-items: center;
                     }
 
                     .header-title-white {
                         color: white;
                         font-style: italic;
-                        font-size: 32px;
-                        font-weight: bold;
                     }
 
                     .header-title-green {
                         color: green;
                         font-style: italic;
-                        font-size: 32px;
-                        font-weight: bold;
                     }
 
                     .header-description {
@@ -166,7 +164,6 @@
                         font-size: 24px;
                         color: white;
                         font-weight: 600;
-                        line-height: 1; /* Hilangkan jarak antar teks */
                     }
 
                     /* Responsif untuk Tablet dan Ponsel */
@@ -178,7 +175,7 @@
                             width: 48px; /* 40% lebih kecil dari 80px */
                             height: 48px;
                         }
-                        .header-title-white, .header-title-green {
+                        .header-title {
                             font-size: 19px; /* 40% lebih kecil dari 32px */
                         }
                         .header-description {
@@ -194,7 +191,7 @@
                             width: 48px;
                             height: 48px;
                         }
-                        .header-title-white, .header-title-green {
+                        .header-title {
                             font-size: 19px;
                         }
                         .header-description {
