@@ -43,11 +43,12 @@
   <section class="vh-100">
     <div class="container-fluid h-custom">
       <div class="row d-flex justify-content-center align-items-center h-100">
-        <div class="col-md-9 col-lg-6 col-xl-5">
-            <img src="/assets/icon/logokabupatenblora.png" class="img-fluid" alt="img-25" width="70" style="margin-right: 5px;" loading="lazy" >
-            <img src="/assets/icon/pupr.png" class="img-fluid" alt="img-25" width="70" loading="lazy">
-        </div>
-        <div class="col-md-8 col-lg-6 col-xl-4 offset-xl-1">
+        <div class="col-md-9 col-lg-6 col-xl-5 d-flex justify-content-center align-items-center"
+        style="gap: 15px;">
+       <img src="/assets/icon/logokabupatenblora.png" class="img-fluid" alt="Logo Kabupaten Blora" width="90" loading="lazy">
+       <img src="/assets/icon/pupr.png" class="img-fluid" alt="Logo PUPR" width="90" loading="lazy">
+       </div>
+           <div class="col-md-8 col-lg-6 col-xl-4 offset-xl-1">
           <form>
             {{-- <div class="d-flex flex-row align-items-center justify-content-center justify-content-lg-start">
               <p class="lead fw-normal mb-0 me-3">Sign in with</p>
