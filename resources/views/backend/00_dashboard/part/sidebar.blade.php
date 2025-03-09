@@ -34,7 +34,7 @@
                         .sbar {
                         color: #1e8714; /* warna biru tua */
                         text-decoration: none; /* menghapus garis bawah default */
-                        background-image: linear-gradient(to right, #1e8714, white); /* gradasi dari biru tua ke hitam */
+                        background-image: linear-gradient(to right, #1d1d1b, #1e8714); /* gradasi dari biru tua ke hitam */
                         background-size: 100% 200%; /* ukuran gradient vertikal */
                         background-position: 0 100%; /* posisi gradient dari bawah */
                         transition: background-position 0.3s, color 0.3s; /* animasi perubahan posisi latar belakang dan warna teks */
