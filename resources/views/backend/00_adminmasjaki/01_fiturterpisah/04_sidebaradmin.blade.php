@@ -8,7 +8,7 @@
         <span class="app-brand-logo demo">
   <span class="text-primary">
 
-    <a href="/dashboard"><img src="/assets/icon/pupr.png" class="img-fluid" alt="img-25" width="70" loading="lazy"></a>
+    <a href="/dashboard"><img src="/assets/icon/pupr.png" class="img-fluid" alt="img-25" width="50" loading="lazy"></a>
 
 </span>
   </span>
