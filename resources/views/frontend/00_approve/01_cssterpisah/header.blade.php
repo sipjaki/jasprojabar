@@ -35,4 +35,5 @@
 	<link rel="icon" type="image/png" sizes="16x16" href="/assets/approve/image/favicon/favicon-16x16.png">
 	<link rel="manifest" href="/assets/approve/image/favicons/site.webmanifest"> --}}
     <link rel="icon" href="/assets/icon/logokabupatenblora.png" type="image/x-icon">
+
 </head>
