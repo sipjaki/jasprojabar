@@ -52,7 +52,7 @@ class AdminDashboardController extends Controller
 
         $user = Auth::user();
 
-        return view('backend.00_dashboard.index', [
+        return view('backend.00_adminmasjaki.01_fiturterpisah.01_dashboard', [
             'title' => 'Admin Dashboard Mas Jaki DPUPR Blora',
             'user' => $user,
             // 'jumlahQa' => $jumlahQa,  // Menambahkan jumlah data ke view
