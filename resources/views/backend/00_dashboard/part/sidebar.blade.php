@@ -45,7 +45,7 @@
                         /* font-size: 12px; */
                         color: #1e8714; /* warna biru tua */
                         text-decoration: none; /* menghapus garis bawah default */
-                        background-image: linear-gradient(to bottom, #1e8714, white); /* gradasi dari biru tua ke hitam */
+                        background-image: linear-gradient(to bottom, #1e8714, green); /* gradasi dari biru tua ke hitam */
                         background-size: 100% 200%; /* ukuran gradient vertikal */
                         background-position: 0 100%; /* posisi gradient dari bawah */
                         transition: background-position 0.3s, color 0.3s; /* animasi perubahan posisi latar belakang dan warna teks */
@@ -54,7 +54,7 @@
 
                         /* Hover effect */
                         a:hover {
-                            background: linear-gradient(to right, #FFd100, black); /* gradasi dari kuning ke hitam */
+                            background: linear-gradient(to right, #1d1d1b, #1d1d1b); /* gradasi dari kuning ke hitam */
                             background-size: 100% 200%; /* ukuran gradient vertikal */
                             background-position: 0 100%; /* posisi gradient dari bawah */
                             transition: background-position 0.3s, color 0.3s; /* animasi perubahan posisi latar belakang dan warna teks */
