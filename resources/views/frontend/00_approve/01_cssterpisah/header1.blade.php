@@ -107,55 +107,84 @@
 
 	<div class="main-menu sticky-header" style="background: #1d1d1b">
                 <br>
-                <div style="display: flex; align-items: center; margin-left: 100px; flex-wrap: wrap;">
-                    <img src="/assets/icon/pupr.png" alt="Logo SIPJAKIKBB" style="width: 80px; height: 80px; object-fit: cover; padding: 0;">
-                    <div style="margin-left: 5px; display: flex; flex-direction: column;">
-                        <h1 style="display: flex; align-items: center; gap: 5px; margin: 0; flex-wrap: wrap;">
-                            <span style="color: white; font-style: italic;">MASJAKI</span>
-                            <span style="color: green; font-style: italic;">BLORA</span>
+                <div class="header-container">
+                    <img src="/assets/icon/pupr.png" alt="Logo SIPJAKIKBB" class="header-logo">
+                    <div class="header-text">
+                        <h1>
+                            <span class="header-title-white">MASJAKI</span>
+                            <span class="header-title-green">BLORA</span>
                         </h1>
-                        <p style="margin: 0; font-size: 24px; color: white; font-weight:600;">
+                        <p class="header-description">
                             Dinas Pekerjaan Umum & Penataan Ruang Kabupaten Blora
                         </p>
                     </div>
                 </div>
 
                 <style>
+                    .header-container {
+                        display: flex;
+                        align-items: center;
+                        margin-left: 100px;
+                    }
+
+                    .header-logo {
+                        width: 80px;
+                        height: 80px;
+                        object-fit: cover;
+                        padding: 0;
+                    }
+
+                    .header-text {
+                        margin-left: 5px;
+                        display: flex;
+                        flex-direction: column;
+                    }
+
+                    .header-title-white {
+                        color: white;
+                        font-style: italic;
+                    }
+
+                    .header-title-green {
+                        color: green;
+                        font-style: italic;
+                    }
+
+                    .header-description {
+                        margin: 0;
+                        font-size: 24px;
+                        color: white;
+                        font-weight: 600;
+                    }
+
+                    /* Responsif untuk Tablet dan Ponsel */
                     @media (max-width: 768px) {
-                        div {
-                            margin-left: 20px !important;
-                            flex-direction: column;
-                            align-items: center;
-                            text-align: center;
+                        .header-container {
+                            margin-left: 20px;
                         }
-                        img {
+                        .header-logo {
                             width: 60px;
                             height: 60px;
                         }
-                        h1 {
-                            font-size: 20px;
-                            flex-direction: column;
-                        }
-                        p {
+                        .header-description {
                             font-size: 18px;
                         }
                     }
 
                     @media (max-width: 480px) {
-                        img {
+                        .header-container {
+                            margin-left: 10px;
+                        }
+                        .header-logo {
                             width: 50px;
                             height: 50px;
                         }
-                        h1 {
-                            font-size: 18px;
-                        }
-                        p {
+                        .header-description {
                             font-size: 16px;
                         }
                     }
                 </style>
 
-            </div>
 
 		<div class="main-menu-inner">
 			<div class="main-menu-left">
