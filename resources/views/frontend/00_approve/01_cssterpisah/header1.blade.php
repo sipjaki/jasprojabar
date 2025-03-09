@@ -391,6 +391,8 @@
                         font-weight: bold;
                         transition: all 0.3s ease-in-out;
                         box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+                        margin-bottom: 25px;
+                        margin-right: 100px;
                     }
                     .masuk-admin a:hover {
                         background-color: white;
@@ -401,6 +403,8 @@
                         .masuk-admin {
                             width: 90%;
                             margin-bottom: 10px;
+                            margin-left: 10px;
+
                         }
                     }
                 </style>
