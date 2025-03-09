@@ -46,24 +46,31 @@
   <section class="vh-100">
     <div class="container-fluid h-custom">
       <div class="row d-flex justify-content-center align-items-center h-100">
-        <div class="col-md-9 col-lg-6 col-xl-5 d-flex justify-content-center align-items-center"
-        style="gap: 15px;">
-       <img src="/assets/icon/logokabupatenblora.png" class="img-fluid" alt="Logo Kabupaten Blora" width="125" loading="lazy">
-       <img src="/assets/icon/pupr.png" class="img-fluid" alt="Logo PUPR" width="125" loading="lazy">
+        <div class="container">
+            <div class="row justify-content-center align-items-center text-center text-md-start">
+                <!-- Logo -->
+                <div class="col-12 col-md-4 d-flex justify-content-center align-items-center mb-3 mb-md-0">
+                    <img src="/assets/icon/logokabupatenblora.png" class="img-fluid" alt="Logo Kabupaten Blora" width="100" loading="lazy">
+                    <img src="/assets/icon/pupr.png" class="img-fluid ms-3" alt="Logo PUPR" width="100" loading="lazy">
+                </div>
 
-       <div class="header-text" style="text-align: left; margin-bottom: 20px;">
-        <h1 class="header-title" style="font-family:  'Montserrat', sans-serif; font-size: 2.5rem; font-weight: bold;">
-            <span class="header-title-white" style="font-weight: bold; font-style: italic; color: black; text-align:left;">MASJAKI</span>
-            <span class="header-title-green" style="font-weight: bold; font-style: italic; color: #064420; text-align:left;">BLORA</span>
-        </h1>
-        <p class="header-description" style="font-family: 'Montserrat', sans-serif; font-size: 1rem; color: black; font-weight: bold;">
-            Dinas Pekerjaan Umum Dan Penataan Ruang Kabupaten Blora
-        </p>
+                <!-- Teks -->
+                <div class="col-12 col-md-8">
+                    <div class="header-text">
+                        <h1 class="header-title" style="font-family: 'Montserrat', sans-serif; font-size: 2rem; font-weight: bold;">
+                            <span class="header-title-white" style="font-weight: bold; font-style: italic; color: black;">MASJAKI</span>
+                            <span class="header-title-green" style="font-weight: bold; font-style: italic; color: #064420;">BLORA</span>
+                        </h1>
+                        <p class="header-description" style="font-family: 'Montserrat', sans-serif; font-size: 1rem; color: black; font-weight: bold;">
+                            Dinas Pekerjaan Umum Dan Penataan Ruang Kabupaten Blora
+                        </p>
+                    </div>
+                </div>
+            </div>
         </div>
 
-        {{-- <h4>Dinas Pekerjaan Umum dan Penataan Ruang Kabupaten Blora Provinsi Jawa Tengah</h4> --}}
-       </div>
-           <div class="col-md-8 col-lg-6 col-xl-4 offset-xl-1">
+
+       <div class="col-md-8 col-lg-6 col-xl-4 offset-xl-1">
           <form>
             {{-- <div class="d-flex flex-row align-items-center justify-content-center justify-content-lg-start">
               <p class="lead fw-normal mb-0 me-3">Sign in with</p>
