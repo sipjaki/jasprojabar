@@ -49,23 +49,9 @@ class User extends Authenticatable
 
     public function berita()
     {
-        return $this->hasMany(berita::class);
+        return $this->hasMany(beritajakon::class);
     }
 
-    public function beritaagenda()
-    {
-        return $this->hasMany(beritaagenda::class);
-    }
-
-    public function kegiatanjaskon()
-    {
-        return $this->hasMany(kegiatanjaskon::class);
-    }
-
-    public function laporankegiatan()
-    {
-        return $this->hasMany(laporankegiatan::class);
-    }
 
 
 
