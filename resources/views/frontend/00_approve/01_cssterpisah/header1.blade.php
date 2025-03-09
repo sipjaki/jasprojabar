@@ -379,7 +379,7 @@
                         margin-bottom: 25px;
                         margin-right: 20px;
                         margin-left: 10px;
-                        gap: 5px;
+                        gap: 10px;
                     }
                     .masuk-admin a {
                         display: flex;
