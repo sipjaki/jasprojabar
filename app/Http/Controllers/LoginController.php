@@ -9,12 +9,12 @@ class LoginController extends Controller
 {
     //
 
-    public function index()
+    public function loginmasuk()
     {
-        //
-        // return view('backend.00_loginakun.01_login.index',[
-        //     'title' => 'Silahkan Login !',
-        // ]);
+
+        return view('backend.00_loginakun.01_login.index',[
+            'title' => 'Silahkan Login !',
+        ]);
     }
 
     // public function authenticate(Request $request)
