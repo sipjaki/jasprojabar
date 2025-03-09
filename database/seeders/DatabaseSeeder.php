@@ -130,7 +130,6 @@ class DatabaseSeeder extends Seeder
 
 
 // =========================================================
-
         User::create([
             'name'  => 'Sigit Septiadi',
             'username' => 'Sigit',
@@ -140,70 +139,124 @@ class DatabaseSeeder extends Seeder
             'password' => bcrypt('adminadmin123$$')
         ]);
 
-
         User::create([
-            'name'  => 'Admin Sipjaki',
-            'username' => 'sipjakikbb',
-            'statusadmin_id' => '1',
-            'avatar' => 'user/avatar/foto2.png',
-            'email' => 'sipjakikbb@gmail.com',
-            'password' => bcrypt('adminadmin$$123')
+            'name'  => 'Sigit Septiadi',
+            'username' => 'Sigitadmin',
+            'statusadmin_id' => '2',
+            'avatar' => 'user/avatar/foto1.png',
+            'email' => 'sigitadmin@gmail.com',
+            'password' => bcrypt('adminadmin123$$')
         ]);
 
         User::create([
-            'name'  => 'User 1 Sipjaki',
-            'username' => 'sipjakikbbuser$1',
-            'statusadmin_id' => '2',
-            'avatar' => 'user/avatar/foto3.png',
-            'email' => 'sipjakikbbuser1@gmail.com',
-            'password' => bcrypt('sipjakiuser$$111')
+            'name'  => 'Sigit Septiadi',
+            'username' => 'Sigitpekerja',
+            'statusadmin_id' => '3',
+            'avatar' => 'user/avatar/foto1.png',
+            'email' => 'sigitpekerja@gmail.com',
+            'password' => bcrypt('adminadmin123$$')
         ]);
 
         User::create([
-            'name'  => 'User 2 Sipjaki',
-            'username' => 'sipjakikbbuser$2',
-            'statusadmin_id' => '2',
-            'avatar' => 'user/avatar/foto4.png',
-            'email' => 'sipjakikbbuser2@gmail.com',
-            'password' => bcrypt('sipjakiuser$$222')
+            'name'  => 'Sigit Septiadi',
+            'username' => 'Sigitsupppabrik',
+            'statusadmin_id' => '4',
+            'avatar' => 'user/avatar/foto1.png',
+            'email' => 'sigitsupp_pabrik@gmail.com',
+            'password' => bcrypt('adminadmin123$$')
         ]);
 
         User::create([
-            'name'  => 'User 3 Sipjaki',
-            'username' => 'sipjakikbbuser$3',
-            'statusadmin_id' => '2',
-            'avatar' => 'user/avatar/foto5.png',
-            'email' => 'sipjakikbbuser3@gmail.com',
-            'password' => bcrypt('sipjakiuser$$333')
+            'name'  => 'Sigit Septiadi',
+            'username' => 'Sigitsupppabrik',
+            'statusadmin_id' => '5',
+            'avatar' => 'user/avatar/foto1.png',
+            'email' => 'sigitsupp_peralatan@gmail.com',
+            'password' => bcrypt('adminadmin123$$')
         ]);
 
         User::create([
-            'name'  => 'User 4 Sipjaki',
-            'username' => 'sipjakikbbuser$4',
-            'statusadmin_id' => '2',
-            'avatar' => 'user/avatar/foto6.png',
-            'email' => 'sipjakikbbuser4@gmail.com',
-            'password' => bcrypt('sipjakiuser$$444')
+            'name'  => 'Sigit Septiadi',
+            'username' => 'Sigitsupppabrik',
+            'statusadmin_id' => '6',
+            'avatar' => 'user/avatar/foto1.png',
+            'email' => 'sigitsupp_tokobangunan@gmail.com',
+            'password' => bcrypt('adminadmin123$$')
+        ]);
+
+        User::create([
+            'name'  => 'Sigit Septiadi',
+            'username' => 'Sigitsupppabrik',
+            'statusadmin_id' => '7',
+            'avatar' => 'user/avatar/foto1.png',
+            'email' => 'sigitlpspenerbit@gmail.com',
+            'password' => bcrypt('adminadmin123$$')
+        ]);
+
+        User::create([
+            'name'  => 'Sigit Septiadi',
+            'username' => 'Sigitsupppabrik',
+            'statusadmin_id' => '8',
+            'avatar' => 'user/avatar/foto1.png',
+            'email' => 'sigitoperator@gmail.com',
+            'password' => bcrypt('adminadmin123$$')
+        ]);
+
+        User::create([
+            'name'  => 'Sigit Septiadi',
+            'username' => 'Sigitsupppabrik',
+            'statusadmin_id' => '9',
+            'avatar' => 'user/avatar/foto1.png',
+            'email' => 'sigitdinas@gmail.com',
+            'password' => bcrypt('adminadmin123$$')
         ]);
 
 
         // =================================================================
         statusadmin::create([
             'id'  => '1',
-            'status'  => 'super_admin',
+            'statusadmin'  => 'super_admin',
         ]);
 
         statusadmin::create([
             'id'  => '2',
-            'status'  => 'admin',
+            'statusadmin'  => 'admin',
         ]);
 
         statusadmin::create([
             'id'  => '3',
-            'status'  => 'user',
+            'statusadmin'  => 'pekerja',
         ]);
 
+        statusadmin::create([
+            'id'  => '4',
+            'statusadmin'  => 'supp_pabrik',
+        ]);
 
+        statusadmin::create([
+            'id'  => '5',
+            'statusadmin'  => 'supp_peralatan',
+        ]);
+
+        statusadmin::create([
+            'id'  => '6',
+            'statusadmin'  => 'supp_tokobangunan',
+        ]);
+
+        statusadmin::create([
+            'id'  => '7',
+            'statusadmin'  => 'lpspenerbit',
+        ]);
+
+        statusadmin::create([
+            'id'  => '8',
+            'statusadmin'  => 'operator',
+        ]);
+
+        statusadmin::create([
+            'id'  => '9',
+            'statusadmin'  => 'dinas',
+        ]);
 
 
 //======================== ===================================================================================
