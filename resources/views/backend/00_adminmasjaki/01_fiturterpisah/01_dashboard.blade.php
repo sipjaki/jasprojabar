@@ -47,49 +47,49 @@
       <!-- End Google Tag Manager -->
 
     <!-- Favicon -->
-    <link rel="icon" type="image/x-icon" href="../../assets/img/favicon/favicon.ico" />
+    <link rel="icon" type="image/x-icon" href="../../assets/00_adminmasjaki/img/favicon/favicon.ico" />
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet" />
 
-    <link rel="stylesheet" href="../../assets/vendor/fonts/iconify-icons.css" />
+    <link rel="stylesheet" href="../../assets/00_adminmasjaki/vendor/fonts/iconify-icons.css" />
 
     <!-- Core CSS -->
     <!-- build:css assets/vendor/css/theme.css  -->
 
 
-      <link rel="stylesheet" href="../../assets/vendor/libs/pickr/pickr-themes.css" />
+      <link rel="stylesheet" href="../../assets/00_adminmasjaki/vendor/libs/pickr/pickr-themes.css" />
 
-    <link rel="stylesheet" href="../../assets/vendor/css/core.css" />
-    <link rel="stylesheet" href="../../assets/css/demo.css" />
+    <link rel="stylesheet" href="../../assets/00_adminmasjaki/vendor/css/core.css" />
+    <link rel="stylesheet" href="../../assets/00_adminmasjaki/css/demo.css" />
 
 
     <!-- Vendors CSS -->
 
-      <link rel="stylesheet" href="../../assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.css" />
+      <link rel="stylesheet" href="../../assets/00_adminmasjaki/vendor/libs/perfect-scrollbar/perfect-scrollbar.css" />
 
     <!-- endbuild -->
 
-    <link rel="stylesheet" href="../../assets/vendor/libs/datatables-bs5/datatables.bootstrap5.css" />
-  <link rel="stylesheet" href="../../assets/vendor/libs/datatables-responsive-bs5/responsive.bootstrap5.css" />
-  <link rel="stylesheet" href="../../assets/vendor/libs/datatables-buttons-bs5/buttons.bootstrap5.css" />
-  <link rel="stylesheet" href="../../assets/vendor/libs/apex-charts/apex-charts.css" />
+    <link rel="stylesheet" href="../../assets/00_adminmasjaki/vendor/libs/datatables-bs5/datatables.bootstrap5.css" />
+  <link rel="stylesheet" href="../../assets/00_adminmasjaki/vendor/libs/datatables-responsive-bs5/responsive.bootstrap5.css" />
+  <link rel="stylesheet" href="../../assets/00_adminmasjaki/vendor/libs/datatables-buttons-bs5/buttons.bootstrap5.css" />
+  <link rel="stylesheet" href="../../assets/00_adminmasjaki/vendor/libs/apex-charts/apex-charts.css" />
 
     <!-- Page CSS -->
 
 
     <!-- Helpers -->
-    <script src="../../assets/vendor/js/helpers.js"></script>
+    <script src="../../assets/00_adminmasjaki/vendor/js/helpers.js"></script>
     <!--! Template customizer & Theme config files MUST be included after core stylesheets and helpers.js in the <head> section -->
 
       <!--? Template customizer: To hide customizer set displayCustomizer value false in config.js.  -->
-      <script src="../../assets/vendor/js/template-customizer.js"></script>
+      <script src="../../assets/00_adminmasjaki/vendor/js/template-customizer.js"></script>
 
     <!--? Config:  Mandatory theme config file contain global vars & default theme options, Set your preferred theme option in this file.  -->
 
-      <script src="../../assets/js/config.js"></script>
+      <script src="../../assets/00_adminmasjaki/js/config.js"></script>
 
   </head>
 
@@ -2337,42 +2337,42 @@
     <!-- build:js assets/vendor/js/theme.js  -->
 
 
-      <script src="../../assets/vendor/libs/jquery/jquery.js"></script>
+      <script src="../../assets/00_adminmasjaki/vendor/libs/jquery/jquery.js"></script>
 
-    <script src="../../assets/vendor/libs/popper/popper.js"></script>
-    <script src="../../assets/vendor/js/bootstrap.js"></script>
-    <script src="../../assets/vendor/libs/@algolia/autocomplete-js.js"></script>
-
-
-
-      <script src="../../assets/vendor/libs/pickr/pickr.js"></script>
+    <script src="../../assets/00_adminmasjaki/vendor/libs/popper/popper.js"></script>
+    <script src="../../assets/00_adminmasjaki/vendor/js/bootstrap.js"></script>
+    <script src="../../assets/00_adminmasjaki/vendor/libs/@algolia/autocomplete-js.js"></script>
 
 
 
-      <script src="../../assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.js"></script>
+      <script src="../../assets/00_adminmasjaki/vendor/libs/pickr/pickr.js"></script>
 
 
-        <script src="../../assets/vendor/libs/hammer/hammer.js"></script>
 
-          <script src="../../assets/vendor/libs/i18n/i18n.js"></script>
+      <script src="../../assets/00_adminmasjaki/vendor/libs/perfect-scrollbar/perfect-scrollbar.js"></script>
 
 
-      <script src="../../assets/vendor/js/menu.js"></script>
+        <script src="../../assets/00_adminmasjaki/vendor/libs/hammer/hammer.js"></script>
+
+          <script src="../../assets/00_adminmasjaki/vendor/libs/i18n/i18n.js"></script>
+
+
+      <script src="../../assets/00_adminmasjaki/vendor/js/menu.js"></script>
 
     <!-- endbuild -->
 
     <!-- Vendors JS -->
-    <script src="../../assets/vendor/libs/moment/moment.js"></script>
-  <script src="../../assets/vendor/libs/datatables-bs5/datatables-bootstrap5.js"></script>
-  <script src="../../assets/vendor/libs/apex-charts/apexcharts.js"></script>
+    <script src="../../assets/00_adminmasjaki/vendor/libs/moment/moment.js"></script>
+  <script src="../../assets/00_adminmasjaki/vendor/libs/datatables-bs5/datatables-bootstrap5.js"></script>
+  <script src="../../assets/00_adminmasjaki/vendor/libs/apex-charts/apexcharts.js"></script>
 
     <!-- Main JS -->
 
-      <script src="../../assets/js/main.js"></script>
+      <script src="../../assets/00_adminmasjaki/js/main.js"></script>
 
 
     <!-- Page JS -->
-    <script src="../../assets/js/app-academy-dashboard.js"></script>
+    <script src="../../assets/00_adminmasjaki/js/app-academy-dashboard.js"></script>
 
   </body>
 </html>
