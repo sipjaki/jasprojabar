@@ -107,21 +107,53 @@
 
 	<div class="main-menu sticky-header" style="background: #1d1d1b">
                 <br>
-            <div style="display: flex; align-items: center; margin-left: 100px;">
-                <img src="/assets/icon/pupr.png" alt="Logo SIPJAKIKBB" style="width: 80px; height: 80px; object-fit: cover; padding: 0;">
-                {{-- <h1 style="margin-left: 10px; display: flex; flex-direction: column;">
-                        <span style="color: white; font-style:italic;">MASJAKI</span> <h1 style="color: green; font-style:italic;">BLORA</h1><br>
-                        <p style="margin: 0; font-size: 16px; color: white;">Dinas Pekerjaan Umum & Penataan Ruang Kabupaten Blora</p>
-                </h1> --}}
-                <div style="margin-left: 5px; display: flex; flex-direction: column;">
-                    <h1 style="display: flex; align-items: center; gap: 5px; margin: 0;">
-                        <span style="color: white; font-style: italic;">MASJAKI</span>
-                        <span style="color: green; font-style: italic;">BLORA</span>
-                    </h1>
-                    <p style="margin: 0; font-size: 24px; color: white; font-weight:600;">
-                        Dinas Pekerjaan Umum & Penataan Ruang Kabupaten Blora
-                    </p>
+                <div style="display: flex; align-items: center; margin-left: 100px; flex-wrap: wrap;">
+                    <img src="/assets/icon/pupr.png" alt="Logo SIPJAKIKBB" style="width: 80px; height: 80px; object-fit: cover; padding: 0;">
+                    <div style="margin-left: 5px; display: flex; flex-direction: column;">
+                        <h1 style="display: flex; align-items: center; gap: 5px; margin: 0; flex-wrap: wrap;">
+                            <span style="color: white; font-style: italic;">MASJAKI</span>
+                            <span style="color: green; font-style: italic;">BLORA</span>
+                        </h1>
+                        <p style="margin: 0; font-size: 24px; color: white; font-weight:600;">
+                            Dinas Pekerjaan Umum & Penataan Ruang Kabupaten Blora
+                        </p>
+                    </div>
                 </div>
+
+                <style>
+                    @media (max-width: 768px) {
+                        div {
+                            margin-left: 20px !important;
+                            flex-direction: column;
+                            align-items: center;
+                            text-align: center;
+                        }
+                        img {
+                            width: 60px;
+                            height: 60px;
+                        }
+                        h1 {
+                            font-size: 20px;
+                            flex-direction: column;
+                        }
+                        p {
+                            font-size: 18px;
+                        }
+                    }
+
+                    @media (max-width: 480px) {
+                        img {
+                            width: 50px;
+                            height: 50px;
+                        }
+                        h1 {
+                            font-size: 18px;
+                        }
+                        p {
+                            font-size: 16px;
+                        }
+                    }
+                </style>
 
             </div>
 
