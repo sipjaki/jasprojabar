@@ -130,7 +130,7 @@
             </div>
 
             <div class="text-center text-lg-start mt-4 pt-2">
-                <button type="button" class="btn btn-dark btn-lg"
+                <button type="submit" class="btn btn-dark btn-lg"
                   style="background-color: #064420; color: white; padding-left: 2.5rem; padding-right: 2.5rem; border: none;"
                   onmouseover="this.style.backgroundColor='white'; this.style.color='black';"
                   onmouseout="this.style.backgroundColor='#064420'; this.style.color='white';">
