@@ -73,7 +73,7 @@ public function authenticate(Request $request)
 
     // Jika autentikasi gagal, kembalikan ke halaman login dengan pesan kesalahan
     return back()->withErrors([
-        'loginError' => 'Email atau password Anda salah!',
+        'loginError' => 'Email atau Password Anda salah!',
     ])->onlyInput('email'); // Hanya mengisi ulang input email
 }
 
