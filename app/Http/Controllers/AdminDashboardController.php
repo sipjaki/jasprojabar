@@ -51,8 +51,8 @@ class AdminDashboardController extends Controller
     {
         // $datahimbauandinas = himbauandinas::all();
         // $jumlahQa = qa::count();  // Mendapatkan jumlah data
-        $jumlahBerita = berita::count();  // Mendapatkan jumlah data
-        $jumlahAgendasertifikasi = beritaagenda::count();  // Mendapatkan jumlah data
+        // $jumlahBerita = berita::count();  // Mendapatkan jumlah data
+        // $jumlahAgendasertifikasi = beritaagenda::count();  // Mendapatkan jumlah data
         $jumlahDokumentasiPelatihan = kegiatanjaskon::count();  // Mendapatkan jumlah data
         $jumlahDokumentasiAcara = laporankegiatan::count();  // Mendapatkan jumlah data
         $jumlahPengawasandanketeriban = ketertiban::count();  // Mendapatkan jumlah data
@@ -91,8 +91,8 @@ class AdminDashboardController extends Controller
             'title' => 'Admin Dashboard Sipjaki KBB',
             'user' => $user,
             // 'jumlahQa' => $jumlahQa,  // Menambahkan jumlah data ke view
-            'jumlahBerita' => $jumlahBerita,  // Menambahkan jumlah data ke view
-            'jumlahAgendasertifikasi' => $jumlahAgendasertifikasi,  // Menambahkan jumlah data ke view
+            // 'jumlahBerita' => $jumlahBerita,  // Menambahkan jumlah data ke view
+            // 'jumlahAgendasertifikasi' => $jumlahAgendasertifikasi,  // Menambahkan jumlah data ke view
             'jumlahDokumentasiPelatihan' => $jumlahDokumentasiPelatihan,  // Menambahkan jumlah data ke view
             'jumlahDokumentasiAcara' => $jumlahDokumentasiAcara,  // Menambahkan jumlah data ke view
             'jumlahPengawasandanketeriban' => $jumlahPengawasandanketeriban,  // Menambahkan jumlah data ke view
