@@ -400,6 +400,7 @@
                     @media (max-width: 768px) {
                         .masuk-admin {
                             width: 90%;
+                            margin-bottom: 10px;
                         }
                     }
                 </style>
