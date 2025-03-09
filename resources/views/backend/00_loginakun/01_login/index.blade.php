@@ -1,3 +1,38 @@
+<style>
+    .custom-header {
+    background-color: transparent; /* Bisa diubah jika perlu */
+}
+
+.logo-container img {
+    width: 90px; /* Ukuran lebih fleksibel */
+}
+
+.header-title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.header-title-white {
+    font-weight: bold;
+    font-style: italic;
+    color: black;
+}
+
+.header-title-green {
+    font-weight: bold;
+    font-style: italic;
+    color: #064420;
+}
+
+.header-description {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    color: black;
+    font-weight: bold;
+}
+
+</style>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -26,46 +61,31 @@
 <body>
   <!-- Start your project here-->
 
-  <style>
-    .divider:after,
-    .divider:before {
-      content: "";
-      flex: 1;
-      height: 1px;
-      background: #eee;
-    }
-    .h-custom {
-      height: calc(100% - 73px);
-    }
-    @media (max-width: 450px) {
-      .h-custom {
-        height: 100%;
-      }
-    }
-  </style>
-  <section class="vh-100">
+<section class="vh-100">
     <div class="container-fluid h-custom">
       <div class="row d-flex justify-content-center align-items-center h-100">
         <div class="container">
             <div class="row justify-content-center align-items-center text-center text-md-start">
                 <!-- Logo -->
-                <div class="col-12 col-md-4 d-flex justify-content-center align-items-center mb-3 mb-md-0">
-                    <img src="/assets/icon/logokabupatenblora.png" class="img-fluid" alt="Logo Kabupaten Blora" width="100" loading="lazy">
-                    <img src="/assets/icon/pupr.png" class="img-fluid ms-3" alt="Logo PUPR" width="100" loading="lazy">
-                </div>
+                <div class="custom-header d-flex flex-column flex-md-row align-items-center text-center text-md-start py-3">
+                    <!-- Logo -->
+                    <div class="logo-container d-flex justify-content-center align-items-center gap-3 mb-3 mb-md-0">
+                        <img src="/assets/icon/logokabupatenblora.png" class="img-fluid" alt="Logo Kabupaten Blora" width="100" loading="lazy">
+                        <img src="/assets/icon/pupr.png" class="img-fluid" alt="Logo PUPR" width="100" loading="lazy">
+                    </div>
 
-                <!-- Teks -->
-                <div class="col-12 col-md-8">
-                    <div class="header-text">
-                        <h1 class="header-title" style="font-family: 'Montserrat', sans-serif; font-size: 2rem; font-weight: bold;">
-                            <span class="header-title-white" style="font-weight: bold; font-style: italic; color: black;">MASJAKI</span>
-                            <span class="header-title-green" style="font-weight: bold; font-style: italic; color: #064420;">BLORA</span>
+                    <!-- Teks -->
+                    <div class="text-container">
+                        <h1 class="header-title">
+                            <span class="header-title-white">MASJAKI</span>
+                            <span class="header-title-green">BLORA</span>
                         </h1>
-                        <p class="header-description" style="font-family: 'Montserrat', sans-serif; font-size: 1rem; color: black; font-weight: bold;">
+                        <p class="header-description">
                             Dinas Pekerjaan Umum Dan Penataan Ruang Kabupaten Blora
                         </p>
                     </div>
                 </div>
+
             </div>
         </div>
 
