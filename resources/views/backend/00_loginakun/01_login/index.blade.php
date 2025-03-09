@@ -66,6 +66,7 @@
        <div class="col-md-8 col-lg-6 col-xl-4 offset-xl-1">
         <form action="/login" method="post">
             @csrf
+
             <!-- Email input -->
             <div class="mb-4">
                 <input
@@ -77,13 +78,14 @@
                     placeholder="Email"
                     value="{{ old('email') }}"
                 />
-                <label class="form-label" for="form3Example3">Email address</label>
+                <label class="form-label" for="email">Email address</label>
+
+                @error('email')
+                    <div class="invalid-feedback">
+                        {{ $message }}
+                    </div>
+                @enderror
             </div>
-            @error('email')
-                <div class="invalid-feedback mb-2">
-                    {{ $message }}
-                </div>
-            @enderror
 
             <!-- Password input -->
             <div class="mb-3">
@@ -95,13 +97,21 @@
                     placeholder="Password"
                     style="width: 300px; text-align:left; padding: 10px 15px;"
                 />
-                <label class="form-label" for="form3Example4">Password</label>
+                <label class="form-label" for="password">Password</label>
+
+                @error('password')
+                    <div class="invalid-feedback">
+                        {{ $message }}
+                    </div>
+                @enderror
             </div>
-            @error('password')
-                <div class="invalid-feedback mb-2">
-                    {{ $message }}
+
+            <!-- General login error message (if authentication failed) -->
+            @if(session('loginError'))
+                <div class="alert alert-danger mb-2">
+                    {{ session('loginError') }}
                 </div>
-            @enderror
+            @endif
 
             <!-- Remember me and Forgot password -->
             <div class="d-flex justify-content-between align-items-center">
@@ -132,6 +142,7 @@
                 </p>
             </div>
         </form>
+
     </div>
 
         </div>
