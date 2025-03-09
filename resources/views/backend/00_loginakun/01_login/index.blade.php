@@ -45,8 +45,9 @@
       <div class="row d-flex justify-content-center align-items-center h-100">
         <div class="col-md-9 col-lg-6 col-xl-5 d-flex justify-content-center align-items-center"
         style="gap: 15px;">
-       <img src="/assets/icon/logokabupatenblora.png" class="img-fluid" alt="Logo Kabupaten Blora" width="300" loading="lazy">
-       <img src="/assets/icon/pupr.png" class="img-fluid" alt="Logo PUPR" width="300" loading="lazy">
+       <img src="/assets/icon/logokabupatenblora.png" class="img-fluid" alt="Logo Kabupaten Blora" width="200" loading="lazy">
+       <img src="/assets/icon/pupr.png" class="img-fluid" alt="Logo PUPR" width="200" loading="lazy">
+       <h4>Dinas Pekerjaan Umum dan Penataan Ruang Kabupaten Blora Provinsi Jawa Tengah</h4>
        </div>
            <div class="col-md-8 col-lg-6 col-xl-4 offset-xl-1">
           <form>
