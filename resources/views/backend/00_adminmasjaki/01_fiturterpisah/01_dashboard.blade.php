@@ -47,7 +47,9 @@
       <!-- End Google Tag Manager -->
 
     <!-- Favicon -->
-    <link rel="icon" type="image/x-icon" href="../../assets/00_adminmasjaki/img/favicon/favicon.ico" />
+    {{-- <link rel="icon" type="image/x-icon" href="../../assets/00_adminmasjaki/img/favicon/favicon.ico" /> --}}
+
+    <link rel="icon" href="/assets/icon/logokabupatenblora.png" type="image/x-icon">
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
