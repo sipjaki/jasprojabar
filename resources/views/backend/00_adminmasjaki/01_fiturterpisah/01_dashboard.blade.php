@@ -1466,7 +1466,7 @@
         <a class="nav-link dropdown-toggle hide-arrow" href="javascript:void(0);" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">
           <span class="position-relative">
             <i class="icon-base bx bx-bell icon-md"></i>
-            <span class="badge rounded-pill bg-danger badge-dot badge-notifications border"></span>
+            <span class="badge rounded-pill bg-danger badge-dot badge-notifications border">HALO </span>
           </span>
         </a>
         <ul class="dropdown-menu dropdown-menu-end p-0">
