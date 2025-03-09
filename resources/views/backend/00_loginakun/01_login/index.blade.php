@@ -67,7 +67,7 @@
           <form action="/login" method="post">
                 @csrf
             <!-- Email input -->
-            <div class="form-outline mb-4">
+            <div class=" mb-4">
               <input type="text"
               style="width: 300px; text-align:left; padding: 10px 15px;"
               name="email"
@@ -87,7 +87,7 @@
 @enderror
 
             <!-- Password input -->
-            <div class="form-outline mb-3">
+            <div class=" mb-3">
               <input
               style="width: 300px; text-align:left; padding: 10px 15px;"
               type="password"
