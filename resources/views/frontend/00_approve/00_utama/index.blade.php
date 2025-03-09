@@ -127,110 +127,85 @@
     </section>
 
 
-    {{-- =================================== --}}
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f8f9fa;
-        }
-        .news-container {
-            max-width: 1200px;
-            margin: auto;
-            padding: 20px;
-        }
-        .news-content {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 20px;
-        }
-        .news-main {
-            flex: 1;
-            min-width: 300px;
-        }
-        .news-sidebar {
-            width: 100%;
-            max-width: 350px;
-        }
-        .news-image img {
-            width: 100%;
-            border-radius: 8px;
-        }
-        .news-title {
-            font-size: 24px;
-            margin-top: 10px;
-        }
-        .news-text {
-            text-align: justify;
-        }
-        .sidebar-search input {
-            width: 80%;
-            padding: 8px;
-            margin-right: 5px;
-            border-radius: 4px;
-            border: 1px solid #ccc;
-        }
-        .sidebar-search button {
-            padding: 8px;
-            border: none;
-            background: #007bff;
-            color: white;
-            cursor: pointer;
-            border-radius: 4px;
-        }
-        .recent-news img {
-            width: 100px;
-            height: auto;
-            border-radius: 4px;
-        }
-        .recent-news-item {
-            display: flex;
-            align-items: center;
-            gap: 10px;
-            margin-bottom: 10px;
-        }
-        @media (max-width: 768px) {
-            .news-content {
-                flex-direction: column;
-            }
-            .news-sidebar {
-                max-width: 100%;
-            }
-        }
-    </style>
-
 	{{-- <section class="news-details-section" style="background-image: url(assets/00_dokmasjaki/03_datajakon/bannerbetter.jpg);"> --}}
-        <section class="news-container">
-            <div class="news-content">
-                <div class="news-main">
-                    @foreach ($data->skip(0)->take(1) as $item)
-                    <div class="news-image">
-                        <img src="{{ asset('storage/' . $item->foto) }}" alt="img-193">
-                        <p class="news-date">{{$item->tanggal}}</p>
-                    </div>
-                    <h4 class="news-title">{{$item->judulberita}}</h4>
-                    <p class="news-text">{{$item->keterangan}}</p>
-                    @endforeach
-                </div>
+	<section class="news-details-section" style="background:white">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-8">
 
-                <div class="news-sidebar">
-                    <div class="sidebar-search">
-                        <input type="text" placeholder="Cari Berita">
-                        <button type="submit">Cari</button>
-                    </div>
-                    <h4>Daftar Berita</h4>
-                    @foreach ($data->skip(1)->take(7) as $item)
-                    <div class="recent-news-item">
-                        <img src="{{ asset('storage/' . $item->foto) }}" alt="Gambar Berita">
-                        <div>
-                            <h5>{{$item->judulberita}}</h5>
-                        </div>
-                    </div>
+                    @foreach ($data->skip(0)->take(1) as $item)
+
+                    <div class="news-details-box-image">
+						<div class="news-details-box-image-inner">
+							<img src="{{ asset('storage/' . $item->foto) }}" class="img-fluid" alt="img-193">
+
+                            <a href="news-details.html" class="news-details-box-date">{{$item->tanggal}}</a>
+						</div><!-- news-details-box-image-inner -->
+					</div><!-- news-details-box-image -->
+
+                    <br><br>
+                    <div class="news-details-content-box" style="margin-left: 25px;">
+						<h4>{{$item->judulberita}}</h4>
+
+                        <p style="text-align: justify">
+                            {{$item->keterangan}}
+                        </p>
+
+
+                    </div><!-- /.news-details-content-box -->
+
                     @endforeach
-                </div>
-            </div>
-        </section>
+
+                </div><!-- col-lg-8 -->
+
+				<div class="col-lg-4">
+					<div class="sidebar">
+						<div class="sidebar-form-content">
+							<div class="sidebar__item sidebar__item--search">
+								<form action="#" class="sidebar__search">
+									<label for="search" class="sr-only">Cari Berita</label><!-- sr-only -->
+									<input type="text" placeholder="Cari Berita">
+									<button type="submit" aria-label="search submit" class="thm-btn">
+										<i class="flaticon-search-interface-symbol"></i>
+									</button><!-- thm-btn -->
+								</form><!-- sidebar__search -->
+							</div><!-- sidebar__item -->
+						</div><!-- sidebar-form-content -->
+						<div class="sidebar-widget sidebar-widget-recent-post">
+							<h4>Daftar Berita</h4>
+
+                            @foreach ($data->skip(1)->take(7) as $item)
+
+                            <div class="sidebar-recent-post">
+								<div class="sidebar-recent-post-img">
+                                    <img src="{{ asset('storage/' . $item->foto) }}" alt="Gambar Pelatihan SKK Blora" width="200px" loading="lazy">
+                                </div><!-- sidebar-recent-post-img -->
+								<div class="sidebar-recent-post-content">
+                                    <div class="sidebar-meta">
+                                        <div class="sidebar-meta-item">
+                                            <div class="sidebar-meta-icon">
+												<span class="author">
+													by<a href="news-details.html">Mas Zaki</a>
+												</span><!-- author -->
+											</div><!-- sidebar-meta-icon -->
+										</div><!-- sidebar-meta-item -->
+										<div class="sidebar-post-title">
+											<h5><a href="#">{{$item->judulberita}}</a></h5>
+										</div><!-- sidebar-post-title -->
+									</div><!-- sidebar-meta -->
+								</div><!-- sidebar-recent-post-content -->
+							</div><!-- sidebar-recent-post -->
+
+
+                            @endforeach
+
+
+                        </div><!-- sidebar-widget sidebar-widget-recent-post -->
+					</div><!-- sidebar -->
+				</div><!-- col-lg-4 -->
+			</div><!-- row -->
+		</div><!-- container -->
+	</section><!--causes-one-section-->
 
 
     <section class="event-three-section" style="margin-top:-200px;">
