@@ -108,15 +108,15 @@
 	<div class="main-menu sticky-header" style="background: #1d1d1b">
                 <br>
                 <div class="header-container">
-                    <img src="/assets/icon/pupr.png" alt="Logo SIPJAKIKBB" class="header-logo">
+                    <img src="/assets/icon/pupr.png" alt="Logo PUPR" class="header-logo">
                     <div class="header-text">
-                        <h1>
+                        <h1 class="header-title">
                             <span class="header-title-white">MASJAKI</span>
                             <span class="header-title-green">BLORA</span>
                         </h1>
-                        <h4 class="header-description">
+                        <p class="header-description">
                             Dinas Pekerjaan Umum & Penataan Ruang Kabupaten Blora
-                        </h4>
+                        </p>
                     </div>
                 </div>
 
@@ -131,7 +131,6 @@
                         width: 80px;
                         height: 80px;
                         object-fit: cover;
-                        padding: 0;
                     }
 
                     .header-text {
@@ -140,14 +139,26 @@
                         flex-direction: column;
                     }
 
+                    .header-title {
+                        display: flex;
+                        flex-direction: column; /* Bikin atas-bawah tanpa jarak */
+                        margin: 0;
+                        padding: 0;
+                        line-height: 1; /* Hilangkan jarak antar teks */
+                    }
+
                     .header-title-white {
                         color: white;
                         font-style: italic;
+                        font-size: 32px;
+                        font-weight: bold;
                     }
 
                     .header-title-green {
                         color: green;
                         font-style: italic;
+                        font-size: 32px;
+                        font-weight: bold;
                     }
 
                     .header-description {
@@ -155,6 +166,7 @@
                         font-size: 24px;
                         color: white;
                         font-weight: 600;
+                        line-height: 1; /* Hilangkan jarak antar teks */
                     }
 
                     /* Responsif untuk Tablet dan Ponsel */
@@ -163,11 +175,14 @@
                             margin-left: 20px;
                         }
                         .header-logo {
-                            width: 60px;
-                            height: 60px;
+                            width: 48px; /* 40% lebih kecil dari 80px */
+                            height: 48px;
+                        }
+                        .header-title-white, .header-title-green {
+                            font-size: 19px; /* 40% lebih kecil dari 32px */
                         }
                         .header-description {
-                            font-size: 18px;
+                            font-size: 14px; /* 40% lebih kecil dari 24px */
                         }
                     }
 
@@ -176,11 +191,14 @@
                             margin-left: 10px;
                         }
                         .header-logo {
-                            width: 50px;
-                            height: 50px;
+                            width: 48px;
+                            height: 48px;
+                        }
+                        .header-title-white, .header-title-green {
+                            font-size: 19px;
                         }
                         .header-description {
-                            font-size: 16px;
+                            font-size: 14px;
                         }
                     }
                 </style>
