@@ -42,30 +42,23 @@
         height: 100%;
       }
     }
-
   </style>
   <section class="vh-100">
     <div class="container-fluid h-custom">
       <div class="row d-flex justify-content-center align-items-center h-100">
-        <div class="custom-container">
-            <div class="custom-row">
-                <!-- Logo -->
-                <div class="custom-logo-container">
-                    <img src="/assets/icon/logokabupatenblora.png" class="custom-logo" alt="Logo Kabupaten Blora" loading="lazy">
-                    <img src="/assets/icon/pupr.png" class="custom-logo" alt="Logo PUPR" loading="lazy">
-                </div>
+        <div class="col-md-9 col-lg-6 col-xl-5 d-flex justify-content-center align-items-center"
+        style="gap: 15px;">
+       <img src="/assets/icon/logokabupatenblora.png" class="img-fluid" alt="Logo Kabupaten Blora" width="125" loading="lazy">
+       <img src="/assets/icon/pupr.png" class="img-fluid" alt="Logo PUPR" width="125" loading="lazy">
 
-                <!-- Teks -->
-                <div class="custom-text-container">
-                    <h1 class="custom-header-title">
-                        <span class="custom-title-white">MASJAKI</span>
-                        <span class="custom-title-green">BLORA</span>
-                    </h1>
-                    <p class="custom-header-description">
-                        Dinas Pekerjaan Umum Dan Penataan Ruang Kabupaten Blora
-                    </p>
-                </div>
-            </div>
+       <div class="header-text" style="text-align: left; margin-bottom: 20px;">
+        <h1 class="header-title" style="font-family:  'Montserrat', sans-serif; font-size: 2.5rem; font-weight: bold;">
+            <span class="header-title-white" style="font-weight: bold; font-style: italic; color: black; text-align:left;">MASJAKI</span>
+            <span class="header-title-green" style="font-weight: bold; font-style: italic; color: #064420; text-align:left;">BLORA</span>
+        </h1>
+        <p class="header-description" style="font-family: 'Montserrat', sans-serif; font-size: 1rem; color: black; font-weight: bold;">
+            Dinas Pekerjaan Umum Dan Penataan Ruang Kabupaten Blora
+        </p>
         </div>
 
         {{-- <h4>Dinas Pekerjaan Umum dan Penataan Ruang Kabupaten Blora Provinsi Jawa Tengah</h4> --}}
