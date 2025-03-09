@@ -50,7 +50,6 @@ class AdminDashboardController extends Controller
     public function index()
     {
         // $datahimbauandinas = himbauandinas::all();
-        $jumlahHimbauan = himbauandinas::count();  // Mendapatkan jumlah data
         $jumlahQa = qa::count();  // Mendapatkan jumlah data
         $jumlahBerita = berita::count();  // Mendapatkan jumlah data
         $jumlahAgendasertifikasi = beritaagenda::count();  // Mendapatkan jumlah data
@@ -60,9 +59,7 @@ class AdminDashboardController extends Controller
         $jumlahAsosiasiPengusaha = asosiasipengusaha::count();  // Mendapatkan jumlah data
         $jumlahPaketPekerjaan = paketpekerjaan::count();  // Mendapatkan jumlah data
         $jumlahIjinUsaha = uijk::count();  // Mendapatkan jumlah data
-        $jumlahSertifikatKetermpilan = Tukangterampil::count();  // Mendapatkan jumlah data
         $jumlahPenanggungJawabTeknis = penanggungjawabteknis::count();  // Mendapatkan jumlah data
-        $jumlahPembinaJasaKonstruksi = timpembina::count();  // Mendapatkan jumlah data
         $jumlahKecelakaan = pelatihan::count();  // Mendapatkan jumlah data
         $jumlahUU = peraturan::count();  // Mendapatkan jumlah data
         $jumlahPeraturanPemerintah = perpemerintah::count();  // Mendapatkan jumlah data
@@ -85,16 +82,14 @@ class AdminDashboardController extends Controller
         $jumlahpengawasanstatus = pengawasanstatus::count();
         $jumlahpengawasantindakan = pengawasantindakan::count();
         $jumlahagendastatus = agendastatus::count();
-        $jumlahketerampilanpekerja = keterampilanpekerja::count();
         $jumlahpilihantahun = tahunpilihan::count();
 
-    
+
         $user = Auth::user();
-    
+
         return view('backend.00_dashboard.index', [
             'title' => 'Admin Dashboard Sipjaki KBB',
             'user' => $user,
-            'jumlahHimbauan' => $jumlahHimbauan,  // Menambahkan jumlah data ke view
             'jumlahQa' => $jumlahQa,  // Menambahkan jumlah data ke view
             'jumlahBerita' => $jumlahBerita,  // Menambahkan jumlah data ke view
             'jumlahAgendasertifikasi' => $jumlahAgendasertifikasi,  // Menambahkan jumlah data ke view
@@ -104,9 +99,6 @@ class AdminDashboardController extends Controller
             'jumlahAsosiasiPengusaha' => $jumlahAsosiasiPengusaha,  // Menambahkan jumlah data ke view
             'jumlahPaketPekerjaan' => $jumlahPaketPekerjaan,  // Menambahkan jumlah data ke view
             'jumlahIjinUsaha' => $jumlahIjinUsaha,  // Menambahkan jumlah data ke view
-            'jumlahSertifikatKetermpilan' => $jumlahSertifikatKetermpilan,  // Menambahkan jumlah data ke view
-            'jumlahPenanggungJawabTeknis' => $jumlahPenanggungJawabTeknis,  // Menambahkan jumlah data ke view
-            'jumlahPembinaJasaKonstruksi' => $jumlahPembinaJasaKonstruksi,  // Menambahkan jumlah data ke view
             'jumlahKecelakaan' => $jumlahKecelakaan,  // Menambahkan jumlah data ke view
             'jumlahUU' => $jumlahUU,  // Menambahkan jumlah data ke view
             'jumlahPeraturanPemerintah' => $jumlahPeraturanPemerintah,  // Menambahkan jumlah data ke view
@@ -130,9 +122,8 @@ class AdminDashboardController extends Controller
             'jumlahpengawasanstatus' => $jumlahpengawasanstatus, // Mengirimkan data kecamatan unik ke view
             'jumlahpengawasantindakan' => $jumlahpengawasantindakan, // Mengirimkan data kecamatan unik ke view
             'jumlahagendastatus' => $jumlahagendastatus, // Mengirimkan data kecamatan unik ke view
-            'jumlahketerampilanpekerja' => $jumlahketerampilanpekerja, // Mengirimkan data kecamatan unik ke view
             'jumlahpilihantahun' => $jumlahpilihantahun, // Mengirimkan data kecamatan unik ke view
         ]);
     }
-    
+
 }
