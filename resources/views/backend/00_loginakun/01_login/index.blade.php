@@ -45,16 +45,16 @@
       <div class="row d-flex justify-content-center align-items-center h-100">
         <div class="col-md-9 col-lg-6 col-xl-5 d-flex justify-content-center align-items-center"
         style="gap: 15px;">
-       <img src="/assets/icon/logokabupatenblora.png" class="img-fluid" alt="Logo Kabupaten Blora" width="200" loading="lazy">
-       <img src="/assets/icon/pupr.png" class="img-fluid" alt="Logo PUPR" width="200" loading="lazy">
+       <img src="/assets/icon/logokabupatenblora.png" class="img-fluid" alt="Logo Kabupaten Blora" width="125" loading="lazy">
+       <img src="/assets/icon/pupr.png" class="img-fluid" alt="Logo PUPR" width="125" loading="lazy">
 
        <div class="header-text" style="text-align: center; margin-bottom: 20px;">
         <h1 class="header-title" style="font-family: 'Poppins', sans-serif; font-size: 2.5rem; font-weight: bold;">
-            <span class="header-title-white" style="font-weight: bold; font-style: italic; color: #222;">MASJAKI</span>
+            <span class="header-title-white" style="font-weight: bold; font-style: italic; color: black;">MASJAKI</span>
             <span class="header-title-green" style="font-weight: bold; font-style: italic; color: #064420;">BLORA</span>
         </h1>
-        <p class="header-description" style="font-family: 'Poppins', sans-serif; font-size: 1rem; color: #555;">
-            Dinas Pekerjaan Umum & Penataan Ruang Kabupaten Blora
+        <p class="header-description" style="font-family: 'Poppins', sans-serif; font-size: 1rem; color: black;">
+            Dinas Pekerjaan Umum Dan Penataan Ruang Kabupaten Blora Provinsi Jawa Tengah
         </p>
         </div>
 
