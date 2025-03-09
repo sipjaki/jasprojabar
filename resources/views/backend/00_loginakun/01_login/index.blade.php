@@ -1,38 +1,3 @@
-<style>
-    .custom-header {
-    background-color: transparent; /* Bisa diubah jika perlu */
-}
-
-.logo-container img {
-    width: 90px; /* Ukuran lebih fleksibel */
-}
-
-.header-title {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 2rem;
-    font-weight: bold;
-}
-
-.header-title-white {
-    font-weight: bold;
-    font-style: italic;
-    color: black;
-}
-
-.header-title-green {
-    font-weight: bold;
-    font-style: italic;
-    color: #064420;
-}
-
-.header-description {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 1rem;
-    color: black;
-    font-weight: bold;
-}
-
-</style>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -53,7 +18,7 @@
 
   <link rel="icon" href="/assets/icon/logokabupatenblora.png"  type="image/x-icon">
 
-  {{-- <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet"> --}}
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
 
 
 </head>
@@ -61,82 +26,77 @@
 <body>
   <!-- Start your project here-->
 
-<section class="vh-100">
+  <style>
+    .divider:after,
+    .divider:before {
+      content: "";
+      flex: 1;
+      height: 1px;
+      background: #eee;
+    }
+    .h-custom {
+      height: calc(100% - 73px);
+    }
+    @media (max-width: 450px) {
+      .h-custom {
+        height: 100%;
+      }
+    }
+  </style>
+  <section class="vh-100">
     <div class="container-fluid h-custom">
       <div class="row d-flex justify-content-center align-items-center h-100">
-        <div class="container">
-            <div class="row justify-content-center align-items-center text-center text-md-start">
-                <!-- Logo -->
-                <div class="custom-header d-flex flex-column flex-md-row align-items-center text-center text-md-start py-3">
-                    <!-- Logo -->
-                    <div class="logo-container d-flex justify-content-center align-items-center gap-3 mb-3 mb-md-0">
-                        <img src="/assets/icon/logokabupatenblora.png" class="img-fluid" alt="Logo Kabupaten Blora" width="100" loading="lazy">
-                        <img src="/assets/icon/pupr.png" class="img-fluid" alt="Logo PUPR" width="100" loading="lazy">
-                    </div>
+        <div class="col-md-9 col-lg-6 col-xl-5 d-flex justify-content-center align-items-center"
+        style="gap: 15px;">
+       <img src="/assets/icon/logokabupatenblora.png" class="img-fluid" alt="Logo Kabupaten Blora" width="125" loading="lazy">
+       <img src="/assets/icon/pupr.png" class="img-fluid" alt="Logo PUPR" width="125" loading="lazy">
 
-                    <!-- Teks -->
-                    <div class="text-container">
-                        <h1 class="header-title">
-                            <span class="header-title-white">MASJAKI</span>
-                            <span class="header-title-green">BLORA</span>
-                        </h1>
-                        <p class="header-description">
-                            Dinas Pekerjaan Umum Dan Penataan Ruang Kabupaten Blora
-                        </p>
-                    </div>
-                </div>
-
-            </div>
+       <div class="header-text" style="text-align: left; margin-bottom: 20px;">
+        <h1 class="header-title" style="font-family:  'Montserrat', sans-serif; font-size: 2.5rem; font-weight: bold;">
+            <span class="header-title-white" style="font-weight: bold; font-style: italic; color: black; text-align:left;">MASJAKI</span>
+            <span class="header-title-green" style="font-weight: bold; font-style: italic; color: #064420; text-align:left;">BLORA</span>
+        </h1>
+        <p class="header-description" style="font-family: 'Montserrat', sans-serif; font-size: 1rem; color: black; font-weight: bold;">
+            Dinas Pekerjaan Umum Dan Penataan Ruang Kabupaten Blora
+        </p>
         </div>
 
+        {{-- <h4>Dinas Pekerjaan Umum dan Penataan Ruang Kabupaten Blora Provinsi Jawa Tengah</h4> --}}
+       </div>
+           <div class="col-md-8 col-lg-6 col-xl-4 offset-xl-1">
+          <form>
+            {{-- <div class="d-flex flex-row align-items-center justify-content-center justify-content-lg-start">
+              <p class="lead fw-normal mb-0 me-3">Sign in with</p>
+              <button type="button" class="btn btn-primary btn-floating mx-1">
+                <i class="fab fa-facebook-f"></i>
+              </button>
 
-       <div class="col-md-8 col-lg-6 col-xl-4 offset-xl-1">
-           {{-- <div class="d-flex flex-row align-items-center justify-content-center justify-content-lg-start">
-               <p class="lead fw-normal mb-0 me-3">Sign in with</p>
-               <button type="button" class="btn btn-primary btn-floating mx-1">
-                   <i class="fab fa-facebook-f"></i>
-                </button>
+              <button type="button" class="btn btn-primary btn-floating mx-1">
+                <i class="fab fa-twitter"></i>
+              </button>
 
-                <button type="button" class="btn btn-primary btn-floating mx-1">
-                    <i class="fab fa-twitter"></i>
-                </button>
-
-                <button type="button" class="btn btn-primary btn-floating mx-1">
-                    <i class="fab fa-linkedin-in"></i>
-                </button>
+              <button type="button" class="btn btn-primary btn-floating mx-1">
+                <i class="fab fa-linkedin-in"></i>
+              </button>
             </div> --}}
-            {{--
+{{--
             <div class="divider d-flex align-items-center my-4">
-                <p class="text-center fw-bold mx-3 mb-0">Or</p>
+              <p class="text-center fw-bold mx-3 mb-0">Or</p>
             </div> --}}
 
             <!-- Email input -->
-            <form action="/login" method="post">
-                @csrf
             <div class="form-outline mb-4">
-              <input type="email" name="email" id="email"   class="form-control rounded-full @error('email') is-invalid @enderror" placeholder="Masukan Email ...." required value="{{ old('email') }}" />
-              <label class="form-label" for="form3Example3">Email</label>
+              <input type="email" id="form3Example3" class="form-control form-control-lg"
+                placeholder="Enter a valid email address" />
+              <label class="form-label" for="form3Example3">Email address</label>
             </div>
 
             <!-- Password input -->
-
-                @error('email')
-                <div class="invalid-feedback mb-2">
-                    {{ $message }}
-                </div>
-                @enderror
-
             <div class="form-outline mb-3">
-              <input type="password" type="password" name="password" class="form-control rounded-full @error('password') is-invalid @enderror" id="password" placeholder="Password" required/>
+              <input type="password" id="form3Example4" class="form-control form-control-lg"
+                placeholder="Enter password" />
               <label class="form-label" for="form3Example4">Password</label>
             </div>
-
-                @error('password')
-                <div class="invalid-feedback mb-2">
-                    {{ $message }}
-                </div>
-            @enderror
-
 
             <div class="d-flex justify-content-between align-items-center">
               <!-- Checkbox -->
@@ -150,7 +110,7 @@
             </div>
 
             <div class="text-center text-lg-start mt-4 pt-2">
-                <button type="submit" class="btn btn-dark btn-lg"
+                <button type="button" class="btn btn-dark btn-lg"
                   style="background-color: #064420; color: white; padding-left: 2.5rem; padding-right: 2.5rem; border: none;"
                   onmouseover="this.style.backgroundColor='white'; this.style.color='black';"
                   onmouseout="this.style.backgroundColor='#064420'; this.style.color='white';">
@@ -172,8 +132,8 @@
 
    <!-- Logo -->
    <div class="d-flex justify-content-center align-items-center" style="gap: 15px; margin-bottom: 10px;">
-       <img src="/assets/icon/logokabupatenblora.png" class="img-fluid" alt="Logo Kabupaten Blora" width="20" loading="lazy">
-       <img src="/assets/icon/pupr.png" class="img-fluid" alt="Logo PUPR" width="20" loading="lazy">
+       <img src="/assets/icon/logokabupatenblora.png" class="img-fluid" alt="Logo Kabupaten Blora" width="50" loading="lazy">
+       <img src="/assets/icon/pupr.png" class="img-fluid" alt="Logo PUPR" width="50" loading="lazy">
    </div>
 
    <!-- Copyright -->
