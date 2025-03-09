@@ -27,7 +27,7 @@
                     <!--Image Avatar-->
 
                     <!--Sidebar Navigation Menu-->
-                    <div class="sidebar-menu-container">
+                    <div class="sidebar-menu-container" style="background: white;">
                         <ul class="sidebar-menu mt-4 mb-4">
                         <style>
                         /* Default link style */
