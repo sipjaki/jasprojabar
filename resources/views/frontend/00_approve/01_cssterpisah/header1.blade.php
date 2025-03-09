@@ -114,9 +114,9 @@
                             <span class="header-title-white">MASJAKI</span>
                             <span class="header-title-green">BLORA</span>
                         </h1>
-                        <p class="header-description">
+                        <h4 class="header-description">
                             Dinas Pekerjaan Umum & Penataan Ruang Kabupaten Blora
-                        </p>
+                        </h4>
                     </div>
                 </div>
 
