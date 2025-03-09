@@ -50,8 +50,8 @@
 
        <div class="header-text" style="text-align: center; margin-bottom: 20px;">
         <h1 class="header-title" style="font-family: 'Poppins', sans-serif; font-size: 2.5rem; font-weight: bold;">
-            <span class="header-title-white" style="font-weight: bold; font-style: italic; color: black;">MASJAKI</span>
-            <span class="header-title-green" style="font-weight: bold; font-style: italic; color: #064420;">BLORA</span>
+            <span class="header-title-white" style="font-weight: bold; font-style: italic; color: black; text-align:left;">MASJAKI</span>
+            <span class="header-title-green" style="font-weight: bold; font-style: italic; color: #064420; text-align:left;">BLORA</span>
         </h1>
         <p class="header-description" style="font-family: 'Poppins', sans-serif; font-size: 1rem; color: black;">
             Dinas Pekerjaan Umum Dan Penataan Ruang Kabupaten Blora Provinsi Jawa Tengah
