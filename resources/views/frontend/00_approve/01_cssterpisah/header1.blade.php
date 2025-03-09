@@ -367,17 +367,58 @@
 						<i class="flaticon-search-interface-symbol"></i>
 					</a><!-- search-toggler -->
 				</div><!-- search-box --> --}}
-
-                <div style="padding: 5px 15px; border-radius: 10px;">
-                    <a href="/404" class="btn btn-primary">
-                        <i class="fas fa-user-plus" style="margin-right: 10px;"></i> Daftar
-                    </a>
-                </div><!-- main-menu-right-button -->
-
-                <div style="padding: 5px 15px; border-radius: 10px;">
-                    <a href="/404" class="btn btn-primary">
-                        <i class="fas fa-sign-in-alt" style="margin-right: 10px;"></i> Masuk
-                    </a>
+                <style>
+                    body {
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+                        height: 100vh;
+                        margin: 0;
+                        background-color: #f0f0f0;
+                    }
+                    .masuk-admin {
+                        display: flex;
+                        gap: 10px;
+                        margin-top: 20px;
+                    }
+                    .masuk-admin div {
+                        padding: 5px 15px;
+                        border-radius: 10px;
+                    }
+                    .masuk-admin a {
+                        display: flex;
+                        align-items: center;
+                        gap: 10px;
+                        text-decoration: none;
+                        background-color: #007bff;
+                        color: white;
+                        padding: 10px 15px;
+                        border-radius: 5px;
+                        font-size: 16px;
+                        font-weight: bold;
+                    }
+                    .masuk-admin a:hover {
+                        background-color: #0056b3;
+                    }
+                    @media (max-width: 768px) {
+                        .masuk-admin {
+                            flex-direction: column;
+                            align-items: center;
+                        }
+                    }
+                </style>
+                <div class="masuk-admin">
+                    <div>
+                        <a href="/404" class="btn btn-primary">
+                            <i class="fas fa-user-plus"></i> Daftar
+                        </a>
+                    </div>
+                    <div>
+                        <a href="/404" class="btn btn-primary">
+                            <i class="fas fa-sign-in-alt"></i> Masuk
+                        </a>
+                    </div>
                 </div>
 
             </div><!--main-menu-right-->
