@@ -99,7 +99,7 @@
 <div class="container-fluid">
 
     <!--Header-->
-    <div class="row header shadow-sm" style="background: #FFCB0F ">
+    <div class="row header shadow-sm" style="background: #1D1D1B ">
 
                     <style>
                 /* CSS untuk gaya elemen h3 */
@@ -322,7 +322,7 @@
             margin-left: 150px;
             margin-right: 15px;
             border-radius: 20px;
-            background: #00008b;
+            background: white;
 
         }
         .marquee {
@@ -341,7 +341,7 @@
         }
     </style>
      <div class="marquee-container">
-        <div class="marquee" style="color: white">Selamat Datang ! di Halaman Admin Sistem Informasi Pembina Jasa Konstruksi Pemerintah Kabupaten Bandung Barat Anda Adalah {{ $user->username}}  </div>
+        <div class="marquee" style="color: black">Selamat Datang ! di Halaman Admin Sistem Informasi Pembina Jasa Konstruksi Pemerintah Kabupaten Bandung Barat Anda Adalah {{ $user->username}}  </div>
     </div>
 
 
