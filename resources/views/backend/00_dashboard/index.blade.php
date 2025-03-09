@@ -8,6 +8,8 @@
     Selamat datang di admin dashboard mas jaki
 </p>
 </div>
+</div>
+</div>
 
 @include('backend.00_dashboard.part.menufooter')
 
