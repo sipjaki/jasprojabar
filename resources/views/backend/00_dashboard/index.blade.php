@@ -4,7 +4,7 @@
 
 <!-- Page Wrapper -->
 <div class="col-sm-9 col-xs-12 content pl-0">
-<p>
+<p style="color: black;">
     Selamat datang di admin dashboard mas jaki
 </p>
 </div>
