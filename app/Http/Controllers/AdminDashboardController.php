@@ -50,7 +50,7 @@ class AdminDashboardController extends Controller
     public function index()
     {
         // $datahimbauandinas = himbauandinas::all();
-        $jumlahQa = qa::count();  // Mendapatkan jumlah data
+        // $jumlahQa = qa::count();  // Mendapatkan jumlah data
         $jumlahBerita = berita::count();  // Mendapatkan jumlah data
         $jumlahAgendasertifikasi = beritaagenda::count();  // Mendapatkan jumlah data
         $jumlahDokumentasiPelatihan = kegiatanjaskon::count();  // Mendapatkan jumlah data
@@ -90,7 +90,7 @@ class AdminDashboardController extends Controller
         return view('backend.00_dashboard.index', [
             'title' => 'Admin Dashboard Sipjaki KBB',
             'user' => $user,
-            'jumlahQa' => $jumlahQa,  // Menambahkan jumlah data ke view
+            // 'jumlahQa' => $jumlahQa,  // Menambahkan jumlah data ke view
             'jumlahBerita' => $jumlahBerita,  // Menambahkan jumlah data ke view
             'jumlahAgendasertifikasi' => $jumlahAgendasertifikasi,  // Menambahkan jumlah data ke view
             'jumlahDokumentasiPelatihan' => $jumlahDokumentasiPelatihan,  // Menambahkan jumlah data ke view
