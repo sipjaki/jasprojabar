@@ -373,7 +373,7 @@
                                 <form action="/logout" method="POST" class="dropdown-item" style="border: none; background: transparent; padding: 0; margin: 0;">
                                     @csrf
                                     <button type="submit" class="logout-button"
-                                        onmouseover="this.style.background='red'; this.style.color='white';"
+                                        onmouseover="this.style.background='green'; this.style.color='white';"
                                         onmouseout="this.style.background='white'; this.style.color='black';">
                                         <i class="fa fa-sign-out"></i>
                                         {{-- <span class="badge-notif">1</span> --}}
