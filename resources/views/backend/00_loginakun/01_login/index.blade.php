@@ -42,23 +42,120 @@
         height: 100%;
       }
     }
+
+    /* Container utama */
+.custom-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+/* Row untuk logo dan teks */
+.custom-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+}
+
+/* Logo container */
+.custom-logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+/* Logo responsif */
+.custom-logo {
+    width: 100px;
+}
+
+@media (max-width: 768px) {
+    .custom-logo {
+        width: 80px;
+    }
+}
+
+/* Text container */
+.custom-text-container {
+    text-align: left;
+}
+
+@media (max-width: 768px) {
+    .custom-text-container {
+        text-align: center;
+    }
+}
+
+/* Header title */
+.custom-header-title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .custom-header-title {
+        font-size: 1.8rem;
+    }
+}
+
+/* Warna tulisan */
+.custom-title-white {
+    font-weight: bold;
+    font-style: italic;
+    color: black;
+}
+
+.custom-title-green {
+    font-weight: bold;
+    font-style: italic;
+    color: #064420;
+}
+
+/* Deskripsi */
+.custom-header-description {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .custom-header-description {
+        font-size: 0.9rem;
+    }
+}
+
   </style>
   <section class="vh-100">
     <div class="container-fluid h-custom">
       <div class="row d-flex justify-content-center align-items-center h-100">
-        <div class="col-md-9 col-lg-6 col-xl-5 d-flex justify-content-center align-items-center"
-        style="gap: 15px;">
-       <img src="/assets/icon/logokabupatenblora.png" class="img-fluid" alt="Logo Kabupaten Blora" width="125" loading="lazy">
-       <img src="/assets/icon/pupr.png" class="img-fluid" alt="Logo PUPR" width="125" loading="lazy">
+        <div class="custom-container">
+            <div class="custom-row">
+                <!-- Logo -->
+                <div class="custom-logo-container">
+                    <img src="/assets/icon/logokabupatenblora.png" class="custom-logo" alt="Logo Kabupaten Blora" loading="lazy">
+                    <img src="/assets/icon/pupr.png" class="custom-logo" alt="Logo PUPR" loading="lazy">
+                </div>
 
-       <div class="header-text" style="text-align: left; margin-bottom: 20px;">
-        <h1 class="header-title" style="font-family:  'Montserrat', sans-serif; font-size: 2.5rem; font-weight: bold;">
-            <span class="header-title-white" style="font-weight: bold; font-style: italic; color: black; text-align:left;">MASJAKI</span>
-            <span class="header-title-green" style="font-weight: bold; font-style: italic; color: #064420; text-align:left;">BLORA</span>
-        </h1>
-        <p class="header-description" style="font-family: 'Montserrat', sans-serif; font-size: 1rem; color: black; font-weight: bold;">
-            Dinas Pekerjaan Umum Dan Penataan Ruang Kabupaten Blora
-        </p>
+                <!-- Teks -->
+                <div class="custom-text-container">
+                    <h1 class="custom-header-title">
+                        <span class="custom-title-white">MASJAKI</span>
+                        <span class="custom-title-green">BLORA</span>
+                    </h1>
+                    <p class="custom-header-description">
+                        Dinas Pekerjaan Umum Dan Penataan Ruang Kabupaten Blora
+                    </p>
+                </div>
+            </div>
         </div>
 
         {{-- <h4>Dinas Pekerjaan Umum dan Penataan Ruang Kabupaten Blora Provinsi Jawa Tengah</h4> --}}
