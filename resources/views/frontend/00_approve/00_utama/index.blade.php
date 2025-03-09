@@ -145,9 +145,9 @@
 
                     <br><br>
                     <div class="news-details-content-box" style="margin-left: 25px;">
-						<h4>{{$item->judul}}</h4>
+						<h4>{{$item->judulberita}}</h4>
 
-                        <p>
+                        <p style="text-align: justify">
                             {{$item->keterangan}}
                         </p>
 
