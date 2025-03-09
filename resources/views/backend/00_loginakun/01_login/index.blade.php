@@ -69,7 +69,7 @@
             <!-- Email input -->
             <div class="form-outline mb-4">
               <input type="text"
-              style="width: 400px; text-align:left; padding: 30px 15px;"
+              style="width: 400px; text-align:left; padding: 10px 15px;"
               name="email"
               class="form-control rounded-full @error('email') is-invalid @enderror"
               id="email"
@@ -89,7 +89,7 @@
             <!-- Password input -->
             <div class="form-outline mb-3">
               <input
-              style="width: 400px; text-align:left; padding: 30px 15px;"
+              style="width: 400px; text-align:left; padding: 10px 15px;"
               type="password"
               name="password"
               class="form-control rounded-full @error('password') is-invalid @enderror"
