@@ -12,9 +12,9 @@ class LoginController extends Controller
     public function index()
     {
         //
-        return view('login.index',[
-            'title' => 'Under Constructions',
-        ]); 
+        return view('backend.00_loginakun.01_login.index',[
+            'title' => 'Silahkan Login !',
+        ]);
     }
 
     // public function authenticate(Request $request)
@@ -37,7 +37,7 @@ class LoginController extends Controller
         //     // Jika autentikasi gagal, kembalikan pengguna ke halaman login dengan pesan kesalahan
         //     return back()->withErrors(['email' => 'Email atau kata sandi yang Anda masukkan salah.'])->withInput($request->only('email'));
         // }
-        
+
 
         // if (Auth::attempt($credentials)) {
         //     $request->session()->regenerate();
@@ -62,7 +62,7 @@ public function authenticate(Request $request)
 
     // Coba autentikasi dengan kredensial yang diberikan
     $credentials = $request->only('email', 'password');
-    
+
     if (Auth::attempt($credentials)) {
         // Regenerasi session untuk keamanan
         $request->session()->regenerate();

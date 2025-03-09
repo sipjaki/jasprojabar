@@ -11,7 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400&display=swap" rel="stylesheet">
 
     {{-- TAILWINDCSS --}}
- 
+
     {{-- @vite('resources/css/app.css') --}}
     {{-- @vite('resources/css/tailwind.css') --}}
     {{-- @vite('resources/js/app.css') --}}
@@ -28,7 +28,7 @@
       <link rel="stylesheet" href="/assets/bahan2/css/bootstrap.min.css">
       <!----css3---->
       <link rel="stylesheet" href="/assets/bahan2/css/custom.css">
-      
+
       <link rel="stylesheet" href="/assets/bahan2/font/flaticon.css">
       <!-- SLIDER REVOLUTION 4.x CSS SETTINGS -->
      <link rel="stylesheet" type="text/css" href="/assets/bahan2/css/settings.css" media="screen" />
@@ -41,15 +41,15 @@
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
 
         <script src="https://cdn.ckeditor.com/4.16.2/standard/ckeditor.js"></script>
- 
+
         @include('tambahan.portalberitaheader')
     <script defer src="/assets/bahan1/js/scripts.js"></script>
     {{-- <title>Construction Company</title> --}}
     <title>{{$title}}</title>
-    
+
     <link rel="icon" href="/assets/icon/logokabupatenblora.png"  type="image/x-icon">
 
-  
+
 </head>
 
 <body>
