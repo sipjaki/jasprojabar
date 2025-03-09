@@ -64,21 +64,45 @@
         {{-- <h4>Dinas Pekerjaan Umum dan Penataan Ruang Kabupaten Blora Provinsi Jawa Tengah</h4> --}}
        </div>
            <div class="col-md-8 col-lg-6 col-xl-4 offset-xl-1">
-          <form>
-
+          <form action="/login" method="post">
+                @csrf
             <!-- Email input -->
             <div class="form-outline mb-4">
-              <input type="email" id="form3Example3" class="form-control form-control-lg"
-                placeholder="Enter a valid email address" />
+              <input type="text"
+              name="email"
+              class="form-control rounded-full @error('email') is-invalid @enderror"
+              id="email"
+              placeholder="Email"
+              required
+              value="{{ old('email') }}
+              />
               <label class="form-label" for="form3Example3">Email address</label>
             </div>
 
+    @error('email')
+    <div class="invalid-feedback mb-2">
+        {{ $message }}
+    </div>
+@enderror
+
             <!-- Password input -->
             <div class="form-outline mb-3">
-              <input type="password" id="form3Example4" class="form-control form-control-lg"
-                placeholder="Enter password" />
+              <input
+              type="password"
+              name="password"
+              class="form-control rounded-full @error('password') is-invalid @enderror"
+              id="password"
+              placeholder="Password"
+              required />
               <label class="form-label" for="form3Example4">Password</label>
             </div>
+
+
+    @error('password')
+    <div class="invalid-feedback mb-2">
+        {{ $message }}
+    </div>
+@enderror
 
             <div class="d-flex justify-content-between align-items-center">
               <!-- Checkbox -->
@@ -92,7 +116,7 @@
             </div>
 
             <div class="text-center text-lg-start mt-4 pt-2">
-                <button type="button" class="btn btn-dark btn-lg"
+                <button type="submit" class="btn btn-dark btn-lg"
                   style="background-color: #064420; color: white; padding-left: 2.5rem; padding-right: 2.5rem; border: none;"
                   onmouseover="this.style.backgroundColor='white'; this.style.color='black';"
                   onmouseout="this.style.backgroundColor='#064420'; this.style.color='white';">
