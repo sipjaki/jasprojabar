@@ -16,6 +16,7 @@
       <title>{{$title}}</title>
 
 
+
       <!-- Canonical SEO -->
       <meta name="description" content="Sneat is the best bootstrap 5 dashboard for responsive web apps. Streamline your app development process with ease." />
 
@@ -53,7 +54,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet" />
 
-    <link rel="stylesheet" href="../../assets/vendor/fonts/iconify-icons.css" />
+    <link rel="stylesheet" href="../../assets/00_adminmasjaki/vendor/fonts/iconify-icons.css" />
 
     <!-- Core CSS -->
     <!-- build:css assets/vendor/css/theme.css  -->
@@ -67,7 +68,7 @@
 
     <!-- Vendors CSS -->
 
-      <link rel="stylesheet" href="../../assets/00_adminmasjaki/vendor/libs/perfect-scrollbar/perfect-scrollbar.css" />
+      <link rel="stylesheet" href="../../assets/00_adminmasjaki/assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.css" />
 
     <!-- endbuild -->
 
@@ -2130,7 +2131,7 @@
       <div class="card h-100">
         <div class="card-body">
           <div class="bg-label-primary rounded-3 text-center mb-4 pt-6">
-            <img class="img-fluid" src="../../assets/img/illustrations/sitting-girl-with-laptop.png" alt="Card girl image" style="width: 52%;" />
+            <img class="img-fluid" src="../../assets/00_adminmasjaki/img/illustrations/sitting-girl-with-laptop.png" alt="Card girl image" style="width: 52%;" />
           </div>
           <h5 class="mb-2">Upcoming Webinar</h5>
           <p>Next Generation Frontend Architecture Using Layout Engine And React Native Web.</p>
@@ -2344,7 +2345,7 @@
 
 
 
-      <script src="../../assets/00_adminmasjaki/vendor/libs/pickr/pickr.js"></script>
+      <script src="../../assets/00_adminmasjaki/assets/vendor/libs/pickr/pickr.js"></script>
 
 
 
