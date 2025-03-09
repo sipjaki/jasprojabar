@@ -1468,6 +1468,9 @@
             <i class="icon-base bx bx-bell icon-md"></i>
             <span class="badge rounded-pill bg-danger badge-dot badge-notifications border">{{$user->username}}</span>
           </span>
+            <i class="icon-base bx bx-bell icon-md"></i>
+            <span class="badge rounded-pill bg-danger badge-dot badge-notifications border">Anda Adalah {{$user->statusadmin}}</span>
+          </span>
         </a>
         <ul class="dropdown-menu dropdown-menu-end p-0">
           <li class="dropdown-menu-header border-bottom">
