@@ -74,7 +74,7 @@
               id="email"
               placeholder="Email"
               required
-              value="{{ old('email') }}
+              value="{{ old('email') }}"
               />
               <label class="form-label" for="form3Example3">Email address</label>
             </div>
