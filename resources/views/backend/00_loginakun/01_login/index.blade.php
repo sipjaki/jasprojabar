@@ -63,75 +63,77 @@
 
         {{-- <h4>Dinas Pekerjaan Umum dan Penataan Ruang Kabupaten Blora Provinsi Jawa Tengah</h4> --}}
        </div>
-           <div class="col-md-8 col-lg-6 col-xl-4 offset-xl-1">
-          <form action="/login" method="post">
-                @csrf
+       <div class="col-md-8 col-lg-6 col-xl-4 offset-xl-1">
+        <form action="/login" method="post">
+            @csrf
             <!-- Email input -->
-            <div class=" mb-4">
-              <input type="text"
-              style="width: 300px; text-align:left; padding: 10px 15px;"
-              name="email"
-              class="form-control rounded-full @error('email') is-invalid @enderror"
-              id="email"
-              placeholder="Email"
-              {{-- required --}}
-              value="{{ old('email') }}"
-              />
-              <label class="form-label" for="form3Example3">Email address</label>
+            <div class="mb-4">
+                <input
+                    type="text"
+                    style="width: 300px; text-align:left; padding: 10px 15px;"
+                    name="email"
+                    class="form-control rounded-full @error('email') is-invalid @enderror"
+                    id="email"
+                    placeholder="Email"
+                    value="{{ old('email') }}"
+                />
+                <label class="form-label" for="form3Example3">Email address</label>
             </div>
-
-    @error('email')
-    <div class="invalid-feedback mb-2">
-        {{ $message }}
-    </div>
-@enderror
+            @error('email')
+                <div class="invalid-feedback mb-2">
+                    {{ $message }}
+                </div>
+            @enderror
 
             <!-- Password input -->
-            <div class=" mb-3">
-              <input
-              style="width: 300px; text-align:left; padding: 10px 15px;"
-              type="password"
-              name="password"
-              class="form-control rounded-full @error('password') is-invalid @enderror"
-              id="password"
-              placeholder="Password"
-              {{-- required  --}}
-              />
-              <label class="form-label" for="form3Example4">Password</label>
+            <div class="mb-3">
+                <input
+                    type="password"
+                    name="password"
+                    class="form-control rounded-full @error('password') is-invalid @enderror"
+                    id="password"
+                    placeholder="Password"
+                    style="width: 300px; text-align:left; padding: 10px 15px;"
+                />
+                <label class="form-label" for="form3Example4">Password</label>
             </div>
+            @error('password')
+                <div class="invalid-feedback mb-2">
+                    {{ $message }}
+                </div>
+            @enderror
 
-
-    @error('password')
-    <div class="invalid-feedback mb-2">
-        {{ $message }}
-    </div>
-@enderror
-
+            <!-- Remember me and Forgot password -->
             <div class="d-flex justify-content-between align-items-center">
-              <!-- Checkbox -->
-              <div class="form-check mb-0">
-                <input class="form-check-input me-2" type="checkbox" value="" id="form2Example3" />
-                <label class="form-check-label" for="form2Example3">
-                  Remember me
-                </label>
-              </div>
-              {{-- <a href="#!" class="text-body">Forgot password?</a> --}}
+                <!-- Checkbox -->
+                <div class="form-check mb-0">
+                    <input class="form-check-input me-2" type="checkbox" value="" id="form2Example3" />
+                    <label class="form-check-label" for="form2Example3">
+                        Remember me
+                    </label>
+                </div>
             </div>
 
+            <!-- Submit Button -->
             <div class="text-center text-lg-start mt-4 pt-2">
-                <button type="submit" class="btn btn-dark btn-lg"
-                  style="background-color: #064420; color: white; padding-left: 2.5rem; padding-right: 2.5rem; border: none;"
-                  onmouseover="this.style.backgroundColor='white'; this.style.color='black';"
-                  onmouseout="this.style.backgroundColor='#064420'; this.style.color='white';">
-                  Login
+                <button
+                    type="submit"
+                    class="btn btn-dark btn-lg"
+                    style="background-color: #064420; color: white; padding-left: 2.5rem; padding-right: 2.5rem; border: none;"
+                    onmouseover="this.style.backgroundColor='white'; this.style.color='black';"
+                    onmouseout="this.style.backgroundColor='#064420'; this.style.color='white';"
+                >
+                    Login
                 </button>
-                <p class="small fw-bold mt-2 pt-1 mb-0">
-                  Don't have an account?
-                  <a href="/404" class="link-danger">Register</a>
-                </p>
-              </div>
 
-          </form>
+                <p class="small fw-bold mt-2 pt-1 mb-0">
+                    Don't have an account?
+                    <a href="/404" class="link-danger">Register</a>
+                </p>
+            </div>
+        </form>
+    </div>
+
         </div>
       </div>
     </div>
