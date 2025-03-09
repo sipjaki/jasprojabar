@@ -71,10 +71,10 @@ public function authenticate(Request $request)
         return redirect()->intended('/dashboard');
     }
 
-    // If authentication fails, send a custom error message and redirect back
+    // If authentication fails, send the custom error message and redirect back
     return back()->withErrors([
-        'pesanlogin' => 'Email atau Password yang Anda masukkan salah.', // Custom message here
-    ])->withInput();  // Keep the email input to avoid re-entering
+        'pesanlogin' => 'Email dan Password anda salah.',  // Custom error message
+    ])->withInput();  // Keep the email input so the user doesn’t have to re-enter it
 }
 
 
