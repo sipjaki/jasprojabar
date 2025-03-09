@@ -377,7 +377,7 @@
                         max-width: 400px;
                         margin-top: 20px;
                         margin-bottom: 25px;
-                        margin-right: 100px;
+                        margin-right: 20px;
                     }
                     .masuk-admin a {
                         display: flex;
