@@ -118,7 +118,7 @@
                 }
                 </style>
         <!--Logo-->
-        <div class="col-sm-3 pl-0 text-center" style="background: rgb(71, 69, 69); height:60px;">
+        <div class="col-sm-3 pl-0 text-center" style="background: rgb(61, 58, 58); height:60px;">
            <div class=" mr-3 mb-0 mt-10 mb-10 " style="display: flex; align-items: center; margin-bottom:10px">
            <img src="/assets/icon/pupr.png" alt="Logo SIPJAKIKBB" style="margin-left:25px; margin-top:5px; width: 50px; height: 50px; object-fit: cover; margin-right: 10px; padding: 0;">
 
