@@ -94,11 +94,17 @@
             </div>
 
             <div class="text-center text-lg-start mt-4 pt-2">
-              <button type="button" class="btn btn-primary btn-lg"
-                style="padding-left: 2.5rem; padding-right: 2.5rem;">Login</button>
-              <p class="small fw-bold mt-2 pt-1 mb-0">Don't have an account? <a href="/404"
-                  class="link-danger">Register</a></p>
-            </div>
+                <button type="button" class="btn btn-dark btn-lg"
+                  style="background-color: #064420; color: white; padding-left: 2.5rem; padding-right: 2.5rem; border: none;"
+                  onmouseover="this.style.backgroundColor='white'; this.style.color='black';"
+                  onmouseout="this.style.backgroundColor='#064420'; this.style.color='white';">
+                  Login
+                </button>
+                <p class="small fw-bold mt-2 pt-1 mb-0">
+                  Don't have an account?
+                  <a href="/404" class="link-danger">Register</a>
+                </p>
+              </div>
 
           </form>
         </div>
