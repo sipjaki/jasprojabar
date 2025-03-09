@@ -107,9 +107,9 @@
             </div>
 
             <!-- General login error message (if authentication failed) -->
-            @if(session('pesanlogin'))
+            @if($errors->has('pesanlogin'))
                 <div class="alert alert-danger mb-2">
-                    {{ session('pesanlogin') }}  <!-- Display the custom error message -->
+                    {{ $errors->first('pesanlogin') }}  <!-- Display the custom error message -->
                 </div>
             @endif
 
@@ -141,6 +141,7 @@
                 </p>
             </div>
         </form>
+
 
     </div>
 

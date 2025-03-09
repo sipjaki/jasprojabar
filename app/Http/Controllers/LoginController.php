@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
+use Illuminate\Validation\ValidationException;
 
 class LoginController extends Controller
 {
@@ -48,6 +49,7 @@ class LoginController extends Controller
         // dd('Berhasil Masuk Iqlima');
     // }
 // =========================
+
 public function authenticate(Request $request)
 {
     // Validate the input data
@@ -71,10 +73,10 @@ public function authenticate(Request $request)
         return redirect()->intended('/dashboard');
     }
 
-    // If authentication fails, send the custom error message and redirect back
-    return back()->withErrors([
-        'pesanlogin' => 'Email dan Password anda salah.',  // Custom error message
-    ])->withInput();  // Keep the email input so the user doesn’t have to re-enter it
+    // If authentication fails, throw a ValidationException with a custom message
+    throw ValidationException::withMessages([
+        'pesanlogin' => ['Email dan Password Anda salah.'], // Custom message
+    ]);
 }
 
 
