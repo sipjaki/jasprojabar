@@ -50,7 +50,7 @@ class LoginController extends Controller
 // =========================
 public function authenticate(Request $request)
 {
-    // Validasi input dengan pesan kesalahan khusus
+    // Validate the input data
     $request->validate([
         'email' => 'required|email',
         'password' => 'required',
@@ -60,21 +60,21 @@ public function authenticate(Request $request)
         'password.required' => 'Password harus diisi.',
     ]);
 
-    // Coba autentikasi dengan kredensial yang diberikan
+    // Attempt to authenticate with provided credentials
     $credentials = $request->only('email', 'password');
 
     if (Auth::attempt($credentials)) {
-        // Regenerasi session untuk keamanan
+        // Regenerate the session for security
         $request->session()->regenerate();
 
-        // Redirect ke halaman dashboard setelah login berhasil
+        // Redirect to intended page (default is /dashboard)
         return redirect()->intended('/dashboard');
     }
 
-    // Jika autentikasi gagal, kembalikan ke halaman login dengan pesan kesalahan
+    // If authentication fails, send a custom error message and redirect back
     return back()->withErrors([
-        'loginError' => 'Email atau Password Anda salah!',
-    ])->withInput(); // Mengisi ulang input email dan password
+        'loginError' => 'Email atau Password yang Anda masukkan salah.', // Custom message here
+    ])->withInput();  // Keep the email input to avoid re-entering
 }
 
 
