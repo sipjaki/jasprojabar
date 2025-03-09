@@ -127,31 +127,16 @@
       </div>
     </div>
 
-    <div class="d-flex flex-column flex-md-row text-center text-md-start justify-content-between py-4 px-4 px-xl-5" style="background: rgb(3, 69, 3)">
-      <!-- Copyright -->
-      <div class="text-white mb-3 mb-md-0">
-            © Dinas Pekerjaan Umum Dan Penataan Ruang Kabupaten Blora Provinsi Jawa Tengah
-      </div>
-      <!-- Copyright -->
+    <div class="d-flex flex-column text-center justify-content-center py-4 px-4 px-xl-5"
+    style="background: rgb(3, 69, 3); display: flex; align-items: center;">
+   <!-- Copyright -->
+   <div class="text-white">
+       © Dinas Pekerjaan Umum Dan Penataan Ruang Kabupaten Blora Provinsi Jawa Tengah
+   </div>
+   <!-- Copyright -->
+</div>
 
-      <!-- Right -->
-      <div>
-        <a href="#!" class="text-white me-4">
-          <i class="fab fa-facebook-f"></i>
-        </a>
-        <a href="#!" class="text-white me-4">
-          <i class="fab fa-twitter"></i>
-        </a>
-        <a href="#!" class="text-white me-4">
-          <i class="fab fa-google"></i>
-        </a>
-        <a href="#!" class="text-white">
-          <i class="fab fa-linkedin-in"></i>
-        </a>
-      </div>
-      <!-- Right -->
-    </div>
-  </section>
+</section>
   <!-- End your project here-->
 
   <!-- MDB -->
