@@ -12,8 +12,12 @@
 
 </span>
   </span>
-        <span class="app-brand-text demo menu-text fw-bold ms-2"><h4 style="color: black;">MASJAKI</h4><h4 style="color: green;">BLORA</h4></span>
-      </a>
+  <span class="app-brand-text demo menu-text fw-bold ms-2 text-center d-block">
+    <h4 style="color: black; font-weight: bold; font-style: italic; margin: 0;">MASJAKI</h4>
+    <h4 style="color: green; font-weight: bold; font-style: italic; margin: 0;">BLORA</h4>
+</span>
+
+    </a>
 
       <a href="javascript:void(0);" class="layout-menu-toggle menu-link text-large ms-auto">
         <i class="icon-base bx bx-chevron-left"></i>
