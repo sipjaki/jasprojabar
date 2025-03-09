@@ -6,7 +6,7 @@
             <div class="col-sm-3 col-xs-6 sidebar pl-0">
                 <div class="inner-sidebar mr-3">
                     <!--Image Avatar-->
-                    <div class="avatar text-center" style="background:white; ">
+                    <div class="avatar text-center" style="background:black; ">
 
                         <div class="div">
                         {{-- @foreach ($user as $item ) --}}
