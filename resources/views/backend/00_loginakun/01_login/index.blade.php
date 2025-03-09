@@ -15,6 +15,7 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" />
   <!-- MDB -->
   <link rel="stylesheet" href="/assets/login/css/bootstrap-login-form.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
 
   <link rel="icon" href="/assets/icon/logokabupatenblora.png"  type="image/x-icon">
 
@@ -48,18 +49,19 @@
        <img src="/assets/icon/logokabupatenblora.png" class="img-fluid" alt="Logo Kabupaten Blora" width="125" loading="lazy">
        <img src="/assets/icon/pupr.png" class="img-fluid" alt="Logo PUPR" width="125" loading="lazy">
 
-       <div class="header-text" style="text-align: left; margin-bottom: 20px;">
-        <h1 class="header-title" style="font-family: 'Poppins', sans-serif; font-size: 2.5rem; font-weight: bold;">
-            <span class="header-title-white" style="font-weight: bold; font-style: italic; color: black; text-align:left;">MASJAKI</span>
-            <span class="header-title-green" style="font-weight: bold; font-style: italic; color: #064420; text-align:left;">BLORA</span>
-        </h1>
-        <p class="header-description" style="font-family: 'Poppins', sans-serif; font-size: 1rem; color: black;">
-            Dinas Pekerjaan Umum Dan Penataan Ruang Kabupaten Blora
-        </p>
-        </div>
+       <!-- Tambahkan Google Font Montserrat di <head> -->
 
-        {{-- <h4>Dinas Pekerjaan Umum dan Penataan Ruang Kabupaten Blora Provinsi Jawa Tengah</h4> --}}
-       </div>
+<div class="header-text" style="text-align: left; margin-bottom: 20px;">
+    <h1 class="header-title" style="font-family: 'Montserrat', sans-serif; font-size: 2.5rem; font-weight: 700; margin: 0;">
+        <span class="header-title-white" style="font-weight: 700; font-style: italic; color: black;">MASJAKI</span>
+        <span class="header-title-green" style="font-weight: 700; font-style: italic; color: #064420;">BLORA</span>
+    </h1>
+    <p class="header-description" style="font-family: 'Montserrat', sans-serif; font-size: 1rem; color: black; font-weight: 400; margin-top: 5px;">
+        Dinas Pekerjaan Umum Dan Penataan Ruang Kabupaten Blora
+    </p>
+</div>
+
+
            <div class="col-md-8 col-lg-6 col-xl-4 offset-xl-1">
           <form>
             {{-- <div class="d-flex flex-row align-items-center justify-content-center justify-content-lg-start">
