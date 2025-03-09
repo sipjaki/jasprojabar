@@ -55,50 +55,76 @@
 
 	</section><!--main-slider-->
 
-    <section class="blog-section">
-        <div class="container">
-            <div class="blog-box">
-                <div class="section-title-box text-center">
-                    <h2 class="section-title" style="font-size: 32px;">Analisa Harga Satuan Pekerjaan Kab Blora 2025</h2>
-                </div><!-- section-title-box -->
-            </div><!--blog-box-->
-            <div class="row d-flex justify-content-center">
-                <div class="col-lg-3">
-                    <div class="blog-card text-center">
-                        <div class="blog-card-image">
-                            <img src="/assets/00_dokmasjaki/03_datajakon/analisisharga.png" class="img-fluid" alt="img-22" width="200px;">
-                            <a href="/hspkonstruksiumum"></a>
-                        </div><!-- blog-card-image -->
-                        <div class="blog-card-content">
-                            <h4><a href="news-details.html">AHSP Konstruksi Umum</a></h4>
-                        </div><!-- blog-card-content -->
-                    </div><!-- blog-card -->
-                </div><!-- col-lg-3 -->
-                <div class="col-lg-3">
-                    <div class="blog-card text-center">
-                        <div class="blog-card-image">
-                            <img src="/assets/00_dokmasjaki/03_datajakon/analisisharga.png" class="img-fluid" alt="img-22" width="200px;">
-                            <a href="/satuanhargamaterial"></a>
-                        </div><!-- blog-card-image -->
-                        <div class="blog-card-content">
-                            <h4><a href="news-details.html">Satuan Harga Dasar</a></h4>
-                        </div><!-- blog-card-content -->
-                    </div><!-- blog-card -->
-                </div><!-- col-lg-3 -->
-                <div class="col-lg-3">
-                    <div class="blog-card text-center">
-                        <div class="blog-card-image">
-                            <img src="/assets/00_dokmasjaki/03_datajakon/analisisharga.png" class="img-fluid" alt="img-22" width="200px;">
-                            <a href="/shstblora"></a>
-                        </div><!-- blog-card-image -->
-                        <div class="blog-card-content">
-                            <h4><a href="news-details.html">SHST Kab Blora Tahun 2025 </a></h4>
-                        </div><!-- blog-card-content -->
-                    </div><!-- blog-card -->
-                </div><!-- col-lg-3 -->
-            </div><!-- row -->
-        </div><!-- container -->
-    </section><!-- blog-section -->
+    <style>
+        .pricing-section {
+            padding: 20px;
+            text-align: center;
+        }
+        .pricing-title {
+            font-size: 32px;
+            margin-bottom: 20px;
+        }
+        .pricing-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 15px;
+        }
+        .pricing-card {
+            background: white;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            max-width: 220px;
+        }
+        .pricing-card img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+        .pricing-card h4 {
+            font-size: 16px;
+            margin-top: 10px;
+        }
+        .pricing-card a {
+            text-decoration: none;
+            color: #007bff;
+        }
+        .pricing-card a:hover {
+            text-decoration: underline;
+        }
+        @media (max-width: 768px) {
+            .pricing-title {
+                font-size: 24px;
+            }
+            .pricing-card {
+                max-width: 180px;
+                padding: 10px;
+            }
+            .pricing-card h4 {
+                font-size: 14px;
+            }
+        }
+    </style>
+
+    <section class="pricing-section">
+        <h2 class="pricing-title">Analisa Harga Satuan Pekerjaan Kab Blora 2025</h2>
+        <div class="pricing-container">
+            <div class="pricing-card">
+                <img src="/assets/00_dokmasjaki/03_datajakon/analisisharga.png" alt="AHSP Konstruksi Umum">
+                <h4><a href="/hspkonstruksiumum">AHSP Konstruksi Umum</a></h4>
+            </div>
+            <div class="pricing-card">
+                <img src="/assets/00_dokmasjaki/03_datajakon/analisisharga.png" alt="Satuan Harga Dasar">
+                <h4><a href="/satuanhargamaterial">Satuan Harga Dasar</a></h4>
+            </div>
+            <div class="pricing-card">
+                <img src="/assets/00_dokmasjaki/03_datajakon/analisisharga.png" alt="SHST Kab Blora 2025">
+                <h4><a href="/shstblora">SHST Kab Blora Tahun 2025</a></h4>
+            </div>
+        </div>
+    </section>
 
 
 	{{-- <section class="news-details-section" style="background-image: url(assets/00_dokmasjaki/03_datajakon/bannerbetter.jpg);"> --}}
