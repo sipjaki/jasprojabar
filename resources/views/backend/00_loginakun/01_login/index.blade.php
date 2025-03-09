@@ -126,7 +126,8 @@
         </div>
       </div>
     </div>
-    <div class="d-flex flex-column flex-md-row text-center text-md-start justify-content-between py-4 px-4 px-xl-5 bg-primary">
+
+    <div class="d-flex flex-column flex-md-row text-center text-md-start justify-content-between py-4 px-4 px-xl-5" style="background: rgb(3, 69, 3)">
       <!-- Copyright -->
       <div class="text-white mb-3 mb-md-0">
             © Dinas Pekerjaan Umum Dan Penataan Ruang Kabupaten Blora Provinsi Jawa Tengah
