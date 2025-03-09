@@ -211,6 +211,9 @@
     <section class="event-three-section" style="margin-top:-200px;">
 		<div class="event-section-outer">
 			<div class="container">
+
+                <h4>Daftar Artikel Jakon</h4>
+
 				<div class="row row-gutter-y-30">
 
                     @foreach ($dataartikel->take(4) as $item)
