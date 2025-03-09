@@ -74,7 +74,7 @@
               class="form-control rounded-full @error('email') is-invalid @enderror"
               id="email"
               placeholder="Email"
-              required
+              {{-- required --}}
               value="{{ old('email') }}"
               />
               <label class="form-label" for="form3Example3">Email address</label>
@@ -95,7 +95,8 @@
               class="form-control rounded-full @error('password') is-invalid @enderror"
               id="password"
               placeholder="Password"
-              required />
+              {{-- required  --}}
+              />
               <label class="form-label" for="form3Example4">Password</label>
             </div>
 
