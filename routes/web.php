@@ -812,7 +812,7 @@ Route::post('/settingtahunpilihan/{id}', [SettingmenuController::class, 'deletes
 //     ]);
 // });
 
-Route::get('/login', [LoginController::class, 'loginmasuk'])->name('login')->middleware('guest');
+Route::get('/masuk', [LoginController::class, 'loginmasuk'])->name('login')->middleware('guest');
 Route::post('/login', [LoginController::class, 'authenticate']);
 Route::post('/logout', [LoginController::class, 'logout']);
 
