@@ -3,7 +3,7 @@
 .loader-wrapper {
     position: fixed;
     z-index: 9999;
-    background: #fff;
+    background: rgb(55, 50, 50);
     left: 0;
     top: 0;
     width: 100%;
@@ -100,7 +100,7 @@
 
     <!--Header-->
     <div class="row header shadow-sm" style="background: #FFCB0F ">
-        
+
                     <style>
                 /* CSS untuk gaya elemen h3 */
                 h3 {
@@ -118,23 +118,23 @@
                 }
                 </style>
         <!--Logo-->
-        <div class="col-sm-3 pl-0 text-center" style="background: #FFCB0F; height:60px;"> 
+        <div class="col-sm-3 pl-0 text-center" style="background: #FFCB0F; height:60px;">
            <div class=" mr-3 mb-0 mt-10 mb-10 " style="display: flex; align-items: center; margin-bottom:10px">
            <img src="/assets/icon/pupr.png" alt="Logo SIPJAKIKBB" style="margin-left:25px; margin-top:5px; width: 50px; height: 50px; object-fit: cover; margin-right: 10px; padding: 0;">
-        
+
            <h3>SIPJAKIKBB</h3>
-           
+
            </div>
         </div>
 
         <!--Logo-->
-        
+
         <!--Header Menu-->
         <div class="col-sm-9 header-menu pt-2 pb-0">
             <div class="row">
-                
+
                 <!--Menu Icons-->
-                
+
                 <span class="menu-icon" onclick="toggle_sidebar()">
                     <span id="sidebar-toggle-btn"></span>
                 </span>
@@ -147,7 +147,7 @@
                             position: relative; /* Establish positioning context */
                             display: inline-block; /* Keep it inline with other elements */
                         }
-                    
+
                         .badge-notif {
                             background-color: red; /* Red background */
                             color: white; /* White text */
@@ -160,7 +160,7 @@
                             transform: translate(10%, -50%); /* Adjust position slightly for better visibility */
                             animation: blink 1.5s infinite; /* Apply blink animation */
                         }
-                    
+
                         @keyframes blink {
                             0%, 100% {
                                 opacity: 1; /* Fully visible */
@@ -170,90 +170,90 @@
                             }
                         }
                     </style>
-                    
+
                     <div class="menu-icon">
                         <div class="notification-container">
-                            <a style="margin-right: 10px; background: white; color: black; transition: background 0.3s, color 0.3s;" 
-                               href="#" 
-                               onclick="toggle_dropdown(this); return false" 
-                               role="button" 
-                               onmouseover="this.style.background='black'; this.style.color='white';" 
+                            <a style="margin-right: 10px; background: white; color: black; transition: background 0.3s, color 0.3s;"
+                               href="#"
+                               onclick="toggle_dropdown(this); return false"
+                               role="button"
+                               onmouseover="this.style.background='black'; this.style.color='white';"
                                onmouseout="this.style.background='white'; this.style.color='black';">
                                 <i class="fa fa-user"></i>
                                 <span class="badge-notif">3</span>
                             </a>
                         </div>
-                    
+
                         {{-- <div class="notification-container">
-                            <a style="margin-right: 10px; background: white; color: black; transition: background 0.3s, color 0.3s;" 
-                               href="#" 
-                               onclick="toggle_dropdown(this); return false" 
-                               role="button" 
-                               onmouseover="this.style.background='black'; this.style.color='white';" 
+                            <a style="margin-right: 10px; background: white; color: black; transition: background 0.3s, color 0.3s;"
+                               href="#"
+                               onclick="toggle_dropdown(this); return false"
+                               role="button"
+                               onmouseover="this.style.background='black'; this.style.color='white';"
                                onmouseout="this.style.background='white'; this.style.color='black';">
                                 <i class="fa fa-cog"></i>
                                 <span class="badge-notif">1</span>
                             </a>
                         </div>
-                    
+
                         <div class="notification-container">
-                            <a style="margin-right: 10px; background: white; color: black; transition: background 0.3s, color 0.3s;" 
-                               href="#" 
-                               onclick="toggle_dropdown(this); return false" 
-                               role="button" 
-                               onmouseover="this.style.background='black'; this.style.color='white';" 
+                            <a style="margin-right: 10px; background: white; color: black; transition: background 0.3s, color 0.3s;"
+                               href="#"
+                               onclick="toggle_dropdown(this); return false"
+                               role="button"
+                               onmouseover="this.style.background='black'; this.style.color='white';"
                                onmouseout="this.style.background='white'; this.style.color='black';">
                                 <i class="fa fa-bell"></i>
                                 <span class="badge-notif">5</span>
                             </a>
                         </div>
-                    
+
                         <div class="notification-container">
-                            <a style="margin-right: 10px; background: white; color: black; transition: background 0.3s, color 0.3s;" 
-                               href="#" 
-                               onclick="toggle_dropdown(this); return false" 
-                               role="button" 
-                               onmouseover="this.style.background='black'; this.style.color='white';" 
+                            <a style="margin-right: 10px; background: white; color: black; transition: background 0.3s, color 0.3s;"
+                               href="#"
+                               onclick="toggle_dropdown(this); return false"
+                               role="button"
+                               onmouseover="this.style.background='black'; this.style.color='white';"
                                onmouseout="this.style.background='white'; this.style.color='black';">
                                 <i class="fa fa-chart-line"></i>
                                 <span class="badge-notif">2</span>
                             </a>
                         </div>
-                    
+
                         <div class="notification-container">
-                            <a style="margin-right: 10px; background: white; color: black; transition: background 0.3s, color 0.3s;" 
-                               href="#" 
-                               onclick="toggle_dropdown(this); return false" 
-                               role="button" 
-                               onmouseover="this.style.background='black'; this.style.color='white';" 
+                            <a style="margin-right: 10px; background: white; color: black; transition: background 0.3s, color 0.3s;"
+                               href="#"
+                               onclick="toggle_dropdown(this); return false"
+                               role="button"
+                               onmouseover="this.style.background='black'; this.style.color='white';"
                                onmouseout="this.style.background='white'; this.style.color='black';">
                                 <i class="fa fa-envelope"></i>
                                 <span class="badge-notif">4</span>
                             </a>
                         </div>
-                    
+
                         <div class="notification-container">
-                            <a style="margin-right: 10px; background: white; color: black; transition: background 0.3s, color 0.3s;" 
-                               href="#" 
-                               onclick="toggle_dropdown(this); return false" 
-                               role="button" 
-                               onmouseover="this.style.background='black'; this.style.color='white';" 
+                            <a style="margin-right: 10px; background: white; color: black; transition: background 0.3s, color 0.3s;"
+                               href="#"
+                               onclick="toggle_dropdown(this); return false"
+                               role="button"
+                               onmouseover="this.style.background='black'; this.style.color='white';"
                                onmouseout="this.style.background='white'; this.style.color='black';">
                                 <i class="fa fa-users"></i>
                                 <span class="badge-notif">0</span>
                             </a>
                         </div>
                      --}}
-{{--                         
+{{--
                         <a style="margin-right: 10px; background: white; color: black;" href="#" onclick="toggle_dropdown(this); return false" role="button">
                             <i class="fa fa-folder"></i>
                             <span class="badge badge-danger">7</span>
                         </a> --}}
-                        
-                        
-                        
+
+
+
                         {{-- <div class="dropdown dropdown-left bg-white shadow border " style="background: white;">
-                            <a class="dropdown-item" href="#";><strong>Notifications</strong></a> 
+                            <a class="dropdown-item" href="#";><strong>Notifications</strong></a>
                              <div class="dropdown-divider"></div> --}}
                             {{-- <a href="#" class="dropdown-item">
                                 <div class="media">
@@ -323,7 +323,7 @@
             margin-right: 15px;
             border-radius: 20px;
             background: #00008b;
-            
+
         }
         .marquee {
             display: inline-block;
@@ -343,18 +343,18 @@
      <div class="marquee-container">
         <div class="marquee" style="color: white">Selamat Datang ! di Halaman Admin Sistem Informasi Pembina Jasa Konstruksi Pemerintah Kabupaten Bandung Barat Anda Adalah {{ $user->username}}  </div>
     </div>
-    
-                
+
+
                 <!--Menu Icons-->
 
                             {{-- <div class="dropdown-divider"></div> --}}
-                        
+
                             {{-- <div class="notification-container">
-                                <a style="margin-right: 10px; background: white; color: black; transition: background 0.3s, color 0.3s;" 
-                                   href="#" 
-                                   onclick="toggle_dropdown(this); return false" 
-                                   role="button" 
-                                   onmouseover="this.style.background='black'; this.style.color='white';" 
+                                <a style="margin-right: 10px; background: white; color: black; transition: background 0.3s, color 0.3s;"
+                                   href="#"
+                                   onclick="toggle_dropdown(this); return false"
+                                   role="button"
+                                   onmouseover="this.style.background='black'; this.style.color='white';"
                                    onmouseout="this.style.background='white'; this.style.color='black';">
                                     <i class="fa fa-users"></i>
                                     <span class="badge-notif">10</span>
@@ -368,23 +368,23 @@
                                     cursor: pointer; /* Mengubah kursor menjadi pointer */
                                 }
                             </style>
-                            
+
                             <div class="menu-icon">
                                 <form action="/logout" method="POST" class="dropdown-item" style="border: none; background: transparent; padding: 0; margin: 0;">
                                     @csrf
-                                    <button type="submit" class="logout-button" 
-                                        onmouseover="this.style.background='red'; this.style.color='white';" 
+                                    <button type="submit" class="logout-button"
+                                        onmouseover="this.style.background='red'; this.style.color='white';"
                                         onmouseout="this.style.background='white'; this.style.color='black';">
                                         <i class="fa fa-sign-out"></i>
                                         {{-- <span class="badge-notif">1</span> --}}
                                     </button>
                                 </form>
                             </div>
-                            
-            </div>    
 
-                
-        
+            </div>
+
+
+
         </div>
         <!--Header Menu-->
     </div>
