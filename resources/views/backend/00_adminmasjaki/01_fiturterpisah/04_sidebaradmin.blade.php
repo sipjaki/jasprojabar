@@ -7,7 +7,10 @@
       <a href="index.html" class="app-brand-link">
         <span class="app-brand-logo demo">
   <span class="text-primary">
- </span>
+
+    <a href="/dashboard"><img src="/assets/icon/pupr.png" class="img-fluid" alt="img-25" width="70" loading="lazy"></a>
+
+</span>
   </span>
         <span class="app-brand-text demo menu-text fw-bold ms-2">Sneat</span>
       </a>
