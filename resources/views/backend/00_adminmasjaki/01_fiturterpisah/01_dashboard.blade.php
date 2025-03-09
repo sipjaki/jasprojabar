@@ -1465,14 +1465,14 @@
       <li class="nav-item dropdown-notifications navbar-dropdown dropdown me-3 me-xl-2">
         <a class="nav-link dropdown-toggle hide-arrow" href="javascript:void(0);" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">
           <span class="position-relative">
-            <i class="bx bx-bell icon-md"></i>
-            <span class="badge rounded-pill bg-danger badge-dot badge-notifications border position-absolute top-0 start-100 translate-middle">
-                {{$user->username}}
-            </span>
-            <i class="bx bx-user icon-md"></i>
-            <span class="badge rounded-pill bg-danger badge-dot badge-notifications border position-absolute top-0 start-100 translate-middle">
-                Anda Adalah {{$user->statusadmin->statusadmin}}
-            </span>
+            <i class="icon-base bx bx-user icon-md"></i>
+
+            <span class="badge rounded-pill bg-danger badge-dot badge-notifications border">{{$user->username}}</span>
+          </span>
+          <i class="icon-base bx bx-info-circle icon-md"></i>
+
+            <span class="badge rounded-pill bg-danger badge-dot badge-notifications border">Anda Adalah {{$user->statusadmin->statusadmin}}</span>
+          </span>
         </a>
         <ul class="dropdown-menu dropdown-menu-end p-0">
           <li class="dropdown-menu-header border-bottom">
