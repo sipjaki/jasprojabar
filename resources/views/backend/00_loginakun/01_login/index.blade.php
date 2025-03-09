@@ -132,8 +132,8 @@
 
    <!-- Logo -->
    <div class="d-flex justify-content-center align-items-center" style="gap: 15px; margin-bottom: 10px;">
-       <img src="/assets/icon/logokabupatenblora.png" class="img-fluid" alt="Logo Kabupaten Blora" width="50" loading="lazy">
-       <img src="/assets/icon/pupr.png" class="img-fluid" alt="Logo PUPR" width="50" loading="lazy">
+       <img src="/assets/icon/logokabupatenblora.png" class="img-fluid" alt="Logo Kabupaten Blora" width="20" loading="lazy">
+       <img src="/assets/icon/pupr.png" class="img-fluid" alt="Logo PUPR" width="20" loading="lazy">
    </div>
 
    <!-- Copyright -->
