@@ -130,6 +130,8 @@
     <div class="d-flex flex-column text-center justify-content-center py-4 px-4 px-xl-5"
     style="background: rgb(3, 69, 3); display: flex; align-items: center;">
    <!-- Copyright -->
+   <img src="/assets/icon/logokabupatenblora.png" class="img-fluid" alt="Logo Kabupaten Blora" width="20" loading="lazy">
+   <img src="/assets/icon/pupr.png" class="img-fluid" alt="Logo PUPR" width="20" loading="lazy">
    <div class="text-white">
        © Dinas Pekerjaan Umum Dan Penataan Ruang Kabupaten Blora Provinsi Jawa Tengah
    </div>
