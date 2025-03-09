@@ -7,7 +7,7 @@
           ©
           <script>
           document.write(new Date().getFullYear());
-          </script>, made with ❤️ by <a href="https://themeselection.com" target="_blank" class="footer-link">ThemeSelection</a>
+          </script> | Dinas Pekerjaan Umum Dan Penataan Ruang Kabupaten Blora Provinsi Jawa Tengah | Designed by <a href="https://wa.me/6281321455855"  target="_blank" class="footer-link">CV. Angkasa Raya Teknik </a>
         </div>
         <div class="d-none d-lg-inline-block">
 
