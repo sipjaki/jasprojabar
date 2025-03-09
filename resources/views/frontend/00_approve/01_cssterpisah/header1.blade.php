@@ -368,15 +368,6 @@
 					</a><!-- search-toggler -->
 				</div><!-- search-box --> --}}
                 <style>
-                    body {
-                        display: flex;
-                        flex-direction: column;
-                        justify-content: center;
-                        align-items: center;
-                        height: 100vh;
-                        margin: 0;
-                        background-color: #f0f0f0;
-                    }
                     .masuk-admin {
                         display: flex;
                         gap: 10px;
