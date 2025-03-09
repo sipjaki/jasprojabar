@@ -12,7 +12,7 @@
 
 </span>
   </span>
-        <span class="app-brand-text demo menu-text fw-bold ms-2">Sneat</span>
+        <span class="app-brand-text demo menu-text fw-bold ms-2"><h4 style="color: black;">MASJAKI</h4><h4 style="color: green;">BLORA</h4></span>
       </a>
 
       <a href="javascript:void(0);" class="layout-menu-toggle menu-link text-large ms-auto">
