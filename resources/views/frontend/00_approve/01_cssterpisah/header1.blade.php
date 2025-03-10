@@ -7,9 +7,9 @@
 				<div class="topbar-socials" style="height: 8vh;">
                     <a href="#"><i class="fa-brands fa-tiktok" style="font-size: 28px; margin-top:15px;"></i></a>
                     {{-- <a href="#"><i class="fa-solid fa-envelope" style="font-size: 25px;"></i></a> --}}
-                    <a href="#"><i class="fa-brands fa-instagram" style="font-size: 28px; "></i></a>
-                    <a href="#"><i class="fa-brands fa-whatsapp" style="font-size: 28px; "></i></a>
-                    <a href="#"><i class="fa-brands fa-facebook" style="font-size: 28px; "></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram" style="font-size: 20px; "></i></a>
+                    <a href="#"><i class="fa-brands fa-whatsapp" style="font-size: 20px; "></i></a>
+                    <a href="#"><i class="fa-brands fa-facebook" style="font-size: 20px; "></i></a>
 				</div><!--topbar-socials-->
 				<div class="topbar-info" style="height: 8vh;">
 					<ul>
