@@ -15,7 +15,7 @@ class subhargadiv1 extends Model
 
     public function hspkonstruksiumum()
     {
-        return $this->belongsTo(hspkonstruksiumum::class);
+        return $this->hasOne(hspkonstruksiumum::class);
     }
 
 }
