@@ -10,7 +10,7 @@ use App\Models\satuanhargamaterial;
 use App\Models\satuanhargaperalatan;
 use App\Models\satuanhargaupahtenagakerja;
 use App\Models\hspkonstruksiumum;
-
+use App\Models\subhargadiv1;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\DB;
 
@@ -157,9 +157,20 @@ class SatuanhargamaterialController extends Controller
             ]);
         }
 
+        if (!$data) {
+            // Tangani jika kegiatan tidak ditemukan
+            return redirect()->back()->with('error', 'Kegiatan tidak ditemukan.');
+        }
+
+        // Menggunakan paginate() untuk pagination
+        $subdata = subhargadiv1::where('hspkonstruksiumum_id', $data->id)->paginate(50);
+
+
+
         return view('frontend.07_ahsp.03_hspkonstruksiumum.01_divisi1.divisi1', [
             'title' => 'HSP Divisi I Persiapan Pekerjaan',
             'data' => $data,
+            'subdata' => $subdata,
             'perPage' => $perPage,
             'search' => $search
         ]);
