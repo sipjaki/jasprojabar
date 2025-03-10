@@ -72,8 +72,8 @@ class SatuanhargamaterialController extends Controller
                   ->orWhere('kode', 'LIKE', "%{$search}%")
                   ->orWhere('satuan', 'LIKE', "%{$search}%")
                   ->orWhere('besaran', 'LIKE', "%{$search}%")
-                  ->orWhere('besaranperjam', 'LIKE', "%{$search}%")
-                  ->orWhere('keterangan', 'LIKE', "%{$search}%");
+                  ->orWhere('besaranperjam', 'LIKE', "%{$search}%");
+                //   ->orWhere('keterangan', 'LIKE', "%{$search}%");
         }
 
         $data = $query->paginate($perPage);
