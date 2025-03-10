@@ -311,10 +311,11 @@ color: #45a049;
                                                     {{$item->kode}}
                                                     {{-- {{ optional($item->kode->id) }} --}}
                                                 </td>
-                                                <td style="cursor: pointer; color: blue; text-decoration: underline; text-align:left;"
-                                                onclick="showModal({{ json_encode($item->subhargadiv1) }})">{{$item->hspkodepekerjaan->namapekerjaan}}</td>
+                                                <td style="text-align: center;">{{$item->hspkodepekerjaan->namapekerjaan}}</td>
 
-                                                <td style="cursor: pointer; color: blue; text-decoration: underline;" onclick="showModal('{{ $item->jenispekerjaan }}')">{{$item->jenispekerjaan}}</td>
+                                                <td  style="cursor: pointer; color: blue; text-decoration: underline;"
+                                                onclick="showModal({{ json_encode($item->subhargadiv1) }})">{{$item->jenispekerjaan}}</td>
+
                                                 <td style="text-align: center;">Rp.</td>
                                                 <td style="text-align: right;">{{ number_format((float) $item->hargasatuan, 0, ',', '.') }},-</td>
 
