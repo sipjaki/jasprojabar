@@ -837,7 +837,4 @@
         </div>
         <!-- / Content -->
 
-
-
-
         @include('backend.00_adminmasjaki.01_fiturterpisah.03_footeradmin')
