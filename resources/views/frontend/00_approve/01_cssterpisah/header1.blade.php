@@ -312,8 +312,8 @@
 									<ul class="list-unstyled">
                                         <li><a href="#">Satuan Harga Dasar</a>
                                             <ul class="list-unstyled">
-                                                {{-- <li><a href="/satuanhargamaterial">Harga Satuan Material</a></li> --}}
-                                                {{-- <li><a href="/404">Harga Satuan Upah Tenaga Kerja</a></li> --}}
+                                                <li><a href="/satuanhargamaterial">Harga Satuan Material</a></li>
+                                                <li><a href="/404">Harga Satuan Upah Tenaga Kerja</a></li>
                                                 <li><a href="/satuanhargaperalatan">Harga Satuan Peralatan</a></li>
                                             </ul>
                                         </li>
