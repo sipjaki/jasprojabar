@@ -3,7 +3,14 @@
 
 <!-- Menu -->
 
-<aside id="layout-menu" class="layout-menu menu-vertical menu" >
+{{-- <aside id="layout-menu" class="layout-menu menu-vertical menu" > --}}
+
+    <aside id="layout-menu" class="layout-menu menu-vertical menu"
+  style="max-height: 100vh; overflow-y: auto; overflow-x: hidden;">
+
+  <!-- Isi menu di sini -->
+
+</aside>
 
     <div class="app-brand demo ">
       <a href="index.html" class="app-brand-link">
