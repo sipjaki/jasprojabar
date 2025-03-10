@@ -301,7 +301,7 @@ color: #45a049;
                                     </thead>
                                     <tbody id="tableBody">
                                         @php $start = ($data->currentPage() - 1) * $data->perPage() + 1; @endphp
-                                        @foreach ($subdata as $item)
+                                        @foreach ($data as $item)
                                         <tr>
                                             <td style="text-align: center;">{{ $loop->iteration + $start - 1 }}</td>
                                             <td style="text-align: center;">
@@ -312,7 +312,7 @@ color: #45a049;
                                             </td>
                                             <td style="text-align: center;">{{$item->hspkodepekerjaan->namapekerjaan}}</td>
                                             <td style="cursor: pointer; color: blue; text-decoration: underline;"
-                                                onclick="showModal({{ json_encode($item->subhargadiv1) }})">
+                                            onclick="showModal({{ json_encode($item->subhargadiv1->toArray()) }})"">
                                                 {{$item->jenispekerjaan}}
                                             </td>
                                             <td style="text-align: center;">Rp.</td>
