@@ -106,8 +106,7 @@
 	</div><!--topbar-->
 
 	<div class="main-menu sticky-header" style="background: #1d1d1b">
-        <div style="line-height: 1.2; margin-bottom: 5px;">
-<p style="color: black">.</p>          </div>
+    <br>
                 <div class="header-container">
                     <img src="/assets/icon/pupr.png" alt="Logo PUPR" class="header-logo">
                     <div class="header-text">
