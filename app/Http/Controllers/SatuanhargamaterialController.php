@@ -157,15 +157,7 @@ class SatuanhargamaterialController extends Controller
             ]);
         }
 
-        if (!$data) {
-            // Tangani jika kegiatan tidak ditemukan
-            return redirect()->back()->with('error', 'Kegiatan tidak ditemukan.');
-        }
-
-        // Menggunakan paginate() untuk pagination
-        $subdata = subhargadiv1::where('hspkonstruksiumum_id', $data->id)->paginate(50);
-
-
+        $subdata = HspKonstruksiUmum::with('subhargadiv1')->get();
 
         return view('frontend.07_ahsp.03_hspkonstruksiumum.01_divisi1.divisi1', [
             'title' => 'HSP Divisi I Persiapan Pekerjaan',

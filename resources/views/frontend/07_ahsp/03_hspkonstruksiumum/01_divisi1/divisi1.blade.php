@@ -322,8 +322,63 @@ color: #45a049;
                                         </tbody>
                                     </table>
 
+
+                                    {{-- TABEL MODAL BARU --}}
+
+
+<!-- Modal -->
+<div id="modalCard" class="modal" style="display: none; position: fixed; z-index: 1000; left: 0; top: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.5);">
+    <div class="modal-content" style="background-color: white; margin: 5% auto; padding: 20px; border-radius: 8px; width: 80%; text-align: left; position: relative;">
+        <span class="close" onclick="closeModal()" style="cursor: pointer; position: absolute; top: 10px; right: 15px; font-size: 20px; font-weight: bold;">&times;</span>
+        <h2 id="modalTitle">Analisa Harga Satuan Pekerjaan</h2>
+
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>Kode</th>
+                    <th>Uraian</th>
+                    <th>Satuan</th>
+                    <th>Koefisien</th>
+                    <th>Harga Satuan</th>
+                    <th>Jumlah Harga</th>
+                </tr>
+            </thead>
+            <tbody id="modalTableBody">
+                <!-- Data akan diisi lewat JavaScript -->
+            </tbody>
+        </table>
+
+        <button onclick="closeModal()" style="margin-top: 20px; padding: 10px 20px; background-color: red; color: white; border: none; border-radius: 5px; cursor: pointer;">Tutup</button>
+    </div>
+</div>
+
+<script>
+    function showModal(data) {
+        document.getElementById('modalTableBody').innerHTML = ''; // Kosongkan modal sebelum diisi
+
+        let rows = '';
+        data.forEach(item => {
+            rows += `<tr>
+                        <td>${item.kode}</td>
+                        <td>${item.uraian}</td>
+                        <td>${item.satuan}</td>
+                        <td>${item.koefisien}</td>
+                        <td>${new Intl.NumberFormat('id-ID').format(item.hargasatuan)}</td>
+                        <td>${new Intl.NumberFormat('id-ID').format(item.jumlahharga)}</td>
+                    </tr>`;
+        });
+
+        document.getElementById('modalTableBody').innerHTML = rows;
+        document.getElementById('modalCard').style.display = 'block';
+    }
+
+    function closeModal() {
+        document.getElementById('modalCard').style.display = 'none';
+    }
+</script>
+
                                     <!-- Modal -->
-                                    <div id="modalCard" class="modal" style="display: none; position: fixed; z-index: 1000; left: 0; top: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.5);">
+                                    {{-- <div id="modalCard" class="modal" style="display: none; position: fixed; z-index: 1000; left: 0; top: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.5);">
                                         <div class="modal-content" style="background-color: white; margin: 5% auto; padding: 20px; border-radius: 8px; width: 80%; text-align: left; position: relative;">
                                             <span class="close" onclick="closeModal()" style="cursor: pointer; position: absolute; top: 10px; right: 15px; font-size: 20px; font-weight: bold;">&times;</span>
                                             <h2 id="modalTitle">Analisa Harga Satuan Pekerjaan</h2>
@@ -361,7 +416,7 @@ color: #45a049;
                                                         <td style="text-align: right;">{{ number_format((float) $item->hargasatuan, 0, ',', '.') }},-</td>
                                                         <td style="text-align: right;">{{ number_format((float) $item->jumlahharga, 0, ',', '.') }},-</td>
                                                     </tr>
-                                                        {{-- <tr><td></td><td>Tukang Kayu</td><td>L.02</td><td>OH</td><td>0.200</td><td>106.000</td><td>21.200</td></tr>
+                                                        <tr><td></td><td>Tukang Kayu</td><td>L.02</td><td>OH</td><td>0.200</td><td>106.000</td><td>21.200</td></tr>
                                                         <tr><td></td><td>Tukang batu/tembok</td><td>L.02</td><td>OH</td><td>0.200</td><td>106.000</td><td>21.200</td></tr>
                                                         <tr><td></td><td>Kepala Tukang</td><td>L.03</td><td>OH</td><td>0.040</td><td>122.000</td><td>4.880</td></tr>
                                                         <tr><td></td><td>Mandor</td><td>L.04</td><td>OH</td><td>0.013</td><td>133.000</td><td>1.729</td></tr>
@@ -380,7 +435,7 @@ color: #45a049;
                                                         <tr><td colspan="6" class="text-end"><strong>Jumlah Harga Alat</strong></td><td></td></tr>
                                                         <tr><td>D</td><td colspan="5" class="text-end">Jumlah Harga Tenaga Kerja, Bahan dan Peralatan (A+B+C)</td><td>346.221,25</td></tr>
                                                         <tr><td>E</td><td colspan="5" class="text-end">Biaya Umum dan Keuntungan (10%)</td><td>34.622,12</td></tr>
-                                                        <tr><td>F</td><td colspan="5" class="text-end"><strong>Harga Satuan Pekerjaan (D+E)</strong></td><td><strong>380.843,37</strong></td></tr> --}}
+                                                        <tr><td>F</td><td colspan="5" class="text-end"><strong>Harga Satuan Pekerjaan (D+E)</strong></td><td><strong>380.843,37</strong></td></tr>
                                                         @endforeach
                                                     </tbody>
                                                 </table>
@@ -398,7 +453,7 @@ color: #45a049;
                                         function closeModal() {
                                             document.getElementById('modalCard').style.display = 'none';
                                         }
-                                    </script>
+                                    </script> --}}
 
 
                                 <div class="pagination-container" style="margin-top: 50px; display: flex; flex-direction: column; align-items: center;">
