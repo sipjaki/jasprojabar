@@ -16,8 +16,8 @@ return new class extends Migration
             $table->string('uraian')->nullable();
             $table->string('kode')->nullable();
             $table->string('satuan')->nullable();
-            $table->bigInteger('besaran')->nullable();
-            $table->bigInteger('besaranperjam')->nullable();
+            $table->float('besaran')->nullable();
+            $table->float('besaranperjam')->nullable();
             // $table->string('keterangan')->nullable();
             $table->softDeletes();
             $table->timestamps();
