@@ -325,10 +325,11 @@ color: #45a049;
                                         <div class="modal-content" style="background-color: white; margin: 5% auto; padding: 20px; border-radius: 8px; width: 80%; text-align: left; position: relative;">
                                             <span class="close" onclick="closeModal()" style="cursor: pointer; position: absolute; top: 10px; right: 15px; font-size: 20px; font-weight: bold;">&times;</span>
                                             <h2 id="modalTitle">Analisa Harga Satuan Pekerjaan</h2>
-                                            <table border="1" width="100%" style="border-collapse: collapse; text-align: center;">
-                                                <thead>
+
+                                            <table class="table table-bordered table-striped">
+                                                <thead class="table-dark">
                                                     <tr>
-                                                        <th>No.</th>
+                                                        <th>No</th>
                                                         <th>Uraian</th>
                                                         <th>Kode</th>
                                                         <th>Satuan</th>
@@ -337,39 +338,32 @@ color: #45a049;
                                                         <th>Jumlah Harga (Rp)</th>
                                                     </tr>
                                                 </thead>
-                                                <tbody id="modalContent">
-                                                    <tr>
-                                                        <td>1</td>
-                                                        <td>Pekerja</td>
-                                                        <td>L.01</td>
-                                                        <td>OH</td>
-                                                        <td>0.250</td>
-                                                        <td>94.206</td>
-                                                        <td>23.552</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>2</td>
-                                                        <td>Tukang Kayu</td>
-                                                        <td>L.02</td>
-                                                        <td>OH</td>
-                                                        <td>0.125</td>
-                                                        <td>111.055</td>
-                                                        <td>13.882</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td colspan="6">Jumlah Harga Tenaga Kerja</td>
-                                                        <td>55.521</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td colspan="6">Jumlah Harga Bahan</td>
-                                                        <td>151.898</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td colspan="6">Total</td>
-                                                        <td>228.160</td>
-                                                    </tr>
+                                                <tbody>
+                                                    <tr><td>A</td><td>Tenaga Kerja</td><td></td><td></td><td></td><td></td><td></td></tr>
+                                                    <tr><td></td><td>Pekerja</td><td>L.01</td><td>OH</td><td>0.600</td><td>96.000</td><td>57.600</td></tr>
+                                                    <tr><td></td><td>Tukang Kayu</td><td>L.02</td><td>OH</td><td>0.200</td><td>106.000</td><td>21.200</td></tr>
+                                                    <tr><td></td><td>Tukang batu/tembok</td><td>L.02</td><td>OH</td><td>0.200</td><td>106.000</td><td>21.200</td></tr>
+                                                    <tr><td></td><td>Kepala Tukang</td><td>L.03</td><td>OH</td><td>0.040</td><td>122.000</td><td>4.880</td></tr>
+                                                    <tr><td></td><td>Mandor</td><td>L.04</td><td>OH</td><td>0.013</td><td>133.000</td><td>1.729</td></tr>
+                                                    <tr><td colspan="6" class="text-end"><strong>Jumlah Harga Tenaga Kerja</strong></td><td><strong>106.609</strong></td></tr>
+                                                    <tr><td>B</td><td>Bahan</td><td></td><td></td><td></td><td></td><td></td></tr>
+                                                    <tr><td></td><td>Kaso 5/7 kayu kelas II (Perancah)</td><td></td><td>m3</td><td>0.039</td><td>1.976.000</td><td>76.471,20</td></tr>
+                                                    <tr><td></td><td>Papan Kayu ukuran 2/20 cm</td><td></td><td>m3</td><td>0.040</td><td>1.976.000</td><td>78.249,60</td></tr>
+                                                    <tr><td></td><td>Paku 5 inci</td><td></td><td>kg</td><td>0.587</td><td>16.400</td><td>9.630,08</td></tr>
+                                                    <tr><td></td><td>Semen Portland</td><td></td><td>kg</td><td>26.406</td><td>1.450</td><td>38.288,70</td></tr>
+                                                    <tr><td></td><td>Pasir Beton</td><td></td><td>kg</td><td>61.560</td><td>221</td><td>13.604,76</td></tr>
+                                                    <tr><td></td><td>Kerikil (Maks 30mm)</td><td></td><td>kg</td><td>83.349</td><td>244</td><td>20.337,16</td></tr>
+                                                    <tr><td></td><td>Air</td><td></td><td>liter</td><td>17.415</td><td>50</td><td>870,75</td></tr>
+                                                    <tr><td></td><td>Residu</td><td></td><td>liter</td><td>0.400</td><td>5.400</td><td>2.160,00</td></tr>
+                                                    <tr><td colspan="6" class="text-end"><strong>Jumlah Harga Bahan</strong></td><td><strong>239.612,25</strong></td></tr>
+                                                    <tr><td>C</td><td>Peralatan</td><td></td><td></td><td></td><td></td><td></td></tr>
+                                                    <tr><td colspan="6" class="text-end"><strong>Jumlah Harga Alat</strong></td><td></td></tr>
+                                                    <tr><td>D</td><td colspan="5" class="text-end">Jumlah Harga Tenaga Kerja, Bahan dan Peralatan (A+B+C)</td><td>346.221,25</td></tr>
+                                                    <tr><td>E</td><td colspan="5" class="text-end">Biaya Umum dan Keuntungan (10%)</td><td>34.622,12</td></tr>
+                                                    <tr><td>F</td><td colspan="5" class="text-end"><strong>Harga Satuan Pekerjaan (D+E)</strong></td><td><strong>380.843,37</strong></td></tr>
                                                 </tbody>
                                             </table>
+
                                             <button onclick="closeModal()" style="margin-top: 20px; padding: 10px 20px; background-color: red; color: white; border: none; border-radius: 5px; cursor: pointer;">Tutup</button>
                                         </div>
                                     </div>
