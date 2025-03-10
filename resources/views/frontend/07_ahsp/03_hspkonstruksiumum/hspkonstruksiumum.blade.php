@@ -314,7 +314,9 @@ color: #45a049;
                                                 <td style="text-align: center;">{{$item->hspkodepekerjaan->namapekerjaan}}</td>
                                                 <td style="cursor: pointer; color: blue; text-decoration: underline;" onclick="showModal('{{ $item->jenispekerjaan }}')">{{$item->jenispekerjaan}}</td>
                                                 <td style="text-align: center;">Rp.</td>
-                                                <td style="text-align: right;">{{ number_format($item->hargasatuan, 2, ',', '.') }}</td>
+                                                <td style="text-align: right;">{{ number_format((float) $item->hargasatuan, 0, ',', '.') }},-</td>
+
+                                                {{-- <td style="text-align: right;">{{ number_format($item->hargasatuan, 2, ',', '.') }}</td> --}}
                                             </tr>
                                             @endforeach
                                         </tbody>
