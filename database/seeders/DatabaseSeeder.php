@@ -5908,7 +5908,7 @@ satuanhargaupahtenagakerja::create([
     'kode' => 'L.12b',
     'satuan' => 'Orang/Hari',
     'besaran' => '234000.00',
-    'besaranperjam' => '33.429,00',
+    'besaranperjam' => '33429.00',
     // 'keterangan' => 'AHSP Kab Blora Tahun 2025',
 ]);
 
