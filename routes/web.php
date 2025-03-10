@@ -329,15 +329,6 @@ Route::get('/ijinusahajasakonstruksi/statistika', [UijkController::class, 'iujks
 
 
 
-// ---------------------- 09 TDUP -----------------------//
-// -------- BAGIAN 1 ---------------------------------
-Route::get('/tdup', function () {
-    // return view('welcome');
-    return view('frontend.09_tdup.01_tdup', [
-        'title' => 'Tanda Daftar Usaha Perseroan'
-    ]);
-});
-
 
 // ---------------------- 10 PELATIHAN -----------------------//
 // -------- BAGIAN 1 ---------------------------------
