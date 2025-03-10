@@ -6205,14 +6205,6 @@ satuanhargaperalatan::create([
 ]);
 
 satuanhargaperalatan::create([
-    'uraian' => 'Mesin Las Geotextile',
-    'kode' => null,
-    'satuan' => 'Hari',
-    'besaran' => '894923.85',
-    // 'keterangan' => 'AHSP Kab Blora Tahun 2025',
-]);
-
-satuanhargaperalatan::create([
     'uraian' => 'Mesin Molen 1m3',
     'kode' => null,
     'satuan' => 'Hari',
