@@ -60,8 +60,7 @@
 						</li><!-- li -->
 						<li>
 
-                            <div class="container" style="margin-top:20px;">
-                                {{-- <p>081321455855</p> --}}
+                            {{-- <div class="container" style="margin-top:20px;">
                                 <div id="clock-container" style="
                                 display: flex;
                                 justify-content: center;
@@ -75,7 +74,6 @@
                                     padding: 10px 10px;
                                     border-radius: 15px;
                                     text-align: center;"></p>
-                                         {{-- <p style="color: black"></p> --}}
 
                                         </div>
 
@@ -97,6 +95,8 @@
                                 setInterval(updateClock, 1000); // Update every second
                                 updateClock(); // Initial call to set the time immediately
                             </script>
+ --}}
+
                                                 </li><!-- li -->
 
 					</ul><!-- ul -->
