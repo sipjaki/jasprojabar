@@ -5571,91 +5571,301 @@ satuanhargamaterial::create([
     'uraian' => 'Agregat Pokok',
     'satuan' => 'M3',
     'besaran' => '322200',
-    'keterangan' => 'AHSP Kab Blora Tahun 2025',
+    // 'keterangan' => 'AHSP Kab Blora Tahun 2025',
 ]);
 
 satuanhargamaterial::create([
     'uraian' => 'Agregat Pengunci',
     'satuan' => 'M3',
     'besaran' => '322200',
-    'keterangan' => 'AHSP Kab Blora Tahun 2025',
+    // 'keterangan' => 'AHSP Kab Blora Tahun 2025',
 ]);
 
 satuanhargamaterial::create([
     'uraian' => 'Agregat Penutup',
     'satuan' => 'Kg',
     'besaran' => '239',
-    'keterangan' => 'AHSP Kab Blora Tahun 2025',
+    // 'keterangan' => 'AHSP Kab Blora Tahun 2025',
 ]);
 
 satuanhargamaterial::create([
     'uraian' => 'Angkur M16 panjang 50 cm',
     'satuan' => 'Buah',
     'besaran' => '28600',
-    'keterangan' => 'AHSP Kab Blora Tahun 2025',
+    // 'keterangan' => 'AHSP Kab Blora Tahun 2025',
 ]);
 
 satuanhargamaterial::create([
     'uraian' => 'Asbes gelombang',
     'satuan' => 'Lembar',
     'besaran' => '112200',
-    'keterangan' => 'AHSP Kab Blora Tahun 2025',
+    // 'keterangan' => 'AHSP Kab Blora Tahun 2025',
 ]);
 
 satuanhargamaterial::create([
     'uraian' => 'Baja L 40.40.4',
     'satuan' => 'Kg',
     'besaran' => '18000',
-    'keterangan' => 'AHSP Kab Blora Tahun 2025',
+    // 'keterangan' => 'AHSP Kab Blora Tahun 2025',
 ]);
 
 satuanhargamaterial::create([
     'uraian' => 'Banner plastik 0,6 x 0,8 m2',
     'satuan' => 'M2',
     'besaran' => '133900',
-    'keterangan' => 'AHSP Kab Blora Tahun 2025',
+    // 'keterangan' => 'AHSP Kab Blora Tahun 2025',
 ]);
 
 satuanhargamaterial::create([
     'uraian' => 'Batu kerikil uk. 2-3 cm, 4-5 cm dan 5-7 cm',
     'satuan' => 'M3',
     'besaran' => '329200',
-    'keterangan' => 'AHSP Kab Blora Tahun 2025',
+    // 'keterangan' => 'AHSP Kab Blora Tahun 2025',
 ]);
 
 satuanhargamaterial::create([
     'uraian' => 'Bentonite',
     'satuan' => 'Kg',
     'besaran' => '3960',
-    'keterangan' => 'AHSP Kab Blora Tahun 2025',
+    // 'keterangan' => 'AHSP Kab Blora Tahun 2025',
 ]);
 
 satuanhargamaterial::create([
     'uraian' => 'Besi strip',
     'satuan' => 'Kg',
     'besaran' => '17600',
-    'keterangan' => 'AHSP Kab Blora Tahun 2025',
+    // 'keterangan' => 'AHSP Kab Blora Tahun 2025',
 ]);
 
 satuanhargamaterial::create([
     'uraian' => 'Cuka Bibit',
     'satuan' => 'Liter',
     'besaran' => '26800',
-    'keterangan' => 'AHSP Kab Blora Tahun 2025',
+    // 'keterangan' => 'AHSP Kab Blora Tahun 2025',
 ]);
 
 satuanhargamaterial::create([
     'uraian' => 'Dinding triplek 4mm',
     'satuan' => 'Lembar',
     'besaran' => '70700',
-    'keterangan' => 'AHSP Kab Blora Tahun 2025',
+    // 'keterangan' => 'AHSP Kab Blora Tahun 2025',
 ]);
 
 satuanhargamaterial::create([
     'uraian' => 'Dolken kayu φ 8- 10/400 cm',
     'satuan' => 'M1',
     'besaran' => '14600',
-    'keterangan' => 'AHSP Kab Blora Tahun 2025',
+    // 'keterangan' => 'AHSP Kab Blora Tahun 2025',
+]);
+
+satuanhargamaterial::create([
+    'uraian' => 'Floor lantai (Beton lantai kerja)',
+    'satuan' => 'M3',
+    'besaran' => '915506',
+    // 'keterangan' => 'AHSP Kab Blora Tahun 2025',
+]);
+
+satuanhargamaterial::create([
+    'uraian' => 'Fondasi pasangan batu',
+    'satuan' => 'M3',
+    'besaran' => '803126',
+    // 'keterangan' => 'AHSP Kab Blora Tahun 2025',
+]);
+
+satuanhargamaterial::create([
+    'uraian' => 'Frame allum L.10.1',
+    'satuan' => 'Kg',
+    'besaran' => '17600',
+    // 'keterangan' => 'AHSP Kab Blora Tahun 2025',
+]);
+
+satuanhargamaterial::create([
+    'uraian' => 'Frame besi Kaca Nako',
+    'satuan' => 'Daun',
+    'besaran' => '20460',
+    // 'keterangan' => 'AHSP Kab Blora Tahun 2025',
+]);
+
+satuanhargamaterial::create([
+    'uraian' => 'Frame besi L.30.30.3',
+    'satuan' => 'Kg',
+    'besaran' => '17600',
+    // 'keterangan' => 'AHSP Kab Blora Tahun 2025',
+]);
+
+satuanhargamaterial::create([
+    'uraian' => 'Geomembran t = 1,5 mm',
+    'satuan' => 'M2',
+    'besaran' => '11550',
+    // 'keterangan' => 'AHSP Kab Blora Tahun 2025',
+]);
+
+satuanhargamaterial::create([
+    'uraian' => 'Geosynthetic Liner (GCL)',
+    'satuan' => 'M2',
+    'besaran' => '11550',
+    // 'keterangan' => 'AHSP Kab Blora Tahun 2025',
+]);
+
+satuanhargamaterial::create([
+    'uraian' => 'Geotextil (> 100 s/d 400 gr/m2)',
+    'satuan' => 'M2',
+    'besaran' => '11550',
+    // 'keterangan' => 'AHSP Kab Blora Tahun 2025',
+]);
+
+satuanhargamaterial::create([
+    'uraian' => 'GRC pelat, t=4mm, uk 122x244 cm',
+    'satuan' => 'Lembar',
+    'besaran' => '70000',
+    // 'keterangan' => 'AHSP Kab Blora Tahun 2025',
+]);
+
+satuanhargamaterial::create([
+    'uraian' => 'Jendela naco',
+    'satuan' => 'Buah',
+    'besaran' => '80300',
+    // 'keterangan' => 'AHSP Kab Blora Tahun 2025',
+]);
+
+satuanhargamaterial::create([
+    'uraian' => 'Kaca Polos tebal 5 mm',
+    'satuan' => 'M2',
+    'besaran' => '133900',
+    // 'keterangan' => 'AHSP Kab Blora Tahun 2025',
+]);
+
+satuanhargamaterial::create([
+    'uraian' => 'Kaso 5/7 kayu kelas II (Perancah)',
+    'satuan' => 'M3',
+    'besaran' => '1976000',
+    // 'keterangan' => 'AHSP Kab Blora Tahun 2025',
+]);
+
+satuanhargamaterial::create([
+    'uraian' => 'Kawat Duri Silet BTO 30',
+    'satuan' => 'M1',
+    'besaran' => '47200',
+    // 'keterangan' => 'AHSP Kab Blora Tahun 2025',
+]);
+
+satuanhargamaterial::create([
+    'uraian' => 'Kawat jaring panjang 2,4 m dan aksesoris',
+    'satuan' => 'Lembar',
+    'besaran' => '92800',
+    // 'keterangan' => 'AHSP Kab Blora Tahun 2025',
+]);
+
+satuanhargamaterial::create([
+    'uraian' => 'Kawat seng 3mm',
+    'satuan' => 'Kg',
+    'besaran' => '26800',
+    // 'keterangan' => 'AHSP Kab Blora Tahun 2025',
+]);
+
+satuanhargamaterial::create([
+    'uraian' => 'Kayu papan 3/20 cm',
+    'satuan' => 'M3',
+    'besaran' => '1976000',
+    // 'keterangan' => 'AHSP Kab Blora Tahun 2025',
+]);
+
+satuanhargamaterial::create([
+    'uraian' => 'Kayu perancah',
+    'satuan' => 'M3',
+    'besaran' => '1976000',
+    // 'keterangan' => 'AHSP Kab Blora Tahun 2025',
+]);
+
+satuanhargamaterial::create([
+    'uraian' => 'Tiang kayu 5/7 (II) T= 3 m',
+    'satuan' => 'M3',
+    'besaran' => '1976000',
+    // 'keterangan' => 'AHSP Kab Blora Tahun 2025',
+]);
+
+satuanhargamaterial::create([
+    'uraian' => 'Kerikil (Maks 30mm)',
+    'satuan' => 'Kg',
+    'besaran' => '244',
+    // 'keterangan' => 'AHSP Kab Blora Tahun 2025',
+]);
+
+satuanhargamaterial::create([
+    'uraian' => 'Kolom beton pracetak',
+    'satuan' => 'Batang',
+    'besaran' => '370000',
+    // 'keterangan' => 'AHSP Kab Blora Tahun 2025',
+]);
+
+satuanhargamaterial::create([
+    'uraian' => 'Koral Beton',
+    'satuan' => 'M3',
+    'besaran' => '329200',
+    // 'keterangan' => 'AHSP Kab Blora Tahun 2025',
+]);
+
+satuanhargamaterial::create([
+    'uraian' => 'Makadam (batu pecah 5/7)',
+    'satuan' => 'M3',
+    'besaran' => '301600',
+    // 'keterangan' => 'AHSP Kab Blora Tahun 2025',
+]);
+
+satuanhargamaterial::create([
+    'uraian' => 'Marmer graphir 12x12 cm',
+    'satuan' => 'Buah',
+    'besaran' => '532200',
+    // 'keterangan' => 'AHSP Kab Blora Tahun 2025',
+]);
+
+satuanhargamaterial::create([
+    'uraian' => 'Multiplek tebal 18 mm',
+    'satuan' => 'Lembar',
+    'besaran' => '208333',
+    // 'keterangan' => 'AHSP Kab Blora Tahun 2025',
+]);
+
+satuanhargamaterial::create([
+    'uraian' => 'Multiplek tebal 9 mm',
+    'satuan' => 'Lembar',
+    'besaran' => '123700',
+    // 'keterangan' => 'AHSP Kab Blora Tahun 2025',
+]);
+
+satuanhargamaterial::create([
+    'uraian' => 'Paku',
+    'satuan' => 'Kg',
+    'besaran' => '25200',
+    // 'keterangan' => 'AHSP Kab Blora Tahun 2025',
+]);
+
+satuanhargamaterial::create([
+    'uraian' => 'Paku 5 inch',
+    'satuan' => 'Kg',
+    'besaran' => '16400',
+    // 'keterangan' => 'AHSP Kab Blora Tahun 2025',
+]);
+
+satuanhargamaterial::create([
+    'uraian' => 'Paku 5 inci',
+    'satuan' => 'Kg',
+    'besaran' => '16400',
+    // 'keterangan' => 'AHSP Kab Blora Tahun 2025',
+]);
+
+satuanhargamaterial::create([
+    'uraian' => 'Paku 7 cm',
+    'satuan' => 'Kg',
+    'besaran' => '16400',
+    // 'keterangan' => 'AHSP Kab Blora Tahun 2025',
+]);
+
+satuanhargamaterial::create([
+    'uraian' => 'Paku asbes',
+    'satuan' => 'Kg',
+    'besaran' => '21800',
+    // 'keterangan' => 'AHSP Kab Blora Tahun 2025',
 ]);
 
 //======================== ===================================================================================
