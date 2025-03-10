@@ -11,7 +11,7 @@
                     <a href="#"><i class="fa-brands fa-whatsapp" style="font-size: 24px; "></i></a>
                     <a href="#"><i class="fa-brands fa-facebook" style="font-size: 24px; "></i></a>
 				</div><!--topbar-socials-->
-				<div class="topbar-info" style="height: 8vh;">
+				<div class="topbar-info">
 					<ul>
 						<li>
 							{{-- <div class="topbar-a">
