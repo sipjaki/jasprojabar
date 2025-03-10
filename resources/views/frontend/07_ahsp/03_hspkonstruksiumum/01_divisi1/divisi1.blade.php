@@ -301,7 +301,7 @@ color: #45a049;
                                     </thead>
                                     <tbody id="tableBody">
                                         @php $start = ($data->currentPage() - 1) * $data->perPage() + 1; @endphp
-                                        @foreach ($data as $item)
+                                        @foreach ($subdata as $item)
                                         <tr>
                                             <td style="text-align: center;">{{ $loop->iteration + $start - 1 }}</td>
                                             <td style="text-align: center;">
