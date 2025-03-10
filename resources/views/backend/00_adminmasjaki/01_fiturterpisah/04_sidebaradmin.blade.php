@@ -9,7 +9,7 @@
       <a href="index.html" class="app-brand-link">
         <span class="app-brand-logo demo">
             <span>
-                <img src="/assets/icon/logokabupatenblora.png" alt="">
+                <img src="/assets/icon/logokabupatenblora.png" alt="" width="5%;">
             </span>
 
   {{-- <span class="text-primary">
