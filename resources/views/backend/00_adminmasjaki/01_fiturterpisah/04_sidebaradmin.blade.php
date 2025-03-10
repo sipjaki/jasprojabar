@@ -66,12 +66,12 @@
           <a href="javascript:void(0);" class="menu-link menu-toggle">
             <i class="menu-icon icon-base bx bx-home-smile"></i>
             <div data-i18n="Dashboards">Dashboards</div>
-            <div class="badge text-bg-danger rounded-pill ms-auto">5</div>
+            {{-- <div class="badge text-bg-danger rounded-pill ms-auto">5</div> --}}
           </a>
           <ul class="menu-sub">
             <li class="menu-item">
               <a href="dashboards-analytics.html" class="menu-link">
-                <div data-i18n="Analytics">Analytics</div>
+                <div data-i18n="Analytics">Berita</div>
               </a>
             </li>
             <li class="menu-item">
