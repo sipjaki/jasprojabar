@@ -3,10 +3,7 @@
 
 <!-- Menu -->
 
-{{-- <aside id="layout-menu" class="layout-menu menu-vertical menu" > --}}
-
-    <aside id="layout-menu" class="layout-menu menu-vertical menu"
-  style="overflow-y: auto; overflow-x: hidden;">
+<aside id="layout-menu" class="layout-menu menu-vertical menu" >
 
   <!-- Isi menu di sini -->
 

@@ -18,7 +18,7 @@ return new class extends Migration
             $table->string('satuan')->nullable();
             $table->string('besaran')->nullable();
             $table->string('besaranperjam')->nullable();
-            $table->string('keterangan')->nullable();
+            // $table->string('keterangan')->nullable();
             $table->softDeletes();
             $table->timestamps();
         });

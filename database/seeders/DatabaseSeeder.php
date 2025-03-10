@@ -5666,7 +5666,7 @@ satuanhargaupahtenagakerja::create([
     'satuan' => 'Orang/Hari',
     'besaran' => '96000',
     'besaranperjam' => '13714',
-    'keterangan' => 'AHSP Kab Blora Tahun 2025',
+    // 'keterangan' => 'AHSP Kab Blora Tahun 2025',
 ]);
 
 satuanhargaupahtenagakerja::create([
@@ -5675,7 +5675,7 @@ satuanhargaupahtenagakerja::create([
     'satuan' => 'Orang/Hari',
     'besaran' => '106000',
     'besaranperjam' => '15143',
-    'keterangan' => 'AHSP Kab Blora Tahun 2025',
+    // 'keterangan' => 'AHSP Kab Blora Tahun 2025',
 ]);
 
 satuanhargaupahtenagakerja::create([
@@ -5684,7 +5684,7 @@ satuanhargaupahtenagakerja::create([
     'satuan' => 'Orang/Hari',
     'besaran' => '106000',
     'besaranperjam' => '15143',
-    'keterangan' => 'AHSP Kab Blora Tahun 2025',
+    // 'keterangan' => 'AHSP Kab Blora Tahun 2025',
 ]);
 
 satuanhargaupahtenagakerja::create([
@@ -5693,7 +5693,7 @@ satuanhargaupahtenagakerja::create([
     'satuan' => 'Orang/Hari',
     'besaran' => '106000',
     'besaranperjam' => '15143',
-    'keterangan' => 'AHSP Kab Blora Tahun 2025',
+    // 'keterangan' => 'AHSP Kab Blora Tahun 2025',
 ]);
 
 satuanhargaupahtenagakerja::create([
@@ -5702,7 +5702,7 @@ satuanhargaupahtenagakerja::create([
     'satuan' => 'Orang/Hari',
     'besaran' => '106000',
     'besaranperjam' => '15143',
-    'keterangan' => 'AHSP Kab Blora Tahun 2025',
+    // 'keterangan' => 'AHSP Kab Blora Tahun 2025',
 ]);
 
 satuanhargaupahtenagakerja::create([
@@ -5711,7 +5711,7 @@ satuanhargaupahtenagakerja::create([
     'satuan' => 'Orang/Hari',
     'besaran' => '106000',
     'besaranperjam' => '15143',
-    'keterangan' => 'AHSP Kab Blora Tahun 2025',
+    // 'keterangan' => 'AHSP Kab Blora Tahun 2025',
 ]);
 
 satuanhargaupahtenagakerja::create([
@@ -5720,7 +5720,7 @@ satuanhargaupahtenagakerja::create([
     'satuan' => 'Orang/Hari',
     'besaran' => '106000',
     'besaranperjam' => '15143',
-    'keterangan' => 'AHSP Kab Blora Tahun 2025',
+    // 'keterangan' => 'AHSP Kab Blora Tahun 2025',
 ]);
 
 satuanhargaupahtenagakerja::create([
@@ -5729,7 +5729,7 @@ satuanhargaupahtenagakerja::create([
     'satuan' => 'Orang/Hari',
     'besaran' => '106000',
     'besaranperjam' => '15143',
-    'keterangan' => 'AHSP Kab Blora Tahun 2025',
+    // 'keterangan' => 'AHSP Kab Blora Tahun 2025',
 ]);
 
 satuanhargaupahtenagakerja::create([
@@ -5738,7 +5738,7 @@ satuanhargaupahtenagakerja::create([
     'satuan' => 'Orang/Hari',
     'besaran' => '106000',
     'besaranperjam' => '15143',
-    'keterangan' => 'AHSP Kab Blora Tahun 2025',
+    // 'keterangan' => 'AHSP Kab Blora Tahun 2025',
 ]);
 
 satuanhargaupahtenagakerja::create([
@@ -5747,7 +5747,7 @@ satuanhargaupahtenagakerja::create([
     'satuan' => 'Orang/Hari',
     'besaran' => '106000',
     'besaranperjam' => '15143',
-    'keterangan' => 'AHSP Kab Blora Tahun 2025',
+    // 'keterangan' => 'AHSP Kab Blora Tahun 2025',
 ]);
 
 satuanhargaupahtenagakerja::create([
@@ -5756,7 +5756,7 @@ satuanhargaupahtenagakerja::create([
     'satuan' => 'Orang/Hari',
     'besaran' => '106000',
     'besaranperjam' => '15143',
-    'keterangan' => 'AHSP Kab Blora Tahun 2025',
+    // 'keterangan' => 'AHSP Kab Blora Tahun 2025',
 ]);
 
 satuanhargaupahtenagakerja::create([
@@ -5765,7 +5765,7 @@ satuanhargaupahtenagakerja::create([
     'satuan' => 'Orang/Hari',
     'besaran' => '106000',
     'besaranperjam' => '15143',
-    'keterangan' => 'AHSP Kab Blora Tahun 2025',
+    // 'keterangan' => 'AHSP Kab Blora Tahun 2025',
 ]);
 
 satuanhargaupahtenagakerja::create([
@@ -5774,7 +5774,7 @@ satuanhargaupahtenagakerja::create([
     'satuan' => 'Orang/Hari',
     'besaran' => '106000',
     'besaranperjam' => '15143',
-    'keterangan' => 'AHSP Kab Blora Tahun 2025',
+    // 'keterangan' => 'AHSP Kab Blora Tahun 2025',
 ]);
 
 satuanhargaupahtenagakerja::create([
@@ -5783,7 +5783,7 @@ satuanhargaupahtenagakerja::create([
     'satuan' => 'Orang/Hari',
     'besaran' => '106000',
     'besaranperjam' => '15143',
-    'keterangan' => 'AHSP Kab Blora Tahun 2025',
+    // 'keterangan' => 'AHSP Kab Blora Tahun 2025',
 ]);
 
 satuanhargaupahtenagakerja::create([
@@ -5792,7 +5792,7 @@ satuanhargaupahtenagakerja::create([
     'satuan' => 'Orang/Hari',
     'besaran' => '106000',
     'besaranperjam' => '15143',
-    'keterangan' => 'AHSP Kab Blora Tahun 2025',
+    // 'keterangan' => 'AHSP Kab Blora Tahun 2025',
 ]);
 
 satuanhargaupahtenagakerja::create([
@@ -5801,7 +5801,7 @@ satuanhargaupahtenagakerja::create([
     'satuan' => 'Orang/Hari',
     'besaran' => '106000',
     'besaranperjam' => '15143',
-    'keterangan' => 'AHSP Kab Blora Tahun 2025',
+    // 'keterangan' => 'AHSP Kab Blora Tahun 2025',
 ]);
 
 satuanhargaupahtenagakerja::create([
@@ -5810,8 +5810,191 @@ satuanhargaupahtenagakerja::create([
     'satuan' => 'Orang/Hari',
     'besaran' => '106000',
     'besaranperjam' => '15143',
-    'keterangan' => 'AHSP Kab Blora Tahun 2025',
+    // 'keterangan' => 'AHSP Kab Blora Tahun 2025',
 ]);
+
+satuanhargaupahtenagakerja::create([
+    'uraian' => 'Kepala tukang',
+    'kode' => 'L.03',
+    'satuan' => 'Orang/Hari',
+    'besaran' => '122000.00',
+    'besaranperjam' => '17429.00',
+    // 'keterangan' => 'AHSP Kab Blora Tahun 2025',
+]);
+
+satuanhargaupahtenagakerja::create([
+    'uraian' => 'Mandor',
+    'kode' => 'L.04',
+    'satuan' => 'Orang/Hari',
+    'besaran' => '133000.00',
+    'besaranperjam' => '19000.00',
+    // 'keterangan' => 'AHSP Kab Blora Tahun 2025',
+]);
+
+satuanhargaupahtenagakerja::create([
+    'uraian' => 'Juru ukur',
+    'kode' => 'L.05',
+    'satuan' => 'Orang/Hari',
+    'besaran' => '106000.00',
+    'besaranperjam' => '15143.00',
+    // 'keterangan' => 'AHSP Kab Blora Tahun 2025',
+]);
+
+satuanhargaupahtenagakerja::create([
+    'uraian' => 'Pembantu juru ukur',
+    'kode' => 'L.06',
+    'satuan' => 'Orang/Hari',
+    'besaran' => '96000.00',
+    'besaranperjam' => '13714.00',
+    // 'keterangan' => 'AHSP Kab Blora Tahun 2025',
+]);
+
+satuanhargaupahtenagakerja::create([
+    'uraian' => 'Mekanik alat berat',
+    'kode' => 'L.07',
+    'satuan' => 'Orang/Hari',
+    'besaran' => '122000.00',
+    'besaranperjam' => '17429.00',
+    // 'keterangan' => 'AHSP Kab Blora Tahun 2025',
+]);
+
+satuanhargaupahtenagakerja::create([
+    'uraian' => 'Operator alat berat',
+    'kode' => 'L.08',
+    'satuan' => 'Orang/Hari',
+    'besaran' => '122000.00',
+    'besaranperjam' => '17429.00',
+    // 'keterangan' => 'AHSP Kab Blora Tahun 2025',
+]);
+
+satuanhargaupahtenagakerja::create([
+    'uraian' => 'Pembantu operator',
+    'kode' => 'L.09',
+    'satuan' => 'Orang/Hari',
+    'besaran' => '96000.00',
+    'besaranperjam' => '13714.00',
+    // 'keterangan' => 'AHSP Kab Blora Tahun 2025',
+]);
+
+satuanhargaupahtenagakerja::create([
+    'uraian' => 'Supir truk',
+    'kode' => 'L.10',
+    'satuan' => 'Orang/Hari',
+    'besaran' => '122000.00',
+    'besaranperjam' => '17429.00',
+    // 'keterangan' => 'AHSP Kab Blora Tahun 2025',
+]);
+
+satuanhargaupahtenagakerja::create([
+    'uraian' => 'Kenek truk',
+    'kode' => 'L.11',
+    'satuan' => 'Orang/Hari',
+    'besaran' => '96000.00',
+    'besaranperjam' => '13714.00',
+    // 'keterangan' => 'AHSP Kab Blora Tahun 2025',
+]);
+
+satuanhargaupahtenagakerja::create([
+    'uraian' => 'Tenaga ahli utama',
+    'kode' => 'L.12a',
+    'satuan' => 'Orang/Hari',
+    'besaran' => '300000.00',
+    'besaranperjam' => '42857.00',
+    // 'keterangan' => 'AHSP Kab Blora Tahun 2025',
+]);
+
+satuanhargaupahtenagakerja::create([
+    'uraian' => 'Tenaga ahli madya',
+    'kode' => 'L.12b',
+    'satuan' => 'Orang/Hari',
+    'besaran' => '234000.00',
+    'besaranperjam' => '33.429,00',
+    // 'keterangan' => 'AHSP Kab Blora Tahun 2025',
+]);
+
+satuanhargaupahtenagakerja::create([
+    'uraian' => 'Tenaga ahli muda',
+    'kode' => 'L.12c',
+    'satuan' => 'Orang/Hari',
+    'besaran' => '130000.00',
+    'besaranperjam' => '18571.00',
+    // 'keterangan' => 'AHSP Kab Blora Tahun 2025',
+]);
+
+satuanhargaupahtenagakerja::create([
+    'uraian' => 'Tenaga ahli pratama',
+    'kode' => 'L.12d',
+    'satuan' => 'Orang/Hari',
+    'besaran' => '120000.00',
+    'besaranperjam' => '17143.00',
+    // 'keterangan' => 'AHSP Kab Blora Tahun 2025',
+]);
+
+satuanhargaupahtenagakerja::create([
+    'uraian' => 'Narasumber pejabat eselon II',
+    'kode' => 'L.13a',
+    'satuan' => 'Orang/Hari',
+    'besaran' => '7000000.00',
+    'besaranperjam' => '1000000.00',
+    // 'keterangan' => 'AHSP Kab Blora Tahun 2025',
+]);
+
+satuanhargaupahtenagakerja::create([
+    'uraian' => 'Narasumber pejabat eselon III',
+    'kode' => 'L.13b',
+    'satuan' => 'Orang/Hari',
+    'besaran' => '6300000.00',
+    'besaranperjam' => '900000.00',
+    // 'keterangan' => 'AHSP Kab Blora Tahun 2025',
+]);
+
+satuanhargaupahtenagakerja::create([
+    'uraian' => 'Narasumber praktisi',
+    'kode' => 'L.13c',
+    'satuan' => 'Orang/Hari',
+    'besaran' => '11900000.00',
+    'besaranperjam' => '1700000.00',
+    // 'keterangan' => 'AHSP Kab Blora Tahun 2025',
+]);
+
+satuanhargaupahtenagakerja::create([
+    'uraian' => 'Tenaga terampil teknisi',
+    'kode' => 'L.14a',
+    'satuan' => 'Orang/Hari',
+    'besaran' => '110000.00',
+    'besaranperjam' => '15714.00',
+    // 'keterangan' => 'AHSP Kab Blora Tahun 2025',
+]);
+
+satuanhargaupahtenagakerja::create([
+    'uraian' => 'Tenaga terampil operator',
+    'kode' => 'L.14b',
+    'satuan' => 'Orang/Hari',
+    'besaran' => '110000.00',
+    'besaranperjam' => '15714.00',
+    // 'keterangan' => 'AHSP Kab Blora Tahun 2025',
+]);
+
+satuanhargaupahtenagakerja::create([
+    'uraian' => 'Tenaga terampil operator',
+    'kode' => 'L.14c',
+    'satuan' => 'Orang/Hari',
+    'besaran' => '110000.00',
+    'besaranperjam' => '15714.00',
+    // 'keterangan' => 'AHSP Kab Blora Tahun 2025',
+]);
+
+satuanhargaupahtenagakerja::create([
+    'uraian' => 'Lainnya',
+    'kode' => 'L.15',
+    'satuan' => 'Orang/Hari',
+    'besaran' => '110000.00',
+    'besaranperjam' => '15714.00',
+    // 'keterangan' => 'AHSP Kab Blora Tahun 2025',
+]);
+
+// garut
+
 
 //======================== ===================================================================================
 // SATUAN HARGA PERALATAN MAS JAKI BLORA
