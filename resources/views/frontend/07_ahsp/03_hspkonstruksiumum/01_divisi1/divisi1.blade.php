@@ -311,7 +311,7 @@ color: #45a049;
                                                 {{$item->kode}}
                                             </td>
                                             <td style="text-align: center;">{{$item->hspkodepekerjaan->namapekerjaan}}</td>
-                                            <td style="text-align: center;">{{$item->jensipekerjaan}}</td>
+                                            <td style="text-align: center; color:blue;">{{$item->jenispekerjaan}}</td>
                                             {{-- <td style="cursor: pointer; color: blue; text-decoration: underline;"
                                             onclick="showModal({{ json_encode($item->subhargadiv1->toArray()) }})"">
                                                 {{$item->jenispekerjaan}}
