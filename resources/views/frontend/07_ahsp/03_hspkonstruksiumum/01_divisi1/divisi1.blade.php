@@ -322,7 +322,7 @@ color: #45a049;
                                     </tbody>
                                 </table>
 
-                                <!-- Modal -->
+                                {{-- <!-- Modal -->
                                 <div id="modalCard" class="modal" style="display: none; position: fixed; z-index: 1000; left: 0; top: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.5);">
                                     <div class="modal-content" style="background-color: white; margin: 5% auto; padding: 20px; border-radius: 8px; width: 80%; text-align: left; position: relative;">
                                         <span class="close" onclick="closeModal()" style="cursor: pointer; position: absolute; top: 10px; right: 15px; font-size: 20px; font-weight: bold;">&times;</span>
@@ -370,10 +370,10 @@ color: #45a049;
                                     function closeModal() {
                                         document.getElementById('modalCard').style.display = 'none';
                                     }
-                                </script>
+                                </script> --}}
 
                                     <!-- Modal -->
-                                    {{-- <div id="modalCard" class="modal" style="display: none; position: fixed; z-index: 1000; left: 0; top: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.5);">
+                                    <div id="modalCard" class="modal" style="display: none; position: fixed; z-index: 1000; left: 0; top: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.5);">
                                         <div class="modal-content" style="background-color: white; margin: 5% auto; padding: 20px; border-radius: 8px; width: 80%; text-align: left; position: relative;">
                                             <span class="close" onclick="closeModal()" style="cursor: pointer; position: absolute; top: 10px; right: 15px; font-size: 20px; font-weight: bold;">&times;</span>
                                             <h2 id="modalTitle">Analisa Harga Satuan Pekerjaan</h2>
@@ -448,7 +448,7 @@ color: #45a049;
                                         function closeModal() {
                                             document.getElementById('modalCard').style.display = 'none';
                                         }
-                                    </script> --}}
+                                    </script>
 
 
                                 <div class="pagination-container" style="margin-top: 50px; display: flex; flex-direction: column; align-items: center;">
