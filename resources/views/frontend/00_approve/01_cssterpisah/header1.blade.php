@@ -120,6 +120,86 @@
                     </div>
                 </div>
 
+                <style>
+                    .header-container {
+                        display: flex;
+                        align-items: center;
+                        margin-left: 100px;
+                    }
+
+                    .header-logo {
+                        width: 80px;
+                        height: 80px;
+                        object-fit: cover;
+                    }
+
+                    .header-text {
+                        margin-left: 10px;
+                        display: flex;
+                        flex-direction: column;
+                    }
+
+                    .header-title {
+                        display: flex;
+                        gap: 5px;
+                        margin: 0;
+                        padding: 0;
+                        font-size: 32px;
+                        font-weight: bold;
+                        align-items: center;
+                    }
+
+                    .header-title-white {
+                        color: white;
+                        font-style: italic;
+                    }
+
+                    .header-title-green {
+                        color: green;
+                        font-style: italic;
+                    }
+
+                    .header-description {
+                        margin: 0;
+                        font-size: 24px;
+                        color: white;
+                        font-weight: 600;
+                    }
+
+                    /* Responsif untuk Tablet dan Ponsel */
+                    @media (max-width: 768px) {
+                        .header-container {
+                            margin-left: 20px;
+                        }
+                        .header-logo {
+                            width: 48px; /* 40% lebih kecil dari 80px */
+                            height: 48px;
+                        }
+                        .header-title {
+                            font-size: 19px; /* 40% lebih kecil dari 32px */
+                        }
+                        .header-description {
+                            font-size: 14px; /* 40% lebih kecil dari 24px */
+                        }
+                    }
+
+                    @media (max-width: 480px) {
+                        .header-container {
+                            margin-left: 10px;
+                        }
+                        .header-logo {
+                            width: 48px;
+                            height: 48px;
+                        }
+                        .header-title {
+                            font-size: 19px;
+                        }
+                        .header-description {
+                            font-size: 14px;
+                        }
+                    }
+                </style>
+
 
 		<div class="main-menu-inner">
 			<div class="main-menu-left">
@@ -343,87 +423,5 @@
 
             </div><!--main-menu-right-->
 		</div><!--main-menu-inner-->
-
-                <style>
-                    .header-container {
-                        display: flex;
-                        align-items: center;
-                        margin-left: 100px;
-                    }
-
-                    .header-logo {
-                        width: 80px;
-                        height: 80px;
-                        object-fit: cover;
-                    }
-
-                    .header-text {
-                        margin-left: 10px;
-                        display: flex;
-                        flex-direction: column;
-                    }
-
-                    .header-title {
-                        display: flex;
-                        gap: 5px;
-                        margin: 0;
-                        padding: 0;
-                        font-size: 32px;
-                        font-weight: bold;
-                        align-items: center;
-                    }
-
-                    .header-title-white {
-                        color: white;
-                        font-style: italic;
-                    }
-
-                    .header-title-green {
-                        color: green;
-                        font-style: italic;
-                    }
-
-                    .header-description {
-                        margin: 0;
-                        font-size: 24px;
-                        color: white;
-                        font-weight: 600;
-                    }
-
-                    /* Responsif untuk Tablet dan Ponsel */
-                    @media (max-width: 768px) {
-                        .header-container {
-                            margin-left: 20px;
-                        }
-                        .header-logo {
-                            width: 48px; /* 40% lebih kecil dari 80px */
-                            height: 48px;
-                        }
-                        .header-title {
-                            font-size: 19px; /* 40% lebih kecil dari 32px */
-                        }
-                        .header-description {
-                            font-size: 14px; /* 40% lebih kecil dari 24px */
-                        }
-                    }
-
-                    @media (max-width: 480px) {
-                        .header-container {
-                            margin-left: 10px;
-                        }
-                        .header-logo {
-                            width: 48px;
-                            height: 48px;
-                        }
-                        .header-title {
-                            font-size: 19px;
-                        }
-                        .header-description {
-                            font-size: 14px;
-                        }
-                    }
-                </style>
-
-
 	</div><!--main-menu-->
 </header><!--header-->
