@@ -45,7 +45,7 @@
   </style>
   <section class="vh-95">
     <div class="container-fluid h-custom">
-      <div class="row d-flex justify-content-center align-items-center h-100">
+      <div class="row d-flex justify-content-center align-items-center h-95">
         <div class="col-md-9 col-lg-6 col-xl-5 d-flex justify-content-center align-items-center"
         style="gap: 15px;">
        <img src="/assets/icon/logokabupatenblora.png" class="img-fluid" alt="Logo Kabupaten Blora" width="125" loading="lazy">
