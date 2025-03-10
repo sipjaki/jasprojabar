@@ -350,16 +350,16 @@ color: #45a049;
                                                         <td></td>
                                                         <td></td>
                                                     </tr>
-                                                    @foreach ($data as $item)
+                                                    {{-- @foreach ($data as $item) --}}
 
                                                     <tr>
                                                         <td></td>
-                                                        <td>{{$item->subhargadiv1->uraian}}</td>
+                                                        {{-- <td>{{$item->subhargadiv1->uraian}}</td>
                                                         <td>{{$item->subhargadiv1->kode}}</td>
                                                         <td>{{$item->subhargadiv1->satuan}}</td>
-                                                        <td>{{$item->subhargadiv1->koefisien}}</td>
-                                                        <td style="text-align: right;">{{ number_format((float) $item->hargasatuan, 0, ',', '.') }},-</td>
-                                                        <td style="text-align: right;">{{ number_format((float) $item->jumlahharga, 0, ',', '.') }},-</td>
+                                                        <td>{{$item->subhargadiv1->koefisien}}</td> --}}
+                                                        {{-- <td style="text-align: right;">{{ number_format((float) $item->hargasatuan, 0, ',', '.') }},-</td>
+                                                        <td style="text-align: right;">{{ number_format((float) $item->jumlahharga, 0, ',', '.') }},-</td> --}}
                                                     </tr>
                                                         <tr><td></td><td>Tukang Kayu</td><td>L.02</td><td>OH</td><td>0.200</td><td>106.000</td><td>21.200</td></tr>
                                                         <tr><td></td><td>Tukang batu/tembok</td><td>L.02</td><td>OH</td><td>0.200</td><td>106.000</td><td>21.200</td></tr>
@@ -381,7 +381,7 @@ color: #45a049;
                                                         <tr><td>D</td><td colspan="5" class="text-end">Jumlah Harga Tenaga Kerja, Bahan dan Peralatan (A+B+C)</td><td>346.221,25</td></tr>
                                                         <tr><td>E</td><td colspan="5" class="text-end">Biaya Umum dan Keuntungan (10%)</td><td>34.622,12</td></tr>
                                                         <tr><td>F</td><td colspan="5" class="text-end"><strong>Harga Satuan Pekerjaan (D+E)</strong></td><td><strong>380.843,37</strong></td></tr>
-                                                        @endforeach
+                                                        {{-- @endforeach --}}
                                                     </tbody>
                                                 </table>
 
