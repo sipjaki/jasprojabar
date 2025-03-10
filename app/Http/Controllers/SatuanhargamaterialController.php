@@ -153,11 +153,11 @@ class SatuanhargamaterialController extends Controller
 
         if ($request->ajax()) {
             return response()->json([
-                'html' => view('frontend.07_ahsp.03_hspkonstruksiumum.partials.table', compact('data'))->render()
+                'html' => view('frontend.07_ahsp.03_hspkonstruksiumum.01_divisi1.partials.table', compact('data'))->render()
             ]);
         }
 
-        return view('frontend.07_ahsp.03_hspkonstruksiumum.hspkonstruksiumum', [
+        return view('frontend.07_ahsp.03_hspkonstruksiumum.01_divisi1.divisi1', [
             'title' => 'HSP Divisi I Persiapan Pekerjaan',
             'data' => $data,
             'perPage' => $perPage,
