@@ -236,7 +236,7 @@ color: #45a049;
                                     </div> --}}
 
                                     <div style="position: relative; display: inline-block; margin-right:10px;">
-                                        <input type="search" id="searchInput" placeholder="Badan Usaha ...." onkeyup="searchTable()" style="border: 1px solid #ccc; padding: 10px 20px; font-size: 14px; border-radius: 10px; width: 300px;">
+                                        <input type="search" id="searchInput" placeholder="Cari Keahlian Tenaga Kerja ...." onkeyup="searchTable()" style="border: 1px solid #ccc; padding: 10px 20px; font-size: 14px; border-radius: 10px; width: 300px;">
                                         <i class="fas fa-search" style="position: absolute; right: 10px; top: 50%; transform: translateY(-50%); font-size: 16px; color: #888;"></i>
                                     </div>
                                 </div>
@@ -248,11 +248,11 @@ color: #45a049;
                                             <th onclick="sortTable(1)" style="cursor:pointer; text-align:center; width:400px;"> Uraian <span class="sort-icon">⇅</span></th>
                                             <th onclick="sortTable(2)" style="cursor:pointer; text-align:center; width:200px;"> Kode<span class="sort-icon">⇅</span></th>
                                             <th onclick="sortTable(3)" style="cursor:pointer; text-align:center; width:150px;"> Satuan <span class="sort-icon">⇅</span></th>
-                                            <th onclick="sortTable(3)" style="cursor:pointer; text-align:center; width:100px;"> Rp. <span class="sort-icon">⇅</span></th>
-                                            <th onclick="sortTable(4)" style="cursor:pointer; text-align:center; width:200px;"> Besaran <span class="sort-icon">⇅</span></th>
-                                            <th onclick="sortTable(3)" style="cursor:pointer; text-align:center; width:100px;"> Rp. <span class="sort-icon">⇅</span></th>
-                                            <th onclick="sortTable(5)" style="cursor:pointer; text-align:center; width:200px;"> Besaran Per Jam <span class="sort-icon">⇅</span></th>
-                                            <th style="text-align:center; width:100px;"> View </th>
+                                            <th onclick="sortTable(4)" style="cursor:pointer; text-align:center; width:100px;"> Rp. <span class="sort-icon">⇅</span></th>
+                                            <th onclick="sortTable(5)" style="cursor:pointer; text-align:center; width:200px;"> Besaran <span class="sort-icon">⇅</span></th>
+                                            <th onclick="sortTable(6)" style="cursor:pointer; text-align:center; width:100px;"> Rp. <span class="sort-icon">⇅</span></th>
+                                            <th onclick="sortTable(7)" style="cursor:pointer; text-align:center; width:200px;"> Besaran Per Jam <span class="sort-icon">⇅</span></th>
+                                            {{-- <th style="text-align:center; width:100px;"> View </th> --}}
                                         </tr>
                                     </thead>
                                     <tbody id="tableBody">
@@ -264,9 +264,10 @@ color: #45a049;
                                             <td style="text-align: center;">{{$item->kode}}</td>
                                             <td style="text-align: center;">{{$item->satuan}}</td>
                                             <td style="text-align: center;">Rp.</td>
-                                            <td style="text-align: right;">{{$item->besaran}}</td>
+                                            <td style="text-align: right;">{{ number_format($item->besaran, 0, ',', '.') }}</td>
                                             <td style="text-align: center;">Rp.</td>
-                                            <td style="text-align: right;">{{$item->besaranperjam}}</td>
+                                            <td style="text-align: right;">{{ number_format($item->besaranperjam, 0, ',', '.') }}</td>
+                                            {{-- <td style="text-align: right;">{{$item->besaranperjam}}</td> --}}
                                         </tr>
                                         @endforeach
                                     </tbody>
