@@ -84,6 +84,7 @@ use App\Models\allskktenagakerjablora;
 use App\Models\artikeljakonmasjaki;
 use App\Models\kategoripelatihan;
 use App\Models\agendapelatihan;
+use App\Models\subhargadiv1;
 
 
 
@@ -7409,6 +7410,7 @@ hspkonstruksiumum::create([
     'hspdivisi_id' => 1,
     'hsppaket_id' => 1,
     'hspkodepekerjaan_id' => 1,
+    'subhargadiv1_id' => 1,
     'kode' => '1',
     'jenispekerjaan' => 'Pembuatan 1 m’ pagar sementara dari kayu tinggi 2 meter',
     'hargasatuan' => '380843.37',
@@ -7417,6 +7419,7 @@ hspkonstruksiumum::create([
     'hspdivisi_id' => 1,
     'hsppaket_id' => 1,
     'hspkodepekerjaan_id' => 1,
+    'subhargadiv1_id' => 2,
     'kode' => '2',
     'jenispekerjaan' => 'Pembuatan 1 m’ pagar sementara dari seng gelombang rangka kayu tinggi 2 meter ',
     'hargasatuan' => '295990.26',
@@ -7425,6 +7428,7 @@ hspkonstruksiumum::create([
     'hspdivisi_id' => 1,
     'hsppaket_id' => 1,
     'hspkodepekerjaan_id' => 1,
+    'subhargadiv1_id' => 3,
     'kode' => '3',
     'jenispekerjaan' => 'Pembuatan 1 m’ pagar sementara dari kawat duri tinggi 2 meter',
     'hargasatuan' => '1254695.60',
@@ -7434,6 +7438,7 @@ hspkonstruksiumum::create([
     'hspdivisi_id' => 1,
     'hsppaket_id' => 1,
     'hspkodepekerjaan_id' => 1,
+    'subhargadiv1_id' => 4,
     'kode' => '4',
     'jenispekerjaan' => 'Pembuatan 1 m’ pagar sementara seng gelombang rangka baja L.40.40.4, tinggi pagar 1,8 m’ ',
     'hargasatuan' => '550180.75',
@@ -7443,6 +7448,7 @@ hspkonstruksiumum::create([
     'hspdivisi_id' => 1,
     'hsppaket_id' => 1,
     'hspkodepekerjaan_id' => 1,
+    'subhargadiv1_id' => 5,
     'kode' => '5',
     'jenispekerjaan' => 'Pembuatan 1 m2 pagar BRC galvanis’ ',
     'hargasatuan' => '11395.20',
@@ -7452,12 +7458,25 @@ hspkonstruksiumum::create([
     'hspdivisi_id' => 1,
     'hsppaket_id' => 1,
     'hspkodepekerjaan_id' => 1,
+    'subhargadiv1_id' => 6,
     'kode' => '6',
     'jenispekerjaan' => 'Pemasangan 1 m2  Panel Beton Pracetak 50x50x240 untuk Pagar',
     'hargasatuan' => '605010.56',
 ]);
 
-// garis hsp
+// ------------------------------------
+// HARGA SUB DIVISI
+subhargadiv1::create([
+    'hspkonstruksiumum_id' => 1,
+    'uraian' => 'Pekerja',
+    'kode' => 'L.01',
+    'satuan' => 'OH',
+    'koefisien' => '0,600',
+    'hargasatuan' => '96000',
+    'jumlahharga' => '57.600,00',
+]);
+
+// SIGIT
 //==========================================================================================================
 // DATA BERITA
 beritajakon::create([

@@ -28,4 +28,9 @@ class hspkonstruksiumum extends Model
         return $this->belongsTo(hspkodepekerjaan::class);
     }
 
+    public function subhargadiv1()
+    {
+        return $this->belongsTo(subhargadiv1::class);
+    }
+
 }
