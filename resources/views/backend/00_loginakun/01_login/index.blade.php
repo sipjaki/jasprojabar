@@ -150,7 +150,7 @@
     </div>
 
     <div class="d-flex flex-column text-center justify-content-center py-4 px-4 px-xl-5"
-    style="background: rgb(3, 69, 3); display: flex; align-items: center;">
+    style="background: rgb(3, 69, 3); display: flex; align-items: center; margin-bottom:-100px;">
 
    <!-- Logo -->
    <div class="d-flex justify-content-center align-items-center" style="gap: 15px; margin-bottom: 10px;">
