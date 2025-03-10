@@ -350,7 +350,7 @@ color: #45a049;
                                                         <td></td>
                                                         <td></td>
                                                     </tr>
-                                                    @foreach ($subdata as $item)
+                                                    @foreach ($data as $item)
 
                                                     <tr>
                                                         <td></td>
