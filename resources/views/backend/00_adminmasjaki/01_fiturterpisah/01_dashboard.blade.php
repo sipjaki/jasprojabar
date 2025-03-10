@@ -911,7 +911,7 @@
   <!--  Topic and Instructors  End-->
 
   <!-- Course datatable -->
-  <div class="card mb-6">
+  {{-- <div class="card mb-6">
     <div class="mb-4">
       <table class="table table-sm datatables-academy-course">
         <thead>
@@ -926,7 +926,7 @@
         </thead>
       </table>
     </div>
-  </div>
+  </div> --}}
   <!-- Course datatable End -->
 
         </div>
