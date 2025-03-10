@@ -472,8 +472,8 @@
               <div class="d-flex">
                 <div class="flex-shrink-0 me-3">
                   <div class="avatar avatar-online">
-                    <img src="../../assets/00_adminmasjaki/img/avatars/1.png" alt class="w-px-40 h-auto rounded-circle" />
-                  </div>
+                    <img src="{{ asset('storage/' . $user->avatar) }}" alt="User Avatar" class="w-px-40 h-auto rounded-circle" />
+                    </div>
                 </div>
                 <div class="flex-grow-1">
                   <h6 class="mb-0">John Doe</h6>
