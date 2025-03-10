@@ -264,9 +264,9 @@ color: #45a049;
                                             <td style="text-align: center;">{{$item->kode}}</td>
                                             <td style="text-align: center;">{{$item->satuan}}</td>
                                             <td style="text-align: center;">Rp.</td>
-                                            <td style="text-align: right;">{{ number_format($item->besaran, 0, ',', '.') }}</td>
+                                            <td style="text-align: right;">{{ number_format($item->besaran, 2, ',', '.') }}</td>
                                             <td style="text-align: center;">Rp.</td>
-                                            <td style="text-align: right;">{{ number_format($item->besaranperjam, 0, ',', '.') }}</td>
+                                            <td style="text-align: right;">{{ number_format($item->besaranperjam, 2, ',', '.') }}</td>
                                             {{-- <td style="text-align: right;">{{$item->besaranperjam}}</td> --}}
                                         </tr>
                                         @endforeach
