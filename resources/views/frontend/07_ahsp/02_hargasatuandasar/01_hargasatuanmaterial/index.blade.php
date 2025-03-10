@@ -274,6 +274,8 @@ color: #45a049;
                                     </tbody>
                                 </table>
 
+                                <p>{{$title}} Kab Blora Tahun 2025</p>
+
                                 <div class="pagination-container" style="margin-top: 50px; display: flex; flex-direction: column; align-items: center;">
                                     <ul class="pagination-paginate" style="display: flex; padding-left: 0; list-style: none; margin-top: 10px;">
                                         <li class="page-item {{ $data->onFirstPage() ? 'disabled' : '' }}" style="margin-right: 5px;">
