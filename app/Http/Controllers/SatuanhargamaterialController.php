@@ -157,7 +157,7 @@ class SatuanhargamaterialController extends Controller
             ]);
         }
 
-        return view('frontend.07_ahsp.03_hspkonstruksiumum.1_divisi1.divisi1', [
+        return view('frontend.07_ahsp.03_hspkonstruksiumum.01_divisi1.divisi1', [
             'title' => 'HSP Divisi I Persiapan Pekerjaan',
             'data' => $data,
             'perPage' => $perPage,
