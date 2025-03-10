@@ -84,7 +84,7 @@ class SatuanhargamaterialController extends Controller
             ]);
         }
 
-        return view('frontend.07_ahsp.02_hargasatuandasar.02_hargasatuanupah.index', [
+        return view('frontend.07_ahsp.02_hargasatuandasar.02_hargasatuanupah.newindex', [
             'title' => 'Satuan Harga Dasar Upah Tenaga Kerja',
             'data' => $data,
             'perPage' => $perPage,
