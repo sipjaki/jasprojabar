@@ -136,16 +136,7 @@ color: #45a049;
                         <div class="service-two-imgbox">
 
                             <section class="donate-section" style="background: linear-gradient(to bottom, green, #FFD100, white);">
-                                <div class="container" style="
-                                background: white;
-                                max-width: 95%;
-                                margin: 30px auto;
-                                padding: 20px;
-                                height: auto;
-                                border-radius: 20px;
-                                box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-                                position: relative;
-                                z-index: 10;">
+                                <div class="container" style="margin-top: -100px;">
                                     <div class="row row-gutter-30">
                                         <div class="col-xxl-12 col-lg-12">
                                             <div class="donate-box-inner">
@@ -156,7 +147,17 @@ color: #45a049;
                         </head>
 
                         <section class="document-section" style="margin-top: -100px;">
-                            <div class="container" >
+                            <div class="container"
+                            style="
+                                background: white;
+                                max-width: 95%;
+                                margin: 30px auto;
+                                padding: 20px;
+                                height: auto;
+                                border-radius: 20px;
+                                box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+                                position: relative;
+                                z-index: 10;">
                               <ul class="nav nav-pills" id="pills-tab" role="tablist">
                                   {{-- <img src="/assets/icon/logopupr.png" class="img-fluid" alt="img-25" width="50" style="margin-right: 20px;" loading="lazy"> --}}
 
