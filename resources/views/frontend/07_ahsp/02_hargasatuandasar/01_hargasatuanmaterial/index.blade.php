@@ -35,6 +35,7 @@ color: black;
 padding: 12px 15px;
 text-align: left;
 border-bottom: 1px solid #ddd;
+font-size: 18px;
 }
 
 /* Hover effect */
@@ -127,16 +128,34 @@ color: #45a049;
 	</section><!--page-banner-->
 
     {{-- <section class="service-two-section" > --}}
-        <section class="service-two-section" style="background-image: url('/assets/00_dokmasjaki/03_datajakon/banner1.jpg');">
-        <div class="container" style="background: #FFD100; border-radius:20px;">
+        {{-- <section class="service-two-section" style="background-image: url('/assets/00_dokmasjaki/03_datajakon/banner1.jpg');">
+        <div class="container"
+                style="
+                background: #FFD100;
+                max-width: 95%;
+                margin: 30px auto;
+                padding: 20px;
+                height: auto;
+                border-radius: 20px;
+                box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+                position: relative;
+                z-index: 10;">
             <div class="row row-gutter-y-40">
-
                 <div class="col-12 col-lg-12 col-xl-12">
                     <div class="service-two-card">
                         <div class="service-two-imgbox">
-
-                            <section class="donate-section" style="background: linear-gradient(to bottom, green, #FFD100, white);">
-                                <div class="container" style="margin-top: -100px;">
+                             --}}
+                             <section class="donate-section" style="background-image: url(/assets/00_dokmasjaki/03_datajakon/bannerbetter.jpg);">
+                                <div class="container" style="
+                                background: white;
+                                max-width: 95%;
+                                margin: 30px auto;
+                                padding: 20px;
+                                height: auto;
+                                border-radius: 20px;
+                                box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+                                position: relative;
+                                z-index: 10;">
                                     <div class="row row-gutter-30">
 
                                         <div class="col-xxl-12 col-lg-12">
@@ -148,7 +167,7 @@ color: #45a049;
                         </head>
 
                         <section class="document-section" style="margin-top: -100px;">
-                            <div class="container" >
+                            <div class="container" style="max-width: 95%">
                               <ul class="nav nav-pills" id="pills-tab" role="tablist">
                                   {{-- <img src="/assets/icon/logopupr.png" class="img-fluid" alt="img-25" width="50" style="margin-right: 20px;" loading="lazy"> --}}
 
@@ -158,7 +177,7 @@ color: #45a049;
                                       <a href="#" style="background: white;">
                                           <button class="badgekembali" style="border: none; font-size: 12px; cursor: pointer;">
                                             <img src="/assets/icon/logokabupatenblora.png" class="img-fluid" alt="img-25" width="50" height="50" style="margin-right: 20px;" loading="lazy">
-                                            <i class="fas fa-edit mr-2" style="margin-right: 10px; color:#ffd100;"></i> <span style="text-transform: uppercase; color:black;">{{$title}}</span>
+                                            <i class="fas fa-edit mr-2" style="margin-right: 10px; color:#ffd100;"></i> <span style="text-transform: uppercase; color:black; font-size:20px;">{{$title}}</span>
                                         </button>
                                     </a>
 
@@ -172,7 +191,7 @@ color: #45a049;
 
                                         {{-- <a href="/datajakon/bujk" style="background: white;">
                                             <button class="badgekembali" style="border: none; font-size: 12px; cursor: pointer; margin-right: 10px;">
-                                                <i class="fas fa-arrow-circle-left mr-2" style="margin-right: 20px; color:red;"></i><span style="color: black">KEMBALI</span>
+                                                <i class="fas fa-arrow-circle-left mr-2" style="margin-right: 20px; color:red;"></i><span style="color: black; font-size:20px;">KEMBALI</span>
                                             </button>
                                         </a> --}}
 
@@ -185,17 +204,18 @@ color: #45a049;
 
 
                         <body>
+
                             <div class="table-wrapper" style="margin-top:-130px; position: relative;">
                                 <div style="display: flex; justify-content: space-between; margin-bottom: 10px; align-items: center;">
-                                    <div class="pagination-info-box" style="margin-right:200px; padding: 10px; border: 1px solid black; background-color: #f9f9f9; border-radius: 5px;">
-                                        <div class="pagination-info" style="color: black; font-weight: 500; font-size:14px;">
+                                    <div class="pagination-info-box" style="margin-right:300px; padding: 10px; border: 1px solid black; background-color: #f9f9f9; border-radius: 5px;">
+                                        <div class="pagination-info" style="color: black; font-weight: 500; font-size:20px;">
                                             Data Ke {{ $data->firstItem() }} Sampai {{ $data->lastItem() }} Dari {{ $data->total() }} Jumlah {{$title}}
                                         </div>
                                     </div>
                                     <div>
                                         <label for="entries" style="margin-right: 5px; font-weight: bold;">Show:</label>
                                         <select id="entries" onchange="updateEntries()" style="padding: 5px; border: 1px solid black; background-color: white;">
-                                            {{-- <option value="15">15</option> --}}
+                                            <option value="10">10</option>
                                             <option value="25">25</option>
                                             <option value="50">50</option>
                                             <option value="75">75</option>
@@ -204,8 +224,19 @@ color: #45a049;
                                             <option value="200">200</option>
                                         </select>
                                     </div>
+{{--
+                                    <div>
+                                        <label for="yearFilter" style="margin-right: 5px; font-weight: bold;">Filter Tahun:</label>
+                                        <select id="yearFilter" onchange="filterByYear()" style="padding: 5px; border: 1px solid black; background-color: white;">
+                                            <option value="">Pilih Tahun</option>
+                                            @foreach ($data->pluck('tahunpilihan.tahunpilihan')->unique() as $tahun)
+                                                <option value="{{ $tahun }}">{{ $tahun }}</option>
+                                            @endforeach
+                                        </select>
+                                    </div> --}}
+
                                     <div style="position: relative; display: inline-block; margin-right:10px;">
-                                        <input type="search" id="searchInput" placeholder="Cari Material ...." onkeyup="searchTable()" style="border: 1px solid #ccc; padding: 10px 20px; font-size: 14px; border-radius: 10px; width: 300px;">
+                                        <input type="search" id="searchInput" placeholder="Cari Keahlian Tenaga Kerja ...." onkeyup="searchTable()" style="border: 1px solid #ccc; padding: 10px 20px; font-size: 14px; border-radius: 10px; width: 300px;">
                                         <i class="fas fa-search" style="position: absolute; right: 10px; top: 50%; transform: translateY(-50%); font-size: 16px; color: #888;"></i>
                                     </div>
                                 </div>
@@ -213,13 +244,15 @@ color: #45a049;
                                 <table class="fl-table" id="sortableTable" style="margin-top: 15px; width: 100%; border-collapse: collapse;">
                                     <thead>
                                         <tr>
-                                            <th onclick="sortTable(0)" style="cursor:pointer; text-align:center; width:75px;"> No <span class="sort-icon">⇅</span></th>
-                                            <th onclick="sortTable(1)" style="cursor:pointer; text-align:center; width:275px;"> Bahan Material <span class="sort-icon">⇅</span></th>
-                                            <th onclick="sortTable(2)" style="cursor:pointer; text-align:center; width:100px;"> Satuan <span class="sort-icon">⇅</span></th>
-                                            <th onclick="sortTable(3)" style="cursor:pointer; text-align:center; width:100px;"> Rp. <span class="sort-icon">⇅</span></th>
-                                            <th onclick="sortTable(4)" style="cursor:pointer; text-align:center; width:150px;"> Besaran <span class="sort-icon">⇅</span></th>
-                                            {{-- <th onclick="sortTable(5)" style="cursor:pointer; text-align:center; width:200px;"> Keterangan <span class="sort-icon">⇅</span></th> --}}
-                                            {{-- <th style="text-align:center"> View </th> --}}
+                                            <th onclick="sortTable(0)" style="cursor:pointer; text-align:center; width:100px;"> No <span class="sort-icon">⇅</span></th>
+                                            <th onclick="sortTable(1)" style="cursor:pointer; text-align:center; width:400px;"> Bahan Material <span class="sort-icon">⇅</span></th>
+                                            <th onclick="sortTable(2)" style="cursor:pointer; text-align:center; width:200px;"> Kode <span class="sort-icon">⇅</span></th>
+                                            <th onclick="sortTable(3)" style="cursor:pointer; text-align:center; width:200px;"> Satuan <span class="sort-icon">⇅</span></th>
+                                            <th onclick="sortTable(4)" style="cursor:pointer; text-align:center; width:100px;"> Rp. <span class="sort-icon">⇅</span></th>
+                                            <th onclick="sortTable(5)" style="cursor:pointer; text-align:center; width:200px;"> Besaran <span class="sort-icon">⇅</span></th>
+                                            {{-- <th onclick="sortTable(6)" style="cursor:pointer; text-align:center; width:100px;"> Rp. <span class="sort-icon">⇅</span></th>
+                                            <th onclick="sortTable(7)" style="cursor:pointer; text-align:center; width:200px;"> Besaran Per Jam  <span class="sort-icon">⇅</span></th> --}}
+                                            {{-- <th style="text-align:center; width:100px;"> View </th> --}}
                                         </tr>
                                     </thead>
                                     <tbody id="tableBody">
@@ -227,27 +260,19 @@ color: #45a049;
                                         @foreach ($data as $item )
                                         <tr>
                                             <td style="text-align: center;">{{ $loop->iteration + $start - 1 }}</td>
-                                            <td style="text-transform: capitalize;">{{ ucwords(strtolower($item->uraian)) }}</td>
+                                            <td style="text-align: left;">{{$item->uraian}}</td>
+                                            <td style="text-align: center;">{{$item->kode}}</td>
                                             <td style="text-align: center;">{{$item->satuan}}</td>
                                             <td style="text-align: center;">Rp.</td>
                                             <td style="text-align: right;">{{ number_format((float) $item->besaran, 0, ',', '.') }},-</td>
+                                            {{-- <td style="text-align: center;">Rp.</td>
+                                            <td style="text-align: right;">{{ number_format((float) $item->besaranperjam, 0, ',', '.') }},-</td> --}}
 
-                                            {{-- <td>{{$item->keterangan}}</td> --}}
-                                            {{-- <td style="text-align: center">
-                                                <a href="/404">
-                                                    <i class="fas fa-eye view-icon" onclick="alert('View clicked!')"></i>
-                                                </a>
-                                            </td> --}}
+
                                         </tr>
                                         @endforeach
                                     </tbody>
                                 </table>
-
-                                <br>
-
-                                <p style="color: black;">
-                                    Keterangan : AHSP Kabupaten Blora Tahun 2025
-                                </p>
 
                                 <div class="pagination-container" style="margin-top: 50px; display: flex; flex-direction: column; align-items: center;">
                                     <ul class="pagination-paginate" style="display: flex; padding-left: 0; list-style: none; margin-top: 10px;">
@@ -287,6 +312,32 @@ color: #45a049;
                                 url.searchParams.set("perPage", selectedValue);
                                 window.location.href = url.toString();
                             }
+//                             function filterByYear() {
+//     let selectedYear = document.getElementById("yearFilter").value;
+
+//     fetch(`/datajakon/bujkkontraktor?year=${selectedYear}`)
+//         .then(response => {
+//             if (!response.ok) {
+//                 throw new Error(`HTTP error! Status: ${response.status}`);
+//             }
+//             return response.text();
+//         })
+//         .then(html => {
+//             let parser = new DOMParser();
+//             let doc = parser.parseFromString(html, "text/html");
+//             let newTableBody = doc.querySelector("#tableBody");
+//             let currentTableBody = document.querySelector("#tableBody");
+
+//             if (newTableBody && currentTableBody) {
+//                 currentTableBody.innerHTML = newTableBody.innerHTML;
+//             } else {
+//                 console.error("Element #tableBody not found in response or current document.");
+//             }
+//         })
+//         .catch(error => console.error("Error fetching filtered results:", error));
+// }
+
+
                             function searchTable() {
                             let input = document.getElementById("searchInput").value;
 
@@ -314,13 +365,13 @@ color: #45a049;
 
 
 
-                        </div><!-- service-two-imgbox -->
+                        {{-- </div><!-- service-two-imgbox -->
                     </div><!--service-two-card-->
                 </div><!--col-12 col-lg-4 col-xl-4-->
 
             </div><!-- row -->
         </div><!-- container -->
-    </section><!-- service-two-section -->
+    </section><!-- service-two-section --> --}}
 
 
 
