@@ -289,96 +289,88 @@ color: #45a049;
                                 </table> --}}
 
                                 <table class="fl-table" id="sortableTable" style="margin-top: 15px; width: 100%; border-collapse: collapse;">
-                                        <thead>
-                                            <tr>
-                                                <th onclick="sortTable(0)" style="cursor:pointer; text-align:center; width:100px;"> No <span class="sort-icon">⇅</span></th>
-                                                <th onclick="sortTable(1)" style="cursor:pointer; text-align:center; width:150px;"> Kode AHSP <span class="sort-icon">⇅</span></th>
-                                                <th onclick="sortTable(4)" style="cursor:pointer; text-align:center; width:250px;"> Kode Paket <span class="sort-icon">⇅</span></th>
-                                                <th onclick="sortTable(7)" style="cursor:pointer; text-align:center; width:600px;"> Jenis Pekerjaan <span class="sort-icon">⇅</span></th>
-                                                <th onclick="sortTable(6)" style="cursor:pointer; text-align:center; width:80px;"> Rp. <span class="sort-icon">⇅</span></th>
-                                                <th onclick="sortTable(8)" style="cursor:pointer; text-align:center; width:200px;"> Harga Satuan <span class="sort-icon">⇅</span></th>
-                                            </tr>
-                                        </thead>
-                                        <tbody id="tableBody">
-                                            @php $start = ($data->currentPage() - 1) * $data->perPage() + 1; @endphp
-                                            @foreach ($data as $item)
-                                            <tr>
-                                                <td style="text-align: center;">{{ $loop->iteration + $start - 1 }}</td>
-                                                <td style="text-align: center;">
-                                                    {{ optional($item->hspdivisi)->id }}.
-                                                    {{ optional($item->hsppaket)->id }}.
-                                                    {{ optional($item->hspkodepekerjaan)->id }}.
-                                                    {{$item->kode}}
-                                                    {{-- {{ optional($item->kode->id) }} --}}
-                                                </td>
-                                                <td style="text-align: center;">{{$item->hspkodepekerjaan->namapekerjaan}}</td>
+                                    <thead>
+                                        <tr>
+                                            <th onclick="sortTable(0)" style="cursor:pointer; text-align:center; width:100px;">No <span class="sort-icon">⇅</span></th>
+                                            <th onclick="sortTable(1)" style="cursor:pointer; text-align:center; width:150px;">Kode AHSP <span class="sort-icon">⇅</span></th>
+                                            <th onclick="sortTable(4)" style="cursor:pointer; text-align:center; width:250px;">Kode Paket <span class="sort-icon">⇅</span></th>
+                                            <th onclick="sortTable(7)" style="cursor:pointer; text-align:center; width:600px;">Jenis Pekerjaan <span class="sort-icon">⇅</span></th>
+                                            <th onclick="sortTable(6)" style="cursor:pointer; text-align:center; width:80px;">Rp. <span class="sort-icon">⇅</span></th>
+                                            <th onclick="sortTable(8)" style="cursor:pointer; text-align:center; width:200px;">Harga Satuan <span class="sort-icon">⇅</span></th>
+                                        </tr>
+                                    </thead>
+                                    <tbody id="tableBody">
+                                        @php $start = ($data->currentPage() - 1) * $data->perPage() + 1; @endphp
+                                        @foreach ($data as $item)
+                                        <tr>
+                                            <td style="text-align: center;">{{ $loop->iteration + $start - 1 }}</td>
+                                            <td style="text-align: center;">
+                                                {{ optional($item->hspdivisi)->id }}.
+                                                {{ optional($item->hsppaket)->id }}.
+                                                {{ optional($item->hspkodepekerjaan)->id }}.
+                                                {{$item->kode}}
+                                            </td>
+                                            <td style="text-align: center;">{{$item->hspkodepekerjaan->namapekerjaan}}</td>
+                                            <td style="cursor: pointer; color: blue; text-decoration: underline;"
+                                                onclick="showModal({{ json_encode($item->subhargadiv1) }})">
+                                                {{$item->jenispekerjaan}}
+                                            </td>
+                                            <td style="text-align: center;">Rp.</td>
+                                            <td style="text-align: right;">{{ number_format((float) $item->hargasatuan, 0, ',', '.') }},-</td>
+                                        </tr>
+                                        @endforeach
+                                    </tbody>
+                                </table>
 
-                                                <td  style="cursor: pointer; color: blue; text-decoration: underline;"
-                                                onclick="showModal({{ json_encode($item->subhargadiv1) }})">{{$item->jenispekerjaan}}</td>
+                                <!-- Modal -->
+                                <div id="modalCard" class="modal" style="display: none; position: fixed; z-index: 1000; left: 0; top: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.5);">
+                                    <div class="modal-content" style="background-color: white; margin: 5% auto; padding: 20px; border-radius: 8px; width: 80%; text-align: left; position: relative;">
+                                        <span class="close" onclick="closeModal()" style="cursor: pointer; position: absolute; top: 10px; right: 15px; font-size: 20px; font-weight: bold;">&times;</span>
+                                        <h2 id="modalTitle">Analisa Harga Satuan Pekerjaan</h2>
+                                        <table class="table table-bordered">
+                                            <thead>
+                                                <tr>
+                                                    <th>Kode</th>
+                                                    <th>Uraian</th>
+                                                    <th>Satuan</th>
+                                                    <th>Koefisien</th>
+                                                    <th>Harga Satuan</th>
+                                                    <th>Jumlah Harga</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody id="modalTableBody">
+                                                <!-- Data akan diisi lewat JavaScript -->
+                                            </tbody>
+                                        </table>
+                                        <button onclick="closeModal()" style="margin-top: 20px; padding: 10px 20px; background-color: red; color: white; border: none; border-radius: 5px; cursor: pointer;">Tutup</button>
+                                    </div>
+                                </div>
 
-                                                <td style="text-align: center;">Rp.</td>
-                                                <td style="text-align: right;">{{ number_format((float) $item->hargasatuan, 0, ',', '.') }},-</td>
+                                <script>
+                                    function showModal(data) {
+                                        let modalTableBody = document.getElementById('modalTableBody');
+                                        modalTableBody.innerHTML = ''; // Kosongkan modal sebelum diisi
 
-                                                {{-- <td style="text-align: right;">{{ number_format($item->hargasatuan, 2, ',', '.') }}</td> --}}
-                                            </tr>
-                                            @endforeach
-                                        </tbody>
-                                    </table>
+                                        let rows = '';
+                                        data.forEach(item => {
+                                            rows += `<tr>
+                                                        <td>${item.kode}</td>
+                                                        <td>${item.uraian}</td>
+                                                        <td>${item.satuan}</td>
+                                                        <td>${item.koefisien}</td>
+                                                        <td>${new Intl.NumberFormat('id-ID').format(item.hargasatuan)}</td>
+                                                        <td>${new Intl.NumberFormat('id-ID').format(item.jumlahharga)}</td>
+                                                    </tr>`;
+                                        });
 
+                                        modalTableBody.innerHTML = rows;
+                                        document.getElementById('modalCard').style.display = 'block';
+                                    }
 
-                                    {{-- TABEL MODAL BARU --}}
-
-
-<!-- Modal -->
-<div id="modalCard" class="modal" style="display: none; position: fixed; z-index: 1000; left: 0; top: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.5);">
-    <div class="modal-content" style="background-color: white; margin: 5% auto; padding: 20px; border-radius: 8px; width: 80%; text-align: left; position: relative;">
-        <span class="close" onclick="closeModal()" style="cursor: pointer; position: absolute; top: 10px; right: 15px; font-size: 20px; font-weight: bold;">&times;</span>
-        <h2 id="modalTitle">Analisa Harga Satuan Pekerjaan</h2>
-
-        <table class="table table-bordered">
-            <thead>
-                <tr>
-                    <th>Kode</th>
-                    <th>Uraian</th>
-                    <th>Satuan</th>
-                    <th>Koefisien</th>
-                    <th>Harga Satuan</th>
-                    <th>Jumlah Harga</th>
-                </tr>
-            </thead>
-            <tbody id="modalTableBody">
-                <!-- Data akan diisi lewat JavaScript -->
-            </tbody>
-        </table>
-
-        <button onclick="closeModal()" style="margin-top: 20px; padding: 10px 20px; background-color: red; color: white; border: none; border-radius: 5px; cursor: pointer;">Tutup</button>
-    </div>
-</div>
-
-<script>
-    function showModal(data) {
-        document.getElementById('modalTableBody').innerHTML = ''; // Kosongkan modal sebelum diisi
-
-        let rows = '';
-        data.forEach(item => {
-            rows += `<tr>
-                        <td>${item.kode}</td>
-                        <td>${item.uraian}</td>
-                        <td>${item.satuan}</td>
-                        <td>${item.koefisien}</td>
-                        <td>${new Intl.NumberFormat('id-ID').format(item.hargasatuan)}</td>
-                        <td>${new Intl.NumberFormat('id-ID').format(item.jumlahharga)}</td>
-                    </tr>`;
-        });
-
-        document.getElementById('modalTableBody').innerHTML = rows;
-        document.getElementById('modalCard').style.display = 'block';
-    }
-
-    function closeModal() {
-        document.getElementById('modalCard').style.display = 'none';
-    }
-</script>
+                                    function closeModal() {
+                                        document.getElementById('modalCard').style.display = 'none';
+                                    }
+                                </script>
 
                                     <!-- Modal -->
                                     {{-- <div id="modalCard" class="modal" style="display: none; position: fixed; z-index: 1000; left: 0; top: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.5);">
