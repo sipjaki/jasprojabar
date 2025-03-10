@@ -532,7 +532,7 @@
         <div class="container-xxl flex-grow-1 container-p-y">
 
   <!-- Topic and Instructors -->
-  <div class="row mb-6 g-6">
+  {{-- <div class="row mb-6 g-6">
     <div class="col-12 col-xl-8">
       <div class="card h-100">
         <div class="card-header d-flex align-items-center justify-content-between">
@@ -907,7 +907,7 @@
         </div>
       </div>
     </div>
-  </div>
+  </div> --}}
   <!--  Topic and Instructors  End-->
 
   <!-- Course datatable -->
