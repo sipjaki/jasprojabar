@@ -7396,6 +7396,12 @@ hspkodepekerjaan::create([
     'namapekerjaan' => 'Pengukuran dan pasangan bouwplank',
 ]);
 
+hspkodepekerjaan::create([
+    'id' => 4,
+    'hsppaket_id' => 1,
+    'namapekerjaan' => 'Pengukuran dan pasangan bouwplank',
+]);
+
 
 //======================== ===================================================================================
 // HSP PAKET HARGA MAS JAKI BLORA
