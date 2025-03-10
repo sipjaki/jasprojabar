@@ -179,17 +179,7 @@ color: #45a049;
                     <div class="service-two-imgbox" >
 
                         <section class="donate-section" style="background: linear-gradient(to bottom, green, #FFD100, white);">
-                            <div class="container"
-                            style="
-                                background: white;
-                                max-width: 95%;
-                                margin: 30px auto;
-                                padding: 20px;
-                                height: auto;
-                                border-radius: 20px;
-                                box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-                                position: relative;
-                                z-index: 10;">
+                            <div class="container">
                                 <div class="row row-gutter-30">
                                     <div class="col-lg-12">
                                                                             </div><!-- col-lg-12 -->
