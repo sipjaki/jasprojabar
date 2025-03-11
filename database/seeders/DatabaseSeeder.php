@@ -7404,8 +7404,8 @@ hspkonstruksiumum::create([
     'hspdivisi_id' => 1,
     'hsppaket_id' => 1,
     'hspkodepekerjaan_id' => 1,
-    'subhargadiv1_id' => 1,
     'kode' => '1',
+    'subhargadiv1_id' => 1,
     'jenispekerjaan' => 'Pembuatan 1 m’ pagar sementara dari kayu tinggi 2 meter',
     'hargasatuan' => '380843.37',
 ]);
@@ -7413,8 +7413,8 @@ hspkonstruksiumum::create([
     'hspdivisi_id' => 1,
     'hsppaket_id' => 1,
     'hspkodepekerjaan_id' => 1,
-    'subhargadiv1_id' => 1,
     'kode' => '2',
+    'subhargadiv1_id' => 2,
     'jenispekerjaan' => 'Pembuatan 1 m’ pagar sementara dari seng gelombang rangka kayu tinggi 2 meter ',
     'hargasatuan' => '295990.26',
 ]);
@@ -7422,8 +7422,8 @@ hspkonstruksiumum::create([
     'hspdivisi_id' => 1,
     'hsppaket_id' => 1,
     'hspkodepekerjaan_id' => 1,
-    'subhargadiv1_id' => 1,
     'kode' => '3',
+    'subhargadiv1_id' => 3,
     'jenispekerjaan' => 'Pembuatan 1 m’ pagar sementara dari kawat duri tinggi 2 meter',
     'hargasatuan' => '1254695.60',
 ]);
@@ -7432,8 +7432,8 @@ hspkonstruksiumum::create([
     'hspdivisi_id' => 1,
     'hsppaket_id' => 1,
     'hspkodepekerjaan_id' => 1,
-    'subhargadiv1_id' => 1,
     'kode' => '4',
+    'subhargadiv1_id' => 4,
     'jenispekerjaan' => 'Pembuatan 1 m’ pagar sementara seng gelombang rangka baja L.40.40.4, tinggi pagar 1,8 m’ ',
     'hargasatuan' => '550180.75',
 ]);
@@ -7442,8 +7442,8 @@ hspkonstruksiumum::create([
     'hspdivisi_id' => 1,
     'hsppaket_id' => 1,
     'hspkodepekerjaan_id' => 1,
-    'subhargadiv1_id' => 1,
     'kode' => '5',
+    'subhargadiv1_id' => 5,
     'jenispekerjaan' => 'Pembuatan 1 m2 pagar BRC galvanis’ ',
     'hargasatuan' => '11395.20',
 ]);
@@ -7452,8 +7452,8 @@ hspkonstruksiumum::create([
     'hspdivisi_id' => 1,
     'hsppaket_id' => 1,
     'hspkodepekerjaan_id' => 1,
-    'subhargadiv1_id' => 1,
     'kode' => '6',
+    'subhargadiv1_id' => 6,
     'jenispekerjaan' => 'Pemasangan 1 m2  Panel Beton Pracetak 50x50x240 untuk Pagar',
     'hargasatuan' => '605010.56',
 ]);
@@ -7462,8 +7462,8 @@ hspkonstruksiumum::create([
     'hspdivisi_id' => 1,
     'hsppaket_id' => 1,
     'hspkodepekerjaan_id' => 2,
-    'subhargadiv1_id' => 2,
     'kode' => '1',
+    'subhargadiv1_id' => 8,
     'jenispekerjaan' => '1 buah papan nama pekerjaan ukuran 0,8x1,2 menggunakan multiflex 18 mm, frame besi siku dan tiang kayu 8/12',
     'hargasatuan' => '1028388.41',
 ]);
@@ -7473,7 +7473,7 @@ hspkonstruksiumum::create([
     'hsppaket_id' => 1,
     'hspkodepekerjaan_id' => 2,
     'kode' => '2',
-    'subhargadiv1_id' => 2,
+    'subhargadiv1_id' => 9,
     'jenispekerjaan' => '1 buah papan nama pekerjaan ukuran 0,6x0,8 menggunakan multiplex 10 mm, frame allumunium siku & tiang kayu 5/7, printing banner plastik',
     'hargasatuan' => '488860.90',
 ]);
@@ -7484,7 +7484,7 @@ hspkonstruksiumum::create([
     'hsppaket_id' => 1,
     'hspkodepekerjaan_id' => 2,
     'kode' => '3',
-    'subhargadiv1_id' => 2,
+    'subhargadiv1_id' => 10,
     'jenispekerjaan' => 'Pembuatan 1 m2 kantor sementara/rumah jaga/gudang semen dan peralatan lantai plesteran, dinding setengah tembok',
     'hargasatuan' => '1336764.00',
 ]);
@@ -7494,7 +7494,7 @@ hspkonstruksiumum::create([
     'hsppaket_id' => 1,
     'hspkodepekerjaan_id' => 2,
     'kode' => '4',
-    'subhargadiv1_id' => 2,
+    'subhargadiv1_id' => 11,
     'jenispekerjaan' => 'Pembuatan 1 m2 direksi keet (Kantor), los kerja dan gudang*)',
     'hargasatuan' => '2265024.65',
 ]);
@@ -7504,10 +7504,72 @@ hspkonstruksiumum::create([
     'hsppaket_id' => 1,
     'hspkodepekerjaan_id' => 2,
     'kode' => '5',
-    'subhargadiv1_id' => 2,
+    'subhargadiv1_id' => 12,
     'jenispekerjaan' => 'Pembuatan 1 m2 Jalan sementara Lapis Macadam',
     'hargasatuan' => '2262393.94',
 ]);
+
+hspkonstruksiumum::create([
+    'hspdivisi_id' => 1,
+    'hsppaket_id' => 1,
+    'hspkodepekerjaan_id' => 3,
+    'kode' => '1',
+    'subhargadiv1_id' => 13,
+    'jenispekerjaan' => '1 m2 pembersihan dan pengupasan permukaan tanah (striping) s.d. tanaman ∅ 2 cm ',
+    'hargasatuan' => '11291.50',
+]);
+
+hspkonstruksiumum::create([
+    'hspdivisi_id' => 1,
+    'hsppaket_id' => 1,
+    'hspkodepekerjaan_id' => 3,
+    'kode' => '2',
+    'subhargadiv1_id' => 14,
+    'jenispekerjaan' => 'Tebas tebang 1 m2 tanaman/tumbuhan ∅ < 5 cm ',
+    'hargasatuan' => '3606.90',
+]);
+
+hspkonstruksiumum::create([
+    'hspdivisi_id' => 1,
+    'hsppaket_id' => 1,
+    'hspkodepekerjaan_id' => 3,
+    'kode' => '3',
+    'subhargadiv1_id' => 15,
+    'jenispekerjaan' => 'Tebas tebang 1 m2  tanaman/tumbuhan ∅  >5 s.d. 15 cm',
+    'hargasatuan' => '6011.50',
+]);
+
+hspkonstruksiumum::create([
+    'hspdivisi_id' => 1,
+    'hsppaket_id' => 1,
+    'hspkodepekerjaan_id' => 3,
+    'kode' => '4',
+    'subhargadiv1_id' => 15,
+    'jenispekerjaan' => 'Tebas tebang 1 batang pohon/tumbuhan ∅  >15 s.d. 30 cm',
+    'hargasatuan' => '6011.50',
+]);
+
+hspkonstruksiumum::create([
+    'hspdivisi_id' => 1,
+    'hsppaket_id' => 1,
+    'hspkodepekerjaan_id' => 3,
+    'kode' => '5',
+    'subhargadiv1_id' => 15,
+    'jenispekerjaan' => 'Tebas tebang 1 batang pohon/tumbuhan ∅ > 30 s.d 50 cm ',
+    'hargasatuan' => '3982.82',
+]);
+
+hspkonstruksiumum::create([
+    'hspdivisi_id' => 1,
+    'hsppaket_id' => 1,
+    'hspkodepekerjaan_id' => 3,
+    'kode' => '5',
+    'subhargadiv1_id' => 16,
+    'jenispekerjaan' => 'Tebas  tebang  1  batang  pohon/tumbuhan  ∅   >  50  s.d  75  cm (diameter pohon diukur 1 m di atas permukaan tanah) ',
+    'hargasatuan' => '23690.38',
+]);
+
+// MAKAN
 
 // ------------------------------------
 // HARGA SUB DIVISI
