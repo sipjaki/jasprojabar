@@ -293,7 +293,7 @@ color: #45a049;
                                                     </tr>
                                                     {{-- @foreach ($data as $item) --}}
 
-                                                    <tr>
+                                                    {{-- <tr>
                                                         <td></td>
                                                         <td>{{$item->subhargadiv1->uraian}}</td>
                                                         <td>{{$item->subhargadiv1->kode}}</td>
@@ -301,7 +301,7 @@ color: #45a049;
                                                         <td>{{$item->subhargadiv1->koefisien}}</td>
                                                         <td style="text-align: right;">{{ number_format((float) $item->hargasatuan, 0, ',', '.') }},-</td>
                                                         <td style="text-align: right;">{{ number_format((float) $item->jumlahharga, 0, ',', '.') }},-</td>
-                                                    </tr>
+                                                    </tr> --}}
                                                         <tr><td></td><td>Tukang Kayu</td><td>L.02</td><td>OH</td><td>0.200</td><td>106.000</td><td>21.200</td></tr>
                                                         <tr><td></td><td>Tukang batu/tembok</td><td>L.02</td><td>OH</td><td>0.200</td><td>106.000</td><td>21.200</td></tr>
                                                         <tr><td></td><td>Kepala Tukang</td><td>L.03</td><td>OH</td><td>0.040</td><td>122.000</td><td>4.880</td></tr>
