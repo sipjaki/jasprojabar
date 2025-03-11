@@ -8310,7 +8310,7 @@ hspkodepekerjaan6::create([
 
 hspkonstruksiumum6::create([
     'hspdivisi_id' => 5,
-    'hsppaket5_id' => 1,
+    'hsppaket6_id' => 1,
     'hspkodepekerjaan5_id' => 1,
     'kode' => '1.26',
     'subhargadiv5_id' => 1,
