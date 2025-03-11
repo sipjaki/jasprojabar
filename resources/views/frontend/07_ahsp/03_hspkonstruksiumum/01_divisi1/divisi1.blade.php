@@ -255,8 +255,7 @@ color: #45a049;
                                                     {{-- {{ optional($item->kode->id) }} --}}
                                                 </td>
                                                 <td style="text-align: center;">{{$item->hspkodepekerjaan->namapekerjaan}}</td>
-                                                <td style="cursor: pointer; color: blue; text-decoration: underline;" onclick="showModal('{{ $item->jenispekerjaan }}')">{{ $item->jenispekerjaan }}</td>
-                                                {{-- <td style="cursor: pointer; color: blue; text-decoration: underline;" onclick="showModal('{{ $item->jenispekerjaan }}')">{{$item->jenispekerjaan}}</td> --}}
+                                                <td style="cursor: pointer; color: blue; text-decoration: underline;" onclick="showModal('{{ $item->jenispekerjaan }}')">{{$item->jenispekerjaan}}</td>
                                                 <td style="text-align: center;">Rp.</td>
                                                 <td style="text-align: right;">{{ number_format((float) $item->hargasatuan, 0, ',', '.') }},-</td>
                                             </tr>
@@ -264,72 +263,8 @@ color: #45a049;
                                         </tbody>
                                     </table>
 
-<!-- Modal -->
-<div id="modalCard" class="modal" style="display: none; position: fixed; z-index: 1000; left: 0; top: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.5);">
-    <div class="modal-content" style="background-color: white; margin: 5% auto; padding: 20px; border-radius: 8px; width: 80%; text-align: left; position: relative;">
-        <span class="close" onclick="closeModal()" style="cursor: pointer; position: absolute; top: 10px; right: 15px; font-size: 20px; font-weight: bold;">&times;</span>
-        <h2 id="modalTitle">Analisa Harga Satuan Pekerjaan</h2>
-
-        <table class="table table-bordered table-striped">
-            <thead class="table-dark">
-                <tr>
-                    <th>No</th>
-                    <th>Uraian</th>
-                    <th>Kode</th>
-                    <th>Satuan</th>
-                    <th>Koefisien</th>
-                    <th>Harga Satuan (Rp)</th>
-                    <th>Jumlah Harga (Rp)</th>
-                </tr>
-            </thead>
-            <tbody>
-                <script>
-                    function showModal(jenispekerjaan) {
-                        // Tampilkan modal
-                        var modal = document.getElementById("modalCard");
-                        modal.style.display = "block";
-
-                        // Ambil data terkait jenispekerjaan dari server
-                        fetch(`/get-subdata-for-modal/${jenispekerjaan}`)
-                            .then(response => response.json())
-                            .then(data => {
-                                // Mengisi modal dengan data yang diterima
-                                var tbody = document.querySelector("#modalCard tbody");
-                                tbody.innerHTML = ''; // Kosongkan tabel sebelumnya
-                                data.forEach(item => {
-                                    var row = document.createElement("tr");
-                                    row.innerHTML = `
-                                        <td></td>
-                                        <td>${item.subhargadiv1.uraian}</td>
-                                        <td>${item.subhargadiv1.kode}</td>
-                                        <td>${item.subhargadiv1.satuan}</td>
-                                        <td>${item.subhargadiv1.koefisien}</td>
-                                        <td style="text-align: right;">${item.hargasatuan.toLocaleString()}</td>
-                                        <td style="text-align: right;">${item.jumlahharga.toLocaleString()}</td>
-                                    `;
-                                    tbody.appendChild(row);
-                                });
-                            });
-                    }
-
-                    function closeModal() {
-                        var modal = document.getElementById("modalCard");
-                        modal.style.display = "none";
-                    }
-                </script>
-
-                <!-- Isi modal data akan dimasukkan di sini melalui JavaScript -->
-            </tbody>
-        </table>
-
-        <button onclick="closeModal()" style="margin-top: 20px; padding: 10px 20px; background-color: red; color: white; border: none; border-radius: 5px; cursor: pointer;">Tutup</button>
-    </div>
-</div>
-
-
-
                                     <!-- Modal -->
-                                    {{-- <div id="modalCard" class="modal" style="display: none; position: fixed; z-index: 1000; left: 0; top: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.5);">
+                                    <div id="modalCard" class="modal" style="display: none; position: fixed; z-index: 1000; left: 0; top: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.5);">
                                         <div class="modal-content" style="background-color: white; margin: 5% auto; padding: 20px; border-radius: 8px; width: 80%; text-align: left; position: relative;">
                                             <span class="close" onclick="closeModal()" style="cursor: pointer; position: absolute; top: 10px; right: 15px; font-size: 20px; font-weight: bold;">&times;</span>
                                             <h2 id="modalTitle">Analisa Harga Satuan Pekerjaan</h2>
@@ -356,8 +291,7 @@ color: #45a049;
                                                         <td></td>
                                                         <td></td>
                                                     </tr>
-
-                                                    @foreach ($subdata as $item)
+                                                    {{-- @foreach ($data as $item) --}}
 
                                                     <tr>
                                                         <td></td>
@@ -388,7 +322,7 @@ color: #45a049;
                                                         <tr><td>D</td><td colspan="5" class="text-end">Jumlah Harga Tenaga Kerja, Bahan dan Peralatan (A+B+C)</td><td>346.221,25</td></tr>
                                                         <tr><td>E</td><td colspan="5" class="text-end">Biaya Umum dan Keuntungan (10%)</td><td>34.622,12</td></tr>
                                                         <tr><td>F</td><td colspan="5" class="text-end"><strong>Harga Satuan Pekerjaan (D+E)</strong></td><td><strong>380.843,37</strong></td></tr>
-                                                        @endforeach
+                                                        {{-- @endforeach --}}
                                                     </tbody>
                                                 </table>
 
@@ -405,7 +339,7 @@ color: #45a049;
                                         function closeModal() {
                                             document.getElementById('modalCard').style.display = 'none';
                                         }
-                                    </script> --}}
+                                    </script>
 
 
                                 <div class="pagination-container" style="margin-top: 50px; display: flex; flex-direction: column; align-items: center;">
