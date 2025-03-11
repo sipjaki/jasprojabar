@@ -323,9 +323,9 @@
                                                 <li><a href="/hspdivisi2">Divisi II Pekerjaan Struktur</a></li>
                                                 <li><a href="/hspdivisi3">Divisi III Pekerjaan Arsitektur</a></li>
                                                 <li><a href="/hspdivisi4">Divisi IV Pekerjaan Lansekap</a></li>
-                                                <li><a href="/hspdivisi5">Divisi IV Pekerjaan Lansekap</a></li>
-                                                <li><a href="/hspdivisi6">Divisi V Pekerjaan Mekanikal & Elektrikal</a></li>
-                                                <li><a href="/404">Divisi VI Pekerjaan Plambing</a></li>
+                                                {{-- <li><a href="/hspdivisi5">Divisi IV Pekerjaan Lansekap</a></li> --}}
+                                                <li><a href="/hspdivisi5">Divisi V Pekerjaan Mekanikal & Elektrikal</a></li>
+                                                <li><a href="/hspdivisi6">Divisi VI Pekerjaan Plambing</a></li>
                                                 <li><a href="/404">Divisi VII Jalan Pada Pemukiman</a></li>
                                                 <li><a href="/404">Divisi VIII Drainase Jalan</a></li>
                                                 <li><a href="/404">Divisi IX Pekerjaan Jaringan Pipa Di Luar Gedung</a></li>
