@@ -21,7 +21,6 @@ return new class extends Migration
             $table->string('jenispekerjaan')->nullable();
             $table->string('hargasatuan')->nullable();
             $table->softDeletes();
-            $table->softDeletes();
             $table->timestamps();
         });
     }
