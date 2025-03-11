@@ -7587,11 +7587,6 @@ subhargadiv1::create([
 ]);
 
 // ============================================= LIST DAFTAR HARGA KONSTRUKSI UMUM DIVISI 2 ===========================
-hspdivisi::create([
-    'id' => 2,
-    'hspdivisi' => 'Pekerjaan Struktur',
-]);
-
 hsppaket2::create([
     'id' => 1,
     'hspdivisi_id' => 2,
