@@ -193,8 +193,8 @@ class SatuanhargamaterialController extends Controller
                   ->orWhere('jenispekerjaan', 'LIKE', "%{$search}%")
                   ->orWhere('hargasatuan', 'LIKE', "%{$search}%")
 
-                  ->orWhereHas('hspdivisi2', function ($q) use ($search) {
-                      $q->where('hspdivisi2', 'LIKE', "%{$search}%"); // 'jabatankerja' = nama kolom di tabel jabatankerja
+                  ->orWhereHas('hspdivisi', function ($q) use ($search) {
+                      $q->where('hspdivisi', 'LIKE', "%{$search}%"); // 'jabatankerja' = nama kolom di tabel jabatankerja
                   })
 
                   ->orWhereHas('hsppaket2', function ($q) use ($search) {
