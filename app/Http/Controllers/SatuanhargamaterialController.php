@@ -124,7 +124,7 @@ class SatuanhargamaterialController extends Controller
         ]);
     }
 
-    public function hspdivisi1(Request $request, $jenispekerjaan)
+    public function hspdivisi1(Request $request)
     {
         $perPage = $request->input('perPage', 25);
         $search = $request->input('search');
@@ -157,19 +157,19 @@ class SatuanhargamaterialController extends Controller
             ]);
         }
 
-        $subdata = HspKonstruksiUmum::with('subhargadiv1')
-        ->whereHas('jenispekerjaan', function ($query) use ($jenispekerjaan) {
-            $query->where('jenispekerjaan', $jenispekerjaan);
-        })
-        ->get();
+        // $subdata = HspKonstruksiUmum::with('subhargadiv1')
+        // ->whereHas('jenispekerjaan', function ($query) use ($jenispekerjaan) {
+        //     $query->where('jenispekerjaan', $jenispekerjaan);
+        // })
+        // ->get();
 
-        if ($request->ajax()) {
-            return response()->json($subdata);
-        }
+        // if ($request->ajax()) {
+        //     return response()->json($subdata);
+        // }
         return view('frontend.07_ahsp.03_hspkonstruksiumum.01_divisi1.divisi1', [
             'title' => 'HSP Divisi I Persiapan Pekerjaan',
             'data' => $data,
-            'subdata' => $subdata,
+            // 'subdata' => $subdata,
             'perPage' => $perPage,
             'search' => $search
         ]);
