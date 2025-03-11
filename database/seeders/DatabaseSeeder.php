@@ -8007,7 +8007,7 @@ hspkonstruksiumum4::create([
     'hsppaket4_id' => 1,
     'hspkodepekerjaan4_id' => 1,
     'kode' => '3',
-    'subhargadiv3_id' => 1,
+    'subhargadiv4_id' => 1,
     'jenispekerjaan' => 'Penanaman 1 buah pohon sedang Ketapang Kencana (Terminalia mantaly) Diameter 3-5 cm, tinggi 3-6 meter, polybag 50 L',
     'hargasatuan' => '947274.90',
 ]);
