@@ -7590,49 +7590,43 @@ subhargadiv1::create([
 hsppaket2::create([
     'id' => 1,
     'hspdivisi_id' => 2,
-    'hsppaket' => 'Pekerjaan Rangka Atap',
+    'hsppaket2' => 'Pekerjaan Rangka Atap',
 ]);
 
 hsppaket2::create([
     'id' => 2,
     'hspdivisi_id' => 2,
-    'hsppaket' => 'Pekerjaan Struktur Beton',
+    'hsppaket2' => 'Pekerjaan Struktur Beton',
 ]);
 
 hsppaket2::create([
     'id' => 3,
     'hspdivisi_id' => 2,
-    'hsppaket' => 'Pekerjaan Struktur Baja',
-]);
-
-hsppaket2::create([
-    'id' => 3,
-    'hspdivisi_id' => 2,
-    'hsppaket' => 'Pekerjaan Struktur Baja',
+    'hsppaket2' => 'Pekerjaan Struktur Baja',
 ]);
 
 hsppaket2::create([
     'id' => 4,
     'hspdivisi_id' => 2,
-    'hsppaket' => 'Pekerjaan Struktur Beton Pracetak',
+    'hsppaket2' => 'Pekerjaan Struktur Beton Pracetak',
 ]);
 
 hsppaket2::create([
     'id' => 5,
     'hspdivisi_id' => 2,
-    'hsppaket' => 'Pekerjaan Struktur Beton Prategang',
+    'hsppaket2' => 'Pekerjaan Struktur Beton Prategang',
 ]);
 
 hsppaket2::create([
     'id' => 6,
     'hspdivisi_id' => 2,
-    'hsppaket' => 'Pekerjaan Struktur Kayu',
+    'hsppaket2' => 'Pekerjaan Struktur Kayu',
 ]);
 
 hsppaket2::create([
     'id' => 6,
     'hspdivisi_id' => 2,
-    'hsppaket' => 'Pekerjaan Dinding Penahan Tanah',
+    'hsppaket2' => 'Pekerjaan Dinding Penahan Tanah',
 ]);
 
 

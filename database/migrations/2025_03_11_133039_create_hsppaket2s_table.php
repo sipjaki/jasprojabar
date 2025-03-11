@@ -15,7 +15,7 @@ return new class extends Migration
             $table->id();
             $table->foreignId('hspkonstruksiumum2_id')->nullable();
             $table->foreignId('hspdivisi_id')->nullable();
-            $table->string('hsppaket')->nullable();
+            $table->string('hsppaket2')->nullable();
             $table->softDeletes();
             $table->timestamps();
         });
