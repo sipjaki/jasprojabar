@@ -38,10 +38,10 @@ class hspdivisi extends Model
         return $this->belongsTo(hsppaket5::class);
     }
 
-    // public function hsppaket6()
-    // {
-    //     return $this->belongsTo(hsppaket6::class);
-    // }
+    public function hsppaket6()
+    {
+        return $this->belongsTo(hsppaket6::class);
+    }
 
     // public function hsppaket7()
     // {
@@ -83,10 +83,10 @@ class hspdivisi extends Model
         return $this->hasMany(hspkonstruksiumum5::class);
     }
 
-    // public function hspkonstruksiumum4()
-    // {
-    //     return $this->hasMany(hspkonstruksiumum4::class);
-    // }
+    public function hspkonstruksiumum6()
+    {
+        return $this->hasMany(hspkonstruksiumum6::class);
+    }
 
     // public function hspkonstruksiumum5()
     // {

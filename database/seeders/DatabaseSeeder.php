@@ -109,6 +109,12 @@ use App\Models\hspkodepekerjaan5;
 use App\Models\hspkonstruksiumum5;
 use App\Models\subhargadiv5;
 
+// hsp harga divisi 6
+use App\Models\hsppaket6;
+use App\Models\hspkodepekerjaan6;
+use App\Models\hspkonstruksiumum6;
+use App\Models\subhargadiv6;
+
 
 
 // modelbaru
@@ -8214,6 +8220,202 @@ hspkonstruksiumum5::create([
     'subhargadiv5_id' => 12,
     'jenispekerjaan' => 'Pemasangan 1 Unit Main Distribution Panel (MDP) Wall Mounted ukuran 60 x 100 x 25 Cm',
     'hargasatuan' => '3829710.50',
+]);
+
+// ============================================= LIST DAFTAR HARGA KONSTRUKSI UMUM DIVISI 6 ===========================
+hsppaket6::create([
+    'id' => 1,
+    'hspdivisi_id' => 6,
+    'hsppaket6' => 'Sistem Air Minum',
+]);
+
+hsppaket6::create([
+    'id' => 2,
+    'hspdivisi_id' => 6,
+    'hsppaket6' => 'Grease trap',
+]);
+
+hsppaket6::create([
+    'id' => 3,
+    'hspdivisi_id' => 6,
+    'hsppaket6' => 'Bak Kontrol',
+]);
+
+hsppaket6::create([
+    'id' => 4,
+    'hspdivisi_id' => 6,
+    'hsppaket6' => 'Sistem Perpipaan Dalam Gedung',
+]);
+
+hsppaket6::create([
+    'id' => 5,
+    'hspdivisi_id' => 6,
+    'hsppaket6' => 'Aksesoris Pipa',
+]);
+
+hsppaket6::create([
+    'id' => 6,
+    'hspdivisi_id' => 6,
+    'hsppaket6' => '-',
+]);
+
+hspkodepekerjaan6::create([
+    'id' => 1,
+    'hsppaket6_id' => 1,
+    'kodepekerjaan' => '1',
+    'namapekerjaan' => 'Roof water tank',
+]);
+
+hspkodepekerjaan6::create([
+    'id' => 2,
+    'hsppaket6_id' => 1,
+    'kodepekerjaan' => '2',
+    'namapekerjaan' => 'Pompa transfer dan booster',
+]);
+
+hspkodepekerjaan6::create([
+    'id' => 3,
+    'hsppaket6_id' => 2,
+    'kodepekerjaan' => '3',
+    'namapekerjaan' => 'Grease trap',
+]);
+
+hspkodepekerjaan6::create([
+    'id' => 4,
+    'hsppaket6_id' => 3,
+    'kodepekerjaan' => '1',
+    'namapekerjaan' => 'Bak Kontrol',
+]);
+
+hspkodepekerjaan6::create([
+    'id' => 5,
+    'hsppaket6_id' => 4,
+    'kodepekerjaan' => '1',
+    'namapekerjaan' => 'Pipa PVC',
+]);
+
+hspkodepekerjaan6::create([
+    'id' => 6,
+    'hsppaket6_id' => 4,
+    'kodepekerjaan' => '2',
+    'namapekerjaan' => 'Pipa Galvanis',
+]);
+
+hspkodepekerjaan6::create([
+    'id' => 7,
+    'hsppaket6_id' => 4,
+    'kodepekerjaan' => '3',
+    'namapekerjaan' => 'Pipa PPR (PolyPropylene Random)',
+]);
+
+hspkonstruksiumum6::create([
+    'hspdivisi_id' => 5,
+    'hsppaket5_id' => 1,
+    'hspkodepekerjaan5_id' => 1,
+    'kode' => '1.26',
+    'subhargadiv5_id' => 1,
+    'jenispekerjaan' => 'Pemasangan 1 m’ Kabel NYY 3 x 4 mm²',
+    'hargasatuan' => '38717.80',
+]);
+
+hspkonstruksiumum6::create([
+    'hspdivisi_id' => 6,
+    'hsppaket6_id' => 1,
+    'hspkodepekerjaan6_id' => 1,
+    'kode' => '7',
+    'subhargadiv6_id' => 1,
+    'jenispekerjaan' => 'Pemasangan 1 buah Tangki Toren Kap. 0,7 m3',
+    'hargasatuan' => '1781487.40',
+]);
+
+hspkonstruksiumum6::create([
+    'hspdivisi_id' => 6,
+    'hsppaket6_id' => 1,
+    'hspkodepekerjaan6_id' => 1,
+    'kode' => '8',
+    'subhargadiv6_id' => 2,
+    'jenispekerjaan' => 'Pemasangan 1 buah Tangki Toren Kap. 1,5 m3',
+    'hargasatuan' => '1781487.40',
+]);
+
+hspkonstruksiumum6::create([
+    'hspdivisi_id' => 6,
+    'hsppaket6_id' => 1,
+    'hspkodepekerjaan6_id' => 1,
+    'kode' => '10',
+    'subhargadiv6_id' => 3,
+    'jenispekerjaan' => 'Pemasangan 1 buah Tangki Toren Kap. 3 m3',
+    'hargasatuan' => '6334704.20',
+]);
+
+hspkonstruksiumum6::create([
+    'hspdivisi_id' => 6,
+    'hsppaket6_id' => 1,
+    'hspkodepekerjaan6_id' => 1,
+    'kode' => '12',
+    'subhargadiv6_id' => 4,
+    'jenispekerjaan' => 'Pemasangan 1 buah Tangki Toren Kap. 5 m3',
+    'hargasatuan' => '11434304.20',
+]);
+
+hspkonstruksiumum6::create([
+    'hspdivisi_id' => 6,
+    'hsppaket6_id' => 1,
+    'hspkodepekerjaan6_id' => 2,
+    'kode' => '3',
+    'subhargadiv6_id' => 5,
+    'jenispekerjaan' => 'Pemasangan 1 Unit Pompa Booster 150 lpm; Vertical In Line –',
+    'hargasatuan' => '58170080.10',
+]);
+
+hspkonstruksiumum6::create([
+    'hspdivisi_id' => 6,
+    'hsppaket6_id' => 1,
+    'hspkodepekerjaan6_id' => 2,
+    'kode' => '4',
+    'subhargadiv6_id' => 6,
+    'jenispekerjaan' => 'Pemasangan 1 Unit Pompa Jet 27 lpm',
+    'hargasatuan' => '49861724.00',
+]);
+
+hspkonstruksiumum6::create([
+    'hspdivisi_id' => 6,
+    'hsppaket6_id' => 1,
+    'hspkodepekerjaan6_id' => 2,
+    'kode' => '6',
+    'subhargadiv6_id' => 7,
+    'jenispekerjaan' => 'Pemasangan 1 Unit Pompa Jet 100 lpm',
+    'hargasatuan' => '4728724.00',
+]);
+
+hspkonstruksiumum6::create([
+    'hspdivisi_id' => 6,
+    'hsppaket6_id' => 1,
+    'hspkodepekerjaan6_id' => 2,
+    'kode' => '8.a',
+    'subhargadiv6_id' => 8,
+    'jenispekerjaan' => 'Pemasangan  1  Unit  Pompa  Sumbmersible ( Speed For Pump data = 10700 rpm, rateflow 5 m3/h, ratehead = 73 - 100 m  )',
+    'hargasatuan' => '21030786.70',
+]);
+
+hspkonstruksiumum6::create([
+    'hspdivisi_id' => 6,
+    'hsppaket6_id' => 2,
+    'hspkodepekerjaan6_id' => 3,
+    'kode' => '2',
+    'subhargadiv6_id' => 9,
+    'jenispekerjaan' => 'Pemasangan 1 Unit Grease Trap Portable Stainless, Kap. 30 Liter',
+    'hargasatuan' => '623877.10',
+]);
+
+hspkonstruksiumum6::create([
+    'hspdivisi_id' => 6,
+    'hsppaket6_id' => 3,
+    'hspkodepekerjaan6_id' => 4,
+    'kode' => null,
+    'subhargadiv6_id' => 10,
+    'jenispekerjaan' => 'Pemasangan 1 buah Bak Kontrol Pasangan Bata 30 cm x 30 cm Tinggi 35 cm dengan Tutup Beton',
+    'hargasatuan' => '550029.70',
 ]);
 
 // MAKAN
