@@ -91,11 +91,17 @@ use App\Models\hspkodepekerjaan2;
 use App\Models\hspkonstruksiumum2;
 use App\Models\subhargadiv2;
 
-// hsp harga divisi 2
+// hsp harga divisi 3
 use App\Models\hsppaket3;
 use App\Models\hspkodepekerjaan3;
 use App\Models\hspkonstruksiumum3;
 use App\Models\subhargadiv3;
+
+// hsp harga divisi 4
+use App\Models\hsppaket4;
+use App\Models\hspkodepekerjaan4;
+use App\Models\hspkonstruksiumum4;
+use App\Models\subhargadiv4;
 
 
 
@@ -7969,6 +7975,62 @@ hspkonstruksiumum3::create([
     'hargasatuan' => '76874.60',
 ]);
 
+// ============================================= LIST DAFTAR HARGA KONSTRUKSI UMUM DIVISI 4 ===========================
+hsppaket4::create([
+    'id' => 1,
+    'hspdivisi_id' => 4,
+    'hsppaket4' => 'Pekerjaan Penanaman Tanaman',
+]);
+
+hsppaket4::create([
+    'id' => 2,
+    'hspdivisi_id' => 4,
+    'hsppaket4' => 'Pekerjaan Pemeliharaan Tanaman',
+]);
+
+hspkodepekerjaan4::create([
+    'id' => 1,
+    'hsppaket4_id' => 1,
+    'kodepekerjaan' => '2',
+    'namapekerjaan' => 'Penanaman Pohon',
+]);
+
+hspkodepekerjaan4::create([
+    'id' => 2,
+    'hsppaket4_id' => 1,
+    'kodepekerjaan' => '1',
+    'namapekerjaan' => 'Penyiraman Pada Masa Pemeliharaan',
+]);
+
+hspkonstruksiumum4::create([
+    'hspdivisi_id' => 4,
+    'hsppaket4_id' => 1,
+    'hspkodepekerjaan3_id' => 1,
+    'kode' => '3',
+    'subhargadiv3_id' => 1,
+    'jenispekerjaan' => 'Penanaman 1 buah pohon sedang Ketapang Kencana (Terminalia mantaly) Diameter 3-5 cm, tinggi 3-6 meter, polybag 50 L',
+    'hargasatuan' => '947274.90',
+]);
+
+hspkonstruksiumum4::create([
+    'hspdivisi_id' => 4,
+    'hsppaket4_id' => 1,
+    'hspkodepekerjaan3_id' => 1,
+    'kode' => '4',
+    'subhargadiv4_id' => 2,
+    'jenispekerjaan' => 'Penanaman 1 buah pohon besar Kamboja (Plumeria sp.) Diameter 7-15 cm, tinggi diatas 6 meter, polybag 100 L',
+    'hargasatuan' => '2010149.55',
+]);
+
+hspkonstruksiumum4::create([
+    'hspdivisi_id' => 4,
+    'hsppaket4_id' => 2,
+    'hspkodepekerjaan4_id' => 2,
+    'kode' => '1',
+    'subhargadiv4_id' => 3,
+    'jenispekerjaan' => 'Penyiraman 1m2 area tanam untuk 1 hari (dengan selang plastik 3/4 inch)',
+    'hargasatuan' => '317.24',
+]);
 
 // MAKAN
 
