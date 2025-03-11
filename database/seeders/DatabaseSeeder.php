@@ -8005,7 +8005,7 @@ hspkodepekerjaan4::create([
 hspkonstruksiumum4::create([
     'hspdivisi_id' => 4,
     'hsppaket4_id' => 1,
-    'hspkodepekerjaan3_id' => 1,
+    'hspkodepekerjaan4_id' => 1,
     'kode' => '3',
     'subhargadiv3_id' => 1,
     'jenispekerjaan' => 'Penanaman 1 buah pohon sedang Ketapang Kencana (Terminalia mantaly) Diameter 3-5 cm, tinggi 3-6 meter, polybag 50 L',
@@ -8015,7 +8015,7 @@ hspkonstruksiumum4::create([
 hspkonstruksiumum4::create([
     'hspdivisi_id' => 4,
     'hsppaket4_id' => 1,
-    'hspkodepekerjaan3_id' => 1,
+    'hspkodepekerjaan4_id' => 1,
     'kode' => '4',
     'subhargadiv4_id' => 2,
     'jenispekerjaan' => 'Penanaman 1 buah pohon besar Kamboja (Plumeria sp.) Diameter 7-15 cm, tinggi diatas 6 meter, polybag 100 L',
