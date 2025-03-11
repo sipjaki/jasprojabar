@@ -319,12 +319,12 @@
                                         </li>
 										<li><a href="#">HSP Konstruksi Umum</a>
                                             <ul class="list-unstyled">
-                                                {{-- <li><a href="/hspdivisi1">Divisi I Persiapan Pekerjaan</a></li>
+                                                <li><a href="/hspdivisi1">Divisi I Persiapan Pekerjaan</a></li>
                                                 <li><a href="/hspdivisi2">Divisi II Pekerjaan Struktur</a></li>
                                                 <li><a href="/hspdivisi3">Divisi III Pekerjaan Arsitektur</a></li>
                                                 <li><a href="/hspdivisi4">Divisi IV Pekerjaan Lansekap</a></li>
                                                 <li><a href="/hspdivisi5">Divisi IV Pekerjaan Lansekap</a></li>
-                                                <li><a href="/hspdivisi6">Divisi V Pekerjaan Mekanikal & Elektrikal</a></li> --}}
+                                                <li><a href="/hspdivisi6">Divisi V Pekerjaan Mekanikal & Elektrikal</a></li>
                                                 <li><a href="/404">Divisi VI Pekerjaan Plambing</a></li>
                                                 <li><a href="/404">Divisi VII Jalan Pada Pemukiman</a></li>
                                                 <li><a href="/404">Divisi VIII Drainase Jalan</a></li>
