@@ -482,7 +482,6 @@ KODE WARNA HIJAU :  #00820d
 # SSH TERBARU UNTUK MASJAKI BLORA ssh -p 65002 u123385283@46.202.138.41
 # password SipjakiBlora$$123
 
-
 #FFD100 kuning emas pupr
 
 background: linear-gradient(to bottom, green, #FFD100, white); border-radius:20px;

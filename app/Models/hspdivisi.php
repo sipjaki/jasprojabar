@@ -18,10 +18,60 @@ class hspdivisi extends Model
         return $this->belongsTo(hsppaket::class);
     }
 
+    public function hsppaket2()
+    {
+        return $this->belongsTo(hsppaket2::class);
+    }
+
     public function hspkonstruksiumum()
     {
         return $this->hasMany(hspkonstruksiumum::class);
     }
+
+    public function hspkonstruksiumum2()
+    {
+        return $this->hasMany(hspkonstruksiumum2::class);
+    }
+
+    // public function hspkonstruksiumum3()
+    // {
+    //     return $this->hasMany(hspkonstruksiumum3::class);
+    // }
+
+    // public function hspkonstruksiumum3()
+    // {
+    //     return $this->hasMany(hspkonstruksiumum3::class);
+    // }
+
+    // public function hspkonstruksiumum4()
+    // {
+    //     return $this->hasMany(hspkonstruksiumum4::class);
+    // }
+
+    // public function hspkonstruksiumum5()
+    // {
+    //     return $this->hasMany(hspkonstruksiumum5::class);
+    // }
+
+    // public function hspkonstruksiumum6()
+    // {
+    //     return $this->hasMany(hspkonstruksiumum6::class);
+    // }
+
+    // public function hspkonstruksiumum7()
+    // {
+    //     return $this->hasMany(hspkonstruksiumum7::class);
+    // }
+
+    // public function hspkonstruksiumum8()
+    // {
+    //     return $this->hasMany(hspkonstruksiumum8::class);
+    // }
+
+    // public function hspkonstruksiumum9()
+    // {
+    //     return $this->hasMany(hspkonstruksiumum9::class);
+    // }
 
 
 }

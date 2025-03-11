@@ -320,7 +320,7 @@
 										<li><a href="#">HSP Konstruksi Umum</a>
                                             <ul class="list-unstyled">
                                                 <li><a href="/hspdivisi1">Divisi I Persiapan Pekerjaan</a></li>
-                                                <li><a href="/404">Divisi II Pekerjaan Struktur</a></li>
+                                                <li><a href="/hspdivisi2">Divisi II Pekerjaan Struktur</a></li>
                                                 <li><a href="/404">Divisi III Pekerjaan Arsitektur</a></li>
                                                 <li><a href="/404">Divisi IV Pekerjaan Lansekap</a></li>
                                                 <li><a href="/404">Divisi IV Pekerjaan Lansekap</a></li>

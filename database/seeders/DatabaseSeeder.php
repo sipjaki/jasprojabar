@@ -85,6 +85,11 @@ use App\Models\artikeljakonmasjaki;
 use App\Models\kategoripelatihan;
 use App\Models\agendapelatihan;
 use App\Models\subhargadiv1;
+// hsp harga divisi 2
+use App\Models\hsppaket2;
+use App\Models\hspkodepekerjaan2;
+use App\Models\hspkonstruksiumum2;
+use App\Models\subhargadiv2;
 
 
 
@@ -7478,7 +7483,6 @@ hspkonstruksiumum::create([
     'hargasatuan' => '488860.90',
 ]);
 
-
 hspkonstruksiumum::create([
     'hspdivisi_id' => 1,
     'hsppaket_id' => 1,
@@ -7569,7 +7573,6 @@ hspkonstruksiumum::create([
     'hargasatuan' => '23690.38',
 ]);
 
-// MAKAN
 
 // ------------------------------------
 // HARGA SUB DIVISI
@@ -7583,7 +7586,110 @@ subhargadiv1::create([
     'jumlahharga' => '57.600,00',
 ]);
 
-// SIGIT
+// ============================================= LIST DAFTAR HARGA KONSTRUKSI UMUM DIVISI 2 ===========================
+hspdivisi::create([
+    'id' => 2,
+    'hspdivisi' => 'Pekerjaan Struktur',
+]);
+
+hsppaket2::create([
+    'id' => 1,
+    'hspdivisi_id' => 2,
+    'hsppaket' => 'Pekerjaan Rangka Atap',
+]);
+
+hsppaket2::create([
+    'id' => 2,
+    'hspdivisi_id' => 2,
+    'hsppaket' => 'Pekerjaan Struktur Beton',
+]);
+
+hsppaket2::create([
+    'id' => 3,
+    'hspdivisi_id' => 2,
+    'hsppaket' => 'Pekerjaan Struktur Baja',
+]);
+
+hsppaket2::create([
+    'id' => 3,
+    'hspdivisi_id' => 2,
+    'hsppaket' => 'Pekerjaan Struktur Baja',
+]);
+
+hsppaket2::create([
+    'id' => 4,
+    'hspdivisi_id' => 2,
+    'hsppaket' => 'Pekerjaan Struktur Beton Pracetak',
+]);
+
+hsppaket2::create([
+    'id' => 5,
+    'hspdivisi_id' => 2,
+    'hsppaket' => 'Pekerjaan Struktur Beton Prategang',
+]);
+
+hsppaket2::create([
+    'id' => 6,
+    'hspdivisi_id' => 2,
+    'hsppaket' => 'Pekerjaan Struktur Kayu',
+]);
+
+hsppaket2::create([
+    'id' => 6,
+    'hspdivisi_id' => 2,
+    'hsppaket' => 'Pekerjaan Dinding Penahan Tanah',
+]);
+
+
+hspkodepekerjaan2::create([
+    'id' => 1,
+    'hsppaket2_id' => 1,
+    'namapekerjaan' => 'Rangka Atap Baja Ringan',
+]);
+
+hspkodepekerjaan2::create([
+    'id' => 2,
+    'hsppaket2_id' => 1,
+    'namapekerjaan' => 'Rangka Atap Kayu',
+]);
+
+hspkonstruksiumum2::create([
+    'hspdivisi_id' => 2,
+    'hsppaket2_id' => 1,
+    'hspkodepekerjaan2_id' => 1,
+    'kode' => '1',
+    'subhargadiv2_id' => 1,
+    'jenispekerjaan' => 'Pemasangan 1 m2  Atap Pelana Rangka Atap Baja Ringan (Canai Dingin) profil C75',
+    'hargasatuan' => '333267.61',
+]);
+
+hspkonstruksiumum2::create([
+    'hspdivisi_id' => 2,
+    'hsppaket2_id' => 1,
+    'hspkodepekerjaan2_id' => 1,
+    'kode' => '2',
+    'subhargadiv2_id' => 2,
+    'jenispekerjaan' => 'Pemasangan 1 m2  Atap Jurai/Limasan Rangka Atap Baja Ringan (Canai Dingin) Profil C75',
+    'hargasatuan' => '339726.48',
+]);
+
+hspkonstruksiumum2::create([
+    'hspdivisi_id' => 2,
+    'hsppaket2_id' => 1,
+    'hspkodepekerjaan2_id' => 1,
+    'kode' => '2.a',
+    'subhargadiv2_id' => 3,
+    'jenispekerjaan' => 'Pemasangan 1 m2 Usuk dan Reng Rangka Baja Ringan',
+    'hargasatuan' => '221558.70',
+]);
+
+
+
+
+// MAKAN
+
+
+
 //==========================================================================================================
 // DATA BERITA
 beritajakon::create([
