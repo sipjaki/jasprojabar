@@ -8309,16 +8309,6 @@ hspkodepekerjaan6::create([
 ]);
 
 hspkonstruksiumum6::create([
-    'hspdivisi_id' => 5,
-    'hsppaket6_id' => 1,
-    'hspkodepekerjaan5_id' => 1,
-    'kode' => '1.26',
-    'subhargadiv5_id' => 1,
-    'jenispekerjaan' => 'Pemasangan 1 m’ Kabel NYY 3 x 4 mm²',
-    'hargasatuan' => '38717.80',
-]);
-
-hspkonstruksiumum6::create([
     'hspdivisi_id' => 6,
     'hsppaket6_id' => 1,
     'hspkodepekerjaan6_id' => 1,
