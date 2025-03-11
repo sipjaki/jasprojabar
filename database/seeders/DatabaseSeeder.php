@@ -7387,24 +7387,28 @@ hsppaket::create([
 hspkodepekerjaan::create([
     'id' => 1,
     'hsppaket_id' => 1,
+    'kodepekerjaan' => '1',
     'namapekerjaan' => 'Pembuatan pagar proyek',
 ]);
 
 hspkodepekerjaan::create([
     'id' => 2,
     'hsppaket_id' => 1,
+    'kodepekerjaan' => '2',
     'namapekerjaan' => 'Alat dan/atau sarana penunjang',
 ]);
 
 hspkodepekerjaan::create([
     'id' => 3,
     'hsppaket_id' => 1,
+    'kodepekerjaan' => '3',
     'namapekerjaan' => 'Pembersihan dan pengupasan permukaan tanah',
 ]);
 
 hspkodepekerjaan::create([
     'id' => 4,
     'hsppaket_id' => 1,
+    'kodepekerjaan' => '4',
     'namapekerjaan' => 'Pengukuran dan pasangan bouwplank',
 ]);
 
@@ -7639,12 +7643,14 @@ hsppaket2::create([
 hspkodepekerjaan2::create([
     'id' => 1,
     'hsppaket2_id' => 1,
+    'kodepekerjaan' => '1',
     'namapekerjaan' => 'Rangka Atap Baja Ringan',
 ]);
 
 hspkodepekerjaan2::create([
     'id' => 2,
     'hsppaket2_id' => 1,
+    'kodepekerjaan' => '2',
     'namapekerjaan' => 'Rangka Atap Kayu',
 ]);
 
@@ -7840,30 +7846,35 @@ hsppaket3::create([
 hspkodepekerjaan3::create([
     'id' => 1,
     'hsppaket3_id' => 1,
+    'kodepekerjaan' => '1',
     'namapekerjaan' => 'Atap Genteng',
 ]);
 
 hspkodepekerjaan3::create([
     'id' => 2,
     'hsppaket3_id' => 1,
+    'kodepekerjaan' => '2',
     'namapekerjaan' => 'Atap Serat Semen Gelombang',
 ]);
 
 hspkodepekerjaan3::create([
     'id' => 3,
     'hsppaket3_id' => 1,
+    'kodepekerjaan' => '3',
     'namapekerjaan' => 'Penutup Atap Lainnya',
 ]);
 
 hspkodepekerjaan3::create([
     'id' => 4,
     'hsppaket3_id' => 5,
+    'kodepekerjaan' => '4',
     'namapekerjaan' => 'Langit=langit (Plafon) Akustik',
 ]);
 
 hspkodepekerjaan3::create([
     'id' => 5,
     'hsppaket3_id' => 5,
+    'kodepekerjaan' => '1',
     'namapekerjaan' => 'Langit-langit PLAFON) Lainnya',
 ]);
 

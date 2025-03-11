@@ -250,7 +250,7 @@ color: #45a049;
                                                 <td style="text-align: center;">
                                                     {{ optional($item->hspdivisi)->id }}.
                                                     {{ optional($item->hsppaket)->id }}.
-                                                    {{ optional($item->hspkodepekerjaan)->id }}.
+                                                    {{ optional($item->hspkodepekerjaan)->kodepekerjaan }}.
                                                     {{$item->kode}}
                                                     {{-- {{ optional($item->kode->id) }} --}}
                                                 </td>
