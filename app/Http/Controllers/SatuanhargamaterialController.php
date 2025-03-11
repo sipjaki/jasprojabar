@@ -176,7 +176,7 @@ class SatuanhargamaterialController extends Controller
         //     return response()->json($subdata);
         // }
         return view('frontend.07_ahsp.03_hspkonstruksiumum.01_divisi1.divisi1', [
-            'title' => 'HSP Divisi I Persiapan Pekerjaan',
+            'title' => 'Harga Satuan Pekerjaan Divisi I Persiapan Pekerjaan',
             'data' => $data,
             // 'subdata' => $subdata,
             'perPage' => $perPage,
@@ -232,7 +232,7 @@ class SatuanhargamaterialController extends Controller
         //     return response()->json($subdata);
         // }
         return view('frontend.07_ahsp.03_hspkonstruksiumum.02_divisi2.divisi2', [
-            'title' => 'HSP Divisi 2 Pekerjaan Struktur',
+            'title' => 'Harga Satuan Pekerjaan Divisi 2 Pekerjaan Struktur',
             'data' => $data,
             // 'subdata' => $subdata,
             'perPage' => $perPage,
@@ -287,7 +287,7 @@ class SatuanhargamaterialController extends Controller
         //     return response()->json($subdata);
         // }
         return view('frontend.07_ahsp.03_hspkonstruksiumum.03_divisi3.03_divisi3', [
-            'title' => 'HSP Divisi 3 Pekerjaan Arsitektur',
+            'title' => 'Harga Satuan Pekerjaan Divisi 3 Pekerjaan Arsitektur',
             'data' => $data,
             // 'subdata' => $subdata,
             'perPage' => $perPage,
@@ -341,7 +341,7 @@ class SatuanhargamaterialController extends Controller
         //     return response()->json($subdata);
         // }
         return view('frontend.07_ahsp.03_hspkonstruksiumum.04_divisi4.04_divisi4', [
-            'title' => 'HSP Divisi 4 Pekerjaan Lansekap',
+            'title' => 'Harga Satuan Pekerjaan Divisi 4 Pekerjaan Lansekap',
             'data' => $data,
             // 'subdata' => $subdata,
             'perPage' => $perPage,
