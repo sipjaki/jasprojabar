@@ -14,7 +14,7 @@ return new class extends Migration
         Schema::create('hsppaket2s', function (Blueprint $table) {
             $table->id();
             $table->foreignId('hspkonstruksiumum2_id')->nullable();
-            $table->foreignId('hspdivisi2_id')->nullable();
+            $table->foreignId('hspdivisi_id')->nullable();
             $table->string('hsppaket')->nullable();
             $table->softDeletes();
             $table->timestamps();
