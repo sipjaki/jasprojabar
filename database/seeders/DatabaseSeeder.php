@@ -91,6 +91,12 @@ use App\Models\hspkodepekerjaan2;
 use App\Models\hspkonstruksiumum2;
 use App\Models\subhargadiv2;
 
+// hsp harga divisi 2
+use App\Models\hsppaket3;
+use App\Models\hspkodepekerjaan3;
+use App\Models\hspkonstruksiumum3;
+use App\Models\subhargadiv3;
+
 
 
 // modelbaru
@@ -7733,6 +7739,224 @@ hspkonstruksiumum2::create([
 ]);
 
 
+
+// ============================================= LIST DAFTAR HARGA KONSTRUKSI UMUM DIVISI 3 ===========================
+hsppaket3::create([
+    'id' => 1,
+    'hspdivisi_id' => 3,
+    'hsppaket3' => 'Pekerjaan Penutup Atap',
+]);
+
+hsppaket3::create([
+    'id' => 2,
+    'hspdivisi_id' => 3,
+    'hsppaket3' => 'Pekerjaan Insulasi',
+]);
+
+hsppaket3::create([
+    'id' => 3,
+    'hspdivisi_id' => 3,
+    'hsppaket3' => 'Pekerjaan Aksesoris Atap',
+]);
+
+hsppaket3::create([
+    'id' => 4,
+    'hspdivisi_id' => 3,
+    'hsppaket3' => 'Pekerjaan Waterproofing',
+]);
+
+hsppaket3::create([
+    'id' => 5,
+    'hspdivisi_id' => 3,
+    'hsppaket3' => 'Pekerjaan Langit-langit (Plafon)',
+]);
+
+hsppaket3::create([
+    'id' => 6,
+    'hspdivisi_id' => 3,
+    'hsppaket3' => 'Pekerjaan Pasangan Dinding',
+]);
+
+hsppaket3::create([
+    'id' => 7,
+    'hspdivisi_id' => 3,
+    'hsppaket3' => 'Pekerjaan Plesteran dan Acian',
+]);
+
+hsppaket3::create([
+    'id' => 8,
+    'hspdivisi_id' => 3,
+    'hsppaket3' => 'Pekerjaan Pengecatan dan Pelituran',
+]);
+
+hsppaket3::create([
+    'id' => 9,
+    'hspdivisi_id' => 3,
+    'hsppaket3' => 'Pekerjaan Penutup Lantai',
+]);
+
+hsppaket3::create([
+    'id' => 10,
+    'hspdivisi_id' => 3,
+    'hsppaket3' => 'Pekerjaan Penutup Dinding',
+]);
+
+hsppaket3::create([
+    'id' => 11,
+    'hspdivisi_id' => 3,
+    'hsppaket3' => 'Pekerjaan Pintu dan Jendela',
+]);
+
+hsppaket3::create([
+    'id' => 12,
+    'hspdivisi_id' => 3,
+    'hsppaket3' => 'Pekerjaan Kaca',
+]);
+
+hsppaket3::create([
+    'id' => 13,
+    'hspdivisi_id' => 3,
+    'hsppaket3' => 'Pekerjaan Besi dan Alumunium',
+]);
+
+hsppaket3::create([
+    'id' => 14,
+    'hspdivisi_id' => 3,
+    'hsppaket3' => 'Pekerjaan Kayu',
+]);
+
+hsppaket3::create([
+    'id' => 16,
+    'hspdivisi_id' => 3,
+    'hsppaket3' => 'Pekerjaan Signage',
+]);
+
+hsppaket3::create([
+    'id' => 18,
+    'hspdivisi_id' => 3,
+    'hsppaket3' => 'Pekerjaan Sanitair',
+]);
+
+hspkodepekerjaan3::create([
+    'id' => 1,
+    'hsppaket3_id' => 1,
+    'namapekerjaan' => 'Atap Genteng',
+]);
+
+hspkodepekerjaan3::create([
+    'id' => 2,
+    'hsppaket3_id' => 1,
+    'namapekerjaan' => 'Atap Serat Semen Gelombang',
+]);
+
+hspkodepekerjaan3::create([
+    'id' => 3,
+    'hsppaket3_id' => 1,
+    'namapekerjaan' => 'Penutup Atap Lainnya',
+]);
+
+hspkodepekerjaan3::create([
+    'id' => 4,
+    'hsppaket3_id' => 5,
+    'namapekerjaan' => 'Langit=langit (Plafon) Akustik',
+]);
+
+hspkodepekerjaan3::create([
+    'id' => 5,
+    'hsppaket3_id' => 5,
+    'namapekerjaan' => 'Langit-langit PLAFON) Lainnya',
+]);
+
+hspkonstruksiumum3::create([
+    'hspdivisi_id' => 3,
+    'hsppaket3_id' => 1,
+    'hspkodepekerjaan3_id' => 1,
+    'kode' => '1',
+    'subhargadiv3_id' => 1,
+    'jenispekerjaan' => 'Pemasangan 1 m2 Atap Genteng Palentong Kecil',
+    'hargasatuan' => '104607.25',
+]);
+
+hspkonstruksiumum3::create([
+    'hspdivisi_id' => 3,
+    'hsppaket3_id' => 1,
+    'hspkodepekerjaan3_id' => 1,
+    'kode' => '2',
+    'subhargadiv3_id' => 2,
+    'jenispekerjaan' => 'Pemasangan 1 m2 Atap Genteng Kodok Glazuur',
+    'hargasatuan' => '100207.25',
+]);
+
+hspkonstruksiumum3::create([
+    'hspdivisi_id' => 3,
+    'hsppaket3_id' => 1,
+    'hspkodepekerjaan3_id' => 1,
+    'kode' => '3.a',
+    'subhargadiv3_id' => 3,
+    'jenispekerjaan' => 'Pemasangan 1 m2 Atap Genteng Palentong Besar Uk. 32,5 cm x 23,5 cm Jarak Reng 26 cm',
+    'hargasatuan' => '145505.25',
+]);
+
+hspkonstruksiumum3::create([
+    'hspdivisi_id' => 3,
+    'hsppaket3_id' => 1,
+    'hspkodepekerjaan3_id' => 1,
+    'kode' => '4',
+    'subhargadiv3_id' => 4,
+    'jenispekerjaan' => 'Pemasangan 1 m2 Atap Genteng Beton',
+    'hargasatuan' => '162235.59',
+]);
+
+hspkonstruksiumum3::create([
+    'hspdivisi_id' => 3,
+    'hsppaket3_id' => 1,
+    'hspkodepekerjaan3_id' => 1,
+    'kode' => '5',
+    'subhargadiv3_id' => 5,
+    'jenispekerjaan' => 'Pemasangan 1 m’ Nok/Bubung Genteng Palentong Kecil',
+    'hargasatuan' => '138056.05',
+]);
+
+hspkonstruksiumum3::create([
+    'hspdivisi_id' => 3,
+    'hsppaket3_id' => 1,
+    'hspkodepekerjaan3_id' => 1,
+    'kode' => '6',
+    'subhargadiv3_id' => 6,
+    'jenispekerjaan' => 'Pemasangan 1 m’ Nok/Bubung Genteng Kodok Glazuur',
+    'hargasatuan' => '147076.05',
+]);
+
+hspkonstruksiumum3::create([
+    'hspdivisi_id' => 3,
+    'hsppaket3_id' => 1,
+    'hspkodepekerjaan3_id' => 1,
+    'kode' => '7',
+    'subhargadiv3_id' => 7,
+    'jenispekerjaan' => 'Pemasangan 1 m’ Nok/Bubung Genteng Palentong Besar',
+    'hargasatuan' => '162256.05',
+]);
+
+hspkonstruksiumum3::create([
+    'hspdivisi_id' => 3,
+    'hsppaket3_id' => 1,
+    'hspkodepekerjaan3_id' => 1,
+    'kode' => '8',
+    'subhargadiv3_id' => 8,
+    'jenispekerjaan' => 'Pemasangan 1 m’ Nok/Bubung Genteng Beton',
+    'hargasatuan' => '137970.80',
+]);
+
+// HANYA PERCOBAAN
+hspkonstruksiumum3::create([
+    'hspdivisi_id' => 3,
+    'hsppaket3_id' => 5,
+    'hspkodepekerjaan3_id' => 5,
+    'kode' => '1',
+    'subhargadiv3_id' => 9,
+    'jenispekerjaan' => 'Pemasangan 1 m2 Langit-langit (Plafon) Akustik Ukuran 30 x 30 cm',
+    'hargasatuan' => '76874.60',
+]);
 
 
 // MAKAN

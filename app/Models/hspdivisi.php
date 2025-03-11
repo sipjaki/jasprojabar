@@ -23,6 +23,11 @@ class hspdivisi extends Model
         return $this->belongsTo(hsppaket2::class);
     }
 
+    public function hsppaket3()
+    {
+        return $this->belongsTo(hsppaket3::class);
+    }
+
     public function hspkonstruksiumum()
     {
         return $this->hasMany(hspkonstruksiumum::class);
@@ -31,6 +36,11 @@ class hspdivisi extends Model
     public function hspkonstruksiumum2()
     {
         return $this->hasMany(hspkonstruksiumum2::class);
+    }
+
+    public function hspkonstruksiumum3()
+    {
+        return $this->hasMany(hspkonstruksiumum3::class);
     }
 
     // public function hspkonstruksiumum3()
