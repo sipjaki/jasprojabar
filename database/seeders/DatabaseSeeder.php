@@ -8100,10 +8100,120 @@ hspkonstruksiumum5::create([
     'hspdivisi_id' => 5,
     'hsppaket5_id' => 1,
     'hspkodepekerjaan5_id' => 1,
-    'kode' => '25',
+    'kode' => '1.26',
     'subhargadiv5_id' => 1,
-    'jenispekerjaan' => 'Penanaman 1 buah pohon sedang Ketapang Kencana (Terminalia mantaly) Diameter 3-5 cm, tinggi 3-6 meter, polybag 50 L',
-    'hargasatuan' => '947274.90',
+    'jenispekerjaan' => 'Pemasangan 1 m’ Kabel NYY 3 x 4 mm²',
+    'hargasatuan' => '38717.80',
+]);
+
+hspkonstruksiumum5::create([
+    'hspdivisi_id' => 5,
+    'hsppaket5_id' => 1,
+    'hspkodepekerjaan5_id' => 1,
+    'kode' => '1.35',
+    'subhargadiv5_id' => 2,
+    'jenispekerjaan' => 'Pemasangan 1 m’ Kabel NYY 4 x 4 mm²',
+    'hargasatuan' => '69457.30',
+]);
+
+hspkonstruksiumum5::create([
+    'hspdivisi_id' => 5,
+    'hsppaket5_id' => 1,
+    'hspkodepekerjaan5_id' => 1,
+    'kode' => '1.36',
+    'subhargadiv5_id' => 3,
+    'jenispekerjaan' => 'Pemasangan 1 m’ Kabel NYY 4 x 6 mm²',
+    'hargasatuan' => '93365.80',
+]);
+
+hspkonstruksiumum5::create([
+    'hspdivisi_id' => 5,
+    'hsppaket5_id' => 1,
+    'hspkodepekerjaan5_id' => 1,
+    'kode' => '1.37',
+    'subhargadiv5_id' => 4,
+    'jenispekerjaan' => 'Pemasangan 1 m’ Kabel NYY 4 x 10 mm²',
+    'hargasatuan' => '145479.40',
+]);
+
+hspkonstruksiumum5::create([
+    'hspdivisi_id' => 5,
+    'hsppaket5_id' => 1,
+    'hspkodepekerjaan5_id' => 1,
+    'kode' => '1.38',
+    'subhargadiv5_id' => 5,
+    'jenispekerjaan' => 'Pemasangan 1 m’ Kabel NYY 4 x 16 mm²',
+    'hargasatuan' => '209235.40',
+]);
+
+hspkonstruksiumum5::create([
+    'hspdivisi_id' => 5,
+    'hsppaket5_id' => 1,
+    'hspkodepekerjaan5_id' => 1,
+    'kode' => '1.39',
+    'subhargadiv5_id' => 6,
+    'jenispekerjaan' => 'Pemasangan 1 m’ Kabel NYY 4 x 25 mm²',
+    'hargasatuan' => '318876.80',
+]);
+
+hspkonstruksiumum5::create([
+    'hspdivisi_id' => 5,
+    'hsppaket5_id' => 1,
+    'hspkodepekerjaan5_id' => 1,
+    'kode' => '1.40',
+    'subhargadiv5_id' => 7,
+    'jenispekerjaan' => 'Pemasangan 1 m’ Kabel NYY 4 x 35 mm²',
+    'hargasatuan' => '432682.80',
+]);
+
+hspkonstruksiumum5::create([
+    'hspdivisi_id' => 5,
+    'hsppaket5_id' => 1,
+    'hspkodepekerjaan5_id' => 1,
+    'kode' => '1.41',
+    'subhargadiv5_id' => 8,
+    'jenispekerjaan' => 'Pemasangan 1 m’ Kabel NYY 4 x 50 mm²',
+    'hargasatuan' => '571313.60',
+]);
+
+hspkonstruksiumum5::create([
+    'hspdivisi_id' => 5,
+    'hsppaket5_id' => 1,
+    'hspkodepekerjaan5_id' => 1,
+    'kode' => '1.42',
+    'subhargadiv5_id' => 9,
+    'jenispekerjaan' => 'Pemasangan 1 m’ Kabel NYY 4 x 70 mm²',
+    'hargasatuan' => '812174.00',
+]);
+
+hspkonstruksiumum5::create([
+    'hspdivisi_id' => 5,
+    'hsppaket5_id' => 1,
+    'hspkodepekerjaan5_id' => 1,
+    'kode' => '1.43',
+    'subhargadiv5_id' => 10,
+    'jenispekerjaan' => 'Pemasangan 1 m’ Kabel NYY 4 x 94 mm²',
+    'hargasatuan' => '1116916.90',
+]);
+
+hspkonstruksiumum5::create([
+    'hspdivisi_id' => 5,
+    'hsppaket5_id' => 1,
+    'hspkodepekerjaan5_id' => 1,
+    'kode' => '12.4',
+    'subhargadiv5_id' => 11,
+    'jenispekerjaan' => 'Pemasangan 1 Unit Kabel Tray (Horizontal) 300 x 100 mm',
+    'hargasatuan' => '401790.40',
+]);
+
+hspkonstruksiumum5::create([
+    'hspdivisi_id' => 5,
+    'hsppaket5_id' => 1,
+    'hspkodepekerjaan5_id' => 2,
+    'kode' => '4.a',
+    'subhargadiv5_id' => 12,
+    'jenispekerjaan' => 'Pemasangan 1 Unit Main Distribution Panel (MDP) Wall Mounted ukuran 60 x 100 x 25 Cm',
+    'hargasatuan' => '3829710.50',
 ]);
 
 // MAKAN
