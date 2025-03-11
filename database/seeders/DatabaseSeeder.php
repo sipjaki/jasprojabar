@@ -7672,6 +7672,66 @@ hspkonstruksiumum2::create([
     'hargasatuan' => '221558.70',
 ]);
 
+hspkonstruksiumum2::create([
+    'hspdivisi_id' => 2,
+    'hsppaket2_id' => 1,
+    'hspkodepekerjaan2_id' => 2,
+    'kode' => '1',
+    'subhargadiv2_id' => 4,
+    'jenispekerjaan' => 'Pemasangan  1  m3   Konstruksi  Kuda-kuda  Konvensional,  Kayu Kelas I, II dan III Bentang Sampai Dengan 6 Meter',
+    'hargasatuan' => '17986408.00',
+]);
+
+hspkonstruksiumum2::create([
+    'hspdivisi_id' => 2,
+    'hsppaket2_id' => 1,
+    'hspkodepekerjaan2_id' => 2,
+    'kode' => '2',
+    'subhargadiv2_id' => 5,
+    'jenispekerjaan' => 'Pemasangan 1 m3 Konstruksi Kuda-kuda Expose, Kayu Kelas I',
+    'hargasatuan' => '23606143.00',
+]);
+
+hspkonstruksiumum2::create([
+    'hspdivisi_id' => 2,
+    'hsppaket2_id' => 1,
+    'hspkodepekerjaan2_id' => 2,
+    'kode' => '3',
+    'subhargadiv2_id' => 6,
+    'jenispekerjaan' => 'Pemasangan 1 m3 Konstruksi Gordeng, Kayu kelas II',
+    'hargasatuan' => '17123040.00',
+]);
+
+hspkonstruksiumum2::create([
+    'hspdivisi_id' => 2,
+    'hsppaket2_id' => 1,
+    'hspkodepekerjaan2_id' => 2,
+    'kode' => '4',
+    'subhargadiv2_id' => 7,
+    'jenispekerjaan' => 'Pemasangan 1 m2 Rangka Atap Genteng Keramik, Kayu kelas II',
+    'hargasatuan' => '267844.39',
+]);
+
+hspkonstruksiumum2::create([
+    'hspdivisi_id' => 2,
+    'hsppaket2_id' => 1,
+    'hspkodepekerjaan2_id' => 2,
+    'kode' => '5',
+    'subhargadiv2_id' => 7,
+    'jenispekerjaan' => 'Pemasangan 1 m2 Rangka Atap Genteng Beton, Kayu Kelas II',
+    'hargasatuan' => '296395.99',
+]);
+
+hspkonstruksiumum2::create([
+    'hspdivisi_id' => 2,
+    'hsppaket2_id' => 1,
+    'hspkodepekerjaan2_id' => 2,
+    'kode' => '6',
+    'subhargadiv2_id' => 8,
+    'jenispekerjaan' => 'Pemasangan 1 m2 Rangka Atap Sirap, Kayu Kelas II',
+    'hargasatuan' => '43684.30',
+]);
+
 
 
 
