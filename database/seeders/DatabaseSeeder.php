@@ -103,6 +103,12 @@ use App\Models\hspkodepekerjaan4;
 use App\Models\hspkonstruksiumum4;
 use App\Models\subhargadiv4;
 
+// hsp harga divisi 5
+use App\Models\hsppaket5;
+use App\Models\hspkodepekerjaan5;
+use App\Models\hspkonstruksiumum5;
+use App\Models\subhargadiv5;
+
 
 
 // modelbaru
@@ -8030,6 +8036,74 @@ hspkonstruksiumum4::create([
     'subhargadiv4_id' => 3,
     'jenispekerjaan' => 'Penyiraman 1m2 area tanam untuk 1 hari (dengan selang plastik 3/4 inch)',
     'hargasatuan' => '317.24',
+]);
+
+// ============================================= LIST DAFTAR HARGA KONSTRUKSI UMUM DIVISI 5 ===========================
+hsppaket5::create([
+    'id' => 1,
+    'hspdivisi_id' => 5,
+    'hsppaket5' => 'Pekerjaan Sistem Distribusi Jaringan Listrik',
+]);
+
+hsppaket5::create([
+    'id' => 2,
+    'hspdivisi_id' => 5,
+    'hsppaket5' => 'Pekerjaan Sistem Proteksi Petir',
+]);
+
+hsppaket5::create([
+    'id' => 3,
+    'hspdivisi_id' => 5,
+    'hsppaket5' => 'Pekerjaan Sistem Pencahayaan',
+]);
+
+hsppaket5::create([
+    'id' => 4,
+    'hspdivisi_id' => 5,
+    'hsppaket5' => 'Pekerjaan Sistem Elektronik',
+]);
+
+hsppaket5::create([
+    'id' => 5,
+    'hspdivisi_id' => 5,
+    'hsppaket5' => 'Pekerjaan Sistem Tata Udara',
+]);
+
+hsppaket5::create([
+    'id' => 6,
+    'hspdivisi_id' => 5,
+    'hsppaket5' => 'Pekerjaan Sistem Proteksi Kebakaran',
+]);
+
+hspkodepekerjaan5::create([
+    'id' => 1,
+    'hsppaket5_id' => 1,
+    'kodepekerjaan' => '1',
+    'namapekerjaan' => 'Pemasangan kabel arus kuat (kabel, kabel tray/ladder)',
+]);
+
+hspkodepekerjaan5::create([
+    'id' => 2,
+    'hsppaket5_id' => 1,
+    'kodepekerjaan' => '1',
+    'namapekerjaan' => 'Kabel Tray / Ladder',
+]);
+
+hspkodepekerjaan5::create([
+    'id' => 3,
+    'hsppaket5_id' => 1,
+    'kodepekerjaan' => '2',
+    'namapekerjaan' => 'Pemasangan panel listrik',
+]);
+
+hspkonstruksiumum5::create([
+    'hspdivisi_id' => 5,
+    'hsppaket5_id' => 1,
+    'hspkodepekerjaan5_id' => 1,
+    'kode' => '25',
+    'subhargadiv5_id' => 1,
+    'jenispekerjaan' => 'Penanaman 1 buah pohon sedang Ketapang Kencana (Terminalia mantaly) Diameter 3-5 cm, tinggi 3-6 meter, polybag 50 L',
+    'hargasatuan' => '947274.90',
 ]);
 
 // MAKAN

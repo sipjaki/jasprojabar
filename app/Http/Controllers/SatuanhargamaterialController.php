@@ -184,8 +184,6 @@ class SatuanhargamaterialController extends Controller
         ]);
     }
 
-
-
 // DIVISI 2
 
 
@@ -342,6 +340,60 @@ class SatuanhargamaterialController extends Controller
         // }
         return view('frontend.07_ahsp.03_hspkonstruksiumum.04_divisi4.04_divisi4', [
             'title' => 'Harga Satuan Pekerjaan Divisi 4 Pekerjaan Lansekap',
+            'data' => $data,
+            // 'subdata' => $subdata,
+            'perPage' => $perPage,
+            'search' => $search
+        ]);
+    }
+
+// DIVISI 5
+
+
+    public function hspdivisi5(Request $request)
+    {
+        $perPage = $request->input('perPage', 25);
+        $search = $request->input('search');
+
+        $query = hspkonstruksiumum5::query();
+
+        if ($search) {
+            $query->where('kode', 'LIKE', "%{$search}%")
+                  ->orWhere('jenispekerjaan', 'LIKE', "%{$search}%")
+                  ->orWhere('hargasatuan', 'LIKE', "%{$search}%")
+
+                  ->orWhereHas('hspdivisi', function ($q) use ($search) {
+                      $q->where('hspdivisi', 'LIKE', "%{$search}%"); // 'jabatankerja' = nama kolom di tabel jabatankerja
+                  })
+
+                  ->orWhereHas('hsppaket5', function ($q) use ($search) {
+                      $q->where('hsppaket5', 'LIKE', "%{$search}%"); // 'jenjang' = nama kolom di tabel jenjang
+                  })
+
+                  ->orWhereHas('hspkodepekerjaan5', function ($q) use ($search) {
+                      $q->where('namapekerjaan', 'LIKE', "%{$search}%"); // 'jenjang' = nama kolom di tabel jenjang
+                  });
+        }
+
+        $data = $query->paginate($perPage);
+
+        if ($request->ajax()) {
+            return response()->json([
+                'html' => view('frontend.07_ahsp.03_hspkonstruksiumum.05_divisi5.partials.table', compact('data'))->render()
+            ]);
+        }
+
+        // $subdata = HspKonstruksiUmum::with('subhargadiv1')
+        // ->whereHas('jenispekerjaan', function ($query) use ($jenispekerjaan) {
+        //     $query->where('jenispekerjaan', $jenispekerjaan);
+        // })
+        // ->get();
+
+        // if ($request->ajax()) {
+        //     return response()->json($subdata);
+        // }
+        return view('frontend.07_ahsp.03_hspkonstruksiumum.05_divisi5.05_divisi5', [
+            'title' => 'Harga Satuan Pekerjaan Divisi 5 Pekerjaan Mekanikal dan Elektrikal',
             'data' => $data,
             // 'subdata' => $subdata,
             'perPage' => $perPage,
