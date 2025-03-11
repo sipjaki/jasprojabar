@@ -7624,7 +7624,7 @@ hsppaket2::create([
 ]);
 
 hsppaket2::create([
-    'id' => 6,
+    'id' => 7,
     'hspdivisi_id' => 2,
     'hsppaket2' => 'Pekerjaan Dinding Penahan Tanah',
 ]);
