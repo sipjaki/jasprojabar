@@ -251,14 +251,14 @@ color: #45a049;
                                                 <td style="text-align: center;">{{ $loop->iteration + $start - 1 }}</td>
                                                 <td style="text-align: left;">
                                                     {{ optional($item->hspdivisi)->id }}.
-                                                    {{ optional($item->hsppaket3)->id }}.
+                                                    {{ optional($item->hsppaket4)->id }}.
                                                     {{ optional($item->hspkodepekerjaan3)->kodepekerjaan }}.
                                                     {{$item->kode}}
                                                     {{-- {{ optional($item->kode->id) }} --}}
                                                 </td>
                                                 <td style="text-align: center;">{{$item->hspdivisi->hspdivisi}}</td>
-                                                <td style="text-align: center;">{{$item->hsppaket3->hsppaket3}}</td>
-                                                <td style="text-align: center;">{{$item->hspkodepekerjaan3->namapekerjaan}}</td>
+                                                <td style="text-align: center;">{{$item->hsppaket4->hsppaket4}}</td>
+                                                <td style="text-align: center;">{{$item->hspkodepekerjaan4->namapekerjaan}}</td>
                                                 <td style="cursor: pointer; color: blue; text-decoration: underline;" onclick="showModal('{{ $item->jenispekerjaan }}')">{{$item->jenispekerjaan}}</td>
                                                 <td style="text-align: center;">Rp.</td>
                                                 <td style="text-align: right;">{{ number_format((float) $item->hargasatuan, 0, ',', '.') }},-</td>
@@ -413,7 +413,7 @@ color: #45a049;
                             function searchTable() {
                             let input = document.getElementById("searchInput").value;
 
-                            fetch(`/hspdivisi3?search=${input}`)
+                            fetch(`/hspdivisi4?search=${input}`)
                                 .then(response => response.text())
                                 .then(html => {
                                     let parser = new DOMParser();
