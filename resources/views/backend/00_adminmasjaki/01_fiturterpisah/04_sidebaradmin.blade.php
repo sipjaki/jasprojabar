@@ -40,15 +40,14 @@ item.classList.add('active');
 });
 
 document.addEventListener("DOMContentLoaded", function () {
-    // Ambil semua elemen sidebar-item yang memiliki submenu
     const sidebarItemsWithSub = document.querySelectorAll('.sidebar-item.has-sub');
 
-    // Loop untuk menambahkan event listener pada setiap item
     sidebarItemsWithSub.forEach(item => {
-        const submenu = item.querySelector('.submenu'); // Ambil submenu terkait
+        const submenu = item.querySelector('.submenu');  // Ambil submenu terkait
+        const sidebarLink = item.querySelector('.sidebar-link');  // Ambil link menu
 
-        // Tambahkan event listener klik pada link menu
-        item.querySelector('.sidebar-link').addEventListener('click', function (event) {
+        // Event listener untuk klik pada sidebar-link
+        sidebarLink.addEventListener('click', function (event) {
             event.preventDefault(); // Mencegah aksi default (navigasi)
 
             // Jika submenu sudah terbuka, tutup submenu
@@ -62,6 +61,16 @@ document.addEventListener("DOMContentLoaded", function () {
                 submenu.classList.add('show');
             }
         });
+    });
+
+    // Menutup submenu ketika klik di luar sidebar
+    document.addEventListener('click', function (event) {
+        const isClickInsideSidebar = event.target.closest('.sidebar');
+
+        // Jika klik di luar sidebar, tutup semua submenu
+        if (!isClickInsideSidebar) {
+            document.querySelectorAll('.submenu.show').forEach(sub => sub.classList.remove('show'));
+        }
     });
 });
 
@@ -128,7 +137,9 @@ document.addEventListener("DOMContentLoaded", function () {
 
         </li>
 
-        <li class="sidebar-item has-sub">
+
+        <ul class="sidebar">
+            <li class="sidebar-item has-sub">
                 <a href="#" class="sidebar-link">
                     <i class="bi bi-stack"></i>
                     <span>KELEMBAGAAN</span>
@@ -146,11 +157,14 @@ document.addEventListener("DOMContentLoaded", function () {
                 </ul>
             </li>
             <!-- Menu lainnya -->
+        </ul>
 
-        <li class="sidebar-item has-sub">
+
+        <ul class="sidebar">
+            <li class="sidebar-item has-sub">
                 <a href="#" class="sidebar-link">
                     <i class="bi bi-stack"></i>
-                    <span>PERATURAN</span>
+                    <span>KELEMBAGAAN</span>
                 </a>
                 <ul class="submenu">
                     <li class="submenu-item">
@@ -165,7 +179,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 </ul>
             </li>
             <!-- Menu lainnya -->
-
+        </ul>
 
 
         <li
