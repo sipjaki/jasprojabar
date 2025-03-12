@@ -255,12 +255,32 @@ document.addEventListener("DOMContentLoaded", function () {
             <ul class="submenu ">
 
                 <li class="submenu-item  ">
-                    <a href="/404" class="submenu-link" style="color: white; font-size:16px;">BERITA JAKON</a>
+                    <a href="/404" class="submenu-link" style="color: white; font-size:16px;">BUJK Konstruksi</a>
 
                 </li>
 
                 <li class="submenu-item  ">
-                    <a href="/404" class="submenu-link" style="color: white; font-size:16px;">ARTIKEL JAKON</a>
+                    <a href="/404" class="submenu-link" style="color: white; font-size:16px;">BUJK Konsultasi Konstruksi</a>
+
+                </li>
+
+                <li class="submenu-item  ">
+                    <a href="/404" class="submenu-link" style="color: white; font-size:16px;">Asosiasi Konstruksi</a>
+
+                </li>
+
+                <li class="submenu-item  ">
+                    <a href="/404" class="submenu-link" style="color: white; font-size:16px;">TKK PU</a>
+
+                </li>
+
+                <li class="submenu-item  ">
+                    <a href="/404" class="submenu-link" style="color: white; font-size:16px;">All Data TKK</a>
+
+                </li>
+
+                <li class="submenu-item  ">
+                    <a href="/404" class="submenu-link" style="color: white; font-size:16px;">Profil Paket Pekerjaan</a>
 
                 </li>
 
