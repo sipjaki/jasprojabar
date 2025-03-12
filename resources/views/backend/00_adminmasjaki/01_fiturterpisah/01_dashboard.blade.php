@@ -284,10 +284,14 @@
             <img src="/assets/icon/logokabupatenblora.png" class="img-fluid" alt="img-25" width="20" style="margin-right: 5px;" loading="lazy"></a>
             <img src="/assets/icon/pupr.png" class="img-fluid" alt="img-25" width="20" loading="lazy"></a>
 
-            <p>Dinas Pekerjaan Umum Dan Penataan Ruang Kabupaten Blora Provinsi Jawa Tengah </p>
-            <script>
-                document.write(new Date().getFullYear());
-            </script>
+            <div style="text-align: center; font-size: 18px;">
+                <p>Dinas Pekerjaan Umum Dan Penataan Ruang Kabupaten Blora Provinsi Jawa Tengah</p>
+                <p>
+                    <script>
+                        document.write(new Date().getFullYear());
+                    </script>
+                </p>
+            </div>
             {{-- <p>2025 &copy; Mazer</p> --}}
         </div>
         <div class="float-end">
