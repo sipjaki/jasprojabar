@@ -49,12 +49,19 @@
 
     <div class="sidebar-menu">
         <ul class="menu">
-            <li class="sidebar-title">Menu</li>
+            <li class="sidebar-title">MENU ADMINISTRATOR</li>
 
                 <li class="sidebar-item">
-                    <a href="index.html" class="sidebar-link">
+                    <a href="/" class="sidebar-link">
                         <i class="bi bi-grid-fill"></i>
-                        <span>Dashboard</span>
+                        <span style="font-size: 17px;">DASHBOARD WEB</span>
+                    </a>
+                </li>
+
+                <li class="sidebar-item">
+                    <a href="/404" class="sidebar-link">
+                        <i class="bi bi-grid-fill"></i>
+                        <span style="font-size: 17px;">DASHBOARD ADMIN</span>
                     </a>
                 </li>
 
