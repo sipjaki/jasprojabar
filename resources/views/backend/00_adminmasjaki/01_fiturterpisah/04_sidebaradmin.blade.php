@@ -425,6 +425,144 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
             </li>
+            <li
+                class="sidebar-item  has-sub">
+                <a href="#" class='sidebar-link'>
+                    <i class="bi bi-map-fill"></i>
+                    <span>Maps</span>
+                </a>
+
+                <ul class="submenu ">
+
+                    <li class="submenu-item  ">
+                        <a href="ui-map-google-map.html" class="submenu-link">Google Map</a>
+
+                    </li>
+
+                    <li class="submenu-item  ">
+                        <a href="ui-map-jsvectormap.html" class="submenu-link">JS Vector Map</a>
+
+                    </li>
+
+                </ul>
+
+
+            </li>
+            <li
+                class="sidebar-item  has-sub">
+                <a href="#" class='sidebar-link'>
+                    <i class="bi bi-map-fill"></i>
+                    <span>Maps</span>
+                </a>
+
+                <ul class="submenu ">
+
+                    <li class="submenu-item  ">
+                        <a href="ui-map-google-map.html" class="submenu-link">Google Map</a>
+
+                    </li>
+
+                    <li class="submenu-item  ">
+                        <a href="ui-map-jsvectormap.html" class="submenu-link">JS Vector Map</a>
+
+                    </li>
+
+                </ul>
+
+
+            </li>
+            <li
+                class="sidebar-item  has-sub">
+                <a href="#" class='sidebar-link'>
+                    <i class="bi bi-map-fill"></i>
+                    <span>Maps</span>
+                </a>
+
+                <ul class="submenu ">
+
+                    <li class="submenu-item  ">
+                        <a href="ui-map-google-map.html" class="submenu-link">Google Map</a>
+
+                    </li>
+
+                    <li class="submenu-item  ">
+                        <a href="ui-map-jsvectormap.html" class="submenu-link">JS Vector Map</a>
+
+                    </li>
+
+                </ul>
+
+
+            </li>
+            <li
+                class="sidebar-item  has-sub">
+                <a href="#" class='sidebar-link'>
+                    <i class="bi bi-map-fill"></i>
+                    <span>Maps</span>
+                </a>
+
+                <ul class="submenu ">
+
+                    <li class="submenu-item  ">
+                        <a href="ui-map-google-map.html" class="submenu-link">Google Map</a>
+
+                    </li>
+
+                    <li class="submenu-item  ">
+                        <a href="ui-map-jsvectormap.html" class="submenu-link">JS Vector Map</a>
+
+                    </li>
+
+                </ul>
+
+
+            </li>
+            <li
+                class="sidebar-item  has-sub">
+                <a href="#" class='sidebar-link'>
+                    <i class="bi bi-map-fill"></i>
+                    <span>Maps</span>
+                </a>
+
+                <ul class="submenu ">
+
+                    <li class="submenu-item  ">
+                        <a href="ui-map-google-map.html" class="submenu-link">Google Map</a>
+
+                    </li>
+
+                    <li class="submenu-item  ">
+                        <a href="ui-map-jsvectormap.html" class="submenu-link">JS Vector Map</a>
+
+                    </li>
+
+                </ul>
+
+
+            </li>
+            <li
+                class="sidebar-item  has-sub">
+                <a href="#" class='sidebar-link'>
+                    <i class="bi bi-map-fill"></i>
+                    <span>Maps</span>
+                </a>
+
+                <ul class="submenu ">
+
+                    <li class="submenu-item  ">
+                        <a href="ui-map-google-map.html" class="submenu-link">Google Map</a>
+
+                    </li>
+
+                    <li class="submenu-item  ">
+                        <a href="ui-map-jsvectormap.html" class="submenu-link">JS Vector Map</a>
+
+                    </li>
+
+                </ul>
+
+
+            </li>
         </ul>
     </div>
 </div>
