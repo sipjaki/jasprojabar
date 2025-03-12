@@ -293,8 +293,8 @@ document.addEventListener("DOMContentLoaded", function() {
 
                 <ul class="submenu ">
 
-                    <li class="submenu-item" style="color: white">
-                        <a href="/404" class="submenu-link">STRUKTUR ORGANISASI DPUPR </a>
+                    <li class="submenu-item">
+                        <a href="/404" class="submenu-link" style="color: white;">STRUKTUR ORGANISASI DPUPR </a>
 
                     </li>
 
