@@ -47,7 +47,7 @@
         <li class="sidebar-title">Menu Utama</li>
 
         <li
-            class="sidebar-item active ">
+            class="sidebar-item">
             <a href="/" class='sidebar-link' target="_blank">
                 <i class="bi bi-grid-fill"></i>
                 <span>Dashboard Web</span>
