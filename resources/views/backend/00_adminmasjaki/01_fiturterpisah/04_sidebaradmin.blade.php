@@ -232,12 +232,12 @@ document.addEventListener("DOMContentLoaded", function () {
             <ul class="submenu ">
 
                 <li class="submenu-item  ">
-                    <a href="/404" class="submenu-link">BERITA JAKON</a>
+                    <a href="/404" class="submenu-link" style="color: white; font-size:16px;">BERITA JAKON</a>
 
                 </li>
 
                 <li class="submenu-item  ">
-                    <a href="/404" class="submenu-link">ARTIKEL JAKON</a>
+                    <a href="/404" class="submenu-link" style="color: white; font-size:16px;">ARTIKEL JAKON</a>
 
                 </li>
 
