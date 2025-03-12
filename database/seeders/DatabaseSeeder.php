@@ -8733,7 +8733,7 @@ hspkodepekerjaan9::create([
 hspkonstruksiumum9::create([
     'hspdivisi_id' => 9,
     'hsppaket9_id' => 1,
-    'hspkodepekerjaan8_id' => 1,
+    'hspkodepekerjaan9_id' => 1,
     'kode' => '1.a',
     'subhargadiv9_id' => 1,
     'jenispekerjaan' => 'Pasangan 1 m Pipa PVC Ø 12,5 mm',
@@ -8743,7 +8743,7 @@ hspkonstruksiumum9::create([
 hspkonstruksiumum9::create([
     'hspdivisi_id' => 9,
     'hsppaket9_id' => 1,
-    'hspkodepekerjaan8_id' => 1,
+    'hspkodepekerjaan9_id' => 1,
     'kode' => '1.b',
     'subhargadiv9_id' => 2,
     'jenispekerjaan' => 'Pasangan 1 m Pipa PVC Ø 25 mm',
@@ -8753,7 +8753,7 @@ hspkonstruksiumum9::create([
 hspkonstruksiumum9::create([
     'hspdivisi_id' => 9,
     'hsppaket9_id' => 1,
-    'hspkodepekerjaan8_id' => 1,
+    'hspkodepekerjaan9_id' => 1,
     'kode' => '1.c',
     'subhargadiv9_id' => 3,
     'jenispekerjaan' => 'Pasangan 1 m Pipa PVC Ø 37,5 mm',
@@ -8763,7 +8763,7 @@ hspkonstruksiumum9::create([
 hspkonstruksiumum9::create([
     'hspdivisi_id' => 9,
     'hsppaket9_id' => 1,
-    'hspkodepekerjaan8_id' => 1,
+    'hspkodepekerjaan9_id' => 1,
     'kode' => '1.d',
     'subhargadiv9_id' => 4,
     'jenispekerjaan' => 'Pasangan 1 m Pipa PVC Ø 50 mm',
@@ -8773,7 +8773,7 @@ hspkonstruksiumum9::create([
 hspkonstruksiumum9::create([
     'hspdivisi_id' => 9,
     'hsppaket9_id' => 1,
-    'hspkodepekerjaan8_id' => 1,
+    'hspkodepekerjaan9_id' => 1,
     'kode' => '1.e',
     'subhargadiv9_id' => 5,
     'jenispekerjaan' => 'Pasangan 1 m Pipa PVC Ø 75 mm',
@@ -8783,7 +8783,7 @@ hspkonstruksiumum9::create([
 hspkonstruksiumum9::create([
     'hspdivisi_id' => 9,
     'hsppaket9_id' => 1,
-    'hspkodepekerjaan8_id' => 1,
+    'hspkodepekerjaan9_id' => 1,
     'kode' => '2.a',
     'subhargadiv9_id' => 6,
     'jenispekerjaan' => 'Pasangan 1 m Pipa PVC Ø 100 mm',
@@ -8793,7 +8793,7 @@ hspkonstruksiumum9::create([
 hspkonstruksiumum9::create([
     'hspdivisi_id' => 9,
     'hsppaket9_id' => 2,
-    'hspkodepekerjaan8_id' => 2,
+    'hspkodepekerjaan9_id' => 2,
     'kode' => '1.a',
     'subhargadiv9_id' => 7,
     'jenispekerjaan' => 'Pasangan 1 m Pipa Galvanis Ø 12,5 mm',
@@ -8803,7 +8803,7 @@ hspkonstruksiumum9::create([
 hspkonstruksiumum9::create([
     'hspdivisi_id' => 9,
     'hsppaket9_id' => 2,
-    'hspkodepekerjaan8_id' => 2,
+    'hspkodepekerjaan9_id' => 2,
     'kode' => '1.c',
     'subhargadiv9_id' => 8,
     'jenispekerjaan' => 'Pasangan 1 m Pipa Galvanis Ø 37,5 mm',
@@ -8813,7 +8813,7 @@ hspkonstruksiumum9::create([
 hspkonstruksiumum9::create([
     'hspdivisi_id' => 9,
     'hsppaket9_id' => 2,
-    'hspkodepekerjaan8_id' => 2,
+    'hspkodepekerjaan9_id' => 2,
     'kode' => '1.d',
     'subhargadiv9_id' => 9,
     'jenispekerjaan' => 'Pasangan 1 m Pipa Galvanis Ø 50 mm',
@@ -8823,7 +8823,7 @@ hspkonstruksiumum9::create([
 hspkonstruksiumum9::create([
     'hspdivisi_id' => 9,
     'hsppaket9_id' => 2,
-    'hspkodepekerjaan8_id' => 2,
+    'hspkodepekerjaan9_id' => 2,
     'kode' => '1',
     'subhargadiv9_id' => 10,
     'jenispekerjaan' => 'Pasangan 1 m Pipa Galvanis Ø 63 mm',
@@ -8833,7 +8833,7 @@ hspkonstruksiumum9::create([
 hspkonstruksiumum9::create([
     'hspdivisi_id' => 9,
     'hsppaket9_id' => 2,
-    'hspkodepekerjaan8_id' => 2,
+    'hspkodepekerjaan9_id' => 2,
     'kode' => '1.e',
     'subhargadiv9_id' => 11,
     'jenispekerjaan' => 'Pasangan 1 m Pipa Galvanis Ø 75 mm',
@@ -8843,7 +8843,7 @@ hspkonstruksiumum9::create([
 hspkonstruksiumum9::create([
     'hspdivisi_id' => 9,
     'hsppaket9_id' => 3,
-    'hspkodepekerjaan8_id' => 3,
+    'hspkodepekerjaan9_id' => 3,
     'kode' => '1.a',
     'subhargadiv9_id' => 12,
     'jenispekerjaan' => 'Pasangan 1 m Pipa HDPE Ø 12,5 mm',
@@ -8853,7 +8853,7 @@ hspkonstruksiumum9::create([
 hspkonstruksiumum9::create([
     'hspdivisi_id' => 9,
     'hsppaket9_id' => 3,
-    'hspkodepekerjaan8_id' => 3,
+    'hspkodepekerjaan9_id' => 3,
     'kode' => '1.b',
     'subhargadiv9_id' => 13,
     'jenispekerjaan' => 'Pasangan 1 m Pipa HDPE Ø 37,5 mm',
@@ -8863,7 +8863,7 @@ hspkonstruksiumum9::create([
 hspkonstruksiumum9::create([
     'hspdivisi_id' => 9,
     'hsppaket9_id' => 3,
-    'hspkodepekerjaan8_id' => 3,
+    'hspkodepekerjaan9_id' => 3,
     'kode' => '1.c',
     'subhargadiv9_id' => 14,
     'jenispekerjaan' => 'Pasangan 1 m Pipa HDPE Ø 50 mm',
@@ -8873,7 +8873,7 @@ hspkonstruksiumum9::create([
 hspkonstruksiumum9::create([
     'hspdivisi_id' => 9,
     'hsppaket9_id' => 3,
-    'hspkodepekerjaan8_id' => 3,
+    'hspkodepekerjaan9_id' => 3,
     'kode' => '1.d',
     'subhargadiv9_id' => 15,
     'jenispekerjaan' => 'Pasangan 1 m Pipa HDPE Ø 75 mm',
@@ -8883,7 +8883,7 @@ hspkonstruksiumum9::create([
 hspkonstruksiumum9::create([
     'hspdivisi_id' => 9,
     'hsppaket9_id' => 3,
-    'hspkodepekerjaan8_id' => 3,
+    'hspkodepekerjaan9_id' => 3,
     'kode' => '2',
     'subhargadiv9_id' => 16,
     'jenispekerjaan' => 'Pasangan 1 m Pipa HDPE Ø 100 mm',
@@ -8893,7 +8893,7 @@ hspkonstruksiumum9::create([
 hspkonstruksiumum9::create([
     'hspdivisi_id' => 9,
     'hsppaket9_id' => 3,
-    'hspkodepekerjaan8_id' => 3,
+    'hspkodepekerjaan9_id' => 3,
     'kode' => '4',
     'subhargadiv9_id' => 17,
     'jenispekerjaan' => 'Pasangan 1 m Pipa HDPE  Ø 150 mm',
@@ -8903,7 +8903,7 @@ hspkonstruksiumum9::create([
 hspkonstruksiumum9::create([
     'hspdivisi_id' => 9,
     'hsppaket9_id' => 7,
-    'hspkodepekerjaan8_id' => 4,
+    'hspkodepekerjaan9_id' => 4,
     'kode' => '1.a',
     'subhargadiv9_id' => 18,
     'jenispekerjaan' => 'Pasangan 1 Buah Tee galvanish Ø 12,5 mm',
@@ -8913,7 +8913,7 @@ hspkonstruksiumum9::create([
 hspkonstruksiumum9::create([
     'hspdivisi_id' => 9,
     'hsppaket9_id' => 7,
-    'hspkodepekerjaan8_id' => 4,
+    'hspkodepekerjaan9_id' => 4,
     'kode' => '1.b',
     'subhargadiv9_id' => 19,
     'jenispekerjaan' => 'Pasangan 1 Buah Valve socket Ø 12,5 mm',
@@ -8923,7 +8923,7 @@ hspkonstruksiumum9::create([
 hspkonstruksiumum9::create([
     'hspdivisi_id' => 9,
     'hsppaket9_id' => 7,
-    'hspkodepekerjaan8_id' => 4,
+    'hspkodepekerjaan9_id' => 4,
     'kode' => '1.c',
     'subhargadiv9_id' => 20,
     'jenispekerjaan' => 'Pasangan 1 Buah Clam sadle 2x 1,5 "',
@@ -8933,7 +8933,7 @@ hspkonstruksiumum9::create([
 hspkonstruksiumum9::create([
     'hspdivisi_id' => 9,
     'hsppaket9_id' => 7,
-    'hspkodepekerjaan8_id' => 4,
+    'hspkodepekerjaan9_id' => 4,
     'kode' => '1.d',
     'subhargadiv9_id' => 21,
     'jenispekerjaan' => 'Pasangan 1 Buah Knee galvanish 0,5"',
@@ -8943,7 +8943,7 @@ hspkonstruksiumum9::create([
 hspkonstruksiumum9::create([
     'hspdivisi_id' => 9,
     'hsppaket9_id' => 7,
-    'hspkodepekerjaan8_id' => 4,
+    'hspkodepekerjaan9_id' => 4,
     'kode' => '1.e',
     'subhargadiv9_id' => 22,
     'jenispekerjaan' => 'Pasangan 1 Buah Water moor kuningan 0,5"',
@@ -8953,7 +8953,7 @@ hspkonstruksiumum9::create([
 hspkonstruksiumum9::create([
     'hspdivisi_id' => 9,
     'hsppaket9_id' => 7,
-    'hspkodepekerjaan8_id' => 4,
+    'hspkodepekerjaan9_id' => 4,
     'kode' => '1.f',
     'subhargadiv9_id' => 23,
     'jenispekerjaan' => 'Pasangan 1 Buah Double nippel galvanish 0,5"',
@@ -8963,7 +8963,7 @@ hspkonstruksiumum9::create([
 hspkonstruksiumum9::create([
     'hspdivisi_id' => 9,
     'hsppaket9_id' => 7,
-    'hspkodepekerjaan8_id' => 4,
+    'hspkodepekerjaan9_id' => 4,
     'kode' => '1.g',
     'subhargadiv9_id' => 24,
     'jenispekerjaan' => 'Pasangan 1 Buah Fouket socket galvanish 0,5"',
@@ -8973,7 +8973,7 @@ hspkonstruksiumum9::create([
 hspkonstruksiumum9::create([
     'hspdivisi_id' => 9,
     'hsppaket9_id' => 7,
-    'hspkodepekerjaan8_id' => 4,
+    'hspkodepekerjaan9_id' => 4,
     'kode' => '1.h',
     'subhargadiv9_id' => 25,
     'jenispekerjaan' => 'Pasangan 1 Buah Fouket socket galvanish 0,5"',
@@ -8983,7 +8983,7 @@ hspkonstruksiumum9::create([
 hspkonstruksiumum9::create([
     'hspdivisi_id' => 9,
     'hsppaket9_id' => 7,
-    'hspkodepekerjaan8_id' => 4,
+    'hspkodepekerjaan9_id' => 4,
     'kode' => '1.i',
     'subhargadiv9_id' => 26,
     'jenispekerjaan' => 'Pasangan 1 Buah Fit kran kuningan 0,5"',
@@ -8993,7 +8993,7 @@ hspkonstruksiumum9::create([
 hspkonstruksiumum9::create([
     'hspdivisi_id' => 9,
     'hsppaket9_id' => 7,
-    'hspkodepekerjaan8_id' => 4,
+    'hspkodepekerjaan9_id' => 4,
     'kode' => '1.j',
     'subhargadiv9_id' => 27,
     'jenispekerjaan' => 'Pasangan 1 Buah Bok meter air + Logo',
@@ -9003,7 +9003,7 @@ hspkonstruksiumum9::create([
 hspkonstruksiumum9::create([
     'hspdivisi_id' => 9,
     'hsppaket9_id' => 7,
-    'hspkodepekerjaan8_id' => 4,
+    'hspkodepekerjaan9_id' => 4,
     'kode' => '1.k',
     'subhargadiv9_id' => 28,
     'jenispekerjaan' => 'Pasangan 1 Buah Katup searah kuningan 0,5"',
@@ -9013,7 +9013,7 @@ hspkonstruksiumum9::create([
 hspkonstruksiumum9::create([
     'hspdivisi_id' => 9,
     'hsppaket9_id' => 7,
-    'hspkodepekerjaan8_id' => 4,
+    'hspkodepekerjaan9_id' => 4,
     'kode' => '1.l',
     'subhargadiv9_id' => 29,
     'jenispekerjaan' => 'Pasangan 1 Buah Plug kran kuningan 0,5"',
@@ -9023,7 +9023,7 @@ hspkonstruksiumum9::create([
 hspkonstruksiumum9::create([
     'hspdivisi_id' => 9,
     'hsppaket9_id' => 7,
-    'hspkodepekerjaan8_id' => 4,
+    'hspkodepekerjaan9_id' => 4,
     'kode' => '1.m',
     'subhargadiv9_id' => 30,
     'jenispekerjaan' => 'Pasangan 1 Buah Fouket elbow galvanish 0,5"',
