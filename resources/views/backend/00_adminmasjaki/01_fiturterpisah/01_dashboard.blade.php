@@ -281,6 +281,10 @@
             <footer>
     <div class="footer clearfix mb-0 text-muted">
         <div class="float-start">
+            <img src="/assets/icon/logokabupatenblora.png" class="img-fluid" alt="img-25" width="20" style="margin-right: 5px;" loading="lazy"></a>
+            <img src="/assets/icon/pupr.png" class="img-fluid" alt="img-25" width="20" loading="lazy"></a>
+
+            <p>Dinas Pekerjaan Umum Dan Penataan Ruang Kabupaten Blora Provinsi Jawa Tengah </p>
             <script>
                 document.write(new Date().getFullYear());
             </script>
