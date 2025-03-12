@@ -1211,3 +1211,47 @@ style="
                 <img src="./assets/icon/logokabupatenblora.png" alt="Logo" width="100%" style="max-width: 50px; height: auto;">
                 <img src="./assets/icon/pupr.png" alt="Logo" width="100%" style="max-width: 65px; height: auto;">
             </a>
+
+
+
+            <style>
+                /* Style untuk menu aktif */
+.sidebar-item.active {
+background-color: #00820d;
+color: white;
+}
+
+/* Style dasar untuk sidebar-item */
+.sidebar-item {
+padding: 2px;
+border-radius: 15px;
+cursor: pointer;
+}
+
+/* Style untuk sidebar-link agar bisa terlihat saat hover */
+.sidebar-link {
+text-decoration: none;
+color: inherit; /* Mengambil warna default dari parent */
+}
+
+            </style>
+
+            <script>
+// Menunggu DOM selesai dimuat
+document.addEventListener("DOMContentLoaded", function() {
+// Ambil semua elemen sidebar-item
+const sidebarItems = document.querySelectorAll('.sidebar-item');
+
+// Loop untuk menambahkan event listener klik pada setiap item
+sidebarItems.forEach(item => {
+    item.addEventListener('click', function () {
+        // Hapus kelas 'active' dari semua sidebar-item
+        sidebarItems.forEach(i => i.classList.remove('active'));
+
+        // Tambahkan kelas 'active' ke item yang diklik
+        item.classList.add('active');
+    });
+});
+});
+
+            </script>

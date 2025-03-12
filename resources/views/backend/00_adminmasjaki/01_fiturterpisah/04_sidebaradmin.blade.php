@@ -40,26 +40,26 @@ item.classList.add('active');
 });
 
 document.addEventListener("DOMContentLoaded", function () {
-    // Ambil semua elemen dengan class sidebar-item yang memiliki submenu
+    // Ambil semua elemen sidebar-item yang memiliki submenu
     const sidebarItemsWithSub = document.querySelectorAll('.sidebar-item.has-sub');
 
     // Loop untuk menambahkan event listener pada setiap item
     sidebarItemsWithSub.forEach(item => {
-        const submenu = item.querySelector('.submenu');  // Ambil submenu terkait
+        const submenu = item.querySelector('.submenu'); // Ambil submenu terkait
 
-        // Tambahkan event listener saat klik pada menu
+        // Tambahkan event listener klik pada link menu
         item.querySelector('.sidebar-link').addEventListener('click', function (event) {
             event.preventDefault(); // Mencegah aksi default (navigasi)
 
-            // Cek apakah submenu ini sudah terbuka
+            // Jika submenu sudah terbuka, tutup submenu
             if (submenu.classList.contains('show')) {
-                submenu.classList.remove('show'); // Jika sudah terbuka, tutup submenu ini
+                submenu.classList.remove('show');
             } else {
-                // Jika belum terbuka, tutup semua submenu lain dan buka submenu yang diklik
-                document.querySelectorAll('.submenu.show').forEach(sub => {
-                    sub.classList.remove('show'); // Menutup submenu lainnya
-                });
-                submenu.classList.add('show'); // Membuka submenu yang diklik
+                // Tutup semua submenu lainnya
+                document.querySelectorAll('.submenu.show').forEach(sub => sub.classList.remove('show'));
+
+                // Buka submenu yang diklik
+                submenu.classList.add('show');
             }
         });
     });
