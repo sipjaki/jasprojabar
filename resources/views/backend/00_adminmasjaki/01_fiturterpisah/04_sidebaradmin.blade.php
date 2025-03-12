@@ -64,7 +64,7 @@
 
 /* Style dasar untuk sidebar-item */
 .sidebar-item {
-    padding: 10px;
+    padding: 2px;
     cursor: pointer;
 }
 
@@ -95,18 +95,6 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
                 </script>
-                <!-- Tambahkan item lain jika perlu -->
-
-{{--
-            <li
-                class="sidebar-item active ">
-                <a href="index.html" class='sidebar-link'>
-                    <i class="bi bi-grid-fill"></i>
-                    <span>Dashboard</span>
-                </a>
-
-
-            </li> --}}
 
             <li
                 class="sidebar-item  has-sub">
