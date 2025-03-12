@@ -1,4 +1,4 @@
-@include('backend.00_adminmasjaki.01_fiturterpisah.01_headeradmin')
+@include('backend.00_adminmasjaki.01_fiturterpisah.02_headeradmin')
 
 <body>
     <script src="assets/static/js/initTheme.js"></script>
