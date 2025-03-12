@@ -54,14 +54,14 @@
                 <li class="sidebar-item">
                     <a href="/" class="sidebar-link">
                         <i class="bi bi-grid-fill"></i>
-                        <span style="font-size: 14px;">DASHBOARD WEB</span>
+                        <span style="font-size: 15px;">DASHBOARD WEB</span>
                     </a>
                 </li>
 
                 <li class="sidebar-item">
                     <a href="/404" class="sidebar-link">
                         <i class="bi bi-grid-fill"></i>
-                        <span style="font-size: 14px;">ADMINISTRATOR</span>
+                        <span style="font-size: 15px;">ADMINISTRATOR</span>
                     </a>
                 </li>
 
