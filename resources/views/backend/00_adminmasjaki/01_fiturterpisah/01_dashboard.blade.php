@@ -172,15 +172,15 @@
                 <div class="col-12 col-xl-8">
                     <div class="card">
                         <div class="card-header">
-                            <h4>Latest Comments</h4>
+                            <h4>Agenda Terbaru</h4>
                         </div>
                         <div class="card-body">
                             <div class="table-responsive">
                                 <table class="table table-hover table-lg">
                                     <thead>
                                         <tr>
-                                            <th>Name</th>
-                                            <th>Comment</th>
+                                            <th>Kategori</th>
+                                            <th>Agenda</th>
                                         </tr>
                                     </thead>
                                     <tbody>
@@ -190,11 +190,11 @@
                                                     <div class="avatar avatar-md">
                                                         <img src="./assets/adminmasjaki/compiled/jpg/5.jpg">
                                                     </div>
-                                                    <p class="font-bold ms-3 mb-0">Si Cantik</p>
+                                                    <p class="font-bold ms-3 mb-0">Pelatihan</p>
                                                 </div>
                                             </td>
                                             <td class="col-auto">
-                                                <p class=" mb-0">Congratulations on your graduation!</p>
+                                                <p class=" mb-0">Pelatihan Bangunan Gedung</p>
                                             </td>
                                         </tr>
                                         <tr>
@@ -203,12 +203,11 @@
                                                     <div class="avatar avatar-md">
                                                         <img src="./assets/adminmasjaki/compiled/jpg/2.jpg">
                                                     </div>
-                                                    <p class="font-bold ms-3 mb-0">Si Ganteng</p>
+                                                    <p class="font-bold ms-3 mb-0">Bimbingan Teknis</p>
                                                 </div>
                                             </td>
                                             <td class="col-auto">
-                                                <p class=" mb-0">Wow amazing design! Can you make another tutorial for
-                                                    this design?</p>
+                                                <p class=" mb-0">Bimbingan Teknis TKK</p>
                                             </td>
                                         </tr>
                                     </tbody>
