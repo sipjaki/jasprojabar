@@ -121,6 +121,12 @@ use App\Models\hspkodepekerjaan7;
 use App\Models\hspkonstruksiumum7;
 use App\Models\subhargadiv7;
 
+// hsp harga divisi 8
+use App\Models\hsppaket8;
+use App\Models\hspkodepekerjaan8;
+use App\Models\hspkonstruksiumum8;
+use App\Models\subhargadiv8;
+
 
 
 // modelbaru
@@ -8524,6 +8530,147 @@ hspkonstruksiumum7::create([
     'jenispekerjaan' => 'Pemasangan  1  m1  Kanstin,  tebal  10x18x40  cm  untuk  Jalan Lingkungan (Jalan Lokal)',
     'hargasatuan' => '60570.37',
 ]);
+
+// ============================================= LIST DAFTAR HARGA KONSTRUKSI UMUM DIVISI 8 ===========================
+hsppaket8::create([
+    'id' => 1,
+    'hspdivisi_id' => 8,
+    'hsppaket8' => null,
+]);
+
+hsppaket8::create([
+    'id' => 2,
+    'hspdivisi_id' => 8,
+    'hsppaket8' => 'Saluran Buis Beton',
+]);
+
+hspkodepekerjaan8::create([
+    'id' => 1,
+    'hsppaket8_id' => 2,
+    'kodepekerjaan' => '1',
+    'namapekerjaan' => 'Saluran Buis Beton',
+]);
+
+hspkonstruksiumum8::create([
+    'hspdivisi_id' => 8,
+    'hsppaket8_id' => 2,
+    'hspkodepekerjaan8_id' => 1,
+    'kode' => '1',
+    'subhargadiv8_id' => 1,
+    'jenispekerjaan' => '1 m’ Buis Beton 1/2 D 30 - 100 cm',
+    'hargasatuan' => '73291.41',
+]);
+
+hspkonstruksiumum8::create([
+    'hspdivisi_id' => 8,
+    'hsppaket8_id' => 2,
+    'hspkodepekerjaan8_id' => 1,
+    'kode' => '2',
+    'subhargadiv8_id' => 2,
+    'jenispekerjaan' => '1 m’ Buis Beton 1/2 D 40 - 100 cm',
+    'hargasatuan' => '95929.28',
+]);
+
+hspkonstruksiumum8::create([
+    'hspdivisi_id' => 8,
+    'hsppaket8_id' => 2,
+    'hspkodepekerjaan8_id' => 1,
+    'kode' => '3',
+    'subhargadiv8_id' => 3,
+    'jenispekerjaan' => '1 m’ Buis Beton 1/2 D 50 - 100 cm',
+    'hargasatuan' => '136723.65',
+]);
+
+hspkonstruksiumum8::create([
+    'hspdivisi_id' => 8,
+    'hsppaket8_id' => 2,
+    'hspkodepekerjaan8_id' => 1,
+    'kode' => '4',
+    'subhargadiv8_id' => 4,
+    'jenispekerjaan' => '1 m’ Buis Beton 1/2 D 60 - 100 cm',
+    'hargasatuan' => '204680.03',
+]);
+
+hspkonstruksiumum8::create([
+    'hspdivisi_id' => 8,
+    'hsppaket8_id' => 2,
+    'hspkodepekerjaan8_id' => 1,
+    'kode' => '5',
+    'subhargadiv8_id' => 5,
+    'jenispekerjaan' => '1 m’ Buis Beton 1/2 D 80 - 100 cm',
+    'hargasatuan' => '227324.33',
+]);
+
+hspkonstruksiumum8::create([
+    'hspdivisi_id' => 8,
+    'hsppaket8_id' => 2,
+    'hspkodepekerjaan8_id' => 1,
+    'kode' => '6',
+    'subhargadiv8_id' => 6,
+    'jenispekerjaan' => '1 m’ Buis Beton 1/2 D 100 - 100 cm',
+    'hargasatuan' => '248192.04',
+]);
+
+hspkonstruksiumum8::create([
+    'hspdivisi_id' => 8,
+    'hsppaket8_id' => 2,
+    'hspkodepekerjaan8_id' => 1,
+    'kode' => '7',
+    'subhargadiv8_id' => 7,
+    'jenispekerjaan' => '1 m’ Buis Beton D 30 - 100 cm',
+    'hargasatuan' => '139304.64',
+]);
+
+hspkonstruksiumum8::create([
+    'hspdivisi_id' => 8,
+    'hsppaket8_id' => 2,
+    'hspkodepekerjaan8_id' => 1,
+    'kode' => '8',
+    'subhargadiv8_id' => 8,
+    'jenispekerjaan' => '1 m’ Buis Beton D 40 - 100 cm',
+    'hargasatuan' => '196589.22',
+]);
+
+hspkonstruksiumum8::create([
+    'hspdivisi_id' => 8,
+    'hsppaket8_id' => 2,
+    'hspkodepekerjaan8_id' => 1,
+    'kode' => '9',
+    'subhargadiv8_id' => 9,
+    'jenispekerjaan' => '1 m’ Buis Beton D 50 - 100 cm',
+    'hargasatuan' => '287201.75',
+]);
+
+hspkonstruksiumum8::create([
+    'hspdivisi_id' => 8,
+    'hsppaket8_id' => 2,
+    'hspkodepekerjaan8_id' => 1,
+    'kode' => '10',
+    'subhargadiv8_id' => 10,
+    'jenispekerjaan' => '1 m’ Buis Beton D 60 - 100 cm',
+    'hargasatuan' => '381067.98',
+]);
+
+hspkonstruksiumum8::create([
+    'hspdivisi_id' => 8,
+    'hsppaket8_id' => 2,
+    'hspkodepekerjaan8_id' => 1,
+    'kode' => '11',
+    'subhargadiv8_id' => 11,
+    'jenispekerjaan' => '1 m’ Buis Beton D 80 - 100 cm',
+    'hargasatuan' => '405534.38',
+]);
+
+hspkonstruksiumum8::create([
+    'hspdivisi_id' => 8,
+    'hsppaket8_id' => 2,
+    'hspkodepekerjaan8_id' => 1,
+    'kode' => '12',
+    'subhargadiv8_id' => 12,
+    'jenispekerjaan' => '1 m’ Buis Beton D 100 - 100 cm',
+    'hargasatuan' => '485505.48',
+]);
+
 
 // MAKAN
 
