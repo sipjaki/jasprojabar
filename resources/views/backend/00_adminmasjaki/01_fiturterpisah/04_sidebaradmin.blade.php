@@ -19,7 +19,6 @@ text-decoration: none;
 color: inherit; /* Mengambil warna default dari parent */
 }
 
-
 </style>
 
 <script>
@@ -39,24 +38,17 @@ item.classList.add('active');
 });
 });
 });
-document.addEventListener("DOMContentLoaded", function () {
-    // Ambil semua elemen dengan class sidebar-item yang memiliki submenu
-    const sidebarItemsWithSub = document.querySelectorAll('.sidebar-item.has-sub');
 
-    // Fungsi untuk menutup semua submenu yang terbuka
-    function closeAllSubmenus() {
-        document.querySelectorAll('.submenu.show').forEach(sub => {
-            sub.classList.remove('show');
-        });
-    }
+document.addEventListener("DOMContentLoaded", function () {
+    // Ambil semua elemen sidebar-item yang memiliki submenu
+    const sidebarItemsWithSub = document.querySelectorAll('.sidebar-item.has-sub');
 
     // Loop untuk menambahkan event listener pada setiap item
     sidebarItemsWithSub.forEach(item => {
-        const submenu = item.querySelector('.submenu');  // Ambil submenu terkait
-        const sidebarLink = item.querySelector('.sidebar-link');  // Ambil link menu
+        const submenu = item.querySelector('.submenu'); // Ambil submenu terkait
 
-        // Event listener untuk klik pada sidebar-link
-        sidebarLink.addEventListener('click', function (event) {
+        // Tambahkan event listener klik pada link menu
+        item.querySelector('.sidebar-link').addEventListener('click', function (event) {
             event.preventDefault(); // Mencegah aksi default (navigasi)
 
             // Jika submenu sudah terbuka, tutup submenu
@@ -64,25 +56,14 @@ document.addEventListener("DOMContentLoaded", function () {
                 submenu.classList.remove('show');
             } else {
                 // Tutup semua submenu lainnya
-                closeAllSubmenus();
+                document.querySelectorAll('.submenu.show').forEach(sub => sub.classList.remove('show'));
 
                 // Buka submenu yang diklik
                 submenu.classList.add('show');
             }
         });
     });
-
-    // Menutup semua submenu jika klik di luar sidebar
-    document.addEventListener('click', function (event) {
-        const isClickInsideSidebar = event.target.closest('.sidebar');
-
-        // Jika klik di luar sidebar, tutup semua submenu
-        if (!isClickInsideSidebar) {
-            closeAllSubmenus();
-        }
-    });
 });
-
 
 </script>
 
@@ -147,9 +128,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
         </li>
 
-
-        <ul class="sidebar">
-            <li class="sidebar-item has-sub">
+        <li class="sidebar-item has-sub">
                 <a href="#" class="sidebar-link">
                     <i class="bi bi-stack"></i>
                     <span>KELEMBAGAAN</span>
@@ -167,31 +146,6 @@ document.addEventListener("DOMContentLoaded", function () {
                 </ul>
             </li>
             <!-- Menu lainnya -->
-        </ul>
-
-
-        <ul class="sidebar">
-            <li class="sidebar-item has-sub">
-                <a href="#" class="sidebar-link">
-                    <i class="bi bi-stack"></i>
-                    <span>KELEMBAGAAN</span>
-                </a>
-                <ul class="submenu">
-                    <li class="submenu-item">
-                        <a href="/404" class="submenu-link" style="color: white; font-size:16px;">STRUKTUR ORGANISASI DPUPR</a>
-                    </li>
-                    <li class="submenu-item">
-                        <a href="/404" class="submenu-link" style="color: white; font-size:16px;">PROFIL JAKON DPUPR</a>
-                    </li>
-                    <li class="submenu-item">
-                        <a href="/404" class="submenu-link" style="color: white; font-size:16px;">TUPOKSI JAKON DPUPR</a>
-                    </li>
-                </ul>
-            </li>
-            <!-- Menu lainnya -->
-        </ul>
-
-
         <li
             class="sidebar-item  has-sub">
             <a href="#" class='sidebar-link'>
