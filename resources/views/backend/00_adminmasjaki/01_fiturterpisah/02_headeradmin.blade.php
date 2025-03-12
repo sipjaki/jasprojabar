@@ -16,4 +16,7 @@
   <link rel="stylesheet" href="./assets/adminmasjaki/compiled/css/app.css">
   <link rel="stylesheet" href="./assets/adminmasjaki/compiled/css/app-dark.css">
   <link rel="stylesheet" href="./assets/adminmasjaki/compiled/css/iconly.css">
+
+  <link rel="icon" href="/assets/icon/logokabupatenblora.png" type="image/x-icon">
+
 </head>
