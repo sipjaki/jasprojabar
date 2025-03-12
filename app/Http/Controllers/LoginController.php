@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Validation\ValidationException;
 
+
 class LoginController extends Controller
 {
     //
@@ -82,15 +83,35 @@ public function authenticate(Request $request)
 
 
 
+    // public function logout(Request $request)
+    // {
+    //     Auth::logout();
+
+    //     $request->session()->invalidate();
+
+    //     $request->session()->regenerateToken();
+
+    //     return redirect('/');
+    // }
+
+
     public function logout(Request $request)
     {
+        // Logout user
         Auth::logout();
 
+        // Hapus session
         $request->session()->invalidate();
 
+        // Regenerasi token CSRF
         $request->session()->regenerateToken();
 
+        // Menambahkan pesan flash dengan nama 'logout' sesuai dengan view
+        session()->flash('logout', 'Anda berhasil keluar.');
+
+        // Redirect ke halaman utama
         return redirect('/');
     }
+
 
 }

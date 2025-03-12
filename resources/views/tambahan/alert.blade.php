@@ -49,7 +49,7 @@
             font-weight: bold;
             margin: 20px 0; /* Add spacing around the success text */
         }
-        
+
         .success-textupdate {
             font-size: 36px;
             color: navy; /* Green color */
@@ -106,7 +106,7 @@
             color: black; /* Darker green on hover */
         }
 
-        
+
     </style>
 
 
@@ -193,13 +193,13 @@
     border-radius: 8px; /* Sudut melengkung */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Bayangan untuk efek kedalaman */
     max-width: 400px; /* Lebar maksimal modal */
-    width: 90%; 
+    width: 90%;
     z-index: 9999;/* Lebar responsif */
 }
 
 </style>
 
-@if (session('pertanyaan')) 
+@if (session('pertanyaan'))
     <div class="modal-alert-pertanyaan">
         <div class="modal-content-pertanyaan">
             <img src="/assets/icon/logokabupatenblora.png" alt="Logo SIPJAKIKBB" style="width: 70px; height: 70px; object-fit: cover; margin: 20px;">
@@ -212,6 +212,22 @@
             <br>
             <button class="button-text" style="color: white;">{{ session('pertanyaan') }}</button>
             <p style="margin-top: 25px; font-size:12px; color:#000;">Silakan muat ulang halaman ini ! <br> atau tekan tanda x di pojok kanan atas </p>
+        </div>
+    </div>
+@endif
+@if (session('logout'))
+    <div class="modal-alert-pertanyaan">
+        <div class="modal-content-pertanyaan">
+            <img src="/assets/icon/logokabupatenblora.png" alt="Logo SIPJAKIKBB" style="width: 70px; height: 70px; object-fit: cover; margin: 20px;">
+            <p style="color: black;">Pemerintah Kabupaten Blora</p>
+            <div class="success-text" style="font-size: 18px;">
+                {{ session('logout') }} <!-- Pesan flash ditampilkan di sini -->
+                <button type="button" class="btnalert-view" onclick="document.querySelector('.modal-alert-pertanyaan').style.display='none';" style="float: right;">
+                    &times;
+                </button>
+            </div>
+            <br>
+            <button class="button-text" style="color: white;">{{ session('logout') }}</button>
         </div>
     </div>
 @endif
