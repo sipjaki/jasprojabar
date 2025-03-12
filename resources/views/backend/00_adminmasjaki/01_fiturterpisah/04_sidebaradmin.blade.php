@@ -382,7 +382,7 @@ document.addEventListener("DOMContentLoaded", function () {
             class="sidebar-item  has-sub">
             <a href="#" class='sidebar-link'>
                 <i class="bi bi-file-earmark-spreadsheet-fill"></i>
-                <span>Rantai Pasok</span>
+                <span>RANTAI PASOK</span>
             </a>
 
             <ul class="submenu ">
