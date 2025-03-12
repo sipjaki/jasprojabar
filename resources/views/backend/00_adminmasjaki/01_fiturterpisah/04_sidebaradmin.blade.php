@@ -285,23 +285,14 @@ document.addEventListener("DOMContentLoaded", function() {
 
             </li>
 
-            <li
-                class="sidebar-item  ">
-                <a href="table.html" class='sidebar-link'>
-                    <i class="bi bi-grid-1x2-fill"></i>
-                    <span>Table</span>
-                </a>
 
-
-            </li>
 
             <li
                 class="sidebar-item  has-sub">
                 <a href="#" class='sidebar-link'>
                     <i class="bi bi-file-earmark-spreadsheet-fill"></i>
-                    <span>Datatables</span>
+                    <span>PENGAWASAN</span>
                 </a>
-
                 <ul class="submenu ">
 
                     <li class="submenu-item  ">
