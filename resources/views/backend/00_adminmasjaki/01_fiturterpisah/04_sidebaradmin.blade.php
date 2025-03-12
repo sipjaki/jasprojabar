@@ -61,7 +61,7 @@
                 <li class="sidebar-item">
                     <a href="/404" class="sidebar-link">
                         <i class="bi bi-grid-fill"></i>
-                        <span style="font-size: 17px;">DASHBOARD ADMIN</span>
+                        <span style="font-size: 17px;">ADMINISTRATOR</span>
                     </a>
                 </li>
 
