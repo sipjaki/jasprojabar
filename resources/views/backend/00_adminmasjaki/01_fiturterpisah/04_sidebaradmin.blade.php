@@ -413,7 +413,7 @@ document.addEventListener("DOMContentLoaded", function () {
         </li>
 
 
-        <li class="sidebar-title">Dinas PUPR</li>
+        <li class="sidebar-title">DINAS PUPR</li>
 
 
         <li
