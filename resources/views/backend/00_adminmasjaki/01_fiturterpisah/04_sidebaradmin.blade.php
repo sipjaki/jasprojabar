@@ -413,13 +413,40 @@ document.addEventListener("DOMContentLoaded", function () {
         </li>
 
 
-        <li class="sidebar-title">Forms &amp; Tables</li>
+        <li class="sidebar-title">Dinas PUPR</li>
+
+
+        <li
+            class="sidebar-item  has-sub">
+            <a href="#" class='sidebar-link'>
+                <i class="bi bi-file-earmark-spreadsheet-fill"></i>
+                <span>BAHAN PERSENTASE</span>
+            </a>
+
+            <ul class="submenu ">
+
+                <li class="submenu-item  ">
+                    <a href="/404" class="submenu-link" style="color: white; font-size:16px;">MATERI 1 </a>
+
+                </li>
+
+                <li class="submenu-item  ">
+                    <a href="/404" class="submenu-link" style="color: white; font-size:16px;">MATERI 2 </a>
+
+                </li>
+
+
+            </ul>
+
+
+        </li>
+
 
         <li
             class="sidebar-item  has-sub">
             <a href="#" class='sidebar-link'>
                 <i class="bi bi-hexagon-fill"></i>
-                <span>Form Elements</span>
+                <span>MATERI </span>
             </a>
 
             <ul class="submenu ">
