@@ -136,6 +136,75 @@ document.addEventListener("DOMContentLoaded", function() {
 
             </li>
 
+
+            <li
+                class="sidebar-item  has-sub">
+                <a href="#" class='sidebar-link'>
+                    <i class="bi bi-journal-check"></i>
+                    <span>PERATURAN</span>
+                </a>
+
+                <ul class="submenu ">
+
+                    <li class="submenu-item">
+                        <a href="/404" class="submenu-link" style="color: white; font-size:17px;">Standar Biaya Umum</a>
+                    </li>
+
+                    <li class="submenu-item">
+                        <a href="/404" class="submenu-link" style="color: white; font-size:17px;">Undang-undang</a>
+                    </li>
+
+                    <li class="submenu-item">
+                        <a href="/404" class="submenu-link" style="color: white; font-size:17px;">Peraturan Pemerintah </a>
+                    </li>
+
+                    <li class="submenu-item">
+                        <a href="/404" class="submenu-link" style="color: white; font-size:17px;">Peraturan Presiden </a>
+                    </li>
+
+                    <li class="submenu-item">
+                        <a href="/404" class="submenu-link" style="color: white; font-size:17px;">Peraturan Menteri</a>
+                    </li>
+
+                    <li class="submenu-item">
+                        <a href="/404" class="submenu-link" style="color: white; font-size:17px;">Keputusan Menteri</a>
+                    </li>
+
+                    <li class="submenu-item">
+                        <a href="/404" class="submenu-link" style="color: white; font-size:17px;">Surat Edaran Menteri</a>
+                    </li>
+
+                    <li class="submenu-item">
+                        <a href="/404" class="submenu-link" style="color: white; font-size:17px;">Surat Referensi</a>
+                    </li>
+
+                    <li class="submenu-item">
+                        <a href="/404" class="submenu-link" style="color: white; font-size:17px;">Peraturan Daerah</a>
+                    </li>
+
+                    <li class="submenu-item">
+                        <a href="/404" class="submenu-link" style="color: white; font-size:17px;">Peraturan Daerah</a>
+                    </li>
+
+                    <li class="submenu-item">
+                        <a href="/404" class="submenu-link" style="color: white; font-size:17px;">Peraturan Gubernur</a>
+                    </li>
+
+                    <li class="submenu-item">
+                        <a href="/404" class="submenu-link" style="color: white; font-size:17px;">Peraturan WaliKota/Bupati</a>
+                    </li>
+
+                    <li class="submenu-item">
+                        <a href="/404" class="submenu-link" style="color: white; font-size:17px;">Surat Keputusan</a>
+                    </li>
+
+                </ul>
+
+
+
+            </li>
+
+
             <li
                 class="sidebar-item  has-sub">
                 <a href="#" class='sidebar-link'>
@@ -270,27 +339,8 @@ document.addEventListener("DOMContentLoaded", function() {
                 class="sidebar-item  ">
                 <a href="form-layout.html" class='sidebar-link'>
                     <i class="bi bi-file-earmark-medical-fill"></i>
-                    <span>Form Layout</span>
+                    <span>PERATURAN</span>
                 </a>
-
-
-            </li>
-
-            <li
-                class="sidebar-item  has-sub">
-                <a href="#" class='sidebar-link'>
-                    <i class="bi bi-journal-check"></i>
-                    <span>Form Validation</span>
-                </a>
-
-                <ul class="submenu ">
-
-                    <li class="submenu-item  ">
-                        <a href="form-validation-parsley.html" class="submenu-link">Parsley</a>
-
-                    </li>
-
-                </ul>
 
 
             </li>
