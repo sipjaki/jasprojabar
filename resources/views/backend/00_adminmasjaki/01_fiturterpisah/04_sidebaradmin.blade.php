@@ -236,13 +236,13 @@
 
             </li>
 
-            <li class="sidebar-title">Forms &amp; Tables</li>
+            <li class="sidebar-title">Master Data Mas Jaki</li>
 
             <li
                 class="sidebar-item  has-sub">
                 <a href="#" class='sidebar-link'>
                     <i class="bi bi-hexagon-fill"></i>
-                    <span>Form Elements</span>
+                    <span>Kelembagaan</span>
                 </a>
 
                 <ul class="submenu ">
