@@ -52,7 +52,7 @@
             <li class="sidebar-title">MENU ADMINISTRATOR</li>
 
                 <li class="sidebar-item">
-                    <a href="/" class="sidebar-link">
+                    <a href="/" class="sidebar-link" target="_blank">
                         <i class="bi bi-grid-fill"></i>
                         <span style="font-size: 15px;">DASHBOARD WEB</span>
                     </a>
