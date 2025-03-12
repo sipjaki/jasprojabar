@@ -6,8 +6,8 @@
     <div class="d-flex justify-content-between align-items-center">
         <div class="logo">
             <a href="#">
-                <img src="./assets/icon/logokabupatenblora.png" alt="Logo" width="100%" style="max-width: 65px; height: auto;">
-                <img src="./assets/icon/pupr.png" alt="Logo" width="100%" style="max-width: 65px; height: auto;">
+                <img src="./assets/icon/logokabupatenblora.png" alt="Logo" width="100%" style="max-width: 50px; height: auto;">
+                <img src="./assets/icon/pupr.png" alt="Logo" width="100%" style="max-width: 50px; height: auto;">
             </a>
 
         </div>
