@@ -14,7 +14,7 @@
             </header>
 
 <div class="page-heading">
-    <h3>Selamat Datang ! {{ auth()->user()->username }} di Sistem Informasi Pembina Jasa Konstruksi Kabupaten Blora anda adalah  {{ auth()->user()->statusadmin->statusadmin }}</h3>
+    <h4>Selamat Datang ! {{ auth()->user()->username }} di Sistem Informasi Pembina Jasa Konstruksi Kabupaten Blora Anda Adalah  {{ auth()->user()->statusadmin->statusadmin }}</h4>
 </div>
 <div class="page-content">
     <section class="row">
