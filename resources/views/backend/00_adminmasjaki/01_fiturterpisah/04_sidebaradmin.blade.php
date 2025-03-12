@@ -282,7 +282,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
             </li>
 
-            <li class="sidebar-title">Master Data Mas Jaki</li>
+            <li class="sidebar-title">MASTER DATA MAS JAKI</li>
 
             <li
                 class="sidebar-item  has-sub">
