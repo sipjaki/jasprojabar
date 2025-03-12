@@ -127,6 +127,12 @@ use App\Models\hspkodepekerjaan8;
 use App\Models\hspkonstruksiumum8;
 use App\Models\subhargadiv8;
 
+// hsp harga divisi 9
+use App\Models\hsppaket9;
+use App\Models\hspkodepekerjaan9;
+use App\Models\hspkonstruksiumum9;
+use App\Models\subhargadiv9;
+
 
 
 // modelbaru
@@ -8669,6 +8675,359 @@ hspkonstruksiumum8::create([
     'subhargadiv8_id' => 12,
     'jenispekerjaan' => '1 m’ Buis Beton D 100 - 100 cm',
     'hargasatuan' => '485505.48',
+]);
+
+// ============================================= LIST DAFTAR HARGA KONSTRUKSI UMUM DIVISI 9 ===========================
+hsppaket9::create([
+    'id' => 1,
+    'hspdivisi_id' => 9,
+    'hsppaket9' => 'Pipa PVC',
+]);
+
+hsppaket9::create([
+    'id' => 2,
+    'hspdivisi_id' => 9,
+    'hsppaket9' => 'Pipa Galvanis',
+]);
+
+hsppaket9::create([
+    'id' => 3,
+    'hspdivisi_id' => 9,
+    'hsppaket9' => 'Pipa HDPE/PE',
+]);
+
+hsppaket9::create([
+    'id' => 7,
+    'hspdivisi_id' => 9,
+    'hsppaket9' => 'Aksesoris Pipa',
+]);
+
+hspkodepekerjaan9::create([
+    'id' => 1,
+    'hsppaket9_id' => 1,
+    'kodepekerjaan' => '1',
+    'namapekerjaan' => 'Pemasangan Pipa PVC',
+]);
+
+hspkodepekerjaan9::create([
+    'id' => 2,
+    'hsppaket9_id' => 2,
+    'kodepekerjaan' => '1',
+    'namapekerjaan' => 'Pemasangan Pipa Galvanis',
+]);
+
+hspkodepekerjaan9::create([
+    'id' => 3,
+    'hsppaket9_id' => 3,
+    'kodepekerjaan' => '1',
+    'namapekerjaan' => 'Pemasangan Pipa HDPE',
+]);
+
+hspkodepekerjaan9::create([
+    'id' => 4,
+    'hsppaket9_id' => 7,
+    'kodepekerjaan' => '3',
+    'namapekerjaan' => 'Pasangan Aksesoris Tee',
+]);
+
+hspkonstruksiumum9::create([
+    'hspdivisi_id' => 9,
+    'hsppaket9_id' => 1,
+    'hspkodepekerjaan8_id' => 1,
+    'kode' => '1.a',
+    'subhargadiv9_id' => 1,
+    'jenispekerjaan' => 'Pasangan 1 m Pipa PVC Ø 12,5 mm',
+    'hargasatuan' => '29354.60',
+]);
+
+hspkonstruksiumum9::create([
+    'hspdivisi_id' => 9,
+    'hsppaket9_id' => 1,
+    'hspkodepekerjaan8_id' => 1,
+    'kode' => '1.b',
+    'subhargadiv9_id' => 2,
+    'jenispekerjaan' => 'Pasangan 1 m Pipa PVC Ø 25 mm',
+    'hargasatuan' => '39254.60',
+]);
+
+hspkonstruksiumum9::create([
+    'hspdivisi_id' => 9,
+    'hsppaket9_id' => 1,
+    'hspkodepekerjaan8_id' => 1,
+    'kode' => '1.c',
+    'subhargadiv9_id' => 3,
+    'jenispekerjaan' => 'Pasangan 1 m Pipa PVC Ø 37,5 mm',
+    'hargasatuan' => '53004.60',
+]);
+
+hspkonstruksiumum9::create([
+    'hspdivisi_id' => 9,
+    'hsppaket9_id' => 1,
+    'hspkodepekerjaan8_id' => 1,
+    'kode' => '1.d',
+    'subhargadiv9_id' => 4,
+    'jenispekerjaan' => 'Pasangan 1 m Pipa PVC Ø 50 mm',
+    'hargasatuan' => '56854.60',
+]);
+
+hspkonstruksiumum9::create([
+    'hspdivisi_id' => 9,
+    'hsppaket9_id' => 1,
+    'hspkodepekerjaan8_id' => 1,
+    'kode' => '1.e',
+    'subhargadiv9_id' => 5,
+    'jenispekerjaan' => 'Pasangan 1 m Pipa PVC Ø 75 mm',
+    'hargasatuan' => '86004.60',
+]);
+
+hspkonstruksiumum9::create([
+    'hspdivisi_id' => 9,
+    'hsppaket9_id' => 1,
+    'hspkodepekerjaan8_id' => 1,
+    'kode' => '2.a',
+    'subhargadiv9_id' => 6,
+    'jenispekerjaan' => 'Pasangan 1 m Pipa PVC Ø 100 mm',
+    'hargasatuan' => '200973.30',
+]);
+
+hspkonstruksiumum9::create([
+    'hspdivisi_id' => 9,
+    'hsppaket9_id' => 2,
+    'hspkodepekerjaan8_id' => 2,
+    'kode' => '1.a',
+    'subhargadiv9_id' => 7,
+    'jenispekerjaan' => 'Pasangan 1 m Pipa Galvanis Ø 12,5 mm',
+    'hargasatuan' => '82788.57',
+]);
+
+hspkonstruksiumum9::create([
+    'hspdivisi_id' => 9,
+    'hsppaket9_id' => 2,
+    'hspkodepekerjaan8_id' => 2,
+    'kode' => '1.c',
+    'subhargadiv9_id' => 8,
+    'jenispekerjaan' => 'Pasangan 1 m Pipa Galvanis Ø 37,5 mm',
+    'hargasatuan' => '93055.23',
+]);
+
+hspkonstruksiumum9::create([
+    'hspdivisi_id' => 9,
+    'hsppaket9_id' => 2,
+    'hspkodepekerjaan8_id' => 2,
+    'kode' => '1.d',
+    'subhargadiv9_id' => 9,
+    'jenispekerjaan' => 'Pasangan 1 m Pipa Galvanis Ø 50 mm',
+    'hargasatuan' => '110655.23',
+]);
+
+hspkonstruksiumum9::create([
+    'hspdivisi_id' => 9,
+    'hsppaket9_id' => 2,
+    'hspkodepekerjaan8_id' => 2,
+    'kode' => '1',
+    'subhargadiv9_id' => 10,
+    'jenispekerjaan' => 'Pasangan 1 m Pipa Galvanis Ø 63 mm',
+    'hargasatuan' => '121838.57',
+]);
+
+hspkonstruksiumum9::create([
+    'hspdivisi_id' => 9,
+    'hsppaket9_id' => 2,
+    'hspkodepekerjaan8_id' => 2,
+    'kode' => '1.e',
+    'subhargadiv9_id' => 11,
+    'jenispekerjaan' => 'Pasangan 1 m Pipa Galvanis Ø 75 mm',
+    'hargasatuan' => '167121.90',
+]);
+
+hspkonstruksiumum9::create([
+    'hspdivisi_id' => 9,
+    'hsppaket9_id' => 3,
+    'hspkodepekerjaan8_id' => 3,
+    'kode' => '1.a',
+    'subhargadiv9_id' => 12,
+    'jenispekerjaan' => 'Pasangan 1 m Pipa HDPE Ø 12,5 mm',
+    'hargasatuan' => '21027.60',
+]);
+
+hspkonstruksiumum9::create([
+    'hspdivisi_id' => 9,
+    'hsppaket9_id' => 3,
+    'hspkodepekerjaan8_id' => 3,
+    'kode' => '1.b',
+    'subhargadiv9_id' => 13,
+    'jenispekerjaan' => 'Pasangan 1 m Pipa HDPE Ø 37,5 mm',
+    'hargasatuan' => '44677.60',
+]);
+
+hspkonstruksiumum9::create([
+    'hspdivisi_id' => 9,
+    'hsppaket9_id' => 3,
+    'hspkodepekerjaan8_id' => 3,
+    'kode' => '1.c',
+    'subhargadiv9_id' => 14,
+    'jenispekerjaan' => 'Pasangan 1 m Pipa HDPE Ø 50 mm',
+    'hargasatuan' => '53807.60',
+]);
+
+hspkonstruksiumum9::create([
+    'hspdivisi_id' => 9,
+    'hsppaket9_id' => 3,
+    'hspkodepekerjaan8_id' => 3,
+    'kode' => '1.d',
+    'subhargadiv9_id' => 15,
+    'jenispekerjaan' => 'Pasangan 1 m Pipa HDPE Ø 75 mm',
+    'hargasatuan' => '95827.60',
+]);
+
+hspkonstruksiumum9::create([
+    'hspdivisi_id' => 9,
+    'hsppaket9_id' => 3,
+    'hspkodepekerjaan8_id' => 3,
+    'kode' => '2',
+    'subhargadiv9_id' => 16,
+    'jenispekerjaan' => 'Pasangan 1 m Pipa HDPE Ø 100 mm',
+    'hargasatuan' => '137661.70',
+]);
+
+hspkonstruksiumum9::create([
+    'hspdivisi_id' => 9,
+    'hsppaket9_id' => 3,
+    'hspkodepekerjaan8_id' => 3,
+    'kode' => '4',
+    'subhargadiv9_id' => 17,
+    'jenispekerjaan' => 'Pasangan 1 m Pipa HDPE  Ø 150 mm',
+    'hargasatuan' => '277630.10',
+]);
+
+hspkonstruksiumum9::create([
+    'hspdivisi_id' => 9,
+    'hsppaket9_id' => 7,
+    'hspkodepekerjaan8_id' => 4,
+    'kode' => '1.a',
+    'subhargadiv9_id' => 18,
+    'jenispekerjaan' => 'Pasangan 1 Buah Tee galvanish Ø 12,5 mm',
+    'hargasatuan' => '51608.70',
+]);
+
+hspkonstruksiumum9::create([
+    'hspdivisi_id' => 9,
+    'hsppaket9_id' => 7,
+    'hspkodepekerjaan8_id' => 4,
+    'kode' => '1.b',
+    'subhargadiv9_id' => 19,
+    'jenispekerjaan' => 'Pasangan 1 Buah Valve socket Ø 12,5 mm',
+    'hargasatuan' => '51608.70',
+]);
+
+hspkonstruksiumum9::create([
+    'hspdivisi_id' => 9,
+    'hsppaket9_id' => 7,
+    'hspkodepekerjaan8_id' => 4,
+    'kode' => '1.c',
+    'subhargadiv9_id' => 20,
+    'jenispekerjaan' => 'Pasangan 1 Buah Clam sadle 2x 1,5 "',
+    'hargasatuan' => '73608.70',
+]);
+
+hspkonstruksiumum9::create([
+    'hspdivisi_id' => 9,
+    'hsppaket9_id' => 7,
+    'hspkodepekerjaan8_id' => 4,
+    'kode' => '1.d',
+    'subhargadiv9_id' => 21,
+    'jenispekerjaan' => 'Pasangan 1 Buah Knee galvanish 0,5"',
+    'hargasatuan' => '51608.70',
+]);
+
+hspkonstruksiumum9::create([
+    'hspdivisi_id' => 9,
+    'hsppaket9_id' => 7,
+    'hspkodepekerjaan8_id' => 4,
+    'kode' => '1.e',
+    'subhargadiv9_id' => 22,
+    'jenispekerjaan' => 'Pasangan 1 Buah Water moor kuningan 0,5"',
+    'hargasatuan' => '54358.70',
+]);
+
+hspkonstruksiumum9::create([
+    'hspdivisi_id' => 9,
+    'hsppaket9_id' => 7,
+    'hspkodepekerjaan8_id' => 4,
+    'kode' => '1.f',
+    'subhargadiv9_id' => 23,
+    'jenispekerjaan' => 'Pasangan 1 Buah Double nippel galvanish 0,5"',
+    'hargasatuan' => '51608.70',
+]);
+
+hspkonstruksiumum9::create([
+    'hspdivisi_id' => 9,
+    'hsppaket9_id' => 7,
+    'hspkodepekerjaan8_id' => 4,
+    'kode' => '1.g',
+    'subhargadiv9_id' => 24,
+    'jenispekerjaan' => 'Pasangan 1 Buah Fouket socket galvanish 0,5"',
+    'hargasatuan' => '68108.70',
+]);
+
+hspkonstruksiumum9::create([
+    'hspdivisi_id' => 9,
+    'hsppaket9_id' => 7,
+    'hspkodepekerjaan8_id' => 4,
+    'kode' => '1.h',
+    'subhargadiv9_id' => 25,
+    'jenispekerjaan' => 'Pasangan 1 Buah Fouket socket galvanish 0,5"',
+    'hargasatuan' => '57108.70',
+]);
+
+hspkonstruksiumum9::create([
+    'hspdivisi_id' => 9,
+    'hsppaket9_id' => 7,
+    'hspkodepekerjaan8_id' => 4,
+    'kode' => '1.i',
+    'subhargadiv9_id' => 26,
+    'jenispekerjaan' => 'Pasangan 1 Buah Fit kran kuningan 0,5"',
+    'hargasatuan' => '51608.70',
+]);
+
+hspkonstruksiumum9::create([
+    'hspdivisi_id' => 9,
+    'hsppaket9_id' => 7,
+    'hspkodepekerjaan8_id' => 4,
+    'kode' => '1.j',
+    'subhargadiv9_id' => 27,
+    'jenispekerjaan' => 'Pasangan 1 Buah Bok meter air + Logo',
+    'hargasatuan' => '194608.70',
+]);
+
+hspkonstruksiumum9::create([
+    'hspdivisi_id' => 9,
+    'hsppaket9_id' => 7,
+    'hspkodepekerjaan8_id' => 4,
+    'kode' => '1.k',
+    'subhargadiv9_id' => 28,
+    'jenispekerjaan' => 'Pasangan 1 Buah Katup searah kuningan 0,5"',
+    'hargasatuan' => '111008.70',
+]);
+
+hspkonstruksiumum9::create([
+    'hspdivisi_id' => 9,
+    'hsppaket9_id' => 7,
+    'hspkodepekerjaan8_id' => 4,
+    'kode' => '1.l',
+    'subhargadiv9_id' => 29,
+    'jenispekerjaan' => 'Pasangan 1 Buah Plug kran kuningan 0,5"',
+    'hargasatuan' => '117608.70',
+]);
+
+hspkonstruksiumum9::create([
+    'hspdivisi_id' => 9,
+    'hsppaket9_id' => 7,
+    'hspkodepekerjaan8_id' => 4,
+    'kode' => '1.m',
+    'subhargadiv9_id' => 30,
+    'jenispekerjaan' => 'Pasangan 1 Buah Fouket elbow galvanish 0,5"',
+    'hargasatuan' => '51608.70',
 ]);
 
 
