@@ -290,6 +290,90 @@ document.addEventListener("DOMContentLoaded", function () {
         </li>
 
 
+
+        <li
+            class="sidebar-item  has-sub">
+            <a href="#" class='sidebar-link'>
+                <i class="bi bi-file-earmark-spreadsheet-fill"></i>
+                <span>PEMBINAAN</span>
+            </a>
+
+            <ul class="submenu ">
+
+                <li class="submenu-item  ">
+                    <a href="/404" class="submenu-link" style="color: white; font-size:16px;">Agenda Pelatihan</a>
+
+                </li>
+
+                <li class="submenu-item  ">
+                    <a href="/404" class="submenu-link" style="color: white; font-size:16px;">Daftar Peserta Tenaga Kerja Konstruksi</a>
+
+                </li>
+
+            </ul>
+
+
+        </li>
+
+        <li
+            class="sidebar-item  has-sub">
+            <a href="#" class='sidebar-link'>
+                <i class="bi bi-file-earmark-spreadsheet-fill"></i>
+                <span>PENGAWASAN</span>
+            </a>
+
+            <ul class="submenu ">
+
+                <li class="submenu-item  ">
+                    <a href="/404" class="submenu-link" style="color: white; font-size:16px;">Tertib Jasa Konstruksi</a>
+
+                </li>
+
+                <li class="submenu-item  ">
+                    <a href="/404" class="submenu-link" style="color: white; font-size:16px;">Pengawasan BUJK</a>
+
+                </li>
+
+                <li class="submenu-item  ">
+                    <a href="/404" class="submenu-link" style="color: white; font-size:16px;">Kecelakaan Kerja</a>
+
+                </li>
+
+            </ul>
+
+
+        </li>
+
+        <li
+            class="sidebar-item  has-sub">
+            <a href="#" class='sidebar-link'>
+                <i class="bi bi-file-earmark-spreadsheet-fill"></i>
+                <span>AHSP</span>
+            </a>
+
+            <ul class="submenu ">
+
+                <li class="submenu-item  ">
+                    <a href="/404" class="submenu-link" style="color: white; font-size:16px;">Standar Biaya Material </a>
+
+                </li>
+
+                <li class="submenu-item  ">
+                    <a href="/404" class="submenu-link" style="color: white; font-size:16px;">Standar Biaya Upah Tenaga Kerja</a>
+
+                </li>
+
+                <li class="submenu-item  ">
+                    <a href="/404" class="submenu-link" style="color: white; font-size:16px;">Standar Biaya Peralatan</a>
+
+                </li>
+
+            </ul>
+
+
+        </li>
+
+
         <li class="sidebar-title">Forms &amp; Tables</li>
 
         <li
