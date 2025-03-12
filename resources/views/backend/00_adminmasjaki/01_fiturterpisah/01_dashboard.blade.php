@@ -34,8 +34,8 @@
                                     </div>
                                 </div>
                                 <div class="col-md-8 col-lg-12 col-xl-12 col-xxl-7">
-                                    <h6 class="text-muted font-semibold">Profile Views</h6>
-                                    <h6 class="font-extrabold mb-0">112.000</h6>
+                                    <h6 class="text-muted font-semibold">BUJK Kontraktor</h6>
+                                    <h6 class="font-extrabold mb-0">324</h6>
                                 </div>
                             </div>
                         </div>
@@ -51,8 +51,8 @@
                                     </div>
                                 </div>
                                 <div class="col-md-8 col-lg-12 col-xl-12 col-xxl-7">
-                                    <h6 class="text-muted font-semibold">Followers</h6>
-                                    <h6 class="font-extrabold mb-0">183.000</h6>
+                                    <h6 class="text-muted font-semibold">BUJK Konsultasi Konstruksi</h6>
+                                    <h6 class="font-extrabold mb-0">123</h6>
                                 </div>
                             </div>
                         </div>
@@ -68,8 +68,8 @@
                                     </div>
                                 </div>
                                 <div class="col-md-8 col-lg-12 col-xl-12 col-xxl-7">
-                                    <h6 class="text-muted font-semibold">Following</h6>
-                                    <h6 class="font-extrabold mb-0">80.000</h6>
+                                    <h6 class="text-muted font-semibold">TKK Kab Blora</h6>
+                                    <h6 class="font-extrabold mb-0">1.132</h6>
                                 </div>
                             </div>
                         </div>
@@ -85,8 +85,8 @@
                                     </div>
                                 </div>
                                 <div class="col-md-8 col-lg-12 col-xl-12 col-xxl-7">
-                                    <h6 class="text-muted font-semibold">Saved Post</h6>
-                                    <h6 class="font-extrabold mb-0">112</h6>
+                                    <h6 class="text-muted font-semibold">Mitra</h6>
+                                    <h6 class="font-extrabold mb-0">234</h6>
                                 </div>
                             </div>
                         </div>
