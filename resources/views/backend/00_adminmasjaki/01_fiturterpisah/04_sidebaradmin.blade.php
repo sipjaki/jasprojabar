@@ -1,4 +1,32 @@
-    <script src="assets/adminmasjaki/static/js/initTheme.js"></script>
+<style>
+    /* Warna ketika menu aktif */
+.sidebar-item.active {
+    background-color: #00820d; /* Ubah warna background */
+    color: white; /* Ubah warna teks jika diperlukan */
+}
+
+</style>
+
+<script>
+    // Ambil elemen sidebar-item
+const sidebarItems = document.querySelectorAll('.sidebar-item');
+
+// Loop untuk menambahkan event listener pada tiap item
+sidebarItems.forEach(item => {
+    item.addEventListener('click', function () {
+        // Hapus kelas 'active' dari semua menu
+        sidebarItems.forEach(i => i.classList.remove('active'));
+
+        // Tambahkan kelas 'active' pada item yang diklik
+        item.classList.add('active');
+    });
+});
+
+</script>
+
+
+
+<script src="assets/adminmasjaki/static/js/initTheme.js"></script>
     <div id="app">
         <div id="sidebar">
             <div class="sidebar-wrapper active">
@@ -44,6 +72,13 @@
         <ul class="menu">
             <li class="sidebar-title">Menu</li>
 
+            <li class="sidebar-item" id="dashboard-menu">
+                <a href="index.html" class='sidebar-link'>
+                    <i class="bi bi-grid-fill"></i>
+                    <span>Dashboard</span>
+                </a>
+            </li>
+{{--
             <li
                 class="sidebar-item active ">
                 <a href="index.html" class='sidebar-link'>
@@ -52,7 +87,7 @@
                 </a>
 
 
-            </li>
+            </li> --}}
 
             <li
                 class="sidebar-item  has-sub">

@@ -37,3 +37,20 @@
 </body>
 
 </html>
+
+<script>
+    // Ambil elemen sidebar-item
+const sidebarItems = document.querySelectorAll('.sidebar-item');
+
+// Loop untuk menambahkan event listener pada tiap item
+sidebarItems.forEach(item => {
+    item.addEventListener('click', function () {
+        // Hapus kelas 'active' dari semua menu
+        sidebarItems.forEach(i => i.classList.remove('active'));
+
+        // Tambahkan kelas 'active' pada item yang diklik
+        item.classList.add('active');
+    });
+});
+
+</script>
