@@ -285,7 +285,7 @@
             <img src="/assets/icon/pupr.png" class="img-fluid" alt="img-25" width="20" loading="lazy"></a>
 
             <div style="text-align: center; font-size: 18px;">
-                <p>Dinas Pekerjaan Umum Dan Penataan Ruang Kabupaten Blora Provinsi Jawa Tengah<script>
+                <p>Dinas Pekerjaan Umum Dan Penataan Ruang Kabupaten Blora Provinsi Jawa Tengah | <script>
                     document.write(new Date().getFullYear());
                 </script></p>
 
