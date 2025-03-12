@@ -294,8 +294,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 <ul class="submenu ">
 
                     <li class="submenu-item">
-                        <i class="bi bi-hexagon-fill"></i>
-                        <a href="/404" class="submenu-link" style="color: white;">STRUKTUR ORGANISASI DPUPR </a>
+                        <a href="/404" class="submenu-link" style="color: white;"><i class="bi bi-hexagon-fill"></i>STRUKTUR ORGANISASI DPUPR </a>
                     </li>
 
                 </ul>
