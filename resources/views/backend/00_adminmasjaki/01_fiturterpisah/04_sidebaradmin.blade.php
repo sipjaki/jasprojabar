@@ -598,6 +598,61 @@ document.addEventListener("DOMContentLoaded", function () {
 
         </li>
 
+        <li class="sidebar-title">PENGATURAN MENU</li>
+
+
+        <li
+            class="sidebar-item  has-sub">
+            <a href="#" class='sidebar-link'>
+                <i class="bi bi-file-earmark-spreadsheet-fill"></i>
+                <span>BERITA</span>
+            </a>
+            <a href="#" class='sidebar-link'>
+                <i class="bi bi-file-earmark-spreadsheet-fill"></i>
+                <span>STATUS JAKON</span>
+            </a>
+            <a href="#" class='sidebar-link'>
+                <i class="bi bi-file-earmark-spreadsheet-fill"></i>
+                <span>TKK PEKERJA</span>
+            </a>
+            <a href="#" class='sidebar-link'>
+                <i class="bi bi-file-earmark-spreadsheet-fill"></i>
+                <span>PENGWASAN</span>
+            </a>
+            <a href="#" class='sidebar-link'>
+                <i class="bi bi-file-earmark-spreadsheet-fill"></i>
+                <span>HARGA</span>
+            </a>
+            <a href="#" class='sidebar-link'>
+                <i class="bi bi-file-earmark-spreadsheet-fill"></i>
+                <span>KONSTRUKSI</span>
+            </a>
+            <a href="#" class='sidebar-link'>
+                <i class="bi bi-file-earmark-spreadsheet-fill"></i>
+                <span>STATUS ADMIN</span>
+            </a>
+
+            {{-- <ul class="submenu ">
+
+                <li class="submenu-item  ">
+                    <a href="/404" class="submenu-link" style="color: white; font-size:16px;">DATA DIRI 1 </a>
+
+                </li>
+
+            </ul> --}}
+
+
+        </li>
+
+        <li
+            class="sidebar-item  has-sub">
+            <a href="#" class='sidebar-link'>
+                <i class="bi bi-file-earmark-spreadsheet-fill"></i>
+                <span>ETALASE BAHAN BANGUNAN</span>
+            </a>
+
+        </li>
+
     </ul>
 </div>
 </div>
