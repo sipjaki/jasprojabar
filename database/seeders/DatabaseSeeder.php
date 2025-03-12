@@ -115,6 +115,12 @@ use App\Models\hspkodepekerjaan6;
 use App\Models\hspkonstruksiumum6;
 use App\Models\subhargadiv6;
 
+// hsp harga divisi 7
+use App\Models\hsppaket7;
+use App\Models\hspkodepekerjaan7;
+use App\Models\hspkonstruksiumum7;
+use App\Models\subhargadiv7;
+
 
 
 // modelbaru
@@ -8406,6 +8412,107 @@ hspkonstruksiumum6::create([
     'subhargadiv6_id' => 10,
     'jenispekerjaan' => 'Pemasangan 1 buah Bak Kontrol Pasangan Bata 30 cm x 30 cm Tinggi 35 cm dengan Tutup Beton',
     'hargasatuan' => '550029.70',
+]);
+
+// ============================================= LIST DAFTAR HARGA KONSTRUKSI UMUM DIVISI 7 ===========================
+hsppaket7::create([
+    'id' => 1,
+    'hspdivisi_id' => 7,
+    'hsppaket7' => 'Jalan Paving Block',
+]);
+
+hspkodepekerjaan7::create([
+    'id' => 1,
+    'hsppaket7_id' => 1,
+    'kodepekerjaan' => '1',
+    'namapekerjaan' => 'Pemasangan Paving Block',
+]);
+
+hspkodepekerjaan7::create([
+    'id' => 2,
+    'hsppaket7_id' => 1,
+    'kodepekerjaan' => '2',
+    'namapekerjaan' => 'Pemasangan Kanstin',
+]);
+
+hspkonstruksiumum7::create([
+    'hspdivisi_id' => 7,
+    'hsppaket7_id' => 1,
+    'hspkodepekerjaan7_id' => 1,
+    'kode' => '1',
+    'subhargadiv7_id' => 1,
+    'jenispekerjaan' => 'Pemasangan 1 m2 Paving block (Blok Beton) Natural Tebal 6 cm fc 20 MPa untuk Jalan Lingkungan (Jalan Lokal) secara manual',
+    'hargasatuan' => '140093.25',
+]);
+
+hspkonstruksiumum7::create([
+    'hspdivisi_id' => 7,
+    'hsppaket7_id' => 1,
+    'hspkodepekerjaan7_id' => 1,
+    'kode' => '1.a',
+    'subhargadiv7_id' => 2,
+    'jenispekerjaan' => 'Pemasangan 1 m2 Pengunci Topi Uskup Tebal 6 cm fc 20 MPa untuk Jalan Lingkungan (Jalan Lokal) secara manual',
+    'hargasatuan' => '193509.25',
+]);
+
+hspkonstruksiumum7::create([
+    'hspdivisi_id' => 7,
+    'hsppaket7_id' => 1,
+    'hspkodepekerjaan7_id' => 1,
+    'kode' => '2',
+    'subhargadiv7_id' => 3,
+    'jenispekerjaan' => 'Pemasangan 1 m2 Paving block (Blok Beton) Natural Tebal 6 cm 25 MPa untuk Jalan Akses/Penghubung (Jalan Kolektor) secara manual ',
+    'hargasatuan' => '142403.25',
+]);
+
+hspkonstruksiumum7::create([
+    'hspdivisi_id' => 7,
+    'hsppaket7_id' => 1,
+    'hspkodepekerjaan7_id' => 1,
+    'kode' => '2.a',
+    'subhargadiv7_id' => 4,
+    'jenispekerjaan' => 'Pemasangan 1 m2 Pengunci Topi Uskup Tebal 6 cm 25 MPa dan Pengunci Topi Uskup untuk Jalan Akses/Penghubung (Jalan Kolektor) secara manual ',
+    'hargasatuan' => '248509.25',
+]);
+
+hspkonstruksiumum7::create([
+    'hspdivisi_id' => 7,
+    'hsppaket7_id' => 1,
+    'hspkodepekerjaan7_id' => 1,
+    'kode' => '3',
+    'subhargadiv7_id' => 5,
+    'jenispekerjaan' => 'Pemasangan 1 m2 Paving block (Blok Beton) Natural Tebal 6 cm fc 20 MPa untuk Jalan Lingkungan (Jalan Lokal) secara semi mekanis',
+    'hargasatuan' => '144481.72',
+]);
+
+hspkonstruksiumum7::create([
+    'hspdivisi_id' => 7,
+    'hsppaket7_id' => 1,
+    'hspkodepekerjaan7_id' => 1,
+    'kode' => '3.a',
+    'subhargadiv7_id' => 6,
+    'jenispekerjaan' => 'Pemasangan 1 m2 Pengunci Topi Uskup Tebal 6 cm fc 20 MPa untuk Jalan Lingkungan (Jalan Lokal) secara semi mekanis',
+    'hargasatuan' => '197897.72',
+]);
+
+hspkonstruksiumum7::create([
+    'hspdivisi_id' => 7,
+    'hsppaket7_id' => 1,
+    'hspkodepekerjaan7_id' => 1,
+    'kode' => '4',
+    'subhargadiv7_id' => 7,
+    'jenispekerjaan' => 'Pemasangan 1 m2 Paving block (Blok Beton) Natural Tebal 6 cm 25 MPa untuk Jalan Akses/Penghubung (Jalan Kolektor) secara semi mekanis',
+    'hargasatuan' => '146791.72',
+]);
+
+hspkonstruksiumum7::create([
+    'hspdivisi_id' => 7,
+    'hsppaket7_id' => 1,
+    'hspkodepekerjaan7_id' => 1,
+    'kode' => '4.a',
+    'subhargadiv7_id' => 8,
+    'jenispekerjaan' => 'Pemasangan 1 m2 Pengunci Topi Uskup Tebal 6 cm fc 25 MPa untuk Jalan Akses/Penghubung (Jalan Kolektor) secara semi mekanis',
+    'hargasatuan' => '252897.72',
 ]);
 
 // MAKAN

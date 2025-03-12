@@ -457,4 +457,59 @@ class SatuanhargamaterialController extends Controller
     }
 
 
+// DIVISI 7
+
+
+    public function hspdivisi7(Request $request)
+    {
+        $perPage = $request->input('perPage', 25);
+        $search = $request->input('search');
+
+        $query = hspkonstruksiumum7::query();
+
+        if ($search) {
+            $query->where('kode', 'LIKE', "%{$search}%")
+                  ->orWhere('jenispekerjaan', 'LIKE', "%{$search}%")
+                  ->orWhere('hargasatuan', 'LIKE', "%{$search}%")
+
+                  ->orWhereHas('hspdivisi', function ($q) use ($search) {
+                      $q->where('hspdivisi', 'LIKE', "%{$search}%"); // 'jabatankerja' = nama kolom di tabel jabatankerja
+                  })
+
+                  ->orWhereHas('hsppaket7', function ($q) use ($search) {
+                      $q->where('hsppaket7', 'LIKE', "%{$search}%"); // 'jenjang' = nama kolom di tabel jenjang
+                  })
+
+                  ->orWhereHas('hspkodepekerjaan7', function ($q) use ($search) {
+                      $q->where('namapekerjaan', 'LIKE', "%{$search}%"); // 'jenjang' = nama kolom di tabel jenjang
+                  });
+        }
+
+        $data = $query->paginate($perPage);
+
+        if ($request->ajax()) {
+            return response()->json([
+                'html' => view('frontend.07_ahsp.03_hspkonstruksiumum.07_divisi7.partials.table', compact('data'))->render()
+            ]);
+        }
+
+        // $subdata = HspKonstruksiUmum::with('subhargadiv1')
+        // ->whereHas('jenispekerjaan', function ($query) use ($jenispekerjaan) {
+        //     $query->where('jenispekerjaan', $jenispekerjaan);
+        // })
+        // ->get();
+
+        // if ($request->ajax()) {
+        //     return response()->json($subdata);
+        // }
+        return view('frontend.07_ahsp.03_hspkonstruksiumum.07_divisi7.07_divisi7', [
+            'title' => 'Harga Satuan Pekerjaan Divisi VII Pekerjaan Pada Permukiman',
+            'data' => $data,
+            // 'subdata' => $subdata,
+            'perPage' => $perPage,
+            'search' => $search
+        ]);
+    }
+
+
 }
