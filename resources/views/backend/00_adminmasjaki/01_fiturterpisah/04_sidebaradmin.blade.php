@@ -220,37 +220,24 @@ document.addEventListener("DOMContentLoaded", function () {
 
         </li>
 
+
+
         <li
             class="sidebar-item  has-sub">
             <a href="#" class='sidebar-link'>
-                <i class="bi bi-grid-1x2-fill"></i>
-                <span>Layouts</span>
+                <i class="bi bi-file-earmark-spreadsheet-fill"></i>
+                <span>BERITA JAKON</span>
             </a>
 
             <ul class="submenu ">
 
                 <li class="submenu-item  ">
-                    <a href="layout-default.html" class="submenu-link">Default Layout</a>
+                    <a href="/404" class="submenu-link">BERITA JAKON</a>
 
                 </li>
 
                 <li class="submenu-item  ">
-                    <a href="layout-vertical-1-column.html" class="submenu-link">1 Column</a>
-
-                </li>
-
-                <li class="submenu-item  ">
-                    <a href="layout-vertical-navbar.html" class="submenu-link">Vertical Navbar</a>
-
-                </li>
-
-                <li class="submenu-item  ">
-                    <a href="layout-rtl.html" class="submenu-link">RTL Layout</a>
-
-                </li>
-
-                <li class="submenu-item  ">
-                    <a href="layout-horizontal.html" class="submenu-link">Horizontal Menu</a>
+                    <a href="/404" class="submenu-link">ARTIKEL JAKON</a>
 
                 </li>
 
@@ -258,6 +245,31 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
         </li>
+
+        <li
+            class="sidebar-item  has-sub">
+            <a href="#" class='sidebar-link'>
+                <i class="bi bi-file-earmark-spreadsheet-fill"></i>
+                <span>DATA JAKON</span>
+            </a>
+
+            <ul class="submenu ">
+
+                <li class="submenu-item  ">
+                    <a href="/404" class="submenu-link" style="color: white; font-size:16px;">BERITA JAKON</a>
+
+                </li>
+
+                <li class="submenu-item  ">
+                    <a href="/404" class="submenu-link" style="color: white; font-size:16px;">ARTIKEL JAKON</a>
+
+                </li>
+
+            </ul>
+
+
+        </li>
+
 
         <li class="sidebar-title">Forms &amp; Tables</li>
 
@@ -378,29 +390,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
         </li>
 
-        <li
-            class="sidebar-item  has-sub">
-            <a href="#" class='sidebar-link'>
-                <i class="bi bi-file-earmark-spreadsheet-fill"></i>
-                <span>Datatables</span>
-            </a>
-
-            <ul class="submenu ">
-
-                <li class="submenu-item  ">
-                    <a href="table-datatable.html" class="submenu-link">Datatable</a>
-
-                </li>
-
-                <li class="submenu-item  ">
-                    <a href="table-datatable-jquery.html" class="submenu-link">Datatable (jQuery)</a>
-
-                </li>
-
-            </ul>
-
-
-        </li>
 
         <li class="sidebar-title">Extra UI</li>
 
