@@ -220,7 +220,7 @@
             </div>
         </div>
         <div class="col-12 col-lg-3">
-            <div class="card">
+            {{-- <div class="card">
                 <div class="card-body py-4 px-4">
                     <div class="d-flex align-items-center">
                         <div class="avatar avatar-xl">
@@ -232,8 +232,8 @@
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="card">
+            </div> --}}
+            {{-- <div class="card">
                 <div class="card-header">
                     <h4>Recent Messages</h4>
                 </div>
@@ -269,15 +269,15 @@
                         <button class='btn btn-block btn-xl btn-outline-primary font-bold mt-3'>Start Conversation</button>
                     </div>
                 </div>
-            </div>
-            <div class="card">
+            </div> --}}
+            {{-- <div class="card">
                 <div class="card-header">
                     <h4>Visitors Profile</h4>
                 </div>
                 <div class="card-body">
                     <div id="chart-visitors-profile"></div>
                 </div>
-            </div>
+            </div> --}}
         </div>
     </section>
 </div>
