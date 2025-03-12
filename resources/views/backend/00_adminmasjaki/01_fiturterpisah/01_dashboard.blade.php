@@ -20,12 +20,13 @@
     {{ auth()->user()->statusadmin->statusadmin }}
 </button>
 
-<a href="/logout" style="text-decoration: none;">
-    <button style="background-color: #f50e0e; color: white; padding: 10px 20px; border: none; border-radius: 10px; cursor: pointer; font-size: 16px; display: flex; align-items: center;">
+<form action="/logout" method="POST" style="display: inline;">
+    @csrf  <!-- Tambahkan token CSRF untuk menghindari serangan CSRF -->
+    <button type="submit" style="background-color: #f50e0e; color: white; padding: 10px 20px; border: none; border-radius: 10px; cursor: pointer; font-size: 16px; display: flex; align-items: center;">
         <i class="fa fa-sign-out" style="margin-right: 10px;"></i>
         Logout
     </button>
-</a>
+</form>
 
 <!-- Pastikan kamu sudah menambahkan Font Awesome di dalam <head> -->
 <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"> -->
