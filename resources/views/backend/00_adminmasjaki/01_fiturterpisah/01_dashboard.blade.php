@@ -21,7 +21,7 @@
 </button>
 
 <a href="/logout" style="text-decoration: none;">
-    <button style="background-color: #8B0000; color: white; padding: 10px 20px; border: none; border-radius: 10px; cursor: pointer; font-size: 16px; display: flex; align-items: center;">
+    <button style="background-color: #f50e0e; color: white; padding: 10px 20px; border: none; border-radius: 10px; cursor: pointer; font-size: 16px; display: flex; align-items: center;">
         <i class="fa fa-sign-out" style="margin-right: 10px;"></i>
         Logout
     </button>
