@@ -294,15 +294,15 @@ document.addEventListener("DOMContentLoaded", function() {
                 <ul class="submenu ">
 
                     <li class="submenu-item">
-                        <a href="/404" class="submenu-link" style="color: white;">Struktur Organisasi DPUPR </a>
+                        <a href="/404" class="submenu-link" style="color: white; font-size:18px;">Struktur Organisasi DPUPR </a>
                     </li>
 
                     <li class="submenu-item">
-                        <a href="/404" class="submenu-link" style="color: white;">Profil Jakon DPUPR </a>
+                        <a href="/404" class="submenu-link" style="color: white; font-size:18px;">Profil Jakon DPUPR </a>
                     </li>
 
                     <li class="submenu-item">
-                        <a href="/404" class="submenu-link" style="color: white;">Tupoksi Jakon DPUPR </a>
+                        <a href="/404" class="submenu-link" style="color: white; font-size:18px;">Tupoksi Jakon DPUPR </a>
                     </li>
 
                 </ul>
@@ -320,55 +320,78 @@ document.addEventListener("DOMContentLoaded", function() {
                 <ul class="submenu ">
 
                     <li class="submenu-item">
-                        <a href="/404" class="submenu-link" style="color: white;">Standar Biaya Umum</a>
+                        <a href="/404" class="submenu-link" style="color: white; font-size:18px;">Standar Biaya Umum</a>
                     </li>
 
                     <li class="submenu-item">
-                        <a href="/404" class="submenu-link" style="color: white;">Undang-undang</a>
+                        <a href="/404" class="submenu-link" style="color: white; font-size:18px;">Undang-undang</a>
                     </li>
 
                     <li class="submenu-item">
-                        <a href="/404" class="submenu-link" style="color: white;">Peraturan Pemerintah </a>
+                        <a href="/404" class="submenu-link" style="color: white; font-size:18px;">Peraturan Pemerintah </a>
                     </li>
 
                     <li class="submenu-item">
-                        <a href="/404" class="submenu-link" style="color: white;">Peraturan Presiden </a>
+                        <a href="/404" class="submenu-link" style="color: white; font-size:18px;">Peraturan Presiden </a>
                     </li>
 
                     <li class="submenu-item">
-                        <a href="/404" class="submenu-link" style="color: white;">Peraturan Menteri</a>
+                        <a href="/404" class="submenu-link" style="color: white; font-size:18px;">Peraturan Menteri</a>
                     </li>
 
                     <li class="submenu-item">
-                        <a href="/404" class="submenu-link" style="color: white;">Keputusan Menteri</a>
+                        <a href="/404" class="submenu-link" style="color: white; font-size:18px;">Keputusan Menteri</a>
                     </li>
 
                     <li class="submenu-item">
-                        <a href="/404" class="submenu-link" style="color: white;">Surat Edaran Menteri</a>
+                        <a href="/404" class="submenu-link" style="color: white; font-size:18px;">Surat Edaran Menteri</a>
                     </li>
 
                     <li class="submenu-item">
-                        <a href="/404" class="submenu-link" style="color: white;">Surat Referensi</a>
+                        <a href="/404" class="submenu-link" style="color: white; font-size:18px;">Surat Referensi</a>
                     </li>
 
                     <li class="submenu-item">
-                        <a href="/404" class="submenu-link" style="color: white;">Peraturan Daerah</a>
+                        <a href="/404" class="submenu-link" style="color: white; font-size:18px;">Peraturan Daerah</a>
                     </li>
 
                     <li class="submenu-item">
-                        <a href="/404" class="submenu-link" style="color: white;">Peraturan Daerah</a>
+                        <a href="/404" class="submenu-link" style="color: white; font-size:18px;">Peraturan Daerah</a>
                     </li>
 
                     <li class="submenu-item">
-                        <a href="/404" class="submenu-link" style="color: white;">Peraturan Gubernur</a>
+                        <a href="/404" class="submenu-link" style="color: white; font-size:18px;">Peraturan Gubernur</a>
                     </li>
 
                     <li class="submenu-item">
-                        <a href="/404" class="submenu-link" style="color: white;">Peraturan WaliKota/Bupati</a>
+                        <a href="/404" class="submenu-link" style="color: white; font-size:18px;">Peraturan WaliKota/Bupati</a>
                     </li>
 
                     <li class="submenu-item">
-                        <a href="/404" class="submenu-link" style="color: white;">Surat Keputusan</a>
+                        <a href="/404" class="submenu-link" style="color: white; font-size:18px;">Surat Keputusan</a>
+                    </li>
+
+                </ul>
+
+
+            </li>
+
+
+            <li
+                class="sidebar-item  has-sub">
+                <a href="#" class='sidebar-link'>
+                    <i class="bi bi-hexagon-fill"></i>
+                    <span>BERITA</span>
+                </a>
+
+                <ul class="submenu ">
+
+                    <li class="submenu-item">
+                        <a href="/404" class="submenu-link" style="color: white; font-size:18px;">Berita Jakon </a>
+                    </li>
+
+                    <li class="submenu-item">
+                        <a href="/404" class="submenu-link" style="color: white; font-size:18px;">Artikel Jakon</a>
                     </li>
 
                 </ul>
