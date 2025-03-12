@@ -15,8 +15,8 @@
 
 <div class="page-heading">
     <h4>Selamat Datang ! {{ auth()->user()->username }} di Sistem Informasi Pembina Jasa Konstruksi Kabupaten Blora Anda Adalah  <button style="background-color: #000080; color: white; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer; font-size: 16px;"
-        onmouseover="this.style.backgroundColor='#ffd100'; this.style.color='black';"
-        onmouseout="this.style.backgroundColor='#000080'; this.style.color='white';">
+        onmouseover="this.style.backgroundColor='#ffffff'; this.style.color='black';"
+        onmouseout="this.style.backgroundColor='#ffd100'; this.style.color='white';">
     {{ auth()->user()->statusadmin->statusadmin }}
 </button></h4>
 </div>
