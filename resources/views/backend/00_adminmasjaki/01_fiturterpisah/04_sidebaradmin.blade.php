@@ -237,11 +237,27 @@ document.addEventListener("DOMContentLoaded", function() {
                 <ul class="submenu ">
 
                     <li class="submenu-item">
-                        <a href="/404" class="submenu-link" style="color: white; font-size:17px;">Berita Jakon </a>
+                        <a href="/404" class="submenu-link" style="color: white; font-size:17px;">Bujk Konstruksi </a>
                     </li>
 
                     <li class="submenu-item">
-                        <a href="/404" class="submenu-link" style="color: white; font-size:17px;">Artikel Jakon</a>
+                        <a href="/404" class="submenu-link" style="color: white; font-size:17px;">Bujk Konsultasi Konstruksi</a>
+                    </li>
+
+                    <li class="submenu-item">
+                        <a href="/404" class="submenu-link" style="color: white; font-size:17px;">Asosiasi Konstruksi</a>
+                    </li>
+
+                    <li class="submenu-item">
+                        <a href="/404" class="submenu-link" style="color: white; font-size:17px;">Tenaga Kerja Konstruksi PU</a>
+                    </li>
+
+                    <li class="submenu-item">
+                        <a href="/404" class="submenu-link" style="color: white; font-size:17px;">Daftar Kerja Konstruksi </a>
+                    </li>
+
+                    <li class="submenu-item">
+                        <a href="/404" class="submenu-link" style="color: white; font-size:17px;">Profil Paket Pekerjaan </a>
                     </li>
 
                 </ul>
