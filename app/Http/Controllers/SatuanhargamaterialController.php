@@ -230,7 +230,7 @@ class SatuanhargamaterialController extends Controller
         //     return response()->json($subdata);
         // }
         return view('frontend.07_ahsp.03_hspkonstruksiumum.02_divisi2.divisi2', [
-            'title' => 'Harga Satuan Pekerjaan Divisi 2 Pekerjaan Struktur',
+            'title' => 'Harga Satuan Pekerjaan Divisi II Pekerjaan Struktur',
             'data' => $data,
             // 'subdata' => $subdata,
             'perPage' => $perPage,
@@ -285,7 +285,7 @@ class SatuanhargamaterialController extends Controller
         //     return response()->json($subdata);
         // }
         return view('frontend.07_ahsp.03_hspkonstruksiumum.03_divisi3.03_divisi3', [
-            'title' => 'Harga Satuan Pekerjaan Divisi 3 Pekerjaan Arsitektur',
+            'title' => 'Harga Satuan Pekerjaan Divisi III Pekerjaan Arsitektur',
             'data' => $data,
             // 'subdata' => $subdata,
             'perPage' => $perPage,
@@ -339,7 +339,7 @@ class SatuanhargamaterialController extends Controller
         //     return response()->json($subdata);
         // }
         return view('frontend.07_ahsp.03_hspkonstruksiumum.04_divisi4.04_divisi4', [
-            'title' => 'Harga Satuan Pekerjaan Divisi 4 Pekerjaan Lansekap',
+            'title' => 'Harga Satuan Pekerjaan Divisi IV Pekerjaan Lansekap',
             'data' => $data,
             // 'subdata' => $subdata,
             'perPage' => $perPage,
@@ -393,7 +393,7 @@ class SatuanhargamaterialController extends Controller
         //     return response()->json($subdata);
         // }
         return view('frontend.07_ahsp.03_hspkonstruksiumum.05_divisi5.05_divisi5', [
-            'title' => 'Harga Satuan Pekerjaan Divisi 5 Pekerjaan Mekanikal dan Elektrikal',
+            'title' => 'Harga Satuan Pekerjaan Divisi V Pekerjaan Mekanikal dan Elektrikal',
             'data' => $data,
             // 'subdata' => $subdata,
             'perPage' => $perPage,
@@ -448,7 +448,7 @@ class SatuanhargamaterialController extends Controller
         //     return response()->json($subdata);
         // }
         return view('frontend.07_ahsp.03_hspkonstruksiumum.06_divisi6.06_divisi6', [
-            'title' => 'Harga Satuan Pekerjaan Divisi 5 Pekerjaan Plambing',
+            'title' => 'Harga Satuan Pekerjaan Divisi VI Pekerjaan Plambing',
             'data' => $data,
             // 'subdata' => $subdata,
             'perPage' => $perPage,
