@@ -120,11 +120,10 @@ document.addEventListener("DOMContentLoaded", function () {
 
         <li
             class="sidebar-item active ">
-            <a href="index.html" class='sidebar-link'>
+            <a href="/404" class='sidebar-link'>
                 <i class="bi bi-grid-fill"></i>
                 <span>ADMINISTRATOR</span>
             </a>
-
 
         </li>
 
