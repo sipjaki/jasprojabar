@@ -155,62 +155,62 @@ document.addEventListener("DOMContentLoaded", function () {
             <ul class="submenu ">
 
                 <li class="submenu-item  ">
-                    <a href="/404" class="submenu-link" style="color: white; font-size:16px;">STANDAR BIAYA UMUM</a>
+                    <a href="/404" class="submenu-link" style="color: white; font-size:16px;">Standar Biaya Umum</a>
 
                 </li>
 
                 <li class="submenu-item  ">
-                    <a href="/404" class="submenu-link" style="color: white; font-size:16px;">UNDANG-UNDANG</a>
+                    <a href="/404" class="submenu-link" style="color: white; font-size:16px;">Undang-undang</a>
 
                 </li>
 
                 <li class="submenu-item  ">
-                    <a href="/404" class="submenu-link" style="color: white; font-size:16px;">PERATURAN PEMERINTAH</a>
+                    <a href="/404" class="submenu-link" style="color: white; font-size:16px;">Peraturan Pemerintah</a>
 
                 </li>
 
                 <li class="submenu-item  ">
-                    <a href="/404" class="submenu-link" style="color: white; font-size:16px;">PERATURAN PRESIDEN</a>
+                    <a href="/404" class="submenu-link" style="color: white; font-size:16px;">Peraturan Presiden</a>
 
                 </li>
 
                 <li class="submenu-item  ">
-                    <a href="/404" class="submenu-link" style="color: white; font-size:16px;">PERATURAN MENTERI</a>
+                    <a href="/404" class="submenu-link" style="color: white; font-size:16px;">Peraturan Menteri</a>
 
                 </li>
 
                 <li class="submenu-item  ">
-                    <a href="/404" class="submenu-link" style="color: white; font-size:16px;">KEPUTUSAN MENTERI</a>
+                    <a href="/404" class="submenu-link" style="color: white; font-size:16px;">Keputusan Menteri</a>
 
                 </li>
 
                 <li class="submenu-item  ">
-                    <a href="/404" class="submenu-link" style="color: white; font-size:16px;">SURAT EDARAN MENTERI</a>
+                    <a href="/404" class="submenu-link" style="color: white; font-size:16px;">Surat Edaran Menteri</a>
 
                 </li>
 
                 <li class="submenu-item  ">
-                    <a href="/404" class="submenu-link" style="color: white; font-size:16px;">SURAT REFERENSI</a>
+                    <a href="/404" class="submenu-link" style="color: white; font-size:16px;">Surat Referensi</a>
 
                 </li>
 
                 <li class="submenu-item  ">
-                    <a href="/404" class="submenu-link" style="color: white; font-size:16px;">PERATURAN DAERAH</a>
+                    <a href="/404" class="submenu-link" style="color: white; font-size:16px;">Peraturan Daerah</a>
 
                 </li>
 
                 <li class="submenu-item  ">
-                    <a href="/404" class="submenu-link" style="color: white; font-size:16px;">PERATURAN GUBERNUR</a>
+                    <a href="/404" class="submenu-link" style="color: white; font-size:16px;">Peraturan Gubernur</a>
 
                 </li>
 
                 <li class="submenu-item  ">
-                    <a href="/404" class="submenu-link" style="color: white; font-size:16px;">PERATURAN WALIKOTA/BUPATI</a>
+                    <a href="/404" class="submenu-link" style="color: white; font-size:16px;">Peraturan Walikota/Bupati</a>
 
                 </li>
 
                 <li class="submenu-item  ">
-                    <a href="/404" class="submenu-link" style="color: white; font-size:16px;">SURAT KEPUTUSAN</a>
+                    <a href="/404" class="submenu-link" style="color: white; font-size:16px;">Surat Keputusan</a>
 
                 </li>
 
@@ -231,12 +231,12 @@ document.addEventListener("DOMContentLoaded", function () {
             <ul class="submenu ">
 
                 <li class="submenu-item  ">
-                    <a href="/404" class="submenu-link" style="color: white; font-size:16px;">BERITA JAKON</a>
+                    <a href="/404" class="submenu-link" style="color: white; font-size:16px;">Berita Jakon</a>
 
                 </li>
 
                 <li class="submenu-item  ">
-                    <a href="/404" class="submenu-link" style="color: white; font-size:16px;">ARTIKEL JAKON</a>
+                    <a href="/404" class="submenu-link" style="color: white; font-size:16px;">Artikel Jakon</a>
 
                 </li>
 
