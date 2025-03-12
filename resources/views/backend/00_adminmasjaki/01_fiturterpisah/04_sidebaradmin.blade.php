@@ -59,7 +59,7 @@
                 </li>
 
                 <li class="sidebar-item">
-                    <a href="/404" class="sidebar-link">
+                    <a href="/dashboard" class="sidebar-link">
                         <i class="bi bi-grid-fill"></i>
                         <span style="font-size: 15px;">ADMINISTRATOR</span>
                     </a>
