@@ -18,7 +18,19 @@
         onmouseover="this.style.backgroundColor='#ffffff'; this.style.color='black';"
         onmouseout="this.style.backgroundColor='#ffd100'; this.style.color='black';">
     {{ auth()->user()->statusadmin->statusadmin }}
-</button></h4>
+</button>
+
+<a href="/logout" style="text-decoration: none;">
+    <button style="background-color: #8B0000; color: white; padding: 10px 20px; border: none; border-radius: 10px; cursor: pointer; font-size: 16px; display: flex; align-items: center;">
+        <i class="fa fa-sign-out" style="margin-right: 10px;"></i>
+        Logout
+    </button>
+</a>
+
+<!-- Pastikan kamu sudah menambahkan Font Awesome di dalam <head> -->
+<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"> -->
+
+</h4>
 </div>
 <div class="page-content">
     <section class="row">
