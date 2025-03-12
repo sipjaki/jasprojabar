@@ -5,7 +5,6 @@
     @include('frontend.00_approve.01_cssterpisah.loader')
     @include('frontend.00_approve.01_cssterpisah.header1')
 
-    @include('tambahan.alert')
 
 <div class="page-wrapper">
 	<section class="main-slider">
@@ -109,6 +108,9 @@
             }
         }
     </style>
+
+
+@include('tambahan.alert')
 
     <section class="pricing-section">
         <h3 class="pricing-title">Analisa Harga Satuan Pekerjaan Kab Blora 2025</h3>

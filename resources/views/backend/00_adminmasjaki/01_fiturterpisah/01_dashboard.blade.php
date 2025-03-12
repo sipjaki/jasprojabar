@@ -295,50 +295,5 @@
 </div>
 
 
-<style>
-    .modal-alert-pertanyaan {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: fixed; /* Mengubah menjadi fixed agar tetap di atas */
-    top: 0; /* Atur jarak dari atas */
-    left: 0; /* Atur jarak dari kiri */
-    width: 100%; /* Lebar penuh */
-    height: 100%; /* Tinggi penuh */
-    background-color: rgba(0, 0, 0, 0.5); /* Latar belakang semi-transparan */
-    z-index: 9999; /* Pastikan z-index lebih tinggi dari elemen lain */
-}
-
-.modal-content-pertanyaan {
-    background-color: white; /* Warna latar konten modal */
-    padding: 20px;
-    border-radius: 8px; /* Sudut melengkung */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Bayangan untuk efek kedalaman */
-    max-width: 400px; /* Lebar maksimal modal */
-    width: 90%;
-    z-index: 9999;/* Lebar responsif */
-}
-
-</style>
-
-
-@if (session('logout'))
-    <div class="modal-alert-pertanyaan">
-        <div class="modal-content-pertanyaan">
-            <img src="/assets/icon/logokabupatenblora.png" alt="Logo SIPJAKIKBB" style="width: 70px; height: 70px; object-fit: cover; margin: 20px;">
-            <p style="color: black;">Pemerintah Kabupaten Blora</p>
-            <div class="success-text" style="font-size: 18px;">
-                {{ session('logout') }} <!-- Pesan flash ditampilkan di sini -->
-                <button type="button" class="btnalert-view" onclick="document.querySelector('.modal-alert-pertanyaan').style.display='none';" style="float: right;">
-                    &times;
-                </button>
-            </div>
-            <br>
-            <button class="button-text" style="color: white;">{{ session('logout') }}</button>
-        </div>
-    </div>
-@endif
-
-
 
 @include('backend.00_adminmasjaki.01_fiturterpisah.03_footeradmin')
