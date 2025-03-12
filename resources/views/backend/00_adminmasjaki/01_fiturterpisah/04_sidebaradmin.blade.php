@@ -110,6 +110,37 @@ document.addEventListener("DOMContentLoaded", function() {
 
             <li class="sidebar-title">MASTER DATA MAS JAKI</li>
 
+
+            <li
+                class="sidebar-item  has-sub">
+                <a href="#" class='sidebar-link'>
+                    <i class="bi bi-bar-chart-fill"></i>
+                    <span>KELEMBAGAAN</span>
+                </a>
+
+                <ul class="submenu ">
+
+                    <li class="submenu-item  ">
+                        <a href="ui-chart-chartjs.html" class="submenu-link">STRUKTUR ORGANISASI</a>
+
+                    </li>
+
+                    <li class="submenu-item  ">
+                        <a href="ui-chart-apexcharts.html" class="submenu-link">PROFIL JAKON DPUPR</a>
+
+                    </li>
+
+                    <li class="submenu-item  ">
+                        <a href="ui-chart-apexcharts.html" class="submenu-link">TUPOKSI JAKON DPUPR</a>
+
+                    </li>
+
+                </ul>
+
+
+            </li>
+
+
             <li
                 class="sidebar-item  has-sub">
                 <a href="#" class='sidebar-link'>
@@ -360,30 +391,6 @@ document.addEventListener("DOMContentLoaded", function() {
 
                     <li class="submenu-item  ">
                         <a href="ui-icons-dripicons.html" class="submenu-link">Dripicons</a>
-
-                    </li>
-
-                </ul>
-
-
-            </li>
-
-            <li
-                class="sidebar-item  has-sub">
-                <a href="#" class='sidebar-link'>
-                    <i class="bi bi-bar-chart-fill"></i>
-                    <span>Charts</span>
-                </a>
-
-                <ul class="submenu ">
-
-                    <li class="submenu-item  ">
-                        <a href="ui-chart-chartjs.html" class="submenu-link">ChartJS</a>
-
-                    </li>
-
-                    <li class="submenu-item  ">
-                        <a href="ui-chart-apexcharts.html" class="submenu-link">Apexcharts</a>
 
                     </li>
 
