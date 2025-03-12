@@ -156,32 +156,32 @@ document.addEventListener("DOMContentLoaded", function () {
             <ul class="submenu ">
 
                 <li class="submenu-item  ">
-                    <a href="extra-component-avatar.html" class="submenu-link" style="color: white; font-size:16px;">STANDAR BIAYA UMUM</a>
+                    <a href="/404" class="submenu-link" style="color: white; font-size:16px;">STANDAR BIAYA UMUM</a>
 
                 </li>
 
                 <li class="submenu-item  ">
-                    <a href="extra-component-divider.html" class="submenu-link" style="color: white; font-size:16px;">UNDANG-UNDANG</a>
+                    <a href="/404" class="submenu-link" style="color: white; font-size:16px;">UNDANG-UNDANG</a>
 
                 </li>
 
                 <li class="submenu-item  ">
-                    <a href="extra-component-date-picker.html" class="submenu-link" style="color: white; font-size:16px;">PERATURAN PEMERINTAH</a>
+                    <a href="/404" class="submenu-link" style="color: white; font-size:16px;">PERATURAN PEMERINTAH</a>
 
                 </li>
 
                 <li class="submenu-item  ">
-                    <a href="extra-component-sweetalert.html" class="submenu-link" style="color: white; font-size:16px;">PERATURAN PRESIDEN</a>
+                    <a href="/404" class="submenu-link" style="color: white; font-size:16px;">PERATURAN PRESIDEN</a>
 
                 </li>
 
                 <li class="submenu-item  ">
-                    <a href="extra-component-toastify.html" class="submenu-link" style="color: white; font-size:16px;">PERATURAN MENTERI</a>
+                    <a href="/404" class="submenu-link" style="color: white; font-size:16px;">PERATURAN MENTERI</a>
 
                 </li>
 
                 <li class="submenu-item  ">
-                    <a href="extra-component-rating.html" class="submenu-link" style="color: white; font-size:16px;">KEPUTUSAN MENTERI</a>
+                    <a href="/404" class="submenu-link" style="color: white; font-size:16px;">KEPUTUSAN MENTERI</a>
 
                 </li>
 
