@@ -2,6 +2,7 @@
 
 <body>
 
+
     @include('frontend.00_approve.01_cssterpisah.loader')
     @include('frontend.00_approve.01_cssterpisah.header1')
 
@@ -110,7 +111,50 @@
     </style>
 
 
-@include('tambahan.alert')
+
+<style>
+    .modal-alert-pertanyaan {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed; /* Mengubah menjadi fixed agar tetap di atas */
+    top: 0; /* Atur jarak dari atas */
+    left: 0; /* Atur jarak dari kiri */
+    width: 100%; /* Lebar penuh */
+    height: 100%; /* Tinggi penuh */
+    background-color: rgba(0, 0, 0, 0.5); /* Latar belakang semi-transparan */
+    z-index: 9999; /* Pastikan z-index lebih tinggi dari elemen lain */
+}
+
+.modal-content-pertanyaan {
+    background-color: white; /* Warna latar konten modal */
+    padding: 20px;
+    border-radius: 8px; /* Sudut melengkung */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Bayangan untuk efek kedalaman */
+    max-width: 400px; /* Lebar maksimal modal */
+    width: 90%;
+    z-index: 9999;/* Lebar responsif */
+}
+
+</style>
+
+
+@if (session('logout'))
+    <div class="modal-alert-pertanyaan">
+        <div class="modal-content-pertanyaan">
+            <img src="/assets/icon/logokabupatenblora.png" alt="Logo SIPJAKIKBB" style="width: 70px; height: 70px; object-fit: cover; margin: 20px;">
+            <p style="color: black;">Pemerintah Kabupaten Blora</p>
+            <div class="success-text" style="font-size: 18px;">
+                {{ session('logout') }} <!-- Pesan flash ditampilkan di sini -->
+                <button type="button" class="btnalert-view" onclick="document.querySelector('.modal-alert-pertanyaan').style.display='none';" style="float: right;">
+                    &times;
+                </button>
+            </div>
+            <br>
+            <button class="button-text" style="color: white;">{{ session('logout') }}</button>
+        </div>
+    </div>
+@endif
 
     <section class="pricing-section">
         <h3 class="pricing-title">Analisa Harga Satuan Pekerjaan Kab Blora 2025</h3>
@@ -376,6 +420,17 @@
 </section>
 
 </div><!--page-wrapper-->
+</body>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        // Cek apakah modal alert ada dan tampilkan jika ada
+        const modal = document.querySelector('.modal-alert-pertanyaan');
+        if (modal) {
+            modal.style.display = 'flex'; // Menampilkan modal
+        }
+    });
+</script>
 
 
 @include('frontend.00_approve.01_cssterpisah.footer1')

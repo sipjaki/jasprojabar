@@ -94,7 +94,6 @@ public function authenticate(Request $request)
     //     return redirect('/');
     // }
 
-
     public function logout(Request $request)
     {
         // Logout user
@@ -106,12 +105,13 @@ public function authenticate(Request $request)
         // Regenerasi token CSRF
         $request->session()->regenerateToken();
 
-        // Menambahkan pesan flash dengan nama 'logout' sesuai dengan view
+        // Menambahkan pesan flash dengan nama 'logout'
         session()->flash('logout', 'Anda berhasil keluar.');
 
         // Redirect ke halaman utama
         return redirect('/');
     }
+
 
 
 }
