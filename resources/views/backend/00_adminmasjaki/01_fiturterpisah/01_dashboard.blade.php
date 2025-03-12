@@ -1,14 +1,14 @@
 @include('backend.00_adminmasjaki.01_fiturterpisah.02_headeradmin')
 
 <body>
-    <script src="assets/static/js/initTheme.js"></script>
+    <script src="assets/adminmasjaki/static/js/initTheme.js"></script>
     <div id="app">
         <div id="sidebar">
             <div class="sidebar-wrapper active">
     <div class="sidebar-header position-relative">
         <div class="d-flex justify-content-between align-items-center">
             <div class="logo">
-                <a href="index.html"><img src="./assets/compiled/svg/logo.svg" alt="Logo" srcset=""></a>
+                <a href="index.html"><img src="./assets/adminmasjaki/compiled/svg/logo.svg" alt="Logo" srcset=""></a>
             </div>
             <div class="theme-toggle d-flex gap-2  align-items-center mt-2">
                 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true"
@@ -862,7 +862,7 @@
                                             <td class="col-3">
                                                 <div class="d-flex align-items-center">
                                                     <div class="avatar avatar-md">
-                                                        <img src="./assets/compiled/jpg/5.jpg">
+                                                        <img src="./assets/adminmasjaki/compiled/jpg/5.jpg">
                                                     </div>
                                                     <p class="font-bold ms-3 mb-0">Si Cantik</p>
                                                 </div>
@@ -875,7 +875,7 @@
                                             <td class="col-3">
                                                 <div class="d-flex align-items-center">
                                                     <div class="avatar avatar-md">
-                                                        <img src="./assets/compiled/jpg/2.jpg">
+                                                        <img src="./assets/adminmasjaki/compiled/jpg/2.jpg">
                                                     </div>
                                                     <p class="font-bold ms-3 mb-0">Si Ganteng</p>
                                                 </div>
@@ -898,7 +898,7 @@
                 <div class="card-body py-4 px-4">
                     <div class="d-flex align-items-center">
                         <div class="avatar avatar-xl">
-                            <img src="./assets/compiled/jpg/1.jpg" alt="Face 1">
+                            <img src="./assets/adminmasjaki/compiled/jpg/1.jpg" alt="Face 1">
                         </div>
                         <div class="ms-3 name">
                             <h5 class="font-bold">John Duck</h5>
@@ -914,7 +914,7 @@
                 <div class="card-content pb-4">
                     <div class="recent-message d-flex px-4 py-3">
                         <div class="avatar avatar-lg">
-                            <img src="./assets/compiled/jpg/4.jpg">
+                            <img src="./assets/adminmasjaki/compiled/jpg/4.jpg">
                         </div>
                         <div class="name ms-4">
                             <h5 class="mb-1">Hank Schrader</h5>
@@ -923,7 +923,7 @@
                     </div>
                     <div class="recent-message d-flex px-4 py-3">
                         <div class="avatar avatar-lg">
-                            <img src="./assets/compiled/jpg/5.jpg">
+                            <img src="./assets/adminmasjaki/compiled/jpg/5.jpg">
                         </div>
                         <div class="name ms-4">
                             <h5 class="mb-1">Dean Winchester</h5>
@@ -932,7 +932,7 @@
                     </div>
                     <div class="recent-message d-flex px-4 py-3">
                         <div class="avatar avatar-lg">
-                            <img src="./assets/compiled/jpg/1.jpg">
+                            <img src="./assets/adminmasjaki/compiled/jpg/1.jpg">
                         </div>
                         <div class="name ms-4">
                             <h5 class="mb-1">John Dodol</h5>
@@ -969,17 +969,17 @@
 </footer>
         </div>
     </div>
-    <script src="assets/static/js/components/dark.js"></script>
-    <script src="assets/extensions/perfect-scrollbar/perfect-scrollbar.min.js"></script>
+    <script src="assets/adminmasjaki/static/js/components/dark.js"></script>
+    <script src="assets/adminmasjaki/extensions/perfect-scrollbar/perfect-scrollbar.min.js"></script>
 
 
-    <script src="assets/compiled/js/app.js"></script>
+    <script src="assets/adminmasjaki/compiled/js/app.js"></script>
 
 
 
 <!-- Need: Apexcharts -->
-<script src="assets/extensions/apexcharts/apexcharts.min.js"></script>
-<script src="assets/static/js/pages/dashboard.js"></script>
+<script src="assets/adminmasjaki/extensions/apexcharts/apexcharts.min.js"></script>
+<script src="assets/adminmasjaki/static/js/pages/dashboard.js"></script>
 
 </body>
 
