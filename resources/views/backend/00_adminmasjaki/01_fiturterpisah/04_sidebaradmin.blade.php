@@ -56,7 +56,7 @@
         </li>
 
         <li
-            class="sidebar-item active ">
+            class="sidebar-item active" style="background: #1e8714">
             <a href="/dashboard" class='sidebar-link' target="_blank">
                 <i class="bi bi-grid-fill"></i>
                 <span>Dashboard Admin</span>
