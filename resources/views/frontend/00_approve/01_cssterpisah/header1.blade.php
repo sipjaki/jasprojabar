@@ -328,7 +328,7 @@
                                                 <li><a href="/hspdivisi6">Divisi VI Pekerjaan Plambing</a></li>
                                                 <li><a href="/hspdivisi7">Divisi VII Jalan Pada Permukiman</a></li>
                                                 <li><a href="/hspdivisi8">Divisi VIII Drainase Jalan</a></li>
-                                                <li><a href="/404">Divisi IX Pekerjaan Jaringan Pipa Di Luar Gedung</a></li>
+                                                <li><a href="/hspdivisi9">Divisi IX Pekerjaan Jaringan Pipa Di Luar Gedung</a></li>
                                             </ul>
                                         </li>
 										<li><a href="/shstblora">SHST 2025</a></li>
