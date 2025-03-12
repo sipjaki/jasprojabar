@@ -19,16 +19,6 @@ text-decoration: none;
 color: inherit; /* Mengambil warna default dari parent */
 }
 
-/* Menyembunyikan submenu secara default */
-.submenu {
-    display: none;
-    padding-left: 20px;
-}
-
-/* Menampilkan submenu ketika memiliki kelas 'show' */
-.submenu.show {
-    display: block;
-}
 
 </style>
 
@@ -49,10 +39,18 @@ item.classList.add('active');
 });
 });
 });
-
 document.addEventListener("DOMContentLoaded", function () {
+    // Ambil semua elemen dengan class sidebar-item yang memiliki submenu
     const sidebarItemsWithSub = document.querySelectorAll('.sidebar-item.has-sub');
 
+    // Fungsi untuk menutup semua submenu yang terbuka
+    function closeAllSubmenus() {
+        document.querySelectorAll('.submenu.show').forEach(sub => {
+            sub.classList.remove('show');
+        });
+    }
+
+    // Loop untuk menambahkan event listener pada setiap item
     sidebarItemsWithSub.forEach(item => {
         const submenu = item.querySelector('.submenu');  // Ambil submenu terkait
         const sidebarLink = item.querySelector('.sidebar-link');  // Ambil link menu
@@ -66,7 +64,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 submenu.classList.remove('show');
             } else {
                 // Tutup semua submenu lainnya
-                document.querySelectorAll('.submenu.show').forEach(sub => sub.classList.remove('show'));
+                closeAllSubmenus();
 
                 // Buka submenu yang diklik
                 submenu.classList.add('show');
@@ -74,16 +72,17 @@ document.addEventListener("DOMContentLoaded", function () {
         });
     });
 
-    // Menutup submenu ketika klik di luar sidebar
+    // Menutup semua submenu jika klik di luar sidebar
     document.addEventListener('click', function (event) {
         const isClickInsideSidebar = event.target.closest('.sidebar');
 
         // Jika klik di luar sidebar, tutup semua submenu
         if (!isClickInsideSidebar) {
-            document.querySelectorAll('.submenu.show').forEach(sub => sub.classList.remove('show'));
+            closeAllSubmenus();
         }
     });
 });
+
 
 </script>
 
