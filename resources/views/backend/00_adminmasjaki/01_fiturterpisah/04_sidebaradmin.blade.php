@@ -280,28 +280,13 @@ document.addEventListener("DOMContentLoaded", function() {
                 class="sidebar-item  has-sub">
                 <a href="#" class='sidebar-link'>
                     <i class="bi bi-pen-fill"></i>
-                    <span>Form Editor</span>
+                    <span>PEMBINAAN</span>
                 </a>
 
                 <ul class="submenu ">
 
                     <li class="submenu-item  ">
-                        <a href="form-editor-quill.html" class="submenu-link">Quill</a>
-
-                    </li>
-
-                    <li class="submenu-item  ">
-                        <a href="form-editor-ckeditor.html" class="submenu-link">CKEditor</a>
-
-                    </li>
-
-                    <li class="submenu-item  ">
-                        <a href="form-editor-summernote.html" class="submenu-link">Summernote</a>
-
-                    </li>
-
-                    <li class="submenu-item  ">
-                        <a href="form-editor-tinymce.html" class="submenu-link">TinyMCE</a>
+                        <a href="/404" class="submenu-link">AGENDA PELATIHAN</a>
 
                     </li>
 
