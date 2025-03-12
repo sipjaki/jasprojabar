@@ -44,42 +44,59 @@
         </div>
     </div>
 
-    <style>
-        /* Warna ketika menu aktif */
-    .sidebar-item.active {
-        background-color: #00820d; /* Ubah warna background */
-        color: white; /* Ubah warna teks jika diperlukan */
-    }
-
-    </style>
-
-    <script>
-        // Ambil elemen sidebar-item
-    const sidebarItems = document.querySelectorAll('.sidebar-item');
-
-    // Loop untuk menambahkan event listener pada tiap item
-    sidebarItems.forEach(item => {
-        item.addEventListener('click', function () {
-            // Hapus kelas 'active' dari semua menu
-            sidebarItems.forEach(i => i.classList.remove('active'));
-
-            // Tambahkan kelas 'active' pada item yang diklik
-            item.classList.add('active');
-        });
-    });
-
-    </script>
-
     <div class="sidebar-menu">
         <ul class="menu">
             <li class="sidebar-title">Menu</li>
 
-            <li class="sidebar-item active" id="dashboard-menu">
-                <a href="index.html" class='sidebar-link'>
-                    <i class="bi bi-grid-fill"></i>
-                    <span>Dashboard</span>
-                </a>
-            </li>
+                <li class="sidebar-item">
+                    <a href="index.html" class="sidebar-link">
+                        <i class="bi bi-grid-fill"></i>
+                        <span>Dashboard</span>
+                    </a>
+                </li>
+
+                <style>
+                    /* Style untuk menu aktif */
+.sidebar-item.active {
+    background-color: #00820d;
+    color: white;
+}
+
+/* Style dasar untuk sidebar-item */
+.sidebar-item {
+    padding: 10px;
+    cursor: pointer;
+}
+
+/* Style untuk sidebar-link agar bisa terlihat saat hover */
+.sidebar-link {
+    text-decoration: none;
+    color: inherit; /* Mengambil warna default dari parent */
+}
+
+                </style>
+
+                <script>
+// Menunggu DOM selesai dimuat
+document.addEventListener("DOMContentLoaded", function() {
+    // Ambil semua elemen sidebar-item
+    const sidebarItems = document.querySelectorAll('.sidebar-item');
+
+    // Loop untuk menambahkan event listener klik pada setiap item
+    sidebarItems.forEach(item => {
+        item.addEventListener('click', function () {
+            // Hapus kelas 'active' dari semua sidebar-item
+            sidebarItems.forEach(i => i.classList.remove('active'));
+
+            // Tambahkan kelas 'active' ke item yang diklik
+            item.classList.add('active');
+        });
+    });
+});
+
+                </script>
+                <!-- Tambahkan item lain jika perlu -->
+
 {{--
             <li
                 class="sidebar-item active ">
