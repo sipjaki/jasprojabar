@@ -242,38 +242,13 @@
                 class="sidebar-item  has-sub">
                 <a href="#" class='sidebar-link'>
                     <i class="bi bi-hexagon-fill"></i>
-                    <span>Kelembagaan</span>
+                    <span>KELEMBAGAAN</span>
                 </a>
 
                 <ul class="submenu ">
 
                     <li class="submenu-item  ">
-                        <a href="form-element-input.html" class="submenu-link">Input</a>
-
-                    </li>
-
-                    <li class="submenu-item  ">
-                        <a href="form-element-input-group.html" class="submenu-link">Input Group</a>
-
-                    </li>
-
-                    <li class="submenu-item  ">
-                        <a href="form-element-select.html" class="submenu-link">Select</a>
-
-                    </li>
-
-                    <li class="submenu-item  ">
-                        <a href="form-element-radio.html" class="submenu-link">Radio</a>
-
-                    </li>
-
-                    <li class="submenu-item  ">
-                        <a href="form-element-checkbox.html" class="submenu-link">Checkbox</a>
-
-                    </li>
-
-                    <li class="submenu-item  ">
-                        <a href="form-element-textarea.html" class="submenu-link">Textarea</a>
+                        <a href="/404" class="submenu-link">STRUKTUR ORGANISASI DPUPR </a>
 
                     </li>
 
