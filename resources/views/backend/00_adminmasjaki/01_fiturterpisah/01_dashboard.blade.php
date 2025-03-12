@@ -293,9 +293,10 @@
             {{-- <p>2025 &copy; Mazer</p> --}}
         </div>
         <div class="float-end">
-            <p>Crafted with <span class="text-danger"><i class="bi bi-heart-fill icon-mid"></i></span>
-                by <a href="https://saugi.me">Saugi</a></p>
+            <p>Built & Developed by <span class="text-danger"><i class="bi bi-heart-fill icon-mid"></i></span>
+                <a href="https://wa.me/6281321455855" target="_blank">CV. Angkasa Raya Teknik</a></p>
         </div>
+
     </div>
 </footer>
         </div>
