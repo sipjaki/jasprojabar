@@ -310,13 +310,11 @@ document.addEventListener("DOMContentLoaded", function() {
 
             </li>
 
-            <li class="sidebar-title">Extra UI</li>
-
             <li
                 class="sidebar-item  has-sub">
                 <a href="#" class='sidebar-link'>
                     <i class="bi bi-pentagon-fill"></i>
-                    <span>Widgets</span>
+                    <span>AHSP</span>
                 </a>
 
                 <ul class="submenu ">
@@ -345,7 +343,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 class="sidebar-item  has-sub">
                 <a href="#" class='sidebar-link'>
                     <i class="bi bi-egg-fill"></i>
-                    <span>Icons</span>
+                    <span>RANTAI PASOK</span>
                 </a>
 
                 <ul class="submenu ">
