@@ -8515,6 +8515,16 @@ hspkonstruksiumum7::create([
     'hargasatuan' => '252897.72',
 ]);
 
+hspkonstruksiumum7::create([
+    'hspdivisi_id' => 7,
+    'hsppaket7_id' => 1,
+    'hspkodepekerjaan7_id' => 2,
+    'kode' => '1',
+    'subhargadiv7_id' => 9,
+    'jenispekerjaan' => 'Pemasangan  1  m1  Kanstin,  tebal  10x18x40  cm  untuk  Jalan Lingkungan (Jalan Lokal)',
+    'hargasatuan' => '60570.37',
+]);
+
 // MAKAN
 
 
