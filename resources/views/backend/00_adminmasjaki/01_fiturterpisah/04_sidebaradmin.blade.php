@@ -65,6 +65,7 @@
 /* Style dasar untuk sidebar-item */
 .sidebar-item {
     padding: 2px;
+    border-radius: 10px;
     cursor: pointer;
 }
 
