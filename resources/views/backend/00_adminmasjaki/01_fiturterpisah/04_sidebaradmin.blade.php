@@ -265,17 +265,6 @@ document.addEventListener("DOMContentLoaded", function() {
 
             </li>
 
-
-            <li
-                class="sidebar-item  ">
-                <a href="form-layout.html" class='sidebar-link'>
-                    <i class="bi bi-file-earmark-medical-fill"></i>
-                    <span>PERATURAN</span>
-                </a>
-
-
-            </li>
-
             <li
                 class="sidebar-item  has-sub">
                 <a href="#" class='sidebar-link'>
