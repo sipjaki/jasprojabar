@@ -368,6 +368,45 @@ document.addEventListener("DOMContentLoaded", function () {
 
                 </li>
 
+                <li class="submenu-item  ">
+                    <a href="/404" class="submenu-link" style="color: white; font-size:16px;">HSP Konstruksi Umum</a>
+
+                </li>
+
+            </ul>
+
+
+        </li>
+
+        <li
+            class="sidebar-item  has-sub">
+            <a href="#" class='sidebar-link'>
+                <i class="bi bi-file-earmark-spreadsheet-fill"></i>
+                <span>Rantai Pasok</span>
+            </a>
+
+            <ul class="submenu ">
+
+                <li class="submenu-item  ">
+                    <a href="/404" class="submenu-link" style="color: white; font-size:16px;">Asuransi Konstruksi </a>
+
+                </li>
+
+                <li class="submenu-item  ">
+                    <a href="/404" class="submenu-link" style="color: white; font-size:16px;">Supplier Bahan Bangunan</a>
+
+                </li>
+
+                <li class="submenu-item  ">
+                    <a href="/404" class="submenu-link" style="color: white; font-size:16px;">Peralatan Konstruksi</a>
+
+                </li>
+
+                <li class="submenu-item  ">
+                    <a href="/404" class="submenu-link" style="color: white; font-size:16px;">Toko Bangunan</a>
+
+                </li>
+
             </ul>
 
 
