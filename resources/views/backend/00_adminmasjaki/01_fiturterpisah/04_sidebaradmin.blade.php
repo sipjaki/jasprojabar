@@ -19,6 +19,17 @@ text-decoration: none;
 color: inherit; /* Mengambil warna default dari parent */
 }
 
+/* Menyembunyikan submenu secara default */
+.submenu {
+    display: none;
+    padding-left: 20px;
+}
+
+/* Menampilkan submenu ketika memiliki kelas 'show' */
+.submenu.show {
+    display: block;
+}
+
 </style>
 
 <script>
