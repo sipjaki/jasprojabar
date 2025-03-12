@@ -39,6 +39,31 @@ item.classList.add('active');
 });
 });
 
+document.addEventListener("DOMContentLoaded", function () {
+    // Ambil semua elemen dengan class sidebar-item yang memiliki submenu
+    const sidebarItemsWithSub = document.querySelectorAll('.sidebar-item.has-sub');
+
+    // Loop untuk menambahkan event listener pada setiap item
+    sidebarItemsWithSub.forEach(item => {
+        const submenu = item.querySelector('.submenu');  // Ambil submenu terkait
+
+        // Tambahkan event listener saat klik pada menu
+        item.querySelector('.sidebar-link').addEventListener('click', function (event) {
+            event.preventDefault(); // Mencegah aksi default (navigasi)
+
+            // Tutup semua submenu lainnya
+            document.querySelectorAll('.submenu.show').forEach(sub => {
+                if (sub !== submenu) {
+                    sub.classList.remove('show'); // Menutup submenu lainnya
+                }
+            });
+
+            // Toggle submenu yang diklik
+            submenu.classList.toggle('show');
+        });
+    });
+});
+
 </script>
 
 <script src="/assets/adminmasjaki/static/js/initTheme.js"></script>
@@ -101,34 +126,29 @@ item.classList.add('active');
 
 
         </li>
-
-        <li
-            class="sidebar-item  has-sub">
-            <a href="#" class='sidebar-link'>
-                <i class="bi bi-stack"></i>
-                <span>KELEMBAGAAN</span>
-            </a>
-
-            <ul class="submenu ">
-
-                <li class="submenu-item  ">
-                    <a href="/404" class="submenu-link" style="color: white; font-size:16px;">STRUKTUR ORGANISASI DPUPR</a>
-
-                </li>
-
-                <li class="submenu-item  ">
-                    <a href="/404" class="submenu-link" style="color: white; font-size:16px;">PROFIL JAKON DPUPR</a>
-
-                </li>
-
-                <li class="submenu-item  ">
-                    <a href="/404" class="submenu-link" style="color: white; font-size:16px;">TUPOKSI JAKON DPUPR</a>
-
-                </li>
-            </ul>
+        <ul class="sidebar">
+            <li class="sidebar-item has-sub">
+                <a href="#" class="sidebar-link">
+                    <i class="bi bi-stack"></i>
+                    <span>KELEMBAGAAN</span>
+                </a>
+                <ul class="submenu">
+                    <li class="submenu-item">
+                        <a href="/404" class="submenu-link" style="color: white; font-size:16px;">STRUKTUR ORGANISASI DPUPR</a>
+                    </li>
+                    <li class="submenu-item">
+                        <a href="/404" class="submenu-link" style="color: white; font-size:16px;">PROFIL JAKON DPUPR</a>
+                    </li>
+                    <li class="submenu-item">
+                        <a href="/404" class="submenu-link" style="color: white; font-size:16px;">TUPOKSI JAKON DPUPR</a>
+                    </li>
+                </ul>
+            </li>
+            <!-- Menu lainnya -->
+        </ul>
 
 
-        </li>
+
 
         <li
             class="sidebar-item  has-sub">
