@@ -177,6 +177,84 @@
 
 
         </li>
+        <li
+            class="sidebar-item  has-sub">
+            <a href="#" class='sidebar-link'>
+                <i class="bi bi-stack"></i>
+                <span>Peraturan</span>
+            </a>
+
+            <ul class="submenu ">
+
+                <li class="submenu-item  ">
+                    <a href="/404" class="submenu-link">Standar Biaya Umum</a>
+
+                </li>
+
+                <li class="submenu-item  ">
+                    <a href="/404" class="submenu-link">Undang-Undang</a>
+
+                </li>
+
+                <li class="submenu-item  ">
+                    <a href="/404" class="submenu-link">Undang-Undang</a>
+
+                </li>
+
+                <li class="submenu-item  ">
+                    <a href="/404" class="submenu-link">Peraturan Pemerintah</a>
+
+                </li>
+
+                <li class="submenu-item  ">
+                    <a href="/404" class="submenu-link">Peraturan Presiden</a>
+
+                </li>
+
+                <li class="submenu-item  ">
+                    <a href="/404" class="submenu-link">Peraturan Menteri</a>
+
+                </li>
+
+                <li class="submenu-item  ">
+                    <a href="/404" class="submenu-link">Keputusan Menteri</a>
+
+                </li>
+
+                <li class="submenu-item  ">
+                    <a href="/404" class="submenu-link">Surat Edaran Menteri</a>
+
+                </li>
+
+                <li class="submenu-item  ">
+                    <a href="/404" class="submenu-link">Surat Referensi</a>
+
+                </li>
+
+                <li class="submenu-item  ">
+                    <a href="/404" class="submenu-link">Peraturan Daerah</a>
+
+                </li>
+
+                <li class="submenu-item  ">
+                    <a href="/404" class="submenu-link">Peraturan Gubernur</a>
+
+                </li>
+
+                <li class="submenu-item  ">
+                    <a href="/404" class="submenu-link">Peraturan Walikota/Bupati</a>
+
+                </li>
+
+                <li class="submenu-item  ">
+                    <a href="/404" class="submenu-link">Surat Keputusan</a>
+
+                </li>
+
+            </ul>
+
+
+        </li>
 
 
         {{-- <li class="sidebar-title">Forms &amp; Tables</li>
