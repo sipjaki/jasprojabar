@@ -109,7 +109,7 @@
                 <div class="col-12 col-xl-4">
                     <div class="card">
                         <div class="card-header">
-                            <h4>Profile Visit</h4>
+                            <h4>Tertib Jasa Konstruksi</h4>
                         </div>
                         <div class="card-body">
                             <div class="row">
@@ -120,7 +120,7 @@
                                             <use
                                                 xlink:href="assets/static/images/bootstrap-icons.svg#circle-fill" />
                                         </svg>
-                                        <h5 class="mb-0 ms-3">Europe</h5>
+                                        <h5 class="mb-0 ms-3">Tertib Usaha</h5>
                                     </div>
                                 </div>
                                 <div class="col-5">
@@ -138,7 +138,7 @@
                                             <use
                                                 xlink:href="assets/static/images/bootstrap-icons.svg#circle-fill" />
                                         </svg>
-                                        <h5 class="mb-0 ms-3">America</h5>
+                                        <h5 class="mb-0 ms-3">Tertib Pemanfaatan</h5>
                                     </div>
                                 </div>
                                 <div class="col-5">
@@ -156,7 +156,7 @@
                                             <use
                                                 xlink:href="assets/static/images/bootstrap-icons.svg#circle-fill" />
                                         </svg>
-                                        <h5 class="mb-0 ms-3">Indonesia</h5>
+                                        <h5 class="mb-0 ms-3">Tertib Penyelenggaraan</h5>
                                     </div>
                                 </div>
                                 <div class="col-5">
@@ -238,7 +238,7 @@
                     <h4>Recent Messages</h4>
                 </div>
                 <div class="card-content pb-4">
-                    <div class="recent-message d-flex px-4 py-3">
+                    <div class="recent-message d-flex px-4 py-3"vi>
                         <div class="avatar avatar-lg">
                             <img src="./assets/adminmasjaki/compiled/jpg/4.jpg">
                         </div>
