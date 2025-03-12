@@ -1,11 +1,3 @@
-<style>
-    /* Warna ketika menu aktif */
-.sidebar-item.active {
-    background-color: #00820d; /* Ubah warna background */
-    color: white; /* Ubah warna teks jika diperlukan */
-}
-
-</style>
 
 
 <!DOCTYPE html>
