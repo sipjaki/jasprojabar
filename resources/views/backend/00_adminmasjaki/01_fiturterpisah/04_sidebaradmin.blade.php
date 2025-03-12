@@ -607,30 +607,6 @@ document.addEventListener("DOMContentLoaded", function () {
                 <i class="bi bi-file-earmark-spreadsheet-fill"></i>
                 <span>BERITA</span>
             </a>
-            <a href="#" class='sidebar-link'>
-                <i class="bi bi-file-earmark-spreadsheet-fill"></i>
-                <span>STATUS JAKON</span>
-            </a>
-            <a href="#" class='sidebar-link'>
-                <i class="bi bi-file-earmark-spreadsheet-fill"></i>
-                <span>TKK PEKERJA</span>
-            </a>
-            <a href="#" class='sidebar-link'>
-                <i class="bi bi-file-earmark-spreadsheet-fill"></i>
-                <span>PENGWASAN</span>
-            </a>
-            <a href="#" class='sidebar-link'>
-                <i class="bi bi-file-earmark-spreadsheet-fill"></i>
-                <span>HARGA</span>
-            </a>
-            <a href="#" class='sidebar-link'>
-                <i class="bi bi-file-earmark-spreadsheet-fill"></i>
-                <span>KONSTRUKSI</span>
-            </a>
-            <a href="#" class='sidebar-link'>
-                <i class="bi bi-file-earmark-spreadsheet-fill"></i>
-                <span>STATUS ADMIN</span>
-            </a>
 
             {{-- <ul class="submenu ">
 
@@ -653,6 +629,50 @@ document.addEventListener("DOMContentLoaded", function () {
 
         </li>
 
+        <li>
+            <a href="#" class='sidebar-link'>
+                <i class="bi bi-file-earmark-spreadsheet-fill"></i>
+                <span>STATUS JAKON</span>
+            </a>
+
+        </li>
+        <li>
+            <a href="#" class='sidebar-link'>
+                <i class="bi bi-file-earmark-spreadsheet-fill"></i>
+                <span>TKK PEKERJA</span>
+            </a>
+
+        </li>
+
+        <li>
+            <a href="#" class='sidebar-link'>
+                <i class="bi bi-file-earmark-spreadsheet-fill"></i>
+                <span>PENGWASAN</span>
+            </a>
+
+        </li>
+
+        <li>
+            <a href="#" class='sidebar-link'>
+                <i class="bi bi-file-earmark-spreadsheet-fill"></i>
+                <span>HARGA</span>
+            </a>
+
+        </li>
+        <li>
+            <a href="#" class='sidebar-link'>
+                <i class="bi bi-file-earmark-spreadsheet-fill"></i>
+                <span>KONSTRUKSI</span>
+            </a>
+
+        </li>
+        <li>
+            <a href="#" class='sidebar-link'>
+                <i class="bi bi-file-earmark-spreadsheet-fill"></i>
+                <span>STATUS ADMIN</span>
+            </a>
+
+        </li>
     </ul>
 </div>
 </div>
