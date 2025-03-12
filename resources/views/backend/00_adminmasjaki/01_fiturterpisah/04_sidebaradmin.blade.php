@@ -44,15 +44,23 @@
 <div class="sidebar-menu">
     <ul class="menu">
 
-        <li class="sidebar-title">Menu</li>
+        <li class="sidebar-title">Menu Utama</li>
 
         <li
             class="sidebar-item active ">
-            <a href="index.html" class='sidebar-link'>
+            <a href="/" class='sidebar-link' target="_blank">
                 <i class="bi bi-grid-fill"></i>
-                <span>Dashboard</span>
+                <span>Dashboard Web</span>
             </a>
 
+        </li>
+
+        <li
+            class="sidebar-item active ">
+            <a href="/dashboard" class='sidebar-link' target="_blank">
+                <i class="bi bi-grid-fill"></i>
+                <span>Dashboard Admin</span>
+            </a>
 
         </li>
 
