@@ -40,8 +40,10 @@
         </div>
     </div>
 </div>
+
 <div class="sidebar-menu">
     <ul class="menu">
+
         <li class="sidebar-title">Menu</li>
 
         <li
@@ -236,7 +238,8 @@
 
         </li>
 
-        <li class="sidebar-title">Forms &amp; Tables</li>
+
+        {{-- <li class="sidebar-title">Forms &amp; Tables</li>
 
         <li
             class="sidebar-item  has-sub">
@@ -343,9 +346,9 @@
             </ul>
 
 
-        </li>
+        </li> --}}
 
-        <li
+        {{-- <li
             class="sidebar-item  ">
             <a href="table.html" class='sidebar-link'>
                 <i class="bi bi-grid-1x2-fill"></i>
@@ -377,9 +380,9 @@
             </ul>
 
 
-        </li>
+        </li> --}}
 
-        <li class="sidebar-title">Extra UI</li>
+        {{-- <li class="sidebar-title">Extra UI</li>
 
         <li
             class="sidebar-item  has-sub">
@@ -461,7 +464,7 @@
             </ul>
 
 
-        </li>
+        </li> --}}
 
         <li
             class="sidebar-item  ">
