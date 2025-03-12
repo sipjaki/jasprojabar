@@ -466,7 +466,7 @@
 
         </li> --}}
 
-        <li
+        {{-- <li
             class="sidebar-item  ">
             <a href="ui-file-uploader.html" class='sidebar-link'>
                 <i class="bi bi-cloud-arrow-up-fill"></i>
@@ -617,9 +617,9 @@
             </ul>
 
 
-        </li>
+        </li> --}}
 
-        <li
+        {{-- <li
             class="sidebar-item  has-sub">
             <a href="#" class='sidebar-link'>
                 <i class="bi bi-x-octagon-fill"></i>
@@ -678,7 +678,7 @@
             </a>
 
 
-        </li>
+        </li> --}}
 
     </ul>
 </div>
