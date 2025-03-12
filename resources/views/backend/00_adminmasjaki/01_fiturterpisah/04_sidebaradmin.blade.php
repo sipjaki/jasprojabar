@@ -295,7 +295,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 class="sidebar-item  has-sub">
                 <a href="#" class='sidebar-link'>
                     <i class="bi bi-hexagon-fill"></i>
-                    <span>KELEMBAGAAN</span>
+                    <span style="font-size: 14px;" >KELEMBAGAAN</span>
                 </a>
 
                 <ul class="submenu ">
@@ -321,7 +321,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 class="sidebar-item  has-sub">
                 <a href="#" class='sidebar-link'>
                     <i class="bi bi-hexagon-fill"></i>
-                    <span>PERATURAN</span>
+                    <span style="font-size: 14px;">PERATURAN</span>
                 </a>
 
                 <ul class="submenu ">
@@ -388,7 +388,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 class="sidebar-item  has-sub">
                 <a href="#" class='sidebar-link'>
                     <i class="bi bi-hexagon-fill"></i>
-                    <span>BERITA</span>
+                    <span style="font-size: 14px;">BERITA</span>
                 </a>
 
                 <ul class="submenu ">
