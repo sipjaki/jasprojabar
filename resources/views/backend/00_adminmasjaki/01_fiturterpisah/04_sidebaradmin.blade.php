@@ -120,7 +120,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
         <li
             class="sidebar-item active ">
-            <a href="/404" class='sidebar-link'>
+            <a href="/" class='sidebar-link'>
                 <i class="bi bi-grid-fill"></i>
                 <span>ADMINISTRATOR</span>
             </a>
@@ -134,13 +134,13 @@ document.addEventListener("DOMContentLoaded", function () {
                 </a>
                 <ul class="submenu">
                     <li class="submenu-item">
-                        <a href="/404" class="submenu-link" style="color: white; font-size:16px;">STRUKTUR ORGANISASI DPUPR</a>
+                        <a href="/404" class="submenu-link" style="color: white; font-size:16px;">Struktur Organisasi DPUPR</a>
                     </li>
                     <li class="submenu-item">
-                        <a href="/404" class="submenu-link" style="color: white; font-size:16px;">PROFIL JAKON DPUPR</a>
+                        <a href="/404" class="submenu-link" style="color: white; font-size:16px;">Profil Jakon DPUPR</a>
                     </li>
                     <li class="submenu-item">
-                        <a href="/404" class="submenu-link" style="color: white; font-size:16px;">TUPOKSI JAKON DPUPR</a>
+                        <a href="/404" class="submenu-link" style="color: white; font-size:16px;">Tupoksi Jakon DPUPR</a>
                     </li>
                 </ul>
             </li>
