@@ -10,7 +10,7 @@
             <div class="logo">
                 <a href="#">
                     <img src="./assets/icon/logokabupatenblora.png" alt="Logo" width="100%" style="max-width: 50px; height: auto;">
-                    <img src="./assets/icon/pupr.png" alt="Logo" width="100%" style="max-width: 65px; height: auto;">
+                    <img src="./assets/icon/pupr.png" alt="Logo" width="100%" style="max-width: 50px; height: auto;">
                 </a>
                 </div>
             <div class="theme-toggle d-flex gap-2  align-items-center mt-2">
