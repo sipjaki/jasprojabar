@@ -96,7 +96,7 @@ item.classList.add('active');
             class="sidebar-item active ">
             <a href="index.html" class='sidebar-link'>
                 <i class="bi bi-grid-fill"></i>
-                <span>Dashboard</span>
+                <span>ADMINISTRATOR</span>
             </a>
 
 
@@ -106,96 +106,25 @@ item.classList.add('active');
             class="sidebar-item  has-sub">
             <a href="#" class='sidebar-link'>
                 <i class="bi bi-stack"></i>
-                <span>Components</span>
+                <span>KELEMBAGAAN</span>
             </a>
 
             <ul class="submenu ">
 
                 <li class="submenu-item  ">
-                    <a href="component-accordion.html" class="submenu-link">Accordion</a>
+                    <a href="/404" class="submenu-link" style="color: white; font-size:16px;">STRUKTUR ORGANISASI DPUPR</a>
 
                 </li>
 
                 <li class="submenu-item  ">
-                    <a href="component-alert.html" class="submenu-link">Alert</a>
+                    <a href="/404" class="submenu-link" style="color: white; font-size:16px;">PROFIL JAKON DPUPR</a>
 
                 </li>
 
                 <li class="submenu-item  ">
-                    <a href="component-badge.html" class="submenu-link">Badge</a>
+                    <a href="/404" class="submenu-link" style="color: white; font-size:16px;">TUPOKSI JAKON DPUPR</a>
 
                 </li>
-
-                <li class="submenu-item  ">
-                    <a href="component-breadcrumb.html" class="submenu-link">Breadcrumb</a>
-
-                </li>
-
-                <li class="submenu-item  ">
-                    <a href="component-button.html" class="submenu-link">Button</a>
-
-                </li>
-
-                <li class="submenu-item  ">
-                    <a href="component-card.html" class="submenu-link">Card</a>
-
-                </li>
-
-                <li class="submenu-item  ">
-                    <a href="component-carousel.html" class="submenu-link">Carousel</a>
-
-                </li>
-
-                <li class="submenu-item  ">
-                    <a href="component-collapse.html" class="submenu-link">Collapse</a>
-
-                </li>
-
-                <li class="submenu-item  ">
-                    <a href="component-dropdown.html" class="submenu-link">Dropdown</a>
-
-                </li>
-
-                <li class="submenu-item  ">
-                    <a href="component-list-group.html" class="submenu-link">List Group</a>
-
-                </li>
-
-                <li class="submenu-item  ">
-                    <a href="component-modal.html" class="submenu-link">Modal</a>
-
-                </li>
-
-                <li class="submenu-item  ">
-                    <a href="component-navs.html" class="submenu-link">Navs</a>
-
-                </li>
-
-                <li class="submenu-item  ">
-                    <a href="component-pagination.html" class="submenu-link">Pagination</a>
-
-                </li>
-
-                <li class="submenu-item  ">
-                    <a href="component-progress.html" class="submenu-link">Progress</a>
-
-                </li>
-
-                <li class="submenu-item  ">
-                    <a href="component-spinner.html" class="submenu-link">Spinner</a>
-
-                </li>
-
-                <li class="submenu-item  ">
-                    <a href="component-toasts.html" class="submenu-link">Toasts</a>
-
-                </li>
-
-                <li class="submenu-item  ">
-                    <a href="component-tooltip.html" class="submenu-link">Tooltip</a>
-
-                </li>
-
             </ul>
 
 
@@ -205,38 +134,68 @@ item.classList.add('active');
             class="sidebar-item  has-sub">
             <a href="#" class='sidebar-link'>
                 <i class="bi bi-collection-fill"></i>
-                <span>Extra Components</span>
+                <span>PERATURAN</span>
             </a>
 
             <ul class="submenu ">
 
                 <li class="submenu-item  ">
-                    <a href="extra-component-avatar.html" class="submenu-link">Avatar</a>
+                    <a href="extra-component-avatar.html" class="submenu-link" style="color: white; font-size:16px;">STANDAR BIAYA UMUM</a>
 
                 </li>
 
                 <li class="submenu-item  ">
-                    <a href="extra-component-divider.html" class="submenu-link">Divider</a>
+                    <a href="extra-component-divider.html" class="submenu-link" style="color: white; font-size:16px;">UNDANG-UNDANG</a>
 
                 </li>
 
                 <li class="submenu-item  ">
-                    <a href="extra-component-date-picker.html" class="submenu-link">Date Picker</a>
+                    <a href="extra-component-date-picker.html" class="submenu-link" style="color: white; font-size:16px;">PERATURAN PEMERINTAH</a>
 
                 </li>
 
                 <li class="submenu-item  ">
-                    <a href="extra-component-sweetalert.html" class="submenu-link">Sweet Alert</a>
+                    <a href="extra-component-sweetalert.html" class="submenu-link" style="color: white; font-size:16px;">PERATURAN PRESIDEN</a>
 
                 </li>
 
                 <li class="submenu-item  ">
-                    <a href="extra-component-toastify.html" class="submenu-link">Toastify</a>
+                    <a href="extra-component-toastify.html" class="submenu-link" style="color: white; font-size:16px;">PERATURAN MENTERI</a>
 
                 </li>
 
                 <li class="submenu-item  ">
-                    <a href="extra-component-rating.html" class="submenu-link">Rating</a>
+                    <a href="extra-component-rating.html" class="submenu-link" style="color: white; font-size:16px;">KEPUTUSAN MENTERI</a>
+
+                </li>
+
+                <li class="submenu-item  ">
+                    <a href="/404" class="submenu-link" style="color: white; font-size:16px;">SURAT EDARAN MENTERI</a>
+
+                </li>
+
+                <li class="submenu-item  ">
+                    <a href="/404" class="submenu-link" style="color: white; font-size:16px;">SURAT REFERENSI</a>
+
+                </li>
+
+                <li class="submenu-item  ">
+                    <a href="/404" class="submenu-link" style="color: white; font-size:16px;">PERATURAN DAERAH</a>
+
+                </li>
+
+                <li class="submenu-item  ">
+                    <a href="/404" class="submenu-link" style="color: white; font-size:16px;">PERATURAN GUBERNUR</a>
+
+                </li>
+
+                <li class="submenu-item  ">
+                    <a href="/404" class="submenu-link" style="color: white; font-size:16px;">PERATURAN WALIKOTA/BUPATI</a>
+
+                </li>
+
+                <li class="submenu-item  ">
+                    <a href="/404" class="submenu-link" style="color: white; font-size:16px;">SURAT KEPUTUSAN</a>
 
                 </li>
 
