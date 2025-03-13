@@ -313,8 +313,8 @@
                                         <li><a href="#">Satuan Harga Dasar</a>
                                             <ul class="list-unstyled">
                                                 <li><a href="/satuanhargamaterial">Harga Satuan Material</a></li>
-                                                <li><a href="/satuanhargaupahtenaga">Harga Satuan Upah Tenaga Kerja</a></li>
-                                                <li><a href="/satuanhargaperalatan">Harga Satuan Peralatan</a></li>
+                                                {{-- <li><a href="/satuanhargaupahtenaga">Harga Satuan Upah Tenaga Kerja</a></li>
+                                                <li><a href="/satuanhargaperalatan">Harga Satuan Peralatan</a></li> --}}
                                             </ul>
                                         </li>
 										<li><a href="#">HSP Konstruksi Umum</a>
