@@ -270,92 +270,65 @@
 			</div><!-- row -->
 		</div><!-- container -->
 	</section><!--causes-one-section-->
-
-
-    <section class="event-three-section" style="margin-top:-200px;">
-		<div class="event-section-outer">
-			<div class="container">
-
-                <h3 class="pricing-title" style="text-align: center;">Daftar Artikel Jakon</h3>
-
+    <section class="event-three-section" style="margin-top: -200px;">
+        <div class="event-section-outer">
+            <div class="container">
+                <h3 class="pricing-title text-center">Daftar Artikel Jakon</h3>
                 <br><br>
-				<div class="row row-gutter-y-30">
+                <div class="row">
 
-                    @foreach ($dataartikel->take(4) as $item)
+                    <!-- Bagian Kiri: Artikel -->
+                    <div class="col-lg-6">
+                        <div class="row row-gutter-y-30">
+                            @foreach ($dataartikel->take(4) as $item)
+                                <div class="col-12">
+                                    <div class="event-card">
+                                        <div class="event-card-image">
+                                            <div class="event-card-image-inner">
+                                                <a href="#">
+                                                    <img src="{{ asset('storage/' . $item->foto1) }}" class="img-fluid" alt="Gambar Artikel" width="100%">
+                                                </a>
+                                                <div class="event-card-meta">
+                                                    <div class="event-meta-date">
+                                                        <span>{{ \Carbon\Carbon::parse($item->tanggal)->translatedFormat('l, d F Y') }}</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="event-card-content">
+                                            <div class="event-card-title">
+                                                <h4><a href="#">{{ $item->judul }}</a></h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            @endforeach
+                        </div>
+                    </div>
 
+                    <!-- Bagian Kanan: Video YouTube -->
+                    <div class="col-lg-6 d-flex align-items-center justify-content-center">
+                        <div class="event-card">
+                            <div class="event-card-image">
+                                <div class="event-card-image-inner">
+                                    <iframe width="100%" height="315"
+                                        src="https://www.youtube.com/embed/IP3whQNdlZM"
+                                        title="Dinas Pekerjaan Umum dan Penataan Ruang Kab Blora"
+                                        frameborder="0"
+                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                        referrerpolicy="strict-origin-when-cross-origin"
+                                        allowfullscreen>
+                                    </iframe>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
-{{-- ----------------------------------------------------------------------- --}}
-                <div class="col-6 col-lg-6 col-xl-6">
-                    <div class="event-card">
-                        <div class="event-card-image">
-                            <div class="event-card-image-inner">
-                                <a href="#">
-                                    <img src="{{ asset('storage/' . $item->foto1) }}" class="img-fluid" alt="Gambar" width="200px;">
-                                </a>
+                </div> <!-- row -->
+            </div> <!-- container -->
+        </div> <!-- event-section-outer -->
+    </section> <!-- event-three-section -->
 
-                                <div class="event-card-meta">
-                                    <div class="event-meta-number">
-                                        <a href="/404">
-                                            <span><i class="fas fa-download"></i></span>
-                                        </a>
-										</div><!-- event-meta-number -->
-										<div class="event-meta-date">
-
-                                            <span>{{ \Carbon\Carbon::parse($item->tanggal)->translatedFormat('l, d F Y') }}</span>
-
-                                                    </div><!-- event-meta-date -->
-									</div><!-- event-card-meta -->
-								</div><!-- event-card-image-inner -->
-							</div><!--event-card-image-->
-							<div class="event-card-content">
-                                <div class="event-card-title">
-                                    <h4><a href="#">{{$item->judul}}</a></h4>
-								</div><!-- event-card-title -->
-							</div><!--event-card-content-->
-						</div><!--event-card-->
-					</div><!--col-12 col-lg-6 col-xl-6-->
-{{-- ----------------------------------------------------------------------- --}}
-
-@endforeach
-
-
-{{-- ----------------------------------------------------------------------- --}}
-                <div class="col-6 col-lg-6 col-xl-6">
-                    <div class="event-card">
-                        <div class="event-card-image">
-                            <div class="event-card-image-inner">
-                                <a href="#">
-                                    {{-- <img src="{{ asset('storage/' . $item->foto1) }}" class="img-fluid" alt="Gambar" width="200px;"> --}}
-                                </a>
-
-                                <div class="event-card-meta">
-                                    <div class="event-meta-number">
-                                        <a href="/404">
-                                            <span><i class="fas fa-download"></i></span>
-                                        </a>
-										</div><!-- event-meta-number -->
-										<div class="event-meta-date">
-
-                                            {{-- <span>{{ \Carbon\Carbon::parse($item->tanggal)->translatedFormat('l, d F Y') }}</span> --}}
-
-                                                    </div><!-- event-meta-date -->
-									</div><!-- event-card-meta -->
-								</div><!-- event-card-image-inner -->
-							</div><!--event-card-image-->
-							<div class="event-card-content">
-                                <div class="event-card-title">
-                                    {{-- <h4><a href="#">{{$item->judul}}</a></h4> --}}
-								</div><!-- event-card-title -->
-							</div><!--event-card-content-->
-						</div><!--event-card-->
-					</div><!--col-12 col-lg-6 col-xl-6-->
-{{-- ----------------------------------------------------------------------- --}}
-
-
-				</div><!-- row -->
-			</div><!-- container -->
-		</div><!-- event-section-outer -->
-	</section><!--event-three-section-->
 
 {{--
     <section class="client-section" style="background: #2ECC71">
