@@ -240,7 +240,7 @@ color: #45a049;
                                                 {{-- <th onclick="sortTable(1)" style="cursor:pointer; text-align:center; width:150px;"> Paket  <span class="sort-icon">⇅</span></th>
                                                 <th onclick="sortTable(4)" style="cursor:pointer; text-align:center; width:250px;"> Item Pekerjaan <span class="sort-icon">⇅</span></th> --}}
                                                 <th onclick="sortTable(7)" style="cursor:pointer; text-align:center; width:600px;"> Jenis Pekerjaan <span class="sort-icon">⇅</span></th>
-                                                <th onclick="sortTable(6)" style="cursor:pointer; text-align:center; width:80px;"> Rp. <span class="sort-icon">⇅</span></th>
+                                                <th onclick="sortTable(6)" style="cursor:pointer; text-align:center; width:80px;"> Rp <span class="sort-icon">⇅</span></th>
                                                 <th onclick="sortTable(8)" style="cursor:pointer; text-align:center; width:200px;"> Harga Satuan <span class="sort-icon">⇅</span></th>
                                             </tr>
                                         </thead>
@@ -260,7 +260,7 @@ color: #45a049;
                                                 {{-- <td style="text-align: center;">{{$item->hsppaket4->hsppaket4}}</td>
                                                 <td style="text-align: center;">{{$item->hspkodepekerjaan4->namapekerjaan}}</td> --}}
                                                 <td style="cursor: pointer; color: blue; text-decoration: underline;" onclick="showModal('{{ $item->jenispekerjaan }}')">{{$item->jenispekerjaan}}</td>
-                                                <td style="text-align: center;">Rp.</td>
+                                                <td style="text-align: center;">Rp</td>
                                                 <td style="text-align: right;">{{ number_format((float) $item->hargasatuan, 0, ',', '.') }},-</td>
                                             </tr>
                                             @endforeach
