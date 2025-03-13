@@ -251,7 +251,7 @@
                                         <div class="sidebar-meta-item">
                                             <div class="sidebar-meta-icon">
 												<span class="author">
-													by<a href="news-details.html">Mas Zaki</a>
+													Penulis : <a href="news-details.html">Mas Zaki</a>
 												</span><!-- author -->
 											</div><!-- sidebar-meta-icon -->
 										</div><!-- sidebar-meta-item -->
