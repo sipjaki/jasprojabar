@@ -272,9 +272,9 @@
 	</section><!--causes-one-section-->
 
 
-    <section class="event-three-section" style="margin-top:-200px;">
+    <section class="event-three-section" >
 		<div class="event-section-outer">
-			<div class="container">
+			<div class="container" style="margin-top:-200px;">
 
                 <h3 class="pricing-title" style="text-align: center;">Daftar Artikel Jakon</h3>
 
