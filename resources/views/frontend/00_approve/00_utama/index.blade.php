@@ -288,7 +288,7 @@
                                         <div class="event-card-image">
                                             <div class="event-card-image-inner">
                                                 <a href="#">
-                                                    <img src="{{ asset('storage/' . $item->foto1) }}" class="img-fluid" alt="Gambar Artikel" width="40%">
+                                                    <img src="{{ asset('storage/' . $item->foto1) }}" class="img-fluid" alt="Gambar Artikel" width="40%" height="40%">
                                                 </a>
                                                 <div class="event-card-meta">
                                                     <div class="event-meta-date">
@@ -313,7 +313,7 @@
                         <div class="event-card">
                             <div class="event-card-image">
                                 <div class="event-card-image-inner">
-                                    <iframe width="100%" height="800"
+                                    <iframe width="800" height="800"
                                         src="https://www.youtube.com/embed/IP3whQNdlZM"
                                         title="Dinas Pekerjaan Umum dan Penataan Ruang Kab Blora"
                                         frameborder="0"
