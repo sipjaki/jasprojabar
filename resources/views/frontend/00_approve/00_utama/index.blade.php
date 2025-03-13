@@ -271,7 +271,6 @@
 		</div><!-- container -->
 	</section><!--causes-one-section-->
 
-
     <section class="event-three-section" style="margin-top: -200px;">
         <div class="event-section-outer">
             <div class="container">
@@ -280,27 +279,23 @@
                 <div class="row">
 
                     <!-- Bagian Kiri: Artikel -->
-                    <div class="col-lg-6">
-                        <div class="row row-gutter-y-30">
+                    <div class="col-lg-6 col-md-12">
+                        <div class="row">
                             @foreach ($dataartikel->take(4) as $item)
-                                <div class="col-12">
+                                <div class="col-12 mb-4">
                                     <div class="event-card">
-                                        <div class="event-card-image">
-                                            <div class="event-card-image-inner">
-                                                <a href="#">
-                                                    <img src="{{ asset('storage/' . $item->foto1) }}" class="img-fluid" alt="Gambar Artikel" width="40%" height="40%">
-                                                </a>
-                                                <div class="event-card-meta">
-                                                    <div class="event-meta-date">
-                                                        <span>{{ \Carbon\Carbon::parse($item->tanggal)->translatedFormat('l, d F Y') }}</span>
-                                                    </div>
+                                        <div class="event-card-image text-center">
+                                            <a href="#">
+                                                <img src="{{ asset('storage/' . $item->foto1) }}" class="img-fluid" alt="Gambar Artikel" style="max-width: 80%; height: auto;">
+                                            </a>
+                                            <div class="event-card-meta mt-2">
+                                                <div class="event-meta-date">
+                                                    <span>{{ \Carbon\Carbon::parse($item->tanggal)->translatedFormat('l, d F Y') }}</span>
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="event-card-content">
-                                            <div class="event-card-title">
-                                                <h4><a href="#">{{ $item->judul }}</a></h4>
-                                            </div>
+                                        <div class="event-card-content text-center">
+                                            <h4><a href="#">{{ $item->judul }}</a></h4>
                                         </div>
                                     </div>
                                 </div>
@@ -309,17 +304,18 @@
                     </div>
 
                     <!-- Bagian Kanan: Video YouTube -->
-                    <div class="col-lg-6 d-flex align-items-center justify-content-center">
-                        <div class="event-card">
-                            <div class="event-card-image">
-                                <div class="event-card-image-inner">
-                                    <iframe width="400" height="400"
-                                        src="https://www.youtube.com/embed/IP3whQNdlZM"
+                    <div class="col-lg-6 col-md-12 d-flex flex-column align-items-center justify-content-center">
+                        <div class="event-card w-100">
+                            <div class="event-card-image w-100">
+                                <!-- Aspect Ratio 16:9 agar tetap proporsional -->
+                                <div style="position: relative; width: 100%; padding-bottom: 56.25%;">
+                                    <iframe src="https://www.youtube.com/embed/IP3whQNdlZM"
                                         title="Dinas Pekerjaan Umum dan Penataan Ruang Kab Blora"
                                         frameborder="0"
                                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                                         referrerpolicy="strict-origin-when-cross-origin"
-                                        allowfullscreen>
+                                        allowfullscreen
+                                        style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
                                     </iframe>
                                 </div>
                             </div>
