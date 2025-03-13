@@ -189,6 +189,7 @@
 
                     <div class="news-details-box-image">
 						<div class="news-details-box-image-inner">
+
 							<img src="{{ asset('storage/' . $item->foto) }}" class="img-fluid" alt="img-193">
 
                             <a href="#" class="news-details-box-date">{{ \Carbon\Carbon::parse($item->tanggal)->translatedFormat('l, d F Y') }}</a>
@@ -267,7 +268,7 @@
                                             {!! $excerpt !!}
 
                                             @if(\Illuminate\Support\Str::wordCount($text) > $wordLimit)
-                                                <a href="{{ url('/beritajakon/' . \Illuminate\Support\Str::slug($item->judulberita)) }}"
+                                                <a href="{{ url('/beritajakon'}}"
                                                    style="color: blue; text-decoration: none;">
                                                    Selengkapnya &rarr;
                                                 </a>
