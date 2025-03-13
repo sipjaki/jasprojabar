@@ -200,7 +200,7 @@
 						<h4>{{$item->judulberita}}</h4>
 
                         @php
-                        $wordLimit = 100;
+                        $wordLimit = 50;
                         $text = strip_tags($item->keterangan);
                         $excerpt = \Illuminate\Support\Str::words($text, $wordLimit, '...');
                     @endphp
@@ -210,7 +210,7 @@
                         @if(\Illuminate\Support\Str::wordCount($text) > $wordLimit)
                             <a href="{{ url('/beritajakon/' . \Illuminate\Support\Str::slug($item->judulberita)) }}"
                                style="color: blue; text-decoration: none;">
-                               Selengkapnya ...
+                               Selengkapnya ...->
                             </a>
                         @endif
                     </p>
