@@ -30,62 +30,28 @@
         >
 			<div class="row">
 				<div class="col-lg-8">
-					<div class="news-details-box-image">
+
+                    {{-- @foreach ($data->skip(0)->take(1) as $item) --}}
+
+                    <div class="news-details-box-image">
 						<div class="news-details-box-image-inner">
-							<img src="/assets/00_dokmasjaki/01_berita/berita1.JPG" class="img-fluid" alt="img-193">
-							<a href="news-details.html" class="news-details-box-date">MARET 2025</a>
+							<img src="{{ asset('storage/' . $data->foto) }}" class="img-fluid" alt="img-193">
+
+                            <a href="#" class="news-details-box-date">{{ \Carbon\Carbon::parse($data->tanggal)->translatedFormat('l, d F Y') }}</a>
 						</div><!-- news-details-box-image-inner -->
 					</div><!-- news-details-box-image -->
 
-					{{-- <div class="news-details-meta-box">
-						<div class="news-details-meta-box-inner">
-							<span class="author">
-								by<a href="news-details.html">Admin</a>
-							</span><!-- author -->
-							<span class="comment">
-								<a href="news-details.html">02 Comments</a>
-							</span><!-- comment -->
-						</div><!-- news-details-meta-box-inner -->
-					</div><!-- news-details-meta-box --> --}}
-<br><br>
+                    <br><br>
                     <div class="news-details-content-box" style="margin-left: 25px;">
-						<h4>Pelatihan dan Uji Kompetensi SKK Jenjang 4 bagi Tenaga Kerja Konstruksi di Kabupaten Blora</h4>
+						<h4>{{$data->judulberita}}</h4>
+                        <br>
+                        <p style="text-align: justify;">{{$data->keterangan}}
 
-                        <p>
-                            Blora, Dinas Pekerjaan Umum dan Penataan Ruang (DPUPR) Kabupaten Blora menggelar Pelatihan dan Uji Kompetensi Sertifikat Kompetensi Kerja (SKK) Jenjang 4 bagi tenaga kerja konstruksi. Kegiatan ini bertujuan untuk meningkatkan kualitas dan profesionalisme tenaga kerja konstruksi sesuai dengan standar nasional yang berlaku.
-                            Pelatihan dan uji kompetensi ini berlangsung di [lokasi kegiatan] dan diikuti oleh puluhan peserta yang berasal dari berbagai sektor konstruksi. Para peserta mendapatkan pembekalan teori serta praktik langsung yang dipandu oleh instruktur berpengalaman dan asesor kompetensi bersertifikat.
                         </p>
-
-                        <p>
-                            Kepala Dinas PUPR Kabupaten Blora, Nidzamudin Al-Hudda, ST dalam sambutannya menyampaikan bahwa sertifikasi kompetensi kerja ini merupakan langkah penting dalam meningkatkan daya saing tenaga kerja konstruksi di Blora. “Kami berharap dengan adanya pelatihan dan sertifikasi ini, tenaga kerja konstruksi dapat bekerja lebih profesional dan kompeten sesuai dengan standar yang telah ditetapkan,” ujarnya.
-                            Selain itu, kegiatan ini juga sejalan dengan regulasi pemerintah yang mengharuskan setiap tenaga kerja konstruksi memiliki sertifikat kompetensi sesuai dengan Undang-Undang Jasa Konstruksi. Dengan adanya SKK, tenaga kerja konstruksi akan lebih mudah mendapatkan peluang kerja di berbagai proyek, baik yang dikelola oleh pemerintah maupun sektor swasta.
-                        </p>
-
 
                     </div><!-- /.news-details-content-box -->
 
-
-
-                    {{-- <div class="news-details-comment-form">
-						<h3>Leave a Comment</h3>
-						<form class="contact-form contact-form-validated" action="assets/inc/sendemail.php" method="post">
-							<div class="row row-gutter-10">
-								<div class="col-12 col-lg-6">
-									<input type="text" class="input-text" placeholder="Your name" name="name" aria-required="true">
-								</div><!-- col-12 col-lg-6 -->
-								<div class="col-12 col-lg-6">
-									<input type="email"  class="input-text" placeholder="Email address" name="email" aria-required="true">
-								</div><!-- col-12 col-lg-6 -->
-								<div class="col-12 col-lg-12">
-									<textarea name="message" placeholder="Write a message" class="input-text " aria-required="true"></textarea>
-								</div><!-- col-12 col-lg-12 -->
-								<div class="col-12 col-lg-12">
-									<button class="btn btn-primary">Submit Comment</button>
-								</div><!-- col-12 col-lg-12 -->
-							</div><!-- row -->
-						</form><!-- contact-form -->
-					</div><!-- news-details-comment-form --> --}}
-
+                    {{-- @endforeach --}}
 
                 </div><!-- col-lg-8 -->
 
