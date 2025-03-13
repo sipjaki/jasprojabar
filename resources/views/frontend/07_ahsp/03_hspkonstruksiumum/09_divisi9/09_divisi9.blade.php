@@ -257,7 +257,7 @@ color: #45a049;
                                                     {{-- {{ optional($item->kode->id) }} --}}
                                                 </td>
                                                 {{-- <td style="text-align: center;">{{$item->hspdivisi->hspdivisi}}</td> --}}
-                                                <td style="text-align: center;">{{$item->hsppaket9->hsppaket9}}</td>
+                                                {{-- <td style="text-align: center;">{{$item->hsppaket9->hsppaket9}}</td> --}}
                                                 <td style="text-align: center;">{{$item->hspkodepekerjaan9->namapekerjaan}}</td>
                                                 <td style="cursor: pointer; color: blue; text-decoration: underline;" onclick="showModal('{{ $item->jenispekerjaan }}')">{{$item->jenispekerjaan}}</td>
                                                 <td style="text-align: center;">Rp</td>
