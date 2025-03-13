@@ -317,7 +317,7 @@
 							<div class="event-card-content">
                                 <div class="event-card-title">
 
-                                    <a href="{{ url('/beritajakon') }}"
+                                    <a href="{{ url('/artikeljakon') }}"
                                     style="color: blue; text-decoration: none;">
                                     <h3>{{$item->judul}}</h3>
                                     </a>
