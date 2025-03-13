@@ -283,10 +283,10 @@
                         <div class="row">
                             @foreach ($dataartikel->take(4) as $item)
                                 <div class="col-12 mb-4">
-                                    <div class="event-card" style="height: 50vh; width:50vh;">
+                                    <div class="event-card" style="height: 25vh; width:25vh;">
                                         <div class="event-card-image text-center">
                                             <a href="#">
-                                                <img src="{{ asset('storage/' . $item->foto1) }}" class="img-fluid" alt="Gambar Artikel" style="max-width: 80%; height: auto;">
+                                                <img src="{{ asset('storage/' . $item->foto1) }}" class="img-fluid" alt="Gambar Artikel" style="max-width: 50%; height: auto;">
                                             </a>
                                             <div class="event-card-meta mt-2">
                                                 <div class="event-meta-date">
