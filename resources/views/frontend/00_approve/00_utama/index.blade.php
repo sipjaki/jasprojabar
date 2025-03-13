@@ -180,7 +180,7 @@
 	<section class="news-details-section" style="background:white">
 		<div class="container"  style="margin-top:-100px;">
 
-            <h3 style="text-align: center;">Berita Jakon</h3>
+            <h3 class="pricing-title" style="text-align: center;">Berita Jakon</h3>
 <br>
 			<div class="row">
 				<div class="col-lg-8">
@@ -236,7 +236,7 @@
 							</div><!-- sidebar__item -->
 						</div><!-- sidebar-form-content -->
 						<div class="sidebar-widget sidebar-widget-recent-post">
-							<h4>Daftar Berita</h4>
+							<h3 class="pricing-title">Daftar Berita</h3>
 
                             @foreach ($data->skip(1)->take(3) as $item)
 
@@ -276,7 +276,7 @@
 		<div class="event-section-outer">
 			<div class="container">
 
-                <h4 style="text-align: center;">Daftar Artikel Jakon</h4>
+                <h3 class="pricing-title" style="text-align: center;">Daftar Artikel Jakon</h3>
 
                 <br><br>
 				<div class="row row-gutter-y-30">
@@ -289,7 +289,10 @@
                     <div class="event-card">
                         <div class="event-card-image">
                             <div class="event-card-image-inner">
-                                <a href="#"><img src="/assets/00_dokmasjaki/03_datajakon/berkaspdf.png" class="img-fluid" alt="img-164" width="200px;"></a>
+                                <a href="#">
+                                    <img src="{{ asset('storage/' . $item->foto1) }}" class="img-fluid" alt="Gambar" width="200px;">
+                                </a>
+
                                 <div class="event-card-meta">
                                     <div class="event-meta-number">
                                         <a href="/404">
@@ -297,8 +300,15 @@
                                         </a>
 										</div><!-- event-meta-number -->
 										<div class="event-meta-date">
-                                            <span>Maret 2025</span>
-										</div><!-- event-meta-date -->
+
+                                        @php
+                                            use Carbon\Carbon;
+                                            setlocale(LC_TIME, 'id_ID'); // Pastikan sistem mendukung ID locale
+                                            \Carbon\Carbon::setLocale('id'); // Untuk format Carbon
+                                        @endphp
+
+                                        <span>{{ Carbon::parse($item->tanggal)->translatedFormat('l, d F Y') }}</span>
+                                                    </div><!-- event-meta-date -->
 									</div><!-- event-card-meta -->
 								</div><!-- event-card-image-inner -->
 							</div><!--event-card-image-->
