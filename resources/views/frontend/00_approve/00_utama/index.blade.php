@@ -304,7 +304,7 @@
                     </div>
 
                     <!-- Bagian Kanan: Video YouTube -->
-                    <div class="col-lg-6 col-md-12 d-flex flex-column align-items-center justify-content-center">
+                    <div class="col-lg-6 col-md-12 d-flex flex-column align-items-right justify-content-right">
                         <div class="event-card w-100">
                             <div class="event-card-image w-100">
                                 <!-- Aspect Ratio 16:9 agar tetap proporsional -->
