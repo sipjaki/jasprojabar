@@ -180,7 +180,7 @@
 	<section class="news-details-section" style="background:white">
 		<div class="container"  style="margin-top:-100px;">
 
-            <h3 style="text-align: center;">Berita Jakon</h3>
+            <h3 class="pricing-title" style="text-align: center;">Berita Jakon</h3>
 
 			<div class="row">
 				<div class="col-lg-8">
