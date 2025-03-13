@@ -238,7 +238,7 @@
 							</div><!-- sidebar__item -->
 						</div><!-- sidebar-form-content -->
 						<div class="sidebar-widget sidebar-widget-recent-post">
-							<h4 class="pricing-title">Daftar Berita</h4>
+							<h4 class="pricing-title">Daftar Berita Jakon Blora</h4>
 
                             @foreach ($data->skip(1)->take(3) as $item)
 
