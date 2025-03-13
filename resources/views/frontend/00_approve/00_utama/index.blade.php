@@ -256,7 +256,7 @@
 											</div><!-- sidebar-meta-icon -->
 										</div><!-- sidebar-meta-item -->
 										<div class="sidebar-post-title">
-                  <h6><a href="/beritajakon/{{$item->judulberita}}">{{$item->judulberita}}</a></h6>
+                                            <h6><a href="/beritajakon/{{$item->judulberita}}">{{$item->judulberita}}</a></h6>
 										</div><!-- sidebar-post-title -->
 									</div><!-- sidebar-meta -->
 								</div><!-- sidebar-recent-post-content -->
