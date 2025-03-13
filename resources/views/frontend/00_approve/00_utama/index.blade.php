@@ -157,6 +157,7 @@
 @endif
 
     <section class="pricing-section">
+        <br><br>
         <h3 class="pricing-title">Analisa Harga Satuan Pekerjaan Kab Blora 2025</h3>
         <div class="pricing-container">
             <div class="pricing-card">
@@ -176,7 +177,7 @@
 
 
 	{{-- <section class="news-details-section" style="background-image: url(assets/00_dokmasjaki/03_datajakon/bannerbetter.jpg);"> --}}
-	<section class="news-details-section" style="background:white" style="margin-top:-100px;">
+	<section class="news-details-section" style="background:white" style="margin-top:-400px;">
 		<div class="container">
 
             <h4 style="text-align: center;">Berita Jakon</h4>
