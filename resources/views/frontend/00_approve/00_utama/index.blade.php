@@ -238,7 +238,7 @@
 						<div class="sidebar-widget sidebar-widget-recent-post">
 							<h4>Daftar Berita</h4>
 
-                            @foreach ($data->skip(1)->take(4) as $item)
+                            @foreach ($data->skip(1)->take(3) as $item)
 
                             <div class="sidebar-recent-post">
 								<div class="sidebar-recent-post-img">
