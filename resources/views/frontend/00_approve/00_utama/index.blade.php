@@ -250,7 +250,7 @@
                                     <div class="sidebar-meta">
                                         <div class="sidebar-meta-item">
                                             <div class="sidebar-meta-icon">
-												<span class="author">
+												<span class="author" style="color: black;">
 													Penulis : <a href="news-details.html">Anam</a>
 												</span><!-- author -->
 											</div><!-- sidebar-meta-icon -->
