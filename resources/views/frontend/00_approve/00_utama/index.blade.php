@@ -270,6 +270,8 @@
 			</div><!-- row -->
 		</div><!-- container -->
 	</section><!--causes-one-section-->
+
+
     <section class="event-three-section" style="margin-top: -200px;">
         <div class="event-section-outer">
             <div class="container">
@@ -281,7 +283,7 @@
                     <div class="col-lg-6">
                         <div class="row row-gutter-y-30">
                             @foreach ($dataartikel->take(4) as $item)
-                                <div class="col-6">
+                                <div class="col-12">
                                     <div class="event-card">
                                         <div class="event-card-image">
                                             <div class="event-card-image-inner">
