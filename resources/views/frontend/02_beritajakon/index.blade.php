@@ -44,25 +44,10 @@
                     <br><br>
                     <div class="news-details-content-box" style="margin-left: 25px;">
 						<h4>{{$item->judulberita}}</h4>
+                        <br>
+                        <h4>{{$item->keterangan}}
 
-                        @php
-                        $wordLimit = 50;
-                        $text = strip_tags($item->keterangan);
-                        $excerpt = \Illuminate\Support\Str::words($text, $wordLimit, '...');
-                    @endphp
-
-                    <p style="text-align: justify">
-                        {!! $excerpt !!}
-                        @if(\Illuminate\Support\Str::wordCount($text) > $wordLimit)
-                        {{-- <a href="{{ url('/beritajakon/' . \Illuminate\Support\Str::slug($item->judulberita)) }}" --}}
-                            <a href="{{ url('/beritajakon') }}"
-                            style="color: blue; text-decoration: none;">
-                            Selengkapnya &rarr;
-                            </a>
-
-                        @endif
-                    </p>
-
+                        </h4>
 
                     </div><!-- /.news-details-content-box -->
 
