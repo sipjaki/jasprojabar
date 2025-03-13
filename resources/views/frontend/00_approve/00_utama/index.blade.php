@@ -270,6 +270,7 @@
 			</div><!-- row -->
 		</div><!-- container -->
 	</section><!--causes-one-section-->
+
     <section class="event-three-section" style="margin-top: -200px;">
         <div class="event-section-outer">
             <div class="container">
@@ -278,7 +279,7 @@
                 <div class="row">
 
                     <!-- Bagian Kiri: Artikel -->
-                    <div class="col-lg-6">
+                    <div class="col-12 col-md-6">
                         <div class="row row-gutter-y-30">
                             @foreach ($dataartikel->take(4) as $item)
                                 <div class="col-12">
@@ -286,7 +287,7 @@
                                         <div class="event-card-image">
                                             <div class="event-card-image-inner">
                                                 <a href="#">
-                                                    <img src="{{ asset('storage/' . $item->foto1) }}" class="img-fluid" alt="Gambar Artikel" width="100%">
+                                                    <img src="{{ asset('storage/' . $item->foto1) }}" class="img-fluid" alt="Gambar Artikel" style="max-width: 100%; height: auto;">
                                                 </a>
                                                 <div class="event-card-meta">
                                                     <div class="event-meta-date">
@@ -306,19 +307,21 @@
                         </div>
                     </div>
 
-                    <!-- Bagian Kanan: Video YouTube -->
-                    <div class="col-lg-6 d-flex align-items-center justify-content-center">
-                        <div class="event-card">
+                    <!-- Bagian Kanan: Video YouTube (Responsif) -->
+                    <div class="col-12 col-md-6 d-flex align-items-center justify-content-center">
+                        <div class="event-card w-100">
                             <div class="event-card-image">
-                                <div class="event-card-image-inner">
-                                    <iframe width="100%" height="315"
-                                        src="https://www.youtube.com/embed/IP3whQNdlZM"
-                                        title="Dinas Pekerjaan Umum dan Penataan Ruang Kab Blora"
-                                        frameborder="0"
-                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                        referrerpolicy="strict-origin-when-cross-origin"
-                                        allowfullscreen>
-                                    </iframe>
+                                <div class="event-card-image-inner" style="width: 100%;">
+                                    <div style="position: relative; width: 100%; padding-bottom: 56.25%;"> <!-- 16:9 Aspect Ratio -->
+                                        <iframe src="https://www.youtube.com/embed/IP3whQNdlZM"
+                                            title="Dinas Pekerjaan Umum dan Penataan Ruang Kab Blora"
+                                            frameborder="0"
+                                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                            referrerpolicy="strict-origin-when-cross-origin"
+                                            allowfullscreen
+                                            style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
+                                        </iframe>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -328,7 +331,6 @@
             </div> <!-- container -->
         </div> <!-- event-section-outer -->
     </section> <!-- event-three-section -->
-
 
 {{--
     <section class="client-section" style="background: #2ECC71">
