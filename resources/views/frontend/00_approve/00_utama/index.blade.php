@@ -183,7 +183,7 @@
             <h3 class="pricing-title" style="text-align: center;">Berita Jakon</h3>
 <br>
 			<div class="row">
-				<div class="col-lg-8">
+				<div class="col-lg-7">
 
                     @foreach ($data->skip(0)->take(1) as $item)
 
@@ -224,7 +224,7 @@
 
                 </div><!-- col-lg-8 -->
 
-				<div class="col-lg-4">
+				<div class="col-lg-5">
 					<div class="sidebar">
 						<div class="sidebar-form-content">
 							<div class="sidebar__item sidebar__item--search">
