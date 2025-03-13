@@ -177,10 +177,10 @@
 
 
 	{{-- <section class="news-details-section" style="background-image: url(assets/00_dokmasjaki/03_datajakon/bannerbetter.jpg);"> --}}
-	<section class="news-details-section" style="background:white" style="margin-top:-400px;">
-		<div class="container">
+	<section class="news-details-section" style="background:white">
+		<div class="container"  style="margin-top:-200px;">
 
-            <h4 style="text-align: center;">Berita Jakon</h4>
+            <h3 style="text-align: center;">Berita Jakon</h3>
 
 			<div class="row">
 				<div class="col-lg-8">
