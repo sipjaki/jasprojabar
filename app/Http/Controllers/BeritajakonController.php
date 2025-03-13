@@ -123,6 +123,7 @@ class BeritajakonController extends Controller
     public function showjudulberita($judulberita)
     {
         $databeritajakon = beritajakon::where('judulberita', $judulberita)->first();
+        $databerita = beritajakon::paginate(6);
 
         // if (!$databeritajakon) {
         //     // Tangani jika kegiatan tidak ditemukan
@@ -140,8 +141,9 @@ class BeritajakonController extends Controller
     $user = Auth::user();
 
     return view('frontend.02_beritajakon.showberita', [
-        'title' => 'Data Bujk Konstruksi',
+        'title' => 'Berita Jasa Konstruksi',
         'data' => $databeritajakon,
+        'databerita' => $databerita,
         // 'subData' => $subdata,  // Jika Anda ingin mengirimkan data sub kontraktor juga
         'user' => $user,
         // 'start' => $start,
