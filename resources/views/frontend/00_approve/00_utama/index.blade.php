@@ -199,19 +199,16 @@
                     <div class="news-details-content-box" style="margin-left: 25px;">
 						<h4>{{$item->judulberita}}</h4>
 
-
                         @php
-                        use Illuminate\Support\Str;
-
                         $wordLimit = 100;
                         $text = strip_tags($item->keterangan);
-                        $excerpt = Str::words($text, $wordLimit, '...');
+                        $excerpt = \Illuminate\Support\Str::words($text, $wordLimit, '...');
                     @endphp
 
                     <p style="text-align: justify">
                         {!! $excerpt !!}
-                        @if(Str::wordCount($text) > $wordLimit)
-                            <a href="{{ url('/beritajakon/' . Str::slug($item->judulberita)) }}"
+                        @if(\Illuminate\Support\Str::wordCount($text) > $wordLimit)
+                            <a href="{{ url('/beritajakon/' . \Illuminate\Support\Str::slug($item->judulberita)) }}"
                                style="color: blue; text-decoration: none;">
                                Selengkapnya ...
                             </a>
