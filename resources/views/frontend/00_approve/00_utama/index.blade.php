@@ -191,7 +191,7 @@
 						<div class="news-details-box-image-inner">
 							<img src="{{ asset('storage/' . $item->foto) }}" class="img-fluid" alt="img-193">
 
-                            <a href="news-details.html" class="news-details-box-date">{{$item->tanggal}}</a>
+                            <a href="#" class="news-details-box-date">{{ \Carbon\Carbon::parse($item->tanggal)->translatedFormat('l, d F Y') }}</a>
 						</div><!-- news-details-box-image-inner -->
 					</div><!-- news-details-box-image -->
 
