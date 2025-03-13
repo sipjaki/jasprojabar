@@ -301,13 +301,8 @@
 										</div><!-- event-meta-number -->
 										<div class="event-meta-date">
 
-                                        @php
-                                            use Carbon\Carbon;
-                                            setlocale(LC_TIME, 'id_ID'); // Pastikan sistem mendukung ID locale
-                                            \Carbon\Carbon::setLocale('id'); // Untuk format Carbon
-                                        @endphp
+                                            <span>{{ \Carbon\Carbon::parse($item->tanggal)->translatedFormat('l, d F Y') }}</span>
 
-                                        <span>{{ Carbon::parse($item->tanggal)->translatedFormat('l, d F Y') }}</span>
                                                     </div><!-- event-meta-date -->
 									</div><!-- event-card-meta -->
 								</div><!-- event-card-image-inner -->
