@@ -208,7 +208,8 @@
                     <p style="text-align: justify">
                         {!! $excerpt !!}
                         @if(\Illuminate\Support\Str::wordCount($text) > $wordLimit)
-                            <a href="{{ url('/beritajakon/' . \Illuminate\Support\Str::slug($item->judulberita)) }}"
+                        {{-- <a href="{{ url('/beritajakon/' . \Illuminate\Support\Str::slug($item->judulberita)) }}" --}}
+                            <a href="{{ url('/beritajakon)) }}"
                                style="color: blue; text-decoration: none;">
                                Selengkapnya ...->
                             </a>
