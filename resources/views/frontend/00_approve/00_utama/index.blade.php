@@ -210,9 +210,9 @@
                         @if(\Illuminate\Support\Str::wordCount($text) > $wordLimit)
                         {{-- <a href="{{ url('/beritajakon/' . \Illuminate\Support\Str::slug($item->judulberita)) }}" --}}
                             <a href="{{ url('/beritajakon') }}"
-   style="color: blue; text-decoration: none;">
-   Selengkapnya &rarr;
-</a>
+                            style="color: blue; text-decoration: none;">
+                            Selengkapnya &rarr;
+                            </a>
 
                         @endif
                     </p>
@@ -291,9 +291,14 @@
                     <div class="event-card">
                         <div class="event-card-image">
                             <div class="event-card-image-inner">
-                                <a href="#">
+
+                                <a href="{{ url('/artikeljakon') }}">
                                     <img src="{{ asset('storage/' . $item->foto1) }}" class="img-fluid" alt="Gambar" width="200px;">
                                 </a>
+
+                                {{-- <a href="#">
+                                    <img src="{{ asset('storage/' . $item->foto1) }}" class="img-fluid" alt="Gambar" width="200px;">
+                                </a> --}}
 
                                 <div class="event-card-meta">
                                     <div class="event-meta-number">
@@ -311,8 +316,14 @@
 							</div><!--event-card-image-->
 							<div class="event-card-content">
                                 <div class="event-card-title">
-                                    <h4><a href="#">{{$item->judul}}</a></h4>
-								</div><!-- event-card-title -->
+
+                                    <a href="{{ url('/beritajakon') }}"
+                                    style="color: blue; text-decoration: none;">
+                                    <h3>{{$item->judul}}</h3>
+                                    </a>
+
+
+                                </div><!-- event-card-title -->
 							</div><!--event-card-content-->
 						</div><!--event-card-->
 					</div><!--col-12 col-lg-6 col-xl-6-->
