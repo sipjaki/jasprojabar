@@ -257,26 +257,23 @@
 										</div><!-- sidebar-meta-item -->
 										<div class="sidebar-post-title">
 
+                                            @php
+                                            $wordLimit = 6;
+                                            $text = strip_tags($item->judulberita);
+                                            $excerpt = \Illuminate\Support\Str::words($text, $wordLimit, '...');
+                                        @endphp
 
-                        @php
-                        $wordLimit = 6;
-                        $text = strip_tags($item->judulberita);
-                        $excerpt = \Illuminate\Support\Str::words($text, $wordLimit, '...');
-                    @endphp
+                                        <p style="text-align: justify">
+                                            {!! $excerpt !!}
 
-                    <p style="text-align: justify">
-                        {!! $excerpt !!}
-                        @if(\Illuminate\Support\Str::wordCount($text) > $wordLimit)
-                        {{-- <a href="{{ url('/beritajakon/' . \Illuminate\Support\Str::slug($item->judulberita)) }}" --}}
-                            <a href="{{ url('/beritajakon/{{$item->judulberita}}') }}"
-                            style="color: blue; text-decoration: none;">
-                                    {{$item->judulberita}}
-                            </a>
-
-                        @endif
-                    </p>
-
-											{{-- <h6><a href="/beritajakon/{{$item->judulberita}}">{{$item->judulberita}}</a></h6> --}}
+                                            @if(\Illuminate\Support\Str::wordCount($text) > $wordLimit)
+                                                <a href="{{ url('/beritajakon/' . \Illuminate\Support\Str::slug($item->judulberita)) }}"
+                                                   style="color: blue; text-decoration: none;">
+                                                    {{ $item->judulberita }}
+                                                </a>
+                                            @endif
+                                        </p>
+                                                {{-- <h6><a href="/beritajakon/{{$item->judulberita}}">{{$item->judulberita}}</a></h6> --}}
 										</div><!-- sidebar-post-title -->
 									</div><!-- sidebar-meta -->
 								</div><!-- sidebar-recent-post-content -->
