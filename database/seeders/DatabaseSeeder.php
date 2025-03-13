@@ -311,7 +311,7 @@ class DatabaseSeeder extends Seeder
 //======================== ===================================================================================
 strukturdinas::create([
     'judul' => 'Struktur Dinas Pekerjaan Umum Dan Penataan Ruang Pemerintah Kabupaten Blora',
-    'peraturan' => 'struktur/01_dinas/Struktur_Organisasi_PUPR_Blora.pdf',
+    'peraturan' => '01_kelembagaan/01_dinas/Struktur_Organisasi_PUPR_Blora.pdf',
     'created_at' => Carbon::now(),
     'updated_at' => Carbon::now(),
     'deleted_at' => null, // Jika Anda menggunakan soft deletes
@@ -329,7 +329,7 @@ strukturdinas::create([
 //======================== ===================================================================================
 renstra::create([
     'judul' => 'Rencana Strategis Pemerintah Kabupaten Bandung Barat',
-    'peraturan' => 'struktur/02_renstra/RENSTRA_DPUPR_KAB_BLORA.pdf',
+    'peraturan' => '01_kelembagaan/02_renstra/RENSTRA_DPUPR_KAB_BLORA.pdf',
     'created_at' => Carbon::now(),
     'updated_at' => Carbon::now(),
     'deleted_at' => null, // Jika Anda menggunakan soft deletes
@@ -338,7 +338,7 @@ renstra::create([
 //======================== ===================================================================================
 tupoksi::create([
     'judul' => 'Tupoksi Program Dan Jasa Konstruksi DPUPR Kab Blora',
-    'peraturan' => 'struktur/03_tupoksi/TUPOKSI_JASA _KONSTRUKSI.pdf',
+    'peraturan' => '01_kelembagaan/03_tupoksi/TUPOKSI_JASA _KONSTRUKSI.pdf',
     'created_at' => Carbon::now(),
     'updated_at' => Carbon::now(),
     'deleted_at' => null, // Jika Anda menggunakan soft deletes
@@ -9041,42 +9041,42 @@ beritajakon::create([
     'judulberita' => 'Pelatihan dan Uji Kompetensi SKK Jenjang 4 bagi Tenaga Kerja Konstruksi di Kabupaten Blora',
     'tanggal' => '2025-03-05',
     'keterangan' => 'Blora, Dinas PUPR Kabupaten Blora menggelar Pelatihan dan Uji Kompetensi Sertifikat Kompetensi Kerja (SKK) Jenjang 4 bagi tenaga kerja konstruksi untuk meningkatkan kualitas dan profesionalisme sesuai standar nasional. Kegiatan ini diikuti oleh puluhan peserta dari berbagai sektor konstruksi dengan pembekalan teori dan praktik oleh instruktur serta asesor kompetensi bersertifikat. Kepala Dinas PUPR Kabupaten Blora, [Nama], menegaskan pentingnya sertifikasi ini dalam meningkatkan daya saing tenaga kerja konstruksi, sejalan dengan regulasi pemerintah yang mewajibkan kepemilikan SKK. Salah satu peserta, [Nama Peserta], menyatakan bahwa pelatihan ini sangat bermanfaat dalam meningkatkan pemahaman dan keterampilannya di bidang konstruksi. Uji kompetensi dilakukan secara ketat untuk menilai pemahaman terhadap standar konstruksi, keselamatan kerja, dan kemampuan teknis. Dengan pelatihan ini, diharapkan tenaga kerja konstruksi di Blora semakin berkualitas dan siap bersaing dalam industri nasional.',
-    'foto' => '01_berita/berita1.JPG',
+    'foto' => '00_beranda/01_berita/berita1.JPG',
 ]);
 
 beritajakon::create([
     'judulberita' => 'Meningkatkan Kualitas Tenaga Kerja: Pelatihan dan Uji Kompetensi SKK Digelar di Blora',
     'tanggal' => '2025-03-05',
     'keterangan' => 'Blora, Dinas PUPR Kabupaten Blora mengadakan Pelatihan dan Uji Kompetensi Sertifikat Kompetensi Kerja (SKK) Jenjang 4 bagi tenaga kerja konstruksi guna meningkatkan profesionalisme dan daya saing mereka. Kegiatan ini diikuti oleh puluhan peserta dari berbagai sektor konstruksi yang mendapatkan pembekalan teori serta praktik langsung oleh instruktur dan asesor kompetensi bersertifikat. Kepala Dinas PUPR Kabupaten Blora, [Nama], menegaskan pentingnya sertifikasi ini dalam mendukung standar nasional dan meningkatkan peluang kerja tenaga konstruksi di berbagai proyek. Salah satu peserta, [Nama Peserta], menyatakan bahwa pelatihan ini sangat membantu dalam meningkatkan keterampilan dan kepercayaan diri menghadapi dunia kerja. Dengan terselenggaranya kegiatan ini, diharapkan tenaga kerja konstruksi di Blora semakin berkualitas dan mampu bersaing dalam industri nasional.',
-    'foto' => '01_berita/berita2.JPG',
+    'foto' => '00_beranda/01_berita/berita2.JPG',
 ]);
 
 beritajakon::create([
     'judulberita' => 'Puluhan Tenaga Konstruksi Blora Ikuti Sertifikasi Kompetensi Kerja Jenjang 4',
     'tanggal' => '2025-03-05',
     'keterangan' => 'Blora, Dinas PUPR Kabupaten Blora menggelar Pelatihan dan Uji Kompetensi Sertifikat Kompetensi Kerja (SKK) Jenjang 4 untuk meningkatkan kualitas tenaga kerja konstruksi sesuai standar nasional. Kegiatan ini diikuti oleh puluhan peserta dari berbagai sektor konstruksi yang mendapatkan pembekalan teori dan praktik langsung dari instruktur serta asesor bersertifikat. Kepala Dinas PUPR Kabupaten Blora, [Nama], menyampaikan bahwa sertifikasi ini penting untuk meningkatkan daya saing tenaga kerja dan membuka peluang kerja lebih luas di sektor konstruksi. Salah satu peserta, [Nama Peserta], mengaku pelatihan ini sangat bermanfaat dalam meningkatkan keterampilan dan kepercayaan diri di dunia kerja. Dengan adanya kegiatan ini, diharapkan tenaga kerja konstruksi di Blora semakin kompeten dan siap bersaing dalam industri nasional',
-    'foto' => '01_berita/berita3.JPG',
+    'foto' => '00_beranda/01_berita/berita3.JPG',
 ]);
 
 beritajakon::create([
     'judulberita' => 'Dorong Profesionalisme, Dinas PUPR Blora Selenggarakan Uji Kompetensi SKK Konstruksi',
     'tanggal' => '2025-03-05',
     'keterangan' => 'Blora, Dinas PUPR Kabupaten Blora mengadakan Pelatihan dan Sertifikasi Sertifikat Kompetensi Kerja (SKK) Jenjang 4 sebagai langkah strategis dalam meningkatkan standar tenaga kerja konstruksi di daerah ini. Kegiatan ini diikuti oleh puluhan peserta dari berbagai sektor yang mendapatkan pembekalan teori dan praktik langsung oleh instruktur serta asesor bersertifikat. Kepala Dinas PUPR Kabupaten Blora, [Nama], menyatakan bahwa sertifikasi ini bertujuan untuk memastikan tenaga kerja konstruksi memiliki kompetensi sesuai standar nasional dan mampu bersaing di industri konstruksi. Salah satu peserta, [Nama Peserta], menyampaikan bahwa pelatihan ini sangat bermanfaat dalam meningkatkan keterampilan dan peluang kerja di sektor konstruksi. Dengan adanya program ini, diharapkan tenaga kerja konstruksi di Blora semakin profesional dan berkontribusi dalam pembangunan yang berkualitas.',
-    'foto' => '01_berita/berita4.JPG',
+    'foto' => '00_beranda/01_berita/berita4.JPG',
 ]);
 
 beritajakon::create([
     'judulberita' => 'Pelatihan dan Sertifikasi SKK di Blora: Upaya Meningkatkan Standar Tenaga Konstruksi',
     'tanggal' => '2025-03-05',
     'keterangan' => 'Blora, Dinas PUPR Kabupaten Blora mengadakan Pelatihan dan Sertifikasi Sertifikat Kompetensi Kerja (SKK) Jenjang 4 untuk meningkatkan standar tenaga kerja konstruksi di daerah tersebut. Kegiatan ini diikuti oleh puluhan peserta yang mendapatkan pembekalan teori dan praktik langsung dari instruktur serta asesor bersertifikat. Kepala Dinas PUPR Kabupaten Blora, [Nama], menyatakan bahwa sertifikasi ini penting untuk memastikan tenaga kerja memiliki kompetensi sesuai standar nasional dan dapat bersaing di industri konstruksi. Salah satu peserta, [Nama Peserta], mengungkapkan bahwa pelatihan ini sangat membantu dalam meningkatkan keterampilan dan peluang kerja. Dengan adanya program ini, diharapkan tenaga kerja konstruksi di Blora semakin profesional dan berkontribusi dalam pembangunan infrastruktur yang berkualitas.',
-    'foto' => '01_berita/berita5.jpg',
+    'foto' => '00_beranda/01_berita/berita5.jpg',
 ]);
 
 beritajakon::create([
     'judulberita' => 'Dinas PUPR Blora Gelar Pelatihan dan Uji Kompetensi SKK Jenjang 4 bagi Tenaga Konstruksi',
     'tanggal' => '2025-03-05',
     'keterangan' => 'Blora, Dinas PUPR Kabupaten Blora menyelenggarakan Pelatihan dan Uji Kompetensi Sertifikat Kompetensi Kerja (SKK) Jenjang 4 untuk meningkatkan kualitas tenaga kerja konstruksi di daerah tersebut. Kegiatan ini diikuti oleh puluhan peserta dari berbagai sektor yang mendapatkan pembekalan teori dan praktik dari instruktur serta asesor bersertifikat. Kepala Dinas PUPR Kabupaten Blora, [Nama], menyampaikan bahwa sertifikasi ini bertujuan untuk memastikan tenaga kerja memiliki kompetensi sesuai standar nasional dan siap bersaing di industri konstruksi. Salah satu peserta, [Nama Peserta], mengungkapkan bahwa pelatihan ini sangat membantu dalam meningkatkan keterampilan dan peluang kerja. Dengan adanya program ini, diharapkan tenaga kerja konstruksi di Blora semakin profesional dan mampu mendukung pembangunan infrastruktur yang berkualitas.',
-    'foto' => '01_berita/berita6.JPG',
+    'foto' => '00_beranda/01_berita/berita6.JPG',
 ]);
 
 //======================== ===================================================================================
@@ -11410,82 +11410,6 @@ suratkeputusan::create([
     'deleted_at' => null, // Jika Anda menggunakan soft deletes
 ]);
 
-// ============================== ============================== ============================== ==============================
-//  HALAMAN BERITA WEB SIPJAKI KABUPATEN BLORA
-// ============================== ============================== ============================== ==============================
-
-
-berita::create([
-    'judul' => 'Tansformasi Digital Mas Jaki DPUPR Blora, Sistem Informasi Pembina Jasa Konstruksi Pemerintah Kabupaten Blora Provinsi Jawa Tengah',
-    'user_id' => rand(1,5),
-    'gambar' => 'berita/databerita/blora1.jpg',
-    'keteranganberita' => '
-    <p>Pemerintah Kabupaten Blora, melalui Dinas Pekerjaan Umum dan Penataan Ruang (DPUPR), tengah melakukan transformasi digital dalam pengelolaan sistem informasi pembinaan jasa konstruksi di wilayah tersebut. Inisiatif ini bertujuan untuk meningkatkan efisiensi, transparansi, dan akuntabilitas dalam proses sertifikasi serta pengawasan pekerja konstruksi di Kabupaten Blora. Dengan penerapan teknologi digital, diharapkan dapat mempermudah akses informasi bagi para pelaku industri konstruksi serta mendukung pembangunan yang lebih terstruktur dan terencana dengan baik, sejalan dengan visi Pemerintah Provinsi Jawa Tengah dalam mendorong kemajuan sektor konstruksi yang profesional dan berstandar.</p>',
-    'tanggal' => Carbon::now()->toDateString(), // Atau gunakan tanggal yang spesifik
-    'created_at' => Carbon::now(),
-    'updated_at' => Carbon::now(),
-]);
-
-berita::create([
-    'judul' => 'Pemerintah Kabupaten Blora Melaksanakan Sertifikasi Pekerja Tenaga Konstruksi',
-    'user_id' => rand(1,5),
-    'gambar' => 'berita/databerita/blora2.jpg',
-    'keteranganberita' => '
-    <p>Pemerintah Kabupaten Blora melalui Dinas Pekerjaan Umum dan Penataan Ruang (DPUPR) telah melaksanakan sertifikasi bagi pekerja tenaga konstruksi sebagai upaya untuk meningkatkan kualitas dan kompetensi sumber daya manusia di sektor konstruksi. Program sertifikasi ini bertujuan untuk memastikan bahwa para pekerja konstruksi memiliki keterampilan dan pengetahuan yang sesuai dengan standar yang berlaku, sehingga dapat menghasilkan pekerjaan konstruksi yang lebih aman, efisien, dan berkualitas. Dengan adanya sertifikasi ini, diharapkan akan mendukung pembangunan infrastruktur yang lebih baik di Kabupaten Blora serta meningkatkan daya saing tenaga kerja konstruksi di tingkat regional maupun nasional.</p>
-',
-    'tanggal' => Carbon::now()->toDateString(), // Atau gunakan tanggal yang spesifik
-    'created_at' => Carbon::now(),
-    'updated_at' => Carbon::now(),
-]);
-
-berita::create([
-    'judul' => 'Peningkatan Kompetensi Tenaga Konstruksi Melalui Pelatihan Sertifikasi di Kabupaten Blora',
-    'user_id' => rand(1,5),
-    'gambar' => 'berita/databerita/blora3.jpg',
-    'keteranganberita' => '
-    <p>Pemerintah Kabupaten Blora Provinsi Jawa Tengah telah meluncurkan inisiatif transformasi digital dalam sistem informasi pembina jasa konstruksi sebagai langkah penting untuk meningkatkan efisiensi dan transparansi dalam sektor konstruksi. Program ini bertujuan untuk memodernisasi cara pemerintah mengelola dan mengawasi proyek-proyek konstruksi di daerahnya, dengan memanfaatkan teknologi informasi terkini untuk mempermudah akses, pelaporan, dan monitoring. Transformasi ini diharapkan dapat membawa perubahan positif dalam cara proyek konstruksi dikelola dan dievaluasi, serta meningkatkan kualitas layanan kepada masyarakat.
-    </p>
-    ',
-    'tanggal' => Carbon::now()->toDateString(), // Atau gunakan tanggal yang spesifik
-    'created_at' => Carbon::now(),
-    'updated_at' => Carbon::now(),
-]);
-
-berita::create([
-    'judul' => 'Pemerintah Kabupaten Blora Gelar Pelatihan Sertifikasi untuk Pekerja Tenaga Konstruksi',
-    'user_id' => rand(1,5),
-    'gambar' => 'berita/databerita/blora4.jpg',
-    'keteranganberita' => '
-    <p>Pemerintah Kabupaten Blora Provinsi Jawa Tengah telah meluncurkan inisiatif transformasi digital dalam sistem informasi pembina jasa konstruksi sebagai langkah penting untuk meningkatkan efisiensi dan transparansi dalam sektor konstruksi. Program ini bertujuan untuk memodernisasi cara pemerintah mengelola dan mengawasi proyek-proyek konstruksi di daerahnya, dengan memanfaatkan teknologi informasi terkini untuk mempermudah akses, pelaporan, dan monitoring. Transformasi ini diharapkan dapat membawa perubahan positif dalam cara proyek konstruksi dikelola dan dievaluasi, serta meningkatkan kualitas layanan kepada masyarakat.</p>
-
-<p>Sistem informasi baru ini dirancang untuk menyediakan platform terintegrasi yang memungkinkan pemantauan real-time atas proyek konstruksi, pengelolaan data secara efisien, dan komunikasi yang lebih baik antara pihak terkait. Melalui sistem ini, setiap tahap proyek konstruksi, mulai dari perencanaan hingga pelaksanaan, dapat dipantau secara langsung oleh pihak berwenang. Hal ini bertujuan untuk memastikan bahwa semua proyek memenuhi standar kualitas dan regulasi yang ditetapkan, serta meminimalkan potensi penyelewengan atau kesalahan yang mungkin terjadi.</p>
-
-<p>Transformasi digital ini juga mencakup peningkatan aksesibilitas bagi para kontraktor dan penyedia jasa konstruksi. Dengan sistem informasi yang terintegrasi, para pemangku kepentingan dapat mengakses informasi penting, seperti persyaratan perizinan dan prosedur pengajuan, secara online. Ini akan mempercepat proses administrasi dan mengurangi birokrasi, sehingga memberikan kemudahan bagi para pelaku industri untuk berpartisipasi dalam proyek-proyek pemerintah. Selain itu, transparansi yang lebih tinggi diharapkan dapat meningkatkan kepercayaan masyarakat terhadap proses pengadaan dan pelaksanaan proyek konstruksi.</p>
-
-<p>Peluncuran sistem informasi pembina jasa konstruksi ini merupakan bagian dari komitmen Pemerintah Kabupaten Bandung Barat untuk mendorong inovasi dan efisiensi dalam pelayanan publik. Dengan adanya transformasi digital ini, diharapkan sektor konstruksi di daerah ini dapat berkembang lebih pesat dan berkelanjutan. Ke depan, pemerintah akan terus memantau dan mengevaluasi efektivitas sistem ini, serta melakukan perbaikan yang diperlukan untuk memastikan bahwa manfaat dari transformasi digital dapat dirasakan secara optimal oleh semua pihak terkait.</p>
-',
-    'tanggal' => Carbon::now()->toDateString(), // Atau gunakan tanggal yang spesifik
-    'created_at' => Carbon::now(),
-    'updated_at' => Carbon::now(),
-]);
-
-berita::create([
-    'judul' => 'Meningkatkan Profesionalisme Tenaga Konstruksi di Kabupaten Blora Melalui Pelatihan Sertifikasi',
-    'user_id' => rand(1,5),
-    'gambar' => 'berita/databerita/blora5.jpg',
-    'keteranganberita' => '
-    <p>Pemerintah Kabupaten Blora Provinsi Jawa Tengah telah meluncurkan inisiatif transformasi digital dalam sistem informasi pembina jasa konstruksi sebagai langkah penting untuk meningkatkan efisiensi dan transparansi dalam sektor konstruksi. Program ini bertujuan untuk memodernisasi cara pemerintah mengelola dan mengawasi proyek-proyek konstruksi di daerahnya, dengan memanfaatkan teknologi informasi terkini untuk mempermudah akses, pelaporan, dan monitoring. Transformasi ini diharapkan dapat membawa perubahan positif dalam cara proyek konstruksi dikelola dan dievaluasi, serta meningkatkan kualitas layanan kepada masyarakat.</p>
-
-<p>Sistem informasi baru ini dirancang untuk menyediakan platform terintegrasi yang memungkinkan pemantauan real-time atas proyek konstruksi, pengelolaan data secara efisien, dan komunikasi yang lebih baik antara pihak terkait. Melalui sistem ini, setiap tahap proyek konstruksi, mulai dari perencanaan hingga pelaksanaan, dapat dipantau secara langsung oleh pihak berwenang. Hal ini bertujuan untuk memastikan bahwa semua proyek memenuhi standar kualitas dan regulasi yang ditetapkan, serta meminimalkan potensi penyelewengan atau kesalahan yang mungkin terjadi.</p>
-
-<p>Transformasi digital ini juga mencakup peningkatan aksesibilitas bagi para kontraktor dan penyedia jasa konstruksi. Dengan sistem informasi yang terintegrasi, para pemangku kepentingan dapat mengakses informasi penting, seperti persyaratan perizinan dan prosedur pengajuan, secara online. Ini akan mempercepat proses administrasi dan mengurangi birokrasi, sehingga memberikan kemudahan bagi para pelaku industri untuk berpartisipasi dalam proyek-proyek pemerintah. Selain itu, transparansi yang lebih tinggi diharapkan dapat meningkatkan kepercayaan masyarakat terhadap proses pengadaan dan pelaksanaan proyek konstruksi.</p>
-
-<p>Peluncuran sistem informasi pembina jasa konstruksi ini merupakan bagian dari komitmen Pemerintah Kabupaten Bandung Barat untuk mendorong inovasi dan efisiensi dalam pelayanan publik. Dengan adanya transformasi digital ini, diharapkan sektor konstruksi di daerah ini dapat berkembang lebih pesat dan berkelanjutan. Ke depan, pemerintah akan terus memantau dan mengevaluasi efektivitas sistem ini, serta melakukan perbaikan yang diperlukan untuk memastikan bahwa manfaat dari transformasi digital dapat dirasakan secara optimal oleh semua pihak terkait.</p>
-',
-    'tanggal' => Carbon::now()->toDateString(), // Atau gunakan tanggal yang spesifik
-    'created_at' => Carbon::now(),
-    'updated_at' => Carbon::now(),
-]);
 
 
 // =================================== ===================================== ===========================
