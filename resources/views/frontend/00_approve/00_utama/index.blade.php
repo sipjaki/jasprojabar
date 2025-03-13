@@ -185,15 +185,6 @@
 			<div class="row">
 				<div class="col-lg-8">
 
-
-
-                    @php
-                    use Illuminate\Support\Str;
-                    $wordLimit = 100;
-                    $text = strip_tags($item->keterangan);
-                    $excerpt = Str::words($text, $wordLimit, '...');
-                    @endphp
-
                     @foreach ($data->skip(0)->take(1) as $item)
 
                     <div class="news-details-box-image">
@@ -208,12 +199,7 @@
                     <div class="news-details-content-box" style="margin-left: 25px;">
 						<h4>{{$item->judulberita}}</h4>
 
-                    <p style="text-align: justify">
-                        {!! $excerpt !!}
-                        @if(Str::wordCount($text) > $wordLimit)
-                            <a href="{{ route('detail.route', ['id' => $item->id]) }}" style="color: blue; text-decoration: none;">Selengkapnya</a>
-                        @endif
-                    </p>
+
 
                         <p style="text-align: justify">
                             {{$item->keterangan}}
