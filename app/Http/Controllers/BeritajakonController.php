@@ -120,33 +120,33 @@ class BeritajakonController extends Controller
 //     ]);
 // }
 
-//     public function bujkkontraktorshow($namalengkap)
-//     {
-//         $databujkkontraktor = bujkkontraktor::where('namalengkap', $namalengkap)->first();
+    public function showjudulberita($judulberita)
+    {
+        $databeritajakon = beritajakon::where('judulberita', $judulberita)->first();
 
-//         if (!$databujkkontraktor) {
-//             // Tangani jika kegiatan tidak ditemukan
-//             return redirect()->back()->with('error', 'Kegiatan tidak ditemukan.');
-//         }
+        // if (!$databeritajakon) {
+        //     // Tangani jika kegiatan tidak ditemukan
+        //     return redirect()->back()->with('error', 'Kegiatan tidak ditemukan.');
+        // }
 
-//         // Menggunakan paginate() untuk pagination
-//         $subdata = bujkkontraktorsub::where('bujkkontraktor_id', $databujkkontraktor->id)->paginate(50);
+        // // Menggunakan paginate() untuk pagination
+        // $subdata = bujkkontraktorsub::where('bujkkontraktor_id', $databujkkontraktor->id)->paginate(50);
 
-//           // Menghitung nomor urut mulai
-//             $start = ($subdata->currentPage() - 1) * $subdata->perPage() + 1;
+        //   // Menghitung nomor urut mulai
+        //     $start = ($subdata->currentPage() - 1) * $subdata->perPage() + 1;
 
 
-//     // Ambil data user saat ini
-//     $user = Auth::user();
+    // Ambil data user saat ini
+    $user = Auth::user();
 
-//     return view('frontend.03_masjaki_jakon.01_bujkkontraktor.bujkkontraktorshow', [
-//         'title' => 'Data Bujk Konstruksi',
-//         'data' => $databujkkontraktor,
-//         'subData' => $subdata,  // Jika Anda ingin mengirimkan data sub kontraktor juga
-//         'user' => $user,
-//         'start' => $start,
-//     ]);
-//     }
+    return view('frontend.02_beritajakon.index', [
+        'title' => 'Data Bujk Konstruksi',
+        'data' => $databeritajakon,
+        // 'subData' => $subdata,  // Jika Anda ingin mengirimkan data sub kontraktor juga
+        'user' => $user,
+        // 'start' => $start,
+    ]);
+    }
 
 
 }

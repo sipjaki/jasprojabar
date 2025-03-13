@@ -264,7 +264,7 @@ color: #45a049;
                                                 <td style="text-align: right;">{{ number_format((float) $item->hargasatuan, 0, ',', '.') }},-</td>
                                             </tr>
                                             @endforeach
-                                        </tbody>
+                                    </tbody>
                                     </table>
 
                                     <!-- Modal -->
