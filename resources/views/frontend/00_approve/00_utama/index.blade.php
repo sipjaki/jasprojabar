@@ -285,7 +285,7 @@
 
 
 {{-- ----------------------------------------------------------------------- --}}
-                <div class="col-12 col-lg-6 col-xl-6">
+                <div class="col-6 col-lg-6 col-xl-6">
                     <div class="event-card">
                         <div class="event-card-image">
                             <div class="event-card-image-inner">
@@ -317,6 +317,40 @@
 {{-- ----------------------------------------------------------------------- --}}
 
 @endforeach
+
+
+{{-- ----------------------------------------------------------------------- --}}
+                <div class="col-6 col-lg-6 col-xl-6">
+                    <div class="event-card">
+                        <div class="event-card-image">
+                            <div class="event-card-image-inner">
+                                <a href="#">
+                                    {{-- <img src="{{ asset('storage/' . $item->foto1) }}" class="img-fluid" alt="Gambar" width="200px;"> --}}
+                                </a>
+
+                                <div class="event-card-meta">
+                                    <div class="event-meta-number">
+                                        <a href="/404">
+                                            <span><i class="fas fa-download"></i></span>
+                                        </a>
+										</div><!-- event-meta-number -->
+										<div class="event-meta-date">
+
+                                            {{-- <span>{{ \Carbon\Carbon::parse($item->tanggal)->translatedFormat('l, d F Y') }}</span> --}}
+
+                                                    </div><!-- event-meta-date -->
+									</div><!-- event-card-meta -->
+								</div><!-- event-card-image-inner -->
+							</div><!--event-card-image-->
+							<div class="event-card-content">
+                                <div class="event-card-title">
+                                    {{-- <h4><a href="#">{{$item->judul}}</a></h4> --}}
+								</div><!-- event-card-title -->
+							</div><!--event-card-content-->
+						</div><!--event-card-->
+					</div><!--col-12 col-lg-6 col-xl-6-->
+{{-- ----------------------------------------------------------------------- --}}
+
 
 				</div><!-- row -->
 			</div><!-- container -->
