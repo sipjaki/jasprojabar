@@ -270,7 +270,6 @@
 			</div><!-- row -->
 		</div><!-- container -->
 	</section><!--causes-one-section-->
-
     <section class="event-three-section" style="margin-top: -200px;">
         <div class="event-section-outer">
             <div class="container">
@@ -307,12 +306,13 @@
                         </div>
                     </div>
 
-                    <!-- Bagian Kanan: Video YouTube (Responsif) -->
+                    <!-- Bagian Kanan: Video YouTube (Frame Ada & Responsif) -->
                     <div class="col-12 col-md-6 d-flex align-items-center justify-content-center">
                         <div class="event-card w-100">
                             <div class="event-card-image">
                                 <div class="event-card-image-inner" style="width: 100%;">
-                                    <div style="position: relative; width: 100%; padding-bottom: 56.25%;"> <!-- 16:9 Aspect Ratio -->
+                                    <!-- Container YouTube dengan Aspect Ratio 16:9 -->
+                                    <div style="position: relative; width: 100%; padding-bottom: 56.25%;">
                                         <iframe src="https://www.youtube.com/embed/IP3whQNdlZM"
                                             title="Dinas Pekerjaan Umum dan Penataan Ruang Kab Blora"
                                             frameborder="0"
