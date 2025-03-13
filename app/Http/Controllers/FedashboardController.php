@@ -1,7 +1,7 @@
 <?php
 
 namespace App\Http\Controllers;
-
+use Illuminate\Support\Facades\View;
 use Illuminate\Http\Request;
 
 use App\Models\berita; // Pastikan namespace model sesuai dengan struktur direktori
