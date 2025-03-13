@@ -319,7 +319,7 @@
 
                                     <a href="{{ url('/artikeljakon') }}"
                                     style="color: blue; text-decoration: none;">
-                                    <h3>{{$item->judul}}</h3>
+                                    <h4>{{$item->judul}}</h4>
                                     </a>
 
 
