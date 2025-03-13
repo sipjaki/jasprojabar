@@ -268,12 +268,12 @@
                                             {!! $excerpt !!}
 
                                             @if(\Illuminate\Support\Str::wordCount($text) > $wordLimit)
-                                                <a href="{{ url('/beritajakon') }}" style="color: blue; text-decoration: none;">
-                                                    Selengkapnya &rarr;
+                                                <a href="{{ url('/beritajakon') }}"
+                                                   style="color: blue; text-decoration: none;">
+                                                   Selengkapnya &rarr;
                                                 </a>
                                             @endif
                                         </p>
-
                                                 {{-- <h6><a href="/beritajakon/{{$item->judulberita}}">{{$item->judulberita}}</a></h6> --}}
 										</div><!-- sidebar-post-title -->
 									</div><!-- sidebar-meta -->
