@@ -258,7 +258,7 @@ color: #45a049;
                                                 </td>
                                                 {{-- <td style="text-align: center;">{{$item->hspdivisi->hspdivisi}}</td> --}}
                                                 {{-- <td style="text-align: center;">{{$item->hsppaket9->hsppaket9}}</td> --}}
-                                                <td style="text-align: center;">{{$item->hspkodepekerjaan9->namapekerjaan}}</td>
+                                                {{-- <td style="text-align: center;">{{$item->hspkodepekerjaan9->namapekerjaan}}</td> --}}
                                                 <td style="cursor: pointer; color: blue; text-decoration: underline;" onclick="showModal('{{ $item->jenispekerjaan }}')">{{$item->jenispekerjaan}}</td>
                                                 <td style="text-align: center;">Rp</td>
                                                 <td style="text-align: right;">{{ number_format((float) $item->hargasatuan, 0, ',', '.') }},-</td>
