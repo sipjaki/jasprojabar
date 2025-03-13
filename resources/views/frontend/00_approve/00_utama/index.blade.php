@@ -257,6 +257,7 @@
 											</div><!-- sidebar-meta-icon -->
 										</div><!-- sidebar-meta-item -->
 										<div class="sidebar-post-title">
+
                                             @php
                                             $wordLimit = 6;
                                             $text = strip_tags($item->judulberita);
@@ -272,7 +273,8 @@
                                                 </a>
                                             @endif
                                         </p>
-                                                                                        {{-- <h6><a href="/beritajakon/{{$item->judulberita}}">{{$item->judulberita}}</a></h6> --}}
+
+                                                {{-- <h6><a href="/beritajakon/{{$item->judulberita}}">{{$item->judulberita}}</a></h6> --}}
 										</div><!-- sidebar-post-title -->
 									</div><!-- sidebar-meta -->
 								</div><!-- sidebar-recent-post-content -->
