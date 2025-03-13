@@ -181,7 +181,7 @@
 		<div class="container"  style="margin-top:-100px;">
 
             <h3 style="text-align: center;">Berita Jakon</h3>
-
+<br>
 			<div class="row">
 				<div class="col-lg-8">
 
