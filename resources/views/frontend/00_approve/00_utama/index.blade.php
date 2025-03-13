@@ -318,7 +318,7 @@
 		</div><!-- event-section-outer -->
 	</section><!--event-three-section-->
 
-
+{{--
     <section class="client-section" style="background: #2ECC71">
         <h5 class="client-text" style="font-weight: 800; color:black; font-size:18px; text-transform:capitalize; font-size:12px;" >Dokumentasi Video</h5>
         <div class="container">
@@ -329,18 +329,6 @@
                         Browser Anda tidak mendukung tag video.
                     </video>
                 </div><!--item-->
-                {{-- <div class="item">
-                    <video class="img-fluid" controls>
-                        <source src="/assets/00_dokmasjaki/00_video/video2.mp4" type="video/mp4">
-                        Browser Anda tidak mendukung tag video.
-                    </video>
-                </div><!--item-->
-                <div class="item">
-                    <video class="img-fluid" controls>
-                        <source src="/assets/00_dokmasjaki/00_video/video3.mp4" type="video/mp4">
-                        Browser Anda tidak mendukung tag video.
-                    </video>
-                </div><!--item--> --}}
                 <div class="item">
                     <video class="img-fluid" controls>
                         <source src="/assets/00_dokmasjaki/00_video/video4.mp4" type="video/mp4">
@@ -367,7 +355,7 @@
                 </div><!--item-->
             </div><!--client-carousel owl-carousel owl-theme-->
         </div><!--container-->
-    </section><!--client-section-->
+    </section><!--client-section--> --}}
 
 
     {{-- REKOMENDASI BERITA HIGHLIGHT --}}
