@@ -269,7 +269,7 @@
                                             @if(\Illuminate\Support\Str::wordCount($text) > $wordLimit)
                                                 <a href="{{ url('/beritajakon/' . \Illuminate\Support\Str::slug($item->judulberita)) }}"
                                                    style="color: blue; text-decoration: none;">
-                                                    {{ $item->judulberita }}
+                                                   Selengkapnya &rarr;
                                                 </a>
                                             @endif
                                         </p>
