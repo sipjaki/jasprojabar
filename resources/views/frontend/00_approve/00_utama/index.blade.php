@@ -157,7 +157,7 @@
 @endif
 
     <section class="pricing-section">
-        <br>
+        <br><br>
         <h3 class="pricing-title">Analisa Harga Satuan Pekerjaan Kab Blora 2025</h3>
         <div class="pricing-container">
             <div class="pricing-card">
@@ -189,7 +189,6 @@
 
                     <div class="news-details-box-image">
 						<div class="news-details-box-image-inner">
-
 							<img src="{{ asset('storage/' . $item->foto) }}" class="img-fluid" alt="img-193">
 
                             <a href="#" class="news-details-box-date">{{ \Carbon\Carbon::parse($item->tanggal)->translatedFormat('l, d F Y') }}</a>
@@ -239,7 +238,7 @@
 							</div><!-- sidebar__item -->
 						</div><!-- sidebar-form-content -->
 						<div class="sidebar-widget sidebar-widget-recent-post">
-							<h4 class="pricing-title">Daftar Berita Jakon Blora</h4>
+							<h4 class="pricing-title">Daftar Berita Jakon</h4>
 
                             @foreach ($data->skip(1)->take(3) as $item)
 
@@ -268,7 +267,7 @@
                                             {!! $excerpt !!}
 
                                             @if(\Illuminate\Support\Str::wordCount($text) > $wordLimit)
-                                                <a href="{{ url('/beritajakon') }}"
+                                                <a href="{{ url('/beritajakon/' . \Illuminate\Support\Str::slug($item->judulberita)) }}"
                                                    style="color: blue; text-decoration: none;">
                                                    Selengkapnya &rarr;
                                                 </a>
