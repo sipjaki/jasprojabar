@@ -245,9 +245,9 @@ color: #45a049;
                                     <thead>
                                         <tr>
                                             <th onclick="sortTable(0)" style="cursor:pointer; text-align:center; width:100px;"> No <span class="sort-icon">⇅</span></th>
-                                            <th onclick="sortTable(1)" style="cursor:pointer; text-align:center; width:300px;"> Nama Badan Usaha <span class="sort-icon">⇅</span></th>
+                                            <th onclick="sortTable(1)" style="cursor:pointer; text-align:center; width:500px;"> Nama Badan Usaha <span class="sort-icon">⇅</span></th>
                                             <th onclick="sortTable(3)" style="cursor:pointer; text-align:center; width:150px;"> No Telepon <span class="sort-icon">⇅</span></th>
-
+                                            <th onclick="sortTable(3)" style="cursor:pointer; text-align:center; width:100px;"> Hubungi <span class="sort-icon">⇅</span></th>
                                         </tr>
                                     </thead>
                                     <tbody id="tableBody">
@@ -257,7 +257,7 @@ color: #45a049;
                                             <td style="text-transform: capitalize;">{{ ucwords(strtolower($item->namalengkap)) }}</td>
                                             <td style="text-align: center;">{{$item->no_telepon}}</td>
                                             <td style="text-align: center;">
-                                                {{ $item->no_telepon }}
+                                                {{-- {{ $item->no_telepon }} --}}
                                                 <a href="https://wa.me/{{ preg_replace('/[^0-9]/', '', $item->no_telepon) }}" target="_blank" style="margin-left: 10px;">
                                                     <i class="fab fa-whatsapp" style="color: green; font-size: 18px;"></i>
                                                 </a>
