@@ -34,14 +34,16 @@
                     @foreach ($data->skip(0)->take(1) as $item)
 
                     <div class="news-details-box-image">
-						<div class="news-details-box-image-inner">
-							<img src="{{ asset('storage/' . $item->foto1) }}" class="img-fluid" alt="img-193">
-							<img src="{{ asset('storage/' . $item->foto1) }}" class="img-fluid" alt="img-193">
-							<img src="{{ asset('storage/' . $item->foto1) }}" class="img-fluid" alt="img-193">
+                        <div class="news-details-box-image-inner" style="display: flex; gap: 5px; flex-wrap: wrap;">
+                            <img src="{{ asset('storage/' . $item->foto1) }}" class="img-fluid" alt="img-193" style="width: calc(33.33% - 5px); object-fit: cover;">
+                            <img src="{{ asset('storage/' . $item->foto1) }}" class="img-fluid" alt="img-193" style="width: calc(33.33% - 5px); object-fit: cover;">
+                            <img src="{{ asset('storage/' . $item->foto1) }}" class="img-fluid" alt="img-193" style="width: calc(33.33% - 5px); object-fit: cover;">
 
-                            <a href="#" class="news-details-box-date">{{ \Carbon\Carbon::parse($item->tanggal)->translatedFormat('l, d F Y') }}</a>
-						</div><!-- news-details-box-image-inner -->
-					</div><!-- news-details-box-image -->
+                            <a href="#" class="news-details-box-date">
+                                {{ \Carbon\Carbon::parse($item->tanggal)->translatedFormat('l, d F Y') }}
+                            </a>
+                        </div>
+                    </div>
 
                     <br><br>
                     <div class="news-details-content-box" style="margin-left: 25px;">
