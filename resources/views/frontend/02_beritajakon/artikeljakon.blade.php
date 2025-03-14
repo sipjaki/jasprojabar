@@ -6,7 +6,7 @@
     @include('frontend.00_approve.01_cssterpisah.loader')
     @include('frontend.00_approve.01_cssterpisah.header1')
 
-<div class="page-wrapper">
+    <div class="page-wrapper">
 	<section class="page-banner">
 		<div class="container">
 			<div class="page-banner-title">
@@ -15,82 +15,113 @@
 		</div><!-- container -->
 	</section><!--page-banner-->
 
+	<section class="news-details-section" style="background-image: url(assets/00_dokmasjaki/03_datajakon/bannerbetter.jpg);">
+		<div class="container"
+        style="
+        background: white;
+        max-width: 95%;
+        margin: 30px auto;
+        padding: 20px;
+        height: auto;
+        border-radius: 20px;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+        position: relative;
+        z-index: 10;"
+        >
+			<div class="row">
+				<div class="col-lg-8">
 
-	<section class="event-three-section">
-		<div class="event-section-outer">
-			<div class="container">
-				<div class="row row-gutter-y-30">
-                    @foreach ($data as  $item)
+                    @foreach ($data->skip(0)->take(1) as $item)
+
+                    <div class="news-details-box-image">
+						<div class="news-details-box-image-inner">
+							<img src="{{ asset('storage/' . $item->foto1) }}" class="img-fluid" alt="img-193">
+							<img src="{{ asset('storage/' . $item->foto2) }}" class="img-fluid" alt="img-193">
+							<img src="{{ asset('storage/' . $item->foto3) }}" class="img-fluid" alt="img-193">
+
+                            <a href="#" class="news-details-box-date">{{ \Carbon\Carbon::parse($item->tanggal)->translatedFormat('l, d F Y') }}</a>
+						</div><!-- news-details-box-image-inner -->
+					</div><!-- news-details-box-image -->
+
+                    <br><br>
+                    <div class="news-details-content-box" style="margin-left: 25px;">
+						<h4>{{$item->judul}}</h4>
+                        <br>
+
+                            <a href="{{ $item->berkas }}" target="_blank" class="btn btn-danger">
+                                <i class="fa fa-file-pdf"></i> Download PDF
+                            </a>
+
+                    </div><!-- /.news-details-content-box -->
+
+                    @endforeach
+
+                </div><!-- col-lg-8 -->
+
+				<div class="col-lg-4">
+					<div class="sidebar">
+						<div class="sidebar-form-content">
+							<div class="sidebar__item sidebar__item--search">
+								<form action="#" class="sidebar__search">
+									<label for="search" class="sr-only">Cari Berita</label><!-- sr-only -->
+									<input type="text" placeholder="Cari Berita">
+									<button type="submit" aria-label="search submit" class="thm-btn">
+										<i class="flaticon-search-interface-symbol"></i>
+									</button><!-- thm-btn -->
+								</form><!-- sidebar__search -->
+							</div><!-- sidebar__item -->
+						</div><!-- sidebar-form-content -->
+						<div class="sidebar-widget sidebar-widget-recent-post">
+							<h4>Daftar Berita</h4>
+
+                            @foreach ($data->skip(1)->take(7) as $item)
+
+                            <div class="sidebar-recent-post">
+								<div class="sidebar-recent-post-img">
+                                    <img src="{{ asset('storage/' . $item->foto1) }}" alt="Gambar Pelatihan SKK Blora" width="200px" loading="lazy">
+                                </div><!-- sidebar-recent-post-img -->
+								<div class="sidebar-recent-post-content">
+                                    <div class="sidebar-meta">
+										<div class="sidebar-post-title">
+											<h5><a href="/artikeljakon/{{$item->judul}}">{{$item->judul}}</a></h5>
+										</div><!-- sidebar-post-title -->
+									</div><!-- sidebar-meta -->
+								</div><!-- sidebar-recent-post-content -->
+							</div><!-- sidebar-recent-post -->
 
 
-{{-- ----------------------------------------------------------------------- --}}
-                <div class="col-12 col-lg-6 col-xl-6">
-                    <div class="event-card">
-                        <div class="event-card-image">
-                            <div class="event-card-image-inner">
-                                <a href="#"><img src="{{ asset('storage/' . $item->foto1) }}" class="img-fluid" alt="img-164" width="200px;"></a>
-                                <div class="event-card-meta">
-                                    <div class="event-meta-number">
-                                        <a href="/404">
-                                            <span><i class="fas fa-download"></i></span>
-                                        </a>
-										</div><!-- event-meta-number -->
-										<div class="event-meta-date">
-                                                <span>{{ \Carbon\Carbon::parse($item->tanggal)->translatedFormat('l, d F Y') }}</span>
-										</div><!-- event-meta-date -->
-									</div><!-- event-card-meta -->
-								</div><!-- event-card-image-inner -->
-							</div><!--event-card-image-->
-							<div class="event-card-content">
-                                <div class="event-card-title">
-                                    <h4><a href="#">{{$item->judul}}</a></h4>
-								</div><!-- event-card-title -->
-							</div><!--event-card-content-->
-						</div><!--event-card-->
-					</div><!--col-12 col-lg-6 col-xl-6-->
-{{-- ----------------------------------------------------------------------- --}}
-                    <p>Download Here</p>
-@endforeach
-
-				</div><!-- row -->
-			</div><!-- container -->
-		</div><!-- event-section-outer -->
-
-        <div class="pagination-wrapper" style="display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; margin-top: 20px;">
-
-            <!-- Info Box -->
-            <div class="pagination-info-box" style="padding: 10px; border: 1px solid black; background-color: #f9f9f9; border-radius: 5px; width: auto; margin-bottom: 20px;">
-                <div class="pagination-info" style="color: black; font-weight: 500; font-size: 18px;">
-                    Data Ke {{ $data->firstItem() }} Sampai {{ $data->lastItem() }} Dari {{ $data->total() }} Jumlah {{$title}}
-                </div>
-            </div>
-
-            <!-- Pagination -->
-            <div class="pagination-container" style="display: flex; justify-content: center; width: 100%;">
-                <ul class="pagination-paginate" style="display: flex; padding-left: 0; list-style: none;">
-                    <!-- Tombol Previous -->
-                    <li class="page-item {{ $data->onFirstPage() ? 'disabled' : '' }}" style="margin-right: 10px;">
-                        <a class="page-link" href="{{ $data->previousPageUrl() }}"
-                           style="text-decoration: none; padding: 10px 16px; border: 1px solid #007bff; border-radius: 5px; background-color: #007bff; color: white; font-weight: bold;">
-                            <i class="fas fa-arrow-left" style="margin-right: 5px;"></i> Previous
-                        </a>
-                    </li>
-
-                    <!-- Tombol Next -->
-                    <li class="page-item {{ $data->hasMorePages() ? '' : 'disabled' }}">
-                        <a class="page-link" href="{{ $data->nextPageUrl() }}"
-                           style="text-decoration: none; padding: 10px 16px; border: 1px solid #007bff; border-radius: 5px; background-color: #007bff; color: white; font-weight: bold;">
-                            Next <i class="fas fa-arrow-right" style="margin-left: 5px;"></i>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-
-        </div>
+                            @endforeach
 
 
+                        </div><!-- sidebar-widget sidebar-widget-recent-post -->
 
-	</section><!--event-three-section-->
+                        {{-- <div class="sidebar-widget sidebar-widget-recent-category">
+							<div class="sidebar-widget-recent-category-box">
+								<h4 class="section-title text-left">Categories</h4>
+								<ul class="list-unstyled">
+									<li><a href="news-details.html">City News<i class="fa-solid fa-chevron-right"></i></a></li>
+									<li><a href="news-details.html">Community<i class="fa-solid fa-chevron-right"></i></a></li>
+									<li><a href="news-details.html">Culture <i class="fa-solid fa-chevron-right"></i></a></li>
+									<li><a href="news-details.html">Devlopement<i class="fa-solid fa-chevron-right"></i></a></li>
+									<li><a href="news-details.html">Government<i class="fa-solid fa-chevron-right"></i></a></li>
+								</ul><!-- list-unstyled -->
+							</div><!-- sidebar-widget-recent-category-box -->
+						</div><!-- sidebar-widget-one sidebar-widget-recent-category --> --}}
+						{{-- <div class="sidebar-widget sidebar-widget-tag">
+							<h4>Tags</h4>
+							<div class="sidebar-widget-tag-inner">
+								<a href="news-details.html">Culture</a>
+								<a href="news-details.html">Government</a>
+								<a href="news-details.html">City</a>
+								<a href="news-details.html">Development</a>
+								<a href="news-details.html">Life</a>
+							</div><!-- sidebar-widget-tag-inner -->
+						</div><!-- sidebar-widget sidebar-widget-tag --> --}}
+					</div><!-- sidebar -->
+				</div><!-- col-lg-4 -->
+			</div><!-- row -->
+		</div><!-- container -->
+	</section><!--causes-one-section-->
 </div><!--page-wrapper-->
 
 @include('frontend.00_approve.01_cssterpisah.footer1')
