@@ -108,6 +108,7 @@
 	<div class="main-menu sticky-header" style="background: #1d1d1b">
     <br>
                 <div class="header-container">
+                    <img src="/assets/icon/logokabupatenblora.png" alt="Logo PUPR" class="header-logo">
                     <img src="/assets/icon/pupr.png" alt="Logo PUPR" class="header-logo">
                     <div class="header-text">
                         <h1 class="header-title">
