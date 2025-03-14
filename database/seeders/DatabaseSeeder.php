@@ -5186,53 +5186,6 @@ skktenagakerjabloralist::create([
     'tanggalhabis' => '2028-12-07',
     'statusterbit' => 'TERBIT',
 ]);
-skktenagakerjabloralist::create([
-    'nama' => 'KSDFGFDSG', // Ganti dengan ID yang sesuai
-    'alamat' => 'Kab. Blora',
-    'namasekolah_id' => 66,
-    'jenjangpendidikan_id' => 3,
-    'jurusan_id' => 6,
-    'tahunlulus' => null,
-    'jabatankerja_id' => 77,
-    'jenjang_id' => 1,
-    'asosiasimasjaki_id' => 1,
-    'lpspenerbit_id' => 2,
-    'tanggalterbit' => '2023-10-08',
-    'tanggalhabis' => '2028-12-07',
-    'statusterbit' => 'TERBIT',
-]);
-
-skktenagakerjabloralist::create([
-    'nama' => 'HDSFHG', // Ganti dengan ID yang sesuai
-    'alamat' => 'Kab. Blora',
-    'namasekolah_id' => 66,
-    'jenjangpendidikan_id' => 3,
-    'jurusan_id' => 6,
-    'tahunlulus' => null,
-    'jabatankerja_id' => 77,
-    'jenjang_id' => 1,
-    'asosiasimasjaki_id' => 1,
-    'lpspenerbit_id' => 2,
-    'tanggalterbit' => '2023-10-08',
-    'tanggalhabis' => '2028-12-07',
-    'statusterbit' => 'TERBIT',
-]);
-
-skktenagakerjabloralist::create([
-    'nama' => 'HDSFHG', // Ganti dengan ID yang sesuai
-    'alamat' => 'Kab. Blora',
-    'namasekolah_id' => 66,
-    'jenjangpendidikan_id' => 3,
-    'jurusan_id' => 6,
-    'tahunlulus' => null,
-    'jabatankerja_id' => 3,
-    'jenjang_id' => 1,
-    'asosiasimasjaki_id' => 1,
-    'lpspenerbit_id' => 2,
-    'tanggalterbit' => '2023-10-08',
-    'tanggalhabis' => '2028-12-07',
-    'statusterbit' => 'TERBIT',
-]);
 
 skktenagakerjabloralist::create([
     'nama' => 'ANAS FARIDZ ZAMZAMY', // Ganti dengan ID yang sesuai
