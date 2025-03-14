@@ -127,25 +127,6 @@ color: #45a049;
 	</section><!--page-banner-->
 
     {{-- <section class="service-two-section" > --}}
-        <section class="service-two-section" style="background-image: url('/assets/00_dokmasjaki/03_datajakon/banner1.jpg');">
-        <div class="container" style="background: #FFD100; border-radius:20px;">
-            <div class="row row-gutter-y-40">
-
-                <div class="col-12 col-lg-12 col-xl-12">
-                    <div class="service-two-card">
-                        <div class="service-two-imgbox">
-
-                            <section class="donate-section" style="background: linear-gradient(to bottom, green, #FFD100, white);">
-                                <div class="container" style="margin-top: -100px;">
-                                    <div class="row row-gutter-30">
-
-                                        <div class="col-xxl-12 col-lg-12">
-                                            <div class="donate-box-inner">
-
-
-                                                {{-- TABLE DATA  --}}
-
-                        </head>
 
                         <section class="document-section" style="margin-top: -100px;">
                             <div class="container" >
@@ -446,17 +427,6 @@ color: #45a049;
                                 </div><!-- container -->
                                 {{-- @include('frontend.00_approve.01_cssterpisah.paginator') --}}
                             </section><!-- donate-section -->
-
-                        </div><!-- service-two-imgbox -->
-                    </div><!--service-two-card-->
-                </div><!--col-12 col-lg-4 col-xl-4-->
-
-            </div><!-- row -->
-        </div><!-- container -->
-    </section><!-- service-two-section -->
-
-
-
 
 
 </div><!--page-wrapper-->
