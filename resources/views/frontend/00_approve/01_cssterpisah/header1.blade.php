@@ -276,11 +276,9 @@
 							<a href="#" style="color: white;">PEMBINAAN</a>
 							<ul class="list-unstyled">
 								<li><a href="/agendapembinaan">Agenda Pelatihan</a></li>
-								{{-- <li><a href="/404">Pelatihan</a></li>
-								<li><a href="/404">Bimbingan Teknis</a></li>
-								<li><a href="/404">Workshop</a></li> --}}
+								<li><a href="/404">Daftar Peserta Pelatihan</a></li>
 								<li><a href="/skktenagakerjablora">SKK Tenaga Kerja Konstruksi</a></li>
-								{{-- <li><a href="/404">Daftar Tenaga Ahli</a></li> --}}
+								<li><a href="/404">Daftar Peserta SKK </a></li>
 							</ul><!-- list-unstyled -->
 						</li><!--has-dropdown-->
 
