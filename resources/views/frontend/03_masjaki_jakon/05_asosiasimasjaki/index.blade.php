@@ -242,6 +242,7 @@ color: #45a049;
                                                     <i class="fas fa-eye view-icon" onclick="alert('View clicked!')"></i>
                                                 </a>
                                             </td>
+
                                         </tr>
                                         @endforeach
                                     </tbody>
@@ -356,6 +357,7 @@ color: #45a049;
                                                     <i class="fas fa-eye view-icon" onclick="alert('View clicked!')"></i>
                                                 </a>
                                             </td>
+
                                         </tr>
                                         @endforeach
                                     </tbody>
