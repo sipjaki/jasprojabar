@@ -32,12 +32,12 @@ class BujkkontraktorController extends Controller
 
         $databujkkontraktor = bujkkontraktor::select('asosiasimasjaki_id', DB::raw('count(*) as jumlah'))
         ->groupBy('asosiasimasjaki_id')
-        ->with('asosiasimasjaki') // Pastikan ada relasi ke tabel asosiasi
+        ->with('namaasosiasi') // Pastikan ada relasi ke tabel asosiasi
         ->get();
 
         $databujkkonsultan = bujkkonsultan::select('asosiasimasjaki_id', DB::raw('count(*) as jumlah'))
         ->groupBy('asosiasimasjaki_id')
-        ->with('asosiasimasjaki') // Pastikan ada relasi ke tabel asosiasi
+        ->with('namaasosiasi') // Pastikan ada relasi ke tabel asosiasi
         ->get();
 
         $perPage = $request->input('perPage', 10);
