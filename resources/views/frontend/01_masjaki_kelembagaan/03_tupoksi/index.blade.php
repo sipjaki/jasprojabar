@@ -47,6 +47,40 @@
 				<div class="portfolio-details-content-title">
 					<h3>Tupoksi DPUPR Pemerintah Kabupaten Blora</h3>
 				</div><!-- portfolio-details-content-title -->
+
+                <div style="background-color: #f9f9f9; padding: 20px; border-radius: 10px; max-width: 800px; margin: auto; font-family: Arial, sans-serif;">
+                    <!-- Header -->
+                    <div style="background-color: #FFD100; padding: 15px; border-radius: 10px 10px 0 0; text-align: center; font-weight: bold; font-size: 20px;">
+                        DINAS PEKERJAAN UMUM DAN PENATAAN RUANG <br> KABUPATEN BLORA
+                    </div>
+
+                    <!-- Konten Tupoksi -->
+                    <div style="background-color: white; padding: 15px; border-radius: 0 0 10px 10px; box-shadow: 0px 4px 8px rgba(0,0,0,0.1);">
+                        <h3 style="color: #2E7D32; text-align: center; font-weight: bold;">Tupoksi Jasa Konstruksi</h3>
+
+                        <ul style="padding-left: 20px; list-style-type: none;">
+                            <li style="background-color: #E8F5E9; margin: 8px 0; padding: 10px; border-radius: 5px;">
+                                <strong>📌 Penyusunan Program:</strong> Rencana kerja dan kegiatan bina jasa konstruksi sebagai pedoman kerja tahunan.
+                            </li>
+                            <li style="background-color: #E8F5E9; margin: 8px 0; padding: 10px; border-radius: 5px;">
+                                <strong>📌 Kebijakan Teknis:</strong> Menyusun bahan kebijakan sesuai peraturan perundang-undangan sebagai kajian pimpinan.
+                            </li>
+                            <li style="background-color: #E8F5E9; margin: 8px 0; padding: 10px; border-radius: 5px;">
+                                <strong>📌 Sistem Informasi:</strong> Pelaksanaan sistem informasi jasa konstruksi untuk efisiensi.
+                            </li>
+                            <li style="background-color: #E8F5E9; margin: 8px 0; padding: 10px; border-radius: 5px;">
+                                <strong>📌 Pengawasan & Pembinaan:</strong> Pengembangan badan usaha, pasar jasa konstruksi, dan evaluasi penyelenggaraan.
+                            </li>
+                            <li style="background-color: #E8F5E9; margin: 8px 0; padding: 10px; border-radius: 5px;">
+                                <strong>📌 Penyuluhan & Bimtek:</strong> Melakukan pelatihan, penyuluhan, dan bimtek terkait jasa konstruksi.
+                            </li>
+                            <li style="background-color: #E8F5E9; margin: 8px 0; padding: 10px; border-radius: 5px;">
+                                <strong>📌 Laporan & Evaluasi:</strong> Monitoring dan evaluasi kegiatan pembinaan sebagai wujud transparansi.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
 				<div class="portfolio-details-content-text">
 					<p style="text-align: justify" >
                         Dinas Pekerjaan Umum dan Penataan Ruang (DPUPR) Kabupaten Blora memiliki peran penting dalam perencanaan, pelaksanaan, dan pengendalian pembangunan infrastruktur di wilayah Kabupaten Blora. Tupoksi DPUPR mencakup berbagai kegiatan seperti pengelolaan jalan, jembatan, sumber daya air, dan jaringan air bersih, serta penataan ruang wilayah untuk memastikan pembangunan yang terstruktur dan berkelanjutan. DPUPR bertugas merumuskan kebijakan teknis, menyediakan standar dan pedoman pembangunan, serta melakukan evaluasi terhadap setiap program yang dijalankan.
