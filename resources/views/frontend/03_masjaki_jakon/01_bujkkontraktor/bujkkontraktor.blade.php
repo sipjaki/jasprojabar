@@ -119,8 +119,8 @@ color: #45a049;
 
     <div class="page-wrapper">
 
-	<section class="page-banner" style="height: 5vh">
-		<div class="container">
+	<section class="page-banner">
+		<div class="container" style="height: 200vh;">
 			<div class="page-banner-title">
 				<h3 style="color: black; font-size:30px;">{{$title}}</h3>
 			</div><!-- page-banner-title -->
