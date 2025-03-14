@@ -127,20 +127,20 @@ color: #45a049;
 	</section><!--page-banner-->
 
     {{-- <section class="service-two-section" > --}}
+                            <section class="donate-section" style="background: linear-gradient(to bottom, green, #FFD100, white);">
+                                <div class="container" style="margin-top: -100px;">
+                                    <div class="row row-gutter-30">
+
+                                        <div class="col-xxl-12 col-lg-12">
+                                            <div class="donate-box-inner">
+
+
+                                                {{-- TABLE DATA  --}}
+
+                        </head>
 
                         <section class="document-section" style="margin-top: -100px;">
-                            <div class="container"
-                            style="
-                                background: white;
-                                max-width: 95%;
-                                margin: 30px auto;
-                                padding: 20px;
-                                height: auto;
-                                border-radius: 20px;
-                                box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-                                position: relative;
-                                z-index: 10;"
-                            >
+                            <div class="container" >
                               <ul class="nav nav-pills" id="pills-tab" role="tablist">
                                   {{-- <img src="/assets/icon/logopupr.png" class="img-fluid" alt="img-25" width="50" style="margin-right: 20px;" loading="lazy"> --}}
 
@@ -438,6 +438,7 @@ color: #45a049;
                                 </div><!-- container -->
                                 {{-- @include('frontend.00_approve.01_cssterpisah.paginator') --}}
                             </section><!-- donate-section -->
+
 
 
 </div><!--page-wrapper-->
