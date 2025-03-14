@@ -153,7 +153,7 @@ public function asosiasikonstruksishow($namaasosiasi)
 
     $user = Auth::user();
         // Ambil semua data dari tabel bujkkontraktor berdasarkan asosiasi_id
-        $databujkkontraktor = bujkkontraktor::where('asosiasimasjaki_id', $asosiasi->id)->get(['id', 'namalengkap']);
+        $databujkkontraktor = bujkkontraktor::where('asosiasimasjaki_id', $asosiasi->id)->get(['id', 'namalengkap', 'no_telepon']);
         // $databujkkontraktorpaginate = bu::where('asosiasimasjaki_id', $asosiasi->id)->paginate(10);
 
 

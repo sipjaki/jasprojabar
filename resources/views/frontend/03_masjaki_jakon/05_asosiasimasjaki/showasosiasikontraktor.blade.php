@@ -255,7 +255,7 @@ color: #45a049;
                                         <tr>
                                             <td style="text-align: center;">{{ $loop->iteration}}</td>
                                             <td style="text-transform: capitalize;">{{ ucwords(strtolower($item->namalengkap)) }}</td>
-                                            {{-- <td style="text-align: center;">{{$data->no_telepon}}</td> --}}
+                                            <td style="text-align: center;">{{$item->no_telepon}}</td>
                                         </tr>
                                         @endforeach
                                     </tbody>
