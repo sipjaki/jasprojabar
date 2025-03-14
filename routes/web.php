@@ -334,29 +334,6 @@ Route::get('/spm/informasispm', function () {
     ]);
 });
 
-// ---------------------- 08 UIJK -----------------------//
-// -------- BAGIAN 08 ---------------------------------
-Route::get('/ijinusahajasakonstruksi', [UijkController::class, 'index']);
-Route::get('/uijk/{nama_perusahaan}', [UijkController::class, 'feuijkshowByName']);
-Route::get('/uijkpt', [UijkController::class, 'uijkpt']);
-Route::get('/uijkcv', [UijkController::class, 'uijkcv']);
-Route::get('/2020', [UijkController::class, '2020']);
-
-Route::get('/ijinusahajasakonstruksi/katperusahaan', [UijkController::class, 'kategoriperusahaan']);
-Route::get('/iujk/katperusahaan', [UijkController::class, 'kategoriperusahaanfebyname']);
-
-Route::get('/ijinusahajasakonstruksi/bidangusaha', [UijkController::class, 'bidangusaha']);
-Route::get('/iujk/bidangusaha', [UijkController::class, 'bidangusahafebyname']);
-
-Route::get('/ijinusahajasakonstruksi/tahunregistrasi', [UijkController::class, 'tahunregistrasi']);
-Route::get('/iujk/tahunregistrasi', [UijkController::class, 'tahunregistrasifebyname']);
-
-Route::get('/ijinusahajasakonstruksi/statistika', [UijkController::class, 'iujkstatistika']);
-// Route::get('/iujk/tahunregistrasi', [UijkController::class, 'tahunregistrasifebyname']);
-
-
-
-
 // ---------------------- 10 PELATIHAN -----------------------//
 // -------- BAGIAN 1 ---------------------------------
 Route::get('/pelatihan/kecelakaan', [PelatihanController::class, 'index']);
@@ -463,56 +440,6 @@ Route::get('/tupoksi/update/{judul}', [StrukturController::class, 'updatetupoksi
 Route::post('/tupoksi/{judul}', [StrukturController::class, 'createupdatetupoksi'])->middleware('auth')->name('updatestore.tupoksi');
 
 
-// -------- BAGIAN 02 BACKEND DATA BERITA JASA KONSTRUKSI  ---------------------------------
-//  -------------- DATA BERITA UNTUK BACKEND JASA KONSTRUKSI =-------------------------------------
-Route::get('/databerita', [BeritaController::class, 'databerita'])->middleware('auth');
-Route::get('/databerita/{judul}', [BeritaController::class, 'databeritashowbyjudul'])->middleware('auth');
-Route::get('/databerita/update/{judul}', [BeritaController::class, 'updatedataberita'])->middleware('auth')->name('updateshow.databerita');
-Route::post('/databeritaupdatestore/{judul}', [BeritaController::class, 'createupdatedataberita'])->middleware('auth')->name('update.databeritanews');
-Route::get('/databeritacreate', [BeritaController::class, 'createnewdataberita'])->middleware('auth');
-Route::post('/databeritastore', [BeritaController::class, 'createnewstoredataberita'])->middleware('auth')->name('create.databerita');
-
-Route::post('/databerita/{judul}', [BeritaController::class, 'deletedataberita'])
-->middleware('auth')
-->name('delete.databerita');
-
-//  -------------- DATA BERITA AGENDA BACKEND JASA KONSTRUKSI =-------------------------------------
-Route::get('/beritaagenda', [BeritaController::class, 'beritaagenda'])->middleware('auth');
-Route::get('/beritaagenda/{nama_agenda}', [BeritaController::class, 'beritaagendashowbyjudul'])->middleware('auth');
-Route::get('/beritaagenda/update/{nama_agenda}', [BeritaController::class, 'updateberitaagenda'])->middleware('auth')->name('updateshow.beritaagenda');
-Route::post('/beritaagendaupdatestore/{nama_agenda}', [BeritaController::class, 'createupdateberitaagenda'])->middleware('auth')->name('update.beritaagenda');
-Route::get('/beritaagendacreate', [BeritaController::class, 'createnewberitaagenda'])->middleware('auth');
-Route::post('/beritaagendastore', [BeritaController::class, 'createnewstoreberitaagenda'])->middleware('auth')->name('create.beritaagenda');
-
-Route::post('/beritaagenda/{id}', [BeritaController::class, 'deleteberitaagenda'])
-->middleware('auth')
-->name('delete.newsberitaagenda');
-
-//  -------------- DOKUMENTASI PELATIHAN TENTANG JASA KONSTRUKSI =-------------------------------------
-Route::get('/dokumentasipelatihan', [BeritaController::class, 'dokumentasipelatihan'])->middleware('auth');
-Route::get('/dokumentasipelatihan/{judul_kegiatan}', [BeritaController::class, 'dokumentasipelatihanshowbyjudul'])->middleware('auth');
-Route::get('/dokumentasipelatihan/update/{judul_kegiatan}', [BeritaController::class, 'updatedokumentasipelatihan'])->middleware('auth')->name('updateshow.dokumentasipelatihan');
-Route::post('/dokumentasipelatihanstore/{judul_kegiatan}', [BeritaController::class, 'createupdatedokumentasipelatihan'])->middleware('auth')->name('update.dokumentasipelatihan');
-Route::get('/dokumentasipelatihancreate', [BeritaController::class, 'createdokumentasipelatihan'])->middleware('auth');
-Route::post('/dokumentasipelatihancreatestore', [BeritaController::class, 'createstoredokumentasipelatihan'])->middleware('auth')->name('newcreatestore.dokumentasipelatihan');
-
-Route::post('/dokumentasipelatihan/{id}', [BeritaController::class, 'deletedokumentasipelatihan'])
-->middleware('auth')
-->name('delete.dokumentasipelatihan');
-
-//  -------------- ACARA PELATIHAN TENTANG JASA KONSTRUKSI =-------------------------------------
-Route::get('/acarapelatihan', [BeritaController::class, 'acarapelatihan'])->middleware('auth');
-Route::get('/acarapelatihan/{judul_kegiatan}', [BeritaController::class, 'acarapelatihanshowbyjudul'])->middleware('auth');
-Route::get('/acarapelatihandetails/{judul_kegiatan}', [BeritaController::class, 'acarapelatihandetailsshowbyjudul'])->middleware('auth');
-Route::get('/acarapelatihanupdate/{judul_kegiatan}', [BeritaController::class, 'updateacarapelatihandetails'])->middleware('auth')->name('updateshow.acarapelatihan');
-Route::post('/acarapelatihanstore/{judul_kegiatan}', [BeritaController::class, 'createupdateacarapelatihan'])->middleware('auth')->name('update.acarapelatihan');
-Route::get('/acarapelatihancreate', [BeritaController::class, 'createacarapelatihan'])->middleware('auth');
-Route::post('/acarapelatihancreatestore', [BeritaController::class, 'createstoreacarapelatihan'])->middleware('auth')->name('newcreatestore.acarapelatihan');
-
-Route::post('/acarapelatihandelete/{judul_kegiatan}', [BeritaController::class, 'deletedetailsacarapelatihannew'])
-->middleware('auth')
-->name('delete.acaradetailspelatihandetailsnew');
-
 // -------- BAGIAN 03 BACKEND DATA JASA KONSTRUKSI BANGUNAN GEDUNG PUPR ---------------------------------
 
 // KETERTIBAN DAN PENGAWASAN
@@ -576,19 +503,6 @@ Route::get('/sbulampiran2/{judul}', [StrukturController::class, 'sbulampiran2sho
 // SBU LAMPIRAN 3
 Route::get('/sbulampiran3', [StrukturController::class, 'sbulampiran3'])->middleware('auth');
 Route::get('/sbulampiran3/{judul}', [StrukturController::class, 'sbulampiran3showbyjudul'])->middleware('auth');
-
-
-// ======================================== DATA IUJK JASA KONSTRUKSI ====================================================================
-Route::get('/dataiujk', [UijkController::class, 'dataiujk'])->middleware('auth');
-Route::get('/dataiujk/{nama_perusahaan}', [UijkController::class, 'dataiujkshowByName'])->name('dataiujk.show');
-Route::get('/dataiujk/update/{nama_perusahaan}', [UijkController::class, 'updatedatadataiujk'])->middleware('auth')->name('update.dataiujk');
-Route::post('/dataiujkupdatestore/{nama_perusahaan}', [UijkController::class, 'createupdatedataiujk'])->middleware('auth')->name('updatestore.dataiujk');
-Route::get('/dataiujkcreate', [UijkController::class, 'createdataiujk'])->middleware('auth');
-Route::post('/dataiujkstore', [UijkController::class, 'createstoredataiujk'])->middleware('auth')->name('create.dataiujk');
-
-Route::post('/dataiujk/{nama_perusahaan}', [UijkController::class, 'deletedatadataiujk'])
-->middleware('auth')
-->name('delete.dataiujk');
 
 
 // -------- BAGIAN 04 BACKEND ---------------------------------
