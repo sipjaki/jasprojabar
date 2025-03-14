@@ -263,8 +263,7 @@ color: #45a049;
 
                                                     <a href="https://wa.me/{{ preg_replace('/[^0-9]/', '', $item->no_telepon) }}" target="_blank"
                                                         style="display: flex; align-items: center; text-decoration: none; color: white;">
-                                                        <i class="fab fa-whatsapp" style="font-size: 18px; margin-right: 5px; color: white;"></i>
-                                                        Chat WhatsApp
+                                                        <i class="fab fa-whatsapp" style="font-size: 16px; margin-right: 5px; color: white;"></i>
                                                     </a>
                                                 </div>
                                             </td>
