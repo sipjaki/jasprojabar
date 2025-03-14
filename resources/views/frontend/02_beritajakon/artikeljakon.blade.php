@@ -49,10 +49,15 @@
                     <div class="news-details-content-box" style="margin-left: 25px;">
 						<h4>{{$item->judul}}</h4>
                         <br>
-
-                            <a href="{{ $item->berkas }}" target="_blank" class="btn btn-danger">
+                        <div style="display: inline-block;">
+                            <a href="#" target="_blank" class="btn btn-danger"
+                               style="background-color: navy; color: white; border: none; transition: 0.3s;"
+                               onmouseover="this.style.backgroundColor='white'; this.style.color='black'; this.style.border='1px solid black';"
+                               onmouseout="this.style.backgroundColor='navy'; this.style.color='white'; this.style.border='none';">
                                 <i class="fa fa-file-pdf"></i> Download PDF
                             </a>
+                        </div>
+
 
                     </div><!-- /.news-details-content-box -->
 
