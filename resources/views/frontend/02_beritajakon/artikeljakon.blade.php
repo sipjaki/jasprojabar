@@ -36,8 +36,8 @@
                     <div class="news-details-box-image">
 						<div class="news-details-box-image-inner">
 							<img src="{{ asset('storage/' . $item->foto1) }}" class="img-fluid" alt="img-193">
-							<img src="{{ asset('storage/' . $item->foto2) }}" class="img-fluid" alt="img-193">
-							<img src="{{ asset('storage/' . $item->foto3) }}" class="img-fluid" alt="img-193">
+							<img src="{{ asset('storage/' . $item->foto1) }}" class="img-fluid" alt="img-193">
+							<img src="{{ asset('storage/' . $item->foto1) }}" class="img-fluid" alt="img-193">
 
                             <a href="#" class="news-details-box-date">{{ \Carbon\Carbon::parse($item->tanggal)->translatedFormat('l, d F Y') }}</a>
 						</div><!-- news-details-box-image-inner -->
