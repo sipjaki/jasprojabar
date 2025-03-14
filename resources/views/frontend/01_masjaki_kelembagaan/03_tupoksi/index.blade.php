@@ -82,15 +82,15 @@
     </div>
 </div>
 
-				<div class="portfolio-details-content-text">
-					<p style="text-align: justify" >
-                        Dinas Pekerjaan Umum dan Penataan Ruang (DPUPR) Kabupaten Blora memiliki peran penting dalam perencanaan, pelaksanaan, dan pengendalian pembangunan infrastruktur di wilayah Kabupaten Blora. Tupoksi DPUPR mencakup berbagai kegiatan seperti pengelolaan jalan, jembatan, sumber daya air, dan jaringan air bersih, serta penataan ruang wilayah untuk memastikan pembangunan yang terstruktur dan berkelanjutan. DPUPR bertugas merumuskan kebijakan teknis, menyediakan standar dan pedoman pembangunan, serta melakukan evaluasi terhadap setiap program yang dijalankan.
-                    </p>
+<div class="portfolio-details-content-text">
+    <p style="text-align: justify;">
+        Dinas Pekerjaan Umum dan Penataan Ruang (DPUPR) Kabupaten Blora memiliki peran strategis dalam pembinaan jasa konstruksi guna mendukung pembangunan infrastruktur yang berkualitas. DPUPR bertugas menyusun kebijakan teknis, mengembangkan sistem informasi konstruksi, serta meningkatkan kapasitas badan usaha konstruksi agar lebih kompetitif dan profesional.
+    </p>
 
-                    <p style="text-align: justify">
-                        Selain itu, DPUPR Kabupaten Blora juga berperan dalam mendukung tercapainya kesejahteraan masyarakat melalui penyediaan fasilitas publik yang memadai. Dinas ini memastikan agar setiap kegiatan pembangunan sesuai dengan peraturan yang berlaku dan memperhatikan prinsip-prinsip keberlanjutan serta keamanan. DPUPR terus berkomitmen dalam meningkatkan kualitas infrastruktur dan tata ruang yang dapat menunjang pertumbuhan ekonomi serta meningkatkan kualitas hidup masyarakat Blora.
-                    </p >
-                </div><!-- portfolio-details-content-text -->
+    <p style="text-align: justify;">
+        Selain itu, DPUPR juga berperan dalam pengawasan dan penjaminan mutu konstruksi, penyuluhan serta bimtek kepada para pelaku jasa konstruksi, serta pengembangan pasar dan kerja sama konstruksi. Dengan pendekatan berbasis regulasi dan inovasi, DPUPR terus berupaya menciptakan ekosistem konstruksi yang tertib, berdaya saing, dan mendukung pertumbuhan ekonomi Kabupaten Blora.
+    </p>
+</div>
 			</div><!-- portfolio-details-content -->
 		</div><!-- container -->
 	</section><!-- portfolio-details -->
