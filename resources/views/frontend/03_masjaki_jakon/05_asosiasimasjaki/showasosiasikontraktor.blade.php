@@ -207,11 +207,11 @@ color: #45a049;
 
                             <div class="table-wrapper" style="margin-top:-130px; position: relative;">
                                 <div style="display: flex; justify-content: space-between; margin-bottom: 10px; align-items: center;">
-                                    <div class="pagination-info-box" style="margin-right:700px; padding: 10px; border: 1px solid black; background-color: #f9f9f9; border-radius: 5px;">
+                                    {{-- <div class="pagination-info-box" style="margin-right:700px; padding: 10px; border: 1px solid black; background-color: #f9f9f9; border-radius: 5px;">
                                         <div class="pagination-info" style="color: black; font-weight: 500; font-size:18px;">
                                             Data Ke {{ $data->firstItem() }} Sampai {{ $data->lastItem() }} Dari {{ $data->total() }} Jumlah {{$title}}
                                         </div>
-                                    </div>
+                                    </div> --}}
                                     {{-- <div>
                                         <label for="entries" style="margin-right: 5px; font-weight: bold;">Show:</label>
                                         <select id="entries" onchange="updateEntries()" style="padding: 5px; border: 1px solid black; background-color: white;">
@@ -261,7 +261,7 @@ color: #45a049;
                                         @endforeach
                                     </tbody>
                                 </table>
-
+{{--
                                 <div class="pagination-container" style="margin-top: 50px; display: flex; flex-direction: column; align-items: center;">
                                     <ul class="pagination-paginate" style="display: flex; padding-left: 0; list-style: none; margin-top: 10px;">
                                         <li class="page-item {{ $data->onFirstPage() ? 'disabled' : '' }}" style="margin-right: 5px;">
@@ -275,7 +275,7 @@ color: #45a049;
                                             </a>
                                         </li>
                                     </ul>
-                                </div>
+                                </div> --}}
                             </div>
 
                             <style>
