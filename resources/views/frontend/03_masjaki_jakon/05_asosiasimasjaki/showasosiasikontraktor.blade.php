@@ -191,7 +191,7 @@ color: #45a049;
 
                                         <a href="/datajakon/asosiasimasjaki" style="background: white;">
                                             <button class="badgekembali" style="border: none; font-size: 12px; cursor: pointer; margin-right: 10px;">
-                                                <i class="fas fa-arrow-circle-left mr-2" style="margin-right: 20px; color:red;"></i><span style="color: black; font-size:20px;">KEMBALI</span>
+                                                <i class="fas fa-arrow-circle-left mr-2" style="margin-right: 20px; color:red;"></i><span style="color: black; font-size:16px;">Kembali</span>
                                             </button>
                                         </a>
 
