@@ -14,7 +14,7 @@
 		</div><!-- container -->
 	</section><!--page-banner-->
 	<section class="portfolio-details">
-		<div class="container">
+		<div class="container" style="margin-top: -150px;">
 			{{-- <img src="assets/image/portfolio/portfolio-details-1.jpg" class="img-fluid" alt="img-109"> --}}
             {{-- @foreach ($data as $item )
             <iframe src="{{ asset('storage/' . $item->peraturan) }}" width="100%" height="750" style="border: none;"></iframe>
