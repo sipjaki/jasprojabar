@@ -189,11 +189,11 @@ color: #45a049;
                                             <i class="fas fa-search" style="position: absolute; right: 10px; top: 50%; transform: translateY(-50%); font-size: 16px; color: #888;"></i>
                                         </div> --}}
 
-                                        {{-- <a href="/datajakon/bujk" style="background: white;">
+                                        <a href="/datajakon/asosiasimasjaki" style="background: white;">
                                             <button class="badgekembali" style="border: none; font-size: 12px; cursor: pointer; margin-right: 10px;">
                                                 <i class="fas fa-arrow-circle-left mr-2" style="margin-right: 20px; color:red;"></i><span style="color: black; font-size:20px;">KEMBALI</span>
                                             </button>
-                                        </a> --}}
+                                        </a>
 
                                     </div>
                                 </div>
@@ -256,6 +256,12 @@ color: #45a049;
                                             <td style="text-align: center;">{{ $loop->iteration}}</td>
                                             <td style="text-transform: capitalize;">{{ ucwords(strtolower($item->namalengkap)) }}</td>
                                             <td style="text-align: center;">{{$item->no_telepon}}</td>
+                                            <td style="text-align: center;">
+                                                {{ $item->no_telepon }}
+                                                <a href="https://wa.me/{{ preg_replace('/[^0-9]/', '', $item->no_telepon) }}" target="_blank" style="margin-left: 10px;">
+                                                    <i class="fab fa-whatsapp" style="color: green; font-size: 18px;"></i>
+                                                </a>
+                                            </td>
                                         </tr>
                                         @endforeach
                                     </tbody>
