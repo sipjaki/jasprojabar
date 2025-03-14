@@ -1,7 +1,6 @@
 <?php
 
 namespace App\Http\Controllers;
-use Illuminate\Support\Facades\View;
 use Illuminate\Http\Request;
 
 use App\Models\berita; // Pastikan namespace model sesuai dengan struktur direktori
@@ -19,6 +18,7 @@ use App\Models\qa;
 use App\Models\sertifikasiagenda;
 use App\Models\skktenagakerja; // Pastikan namespace model sesuai dengan struktur direktori
 
+use Illuminate\Support\Facades\View;
 use Illuminate\Support\Facades\Auth;
 
 class FedashboardController extends Controller
