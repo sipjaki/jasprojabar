@@ -166,5 +166,30 @@ public function asosiasikonstruksishow($namaasosiasi)
     }
 
 
+public function asosiasikonsultanshow($namaasosiasi)
+{
+    // Cari asosiasi berdasarkan namaasosiasi
+    $asosiasi = asosiasimasjaki::where('namaasosiasi', $namaasosiasi)->first();
+
+    // Jika asosiasi tidak ditemukan, tampilkan 404
+    if (!$asosiasi) {
+        return abort(404, 'Asosiasi tidak ditemukan');
+    }
+
+    $user = Auth::user();
+        // Ambil semua data dari tabel bujkkontraktor berdasarkan asosiasi_id
+        $databujkkonsultan = bujkkonsultan::where('asosiasimasjaki_id', $asosiasi->id)->get(['id', 'namalengkap', 'no_telepon']);
+        // $databujkkontraktorpaginate = bu::where('asosiasimasjaki_id', $asosiasi->id)->paginate(10);
+
+
+        // Return ke view dengan format yang diminta
+        return view('frontend.03_masjaki_jakon.05_asosiasimasjaki.showasosiasikonsultan', [
+            'title' => 'Asosiasi Konstruksi dan Konsultasi Konstruksi',
+            'user' => $user,
+            'data' => $databujkkonsultan,
+       ]);
+    }
+
+
 
 }
