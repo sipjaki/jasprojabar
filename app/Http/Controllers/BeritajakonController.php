@@ -170,8 +170,8 @@ class BeritajakonController extends Controller
     // Ambil data user saat ini
     $user = Auth::user();
 
-    return view('frontend.02_beritajakon.showartikeljakon', [
-        'title' => 'Berita Jasa Konstruksi',
+    return view('frontend.02_beritajakon.artikeljakonshow', [
+        'title' => 'Artikel Jasa Konstruksi',
         'data' => $dataartikeljakon,
         'dataartikel' => $dataartikel,
         // 'subData' => $subdata,  // Jika Anda ingin mengirimkan data sub kontraktor juga
