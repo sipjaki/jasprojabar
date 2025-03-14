@@ -257,11 +257,18 @@ color: #45a049;
                                             <td style="text-transform: capitalize;">{{ ucwords(strtolower($item->namalengkap)) }}</td>
                                             <td style="text-align: center;">{{$item->no_telepon}}</td>
                                             <td style="text-align: center;">
-                                                {{-- {{ $item->no_telepon }} --}}
-                                                <a href="https://wa.me/{{ preg_replace('/[^0-9]/', '', $item->no_telepon) }}" target="_blank" style="margin-left: 10px;">
-                                                    <i class="fab fa-whatsapp" style="color: green; font-size: 18px;"></i>
-                                                </a>
+                                                <div style="display: inline-block; padding: 8px 12px; border-radius: 5px; background-color: #25D366; transition: 0.3s; cursor: pointer;"
+                                                    onmouseover="this.style.backgroundColor='white'; this.style.border='1px solid #25D366'; this.children[0].style.color='#25D366'; this.children[0].children[0].style.color='#25D366';"
+                                                    onmouseout="this.style.backgroundColor='#25D366'; this.style.border='none'; this.children[0].style.color='white'; this.children[0].children[0].style.color='white';">
+
+                                                    <a href="https://wa.me/{{ preg_replace('/[^0-9]/', '', $item->no_telepon) }}" target="_blank"
+                                                        style="display: flex; align-items: center; text-decoration: none; color: white;">
+                                                        <i class="fab fa-whatsapp" style="font-size: 18px; margin-right: 5px; color: white;"></i>
+                                                        Chat WhatsApp
+                                                    </a>
+                                                </div>
                                             </td>
+
                                         </tr>
                                         @endforeach
                                     </tbody>
