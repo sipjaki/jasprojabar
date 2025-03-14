@@ -258,7 +258,7 @@ color: #45a049;
 
                                             <td style="text-align: center;">{{ $loop->iteration }}</td>
 
-                                            <td>{{$item->namaasosiasi}}</td>
+                                            <td>{{$item->asosiasimasjaki->namaasosiasi}}</td>
                                             <td style="text-align: center;">{{$item->jumlah}}</td>
                                             <td style="text-align: center">
                                                 <a href="/datajakon/asosiasimasjaki/{{$item->namaasosiasi}}">
