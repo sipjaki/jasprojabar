@@ -16,9 +16,9 @@
 	<section class="portfolio-details">
 		<div class="container">
 			{{-- <img src="assets/image/portfolio/portfolio-details-1.jpg" class="img-fluid" alt="img-109"> --}}
-            @foreach ($data as $item )
+            {{-- @foreach ($data as $item )
             <iframe src="{{ asset('storage/' . $item->peraturan) }}" width="100%" height="750" style="border: none;"></iframe>
-            @endforeach
+            @endforeach --}}
 			{{-- <div class="portfolio-details-info">
 				<div class="portfolio-details-info-item">
 					<span>Category:</span>
@@ -48,38 +48,39 @@
 					<h3>Tupoksi DPUPR Pemerintah Kabupaten Blora</h3>
 				</div><!-- portfolio-details-content-title -->
 
-                <div style="background-color: #f9f9f9; padding: 20px; border-radius: 10px; max-width: 800px; margin: auto; font-family: Arial, sans-serif;">
-                    <!-- Header -->
-                    <div style="background-color: #FFD100; padding: 15px; border-radius: 10px 10px 0 0; text-align: center; font-weight: bold; font-size: 20px;">
-                        DINAS PEKERJAAN UMUM DAN PENATAAN RUANG <br> KABUPATEN BLORA
-                    </div>
 
-                    <!-- Konten Tupoksi -->
-                    <div style="background-color: white; padding: 15px; border-radius: 0 0 10px 10px; box-shadow: 0px 4px 8px rgba(0,0,0,0.1);">
-                        <h3 style="color: #2E7D32; text-align: center; font-weight: bold;">Tupoksi Jasa Konstruksi</h3>
+<div style="background-color: #f9f9f9; padding: 30px; border-radius: 10px; max-width: 1000px; margin: auto; font-family: 'Poppins', sans-serif;">
+    <!-- Header -->
+    <div style="background-color: #FFD100; padding: 15px; border-radius: 10px 10px 0 0; text-align: center; font-weight: 600; font-size: 22px;">
+        DINAS PEKERJAAN UMUM DAN PENATAAN RUANG <br> KABUPATEN BLORA
+    </div>
 
-                        <ul style="padding-left: 20px; list-style-type: none;">
-                            <li style="background-color: #E8F5E9; margin: 8px 0; padding: 10px; border-radius: 5px;">
-                                <strong>📌 Penyusunan Program:</strong> Rencana kerja dan kegiatan bina jasa konstruksi sebagai pedoman kerja tahunan.
-                            </li>
-                            <li style="background-color: #E8F5E9; margin: 8px 0; padding: 10px; border-radius: 5px;">
-                                <strong>📌 Kebijakan Teknis:</strong> Menyusun bahan kebijakan sesuai peraturan perundang-undangan sebagai kajian pimpinan.
-                            </li>
-                            <li style="background-color: #E8F5E9; margin: 8px 0; padding: 10px; border-radius: 5px;">
-                                <strong>📌 Sistem Informasi:</strong> Pelaksanaan sistem informasi jasa konstruksi untuk efisiensi.
-                            </li>
-                            <li style="background-color: #E8F5E9; margin: 8px 0; padding: 10px; border-radius: 5px;">
-                                <strong>📌 Pengawasan & Pembinaan:</strong> Pengembangan badan usaha, pasar jasa konstruksi, dan evaluasi penyelenggaraan.
-                            </li>
-                            <li style="background-color: #E8F5E9; margin: 8px 0; padding: 10px; border-radius: 5px;">
-                                <strong>📌 Penyuluhan & Bimtek:</strong> Melakukan pelatihan, penyuluhan, dan bimtek terkait jasa konstruksi.
-                            </li>
-                            <li style="background-color: #E8F5E9; margin: 8px 0; padding: 10px; border-radius: 5px;">
-                                <strong>📌 Laporan & Evaluasi:</strong> Monitoring dan evaluasi kegiatan pembinaan sebagai wujud transparansi.
-                            </li>
-                        </ul>
-                    </div>
-                </div>
+    <!-- Konten Tupoksi -->
+    <div style="background-color: white; padding: 20px; border-radius: 0 0 10px 10px; box-shadow: 0px 4px 8px rgba(0,0,0,0.1);">
+        <h3 style="color: #2E7D32; text-align: center; font-weight: 600; font-size: 24px; margin-bottom: 20px;">Tupoksi Jasa Konstruksi</h3>
+
+        <ul style="padding-left: 20px; list-style-type: none; font-size: 16px;">
+            <li style="background-color: #E8F5E9; margin: 10px 0; padding: 12px; border-radius: 5px;">
+                <strong>📌 Penyusunan Program:</strong> Rencana kerja dan kegiatan bina jasa konstruksi sebagai pedoman kerja tahunan.
+            </li>
+            <li style="background-color: #E8F5E9; margin: 10px 0; padding: 12px; border-radius: 5px;">
+                <strong>📌 Kebijakan Teknis:</strong> Menyusun bahan kebijakan sesuai peraturan perundang-undangan sebagai kajian pimpinan.
+            </li>
+            <li style="background-color: #E8F5E9; margin: 10px 0; padding: 12px; border-radius: 5px;">
+                <strong>📌 Sistem Informasi:</strong> Pelaksanaan sistem informasi jasa konstruksi untuk efisiensi.
+            </li>
+            <li style="background-color: #E8F5E9; margin: 10px 0; padding: 12px; border-radius: 5px;">
+                <strong>📌 Pengawasan & Pembinaan:</strong> Pengembangan badan usaha, pasar jasa konstruksi, dan evaluasi penyelenggaraan.
+            </li>
+            <li style="background-color: #E8F5E9; margin: 10px 0; padding: 12px; border-radius: 5px;">
+                <strong>📌 Penyuluhan & Bimtek:</strong> Melakukan pelatihan, penyuluhan, dan bimtek terkait jasa konstruksi.
+            </li>
+            <li style="background-color: #E8F5E9; margin: 10px 0; padding: 12px; border-radius: 5px;">
+                <strong>📌 Laporan & Evaluasi:</strong> Monitoring dan evaluasi kegiatan pembinaan sebagai wujud transparansi.
+            </li>
+        </ul>
+    </div>
+</div>
 
 				<div class="portfolio-details-content-text">
 					<p style="text-align: justify" >
