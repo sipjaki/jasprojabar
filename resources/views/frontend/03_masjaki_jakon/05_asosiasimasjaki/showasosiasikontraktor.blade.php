@@ -251,10 +251,9 @@ color: #45a049;
                                         </tr>
                                     </thead>
                                     <tbody id="tableBody">
-                                        @php $start = ($data->currentPage() - 1) * $data->perPage() + 1; @endphp
                                         @foreach ($data as $item )
                                         <tr>
-                                            <td style="text-align: center;">{{ $loop->iteration + $start - 1 }}</td>
+                                            <td style="text-align: center;">{{ $loop->iteration}}</td>
                                             <td style="text-transform: capitalize;">{{ ucwords(strtolower($item->namalengkap)) }}</td>
                                             <td style="text-align: center;">{{$item->no_telepon}}</td>
                                         </tr>
