@@ -260,7 +260,7 @@ color: #45a049;
                                             <td>{{$item->nama}}</td>
                                             <td>{{$item->alamat}}</td>
                                             <td>{{$item->jabatankerja->jabatankerja}}</td>
-                                            <td>{{$item->jenjang->jenjang}}</td>
+                                            <td style="text-align: center;">{{$item->jenjang->jenjang}}</td>
                                             <td style="text-align: center">
                                                 <a href="/datajakon/skktenagakerjablora/{{$item->nama}}">
                                                     <i class="fas fa-eye view-icon" onclick="alert('View clicked!')"></i>
