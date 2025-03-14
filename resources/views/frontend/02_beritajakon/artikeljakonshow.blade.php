@@ -81,7 +81,7 @@
 								<div class="sidebar-recent-post-content">
                                     <div class="sidebar-meta">
 										<div class="sidebar-post-title">
-											<h5><a href="/beritajakon/{{$item->judul}}">{{$item->judul}}</a></h5>
+											<h5><a href="/artikeljakon/{{$item->judul}}">{{$item->judul}}</a></h5>
 										</div><!-- sidebar-post-title -->
 									</div><!-- sidebar-meta -->
 								</div><!-- sidebar-recent-post-content -->
