@@ -219,15 +219,7 @@ color: #45a049;
                                             <th onclick="sortTable(0)" style="cursor:pointer; text-align:center; width:100px;"> No <span class="sort-icon">⇅</span></th>
                                             <th onclick="sortTable(1)" style="cursor:pointer; text-align:center"> Nama Asosiasi <span class="sort-icon">⇅</span></th>
                                             <th onclick="sortTable(2)" style="cursor:pointer; text-align:center"> Jumlah <span class="sort-icon">⇅</span></th>
-                                            {{-- <th onclick="sortTable(3)" style="cursor:pointer; text-align:center"> No Telepon <span class="sort-icon">⇅</span></th> --}}
-                                            {{-- <th onclick="sortTable(4)" style="cursor:pointer; text-align:center"> Email <span class="sort-icon">⇅</span></th>
-                                            <th onclick="sortTable(5)" style="cursor:pointer; text-align:center"> NIB <span class="sort-icon">⇅</span></th>
-                                            <th onclick="sortTable(6)" style="cursor:pointer; text-align:center"> PJU <span class="sort-icon">⇅</span></th>
-                                            <th onclick="sortTable(7)" style="cursor:pointer; text-align:center"> Akte <span class="sort-icon">⇅</span></th>
-                                            <th onclick="sortTable(8)" style="cursor:pointer; text-align:center"> Tanggal <span class="sort-icon">⇅</span></th>
-                                            <th onclick="sortTable(9)" style="cursor:pointer; text-align:center"> Notaris <span class="sort-icon">⇅</span></th>
-                                            <th onclick="sortTable(10)" style="cursor:pointer; text-align:center"> Pengesahan <span class="sort-icon">⇅</span></th> --}}
-                                            {{-- <th style="text-align:center"> View </th> --}}
+                                            <th style="text-align:center"> View </th>
                                         </tr>
                                     </thead>
                                     <tbody id="tableBody">
@@ -241,18 +233,12 @@ color: #45a049;
                                             <td style="text-align: center;">{{ $nomor++ }}</td>
                                             <td>{{$item->asosiasimasjaki->namaasosiasi}}</td>
                                             <td style="text-align: center;">{{$item->jumlah}}</td>
-                                            {{-- <td>{{$item->email}}</td>
-                                            <td>{{$item->nib}}</td>
-                                            <td>{{$item->pju}}</td>
-                                            <td>{{$item->no_akte}}</td>
-                                            <td>{{ \Carbon\Carbon::parse($item->tanggal)->isoFormat('D MMMM YYYY') }}</td>
-                                            <td>{{$item->nama_notaris}}</td>
-                                            <td>{{$item->no_pengesahan}}</td> --}}
-                                            {{-- <td style="text-align: center">
-                                                <a href="/datajakon/bujkkontraktor/{{$item->namalengkap}}">
+
+                                            <td style="text-align: center">
+                                                <a href="/datajakon/asosiasikonstruksi/{{$item->asosiasimasjaki->namaasosiasi}}">
                                                     <i class="fas fa-eye view-icon" onclick="alert('View clicked!')"></i>
                                                 </a>
-                                            </td> --}}
+                                            </td>
                                         </tr>
                                         @endforeach
                                     </tbody>
@@ -363,7 +349,7 @@ color: #45a049;
                                             <td style="text-align: center;">{{$item->jumlah}}</td>
 
                                             <td style="text-align: center">
-                                                <a href="/datajakon/asosiasimasjaki/{{$item->asosiasimasjaki->namaasosiasi}}">
+                                                <a href="/datajakon/asosiasikonsultan/{{$item->asosiasimasjaki->namaasosiasi}}">
                                                     <i class="fas fa-eye view-icon" onclick="alert('View clicked!')"></i>
                                                 </a>
                                             </td>
