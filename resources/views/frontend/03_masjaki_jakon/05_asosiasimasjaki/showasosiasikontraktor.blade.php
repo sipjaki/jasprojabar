@@ -253,7 +253,7 @@ color: #45a049;
                                     <tbody id="tableBody">
                                         {{-- @foreach ($data as $item ) --}}
                                         <tr>
-                                            <td style="text-align: center;">{{ $loop->iteration}}</td>
+                                            {{-- <td style="text-align: center;">{{ $loop->iteration}}</td> --}}
                                             <td style="text-transform: capitalize;">{{ ucwords(strtolower($data->namalengkap)) }}</td>
                                             <td style="text-align: center;">{{$data->no_telepon}}</td>
                                         </tr>
