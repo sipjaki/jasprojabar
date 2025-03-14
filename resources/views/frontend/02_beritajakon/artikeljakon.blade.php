@@ -51,10 +51,10 @@
                         <br>
                         <div style="display: inline-block;">
                             <a href="#" target="_blank" class="btn btn-danger"
-                               style="background-color: navy; color: white; border: none; transition: 0.3s;"
+                               style="background-color: navy; color: white; border: none; transition: 0.3s; padding:10px 20px;"
                                onmouseover="this.style.backgroundColor='white'; this.style.color='black'; this.style.border='1px solid black';"
                                onmouseout="this.style.backgroundColor='navy'; this.style.color='white'; this.style.border='none';">
-                                <i class="fa fa-file-pdf"></i> Download PDF
+                                <i class="fa fa-file-pdf" style="margin-right:5px;"></i> Download PDF
                             </a>
                         </div>
 
