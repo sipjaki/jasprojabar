@@ -285,7 +285,7 @@ Route::get('/hspkonstruksiumum', [HspkonstruksiumumController::class, 'index']);
 Route::get('/beritajakon', [BeritajakonController::class, 'index']);
 Route::get('/beritajakon/{judulberita}', [BeritajakonController::class, 'showjudulberita']);
 Route::get('/artikeljakon', [BeritajakonController::class, 'artikeljakon']);
-Route::get('/artikeljakon', [BeritajakonController::class, 'artikeljakon']);
+Route::get('/artikeljakon/{judul}', [BeritajakonController::class, 'artikeljakonshow']);
 // Route::get('/shstblora/{kecamatanblora}', [TokobangunanbloraController::class, 'tokobangunanblorashow']);
 
 // ==========================================================================================================

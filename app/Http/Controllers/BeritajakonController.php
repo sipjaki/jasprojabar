@@ -150,5 +150,35 @@ class BeritajakonController extends Controller
     ]);
     }
 
+    public function artikeljakonshow($judul)
+        {
+        $dataartikeljakon = artikeljakonmasjaki::where('judul', $judul)->first();
+        $dataartikel = artikeljakonmasjaki::paginate(6);
+
+        // if (!$databeritajakon) {
+        //     // Tangani jika kegiatan tidak ditemukan
+        //     return redirect()->back()->with('error', 'Kegiatan tidak ditemukan.');
+        // }
+
+        // // Menggunakan paginate() untuk pagination
+        // $subdata = bujkkontraktorsub::where('bujkkontraktor_id', $databujkkontraktor->id)->paginate(50);
+
+        //   // Menghitung nomor urut mulai
+        //     $start = ($subdata->currentPage() - 1) * $subdata->perPage() + 1;
+
+
+    // Ambil data user saat ini
+    $user = Auth::user();
+
+    return view('frontend.02_beritajakon.showartikeljakon', [
+        'title' => 'Berita Jasa Konstruksi',
+        'data' => $dataartikeljakon,
+        'dataartikel' => $dataartikel,
+        // 'subData' => $subdata,  // Jika Anda ingin mengirimkan data sub kontraktor juga
+        'user' => $user,
+        // 'start' => $start,
+    ]);
+    }
+
 
 }
