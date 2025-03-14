@@ -51,7 +51,7 @@
                         <br>
                         <div style="display: inline-block;">
                             <a href="#" target="_blank" class="btn btn-danger"
-                               style="background-color: navy; color: white; border: none; transition: 0.3s; padding:10px 20px;"
+                               style="background-color: navy; color: white; border: none; transition: 0.3s; padding:10px 20px; border-radius:15px;"
                                onmouseover="this.style.backgroundColor='white'; this.style.color='black'; this.style.border='1px solid black';"
                                onmouseout="this.style.backgroundColor='navy'; this.style.color='white'; this.style.border='none';">
                                 <i class="fa fa-file-pdf" style="margin-right:5px;"></i> Download PDF
@@ -68,18 +68,10 @@
 				<div class="col-lg-4">
 					<div class="sidebar">
 						<div class="sidebar-form-content">
-							<div class="sidebar__item sidebar__item--search">
-								<form action="#" class="sidebar__search">
-									<label for="search" class="sr-only">Cari Berita</label><!-- sr-only -->
-									<input type="text" placeholder="Cari Berita">
-									<button type="submit" aria-label="search submit" class="thm-btn">
-										<i class="flaticon-search-interface-symbol"></i>
-									</button><!-- thm-btn -->
-								</form><!-- sidebar__search -->
-							</div><!-- sidebar__item -->
+
 						</div><!-- sidebar-form-content -->
 						<div class="sidebar-widget sidebar-widget-recent-post">
-							<h4>Daftar Berita</h4>
+							<h4>Daftar Artikel Jakon Blora</h4>
 
                             @foreach ($data->skip(1)->take(7) as $item)
 
