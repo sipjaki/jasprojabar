@@ -44,9 +44,9 @@
 				</div><!-- portfolio-details-info-socials -->
 			</div><!--/.portfolio-details-info--> --}}
 			<div class="portfolio-details-content">
-				<div class="portfolio-details-content-title">
+				{{-- <div class="portfolio-details-content-title">
 					<h3>Tupoksi DPUPR Pemerintah Kabupaten Blora</h3>
-				</div><!-- portfolio-details-content-title -->
+				</div><!-- portfolio-details-content-title --> --}}
 
 
 <div style="background-color: #f9f9f9; padding: 30px; border-radius: 10px; max-width: 1000px; margin: auto; font-family: 'Poppins', sans-serif;">
