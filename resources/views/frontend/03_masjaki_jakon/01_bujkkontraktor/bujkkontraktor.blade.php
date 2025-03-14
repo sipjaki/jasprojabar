@@ -208,7 +208,7 @@ color: #45a049;
                             <div class="table-wrapper" style="margin-top:-130px; position: relative;">
                                 <div style="display: flex; justify-content: space-between; margin-bottom: 10px; align-items: center;">
                                     <div class="pagination-info-box" style="margin-right:700px; padding: 10px; border: 1px solid black; background-color: #f9f9f9; border-radius: 5px;">
-                                        <div class="pagination-info" style="color: black; font-weight: 500; font-size:20px;">
+                                        <div class="pagination-info" style="color: black; font-weight: 500; font-size:16px;">
                                             Data Ke {{ $data->firstItem() }} Sampai {{ $data->lastItem() }} Dari {{ $data->total() }} Jumlah {{$title}}
                                         </div>
                                     </div>
@@ -236,7 +236,7 @@ color: #45a049;
                                     </div> --}}
 
                                     <div style="position: relative; display: inline-block; margin-right:10px;">
-                                        <input type="search" id="searchInput" placeholder="Badan Usaha ...." onkeyup="searchTable()" style="border: 1px solid #ccc; padding: 10px 20px; font-size: 14px; border-radius: 10px; width: 300px;">
+                                        <input type="search" id="searchInput" placeholder="Cari Badan Usaha ...." onkeyup="searchTable()" style="border: 1px solid #ccc; padding: 10px 20px; font-size: 14px; border-radius: 10px; width: 300px;">
                                         <i class="fas fa-search" style="position: absolute; right: 10px; top: 50%; transform: translateY(-50%); font-size: 16px; color: #888;"></i>
                                     </div>
                                 </div>
