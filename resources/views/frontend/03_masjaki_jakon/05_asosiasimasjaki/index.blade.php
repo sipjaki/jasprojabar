@@ -28,6 +28,7 @@ text-transform: uppercase;
 font-weight: 600;
 letter-spacing: 0.5px;
 color: black;
+font-size: 18px;
 }
 
 .fl-table th,
@@ -35,11 +36,13 @@ color: black;
 padding: 12px 15px;
 text-align: left;
 border-bottom: 1px solid #ddd;
+font-size: 18px;
 }
 
 /* Hover effect */
 .fl-table tbody tr:hover {
 background: rgba(0, 0, 0, 0.05);
+font-size: 18px;
 }
 
 /* Responsive styling */
