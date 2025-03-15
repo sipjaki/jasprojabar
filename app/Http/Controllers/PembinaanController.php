@@ -176,7 +176,7 @@ class PembinaanController extends Controller
 
         $user = Auth::user();
             // Ambil semua data dari tabel bujkkontraktor berdasarkan asosiasi_id
-            $datapesertapelatihan = pesertapelatihan::where('agendapelatihan_id', $agendapelatihan->id)->get(['id', 'user_id', 'jeniskelamin', 'instansi']);
+            $data = pesertapelatihan::where('agendapelatihan_id', $agendapelatihan->id)->get(['id', 'user_id', 'jeniskelamin', 'instansi', 'namakegiatan']);
             // $databujkkontraktorpaginate = bu::where('asosiasimasjaki_id', $asosiasi->id)->paginate(10);
 
 
@@ -184,7 +184,7 @@ class PembinaanController extends Controller
         return view('frontend.04_pembinaan.01_agendapembinaan.daftarpesertashow', [
             'title' => 'Daftar Peserta Agenda Pelatihan',
             'data' => $data,
-            'datapeserta' => $datapesertapelatihan,
+            // 'datapeserta' => $datapesertapelatihan,
             'perPage' => $perPage,
             'search' => $search,
             'user' => $user
