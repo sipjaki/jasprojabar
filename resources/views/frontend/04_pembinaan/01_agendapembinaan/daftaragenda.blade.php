@@ -267,7 +267,7 @@ color: #adb6ad;
                                                 "
                                                 onmouseover="this.style.backgroundColor='white'; this.style.color='black';"
                                                 onmouseout="this.style.backgroundColor='navy'; this.style.color='white';">
-                                                    <a href="/daftarpesertapelatihan/{{$item->namakegiatan}}" style="color: inherit; text-decoration: none;">
+                                                    <a href="/daftarpesertapelatihans/{{$item->namakegiatan}}" style="color: inherit; text-decoration: none;">
                                                         <i class="fas fa-users" style="margin-right: 5px; font-size:14px;"></i> Peserta
                                                     </a>
                                                 </div>

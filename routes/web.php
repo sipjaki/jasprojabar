@@ -171,7 +171,7 @@ Route::get('/datajakon/profilpaketpekerjaan/{namapekerjaan}', [Paketpekerjaanmas
 Route::get('/agendapembinaan', [PembinaanController::class, 'index']);
 Route::get('/agendapembinaan/{namakegiatan}', [PembinaanController::class, 'namakegiatandaftar']);
 Route::get('/daftarpesertapelatihan', [PembinaanController::class, 'daftarpesertapelatihan']);
-Route::get('/daftarpesertapelatihan/{namakegiatan}', [PembinaanController::class, 'daftarpesertapelatihanshow']);
+Route::get('/daftarpesertapelatihans/{namakegiatan}', [PembinaanController::class, 'daftarpesertapelatihanshow']);
 
 // ---------------------- 06 PENGAWASAN BUJK MAS JAKI -----------------------//
 // ------------- HALAMAN AGENDA PENGAWASAN BUJK -----------------
