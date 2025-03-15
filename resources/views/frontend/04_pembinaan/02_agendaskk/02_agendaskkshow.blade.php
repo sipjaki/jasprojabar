@@ -101,16 +101,16 @@
 					<div class="sidebar">
 						<div class="sidebar-form-content">
 							<div class="sidebar__item sidebar__item--search">
-                                <div style="display: flex; justify-content: flex-end; padding: 10px;">
-                                    <a href="/agendaskk">
-                                        <button class="download-btn" style="margin-right: 10px;">
-                                            <i class="fas fa-arrow-left" style="margin-right:10px;"></i> Kembali
+                                <div style="display: flex; justify-content: center; gap: 20px; padding: 20px;">
+                                    <a href="/agendapembinaan">
+                                        <button class="download-btn" style="padding: 12px 24px; font-size: 16px; border-radius: 8px;">
+                                            <i class="fas fa-arrow-left" style="margin-right: 8px;"></i> Kembali
                                         </button>
                                     </a>
 
                                     <a href="/404">
-                                        <button class="download-btn" style="margin-right: 10px; margin-left:25px;">
-                                            <i class="fas fa-file-alt" style="margin-right: 10px;"></i> Daftar
+                                        <button class="download-btn" style="padding: 12px 24px; font-size: 16px; border-radius: 8px;">
+                                            <i class="fas fa-file-alt" style="margin-right: 8px;"></i> Daftar
                                         </button>
                                     </a>
                                 </div>
@@ -118,78 +118,75 @@
 
 							</div><!-- sidebar__item -->
 						</div><!-- sidebar-form-content -->
+
 						<div class="sidebar-widget sidebar-widget-recent-post">
 
-                            <h4>Penyelenggara</h4>
+    <h4><i class="fas fa-building"></i> Penyelenggara</h4>
+    <div class="sidebar-recent-post">
+        <div class="sidebar-recent-post-content">
+            <div class="sidebar-meta">
+                <div class="sidebar-meta-item">
+                    <div class="sidebar-meta-icon">
+                        <p style="font-size:18px;">{{$data->penyelenggara}}</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
-                            <div class="sidebar-recent-post">
-								<div class="sidebar-recent-post-content">
-                                    <div class="sidebar-meta">
-                                        <div class="sidebar-meta-item">
-                                            <div class="sidebar-meta-icon">
-												<span class="author">
-                                                        <p>{{$data->penyelenggara}}</p>
-                                                </span><!-- author -->
-											</div><!-- sidebar-meta-icon -->
-										</div><!-- sidebar-meta-item -->
-									</div><!-- sidebar-meta -->
-								</div><!-- sidebar-recent-post-content -->
-							</div><!-- sidebar-recent-post -->
+    <h4><i class="fas fa-calendar-alt"></i> Waktu Pelaksanaan</h4>
+    <div class="sidebar-recent-post">
+        <div class="sidebar-recent-post-content">
+            <div class="sidebar-meta">
+                <div class="sidebar-meta-item">
+                    <div class="sidebar-meta-icon">
+                        <p style="font-size:18px;">{{ \Carbon\Carbon::parse($data->waktupelaksanaan)->translatedFormat('d F Y') }}</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
-                            <h4>Waktu Pelaksanaan</h4>
+    <h4><i class="fas fa-map-marker-alt"></i> Lokasi</h4>
+    <div class="sidebar-recent-post">
+        <div class="sidebar-recent-post-content">
+            <div class="sidebar-meta">
+                <div class="sidebar-meta-item">
+                    <div class="sidebar-meta-icon">
+                        <p style="font-size:18px;">{{$data->lokasi}}</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
-                            <div class="sidebar-recent-post">
-								<div class="sidebar-recent-post-content">
-                                    <div class="sidebar-meta">
-                                        <div class="sidebar-meta-item">
-                                            <div class="sidebar-meta-icon">
-												<span class="author">
+    <h4><i class="fas fa-users"></i> Jumlah Peserta</h4>
+    <div class="sidebar-recent-post">
+        <div class="sidebar-recent-post-content">
+            <div class="sidebar-meta">
+                <div class="sidebar-meta-item">
+                    <div class="sidebar-meta-icon">
+                        <p style="font-size:18px;">{{$data->jumlahpeserta}} Peserta</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
-                                                    <p>{{ \Carbon\Carbon::parse($data->waktupelaksanaan)->translatedFormat('d F Y') }}</p>
+    <h4><i class="fas fa-info-circle"></i> Keterangan</h4>
+    <div class="sidebar-recent-post">
+        <div class="sidebar-recent-post-content">
+            <div class="sidebar-meta">
+                <div class="sidebar-meta-item">
+                    <div class="sidebar-meta-icon">
+                        <p style="font-size:18px;">{{$data->keterangan}}</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
-                                                    </span><!-- author -->
-											</div><!-- sidebar-meta-icon -->
-										</div><!-- sidebar-meta-item -->
-									</div><!-- sidebar-meta -->
-								</div><!-- sidebar-recent-post-content -->
-							</div><!-- sidebar-recent-post -->
-
-                            <h4>Lokasi</h4>
-
-                            <div class="sidebar-recent-post">
-								<div class="sidebar-recent-post-content">
-                                    <div class="sidebar-meta">
-                                        <div class="sidebar-meta-item">
-                                            <div class="sidebar-meta-icon">
-												<span class="author">
-                                                    <p>{{$data->lokasi}}</p>
-                                                    </span><!-- author -->
-											</div><!-- sidebar-meta-icon -->
-										</div><!-- sidebar-meta-item -->
-									</div><!-- sidebar-meta -->
-								</div><!-- sidebar-recent-post-content -->
-							</div><!-- sidebar-recent-post -->
-
-                            <h4>Keterangan</h4>
-
-                            <div class="sidebar-recent-post">
-								<div class="sidebar-recent-post-content">
-                                    <div class="sidebar-meta">
-                                        <div class="sidebar-meta-item">
-                                            <div class="sidebar-meta-icon">
-												<span class="author">
-                                                    <p>{{$data->keterangan}}</p>
-                                                    </span><!-- author -->
-											</div><!-- sidebar-meta-icon -->
-										</div><!-- sidebar-meta-item -->
-									</div><!-- sidebar-meta -->
-								</div><!-- sidebar-recent-post-content -->
-							</div><!-- sidebar-recent-post -->
-
-                            {{-- <h4>Jenjang</h4> --}}
-
-
-                        </div><!-- sidebar-widget sidebar-widget-recent-post -->
+</div><!-- sidebar-widget sidebar-widget-recent-post -->
 
                         {{-- <div class="sidebar-widget sidebar-widget-recent-category">
 							<div class="sidebar-widget-recent-category-box">
