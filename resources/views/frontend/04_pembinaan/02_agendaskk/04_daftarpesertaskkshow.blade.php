@@ -267,7 +267,7 @@ color: #45a049;
                                             <td style="text-align: center;">{{$item->namaasosiasi}}</td>
                                             <td style="text-align: center;">{{$item->tahunpilihan->tahunpilihan}}</td>
                                             <td style="text-align: center">
-                                                <a href="/skktenagakerjablora/{{$item->nik}}">
+                                                <a href="/daftarskkblora/{{$item->nik}}">
                                                     <i class="fas fa-eye view-icon" onclick="alert('View clicked!')"></i>
                                                 </a>
                                             </td>
