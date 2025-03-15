@@ -101,16 +101,16 @@
 					<div class="sidebar">
 						<div class="sidebar-form-content">
 							<div class="sidebar__item sidebar__item--search">
-                                <div style="display: flex; justify-content: flex-end; padding: 10px;">
+                                <div style="display: flex; justify-content: center; gap: 20px; padding: 20px;">
                                     <a href="/agendapembinaan">
-                                        <button class="download-btn" style="margin-right: 10px;">
-                                            <i class="fas fa-arrow-left" style="margin-right:10px;"></i> Kembali
+                                        <button class="download-btn" style="padding: 12px 24px; font-size: 16px; border-radius: 8px;">
+                                            <i class="fas fa-arrow-left" style="margin-right: 8px;"></i> Kembali
                                         </button>
                                     </a>
 
                                     <a href="/404">
-                                        <button class="download-btn" style="margin-right: 10px; margin-left:25px;">
-                                            <i class="fas fa-file-alt" style="margin-right: 10px;"></i> Daftar
+                                        <button class="download-btn" style="padding: 12px 24px; font-size: 16px; border-radius: 8px;">
+                                            <i class="fas fa-file-alt" style="margin-right: 8px;"></i> Daftar
                                         </button>
                                     </a>
                                 </div>
