@@ -13,8 +13,8 @@ class prosespaket extends Model
 
     protected $guarded = ['id'];
 
-    public function profilpaketpekerjaanblora()
+    public function paketpekerjaanmasjaki()
     {
-        return $this->hasMany(profilpaketpekerjaanblora::class);
+        return $this->hasMany(paketpekerjaanmasjaki::class);
     }
 }

@@ -28,4 +28,9 @@ class tahunpilihan extends Model
         return $this->hasMany(allskktenagakerjablora::class);
     }
 
+    public function paketpekerjaanmasjaki()
+    {
+        return $this->hasMany(paketpekerjaanmasjaki::class);
+    }
+
 }

@@ -13,24 +13,24 @@ class sumberdana extends Model
 
     protected $guarded = ['id'];
 
-    public function profilpaketpekerjaanblora()
+    public function paketpekerjaanmasjaki()
     {
-        return $this->hasMany(profilpaketpekerjaanblora::class);
+        return $this->hasMany(paketpekerjaanmasjaki::class);
     }
 
-    public function profilpaketpekerjaannontender()
-    {
-        return $this->hasMany(profilpaketpekerjaannontender::class);
-    }
+    // public function profilpaketpekerjaannontender()
+    // {
+    //     return $this->hasMany(profilpaketpekerjaannontender::class);
+    // }
 
-    public function profilpaketkonsultasi()
-    {
-        return $this->hasMany(profilpaketkonsultasi::class);
-    }
+    // public function profilpaketkonsultasi()
+    // {
+    //     return $this->hasMany(profilpaketkonsultasi::class);
+    // }
 
-    public function profilpaketkonsultasinontender()
-    {
-        return $this->hasMany(profilpaketkonsultasinontender::class);
-    }
+    // public function profilpaketkonsultasinontender()
+    // {
+    //     return $this->hasMany(profilpaketkonsultasinontender::class);
+    // }
 
 }

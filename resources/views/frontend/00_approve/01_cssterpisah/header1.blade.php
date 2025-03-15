@@ -265,7 +265,7 @@
                             </li>
                             <li><a href="#">Profil Paket Pekerjaan Konstruksi & Konsultasi</a>
                                 <ul class="list-unstyled">
-                                        <li><a href="/datajakon/paketpekerjaantender">Profil Paket Pekerjaan</a></li>
+                                        <li><a href="/datajakon/profilpaketpekerjaan">Profil Paket Pekerjaan</a></li>
                                         <li><a href="/404">Data Statistik</a></li>
                                     </ul>
                                 </li>

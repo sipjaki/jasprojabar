@@ -153,17 +153,17 @@ Route::get('/datajakon/skktenagakerjabloralist/{nama}', [SkktenagakerjabloraCont
 // BUAT BARU UNTUK APLIKASI PROFIL PAKET PEKERJAAN
 Route::get('/datajakon/datapaketpekerjaanblora', [ProfilpaketpekerjaanbloraController::class, 'index']);
 // =--
-Route::get('/datajakon/paketpekerjaantender', [ProfilpaketpekerjaanbloraController::class, 'paketpekerjaantender']);
+Route::get('/datajakon/profilpaketpekerjaan', [ProfilpaketpekerjaanbloraController::class, 'paketpekerjaanmasjaki']);
 Route::get('/datajakon/paketpekerjaantender/{namapekerjaan}', [ProfilpaketpekerjaanbloraController::class, 'datapaketpekerjaanblorashow']);
 // =--
-Route::get('/datajakon/paketpekerjaannontender', [ProfilpaketpekerjaannontenderController::class, 'paketpekerjaannontender']);
-Route::get('/datajakon/paketpekerjaannontender/{namapekerjaan}', [ProfilpaketpekerjaannontenderController::class, 'paketpekerjaannontendershow']);
-// =--
-Route::get('/datajakon/paketkonsultasitender', [ProfilpaketkonsultasiController::class, 'paketkonsultasi']);
-Route::get('/datajakon/paketkonsultasitender/{namapekerjaan}', [ProfilpaketkonsultasiController::class, 'paketkonsultasishow']);
-// =--
-Route::get('/datajakon/paketkonsultasinontender', [ProfilpaketkonsultasinontenderController::class, 'paketkonsultasinontender']);
-Route::get('/datajakon/paketkonsultasinontender/{namapekerjaan}', [ProfilpaketkonsultasinontenderController::class, 'paketkonsultasinontendershow']);
+// Route::get('/datajakon/paketpekerjaannontender', [ProfilpaketpekerjaannontenderController::class, 'paketpekerjaannontender']);
+// Route::get('/datajakon/paketpekerjaannontender/{namapekerjaan}', [ProfilpaketpekerjaannontenderController::class, 'paketpekerjaannontendershow']);
+// // =--
+// Route::get('/datajakon/paketkonsultasitender', [ProfilpaketkonsultasiController::class, 'paketkonsultasi']);
+// Route::get('/datajakon/paketkonsultasitender/{namapekerjaan}', [ProfilpaketkonsultasiController::class, 'paketkonsultasishow']);
+// // =--
+// Route::get('/datajakon/paketkonsultasinontender', [ProfilpaketkonsultasinontenderController::class, 'paketkonsultasinontender']);
+// Route::get('/datajakon/paketkonsultasinontender/{namapekerjaan}', [ProfilpaketkonsultasinontenderController::class, 'paketkonsultasinontendershow']);
 
 // ---------------------- 05 DATA JAKON BUJK KONTRAKTOR-----------------------//
 // ------------- HALAMAN AGENDA PEMBINAAN MAS JAKI BLORA -----------------

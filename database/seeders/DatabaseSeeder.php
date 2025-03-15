@@ -17,14 +17,14 @@ use App\Models\permenteri;
 use App\Models\perpemerintah;
 use App\Models\perpresiden;
 use App\Models\keputusanmenteri;
-use App\Models\laporankegiatan;
-use App\Models\layanankami;
 use App\Models\perbupatiwalikota;
 use App\Models\perdaerah;
 use App\Models\referensi;
 use App\Models\suratedaran;
 use App\Models\pergubernur;
 use App\Models\suratkeputusan;
+use App\Models\paketpekerjaanmasjaki;
+use App\Models\paketstatuspekerjaan;
 use App\Models\berita;
 use App\Models\pelatihan;
 use App\Models\renstra;
@@ -5316,254 +5316,6 @@ skktenagakerjabloralist::create([
 ]);
 
 
-//======================== ===================================================================================
-// PROFIL PAKET PEKERJAAN MAS JAKI
-
-profilpaketpekerjaanblora::create([
-    'prosespaket_id' => 1,
-    'profiljenispekerjaan_id' => 1,
-    'namapekerjaan' => 'Rehabilitasi Checkdam Talokwohmojo Kec Ngawen Lanjutan',
-    'tahunpelaksanaan' => 2024,
-    'cvptpenyedia' => 'CV Restu Bumi Mustika',
-    'nib' => '1105240037134',
-    'nilaikontrak' =>  691260716.59,
-    'sumberdana_id' => 1,
-    'jeniskontrak' => 'Harga Satuan',
-    'karakteristikkontrak' => 'Tahun Tunggal',
-    'bulanmulai' => 'Agustus',
-    'bulanselesai' => 'Desember',
-    'dinas' => 'Dinas Pekerjaan Umum dan Penataan Ruang',
-]);
-
-profilpaketpekerjaanblora::create([
-    'prosespaket_id' => 2,
-    'profiljenispekerjaan_id' => 2,
-    'namapekerjaan' => 'BELANJA MODAL BANGUNAN KESEHATAN-BELANJA MODAL PAGAR',
-    'tahunpelaksanaan' => 2024,
-    'cvptpenyedia' => 'CV. REZEKY MUJI KONSTRUKSI',
-    'nib' => '3011220047491',
-    'nilaikontrak' =>   857589920.00,
-    'sumberdana_id' => 1,
-    'jeniskontrak' => 'Harga Satuan',
-    'karakteristikkontrak' => 'Tahun Tunggal',
-    'bulanmulai' => 'Oktober',
-    'bulanselesai' => 'Desember',
-    'dinas' => 'Dinas Kesehatan',
-]);
-
-profilpaketpekerjaanblora::create([
-    'prosespaket_id' => 3,
-    'profiljenispekerjaan_id' => 3,
-    'namapekerjaan' => 'Pembangunan Saluran Pengendali Banjir Kecamatan Cepu Lanjutan',
-    'tahunpelaksanaan' => 2024,
-    'cvptpenyedia' => 'CV. KINAN KARYA GEMILANG',
-    'nib' => '0260010050988',
-    'nilaikontrak' =>    763241000.00,
-    'sumberdana_id' => 1,
-    'jeniskontrak' => 'Harga Satuan',
-    'karakteristikkontrak' => 'Tahun Tunggal',
-    'bulanmulai' => 'Juli',
-    'bulanselesai' => 'Desember',
-    'dinas' => 'DINAS PEKERJAAN UMUM DAN PENATAAN RUANG',
-]);
-
-profilpaketpekerjaanblora::create([
-    'prosespaket_id' => 4,
-    'profiljenispekerjaan_id' => 3,
-    'namapekerjaan' => 'Pembangunan Saluran Pengendali Banjir Ruas Jalan Sonokidul Kecamatan Kunduran',
-    'tahunpelaksanaan' => 2024,
-    'cvptpenyedia' => 'CV Restu Bumi Mustika',
-    'nib' => '1105240037134',
-    'nilaikontrak' =>     451076000.00,
-    'sumberdana_id' => 1,
-    'jeniskontrak' => 'Harga Satuan',
-    'karakteristikkontrak' => 'Tahun Tunggal',
-    'bulanmulai' => 'Agustus',
-    'bulanselesai' => 'Desember',
-    'dinas' => 'DINAS PEKERJAAN UMUM DAN PENATAAN RUANG',
-]);
-
-profilpaketpekerjaanblora::create([
-    'prosespaket_id' => 5,
-    'profiljenispekerjaan_id' => 3,
-    'namapekerjaan' => 'PEMBANGUNAN SARANA DAN PRASARANA DRAINASE LINGKUNGAN PERMUKIMAN KUMUH DRAINASE LINGKUNGAN RT 2 RW 9 KELURAHAN CEPU KECAMATAN CEPU KAB. BLORA',
-    'tahunpelaksanaan' => 2024,
-    'cvptpenyedia' => 'CV.KEMBAR DUA',
-    'nib' => '0246000912019',
-    'nilaikontrak' => 161453878.91,
-    'sumberdana_id' => 1,
-    'jeniskontrak' => 'Harga Satuan',
-    'karakteristikkontrak' => 'Tahun Tunggal',
-    'bulanmulai' => 'Agustus',
-    'bulanselesai' => 'November',
-    'dinas' => 'DINAS PERUMAHAN PEMUKIMAN DAN PERHUBUNGAN',
-]);
-
-profilpaketpekerjaanblora::create([
-    'prosespaket_id' => 6,
-    'profiljenispekerjaan_id' => 3,
-    'namapekerjaan' => 'Pembangunan Saluran Pengendali Banjir Kel. Kunduran Kec. Kunduran Lanjutan',
-    'tahunpelaksanaan' => 2024,
-    'cvptpenyedia' => 'CV. WIRATAMA GEMILANG',
-    'nib' => 'N/A',
-    'nilaikontrak' =>  421000000.00,
-    'sumberdana_id' => 1,
-    'jeniskontrak' => 'Harga Satuan',
-    'karakteristikkontrak' => 'Tahun Tunggal',
-    'bulanmulai' => 'Agustus',
-    'bulanselesai' => 'Desember',
-    'dinas' => 'DINAS PEKERJAAN UMUM DAN PENATAAN RUANG',
-]);
-
-profilpaketpekerjaanblora::create([
-    'prosespaket_id' => 7,
-    'profiljenispekerjaan_id' => 4,
-    'namapekerjaan' => 'Rehabilitasi Embung Kelurahan Kunduran Kec Kunduran Lanjutan',
-    'tahunpelaksanaan' => 2024,
-    'cvptpenyedia' => 'CV. RAFI JAYA BERKARYA',
-    'nib' => '9120311032313',
-    'nilaikontrak' =>   675691000.00,
-    'sumberdana_id' => 1,
-    'jeniskontrak' => 'Harga Satuan',
-    'karakteristikkontrak' => 'Tahun Tunggal',
-    'bulanmulai' => 'Juli',
-    'bulanselesai' => 'Desember',
-    'dinas' => 'DINAS PEKERJAAN UMUM DAN PENATAAN RUANG',
-]);
-
-profilpaketpekerjaanblora::create([
-    'prosespaket_id' => 8,
-    'profiljenispekerjaan_id' => 4,
-    'namapekerjaan' => 'Pembangunan Embung Pangkat Purwosari Kecamatan Blora KAB. BLORA',
-    'tahunpelaksanaan' => 2024,
-    'cvptpenyedia' => 'CV. VARIA USAHA MANDIRI',
-    'nib' => '9120303900127',
-    'nilaikontrak' => 598000000.00,
-    'sumberdana_id' => 1,
-    'jeniskontrak' => 'Harga Satuan',
-    'karakteristikkontrak' => 'Tahun Tunggal',
-    'bulanmulai' => 'Agustus',
-    'bulanselesai' => 'Desember',
-    'dinas' => 'DINAS PEKERJAAN UMUM DAN PENATAAN RUANG',
-]);
-
-
-profilpaketpekerjaanblora::create([
-    'prosespaket_id' => 9,
-    'profiljenispekerjaan_id' => 4,
-    'namapekerjaan' => 'Pembangunan Embung Nglebok Kecamatan Cepu Lanjutan',
-    'tahunpelaksanaan' => 2024,
-    'cvptpenyedia' => 'CV. Putro Sembodo',
-    'nib' => '0210010040157',
-    'nilaikontrak' =>  1372970000.00,
-    'sumberdana_id' => 1,
-    'jeniskontrak' => 'Harga Satuan',
-    'karakteristikkontrak' => 'Tahun Tunggal',
-    'bulanmulai' => 'Juli',
-    'bulanselesai' => 'Desember',
-    'dinas' => 'DINAS PEKERJAAN UMUM DAN PENATAAN RUANG',
-]);
-
-profilpaketpekerjaanblora::create([
-    'prosespaket_id' => 10,
-    'profiljenispekerjaan_id' => 4,
-    'namapekerjaan' => 'Pembangunan Embung Desa Gedangdowo Kecamatan Jepon KAB. BLORA',
-    'tahunpelaksanaan' => 2024,
-    'cvptpenyedia' => 'CV. CITROSUMO',
-    'nib' => '0220006292358',
-    'nilaikontrak' => 598300000.00,
-    'sumberdana_id' => 1,
-    'jeniskontrak' => 'Harga Satuan',
-    'karakteristikkontrak' => 'Tahun Tunggal',
-    'bulanmulai' => 'Agustus',
-    'bulanselesai' => 'Desember',
-    'dinas' => 'DINAS PEKERJAAN UMUM DAN PENATAAN RUANG',
-]);
-
-
-//======================== ===================================================================================
-// PAKET PEKERJAAN NON TENDER MAS JAKI BLORA
-
-profilpaketpekerjaannontender::create([
-    'prosespaketnontender_id' => 1,
-    'profiljenispekerjaan_id' => 5,
-    'namapekerjaan' => 'Fisik Pemeliharaan Gedung Kantor Kelurahan Bangkle',
-    'tahunpelaksanaan' => 2024,
-    'cvptpenyedia' => 'CV MANDRA KANTA UNGGUL',
-    'nib' => '0208220001109',
-    'nilaikontrak' =>  45338671.95,
-    'sumberdana_id' => 2,
-    'jeniskontrak' => 'Harga Satuan',
-    'karakteristikkontrak' => 'Tahun Tunggal',
-    'bulanmulai' => 'Agustus',
-    'bulanselesai' => 'Oktober',
-    'dinas' => 'KECAMATAN BLORA',
-]);
-
-profilpaketpekerjaannontender::create([
-    'prosespaketnontender_id' => 2,
-    'profiljenispekerjaan_id' => 12,
-    'namapekerjaan' => 'Pengadaan Instalasi Air Bersih Puskesmas Doplang',
-    'tahunpelaksanaan' => 2024,
-    'cvptpenyedia' => 'TRUBUS UTOMO',
-    'nib' => '9120209960021',
-    'nilaikontrak' =>   99822122.43,
-    'sumberdana_id' => 2,
-    'jeniskontrak' => 'Harga Satuan',
-    'karakteristikkontrak' => 'Tahun Tunggal',
-    'bulanmulai' => 'April',
-    'bulanselesai' => 'Agustus',
-    'dinas' => 'DINAS KESEHATAN',
-]);
-
-profilpaketpekerjaannontender::create([
-    'prosespaketnontender_id' => 3,
-    'profiljenispekerjaan_id' => 12,
-    'namapekerjaan' => 'Pembangunan IPAL RPH-Unggas',
-    'tahunpelaksanaan' => 2024,
-    'cvptpenyedia' => 'CV. GRIYA LARAS',
-    'nib' => '0220001392418',
-    'nilaikontrak' =>  151874000.00,
-    'sumberdana_id' => 2,
-    'jeniskontrak' => 'Harga Satuan',
-    'karakteristikkontrak' => 'Tahun Tunggal',
-    'bulanmulai' => 'Maret',
-    'bulanselesai' => 'Mei',
-    'dinas' => 'DINAS PANGAN, PERTANIAN, PETERNAKAN, DAN PERIKANAN',
-]);
-
-profilpaketpekerjaannontender::create([
-    'prosespaketnontender_id' => 4,
-    'profiljenispekerjaan_id' => 12,
-    'namapekerjaan' => 'NORMALISASI AREA TAMPUNGAN BENDUNG',
-    'tahunpelaksanaan' => 2024,
-    'cvptpenyedia' => 'CV.BASKORO BERKAH JAYA',
-    'nib' => '0220001392418',
-    'nilaikontrak' =>  99424000.00,
-    'sumberdana_id' => 2,
-    'jeniskontrak' => 'Harga Satuan',
-    'karakteristikkontrak' => 'Tahun Tunggal',
-    'bulanmulai' => 'Agustus',
-    'bulanselesai' => 'Oktober',
-    'dinas' => 'DINAS PANGAN, PERTANIAN, PETERNAKAN, DAN PERIKANAN',
-]);
-
-profilpaketpekerjaannontender::create([
-    'prosespaketnontender_id' => 5,
-    'profiljenispekerjaan_id' => 13,
-    'namapekerjaan' => 'Belanja Modal Jalan Lingkungan (Fisik Pavingisasi RT 05 RW 03 Kelurahan Jepon)',
-    'tahunpelaksanaan' => 2024,
-    'cvptpenyedia' => 'CV WARU BENGKONG',
-    'nib' => '2805230004372',
-    'nilaikontrak' =>  190310299.19,
-    'sumberdana_id' => 2,
-    'jeniskontrak' => 'Harga Satuan',
-    'karakteristikkontrak' => 'Tahun Tunggal',
-    'bulanmulai' => 'Juni',
-    'bulanselesai' => 'Desember',
-    'dinas' => 'KECAMATAN JEPON',
-]);
-
 
 //======================== ===================================================================================
 // PAKET KONSULTASI TENDER MAS JAKI BLORA
@@ -8983,13 +8735,52 @@ hspkonstruksiumum9::create([
     'hargasatuan' => '51608.70',
 ]);
 
+paketstatuspekerjaan::create([
+    'id' => 1,
+    'paketstatuspekerjaan' => 'Pekerjaan Konstruksi Tender',
+]);
+
+paketstatuspekerjaan::create([
+    'id' => 2,
+    'paketstatuspekerjaan' => 'Pekerjaan Konstruksi Non Tender',
+]);
+
+paketstatuspekerjaan::create([
+    'id' => 3,
+    'paketstatuspekerjaan' => 'Pekerjaan Konsultasi Konstruksi Tender',
+]);
+
+paketstatuspekerjaan::create([
+    'id' => 4,
+    'paketstatuspekerjaan' => 'Pekerjaan Konsultasi Konstruksi Non Tender',
+]);
+
+
+//==========================================================================================================
+// DATA PAKET PEERJAAN MASJAKI
+paketpekerjaanmasjaki::create([
+    'prosespaket_id'            => 1,
+    'profiljenispekerjaan_id'    => 1,
+    'paketstatuspekerjaan_id'    => 1,
+    'namapekerjaan'              => 'Rehabilitasi Checkdam Talokwohmojo Kec Ngawen Lanjutan',
+    'tahunpilihan_id'            => 4,
+    'cvptpenyedia'               => 'CV Restu Bumi Mustika',
+    'nib'                        => '1105240037134',
+    'nilaikontrak'               => 691260716.59,
+    'sumberdana_id'              => 2,
+    'jeniskontrak'               => 'Harga Satuan',
+    'karakteristikkontrak'       => 'Tahun Tunggal', // Duplikat dihapus
+    'bulanmulai'                 => 'Agustus',
+    'bulanselesai'               => 'Desember',
+    'dinas'                      => 'Dinas Pekerjaan Umum dan Penataan Ruang'
+]);
 
 // MAKAN
 
 
-
 //==========================================================================================================
 // DATA BERITA
+
 beritajakon::create([
     'judulberita' => 'Pelatihan dan Uji Kompetensi SKK Jenjang 4 bagi Tenaga Kerja Konstruksi di Kabupaten Blora',
     'tanggal' => '2025-03-05',
@@ -9395,49 +9186,6 @@ prosespaket::create([
 
 prosespaket::create([
     'profilpaketpekerjaanblora_id' => 10, // Sesuaikan dengan ID yang ada di tabel terkait
-    'persiapan' => 'SELESAI',
-    'pengadaan' => 'SELESAI',
-    'pelaksanaan' => 'SELESAI',
-    'pemeliharaan' => 'SELESAI',
-    'paketselesai' => 'SELESAI',
-]);
-
-// ================================================
-
-prosespaketnontender::create([
-    'profilpaketpekerjaannontender_id' => 1, // Sesuaikan dengan ID yang ada di tabel terkait
-    'persiapan' => 'SELESAI',
-    'pengadaan' => 'SELESAI',
-    'pelaksanaan' => 'SELESAI',
-    'pemeliharaan' => 'SELESAI',
-    'paketselesai' => 'SELESAI',
-]);
-prosespaketnontender::create([
-    'profilpaketpekerjaannontender_id' => 2, // Sesuaikan dengan ID yang ada di tabel terkait
-    'persiapan' => 'SELESAI',
-    'pengadaan' => 'SELESAI',
-    'pelaksanaan' => 'SELESAI',
-    'pemeliharaan' => 'SELESAI',
-    'paketselesai' => 'SELESAI',
-]);
-prosespaketnontender::create([
-    'profilpaketpekerjaannontender_id' => 3, // Sesuaikan dengan ID yang ada di tabel terkait
-    'persiapan' => 'SELESAI',
-    'pengadaan' => 'SELESAI',
-    'pelaksanaan' => 'SELESAI',
-    'pemeliharaan' => 'SELESAI',
-    'paketselesai' => 'SELESAI',
-]);
-prosespaketnontender::create([
-    'profilpaketpekerjaannontender_id' => 4, // Sesuaikan dengan ID yang ada di tabel terkait
-    'persiapan' => 'SELESAI',
-    'pengadaan' => 'SELESAI',
-    'pelaksanaan' => 'SELESAI',
-    'pemeliharaan' => 'SELESAI',
-    'paketselesai' => 'SELESAI',
-]);
-prosespaketnontender::create([
-    'profilpaketpekerjaannontender_id' => 5, // Sesuaikan dengan ID yang ada di tabel terkait
     'persiapan' => 'SELESAI',
     'pengadaan' => 'SELESAI',
     'pelaksanaan' => 'SELESAI',
@@ -11403,43 +11151,6 @@ suratkeputusan::create([
 //     'keterangan' => '2018',
 //     'created_at' => Carbon::now(),
 //     'updated_at' => Carbon::now(),
-// ]);
-
-// ============================== ============================================================
-
-// DATA YANG DIRUBAH DARI PEMERINTAH KABUPATEN BANDUNG BARAT
-// kegiatanjaskon::create([
-//                 // 'laporankegiatan_id' => 2, // Ganti dengan ID yang sesuai jika menggunakan foreign key
-//                 'id' => 1,           // Ganti dengan ID yang sesuai jika menggunakan foreign key
-//                 'user_id' => 1,           // Ganti dengan ID yang sesuai jika menggunakan foreign key
-//                 'judul_kegiatan' => '11 - 12 AGUSTUS 2024, KECAMATAN CILILIN BIMBINGAN TEKNIS KESELAMATAN DAN KESEHATAN KERJA PARA PEKERJA KONSTRUKSI',
-//                 'alamat_kegiatan' => 'DESA BATULAYANG 40562 JAWA BARAT INDONESIA',
-//                 'pengawasanlokasi_id' => '11',
-//                 'tanggal' => '',
-//                 'berita1' => 'dokumentasipelatihan/new/BERITA1.jpg',
-//                 'berita2' => 'dokumentasipelatihan/new/BERITA2.jpg',
-//                 'berita3' => 'dokumentasipelatihan/new/BERITA3.jpg',
-//                 'berita4' => 'dokumentasipelatihan/new/BERITA4.jpg',
-//                 'berita5' => 'dokumentasipelatihan/new/BERITA5.jpg',
-//                 'berita6' => 'dokumentasipelatihan/new/BERITA6.jpg',
-//                 'berita7' => 'dokumentasipelatihan/new/BERITA7.jpg',
-//                 'berita8' => 'dokumentasipelatihan/new/BERITA8.jpg',
-//                 'berita9' => 'dokumentasipelatihan/new/BERITA9.jpg',
-//                 'berita10' => 'dokumentasipelatihan/new/BERITA10.jpg',
-//                 'berita11' => 'dokumentasipelatihan/new/BERITA11.jpg',
-//                 'berita12' => 'dokumentasipelatihan/new/BERITA12.jpg',
-//                 'berita13' => 'dokumentasipelatihan/new/BERITA13.jpg',
-//                 'berita14' => 'dokumentasipelatihan/new/BERITA14.jpg',
-//                 'berita15' => 'dokumentasipelatihan/new/BERITA15.jpg',
-//                 'berita16' => 'dokumentasipelatihan/new/BERITA16.jpg',
-//                 'berita17' => 'dokumentasipelatihan/new/BERITA17.jpg',
-//                 'berita18' => 'dokumentasipelatihan/new/BERITA18.jpg',
-//                 'berita19' => 'dokumentasipelatihan/new/BERITA19.jpg',
-//                 'berita20' => 'dokumentasipelatihan/new/BERITA20.jpg',
-
-//                 'tanggal' => '2024-08-14', // Format tanggal YYYY-MM-DD
-//                 'created_at' => now(),
-//                 'updated_at' => now(),
 // ]);
 
 // kegiatanjaskon::create([
