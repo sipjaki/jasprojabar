@@ -181,6 +181,7 @@ class PembinaanController extends Controller
                         ->paginate(25);
 
         $dataagendapelatihan = agendapelatihan::where('namakegiatan', $namakegiatan)->first();
+        $datauser = user::all();
 
         // Ambil data user saat ini
         $user = Auth::user();
@@ -192,7 +193,8 @@ class PembinaanController extends Controller
             'datapeserta' => $datapesertapelatihan,
             'perPage' => $perPage,
             'search' => $search,
-            'user' => $user
+            'user' => $user,
+            'datapeserta' => $datauser
         ]);
     }
 
