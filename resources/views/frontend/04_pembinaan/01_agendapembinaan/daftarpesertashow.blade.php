@@ -209,7 +209,7 @@ color: #45a049;
                                 <div style="display: flex; justify-content: space-between; margin-bottom: 10px; align-items: center;">
                                     <div class="pagination-info-box" style="margin-right:50px; padding: 10px; border: 1px solid black; background-color: #f9f9f9; border-radius: 5px;">
                                         <div class="pagination-info" style="color: black; font-weight: 500; font-size:18px;">
-                                            Data Ke {{ $datapeserta->firstItem() }} Sampai {{ $datapeserta->lastItem() }} Dari {{ $datapeserta->total() }} Jumlah {{$title}} {{$data->namakegiatan}}
+                                            Data Ke {{ $datapeserta->firstItem() }} Sampai {{ $datapeserta->lastItem() }} Dari {{ $datapeserta->total() }} Jumlah {{$title}} <span style="color: blue"> {{$data->namakegiatan}}</span>
                                         </div>
                                     </div>
                                     <div>

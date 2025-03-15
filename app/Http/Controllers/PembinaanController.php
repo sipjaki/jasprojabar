@@ -188,7 +188,7 @@ class PembinaanController extends Controller
 
 
         return view('frontend.04_pembinaan.01_agendapembinaan.daftarpesertashow', [
-            'title' => 'Daftar Peserta Agenda Pelatihan',
+            'title' => 'Daftar Peserta Agenda',
             'data' => $dataagendapelatihan,
             'datapeserta' => $datapesertapelatihan,
             'perPage' => $perPage,
