@@ -13,6 +13,8 @@ return new class extends Migration
     {
         Schema::create('allskktenagakerjabloras', function (Blueprint $table) {
             $table->id();
+            $table->foreignId('agendaskk_id')->nullable();
+            $table->foreignId('user_id')->nullable();
                     $table->string('jabatankerja')->nullable();
                     $table->string('namalengkap')->nullable();
                     $table->string('tempatlahir')->nullable();

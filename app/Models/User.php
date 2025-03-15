@@ -57,6 +57,11 @@ class User extends Authenticatable
         return $this->hasMany(pesertapelatihan::class);
     }
 
+    public function allskktenagakerjablora()
+    {
+        return $this->hasMany(allskktenagakerjablora::class);
+    }
+
 
 
 
