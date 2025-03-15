@@ -251,6 +251,26 @@ color: #adb6ad;
                                             <td>{{$item->kategoripelatihan->kategoripelatihan}}</td>
                                             <td>{{$item->namakegiatan}}</td>
                                             <td>{{$item->keterangan}}</td>
+                                            <td>{{$item->keterangan}}</td>
+                                            <td style="text-align: center">
+                                                <div style="
+                                                    display: inline-block;
+                                                    padding: 8px 16px;
+                                                    background-color: navy;
+                                                    color: white;
+                                                    text-decoration: none;
+                                                    border-radius: 5px;
+                                                    font-weight: bold;
+                                                    transition: all 0.3s ease-in-out;
+                                                    border: 1px solid navy;
+                                                "
+                                                onmouseover="this.style.backgroundColor='white'; this.style.color='black';"
+                                                onmouseout="this.style.backgroundColor='navy'; this.style.color='white';">
+                                                    <a href="/daftarpesertapelatihan/{{$item->namakegiatan}}" style="color: inherit; text-decoration: none;">
+                                                        <i class="fas fa-users" style="margin-right: 5px;"></i> Peserta
+                                                    </a>
+                                                </div>
+                                            </td>
 
                                             {{-- <td style="display: flex; justify-content: center; align-items: center; text-align: center; padding: 10px;">
                                                 @php
