@@ -239,6 +239,7 @@ color: #adb6ad;
                                                 <th onclick="sortTable(3)" style="cursor:pointer; text-align:center; width:300px;"> Nama Kegiatan <span class="sort-icon">⇅</span></th>
                                                 <th onclick="sortTable(4)" style="cursor:pointer; text-align:center; width:250px;"> Penyelenggara <span class="sort-icon">⇅</span></th>
                                                 <th onclick="sortTable(2)" style="cursor:pointer; text-align:center; width:150px;"> Jenjang <span class="sort-icon">⇅</span></th>
+                                                <th onclick="sortTable(5)" style="cursor:pointer; text-align:center; width:200px;"> Penutupan <span class="sort-icon">⇅</span></th>
                                                 <th onclick="sortTable(5)" style="cursor:pointer; text-align:center; width:200px;"> Waktu Pelaksanaan <span class="sort-icon">⇅</span></th>
                                                 <th onclick="sortTable(6)" style="cursor:pointer; text-align:center; width:150px;"> Jumlah Peserta <span class="sort-icon">⇅</span></th>
                                                 <th onclick="sortTable(7)" style="cursor:pointer; text-align:center; width:250px;"> Lokasi <span class="sort-icon">⇅</span></th>
@@ -258,6 +259,7 @@ color: #adb6ad;
                                             <td>{{$item->namakegiatan}}</td>
                                             <td>{{$item->penyelenggara}}</td>
                                             <td style="text-align: center;">{{$item->jenjang->jenjang}}</td>
+                                            <td style="text-align: center;">{{$item->penutupan}}</td>
                                             <td>{{ \Carbon\Carbon::parse($item->waktupelaksanaan)->translatedFormat('d F Y') }}</td>
                                             <td style="text-align: center;">{{$item->jumlahpeserta}}</td>
                                             <td>{{$item->lokasi}}</td>
@@ -265,7 +267,7 @@ color: #adb6ad;
 
                                             <td style="display: flex; justify-content: center; align-items: center; text-align: center; padding: 10px;">
                                                 @php
-                                                $eventDate = \Carbon\Carbon::parse($item->waktupelaksanaan)->subDays(7);
+                                                $eventDate = \Carbon\Carbon::parse($item->penutupan)->subDays(0);
                                                 $today = \Carbon\Carbon::now();
                                                 $isClosed = $today->greaterThanOrEqualTo($eventDate);
                                                 @endphp
