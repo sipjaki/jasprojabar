@@ -14,6 +14,7 @@ return new class extends Migration
         Schema::create('tertibjakonpemanfaatans', function (Blueprint $table) {
             $table->id();
             $table->foreignId('penyediastatustertibjakon_id')->nullable();
+            $table->string('namapekerjaan')->nullable();
             $table->string('namabangunan')->nullable();
             $table->string('nomorkontrak')->nullable();
             $table->string('lokasi')->nullable();

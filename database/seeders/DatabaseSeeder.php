@@ -9360,6 +9360,7 @@ penyediastatustertibjakon::create([
 tertibjasakonstruksi::create([
     'penyediastatustertibjakon_id' => '1',
     'nib' => '0208220001109',
+    'namapekerjaan' => null,
     'namabadanusaha' => 'CV MANDRA KANTA UNGGUL',
     'pjbu' => 'Muhammad Abdul Rozak',
     'sesuai_jenis' => 'TERTIB',
@@ -9376,6 +9377,7 @@ tertibjasakonstruksi::create([
 tertibjasakonstruksi::create([
     'penyediastatustertibjakon_id' => '2',
     'nib' => '0911220321514',
+    'namapekerjaan' => null,
     'namabadanusaha' => 'CV. ADITIYA JAYA PERKASA',
     'pjbu' => 'Agus Supriadi',
     'sesuai_jenis' => 'TERTIB',
@@ -9392,6 +9394,7 @@ tertibjasakonstruksi::create([
 tertibjasakonstruksi::create([
     'penyediastatustertibjakon_id' => '3',
     'nib' => '1261000381957',
+    'namapekerjaan' => null,
     'namabadanusaha' => 'CV. ADHI KARYA MANDIRI',
     'pjbu' => 'Santoso',
     'sesuai_jenis' => 'TERTIB',
@@ -9410,6 +9413,7 @@ tertibjasakonstruksi::create([
 
 tertibjakonpemanfaatan::create([
     'penyediastatustertibjakon_id' => '1',
+    'namapekerjaan' => null,
     'namabangunan' => 'Kawasan Taman Budaya Cepu',
     'nomorkontrak' => '640/BG.080/2023',
     'lokasi' => 'Kec. Cepu Kab. Blora',
@@ -9422,11 +9426,12 @@ tertibjakonpemanfaatan::create([
     'kapasitasdanbeban' => 'BELUM TERTIB',
     'pemeliharaan_konstruksi' => 'BELUM TERTIB',
     'pemeliharaan_struktur' => 'BELUM TERTIB',
-          // Menghilangkan 'Rp' dan menyimpan sebagai angka decimal
+    // Menghilangkan 'Rp' dan menyimpan sebagai angka decimal
 ]);
 
 tertibjakonpemanfaatan::create([
     'penyediastatustertibjakon_id' => '2',
+    'namapekerjaan' => null,
     'namabangunan' => 'RSUD Randublatung Type D Blora',
     'nomorkontrak' => '050/03.1/RS.RAN/2020',
     'lokasi' => 'Gang Kabayan RT 06 RW 01',
@@ -9439,11 +9444,12 @@ tertibjakonpemanfaatan::create([
     'kapasitasdanbeban' => 'BELUM TERTIB',
     'pemeliharaan_konstruksi' => 'BELUM TERTIB',
     'pemeliharaan_struktur' => 'BELUM TERTIB',
-          // Menghilangkan 'Rp' dan menyimpan sebagai angka decimal
+    // Menghilangkan 'Rp' dan menyimpan sebagai angka decimal
 ]);
 
 tertibjakonpemanfaatan::create([
     'penyediastatustertibjakon_id' => '3',
+    'namapekerjaan' => null,
     'namabangunan' => 'KANTOR PT POS PROPERTI INDONESIA',
     'nomorkontrak' => '-',
     'lokasi' => 'Jl. Ronggolawe No. 37',
@@ -9456,13 +9462,14 @@ tertibjakonpemanfaatan::create([
     'kapasitasdanbeban' => 'BELUM TERTIB',
     'pemeliharaan_konstruksi' => 'BELUM TERTIB',
     'pemeliharaan_struktur' => 'BELUM TERTIB',
-          // Menghilangkan 'Rp' dan menyimpan sebagai angka decimal
+    // Menghilangkan 'Rp' dan menyimpan sebagai angka decimal
 ]);
 
 // DATA TERTIB JASA KONSTRUKSI PENYELENGGARAAN MAS JAKI BLORA
 // ================================================================================================
 tertibjakonpenyelenggaraan::create([
     'penyediastatustertibjakon_id' => '1',
+    'namapekerjaan' => null,
     'kegiatankonstruksi' => 'Peningkatan Jalan Adirejo - Sembungin - Karangtalun',
     'nomorkontrak' => '620/BM.827/2024',
     'bujk' => 'CV. TRIBHAKTI',
@@ -9474,11 +9481,12 @@ tertibjakonpenyelenggaraan::create([
     'pengawasan_smkk' => 'TERTIB',
     'pengawasan_kecelakaankerja' => 'TERTIB',
 
-          // Menghilangkan 'Rp' dan menyimpan sebagai angka decimal
+    // Menghilangkan 'Rp' dan menyimpan sebagai angka decimal
 ]);
 
 tertibjakonpenyelenggaraan::create([
     'penyediastatustertibjakon_id' => '2',
+    'namapekerjaan' => null,
     'kegiatankonstruksi' => 'Rehabilitasi Ruang Kelas SMPN 2 BLORA',
     'nomorkontrak' => '12894257/SPK/02.0014/DAU/2024',
     'bujk' => 'CV. ANUGERAH ABADI',
@@ -9490,11 +9498,12 @@ tertibjakonpenyelenggaraan::create([
     'pengawasan_smkk' => 'TERTIB',
     'pengawasan_kecelakaankerja' => 'TERTIB',
 
-          // Menghilangkan 'Rp' dan menyimpan sebagai angka decimal
+    // Menghilangkan 'Rp' dan menyimpan sebagai angka decimal
 ]);
 
 tertibjakonpenyelenggaraan::create([
     'penyediastatustertibjakon_id' => '3',
+    'namapekerjaan' => null,
     'kegiatankonstruksi' => 'KANTOR PT POS PROPERTI INDONESIA',
     'nomorkontrak' => '-',
     'bujk' => 'CV.CRYSTAL DESIGN',
@@ -9506,7 +9515,7 @@ tertibjakonpenyelenggaraan::create([
     'pengawasan_smkk' => 'BELUM',
     'pengawasan_kecelakaankerja' => 'BELUM TERTIB',
 
-          // Menghilangkan 'Rp' dan menyimpan sebagai angka decimal
+    // Menghilangkan 'Rp' dan menyimpan sebagai angka decimal
 ]);
 
 

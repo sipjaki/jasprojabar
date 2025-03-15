@@ -15,6 +15,7 @@ return new class extends Migration
             $table->id();
             $table->foreignId('penyediastatustertibjakon_id')->nullable();
             $table->string('kegiatankonstruksi')->nullable();
+            $table->string('namapekerjaan')->nullable();
             $table->string('nomorkontrak')->nullable();
             $table->string('bujk')->nullable();
             $table->string('prosespemilihan')->nullable();

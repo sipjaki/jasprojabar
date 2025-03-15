@@ -15,6 +15,7 @@ return new class extends Migration
             $table->id();
             $table->string('penyediastatustertibjakon_id');
             $table->string('nib')->nullable();
+            $table->string('namapekerjaan')->nullable();
             $table->string('namabadanusaha')->nullable();
             $table->string('pjbu')->nullable();
             $table->string('sesuai_jenis')->nullable();
