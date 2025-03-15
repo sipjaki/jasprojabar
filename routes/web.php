@@ -3,6 +3,7 @@
 use App\Http\Controllers\AdminDashboardController;
 use App\Http\Controllers\DatajakonController;
 use App\Http\Controllers\FedashboardController;
+use App\Http\Controllers\AgendaskkController;
 use App\Http\Controllers\GiskbbController;
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\LoginController;
@@ -172,6 +173,12 @@ Route::get('/agendapembinaan', [PembinaanController::class, 'index']);
 Route::get('/agendapembinaan/{namakegiatan}', [PembinaanController::class, 'namakegiatandaftar']);
 Route::get('/daftarpesertapelatihan', [PembinaanController::class, 'daftarpesertapelatihan']);
 Route::get('/daftarpesertapelatihans/{namakegiatan}', [PembinaanController::class, 'daftarpesertapelatihanshow']);
+
+// ------------- HALAMAN AGENDA SKK MAS JAKI BLORA -----------------
+Route::get('/agendaskk', [AgendaskkController::class, 'index']);
+// Route::get('/agendapembinaan/{namakegiatan}', [PembinaanController::class, 'namakegiatandaftar']);
+// Route::get('/daftarpesertapelatihan', [PembinaanController::class, 'daftarpesertapelatihan']);
+// Route::get('/daftarpesertapelatihans/{namakegiatan}', [PembinaanController::class, 'daftarpesertapelatihanshow']);
 
 // ---------------------- 06 PENGAWASAN BUJK MAS JAKI -----------------------//
 // ------------- HALAMAN AGENDA PENGAWASAN BUJK -----------------

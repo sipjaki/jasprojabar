@@ -28,5 +28,10 @@ class allskktenagakerjablora extends Model
         return $this->belongsTo(tahunpilihan::class);
     }
 
+    public function agendaskk()
+    {
+        return $this->hasMany(agendaskk::class);
+    }
+
 
 }

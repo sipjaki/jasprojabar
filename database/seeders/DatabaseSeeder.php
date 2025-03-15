@@ -13,6 +13,7 @@ use Illuminate\Support\Facades\DB;
 use App\Models\User;
 use App\Models\Tukangterampil;
 use App\Models\peraturan;
+use App\Models\agendaskk;
 use App\Models\pesertapelatihan;
 use App\Models\permenteri;
 use App\Models\perpemerintah;
@@ -2216,6 +2217,7 @@ sumberdana::create([
 
 //======================== ===================================================================================
 // DATA NAMA SEKOLAH MAS JAKI BLORA
+
 allskktenagakerjablora::create([
     'jabatankerja' => 'Personil Keselamatan dan Kesehatan Kerja Jenjang 4',
     'namalengkap' => 'ARIF WAHYUDI',
@@ -2240,6 +2242,64 @@ allskktenagakerjablora::create([
     'punyaskk' => 'TIDAK',
     'punyasiki' => 'TIDAK',
     'siappatuh' => 'BERSEDIA',
+    'verifikasipu' => 'LULUS',
+    'verifikasilps' => 'LULUS',
+]);
+
+allskktenagakerjablora::create([
+    'jabatankerja' => 'Personil Keselamatan dan Kesehatan Kerja Jenjang 4',
+    'namalengkap' => 'BAYU SETIAWAN',
+    'tempatlahir' => 'Bojonegoro',
+    'ttl' => '1989-04-14',
+    'jeniskelamin' => 'Laki-laki',
+    'nik' => '3522251404890001',
+    'alamat' => 'RT 5 RW 7 dukuh cepu kidul,kelurahan cepu,kec.cepu,kab.blora,jateng',
+    'notelepon' => '087730573343',
+    'email' => 'arifwahyudicc548@gmail.com',
+    'jenjangpendidikan_id' => 3,
+    'namasekolah_id' => 23,
+    'tahunlulus' => '2007',
+    'tahunpilihan_id' => 4,
+    'uploadktp' => 'https://drive.google.com/open?id=1N_6cVJ44YPAzK8Kr5qCQuiCfSXTkB9n6',
+    'uploadfoto' => 'https://drive.google.com/open?id=1FNHTKVU6oowro4CJlzLpj3FG-YdRi6ki',
+    'uploadijazah' => 'https://drive.google.com/open?id=14IoOuj_gp6LDGGnsrha11DARikUWnDHe',
+    'uploadpengalaman' => 'https://drive.google.com/open?id=1rWXn8FTSBirY94dqrT-T8au7R5bWaFrL',
+    'uploadnpwp' => 'https://drive.google.com/open?id=1-3gPp9RYiRCWu1fjqskNzdIFtnzFcBH4',
+    'uploaddaftarriwayathidup' => 'https://drive.google.com/open?id=1plhsgum_GVs_HLtVu--Ke7bku8eKfDEU',
+    'namaasosiasi' => 'Perorangan',
+    'punyaskk' => 'TIDAK',
+    'punyasiki' => 'TIDAK',
+    'siappatuh' => 'BERSEDIA',
+    'verifikasipu' => 'LULUS',
+    'verifikasilps' => 'TIDAK LULUS',
+]);
+
+allskktenagakerjablora::create([
+    'jabatankerja' => 'Personil Keselamatan dan Kesehatan Kerja Jenjang 4',
+    'namalengkap' => 'RIZKI PERMANA',
+    'tempatlahir' => 'Bojonegoro',
+    'ttl' => '1989-04-14',
+    'jeniskelamin' => 'Laki-laki',
+    'nik' => '3522251404890001',
+    'alamat' => 'RT 5 RW 7 dukuh cepu kidul,kelurahan cepu,kec.cepu,kab.blora,jateng',
+    'notelepon' => '087730573343',
+    'email' => 'arifwahyudicc548@gmail.com',
+    'jenjangpendidikan_id' => 3,
+    'namasekolah_id' => 23,
+    'tahunlulus' => '2007',
+    'tahunpilihan_id' => 4,
+    'uploadktp' => 'https://drive.google.com/open?id=1N_6cVJ44YPAzK8Kr5qCQuiCfSXTkB9n6',
+    'uploadfoto' => 'https://drive.google.com/open?id=1FNHTKVU6oowro4CJlzLpj3FG-YdRi6ki',
+    'uploadijazah' => 'https://drive.google.com/open?id=14IoOuj_gp6LDGGnsrha11DARikUWnDHe',
+    'uploadpengalaman' => 'https://drive.google.com/open?id=1rWXn8FTSBirY94dqrT-T8au7R5bWaFrL',
+    'uploadnpwp' => 'https://drive.google.com/open?id=1-3gPp9RYiRCWu1fjqskNzdIFtnzFcBH4',
+    'uploaddaftarriwayathidup' => 'https://drive.google.com/open?id=1plhsgum_GVs_HLtVu--Ke7bku8eKfDEU',
+    'namaasosiasi' => 'Perorangan',
+    'punyaskk' => 'TIDAK',
+    'punyasiki' => 'TIDAK',
+    'siappatuh' => 'BERSEDIA',
+    'verifikasipu' => 'TIDAK LULUS',
+    'verifikasilps' => 'TIDAK LULUS',
 ]);
 
 // fort
@@ -8930,8 +8990,6 @@ pesertapelatihan::create([
 ]);
 
 
-// MAKAN
-
 
 //==========================================================================================================
 // DATA BERITA
@@ -9242,8 +9300,75 @@ agendapelatihan::create([
 // ]);
 
 //======================== ===================================================================================
-// PAKET KONSULTASI TENDER MAS JAKI BLORA
+// AGENDA SKK TENAGA KERJA KONSTRUKSI
+agendaskk::create([
+    'id' => 1,
+    'namakegiatan' => 'Sertifikasi Keahlian Tenaga Kerja Konstruksi Bangunan Gedung - Jenjang 4',
+    'penyelenggara' => 'Dinas Pekerjaan Umum dan Penataan Ruang Kab Blora',
+    'penutupan' => '2025-02-13',
+    'waktupelaksanaan' => '2025-02-15',
+    'jumlahpeserta' => 40,
+    'lokasi' => 'Jln Blora No. 10',
+    'Keterangan' => 'Pelatihan dan sertifikasi tenaga kerja konstruksi bangunan gedung.',
+    'isiagenda' => 'Peserta akan diberikan pemahaman mendalam tentang konstruksi bangunan gedung...',
+    'foto' => '01_agendapelatihan/agendapelatihans.jpg',
+]);
 
+agendaskk::create([
+    'id' => 2,
+    'namakegiatan' => 'Sertifikasi Keterampilan Tukang Bangunan Sipil - Jenjang 6',
+    'penyelenggara' => 'Balai Jasa Konstruksi Wilayah IV Surabaya',
+    'penutupan' => '2025-03-10',
+    'waktupelaksanaan' => '2025-03-12',
+    'jumlahpeserta' => 50,
+    'lokasi' => 'Jln Raya Semarang No. 22',
+    'Keterangan' => 'Pelatihan dan sertifikasi tenaga kerja di bidang tukang bangunan sipil.',
+    'isiagenda' => 'Materi meliputi teknik pemasangan struktur beton dan perawatan bangunan...',
+    'foto' => '01_agendapelatihan/agendapelatihans.jpg',
+]);
+
+agendaskk::create([
+    'id' => 3,
+    'namakegiatan' => 'Sertifikasi Tenaga Ahli Struktur Baja dalam Konstruksi - Jenjang 7',
+    'penyelenggara' => 'Kementerian PUPR',
+    'penutupan' => '2025-04-05',
+    'waktupelaksanaan' => '2025-04-07',
+    'jumlahpeserta' => 35,
+    'lokasi' => 'Jln Solo No. 18',
+    'Keterangan' => 'Pelatihan dan sertifikasi tenaga ahli struktur baja dalam konstruksi.',
+    'isiagenda' => 'Peserta akan belajar teknik perhitungan beban dan pemasangan struktur baja...',
+    'foto' => '01_agendapelatihan/agendapelatihans.jpg',
+]);
+
+agendaskk::create([
+    'id' => 4,
+    'namakegiatan' => 'Sertifikasi Pengawas Konstruksi Bangunan dan Jalan - Jenjang 8',
+    'penyelenggara' => 'Asosiasi Kontraktor Indonesia',
+    'penutupan' => '2025-05-20',
+    'waktupelaksanaan' => '2025-05-22',
+    'jumlahpeserta' => 45,
+    'lokasi' => 'Jln Bandung No. 5',
+    'Keterangan' => 'Pelatihan dan sertifikasi pengawas konstruksi bangunan dan jalan.',
+    'isiagenda' => 'Peserta akan dibekali keterampilan dalam pengawasan proyek konstruksi...',
+    'foto' => '01_agendapelatihan/agendapelatihans.jpg',
+]);
+
+agendaskk::create([
+    'id' => 5,
+    'namakegiatan' => 'Sertifikasi Ahli Keselamatan dan Kesehatan Kerja Konstruksi - Jenjang 9',
+    'penyelenggara' => 'Universitas Teknologi Bandung',
+    'penutupan' => '2025-06-15',
+    'waktupelaksanaan' => '2025-06-17',
+    'jumlahpeserta' => 30,
+    'lokasi' => 'Jln Cirebon No. 8',
+    'Keterangan' => 'Pelatihan tentang standar keselamatan kerja dalam proyek konstruksi.',
+    'isiagenda' => 'Peserta akan memahami prosedur keselamatan dalam setiap tahap konstruksi...',
+    'foto' => '01_agendapelatihan/agendapelatihans.jpg',
+]);
+
+
+
+// makan
 
 // profilpaketkonsultasinontender::create([
 //     'prosespaketkonsultasinontender_id' => 1,
