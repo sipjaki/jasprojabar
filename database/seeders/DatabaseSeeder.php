@@ -9046,7 +9046,7 @@ tahunpilihan::create([
 
 kategoripelatihan::create([
     'id' => 1,
-    'kategoripelatihan' => 'Bimbingan Teknis',
+    'kategoripelatihan' => 'Workshop',
 ]);
 
 kategoripelatihan::create([
