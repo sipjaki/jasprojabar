@@ -18,7 +18,7 @@ return new class extends Migration
             $table->foreignId('paketstatuspekerjaan_id')->nullable();
             $table->foreignId('sumberdana_id')->nullable();
             $table->string('namapekerjaan')->nullable();
-            $table->year('tahunpelaksanaan')->nullable();
+            $table->string('tahunpilihan_id')->nullable();
             $table->string('cvptpenyedia')->nullable();
             $table->string('nib')->nullable();
             $table->decimal('nilaikontrak', 15, 2)->nullable(); // Menggunakan tipe decimal untuk nilai kontrak
