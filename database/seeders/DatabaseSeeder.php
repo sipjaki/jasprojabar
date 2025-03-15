@@ -8872,7 +8872,7 @@ pesertapelatihan::create([
     'tanggallahir'                 => '2000-07-01',
     'notelepon'                 => '081321455855',
     'instansi'                 => 'DPUPR Kabupaten Bandung Barat',
-    'instansi'                 => 'DPUPR Kabupaten Bandung Barat',
+    // 'instansi'                 => 'DPUPR Kabupaten Bandung Barat',
     'sertifikat'                 => null,
     'verifikasi'                 => 'SETUJU',
 ]);
