@@ -120,7 +120,7 @@
 						</div><!-- sidebar-form-content -->
 						<div class="sidebar-widget sidebar-widget-recent-post">
 
-                            <h4>Penyelenggara</h4>
+                            <h4><i class=""></i>Penyelenggara</h4>
 
                             <div class="sidebar-recent-post">
 								<div class="sidebar-recent-post-content">
@@ -128,7 +128,7 @@
                                         <div class="sidebar-meta-item">
                                             <div class="sidebar-meta-icon">
 
-                                                        <p>{{$data->penyelenggara}}</p>
+                                                        <p style="font-size:18px;">{{$data->penyelenggara}}</p>
 
 											</div><!-- sidebar-meta-icon -->
 										</div><!-- sidebar-meta-item -->
@@ -136,7 +136,7 @@
 								</div><!-- sidebar-recent-post-content -->
 							</div><!-- sidebar-recent-post -->
 
-                            <h4>Waktu Pelaksanaan</h4>
+                            <h4><i class=""></i>Waktu Pelaksanaan</h4>
 
                             <div class="sidebar-recent-post">
 								<div class="sidebar-recent-post-content">
@@ -144,7 +144,7 @@
                                         <div class="sidebar-meta-item">
                                             <div class="sidebar-meta-icon">
 
-                                                    <p>{{ \Carbon\Carbon::parse($data->waktupelaksanaan)->translatedFormat('d F Y') }}</p>
+                                                    <p style="font-size:18px;">{{ \Carbon\Carbon::parse($data->waktupelaksanaan)->translatedFormat('d F Y') }}</p>
 
 											</div><!-- sidebar-meta-icon -->
 										</div><!-- sidebar-meta-item -->
@@ -152,28 +152,28 @@
 								</div><!-- sidebar-recent-post-content -->
 							</div><!-- sidebar-recent-post -->
 
-                            <h4>Lokasi</h4>
+                            <h4><i class=""></i>Lokasi</h4>
 
                             <div class="sidebar-recent-post">
 								<div class="sidebar-recent-post-content">
                                     <div class="sidebar-meta">
                                         <div class="sidebar-meta-item">
                                             <div class="sidebar-meta-icon">
-                                                    <p>{{$data->lokasi}}</p>
+                                                    <p style="font-size:18px;">{{$data->lokasi}}</p>
 											</div><!-- sidebar-meta-icon -->
 										</div><!-- sidebar-meta-item -->
 									</div><!-- sidebar-meta -->
 								</div><!-- sidebar-recent-post-content -->
 							</div><!-- sidebar-recent-post -->
 
-                            <h4>Keterangan</h4>
+                            <h4><i class=""></i>Keterangan</h4>
 
                             <div class="sidebar-recent-post">
 								<div class="sidebar-recent-post-content">
                                     <div class="sidebar-meta">
                                         <div class="sidebar-meta-item">
                                             <div class="sidebar-meta-icon">
-                                                    <p>{{$data->keterangan}}</p>
+                                                    <p style="font-size:18px;">{{$data->keterangan}}</p>
 											</div><!-- sidebar-meta-icon -->
 										</div><!-- sidebar-meta-item -->
 									</div><!-- sidebar-meta -->
