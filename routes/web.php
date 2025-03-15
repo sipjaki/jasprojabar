@@ -36,6 +36,7 @@ use App\Http\Controllers\SatuanhargamaterialController;
 use App\Http\Controllers\BeritajakonController;
 use App\Http\Controllers\KritikdansaranController;
 use App\Http\Controllers\AllskktenagakerjabloraController;
+use App\Http\Controllers\PaketpekerjaanmasjakiController;
 
 // atas
 use Database\Factories\DatajakonFactory;
@@ -153,7 +154,7 @@ Route::get('/datajakon/skktenagakerjabloralist/{nama}', [SkktenagakerjabloraCont
 // BUAT BARU UNTUK APLIKASI PROFIL PAKET PEKERJAAN
 Route::get('/datajakon/datapaketpekerjaanblora', [ProfilpaketpekerjaanbloraController::class, 'index']);
 // =--
-Route::get('/datajakon/profilpaketpekerjaan', [ProfilpaketpekerjaanbloraController::class, 'paketpekerjaanmasjaki']);
+Route::get('/datajakon/profilpaketpekerjaan', [PaketpekerjaanmasjakiController::class, 'paketpekerjaanmasjaki']);
 Route::get('/datajakon/paketpekerjaantender/{namapekerjaan}', [ProfilpaketpekerjaanbloraController::class, 'datapaketpekerjaanblorashow']);
 // =--
 // Route::get('/datajakon/paketpekerjaannontender', [ProfilpaketpekerjaannontenderController::class, 'paketpekerjaannontender']);
