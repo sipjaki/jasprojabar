@@ -176,7 +176,7 @@ class PembinaanController extends Controller
 
         $user = Auth::user();
             // Ambil semua data dari tabel bujkkontraktor berdasarkan asosiasi_id
-            $datapesertapelatihan = pesertapelatihan::where('agendapelatihan_id', $agendapelatihan->id)->get(['id', 'user_id', 'jeniskelamin', 'instansi']);
+            $datapesertapelatihan = pesertapelatihan::where('agendapelatihan_id', $agendapelatihan->id)->get(['id', 'user_id', 'jeniskelamin', 'instansi'])->paginate(25);
             // $databujkkontraktorpaginate = bu::where('asosiasimasjaki_id', $asosiasi->id)->paginate(10);
 
 
