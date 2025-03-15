@@ -41,6 +41,8 @@ return new class extends Migration
                     $table->string('punyaskk')->nullable();
                     $table->string('punyasiki')->nullable();
                     $table->string('siappatuh')->nullable();
+                    $table->string('verifikasipu')->nullable();
+                    $table->string('verifikasilps')->nullable();
 
                     $table->softDeletes();
                     $table->timestamps();
