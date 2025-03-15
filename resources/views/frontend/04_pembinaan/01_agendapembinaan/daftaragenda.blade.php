@@ -251,7 +251,7 @@ color: #adb6ad;
                                             <td>{{$item->kategoripelatihan->kategoripelatihan}}</td>
                                             <td>{{$item->namakegiatan}}</td>
                                             <td>{{$item->keterangan}}</td>
-                                            <td>{{$item->keterangan}}</td>
+                                            {{-- <td>{{$item->keterangan}}</td> --}}
                                             <td style="text-align: center">
                                                 <div style="
                                                     display: inline-block;
