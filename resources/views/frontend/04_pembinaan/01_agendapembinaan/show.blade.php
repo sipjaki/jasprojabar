@@ -127,7 +127,6 @@
             <div class="sidebar-meta">
                 <div class="sidebar-meta-item">
                     <div class="sidebar-meta-icon">
-                        <i class="fas fa-user-tie"></i> <!-- Ikon tambahan -->
                         <p style="font-size:18px;">{{$data->penyelenggara}}</p>
                     </div>
                 </div>
@@ -141,7 +140,6 @@
             <div class="sidebar-meta">
                 <div class="sidebar-meta-item">
                     <div class="sidebar-meta-icon">
-                        <i class="fas fa-clock"></i> <!-- Ikon tambahan -->
                         <p style="font-size:18px;">{{ \Carbon\Carbon::parse($data->waktupelaksanaan)->translatedFormat('d F Y') }}</p>
                     </div>
                 </div>
@@ -155,7 +153,6 @@
             <div class="sidebar-meta">
                 <div class="sidebar-meta-item">
                     <div class="sidebar-meta-icon">
-                        <i class="fas fa-map"></i> <!-- Ikon tambahan -->
                         <p style="font-size:18px;">{{$data->lokasi}}</p>
                     </div>
                 </div>
@@ -169,7 +166,6 @@
             <div class="sidebar-meta">
                 <div class="sidebar-meta-item">
                     <div class="sidebar-meta-icon">
-                        <i class="fas fa-user-friends"></i> <!-- Ikon tambahan -->
                         <p style="font-size:18px;">{{$data->jumlahpeserta}} Peserta</p>
                     </div>
                 </div>
@@ -183,7 +179,6 @@
             <div class="sidebar-meta">
                 <div class="sidebar-meta-item">
                     <div class="sidebar-meta-icon">
-                        <i class="fas fa-sticky-note"></i> <!-- Ikon tambahan -->
                         <p style="font-size:18px;">{{$data->keterangan}}</p>
                     </div>
                 </div>
