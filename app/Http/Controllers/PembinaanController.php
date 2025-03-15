@@ -145,7 +145,7 @@ class PembinaanController extends Controller
 
     public function daftarpesertapelatihanshow(Request $request, $namakegiatan)
     {
-        $perPage = $request->input('perPage', 10);
+        $perPage = $request->input('perPage', 50);
         $search = $request->input('search');
 
         $query = pesertapelatihan::query();
