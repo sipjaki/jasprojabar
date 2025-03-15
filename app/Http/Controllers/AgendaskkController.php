@@ -141,7 +141,7 @@ public function daftarpesertaskkshow(Request $request, $namakegiatan)
     $user = Auth::user();
 
         $datapesertaskk = allskktenagakerjablora::where('agendaskk_id', $agendaskk->id)
-                    ->select(['id', 'user_id', 'jeniskelamin', 'instansi', 'jabatankerja'])
+                    ->select(['id', 'user_id', 'jeniskelamin', 'namaasosiasi', 'jabatankerja'])
                     ->paginate(25);
 
     $dataagendaskk = agendaskk::where('namakegiatan', $namakegiatan)->first();
