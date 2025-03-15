@@ -336,7 +336,7 @@ color: #45a049;
                             function searchTable() {
                             let input = document.getElementById("searchInput").value;
 
-                            fetch(`/daftarpesertapelatihans?search=${input}`)
+                            fetch(`/daftarpesertapelatihan?search=${input}`)
                                 .then(response => response.text())
                                 .then(html => {
                                     let parser = new DOMParser();
