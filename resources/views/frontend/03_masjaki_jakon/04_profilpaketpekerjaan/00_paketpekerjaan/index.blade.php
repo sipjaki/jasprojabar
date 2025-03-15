@@ -258,11 +258,11 @@ color: #45a049;
                                         @foreach ($data as $item )
                                         <tr>
                                             <td style="text-align: center;">{{ $loop->iteration + $start - 1 }}</td>
-                                            <td style="text-transform: capitalize;">{{$item->namapekerjaan}}</td>
+                                            <td>{{ ucwords(strtolower($item->namapekerjaan)) }}</td>
                                             <td style="text-align: center;">{{$item->tahunpilihan->tahunpilihan}}</td>
                                             <td>{{$item->cvptpenyedia}}</td>
                                             <td style="text-align: center;">{{$item->sumberdana->sumberdana}}</td>
-                                            <td style="text-transform: capitalize;">{{$item->dinas}}</td>
+                                            <td>{{ ucwords(strtolower($item->dinas)) }}</td>
                                             <td style="text-align: center">
                                                 <a href="/datajakon/paketpekerjaantender/{{$item->namapekerjaan}}">
                                                     <i class="fas fa-eye view-icon" onclick="alert('View clicked!')"></i>
