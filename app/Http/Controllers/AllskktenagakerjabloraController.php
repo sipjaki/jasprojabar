@@ -65,9 +65,9 @@ class AllskktenagakerjabloraController extends Controller
     ]);
 }
 
-    public function skktenagakerjablorashow($namalengkap)
+    public function skktenagakerjablorashow($name)
     {
-        $dataall = allskktenagakerjablora::where('namalengkap', $namalengkap)->first();
+        $dataall = allskktenagakerjablora::where('name', $name)->first();
 
         // if (!$dataall) {
         //     // Tangani jika kegiatan tidak ditemukan
