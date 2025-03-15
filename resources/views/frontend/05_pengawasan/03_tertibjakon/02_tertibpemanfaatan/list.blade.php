@@ -259,7 +259,7 @@ color: #45a049;
                                                     <td style="text-align: center;">{{ $loop->iteration + $start - 1 }}</td>
                                                     <td>{{$item->penyediastatustertibjakon->penyedia}}</td>
                                                     <td>{{$item->namabangunan}}</td>
-                                                    <td>{{$item->nomorkontrak}}</td>
+                                                    {{-- <td>{{$item->nomorkontrak}}</td> --}}
                                                     <td>{{$item->lokasi}}</td>
                                                     <td style="text-align: center">
                                                         <a href="/tertibjasakonstruksipemanfaatan/{{$item->namabangunan}}">
