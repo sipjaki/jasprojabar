@@ -139,7 +139,7 @@
             <td style="width:50px; text-align:center;">1</td>
             <td style="width:200px; text-align:center;">Nama Lengkap</td>
             <td style="width:50px; text-align:center;">:</td>
-            <td style="width:200px; text-align:center;">{{ ucwords(strtolower($data->namalengkap)) }}</td>
+            <td style="width:200px; text-align:center;">{{ ucwords(strtolower($data->user->name)) }}</td>
             <td style="width:400px; text-align:center;">
                 <img src="/assets/00_dokmasjaki/03_datajakon/jabatan.png" alt="" width="200px;">
             </td>
