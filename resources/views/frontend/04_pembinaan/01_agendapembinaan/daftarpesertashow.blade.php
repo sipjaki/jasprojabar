@@ -253,7 +253,7 @@ color: #45a049;
                                     </thead>
                                     <tbody id="tableBody">
                                         {{-- @php $start = ($data->currentPage() - 1) * $data->perPage() + 1; @endphp --}}
-                                        @foreach ($data as $item )
+                                        @foreach ($datapeserta as $item )
                                         <tr>
                                             <td style="text-align: center;">{{ $loop->index + 1 }}</td>
 
