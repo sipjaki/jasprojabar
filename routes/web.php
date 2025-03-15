@@ -176,7 +176,7 @@ Route::get('/daftarpesertapelatihans/{namakegiatan}', [PembinaanController::clas
 
 // ------------- HALAMAN AGENDA SKK MAS JAKI BLORA -----------------
 Route::get('/agendaskk', [AgendaskkController::class, 'index']);
-// Route::get('/agendapembinaan/{namakegiatan}', [PembinaanController::class, 'namakegiatandaftar']);
+Route::get('/agendaskk/{namakegiatan}', [PembinaanController::class, 'daftaragendaskk']);
 // Route::get('/daftarpesertapelatihan', [PembinaanController::class, 'daftarpesertapelatihan']);
 // Route::get('/daftarpesertapelatihans/{namakegiatan}', [PembinaanController::class, 'daftarpesertapelatihanshow']);
 

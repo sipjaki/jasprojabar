@@ -278,8 +278,8 @@
 								<li><a href="/agendapembinaan">Agenda Pelatihan</a></li>
 								<li><a href="/daftarpesertapelatihan">Daftar Peserta Pelatihan</a></li>
 								<li><a href="/agendaskk">Agenda Sertifikasi TKK</a></li>
-								<li><a href="/skktenagakerjablora">SKK Tenaga Kerja Konstruksi</a></li>
 								<li><a href="/404">Daftar Peserta SKK </a></li>
+								{{-- <li><a href="/skktenagakerjablora">SKK Tenaga Kerja Konstruksi</a></li> --}}
 							</ul><!-- list-unstyled -->
 						</li><!--has-dropdown-->
 

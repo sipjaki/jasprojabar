@@ -50,4 +50,21 @@ class AgendaskkController extends Controller
     }
 
 
+    public function daftaragendaskk($namakegiatan)
+    {
+        $dataagendaskk = agendaskk::where('namakegiatan', $namakegiatan)->first();
+
+    // Ambil data user saat ini
+    $user = Auth::user();
+
+    return view('frontend.04_pembinaan.02_agendaskk.02_agendaskkshow', [
+        'title' => 'Agenda Sertifikasi Tenaga Kerja Konstruksi',
+        'data' => $dataagendaskk,
+        // 'subData' => $subdata,  // Jika Anda ingin mengirimkan data sub kontraktor juga
+        'user' => $user,
+        // 'start' => $start,
+    ]);
+    }
+
+
 }
