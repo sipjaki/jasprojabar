@@ -2219,7 +2219,7 @@ sumberdana::create([
 // DATA NAMA SEKOLAH MAS JAKI BLORA
 
 allskktenagakerjablora::create([
-    'agendapelatihan_id'            => 1,
+    'agendaskk_id'            => 1,
     'user_id'                       => 1,
     'jabatankerja' => 'Personil Keselamatan dan Kesehatan Kerja Jenjang 4',
     'tempatlahir' => 'Bojonegoro',
@@ -2248,7 +2248,7 @@ allskktenagakerjablora::create([
 ]);
 
 allskktenagakerjablora::create([
-    'agendapelatihan_id'            => 1,
+    'agendaskk_id'            => 1,
     'user_id'                       => 2,
     'jabatankerja' => 'Personil Keselamatan dan Kesehatan Kerja Jenjang 4',
     'namalengkap' => 'BAYU SETIAWAN',
@@ -2278,7 +2278,7 @@ allskktenagakerjablora::create([
 ]);
 
 allskktenagakerjablora::create([
-    'agendapelatihan_id'            => 1,
+    'agendaskk_id'            => 1,
     'user_id'                       => 3,
     'jabatankerja' => 'Personil Keselamatan dan Kesehatan Kerja Jenjang 4',
     'namalengkap' => 'RIZKI PERMANA',
