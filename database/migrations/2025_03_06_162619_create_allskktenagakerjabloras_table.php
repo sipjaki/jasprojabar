@@ -16,7 +16,7 @@ return new class extends Migration
             $table->foreignId('agendaskk_id')->nullable();
             $table->foreignId('user_id')->nullable();
                     $table->string('jabatankerja')->nullable();
-                    $table->string('namalengkap')->nullable();
+                    // $table->string('namalengkap')->nullable();
                     $table->string('tempatlahir')->nullable();
                     $table->date('ttl')->nullable();
                     $table->string('jeniskelamin')->nullable();
