@@ -152,7 +152,7 @@ Route::get('/datajakon/skktenagakerjabloralist', [SkktenagakerjabloraController:
 Route::get('/datajakon/skktenagakerjabloralist/{nama}', [SkktenagakerjabloraController::class, 'datalistskktenagakerjablorashow']);
 
 // BUAT BARU UNTUK APLIKASI PROFIL PAKET PEKERJAAN
-Route::get('/datajakon/datapaketpekerjaanblora', [ProfilpaketpekerjaanbloraController::class, 'index']);
+// Route::get('/datajakon/datapaketpekerjaanblora', [ProfilpaketpekerjaanbloraController::class, 'index']);
 // =--
 Route::get('/datajakon/profilpaketpekerjaan', [PaketpekerjaanmasjakiController::class, 'paketpekerjaanmasjaki']);
 Route::get('/datajakon/profilpaketpekerjaan/{namapekerjaan}', [PaketpekerjaanmasjakiController::class, 'paketpekerjaanshow']);
@@ -170,6 +170,7 @@ Route::get('/datajakon/profilpaketpekerjaan/{namapekerjaan}', [Paketpekerjaanmas
 // ------------- HALAMAN AGENDA PEMBINAAN MAS JAKI BLORA -----------------
 Route::get('/agendapembinaan', [PembinaanController::class, 'index']);
 Route::get('/agendapembinaan/{namakegiatan}', [PembinaanController::class, 'namakegiatandaftar']);
+Route::get('/daftarpesertapelatihan', [PembinaanController::class, 'daftarpesertapelatihan']);
 
 // ---------------------- 06 PENGAWASAN BUJK MAS JAKI -----------------------//
 // ------------- HALAMAN AGENDA PENGAWASAN BUJK -----------------

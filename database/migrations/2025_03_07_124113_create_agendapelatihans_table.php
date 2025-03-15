@@ -14,6 +14,7 @@ return new class extends Migration
         Schema::create('agendapelatihans', function (Blueprint $table) {
             $table->id();
             $table->foreignId('kategoripelatihan_id')->nullable();
+            $table->foreignId('pesertapelatihan_id')->nullable();
             // $table->foreignId('jenjang_id')->nullable();
             $table->string('namakegiatan')->nullable();
             $table->string('penyelenggara')->nullable();

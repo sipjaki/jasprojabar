@@ -19,9 +19,10 @@ class agendapelatihan extends Model
         return $this->belongsTo(kategoripelatihan::class);
     }
 
-    public function jenjang()
+    public function pesertapelatihan()
     {
-        return $this->belongsTo(jenjang::class);
+        return $this->belongsTo(pesertapelatihan::class);
     }
+
 
 }

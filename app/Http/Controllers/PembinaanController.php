@@ -47,10 +47,8 @@ class PembinaanController extends Controller
                   ->orWhere('keterangan', 'LIKE', "%{$search}%")
                   ->orWhereHas('kategoripelatihan', function ($q) use ($search) {
                       $q->where('kategoripelatihan', 'LIKE', "%{$search}%");
-                  })
-                  ->orWhereHas('jenjang', function ($q) use ($search) {
-                      $q->where('jenjang', 'LIKE', "%{$search}%");
                   });
+
         }
 
         $data = $query->paginate($perPage);
@@ -106,6 +104,46 @@ class PembinaanController extends Controller
         // 'start' => $start,
     ]);
     }
+
+
+// DAFTAR PESERTA PELATIHAN AGENDA PELATIHAN WORKSHOP DAN LAINLAIN
+
+    public function daftarpesertapelatihan(Request $request)
+    {
+        $perPage = $request->input('perPage', 10);
+        $search = $request->input('search');
+
+        $query = agendapelatihan::query();
+
+        if ($search) {
+            $query->where('namakegiatan', 'LIKE', "%{$search}%")
+                  ->orWhere('keterangan', 'LIKE', "%{$search}%")
+                  ->orWhereHas('kategoripelatihan', function ($q) use ($search) {
+                      $q->where('kategoripelatihan', 'LIKE', "%{$search}%");
+                  });
+
+        }
+
+        $data = $query->paginate($perPage);
+
+        if ($request->ajax()) {
+            return response()->json([
+                'html' => view('frontend.04_pembinaan.01_agendapembinaan.partials.table', compact('data'))->render()
+            ]);
+        }
+
+        $user = Auth::user();
+
+        return view('frontend.04_pembinaan.01_agendapembinaan.daftaragenda', [
+            'title' => 'Daftar Agenda Pelatihan Jakon Blora',
+            'data' => $data,
+            'perPage' => $perPage,
+            'search' => $search,
+            'user' => $user
+        ]);
+    }
+
+
 
 }
 

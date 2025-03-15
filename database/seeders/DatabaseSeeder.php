@@ -13,6 +13,7 @@ use Illuminate\Support\Facades\DB;
 use App\Models\User;
 use App\Models\Tukangterampil;
 use App\Models\peraturan;
+use App\Models\pesertapelatihan;
 use App\Models\permenteri;
 use App\Models\perpemerintah;
 use App\Models\perpresiden;
@@ -8859,6 +8860,23 @@ paketpekerjaanmasjaki::create([
     'bulanselesai'               => 'Desember',
     'dinas'                      => 'DINAS PEKERJAAN UMUM DAN PENATAAN RUANG'
 ]);
+
+//==========================================================================================================
+// DATA PESERTA PELATIHAN KAB BLORA JASA KONSTRUSI
+pesertapelatihan::create([
+    'agendapelatihan_id'            => 1,
+    'user_id'                       => 1,
+    'jenjangpendidikan_id'          => 2,
+    'nik'                 => '3205270107200023',
+    'jeniskelamin'                 => 'Laki-laki',
+    'tanggallahir'                 => '2000-07-01',
+    'notelepon'                 => '081321455855',
+    'instansi'                 => 'DPUPR Kabupaten Bandung Barat',
+    'instansi'                 => 'DPUPR Kabupaten Bandung Barat',
+    'sertifikat'                 => null,
+    'verfikasi'                 => 'SETUJU',
+]);
+
 
 // MAKAN
 
