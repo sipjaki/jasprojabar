@@ -186,21 +186,7 @@
 								</div><!-- sidebar-recent-post-content -->
 							</div><!-- sidebar-recent-post -->
 
-                            <h4>Jenjang</h4>
-
-                            <div class="sidebar-recent-post">
-								<div class="sidebar-recent-post-content">
-                                    <div class="sidebar-meta">
-                                        <div class="sidebar-meta-item">
-                                            <div class="sidebar-meta-icon">
-												<span class="author">
-                                                    <p>Jenjang {{$data->jenjang->jenjang}}</p>
-                                                    </span><!-- author -->
-											</div><!-- sidebar-meta-icon -->
-										</div><!-- sidebar-meta-item -->
-									</div><!-- sidebar-meta -->
-								</div><!-- sidebar-recent-post-content -->
-							</div><!-- sidebar-recent-post -->
+                            {{-- <h4>Jenjang</h4> --}}
 
 
                         </div><!-- sidebar-widget sidebar-widget-recent-post -->
