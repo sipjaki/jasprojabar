@@ -127,9 +127,9 @@
                                     <div class="sidebar-meta">
                                         <div class="sidebar-meta-item">
                                             <div class="sidebar-meta-icon">
-												<span class="author">
+
                                                         <p>{{$data->penyelenggara}}</p>
-                                                </span><!-- author -->
+
 											</div><!-- sidebar-meta-icon -->
 										</div><!-- sidebar-meta-item -->
 									</div><!-- sidebar-meta -->
@@ -143,11 +143,9 @@
                                     <div class="sidebar-meta">
                                         <div class="sidebar-meta-item">
                                             <div class="sidebar-meta-icon">
-												<span class="author">
 
                                                     <p>{{ \Carbon\Carbon::parse($data->waktupelaksanaan)->translatedFormat('d F Y') }}</p>
 
-                                                    </span><!-- author -->
 											</div><!-- sidebar-meta-icon -->
 										</div><!-- sidebar-meta-item -->
 									</div><!-- sidebar-meta -->
@@ -161,9 +159,7 @@
                                     <div class="sidebar-meta">
                                         <div class="sidebar-meta-item">
                                             <div class="sidebar-meta-icon">
-												<span class="author">
                                                     <p>{{$data->lokasi}}</p>
-                                                    </span><!-- author -->
 											</div><!-- sidebar-meta-icon -->
 										</div><!-- sidebar-meta-item -->
 									</div><!-- sidebar-meta -->
@@ -177,9 +173,7 @@
                                     <div class="sidebar-meta">
                                         <div class="sidebar-meta-item">
                                             <div class="sidebar-meta-icon">
-												<span class="author">
                                                     <p>{{$data->keterangan}}</p>
-                                                    </span><!-- author -->
 											</div><!-- sidebar-meta-icon -->
 										</div><!-- sidebar-meta-item -->
 									</div><!-- sidebar-meta -->
