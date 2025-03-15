@@ -360,7 +360,7 @@ color: #45a049;
 
     // Ambil data dari Blade ke JavaScript dengan aman
     const namakegiatan = @json($data->namakegiatan ?? '');
-    const username = @json($data->user->name ?? '');
+    const username = @json($data->pesertapelatihan->user->name ?? '');
 
     // Debugging: pastikan variabel sudah benar
     console.log("Nama Kegiatan:", namakegiatan);
