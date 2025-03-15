@@ -256,8 +256,12 @@ color: #45a049;
                                         @foreach ($data as $item )
                                         <tr>
                                             <td style="text-align: center;">{{ $loop->iteration}}</td>
+
+                                            <td style="text-transform: capitalize;">
+                                                {{ ucwords(strtolower(optional($item->user)->name ?? 'Tidak ada nama')) }}
+                                            </td>
                                             {{-- <td style="text-transform: capitalize;">{{ ucwords(strtolower($item->user->name)) }}</td> --}}
-                                            <td>{{$item->user->name}}</td>
+                                            {{-- <td>{{$item->user->name}}</td> --}}
                                             <td>{{$item->jeniskelamin}}</td>
                                             <td style="text-align: center;">{{$item->instansi}}</td>
                                         </tr>
@@ -267,13 +271,13 @@ color: #45a049;
 
                                 <div class="pagination-container" style="margin-top: 50px; display: flex; flex-direction: column; align-items: center;">
                                     <ul class="pagination-paginate" style="display: flex; padding-left: 0; list-style: none; margin-top: 10px;">
-                                        <li class="page-item {{ $data->onFirstPage() ? 'disabled' : '' }}" style="margin-right: 5px;">
-                                            <a class="page-link" href="{{ $data->previousPageUrl() }}">
+                                        <li class="page-item {{ $datapeserta->onFirstPage() ? 'disabled' : '' }}" style="margin-right: 5px;">
+                                            <a class="page-link" href="{{ $datapeserta->previousPageUrl() }}">
                                                 <i class="fas fa-arrow-left" style="margin-right: 10px;"></i>Previous
                                             </a>
                                         </li>
-                                        <li class="page-item {{ $data->hasMorePages() ? '' : 'disabled' }}" style="margin-right: 5px;">
-                                            <a class="page-link" href="{{ $data->nextPageUrl() }}">
+                                        <li class="page-item {{ $datapeserta->hasMorePages() ? '' : 'disabled' }}" style="margin-right: 5px;">
+                                            <a class="page-link" href="{{ $datapeserta->nextPageUrl() }}">
                                                 Next <i class="fas fa-arrow-right" style="margin-left: 10px;"></i>
                                             </a>
                                         </li>
