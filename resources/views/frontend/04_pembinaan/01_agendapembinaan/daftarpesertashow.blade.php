@@ -122,7 +122,7 @@ color: #45a049;
 	<section class="page-banner">
 		<div class="container">
 			<div class="page-banner-title">
-				<h3 style="color: black; font-size:30px;">{{$title}}</h3>
+				<h3 style="color: black; font-size:30px;">{{$title}} {{$data->namakegiatan}}</h3>
 			</div><!-- page-banner-title -->
 		</div><!-- container -->
 	</section><!--page-banner-->
