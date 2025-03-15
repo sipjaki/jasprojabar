@@ -259,7 +259,8 @@ color: #adb6ad;
                                             <td>{{$item->namakegiatan}}</td>
                                             <td>{{$item->penyelenggara}}</td>
                                             {{-- <td style="text-align: center;">{{$item->jenjang->jenjang}}</td> --}}
-                                            <td style="text-align: center;">{{$item->penutupan}}</td>
+                                            {{-- <td style="text-align: center;">{{$item->penutupan}}</td> --}}
+                                            <td>{{ \Carbon\Carbon::parse($item->penutupan)->translatedFormat('d F Y') }}</td>
                                             <td>{{ \Carbon\Carbon::parse($item->waktupelaksanaan)->translatedFormat('d F Y') }}</td>
                                             <td style="text-align: center;">{{$item->jumlahpeserta}}</td>
                                             <td>{{$item->lokasi}}</td>
