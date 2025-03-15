@@ -102,7 +102,7 @@
 						<div class="sidebar-form-content">
 							<div class="sidebar__item sidebar__item--search">
                                 <div style="display: flex; justify-content: flex-end; padding: 10px;">
-                                    <a href="/agendapembinaan">
+                                    <a href="/agendaskk">
                                         <button class="download-btn" style="margin-right: 10px;">
                                             <i class="fas fa-arrow-left" style="margin-right:10px;"></i> Kembali
                                         </button>
