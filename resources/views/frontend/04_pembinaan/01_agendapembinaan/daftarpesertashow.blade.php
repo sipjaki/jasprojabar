@@ -333,67 +333,19 @@ color: #45a049;
 // }
 
 
-                        //     function searchTable() {
-                        //     let input = document.getElementById("searchInput").value;
-                        //             const namakegiatan = "{{$data->namakegiatan}}"; // Pastikan variabel memiliki nilai
-                        //         const input = "{{data->user->name}}";
+                            function searchTable() {
+                            let input = document.getElementById("searchInput").value;
 
-                        //         fetch(`/daftarpesertapelatihans/${namakegiatan}?search=${input}`)
-                        //             .then(response => response.json())
-                        //             .then(data => console.log(data))
-                        //             .catch(error => console.error("Terjadi kesalahan:", error));
-
-                        //         .then(response => response.text())
-                        //         .then(html => {
-                        //             let parser = new DOMParser();
-                        //             let doc = parser.parseFromString(html, "text/html");
-                        //             let newTableBody = doc.querySelector("#tableBody").innerHTML;
-                        //             document.querySelector("#tableBody").innerHTML = newTableBody;
-                        //         })
-                        //         .catch(error => console.error("Error fetching search results:", error));
-                        // }
-
-
-                        function searchTable() {
-    // Ambil input pencarian dari user
-    let input = document.getElementById("searchInput").value;
-
-    // Ambil data dari Blade ke JavaScript dengan aman
-    const namakegiatan = @json($data->namakegiatan ?? '');
-    const username = @json($data->pesertapelatihan->user->name ?? '');
-
-    // Debugging: pastikan variabel sudah benar
-    console.log("Nama Kegiatan:", namakegiatan);
-    console.log("Input Pencarian:", input);
-    console.log("Username:", username);
-
-    // Pastikan nama kegiatan tidak kosong sebelum melakukan fetch
-    if (!namakegiatan) {
-        console.error("Error: Nama kegiatan tidak ditemukan.");
-        return;
-    }
-
-    // Buat URL dengan encodeURIComponent agar aman
-    const url = `/daftarpesertapelatihans/${encodeURIComponent(namakegiatan)}?search=${encodeURIComponent(input)}`;
-
-    console.log("Fetching from:", url); // Debugging
-
-    fetch(url)
-        .then(response => {
-            if (!response.ok) {
-                throw new Error("HTTP error, status = " + response.status);
-            }
-            return response.text();
-        })
-        .then(html => {
-            let parser = new DOMParser();
-            let doc = parser.parseFromString(html, "text/html");
-            let newTableBody = doc.querySelector("#tableBody").innerHTML;
-            document.querySelector("#tableBody").innerHTML = newTableBody;
-        })
-        .catch(error => console.error("Error fetching search results:", error));
-}
-
+                            fetch(`/daftarpesertapelatihans?search=${input}`)
+                                .then(response => response.text())
+                                .then(html => {
+                                    let parser = new DOMParser();
+                                    let doc = parser.parseFromString(html, "text/html");
+                                    let newTableBody = doc.querySelector("#tableBody").innerHTML;
+                                    document.querySelector("#tableBody").innerHTML = newTableBody;
+                                })
+                                .catch(error => console.error("Error fetching search results:", error));
+                        }
 
                                 </script>
 
