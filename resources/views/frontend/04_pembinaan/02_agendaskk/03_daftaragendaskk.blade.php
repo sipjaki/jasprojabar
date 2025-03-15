@@ -243,7 +243,7 @@ color: #adb6ad;
                                     <thead>
                                             <tr>
                                                 <th onclick="sortTable(0)" style="cursor:pointer; text-align:center; width:100px;"> No <span class="sort-icon">⇅</span></th>
-                                                <th onclick="sortTable(1)" style="cursor:pointer; text-align:center; width:200px;"> Kategori Pelatihan <span class="sort-icon">⇅</span></th>
+                                                {{-- <th onclick="sortTable(1)" style="cursor:pointer; text-align:center; width:200px;"> Kategori Pelatihan <span class="sort-icon">⇅</span></th> --}}
                                                 <th onclick="sortTable(3)" style="cursor:pointer; text-align:center; width:300px;"> Nama Kegiatan <span class="sort-icon">⇅</span></th>
                                                 <th onclick="sortTable(8)" style="cursor:pointer; text-align:center; width:300px;"> Keterangan <span class="sort-icon">⇅</span></th>
                                                 <th style="text-align:center; width:100px;"> View Peserta </th>
@@ -256,7 +256,7 @@ color: #adb6ad;
                                         @foreach ($data as $item )
                                         <tr>
                                             <td style="text-align: center;">{{ $loop->iteration + $start - 1 }}</td>
-                                            <td>{{$item->kategoripelatihan->kategoripelatihan}}</td>
+                                            {{-- <td>{{$item->kategoripelatihan->kategoripelatihan}}</td> --}}
                                             <td>{{$item->namakegiatan}}</td>
                                             <td>{{$item->keterangan}}</td>
                                             {{-- <td>{{$item->keterangan}}</td> --}}
