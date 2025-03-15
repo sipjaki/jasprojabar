@@ -5,6 +5,9 @@ namespace App\Http\Controllers;
 use App\Models\paketpekerjaanmasjaki;
 use Illuminate\Http\Request;
 
+use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\DB;
+
 class PaketpekerjaanmasjakiController extends Controller
 {
     //
@@ -48,5 +51,33 @@ class PaketpekerjaanmasjakiController extends Controller
             'search' => $search
         ]);
     }
+
+    public function paketpekerjaanshow($namapekerjaan)
+    {
+        // Pastikan model dan nama tabel sudah benar
+        $datapaketpekerjaan = paketpekerjaanmasjaki::where('namapekerjaan', $namapekerjaan)->first();
+        // $datasub = prosespaket::all();
+        // if (!$datapaketpekerjaan) {
+        //     // Jika data tidak ditemukan, arahkan kembali dengan pesan error
+        //     return redirect()->back()->with('error', 'Kegiatan tidak ditemukan.');
+        // }
+
+        // // Menggunakan paginate() untuk pagination
+        // $subdata = prosespaket::where('prosespaket_id', $datapaketpekerjaan->id)->paginate(5);
+
+        // Ambil data user saat ini
+        $user = Auth::user();
+
+        // Kirim variabel ke view
+        return view('frontend.03_masjaki_jakon.04_profilpaketpekerjaan.00_paketpekerjaan.show', [
+            'title' => 'Profil Paket Pekerjaan Konstruksi & Konsultasi Kabupaten Blora',
+            'data' => $datapaketpekerjaan,
+            'user' => $user,
+            // 'datasub' => $datasub,
+            // 'datasub' => $subdata,
+            // 'start' => $start,  // Pastikan start diteruskan jika dibutuhkan di view
+        ]);
+    }
+
 
 }

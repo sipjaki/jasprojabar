@@ -155,7 +155,7 @@ Route::get('/datajakon/skktenagakerjabloralist/{nama}', [SkktenagakerjabloraCont
 Route::get('/datajakon/datapaketpekerjaanblora', [ProfilpaketpekerjaanbloraController::class, 'index']);
 // =--
 Route::get('/datajakon/profilpaketpekerjaan', [PaketpekerjaanmasjakiController::class, 'paketpekerjaanmasjaki']);
-Route::get('/datajakon/paketpekerjaantender/{namapekerjaan}', [ProfilpaketpekerjaanbloraController::class, 'datapaketpekerjaanblorashow']);
+Route::get('/datajakon/profilpaketpekerjaan/{namapekerjaan}', [PaketpekerjaanmasjakiController::class, 'paketpekerjaanshow']);
 // =--
 // Route::get('/datajakon/paketpekerjaannontender', [ProfilpaketpekerjaannontenderController::class, 'paketpekerjaannontender']);
 // Route::get('/datajakon/paketpekerjaannontender/{namapekerjaan}', [ProfilpaketpekerjaannontenderController::class, 'paketpekerjaannontendershow']);

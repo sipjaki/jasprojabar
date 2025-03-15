@@ -264,7 +264,7 @@ color: #45a049;
                                             <td style="text-align: center;">{{$item->sumberdana->sumberdana}}</td>
                                             <td>{{ ucwords(strtolower($item->dinas)) }}</td>
                                             <td style="text-align: center">
-                                                <a href="/datajakon/paketpekerjaantender/{{$item->namapekerjaan}}">
+                                                <a href="/datajakon/profilpaketpekerjaan/{{$item->namapekerjaan}}">
                                                     <i class="fas fa-eye view-icon" onclick="alert('View clicked!')"></i>
                                                 </a>
                                             </td>
