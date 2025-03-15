@@ -8,7 +8,7 @@ use App\Models\agendapelatihan;
 use App\Models\jenjang;
 use App\Models\kategoripelatihan;
 use App\Models\pembinaan;
-
+use App\Models\pesertapelatihan;
 use Illuminate\Http\Request;
 
 use Illuminate\Support\Facades\Auth;
@@ -137,6 +137,54 @@ class PembinaanController extends Controller
         return view('frontend.04_pembinaan.01_agendapembinaan.daftaragenda', [
             'title' => 'Daftar Agenda Pelatihan Jakon Blora',
             'data' => $data,
+            'perPage' => $perPage,
+            'search' => $search,
+            'user' => $user
+        ]);
+    }
+
+    public function daftarpesertapelatihanshow(Request $request, $namakegiatan)
+    {
+        $perPage = $request->input('perPage', 10);
+        $search = $request->input('search');
+
+        $query = pesertapelatihan::query();
+
+        if ($search) {
+            $query->where('jeniskelamin', 'LIKE', "%{$search}%")
+                  ->orWhere('instansi', 'LIKE', "%{$search}%")
+                  ->orWhereHas('user', function ($q) use ($search) {
+                      $q->where('user', 'LIKE', "%{$search}%");
+                  });
+
+        }
+
+        $data = $query->paginate($perPage);
+
+        if ($request->ajax()) {
+            return response()->json([
+                'html' => view('frontend.04_pembinaan.01_agendapembinaan.partials.table', compact('data'))->render()
+            ]);
+        }
+
+        $agendapelatihan = agendapelatihan::where('namakegiatan', $namakegiatan)->first();
+
+        // Jika asosiasi tidak ditemukan, tampilkan 404
+        if (!$agendapelatihan) {
+            return abort(404, 'Asosiasi tidak ditemukan');
+        }
+
+        $user = Auth::user();
+            // Ambil semua data dari tabel bujkkontraktor berdasarkan asosiasi_id
+            $datapesertapelatihan = pesertapelatihan::where('agendapelatihan_id', $agendapelatihan->id)->get(['id', 'user_id', 'jeniskelamin', 'instansi']);
+            // $databujkkontraktorpaginate = bu::where('asosiasimasjaki_id', $asosiasi->id)->paginate(10);
+
+
+
+        return view('frontend.04_pembinaan.01_agendapembinaan.daftarpesertashow', [
+            'title' => 'Daftar Peserta Agenda Pelatihan',
+            'data' => $data,
+            'datapeserta' => $datapesertapelatihan,
             'perPage' => $perPage,
             'search' => $search,
             'user' => $user
