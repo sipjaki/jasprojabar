@@ -356,7 +356,7 @@ color: #45a049;
                                                 <div class="row row-gutter-10">
                                                     <div class="col-lg-4">
                                                         <h6><i class="fas fa-briefcase mr-2" style="margin-right: 5px;"></i>Jenis Pekerjaan</h6>
-                                                        <input type="text" id="fname" class="input-text" placeholder="{{$data->jenispekerjaan}}" name="fname" aria-required="true" readonly>
+                                                        <input type="text" id="fname" class="input-text" placeholder="{{$data->profiljenispekerjaan->jenispekerjaan}}" name="fname" aria-required="true" readonly>
                                                     </div><!-- col-lg-6 -->
 
                                                     <div class="col-lg-8">
@@ -366,7 +366,7 @@ color: #45a049;
 
                                                     <div class="col-lg-3">
                                                         <h6><i class="fas fa-calendar mr-2" style="margin-right: 5px;"></i>Tahun Pelaksanaan</h6>
-                                                        <input type="text" id="fname" class="input-text" placeholder="{{$data->tahunpelaksanaan}}" name="fname" aria-required="true" readonly>
+                                                        <input type="text" id="fname" class="input-text" placeholder="{{$data->tahunpilihan->tahunpilihan}}" name="fname" aria-required="true" readonly>
                                                     </div><!-- col-lg-3 -->
 
                                                     <div class="col-lg-6">
