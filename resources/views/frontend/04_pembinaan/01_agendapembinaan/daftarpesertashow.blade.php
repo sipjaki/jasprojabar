@@ -177,7 +177,7 @@ color: #45a049;
                                       <a href="#" style="background: white;">
                                           <button class="badgekembali" style="border: none; font-size: 12px; cursor: pointer;">
                                             <img src="/assets/icon/logokabupatenblora.png" class="img-fluid" alt="img-25" width="50" height="50" style="margin-right: 20px;" loading="lazy">
-                                            <i class="fas fa-edit mr-2" style="margin-right: 10px; color:#ffd100;"></i> <span style="text-transform: uppercase; color:black; font-size:16px;">{{$title}}</span><span style="color:white; font-size:16px; text-transform:uppercase;"> | {{$data->namakegiatan}}</span>
+                                            <i class="fas fa-edit mr-2" style="margin-right: 10px; color:#ffd100;"></i> <span style="text-transform: uppercase; color:black; font-size:16px;">{{$title}}</span><span style="color:black; font-size:16px; text-transform:uppercase;"> | {{$data->namakegiatan}}</span>
                                         </button>
                                     </a>
 
