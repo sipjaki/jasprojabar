@@ -189,7 +189,7 @@ class DatabaseSeeder extends Seeder
         ]);
 
         User::create([
-            'name'  => 'Sigit Septiadi',
+            'name'  => 'Budi Sudarsono',
             'username' => 'Sigitadmin',
             'statusadmin_id' => '2',
             'avatar' => 'user/avatar/foto1.png',
@@ -198,7 +198,7 @@ class DatabaseSeeder extends Seeder
         ]);
 
         User::create([
-            'name'  => 'Sigit Septiadi',
+            'name'  => 'Rahmat Irianto',
             'username' => 'Sigitpekerja',
             'statusadmin_id' => '3',
             'avatar' => 'user/avatar/foto1.png',
