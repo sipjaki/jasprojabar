@@ -226,9 +226,16 @@ color: #adb6ad;
                                     </div>
 
                                     <div style="position: relative; display: inline-block; margin-right:10px;">
+                                        <label>Masukan NIK</label>
+                                        <input type="search" id="searchInput" placeholder="Download Sertifikat" onkeyup="searchTable()" style="border: 1px solid #ccc; padding: 10px 20px; font-size: 14px; border-radius: 10px; width: 300px;">
+                                        <i class="fas fa-search" style="position: absolute; right: 10px; top: 50%; transform: translateY(-50%); font-size: 16px; color: #888;"></i>
+                                    </div>
+
+                                    <div style="position: relative; display: inline-block; margin-right:10px;">
                                         <input type="search" id="searchInput" placeholder="Cari kegiatan ...." onkeyup="searchTable()" style="border: 1px solid #ccc; padding: 10px 20px; font-size: 14px; border-radius: 10px; width: 300px;">
                                         <i class="fas fa-search" style="position: absolute; right: 10px; top: 50%; transform: translateY(-50%); font-size: 16px; color: #888;"></i>
                                     </div>
+
                                 </div>
 
                                 <table class="fl-table" id="sortableTable" style="margin-top: 15px; width: 100%; border-collapse: collapse;">
