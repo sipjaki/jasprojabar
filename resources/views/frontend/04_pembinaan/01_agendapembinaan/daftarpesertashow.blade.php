@@ -255,7 +255,7 @@ color: #45a049;
                                         {{-- @php $start = ($data->currentPage() - 1) * $data->perPage() + 1; @endphp --}}
                                         @foreach ($data as $item )
                                         <tr>
-                                            <td style="text-align: center;">{{ $loop->iteration}}</td>
+                                            <td style="text-align: center;">{{ $loop->index + 1 }}</td>
 
                                             <td style="text-transform: capitalize;">
                                                 {{ ucwords(strtolower(optional($item->user)->name ?? 'Tidak ada nama')) }}
