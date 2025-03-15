@@ -256,9 +256,8 @@ color: #45a049;
                                         @foreach ($data as $item )
                                         <tr>
                                             <td style="text-align: center;">{{ $loop->iteration}}</td>
-                                            <td style="text-transform: capitalize;">
-                                                {{ ucwords(strtolower(optional($item->user)->name ?? 'Tidak ada nama')) }}
-                                            </td>
+                                            {{-- <td style="text-transform: capitalize;">{{ ucwords(strtolower($item->user->name)) }}</td> --}}
+                                            <td>{{$item->user->name}}</td>
                                             <td>{{$item->jeniskelamin}}</td>
                                             <td style="text-align: center;">{{$item->instansi}}</td>
                                         </tr>
