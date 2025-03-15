@@ -258,7 +258,7 @@ color: #45a049;
                                             <td style="text-align: center;">{{ $loop->index + 1 }}</td>
 
                                             <td style="text-transform: capitalize;">
-                                                {{ ucwords(strtolower(optional($item->user)->name ?? 'Tidak ada nama')) }}
+                                                {{ dd($item->user) }}
                                             </td>
                                             {{-- <td style="text-transform: capitalize;">{{ ucwords(strtolower($item->user->name)) }}</td> --}}
                                             {{-- <td>{{$item->user->name}}</td> --}}
