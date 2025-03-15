@@ -208,7 +208,7 @@ color: #45a049;
                             <div class="table-wrapper" style="margin-top:-130px; position: relative;">
                                 <div style="display: flex; justify-content: space-between; margin-bottom: 10px; align-items: center;">
                                     <div class="pagination-info-box" style="margin-right:700px; padding: 10px; border: 1px solid black; background-color: #f9f9f9; border-radius: 5px;">
-                                        <div class="pagination-info" style="color: black; font-weight: 500; font-size:18px;">
+                                        <div class="pagination-info" style="color: black; font-weight: 200; font-size:18px;">
                                             Data Ke {{ $data->firstItem() }} Sampai {{ $data->lastItem() }} Dari {{ $data->total() }} Jumlah {{$title}}
                                         </div>
                                     </div>
@@ -244,13 +244,13 @@ color: #45a049;
                                 <table class="fl-table" id="sortableTable" style="margin-top: 15px; width: 100%; border-collapse: collapse;">
                                     <thead>
                                         <tr>
-                                            <th onclick="sortTable(0)" style="cursor:pointer; text-align:center; width:100px;"> No <span class="sort-icon">⇅</span></th>
-                                            <th onclick="sortTable(1)" style="cursor:pointer; text-align:center; width:300px;"> Nama Pekerjaan <span class="sort-icon">⇅</span></th>
-                                            <th onclick="sortTable(2)" style="cursor:pointer; text-align:center; width:400px;"> Tahun <span class="sort-icon">⇅</span></th>
+                                            <th onclick="sortTable(0)" style="cursor:pointer; text-align:center; width:80px;"> No <span class="sort-icon">⇅</span></th>
+                                            <th onclick="sortTable(1)" style="cursor:pointer; text-align:center; width:400px;"> Nama Pekerjaan <span class="sort-icon">⇅</span></th>
+                                            <th onclick="sortTable(2)" style="cursor:pointer; text-align:center; width:100px;"> Tahun <span class="sort-icon">⇅</span></th>
                                             <th onclick="sortTable(3)" style="cursor:pointer; text-align:center; width:150px;"> Badan Usaha PT/CV <span class="sort-icon">⇅</span></th>
-                                            <th onclick="sortTable(4)" style="cursor:pointer; text-align:center; width:150px;"> Sumber Dana <span class="sort-icon">⇅</span></th>
-                                            <th onclick="sortTable(5)" style="cursor:pointer; text-align:center; width:150px;"> Dinas <span class="sort-icon">⇅</span></th>
-                                            <th style="text-align:center; width:100px;"> View </th>
+                                            <th onclick="sortTable(4)" style="cursor:pointer; text-align:center; width:100px;"> Sumber Dana <span class="sort-icon">⇅</span></th>
+                                            <th onclick="sortTable(5)" style="cursor:pointer; text-align:center; width:200px;"> Dinas <span class="sort-icon">⇅</span></th>
+                                            <th style="text-align:center; width:75px;"> View </th>
                                         </tr>
                                     </thead>
                                     <tbody id="tableBody">
