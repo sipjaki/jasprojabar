@@ -8874,7 +8874,7 @@ pesertapelatihan::create([
     'instansi'                 => 'DPUPR Kabupaten Bandung Barat',
     'instansi'                 => 'DPUPR Kabupaten Bandung Barat',
     'sertifikat'                 => null,
-    'verfikasi'                 => 'SETUJU',
+    'verifikasi'                 => 'SETUJU',
 ]);
 
 
