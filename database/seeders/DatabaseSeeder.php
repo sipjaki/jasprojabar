@@ -8775,6 +8775,91 @@ paketpekerjaanmasjaki::create([
     'dinas'                      => 'Dinas Pekerjaan Umum dan Penataan Ruang'
 ]);
 
+paketpekerjaanmasjaki::create([
+    'prosespaket_id'            => 1,
+    'profiljenispekerjaan_id'    => 1,
+    'paketstatuspekerjaan_id'    => 2,
+    'namapekerjaan'              => 'BELANJA MODAL BANGUNAN KESEHATAN-BELANJA MODAL PAGAR',
+    'tahunpilihan_id'            => 4,
+    'cvptpenyedia'               => 'CV. REZEKY MUJI KONSTRUKSI',
+    'nib'                        => '3011220047491',
+    'nilaikontrak'               => 857589920.00,
+    'sumberdana_id'              => 2,
+    'jeniskontrak'               => 'Harga Satuan',
+    'karakteristikkontrak'       => 'Tahun Tunggal', // Duplikat dihapus
+    'bulanmulai'                 => 'Oktober',
+    'bulanselesai'               => 'Desember',
+    'dinas'                      => 'Dinas Pekerjaan Umum dan Penataan Ruang'
+]);
+
+paketpekerjaanmasjaki::create([
+    'prosespaket_id'            => 1,
+    'profiljenispekerjaan_id'    => 1,
+    'paketstatuspekerjaan_id'    => 3,
+    'namapekerjaan'              => 'Pembangunan Saluran Pengendali Banjir Kecamatan Cepu Lanjutan',
+    'tahunpilihan_id'            => 4,
+    'cvptpenyedia'               => 'CV. KINAN KARYA GEMILANG',
+    'nib'                        => '0260010050988',
+    'nilaikontrak'               => 763241000.00,
+    'sumberdana_id'              => 2,
+    'jeniskontrak'               => 'Harga Satuan',
+    'karakteristikkontrak'       => 'Tahun Tunggal', // Duplikat dihapus
+    'bulanmulai'                 => 'Juli',
+    'bulanselesai'               => 'Desember',
+    'dinas'                      => 'Dinas Pekerjaan Umum dan Penataan Ruang'
+]);
+
+paketpekerjaanmasjaki::create([
+    'prosespaket_id'            => 1,
+    'profiljenispekerjaan_id'    => 1,
+    'paketstatuspekerjaan_id'    => 3,
+    'namapekerjaan'              => 'Pembangunan Saluran Pengendali Banjir Ruas Jalan Sonokidul Kecamatan Kunduran',
+    'tahunpilihan_id'            => 4,
+    'cvptpenyedia'               => 'CV Restu Bumi Mustika',
+    'nib'                        => '1105240037134',
+    'nilaikontrak'               => 451076000.00,
+    'sumberdana_id'              => 2,
+    'jeniskontrak'               => 'Harga Satuan',
+    'karakteristikkontrak'       => 'Tahun Tunggal', // Duplikat dihapus
+    'bulanmulai'                 => 'Agustus',
+    'bulanselesai'               => 'Desember',
+    'dinas'                      => 'Dinas Pekerjaan Umum dan Penataan Ruang'
+]);
+
+paketpekerjaanmasjaki::create([
+    'prosespaket_id'            => 1,
+    'profiljenispekerjaan_id'    => 1,
+    'paketstatuspekerjaan_id'    => 3,
+    'namapekerjaan'              => 'PEMBANGUNAN SARANA DAN PRASARANA DRAINASE LINGKUNGAN PERMUKIMAN KUMUH DRAINASE LINGKUNGAN RT 2 RW 9 KELURAHAN CEPU KECAMATAN CEPU KAB. BLORA',
+    'tahunpilihan_id'            => 4,
+    'cvptpenyedia'               => 'CV.KEMBAR DUA',
+    'nib'                        => '0246000912019',
+    'nilaikontrak'               => 161453878.91,
+    'sumberdana_id'              => 2,
+    'jeniskontrak'               => 'Harga Satuan',
+    'karakteristikkontrak'       => 'Tahun Tunggal', // Duplikat dihapus
+    'bulanmulai'                 => 'Agustus',
+    'bulanselesai'               => 'November',
+    'dinas'                      => 'DINAS PERUMAHAN PEMUKIMAN DAN PERHUBUNGAN'
+]);
+
+paketpekerjaanmasjaki::create([
+    'prosespaket_id'            => 1,
+    'profiljenispekerjaan_id'    => 1,
+    'paketstatuspekerjaan_id'    => 3,
+    'namapekerjaan'              => 'Pembangunan Saluran Pengendali Banjir Kel. Kunduran Kec. Kunduran Lanjutan',
+    'tahunpilihan_id'            => 4,
+    'cvptpenyedia'               => 'CV. WIRATAMA GEMILANG',
+    'nib'                        => 'N/A',
+    'nilaikontrak'               =>  421000000.00,
+    'sumberdana_id'              => 2,
+    'jeniskontrak'               => 'Harga Satuan',
+    'karakteristikkontrak'       => 'Tahun Tunggal', // Duplikat dihapus
+    'bulanmulai'                 => 'Agustus',
+    'bulanselesai'               => 'Desember',
+    'dinas'                      => 'DINAS PEKERJAAN UMUM DAN PENATAAN RUANG'
+]);
+
 // MAKAN
 
 
