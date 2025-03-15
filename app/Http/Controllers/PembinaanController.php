@@ -159,7 +159,7 @@ class PembinaanController extends Controller
 
         }
 
-        $data = $query->paginate($perPage);
+        $datapesertapelatihan = $query->paginate($perPage);
 
         if ($request->ajax()) {
             return response()->json([
@@ -176,15 +176,20 @@ class PembinaanController extends Controller
 
         $user = Auth::user();
             // Ambil semua data dari tabel bujkkontraktor berdasarkan asosiasi_id
-            $data = pesertapelatihan::where('agendapelatihan_id', $agendapelatihan->id)->get(['id', 'user_id', 'jeniskelamin', 'instansi', 'namakegiatan']);
+            $datapesertapelatihan = pesertapelatihan::where('agendapelatihan_id', $agendapelatihan->id)->get(['id', 'user_id', 'jeniskelamin', 'instansi']);
             // $databujkkontraktorpaginate = bu::where('asosiasimasjaki_id', $asosiasi->id)->paginate(10);
 
+
+        $dataagendapelatihan = agendapelatihan::where('namakegiatan', $namakegiatan)->first();
+
+        // Ambil data user saat ini
+        $user = Auth::user();
 
 
         return view('frontend.04_pembinaan.01_agendapembinaan.daftarpesertashow', [
             'title' => 'Daftar Peserta Agenda Pelatihan',
-            'data' => $data,
-            // 'datapeserta' => $datapesertapelatihan,
+            'data' => $dataagendapelatihan,
+            'datapeserta' => $datapesertapelatihan,
             'perPage' => $perPage,
             'search' => $search,
             'user' => $user
