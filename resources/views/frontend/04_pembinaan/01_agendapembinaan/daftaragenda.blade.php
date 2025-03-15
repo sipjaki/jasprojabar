@@ -255,6 +255,7 @@ color: #adb6ad;
                                             <td style="text-align: center">
                                                 <div style="
                                                     display: inline-block;
+                                                    font-size:14px;
                                                     padding: 8px 16px;
                                                     background-color: navy;
                                                     color: white;
@@ -267,7 +268,7 @@ color: #adb6ad;
                                                 onmouseover="this.style.backgroundColor='white'; this.style.color='black';"
                                                 onmouseout="this.style.backgroundColor='navy'; this.style.color='white';">
                                                     <a href="/daftarpesertapelatihan/{{$item->namakegiatan}}" style="color: inherit; text-decoration: none;">
-                                                        <i class="fas fa-users" style="margin-right: 5px;"></i> Peserta
+                                                        <i class="fas fa-users" style="margin-right: 5px; font-size:14px;"></i> Peserta
                                                     </a>
                                                 </div>
                                             </td>
