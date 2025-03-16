@@ -215,7 +215,7 @@ class SatuanhargamaterialController extends Controller
         // if ($request->ajax()) {
         //     return response()->json($subdata);
         // }
-        return view('frontend.07_ahsp.03_hspkonstruksiumum.01_divisi1.divisi1', [
+        return view('frontend.07_ahsp.03_hspkonstruksiumum.01_divisi1.01_divisi1', [
             'title' => 'Harga Satuan Pekerjaan Divisi I Persiapan Pekerjaan',
             'data' => $data,
             // 'subdata' => $subdata,
@@ -318,7 +318,7 @@ class SatuanhargamaterialController extends Controller
         // if ($request->ajax()) {
         //     return response()->json($subdata);
         // }
-        return view('frontend.07_ahsp.03_hspkonstruksiumum.02_divisi2.divisi2', [
+        return view('frontend.07_ahsp.03_hspkonstruksiumum.02_divisi2.02_divisi2', [
             'title' => 'Harga Satuan Pekerjaan Divisi II Pekerjaan Struktur',
             'data' => $data,
             // 'subdata' => $subdata,
