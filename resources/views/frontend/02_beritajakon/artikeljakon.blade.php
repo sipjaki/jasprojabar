@@ -62,10 +62,11 @@
                         <script>
                             document.addEventListener("DOMContentLoaded", function () {
                                 var downloadLink = document.getElementById("downloadLink");
-                                var fileUrl = "{{ Storage::url($item->berkas) }}"; // Mengambil URL dari storage
+                                var fileUrl = "{{ asset('storage/' . $item->berkas) }}"; // Menggunakan asset() untuk storage
 
                                 if (fileUrl) {
                                     downloadLink.href = fileUrl;
+                                    downloadLink.setAttribute("download", "{{$item->berkas}}"); // Memastikan file bisa diunduh langsung
                                 } else {
                                     downloadLink.style.pointerEvents = "none";
                                     downloadLink.style.opacity = "0.5";
