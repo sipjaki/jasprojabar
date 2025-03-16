@@ -105,25 +105,25 @@
 
                                     <tr><td style="text-align: center;">B</td><td style="text-align: center;">Bahan</td><td></td><td></td><td></td><td></td><td></td></tr>
 
+
+                                    @foreach ($datatenagakerja as $item)
+
                                     <tr>
+                                        <td style="text-align: center;">{{ $loop->iteration }}</td>
+                                        <td>{{$item->uraian}}</td>
+                                        <td style="text-align: center;">{{$item->kode}}</td>
+                                        <td style="text-align: center;">{{$item->satuan}}</td>
+                                        <td style="text-align: center;">{{$item->koefisien}}</td>
+                                        <td class="text-end">{{ number_format($item->hargasatuan, 2, ',', '.') }}</td>
+                                        <td class="text-end">{{ number_format($item->jumlah_pagu, 2, ',', '.') }}</td>
+                                    </tr>
 
-                                        <td></td>
-                                        <td>Kaso 5/7 kayu kelas II (Perancah)</td>
-                                        <td></td>
-                                        <td style="text-align: center;">m3</td>
-                                        <td style="text-align: center;">0.039</td>
-                                        <td class="text-end">1.976.000</td>
-                                        <td class="text-end">76.471,20</td></tr>
+                                    @endforeach
 
-                                    {{-- <tr><td></td><td>Papan Kayu ukuran 2/20 cm</td><td></td><td>m3</td><td>0.040</td><td>1.976.000</td><td>78.249,60</td></tr>
-                                    <tr><td></td><td>Paku 5 inci</td><td></td><td>kg</td><td>0.587</td><td>16.400</td><td>9.630,08</td></tr>
-                                    <tr><td></td><td>Semen Portland</td><td></td><td>kg</td><td>26.406</td><td>1.450</td><td>38.288,70</td></tr>
-                                    <tr><td></td><td>Pasir Beton</td><td></td><td>kg</td><td>61.560</td><td>221</td><td>13.604,76</td></tr>
-                                    <tr><td></td><td>Kerikil (Maks 30mm)</td><td></td><td>kg</td><td>83.349</td><td>244</td><td>20.337,16</td></tr>
-                                    <tr><td></td><td>Air</td><td></td><td>liter</td><td>17.415</td><td>50</td><td>870,75</td></tr>
-                                    <tr><td></td><td>Residu</td><td></td><td>liter</td><td>0.400</td><td>5.400</td><td>2.160,00</td></tr> --}}
-                                    <tr class="text-end"><td colspan="6" class="text-end"><strong>Jumlah Harga Bahan</strong></td><td class="text-end"><strong>239.612,25</strong></td></tr>
-
+                                    <tr>
+                                        <td colspan="6" class="text-end"><strong>Jumlah Harga Bahan</strong></td>
+                                        <td class="text-end"><strong>{{ number_format($totalbahanmaterial, 2, ',', '.') }}</strong></td>
+                                    </tr>
 
                                     <tr><td style="text-align: center;">C</td><td style="text-align: center;">Peralatan</td><td></td><td></td><td></td><td></td><td></td></tr>
 
