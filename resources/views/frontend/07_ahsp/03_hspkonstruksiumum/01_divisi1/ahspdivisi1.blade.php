@@ -97,10 +97,17 @@
 
                                     @endforeach
 
-                                    <tr>
-                                        <td colspan="6" class="text-end"><strong>Jumlah Harga Tenaga Kerja</strong></td>
-                                        <td class="text-end" id="jumlah-hasil-penjumlahan"><strong></strong></td>
-                                    </tr>
+                                    {{-- <tr>
+                                        <td colspan="6" class="text-end"><strong>Total:</strong></td>
+                                        <td class="text-end"><strong>{{ number_format($totalJumlahPagu, 2, ',', '.') }}</strong></td>
+                                    </tr> --}}
+
+                                    <tfoot>
+                                        <tr>
+                                            <td colspan="6" class="text-end"><strong>Total:</strong></td>
+                                            <td class="text-end"><strong>{{ number_format($totalJumlahPagu, 2, ',', '.') }}</strong></td>
+                                        </tr>
+                                    </tfoot>
 
                                     <script>
                                         window.onload = function() {
