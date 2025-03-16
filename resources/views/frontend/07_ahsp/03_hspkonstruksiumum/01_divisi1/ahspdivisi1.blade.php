@@ -105,6 +105,7 @@
 
                                     <tr><td style="text-align: center;">B</td><td style="text-align: center;">Bahan</td><td></td><td></td><td></td><td></td><td></td></tr>
 
+                                    <hr>
 
                                     @foreach ($databahanmaterial as $item)
 

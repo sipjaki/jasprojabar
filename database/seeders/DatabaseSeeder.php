@@ -7384,6 +7384,16 @@ subhargadiv1bahan::create([
     'jumlah_pagu' => '2160.00',
 ]);
 
+subhargadiv1peralatan::create([
+    'hspkonstruksiumum_id' => 1,
+    'uraian' => null,
+    'kode' => null,
+    'satuan' => null,
+    'koefisien' => null,
+    'hargasatuan' => null,
+    'jumlah_pagu' => null,
+]);
+
 // makan
 
 hspkonstruksiumum::create([
