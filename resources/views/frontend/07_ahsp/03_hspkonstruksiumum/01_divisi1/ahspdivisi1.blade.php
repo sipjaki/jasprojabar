@@ -97,7 +97,7 @@ tbody tr:nth-child(odd) {
         <section class="news-details-section">
             <div class="container"  style="
             background: white;
-            max-width: 95%;
+            max-width: 1000px;
             margin: 30px auto;
             padding: 20px;
             height: auto;
