@@ -38,7 +38,7 @@
                                 <i class="fas fa-download" style="margin-right: 10px;"></i> Download
                             </button> --}}
                         </div>
-                               <br><br><br>
+                               <br>
                             <h4>Analisa Harga Satuan Pekerjaan</h4>
                     <hr>
                     <h4 style="font-family: 'Poppins', sans-serif;">
