@@ -9047,7 +9047,7 @@ artikeljakonmasjaki::create([
     'foto1' => '00_beranda/02_artikeljakon/artikeljakon.jpg',
     'foto2' => null,
     'foto3' => null,
-    'berkas' => null,
+    'berkas' => '00_beranda/02_artikeljakon/berkas/artikeljakon.pdf',
     'tanggal' => null,
 ]);
 
@@ -9056,7 +9056,8 @@ artikeljakonmasjaki::create([
     'foto1' => '00_beranda/02_artikeljakon/artikeljakon.jpg',
     'foto2' => null,
     'foto3' => null,
-    'berkas' => null,
+    // 'berkas' => null,
+    'berkas' => '00_beranda/02_artikeljakon/berkas/artikeljakon.pdf',
     'tanggal' => null,
 ]);
 
@@ -9065,7 +9066,8 @@ artikeljakonmasjaki::create([
     'foto1' => '00_beranda/02_artikeljakon/artikeljakon.jpg',
     'foto2' => null,
     'foto3' => null,
-    'berkas' => null,
+    'berkas' => '00_beranda/02_artikeljakon/berkas/artikeljakon.pdf',
+    // 'berkas' => null,
     'tanggal' => null,
 ]);
 
@@ -9074,7 +9076,8 @@ artikeljakonmasjaki::create([
     'foto1' => '00_beranda/02_artikeljakon/artikeljakon.jpg',
     'foto2' => null,
     'foto3' => null,
-    'berkas' => null,
+    'berkas' => '00_beranda/02_artikeljakon/berkas/artikeljakon.pdf',
+    // 'berkas' => null,
     'tanggal' => null,
 ]);
 
@@ -9083,7 +9086,8 @@ artikeljakonmasjaki::create([
     'foto1' => '00_beranda/02_artikeljakon/artikeljakon.jpg',
     'foto2' => null,
     'foto3' => null,
-    'berkas' => null,
+    'berkas' => '00_beranda/02_artikeljakon/berkas/artikeljakon.pdf',
+    // 'berkas' => null,
     'tanggal' => null,
 ]);
 
@@ -9092,7 +9096,8 @@ artikeljakonmasjaki::create([
     'foto1' => '00_beranda/02_artikeljakon/artikeljakon.jpg',
     'foto2' => null,
     'foto3' => null,
-    'berkas' => null,
+    'berkas' => '00_beranda/02_artikeljakon/berkas/artikeljakon.pdf',
+    // 'berkas' => null,
     'tanggal' => null,
 ]);
 
@@ -9101,7 +9106,8 @@ artikeljakonmasjaki::create([
     'foto1' => '00_beranda/02_artikeljakon/artikeljakon.jpg',
     'foto2' => null,
     'foto3' => null,
-    'berkas' => null,
+    'berkas' => '00_beranda/02_artikeljakon/berkas/artikeljakon.pdf',
+    // 'berkas' => null,
     'tanggal' => null,
 ]);
 
@@ -9110,7 +9116,8 @@ artikeljakonmasjaki::create([
     'foto1' => '00_beranda/02_artikeljakon/artikeljakon.jpg',
     'foto2' => null,
     'foto3' => null,
-    'berkas' => null,
+    'berkas' => '00_beranda/02_artikeljakon/berkas/artikeljakon.pdf',
+    // 'berkas' => null,
     'tanggal' => null,
 ]);
 
@@ -9119,7 +9126,8 @@ artikeljakonmasjaki::create([
     'foto1' => '00_beranda/02_artikeljakon/artikeljakon.jpg',
     'foto2' => null,
     'foto3' => null,
-    'berkas' => null,
+    'berkas' => '00_beranda/02_artikeljakon/berkas/artikeljakon.pdf',
+    // 'berkas' => null,
     'tanggal' => null,
 ]);
 
@@ -9128,7 +9136,8 @@ artikeljakonmasjaki::create([
     'foto1' => '00_beranda/02_artikeljakon/artikeljakon.jpg',
     'foto2' => null,
     'foto3' => null,
-    'berkas' => null,
+    'berkas' => '00_beranda/02_artikeljakon/berkas/artikeljakon.pdf',
+    // 'berkas' => null,
     'tanggal' => null,
 ]);
 
