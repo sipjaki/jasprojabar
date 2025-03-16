@@ -22,21 +22,21 @@
                             <!-- Tombol Tutup dengan warna hijau -->
                             <button onclick="window.history.back()"
                                     style="padding: 10px 40px; width: 200px; height: 60px; font-size: 16px;
-                                           background-color: rgb(255, 252, 252); color: white; border: none; border-radius: 10px;
+                                           background-color: black; color: white; border: none; border-radius: 10px;
                                            cursor: pointer; transition: 0.3s;"
                                     onmouseover="this.style.backgroundColor='white'; this.style.color='black';"
                                     onmouseout="this.style.backgroundColor='black'; this.style.color='white';">
-                                <span style="color: white">❌</span>Tutup
+                                ❌ Tutup
                             </button>
 
                             <!-- Tombol Download Berkas -->
-                            <button style="padding: 15px 40px; width: 150px; height: 60px; font-size: 16px;
+                            {{-- <button style="padding: 15px 40px; width: 150px; height: 60px; font-size: 16px;
                                           background-color: navy; color: white; border: none; border-radius: 10px;
                                           cursor: pointer; transition: 0.3s;"
                                     onmouseover="this.style.backgroundColor='white'; this.style.color='black';"
                                     onmouseout="this.style.backgroundColor='navy'; this.style.color='white';">
                                 <i class="fas fa-download" style="margin-right: 10px;"></i> Download
-                            </button>
+                            </button> --}}
                         </div>
                                <br><br><br>
                             <h4>Analisa Harga Satuan Pekerjaan</h4>
