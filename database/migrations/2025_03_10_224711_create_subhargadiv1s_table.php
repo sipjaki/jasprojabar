@@ -19,7 +19,8 @@ return new class extends Migration
             $table->string('satuan')->nullable();
             $table->string('koefisien')->nullable();
             $table->string('hargasatuan')->nullable();
-            $table->bigInteger('jumlahharga');
+            // $table->bigInteger('jumlahharga');
+            $table->bigInteger('jumlah_pagu'); // Menambahkan kolom JUMLAH PAGU sebagai BIGINT
             // $table->bigInteger('jumlah_pagu'); // Menambahkan kolom JUMLAH PAGU sebagai BIGINT
             $table->softDeletes();
             $table->timestamps();
