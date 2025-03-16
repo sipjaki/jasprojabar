@@ -16,9 +16,10 @@
         <section class="news-details-section" style="background-image: url(assets/00_dokmasjaki/03_datajakon/bannerbetter.jpg);">
             <div class="container" style="margin-top:-50px;" style="background: white; max-width: 95%; margin: 30px auto; padding: 20px; border-radius: 20px; box-shadow: 0px 4px 10px rgba(14, 112, 1, 0.1);">
                 <div class="row">
+
                     <div class="col-lg-12">
                         <button onclick="window.history.back()"
-                        style="margin-top: 20px; padding: 15px 40px; width: 200px; height: 60px; font-size: 18px;
+                        style="margin-top: 20px; padding: 15px 40px; width: 175px; height: 40px; font-size: 18px;
                                background-color: black; color: white; border: none; border-radius: 10px;
                                cursor: pointer; transition: 0.3s;"
                         onmouseover="this.style.backgroundColor='white'; this.style.color='black';"
@@ -27,6 +28,7 @@
                     </button>
 
                         <h2>Analisa Harga Satuan Pekerjaan</h2>
+
                         <div class="table-responsive">
                             <table class="table table-bordered table-striped">
                                 <thead style="background-color: #004d40; color: white;">
