@@ -256,7 +256,8 @@ color: #45a049;
                                                     {{-- {{ optional($item->kode->id) }} --}}
                                                 </td>
                                                 {{-- <td style="text-align: center;">{{$item->hspkodepekerjaan->namapekerjaan}}</td> --}}
-                                                <td style="text-align: center">
+
+                                                <td style="text-align: left">
                                                     <a href="javascript:void(0);"
                                                        style="color: blue; text-decoration: none;"
                                                        onclick="redirectToPage('{{ $item->jenispekerjaan }}')">
