@@ -36,8 +36,8 @@
                     <div class="news-details-box-image">
                         <div class="news-details-box-image-inner" style="display: flex; gap: 5px; flex-wrap: wrap;">
                             <img src="{{ asset('storage/' . $data->foto1) }}" class="img-fluid" alt="img-193" style="width: calc(33.33% - 5px); object-fit: cover;">
-                            <img src="{{ asset('storage/' . $data->foto1) }}" class="img-fluid" alt="img-193" style="width: calc(33.33% - 5px); object-fit: cover;">
-                            <img src="{{ asset('storage/' . $data->foto1) }}" class="img-fluid" alt="img-193" style="width: calc(33.33% - 5px); object-fit: cover;">
+                            <img src="{{ asset('storage/' . $data->foto2) }}" class="img-fluid" alt="img-193" style="width: calc(33.33% - 5px); object-fit: cover;">
+                            <img src="{{ asset('storage/' . $data->foto3) }}" class="img-fluid" alt="img-193" style="width: calc(33.33% - 5px); object-fit: cover;">
 
                             <a href="#" class="news-details-box-date">
                                 {{ \Carbon\Carbon::parse($data->tanggal)->translatedFormat('l, d F Y') }}
