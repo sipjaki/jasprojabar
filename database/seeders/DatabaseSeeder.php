@@ -7314,6 +7314,76 @@ subhargadiv1bahan::create([
     'jumlah_pagu' => '76471.20',
 ]);
 
+subhargadiv1bahan::create([
+    'hspkonstruksiumum_id' => 1,
+    'uraian' => 'Papan  Kayu  ukuran 2/20 cm',
+    'kode' => null,
+    'satuan' => 'm3',
+    'koefisien' => 0.040,
+    'hargasatuan' => 1976000.00    ,
+    'jumlah_pagu' => '78249.60',
+]);
+
+subhargadiv1bahan::create([
+    'hspkonstruksiumum_id' => 1,
+    'uraian' => 'Paku 5 inci',
+    'kode' => null,
+    'satuan' => 'kg',
+    'koefisien' => 0.587,
+    'hargasatuan' => 16400.00,
+    'jumlah_pagu' => '9630.08',
+]);
+
+subhargadiv1bahan::create([
+    'hspkonstruksiumum_id' => 1,
+    'uraian' => 'Semen Portland',
+    'kode' => null,
+    'satuan' => 'kg',
+    'koefisien' => 26.406,
+    'hargasatuan' => 1450.00,
+    'jumlah_pagu' => '38288.70',
+]);
+
+subhargadiv1bahan::create([
+    'hspkonstruksiumum_id' => 1,
+    'uraian' => 'Pasir Beton (kg)',
+    'kode' => null,
+    'satuan' => 'kg',
+    'koefisien' => 61.560,
+    'hargasatuan' => 221.00    ,
+    'jumlah_pagu' => '13604.76',
+]);
+
+subhargadiv1bahan::create([
+    'hspkonstruksiumum_id' => 1,
+    'uraian' => 'Kerikil (Maks 30mm)',
+    'kode' => null,
+    'satuan' => 'kg',
+    'koefisien' => 83.349    ,
+    'hargasatuan' => 244.00    ,
+    'jumlah_pagu' => '20337.16',
+]);
+
+subhargadiv1bahan::create([
+    'hspkonstruksiumum_id' => 1,
+    'uraian' => 'Air',
+    'kode' => null,
+    'satuan' => 'liter',
+    'koefisien' => 17.415    ,
+    'hargasatuan' => 50.00    ,
+    'jumlah_pagu' => '870.75',
+]);
+
+subhargadiv1bahan::create([
+    'hspkonstruksiumum_id' => 1,
+    'uraian' => 'Residu',
+    'kode' => null,
+    'satuan' => 'liter',
+    'koefisien' => 0.400    ,
+    'hargasatuan' => 5400.00    ,
+    'jumlah_pagu' => '2160.00',
+]);
+
 // makan
 
 hspkonstruksiumum::create([
