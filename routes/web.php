@@ -291,7 +291,7 @@ Route::get('/shstblora', [ShstbloraController::class, 'index']);
 
 // DATA HSP KONSTRUKSI UMUM
 // ==========================================================================================================
-Route::get('/hspkonstruksiumum', [HspkonstruksiumumController::class, 'index']);
+// Route::get('/hspkonstruksiumum', [HspkonstruksiumumController::class, 'index']);
 // Route::get('/shstblora/{kecamatanblora}', [TokobangunanbloraController::class, 'tokobangunanblorashow']);
 
 // ==========================================================================================================

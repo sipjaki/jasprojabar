@@ -7227,6 +7227,7 @@ hspkonstruksiumum::create([
     'kode' => '1',
     'subhargadiv1_id' => 1,
     'jenispekerjaan' => 'Pembuatan 1 m’ pagar sementara dari kayu tinggi 2 meter',
+    'satuanmaterial' => 'M1',
     'hargasatuan' => '380843.37',
 ]);
 hspkonstruksiumum::create([
@@ -7236,6 +7237,7 @@ hspkonstruksiumum::create([
     'kode' => '2',
     'subhargadiv1_id' => 2,
     'jenispekerjaan' => 'Pembuatan 1 m’ pagar sementara dari seng gelombang rangka kayu tinggi 2 meter ',
+    'satuanmaterial' => 'M1',
     'hargasatuan' => '295990.26',
 ]);
 hspkonstruksiumum::create([
@@ -7245,6 +7247,7 @@ hspkonstruksiumum::create([
     'kode' => '3',
     'subhargadiv1_id' => 3,
     'jenispekerjaan' => 'Pembuatan 1 m’ pagar sementara dari kawat duri tinggi 2 meter',
+    'satuanmaterial' => 'M1',
     'hargasatuan' => '1254695.60',
 ]);
 
@@ -7255,6 +7258,7 @@ hspkonstruksiumum::create([
     'kode' => '4',
     'subhargadiv1_id' => 4,
     'jenispekerjaan' => 'Pembuatan 1 m’ pagar sementara seng gelombang rangka baja L.40.40.4, tinggi pagar 1,8 m’ ',
+    'satuanmaterial' => 'M1',
     'hargasatuan' => '550180.75',
 ]);
 
@@ -7265,6 +7269,7 @@ hspkonstruksiumum::create([
     'kode' => '5',
     'subhargadiv1_id' => 5,
     'jenispekerjaan' => 'Pembuatan 1 m2 pagar BRC galvanis’ ',
+    'satuanmaterial' => 'M2',
     'hargasatuan' => '11395.20',
 ]);
 
@@ -7275,6 +7280,7 @@ hspkonstruksiumum::create([
     'kode' => '6',
     'subhargadiv1_id' => 6,
     'jenispekerjaan' => 'Pemasangan 1 m2  Panel Beton Pracetak 50x50x240 untuk Pagar',
+    'satuanmaterial' => 'M2',
     'hargasatuan' => '605010.56',
 ]);
 
@@ -7285,6 +7291,7 @@ hspkonstruksiumum::create([
     'kode' => '1',
     'subhargadiv1_id' => 8,
     'jenispekerjaan' => '1 buah papan nama pekerjaan ukuran 0,8x1,2 menggunakan multiflex 18 mm, frame besi siku dan tiang kayu 8/12',
+    'satuanmaterial' => 'M1',
     'hargasatuan' => '1028388.41',
 ]);
 
@@ -7295,6 +7302,7 @@ hspkonstruksiumum::create([
     'kode' => '2',
     'subhargadiv1_id' => 9,
     'jenispekerjaan' => '1 buah papan nama pekerjaan ukuran 0,6x0,8 menggunakan multiplex 10 mm, frame allumunium siku & tiang kayu 5/7, printing banner plastik',
+    'satuanmaterial' => 'M1',
     'hargasatuan' => '488860.90',
 ]);
 
@@ -7305,6 +7313,7 @@ hspkonstruksiumum::create([
     'kode' => '3',
     'subhargadiv1_id' => 10,
     'jenispekerjaan' => 'Pembuatan 1 m2 kantor sementara/rumah jaga/gudang semen dan peralatan lantai plesteran, dinding setengah tembok',
+    'satuanmaterial' => 'M2',
     'hargasatuan' => '1336764.00',
 ]);
 
@@ -7315,6 +7324,7 @@ hspkonstruksiumum::create([
     'kode' => '4',
     'subhargadiv1_id' => 11,
     'jenispekerjaan' => 'Pembuatan 1 m2 direksi keet (Kantor), los kerja dan gudang*)',
+    'satuanmaterial' => 'M2',
     'hargasatuan' => '2265024.65',
 ]);
 
@@ -7325,6 +7335,7 @@ hspkonstruksiumum::create([
     'kode' => '5',
     'subhargadiv1_id' => 12,
     'jenispekerjaan' => 'Pembuatan 1 m2 Jalan sementara Lapis Macadam',
+    'satuanmaterial' => 'M2',
     'hargasatuan' => '2262393.94',
 ]);
 
@@ -7335,6 +7346,7 @@ hspkonstruksiumum::create([
     'kode' => '1',
     'subhargadiv1_id' => 13,
     'jenispekerjaan' => '1 m2 pembersihan dan pengupasan permukaan tanah (striping) s.d. tanaman ∅ 2 cm ',
+    'satuanmaterial' => 'M2',
     'hargasatuan' => '11291.50',
 ]);
 
@@ -7345,6 +7357,7 @@ hspkonstruksiumum::create([
     'kode' => '2',
     'subhargadiv1_id' => 14,
     'jenispekerjaan' => 'Tebas tebang 1 m2 tanaman/tumbuhan ∅ < 5 cm ',
+    'satuanmaterial' => 'Batang',
     'hargasatuan' => '3606.90',
 ]);
 
@@ -7355,6 +7368,7 @@ hspkonstruksiumum::create([
     'kode' => '3',
     'subhargadiv1_id' => 15,
     'jenispekerjaan' => 'Tebas tebang 1 m2  tanaman/tumbuhan ∅  >5 s.d. 15 cm',
+    'satuanmaterial' => 'Batang',
     'hargasatuan' => '6011.50',
 ]);
 
@@ -7365,6 +7379,7 @@ hspkonstruksiumum::create([
     'kode' => '4',
     'subhargadiv1_id' => 15,
     'jenispekerjaan' => 'Tebas tebang 1 batang pohon/tumbuhan ∅  >15 s.d. 30 cm',
+    'satuanmaterial' => 'Batang',
     'hargasatuan' => '6011.50',
 ]);
 
@@ -7375,6 +7390,7 @@ hspkonstruksiumum::create([
     'kode' => '5',
     'subhargadiv1_id' => 15,
     'jenispekerjaan' => 'Tebas tebang 1 batang pohon/tumbuhan ∅ > 30 s.d 50 cm ',
+    'satuanmaterial' => 'Batang',
     'hargasatuan' => '3982.82',
 ]);
 
@@ -7385,6 +7401,7 @@ hspkonstruksiumum::create([
     'kode' => '5',
     'subhargadiv1_id' => 16,
     'jenispekerjaan' => 'Tebas  tebang  1  batang  pohon/tumbuhan  ∅   >  50  s.d  75  cm (diameter pohon diukur 1 m di atas permukaan tanah) ',
+    'satuanmaterial' => 'Batang',
     'hargasatuan' => '23690.38',
 ]);
 
@@ -7466,6 +7483,7 @@ hspkonstruksiumum2::create([
     'kode' => '1',
     'subhargadiv2_id' => 1,
     'jenispekerjaan' => 'Pemasangan 1 m2  Atap Pelana Rangka Atap Baja Ringan (Canai Dingin) profil C75',
+    'satuanmaterial' => 'M2',
     'hargasatuan' => '333267.61',
 ]);
 
@@ -7476,6 +7494,7 @@ hspkonstruksiumum2::create([
     'kode' => '2',
     'subhargadiv2_id' => 2,
     'jenispekerjaan' => 'Pemasangan 1 m2  Atap Jurai/Limasan Rangka Atap Baja Ringan (Canai Dingin) Profil C75',
+    'satuanmaterial' => 'M2',
     'hargasatuan' => '339726.48',
 ]);
 
@@ -7486,6 +7505,7 @@ hspkonstruksiumum2::create([
     'kode' => '2.a',
     'subhargadiv2_id' => 3,
     'jenispekerjaan' => 'Pemasangan 1 m2 Usuk dan Reng Rangka Baja Ringan',
+    'satuanmaterial' => 'M2',
     'hargasatuan' => '221558.70',
 ]);
 
@@ -7496,6 +7516,7 @@ hspkonstruksiumum2::create([
     'kode' => '1',
     'subhargadiv2_id' => 4,
     'jenispekerjaan' => 'Pemasangan  1  m3   Konstruksi  Kuda-kuda  Konvensional,  Kayu Kelas I, II dan III Bentang Sampai Dengan 6 Meter',
+    'satuanmaterial' => 'M3',
     'hargasatuan' => '17986408.00',
 ]);
 
@@ -7506,6 +7527,7 @@ hspkonstruksiumum2::create([
     'kode' => '2',
     'subhargadiv2_id' => 5,
     'jenispekerjaan' => 'Pemasangan 1 m3 Konstruksi Kuda-kuda Expose, Kayu Kelas I',
+    'satuanmaterial' => 'M3',
     'hargasatuan' => '23606143.00',
 ]);
 
@@ -7516,6 +7538,7 @@ hspkonstruksiumum2::create([
     'kode' => '3',
     'subhargadiv2_id' => 6,
     'jenispekerjaan' => 'Pemasangan 1 m3 Konstruksi Gordeng, Kayu kelas II',
+    'satuanmaterial' => 'M3',
     'hargasatuan' => '17123040.00',
 ]);
 
@@ -7526,6 +7549,7 @@ hspkonstruksiumum2::create([
     'kode' => '4',
     'subhargadiv2_id' => 7,
     'jenispekerjaan' => 'Pemasangan 1 m2 Rangka Atap Genteng Keramik, Kayu kelas II',
+    'satuanmaterial' => 'M2',
     'hargasatuan' => '267844.39',
 ]);
 
@@ -7536,6 +7560,7 @@ hspkonstruksiumum2::create([
     'kode' => '5',
     'subhargadiv2_id' => 7,
     'jenispekerjaan' => 'Pemasangan 1 m2 Rangka Atap Genteng Beton, Kayu Kelas II',
+    'satuanmaterial' => 'M2',
     'hargasatuan' => '296395.99',
 ]);
 
@@ -7546,9 +7571,9 @@ hspkonstruksiumum2::create([
     'kode' => '6',
     'subhargadiv2_id' => 8,
     'jenispekerjaan' => 'Pemasangan 1 m2 Rangka Atap Sirap, Kayu Kelas II',
+    'satuanmaterial' => 'M2',
     'hargasatuan' => '43684.30',
 ]);
-
 
 
 // ============================================= LIST DAFTAR HARGA KONSTRUKSI UMUM DIVISI 3 ===========================
@@ -7690,6 +7715,7 @@ hspkonstruksiumum3::create([
     'kode' => '1',
     'subhargadiv3_id' => 1,
     'jenispekerjaan' => 'Pemasangan 1 m2 Atap Genteng Palentong Kecil',
+    'satuanmaterial' => 'M2',
     'hargasatuan' => '104607.25',
 ]);
 
@@ -7700,6 +7726,7 @@ hspkonstruksiumum3::create([
     'kode' => '2',
     'subhargadiv3_id' => 2,
     'jenispekerjaan' => 'Pemasangan 1 m2 Atap Genteng Kodok Glazuur',
+    'satuanmaterial' => 'M2',
     'hargasatuan' => '100207.25',
 ]);
 
@@ -7710,6 +7737,7 @@ hspkonstruksiumum3::create([
     'kode' => '3.a',
     'subhargadiv3_id' => 3,
     'jenispekerjaan' => 'Pemasangan 1 m2 Atap Genteng Palentong Besar Uk. 32,5 cm x 23,5 cm Jarak Reng 26 cm',
+    'satuanmaterial' => 'M2',
     'hargasatuan' => '145505.25',
 ]);
 
@@ -7720,6 +7748,7 @@ hspkonstruksiumum3::create([
     'kode' => '4',
     'subhargadiv3_id' => 4,
     'jenispekerjaan' => 'Pemasangan 1 m2 Atap Genteng Beton',
+    'satuanmaterial' => 'M2',
     'hargasatuan' => '162235.59',
 ]);
 
@@ -7730,6 +7759,7 @@ hspkonstruksiumum3::create([
     'kode' => '5',
     'subhargadiv3_id' => 5,
     'jenispekerjaan' => 'Pemasangan 1 m’ Nok/Bubung Genteng Palentong Kecil',
+    'satuanmaterial' => 'M1',
     'hargasatuan' => '138056.05',
 ]);
 
@@ -7740,6 +7770,7 @@ hspkonstruksiumum3::create([
     'kode' => '6',
     'subhargadiv3_id' => 6,
     'jenispekerjaan' => 'Pemasangan 1 m’ Nok/Bubung Genteng Kodok Glazuur',
+    'satuanmaterial' => 'M1',
     'hargasatuan' => '147076.05',
 ]);
 
@@ -7750,6 +7781,7 @@ hspkonstruksiumum3::create([
     'kode' => '7',
     'subhargadiv3_id' => 7,
     'jenispekerjaan' => 'Pemasangan 1 m’ Nok/Bubung Genteng Palentong Besar',
+    'satuanmaterial' => 'M1',
     'hargasatuan' => '162256.05',
 ]);
 
@@ -7760,6 +7792,7 @@ hspkonstruksiumum3::create([
     'kode' => '8',
     'subhargadiv3_id' => 8,
     'jenispekerjaan' => 'Pemasangan 1 m’ Nok/Bubung Genteng Beton',
+    'satuanmaterial' => 'M1',
     'hargasatuan' => '137970.80',
 ]);
 
@@ -7771,6 +7804,7 @@ hspkonstruksiumum3::create([
     'kode' => '1',
     'subhargadiv3_id' => 9,
     'jenispekerjaan' => 'Pemasangan 1 m2 Langit-langit (Plafon) Akustik Ukuran 30 x 30 cm',
+    'satuanmaterial' => 'M2',
     'hargasatuan' => '76874.60',
 ]);
 
@@ -7808,6 +7842,7 @@ hspkonstruksiumum4::create([
     'kode' => '3',
     'subhargadiv4_id' => 1,
     'jenispekerjaan' => 'Penanaman 1 buah pohon sedang Ketapang Kencana (Terminalia mantaly) Diameter 3-5 cm, tinggi 3-6 meter, polybag 50 L',
+    'satuanmaterial' => 'Buah',
     'hargasatuan' => '947274.90',
 ]);
 
@@ -7818,6 +7853,7 @@ hspkonstruksiumum4::create([
     'kode' => '4',
     'subhargadiv4_id' => 2,
     'jenispekerjaan' => 'Penanaman 1 buah pohon besar Kamboja (Plumeria sp.) Diameter 7-15 cm, tinggi diatas 6 meter, polybag 100 L',
+    'satuanmaterial' => 'Buah',
     'hargasatuan' => '2010149.55',
 ]);
 
@@ -7828,6 +7864,7 @@ hspkonstruksiumum4::create([
     'kode' => '1',
     'subhargadiv4_id' => 3,
     'jenispekerjaan' => 'Penyiraman 1m2 area tanam untuk 1 hari (dengan selang plastik 3/4 inch)',
+    'satuanmaterial' => 'M2',
     'hargasatuan' => '317.24',
 ]);
 
@@ -7896,6 +7933,7 @@ hspkonstruksiumum5::create([
     'kode' => '1.26',
     'subhargadiv5_id' => 1,
     'jenispekerjaan' => 'Pemasangan 1 m’ Kabel NYY 3 x 4 mm²',
+    'satuanmaterial' => 'M1',
     'hargasatuan' => '38717.80',
 ]);
 
@@ -7906,6 +7944,7 @@ hspkonstruksiumum5::create([
     'kode' => '1.35',
     'subhargadiv5_id' => 2,
     'jenispekerjaan' => 'Pemasangan 1 m’ Kabel NYY 4 x 4 mm²',
+    'satuanmaterial' => 'M1',
     'hargasatuan' => '69457.30',
 ]);
 
@@ -7916,6 +7955,7 @@ hspkonstruksiumum5::create([
     'kode' => '1.36',
     'subhargadiv5_id' => 3,
     'jenispekerjaan' => 'Pemasangan 1 m’ Kabel NYY 4 x 6 mm²',
+    'satuanmaterial' => 'M1',
     'hargasatuan' => '93365.80',
 ]);
 
@@ -7926,6 +7966,7 @@ hspkonstruksiumum5::create([
     'kode' => '1.37',
     'subhargadiv5_id' => 4,
     'jenispekerjaan' => 'Pemasangan 1 m’ Kabel NYY 4 x 10 mm²',
+    'satuanmaterial' => 'M1',
     'hargasatuan' => '145479.40',
 ]);
 
@@ -7936,6 +7977,7 @@ hspkonstruksiumum5::create([
     'kode' => '1.38',
     'subhargadiv5_id' => 5,
     'jenispekerjaan' => 'Pemasangan 1 m’ Kabel NYY 4 x 16 mm²',
+    'satuanmaterial' => 'M1',
     'hargasatuan' => '209235.40',
 ]);
 
@@ -7946,6 +7988,7 @@ hspkonstruksiumum5::create([
     'kode' => '1.39',
     'subhargadiv5_id' => 6,
     'jenispekerjaan' => 'Pemasangan 1 m’ Kabel NYY 4 x 25 mm²',
+    'satuanmaterial' => 'M1',
     'hargasatuan' => '318876.80',
 ]);
 
@@ -7956,6 +7999,7 @@ hspkonstruksiumum5::create([
     'kode' => '1.40',
     'subhargadiv5_id' => 7,
     'jenispekerjaan' => 'Pemasangan 1 m’ Kabel NYY 4 x 35 mm²',
+    'satuanmaterial' => 'M1',
     'hargasatuan' => '432682.80',
 ]);
 
@@ -7966,6 +8010,7 @@ hspkonstruksiumum5::create([
     'kode' => '1.41',
     'subhargadiv5_id' => 8,
     'jenispekerjaan' => 'Pemasangan 1 m’ Kabel NYY 4 x 50 mm²',
+    'satuanmaterial' => 'M1',
     'hargasatuan' => '571313.60',
 ]);
 
@@ -7976,6 +8021,7 @@ hspkonstruksiumum5::create([
     'kode' => '1.42',
     'subhargadiv5_id' => 9,
     'jenispekerjaan' => 'Pemasangan 1 m’ Kabel NYY 4 x 70 mm²',
+    'satuanmaterial' => 'M1',
     'hargasatuan' => '812174.00',
 ]);
 
@@ -7986,6 +8032,7 @@ hspkonstruksiumum5::create([
     'kode' => '1.43',
     'subhargadiv5_id' => 10,
     'jenispekerjaan' => 'Pemasangan 1 m’ Kabel NYY 4 x 94 mm²',
+    'satuanmaterial' => 'M1',
     'hargasatuan' => '1116916.90',
 ]);
 
@@ -7996,6 +8043,7 @@ hspkonstruksiumum5::create([
     'kode' => '12.4',
     'subhargadiv5_id' => 11,
     'jenispekerjaan' => 'Pemasangan 1 Unit Kabel Tray (Horizontal) 300 x 100 mm',
+    'satuanmaterial' => 'M1',
     'hargasatuan' => '401790.40',
 ]);
 
@@ -8006,6 +8054,7 @@ hspkonstruksiumum5::create([
     'kode' => '4.a',
     'subhargadiv5_id' => 12,
     'jenispekerjaan' => 'Pemasangan 1 Unit Main Distribution Panel (MDP) Wall Mounted ukuran 60 x 100 x 25 Cm',
+    'satuanmaterial' => 'Unit',
     'hargasatuan' => '3829710.50',
 ]);
 
@@ -8102,6 +8151,7 @@ hspkonstruksiumum6::create([
     'kode' => '7',
     'subhargadiv6_id' => 1,
     'jenispekerjaan' => 'Pemasangan 1 buah Tangki Toren Kap. 0,7 m3',
+    'satuanmaterial' => 'Buah',
     'hargasatuan' => '1781487.40',
 ]);
 
@@ -8112,6 +8162,7 @@ hspkonstruksiumum6::create([
     'kode' => '8',
     'subhargadiv6_id' => 2,
     'jenispekerjaan' => 'Pemasangan 1 buah Tangki Toren Kap. 1,5 m3',
+    'satuanmaterial' => 'Buah',
     'hargasatuan' => '1781487.40',
 ]);
 
@@ -8122,6 +8173,7 @@ hspkonstruksiumum6::create([
     'kode' => '10',
     'subhargadiv6_id' => 3,
     'jenispekerjaan' => 'Pemasangan 1 buah Tangki Toren Kap. 3 m3',
+    'satuanmaterial' => 'Buah',
     'hargasatuan' => '6334704.20',
 ]);
 
@@ -8132,6 +8184,7 @@ hspkonstruksiumum6::create([
     'kode' => '12',
     'subhargadiv6_id' => 4,
     'jenispekerjaan' => 'Pemasangan 1 buah Tangki Toren Kap. 5 m3',
+    'satuanmaterial' => 'Buah',
     'hargasatuan' => '11434304.20',
 ]);
 
@@ -8142,6 +8195,7 @@ hspkonstruksiumum6::create([
     'kode' => '3',
     'subhargadiv6_id' => 5,
     'jenispekerjaan' => 'Pemasangan 1 Unit Pompa Booster 150 lpm; Vertical In Line –',
+    'satuanmaterial' => 'Unit',
     'hargasatuan' => '58170080.10',
 ]);
 
@@ -8152,6 +8206,7 @@ hspkonstruksiumum6::create([
     'kode' => '4',
     'subhargadiv6_id' => 6,
     'jenispekerjaan' => 'Pemasangan 1 Unit Pompa Jet 27 lpm',
+    'satuanmaterial' => 'Unit',
     'hargasatuan' => '49861724.00',
 ]);
 
@@ -8162,6 +8217,7 @@ hspkonstruksiumum6::create([
     'kode' => '6',
     'subhargadiv6_id' => 7,
     'jenispekerjaan' => 'Pemasangan 1 Unit Pompa Jet 100 lpm',
+    'satuanmaterial' => 'Unit',
     'hargasatuan' => '4728724.00',
 ]);
 
@@ -8172,6 +8228,7 @@ hspkonstruksiumum6::create([
     'kode' => '8.a',
     'subhargadiv6_id' => 8,
     'jenispekerjaan' => 'Pemasangan  1  Unit  Pompa  Sumbmersible ( Speed For Pump data = 10700 rpm, rateflow 5 m3/h, ratehead = 73 - 100 m  )',
+    'satuanmaterial' => 'Unit',
     'hargasatuan' => '21030786.70',
 ]);
 
@@ -8182,6 +8239,7 @@ hspkonstruksiumum6::create([
     'kode' => '2',
     'subhargadiv6_id' => 9,
     'jenispekerjaan' => 'Pemasangan 1 Unit Grease Trap Portable Stainless, Kap. 30 Liter',
+    'satuanmaterial' => 'Unit',
     'hargasatuan' => '623877.10',
 ]);
 
@@ -8192,6 +8250,7 @@ hspkonstruksiumum6::create([
     'kode' => null,
     'subhargadiv6_id' => 10,
     'jenispekerjaan' => 'Pemasangan 1 buah Bak Kontrol Pasangan Bata 30 cm x 30 cm Tinggi 35 cm dengan Tutup Beton',
+    'satuanmaterial' => 'Buah',
     'hargasatuan' => '550029.70',
 ]);
 
@@ -8223,6 +8282,7 @@ hspkonstruksiumum7::create([
     'kode' => '1',
     'subhargadiv7_id' => 1,
     'jenispekerjaan' => 'Pemasangan 1 m2 Paving block (Blok Beton) Natural Tebal 6 cm fc 20 MPa untuk Jalan Lingkungan (Jalan Lokal) secara manual',
+    'satuanmaterial' => 'M2',
     'hargasatuan' => '140093.25',
 ]);
 
@@ -8233,6 +8293,7 @@ hspkonstruksiumum7::create([
     'kode' => '1.a',
     'subhargadiv7_id' => 2,
     'jenispekerjaan' => 'Pemasangan 1 m2 Pengunci Topi Uskup Tebal 6 cm fc 20 MPa untuk Jalan Lingkungan (Jalan Lokal) secara manual',
+    'satuanmaterial' => 'M2',
     'hargasatuan' => '193509.25',
 ]);
 
@@ -8243,6 +8304,7 @@ hspkonstruksiumum7::create([
     'kode' => '2',
     'subhargadiv7_id' => 3,
     'jenispekerjaan' => 'Pemasangan 1 m2 Paving block (Blok Beton) Natural Tebal 6 cm 25 MPa untuk Jalan Akses/Penghubung (Jalan Kolektor) secara manual ',
+    'satuanmaterial' => 'M2',
     'hargasatuan' => '142403.25',
 ]);
 
@@ -8253,6 +8315,7 @@ hspkonstruksiumum7::create([
     'kode' => '2.a',
     'subhargadiv7_id' => 4,
     'jenispekerjaan' => 'Pemasangan 1 m2 Pengunci Topi Uskup Tebal 6 cm 25 MPa dan Pengunci Topi Uskup untuk Jalan Akses/Penghubung (Jalan Kolektor) secara manual ',
+    'satuanmaterial' => 'M2',
     'hargasatuan' => '248509.25',
 ]);
 
@@ -8263,6 +8326,7 @@ hspkonstruksiumum7::create([
     'kode' => '3',
     'subhargadiv7_id' => 5,
     'jenispekerjaan' => 'Pemasangan 1 m2 Paving block (Blok Beton) Natural Tebal 6 cm fc 20 MPa untuk Jalan Lingkungan (Jalan Lokal) secara semi mekanis',
+    'satuanmaterial' => 'M2',
     'hargasatuan' => '144481.72',
 ]);
 
@@ -8273,6 +8337,7 @@ hspkonstruksiumum7::create([
     'kode' => '3.a',
     'subhargadiv7_id' => 6,
     'jenispekerjaan' => 'Pemasangan 1 m2 Pengunci Topi Uskup Tebal 6 cm fc 20 MPa untuk Jalan Lingkungan (Jalan Lokal) secara semi mekanis',
+    'satuanmaterial' => 'M2',
     'hargasatuan' => '197897.72',
 ]);
 
@@ -8283,6 +8348,7 @@ hspkonstruksiumum7::create([
     'kode' => '4',
     'subhargadiv7_id' => 7,
     'jenispekerjaan' => 'Pemasangan 1 m2 Paving block (Blok Beton) Natural Tebal 6 cm 25 MPa untuk Jalan Akses/Penghubung (Jalan Kolektor) secara semi mekanis',
+    'satuanmaterial' => 'M2',
     'hargasatuan' => '146791.72',
 ]);
 
@@ -8293,6 +8359,7 @@ hspkonstruksiumum7::create([
     'kode' => '4.a',
     'subhargadiv7_id' => 8,
     'jenispekerjaan' => 'Pemasangan 1 m2 Pengunci Topi Uskup Tebal 6 cm fc 25 MPa untuk Jalan Akses/Penghubung (Jalan Kolektor) secara semi mekanis',
+    'satuanmaterial' => 'M2',
     'hargasatuan' => '252897.72',
 ]);
 
@@ -8303,6 +8370,7 @@ hspkonstruksiumum7::create([
     'kode' => '1',
     'subhargadiv7_id' => 9,
     'jenispekerjaan' => 'Pemasangan  1  m1  Kanstin,  tebal  10x18x40  cm  untuk  Jalan Lingkungan (Jalan Lokal)',
+    'satuanmaterial' => 'M1',
     'hargasatuan' => '60570.37',
 ]);
 
@@ -8333,6 +8401,7 @@ hspkonstruksiumum8::create([
     'kode' => '1',
     'subhargadiv8_id' => 1,
     'jenispekerjaan' => '1 m’ Buis Beton 1/2 D 30 - 100 cm',
+    'satuanmaterial' => 'M1',
     'hargasatuan' => '73291.41',
 ]);
 
@@ -8343,6 +8412,7 @@ hspkonstruksiumum8::create([
     'kode' => '2',
     'subhargadiv8_id' => 2,
     'jenispekerjaan' => '1 m’ Buis Beton 1/2 D 40 - 100 cm',
+    'satuanmaterial' => 'M1',
     'hargasatuan' => '95929.28',
 ]);
 
@@ -8353,6 +8423,7 @@ hspkonstruksiumum8::create([
     'kode' => '3',
     'subhargadiv8_id' => 3,
     'jenispekerjaan' => '1 m’ Buis Beton 1/2 D 50 - 100 cm',
+    'satuanmaterial' => 'M1',
     'hargasatuan' => '136723.65',
 ]);
 
@@ -8363,6 +8434,7 @@ hspkonstruksiumum8::create([
     'kode' => '4',
     'subhargadiv8_id' => 4,
     'jenispekerjaan' => '1 m’ Buis Beton 1/2 D 60 - 100 cm',
+    'satuanmaterial' => 'M1',
     'hargasatuan' => '204680.03',
 ]);
 
@@ -8373,6 +8445,7 @@ hspkonstruksiumum8::create([
     'kode' => '5',
     'subhargadiv8_id' => 5,
     'jenispekerjaan' => '1 m’ Buis Beton 1/2 D 80 - 100 cm',
+    'satuanmaterial' => 'M1',
     'hargasatuan' => '227324.33',
 ]);
 
@@ -8383,6 +8456,7 @@ hspkonstruksiumum8::create([
     'kode' => '6',
     'subhargadiv8_id' => 6,
     'jenispekerjaan' => '1 m’ Buis Beton 1/2 D 100 - 100 cm',
+    'satuanmaterial' => 'M1',
     'hargasatuan' => '248192.04',
 ]);
 
@@ -8393,6 +8467,7 @@ hspkonstruksiumum8::create([
     'kode' => '7',
     'subhargadiv8_id' => 7,
     'jenispekerjaan' => '1 m’ Buis Beton D 30 - 100 cm',
+    'satuanmaterial' => 'M1',
     'hargasatuan' => '139304.64',
 ]);
 
@@ -8403,6 +8478,7 @@ hspkonstruksiumum8::create([
     'kode' => '8',
     'subhargadiv8_id' => 8,
     'jenispekerjaan' => '1 m’ Buis Beton D 40 - 100 cm',
+    'satuanmaterial' => 'M1',
     'hargasatuan' => '196589.22',
 ]);
 
@@ -8413,6 +8489,7 @@ hspkonstruksiumum8::create([
     'kode' => '9',
     'subhargadiv8_id' => 9,
     'jenispekerjaan' => '1 m’ Buis Beton D 50 - 100 cm',
+    'satuanmaterial' => 'M1',
     'hargasatuan' => '287201.75',
 ]);
 
@@ -8423,6 +8500,7 @@ hspkonstruksiumum8::create([
     'kode' => '10',
     'subhargadiv8_id' => 10,
     'jenispekerjaan' => '1 m’ Buis Beton D 60 - 100 cm',
+    'satuanmaterial' => 'M1',
     'hargasatuan' => '381067.98',
 ]);
 
@@ -8433,6 +8511,7 @@ hspkonstruksiumum8::create([
     'kode' => '11',
     'subhargadiv8_id' => 11,
     'jenispekerjaan' => '1 m’ Buis Beton D 80 - 100 cm',
+    'satuanmaterial' => 'M1',
     'hargasatuan' => '405534.38',
 ]);
 
@@ -8443,6 +8522,7 @@ hspkonstruksiumum8::create([
     'kode' => '12',
     'subhargadiv8_id' => 12,
     'jenispekerjaan' => '1 m’ Buis Beton D 100 - 100 cm',
+    'satuanmaterial' => 'M1',
     'hargasatuan' => '485505.48',
 ]);
 
@@ -8506,6 +8586,7 @@ hspkonstruksiumum9::create([
     'kode' => '1.a',
     'subhargadiv9_id' => 1,
     'jenispekerjaan' => 'Pasangan 1 m Pipa PVC Ø 12,5 mm',
+    'satuanmaterial' => 'M1',
     'hargasatuan' => '29354.60',
 ]);
 
@@ -8516,6 +8597,7 @@ hspkonstruksiumum9::create([
     'kode' => '1.b',
     'subhargadiv9_id' => 2,
     'jenispekerjaan' => 'Pasangan 1 m Pipa PVC Ø 25 mm',
+    'satuanmaterial' => 'M1',
     'hargasatuan' => '39254.60',
 ]);
 
@@ -8526,6 +8608,7 @@ hspkonstruksiumum9::create([
     'kode' => '1.c',
     'subhargadiv9_id' => 3,
     'jenispekerjaan' => 'Pasangan 1 m Pipa PVC Ø 37,5 mm',
+    'satuanmaterial' => 'M1',
     'hargasatuan' => '53004.60',
 ]);
 
@@ -8536,6 +8619,7 @@ hspkonstruksiumum9::create([
     'kode' => '1.d',
     'subhargadiv9_id' => 4,
     'jenispekerjaan' => 'Pasangan 1 m Pipa PVC Ø 50 mm',
+    'satuanmaterial' => 'M1',
     'hargasatuan' => '56854.60',
 ]);
 
@@ -8546,6 +8630,7 @@ hspkonstruksiumum9::create([
     'kode' => '1.e',
     'subhargadiv9_id' => 5,
     'jenispekerjaan' => 'Pasangan 1 m Pipa PVC Ø 75 mm',
+    'satuanmaterial' => 'M1',
     'hargasatuan' => '86004.60',
 ]);
 
@@ -8556,6 +8641,7 @@ hspkonstruksiumum9::create([
     'kode' => '2.a',
     'subhargadiv9_id' => 6,
     'jenispekerjaan' => 'Pasangan 1 m Pipa PVC Ø 100 mm',
+    'satuanmaterial' => 'M1',
     'hargasatuan' => '200973.30',
 ]);
 
@@ -8566,6 +8652,7 @@ hspkonstruksiumum9::create([
     'kode' => '1.a',
     'subhargadiv9_id' => 7,
     'jenispekerjaan' => 'Pasangan 1 m Pipa Galvanis Ø 12,5 mm',
+    'satuanmaterial' => 'M1',
     'hargasatuan' => '82788.57',
 ]);
 
@@ -8576,6 +8663,7 @@ hspkonstruksiumum9::create([
     'kode' => '1.c',
     'subhargadiv9_id' => 8,
     'jenispekerjaan' => 'Pasangan 1 m Pipa Galvanis Ø 37,5 mm',
+    'satuanmaterial' => 'M1',
     'hargasatuan' => '93055.23',
 ]);
 
@@ -8586,6 +8674,7 @@ hspkonstruksiumum9::create([
     'kode' => '1.d',
     'subhargadiv9_id' => 9,
     'jenispekerjaan' => 'Pasangan 1 m Pipa Galvanis Ø 50 mm',
+    'satuanmaterial' => 'M1',
     'hargasatuan' => '110655.23',
 ]);
 
@@ -8596,6 +8685,7 @@ hspkonstruksiumum9::create([
     'kode' => '1',
     'subhargadiv9_id' => 10,
     'jenispekerjaan' => 'Pasangan 1 m Pipa Galvanis Ø 63 mm',
+    'satuanmaterial' => 'M1',
     'hargasatuan' => '121838.57',
 ]);
 
@@ -8606,6 +8696,7 @@ hspkonstruksiumum9::create([
     'kode' => '1.e',
     'subhargadiv9_id' => 11,
     'jenispekerjaan' => 'Pasangan 1 m Pipa Galvanis Ø 75 mm',
+    'satuanmaterial' => 'M1',
     'hargasatuan' => '167121.90',
 ]);
 
@@ -8616,6 +8707,7 @@ hspkonstruksiumum9::create([
     'kode' => '1.a',
     'subhargadiv9_id' => 12,
     'jenispekerjaan' => 'Pasangan 1 m Pipa HDPE Ø 12,5 mm',
+    'satuanmaterial' => 'M1',
     'hargasatuan' => '21027.60',
 ]);
 
@@ -8626,6 +8718,7 @@ hspkonstruksiumum9::create([
     'kode' => '1.b',
     'subhargadiv9_id' => 13,
     'jenispekerjaan' => 'Pasangan 1 m Pipa HDPE Ø 37,5 mm',
+    'satuanmaterial' => 'M1',
     'hargasatuan' => '44677.60',
 ]);
 
@@ -8636,6 +8729,7 @@ hspkonstruksiumum9::create([
     'kode' => '1.c',
     'subhargadiv9_id' => 14,
     'jenispekerjaan' => 'Pasangan 1 m Pipa HDPE Ø 50 mm',
+    'satuanmaterial' => 'M1',
     'hargasatuan' => '53807.60',
 ]);
 
@@ -8646,6 +8740,7 @@ hspkonstruksiumum9::create([
     'kode' => '1.d',
     'subhargadiv9_id' => 15,
     'jenispekerjaan' => 'Pasangan 1 m Pipa HDPE Ø 75 mm',
+    'satuanmaterial' => 'M1',
     'hargasatuan' => '95827.60',
 ]);
 
@@ -8656,6 +8751,7 @@ hspkonstruksiumum9::create([
     'kode' => '2',
     'subhargadiv9_id' => 16,
     'jenispekerjaan' => 'Pasangan 1 m Pipa HDPE Ø 100 mm',
+    'satuanmaterial' => 'M1',
     'hargasatuan' => '137661.70',
 ]);
 
@@ -8666,6 +8762,7 @@ hspkonstruksiumum9::create([
     'kode' => '4',
     'subhargadiv9_id' => 17,
     'jenispekerjaan' => 'Pasangan 1 m Pipa HDPE  Ø 150 mm',
+    'satuanmaterial' => 'M1',
     'hargasatuan' => '277630.10',
 ]);
 
@@ -8676,6 +8773,7 @@ hspkonstruksiumum9::create([
     'kode' => '1.a',
     'subhargadiv9_id' => 18,
     'jenispekerjaan' => 'Pasangan 1 Buah Tee galvanish Ø 12,5 mm',
+    'satuanmaterial' => 'M1',
     'hargasatuan' => '51608.70',
 ]);
 
@@ -8686,6 +8784,8 @@ hspkonstruksiumum9::create([
     'kode' => '1.b',
     'subhargadiv9_id' => 19,
     'jenispekerjaan' => 'Pasangan 1 Buah Valve socket Ø 12,5 mm',
+    'satuanmaterial' => 'Buah',
+    // 'satuanmaterial' => 'M1',
     'hargasatuan' => '51608.70',
 ]);
 
@@ -8696,6 +8796,7 @@ hspkonstruksiumum9::create([
     'kode' => '1.c',
     'subhargadiv9_id' => 20,
     'jenispekerjaan' => 'Pasangan 1 Buah Clam sadle 2x 1,5 "',
+    'satuanmaterial' => 'Buah',
     'hargasatuan' => '73608.70',
 ]);
 
@@ -8706,6 +8807,7 @@ hspkonstruksiumum9::create([
     'kode' => '1.d',
     'subhargadiv9_id' => 21,
     'jenispekerjaan' => 'Pasangan 1 Buah Knee galvanish 0,5"',
+    'satuanmaterial' => 'Buah',
     'hargasatuan' => '51608.70',
 ]);
 
@@ -8716,6 +8818,7 @@ hspkonstruksiumum9::create([
     'kode' => '1.e',
     'subhargadiv9_id' => 22,
     'jenispekerjaan' => 'Pasangan 1 Buah Water moor kuningan 0,5"',
+    'satuanmaterial' => 'Buah',
     'hargasatuan' => '54358.70',
 ]);
 
@@ -8726,6 +8829,7 @@ hspkonstruksiumum9::create([
     'kode' => '1.f',
     'subhargadiv9_id' => 23,
     'jenispekerjaan' => 'Pasangan 1 Buah Double nippel galvanish 0,5"',
+    'satuanmaterial' => 'Buah',
     'hargasatuan' => '51608.70',
 ]);
 
@@ -8736,6 +8840,7 @@ hspkonstruksiumum9::create([
     'kode' => '1.g',
     'subhargadiv9_id' => 24,
     'jenispekerjaan' => 'Pasangan 1 Buah Fouket socket galvanish 0,5"',
+    'satuanmaterial' => 'Buah',
     'hargasatuan' => '68108.70',
 ]);
 
@@ -8746,6 +8851,7 @@ hspkonstruksiumum9::create([
     'kode' => '1.h',
     'subhargadiv9_id' => 25,
     'jenispekerjaan' => 'Pasangan 1 Buah Fouket socket galvanish 0,5"',
+    'satuanmaterial' => 'Buah',
     'hargasatuan' => '57108.70',
 ]);
 
@@ -8756,6 +8862,7 @@ hspkonstruksiumum9::create([
     'kode' => '1.i',
     'subhargadiv9_id' => 26,
     'jenispekerjaan' => 'Pasangan 1 Buah Fit kran kuningan 0,5"',
+    'satuanmaterial' => 'Buah',
     'hargasatuan' => '51608.70',
 ]);
 
@@ -8766,6 +8873,7 @@ hspkonstruksiumum9::create([
     'kode' => '1.j',
     'subhargadiv9_id' => 27,
     'jenispekerjaan' => 'Pasangan 1 Buah Bok meter air + Logo',
+    'satuanmaterial' => 'Buah',
     'hargasatuan' => '194608.70',
 ]);
 
@@ -8776,6 +8884,7 @@ hspkonstruksiumum9::create([
     'kode' => '1.k',
     'subhargadiv9_id' => 28,
     'jenispekerjaan' => 'Pasangan 1 Buah Katup searah kuningan 0,5"',
+    'satuanmaterial' => 'Buah',
     'hargasatuan' => '111008.70',
 ]);
 
@@ -8786,6 +8895,7 @@ hspkonstruksiumum9::create([
     'kode' => '1.l',
     'subhargadiv9_id' => 29,
     'jenispekerjaan' => 'Pasangan 1 Buah Plug kran kuningan 0,5"',
+    'satuanmaterial' => 'Buah',
     'hargasatuan' => '117608.70',
 ]);
 
@@ -8796,6 +8906,7 @@ hspkonstruksiumum9::create([
     'kode' => '1.m',
     'subhargadiv9_id' => 30,
     'jenispekerjaan' => 'Pasangan 1 Buah Fouket elbow galvanish 0,5"',
+    'satuanmaterial' => 'Buah',
     'hargasatuan' => '51608.70',
 ]);
 
