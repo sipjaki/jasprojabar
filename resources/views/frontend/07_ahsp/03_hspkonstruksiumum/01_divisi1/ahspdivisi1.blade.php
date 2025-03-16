@@ -79,6 +79,7 @@
                                     <tr><td style="text-align: center;">B</td><td style="text-align: center;">Bahan</td><td></td><td></td><td></td><td></td><td></td></tr>
 
                                     <tr>
+
                                         <td></td>
                                         <td>Kaso 5/7 kayu kelas II (Perancah)</td>
                                         <td></td>
@@ -94,14 +95,23 @@
                                     <tr><td></td><td>Kerikil (Maks 30mm)</td><td></td><td>kg</td><td>83.349</td><td>244</td><td>20.337,16</td></tr>
                                     <tr><td></td><td>Air</td><td></td><td>liter</td><td>17.415</td><td>50</td><td>870,75</td></tr>
                                     <tr><td></td><td>Residu</td><td></td><td>liter</td><td>0.400</td><td>5.400</td><td>2.160,00</td></tr> --}}
-                                    <tr><td colspan="6" class="text-end"><strong>Jumlah Harga Bahan</strong></td><td><strong class="text-end">239.612,25</strong></td></tr>
+                                    <tr class="text-end"><td colspan="6" class="text-end"><strong>Jumlah Harga Bahan</strong></td><td class="text-end"><strong>239.612,25</strong></td></tr>
 
 
                                     <tr><td style="text-align: center;">C</td><td style="text-align: center;">Peralatan</td><td></td><td></td><td></td><td></td><td></td></tr>
-                                    <tr><td colspan="6" class="text-end"><strong>Jumlah Harga Alat</strong></td><td></td></tr>
-                                    <tr><td style="text-align: center;">D</td><td colspan="5" class="text-end">Jumlah Harga Tenaga Kerja, Bahan dan Peralatan (A+B+C)</td><td>346.221,25</td></tr>
-                                    <tr><td style="text-align: center;">E</td><td colspan="5" class="text-end">Biaya Umum dan Keuntungan (10%)</td><td>34.622,12</td></tr>
-                                    <tr><td style="text-align: center;">F</td><td colspan="5" class="text-end"><strong>Harga Satuan Pekerjaan (D+E)</strong></td><td><strong>380.843,37</strong></td></tr>
+
+                                    <td></td>
+                                    <td>Kaso 5/7 kayu kelas II (Perancah)</td>
+                                    <td></td>
+                                    <td style="text-align: center;">m3</td>
+                                    <td style="text-align: center;">0.039</td>
+                                    <td class="text-end">1.976.000</td>
+                                    <td class="text-end">76.471,20</td></tr>
+
+                                    <tr class="text-end"><td colspan="6" class="text-end"><strong>Jumlah Harga Alat</strong></td><td></td></tr>
+                                    <tr><td style="text-align: center;">D</td><td colspan="5" class="text-end">Jumlah Harga Tenaga Kerja, Bahan dan Peralatan (A+B+C)</td><td class="text-end">346.221,25</td></tr>
+                                    <tr><td style="text-align: center;">E</td><td colspan="5" class="text-end">Biaya Umum dan Keuntungan (10%)</td><td class="text-end">34.622,12</td></tr>
+                                    <tr><td style="text-align: center;">F</td><td colspan="5" class="text-end"><strong>Harga Satuan Pekerjaan (D+E)</strong></td><td class="text-end"><strong>380.843,37</strong></td></tr>
                                 </tbody>
                             </table>
                         </div>
