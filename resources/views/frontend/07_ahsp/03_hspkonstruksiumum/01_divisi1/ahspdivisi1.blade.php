@@ -10,8 +10,8 @@
 
     .container {
         background: white;
-        width: 95%;
-        max-width: 800px;
+        width: 100%;
+        max-width: 1250px;
         padding: 20px;
         border-radius: 20px;
         box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
@@ -43,7 +43,7 @@
     }
 
     tbody tr:nth-child(even) {
-        background-color: #eaf1ed;
+        background-color: #5b6860;
     }
 
     tbody tr:nth-child(odd) {
