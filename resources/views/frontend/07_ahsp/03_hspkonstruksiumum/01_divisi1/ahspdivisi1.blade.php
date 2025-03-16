@@ -31,7 +31,7 @@
 
                         <div class="table-responsive">
                             <table class="table table-bordered table-striped">
-                                <thead style="background-color: #004d40; color: white;">
+                                <thead style="background-color: #0bb928; color: white;">
                                     <tr>
                                         <th>No</th>
                                         <th>Uraian</th>
