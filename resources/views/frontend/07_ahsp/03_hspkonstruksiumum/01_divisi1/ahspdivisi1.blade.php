@@ -20,7 +20,7 @@
                     <div class="col-lg-12">
                         <button onclick="window.history.back()"
                         style="margin-top: 20px; padding: 15px 40px; width: 175px; height: 60px; font-size: 16px;
-                               background-color: black; color: white; border: none; border-radius: 10px;
+                               background-color: green; color: white; border: none; border-radius: 10px;
                                cursor: pointer; transition: 0.3s;"
                         onmouseover="this.style.backgroundColor='white'; this.style.color='black';"
                         onmouseout="this.style.backgroundColor='black'; this.style.color='white';">
