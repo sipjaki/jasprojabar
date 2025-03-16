@@ -106,7 +106,7 @@
                                     <tr><td style="text-align: center;">B</td><td style="text-align: center;">Bahan</td><td></td><td></td><td></td><td></td><td></td></tr>
 
 
-                                    @foreach ($datatenagakerja as $item)
+                                    @foreach ($databahanmaterial as $item)
 
                                     <tr>
                                         <td style="text-align: center;">{{ $loop->iteration }}</td>
