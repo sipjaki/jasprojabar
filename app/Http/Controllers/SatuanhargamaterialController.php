@@ -144,6 +144,7 @@ class SatuanhargamaterialController extends Controller
             $query->where('kode', 'LIKE', "%{$search}%")
                   ->orWhere('jenispekerjaan', 'LIKE', "%{$search}%")
                   ->orWhere('hargasatuan', 'LIKE', "%{$search}%")
+                  ->orWhere('satuanmaterial', 'LIKE', "%{$search}%")
 
                   ->orWhereHas('hspdivisi', function ($q) use ($search) {
                       $q->where('hspdivisi', 'LIKE', "%{$search}%"); // 'jabatankerja' = nama kolom di tabel jabatankerja
@@ -198,6 +199,8 @@ class SatuanhargamaterialController extends Controller
             $query->where('kode', 'LIKE', "%{$search}%")
                   ->orWhere('jenispekerjaan', 'LIKE', "%{$search}%")
                   ->orWhere('hargasatuan', 'LIKE', "%{$search}%")
+                  ->orWhere('satuanmaterial', 'LIKE', "%{$search}%")
+
 
                   ->orWhereHas('hspdivisi', function ($q) use ($search) {
                       $q->where('hspdivisi', 'LIKE', "%{$search}%"); // 'jabatankerja' = nama kolom di tabel jabatankerja
@@ -253,6 +256,8 @@ class SatuanhargamaterialController extends Controller
             $query->where('kode', 'LIKE', "%{$search}%")
                   ->orWhere('jenispekerjaan', 'LIKE', "%{$search}%")
                   ->orWhere('hargasatuan', 'LIKE', "%{$search}%")
+                  ->orWhere('satuanmaterial', 'LIKE', "%{$search}%")
+
 
                   ->orWhereHas('hspdivisi', function ($q) use ($search) {
                       $q->where('hspdivisi', 'LIKE', "%{$search}%"); // 'jabatankerja' = nama kolom di tabel jabatankerja
@@ -307,6 +312,8 @@ class SatuanhargamaterialController extends Controller
             $query->where('kode', 'LIKE', "%{$search}%")
                   ->orWhere('jenispekerjaan', 'LIKE', "%{$search}%")
                   ->orWhere('hargasatuan', 'LIKE', "%{$search}%")
+                  ->orWhere('satuanmaterial', 'LIKE', "%{$search}%")
+
 
                   ->orWhereHas('hspdivisi', function ($q) use ($search) {
                       $q->where('hspdivisi', 'LIKE', "%{$search}%"); // 'jabatankerja' = nama kolom di tabel jabatankerja
@@ -361,6 +368,8 @@ class SatuanhargamaterialController extends Controller
             $query->where('kode', 'LIKE', "%{$search}%")
                   ->orWhere('jenispekerjaan', 'LIKE', "%{$search}%")
                   ->orWhere('hargasatuan', 'LIKE', "%{$search}%")
+                  ->orWhere('satuanmaterial', 'LIKE', "%{$search}%")
+
 
                   ->orWhereHas('hspdivisi', function ($q) use ($search) {
                       $q->where('hspdivisi', 'LIKE', "%{$search}%"); // 'jabatankerja' = nama kolom di tabel jabatankerja
@@ -416,6 +425,8 @@ class SatuanhargamaterialController extends Controller
             $query->where('kode', 'LIKE', "%{$search}%")
                   ->orWhere('jenispekerjaan', 'LIKE', "%{$search}%")
                   ->orWhere('hargasatuan', 'LIKE', "%{$search}%")
+                  ->orWhere('satuanmaterial', 'LIKE', "%{$search}%")
+
 
                   ->orWhereHas('hspdivisi', function ($q) use ($search) {
                       $q->where('hspdivisi', 'LIKE', "%{$search}%"); // 'jabatankerja' = nama kolom di tabel jabatankerja
@@ -471,6 +482,8 @@ class SatuanhargamaterialController extends Controller
             $query->where('kode', 'LIKE', "%{$search}%")
                   ->orWhere('jenispekerjaan', 'LIKE', "%{$search}%")
                   ->orWhere('hargasatuan', 'LIKE', "%{$search}%")
+                  ->orWhere('satuanmaterial', 'LIKE', "%{$search}%")
+
 
                   ->orWhereHas('hspdivisi', function ($q) use ($search) {
                       $q->where('hspdivisi', 'LIKE', "%{$search}%"); // 'jabatankerja' = nama kolom di tabel jabatankerja
@@ -525,6 +538,8 @@ class SatuanhargamaterialController extends Controller
             $query->where('kode', 'LIKE', "%{$search}%")
                   ->orWhere('jenispekerjaan', 'LIKE', "%{$search}%")
                   ->orWhere('hargasatuan', 'LIKE', "%{$search}%")
+                  ->orWhere('satuanmaterial', 'LIKE', "%{$search}%")
+
 
                   ->orWhereHas('hspdivisi', function ($q) use ($search) {
                       $q->where('hspdivisi', 'LIKE', "%{$search}%"); // 'jabatankerja' = nama kolom di tabel jabatankerja
@@ -579,6 +594,7 @@ class SatuanhargamaterialController extends Controller
             $query->where('kode', 'LIKE', "%{$search}%")
                   ->orWhere('jenispekerjaan', 'LIKE', "%{$search}%")
                   ->orWhere('hargasatuan', 'LIKE', "%{$search}%")
+                  ->orWhere('satuanmaterial', 'LIKE', "%{$search}%")
 
                   ->orWhereHas('hspdivisi', function ($q) use ($search) {
                       $q->where('hspdivisi', 'LIKE', "%{$search}%"); // 'jabatankerja' = nama kolom di tabel jabatankerja
