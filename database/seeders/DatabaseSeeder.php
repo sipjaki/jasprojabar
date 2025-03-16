@@ -7242,7 +7242,7 @@ subhargadiv1::create([
     'satuan' => 'OH',
     'koefisien' => 0.600,
     'hargasatuan' => 96000.00,
-    'jumlahharga' => 57600.00, // Tanpa format salah
+    'jumlahharga' => 57600.00, // **Manual tanpa perhitungan**
 ]);
 
 
