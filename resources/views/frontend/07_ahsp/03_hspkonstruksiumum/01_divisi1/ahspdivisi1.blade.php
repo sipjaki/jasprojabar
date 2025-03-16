@@ -84,8 +84,8 @@
                                         <td></td>
                                         <td style="text-align: center;">m3</td>
                                         <td style="text-align: center;">0.039</td>
-                                        <td class="text-end;">1.976.000</td>
-                                        <td class="text-end;">76.471,20</td></tr>
+                                        <td class="text-end">1.976.000</td>
+                                        <td class="text-end">76.471,20</td></tr>
 
                                     <tr><td></td><td>Papan Kayu ukuran 2/20 cm</td><td></td><td>m3</td><td>0.040</td><td>1.976.000</td><td>78.249,60</td></tr>
                                     <tr><td></td><td>Paku 5 inci</td><td></td><td>kg</td><td>0.587</td><td>16.400</td><td>9.630,08</td></tr>
