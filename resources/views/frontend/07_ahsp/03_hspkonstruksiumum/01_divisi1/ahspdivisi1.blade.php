@@ -1,25 +1,30 @@
 <style>
-    /* Membuat halaman penuh dan menengahkan kontennya */
+    /* Mengatur agar konten berada di tengah */
     .page-wrapper {
         display: flex;
         justify-content: center;
         align-items: center;
-        min-height: 200vh; /* Supaya kontennya ada di tengah secara vertikal */
-        background-color: #f4f4f4; /* Warna latar belakang agar lebih nyaman dilihat */
+        min-height: 100vh;
+        background-color: #f4f4f4;
         padding: 20px;
     }
 
+    /* Grid sistem 12 kolom */
     .container {
         background: white;
-        width: 95%;
-        max-width: 95%;
+        width: 100%;
+        max-width: 1400px; /* Lebih lebar */
         padding: 20px;
         border-radius: 20px;
         box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+        gap: 20px;
     }
 
+    /* Wadah tabel berada di tengah */
     .table-container {
-        width: 95%;
+        grid-column: span 12; /* Memenuhi seluruh lebar */
         overflow-x: auto; /* Supaya bisa di-scroll di layar kecil */
         display: flex;
         justify-content: center;
@@ -28,7 +33,7 @@
     table {
         width: 85%; /* Ukuran tabel 85% dari layar */
         border-collapse: collapse;
-        border: 2px solid #2ECC71; /* Warna hitam kehijauan */
+        border: 2px solid #2ECC71; /* Warna hijau */
     }
 
     th, td {
@@ -43,28 +48,34 @@
         font-weight: bold;
     }
 
-    /* Warna selang-seling */
+    /* Warna baris selang-seling */
     tbody tr:nth-child(even) {
-        background-color: #eaf1ed; /* Warna lebih soft */
+        background-color: #eaf1ed;
     }
 
     tbody tr:nth-child(odd) {
         background-color: #ffffff;
     }
 
-    /* Responsif: Jika layar kecil, atur agar tabel bisa di-scroll */
+    /* Responsive Grid */
+    @media (max-width: 1024px) {
+        .container {
+            grid-template-columns: repeat(6, 1fr);
+        }
+        .table-container {
+            grid-column: span 6;
+        }
+    }
+
     @media (max-width: 768px) {
         .container {
-            width: 100%;
-            padding: 15px;
+            grid-template-columns: repeat(1, 1fr);
         }
-
         .table-container {
-            overflow-x: auto;
+            grid-column: span 1;
         }
-
         table {
-            width: 100%; /* Agar mengikuti lebar container */
+            width: 100%; /* Full width di mobile */
         }
     }
 </style>
