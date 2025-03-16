@@ -266,7 +266,7 @@ color: #45a049;
                                             <td>{{$item->nib}}</td>
                                             <td>{{$item->kbli}}</td>
                                             <td>{{$item->uraiankbli}}</td> --}}
-                                            <td>{{$item->sektor}}</td>
+                                            <td style="text-align: center;">{{$item->sektor}}</td>
                                             {{-- <td>{{$item->alamatproyek}}</td> --}}
                                             {{-- <td>{{$item->wilayah}}</td> --}}
                                             <td style="text-align: center">
