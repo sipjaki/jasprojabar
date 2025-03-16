@@ -17,6 +17,10 @@
             <div class="container" style="margin-top:-50px;" style="background: white; max-width: 95%; margin: 30px auto; padding: 20px; border-radius: 20px; box-shadow: 0px 4px 10px rgba(14, 112, 1, 0.1);">
                 <div class="row">
                     <div class="col-lg-12">
+                        <button onclick="window.history.back()" style="margin-top: 20px; padding: 10px 20px; background-color: red; color: white; border: none; border-radius: 5px; cursor: pointer;">
+                            Tutup
+                        </button>
+
                         <h2>Analisa Harga Satuan Pekerjaan</h2>
                         <div class="table-responsive">
                             <table class="table table-bordered table-striped">
