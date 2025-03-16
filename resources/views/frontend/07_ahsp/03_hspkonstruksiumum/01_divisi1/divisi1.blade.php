@@ -266,11 +266,14 @@ color: #45a049;
 
                                                 <script>
                                                     function redirectToPage(id) {
-                                                        // Pastikan id valid sebelum digunakan dalam URL
+                                                        if (!id) {
+                                                            alert("ID tidak ditemukan!");
+                                                            return;
+                                                        }
+                                                        console.log("Redirecting to:", id); // Debugging
                                                         window.location.href = "/satuanhargadivisi1/" + encodeURIComponent(id);
                                                     }
                                                 </script>
-
 
 
                                                 <td style="text-align: center; color:red;" >{{$item->satuanmaterial}}</td>
