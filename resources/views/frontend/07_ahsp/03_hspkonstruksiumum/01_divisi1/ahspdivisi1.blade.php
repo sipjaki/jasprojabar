@@ -58,13 +58,13 @@
                                     </tr>
                                 </thead>
                                 <tbody>
-                                    <tr><td>A</td><td>Tenaga Kerja</td><td></td><td></td><td></td><td></td><td></td></tr>
+                                    <tr><td style="text-align: center;">A</td><td style="text-align: center;" >Tenaga Kerja</td><td></td><td></td><td></td><td></td><td></td></tr>
                                     <tr><td></td><td>Tukang Kayu</td><td>L.02</td><td>OH</td><td>0.200</td><td>106.000</td><td>21.200</td></tr>
                                     <tr><td></td><td>Tukang batu/tembok</td><td>L.02</td><td>OH</td><td>0.200</td><td>106.000</td><td>21.200</td></tr>
                                     <tr><td></td><td>Kepala Tukang</td><td>L.03</td><td>OH</td><td>0.040</td><td>122.000</td><td>4.880</td></tr>
                                     <tr><td></td><td>Mandor</td><td>L.04</td><td>OH</td><td>0.013</td><td>133.000</td><td>1.729</td></tr>
                                     <tr><td colspan="6" class="text-end"><strong>Jumlah Harga Tenaga Kerja</strong></td><td><strong>106.609</strong></td></tr>
-                                    <tr><td>B</td><td>Bahan</td><td></td><td></td><td></td><td></td><td></td></tr>
+                                    <tr><td style="text-align: center;">B</td><td style="text-align: center;">Bahan</td><td></td><td></td><td></td><td></td><td></td></tr>
                                     <tr><td></td><td>Kaso 5/7 kayu kelas II (Perancah)</td><td></td><td>m3</td><td>0.039</td><td>1.976.000</td><td>76.471,20</td></tr>
                                     <tr><td></td><td>Papan Kayu ukuran 2/20 cm</td><td></td><td>m3</td><td>0.040</td><td>1.976.000</td><td>78.249,60</td></tr>
                                     <tr><td></td><td>Paku 5 inci</td><td></td><td>kg</td><td>0.587</td><td>16.400</td><td>9.630,08</td></tr>
