@@ -20,7 +20,7 @@
                         <h2>Analisa Harga Satuan Pekerjaan</h2>
                         <div class="table-responsive">
                             <table class="table table-bordered table-striped">
-                                <thead class="table-dark">
+                                <thead style="background-color: #004d40; color: white;">
                                     <tr>
                                         <th>No</th>
                                         <th>Uraian</th>
