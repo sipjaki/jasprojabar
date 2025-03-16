@@ -63,13 +63,15 @@
                                     @foreach ($databahan as $item)
 
                                     <tr>
-                                        <td>{{ $loop->iteration }}</td>
+                                        <td style="text-align: center;">{{ $loop->iteration }}</td>
                                         <td>{{$item->uraian}}</td>
                                         <td style="text-align: center;">{{$item->kode}}</td>
                                         <td style="text-align: center;">{{$item->satuan}}</td>
                                         <td style="text-align: center;">{{$item->koefisien}}</td>
-                                        <td class="text-end">{{$item->hargasatuan}}</td>
-                                        <td class="text-end">{{$item->jumlah_pagu}}</td>
+                                        {{-- <td class="text-end">{{$item->hargasatuan}}</td>
+                                        <td class="text-end">{{$item->jumlah_pagu}}</td> --}}
+                                        <td class="text-end">Rp {{ number_format($item->hargasatuan, 2, ',', '.') }}</td>
+                                        <td class="text-end">Rp {{ number_format($item->jumlah_pagu, 2, ',', '.') }}</td>
                                     </tr>
 
                                     @endforeach

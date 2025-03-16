@@ -7273,7 +7273,7 @@ subhargadiv1::create([
     'uraian' => 'Kepala Tukang',
     'kode' => 'L.03',
     'satuan' => 'OH',
-    'koefisien' => 0.400,
+    'koefisien' => 0.040,
     'hargasatuan' => 122000.00,
     'jumlah_pagu' => '4880',
 ]);
