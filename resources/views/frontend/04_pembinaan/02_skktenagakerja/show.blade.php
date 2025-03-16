@@ -15,11 +15,9 @@
                 background-color: white;
                 color: black;
                 background: white;
-
+            }
 
     </style>
-
-
 
 @include('frontend.00_approve.01_cssterpisah.header')
 
@@ -39,8 +37,6 @@
 	<section class="portfolio-details">
 		<div class="container">
 
-
-{{-- ==================================================== --}}
 <style>
     .halaman-pertama {
         width: 80%;
