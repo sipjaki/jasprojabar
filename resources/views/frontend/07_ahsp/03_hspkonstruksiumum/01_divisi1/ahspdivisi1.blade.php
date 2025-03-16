@@ -22,7 +22,7 @@
                             <!-- Tombol Tutup dengan warna hijau -->
                             <button onclick="window.history.back()"
                                     style="padding: 15px 40px; width: 150px; height: 60px; font-size: 16px;
-                                           background-color: rgb(10, 221, 10); color: white; border: none; border-radius: 10px;
+                                           background-color: #ffd100; color: white; border: none; border-radius: 10px;
                                            cursor: pointer; transition: 0.3s;"
                                     onmouseover="this.style.backgroundColor='white'; this.style.color='black';"
                                     onmouseout="this.style.backgroundColor='rgb(10, 221, 10)'; this.style.color='white';">
@@ -31,11 +31,11 @@
 
                             <!-- Tombol Download Berkas -->
                             <button style="padding: 15px 40px; width: 150px; height: 60px; font-size: 16px;
-                                          background-color: rgb(10, 221, 10); color: white; border: none; border-radius: 10px;
+                                          background-color: navy; color: white; border: none; border-radius: 10px;
                                           cursor: pointer; transition: 0.3s;"
                                     onmouseover="this.style.backgroundColor='white'; this.style.color='black';"
-                                    onmouseout="this.style.backgroundColor='rgb(10, 221, 10)'; this.style.color='white';">
-                                <i class="fas fa-download" style="margin-right: 10px;"></i> Download Berkas
+                                    onmouseout="this.style.backgroundColor='navy'; this.style.color='white';">
+                                <i class="fas fa-download" style="margin-right: 10px;"></i> Download
                             </button>
                         </div>
                                <br><br><br>
