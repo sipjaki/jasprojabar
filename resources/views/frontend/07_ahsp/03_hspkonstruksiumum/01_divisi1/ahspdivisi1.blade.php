@@ -22,11 +22,11 @@
                             <!-- Tombol Tutup dengan warna hijau -->
                             <button onclick="window.history.back()"
                                     style="padding: 15px 40px; width: 150px; height: 60px; font-size: 16px;
-                                           background-color: #ffd100; color: white; border: none; border-radius: 10px;
+                                           background-color: red; color: white; border: none; border-radius: 10px;
                                            cursor: pointer; transition: 0.3s;"
                                     onmouseover="this.style.backgroundColor='white'; this.style.color='black';"
-                                    onmouseout="this.style.backgroundColor='rgb(10, 221, 10)'; this.style.color='white';">
-                                ❌ Tutup
+                                    onmouseout="this.style.backgroundColor='red'; this.style.color='white';">
+                                <span style="color: white">❌</span>Tutup
                             </button>
 
                             <!-- Tombol Download Berkas -->
