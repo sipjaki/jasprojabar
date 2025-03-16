@@ -62,7 +62,7 @@
                         <script>
                             document.addEventListener("DOMContentLoaded", function () {
                                 var downloadLink = document.getElementById("downloadLink");
-                                var fileUrl = "{{$item->berkas}}"; // Sesuaikan dengan format URL yang benar
+                                var fileUrl = "{{ Storage::url($item->berkas) }}"; // Mengambil URL dari storage
 
                                 if (fileUrl) {
                                     downloadLink.href = fileUrl;
@@ -72,7 +72,6 @@
                                 }
                             });
                         </script>
-
 
                     </div><!-- /.news-details-content-box -->
 
