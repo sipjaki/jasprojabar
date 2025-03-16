@@ -19,12 +19,22 @@
 
                     <div class="col-lg-12">
                         <button onclick="window.history.back()"
-                        style="margin-top: 20px; padding: 15px 40px; width: 175px; height: 60px; font-size: 16px;
-                               background-color: green; color: white; border: none; border-radius: 10px;
+                        style="margin-top: 20px; padding: 15px 40px; width: 150px; height: 60px; font-size: 16px;
+                               background-color: rgb(80, 85, 80); color: white; border: none; border-radius: 10px;
                                cursor: pointer; transition: 0.3s;"
                         onmouseover="this.style.backgroundColor='white'; this.style.color='black';"
-                        onmouseout="this.style.backgroundColor='black'; this.style.color='white';">
+                        onmouseout="this.style.backgroundColor='rgb(80, 85, 80)'; this.style.color='white';">
                         ❌ Tutup
+                    </button>
+
+                    <br><br><br>
+                        <button
+                        style="margin-top: 20px; padding: 15px 40px; width: 150px; height: 60px; font-size: 16px;
+                               background-color: rgb(80, 85, 80); color: white; border: none; border-radius: 10px;
+                               cursor: pointer; transition: 0.3s;"
+                        onmouseover="this.style.backgroundColor='white'; this.style.color='black';"
+                        onmouseout="this.style.backgroundColor='rgb(80, 85, 80)'; this.style.color='white';">
+                        <i class="fas fa-dowload" style="margin-right:10px;"></i> Download Berkas
                     </button>
                             <br><br><br>
                             <h4>Analisa Harga Satuan Pekerjaan</h4>
