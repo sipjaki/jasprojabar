@@ -83,10 +83,14 @@ use App\Models\hspkonstruksiumum;
 use App\Models\beritajakon;
 use App\Models\allskktenagakerjablora;
 // use App\Models\artikeljakon;
+
+// hsp harga divisi 1
 use App\Models\artikeljakonmasjaki;
 use App\Models\kategoripelatihan;
 use App\Models\agendapelatihan;
 use App\Models\subhargadiv1;
+use App\Models\subhargadiv1bahan;
+use App\Models\subhargadiv1peralatan;
 // hsp harga divisi 2
 use App\Models\hsppaket2;
 use App\Models\hspkodepekerjaan2;
@@ -7217,7 +7221,7 @@ hspkodepekerjaan::create([
     'namapekerjaan' => 'Pengukuran dan pasangan bouwplank',
 ]);
 
-
+// AHSP KONSTRUKSI UMUM DIVISI 1
 //======================== ===================================================================================
 // HSP PAKET HARGA MAS JAKI BLORA
 hspkonstruksiumum::create([
@@ -7230,6 +7234,59 @@ hspkonstruksiumum::create([
     'satuanmaterial' => 'M1',
     'hargasatuan' => '380843.37',
 ]);
+
+subhargadiv1::create([
+    'hspkonstruksiumum_id' => 1,
+    'uraian' => 'Pekerja',
+    'kode' => 'L.01',
+    'satuan' => 'OH',
+    'koefisien' => 0.600,
+    'hargasatuan' => 96000.00,
+    'jumlahharga' => 57600.00,
+]);
+
+subhargadiv1::create([
+    'hspkonstruksiumum_id' => 1,
+    'uraian' => 'Tukang Kayu',
+    'kode' => 'L.02',
+    'satuan' => 'OH',
+    'koefisien' => 0.200,
+    'hargasatuan' => 106000.00,
+    'jumlahharga' => 21200.00,
+]);
+
+subhargadiv1::create([
+    'hspkonstruksiumum_id' => 1,
+    'uraian' => 'Tukang batu/tembok',
+    'kode' => 'L.02',
+    'satuan' => 'OH',
+    'koefisien' => 0.200,
+    'hargasatuan' => 106000.00,
+    'jumlahharga' => 21200.00,
+]);
+
+subhargadiv1::create([
+    'hspkonstruksiumum_id' => 1,
+    'uraian' => 'Kepala Tukang',
+    'kode' => 'L.03',
+    'satuan' => 'OH',
+    'koefisien' => 0.400,
+    'hargasatuan' => 122000.00,
+    'jumlahharga' => 4880.00,
+]);
+
+subhargadiv1::create([
+    'hspkonstruksiumum_id' => 1,
+    'uraian' => 'Mandor',
+    'kode' => 'L.04',
+    'satuan' => 'OH',
+    'koefisien' => 0.013,
+    'hargasatuan' => 133000.00,
+    'jumlahharga' => 1729.00,
+]);
+
+// makan
+
 hspkonstruksiumum::create([
     'hspdivisi_id' => 1,
     'hsppaket_id' => 1,
