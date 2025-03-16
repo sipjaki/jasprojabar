@@ -1,40 +1,43 @@
 <style>
 /* Membuat halaman penuh dan menengahkan kontennya */
+/* Membuat halaman penuh dan menengahkan kontennya */
 .page-wrapper {
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
     background-color: #f4f4f4;
-    padding: 20px;
+    padding: 0; /* Hilangkan padding agar lebar penuh */
 }
 
-/* Container utama dengan sistem grid 12 kolom */
+/* Container utama agar lebar penuh */
 .container {
     background: white;
     width: 100%;
-    max-width: 1400px; /* Ukuran maksimum */
+    max-width: 100vw; /* Maksimum selebar viewport */
     padding: 20px;
-    border-radius: 20px;
+    border-radius: 10px;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
     display: grid;
     grid-template-columns: repeat(12, 1fr); /* Grid 12 kolom */
-    gap: 20px;
+    gap: 10px;
 }
 
-/* Wadah tabel agar berada di tengah dan responsif */
+/* Wadah tabel agar tidak ada margin kosong */
 .table-container {
-    grid-column: span 12; /* Memenuhi seluruh lebar */
+    grid-column: span 12;
     overflow-x: auto; /* Supaya bisa di-scroll di layar kecil */
     display: flex;
     justify-content: center;
+    width: 100%; /* Lebarkan sepenuhnya */
 }
 
-/* Tabel agar lebar dan responsif */
+/* Tabel agar penuh di layar */
 table {
-    width: 85%; /* Ukuran tabel 85% dari layar */
+    width: 100%; /* Penuh sesuai viewport */
+    max-width: 100vw; /* Tidak melebihi layar */
     border-collapse: collapse;
-    border: 2px solid #2ECC71; /* Warna hijau */
+    border: 2px solid #2ECC71;
 }
 
 th, td {
@@ -44,6 +47,7 @@ th, td {
     font-size: 16px;
 }
 
+/* Header tabel */
 th {
     background-color: #2ECC71;
     color: white;
@@ -64,7 +68,7 @@ tbody tr:nth-child(odd) {
 /* Tablet (Lebar < 1024px) */
 @media (max-width: 1024px) {
     .container {
-        grid-template-columns: repeat(6, 1fr); /* Ubah ke 6 kolom */
+        grid-template-columns: repeat(6, 1fr);
     }
     .table-container {
         grid-column: span 6;
@@ -74,13 +78,13 @@ tbody tr:nth-child(odd) {
 /* Mobile (Lebar < 768px) */
 @media (max-width: 768px) {
     .container {
-        grid-template-columns: repeat(1, 1fr); /* Ubah ke 1 kolom */
+        grid-template-columns: repeat(1, 1fr);
     }
     .table-container {
         grid-column: span 1;
     }
     table {
-        width: 100%; /* Full width di mobile */
+        width: 100%; /* Penuh di layar kecil */
     }
 }
 
