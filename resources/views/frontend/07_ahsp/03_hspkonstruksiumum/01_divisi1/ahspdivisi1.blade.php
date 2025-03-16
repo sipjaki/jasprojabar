@@ -1,24 +1,24 @@
 <style>
     .table-container {
-        width: 100%;
+        width: 90%;
         overflow-x: auto;
     }
 
     table {
-        width: 80%;
+        width: 90%;
         border-collapse: collapse;
         margin: auto;
-        border: 2px solid #2c4c3b; /* Warna hitam kehijauan */
+        border: 2px solid #2ECC71 /* Warna hitam kehijauan */
     }
 
     th, td {
-        border: 1px solid #2c4c3b;
+        border: 1px solid #2ECC71;
         padding: 10px;
         text-align: left;
     }
 
     th {
-        background-color: #2c4c3b;
+        background-color: #2ECC71;
         color: white;
         font-weight: bold;
     }
