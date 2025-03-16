@@ -26,8 +26,8 @@
                         onmouseout="this.style.backgroundColor='black'; this.style.color='white';">
                         ❌ Tutup
                     </button>
-<br>
-                        <h2>Analisa Harga Satuan Pekerjaan</h2>
+<br><br><br>
+                        <h4>Analisa Harga Satuan Pekerjaan</h4>
 
                         <div class="table-responsive">
                             <table class="table table-bordered table-striped">
