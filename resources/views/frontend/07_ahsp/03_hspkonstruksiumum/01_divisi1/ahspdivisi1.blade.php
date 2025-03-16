@@ -60,16 +60,19 @@
                                 <tbody>
                                     <tr><td style="text-align: center;">A</td><td style="text-align: center;" >Tenaga Kerja</td><td></td><td></td><td></td><td></td><td></td></tr>
 
+                                    @foreach ($databahan as $item)
+
                                     <tr>
-                                        <td></td>
-                                        <td>Tukang Kayu</td>
-                                        <td style="text-align: center;">L.02</td>
-                                        <td style="text-align: center;">OH</td>
-                                        <td style="text-align: center;">0.200</td>
-                                        <td class="text-end">106.000</td>
-                                        <td class="text-end">21.200</td>
+                                        <td>{{ $loop->iteration }}</td>
+                                        <td>{{$item->uraian}}</td>
+                                        <td style="text-align: center;">{{$item->kode}}</td>
+                                        <td style="text-align: center;">{{$item->satuan}}</td>
+                                        <td style="text-align: center;">{{$item->koefisien}}</td>
+                                        <td class="text-end">{{$item->hargasatuan}}</td>
+                                        <td class="text-end">{{$item->jumlah_pagu}}</td>
                                     </tr>
 
+                                    @endforeach
                                     {{-- <tr><td></td><td>Tukang batu/tembok</td><td>L.02</td><td>OH</td><td>0.200</td><td>106.000</td><td>21.200</td></tr>
                                     <tr><td></td><td>Kepala Tukang</td><td>L.03</td><td>OH</td><td>0.040</td><td>122.000</td><td>4.880</td></tr>
                                     <tr><td></td><td>Mandor</td><td>L.04</td><td>OH</td><td>0.013</td><td>133.000</td><td>1.729</td></tr> --}}
