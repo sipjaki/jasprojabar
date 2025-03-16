@@ -7232,6 +7232,7 @@ hspkonstruksiumum::create([
     'hargasatuan' => '380843.37',
 ]);
 hspkonstruksiumum::create([
+    'id' => 2,
     'hspdivisi_id' => 1,
     'hsppaket_id' => 1,
     'hspkodepekerjaan_id' => 1,
@@ -7242,6 +7243,7 @@ hspkonstruksiumum::create([
     'hargasatuan' => '295990.26',
 ]);
 hspkonstruksiumum::create([
+    'id' => 3,
     'hspdivisi_id' => 1,
     'hsppaket_id' => 1,
     'hspkodepekerjaan_id' => 1,
@@ -7253,6 +7255,7 @@ hspkonstruksiumum::create([
 ]);
 
 hspkonstruksiumum::create([
+    'id' => 4,
     'hspdivisi_id' => 1,
     'hsppaket_id' => 1,
     'hspkodepekerjaan_id' => 1,
@@ -7264,6 +7267,7 @@ hspkonstruksiumum::create([
 ]);
 
 hspkonstruksiumum::create([
+    'id' => 5,
     'hspdivisi_id' => 1,
     'hsppaket_id' => 1,
     'hspkodepekerjaan_id' => 1,
@@ -7275,6 +7279,7 @@ hspkonstruksiumum::create([
 ]);
 
 hspkonstruksiumum::create([
+    'id' => 6,
     'hspdivisi_id' => 1,
     'hsppaket_id' => 1,
     'hspkodepekerjaan_id' => 1,
@@ -7286,6 +7291,7 @@ hspkonstruksiumum::create([
 ]);
 
 hspkonstruksiumum::create([
+    'id' => 7,
     'hspdivisi_id' => 1,
     'hsppaket_id' => 1,
     'hspkodepekerjaan_id' => 2,
@@ -7297,6 +7303,7 @@ hspkonstruksiumum::create([
 ]);
 
 hspkonstruksiumum::create([
+    'id' => 8,
     'hspdivisi_id' => 1,
     'hsppaket_id' => 1,
     'hspkodepekerjaan_id' => 2,
@@ -7308,6 +7315,7 @@ hspkonstruksiumum::create([
 ]);
 
 hspkonstruksiumum::create([
+    'id' => 9,
     'hspdivisi_id' => 1,
     'hsppaket_id' => 1,
     'hspkodepekerjaan_id' => 2,
@@ -7319,6 +7327,7 @@ hspkonstruksiumum::create([
 ]);
 
 hspkonstruksiumum::create([
+    'id' => 10,
     'hspdivisi_id' => 1,
     'hsppaket_id' => 1,
     'hspkodepekerjaan_id' => 2,
@@ -7330,6 +7339,7 @@ hspkonstruksiumum::create([
 ]);
 
 hspkonstruksiumum::create([
+    'id' => 11,
     'hspdivisi_id' => 1,
     'hsppaket_id' => 1,
     'hspkodepekerjaan_id' => 2,
@@ -7341,6 +7351,7 @@ hspkonstruksiumum::create([
 ]);
 
 hspkonstruksiumum::create([
+    'id' => 12,
     'hspdivisi_id' => 1,
     'hsppaket_id' => 1,
     'hspkodepekerjaan_id' => 3,
@@ -7352,6 +7363,7 @@ hspkonstruksiumum::create([
 ]);
 
 hspkonstruksiumum::create([
+    'id' => 13,
     'hspdivisi_id' => 1,
     'hsppaket_id' => 1,
     'hspkodepekerjaan_id' => 3,
@@ -7363,6 +7375,7 @@ hspkonstruksiumum::create([
 ]);
 
 hspkonstruksiumum::create([
+    'id' => 14,
     'hspdivisi_id' => 1,
     'hsppaket_id' => 1,
     'hspkodepekerjaan_id' => 3,
@@ -7374,6 +7387,7 @@ hspkonstruksiumum::create([
 ]);
 
 hspkonstruksiumum::create([
+    'id' => 15,
     'hspdivisi_id' => 1,
     'hsppaket_id' => 1,
     'hspkodepekerjaan_id' => 3,
@@ -7385,6 +7399,7 @@ hspkonstruksiumum::create([
 ]);
 
 hspkonstruksiumum::create([
+    'id' => 16,
     'hspdivisi_id' => 1,
     'hsppaket_id' => 1,
     'hspkodepekerjaan_id' => 3,
@@ -7396,6 +7411,7 @@ hspkonstruksiumum::create([
 ]);
 
 hspkonstruksiumum::create([
+    'id' => 17,
     'hspdivisi_id' => 1,
     'hsppaket_id' => 1,
     'hspkodepekerjaan_id' => 3,
@@ -7405,7 +7421,6 @@ hspkonstruksiumum::create([
     'satuanmaterial' => 'Batang',
     'hargasatuan' => '23690.38',
 ]);
-
 
 // ------------------------------------
 // HARGA SUB DIVISI
