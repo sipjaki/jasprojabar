@@ -18,25 +18,27 @@
                 <div class="row">
 
                     <div class="col-lg-12">
-                        <button onclick="window.history.back()"
-                        style="margin-top: 20px; padding: 15px 40px; width: 150px; height: 60px; font-size: 16px;
-                               background-color: rgb(80, 85, 80); color: white; border: none; border-radius: 10px;
-                               cursor: pointer; transition: 0.3s;"
-                        onmouseover="this.style.backgroundColor='white'; this.style.color='black';"
-                        onmouseout="this.style.backgroundColor='rgb(80, 85, 80)'; this.style.color='white';">
-                        ❌ Tutup
-                    </button>
+                        <div style="display: flex; gap: 20px; margin-top: 20px;">
+                            <!-- Tombol Tutup dengan warna hijau -->
+                            <button onclick="window.history.back()"
+                                    style="padding: 15px 40px; width: 150px; height: 60px; font-size: 16px;
+                                           background-color: rgb(10, 221, 10); color: white; border: none; border-radius: 10px;
+                                           cursor: pointer; transition: 0.3s;"
+                                    onmouseover="this.style.backgroundColor='white'; this.style.color='black';"
+                                    onmouseout="this.style.backgroundColor='rgb(10, 221, 10)'; this.style.color='white';">
+                                ❌ Tutup
+                            </button>
 
-                    <br><br><br>
-                        <button
-                        style="margin-top: 20px; padding: 15px 40px; width: 150px; height: 60px; font-size: 16px;
-                               background-color: rgb(80, 85, 80); color: white; border: none; border-radius: 10px;
-                               cursor: pointer; transition: 0.3s;"
-                        onmouseover="this.style.backgroundColor='white'; this.style.color='black';"
-                        onmouseout="this.style.backgroundColor='rgb(80, 85, 80)'; this.style.color='white';">
-                        <i class="fas fa-dowload" style="margin-right:10px;"></i> Download Berkas
-                    </button>
-                            <br><br><br>
+                            <!-- Tombol Download Berkas -->
+                            <button style="padding: 15px 40px; width: 150px; height: 60px; font-size: 16px;
+                                          background-color: rgb(10, 221, 10); color: white; border: none; border-radius: 10px;
+                                          cursor: pointer; transition: 0.3s;"
+                                    onmouseover="this.style.backgroundColor='white'; this.style.color='black';"
+                                    onmouseout="this.style.backgroundColor='rgb(10, 221, 10)'; this.style.color='white';">
+                                <i class="fas fa-download" style="margin-right: 10px;"></i> Download Berkas
+                            </button>
+                        </div>
+                               <br><br><br>
                             <h4>Analisa Harga Satuan Pekerjaan</h4>
                     <hr>
                     <h4 style="font-family: 'Poppins', sans-serif;">
