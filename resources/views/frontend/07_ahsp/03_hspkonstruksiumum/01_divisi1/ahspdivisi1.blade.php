@@ -159,7 +159,11 @@
                                         <td colspan="5" class="text-end">Biaya Umum dan Keuntungan (10%)</td>
                                         <td class="text-end"><strong style="color:orange;">{{ number_format($totalpersen, 2, ',', '.') }}</strong></td>
                                     </tr>
-                                    <tr><td style="text-align: center;">F</td><td colspan="5" class="text-end"><strong>Harga Satuan Pekerjaan (D+E)</strong></td><td class="text-end"><strong>380.843,37</strong></td></tr>
+
+                                    <tr>
+                                        <td style="text-align: center;">F</td>
+                                        <td colspan="5" class="text-end"><strong>Harga Satuan Pekerjaan (D+E)</strong></td>
+                                        <td class="text-end"><strong style="color:red;">{{ number_format($totalkeuntungan, 2, ',', '.') }}</strong></td>
                                 </tbody>
                             </table>
                         </div>
