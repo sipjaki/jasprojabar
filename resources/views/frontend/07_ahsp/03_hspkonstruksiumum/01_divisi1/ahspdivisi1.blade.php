@@ -93,7 +93,7 @@ tbody tr:nth-child(odd) {
 @include('frontend.00_approve.01_cssterpisah.header')
 
 <body>
-    <div class="page-wrapper">
+    <div class="page-wrapper col-12 col-lg-12 col-xl-12">
         <section class="news-details-section">
             <div class="container"  style="
             background: white;
