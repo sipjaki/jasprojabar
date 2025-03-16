@@ -51,7 +51,7 @@
                         <br>
 
                         <div style="display: inline-block;">
-                            <a id="downloadLink" href="{{ asset('storage/' . $item->berkas) }}" target="_blank" class="btn btn-danger"
+                            <a id="downloadLink" href="#" target="_blank" class="btn btn-danger"
                                style="background-color: navy; color: white; border: none; transition: 0.3s; padding:10px 20px; border-radius:15px;"
                                onmouseover="this.style.backgroundColor='white'; this.style.color='black'; this.style.border='1px solid black';"
                                onmouseout="this.style.backgroundColor='navy'; this.style.color='white'; this.style.border='none';">
@@ -59,6 +59,21 @@
                             </a>
                         </div>
 
+                        <script>
+                            document.addEventListener("DOMContentLoaded", function () {
+                                var downloadLink = document.getElementById("downloadLink");
+                                var fileUrl = "{{ asset('storage/' . $item->berkas) }}";
+
+                                if (fileUrl && fileUrl !== "{{ asset('storage/') }}") {
+                                    downloadLink.href = fileUrl;
+                                    downloadLink.setAttribute("download", "{{$item->berkas}}");
+                                } else {
+                                    downloadLink.style.pointerEvents = "none";
+                                    downloadLink.style.opacity = "0.5";
+                                    downloadLink.innerHTML = "<i class='fa fa-file-pdf' style='margin-right:5px;'></i> File Tidak Tersedia";
+                                }
+                            });
+                        </script>
 
                     </div><!-- /.news-details-content-box -->
 
