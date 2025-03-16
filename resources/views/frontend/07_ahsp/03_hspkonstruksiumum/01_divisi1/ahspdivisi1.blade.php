@@ -97,42 +97,10 @@
 
                                     @endforeach
 
-                                    {{-- <tr>
-                                        <td colspan="6" class="text-end"><strong>Total:</strong></td>
-                                        <td class="text-end"><strong>{{ number_format($totalJumlahPagu, 2, ',', '.') }}</strong></td>
-                                    </tr> --}}
-
-                                    <tfoot>
                                         <tr>
-                                            <td colspan="6" class="text-end"><strong>Total:</strong></td>
+                                            <td colspan="6" class="text-end"><strong>Jumlah Harga Tenaga Kerja</strong></td>
                                             <td class="text-end"><strong>{{ number_format($totalbahan, 2, ',', '.') }}</strong></td>
                                         </tr>
-                                    </tfoot>
-
-                                    <script>
-                                        window.onload = function() {
-                                            // Ambil semua elemen yang ada di kolom "Jumlah Pagu"
-                                            const jumlahPaguElements = document.querySelectorAll('td.text-end:nth-child(7)'); // Kolom 7 adalah "Jumlah Pagu"
-                                            let totalJumlahPagu = 0;
-
-                                            // Iterasi melalui semua nilai di kolom "Jumlah Pagu"
-                                            jumlahPaguElements.forEach(function(element) {
-                                                // Ambil nilai yang ada di dalam elemen dan hilangkan titik untuk ribuan, lalu ganti koma menjadi titik untuk desimal
-                                                let jumlahPagu = element.innerText.replace('.', '').replace(',', '.');
-
-                                                // Tambahkan ke total jika nilai valid
-                                                if (!isNaN(jumlahPagu) && jumlahPagu !== "") {
-                                                    totalJumlahPagu += parseFloat(jumlahPagu);
-                                                }
-                                            });
-
-                                            // Format hasil penjumlahan sebagai mata uang dengan dua angka di belakang koma
-                                            let formattedTotal = totalJumlahPagu.toLocaleString('id-ID', { style: 'currency', currency: 'IDR' }).replace('IDR', '').trim();
-
-                                            // Menampilkan hasil penjumlahan ke elemen dengan id "jumlah-hasil-penjumlahan"
-                                            document.getElementById('jumlah-hasil-penjumlahan').innerText = formattedTotal;
-                                        };
-                                    </script>
 
 
                                     <tr><td style="text-align: center;">B</td><td style="text-align: center;">Bahan</td><td></td><td></td><td></td><td></td><td></td></tr>
