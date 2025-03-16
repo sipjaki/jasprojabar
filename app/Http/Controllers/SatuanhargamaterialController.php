@@ -196,9 +196,19 @@ class SatuanhargamaterialController extends Controller
         // Ambil data user saat ini
         $user = Auth::user();
 
+        if (!$datadivisi1) {
+            // Tangani jika kegiatan tidak ditemukan
+            return redirect()->back()->with('error', 'Kegiatan tidak ditemukan.');
+        }
+
+        // Menggunakan paginate() untuk pagination
+        $subdata = subhargadiv1::where('hspkonstruksiumum_id', $datadivisi1->id)->paginate(50);
+
+
         return view('frontend.07_ahsp.03_hspkonstruksiumum.01_divisi1.ahspdivisi1', [
-            'title' => 'Data AHSP Divisi 1',
+            'title' => 'AHSP Divisi I ',
             'data' => $datadivisi1,
+            'databahan' => $subdata,
             'user' => $user,
         ]);
     }
