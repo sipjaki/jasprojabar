@@ -9686,7 +9686,7 @@ tertibjakonpenyelenggaraan::create([
     'namapekerjaan' => null,
     'kegiatankonstruksi' => 'KANTOR PT POS PROPERTI INDONESIA',
     'nomorkontrak' => '-',
-    'bujk' => 'CV.CRYSTAL DESIGN',
+    'bujk' => 'CV. CRYSTAL DESIGN',
     'prosespemilihan' => 'BELUM TERTIB',
     'pengawasan_standarkontrak' => 'BELUM TERTIB',
     'pengawasan_tenagakerja' => 'BELUM TERTIB',
