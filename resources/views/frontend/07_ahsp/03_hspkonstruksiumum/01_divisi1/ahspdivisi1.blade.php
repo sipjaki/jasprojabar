@@ -1,83 +1,89 @@
 <style>
-    /* Mengatur agar konten berada di tengah */
-    .page-wrapper {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        min-height: 100vh;
-        background-color: #f4f4f4;
-        padding: 20px;
-    }
+/* Membuat halaman penuh dan menengahkan kontennya */
+.page-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
 
-    /* Grid sistem 12 kolom */
+/* Container utama dengan sistem grid 12 kolom */
+.container {
+    background: white;
+    width: 100%;
+    max-width: 1400px; /* Ukuran maksimum */
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    display: grid;
+    grid-template-columns: repeat(12, 1fr); /* Grid 12 kolom */
+    gap: 20px;
+}
+
+/* Wadah tabel agar berada di tengah dan responsif */
+.table-container {
+    grid-column: span 12; /* Memenuhi seluruh lebar */
+    overflow-x: auto; /* Supaya bisa di-scroll di layar kecil */
+    display: flex;
+    justify-content: center;
+}
+
+/* Tabel agar lebar dan responsif */
+table {
+    width: 85%; /* Ukuran tabel 85% dari layar */
+    border-collapse: collapse;
+    border: 2px solid #2ECC71; /* Warna hijau */
+}
+
+th, td {
+    border: 1px solid #2ECC71;
+    padding: 12px;
+    text-align: left;
+    font-size: 16px;
+}
+
+th {
+    background-color: #2ECC71;
+    color: white;
+    font-weight: bold;
+}
+
+/* Warna baris selang-seling */
+tbody tr:nth-child(even) {
+    background-color: #eaf1ed;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #ffffff;
+}
+
+/* RESPONSIVE DESIGN */
+
+/* Tablet (Lebar < 1024px) */
+@media (max-width: 1024px) {
     .container {
-        background: white;
-        width: 100%;
-        max-width: 1400px; /* Lebih lebar */
-        padding: 20px;
-        border-radius: 20px;
-        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-        display: grid;
-        grid-template-columns: repeat(12, 1fr);
-        gap: 20px;
+        grid-template-columns: repeat(6, 1fr); /* Ubah ke 6 kolom */
     }
-
-    /* Wadah tabel berada di tengah */
     .table-container {
-        grid-column: span 12; /* Memenuhi seluruh lebar */
-        overflow-x: auto; /* Supaya bisa di-scroll di layar kecil */
-        display: flex;
-        justify-content: center;
+        grid-column: span 6;
     }
+}
 
+/* Mobile (Lebar < 768px) */
+@media (max-width: 768px) {
+    .container {
+        grid-template-columns: repeat(1, 1fr); /* Ubah ke 1 kolom */
+    }
+    .table-container {
+        grid-column: span 1;
+    }
     table {
-        width: 85%; /* Ukuran tabel 85% dari layar */
-        border-collapse: collapse;
-        border: 2px solid #2ECC71; /* Warna hijau */
+        width: 100%; /* Full width di mobile */
     }
+}
 
-    th, td {
-        border: 1px solid #2ECC71;
-        padding: 10px;
-        text-align: left;
-    }
-
-    th {
-        background-color: #2ECC71;
-        color: white;
-        font-weight: bold;
-    }
-
-    /* Warna baris selang-seling */
-    tbody tr:nth-child(even) {
-        background-color: #eaf1ed;
-    }
-
-    tbody tr:nth-child(odd) {
-        background-color: #ffffff;
-    }
-
-    /* Responsive Grid */
-    @media (max-width: 1024px) {
-        .container {
-            grid-template-columns: repeat(6, 1fr);
-        }
-        .table-container {
-            grid-column: span 6;
-        }
-    }
-
-    @media (max-width: 768px) {
-        .container {
-            grid-template-columns: repeat(1, 1fr);
-        }
-        .table-container {
-            grid-column: span 1;
-        }
-        table {
-            width: 100%; /* Full width di mobile */
-        }
-    }
 </style>
 
 @include('frontend.00_approve.01_cssterpisah.header')
