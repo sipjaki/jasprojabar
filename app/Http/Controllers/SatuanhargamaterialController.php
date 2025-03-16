@@ -240,18 +240,22 @@ class SatuanhargamaterialController extends Controller
         // Menggunakan paginate() untuk pagination
         $subdata = subhargadiv1::where('hspkonstruksiumum_id', $datadivisi1->id)->paginate(50);
         $subdatamaterial = subhargadiv1bahan::where('hspkonstruksiumum_id', $datadivisi1->id)->paginate(50);
+        $subdataperatalan = subhargadiv1bahan::where('hspkonstruksiumum_id', $datadivisi1->id)->paginate(50);
 
         $totalJumlahtenagakerja = subhargadiv1::where('hspkonstruksiumum_id', $datadivisi1->id)->sum('jumlah_pagu');
         $totalJumlahbahanmaterial = subhargadiv1bahan::where('hspkonstruksiumum_id', $datadivisi1->id)->sum('jumlah_pagu');
+        $totalJumlahperalatan = subhargadiv1peralatan::where('hspkonstruksiumum_id', $datadivisi1->id)->sum('jumlah_pagu');
 
         return view('frontend.07_ahsp.03_hspkonstruksiumum.01_divisi1.ahspdivisi1', [
             'title' => 'AHSP Divisi I ',
             'data' => $datadivisi1,
             'datatenagakerja' => $subdata,
             'databahanmaterial' => $subdatamaterial,
+            'dataperalatan' => $subdataperatalan,
             'user' => $user,
             'totaltenagakerja' => $totalJumlahtenagakerja,
             'totalbahanmaterial' => $totalJumlahbahanmaterial,
+            'totalperalatan' => $totalJumlahperalatan,
         ]);
     }
 

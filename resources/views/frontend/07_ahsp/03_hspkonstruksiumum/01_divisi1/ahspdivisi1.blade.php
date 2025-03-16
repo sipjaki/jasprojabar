@@ -128,15 +128,26 @@
 
                                     <tr><td style="text-align: center;">C</td><td style="text-align: center;">Peralatan</td><td></td><td></td><td></td><td></td><td></td></tr>
 
-                                    <td></td>
-                                    <td>Kaso 5/7 kayu kelas II (Perancah)</td>
-                                    <td></td>
-                                    <td style="text-align: center;">m3</td>
-                                    <td style="text-align: center;">0.039</td>
-                                    <td class="text-end">1.976.000</td>
-                                    <td class="text-end">76.471,20</td></tr>
+                                    @foreach ($dataperalatan as $item)
 
-                                    <tr class="text-end"><td colspan="6" class="text-end"><strong>Jumlah Harga Alat</strong></td><td></td></tr>
+                                    <tr>
+                                        <td style="text-align: center;">{{ $loop->iteration }}</td>
+                                        <td>{{$item->uraian}}</td>
+                                        <td style="text-align: center;">{{$item->kode}}</td>
+                                        <td style="text-align: center;">{{$item->satuan}}</td>
+                                        <td style="text-align: center;">{{$item->koefisien}}</td>
+                                        <td class="text-end">{{ number_format($item->hargasatuan, 2, ',', '.') }}</td>
+                                        <td class="text-end">{{ number_format($item->jumlah_pagu, 2, ',', '.') }}</td>
+                                    </tr>
+
+                                    @endforeach
+
+                                    <tr>
+                                        <td colspan="6" class="text-end"><strong>Jumlah Harga Peralatan</strong></td>
+                                        <td class="text-end"><strong>{{ number_format($totalperalatan, 2, ',', '.') }}</strong></td>
+                                    </tr>
+
+
                                     <tr><td style="text-align: center;">D</td><td colspan="5" class="text-end">Jumlah Harga Tenaga Kerja, Bahan dan Peralatan (A+B+C)</td><td class="text-end">346.221,25</td></tr>
                                     <tr><td style="text-align: center;">E</td><td colspan="5" class="text-end">Biaya Umum dan Keuntungan (10%)</td><td class="text-end">34.622,12</td></tr>
                                     <tr><td style="text-align: center;">F</td><td colspan="5" class="text-end"><strong>Harga Satuan Pekerjaan (D+E)</strong></td><td class="text-end"><strong>380.843,37</strong></td></tr>
