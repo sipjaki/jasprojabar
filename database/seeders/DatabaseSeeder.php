@@ -9079,15 +9079,6 @@ artikeljakonmasjaki::create([
 ]);
 
 artikeljakonmasjaki::create([
-    'judul' => 'Teknologi dalam Jasa Konstruksi: Bagaimana Sistem Informasi Meningkatkan Efisiensi?',
-    'foto1' => '00_beranda/02_artikeljakon/artikeljakon.jpg',
-    'foto2' => '00_beranda/02_artikeljakon/artikeljakon.jpg',
-    'foto3' => '00_beranda/02_artikeljakon/artikeljakon.jpg',
-    'berkas' => '00_beranda/02_artikeljakon/artikeljakon.pdf',
-    'tanggal' => null,
-]);
-
-artikeljakonmasjaki::create([
     'judul' => 'Keamanan Data dalam Sistem Informasi Jasa Konstruksi: Tantangan dan Solusi',
     'foto1' => '00_beranda/02_artikeljakon/artikeljakon.jpg',
     'foto2' => '00_beranda/02_artikeljakon/artikeljakon.jpg',
