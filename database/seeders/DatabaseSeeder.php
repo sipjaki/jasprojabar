@@ -7242,7 +7242,7 @@ subhargadiv1::create([
     'satuan' => 'OH',
     'koefisien' => 0.600,
     'hargasatuan' => 96000.00,
-    'jumlahharga' => '57.600.00',
+    'jumlahharga' => 57600.00,
 ]);
 
 subhargadiv1::create([
@@ -7252,7 +7252,7 @@ subhargadiv1::create([
     'satuan' => 'OH',
     'koefisien' => 0.200,
     'hargasatuan' => 106000.00,
-    'jumlahharga' => '21.200.00',
+    'jumlahharga' => 21200.00,
 ]);
 
 subhargadiv1::create([
@@ -7262,7 +7262,7 @@ subhargadiv1::create([
     'satuan' => 'OH',
     'koefisien' => 0.200,
     'hargasatuan' => 106000.00,
-    'jumlahharga' => '21.200.00',
+    'jumlahharga' => 21200.00,
 ]);
 
 subhargadiv1::create([
@@ -7272,7 +7272,7 @@ subhargadiv1::create([
     'satuan' => 'OH',
     'koefisien' => 0.400,
     'hargasatuan' => 122000.00,
-    'jumlahharga' => '4.880.00',
+    'jumlahharga' => 4880.00,
 ]);
 
 subhargadiv1::create([
@@ -7282,7 +7282,7 @@ subhargadiv1::create([
     'satuan' => 'OH',
     'koefisien' => 0.013,
     'hargasatuan' => 133000.00,
-    'jumlahharga' => '1.729.00',
+    'jumlahharga' => 1729.00,
 ]);
 
 // makan
