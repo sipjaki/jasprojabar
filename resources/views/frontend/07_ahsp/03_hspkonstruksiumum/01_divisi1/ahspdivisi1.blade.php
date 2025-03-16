@@ -83,7 +83,7 @@
                                 <tbody>
                                     <tr><td style="text-align: center;">A</td><td style="text-align: center;" >Tenaga Kerja</td><td></td><td></td><td></td><td></td><td></td></tr>
 
-                                    @foreach ($databahan as $item)
+                                    @foreach ($datatenagakerja as $item)
 
                                     <tr>
                                         <td style="text-align: center;">{{ $loop->iteration }}</td>
@@ -99,7 +99,7 @@
 
                                         <tr>
                                             <td colspan="6" class="text-end"><strong>Jumlah Harga Tenaga Kerja</strong></td>
-                                            <td class="text-end"><strong>{{ number_format($totalbahan, 2, ',', '.') }}</strong></td>
+                                            <td class="text-end"><strong>{{ number_format($totaltenagakerja, 2, ',', '.') }}</strong></td>
                                         </tr>
 
 

@@ -19,7 +19,43 @@ use App\Models\hspkonstruksiumum7;
 use App\Models\hspkonstruksiumum8;
 use App\Models\hspkonstruksiumum9;
 // use App\Models\hspkonstruksiumum2;
+// DIVISI 1
 use App\Models\subhargadiv1;
+use App\Models\subhargadiv1bahan;
+use App\Models\subhargadiv1peralatan;
+// DIVISI 2
+use App\Models\subhargadiv2;
+use App\Models\subhargadiv2bahan;
+use App\Models\subhargadiv2peralatan;
+// DIVISI 3
+use App\Models\subhargadiv3;
+use App\Models\subhargadiv3bahan;
+use App\Models\subhargadiv3peralatan;
+// DIVISI 4
+use App\Models\subhargadiv4;
+use App\Models\subhargadiv4bahan;
+use App\Models\subhargadiv4peralatan;
+// DIVISI 5
+use App\Models\subhargadiv5;
+use App\Models\subhargadiv5bahan;
+use App\Models\subhargadiv5peralatan;
+// DIVISI 6
+use App\Models\subhargadiv6;
+use App\Models\subhargadiv6bahan;
+use App\Models\subhargadiv6peralatan;
+// DIVISI 7
+use App\Models\subhargadiv7;
+use App\Models\subhargadiv7bahan;
+use App\Models\subhargadiv7peralatan;
+// DIVISI 8
+use App\Models\subhargadiv8;
+use App\Models\subhargadiv8bahan;
+use App\Models\subhargadiv8peralatan;
+// DIVISI 9
+use App\Models\subhargadiv9;
+use App\Models\subhargadiv9bahan;
+use App\Models\subhargadiv9peralatan;
+
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\DB;
 
@@ -203,16 +239,19 @@ class SatuanhargamaterialController extends Controller
 
         // Menggunakan paginate() untuk pagination
         $subdata = subhargadiv1::where('hspkonstruksiumum_id', $datadivisi1->id)->paginate(50);
+        $subdatamaterial = subhargadiv1bahan::where('hspkonstruksiumum_id', $datadivisi1->id)->paginate(50);
 
-
-        $totalJumlahPagu = subhargadiv1::where('hspkonstruksiumum_id', $datadivisi1->id)->sum('jumlah_pagu');
+        $totalJumlahtenagakerja = subhargadiv1::where('hspkonstruksiumum_id', $datadivisi1->id)->sum('jumlah_pagu');
+        $totalJumlahbahanmaterial = subhargadiv1bahan::where('hspkonstruksiumum_id', $datadivisi1->id)->sum('jumlah_pagu');
 
         return view('frontend.07_ahsp.03_hspkonstruksiumum.01_divisi1.ahspdivisi1', [
             'title' => 'AHSP Divisi I ',
             'data' => $datadivisi1,
-            'databahan' => $subdata,
+            'datatenagakerja' => $subdata,
+            'databahanmaterial' => $subdatamaterial,
             'user' => $user,
-            'totalbahan' => $totalJumlahPagu,
+            'totaltenagakerja' => $totalJumlahtenagakerja,
+            'totalbahanmaterial' => $totalJumlahbahanmaterial,
         ]);
     }
 
