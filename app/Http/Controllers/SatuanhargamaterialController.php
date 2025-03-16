@@ -188,20 +188,21 @@ class SatuanhargamaterialController extends Controller
         ]);
     }
 
-
-    public function hspdivisi1show($jenispekerjaan)
+    public function hspdivisi1show($id)
     {
-        $datadivisi1 = hspkonstruksiumum::where('jenispekerjaan', $jenispekerjaan)->first();
+        // Ambil data berdasarkan UUID
+        $datadivisi1 = hspkonstruksiumum::where('id', $id)->firstOrFail();
 
-    // Ambil data user saat ini
-    $user = Auth::user();
+        // Ambil data user saat ini
+        $user = Auth::user();
 
-    return view('frontend.07_ahsp.03_hspkonstruksiumum.01_divisi1.ahspdivisi1', [
-        'title' => 'Data AHSP Divisi 1',
-        'data' => $datadivisi1,
-        'user' => $user,
-    ]);
-}
+        return view('frontend.07_ahsp.03_hspkonstruksiumum.01_divisi1.ahspdivisi1', [
+            'title' => 'Data AHSP Divisi 1',
+            'data' => $datadivisi1,
+            'user' => $user,
+        ]);
+    }
+
 
 // DIVISI 2
 
