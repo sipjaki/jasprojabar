@@ -7221,6 +7221,7 @@ hspkodepekerjaan::create([
 //======================== ===================================================================================
 // HSP PAKET HARGA MAS JAKI BLORA
 hspkonstruksiumum::create([
+    'id' => 1,
     'hspdivisi_id' => 1,
     'hsppaket_id' => 1,
     'hspkodepekerjaan_id' => 1,
