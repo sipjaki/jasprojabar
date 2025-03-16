@@ -39,13 +39,13 @@
     @include('frontend.00_approve.01_cssterpisah.header1')
 
     <div class="page-wrapper">
-        <section class="page-banner">
+        {{-- <section class="page-banner">
             <div class="container">
                 <div class="page-banner-title">
                     <h3 style="color: black; font-size:30px;">{{$title}}</h3>
                 </div>
             </div>
-        </section>
+        </section> --}}
 
         <section class="news-details-section">
             <div class="container" style="background: white; max-width: 95%; margin: 30px auto; padding: 20px; border-radius: 20px; box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);">
