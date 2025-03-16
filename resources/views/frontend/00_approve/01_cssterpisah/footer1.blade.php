@@ -165,15 +165,11 @@
 			</div><!-- row -->
 		</div><!-- container -->
 	</div><!--footer-inner-->
-	<div class="bottom-footer" style="background: #1d1d1b">
-		<div class="conatiner">
-            <img src="/assets/icon/logokabupatenblora.png" width="40" height="40" alt="26" style="margin-right: 5px; margin-bottom:5px;" loading="lazy">
-			<img src="/assets/icon/pupr.png" width="40" height="40" alt="26" loading="lazy" style="margin-bottom:5px;">
-            <br>
-		</div><!-- container -->
-        <p style="color: white">© Dinas Pekerjaan Umum dan Penataan Ruang Kabupaten Blora Provinsi Jawa Tengah | 2025 </p>
-	</div><!--bottom-footer-->
+
+@include('frontend.00_approve.01_cssterpisah.footer2')
+
 </section><!--footer-->
+
 <div class="mobile-nav-wrapper">
 	<div class="mobile-nav-overlay mobile-nav-toggler"></div><!-- mobile-nav-overlay -->
 	<div class="mobile-nav-content">
