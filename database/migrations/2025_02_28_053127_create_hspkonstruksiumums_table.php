@@ -12,7 +12,8 @@ return new class extends Migration
     public function up(): void
     {
         Schema::create('hspkonstruksiumums', function (Blueprint $table) {
-            $table->id();
+            // $table->id();
+            $table->uuid('id')->primary(); // Gunakan UUID
             $table->foreignId('hspdivisi_id')->nullable();
             $table->foreignId('hsppaket_id')->nullable();
             $table->foreignId('hspkodepekerjaan_id')->nullable();
