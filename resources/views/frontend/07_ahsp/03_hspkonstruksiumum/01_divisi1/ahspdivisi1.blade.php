@@ -27,14 +27,18 @@
                         ❌ Tutup
                     </button>
                             <br><br><br>
-                        <h4>Kode AHSP :
-                            {{ optional($data->hspdivisi)->id }}.
-                            {{ optional($data->hsppaket)->id }}.
-                            {{ optional($data->hspkodepekerjaan)->kodepekerjaan }}.
-                            {{$data->kode}}
-                        </h4>
+                            <h4>Analisa Harga Satuan Pekerjaan</h4>
 
-                        <h4>Jenis Pekerjaan :
+                      <h4 style="font-family: 'Poppins', sans-serif;">
+                        Kode AHSP :
+                        {{ optional($data->hspdivisi)->id }}.
+                        {{ optional($data->hsppaket)->id }}.
+                        {{ optional($data->hspkodepekerjaan)->kodepekerjaan }}.
+                        {{$data->kode}}
+                    </h4>
+
+                        <h4 style="font-family: 'Poppins', sans-serif;">
+                            Jenis Pekerjaan :
                             {{$data->jenispekerjaan}}
                         </h4>
 
