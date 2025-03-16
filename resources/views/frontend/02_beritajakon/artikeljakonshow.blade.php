@@ -88,14 +88,15 @@
 
 						</div><!-- sidebar-form-content -->
 						<div class="sidebar-widget sidebar-widget-recent-post">
-							<div style="display: inline-block;">
+							<div style="display: flex; justify-content: center;">
                                 <button class="badge"
                                    style="background-color: lightgreen; color: white; border: none; transition: 0.3s; padding:10px 20px; font-size: 16px; border-radius:15px;"
                                    onmouseover="this.style.backgroundColor='white'; this.style.color='black'; this.style.border='1px solid black';"
                                    onmouseout="this.style.backgroundColor='lightgreen'; this.style.color='white'; this.style.border='none';">
-                                    <i class="fas fa-download" style="margin-right:5px;"></i> Download Artikel Jakon
+                                    <i class="fas fa-download" style="margin-right:5px;"></i> Download Artikel
                                 </button>
                             </div>
+
                             @foreach ($dataartikel->skip(1)->take(7) as $item)
 
                             <div class="sidebar-recent-post">
