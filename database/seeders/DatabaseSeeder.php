@@ -96,48 +96,64 @@ use App\Models\hsppaket2;
 use App\Models\hspkodepekerjaan2;
 use App\Models\hspkonstruksiumum2;
 use App\Models\subhargadiv2;
+use App\Models\subhargadiv2bahan;
+use App\Models\subhargadiv2peralatan;
 
 // hsp harga divisi 3
 use App\Models\hsppaket3;
 use App\Models\hspkodepekerjaan3;
 use App\Models\hspkonstruksiumum3;
 use App\Models\subhargadiv3;
+use App\Models\subhargadiv3bahan;
+use App\Models\subhargadiv3peralatan;
 
 // hsp harga divisi 4
 use App\Models\hsppaket4;
 use App\Models\hspkodepekerjaan4;
 use App\Models\hspkonstruksiumum4;
 use App\Models\subhargadiv4;
+use App\Models\subhargadiv4bahan;
+use App\Models\subhargadiv4perlatan;
 
 // hsp harga divisi 5
 use App\Models\hsppaket5;
 use App\Models\hspkodepekerjaan5;
 use App\Models\hspkonstruksiumum5;
 use App\Models\subhargadiv5;
+use App\Models\subhargadiv5bahan;
+use App\Models\subhargadiv5peralatan;
 
 // hsp harga divisi 6
 use App\Models\hsppaket6;
 use App\Models\hspkodepekerjaan6;
 use App\Models\hspkonstruksiumum6;
 use App\Models\subhargadiv6;
+use App\Models\subhargadiv6bahan;
+use App\Models\subhargadiv6peralatan;
 
 // hsp harga divisi 7
 use App\Models\hsppaket7;
 use App\Models\hspkodepekerjaan7;
 use App\Models\hspkonstruksiumum7;
 use App\Models\subhargadiv7;
+use App\Models\subhargadiv7bahan;
+use App\Models\subhargadiv7peralatan;
 
 // hsp harga divisi 8
 use App\Models\hsppaket8;
 use App\Models\hspkodepekerjaan8;
 use App\Models\hspkonstruksiumum8;
 use App\Models\subhargadiv8;
+use App\Models\subhargadiv8bahan;
+use App\Models\subhargadiv8peralatan;
 
 // hsp harga divisi 9
 use App\Models\hsppaket9;
 use App\Models\hspkodepekerjaan9;
 use App\Models\hspkonstruksiumum9;
 use App\Models\subhargadiv9;
+use App\Models\subhargadiv9bahan;
+use App\Models\subhargadiv9peralatan;
 
 
 
@@ -7286,6 +7302,16 @@ subhargadiv1::create([
     'koefisien' => 0.013,
     'hargasatuan' => 133000.00,
     'jumlah_pagu' => '1729',
+]);
+
+subhargadiv1bahan::create([
+    'hspkonstruksiumum_id' => 1,
+    'uraian' => 'Kaso 5/7 kayu kelas II (Perancah)',
+    'kode' => null,
+    'satuan' => 'm3',
+    'koefisien' => 0.039,
+    'hargasatuan' => 1976000.00    ,
+    'jumlah_pagu' => '76471.20',
 ]);
 
 // makan
