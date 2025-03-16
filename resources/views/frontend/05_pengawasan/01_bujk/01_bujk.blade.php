@@ -246,8 +246,8 @@ color: #45a049;
                                         <tr>
                                             <th onclick="sortTable(0)" style="cursor:pointer; text-align:center; width:80px;"> No <span class="sort-icon">⇅</span></th>
                                             <th onclick="sortTable(1)" style="cursor:pointer; text-align:center; width:250px;"> Kode Proyek  <span class="sort-icon">⇅</span></th>
-                                            <th onclick="sortTable(2)" style="cursor:pointer; text-align:center; width:500px;"> Nama Perusahaan <span class="sort-icon">⇅</span></th>
-                                            <th onclick="sortTable(3)" style="cursor:pointer; text-align:center; width:100px;"> Status Modal <span class="sort-icon">⇅</span></th>
+                                            <th onclick="sortTable(2)" style="cursor:pointer; text-align:center; width:400px;"> Nama Perusahaan <span class="sort-icon">⇅</span></th>
+                                            <th onclick="sortTable(3)" style="cursor:pointer; text-align:center; width:200px;"> Status Modal <span class="sort-icon">⇅</span></th>
                                             <th onclick="sortTable(3)" style="cursor:pointer; text-align:center; width:100px;"> Sektor<span class="sort-icon">⇅</span></th>
                                           <th style="text-align:center; width:100px;"> View </th>
                                         </tr>
