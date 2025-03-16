@@ -197,7 +197,7 @@ class SatuanhargamaterialController extends Controller
     $user = Auth::user();
 
     return view('frontend.07_ahsp.03_hspkonstruksiumum.01_divisi1.ahspdivisi1', [
-        'title' => 'Data Bujk Konstruksi',
+        'title' => 'Data AHSP Divisi 1',
         'data' => $datadivisi1,
         'user' => $user,
     ]);
