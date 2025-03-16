@@ -19,7 +19,7 @@ return new class extends Migration
             $table->string('satuan')->nullable();
             $table->string('koefisien')->nullable();
             $table->string('hargasatuan')->nullable();
-            $table->decimal('jumlahharga', 15, 2)->change();
+            $table->decimal('jumlahharga', 15, 2)->nullable();
             $table->softDeletes();
             $table->timestamps();
         });
