@@ -105,7 +105,7 @@
                                     <tfoot>
                                         <tr>
                                             <td colspan="6" class="text-end"><strong>Total:</strong></td>
-                                            <td class="text-end"><strong>{{ number_format($totalJumlahPagu, 2, ',', '.') }}</strong></td>
+                                            <td class="text-end"><strong>{{ number_format($totalbahan, 2, ',', '.') }}</strong></td>
                                         </tr>
                                     </tfoot>
 
