@@ -450,7 +450,7 @@
 
         const margin = 20; // 2 cm margin di semua sisi
         const pdfWidth = 210 - 2 * margin; // Lebar A4 dikurangi margin kiri & kanan
-        const pdfHeight = 297 - 2 * margin; // Tinggi A4 dikurangi margin atas & bawah
+        const pdfHeight = 297 - 1 * margin; // Tinggi A4 dikurangi margin atas & bawah
 
         const page1 = document.querySelector(".halaman-pertama");
         const page2 = document.querySelector(".halaman-kedua");
@@ -470,7 +470,7 @@
 
         addPageContent(page1, margin).then(() => {
             addPageContent(page2, margin, true).then(() => {
-                pdf.save("{{$data->namalengkap}}");
+                pdf.save("{{$data->user->name}}");
             });
         });
     });
