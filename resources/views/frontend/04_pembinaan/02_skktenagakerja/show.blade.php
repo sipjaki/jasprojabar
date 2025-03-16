@@ -108,7 +108,7 @@
 </style>
 
 
-<div class="halaman-pertama" style="margin-top: -100px;" >
+<div class="halaman-pertama">
     <div class="header-surat" style="display: flex; align-items: center; justify-content: center;">
         <img src="/assets/icon/logokabupatenblora.png" alt="Logo Kabupaten Blora" style="width: 110px; height: auto; margin-right: 100px; margin-top:50px;">
 
