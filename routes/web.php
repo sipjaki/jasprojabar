@@ -250,31 +250,31 @@ Route::get('/satuanhargaperalatan', [SatuanhargamaterialController::class, 'satu
 // AHSP HARGA SATUAN DASAR PERDIVISI
 // ==============================================================================================================
 Route::get('/hspdivisi1', [SatuanhargamaterialController::class, 'hspdivisi1']);
-Route::get('/hspdivisi1show', [SatuanhargamaterialController::class, 'hspdivisi1show']);
+Route::get('/satuanhargadivisi1', [SatuanhargamaterialController::class, 'hspdivisi1show']);
 
 Route::get('/hspdivisi2', [SatuanhargamaterialController::class, 'hspdivisi2']);
-Route::get('/hspdivisi2show', [SatuanhargamaterialController::class, 'hspdivisi2show']);
+Route::get('/satuanhargadivisi2', [SatuanhargamaterialController::class, 'hspdivisi2show']);
 
 Route::get('/hspdivisi3', [SatuanhargamaterialController::class, 'hspdivisi3']);
-Route::get('/hspdivisi3show', [SatuanhargamaterialController::class, 'hspdivisi3show']);
+Route::get('/satuanhargadivisi3', [SatuanhargamaterialController::class, 'hspdivisi3show']);
 
 Route::get('/hspdivisi4', [SatuanhargamaterialController::class, 'hspdivisi4']);
-Route::get('/hspdivisi4show', [SatuanhargamaterialController::class, 'hspdivisi4show']);
+Route::get('/satuanhargadivisi4', [SatuanhargamaterialController::class, 'hspdivisi4show']);
 
 Route::get('/hspdivisi5', [SatuanhargamaterialController::class, 'hspdivisi5']);
-Route::get('/hspdivisi5show', [SatuanhargamaterialController::class, 'hspdivisi5show']);
+Route::get('/satuanhargadivisi5', [SatuanhargamaterialController::class, 'hspdivisi5show']);
 
 Route::get('/hspdivisi6', [SatuanhargamaterialController::class, 'hspdivisi6']);
-Route::get('/hspdivisi6show', [SatuanhargamaterialController::class, 'hspdivisi6show']);
+Route::get('/satuanhargadivisi6', [SatuanhargamaterialController::class, 'hspdivisi6show']);
 
 Route::get('/hspdivisi7', [SatuanhargamaterialController::class, 'hspdivisi7']);
-Route::get('/hspdivisi7show', [SatuanhargamaterialController::class, 'hspdivisi7show']);
+Route::get('/satuanhargadivisi7', [SatuanhargamaterialController::class, 'hspdivisi7show']);
 
 Route::get('/hspdivisi8', [SatuanhargamaterialController::class, 'hspdivisi8']);
-Route::get('/hspdivisi8show', [SatuanhargamaterialController::class, 'hspdivisi8show']);
+Route::get('/satuanhargadivisi8', [SatuanhargamaterialController::class, 'hspdivisi8show']);
 
 Route::get('/hspdivisi9', [SatuanhargamaterialController::class, 'hspdivisi9']);
-Route::get('/hspdivisi9show', [SatuanhargamaterialController::class, 'hspdivisi9show']);
+Route::get('/satuanhargadivisi9', [SatuanhargamaterialController::class, 'hspdivisi9show']);
 
 
 

@@ -133,6 +133,9 @@ class SatuanhargamaterialController extends Controller
         ]);
     }
 
+
+    // HSP DIVISI 1
+
     public function hspdivisi1(Request $request)
     {
         $perPage = $request->input('perPage', 25);
@@ -182,6 +185,20 @@ class SatuanhargamaterialController extends Controller
             // 'subdata' => $subdata,
             'perPage' => $perPage,
             'search' => $search
+        ]);
+    }
+
+
+
+    public function hspdivisi1show()
+    {
+        $user = Auth::user();
+        $data = hspkonstruksiumum::paginate();
+
+        return view('frontend.07_ahsp.03_hspkonstruksiumum.01_divisi1.ahspdivisi1', [
+            'title' => 'Satuan Harga Dasar',
+            'user' => $user, // Mengirimkan data paginasi ke view
+            // 'data' => $data, // Mengirimkan data paginasi ke view
         ]);
     }
 
