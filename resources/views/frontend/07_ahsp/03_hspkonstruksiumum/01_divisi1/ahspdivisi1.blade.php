@@ -21,11 +21,11 @@
                         <div style="display: flex; gap: 20px; margin-top: 20px;">
                             <!-- Tombol Tutup dengan warna hijau -->
                             <button onclick="window.history.back()"
-                                    style="padding: 15px 40px; width: 150px; height: 60px; font-size: 16px;
-                                           background-color: red; color: white; border: none; border-radius: 10px;
+                                    style="padding: 10px 40px; width: 200px; height: 60px; font-size: 16px;
+                                           background-color: rgb(255, 252, 252); color: white; border: none; border-radius: 10px;
                                            cursor: pointer; transition: 0.3s;"
                                     onmouseover="this.style.backgroundColor='white'; this.style.color='black';"
-                                    onmouseout="this.style.backgroundColor='red'; this.style.color='white';">
+                                    onmouseout="this.style.backgroundColor='black'; this.style.color='white';">
                                 <span style="color: white">❌</span>Tutup
                             </button>
 
