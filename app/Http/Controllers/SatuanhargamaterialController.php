@@ -247,7 +247,7 @@ class SatuanhargamaterialController extends Controller
         $totalJumlahperalatan = subhargadiv1peralatan::where('hspkonstruksiumum_id', $datadivisi1->id)->sum('jumlah_pagu');
 
         $totalabc = $totalJumlahtenagakerja + $totalJumlahbahanmaterial + $totalJumlahperalatan;
-        $totalpersen = $totalabc * 1.1; // atau bisa juga $totalabc + ($totalabc * 0.1);
+        $totalpersen = $totalabc * 0.1; // atau bisa juga $totalabc + ($totalabc * 0.1);
 
 
         return view('frontend.07_ahsp.03_hspkonstruksiumum.01_divisi1.ahspdivisi1', [
