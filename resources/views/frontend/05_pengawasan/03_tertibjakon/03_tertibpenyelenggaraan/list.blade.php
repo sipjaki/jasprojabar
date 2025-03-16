@@ -338,7 +338,7 @@ color: #45a049;
                             function searchTable() {
                             let input = document.getElementById("searchInput").value;
 
-                            fetch(`/tertibjasakonstruksipemanfaatan?search=${input}`)
+                            fetch(`/tertibjasakonstruksipenyelenggaraan?search=${input}`)
                                 .then(response => response.text())
                                 .then(html => {
                                     let parser = new DOMParser();
