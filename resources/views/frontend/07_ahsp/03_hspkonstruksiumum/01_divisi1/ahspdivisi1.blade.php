@@ -35,8 +35,8 @@
 @include('frontend.00_approve.01_cssterpisah.header')
 
 <body>
-    @include('frontend.00_approve.01_cssterpisah.loader')
-    @include('frontend.00_approve.01_cssterpisah.header1')
+    {{-- @include('frontend.00_approve.01_cssterpisah.loader')
+    @include('frontend.00_approve.01_cssterpisah.header1') --}}
 
     <div class="page-wrapper">
         {{-- <section class="page-banner">
@@ -81,6 +81,6 @@
         </section>
     </div>
 
-    @include('frontend.00_approve.01_cssterpisah.footer1')
-    @include('frontend.00_approve.01_cssterpisah.footer')
+    {{-- @include('frontend.00_approve.01_cssterpisah.footer1')
+    @include('frontend.00_approve.01_cssterpisah.footer') --}}
 </body>
