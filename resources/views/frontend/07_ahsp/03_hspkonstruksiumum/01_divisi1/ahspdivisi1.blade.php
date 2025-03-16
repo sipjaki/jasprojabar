@@ -5,19 +5,30 @@
     }
 
     table {
-        width: 100%;
+        width: 80%;
         border-collapse: collapse;
+        margin: auto;
+        border: 2px solid #2c4c3b; /* Warna hitam kehijauan */
     }
 
     th, td {
-        border: 1px solid black;
-        padding: 8px;
+        border: 1px solid #2c4c3b;
+        padding: 10px;
         text-align: left;
     }
 
     th {
-        background-color: #333;
+        background-color: #2c4c3b;
         color: white;
+        font-weight: bold;
+    }
+
+    tbody tr:nth-child(even) {
+        background-color: #eaf1ed;
+    }
+
+    tbody tr:nth-child(odd) {
+        background-color: #ffffff;
     }
 </style>
 
@@ -62,7 +73,7 @@
                             <tr><td></td><td>Kaso 5/7 kayu kelas II</td><td></td><td>m3</td><td>0.039</td><td>1.976.000</td><td>76.471,20</td></tr>
                             <tr><td></td><td>Papan Kayu 2/20 cm</td><td></td><td>m3</td><td>0.040</td><td>1.976.000</td><td>78.249,60</td></tr>
                             <tr><td colspan="6" style="text-align: right;"><strong>Jumlah Harga Bahan</strong></td><td><strong>239.612,25</strong></td></tr>
-                            <tr><td>D</td><td colspan="5" style="text-align: right;">Total Harga (A+B+C)</td><td>346.221,25</td></tr>
+                            <tr><td>D</td><td colspan="5" style="text-align: right;"><strong>Total Harga (A+B+C)</strong></td><td><strong>346.221,25</strong></td></tr>
                         </tbody>
                     </table>
                 </div>
