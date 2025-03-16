@@ -18,7 +18,7 @@
                 <div class="row">
                     <div class="col-lg-12">
                         <button onclick="window.history.back()"
-    style="margin-top: 20px; padding: 15px 40px; width: 200px; height: 60px; font-size: 18px; background-color: red; color: white; border: none; border-radius: 10px; cursor: pointer;">
+    style="margin-top: 20px; padding: 15px 40px; width: 200px; height: 60px; font-size: 18px; background-color: orange; color: white; border: none; border-radius: 10px; cursor: pointer;">
     ❌ Tutup
 </button>
 
