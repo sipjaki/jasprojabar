@@ -59,7 +59,7 @@
         justify-content: center;
         text-align: center;
         margin-bottom: 20px;
-        margin-top:-100px;
+        margin-top:-50px;
     }
 
     .header-surat img {
