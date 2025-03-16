@@ -26,8 +26,13 @@
                         onmouseout="this.style.backgroundColor='black'; this.style.color='white';">
                         ❌ Tutup
                     </button>
-<br><br><br>
-                        <h4>Analisa Harga Satuan Pekerjaan</h4>
+                            <br><br><br>
+                        <h4>Kode AHSP :
+                            {{ optional($data->hspdivisi)->id }}.
+                            {{ optional($data->hsppaket)->id }}.
+                            {{ optional($data->hspkodepekerjaan)->kodepekerjaan }}.
+                            {{$data->kode}}
+                        </h4>
 
                         <div class="table-responsive">
                             <table class="table table-bordered table-striped">
