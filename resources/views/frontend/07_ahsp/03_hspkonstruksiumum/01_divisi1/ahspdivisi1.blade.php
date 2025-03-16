@@ -148,7 +148,11 @@
                                     </tr>
 
 
-                                    <tr><td style="text-align: center;">D</td><td colspan="5" class="text-end">Jumlah Harga Tenaga Kerja, Bahan dan Peralatan (A+B+C)</td><td class="text-end">346.221,25</td></tr>
+                                    <tr>
+                                        <td style="text-align: center;">D</td>
+                                        <td colspan="5" class="text-end">Jumlah Harga Tenaga Kerja, Bahan dan Peralatan (A+B+C)</td>
+                                        <td class="text-end"><strong style="color:blue;">{{ number_format($totalabc, 2, ',', '.') }}</strong></td>
+                                    </tr>
                                     <tr><td style="text-align: center;">E</td><td colspan="5" class="text-end">Biaya Umum dan Keuntungan (10%)</td><td class="text-end">34.622,12</td></tr>
                                     <tr><td style="text-align: center;">F</td><td colspan="5" class="text-end"><strong>Harga Satuan Pekerjaan (D+E)</strong></td><td class="text-end"><strong>380.843,37</strong></td></tr>
                                 </tbody>
