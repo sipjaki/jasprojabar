@@ -132,7 +132,7 @@
                             <a href="#" class="popup-close">&times;</a>
                             <h2>Analisa Harga Satuan Pekerjaan</h2>
 
-                            <a href="#popupAnalisa" class="btn-show-popup">Lihat Analisa</a>
+                            {{-- <a href="#popupAnalisa" class="btn-show-popup">Lihat Analisa</a> --}}
 
                             <div class="table-container">
                                 <table>
