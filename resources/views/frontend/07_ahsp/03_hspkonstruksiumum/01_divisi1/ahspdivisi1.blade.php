@@ -73,7 +73,7 @@
                                     {{-- <tr><td></td><td>Tukang batu/tembok</td><td>L.02</td><td>OH</td><td>0.200</td><td>106.000</td><td>21.200</td></tr>
                                     <tr><td></td><td>Kepala Tukang</td><td>L.03</td><td>OH</td><td>0.040</td><td>122.000</td><td>4.880</td></tr>
                                     <tr><td></td><td>Mandor</td><td>L.04</td><td>OH</td><td>0.013</td><td>133.000</td><td>1.729</td></tr> --}}
-                                    <tr><td colspan="6" class="text-end"><strong>Jumlah Harga Tenaga Kerja</strong></td><td><strong>106.609</strong></td></tr>
+                                    <tr><td colspan="6" class="text-end"><strong>Jumlah Harga Tenaga Kerja</strong></td><td><strong class="text-end">106.609</strong></td></tr>
 
 
                                     <tr><td style="text-align: center;">B</td><td style="text-align: center;">Bahan</td><td></td><td></td><td></td><td></td><td></td></tr>
@@ -94,7 +94,7 @@
                                     <tr><td></td><td>Kerikil (Maks 30mm)</td><td></td><td>kg</td><td>83.349</td><td>244</td><td>20.337,16</td></tr>
                                     <tr><td></td><td>Air</td><td></td><td>liter</td><td>17.415</td><td>50</td><td>870,75</td></tr>
                                     <tr><td></td><td>Residu</td><td></td><td>liter</td><td>0.400</td><td>5.400</td><td>2.160,00</td></tr> --}}
-                                    <tr><td colspan="6" class="text-end"><strong>Jumlah Harga Bahan</strong></td><td><strong>239.612,25</strong></td></tr>
+                                    <tr><td colspan="6" class="text-end"><strong>Jumlah Harga Bahan</strong></td><td><strong class="text-end">239.612,25</strong></td></tr>
 
 
                                     <tr><td style="text-align: center;">C</td><td style="text-align: center;">Peralatan</td><td></td><td></td><td></td><td></td><td></td></tr>
