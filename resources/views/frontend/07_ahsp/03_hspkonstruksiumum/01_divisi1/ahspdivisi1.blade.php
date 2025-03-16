@@ -1,3 +1,14 @@
+<style>
+    /* Menambahkan warna hijau muda pada baris tabel secara selang-seling */
+    .table-striped tbody tr:nth-child(odd) {
+        background-color: #d4edda; /* Warna hijau muda */
+    }
+
+    .table-striped tbody tr:nth-child(even) {
+        background-color: #ffffff; /* Warna putih untuk baris genap */
+    }
+</style>
+
 @include('frontend.00_approve.01_cssterpisah.header')
 
 <body>
