@@ -260,18 +260,17 @@ color: #45a049;
                                                 <td style="text-align: left">
                                                     <a href="javascript:void(0);"
                                                        style="color: blue; text-decoration: none;"
-                                                       onclick="redirectToPage('{{ $item->jenispekerjaan }}')">
+                                                       onclick="redirectToPage()">
                                                         {{ $item->jenispekerjaan }}
                                                     </a>
                                                 </td>
 
                                                 <script>
-                                                    function redirectToPage(jenispekerjaan) {
-                                                        // Encode jenispekerjaan untuk memastikan URL valid
-                                                        const encodedJenisPekerjaan = encodeURIComponent(jenispekerjaan);
-                                                        window.location.href = "/satuanhargadivisi1/" + encodedJenisPekerjaan;
+                                                    function redirectToPage() {
+                                                        window.location.href = "/satuanhargadivisi1";
                                                     }
                                                 </script>
+
 
                                                 <td style="text-align: center; color:red;" >{{$item->satuanmaterial}}</td>
                                                 <td style="text-align: center;">Rp</td>
