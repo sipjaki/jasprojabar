@@ -333,7 +333,8 @@ color: #45a049;
                                                 </table>
 
                                                 <button onclick="closeModal()" style="margin-top: 20px; padding: 10px 20px; background-color: red; color: white; border: none; border-radius: 5px; cursor: pointer;">Tutup</button>
-                                        </div>
+
+                                            </div>
                                     </div>
 
                                     <script>
