@@ -14,10 +14,10 @@
         </section> --}}
 
         <section class="news-details-section" style="background-image: url(assets/00_dokmasjaki/03_datajakon/bannerbetter.jpg);">
-            <div class="container" style="margin-top:-50px;" style="background: #ffd100; max-width: 95%; margin: 30px auto; padding: 20px; border-radius: 20px; box-shadow: 0px 4px 10px rgba(14, 112, 1, 0.1);">
+            <div class="container" style="margin-top:-50px;" style="max-width: 95%; margin: 30px auto; padding: 20px; border-radius: 20px; box-shadow: 0px 4px 10px rgba(14, 112, 1, 0.1);">
                 <div class="row">
 
-                    <div class="col-lg-12">
+                    <div class="col-lg-12" style="background: #a09f9c;">
                         <div style="display: flex; gap: 20px; margin-top: 20px;">
                             <!-- Tombol Tutup dengan warna hijau -->
                             <button onclick="window.history.back()"
