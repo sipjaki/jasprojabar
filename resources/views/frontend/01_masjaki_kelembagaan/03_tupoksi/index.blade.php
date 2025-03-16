@@ -49,7 +49,7 @@
 				</div><!-- portfolio-details-content-title --> --}}
 
 
-<div style="background-color: #f9f9f9; padding: 30px; border-radius: 10px; max-width: 1000px; margin: auto; font-family: 'Poppins', sans-serif;">
+<div style="background-color: #f9f9f9; padding: 30px; border-radius: 10px; max-width: 90%; margin: auto; font-family: 'Poppins', sans-serif;">
     <!-- Header -->
     <div style="background-color: #FFD100; padding: 15px; border-radius: 10px 10px 0 0; text-align: center; font-weight: 600; font-size: 22px;">
         DINAS PEKERJAAN UMUM DAN PENATAAN RUANG <br> KABUPATEN BLORA
