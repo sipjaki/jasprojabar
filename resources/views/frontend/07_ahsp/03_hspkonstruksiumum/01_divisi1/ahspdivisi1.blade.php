@@ -34,6 +34,10 @@
                             {{$data->kode}}
                         </h4>
 
+                        <h4>Jenis Pekerjaan :
+                            {{$data->jenispekerjaan}}
+                        </h4>
+
                         <div class="table-responsive">
                             <table class="table table-bordered table-striped">
                                 <thead style="background-color: #0bb928; color: white;">
