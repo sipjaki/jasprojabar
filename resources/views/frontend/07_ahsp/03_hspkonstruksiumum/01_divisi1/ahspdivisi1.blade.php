@@ -96,10 +96,36 @@
                                     </tr>
 
                                     @endforeach
-                                    {{-- <tr><td></td><td>Tukang batu/tembok</td><td>L.02</td><td>OH</td><td>0.200</td><td>106.000</td><td>21.200</td></tr>
-                                    <tr><td></td><td>Kepala Tukang</td><td>L.03</td><td>OH</td><td>0.040</td><td>122.000</td><td>4.880</td></tr>
-                                    <tr><td></td><td>Mandor</td><td>L.04</td><td>OH</td><td>0.013</td><td>133.000</td><td>1.729</td></tr> --}}
-                                    <tr><td colspan="6" class="text-end"><strong>Jumlah Harga Tenaga Kerja</strong></td><td class="text-end"><strong>106.609</strong></td></tr>
+
+                                    <tr>
+                                        <td colspan="6" class="text-end"><strong>Jumlah Harga Tenaga Kerja</strong></td>
+                                        <td class="text-end" id="jumlah-hasil-penjumlahan"><strong>JUMLAH HASIL PENJUMLAHAN</strong></td>
+                                    </tr>
+
+                                    <script>
+                                        window.onload = function() {
+                                            // Ambil semua elemen yang ada di kolom "Jumlah Pagu"
+                                            const jumlahPaguElements = document.querySelectorAll('td.text-end:nth-child(7)'); // Kolom 7 adalah "Jumlah Pagu"
+                                            let totalJumlahPagu = 0;
+
+                                            // Iterasi melalui semua nilai di kolom "Jumlah Pagu"
+                                            jumlahPaguElements.forEach(function(element) {
+                                                // Ambil nilai yang ada di dalam elemen dan hilangkan titik untuk ribuan, lalu ganti koma menjadi titik untuk desimal
+                                                let jumlahPagu = element.innerText.replace('.', '').replace(',', '.');
+
+                                                // Tambahkan ke total jika nilai valid
+                                                if (!isNaN(jumlahPagu) && jumlahPagu !== "") {
+                                                    totalJumlahPagu += parseFloat(jumlahPagu);
+                                                }
+                                            });
+
+                                            // Format hasil penjumlahan sebagai mata uang dengan dua angka di belakang koma
+                                            let formattedTotal = totalJumlahPagu.toLocaleString('id-ID', { style: 'currency', currency: 'IDR' }).replace('IDR', '').trim();
+
+                                            // Menampilkan hasil penjumlahan ke elemen dengan id "jumlah-hasil-penjumlahan"
+                                            document.getElementById('jumlah-hasil-penjumlahan').innerText = formattedTotal;
+                                        };
+                                    </script>
 
 
                                     <tr><td style="text-align: center;">B</td><td style="text-align: center;">Bahan</td><td></td><td></td><td></td><td></td><td></td></tr>
