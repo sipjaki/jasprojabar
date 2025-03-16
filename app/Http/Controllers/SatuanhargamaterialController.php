@@ -189,18 +189,19 @@ class SatuanhargamaterialController extends Controller
     }
 
 
-
-    public function hspdivisi1show()
+    public function hspdivisi1show($jenispekerjaan)
     {
-        $user = Auth::user();
-        $data = hspkonstruksiumum::paginate();
+        $datadivisi1 = hspkonstruksiumum::where('jenispekerjaan', $jenispekerjaan)->first();
 
-        return view('frontend.07_ahsp.03_hspkonstruksiumum.01_divisi1.ahspdivisi1', [
-            'title' => 'Satuan Harga Dasar',
-            'user' => $user, // Mengirimkan data paginasi ke view
-            // 'data' => $data, // Mengirimkan data paginasi ke view
-        ]);
-    }
+    // Ambil data user saat ini
+    $user = Auth::user();
+
+    return view('frontend.07_ahsp.03_hspkonstruksiumum.01_divisi1.ahspdivisi1', [
+        'title' => 'Data Bujk Konstruksi',
+        'data' => $datadivisi1,
+        'user' => $user,
+    ]);
+}
 
 // DIVISI 2
 
