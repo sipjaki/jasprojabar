@@ -49,14 +49,29 @@
                     <div class="news-details-content-box" style="margin-left: 25px;">
 						<h4>{{$data->judul}}</h4>
                         <br>
-                        <div style="display: inline-block;">
-                            <a href="#" target="_blank" class="btn btn-danger"
-                               style="background-color: navy; color: white; border: none; transition: 0.3s; padding:10px 20px; border-radius:15px;"
-                               onmouseover="this.style.backgroundColor='white'; this.style.color='black'; this.style.border='1px solid black';"
-                               onmouseout="this.style.backgroundColor='navy'; this.style.color='white'; this.style.border='none';">
-                                <i class="fa fa-file-pdf" style="margin-right:5px;"></i> Download PDF
-                            </a>
-                        </div>
+
+
+
+
+                <button id="sertifikat-btn" class="badge">
+                    <i class="fas fa-download me-2"></i>Download Pdf
+                </button>
+
+
+                <script>
+                    document.getElementById('sertifikat-btn').addEventListener('click', function() {
+                        const fileUrl = "{{ asset('storage/' . $data->berkas) }}"; // URL file yang ingin diunduh
+                        const a = document.createElement('a');
+                        a.href = fileUrl;
+                        a.download = ''; // Nama file tidak perlu diisi, karena browser akan menggunakan nama dari URL
+                        document.body.appendChild(a);
+                        a.click();
+                        document.body.removeChild(a);
+                    });
+                    </script>
+
+
+
 
                     </div><!-- /.news-details-content-box -->
 
