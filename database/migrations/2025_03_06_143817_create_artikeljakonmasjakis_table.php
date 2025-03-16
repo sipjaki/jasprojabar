@@ -14,11 +14,11 @@ return new class extends Migration
         Schema::create('artikeljakonmasjakis', function (Blueprint $table) {
             $table->id();
             $table->string('judul')->nullable();
-            $table->string('berkas')->nullable();
             $table->date('tanggal')->nullable();
             $table->string('foto1')->nullable();
             $table->string('foto2')->nullable();
             $table->string('foto3')->nullable();
+            $table->string('berkas')->nullable();
             $table->softDeletes();
             $table->timestamps();
         });
