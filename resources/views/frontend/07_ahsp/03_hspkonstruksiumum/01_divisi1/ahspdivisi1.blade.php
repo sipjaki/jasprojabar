@@ -33,13 +33,13 @@
                             <table class="table table-bordered table-striped">
                                 <thead style="background-color: #0bb928; color: white;">
                                     <tr>
-                                        <th>No</th>
-                                        <th>Uraian</th>
-                                        <th>Kode</th>
-                                        <th>Satuan</th>
-                                        <th>Koefisien</th>
-                                        <th>Harga Satuan (Rp)</th>
-                                        <th>Jumlah Harga (Rp)</th>
+                                        <th style="text-align: center;">No</th>
+                                        <th style="text-align: center;">Uraian</th>
+                                        <th style="text-align: center;">Kode</th>
+                                        <th style="text-align: center;">Satuan</th>
+                                        <th style="text-align: center;">Koefisien</th>
+                                        <th style="text-align: center;">Harga Satuan (Rp)</th>
+                                        <th style="text-align: center;">Jumlah Harga (Rp)</th>
                                     </tr>
                                 </thead>
                                 <tbody>
