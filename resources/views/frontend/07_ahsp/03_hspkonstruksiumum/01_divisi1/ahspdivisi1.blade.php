@@ -1,14 +1,33 @@
 <style>
+    /* Membuat halaman penuh dan menengahkan kontennya */
+    .page-wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh; /* Supaya kontennya ada di tengah secara vertikal */
+        background-color: #f4f4f4; /* Warna latar belakang agar lebih nyaman dilihat */
+    }
+
+    .container {
+        background: white;
+        width: 95%;
+        max-width: 800px;
+        padding: 20px;
+        border-radius: 20px;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    }
+
     .table-container {
-        width: 90%;
+        width: 100%;
         overflow-x: auto;
+        display: flex;
+        justify-content: center;
     }
 
     table {
         width: 90%;
         border-collapse: collapse;
-        margin: auto;
-        border: 2px solid #2ECC71 /* Warna hitam kehijauan */
+        border: 2px solid #2ECC71; /* Warna hitam kehijauan */
     }
 
     th, td {
@@ -35,20 +54,9 @@
 @include('frontend.00_approve.01_cssterpisah.header')
 
 <body>
-    {{-- @include('frontend.00_approve.01_cssterpisah.loader')
-    @include('frontend.00_approve.01_cssterpisah.header1') --}}
-
     <div class="page-wrapper">
-        {{-- <section class="page-banner">
-            <div class="container">
-                <div class="page-banner-title">
-                    <h3 style="color: black; font-size:30px;">{{$title}}</h3>
-                </div>
-            </div>
-        </section> --}}
-
         <section class="news-details-section">
-            <div class="container" style="background: white; max-width: 95%; margin: 30px auto; padding: 20px; border-radius: 20px; box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);">
+            <div class="container">
                 <div class="table-container">
                     <table>
                         <thead>
@@ -80,7 +88,4 @@
             </div>
         </section>
     </div>
-
-    {{-- @include('frontend.00_approve.01_cssterpisah.footer1')
-    @include('frontend.00_approve.01_cssterpisah.footer') --}}
 </body>
