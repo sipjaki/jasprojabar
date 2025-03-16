@@ -14,7 +14,7 @@
 .container {
     background: white;
     width: 100%;
-    max-width: 100vw; /* Maksimum selebar viewport */
+    max-width: 800vw; /* Maksimum selebar viewport */
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
