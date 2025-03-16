@@ -99,7 +99,7 @@
 
                                     <tr>
                                         <td colspan="6" class="text-end"><strong>Jumlah Harga Tenaga Kerja</strong></td>
-                                        <td class="text-end" id="jumlah-hasil-penjumlahan"><strong>JUMLAH HASIL PENJUMLAHAN</strong></td>
+                                        <td class="text-end" id="jumlah-hasil-penjumlahan"><strong></strong></td>
                                     </tr>
 
                                     <script>
