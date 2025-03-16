@@ -257,24 +257,26 @@ color: #45a049;
                                                 </td>
                                                 {{-- <td style="text-align: center;">{{$item->hspkodepekerjaan->namapekerjaan}}</td> --}}
                                                 <td style="text-align: left">
-                                                    <a href="javascript:void(0);"
-                                                       style="color: blue; text-decoration: none;"
-                                                       onclick="redirectToPage('{{ $item->id }}')">
-                                                        {{ $item->jenispekerjaan }}
-                                                    </a>
+                                                    @if(isset($item->id) && !empty($item->id))
+                                                        <a href="javascript:void(0);"
+                                                           style="color: blue; text-decoration: none;"
+                                                           onclick="redirectToPage('{{ $item->id }}')">
+                                                            {{ $item->jenispekerjaan }}
+                                                        </a>
+                                                    @else
+                                                        <span style="color: red;">ID Tidak Ditemukan</span>
+                                                    @endif
                                                 </td>
 
                                                 <script>
                                                     function redirectToPage(id) {
-                                                        if (!id) {
-                                                            alert("ID tidak ditemukan!");
+                                                        if (!id || id.length !== 36) { // Pastikan UUID memiliki 36 karakter
+                                                            alert("ID tidak valid!");
                                                             return;
                                                         }
-                                                        console.log("Redirecting to:", id); // Debugging
                                                         window.location.href = "/satuanhargadivisi1/" + encodeURIComponent(id);
                                                     }
                                                 </script>
-
 
                                                 <td style="text-align: center; color:red;" >{{$item->satuanmaterial}}</td>
                                                 <td style="text-align: center;">Rp</td>

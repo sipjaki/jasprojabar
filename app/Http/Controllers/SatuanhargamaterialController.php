@@ -4,6 +4,8 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Ramsey\Uuid\Uuid;
+use Illuminate\Support\Str;
+use Illuminate\Support\Facades\Log;
 
 use App\Models\bujkkontraktorsub;
 use App\Models\satuanhargamaterial;
@@ -188,28 +190,32 @@ class SatuanhargamaterialController extends Controller
         ]);
     }
 
-public function hspdivisi1show($id)
-{
-    // Pastikan ID adalah UUID yang valid
-    if (!Uuid::isValid($id)) {
-        abort(404, "ID tidak valid.");
+
+    public function hspdivisi1show($id)
+    {
+        // Debugging: Tampilkan ID yang diterima di log Laravel
+        Log::info("ID yang diterima: " . $id);
+
+        // Pastikan ID adalah UUID valid
+        if (!Uuid::isValid($id)) {
+            abort(404, "ID tidak valid.");
+        }
+
+        // Cek apakah data tersedia
+        $datadivisi1 = HspKonstruksiUmum::where('id', $id)->first();
+
+        if (!$datadivisi1) {
+            abort(404, "Data tidak ditemukan.");
+        }
+
+        $user = Auth::user();
+
+        return view('frontend.07_ahsp.03_hspkonstruksiumum.01_divisi1.ahspdivisi1', [
+            'title' => 'Data AHSP Divisi 1',
+            'data' => $datadivisi1,
+            'user' => $user,
+        ]);
     }
-
-    // Ambil data berdasarkan UUID
-    $datadivisi1 = HspKonstruksiUmum::where('id', $id)->firstOrFail();
-
-    // Ambil data user saat ini
-    $user = Auth::user();
-
-    return view('frontend.07_ahsp.03_hspkonstruksiumum.01_divisi1.ahspdivisi1', [
-        'title' => 'Data AHSP Divisi 1',
-        'data' => $datadivisi1,
-        'user' => $user,
-    ]);
-}
-
-
-
 // DIVISI 2
 
 

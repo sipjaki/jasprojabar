@@ -1,5 +1,7 @@
 <?php
 
+use Ramsey\Uuid\Uuid;
+
 use App\Http\Controllers\AdminDashboardController;
 use App\Http\Controllers\DatajakonController;
 use App\Http\Controllers\FedashboardController;
