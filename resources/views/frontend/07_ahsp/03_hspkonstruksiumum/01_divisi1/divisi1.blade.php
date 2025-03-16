@@ -238,7 +238,7 @@ color: #45a049;
                                                 <th onclick="sortTable(1)" style="cursor:pointer; text-align:center; width:150px;"> Kode AHSP <span class="sort-icon">⇅</span></th>
                                                 {{-- <th onclick="sortTable(4)" style="cursor:pointer; text-align:center; width:250px;"> Kode Paket <span class="sort-icon">⇅</span></th> --}}
                                                 <th onclick="sortTable(7)" style="cursor:pointer; text-align:center; width:600px;"> Jenis Pekerjaan <span class="sort-icon">⇅</span></th>
-                                                <th onclick="sortTable(7)" style="cursor:pointer; text-align:center; width:600px;"> Satuan <span class="sort-icon">⇅</span></th>
+                                                <th onclick="sortTable(7)" style="cursor:pointer; text-align:center; width:100px;"> Satuan <span class="sort-icon">⇅</span></th>
                                                 <th onclick="sortTable(6)" style="cursor:pointer; text-align:center; width:80px;"> Rp <span class="sort-icon">⇅</span></th>
                                                 <th onclick="sortTable(8)" style="cursor:pointer; text-align:center; width:200px;"> Harga Satuan <span class="sort-icon">⇅</span></th>
                                             </tr>
