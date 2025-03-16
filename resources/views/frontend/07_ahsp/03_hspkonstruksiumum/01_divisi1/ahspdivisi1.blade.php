@@ -4,7 +4,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        min-height: 100vh; /* Supaya kontennya ada di tengah secara vertikal */
+        min-height: 200vh; /* Supaya kontennya ada di tengah secara vertikal */
         background-color: #f4f4f4; /* Warna latar belakang agar lebih nyaman dilihat */
         padding: 20px;
     }
@@ -12,14 +12,14 @@
     .container {
         background: white;
         width: 95%;
-        max-width: 1250px;
+        max-width: 95%;
         padding: 20px;
         border-radius: 20px;
         box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
     }
 
     .table-container {
-        width: 100%;
+        width: 95%;
         overflow-x: auto; /* Supaya bisa di-scroll di layar kecil */
         display: flex;
         justify-content: center;
