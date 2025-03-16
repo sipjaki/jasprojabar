@@ -270,7 +270,7 @@ color: #45a049;
 
                                                 <script>
                                                     function redirectToPage(id) {
-                                                        if (!id || id.length !== 36) { // Pastikan UUID memiliki 36 karakter
+                                                        if (!id) { // Pastikan ID tidak kosong
                                                             alert("ID tidak valid!");
                                                             return;
                                                         }

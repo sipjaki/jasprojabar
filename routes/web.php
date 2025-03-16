@@ -251,9 +251,9 @@ Route::get('/satuanhargaperalatan', [SatuanhargamaterialController::class, 'satu
 // AHSP HARGA SATUAN DASAR PERDIVISI
 // ==============================================================================================================
 Route::get('/hspdivisi1', [SatuanhargamaterialController::class, 'hspdivisi1']);
-// Route::get('/satuanhargadivisi1/{jenispekerjaan}', [SatuanhargamaterialController::class, 'hspdivisi1show']);
-Route::get('/satuanhargadivisi1/{id}', [SatuanhargamaterialController::class, 'hspdivisi1show'])
-    ->where('id', '[0-9a-fA-F-]{36}'); // Pastikan hanya menerima UUID
+Route::get('/satuanhargadivisi1/{id}', [SatuanhargamaterialController::class, 'hspdivisi1show']);
+// Route::get('/satuanhargadivisi1/{id}', [SatuanhargamaterialController::class, 'hspdivisi1show'])
+//     ->where('id', '[0-9a-fA-F-]{36}'); // Pastikan hanya menerima UUID
 
 Route::get('/hspdivisi2', [SatuanhargamaterialController::class, 'hspdivisi2']);
 Route::get('/satuanhargadivisi2/{jenispekerjaan}', [SatuanhargamaterialController::class, 'hspdivisi2show']);
