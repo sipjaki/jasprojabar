@@ -7497,18 +7497,6 @@ hspkonstruksiumum::create([
     'hargasatuan' => '23690.38',
 ]);
 
-// ------------------------------------
-// HARGA SUB DIVISI
-subhargadiv1::create([
-    'hspkonstruksiumum_id' => 1,
-    'uraian' => 'Pekerja',
-    'kode' => 'L.01',
-    'satuan' => 'OH',
-    'koefisien' => '0,600',
-    'hargasatuan' => '96000',
-    'jumlahharga' => '57.600,00',
-]);
-
 // ============================================= LIST DAFTAR HARGA KONSTRUKSI UMUM DIVISI 2 ===========================
 hsppaket2::create([
     'id' => 1,
