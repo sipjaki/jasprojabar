@@ -6,11 +6,12 @@
         align-items: center;
         min-height: 100vh; /* Supaya kontennya ada di tengah secara vertikal */
         background-color: #f4f4f4; /* Warna latar belakang agar lebih nyaman dilihat */
+        padding: 20px;
     }
 
     .container {
         background: white;
-        width: 100%;
+        width: 95%;
         max-width: 1250px;
         padding: 20px;
         border-radius: 20px;
@@ -19,13 +20,13 @@
 
     .table-container {
         width: 100%;
-        overflow-x: auto;
+        overflow-x: auto; /* Supaya bisa di-scroll di layar kecil */
         display: flex;
         justify-content: center;
     }
 
     table {
-        width: 90%;
+        width: 85%; /* Ukuran tabel 85% dari layar */
         border-collapse: collapse;
         border: 2px solid #2ECC71; /* Warna hitam kehijauan */
     }
@@ -42,12 +43,29 @@
         font-weight: bold;
     }
 
+    /* Warna selang-seling */
     tbody tr:nth-child(even) {
-        background-color: #5b6860;
+        background-color: #eaf1ed; /* Warna lebih soft */
     }
 
     tbody tr:nth-child(odd) {
         background-color: #ffffff;
+    }
+
+    /* Responsif: Jika layar kecil, atur agar tabel bisa di-scroll */
+    @media (max-width: 768px) {
+        .container {
+            width: 100%;
+            padding: 15px;
+        }
+
+        .table-container {
+            overflow-x: auto;
+        }
+
+        table {
+            width: 100%; /* Agar mengikuti lebar container */
+        }
     }
 </style>
 
