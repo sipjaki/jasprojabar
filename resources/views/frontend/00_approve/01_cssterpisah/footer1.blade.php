@@ -12,7 +12,7 @@
         position: relative;
         z-index: 10;">
 			<div class="row">
-				<div class="col-lg-6">
+				<div class="col-lg-5">
 					{{-- <div class="footer-widget-logo">
                     </div><!-- footer-widget-logo --> --}}
 					<div class="footer-widget-text">
@@ -24,11 +24,11 @@
                         </h1>
 						<p>Dinas Pekerjaan Umum dan Penataan Ruang Kabupaten Blora</p>
 					</div><!-- footer-widget-text -->
-					{{-- <div class="footer-widget-text">
+					<div class="footer-widget-text">
               			<p style="text-align: justify; font-size:18px;">
                             Mas Jaki DPUPR Blora adalah Sistem Informasi Pembina Jasa Konstruksi Kabupaten Blora yang mendigitalisasi pendataan SKK Tenaga Kerja Konstruksi, serta pengawasan Badan Usaha Jasa Konstruksi (BUJK) Konstruksi dan Konsultasi. Sistem ini memastikan kepatuhan regulasi, memantau progres proyek secara real-time, dan menilai kinerja kontraktor serta tenaga ahli. Selain itu, platform ini memfasilitasi komunikasi antar pemangku kepentingan untuk menciptakan ekosistem konstruksi yang profesional, transparan, dan berkelanjutan.
                         </p>
-                    </div><!-- footer-widget-text --> --}}
+                    </div><!-- footer-widget-text -->
 
                     <div class="footer-widget-socials" style="margin-bottom: 20px;">
                         <a href="mailto:example@email.com"><i class="fa-solid fa-envelope"></i></a>
@@ -42,85 +42,8 @@
 
 
 				</div><!--col-lg-4-->
-				{{-- <div class="col-lg-3">
-					<div class="footer-widget">
-						<div class="footer-widget-explore">
-                            <h4 class="footer-widget-title">
-                                <i class="fas fa-compass" style="margin-right: 5px;"></i> Jelajah Menu
-                            </h4>
-                            <ul class="list-unstyled">
-								<li><a href="/">Berita Jasa Konstruksi</a></li>
-								<li><a href="/">Artikel Jasa Konstruksi</a></li>
-								<li><a href="/">Struktur DPUPR Blora</a></li>
-								<li><a href="/">Profil Jakon DPUPR Blora</a></li>
-								<li><a href="/">Tupoksi Jakon DPUPR Blora</a></li>
-								<li><a href="/">Badan Usaha Jasa Konstruksi</a></li>
-								<li><a href="/">Badan Usaha Jasa Konsultasi Konstruksi</a></li>
-								<li><a href="/">Tenaga Kerja Konstruksi DPUPR</a></li>
-								<li><a href="/">Tenaga Kerja Kab Blora</a></li>
-								{{-- <li><a href="/">Profil Paket Pekerjaan</a></li> --}}
-								{{-- <li><a href="/">Agenda Pelatihan</a></li>
-								<li><a href="/">Tertib Jasa Konstruksi</a></li>
-								<li><a href="/">Kecelakaan Kerja</a></li> --}}
-								{{-- <li><a href="/">Rantai Pasok Material Bangunan </a></li>
-								<li><a href="/">Rantai Pasok Peralatan Konstruksi</a></li>
-								<li><a href="/">Rantai Pasok Asuransi Konstruksi</a></li>
-								<li><a href="/">Rantai Pasok Toko Bangunan </a></li> --}}
-							{{-- </ul><!-- list-unstyled -->
-						</div><!-- footer-widget-explore --> --}}
- --}}
-                        {{-- <div class="footer-widget-explore">
-							<h4 class="footer-widget-title">
-                                <i class="fas fa-gavel" style="margin-right: 5px;"></i> Peraturan Pemerintah
-                            </h4>
 
-                            <ul class="list-unstyled">
-								<li><a href="/404">Standar Biaya Umum</a></li>
-								<li><a href="/404">Undang - Undang</a></li>
-								<li><a href="/404">Peraturan Pemerintah</a></li>
-								<li><a href="/404">Peraturan Presiden</a></li>
-								<li><a href="/404">Peraturan Menteri</a></li>
-								<li><a href="/404">Keputusan Menteri</a></li>
-								<li><a href="/404">Surat Edaran Menteri</a></li>
-								<li><a href="/404">Referensi</a></li>
-								<li><a href="/404">Peraturan Daerah</a></li>
-								<li><a href="/404">Peraturan Gubernur</a></li>
-								<li><a href="/404">Peraturan Walikota/Bupati</a></li>
-								<li><a href="/404">Surat Keputusan</a></li>
-							</ul><!-- list-unstyled -->
-						</div><!-- footer-widget-department --> --}}
-
-
-
-					{{-- </div><!--footer-widget-->
-				</div><!--col-lg-3--> --}}
-{{--
-				<div class="col-lg-3">
-					<div class="footer-widget">
-                        <div class="footer-widget-department">
-
-                            <h4 class="footer-widget-title">
-                                <i class="fas fa-book" style="margin-right: 5px;"></i> AHSP Kab Blora 2025
-                            </h4>
-
-                            <ul class="list-unstyled">
-								<li><a href="/404">Standar Harga Material Bangunan</a></li>
-								<li><a href="/404">Standar Harga Upah Tenaga Kerja</a></li>
-								<li><a href="/404">Standar Harga Peralatan</a></li>
-								<li><a href="/404">HSP Divisi I Persiapan Pekerjaan</a></li>
-								<li><a href="/404">HSP Divisi II Pekerjaan Struktur</a></li>
-								<li><a href="/404">HSP Divisi III Pekerjaan Arsitektur</a></li>
-								<li><a href="/404">HSP Divisi IV Pekerjaan Lansekap</a></li>
-								<li><a href="/404">HSP Divisi V Pekerjaan Mekanikal Elektrikal</a></li>
-								<li><a href="/404">HSP Divisi VI Pekerjaan Plambing</a></li>
-								<li><a href="/404">HSP Divisi VII Pekerjaan Jalan Pada Pemukiman</a></li>
-								<li><a href="/404">HSP Divisi VIII Drainase Jalan</a></li>
-								<li><a href="/404">HSP Divisi VIII Pekerjaan Jaringan Pipa</a></li>
-							</ul><!-- list-unstyled -->
-						</div><!-- footer-widget-department -->
-					</div><!--footer-widget-->
-				</div><!--col-lg-2--> --}}
-				<div class="col-lg-6">
+				<div class="col-lg-">
 					<div class="footer-widget">
 
                     <div class="footer-widget" style="margin-top: -0px;">
