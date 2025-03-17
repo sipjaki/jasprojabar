@@ -9697,7 +9697,7 @@ subhargadiv2::create([
     'satuan' => 'OH',
     'koefisien' => 0.600,
     'hargasatuan' => 96000.00,
-    'jumlah_pagu2' => '57600', // **Manual tanpa perhitungan**
+    'jumlah_pagu' => '57600', // **Manual tanpa perhitungan**
 ]);
 
 
