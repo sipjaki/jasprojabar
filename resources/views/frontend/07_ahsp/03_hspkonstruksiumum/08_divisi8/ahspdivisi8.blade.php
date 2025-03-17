@@ -55,8 +55,8 @@
                     <h4 style="font-family: 'Poppins', sans-serif;">
                         Kode AHSP :
                         {{ optional($data->hspdivisi)->id }}.
-                        {{ optional($data->hsppaket)->id }}.
-                        {{ optional($data->hspkodepekerjaan)->kodepekerjaan }}.
+                        {{ optional($data->hsppaket8)->id }}.
+                        {{ optional($data->hspkodepekerjaan8)->kodepekerjaan }}.
                         {{$data->kode}}
                     </h4>
                     <hr>
