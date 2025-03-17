@@ -244,6 +244,7 @@ color: #45a049;
                                             </tr>
                                         </thead>
                                         <tbody id="tableBody">
+                                            {{-- sigit --}}
                                             @php $start = ($data->currentPage() - 1) * $data->perPage() + 1; @endphp
                                             @foreach ($data as $item)
                                             <tr>
