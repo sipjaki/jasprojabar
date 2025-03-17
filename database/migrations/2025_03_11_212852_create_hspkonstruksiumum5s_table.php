@@ -17,6 +17,8 @@ return new class extends Migration
             $table->foreignId('hsppaket5_id')->nullable();
             $table->foreignId('hspkodepekerjaan5_id')->nullable();
             $table->foreignId('subhargadiv5_id')->nullable();
+            $table->foreignId('subhargadiv5bahan_id')->nullable();
+            $table->foreignId('subhargadiv5peralatan_id')->nullable();
             $table->string('kode')->nullable();
             $table->string('jenispekerjaan')->nullable();
             $table->string('satuanmaterial')->nullable();

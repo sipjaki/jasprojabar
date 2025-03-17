@@ -28,9 +28,14 @@ class hspkonstruksiumum8 extends Model
         return $this->belongsTo(hspkodepekerjaan8::class);
     }
 
-    public function subhargadiv8()
+    public function subhargadiv8bahan()
     {
-        return $this->belongsTo(subhargadiv8::class);
+        return $this->belongsTo(subhargadiv8bahan::class);
+    }
+
+    public function subhargadiv8peralatan()
+    {
+        return $this->belongsTo(subhargadiv8peralatan::class);
     }
 
 }

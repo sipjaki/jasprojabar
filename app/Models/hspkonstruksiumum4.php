@@ -32,5 +32,13 @@ class hspkonstruksiumum4 extends Model
     {
         return $this->belongsTo(subhargadiv4::class);
     }
+    public function subhargadiv4bahan()
+    {
+        return $this->belongsTo(subhargadiv4bahan::class);
+    }
+    public function subhargadiv4peralatan()
+    {
+        return $this->belongsTo(subhargadiv4peralatan::class);
+    }
 
 }
