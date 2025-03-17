@@ -40,7 +40,7 @@
 
                 <!-- Sisi Kanan -->
                 <div class="col-lg-6">
-                    <div class="footer-widget" style="margin-top:-20px;">
+                    <div class="footer-widget" style="margin-top:0px;">
                         <div class="footer-widget-contact">
                             <h4 class="footer-widget-title">
                                 <i class="fas fa-phone-alt" style="margin-right: 5px;"></i> Kontak Kami
