@@ -9701,6 +9701,17 @@ subhargadiv2::create([
 ]);
 
 
+subhargadiv3::create([
+    'hspkonstruksiumum3_id' => 1,
+    'uraian' => 'Pekerja',
+    'kode' => 'L.01',
+    'satuan' => 'OH',
+    'koefisien' => 0.600,
+    'hargasatuan' => 96000.00,
+    'jumlah_pagu' => '57600', // **Manual tanpa perhitungan**
+]);
+
+
 
 // makan
 
