@@ -7263,7 +7263,7 @@ subhargadiv1::create([
     'jumlah_pagu' => '57600', // **Manual tanpa perhitungan**
 ]);
 
-subhargadiv1::create([
+subhargadiv2::create([
     'hspkonstruksiumum2_id' => 1,
     'uraian' => 'Pekerja',
     'kode' => 'L.01',
