@@ -253,7 +253,7 @@ class SatuanhargamaterialController extends Controller
 
 
         return view('frontend.07_ahsp.03_hspkonstruksiumum.01_divisi1.ahspdivisi1', [
-            'title' => 'AHSP Divisi I ',
+            'title' => 'AHSP Divisi I Persiapan Pekerjaan',
             'data' => $datadivisi1,
             'datatenagakerja' => $subdata,
             'databahanmaterial' => $subdatamaterial,
@@ -328,6 +328,53 @@ class SatuanhargamaterialController extends Controller
     }
 
 
+
+    public function hspdivisi2show($id)
+    {
+        // Ambil data berdasarkan UUID
+        $datadivisi2 = hspkonstruksiumum2::where('id', $id)->firstOrFail();
+
+        // Ambil data user saat ini
+        $user = Auth::user();
+
+        if (!$datadivisi2) {
+            // Tangani jika kegiatan tidak ditemukan
+            return redirect()->back()->with('error', 'Kegiatan tidak ditemukan.');
+        }
+
+        // Menggunakan paginate() untuk pagination
+        $subdata = subhargadiv2::where('hspkonstruksiumum2_id', $datadivisi2->id)->paginate(50);
+        $subdatamaterial = subhargadiv2bahan::where('hspkonstruksiumum2_id', $datadivisi2->id)->paginate(50);
+        $subdataperatalan = subhargadiv2peralatan::where('hspkonstruksiumum2_id', $datadivisi2->id)->paginate(50);
+
+        $totalJumlahtenagakerja = subhargadiv2::where('hspkonstruksiumum2_id', $datadivisi2->id)->sum('jumlah_pagu');
+        $totalJumlahbahanmaterial = subhargadiv2bahan::where('hspkonstruksiumum2_id', $datadivisi2->id)->sum('jumlah_pagu');
+        $totalJumlahperalatan = subhargadiv2peralatan::where('hspkonstruksiumum2_id', $datadivisi2->id)->sum('jumlah_pagu');
+
+        $totalabc = $totalJumlahtenagakerja + $totalJumlahbahanmaterial + $totalJumlahperalatan;
+        $totalpersen = $totalabc * 0.1; // atau bisa juga $totalabc + ($totalabc * 0.1);
+
+        $totalkeuntungan = $totalabc + $totalpersen;
+
+
+        return view('frontend.07_ahsp.03_hspkonstruksiumum.02_divisi2.ahspdivisi2', [
+            'title' => 'AHSP Divisi II Pekerjaan Struktur',
+            'data' => $datadivisi2,
+            'datatenagakerja' => $subdata,
+            'databahanmaterial' => $subdatamaterial,
+            'dataperalatan' => $subdataperatalan,
+            'user' => $user,
+            'totaltenagakerja' => $totalJumlahtenagakerja,
+            'totalbahanmaterial' => $totalJumlahbahanmaterial,
+            'totalperalatan' => $totalJumlahperalatan,
+            'totalabc' => $totalabc,
+            'totalpersen' => $totalpersen,
+            'totalkeuntungan' => $totalkeuntungan,
+        ]);
+    }
+
+
+
 // DIVISI 3
 
 
@@ -384,6 +431,54 @@ class SatuanhargamaterialController extends Controller
         ]);
     }
 
+
+
+    public function hspdivisi3show($id)
+    {
+        // Ambil data berdasarkan UUID
+        $datadivisi3 = hspkonstruksiumum3::where('id', $id)->firstOrFail();
+
+        // Ambil data user saat ini
+        $user = Auth::user();
+
+        if (!$datadivisi3) {
+            // Tangani jika kegiatan tidak ditemukan
+            return redirect()->back()->with('error', 'Kegiatan tidak ditemukan.');
+        }
+
+        // Menggunakan paginate() untuk pagination
+        $subdata = subhargadiv3::where('hspkonstruksiumum3_id', $datadivisi3->id)->paginate(50);
+        $subdatamaterial = subhargadiv3bahan::where('hspkonstruksiumum3_id', $datadivisi3->id)->paginate(50);
+        $subdataperatalan = subhargadiv3peralatan::where('hspkonstruksiumum3_id', $datadivisi3->id)->paginate(50);
+
+        $totalJumlahtenagakerja = subhargadiv3::where('hspkonstruksiumum3_id', $datadivisi3->id)->sum('jumlah_pagu');
+        $totalJumlahbahanmaterial = subhargadiv3bahan::where('hspkonstruksiumum3_id', $datadivisi3->id)->sum('jumlah_pagu');
+        $totalJumlahperalatan = subhargadiv3peralatan::where('hspkonstruksiumum3_id', $datadivisi3->id)->sum('jumlah_pagu');
+
+        $totalabc = $totalJumlahtenagakerja + $totalJumlahbahanmaterial + $totalJumlahperalatan;
+        $totalpersen = $totalabc * 0.1; // atau bisa juga $totalabc + ($totalabc * 0.1);
+
+        $totalkeuntungan = $totalabc + $totalpersen;
+
+
+        return view('frontend.07_ahsp.03_hspkonstruksiumum.03_divisi3.ahspdivisi3', [
+            'title' => 'AHSP Divisi III Pekerjaan Arsitektur',
+            'data' => $datadivisi3,
+            'datatenagakerja' => $subdata,
+            'databahanmaterial' => $subdatamaterial,
+            'dataperalatan' => $subdataperatalan,
+            'user' => $user,
+            'totaltenagakerja' => $totalJumlahtenagakerja,
+            'totalbahanmaterial' => $totalJumlahbahanmaterial,
+            'totalperalatan' => $totalJumlahperalatan,
+            'totalabc' => $totalabc,
+            'totalpersen' => $totalpersen,
+            'totalkeuntungan' => $totalkeuntungan,
+        ]);
+    }
+
+
+
 // DIVISI 4
 
 
@@ -439,6 +534,54 @@ class SatuanhargamaterialController extends Controller
             'search' => $search
         ]);
     }
+
+
+    public function hspdivisi4show($id)
+    {
+        // Ambil data berdasarkan UUID
+        $datadivisi4 = hspkonstruksiumum4::where('id', $id)->firstOrFail();
+
+        // Ambil data user saat ini
+        $user = Auth::user();
+
+        if (!$datadivisi4) {
+            // Tangani jika kegiatan tidak ditemukan
+            return redirect()->back()->with('error', 'Kegiatan tidak ditemukan.');
+        }
+
+        // Menggunakan paginate() untuk pagination
+        $subdata = subhargadiv4::where('hspkonstruksiumum4_id', $datadivisi4->id)->paginate(50);
+        $subdatamaterial = subhargadiv4bahan::where('hspkonstruksiumum4_id', $datadivisi4->id)->paginate(50);
+        $subdataperatalan = subhargadiv4peralatan::where('hspkonstruksiumum4_id', $datadivisi4->id)->paginate(50);
+
+        $totalJumlahtenagakerja = subhargadiv4::where('hspkonstruksiumum4_id', $datadivisi4->id)->sum('jumlah_pagu');
+        $totalJumlahbahanmaterial = subhargadiv4bahan::where('hspkonstruksiumum4_id', $datadivisi4->id)->sum('jumlah_pagu');
+        $totalJumlahperalatan = subhargadiv4peralatan::where('hspkonstruksiumum4_id', $datadivisi4->id)->sum('jumlah_pagu');
+
+        $totalabc = $totalJumlahtenagakerja + $totalJumlahbahanmaterial + $totalJumlahperalatan;
+        $totalpersen = $totalabc * 0.1; // atau bisa juga $totalabc + ($totalabc * 0.1);
+
+        $totalkeuntungan = $totalabc + $totalpersen;
+
+
+        return view('frontend.07_ahsp.03_hspkonstruksiumum.04_divisi4.ahspdivisi4', [
+            'title' => 'AHSP Divisi IV Pekerjaan Lansekap ',
+            'data' => $datadivisi4,
+            'datatenagakerja' => $subdata,
+            'databahanmaterial' => $subdatamaterial,
+            'dataperalatan' => $subdataperatalan,
+            'user' => $user,
+            'totaltenagakerja' => $totalJumlahtenagakerja,
+            'totalbahanmaterial' => $totalJumlahbahanmaterial,
+            'totalperalatan' => $totalJumlahperalatan,
+            'totalabc' => $totalabc,
+            'totalpersen' => $totalpersen,
+            'totalkeuntungan' => $totalkeuntungan,
+        ]);
+    }
+
+
+
 
 // DIVISI 5
 
@@ -497,6 +640,54 @@ class SatuanhargamaterialController extends Controller
     }
 
 
+
+    public function hspdivisi5show($id)
+    {
+        // Ambil data berdasarkan UUID
+        $datadivisi5 = hspkonstruksiumum5::where('id', $id)->firstOrFail();
+
+        // Ambil data user saat ini
+        $user = Auth::user();
+
+        if (!$datadivisi5) {
+            // Tangani jika kegiatan tidak ditemukan
+            return redirect()->back()->with('error', 'Kegiatan tidak ditemukan.');
+        }
+
+        // Menggunakan paginate() untuk pagination
+        $subdata = subhargadiv5::where('hspkonstruksiumum5_id', $datadivisi5->id)->paginate(50);
+        $subdatamaterial = subhargadiv5bahan::where('hspkonstruksiumum5_id', $datadivisi5->id)->paginate(50);
+        $subdataperatalan = subhargadiv5peralatan::where('hspkonstruksiumum5_id', $datadivisi5->id)->paginate(50);
+
+        $totalJumlahtenagakerja = subhargadiv5::where('hspkonstruksiumum5_id', $datadivisi5->id)->sum('jumlah_pagu');
+        $totalJumlahbahanmaterial = subhargadiv5bahan::where('hspkonstruksiumum5_id', $datadivisi5->id)->sum('jumlah_pagu');
+        $totalJumlahperalatan = subhargadiv5peralatan::where('hspkonstruksiumum5_id', $datadivisi5->id)->sum('jumlah_pagu');
+
+        $totalabc = $totalJumlahtenagakerja + $totalJumlahbahanmaterial + $totalJumlahperalatan;
+        $totalpersen = $totalabc * 0.1; // atau bisa juga $totalabc + ($totalabc * 0.1);
+
+        $totalkeuntungan = $totalabc + $totalpersen;
+
+
+        return view('frontend.07_ahsp.03_hspkonstruksiumum.05_divisi5.ahspdivisi5', [
+            'title' => 'AHSP Divisi V Pekerjaan Mekanikal & Elektrikal ',
+            'data' => $datadivisi5,
+            'datatenagakerja' => $subdata,
+            'databahanmaterial' => $subdatamaterial,
+            'dataperalatan' => $subdataperatalan,
+            'user' => $user,
+            'totaltenagakerja' => $totalJumlahtenagakerja,
+            'totalbahanmaterial' => $totalJumlahbahanmaterial,
+            'totalperalatan' => $totalJumlahperalatan,
+            'totalabc' => $totalabc,
+            'totalpersen' => $totalpersen,
+            'totalkeuntungan' => $totalkeuntungan,
+        ]);
+    }
+
+
+
+
 // DIVISI 6
 
 
@@ -550,6 +741,52 @@ class SatuanhargamaterialController extends Controller
             // 'subdata' => $subdata,
             'perPage' => $perPage,
             'search' => $search
+        ]);
+    }
+
+
+
+    public function hspdivisi6show($id)
+    {
+        // Ambil data berdasarkan UUID
+        $datadivisi6 = hspkonstruksiumum6::where('id', $id)->firstOrFail();
+
+        // Ambil data user saat ini
+        $user = Auth::user();
+
+        if (!$datadivisi6) {
+            // Tangani jika kegiatan tidak ditemukan
+            return redirect()->back()->with('error', 'Kegiatan tidak ditemukan.');
+        }
+
+        // Menggunakan paginate() untuk pagination
+        $subdata = subhargadiv6::where('hspkonstruksiumum6_id', $datadivisi6->id)->paginate(50);
+        $subdatamaterial = subhargadiv6bahan::where('hspkonstruksiumum6_id', $datadivisi6->id)->paginate(50);
+        $subdataperatalan = subhargadiv6peralatan::where('hspkonstruksiumum6_id', $datadivisi6->id)->paginate(50);
+
+        $totalJumlahtenagakerja = subhargadiv6::where('hspkonstruksiumum6_id', $datadivisi6->id)->sum('jumlah_pagu');
+        $totalJumlahbahanmaterial = subhargadiv6bahan::where('hspkonstruksiumum6_id', $datadivisi6->id)->sum('jumlah_pagu');
+        $totalJumlahperalatan = subhargadiv6peralatan::where('hspkonstruksiumum6_id', $datadivisi6->id)->sum('jumlah_pagu');
+
+        $totalabc = $totalJumlahtenagakerja + $totalJumlahbahanmaterial + $totalJumlahperalatan;
+        $totalpersen = $totalabc * 0.1; // atau bisa juga $totalabc + ($totalabc * 0.1);
+
+        $totalkeuntungan = $totalabc + $totalpersen;
+
+
+        return view('frontend.07_ahsp.03_hspkonstruksiumum.06_divisi6.ahspdivisi6', [
+            'title' => 'AHSP Divisi VI Pekerjaan Plambing ',
+            'data' => $datadivisi6,
+            'datatenagakerja' => $subdata,
+            'databahanmaterial' => $subdatamaterial,
+            'dataperalatan' => $subdataperatalan,
+            'user' => $user,
+            'totaltenagakerja' => $totalJumlahtenagakerja,
+            'totalbahanmaterial' => $totalJumlahbahanmaterial,
+            'totalperalatan' => $totalJumlahperalatan,
+            'totalabc' => $totalabc,
+            'totalpersen' => $totalpersen,
+            'totalkeuntungan' => $totalkeuntungan,
         ]);
     }
 
@@ -610,6 +847,53 @@ class SatuanhargamaterialController extends Controller
         ]);
     }
 
+
+
+    public function hspdivisi7show($id)
+    {
+        // Ambil data berdasarkan UUID
+        $datadivisi7 = hspkonstruksiumum7::where('id', $id)->firstOrFail();
+
+        // Ambil data user saat ini
+        $user = Auth::user();
+
+        if (!$datadivisi7) {
+            // Tangani jika kegiatan tidak ditemukan
+            return redirect()->back()->with('error', 'Kegiatan tidak ditemukan.');
+        }
+
+        // Menggunakan paginate() untuk pagination
+        $subdata = subhargadiv7::where('hspkonstruksiumum7_id', $datadivisi7->id)->paginate(50);
+        $subdatamaterial = subhargadiv7bahan::where('hspkonstruksiumum7_id', $datadivisi7->id)->paginate(50);
+        $subdataperatalan = subhargadiv7peralatan::where('hspkonstruksiumum7_id', $datadivisi7->id)->paginate(50);
+
+        $totalJumlahtenagakerja = subhargadiv7::where('hspkonstruksiumum7_id', $datadivisi7->id)->sum('jumlah_pagu');
+        $totalJumlahbahanmaterial = subhargadiv7bahan::where('hspkonstruksiumum7_id', $datadivisi7->id)->sum('jumlah_pagu');
+        $totalJumlahperalatan = subhargadiv7peralatan::where('hspkonstruksiumum7_id', $datadivisi7->id)->sum('jumlah_pagu');
+
+        $totalabc = $totalJumlahtenagakerja + $totalJumlahbahanmaterial + $totalJumlahperalatan;
+        $totalpersen = $totalabc * 0.1; // atau bisa juga $totalabc + ($totalabc * 0.1);
+
+        $totalkeuntungan = $totalabc + $totalpersen;
+
+
+        return view('frontend.07_ahsp.03_hspkonstruksiumum.07_divisi7.ahspdivisi7', [
+            'title' => 'AHSP Divisi VII Jalan Pada Permukiman ',
+            'data' => $datadivisi7,
+            'datatenagakerja' => $subdata,
+            'databahanmaterial' => $subdatamaterial,
+            'dataperalatan' => $subdataperatalan,
+            'user' => $user,
+            'totaltenagakerja' => $totalJumlahtenagakerja,
+            'totalbahanmaterial' => $totalJumlahbahanmaterial,
+            'totalperalatan' => $totalJumlahperalatan,
+            'totalabc' => $totalabc,
+            'totalpersen' => $totalpersen,
+            'totalkeuntungan' => $totalkeuntungan,
+        ]);
+    }
+
+
 // DIVISI 8
 
 
@@ -666,6 +950,52 @@ class SatuanhargamaterialController extends Controller
         ]);
     }
 
+    public function hspdivisi8show($id)
+    {
+        // Ambil data berdasarkan UUID
+        $datadivisi8 = hspkonstruksiumum8::where('id', $id)->firstOrFail();
+
+        // Ambil data user saat ini
+        $user = Auth::user();
+
+        if (!$datadivisi8) {
+            // Tangani jika kegiatan tidak ditemukan
+            return redirect()->back()->with('error', 'Kegiatan tidak ditemukan.');
+        }
+
+        // Menggunakan paginate() untuk pagination
+        $subdata = subhargadiv8::where('hspkonstruksiumum8_id', $datadivisi8->id)->paginate(50);
+        $subdatamaterial = subhargadiv8bahan::where('hspkonstruksiumum8_id', $datadivisi8->id)->paginate(50);
+        $subdataperatalan = subhargadiv8peralatan::where('hspkonstruksiumum8_id', $datadivisi8->id)->paginate(50);
+
+        $totalJumlahtenagakerja = subhargadiv8::where('hspkonstruksiumum8_id', $datadivisi8->id)->sum('jumlah_pagu');
+        $totalJumlahbahanmaterial = subhargadiv8bahan::where('hspkonstruksiumum8_id', $datadivisi8->id)->sum('jumlah_pagu');
+        $totalJumlahperalatan = subhargadiv8peralatan::where('hspkonstruksiumum8_id', $datadivisi8->id)->sum('jumlah_pagu');
+
+        $totalabc = $totalJumlahtenagakerja + $totalJumlahbahanmaterial + $totalJumlahperalatan;
+        $totalpersen = $totalabc * 0.1; // atau bisa juga $totalabc + ($totalabc * 0.1);
+
+        $totalkeuntungan = $totalabc + $totalpersen;
+
+
+        return view('frontend.07_ahsp.03_hspkonstruksiumum.08_divisi8.ahspdivisi8', [
+            'title' => 'AHSP Divisi VIII Drainase Jalan',
+            'data' => $datadivisi8,
+            'datatenagakerja' => $subdata,
+            'databahanmaterial' => $subdatamaterial,
+            'dataperalatan' => $subdataperatalan,
+            'user' => $user,
+            'totaltenagakerja' => $totalJumlahtenagakerja,
+            'totalbahanmaterial' => $totalJumlahbahanmaterial,
+            'totalperalatan' => $totalJumlahperalatan,
+            'totalabc' => $totalabc,
+            'totalpersen' => $totalpersen,
+            'totalkeuntungan' => $totalkeuntungan,
+        ]);
+    }
+
+
+
 // DIVISI 9
 
 
@@ -720,6 +1050,53 @@ class SatuanhargamaterialController extends Controller
             'search' => $search
         ]);
     }
+
+
+
+    public function hspdivisi9show($id)
+    {
+        // Ambil data berdasarkan UUID
+        $datadivisi9 = hspkonstruksiumum9::where('id', $id)->firstOrFail();
+
+        // Ambil data user saat ini
+        $user = Auth::user();
+
+        if (!$datadivisi9) {
+            // Tangani jika kegiatan tidak ditemukan
+            return redirect()->back()->with('error', 'Kegiatan tidak ditemukan.');
+        }
+
+        // Menggunakan paginate() untuk pagination
+        $subdata = subhargadiv9::where('hspkonstruksiumum9_id', $datadivisi9->id)->paginate(50);
+        $subdatamaterial = subhargadiv9bahan::where('hspkonstruksiumum9_id', $datadivisi9->id)->paginate(50);
+        $subdataperatalan = subhargadiv9peralatan::where('hspkonstruksiumum9_id', $datadivisi9->id)->paginate(50);
+
+        $totalJumlahtenagakerja = subhargadiv9::where('hspkonstruksiumum9_id', $datadivisi9->id)->sum('jumlah_pagu');
+        $totalJumlahbahanmaterial = subhargadiv9bahan::where('hspkonstruksiumum9_id', $datadivisi9->id)->sum('jumlah_pagu');
+        $totalJumlahperalatan = subhargadiv9peralatan::where('hspkonstruksiumum9_id', $datadivisi9->id)->sum('jumlah_pagu');
+
+        $totalabc = $totalJumlahtenagakerja + $totalJumlahbahanmaterial + $totalJumlahperalatan;
+        $totalpersen = $totalabc * 0.1; // atau bisa juga $totalabc + ($totalabc * 0.1);
+
+        $totalkeuntungan = $totalabc + $totalpersen;
+
+
+        return view('frontend.07_ahsp.03_hspkonstruksiumum.09_divisi9.ahspdivisi9', [
+            'title' => 'AHSP Divisi IX Pekerjaan Jaringan Pipa di Luar Bangunan Gedung ',
+            'data' => $datadivisi9,
+            'datatenagakerja' => $subdata,
+            'databahanmaterial' => $subdatamaterial,
+            'dataperalatan' => $subdataperatalan,
+            'user' => $user,
+            'totaltenagakerja' => $totalJumlahtenagakerja,
+            'totalbahanmaterial' => $totalJumlahbahanmaterial,
+            'totalperalatan' => $totalJumlahperalatan,
+            'totalabc' => $totalabc,
+            'totalpersen' => $totalpersen,
+            'totalkeuntungan' => $totalkeuntungan,
+        ]);
+    }
+
 
 
 }
