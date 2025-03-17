@@ -354,7 +354,7 @@ color: #45a049;
                             function searchTable() {
                             let input = document.getElementById("searchInput").value;
 
-                            fetch(`/hspdivisi5?search=${input}`)
+                            fetch(`/hspdivisi7?search=${input}`)
                                 .then(response => response.text())
                                 .then(html => {
                                     let parser = new DOMParser();

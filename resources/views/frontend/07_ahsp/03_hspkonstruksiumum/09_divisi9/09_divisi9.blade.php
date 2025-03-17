@@ -236,9 +236,7 @@ color: #45a049;
                                             <tr>
                                                 <th onclick="sortTable(0)" style="cursor:pointer; text-align:center; width:100px;"> No <span class="sort-icon">⇅</span></th>
                                                 <th onclick="sortTable(1)" style="cursor:pointer; text-align:center; width:150px;"> Kode AHSP <span class="sort-icon">⇅</span></th>
-                                                {{-- <th onclick="sortTable(1)" style="cursor:pointer; text-align:center; width:150px;"> HSP Divisi <span class="sort-icon">⇅</span></th> --}}
-                                                {{-- <th onclick="sortTable(1)" style="cursor:pointer; text-align:center; width:150px;"> Paket  <span class="sort-icon">⇅</span></th>
-                                                <th onclick="sortTable(4)" style="cursor:pointer; text-align:center; width:250px;"> Item Pekerjaan <span class="sort-icon">⇅</span></th> --}}
+                                                {{-- <th onclick="sortTable(4)" style="cursor:pointer; text-align:center; width:250px;"> Kode Paket <span class="sort-icon">⇅</span></th> --}}
                                                 <th onclick="sortTable(7)" style="cursor:pointer; text-align:center; width:600px;"> Jenis Pekerjaan <span class="sort-icon">⇅</span></th>
                                                 <th onclick="sortTable(7)" style="cursor:pointer; text-align:center; width:100px;"> Satuan <span class="sort-icon">⇅</span></th>
                                                 <th onclick="sortTable(6)" style="cursor:pointer; text-align:center; width:80px;"> Rp <span class="sort-icon">⇅</span></th>
@@ -246,108 +244,48 @@ color: #45a049;
                                             </tr>
                                         </thead>
                                         <tbody id="tableBody">
+                                            {{-- sigit --}}
                                             @php $start = ($data->currentPage() - 1) * $data->perPage() + 1; @endphp
                                             @foreach ($data as $item)
                                             <tr>
                                                 <td style="text-align: center;">{{ $loop->iteration + $start - 1 }}</td>
-                                                <td style="text-align: left;">
+                                                <td style="text-align: center;">
                                                     {{ optional($item->hspdivisi)->id }}.
                                                     {{ optional($item->hsppaket9)->id }}.
                                                     {{ optional($item->hspkodepekerjaan9)->kodepekerjaan }}.
                                                     {{$item->kode}}
                                                     {{-- {{ optional($item->kode->id) }} --}}
                                                 </td>
-                                                {{-- <td style="text-align: center;">{{$item->hspdivisi->hspdivisi}}</td> --}}
-                                                {{-- <td style="text-align: center;">{{$item->hsppaket9->hsppaket9}}</td> --}}
-                                                {{-- <td style="text-align: center;">{{$item->hspkodepekerjaan9->namapekerjaan}}</td> --}}
-                                                <td style="cursor: pointer; color: blue; text-decoration: underline;" onclick="showModal('{{ $item->jenispekerjaan }}')">{{$item->jenispekerjaan}}</td>
-                                                <td style="text-align: center; color:red;" >{{$item->satuanmaterial}}</td>
+                                                {{-- <td style="text-align: center;">{{$item->hspkodepekerjaan->namapekerjaan}}</td> --}}
+                                                <td style="text-align: left">
+                                                    @if(isset($item->id) && !empty($item->id))
+                                                        <a href="javascript:void(0);"
+                                                           style="color: blue; text-decoration: none;"
+                                                           onclick="redirectToPage('{{ $item->id }}')">
+                                                            {{ $item->jenispekerjaan }}
+                                                        </a>
+                                                    @else
+                                                        <span style="color: red;">ID Tidak Ditemukan</span>
+                                                    @endif
+                                                </td>
 
+                                                <script>
+                                                    function redirectToPage(id) {
+                                                        if (!id) { // Pastikan ID tidak kosong
+                                                            alert("ID tidak valid!");
+                                                            return;
+                                                        }
+                                                        window.location.href = "/satuanhargadivisi9/" + encodeURIComponent(id);
+                                                    }
+                                                </script>
+
+                                                <td style="text-align: center; color:red;" >{{$item->satuanmaterial}}</td>
                                                 <td style="text-align: center;">Rp</td>
                                                 <td style="text-align: right;">{{ number_format((float) $item->hargasatuan, 0, ',', '.') }},-</td>
                                             </tr>
                                             @endforeach
-                                    </tbody>
+                                        </tbody>
                                     </table>
-
-                                    <!-- Modal -->
-                                    <div id="modalCard" class="modal" style="display: none; position: fixed; z-index: 1000; left: 0; top: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.5);">
-                                        <div class="modal-content" style="background-color: white; margin: 5% auto; padding: 20px; border-radius: 8px; width: 80%; text-align: left; position: relative;">
-                                            <span class="close" onclick="closeModal()" style="cursor: pointer; position: absolute; top: 10px; right: 15px; font-size: 20px; font-weight: bold;">&times;</span>
-                                            <h2 id="modalTitle">Analisa Harga Satuan Pekerjaan</h2>
-
-                                            <table class="table table-bordered table-striped">
-                                                <thead class="table-dark">
-                                                    <tr>
-                                                        <th>No</th>
-                                                        <th>Uraian</th>
-                                                        <th>Kode</th>
-                                                        <th>Satuan</th>
-                                                        <th>Koefisien</th>
-                                                        <th>Harga Satuan (Rp)</th>
-                                                        <th>Jumlah Harga (Rp)</th>
-                                                    </tr>
-                                                </thead>
-                                                <tbody>
-                                                    <tr>
-                                                        <td>A</td>
-                                                        <td>Tenaga Kerja</td>
-                                                        <td></td>
-                                                        <td></td>
-                                                        <td></td>
-                                                        <td></td>
-                                                        <td></td>
-                                                    </tr>
-                                                    {{-- @foreach ($data as $item) --}}
-
-                                                    {{-- <tr>
-                                                        <td></td>
-                                                        <td>{{$item->subhargadiv1->uraian}}</td>
-                                                        <td>{{$item->subhargadiv1->kode}}</td>
-                                                        <td>{{$item->subhargadiv1->satuan}}</td>
-                                                        <td>{{$item->subhargadiv1->koefisien}}</td>
-                                                        <td style="text-align: right;">{{ number_format((float) $item->hargasatuan, 0, ',', '.') }},-</td>
-                                                        <td style="text-align: right;">{{ number_format((float) $item->jumlahharga, 0, ',', '.') }},-</td>
-                                                    </tr> --}}
-                                                        <tr><td></td><td>Tukang Kayu</td><td>L.02</td><td>OH</td><td>0.200</td><td>106.000</td><td>21.200</td></tr>
-                                                        <tr><td></td><td>Tukang batu/tembok</td><td>L.02</td><td>OH</td><td>0.200</td><td>106.000</td><td>21.200</td></tr>
-                                                        <tr><td></td><td>Kepala Tukang</td><td>L.03</td><td>OH</td><td>0.040</td><td>122.000</td><td>4.880</td></tr>
-                                                        <tr><td></td><td>Mandor</td><td>L.04</td><td>OH</td><td>0.013</td><td>133.000</td><td>1.729</td></tr>
-                                                        <tr><td colspan="6" class="text-end"><strong>Jumlah Harga Tenaga Kerja</strong></td><td><strong>106.609</strong></td></tr>
-                                                        <tr><td>B</td><td>Bahan</td><td></td><td></td><td></td><td></td><td></td></tr>
-                                                        <tr><td></td><td>Kaso 5/7 kayu kelas II (Perancah)</td><td></td><td>m3</td><td>0.039</td><td>1.976.000</td><td>76.471,20</td></tr>
-                                                        <tr><td></td><td>Papan Kayu ukuran 2/20 cm</td><td></td><td>m3</td><td>0.040</td><td>1.976.000</td><td>78.249,60</td></tr>
-                                                        <tr><td></td><td>Paku 5 inci</td><td></td><td>kg</td><td>0.587</td><td>16.400</td><td>9.630,08</td></tr>
-                                                        <tr><td></td><td>Semen Portland</td><td></td><td>kg</td><td>26.406</td><td>1.450</td><td>38.288,70</td></tr>
-                                                        <tr><td></td><td>Pasir Beton</td><td></td><td>kg</td><td>61.560</td><td>221</td><td>13.604,76</td></tr>
-                                                        <tr><td></td><td>Kerikil (Maks 30mm)</td><td></td><td>kg</td><td>83.349</td><td>244</td><td>20.337,16</td></tr>
-                                                        <tr><td></td><td>Air</td><td></td><td>liter</td><td>17.415</td><td>50</td><td>870,75</td></tr>
-                                                        <tr><td></td><td>Residu</td><td></td><td>liter</td><td>0.400</td><td>5.400</td><td>2.160,00</td></tr>
-                                                        <tr><td colspan="6" class="text-end"><strong>Jumlah Harga Bahan</strong></td><td><strong>239.612,25</strong></td></tr>
-                                                        <tr><td>C</td><td>Peralatan</td><td></td><td></td><td></td><td></td><td></td></tr>
-                                                        <tr><td colspan="6" class="text-end"><strong>Jumlah Harga Alat</strong></td><td></td></tr>
-                                                        <tr><td>D</td><td colspan="5" class="text-end">Jumlah Harga Tenaga Kerja, Bahan dan Peralatan (A+B+C)</td><td>346.221,25</td></tr>
-                                                        <tr><td>E</td><td colspan="5" class="text-end">Biaya Umum dan Keuntungan (10%)</td><td>34.622,12</td></tr>
-                                                        <tr><td>F</td><td colspan="5" class="text-end"><strong>Harga Satuan Pekerjaan (D+E)</strong></td><td><strong>380.843,37</strong></td></tr>
-                                                        {{-- @endforeach --}}
-                                                    </tbody>
-                                                </table>
-
-                                                <button onclick="closeModal()" style="margin-top: 20px; padding: 10px 20px; background-color: red; color: white; border: none; border-radius: 5px; cursor: pointer;">Tutup</button>
-                                        </div>
-                                    </div>
-
-                                    <script>
-                                        function showModal(jenisPekerjaan) {
-                                            document.getElementById('modalTitle').innerText = jenisPekerjaan;
-                                            document.getElementById('modalCard').style.display = 'block';
-                                        }
-
-                                        function closeModal() {
-                                            document.getElementById('modalCard').style.display = 'none';
-                                        }
-                                    </script>
-
 
                                 <div class="pagination-container" style="margin-top: 50px; display: flex; flex-direction: column; align-items: center;">
                                     <ul class="pagination-paginate" style="display: flex; padding-left: 0; list-style: none; margin-top: 10px;">
