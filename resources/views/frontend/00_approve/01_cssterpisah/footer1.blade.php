@@ -8,8 +8,8 @@
             border-radius: 20px;
             box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
             position: relative;
+            z-index: 10;
             ">
-                {{-- xz-index: 10; --}}
             <div class="row">
                 <!-- Sisi Kiri -->
                 <div class="col-lg-6">
