@@ -7263,17 +7263,6 @@ subhargadiv1::create([
     'jumlah_pagu' => '57600', // **Manual tanpa perhitungan**
 ]);
 
-subhargadiv2::create([
-    'hspkonstruksiumum2_id' => 1,
-    'uraian' => 'Pekerja',
-    'kode' => 'L.01',
-    'satuan' => 'OH',
-    'koefisien' => 0.600,
-    'hargasatuan' => 96000.00,
-    'jumlah_pagu' => '57600', // **Manual tanpa perhitungan**
-]);
-
-
 subhargadiv1::create([
     'hspkonstruksiumum_id' => 1,
     'uraian' => 'Tukang Kayu',
@@ -9698,6 +9687,17 @@ agendaskk::create([
     'Keterangan' => 'Pelatihan tentang standar keselamatan kerja dalam proyek konstruksi.',
     'isiagenda' => 'Peserta akan memahami prosedur keselamatan dalam setiap tahap konstruksi...',
     'foto' => '01_agendapelatihan/agendapelatihans.jpg',
+]);
+
+
+subhargadiv2::create([
+    'hspkonstruksiumum2_id' => 1,
+    'uraian' => 'Pekerja',
+    'kode' => 'L.01',
+    'satuan' => 'OH',
+    'koefisien' => 0.600,
+    'hargasatuan' => 96000.00,
+    'jumlah_pagu' => '57600', // **Manual tanpa perhitungan**
 ]);
 
 
