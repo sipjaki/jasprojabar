@@ -12,7 +12,7 @@
         position: relative;
         z-index: 10;">
 			<div class="row">
-				<div class="col-lg-4">
+				<div class="col-lg-6">
 					{{-- <div class="footer-widget-logo">
                     </div><!-- footer-widget-logo --> --}}
 					<div class="footer-widget-text">
@@ -24,11 +24,11 @@
                         </h1>
 						<p>Dinas Pekerjaan Umum dan Penataan Ruang Kabupaten Blora</p>
 					</div><!-- footer-widget-text -->
-					<div class="footer-widget-text">
+					{{-- <div class="footer-widget-text">
               			<p style="text-align: justify; font-size:18px;">
                             Mas Jaki DPUPR Blora adalah Sistem Informasi Pembina Jasa Konstruksi Kabupaten Blora yang mendigitalisasi pendataan SKK Tenaga Kerja Konstruksi, serta pengawasan Badan Usaha Jasa Konstruksi (BUJK) Konstruksi dan Konsultasi. Sistem ini memastikan kepatuhan regulasi, memantau progres proyek secara real-time, dan menilai kinerja kontraktor serta tenaga ahli. Selain itu, platform ini memfasilitasi komunikasi antar pemangku kepentingan untuk menciptakan ekosistem konstruksi yang profesional, transparan, dan berkelanjutan.
                         </p>
-                    </div><!-- footer-widget-text -->
+                    </div><!-- footer-widget-text --> --}}
 
                     <div class="footer-widget-socials" style="margin-bottom: 20px;">
                         <a href="mailto:example@email.com"><i class="fa-solid fa-envelope"></i></a>
@@ -42,7 +42,7 @@
 
 
 				</div><!--col-lg-4-->
-				<div class="col-lg-3">
+				{{-- <div class="col-lg-3">
 					<div class="footer-widget">
 						<div class="footer-widget-explore">
                             <h4 class="footer-widget-title">
@@ -66,9 +66,9 @@
 								<li><a href="/">Rantai Pasok Peralatan Konstruksi</a></li>
 								<li><a href="/">Rantai Pasok Asuransi Konstruksi</a></li>
 								<li><a href="/">Rantai Pasok Toko Bangunan </a></li> --}}
-							</ul><!-- list-unstyled -->
-						</div><!-- footer-widget-explore -->
-
+							{{-- </ul><!-- list-unstyled -->
+						</div><!-- footer-widget-explore --> --}}
+ --}}
                         {{-- <div class="footer-widget-explore">
 							<h4 class="footer-widget-title">
                                 <i class="fas fa-gavel" style="margin-right: 5px;"></i> Peraturan Pemerintah
@@ -92,9 +92,9 @@
 
 
 
-					</div><!--footer-widget-->
-				</div><!--col-lg-3-->
-
+					{{-- </div><!--footer-widget-->
+				</div><!--col-lg-3--> --}}
+{{--
 				<div class="col-lg-3">
 					<div class="footer-widget">
                         <div class="footer-widget-department">
@@ -119,8 +119,8 @@
 							</ul><!-- list-unstyled -->
 						</div><!-- footer-widget-department -->
 					</div><!--footer-widget-->
-				</div><!--col-lg-2-->
-				<div class="col-lg-2">
+				</div><!--col-lg-2--> --}}
+				<div class="col-lg-6">
 					<div class="footer-widget">
 
                     <div class="footer-widget" style="margin-top: -0px;">
