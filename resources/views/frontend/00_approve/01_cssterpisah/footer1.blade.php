@@ -1,14 +1,15 @@
 <section class="footer">
     <div class="footer-inner">
         <div class="container" style="
-            max-width: 95%;
+            max-width: 85%;
             margin: 30px auto;
             padding: 20px;
             height: auto;
             border-radius: 20px;
             box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
             position: relative;
-            z-index: 10;">
+            ">
+                {{-- xz-index: 10; --}}
             <div class="row">
                 <!-- Sisi Kiri -->
                 <div class="col-lg-6">
@@ -39,7 +40,7 @@
 
                 <!-- Sisi Kanan -->
                 <div class="col-lg-6">
-                    <div class="footer-widget" style="margin-top:-50px;">
+                    <div class="footer-widget" style="margin-top:-20px;">
                         <div class="footer-widget-contact">
                             <h4 class="footer-widget-title">
                                 <i class="fas fa-phone-alt" style="margin-right: 5px;"></i> Kontak Kami
