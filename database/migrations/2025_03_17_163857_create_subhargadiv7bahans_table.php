@@ -22,7 +22,7 @@ return new class extends Migration
             $table->bigInteger('jumlah_pagu')->nullable();
             $table->softDeletes();
             $table->timestamps();
-            $table->timestamps();
+            // $table->timestamps();
         });
     }
 

@@ -13,7 +13,7 @@ return new class extends Migration
     {
         Schema::create('subhargadiv8peralatans', function (Blueprint $table) {
             $table->id();
-            $table->foreignId('hspkonstruksiumum_id')->nullable();
+            $table->foreignId('hspkonstruksiumum8_id')->nullable();
             $table->string('uraian')->nullable();
             $table->string('kode')->nullable();
             $table->string('satuan')->nullable();

@@ -13,7 +13,16 @@ return new class extends Migration
     {
         Schema::create('subhargadiv4peralatans', function (Blueprint $table) {
             $table->id();
+            $table->foreignId('hspkonstruksiumum4_id')->nullable();
+            $table->string('uraian')->nullable();
+            $table->string('kode')->nullable();
+            $table->string('satuan')->nullable();
+            $table->string('koefisien')->nullable();
+            $table->string('hargasatuan')->nullable();
+            $table->bigInteger('jumlah_pagu')->nullable();
+            $table->softDeletes();
             $table->timestamps();
+            // $table->timestamps();
         });
     }
 
