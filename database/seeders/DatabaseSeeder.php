@@ -7126,8 +7126,12 @@ hspdivisi::create([
 ]);
 
 
+
 //======================== ===================================================================================
 // HSP PAKET HARGA MAS JAKI BLORA
+
+//======================== ===================================================================================
+// HSP PAKET DIVISI 1
 hsppaket::create([
     'id' => 1,
     'hspdivisi_id' => 1,
@@ -7164,51 +7168,10 @@ hsppaket::create([
     'hsppaket' => 'PEKERJAAN PEMBONGKARAN',
 ]);
 
-// PAKET PEKERJAAN DIVISI 2
-// hsppaket::create([
-//     'id' => 7,
-//     'hspdivisi_id' => 2,
-//     'hsppaket' => 'PEKERJAAN RANGKA ATAP',
-// ]);
 
-// hsppaket::create([
-//     'id' => 8,
-//     'hspdivisi_id' => 2,
-//     'hsppaket' => 'PEKERJAAN STRUKTUR BETON',
-// ]);
-
-// hsppaket::create([
-//     'id' => 9,
-//     'hspdivisi_id' => 2,
-//     'hsppaket' => 'PEKERJAAN STRUKTUR BAJA',
-// ]);
-
-// hsppaket::create([
-//     'id' => 10,
-//     'hspdivisi_id' => 2,
-//     'hsppaket' => 'PEKERJAAN STRUKTUR BETON PRACETAK',
-// ]);
-
-// hsppaket::create([
-//     'id' => 11,
-//     'hspdivisi_id' => 2,
-//     'hsppaket' => 'PEKERJAAN STRUKTUR BETON PRATEGANG',
-// ]);
-
-// hsppaket::create([
-//     'id' => 12,
-//     'hspdivisi_id' => 2,
-//     'hsppaket' => 'PEKERJAAN STRUKTUR KAYU',
-// ]);
-
-// hsppaket::create([
-//     'id' => 13,
-//     'hspdivisi_id' => 2,
-//     'hsppaket' => 'PEKERJAAN DINDING PENAHAN TANAH',
-// ]);
 
 //======================== ===================================================================================
-// HSP PAKET HARGA MAS JAKI BLORA
+// HSP PAKET PEKERJAAN DIVISI 1
 hspkodepekerjaan::create([
     'id' => 1,
     'hsppaket_id' => 1,
@@ -7237,7 +7200,8 @@ hspkodepekerjaan::create([
     'namapekerjaan' => 'Pengukuran dan pasangan bouwplank',
 ]);
 
-// AHSP KONSTRUKSI UMUM DIVISI 1
+//======================== ===================================================================================
+// AHSP KONSTRUKSI UMUM DIVISI 1 DAN DATA LAIN LAIN NYA
 //======================== ===================================================================================
 // HSP PAKET HARGA MAS JAKI BLORA
 hspkonstruksiumum::create([
@@ -7392,8 +7356,6 @@ subhargadiv1peralatan::create([
     'hargasatuan' => null,
     'jumlah_pagu' => null,
 ]);
-
-// makan
 
 hspkonstruksiumum::create([
     'hspdivisi_id' => 1,
@@ -7602,7 +7564,10 @@ hspkonstruksiumum::create([
     'hargasatuan' => '23690.38',
 ]);
 
-// ============================================= LIST DAFTAR HARGA KONSTRUKSI UMUM DIVISI 2 ===========================
+
+//======================== ===================================================================================
+// AHSP KONSTRUKSI UMUM DIVISI 1 DAN DATA LAIN LAIN NYA
+//======================== ===================================================================================
 hsppaket2::create([
     'id' => 1,
     'hspdivisi_id' => 2,
@@ -7659,6 +7624,8 @@ hspkodepekerjaan2::create([
     'kodepekerjaan' => '2',
     'namapekerjaan' => 'Rangka Atap Kayu',
 ]);
+
+// ============================================= LIST DAFTAR HARGA KONSTRUKSI UMUM DIVISI 2 ===========================
 
 hspkonstruksiumum2::create([
     'hspdivisi_id' => 2,
