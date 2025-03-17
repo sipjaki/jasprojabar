@@ -2,7 +2,7 @@
     <div class="footer-inner">
         <div class="container" style="
             max-width: 85%;
-            margin: 30px auto;
+            margin: 0px auto;
             padding: 20px;
             height: auto;
             border-radius: 20px;
