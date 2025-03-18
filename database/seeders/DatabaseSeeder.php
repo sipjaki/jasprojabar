@@ -8745,6 +8745,232 @@ hspkonstruksiumum5::create([
     'hargasatuan' => '19862152.20',
 ]);
 
+hspkonstruksiumum5::create([
+    'id' => 41,
+    'hspdivisi_id' => 5,
+    'hsppaket5_id' => 1,
+    'hspkodepekerjaan5_id' => 3,
+    'kode' => '24.23',
+    'subhargadiv5_id' => 41,
+    'subhargadiv5bahan_id' => 41,
+    'subhargadiv5peralatan_id' => 41,
+    'jenispekerjaan' => 'Pemasangan 1 Unit MCCB 1000 A / 50 KA, 3P (Eks. Schneider / setara)',
+    'satuanmaterial' => 'Unit',
+    'hargasatuan' => '19862152.20',
+]);
+
+hspkonstruksiumum5::create([
+    'id' => 42,
+    'hspdivisi_id' => 5,
+    'hsppaket5_id' => 1,
+    'hspkodepekerjaan5_id' => 4,
+    'kode' => 1,
+    'subhargadiv5_id' => 42,
+    'subhargadiv5bahan_id' => 42,
+    'subhargadiv5peralatan_id' => 42,
+    'jenispekerjaan' => 'Pemasangan 1 Unit Saklar Tunggal',
+    'satuanmaterial' => 'Unit',
+    'hargasatuan' => '32080.40',
+]);
+
+hspkonstruksiumum5::create([
+    'id' => 43,
+    'hspdivisi_id' => 5,
+    'hsppaket5_id' => 1,
+    'hspkodepekerjaan5_id' => 4,
+    'kode' => 2,
+    'subhargadiv5_id' => 43,
+    'subhargadiv5bahan_id' => 43,
+    'subhargadiv5peralatan_id' => 43,
+    'jenispekerjaan' => 'Pemasangan 1 Unit Saklar Ganda',
+    'satuanmaterial' => 'Unit',
+    'hargasatuan' => '34500.40',
+]);
+
+hspkonstruksiumum5::create([
+    'id' => 44,
+    'hspdivisi_id' => 5,
+    'hsppaket5_id' => 1,
+    'hspkodepekerjaan5_id' => 4,
+    'kode' => 9,
+    'subhargadiv5_id' => 44,
+    'subhargadiv5bahan_id' => 44,
+    'subhargadiv5peralatan_id' => 44,
+    'jenispekerjaan' => 'Pemasangan 1 Unit Stop Kontak 1 P, 10 A, 200 W',
+    'satuanmaterial' => 'Unit',
+    'hargasatuan' => '41229.10',
+]);
+
+hspkonstruksiumum5::create([
+    'id' => 45,
+    'hspdivisi_id' => 5,
+    'hsppaket5_id' => 1,
+    'hspkodepekerjaan5_id' => 4,
+    'kode' => 12,
+    'subhargadiv5_id' => 45,
+    'subhargadiv5bahan_id' => 45,
+    'subhargadiv5peralatan_id' => 45,
+    'jenispekerjaan' => 'Pemasangan 1 Unit Stop Kontak AC',
+    'satuanmaterial' => 'Unit',
+    'hargasatuan' => '109373.00',
+]);
+
+hspkonstruksiumum5::create([
+    'id' => 46,
+    'hspdivisi_id' => 5,
+    'hsppaket5_id' => 1,
+    'hspkodepekerjaan5_id' => 4,
+    'kode' => 13,
+    'subhargadiv5_id' => 46,
+    'subhargadiv5bahan_id' => 46,
+    'subhargadiv5peralatan_id' => 46,
+    'jenispekerjaan' => 'Pemasangan 1 titik Instalasi Stop Kontak',
+    'satuanmaterial' => 'Titik',
+    'hargasatuan' => '277676.30',
+]);
+
+hspkonstruksiumum5::create([
+    'id' => 47,
+    'hspdivisi_id' => 5,
+    'hsppaket5_id' => 1,
+    'hspkodepekerjaan5_id' => 4,
+    'kode' => '13.a',
+    'subhargadiv5_id' => 47,
+    'subhargadiv5bahan_id' => 47,
+    'subhargadiv5peralatan_id' => 47,
+    'jenispekerjaan' => 'Pemasangan 1 titik Instalasi Stop Kontak AC',
+    'satuanmaterial' => 'Titik',
+    'hargasatuan' => '342466.30',
+]);
+
+hspkonstruksiumum5::create([
+    'id' => 48,
+    'hspdivisi_id' => 5,
+    'hsppaket5_id' => 1,
+    'hspkodepekerjaan5_id' => 4,
+    'kode' => '1',
+    'subhargadiv5_id' => 48,
+    'subhargadiv5bahan_id' => 48,
+    'subhargadiv5peralatan_id' => 48,
+    'jenispekerjaan' => 'Pemasangan 1 Va Daya PLN',
+    'satuanmaterial' => 'Daya',
+    'hargasatuan' => '1650.00',
+]);
+
+hspkonstruksiumum5::create([
+    'id' => 49,
+    'hspdivisi_id' => 5,
+    'hsppaket5_id' => 1,
+    'hspkodepekerjaan5_id' => 4,
+    'kode' => '2',
+    'subhargadiv5_id' => 49,
+    'subhargadiv5bahan_id' => 49,
+    'subhargadiv5peralatan_id' => 49,
+    'jenispekerjaan' => '1 bh Pasang Pilot lamp',
+    'satuanmaterial' => 'Buah',
+    'hargasatuan' => '52023.40',
+]);
+
+hspkonstruksiumum5::create([
+    'id' => 50,
+    'hspdivisi_id' => 5,
+    'hsppaket5_id' => 1,
+    'hspkodepekerjaan5_id' => 4,
+    'kode' => '3',
+    'subhargadiv5_id' => 50,
+    'subhargadiv5bahan_id' => 50,
+    'subhargadiv5peralatan_id' => 50,
+    'jenispekerjaan' => '1 bh Pasang Fuse 2A',
+    'satuanmaterial' => 'Buah',
+    'hargasatuan' => '19136.70',
+]);
+
+hspkonstruksiumum5::create([
+    'id' => 51,
+    'hspdivisi_id' => 5,
+    'hsppaket5_id' => 1,
+    'hspkodepekerjaan5_id' => 4,
+    'kode' => '4',
+    'subhargadiv5_id' => 51,
+    'subhargadiv5bahan_id' => 51,
+    'subhargadiv5peralatan_id' => 51,
+    'jenispekerjaan' => '1 bh Pasang CT',
+    'satuanmaterial' => 'Buah',
+    'hargasatuan' => '112636.70',
+]);
+
+hspkonstruksiumum5::create([
+    'id' => 52,
+    'hspdivisi_id' => 5,
+    'hsppaket5_id' => 1,
+    'hspkodepekerjaan5_id' => 4,
+    'kode' => '5',
+    'subhargadiv5_id' => 52,
+    'subhargadiv5bahan_id' => 52,
+    'subhargadiv5peralatan_id' => 52,
+    'jenispekerjaan' => '1 m1 Pasang Pertanahan / Arde BC 50 mm2 3 ohm',
+    'satuanmaterial' => 'M1',
+    'hargasatuan' => '136092.00',
+]);
+
+hspkonstruksiumum5::create([
+    'id' => 53,
+    'hspdivisi_id' => 5,
+    'hsppaket5_id' => 1,
+    'hspkodepekerjaan5_id' => 4,
+    'kode' => '6',
+    'subhargadiv5_id' => 53,
+    'subhargadiv5bahan_id' => 53,
+    'subhargadiv5peralatan_id' => 53,
+    'jenispekerjaan' => '1 unit Ground 5/8  Panjang 4 meter1',
+    'satuanmaterial' => 'Unit',
+    'hargasatuan' => '2131404.00',
+]);
+
+hspkonstruksiumum5::create([
+    'id' => 54,
+    'hspdivisi_id' => 5,
+    'hsppaket5_id' => 1,
+    'hspkodepekerjaan5_id' => 4,
+    'kode' => '7',
+    'subhargadiv5_id' => 54,
+    'subhargadiv5bahan_id' => 54,
+    'subhargadiv5peralatan_id' => 54,
+    'jenispekerjaan' => '1 bh Pasang Ampere meter + CT 0 - 1000 A',
+    'satuanmaterial' => 'Buah',
+    'hargasatuan' => '463478.40',
+]);
+
+hspkonstruksiumum5::create([
+    'id' => 55,
+    'hspdivisi_id' => 5,
+    'hsppaket5_id' => 1,
+    'hspkodepekerjaan5_id' => 4,
+    'kode' => '8',
+    'subhargadiv5_id' => 55,
+    'subhargadiv5bahan_id' => 55,
+    'subhargadiv5peralatan_id' => 55,
+    'jenispekerjaan' => '1 bh Pasang Volt meter ',
+    'satuanmaterial' => 'Buah',
+    'hargasatuan' => '490978.40',
+]);
+
+hspkonstruksiumum5::create([
+    'id' => 56,
+    'hspdivisi_id' => 5,
+    'hsppaket5_id' => 1,
+    'hspkodepekerjaan5_id' => 4,
+    'kode' => '9',
+    'subhargadiv5_id' => 56,
+    'subhargadiv5bahan_id' => 56,
+    'subhargadiv5peralatan_id' => 56,
+    'jenispekerjaan' => '1 bh Pasang Selektor 380v/220v',
+    'satuanmaterial' => 'Buah',
+    'hargasatuan' => '272989.20',
+]);
+
+
+// alifmodels
 
 //======================== ===================================================================================
 // AHSP KONSTRUKSI UMUM DIVISI 6 DAN DATA LAIN LAIN NYA
