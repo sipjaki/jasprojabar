@@ -8927,6 +8927,356 @@ hspkonstruksiumum6::create([
     'hargasatuan' => '478289.17',
 ]);
 
+hspkonstruksiumum6::create([
+    'id' => 39,
+    'hspdivisi_id' => 6,
+    'hsppaket6_id' => 6,
+    'hspkodepekerjaan6_id' => 9,
+    'kode' => 1,
+    'subhargadiv6_id' => 39,
+    'subhargadiv6bahan_id' => 39,
+    'subhargadiv6peralatan_id' => 39,
+    'jenispekerjaan' => 'Pemasangan 1 buah gate valve 10 K, Dia. 1/2" (15 mm)',
+    'satuanmaterial' => 'Buah',
+    'hargasatuan' => '126704.60',
+]);
+
+hspkonstruksiumum6::create([
+    'id' => 40,
+    'hspdivisi_id' => 6,
+    'hsppaket6_id' => 6,
+    'hspkodepekerjaan6_id' => 9,
+    'kode' => 3,
+    'subhargadiv6_id' => 40,
+    'subhargadiv6bahan_id' => 40,
+    'subhargadiv6peralatan_id' => 40,
+    'jenispekerjaan' => 'Pemasangan 1 buah gate valve 10 K, Dia. 1" (25 mm)',
+    'satuanmaterial' => 'Buah',
+    'hargasatuan' => '312805.90',
+]);
+
+hspkonstruksiumum6::create([
+    'id' => 41,
+    'hspdivisi_id' => 6,
+    'hsppaket6_id' => 6,
+    'hspkodepekerjaan6_id' => 9,
+    'kode' => 5,
+    'subhargadiv6_id' => 41,
+    'subhargadiv6bahan_id' => 41,
+    'subhargadiv6peralatan_id' => 41,
+    'jenispekerjaan' => 'Pemasangan 1 buah gate valve 10 K, Dia. 1-1/2" (40 mm)',
+    'satuanmaterial' => 'Buah',
+    'hargasatuan' => '551463.00',
+]);
+
+hspkonstruksiumum6::create([
+    'id' => 42,
+    'hspdivisi_id' => 6,
+    'hsppaket6_id' => 6,
+    'hspkodepekerjaan6_id' => 9,
+    'kode' => 6,
+    'subhargadiv6_id' => 42,
+    'subhargadiv6bahan_id' => 42,
+    'subhargadiv6peralatan_id' => 42,
+    'jenispekerjaan' => 'Pemasangan 1 buah gate valve 10 K, Dia. 2" (50 mm)',
+    'satuanmaterial' => 'Buah',
+    'hargasatuan' => '688212.80',
+]);
+
+hspkonstruksiumum6::create([
+    'id' => 43,
+    'hspdivisi_id' => 6,
+    'hsppaket6_id' => 6,
+    'hspkodepekerjaan6_id' => 9,
+    'kode' => 8,
+    'subhargadiv6_id' => 43,
+    'subhargadiv6bahan_id' => 43,
+    'subhargadiv6peralatan_id' => 43,
+    'jenispekerjaan' => 'Pemasangan 1 buah gate valve 10 K, Dia. 3" (80 mm)',
+    'satuanmaterial' => 'Buah',
+    'hargasatuan' => '2060374.80',
+]);
+
+hspkonstruksiumum6::create([
+    'id' => 44,
+    'hspdivisi_id' => 6,
+    'hsppaket6_id' => 6,
+    'hspkodepekerjaan6_id' => 9,
+    'kode' => 9,
+    'subhargadiv6_id' => 44,
+    'subhargadiv6bahan_id' => 44,
+    'subhargadiv6peralatan_id' => 44,
+    'jenispekerjaan' => 'Pemasangan 1 buah gate valve 10 K, Dia. 4" (100 mm)',
+    'satuanmaterial' => 'Buah',
+    'hargasatuan' => '2628935.10',
+]);
+
+hspkonstruksiumum6::create([
+    'id' => 45,
+    'hspdivisi_id' => 6,
+    'hsppaket6_id' => 6,
+    'hspkodepekerjaan6_id' => 10,
+    'kode' => 1,
+    'subhargadiv6_id' => 45,
+    'subhargadiv6bahan_id' => 45,
+    'subhargadiv6peralatan_id' => 45,
+    'jenispekerjaan' => 'Pemasangan 1 buah ball valve, Dia. 1/2" (15 mm)',
+    'satuanmaterial' => 'Buah',
+    'hargasatuan' => '169082.10',
+]);
+
+hspkonstruksiumum6::create([
+    'id' => 46,
+    'hspdivisi_id' => 6,
+    'hsppaket6_id' => 6,
+    'hspkodepekerjaan6_id' => 10,
+    'kode' => 3,
+    'subhargadiv6_id' => 46,
+    'subhargadiv6bahan_id' => 46,
+    'subhargadiv6peralatan_id' => 46,
+    'jenispekerjaan' => 'Pemasangan 1 buah ball valve, Dia. 1" (25 mm)',
+    'satuanmaterial' => 'Buah',
+    'hargasatuan' => '293830.90',
+]);
+
+hspkonstruksiumum6::create([
+    'id' => 47,
+    'hspdivisi_id' => 6,
+    'hsppaket6_id' => 6,
+    'hspkodepekerjaan6_id' => 10,
+    'kode' => 5,
+    'subhargadiv6_id' => 47,
+    'subhargadiv6bahan_id' => 47,
+    'subhargadiv6peralatan_id' => 47,
+    'jenispekerjaan' => 'Pemasangan 1 buah ball valve, Dia. 1-1/2" (40 mm)',
+    'satuanmaterial' => 'Buah',
+    'hargasatuan' => '631158.00',
+]);
+
+hspkonstruksiumum6::create([
+    'id' => 48,
+    'hspdivisi_id' => 6,
+    'hsppaket6_id' => 6,
+    'hspkodepekerjaan6_id' => 10,
+    'kode' => 6,
+    'subhargadiv6_id' => 48,
+    'subhargadiv6bahan_id' => 48,
+    'subhargadiv6peralatan_id' => 48,
+    'jenispekerjaan' => 'Pemasangan 1 buah ball valve, Dia. 2" (50 mm)',
+    'satuanmaterial' => 'Buah',
+    'hargasatuan' => '1244812.80',
+]);
+
+hspkonstruksiumum6::create([
+    'id' => 49,
+    'hspdivisi_id' => 6,
+    'hsppaket6_id' => 6,
+    'hspkodepekerjaan6_id' => 10,
+    'kode' => 8,
+    'subhargadiv6_id' => 49,
+    'subhargadiv6bahan_id' => 49,
+    'subhargadiv6peralatan_id' => 49,
+    'jenispekerjaan' => 'Pemasangan 1 buah ball valve, Dia. 3" (80 mm)',
+    'satuanmaterial' => 'Buah',
+    'hargasatuan' => '4438464.80',
+]);
+
+hspkonstruksiumum6::create([
+    'id' => 50,
+    'hspdivisi_id' => 6,
+    'hsppaket6_id' => 6,
+    'hspkodepekerjaan6_id' => 10,
+    'kode' => 9,
+    'subhargadiv6_id' => 50,
+    'subhargadiv6bahan_id' => 50,
+    'subhargadiv6peralatan_id' => 50,
+    'jenispekerjaan' => 'Pemasangan 1 buah ball valve, Dia. 4" (100 mm)',
+    'satuanmaterial' => 'Buah',
+    'hargasatuan' => '8287802.60',
+]);
+
+hspkonstruksiumum6::create([
+    'id' => 51,
+    'hspdivisi_id' => 6,
+    'hsppaket6_id' => 6,
+    'hspkodepekerjaan6_id' => 11,
+    'kode' => 1,
+    'subhargadiv6_id' => 51,
+    'subhargadiv6bahan_id' => 51,
+    'subhargadiv6peralatan_id' => 51,
+    'jenispekerjaan' => 'Pemasangan 1 buah check valve 10 K, Dia. 1/2" (15 mm)',
+    'satuanmaterial' => 'Buah',
+    'hargasatuan' => '156432.10',
+]);
+
+hspkonstruksiumum6::create([
+    'id' => 52,
+    'hspdivisi_id' => 6,
+    'hsppaket6_id' => 6,
+    'hspkodepekerjaan6_id' => 11,
+    'kode' => 3,
+    'subhargadiv6_id' => 52,
+    'subhargadiv6bahan_id' => 52,
+    'subhargadiv6peralatan_id' => 52,
+    'jenispekerjaan' => 'Pemasangan 1 buah check valve 10 K, Dia. 1" (25 mm)',
+    'satuanmaterial' => 'Buah',
+    'hargasatuan' => '370110.40',
+]);
+
+hspkonstruksiumum6::create([
+    'id' => 53,
+    'hspdivisi_id' => 6,
+    'hsppaket6_id' => 6,
+    'hspkodepekerjaan6_id' => 11,
+    'kode' => 5,
+    'subhargadiv6_id' => 53,
+    'subhargadiv6bahan_id' => 53,
+    'subhargadiv6peralatan_id' => 53,
+    'jenispekerjaan' => 'Pemasangan 1 buah check valve 10 K, Dia. 1-1/2" (40 mm)',
+    'satuanmaterial' => 'Buah',
+    'hargasatuan' => '583088.00',
+]);
+
+hspkonstruksiumum6::create([
+    'id' => 54,
+    'hspdivisi_id' => 6,
+    'hsppaket6_id' => 6,
+    'hspkodepekerjaan6_id' => 11,
+    'kode' => 6,
+    'subhargadiv6_id' => 54,
+    'subhargadiv6bahan_id' => 54,
+    'subhargadiv6peralatan_id' => 54,
+    'jenispekerjaan' => 'Pemasangan 1 buah check valve 10 K, Dia. 2" (50 mm)',
+    'satuanmaterial' => 'Buah',
+    'hargasatuan' => '1133492.80',
+]);
+
+hspkonstruksiumum6::create([
+    'id' => 55,
+    'hspdivisi_id' => 6,
+    'hsppaket6_id' => 6,
+    'hspkodepekerjaan6_id' => 11,
+    'kode' => 8,
+    'subhargadiv6_id' => 55,
+    'subhargadiv6bahan_id' => 55,
+    'subhargadiv6peralatan_id' => 55,
+    'jenispekerjaan' => 'Pemasangan 1 buah check valve 10 K, Dia. 3" (80 mm)',
+    'satuanmaterial' => 'Buah',
+    'hargasatuan' => '2515114.80',
+]);
+
+hspkonstruksiumum6::create([
+    'id' => 56,
+    'hspdivisi_id' => 6,
+    'hsppaket6_id' => 6,
+    'hspkodepekerjaan6_id' => 11,
+    'kode' => 9,
+    'subhargadiv6_id' => 56,
+    'subhargadiv6bahan_id' => 56,
+    'subhargadiv6peralatan_id' => 56,
+    'jenispekerjaan' => 'Pemasangan 1 buah check valve 10 K, Dia. 4" (100 mm)',
+    'satuanmaterial' => 'Buah',
+    'hargasatuan' => '3386077.20',
+]);
+
+hspkonstruksiumum6::create([
+    'id' => 57,
+    'hspdivisi_id' => 6,
+    'hsppaket6_id' => 6,
+    'hspkodepekerjaan6_id' => 11,
+    'kode' => 11,
+    'subhargadiv6_id' => 57,
+    'subhargadiv6bahan_id' => 57,
+    'subhargadiv6peralatan_id' => 57,
+    'jenispekerjaan' => 'Pemasangan 1 buah check valve 10 K, Dia. 6" (150 mm)',
+    'satuanmaterial' => 'Buah',
+    'hargasatuan' => '7835928.10',
+]);
+
+hspkonstruksiumum6::create([
+    'id' => 58,
+    'hspdivisi_id' => 6,
+    'hsppaket6_id' => 6,
+    'hspkodepekerjaan6_id' => 12,
+    'kode' => '1.a',
+    'subhargadiv6_id' => 58,
+    'subhargadiv6bahan_id' => 58,
+    'subhargadiv6peralatan_id' => 58,
+    'jenispekerjaan' => 'Pemasangan 1 buah Water Meter Kuningan, Dia. 1/2" (15 mm)',
+    'satuanmaterial' => 'Buah',
+    'hargasatuan' => '491657.10',
+]);
+
+hspkonstruksiumum6::create([
+    'id' => 59,
+    'hspdivisi_id' => 6,
+    'hsppaket6_id' => 6,
+    'hspkodepekerjaan6_id' => 13,
+    'kode' => '1',
+    'subhargadiv6_id' => 59,
+    'subhargadiv6bahan_id' => 59,
+    'subhargadiv6peralatan_id' => 59,
+    'jenispekerjaan' => 'Pemasangan 1 buah roof drain, Dia. 2" (50 mm)',
+    'satuanmaterial' => 'Buah',
+    'hargasatuan' => '381118.10',
+]);
+
+hspkonstruksiumum6::create([
+    'id' => 60,
+    'hspdivisi_id' => 6,
+    'hsppaket6_id' => 6,
+    'hspkodepekerjaan6_id' => 13,
+    'kode' => '3',
+    'subhargadiv6_id' => 60,
+    'subhargadiv6bahan_id' => 60,
+    'subhargadiv6peralatan_id' => 60,
+    'jenispekerjaan' => 'Pemasangan 1 buah roof drain, Dia. 3" (80 mm)',
+    'satuanmaterial' => 'Buah',
+    'hargasatuan' => '488076.60',
+]);
+
+hspkonstruksiumum6::create([
+    'id' => 61,
+    'hspdivisi_id' => 6,
+    'hsppaket6_id' => 6,
+    'hspkodepekerjaan6_id' => 13,
+    'kode' => '4',
+    'subhargadiv6_id' => 61,
+    'subhargadiv6bahan_id' => 61,
+    'subhargadiv6peralatan_id' => 61,
+    'jenispekerjaan' => 'Pemasangan 1 buah roof drain, Dia. 4" (100 mm)',
+    'satuanmaterial' => 'Buah',
+    'hargasatuan' => '530075.70',
+]);
+
+hspkonstruksiumum6::create([
+    'id' => 62,
+    'hspdivisi_id' => 6,
+    'hsppaket6_id' => 6,
+    'hspkodepekerjaan6_id' => 14,
+    'kode' => '1',
+    'subhargadiv6_id' => 62,
+    'subhargadiv6bahan_id' => 62,
+    'subhargadiv6peralatan_id' => 62,
+    'jenispekerjaan' => 'Pemasangan 1 buah WLC & pengkabelan',
+    'satuanmaterial' => 'Buah',
+    'hargasatuan' => '3528344.60',
+]);
+
+hspkonstruksiumum6::create([
+    'id' => 63,
+    'hspdivisi_id' => 6,
+    'hsppaket6_id' => 6,
+    'hspkodepekerjaan6_id' => 15,
+    'kode' => '1.a',
+    'subhargadiv6_id' => 63,
+    'subhargadiv6bahan_id' => 63,
+    'subhargadiv6peralatan_id' => 63,
+    'jenispekerjaan' => 'Pemasangan 1 buah DOP PVC, Dia. 3" (80 mm)',
+    'satuanmaterial' => 'Buah',
+    'hargasatuan' => '20603.00',
+]);
+
 
 //======================== ===================================================================================
 // ============================================= LIST DAFTAR HARGA KONSTRUKSI UMUM DIVISI 7 ===========================
