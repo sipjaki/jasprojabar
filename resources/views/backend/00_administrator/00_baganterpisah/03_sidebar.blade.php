@@ -47,7 +47,7 @@
                 <ul class="nav nav-treeview">
 
                     <li class="nav-item">
-                        <a href="/" target="_blank" class="nav-link active">
+                        <a href="/" target="_blank" class="nav-link">
                           <!-- Ikon untuk Halaman Web (Rumah) -->
                           <i class="nav-icon bi bi-house-door"></i>
                           <p>Halaman Web</p>
@@ -79,7 +79,7 @@
                 <ul class="nav nav-treeview">
 
                     <li class="nav-item">
-                        <a href="/404" class="nav-link active">
+                        <a href="/404" class="nav-link">
                           <!-- Ikon untuk Header -->
                           <i class="nav-icon bi bi-house-door"></i>
                           <p>Header</p>
