@@ -12,7 +12,7 @@
               class="brand-image opacity-75 shadow"
             />
             <img
-              src="/assets/icon/logopupr.png"
+              src="/assets/icon/pupr.png"
               alt="Logo Kabupaten Blora"
               class="brand-image opacity-75 shadow"
             />
