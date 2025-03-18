@@ -190,14 +190,14 @@
 
             <li class="nav-item">
                 <a href="#" class="nav-link">
-                  <!-- Ikon untuk Data Jakon -->
-                  <i class="nav-icon bi bi-newspaper text-success"></i>
-                  <p style="color: white">
-                    Data Jakon
-                    <!-- Ikon panah kanan (Chevron) -->
-                    <i class="nav-arrow bi bi-chevron-right"></i>
-                  </p>
-                </a>
+                    <!-- Ikon untuk Data Jakon -->
+                    <i class="nav-icon bi bi-bar-chart text-success"></i>
+                    <p style="color: white">
+                      Data Jakon
+                      <!-- Ikon panah kanan (Chevron) diganti dengan ikon panah -->
+                      <i class="nav-arrow bi bi-arrow-right"></i>
+                    </p>
+                  </a>
 
                 <ul class="nav nav-treeview">
 
