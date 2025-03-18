@@ -57,7 +57,7 @@
                         <a href="/dashboard" class="nav-link">
                           <!-- Ikon untuk Administrator (Person atau Shield) -->
                           <i class="nav-icon bi bi-person-lock text-warning"></i>
-                          <p style="color: white">Administrator</p>
+                          <p style="color: white">Administrator Database</p>
                         </a>
                       </li>
 
