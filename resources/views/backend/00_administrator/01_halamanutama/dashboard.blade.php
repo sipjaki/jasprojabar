@@ -721,7 +721,9 @@
           <div class="container-fluid">
             <!--begin::Row-->
             <div class="row">
-              <div class="col-sm-6"><h3 class="mb-0">Dashboard</h3></div>
+
+              <div class="col-sm-6"><h3 class="mb-0">Selamat datang ! {{ Auth::user()->name }} di Dashboard {{ Auth::user()->statusadmin->statusadmin }}  Sistem Informasi Pembina Jasa Konstruksi Kab Blora</h3></div>
+
               <div class="col-sm-6">
                 <ol class="breadcrumb float-sm-end">
                   <li class="breadcrumb-item"><a href="#">Home</a></li>
