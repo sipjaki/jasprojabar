@@ -680,7 +680,7 @@
 
             {{-- ---------------------------------------------  --}}
 
-            <li class="nav-header" style="color: red;">LOGOUT</li>
+            <li class="nav-header" style="color: white;">LOGOUT</li>
 
             <li class="nav-item">
                 <li class="nav-item">
