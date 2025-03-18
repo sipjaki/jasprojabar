@@ -10,6 +10,7 @@
               src="/assets/icon/logokabupatenblora.png"
               alt="Logo Kabupaten Blora"
               class="brand-image opacity-75 shadow"
+              style="margin-right:5px;"
             />
             <img
               src="/assets/icon/pupr.png"
@@ -18,7 +19,7 @@
             />
             <!--end::Brand Image-->
             <!--begin::Brand Text-->
-            {{-- <span class="brand-text fw-light">AdminLTE 4</span> --}}
+            <span class="brand-text fw-light">Masjaki Bkora</span>
             <!--end::Brand Text-->
           </a>
           <!--end::Brand Link-->
