@@ -64,7 +64,7 @@
                 </ul>
               </li>
 
-              <li class="nav-header">BERANDA WEB</li>
+              <li class="nav-header" style="color: white;">BERANDA WEB</li>
 
               <li class="nav-item">
 
