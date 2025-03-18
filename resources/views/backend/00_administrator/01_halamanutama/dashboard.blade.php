@@ -1098,4 +1098,4 @@
       <!--end::App Main-->
 
 
-      @include('backend.00_administrator.00_baganterpisah.02_footer')
+      {{-- @include('backend.00_administrator.00_baganterpisah.02_footer') --}}
