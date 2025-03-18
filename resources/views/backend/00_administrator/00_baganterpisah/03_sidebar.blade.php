@@ -609,8 +609,8 @@
                 <li class="nav-item">
                     <a href="#" class="nav-link">
                       <!-- Ikon untuk Logout -->
-                      <i class="nav-icon bi bi-box-arrow-right text-success"></i> <!-- Ikon untuk Logout -->
-                      <p style="color: white">
+                      <i class="nav-icon bi bi-box-arrow-right text-danger"></i> <!-- Ikon untuk Logout -->
+                      <p style="color: red">
                         Logout
                         <!-- Ikon panah kanan (Chevron) -->
                         <i class="nav-arrow bi bi-chevron-right"></i>
