@@ -249,7 +249,7 @@ color: #45a049;
                                             @foreach ($data as $item)
                                             <tr>
                                                 <td style="text-align: center;">{{ $loop->iteration + $start - 1 }}</td>
-                                                <td style="text-align: center;">
+                                                <td style="text-align: left;">
                                                     {{ optional($item->hspdivisi)->id }}.
                                                     {{ optional($item->hsppaket6)->id }}.
                                                     {{ optional($item->hspkodepekerjaan6)->kodepekerjaan }}.
