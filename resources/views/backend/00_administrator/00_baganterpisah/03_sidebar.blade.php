@@ -568,6 +568,86 @@
                       </a>
                     </li>
 
+                  <li class="nav-item">
+                      <a href="/404" class="nav-link">
+                        <!-- Ikon untuk Header -->
+                        <i class="nav-icon bi bi-house-door text-warning"></i>
+                        <p style="color: white">Peraturan Pemerintah</p>
+                      </a>
+                    </li>
+
+                  <li class="nav-item">
+                      <a href="/404" class="nav-link">
+                        <!-- Ikon untuk Header -->
+                        <i class="nav-icon bi bi-house-door text-warning"></i>
+                        <p style="color: white">Peraturan Presiden</p>
+                      </a>
+                    </li>
+
+                  <li class="nav-item">
+                      <a href="/404" class="nav-link">
+                        <!-- Ikon untuk Header -->
+                        <i class="nav-icon bi bi-house-door text-warning"></i>
+                        <p style="color: white">Peraturan Menteri</p>
+                      </a>
+                    </li>
+
+                  <li class="nav-item">
+                      <a href="/404" class="nav-link">
+                        <!-- Ikon untuk Header -->
+                        <i class="nav-icon bi bi-house-door text-warning"></i>
+                        <p style="color: white">Keputusan Menteri</p>
+                      </a>
+                    </li>
+
+                  <li class="nav-item">
+                      <a href="/404" class="nav-link">
+                        <!-- Ikon untuk Header -->
+                        <i class="nav-icon bi bi-house-door text-warning"></i>
+                        <p style="color: white">Surat Edaran Menteri</p>
+                      </a>
+                    </li>
+
+                  <li class="nav-item">
+                      <a href="/404" class="nav-link">
+                        <!-- Ikon untuk Header -->
+                        <i class="nav-icon bi bi-house-door text-warning"></i>
+                        <p style="color: white">Referensi</p>
+                      </a>
+                    </li>
+
+                  <li class="nav-item">
+                      <a href="/404" class="nav-link">
+                        <!-- Ikon untuk Header -->
+                        <i class="nav-icon bi bi-house-door text-warning"></i>
+                        <p style="color: white">Peraturan Daerah</p>
+                      </a>
+                    </li>
+
+                  <li class="nav-item">
+                      <a href="/404" class="nav-link">
+                        <!-- Ikon untuk Header -->
+                        <i class="nav-icon bi bi-house-door text-warning"></i>
+                        <p style="color: white">Peraturan Gubernur</p>
+                      </a>
+                    </li>
+
+                  <li class="nav-item">
+                      <a href="/404" class="nav-link">
+                        <!-- Ikon untuk Header -->
+                        <i class="nav-icon bi bi-house-door text-warning"></i>
+                        <p style="color: white">Peraturan Walikota/Bupati</p>
+                      </a>
+                    </li>
+
+                    <li class="nav-item">
+                      <a href="/404" class="nav-link">
+                        <!-- Ikon untuk Header -->
+                        <i class="nav-icon bi bi-house-door text-warning"></i>
+                        <p style="color: white">Surat Keputusan</p>
+                      </a>
+                    </li>
+
               </ul>
             </li>
 <br>
@@ -603,7 +683,7 @@
 
             {{-- ---------------------------------------------  --}}
 
-            <li class="nav-header" style="color: white;">LOGOUT</li>
+            <li class="nav-header text-info">LOGOUT</li>
 
             <li class="nav-item">
                 <li class="nav-item">
