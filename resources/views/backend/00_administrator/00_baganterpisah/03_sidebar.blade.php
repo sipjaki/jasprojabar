@@ -64,37 +64,45 @@
                 </ul>
               </li>
 
+              <li class="nav-header">BERANDA WEB</li>
 
               <li class="nav-item">
-              <li class="nav-item menu-open">
-                <a href="#" class="nav-link active">
+
+            <li class="nav-item menu-open">
+                <a href="/404" class="nav-link active">
                   <i class="nav-icon bi bi-speedometer"></i>
                   <p>
-                    Dashboard
+                    Beranda
                     <i class="nav-arrow bi bi-chevron-right"></i>
                   </p>
                 </a>
                 <ul class="nav nav-treeview">
-                  <li class="nav-item">
-                    <a href="./index.html" class="nav-link active">
-                      <i class="nav-icon bi bi-circle"></i>
-                      <p>Dashboard v1</p>
-                    </a>
-                  </li>
-                  <li class="nav-item">
-                    <a href="./index2.html" class="nav-link">
-                      <i class="nav-icon bi bi-circle"></i>
-                      <p>Dashboard v2</p>
-                    </a>
-                  </li>
-                  <li class="nav-item">
-                    <a href="./index3.html" class="nav-link">
-                      <i class="nav-icon bi bi-circle"></i>
-                      <p>Dashboard v3</p>
-                    </a>
-                  </li>
+
+                    <li class="nav-item">
+                        <a href="./index.html" class="nav-link active">
+                          <!-- Ikon untuk Header -->
+                          <i class="nav-icon bi bi-house-door"></i>
+                          <p>Header</p>
+                        </a>
+                      </li>
+                      <li class="nav-item">
+                        <a href="/404" class="nav-link">
+                          <!-- Ikon untuk Informasi Kantor -->
+                          <i class="nav-icon bi bi-building"></i>
+                          <p>Informasi Kantor</p>
+                        </a>
+                      </li>
+                      <li class="nav-item">
+                        <a href="/404" class="nav-link">
+                          <!-- Ikon untuk Sosial Media -->
+                          <i class="nav-icon bi bi-facebook"></i> <!-- Bisa diganti dengan bi-twitter atau bi-instagram sesuai kebutuhan -->
+                          <p>Sosial Media</p>
+                        </a>
+                      </li>
+
                 </ul>
               </li>
+
               <li class="nav-item">
                 <a href="./generate/theme.html" class="nav-link">
                   <i class="nav-icon bi bi-palette"></i>
