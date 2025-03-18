@@ -110,7 +110,7 @@
 
               <li class="nav-item">
 
-            <li class="nav-item menu-open">
+                    <li class="nav-item menu-open">
                 <a href="#" class="nav-link">
                     <!-- Ikon untuk Beranda -->
                     <i class="nav-icon bi bi-house-door"></i>
@@ -146,7 +146,40 @@
                       </li>
 
                 </ul>
-              </li>
+            </li>
+
+              <li class="nav-item">
+
+                    <li class="nav-item menu-open">
+                <a href="#" class="nav-link">
+                    <!-- Ikon untuk Beranda -->
+                    <i class="nav-icon bi bi-house-door"></i>
+                    <p>
+                      Berita Jakon
+                      <!-- Ikon panah kanan (Chevron) -->
+                      <i class="nav-arrow bi bi-chevron-right"></i>
+                    </p>
+                  </a>
+
+                <ul class="nav nav-treeview">
+
+                    <li class="nav-item">
+                        <a href="/404" class="nav-link">
+                          <!-- Ikon untuk Header -->
+                          <i class="nav-icon bi bi-house-door"></i>
+                          <p>Berita Jakonp>
+                        </a>
+                      </li>
+                      <li class="nav-item">
+                        <a href="/404" class="nav-link">
+                          <!-- Ikon untuk Informasi Kantor -->
+                          <i class="nav-icon bi bi-building"></i>
+                          <p>Artikel Jakon</p>
+                        </a>
+                      </li>
+
+                </ul>
+            </li>
 
               <li class="nav-item">
                 <a href="./generate/theme.html" class="nav-link">
@@ -237,6 +270,7 @@
                   </li>
                 </ul>
               </li>
+
               <li class="nav-item">
                 <a href="#" class="nav-link">
                   <i class="nav-icon bi bi-tree-fill"></i>
