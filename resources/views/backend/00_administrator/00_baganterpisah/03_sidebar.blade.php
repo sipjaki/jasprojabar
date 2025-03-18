@@ -800,17 +800,19 @@
             <li class="nav-header" style="color: white;">LOGOUT</li>
 
             <li class="nav-item">
-                <li class="nav-item">
-                    <a href="/logout" class="nav-link">
-                      <!-- Ikon untuk Logout -->
-                      <i class="nav-icon bi bi-box-arrow-right text-danger"></i> <!-- Ikon untuk Logout -->
-                      <p style="color: red">
-                        Logout
-                        <!-- Ikon panah kanan (Chevron) -->
-                        {{-- <i class="nav-arrow bi bi-chevron-right"></i> --}}
-                      </p>
-                    </a>
-                  </li>
+                {{-- <li class="nav-item"> --}}
+                    <li class="nav-item">
+                        <form action="/logout" method="POST" style="display: inline;">
+                            @csrf  <!-- This is for CSRF protection -->
+                            <button type="submit" class="nav-link" style="background: none; border: none; color: red;">
+                                <!-- Ikon untuk Logout -->
+                                <i class="nav-icon bi bi-box-arrow-right text-danger"></i> <!-- Ikon untuk Logout -->
+                                <p style="color: red">Logout</p>
+                            </button>
+                        </form>
+                    </li>
+
+                  {{-- </li> --}}
                   </li>
 
             </ul>
