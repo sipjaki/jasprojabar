@@ -5868,11 +5868,6 @@ satuanhargamaterial::create([
     'besaran' => '9000',
 ]);
 
-satuanhargamaterial::create([
-    'uraian' => 'Bahan Bakar Bensin',
-    'satuan' => 'Liter',
-    'besaran' => '9000',
-]);
 
 satuanhargamaterial::create([
     'uraian' => 'Bahan Bakar Solar',
