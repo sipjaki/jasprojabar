@@ -288,6 +288,47 @@
 
             {{-- ========================== --}}
 
+            {{-- ===================================== MENU DATA PENGWASAN   --}}
+            <li class="nav-item">
+                <a href="#" class="nav-link">
+                  <!-- Ikon untuk Pengawasan -->
+                  <i class="nav-icon bi bi-eye text-success"></i> <!-- Ikon untuk pengawasan -->
+                  <p style="color: white">
+                    Pengawasan
+                    <!-- Ikon panah kanan (Chevron) diganti dengan ikon panah -->
+                    <i class="nav-arrow bi bi-chevron-right"></i>
+                  </p>
+                </a>
+
+                <ul class="nav nav-treeview">
+                  <!-- Tertib Jasa Konstruksi -->
+                  <li class="nav-item">
+                    <a href="/404" class="nav-link">
+                      <i class="nav-icon bi bi-check-circle text-warning"></i> <!-- Ikon untuk Tertib Jasa Konstruksi -->
+                      <p style="color: white">Tertib Jasa Konstruksi</p>
+                    </a>
+                  </li>
+
+                  <!-- Pengawasan BUJk -->
+                  <li class="nav-item">
+                    <a href="/404" class="nav-link">
+                      <i class="nav-icon bi bi-shield-lock text-warning"></i> <!-- Ikon untuk Pengawasan BUJk -->
+                      <p style="color: white">Pengawasan BUJK</p>
+                    </a>
+                  </li>
+
+                  <!-- Kecelakaan Kerja -->
+                  <li class="nav-item">
+                    <a href="/404" class="nav-link">
+                      <i class="nav-icon bi bi-emoji-dizzy text-warning"></i> <!-- Ikon untuk Kecelakaan Kerja -->
+                      <p style="color: white">Kecelakaan Kerja</p>
+                    </a>
+                  </li>
+                </ul>
+              </li>
+
+            {{-- ========================== --}}
+
             <li class="nav-header" style="color: white;">PERATURAN JASA KONSTRUKSI</li>
 
             <li class="nav-item">
