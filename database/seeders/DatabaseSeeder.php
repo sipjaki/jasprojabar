@@ -8321,7 +8321,7 @@ hspkonstruksiumum5::create([
     'subhargadiv5bahan_id' => 11,
     'subhargadiv5peralatan_id' => 11,
     'jenispekerjaan' => 'Pemasangan 1 Unit Kabel Tray (Horizontal) 300 x 100 mm',
-    'satuanmaterial' => 'M1',
+    'satuanmaterial' => 'Unit',
     'hargasatuan' => '401790.40',
 ]);
 
