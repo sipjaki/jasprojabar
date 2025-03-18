@@ -184,6 +184,60 @@
                 </ul>
             </li>
 
+            {{-- ========================== --}}
+
+            {{-- ===================================== MENU DATA JAKON   --}}
+
+            <li class="nav-item">
+                <a href="#" class="nav-link">
+                  <!-- Ikon untuk Data Jakon -->
+                  <i class="nav-icon bi bi-newspaper text-success"></i>
+                  <p style="color: white">
+                    Data Jakon
+                    <!-- Ikon panah kanan (Chevron) -->
+                    <i class="nav-arrow bi bi-chevron-right"></i>
+                  </p>
+                </a>
+
+                <ul class="nav nav-treeview">
+
+                  <!-- Badan Usaha Jasa Konstruksi -->
+                  <li class="nav-item">
+                    <a href="/404" class="nav-link">
+                      <i class="nav-icon bi bi-building text-warning"></i> <!-- Ikon untuk Badan Usaha Jasa Konstruksi -->
+                      <p style="color: white">Badan Usaha Jasa Konstruksi</p>
+                    </a>
+                  </li>
+
+                  <!-- Tenaga Kerja Konstruksi -->
+                  <li class="nav-item">
+                    <a href="/404" class="nav-link">
+                      <i class="nav-icon bi bi-person-workspace text-warning"></i> <!-- Ikon untuk Tenaga Kerja Konstruksi -->
+                      <p style="color: white">Tenaga Kerja Konstruksi</p>
+                    </a>
+                  </li>
+
+                  <!-- Tenaga Kerja Konstruksi (Duplicate) -->
+                  <li class="nav-item">
+                    <a href="/404" class="nav-link">
+                      <i class="nav-icon bi bi-person-workspace text-warning"></i> <!-- Ikon untuk Tenaga Kerja Konstruksi -->
+                      <p style="color: white">Tenaga Kerja Konstruksi</p>
+                    </a>
+                  </li>
+
+                  <!-- Profil Paket Pekerjaan Konstruksi -->
+                  <li class="nav-item">
+                    <a href="/404" class="nav-link">
+                      <i class="nav-icon bi bi-tools text-warning"></i> <!-- Ikon untuk Profil Paket Pekerjaan Konstruksi -->
+                      <p style="color: white">Profil Paket Pekerjaan Konstruksi dan Konsultasi Konstruksi</p>
+                    </a>
+                  </li>
+
+                </ul>
+              </li>
+
+            {{-- ========================== --}}
+
             <li class="nav-header" style="color: white;">PERATURAN JASA KONSTRUKSI</li>
 
             <li class="nav-item">
