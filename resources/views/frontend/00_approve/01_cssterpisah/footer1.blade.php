@@ -53,7 +53,7 @@
                                 <a href="mailto:kontraktor@masjakidpuprblora.co.id">kontraktor@masjakidpuprblora.co.id</a>
                             </div>
                         </div>
-                        <div class="footer-widget" style="margin-top: 25px;">
+                        <div class="footer-widget" style="margin-top: 0px;">
                             <div class="footer-widget-contact">
                                 <h4 class="footer-widget-title">
                                     <i class="fas fa-map-marker-alt" style="margin-right: 5px;"></i> Lokasi Kami
