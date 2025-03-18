@@ -38,7 +38,7 @@
 
               <li class="nav-item menu-open">
                 <a href="#" class="nav-link">
-                  <i class="nav-icon bi bi-speedometer"></i>
+                  <i class="nav-icon bi bi-speedometer text-success"></i>
                   <p>
                     Dashboard
                     <i class="nav-arrow bi bi-chevron-right"></i>
@@ -182,12 +182,7 @@
                 </ul>
             </li>
 
-              <li class="nav-item">
-                <a href="./generate/theme.html" class="nav-link">
-                  <i class="nav-icon bi bi-palette"></i>
-                  <p>Theme Generate</p>
-                </a>
-              </li>
+
               <li class="nav-item">
                 <a href="#" class="nav-link">
                   <i class="nav-icon bi bi-box-seam-fill"></i>
