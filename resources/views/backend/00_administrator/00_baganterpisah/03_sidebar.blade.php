@@ -195,7 +195,7 @@
                     <p style="color: white">
                       Data Jakon
                       <!-- Ikon panah kanan (Chevron) diganti dengan ikon panah -->
-                      <i class="nav-arrow bi bi-arrow-right"></i>
+                      <i class="nav-arrow bi bi-chevron-right"></i>
                     </p>
                   </a>
 
@@ -205,7 +205,7 @@
                   <li class="nav-item">
                     <a href="/404" class="nav-link">
                       <i class="nav-icon bi bi-building text-warning"></i> <!-- Ikon untuk Badan Usaha Jasa Konstruksi -->
-                      <p style="color: white">Badan Usaha Jasa Konstruksi</p>
+                      <p style="color: white">BUJK</p>
                     </a>
                   </li>
 
@@ -213,7 +213,7 @@
                   <li class="nav-item">
                     <a href="/404" class="nav-link">
                       <i class="nav-icon bi bi-person-workspace text-warning"></i> <!-- Ikon untuk Tenaga Kerja Konstruksi -->
-                      <p style="color: white">Tenaga Kerja Konstruksi</p>
+                      <p style="color: white">TKK DPUPR</p>
                     </a>
                   </li>
 
@@ -221,7 +221,7 @@
                   <li class="nav-item">
                     <a href="/404" class="nav-link">
                       <i class="nav-icon bi bi-person-workspace text-warning"></i> <!-- Ikon untuk Tenaga Kerja Konstruksi -->
-                      <p style="color: white">Tenaga Kerja Konstruksi</p>
+                      <p style="color: white">Semua TKK</p>
                     </a>
                   </li>
 
@@ -229,12 +229,62 @@
                   <li class="nav-item">
                     <a href="/404" class="nav-link">
                       <i class="nav-icon bi bi-tools text-warning"></i> <!-- Ikon untuk Profil Paket Pekerjaan Konstruksi -->
-                      <p style="color: white">Profil Paket Pekerjaan Konstruksi dan Konsultasi Konstruksi</p>
+                      <p style="color: white">Profil Paket Pekerjaan</p>
                     </a>
                   </li>
 
                 </ul>
               </li>
+
+            {{-- ========================== --}}
+
+            {{-- ===================================== MENU DATA PEMBINAAN   --}}
+            <li class="nav-item">
+                <a href="#" class="nav-link">
+                  <!-- Ikon untuk Pembinaan -->
+                  <i class="nav-icon bi bi-person-check text-success"></i>
+                  <p style="color: white">
+                    Pembinaan
+                    <!-- Ikon panah kanan (Chevron) diganti dengan ikon panah -->
+                    <i class="nav-arrow bi bi-chevron-right"></i>
+                  </p>
+                </a>
+
+                <ul class="nav nav-treeview">
+                  <!-- Agenda Pelatihan -->
+                  <li class="nav-item">
+                    <a href="/404" class="nav-link">
+                      <i class="nav-icon bi bi-calendar-event text-warning"></i> <!-- Ikon untuk Agenda Pelatihan -->
+                      <p style="color: white">Agenda Pelatihan</p>
+                    </a>
+                  </li>
+
+                  <!-- Peserta Pelatihan -->
+                  <li class="nav-item">
+                    <a href="/404" class="nav-link">
+                      <i class="nav-icon bi bi-person-lines-fill text-warning"></i> <!-- Ikon untuk Peserta Pelatihan -->
+                      <p style="color: white">Peserta Pelatihan</p>
+                    </a>
+                  </li>
+
+                  <!-- Agenda SKK -->
+                  <li class="nav-item">
+                    <a href="/404" class="nav-link">
+                      <i class="nav-icon bi bi-calendar-check text-warning"></i> <!-- Ikon untuk Agenda SKK -->
+                      <p style="color: white">Agenda SKK</p>
+                    </a>
+                  </li>
+
+                  <!-- Peserta SKK -->
+                  <li class="nav-item">
+                    <a href="/404" class="nav-link">
+                      <i class="nav-icon bi bi-person-badge text-warning"></i> <!-- Ikon untuk Peserta SKK -->
+                      <p style="color: white">Peserta SKK</p>
+                    </a>
+                  </li>
+                </ul>
+              </li>
+
 
             {{-- ========================== --}}
 
