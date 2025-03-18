@@ -8956,6 +8956,356 @@ hspkonstruksiumum5::create([
     'hargasatuan' => '272989.20',
 ]);
 
+hspkonstruksiumum5::create([
+    'id' => 57,
+    'hspdivisi_id' => 5,
+    'hsppaket5_id' => 2,
+    'hspkodepekerjaan5_id' => 1,
+    'kode' => '1',
+    'subhargadiv5_id' => 57,
+    'subhargadiv5bahan_id' => 57,
+    'subhargadiv5peralatan_id' => 57,
+    'jenispekerjaan' => 'Pemasangan 1 Set Penangkal Petir Sangkar Faraday Radius ± 120 ',
+    'satuanmaterial' => 'Set',
+    'hargasatuan' => '15212242.10',
+]);
+
+hspkonstruksiumum5::create([
+    'id' => 58,
+    'hspdivisi_id' => 5,
+    'hsppaket5_id' => 3,
+    'hspkodepekerjaan5_id' => 5,
+    'kode' => '1',
+    'subhargadiv5_id' => 58,
+    'subhargadiv5bahan_id' => 58,
+    'subhargadiv5peralatan_id' => 58,
+    'jenispekerjaan' => 'Pemasangan 1 titik Instalasi Lampu',
+    'satuanmaterial' => 'Titik',
+    'hargasatuan' => '243611.50',
+]);
+
+hspkonstruksiumum5::create([
+    'id' => 59,
+    'hspdivisi_id' => 5,
+    'hsppaket5_id' => 3,
+    'hspkodepekerjaan5_id' => 5,
+    'kode' => '3',
+    'subhargadiv5_id' => 59,
+    'subhargadiv5bahan_id' => 59,
+    'subhargadiv5peralatan_id' => 59,
+    'jenispekerjaan' => 'Pemasangan 1 Unit Downlight 5 Inch 14,5 Watt LED',
+    'satuanmaterial' => 'Unit',
+    'hargasatuan' => '202796.00',
+]);
+
+hspkonstruksiumum5::create([
+    'id' => 60,
+    'hspdivisi_id' => 5,
+    'hsppaket5_id' => 3,
+    'hspkodepekerjaan5_id' => 5,
+    'kode' => '8',
+    'subhargadiv5_id' => 60,
+    'subhargadiv5bahan_id' => 60,
+    'subhargadiv5peralatan_id' => 60,
+    'jenispekerjaan' => 'Pemasangan 1 Unit RM TKI 2 x 16 Watt LED',
+    'satuanmaterial' => 'Unit',
+    'hargasatuan' => '526533.70',
+]);
+
+hspkonstruksiumum5::create([
+    'id' => 61,
+    'hspdivisi_id' => 5,
+    'hsppaket5_id' => 3,
+    'hspkodepekerjaan5_id' => 5,
+    'kode' => '9',
+    'subhargadiv5_id' => 61,
+    'subhargadiv5bahan_id' => 61,
+    'subhargadiv5peralatan_id' => 61,
+    'jenispekerjaan' => 'Pemasangan 1 Unit Lampu Sorot LED 100 Watt',
+    'satuanmaterial' => 'Unit',
+    'hargasatuan' => '1252533.70',
+]);
+
+hspkonstruksiumum5::create([
+    'id' => 62,
+    'hspdivisi_id' => 5,
+    'hsppaket5_id' => 3,
+    'hspkodepekerjaan5_id' => 5,
+    'kode' => '10',
+    'subhargadiv5_id' => 62,
+    'subhargadiv5bahan_id' => 62,
+    'subhargadiv5peralatan_id' => 62,
+    'jenispekerjaan' => 'Pemasangan 1 Unit Lampu Sorot RGB 30 Watt untuk Outdoor',
+    'satuanmaterial' => 'Unit',
+    'hargasatuan' => '581533.70',
+]);
+
+hspkonstruksiumum5::create([
+    'id' => 63,
+    'hspdivisi_id' => 5,
+    'hsppaket5_id' => 4,
+    'hspkodepekerjaan5_id' => 6,
+    'kode' => '6',
+    'subhargadiv5_id' => 63,
+    'subhargadiv5bahan_id' => 63,
+    'subhargadiv5peralatan_id' => 63,
+    'jenispekerjaan' => 'Pemasangan 1 Unit Terminal Box Fire Alarm (Lengkap Dengan Modul)',
+    'satuanmaterial' => 'Unit',
+    'hargasatuan' => '2750926.20',
+]);
+
+hspkonstruksiumum5::create([
+    'id' => 64,
+    'hspdivisi_id' => 5,
+    'hsppaket5_id' => 4,
+    'hspkodepekerjaan5_id' => 6,
+    'kode' => '7',
+    'subhargadiv5_id' => 64,
+    'subhargadiv5bahan_id' => 64,
+    'subhargadiv5peralatan_id' => 64,
+    'jenispekerjaan' => 'Pemasangan 1 Unit Smoke Detector Addressable',
+    'satuanmaterial' => 'Unit',
+    'hargasatuan' => '262450.10',
+]);
+
+hspkonstruksiumum5::create([
+    'id' => 65,
+    'hspdivisi_id' => 5,
+    'hsppaket5_id' => 4,
+    'hspkodepekerjaan5_id' => 6,
+    'kode' => '13',
+    'subhargadiv5_id' => 65,
+    'subhargadiv5bahan_id' => 65,
+    'subhargadiv5peralatan_id' => 65,
+    'jenispekerjaan' => 'Pemasangan 1 Unit Lamp Indicator',
+    'satuanmaterial' => 'Unit',
+    'hargasatuan' => '483296.00',
+]);
+
+hspkonstruksiumum5::create([
+    'id' => 66,
+    'hspdivisi_id' => 5,
+    'hsppaket5_id' => 4,
+    'hspkodepekerjaan5_id' => 7,
+    'kode' => '2',
+    'subhargadiv5_id' => 66,
+    'subhargadiv5bahan_id' => 66,
+    'subhargadiv5peralatan_id' => 66,
+    'jenispekerjaan' => 'Pemasangan 1 Unit Wiring Management',
+    'satuanmaterial' => 'Unit',
+    'hargasatuan' => '2582750.50',
+]);
+
+hspkonstruksiumum5::create([
+    'id' => 67,
+    'hspdivisi_id' => 5,
+    'hsppaket5_id' => 4,
+    'hspkodepekerjaan5_id' => 7,
+    'kode' => '9',
+    'subhargadiv5_id' => 67,
+    'subhargadiv5bahan_id' => 67,
+    'subhargadiv5peralatan_id' => 67,
+    'jenispekerjaan' => 'Pemasangan 1 Unit Indoor Fix Dome IP Camera',
+    'satuanmaterial' => 'Unit',
+    'hargasatuan' => '2026546.50',
+]);
+
+hspkonstruksiumum5::create([
+    'id' => 68,
+    'hspdivisi_id' => 5,
+    'hsppaket5_id' => 4,
+    'hspkodepekerjaan5_id' => 8,
+    'kode' => '14',
+    'subhargadiv5_id' => 68,
+    'subhargadiv5bahan_id' => 68,
+    'subhargadiv5peralatan_id' => 68,
+    'jenispekerjaan' => 'Pemasangan 1 Unit Ceilling Speaker',
+    'satuanmaterial' => 'Unit',
+    'hargasatuan' => '181600.10',
+]);
+
+hspkonstruksiumum5::create([
+    'id' => 69,
+    'hspdivisi_id' => 5,
+    'hsppaket5_id' => 4,
+    'hspkodepekerjaan5_id' => 8,
+    'kode' => '15',
+    'subhargadiv5_id' => 69,
+    'subhargadiv5bahan_id' => 69,
+    'subhargadiv5peralatan_id' => 69,
+    'jenispekerjaan' => 'Pemasangan 1 Unit Wall Speaker',
+    'satuanmaterial' => 'Unit',
+    'hargasatuan' => '199833.70',
+]);
+
+hspkonstruksiumum5::create([
+    'id' => 70,
+    'hspdivisi_id' => 5,
+    'hsppaket5_id' => 5,
+    'hspkodepekerjaan5_id' => 9,
+    'kode' => '1',
+    'subhargadiv5_id' => 70,
+    'subhargadiv5bahan_id' => 70,
+    'subhargadiv5peralatan_id' => 70,
+    'jenispekerjaan' => 'Pemasangan 1 Unit AC Wall Mounted Kap : 5.000 BTUH',
+    'satuanmaterial' => 'Unit',
+    'hargasatuan' => '5091970.40',
+]);
+
+hspkonstruksiumum5::create([
+    'id' => 71,
+    'hspdivisi_id' => 5,
+    'hsppaket5_id' => 5,
+    'hspkodepekerjaan5_id' => 9,
+    'kode' => '2',
+    'subhargadiv5_id' => 71,
+    'subhargadiv5bahan_id' => 71,
+    'subhargadiv5peralatan_id' => 71,
+    'jenispekerjaan' => 'Pemasangan 1 Unit AC Wall Mounted Kap : 6.500 BTUH',
+    'satuanmaterial' => 'Unit',
+    'hargasatuan' => '6345462.20',
+]);
+
+hspkonstruksiumum5::create([
+    'id' => 72,
+    'hspdivisi_id' => 5,
+    'hsppaket5_id' => 5,
+    'hspkodepekerjaan5_id' => 9,
+    'kode' => '4',
+    'subhargadiv5_id' => 72,
+    'subhargadiv5bahan_id' => 72,
+    'subhargadiv5peralatan_id' => 72,
+    'jenispekerjaan' => 'Pemasangan 1 Unit AC Wall Mounted Kap : 9.000 BTUH',
+    'satuanmaterial' => 'Unit',
+    'hargasatuan' => '8160462.20',
+]);
+
+hspkonstruksiumum5::create([
+    'id' => 73,
+    'hspdivisi_id' => 5,
+    'hsppaket5_id' => 5,
+    'hspkodepekerjaan5_id' => 9,
+    'kode' => '5',
+    'subhargadiv5_id' => 73,
+    'subhargadiv5bahan_id' => 73,
+    'subhargadiv5peralatan_id' => 73,
+    'jenispekerjaan' => 'Pemasangan 1 Unit AC Wall Mounted Kap : 12.000 BTUH',
+    'satuanmaterial' => 'Unit',
+    'hargasatuan' => '9370462.20',
+]);
+
+hspkonstruksiumum5::create([
+    'id' => 74,
+    'hspdivisi_id' => 5,
+    'hsppaket5_id' => 5,
+    'hspkodepekerjaan5_id' => 10,
+    'kode' => '2',
+    'subhargadiv5_id' => 74,
+    'subhargadiv5bahan_id' => 74,
+    'subhargadiv5peralatan_id' => 74,
+    'jenispekerjaan' => 'Pemasangan 1 m Pipa Tembaga B280 Dia. 9,5 mm (3/8")',
+    'satuanmaterial' => 'M1',
+    'hargasatuan' => '146985.30',
+]);
+
+hspkonstruksiumum5::create([
+    'id' => 75,
+    'hspdivisi_id' => 5,
+    'hsppaket5_id' => 5,
+    'hspkodepekerjaan5_id' => 10,
+    'kode' => '3',
+    'subhargadiv5_id' => 75,
+    'subhargadiv5bahan_id' => 75,
+    'subhargadiv5peralatan_id' => 75,
+    'jenispekerjaan' => 'Pemasangan 1 m Pipa Tembaga B280 Dia. 12,7 mm (1/2")',
+    'satuanmaterial' => 'M1',
+    'hargasatuan' => '213422.00',
+]);
+
+hspkonstruksiumum5::create([
+    'id' => 76,
+    'hspdivisi_id' => 5,
+    'hsppaket5_id' => 5,
+    'hspkodepekerjaan5_id' => 10,
+    'kode' => '4',
+    'subhargadiv5_id' => 76,
+    'subhargadiv5bahan_id' => 76,
+    'subhargadiv5peralatan_id' => 76,
+    'jenispekerjaan' => 'Pemasangan 1 m Pipa Tembaga B280 Dia. 15,9 mm (5/8")',
+    'satuanmaterial' => 'M1',
+    'hargasatuan' => '301530.90',
+]);
+
+hspkonstruksiumum5::create([
+    'id' => 77,
+    'hspdivisi_id' => 5,
+    'hsppaket5_id' => 5,
+    'hspkodepekerjaan5_id' => 10,
+    'kode' => '5',
+    'subhargadiv5_id' => 77,
+    'subhargadiv5bahan_id' => 77,
+    'subhargadiv5peralatan_id' => 77,
+    'jenispekerjaan' => 'Pemasangan 1 m Pipa Tembaga B280 Dia. 19,1 mm (3/4")',
+    'satuanmaterial' => 'M1',
+    'hargasatuan' => '363826.10',
+]);
+
+hspkonstruksiumum5::create([
+    'id' => 78,
+    'hspdivisi_id' => 5,
+    'hsppaket5_id' => 5,
+    'hspkodepekerjaan5_id' => 10,
+    'kode' => '6',
+    'subhargadiv5_id' => 78,
+    'subhargadiv5bahan_id' => 78,
+    'subhargadiv5peralatan_id' => 78,
+    'jenispekerjaan' => 'Pemasangan 1 m Pipa Tembaga B280 Dia. 22,2 mm (7/8")',
+    'satuanmaterial' => 'M1',
+    'hargasatuan' => '446985.00',
+]);
+
+hspkonstruksiumum5::create([
+    'id' => 79,
+    'hspdivisi_id' => 5,
+    'hsppaket5_id' => 5,
+    'hspkodepekerjaan5_id' => 10,
+    'kode' => '7',
+    'subhargadiv5_id' => 79,
+    'subhargadiv5bahan_id' => 79,
+    'subhargadiv5peralatan_id' => 79,
+    'jenispekerjaan' => 'Pemasangan 1 m Pipa Tembaga B280 Dia. 25,4 mm (1")',
+    'satuanmaterial' => 'M1',
+    'hargasatuan' => '556409.70',
+]);
+
+hspkonstruksiumum5::create([
+    'id' => 80,
+    'hspdivisi_id' => 5,
+    'hsppaket5_id' => 5,
+    'hspkodepekerjaan5_id' => 10,
+    'kode' => '8',
+    'subhargadiv5_id' => 80,
+    'subhargadiv5bahan_id' => 80,
+    'subhargadiv5peralatan_id' => 80,
+    'jenispekerjaan' => 'Pemasangan 1 m Pipa Tembaga B280 Dia. 28,6 mm (1-1/8")',
+    'satuanmaterial' => 'M1',
+    'hargasatuan' => '627235.40',
+]);
+
+hspkonstruksiumum5::create([
+    'id' => 81,
+    'hspdivisi_id' => 5,
+    'hsppaket5_id' => 5,
+    'hspkodepekerjaan5_id' => 11,
+    'kode' => '2',
+    'subhargadiv5_id' => 81,
+    'subhargadiv5bahan_id' => 81,
+    'subhargadiv5peralatan_id' => 81,
+    'jenispekerjaan' => 'Pemasangan 1 Unit Fire Extinguisher 5 Kg',
+    'satuanmaterial' => 'Unit',
+    'hargasatuan' => '1364869.00',
+]);
+
 
 // alifmodels
 
