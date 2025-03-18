@@ -49,14 +49,14 @@
                     <li class="nav-item">
                         <a href="/" target="_blank" class="nav-link">
                           <!-- Ikon untuk Halaman Web (Rumah) -->
-                          <i class="nav-icon bi bi-house-door"></i>
+                          <i class="nav-icon bi bi-house-door text-warning"></i>
                           <p>Halaman Web</p>
                         </a>
                       </li>
                       <li class="nav-item">
                         <a href="/dashboard" class="nav-link">
                           <!-- Ikon untuk Administrator (Person atau Shield) -->
-                          <i class="nav-icon bi bi-person-lock"></i>
+                          <i class="nav-icon bi bi-person-lock text-warning"></i>
                           <p>Administrator</p>
                         </a>
                       </li>
@@ -71,7 +71,7 @@
             <li class="nav-item menu-open">
                 <a href="#" class="nav-link">
                     <!-- Ikon untuk Beranda -->
-                    <i class="nav-icon bi bi-house-door"></i>
+                    <i class="nav-icon bi bi-house-door text-success"></i>
                     <p>
                       Beranda
                       <!-- Ikon panah kanan (Chevron) -->
@@ -84,21 +84,21 @@
                     <li class="nav-item">
                         <a href="/404" class="nav-link">
                           <!-- Ikon untuk Header -->
-                          <i class="nav-icon bi bi-house-door"></i>
+                          <i class="nav-icon bi bi-house-door text-warning"></i>
                           <p>Header</p>
                         </a>
                       </li>
                       <li class="nav-item">
                         <a href="/404" class="nav-link">
                           <!-- Ikon untuk Informasi Kantor -->
-                          <i class="nav-icon bi bi-building"></i>
+                          <i class="nav-icon bi bi-building text-warning"></i>
                           <p>Informasi Kantor</p>
                         </a>
                       </li>
                       <li class="nav-item">
                         <a href="/404" class="nav-link">
                           <!-- Ikon untuk Sosial Media -->
-                          <i class="nav-icon bi bi-facebook"></i> <!-- Bisa diganti dengan bi-twitter atau bi-instagram sesuai kebutuhan -->
+                          <i class="nav-icon bi bi-facebook text-warning"></i> <!-- Bisa diganti dengan bi-twitter atau bi-instagram sesuai kebutuhan -->
                           <p>Sosial Media</p>
                         </a>
                       </li>
