@@ -5,10 +5,9 @@
         <!--end::To the end-->
         <!--begin::Copyright-->
         <strong>
-          Copyright &copy; 2014-2024&nbsp;
-          <a href="https://adminlte.io" class="text-decoration-none">AdminLTE.io</a>.
+          &copy; Dinas Pekerjaan Umum Dan Penataan Ruang Kabupaten Blora Provinsi Jawa Tengah &nbsp; | Built and Deployed By
+          <a href="https://wa.me/6281321455855" target="_blank" class="text-decoration-none" style="color: green">CV. Angkasa Raya Teknik</a>.
         </strong>
-        All rights reserved.
         <!--end::Copyright-->
       </footer>
       <!--end::Footer-->
