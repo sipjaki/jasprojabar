@@ -204,7 +204,7 @@
       </nav>
       <!--end::Header-->
 
-      {{-- @include('backend.00_administrator.00_baganterpisah.03_sidebar') --}}
+      @include('backend.00_administrator.00_baganterpisah.03_sidebar')
 
       <!--begin::App Main-->
       <main class="app-main">
