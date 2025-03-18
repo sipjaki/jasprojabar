@@ -182,6 +182,34 @@
                 </ul>
             </li>
 
+            <li class="nav-header" style="color: white;">PERATURAN JASA KONSTRUKSI</li>
+
+            <li class="nav-item">
+
+          <li class="nav-item menu-open">
+              <a href="#" class="nav-link">
+                  <!-- Ikon untuk Beranda -->
+                  <i class="nav-icon bi bi-house-door text-success"></i>
+                  <p style="color: white">
+                    Peraturan
+                    <!-- Ikon panah kanan (Chevron) -->
+                    <i class="nav-arrow bi bi-chevron-right"></i>
+                  </p>
+                </a>
+
+              <ul class="nav nav-treeview">
+
+                  <li class="nav-item">
+                      <a href="/404" class="nav-link">
+                        <!-- Ikon untuk Header -->
+                        <i class="nav-icon bi bi-house-door text-warning"></i>
+                        <p style="color: white">Undang-undang</p>
+                      </a>
+                    </li>
+
+              </ul>
+            </li>
+
 
               <li class="nav-item">
                 <a href="#" class="nav-link">
