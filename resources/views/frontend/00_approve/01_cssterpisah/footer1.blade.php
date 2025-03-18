@@ -32,9 +32,9 @@
                         <a href="#"><i class="fa-brands fa-tiktok"></i></a>
                         <a href="https://wa.me/6281234567890"><i class="fa-brands fa-whatsapp"></i></a>
                         <a href="#"><i class="fa-brands fa-facebook"></i></a>
-                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        {{-- <a href="#"><i class="fa-brands fa-instagram"></i></a> --}}
                         <a href="#"><i class="fa-brands fa-youtube"></i></a>
-                        <a href="tel:+621234567890"><i class="fa-solid fa-phone"></i></a>
+                        {{-- <a href="tel:+621234567890"><i class="fa-solid fa-phone"></i></a> --}}
                     </div>
                 </div>
 
