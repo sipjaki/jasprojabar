@@ -7,7 +7,7 @@
           <a href="./index.html" class="brand-link">
             <!--begin::Brand Image-->
             <img
-              src="/assets/00_administrator/dist/assets/img/AdminLTELogo.png"
+              src="/assets/icon/logokabupatenblora.png"
               alt="AdminLTE Logo"
               class="brand-image opacity-75 shadow"
             />
