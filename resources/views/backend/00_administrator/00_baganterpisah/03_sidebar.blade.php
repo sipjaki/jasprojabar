@@ -329,6 +329,121 @@
 
             {{-- ========================== --}}
 
+            {{-- ===================================== MENU DATA AHSP   --}}
+            <li class="nav-item">
+                <a href="#" class="nav-link">
+                  <!-- Ikon untuk AHSP Keciptakaryaan -->
+                  <i class="nav-icon bi bi-clipboard-check text-success"></i> <!-- Ikon untuk AHSP Keciptakaryaan -->
+                  <p style="color: white">
+                    AHSP Keciptakaryaan
+                    <!-- Ikon panah kanan (Chevron) diganti dengan ikon panah -->
+                    <i class="nav-arrow bi bi-chevron-right"></i>
+                  </p>
+                </a>
+
+                <ul class="nav nav-treeview">
+                  <!-- Satuan Harga Material -->
+                  <li class="nav-item">
+                    <a href="/404" class="nav-link">
+                      <i class="nav-icon bi bi-archive text-warning"></i> <!-- Ikon untuk Satuan Harga Material -->
+                      <p style="color: white">Satuan Harga Material</p>
+                    </a>
+                  </li>
+
+                  <!-- Satuan Harga Bahan -->
+                  <li class="nav-item">
+                    <a href="/404" class="nav-link">
+                      <i class="nav-icon bi bi-droplet text-warning"></i> <!-- Ikon untuk Satuan Harga Bahan -->
+                      <p style="color: white">Satuan Harga Bahan</p>
+                    </a>
+                  </li>
+
+                  <!-- Satuan Harga Peralatan -->
+                  <li class="nav-item">
+                    <a href="/404" class="nav-link">
+                      <i class="nav-icon bi bi-tools text-warning"></i> <!-- Ikon untuk Satuan Harga Peralatan -->
+                      <p style="color: white">Satuan Harga Peralatan</p>
+                    </a>
+                  </li>
+                </ul>
+              </li>
+
+            {{-- ========================== --}}
+
+            {{-- ===================================== MENU DATA HSP Konstruksi UMum   --}}
+            <li class="nav-item">
+                <a href="#" class="nav-link">
+                  <!-- Ikon untuk Pengawasan -->
+                  <i class="nav-icon bi bi-eye text-success"></i> <!-- Ikon untuk pengawasan -->
+                  <p style="color: white">
+                HSP Konstruksi Umum
+                    <!-- Ikon panah kanan (Chevron) diganti dengan ikon panah -->
+                    <i class="nav-arrow bi bi-chevron-right"></i>
+                  </p>
+                </a>
+
+                <ul class="nav nav-treeview">
+                  <!-- Tertib Jasa Konstruksi -->
+                  <li class="nav-item">
+                    <a href="/404" class="nav-link">
+                      <i class="nav-icon bi bi-check-circle text-warning"></i> <!-- Ikon untuk Tertib Jasa Konstruksi -->
+                      <p style="color: white">Divisi I</p>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="/404" class="nav-link">
+                      <i class="nav-icon bi bi-check-circle text-warning"></i> <!-- Ikon untuk Tertib Jasa Konstruksi -->
+                      <p style="color: white">Divisi II</p>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="/404" class="nav-link">
+                      <i class="nav-icon bi bi-check-circle text-warning"></i> <!-- Ikon untuk Tertib Jasa Konstruksi -->
+                      <p style="color: white">Divisi III</p>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="/404" class="nav-link">
+                      <i class="nav-icon bi bi-check-circle text-warning"></i> <!-- Ikon untuk Tertib Jasa Konstruksi -->
+                      <p style="color: white">Divisi IV</p>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="/404" class="nav-link">
+                      <i class="nav-icon bi bi-check-circle text-warning"></i> <!-- Ikon untuk Tertib Jasa Konstruksi -->
+                      <p style="color: white">Divisi V</p>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="/404" class="nav-link">
+                      <i class="nav-icon bi bi-check-circle text-warning"></i> <!-- Ikon untuk Tertib Jasa Konstruksi -->
+                      <p style="color: white">Divisi VI</p>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="/404" class="nav-link">
+                      <i class="nav-icon bi bi-check-circle text-warning"></i> <!-- Ikon untuk Tertib Jasa Konstruksi -->
+                      <p style="color: white">Divisi VII</p>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="/404" class="nav-link">
+                      <i class="nav-icon bi bi-check-circle text-warning"></i> <!-- Ikon untuk Tertib Jasa Konstruksi -->
+                      <p style="color: white">Divisi VIII</p>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="/404" class="nav-link">
+                      <i class="nav-icon bi bi-check-circle text-warning"></i> <!-- Ikon untuk Tertib Jasa Konstruksi -->
+                      <p style="color: white">Divisi IX</p>
+                    </a>
+                  </li>
+
+                </ul>
+              </li>
+
+            {{-- ========================== --}}
+
             <li class="nav-header" style="color: white;">PERATURAN JASA KONSTRUKSI</li>
 
             <li class="nav-item">
