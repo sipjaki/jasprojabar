@@ -373,72 +373,87 @@
             {{-- ===================================== MENU DATA HSP Konstruksi UMum   --}}
             <li class="nav-item">
                 <a href="#" class="nav-link">
-                  <!-- Ikon untuk Pengawasan -->
-                  <i class="nav-icon bi bi-eye text-success"></i> <!-- Ikon untuk pengawasan -->
+                  <!-- Ikon untuk HSP Konstruksi Umum -->
+                  <i class="nav-icon bi bi-building text-success"></i> <!-- Ikon untuk Konstruksi Umum -->
                   <p style="color: white">
-                HSP Konstruksi Umum
+                    HSP Konstruksi Umum
                     <!-- Ikon panah kanan (Chevron) diganti dengan ikon panah -->
                     <i class="nav-arrow bi bi-chevron-right"></i>
                   </p>
                 </a>
 
                 <ul class="nav nav-treeview">
-                  <!-- Tertib Jasa Konstruksi -->
+                  <!-- Divisi I -->
                   <li class="nav-item">
                     <a href="/404" class="nav-link">
-                      <i class="nav-icon bi bi-check-circle text-warning"></i> <!-- Ikon untuk Tertib Jasa Konstruksi -->
+                      <i class="nav-icon bi bi-gear text-warning"></i> <!-- Ikon untuk Divisi I -->
                       <p style="color: white">Divisi I</p>
                     </a>
                   </li>
+
+                  <!-- Divisi II -->
                   <li class="nav-item">
                     <a href="/404" class="nav-link">
-                      <i class="nav-icon bi bi-check-circle text-warning"></i> <!-- Ikon untuk Tertib Jasa Konstruksi -->
+                      <i class="nav-icon bi bi-gear text-warning"></i> <!-- Ikon untuk Divisi II -->
                       <p style="color: white">Divisi II</p>
                     </a>
                   </li>
+
+                  <!-- Divisi III -->
                   <li class="nav-item">
                     <a href="/404" class="nav-link">
-                      <i class="nav-icon bi bi-check-circle text-warning"></i> <!-- Ikon untuk Tertib Jasa Konstruksi -->
+                      <i class="nav-icon bi bi-gear text-warning"></i> <!-- Ikon untuk Divisi III -->
                       <p style="color: white">Divisi III</p>
                     </a>
                   </li>
+
+                  <!-- Divisi IV -->
                   <li class="nav-item">
                     <a href="/404" class="nav-link">
-                      <i class="nav-icon bi bi-check-circle text-warning"></i> <!-- Ikon untuk Tertib Jasa Konstruksi -->
+                      <i class="nav-icon bi bi-gear text-warning"></i> <!-- Ikon untuk Divisi IV -->
                       <p style="color: white">Divisi IV</p>
                     </a>
                   </li>
+
+                  <!-- Divisi V -->
                   <li class="nav-item">
                     <a href="/404" class="nav-link">
-                      <i class="nav-icon bi bi-check-circle text-warning"></i> <!-- Ikon untuk Tertib Jasa Konstruksi -->
+                      <i class="nav-icon bi bi-gear text-warning"></i> <!-- Ikon untuk Divisi V -->
                       <p style="color: white">Divisi V</p>
                     </a>
                   </li>
+
+                  <!-- Divisi VI -->
                   <li class="nav-item">
                     <a href="/404" class="nav-link">
-                      <i class="nav-icon bi bi-check-circle text-warning"></i> <!-- Ikon untuk Tertib Jasa Konstruksi -->
+                      <i class="nav-icon bi bi-gear text-warning"></i> <!-- Ikon untuk Divisi VI -->
                       <p style="color: white">Divisi VI</p>
                     </a>
                   </li>
+
+                  <!-- Divisi VII -->
                   <li class="nav-item">
                     <a href="/404" class="nav-link">
-                      <i class="nav-icon bi bi-check-circle text-warning"></i> <!-- Ikon untuk Tertib Jasa Konstruksi -->
+                      <i class="nav-icon bi bi-gear text-warning"></i> <!-- Ikon untuk Divisi VII -->
                       <p style="color: white">Divisi VII</p>
                     </a>
                   </li>
+
+                  <!-- Divisi VIII -->
                   <li class="nav-item">
                     <a href="/404" class="nav-link">
-                      <i class="nav-icon bi bi-check-circle text-warning"></i> <!-- Ikon untuk Tertib Jasa Konstruksi -->
+                      <i class="nav-icon bi bi-gear text-warning"></i> <!-- Ikon untuk Divisi VIII -->
                       <p style="color: white">Divisi VIII</p>
                     </a>
                   </li>
+
+                  <!-- Divisi IX -->
                   <li class="nav-item">
                     <a href="/404" class="nav-link">
-                      <i class="nav-icon bi bi-check-circle text-warning"></i> <!-- Ikon untuk Tertib Jasa Konstruksi -->
+                      <i class="nav-icon bi bi-gear text-warning"></i> <!-- Ikon untuk Divisi IX -->
                       <p style="color: white">Divisi IX</p>
                     </a>
                   </li>
-
                 </ul>
               </li>
 
