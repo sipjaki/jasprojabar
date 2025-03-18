@@ -8091,6 +8091,8 @@ hsppaket5::create([
     'hsppaket5' => 'Pekerjaan Sistem Proteksi Kebakaran',
 ]);
 
+// ============================================= AHSP KONSTRUKSI UMUM DIVISI 5 ===========================
+// ===================================================================
 hspkodepekerjaan5::create([
     'id' => 1,
     'hsppaket5_id' => 1,
@@ -8112,138 +8114,272 @@ hspkodepekerjaan5::create([
     'namapekerjaan' => 'Pemasangan panel listrik',
 ]);
 
+hspkodepekerjaan5::create([
+    'id' => 4,
+    'hsppaket5_id' => 1,
+    'kodepekerjaan' => '5',
+    'namapekerjaan' => 'Pemasangan saklar dan stop kontak',
+]);
+
+hspkodepekerjaan5::create([
+    'id' => 5,
+    'hsppaket5_id' => 1,
+    'kodepekerjaan' => '1',
+    'namapekerjaan' => 'Pemasangan lampu dan armatur',
+]);
+
+hspkodepekerjaan5::create([
+    'id' => 6,
+    'hsppaket5_id' => 1,
+    'kodepekerjaan' => '1',
+    'namapekerjaan' => 'Sistem alarm kebakaran',
+]);
+
+hspkodepekerjaan5::create([
+    'id' => 7,
+    'hsppaket5_id' => 1,
+    'kodepekerjaan' => '2',
+    'namapekerjaan' => 'Sistem CCTV',
+]);
+
+hspkodepekerjaan5::create([
+    'id' => 8,
+    'hsppaket5_id' => 1,
+    'kodepekerjaan' => '3',
+    'namapekerjaan' => 'Sistem tata suara',
+]);
+
+hspkodepekerjaan5::create([
+    'id' => 9,
+    'hsppaket5_id' => 1,
+    'kodepekerjaan' => '1',
+    'namapekerjaan' => 'Pemasangan unit AC',
+]);
+
+hspkodepekerjaan5::create([
+    'id' => 10,
+    'hsppaket5_id' => 1,
+    'kodepekerjaan' => '4',
+    'namapekerjaan' => 'Pemasangan perpipaan',
+]);
+
+hspkodepekerjaan5::create([
+    'id' => 11,
+    'hsppaket5_id' => 1,
+    'kodepekerjaan' => '3',
+    'namapekerjaan' => 'APAR',
+]);
+
+// ============================================= AHSP KONSTRUKSI UMUM DIVISI 5 ===========================
 hspkonstruksiumum5::create([
+    'id' => 1,
     'hspdivisi_id' => 5,
     'hsppaket5_id' => 1,
     'hspkodepekerjaan5_id' => 1,
     'kode' => '1.26',
     'subhargadiv5_id' => 1,
+    'subhargadiv5bahan_id' => 1,
+    'subhargadiv5peralatan_id' => 1,
     'jenispekerjaan' => 'Pemasangan 1 m’ Kabel NYY 3 x 4 mm²',
     'satuanmaterial' => 'M1',
     'hargasatuan' => '38717.80',
 ]);
 
 hspkonstruksiumum5::create([
+    'id' => 2,
     'hspdivisi_id' => 5,
     'hsppaket5_id' => 1,
     'hspkodepekerjaan5_id' => 1,
     'kode' => '1.35',
     'subhargadiv5_id' => 2,
+    'subhargadiv5bahan_id' => 2,
+    'subhargadiv5peralatan_id' => 2,
     'jenispekerjaan' => 'Pemasangan 1 m’ Kabel NYY 4 x 4 mm²',
     'satuanmaterial' => 'M1',
     'hargasatuan' => '69457.30',
 ]);
 
 hspkonstruksiumum5::create([
+    'id' => 3,
     'hspdivisi_id' => 5,
     'hsppaket5_id' => 1,
     'hspkodepekerjaan5_id' => 1,
     'kode' => '1.36',
     'subhargadiv5_id' => 3,
+    'subhargadiv5bahan_id' => 3,
+    'subhargadiv5peralatan_id' => 3,
     'jenispekerjaan' => 'Pemasangan 1 m’ Kabel NYY 4 x 6 mm²',
     'satuanmaterial' => 'M1',
     'hargasatuan' => '93365.80',
 ]);
 
 hspkonstruksiumum5::create([
+    'id' => 4,
     'hspdivisi_id' => 5,
     'hsppaket5_id' => 1,
     'hspkodepekerjaan5_id' => 1,
     'kode' => '1.37',
     'subhargadiv5_id' => 4,
+    'subhargadiv5bahan_id' => 4,
+    'subhargadiv5peralatan_id' => 4,
     'jenispekerjaan' => 'Pemasangan 1 m’ Kabel NYY 4 x 10 mm²',
     'satuanmaterial' => 'M1',
     'hargasatuan' => '145479.40',
 ]);
 
 hspkonstruksiumum5::create([
+    'id' => 5,
     'hspdivisi_id' => 5,
     'hsppaket5_id' => 1,
     'hspkodepekerjaan5_id' => 1,
     'kode' => '1.38',
     'subhargadiv5_id' => 5,
+    'subhargadiv5bahan_id' => 5,
+    'subhargadiv5peralatan_id' => 5,
     'jenispekerjaan' => 'Pemasangan 1 m’ Kabel NYY 4 x 16 mm²',
     'satuanmaterial' => 'M1',
     'hargasatuan' => '209235.40',
 ]);
 
 hspkonstruksiumum5::create([
+    'id' => 6,
     'hspdivisi_id' => 5,
     'hsppaket5_id' => 1,
     'hspkodepekerjaan5_id' => 1,
     'kode' => '1.39',
     'subhargadiv5_id' => 6,
+    'subhargadiv5bahan_id' => 6,
+    'subhargadiv5peralatan_id' => 6,
     'jenispekerjaan' => 'Pemasangan 1 m’ Kabel NYY 4 x 25 mm²',
     'satuanmaterial' => 'M1',
     'hargasatuan' => '318876.80',
 ]);
 
 hspkonstruksiumum5::create([
+    'id' => 7,
     'hspdivisi_id' => 5,
     'hsppaket5_id' => 1,
     'hspkodepekerjaan5_id' => 1,
     'kode' => '1.40',
     'subhargadiv5_id' => 7,
+    'subhargadiv5bahan_id' => 7,
+    'subhargadiv5peralatan_id' => 7,
     'jenispekerjaan' => 'Pemasangan 1 m’ Kabel NYY 4 x 35 mm²',
     'satuanmaterial' => 'M1',
     'hargasatuan' => '432682.80',
 ]);
 
 hspkonstruksiumum5::create([
+    'id' => 8,
     'hspdivisi_id' => 5,
     'hsppaket5_id' => 1,
     'hspkodepekerjaan5_id' => 1,
     'kode' => '1.41',
     'subhargadiv5_id' => 8,
+    'subhargadiv5bahan_id' => 8,
+    'subhargadiv5peralatan_id' => 8,
     'jenispekerjaan' => 'Pemasangan 1 m’ Kabel NYY 4 x 50 mm²',
     'satuanmaterial' => 'M1',
     'hargasatuan' => '571313.60',
 ]);
 
 hspkonstruksiumum5::create([
+    'id' => 9,
     'hspdivisi_id' => 5,
     'hsppaket5_id' => 1,
     'hspkodepekerjaan5_id' => 1,
     'kode' => '1.42',
     'subhargadiv5_id' => 9,
+    'subhargadiv5bahan_id' => 9,
+    'subhargadiv5peralatan_id' => 9,
     'jenispekerjaan' => 'Pemasangan 1 m’ Kabel NYY 4 x 70 mm²',
     'satuanmaterial' => 'M1',
     'hargasatuan' => '812174.00',
 ]);
 
 hspkonstruksiumum5::create([
+    'id' => 10,
     'hspdivisi_id' => 5,
     'hsppaket5_id' => 1,
     'hspkodepekerjaan5_id' => 1,
     'kode' => '1.43',
     'subhargadiv5_id' => 10,
+    'subhargadiv5bahan_id' => 10,
+    'subhargadiv5peralatan_id' => 10,
     'jenispekerjaan' => 'Pemasangan 1 m’ Kabel NYY 4 x 94 mm²',
     'satuanmaterial' => 'M1',
     'hargasatuan' => '1116916.90',
 ]);
 
 hspkonstruksiumum5::create([
+    'id' => 11,
     'hspdivisi_id' => 5,
     'hsppaket5_id' => 1,
-    'hspkodepekerjaan5_id' => 1,
+    'hspkodepekerjaan5_id' => 2,
     'kode' => '12.4',
     'subhargadiv5_id' => 11,
+    'subhargadiv5bahan_id' => 11,
+    'subhargadiv5peralatan_id' => 11,
     'jenispekerjaan' => 'Pemasangan 1 Unit Kabel Tray (Horizontal) 300 x 100 mm',
     'satuanmaterial' => 'M1',
     'hargasatuan' => '401790.40',
 ]);
 
 hspkonstruksiumum5::create([
+    'id' => 12,
     'hspdivisi_id' => 5,
     'hsppaket5_id' => 1,
-    'hspkodepekerjaan5_id' => 2,
+    'hspkodepekerjaan5_id' => 3,
     'kode' => '4.a',
     'subhargadiv5_id' => 12,
+    'subhargadiv5bahan_id' => 12,
+    'subhargadiv5peralatan_id' => 12,
     'jenispekerjaan' => 'Pemasangan 1 Unit Main Distribution Panel (MDP) Wall Mounted ukuran 60 x 100 x 25 Cm',
     'satuanmaterial' => 'Unit',
     'hargasatuan' => '3829710.50',
 ]);
 
+hspkonstruksiumum5::create([
+    'id' => 13,
+    'hspdivisi_id' => 5,
+    'hsppaket5_id' => 1,
+    'hspkodepekerjaan5_id' => 3,
+    'kode' => '4.b',
+    'subhargadiv5_id' => 13,
+    'subhargadiv5bahan_id' => 13,
+    'subhargadiv5peralatan_id' => 13,
+    'jenispekerjaan' => 'Pemasangan 1 Unit Main Distribution Panel (MDP) Wall Mounted ukuran 80 x 120 x 30 Cm',
+    'satuanmaterial' => 'Unit',
+    'hargasatuan' => '6446940.50',
+]);
+
+hspkonstruksiumum5::create([
+    'id' => 14,
+    'hspdivisi_id' => 5,
+    'hsppaket5_id' => 1,
+    'hspkodepekerjaan5_id' => 3,
+    'kode' => '6.a',
+    'subhargadiv5_id' => 14,
+    'subhargadiv5bahan_id' => 14,
+    'subhargadiv5peralatan_id' => 14,
+    'jenispekerjaan' => 'Pemasangan 1 Unit Sub Distribution Panel (SDP) Wall Mounted ukuran 30 x 40 x 20 Cm',
+    'satuanmaterial' => 'Unit',
+    'hargasatuan' => '1283029.00',
+]);
+
+hspkonstruksiumum5::create([
+    'id' => 15,
+    'hspdivisi_id' => 5,
+    'hsppaket5_id' => 1,
+    'hspkodepekerjaan5_id' => 3,
+    'kode' => '6.b',
+    'subhargadiv5_id' => 15,
+    'subhargadiv5bahan_id' => 15,
+    'subhargadiv5peralatan_id' => 15,
+    'jenispekerjaan' => 'Pemasangan 1 Unit Sub Distribution Panel (SDP) Wall Mounted ukuran  40 x 60 x 25 Cm',
+    'satuanmaterial' => 'Unit',
+    'hargasatuan' => '1832974.00',
+]);
 
 
 //======================== ===================================================================================
