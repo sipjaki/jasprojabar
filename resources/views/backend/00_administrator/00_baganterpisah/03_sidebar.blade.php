@@ -39,7 +39,7 @@
               <li class="nav-item menu-open">
                 <a href="#" class="nav-link">
                   <i class="nav-icon bi bi-speedometer text-success"></i>
-                  <p>
+                  <p style="color: white">
                     Dashboard
                     <i class="nav-arrow bi bi-chevron-right"></i>
                   </p>
@@ -50,14 +50,14 @@
                         <a href="/" target="_blank" class="nav-link">
                           <!-- Ikon untuk Halaman Web (Rumah) -->
                           <i class="nav-icon bi bi-house-door text-warning"></i>
-                          <p>Halaman Web</p>
+                          <p style="color: white;">Halaman Web</p>
                         </a>
                       </li>
                       <li class="nav-item">
                         <a href="/dashboard" class="nav-link">
                           <!-- Ikon untuk Administrator (Person atau Shield) -->
                           <i class="nav-icon bi bi-person-lock text-warning"></i>
-                          <p>Administrator</p>
+                          <p style="color: white">Administrator</p>
                         </a>
                       </li>
 
@@ -72,7 +72,7 @@
                 <a href="#" class="nav-link">
                     <!-- Ikon untuk Beranda -->
                     <i class="nav-icon bi bi-house-door text-success"></i>
-                    <p>
+                    <p style="color: white">
                       Beranda
                       <!-- Ikon panah kanan (Chevron) -->
                       <i class="nav-arrow bi bi-chevron-right"></i>
@@ -85,21 +85,21 @@
                         <a href="/404" class="nav-link">
                           <!-- Ikon untuk Header -->
                           <i class="nav-icon bi bi-house-door text-warning"></i>
-                          <p>Header</p>
+                          <p style="color: white">Header</p>
                         </a>
                       </li>
                       <li class="nav-item">
                         <a href="/404" class="nav-link">
                           <!-- Ikon untuk Informasi Kantor -->
                           <i class="nav-icon bi bi-building text-warning"></i>
-                          <p>Informasi Kantor</p>
+                          <p style="color: white">Informasi Kantor</p>
                         </a>
                       </li>
                       <li class="nav-item">
                         <a href="/404" class="nav-link">
                           <!-- Ikon untuk Sosial Media -->
                           <i class="nav-icon bi bi-facebook text-warning"></i> <!-- Bisa diganti dengan bi-twitter atau bi-instagram sesuai kebutuhan -->
-                          <p>Sosial Media</p>
+                          <p style="color: white">Sosial Media</p>
                         </a>
                       </li>
 
@@ -114,7 +114,7 @@
                     <a href="#" class="nav-link">
                     <!-- Ikon untuk Beranda -->
                     <i class="nav-icon bi bi-house-door"></i>
-                    <p>
+                    <p style="color: white">
                       Kelembagaan
                       <!-- Ikon panah kanan (Chevron) -->
                       <i class="nav-arrow bi bi-chevron-right"></i>
@@ -127,21 +127,21 @@
                         <a href="/404" class="nav-link">
                           <!-- Ikon untuk Header -->
                           <i class="nav-icon bi bi-house-door"></i>
-                          <p>Struktur Organisasi</p>
+                          <p style="color:white">Struktur Organisasi</p>
                         </a>
                       </li>
                       <li class="nav-item">
                         <a href="/404" class="nav-link">
                           <!-- Ikon untuk Informasi Kantor -->
                           <i class="nav-icon bi bi-building"></i>
-                          <p>Profil Jakon</p>
+                          <p style="color: white">Profil Jakon</p>
                         </a>
                       </li>
                       <li class="nav-item">
                         <a href="/404" class="nav-link">
                           <!-- Ikon untuk Sosial Media -->
                           <i class="nav-icon bi bi-facebook"></i> <!-- Bisa diganti dengan bi-twitter atau bi-instagram sesuai kebutuhan -->
-                          <p>Tupoksi Jakon</p>
+                          <p style="color: white">Tupoksi Jakon</p>
                         </a>
                       </li>
 
@@ -155,7 +155,7 @@
                         <a href="#" class="nav-link">
                             <!-- Ikon untuk Berita Jakon (Newspaper) -->
                             <i class="nav-icon bi bi-newspaper"></i>
-                            <p>
+                            <p style="color: white">
                               Berita Jakon
                               <!-- Ikon panah kanan (Chevron) -->
                               <i class="nav-arrow bi bi-chevron-right"></i>
@@ -168,14 +168,14 @@
                         <a href="/404" class="nav-link">
                           <!-- Ikon untuk Berita Jakon -->
                           <i class="nav-icon bi bi-newspaper"></i>
-                          <p>Berita Jakon</p>
+                          <p style="color: white">Berita Jakon</p>
                         </a>
                       </li>
                       <li class="nav-item">
                         <a href="/404" class="nav-link">
                           <!-- Ikon untuk Artikel Jakon -->
                           <i class="nav-icon bi bi-journal-text"></i>
-                          <p>Artikel Jakon</p>
+                          <p style="color: white">Artikel Jakon</p>
                         </a>
                       </li>
 
