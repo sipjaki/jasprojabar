@@ -572,6 +572,55 @@
             </li>
 
 
+            <li class="nav-header" style="color: white;">ADMINISTRATOR</li>
+
+            <li class="nav-item">
+
+          <li class="nav-item">
+              <a href="#" class="nav-link">
+                  <!-- Ikon untuk Beranda -->
+                  <i class="nav-icon bi bi-house-door text-success"></i>
+                  <p style="color: white">
+                    Admin
+                    <!-- Ikon panah kanan (Chevron) -->
+                    <i class="nav-arrow bi bi-chevron-right"></i>
+                  </p>
+                </a>
+
+              <ul class="nav nav-treeview">
+
+                  <li class="nav-item">
+                      <a href="/404" class="nav-link">
+                        <!-- Ikon untuk Header -->
+                        <i class="nav-icon bi bi-house-door text-warning"></i>
+                        <p style="color: white">Pengaturan</p>
+                      </a>
+                    </li>
+
+
+              </ul>
+            </li>
+
+            {{-- ---------------------------------------------  --}}
+
+            <li class="nav-header" style="color: white;">LOGOUT</li>
+
+            <li class="nav-item">
+                <li class="nav-item">
+                    <a href="#" class="nav-link">
+                      <!-- Ikon untuk Logout -->
+                      <i class="nav-icon bi bi-box-arrow-right text-success"></i> <!-- Ikon untuk Logout -->
+                      <p style="color: white">
+                        Logout
+                        <!-- Ikon panah kanan (Chevron) -->
+                        <i class="nav-arrow bi bi-chevron-right"></i>
+                      </p>
+                    </a>
+                  </li>
+
+
+
+
               <li class="nav-item">
                 <a href="#" class="nav-link">
                   <i class="nav-icon bi bi-box-seam-fill"></i>
