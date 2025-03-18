@@ -463,14 +463,70 @@
             {{-- ===================================== MENU DATA SHST BLORA   --}}
             <li class="nav-item">
                 <a href="#" class="nav-link">
-                  <!-- Ikon untuk AHSP Keciptakaryaan -->
-                  <i class="nav-icon bi bi-clipboard-check text-success"></i> <!-- Ikon untuk AHSP Keciptakaryaan -->
-                  <p style="color: white">
-                    SHST Kab Blora
-                    <!-- Ikon panah kanan (Chevron) diganti dengan ikon panah -->
-                    <i class="nav-arrow bi bi-chevron-right"></i>
-                  </p>
-                </a>
+                    <!-- Ikon untuk SHST Kab Blora -->
+                    <i class="nav-icon bi bi-file-earmark-text text-success"></i> <!-- Ikon untuk SHST Kab Blora -->
+                    <p style="color: white">
+                      SHST Kab Blora
+                      <!-- Ikon panah kanan (Chevron) diganti dengan ikon panah -->
+                      <i class="nav-arrow bi bi-chevron-right"></i>
+                    </p>
+                  </a>
+
+
+                {{-- <ul class="nav nav-treeview">
+                  <!-- Satuan Harga Material -->
+
+                  <li class="nav-item">
+                    <a href="/404" class="nav-link">
+                      <i class="nav-icon bi bi-archive text-warning"></i> <!-- Ikon untuk Satuan Harga Material -->
+                      <p style="color: white">Satuan Harga Material</p>
+                    </a>
+                  </li>
+
+                </ul> --}}
+              </li>
+
+            {{-- ========================== --}}
+
+            {{-- ===================================== MENU DATA AHSP BINA MARGA    --}}
+            <li class="nav-item">
+                <a href="#" class="nav-link">
+                    <!-- Ikon untuk AHSP Bina Marga -->
+                    <i class="nav-icon bi bi-road text-success"></i> <!-- Ikon untuk AHSP Bina Marga -->
+                    <p style="color: white">
+                      AHSP Bina Marga
+                      <!-- Ikon panah kanan (Chevron) diganti dengan ikon panah -->
+                      <i class="nav-arrow bi bi-chevron-right"></i>
+                    </p>
+                  </a>
+
+
+                {{-- <ul class="nav nav-treeview">
+                  <!-- Satuan Harga Material -->
+
+                  <li class="nav-item">
+                    <a href="/404" class="nav-link">
+                      <i class="nav-icon bi bi-archive text-warning"></i> <!-- Ikon untuk Satuan Harga Material -->
+                      <p style="color: white">Satuan Harga Material</p>
+                    </a>
+                  </li>
+
+                </ul> --}}
+              </li>
+
+            {{-- ========================== --}}
+
+            {{-- ===================================== MENU DATA AHSP SUMBER DAYA AIR    --}}
+            <li class="nav-item">
+                <a href="#" class="nav-link">
+                    <!-- Ikon untuk AHSP Sumber Daya Air -->
+                    <i class="nav-icon bi bi-droplet text-success"></i> <!-- Ikon untuk Sumber Daya Air -->
+                    <p style="color: white">
+                      AHSP Sumber Daya Air
+                      <!-- Ikon panah kanan (Chevron) diganti dengan ikon panah -->
+                      <i class="nav-arrow bi bi-chevron-right"></i>
+                    </p>
+                  </a>
 
                 {{-- <ul class="nav nav-treeview">
                   <!-- Satuan Harga Material -->
