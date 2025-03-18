@@ -572,7 +572,7 @@
             </li>
 <br>
 
-            <li class="nav-header" style="color: white;">ADMINISTRATOR</li>
+            <li class="nav-header text-info" >ADMINISTRATOR</li>
 
             <li class="nav-item">
 
