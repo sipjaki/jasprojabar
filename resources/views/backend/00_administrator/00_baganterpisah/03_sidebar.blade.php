@@ -492,7 +492,7 @@
             <li class="nav-item">
                 <a href="#" class="nav-link">
                     <!-- Ikon untuk AHSP Bina Marga -->
-                    <i class="nav-icon bi bi-road text-success"></i> <!-- Ikon untuk AHSP Bina Marga -->
+                    <i class="nav-icon bi bi-archive text-success"></i> <!-- Ikon alternatif untuk AHSP Bina Marga -->
                     <p style="color: white">
                       AHSP Bina Marga
                       <!-- Ikon panah kanan (Chevron) diganti dengan ikon panah -->
