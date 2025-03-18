@@ -8381,6 +8381,370 @@ hspkonstruksiumum5::create([
     'hargasatuan' => '1832974.00',
 ]);
 
+hspkonstruksiumum5::create([
+    'id' => 16,
+    'hspdivisi_id' => 5,
+    'hsppaket5_id' => 1,
+    'hspkodepekerjaan5_id' => 3,
+    'kode' => '6.c',
+    'subhargadiv5_id' => 16,
+    'subhargadiv5bahan_id' => 16,
+    'subhargadiv5peralatan_id' => 16,
+    'jenispekerjaan' => 'Pemasangan 1 Unit Sub Distribution Panel (SDP) Wall Mounted ukuran  50 x 70 x 25 Cm',
+    'satuanmaterial' => 'Unit',
+    'hargasatuan' => '2410144.00',
+]);
+
+hspkonstruksiumum5::create([
+    'id' => 17,
+    'hspdivisi_id' => 5,
+    'hsppaket5_id' => 1,
+    'hspkodepekerjaan5_id' => 3,
+    'kode' => '6.d',
+    'subhargadiv5_id' => 17,
+    'subhargadiv5bahan_id' => 17,
+    'subhargadiv5peralatan_id' => 17,
+    'jenispekerjaan' => 'Pemasangan 1 Unit Sub Distribution Panel (SDP) Wall Mounted ukuran  60 x 80 x 25 Cm',
+    'satuanmaterial' => 'Unit',
+    'hargasatuan' => '2846954.00',
+]);
+
+hspkonstruksiumum5::create([
+    'id' => 18,
+    'hspdivisi_id' => 5,
+    'hsppaket5_id' => 1,
+    'hspkodepekerjaan5_id' => 3,
+    'kode' => '24',
+    'subhargadiv5_id' => 18,
+    'subhargadiv5bahan_id' => 18,
+    'subhargadiv5peralatan_id' => 18,
+    'jenispekerjaan' => 'Pemasangan 1 Unit MCB Box',
+    'satuanmaterial' => 'Unit',
+    'hargasatuan' => '317902.20',
+]);
+
+hspkonstruksiumum5::create([
+    'id' => 19,
+    'hspdivisi_id' => 5,
+    'hsppaket5_id' => 1,
+    'hspkodepekerjaan5_id' => 3,
+    'kode' => '24.1',
+    'subhargadiv5_id' => 19,
+    'subhargadiv5bahan_id' => 19,
+    'subhargadiv5peralatan_id' => 19,
+    'jenispekerjaan' => 'Pemasangan 1 Unit MCB 6 A; 4,5 KA (Eks. Schneider / setara)',
+    'satuanmaterial' => 'Unit',
+    'hargasatuan' => '116284.85',
+]);
+
+hspkonstruksiumum5::create([
+    'id' => 20,
+    'hspdivisi_id' => 5,
+    'hsppaket5_id' => 1,
+    'hspkodepekerjaan5_id' => 3,
+    'kode' => '24.2',
+    'subhargadiv5_id' => 20,
+    'subhargadiv5bahan_id' => 20,
+    'subhargadiv5peralatan_id' => 20,
+    'jenispekerjaan' => 'Pemasangan 1 Unit MCB 10 A / 6 KA (Eks. Schneider / setara)',
+    'satuanmaterial' => 'Unit',
+    'hargasatuan' => '153617.20',
+]);
+
+hspkonstruksiumum5::create([
+    'id' => 21,
+    'hspdivisi_id' => 5,
+    'hsppaket5_id' => 1,
+    'hspkodepekerjaan5_id' => 3,
+    'kode' => '24.3',
+    'subhargadiv5_id' => 21,
+    'subhargadiv5bahan_id' => 21,
+    'subhargadiv5peralatan_id' => 21,
+    'jenispekerjaan' => 'Pemasangan 1 Unit MCB 20 A / 10 KA (Eks. Schneider / setara)',
+    'satuanmaterial' => 'Unit',
+    'hargasatuan' => '236552.80',
+]);
+
+hspkonstruksiumum5::create([
+    'id' => 22,
+    'hspdivisi_id' => 5,
+    'hsppaket5_id' => 1,
+    'hspkodepekerjaan5_id' => 3,
+    'kode' => '24.4',
+    'subhargadiv5_id' => 22,
+    'subhargadiv5bahan_id' => 22,
+    'subhargadiv5peralatan_id' => 22,
+    'jenispekerjaan' => 'Pemasangan 1 Unit MCCB 10 A / 18 KA, 3P (Eks. Schneider / setara)',
+    'satuanmaterial' => 'Unit',
+    'hargasatuan' => '861572.25',
+]);
+
+hspkonstruksiumum5::create([
+    'id' => 23,
+    'hspdivisi_id' => 5,
+    'hsppaket5_id' => 1,
+    'hspkodepekerjaan5_id' => 3,
+    'kode' => '24.5',
+    'subhargadiv5_id' => 23,
+    'subhargadiv5bahan_id' => 23,
+    'subhargadiv5peralatan_id' => 23,
+    'jenispekerjaan' => 'Pemasangan 1 Unit MCCB 16 A / 18 KA, 3P (Eks. Schneider / setara)',
+    'satuanmaterial' => 'Unit',
+    'hargasatuan' => '861572.25',
+]);
+
+hspkonstruksiumum5::create([
+    'id' => 24,
+    'hspdivisi_id' => 5,
+    'hsppaket5_id' => 1,
+    'hspkodepekerjaan5_id' => 3,
+    'kode' => '24.6',
+    'subhargadiv5_id' => 24,
+    'subhargadiv5bahan_id' => 24,
+    'subhargadiv5peralatan_id' => 24,
+    'jenispekerjaan' => 'Pemasangan 1 Unit MCCB 20 A / 18 KA, 3P (Eks. Schneider / setara)',
+    'satuanmaterial' => 'Unit',
+    'hargasatuan' => '1007955.85',
+]);
+
+hspkonstruksiumum5::create([
+    'id' => 25,
+    'hspdivisi_id' => 5,
+    'hsppaket5_id' => 1,
+    'hspkodepekerjaan5_id' => 3,
+    'kode' => '24.7',
+    'subhargadiv5_id' => 25,
+    'subhargadiv5bahan_id' => 25,
+    'subhargadiv5peralatan_id' => 25,
+    'jenispekerjaan' => 'Pemasangan 1 Unit MCCB 25 A / 18 KA, 3P (Eks. Schneider / setara)',
+    'satuanmaterial' => 'Unit',
+    'hargasatuan' => '1007955.85',
+]);
+
+hspkonstruksiumum5::create([
+    'id' => 26,
+    'hspdivisi_id' => 5,
+    'hsppaket5_id' => 1,
+    'hspkodepekerjaan5_id' => 3,
+    'kode' => '24.8',
+    'subhargadiv5_id' => 26,
+    'subhargadiv5bahan_id' => 26,
+    'subhargadiv5peralatan_id' => 26,
+    'jenispekerjaan' => 'Pemasangan 1 Unit MCCB 35 A / 18 KA, 3P (Eks. Schneider / setara)',
+    'satuanmaterial' => 'Unit',
+    'hargasatuan' => '1105337.20',
+]);
+
+hspkonstruksiumum5::create([
+    'id' => 27,
+    'hspdivisi_id' => 5,
+    'hsppaket5_id' => 1,
+    'hspkodepekerjaan5_id' => 3,
+    'kode' => '24.9',
+    'subhargadiv5_id' => 27,
+    'subhargadiv5bahan_id' => 27,
+    'subhargadiv5peralatan_id' => 27,
+    'jenispekerjaan' => 'Pemasangan 1 Unit  MCCB 40 A / 18 KA, 3P (Eks. Schneider / setara)',
+    'satuanmaterial' => 'Unit',
+    'hargasatuan' => '1105337.20',
+]);
+
+hspkonstruksiumum5::create([
+    'id' => 28,
+    'hspdivisi_id' => 5,
+    'hsppaket5_id' => 1,
+    'hspkodepekerjaan5_id' => 3,
+    'kode' => '24.10',
+    'subhargadiv5_id' => 28,
+    'subhargadiv5bahan_id' => 28,
+    'subhargadiv5peralatan_id' => 28,
+    'jenispekerjaan' => 'Pemasangan 1 Unit MCCB 50 A / 25 KA, 3P (Eks. Schneider / setara)',
+    'satuanmaterial' => 'Unit',
+    'hargasatuan' => '1337602.20',
+]);
+
+hspkonstruksiumum5::create([
+    'id' => 29,
+    'hspdivisi_id' => 5,
+    'hsppaket5_id' => 1,
+    'hspkodepekerjaan5_id' => 3,
+    'kode' => '24.11',
+    'subhargadiv5_id' => 29,
+    'subhargadiv5bahan_id' => 29,
+    'subhargadiv5peralatan_id' => 29,
+    'jenispekerjaan' => 'Pemasangan 1 Unit MCCB 60 A / 25 KA, 3P (Eks. Schneider / setara)',
+    'satuanmaterial' => 'Unit',
+    'hargasatuan' => '1337602.20',
+]);
+
+hspkonstruksiumum5::create([
+    'id' => 30,
+    'hspdivisi_id' => 5,
+    'hsppaket5_id' => 1,
+    'hspkodepekerjaan5_id' => 3,
+    'kode' => '24.12',
+    'subhargadiv5_id' => 30,
+    'subhargadiv5bahan_id' => 30,
+    'subhargadiv5peralatan_id' => 30,
+    'jenispekerjaan' => 'Pemasangan 1 Unit  MCCB 80 A / 25 KA, 3P (Eks. Schneider / setara)',
+    'satuanmaterial' => 'Unit',
+    'hargasatuan' => '1394252.20',
+]);
+
+hspkonstruksiumum5::create([
+    'id' => 31,
+    'hspdivisi_id' => 5,
+    'hsppaket5_id' => 1,
+    'hspkodepekerjaan5_id' => 3,
+    'kode' => '24.13',
+    'subhargadiv5_id' => 31,
+    'subhargadiv5bahan_id' => 31,
+    'subhargadiv5peralatan_id' => 31,
+    'jenispekerjaan' => 'Pemasangan 1 Unit  MCCB 100 A / 25 KA, 3P (Eks. Schneider / setara)',
+    'satuanmaterial' => 'Unit',
+    'hargasatuan' => '1543921.50',
+]);
+
+hspkonstruksiumum5::create([
+    'id' => 32,
+    'hspdivisi_id' => 5,
+    'hsppaket5_id' => 1,
+    'hspkodepekerjaan5_id' => 3,
+    'kode' => '24.14',
+    'subhargadiv5_id' => 32,
+    'subhargadiv5bahan_id' => 32,
+    'subhargadiv5peralatan_id' => 32,
+    'jenispekerjaan' => 'Pemasangan 1 Unit MCCB 125 A / 25 KA, 3P (Eks. Schneider / setara)',
+    'satuanmaterial' => 'Unit',
+    'hargasatuan' => '1614960.60',
+]);
+
+hspkonstruksiumum5::create([
+    'id' => 33,
+    'hspdivisi_id' => 5,
+    'hsppaket5_id' => 1,
+    'hspkodepekerjaan5_id' => 3,
+    'kode' => '24.15',
+    'subhargadiv5_id' => 33,
+    'subhargadiv5bahan_id' => 33,
+    'subhargadiv5peralatan_id' => 33,
+    'jenispekerjaan' => 'Pemasangan 1 Unit MCCB 140 A / 25 KA, 3P (Eks. Schneider / setara)',
+    'satuanmaterial' => 'Unit',
+    'hargasatuan' => '1682260.80',
+]);
+
+hspkonstruksiumum5::create([
+    'id' => 34,
+    'hspdivisi_id' => 5,
+    'hsppaket5_id' => 1,
+    'hspkodepekerjaan5_id' => 3,
+    'kode' => '24.16',
+    'subhargadiv5_id' => 34,
+    'subhargadiv5bahan_id' => 34,
+    'subhargadiv5peralatan_id' => 34,
+    'jenispekerjaan' => 'Pemasangan 1 Unit  MCCB 160 A / 25 KA, 3P (Eks. Schneider / setara)',
+    'satuanmaterial' => 'Unit',
+    'hargasatuan' => '1682260.80',
+]);
+
+hspkonstruksiumum5::create([
+    'id' => 35,
+    'hspdivisi_id' => 5,
+    'hsppaket5_id' => 1,
+    'hspkodepekerjaan5_id' => 3,
+    'kode' => '24.17',
+    'subhargadiv5_id' => 35,
+    'subhargadiv5bahan_id' => 35,
+    'subhargadiv5peralatan_id' => 35,
+    'jenispekerjaan' => 'Pemasangan 1 Unit  MCCB 200 A / 36 KA, 3P (Eks. Schneider / setara)',
+    'satuanmaterial' => 'Unit',
+    'hargasatuan' => '2073599.00',
+]);
+
+hspkonstruksiumum5::create([
+    'id' => 36,
+    'hspdivisi_id' => 5,
+    'hsppaket5_id' => 1,
+    'hspkodepekerjaan5_id' => 3,
+    'kode' => '24.18',
+    'subhargadiv5_id' => 36,
+    'subhargadiv5bahan_id' => 36,
+    'subhargadiv5peralatan_id' => 36,
+    'jenispekerjaan' => 'Pemasangan 1 Unit MCCB 250 A / 36 KA, 3P (Eks. Schneider / setara)',
+    'satuanmaterial' => 'Unit',
+    'hargasatuan' => '2073599.00',
+]);
+
+hspkonstruksiumum5::create([
+    'id' => 37,
+    'hspdivisi_id' => 5,
+    'hsppaket5_id' => 1,
+    'hspkodepekerjaan5_id' => 3,
+    'kode' => '24.19',
+    'subhargadiv5_id' => 37,
+    'subhargadiv5bahan_id' => 37,
+    'subhargadiv5peralatan_id' => 37,
+    'jenispekerjaan' => 'Pemasangan 1 Unit MCCB 300 A / 36 KA, 3P (Eks. Schneider / setara)',
+    'satuanmaterial' => 'Unit',
+    'hargasatuan' => '3430819.70',
+]);
+
+hspkonstruksiumum5::create([
+    'id' => 38,
+    'hspdivisi_id' => 5,
+    'hsppaket5_id' => 1,
+    'hspkodepekerjaan5_id' => 3,
+    'kode' => '24.20',
+    'subhargadiv5_id' => 38,
+    'subhargadiv5bahan_id' => 38,
+    'subhargadiv5peralatan_id' => 38,
+    'jenispekerjaan' => 'Pemasangan 1 Unit  MCCB 350 A / 50 KA, 3P (Eks. Schneider / setara)',
+    'satuanmaterial' => 'Unit',
+    'hargasatuan' => '4000152.20',
+]);
+
+hspkonstruksiumum5::create([
+    'id' => 39,
+    'hspdivisi_id' => 5,
+    'hsppaket5_id' => 1,
+    'hspkodepekerjaan5_id' => 3,
+    'kode' => '24.21',
+    'subhargadiv5_id' => 39,
+    'subhargadiv5bahan_id' => 39,
+    'subhargadiv5peralatan_id' => 39,
+    'jenispekerjaan' => 'Pemasangan 1 Unit MCCB 400 A / 50 KA, 3P (Eks. Schneider / setara)',
+    'satuanmaterial' => 'Unit',
+    'hargasatuan' => '4369283.60',
+]);
+
+hspkonstruksiumum5::create([
+    'id' => 40,
+    'hspdivisi_id' => 5,
+    'hsppaket5_id' => 1,
+    'hspkodepekerjaan5_id' => 3,
+    'kode' => '24.22',
+    'subhargadiv5_id' => 40,
+    'subhargadiv5bahan_id' => 40,
+    'subhargadiv5peralatan_id' => 40,
+    'jenispekerjaan' => 'Pemasangan 1 Unit MCCB 500 A / 50 KA, 3P (Eks. Schneider / setara)',
+    'satuanmaterial' => 'Unit',
+    'hargasatuan' => '8811719.95',
+]);
+
+hspkonstruksiumum5::create([
+    'id' => 41,
+    'hspdivisi_id' => 5,
+    'hsppaket5_id' => 1,
+    'hspkodepekerjaan5_id' => 3,
+    'kode' => '24.23',
+    'subhargadiv5_id' => 41,
+    'subhargadiv5bahan_id' => 41,
+    'subhargadiv5peralatan_id' => 41,
+    'jenispekerjaan' => 'Pemasangan 1 Unit MCCB 1000 A / 50 KA, 3P (Eks. Schneider / setara)',
+    'satuanmaterial' => 'Unit',
+    'hargasatuan' => '19862152.20',
+]);
+
 
 //======================== ===================================================================================
 // AHSP KONSTRUKSI UMUM DIVISI 6 DAN DATA LAIN LAIN NYA
