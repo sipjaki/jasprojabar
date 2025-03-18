@@ -70,12 +70,15 @@
 
             <li class="nav-item menu-open">
                 <a href="#" class="nav-link">
-                  <i class="nav-icon bi bi-speedometer"></i>
-                  <p>
-                    Beranda
-                    <i class="nav-arrow bi bi-chevron-right"></i>
-                  </p>
-                </a>
+                    <!-- Ikon untuk Beranda -->
+                    <i class="nav-icon bi bi-house-door"></i>
+                    <p>
+                      Beranda
+                      <!-- Ikon panah kanan (Chevron) -->
+                      <i class="nav-arrow bi bi-chevron-right"></i>
+                    </p>
+                  </a>
+
                 <ul class="nav nav-treeview">
 
                     <li class="nav-item">
