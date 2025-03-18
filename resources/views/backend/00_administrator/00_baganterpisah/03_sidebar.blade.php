@@ -717,7 +717,7 @@
                       <a href="/404" class="nav-link">
                         <!-- Ikon untuk Header -->
                         <i class="nav-icon bi bi-house-door text-warning"></i>
-                        <p style="color: white">Pengaturan</p>
+                        <p style="color: white">Admin</p>
                       </a>
                     </li>
 
