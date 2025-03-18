@@ -5705,6 +5705,367 @@ satuanhargamaterial::create([
     // 'keterangan' => 'AHSP Kab Blora Tahun 2025',
 ]);
 
+satuanhargamaterial::create([
+    'uraian' => 'Paku biasa',
+    'satuan' => 'Kg',
+    'besaran' => '17600',
+]);
+
+satuanhargamaterial::create([
+    'uraian' => 'Paku campuran 2cm dan 5 cm',
+    'satuan' => 'Kg',
+    'besaran' => '20500',
+]);
+
+satuanhargamaterial::create([
+    'uraian' => 'Paku campuran 5cm + 7cm',
+    'satuan' => 'Kg',
+    'besaran' => '16400',
+]);
+
+satuanhargamaterial::create([
+    'uraian' => 'Paku payung',
+    'satuan' => 'Kg',
+    'besaran' => '21800',
+]);
+
+satuanhargamaterial::create([
+    'uraian' => 'Paku seng',
+    'satuan' => 'Kg',
+    'besaran' => '21800',
+]);
+
+satuanhargamaterial::create([
+    'uraian' => 'Panel beton pracetak',
+    'satuan' => 'Lembar',
+    'besaran' => '170000',
+]);
+
+satuanhargamaterial::create([
+    'uraian' => 'Papan  Kayu  ukuran 2/20 cm',
+    'satuan' => 'M3',
+    'besaran' => '1976000',
+]);
+// 51
+
+satuanhargamaterial::create([
+    'uraian' => 'Pasangan batu ukuran 20/50, t=40cm',
+    'satuan' => 'M3',
+    'besaran' => '775762',
+]);
+
+satuanhargamaterial::create([
+    'uraian' => 'Pasir urug',
+    'satuan' => 'M3',
+    'besaran' => '244200',
+]);
+
+satuanhargamaterial::create([
+    'uraian' => 'Pasir urug (kg)',
+    'satuan' => 'Kg',
+    'besaran' => '174',
+]);
+
+satuanhargamaterial::create([
+    'uraian' => 'Patok ukur kayu 5/7',
+    'satuan' => 'M3',
+    'besaran' => '1976000',
+]);
+
+satuanhargamaterial::create([
+    'uraian' => 'Pen kuningan titik acuan',
+    'satuan' => 'Buah',
+    'besaran' => '130000',
+]);
+
+satuanhargamaterial::create([
+    'uraian' => 'Pintu Double teakwood rangka kayu',
+    'satuan' => 'M2',
+    'besaran' => '730157',
+]);
+
+satuanhargamaterial::create([
+    'uraian' => 'Plywood 4mm',
+    'satuan' => 'Lembar',
+    'besaran' => '112000',
+]);
+
+satuanhargamaterial::create([
+    'uraian' => 'Residu',
+    'satuan' => 'Liter',
+    'besaran' => '5400',
+]);
+
+satuanhargamaterial::create([
+    'uraian' => 'Seng gelombang',
+    'satuan' => 'Lembar',
+    'besaran' => '55700',
+]);
+
+satuanhargamaterial::create([
+    'uraian' => 'Seng gelombang BJLS-30 (t=0,05) 0,9mx1,8 m’',
+    'satuan' => 'Lembar',
+    'besaran' => '74750',
+]);
+
+satuanhargamaterial::create([
+    'uraian' => 'Seng pelat',
+    'satuan' => 'Lembar',
+    'besaran' => '64000',
+]);
+
+satuanhargamaterial::create([
+    'uraian' => 'Sirtu',
+    'satuan' => 'M3',
+    'besaran' => '301000',
+]);
+
+satuanhargamaterial::create([
+    'uraian' => 'Tanah Biasa',
+    'satuan' => 'M3',
+    'besaran' => '78800',
+]);
+
+satuanhargamaterial::create([
+    'uraian' => 'Tanah Biasa Berpasir',
+    'satuan' => 'M3',
+    'besaran' => '122100',
+]);
+
+satuanhargamaterial::create([
+    'uraian' => 'Tanah liat (lempung)',
+    'satuan' => 'M3',
+    'besaran' => '112500',
+]);
+
+satuanhargamaterial::create([
+    'uraian' => 'Tiang kayu 8/12 kelas II, tinggi 4m',
+    'satuan' => 'M3',
+    'besaran' => '1976000',
+]);
+
+satuanhargamaterial::create([
+    'uraian' => 'Lapis Fondasi Agregat',
+    'satuan' => 'M3',
+    'besaran' => '322200',
+]);
+
+satuanhargamaterial::create([
+    'uraian' => 'Aspal',
+    'satuan' => 'Kg',
+    'besaran' => '16700',
+]);
+
+satuanhargamaterial::create([
+    'uraian' => 'Aspal Emulsi CSS-1  atau SS-1',
+    'satuan' => 'Liter',
+    'besaran' => '14600',
+]);
+
+satuanhargamaterial::create([
+    'uraian' => 'Bahan Bakar Bensin',
+    'satuan' => 'Liter',
+    'besaran' => '9000',
+]);
+
+satuanhargamaterial::create([
+    'uraian' => 'Bahan Bakar Bensin',
+    'satuan' => 'Liter',
+    'besaran' => '9000',
+]);
+
+satuanhargamaterial::create([
+    'uraian' => 'Bahan Bakar Solar',
+    'satuan' => 'Liter',
+    'besaran' => '16150',
+]);
+
+satuanhargamaterial::create([
+    'uraian' => 'Minyak Pelumas',
+    'satuan' => 'Liter',
+    'besaran' => '42000',
+]);
+
+satuanhargamaterial::create([
+    'uraian' => 'Kawat jaring panjang 2,4 dan aksesoris',
+    'satuan' => 'Lembar',
+    'besaran' => '92800',
+]);
+
+satuanhargamaterial::create([
+    'uraian' => 'Batu Kerikil uk. 2-3 cm',
+    'satuan' => 'M3',
+    'besaran' => '329200',
+]);
+
+satuanhargamaterial::create([
+    'uraian' => 'Tanah Subur',
+    'satuan' => 'M3',
+    'besaran' => '150000',
+]);
+
+satuanhargamaterial::create([
+    'uraian' => 'Agregat kasar',
+    'satuan' => 'Kg',
+    'besaran' => '244',
+]);
+
+satuanhargamaterial::create([
+    'uraian' => 'Air',
+    'satuan' => 'Liter',
+    'besaran' => '50',
+]);
+
+satuanhargamaterial::create([
+    'uraian' => 'Air bersih',
+    'satuan' => 'Liter',
+    'besaran' => '50',
+]);
+
+satuanhargamaterial::create([
+    'uraian' => 'Alat penyambung balok Δ 28 cm',
+    'satuan' => 'Buah',
+    'besaran' => '100000',
+]);
+
+satuanhargamaterial::create([
+    'uraian' => 'Alat penyambung beton 20 x 20 cm',
+    'satuan' => 'Buah',
+    'besaran' => '75000',
+]);
+
+satuanhargamaterial::create([
+    'uraian' => 'Alat penyambung beton 30 x 30 cm',
+    'satuan' => 'Buah',
+    'besaran' => '125000',
+]);
+
+satuanhargamaterial::create([
+    'uraian' => 'Alat penyambung beton 35 x 35 cm',
+    'satuan' => 'Buah',
+    'besaran' => '150000',
+]);
+
+satuanhargamaterial::create([
+    'uraian' => 'Alat penyambung beton 40 x 40 cm',
+    'satuan' => 'Buah',
+    'besaran' => '175000',
+]);
+
+satuanhargamaterial::create([
+    'uraian' => 'Alat penyambung beton 45 x 45 cm',
+    'satuan' => 'Buah',
+    'besaran' => '200000',
+]);
+
+satuanhargamaterial::create([
+    'uraian' => 'Alat penyambung beton 50 x 50 cm',
+    'satuan' => 'Buah',
+    'besaran' => '225000',
+]);
+
+satuanhargamaterial::create([
+    'uraian' => 'Alat penyambung beton ø 30',
+    'satuan' => 'Buah',
+    'besaran' => '125000',
+]);
+
+satuanhargamaterial::create([
+    'uraian' => 'Alat penyambung beton ø 35',
+    'satuan' => 'Buah',
+    'besaran' => '150000',
+]);
+
+satuanhargamaterial::create([
+    'uraian' => 'Alat penyambung beton ø 40',
+    'satuan' => 'Buah',
+    'besaran' => '175000',
+]);
+
+satuanhargamaterial::create([
+    'uraian' => 'Alat penyambung beton ø 45',
+    'satuan' => 'Buah',
+    'besaran' => '200000',
+]);
+
+satuanhargamaterial::create([
+    'uraian' => 'Alat penyambung beton ø 50',
+    'satuan' => 'Buah',
+    'besaran' => '225000',
+]);
+
+satuanhargamaterial::create([
+    'uraian' => 'Alat penyambung beton ø 60',
+    'satuan' => 'Buah',
+    'besaran' => '250000',
+]);
+
+satuanhargamaterial::create([
+    'uraian' => 'Alat sambung dolken ø6-8 cm',
+    'satuan' => 'Buah',
+    'besaran' => '10000',
+]);
+
+satuanhargamaterial::create([
+    'uraian' => 'Alat sambung kayu terbuat dari baja ø 18-20 cm',
+    'satuan' => 'Buah',
+    'besaran' => '25000',
+]);
+
+satuanhargamaterial::create([
+    'uraian' => 'Angkur',
+    'satuan' => 'Kg',
+    'besaran' => '27000',
+]);
+
+satuanhargamaterial::create([
+    'uraian' => 'Anyaman bambu (geribig)',
+    'satuan' => 'Lembar',
+    'besaran' => '15000',
+]);
+
+satuanhargamaterial::create([
+    'uraian' => 'Bahan Pilihan (Ex Grosok Tahunan)',
+    'satuan' => 'M3',
+    'besaran' => '156000',
+]);
+
+satuanhargamaterial::create([
+    'uraian' => 'Baja Profil',
+    'satuan' => 'Kg',
+    'besaran' => '18000',
+]);
+
+satuanhargamaterial::create([
+    'uraian' => 'Baja ringan dingin C75',
+    'satuan' => 'Batang',
+    'besaran' => '148500',
+]);
+
+satuanhargamaterial::create([
+    'uraian' => 'Balok Kayu (Jati Kelas I)',
+    'satuan' => 'M3',
+    'besaran' => '14996800',
+]);
+
+satuanhargamaterial::create([
+    'uraian' => 'Balok Kayu (Jati Kelas II)',
+    'satuan' => 'M3',
+    'besaran' => '12854400',
+]);
+
+satuanhargamaterial::create([
+    'uraian' => 'Balok Kayu (Jati Kelas III)',
+    'satuan' => 'M3',
+    'besaran' => '9640800',
+]);
+
+satuanhargamaterial::create([
+    'uraian' => 'Balok kayu kelas II (Perancah)',
+    'satuan' => 'M3',
+    'besaran' => '1976000',
+]);
+
 //======================== ===================================================================================
 // SATUAN HARGA UPAH MAS JAKI BLORA
 satuanhargaupahtenagakerja::create([
