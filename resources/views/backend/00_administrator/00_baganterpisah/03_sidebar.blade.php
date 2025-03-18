@@ -570,7 +570,7 @@
 
               </ul>
             </li>
-<br><br>
+<br>
 
             <li class="nav-header" style="color: white;">ADMINISTRATOR</li>
 
