@@ -8731,19 +8731,6 @@ hspkonstruksiumum5::create([
     'hargasatuan' => '8811719.95',
 ]);
 
-hspkonstruksiumum5::create([
-    'id' => 41,
-    'hspdivisi_id' => 5,
-    'hsppaket5_id' => 1,
-    'hspkodepekerjaan5_id' => 3,
-    'kode' => '24.23',
-    'subhargadiv5_id' => 41,
-    'subhargadiv5bahan_id' => 41,
-    'subhargadiv5peralatan_id' => 41,
-    'jenispekerjaan' => 'Pemasangan 1 Unit MCCB 1000 A / 50 KA, 3P (Eks. Schneider / setara)',
-    'satuanmaterial' => 'Unit',
-    'hargasatuan' => '19862152.20',
-]);
 
 hspkonstruksiumum5::create([
     'id' => 41,
