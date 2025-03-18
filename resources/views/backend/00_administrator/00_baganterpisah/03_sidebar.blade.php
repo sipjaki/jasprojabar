@@ -543,6 +543,53 @@
 
             {{-- ========================== --}}
 
+            {{-- ===================================== MENU DATA RANTAI PASOK    --}}
+            <li class="nav-item">
+                <a href="#" class="nav-link">
+                    <!-- Ikon untuk Rantai Pasok (Sumber Daya Air) -->
+                    <i class="nav-icon bi bi-droplet text-success"></i> <!-- Ikon untuk Sumber Daya Air -->
+                    <p style="color: white">
+                        Rantai Pasok
+                    </p>
+                </a>
+
+                <ul class="nav nav-treeview">
+                    <!-- Asuransi Konstruksi -->
+                    <li class="nav-item">
+                        <a href="/404" class="nav-link">
+                            <i class="nav-icon bi bi-shield-lock text-warning"></i> <!-- Ikon untuk Asuransi Konstruksi -->
+                            <p style="color: white">Asuransi Konstruksi</p>
+                        </a>
+                    </li>
+
+                    <!-- Suplier Material -->
+                    <li class="nav-item">
+                        <a href="/404" class="nav-link">
+                            <i class="nav-icon bi bi-box text-warning"></i> <!-- Ikon untuk Suplier Material -->
+                            <p style="color: white">Suplier Material</p>
+                        </a>
+                    </li>
+
+                    <!-- Suplier Peralatan -->
+                    <li class="nav-item">
+                        <a href="/404" class="nav-link">
+                            <i class="nav-icon bi bi-cogs text-warning"></i> <!-- Ikon untuk Suplier Peralatan -->
+                            <p style="color: white">Suplier Peralatan</p>
+                        </a>
+                    </li>
+
+                    <!-- Toko Bangunan -->
+                    <li class="nav-item">
+                        <a href="/404" class="nav-link">
+                            <i class="nav-icon bi bi-shop text-warning"></i> <!-- Ikon untuk Toko Bangunan -->
+                            <p style="color: white">Toko Bangunan</p>
+                        </a>
+                    </li>
+                </ul>
+            </li>
+
+            {{-- ========================== --}}
+
             <li class="nav-header" style="color: white;">PERATURAN JASA KONSTRUKSI</li>
 
             <li class="nav-item">
@@ -677,6 +724,76 @@
 
               </ul>
             </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link">
+                    <!-- Ikon untuk Berita -->
+                    <i class="nav-icon bi bi-newspaper text-success"></i> <!-- Ikon untuk Berita -->
+                    <p style="color: white">
+                        Berita
+                    </p>
+                </a>
+            </li>
+
+            <li class="nav-item">
+                <a href="#" class="nav-link">
+                    <!-- Ikon untuk Kelembagaan -->
+                    <i class="nav-icon bi bi-person-workspace text-success"></i> <!-- Ikon untuk Kelembagaan -->
+                    <p style="color: white">
+                        Kelembagaan
+                    </p>
+                </a>
+            </li>
+
+            <li class="nav-item">
+                <a href="#" class="nav-link">
+                    <!-- Ikon untuk Data Jakon -->
+                    <i class="nav-icon bi bi-table text-success"></i> <!-- Ikon untuk Data Jakon -->
+                    <p style="color: white">
+                        Data Jakon
+                    </p>
+                </a>
+            </li>
+
+            <li class="nav-item">
+                <a href="#" class="nav-link">
+                    <!-- Ikon untuk Pembinaan -->
+                    <i class="nav-icon bi bi-people text-success"></i> <!-- Ikon untuk Pembinaan -->
+                    <p style="color: white">
+                        Pembinaan
+                    </p>
+                </a>
+            </li>
+
+            <li class="nav-item">
+                <a href="#" class="nav-link">
+                    <!-- Ikon untuk Pengawasan -->
+                    <i class="nav-icon bi bi-eye text-success"></i> <!-- Ikon untuk Pengawasan -->
+                    <p style="color: white">
+                        Pengawasan
+                    </p>
+                </a>
+            </li>
+
+            <li class="nav-item">
+                <a href="#" class="nav-link">
+                    <!-- Ikon untuk AHSP -->
+                    <i class="nav-icon bi bi-clipboard-check text-success"></i> <!-- Ikon untuk AHSP -->
+                    <p style="color: white">
+                        AHSP
+                    </p>
+                </a>
+            </li>
+
+            <li class="nav-item">
+                <a href="#" class="nav-link">
+                    <!-- Ikon untuk Rantai Pasok -->
+                    <i class="nav-icon bi bi-arrow-repeat text-success"></i> <!-- Ikon untuk Rantai Pasok -->
+                    <p style="color: white">
+                        Rantai Pasok
+                    </p>
+                </a>
+            </li>
+
 
             {{-- ---------------------------------------------  --}}
 
