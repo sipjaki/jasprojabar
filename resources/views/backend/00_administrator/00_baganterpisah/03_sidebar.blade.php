@@ -496,7 +496,7 @@
                     <p style="color: white">
                       AHSP Bina Marga
                       <!-- Ikon panah kanan (Chevron) diganti dengan ikon panah -->
-                      <i class="nav-arrow bi bi-chevron-right"></i>
+                      {{-- <i class="nav-arrow bi bi-chevron-right"></i> --}}
                     </p>
                   </a>
 
@@ -524,7 +524,7 @@
                     <p style="color: white">
                       AHSP Sumber Daya Air
                       <!-- Ikon panah kanan (Chevron) diganti dengan ikon panah -->
-                      <i class="nav-arrow bi bi-chevron-right"></i>
+                      {{-- <i class="nav-arrow bi bi-chevron-right"></i> --}}
                     </p>
                   </a>
 
@@ -607,13 +607,13 @@
 
             <li class="nav-item">
                 <li class="nav-item">
-                    <a href="#" class="nav-link">
+                    <a href="/logout" class="nav-link">
                       <!-- Ikon untuk Logout -->
                       <i class="nav-icon bi bi-box-arrow-right text-danger"></i> <!-- Ikon untuk Logout -->
                       <p style="color: red">
                         Logout
                         <!-- Ikon panah kanan (Chevron) -->
-                        <i class="nav-arrow bi bi-chevron-right"></i>
+                        {{-- <i class="nav-arrow bi bi-chevron-right"></i> --}}
                       </p>
                     </a>
                   </li>
