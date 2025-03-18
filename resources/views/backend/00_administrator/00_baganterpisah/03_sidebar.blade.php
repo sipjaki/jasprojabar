@@ -496,7 +496,7 @@
                     <p style="color: white">
                       AHSP Bina Marga
                       <!-- Ikon panah kanan (Chevron) diganti dengan ikon panah -->
-                      <i class="nav-arrow bi bi-chevron-right"></i>
+                      {{-- <i class="nav-arrow bi bi-chevron-right"></i> --}}
                     </p>
                   </a>
 
@@ -524,7 +524,7 @@
                     <p style="color: white">
                       AHSP Sumber Daya Air
                       <!-- Ikon panah kanan (Chevron) diganti dengan ikon panah -->
-                      <i class="nav-arrow bi bi-chevron-right"></i>
+                      {{-- <i class="nav-arrow bi bi-chevron-right"></i> --}}
                     </p>
                   </a>
 
@@ -546,33 +546,110 @@
             <li class="nav-header" style="color: white;">PERATURAN JASA KONSTRUKSI</li>
 
             <li class="nav-item">
+                <li class="nav-item">
+                    <a href="#" class="nav-link">
+                      <!-- Ikon untuk Peraturan -->
+                      <i class="nav-icon bi bi-file-earmark-text text-success"></i> <!-- Ikon untuk Peraturan -->
+                      <p style="color: white">
+                        Peraturan
+                        <!-- Ikon panah kanan (Chevron) -->
+                        <i class="nav-arrow bi bi-chevron-right"></i>
+                      </p>
+                    </a>
 
-          <li class="nav-item">
-              <a href="#" class="nav-link">
-                  <!-- Ikon untuk Beranda -->
-                  <i class="nav-icon bi bi-house-door text-success"></i>
-                  <p style="color: white">
-                    Peraturan
-                    <!-- Ikon panah kanan (Chevron) -->
-                    <i class="nav-arrow bi bi-chevron-right"></i>
-                  </p>
-                </a>
+                    <ul class="nav nav-treeview">
 
-              <ul class="nav nav-treeview">
+                      <li class="nav-item">
+                        <a href="/404" class="nav-link">
+                          <!-- Ikon untuk Undang-undang -->
+                          <i class="nav-icon bi bi-file-earmark-text text-warning"></i>
+                          <p style="color: white">Undang-undang</p>
+                        </a>
+                      </li>
 
-                  <li class="nav-item">
-                      <a href="/404" class="nav-link">
-                        <!-- Ikon untuk Header -->
-                        <i class="nav-icon bi bi-house-door text-warning"></i>
-                        <p style="color: white">Undang-undang</p>
-                      </a>
-                    </li>
+                      <li class="nav-item">
+                        <a href="/404" class="nav-link">
+                          <!-- Ikon untuk Peraturan Pemerintah -->
+                          <i class="nav-icon bi bi-file-earmark-text text-warning"></i>
+                          <p style="color: white">Peraturan Pemerintah</p>
+                        </a>
+                      </li>
 
-              </ul>
-            </li>
+                      <li class="nav-item">
+                        <a href="/404" class="nav-link">
+                          <!-- Ikon untuk Peraturan Presiden -->
+                          <i class="nav-icon bi bi-file-earmark-text text-warning"></i>
+                          <p style="color: white">Peraturan Presiden</p>
+                        </a>
+                      </li>
 
+                      <li class="nav-item">
+                        <a href="/404" class="nav-link">
+                          <!-- Ikon untuk Peraturan Menteri -->
+                          <i class="nav-icon bi bi-file-earmark-text text-warning"></i>
+                          <p style="color: white">Peraturan Menteri</p>
+                        </a>
+                      </li>
 
-            <li class="nav-header" style="color: white;">ADMINISTRATOR</li>
+                      <li class="nav-item">
+                        <a href="/404" class="nav-link">
+                          <!-- Ikon untuk Keputusan Menteri -->
+                          <i class="nav-icon bi bi-file-earmark-text text-warning"></i>
+                          <p style="color: white">Keputusan Menteri</p>
+                        </a>
+                      </li>
+
+                      <li class="nav-item">
+                        <a href="/404" class="nav-link">
+                          <!-- Ikon untuk Surat Edaran Menteri -->
+                          <i class="nav-icon bi bi-file-earmark-text text-warning"></i>
+                          <p style="color: white">Surat Edaran Menteri</p>
+                        </a>
+                      </li>
+
+                      <li class="nav-item">
+                        <a href="/404" class="nav-link">
+                          <!-- Ikon untuk Referensi -->
+                          <i class="nav-icon bi bi-file-earmark-text text-warning"></i>
+                          <p style="color: white">Referensi</p>
+                        </a>
+                      </li>
+
+                      <li class="nav-item">
+                        <a href="/404" class="nav-link">
+                          <!-- Ikon untuk Peraturan Daerah -->
+                          <i class="nav-icon bi bi-file-earmark-text text-warning"></i>
+                          <p style="color: white">Peraturan Daerah</p>
+                        </a>
+                      </li>
+
+                      <li class="nav-item">
+                        <a href="/404" class="nav-link">
+                          <!-- Ikon untuk Peraturan Gubernur -->
+                          <i class="nav-icon bi bi-file-earmark-text text-warning"></i>
+                          <p style="color: white">Peraturan Gubernur</p>
+                        </a>
+                      </li>
+
+                      <li class="nav-item">
+                        <a href="/404" class="nav-link">
+                          <!-- Ikon untuk Peraturan Walikota/Bupati -->
+                          <i class="nav-icon bi bi-file-earmark-text text-warning"></i>
+                          <p style="color: white">Peraturan Walikota/Bupati</p>
+                        </a>
+                      </li>
+
+                      <li class="nav-item">
+                        <a href="/404" class="nav-link">
+                          <!-- Ikon untuk Surat Keputusan -->
+                          <i class="nav-icon bi bi-file-earmark-text text-warning"></i>
+                          <p style="color: white">Surat Keputusan</p>
+                        </a>
+                      </li>
+
+                    </ul>
+                  </li>
+            <li class="nav-header" style="color: white;" >ADMINISTRATOR DATABASE</li>
 
             <li class="nav-item">
 
@@ -603,11 +680,11 @@
 
             {{-- ---------------------------------------------  --}}
 
-            <li class="nav-header" style="color: white;">LOGOUT</li>
+            <li class="nav-header" style="color: red;">LOGOUT</li>
 
             <li class="nav-item">
                 <li class="nav-item">
-                    <a href="" class="nav-link">
+                    <a href="/logout" class="nav-link">
                       <!-- Ikon untuk Logout -->
                       <i class="nav-icon bi bi-box-arrow-right text-danger"></i> <!-- Ikon untuk Logout -->
                       <p style="color: red">
