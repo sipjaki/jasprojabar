@@ -45,18 +45,21 @@
                   </p>
                 </a>
                 <ul class="nav nav-treeview">
-                  <li class="nav-item">
-                    <a href="/" target="_blank" class="nav-link active">
-                      <i class="nav-icon bi bi-circle"></i>
-                      <p>Halaman Web</p>
-                    </a>
-                  </li>
-                  <li class="nav-item">
-                    <a href="/dashboard" class="nav-link">
-                      <i class="nav-icon bi bi-circle"></i>
-                      <p>Administrator</p>
-                    </a>
-                  </li>
+
+                    <li class="nav-item">
+                        <a href="/" target="_blank" class="nav-link active">
+                          <!-- Ikon untuk Halaman Web (Rumah) -->
+                          <i class="nav-icon bi bi-house-door"></i>
+                          <p>Halaman Web</p>
+                        </a>
+                      </li>
+                      <li class="nav-item">
+                        <a href="/dashboard" class="nav-link">
+                          <!-- Ikon untuk Administrator (Person atau Shield) -->
+                          <i class="nav-icon bi bi-person-lock"></i>
+                          <p>Administrator</p>
+                        </a>
+                      </li>
 
                 </ul>
               </li>
