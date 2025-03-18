@@ -19,7 +19,7 @@
             />
             <!--end::Brand Image-->
             <!--begin::Brand Text-->
-            <span class="brand-text fw-light">Masjaki Bkora</span>
+            <span class="brand-text fw-light">Masjaki Blora</span>
             <!--end::Brand Text-->
           </a>
           <!--end::Brand Link-->
