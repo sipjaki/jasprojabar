@@ -70,7 +70,7 @@
 
               <li class="nav-item">
 
-            <li class="nav-item menu-open">
+            <li class="nav-item">
                 <a href="#" class="nav-link">
                     <!-- Ikon untuk Beranda -->
                     <i class="nav-icon bi bi-house-door text-success"></i>
@@ -112,7 +112,7 @@
 
               <li class="nav-item">
 
-                    <li class="nav-item menu-open">
+                    <li class="nav-item">
                     <a href="#" class="nav-link">
                     <!-- Ikon untuk Beranda -->
                     <i class="nav-icon bi bi-house-door text-success"></i>
@@ -153,7 +153,7 @@
             {{-- ===================================== MENU BERITA  --}}
               <li class="nav-item">
 
-                    <li class="nav-item menu-open">
+                    <li class="nav-item">
                         <a href="#" class="nav-link">
                             <!-- Ikon untuk Berita Jakon (Newspaper) -->
                             <i class="nav-icon bi bi-newspaper text-success"></i>
@@ -188,7 +188,7 @@
 
             <li class="nav-item">
 
-          <li class="nav-item menu-open">
+          <li class="nav-item">
               <a href="#" class="nav-link">
                   <!-- Ikon untuk Beranda -->
                   <i class="nav-icon bi bi-house-door text-success"></i>
