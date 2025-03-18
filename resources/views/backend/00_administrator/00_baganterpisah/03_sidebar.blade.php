@@ -113,7 +113,7 @@
                     <li class="nav-item menu-open">
                     <a href="#" class="nav-link">
                     <!-- Ikon untuk Beranda -->
-                    <i class="nav-icon bi bi-house-door"></i>
+                    <i class="nav-icon bi bi-house-door text-success"></i>
                     <p style="color: white">
                       Kelembagaan
                       <!-- Ikon panah kanan (Chevron) -->
@@ -126,21 +126,21 @@
                     <li class="nav-item">
                         <a href="/404" class="nav-link">
                           <!-- Ikon untuk Header -->
-                          <i class="nav-icon bi bi-house-door"></i>
+                          <i class="nav-icon bi bi-house-door text-warning"></i>
                           <p style="color:white">Struktur Organisasi</p>
                         </a>
                       </li>
                       <li class="nav-item">
                         <a href="/404" class="nav-link">
                           <!-- Ikon untuk Informasi Kantor -->
-                          <i class="nav-icon bi bi-building"></i>
+                          <i class="nav-icon bi bi-building text-warning"></i>
                           <p style="color: white">Profil Jakon</p>
                         </a>
                       </li>
                       <li class="nav-item">
                         <a href="/404" class="nav-link">
                           <!-- Ikon untuk Sosial Media -->
-                          <i class="nav-icon bi bi-facebook"></i> <!-- Bisa diganti dengan bi-twitter atau bi-instagram sesuai kebutuhan -->
+                          <i class="nav-icon bi bi-facebook text-warning"></i> <!-- Bisa diganti dengan bi-twitter atau bi-instagram sesuai kebutuhan -->
                           <p style="color: white">Tupoksi Jakon</p>
                         </a>
                       </li>
@@ -154,7 +154,7 @@
                     <li class="nav-item menu-open">
                         <a href="#" class="nav-link">
                             <!-- Ikon untuk Berita Jakon (Newspaper) -->
-                            <i class="nav-icon bi bi-newspaper"></i>
+                            <i class="nav-icon bi bi-newspaper text-success"></i>
                             <p style="color: white">
                               Berita Jakon
                               <!-- Ikon panah kanan (Chevron) -->
@@ -167,14 +167,14 @@
                     <li class="nav-item">
                         <a href="/404" class="nav-link">
                           <!-- Ikon untuk Berita Jakon -->
-                          <i class="nav-icon bi bi-newspaper"></i>
+                          <i class="nav-icon bi bi-newspaper text-warning"></i>
                           <p style="color: white">Berita Jakon</p>
                         </a>
                       </li>
                       <li class="nav-item">
                         <a href="/404" class="nav-link">
                           <!-- Ikon untuk Artikel Jakon -->
-                          <i class="nav-icon bi bi-journal-text"></i>
+                          <i class="nav-icon bi bi-journal-text text-warning"></i>
                           <p style="color: white">Artikel Jakon</p>
                         </a>
                       </li>
