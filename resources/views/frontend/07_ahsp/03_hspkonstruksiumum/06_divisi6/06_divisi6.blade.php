@@ -281,7 +281,7 @@ color: #45a049;
 
                                                 <td style="text-align: center; color:red;" >{{$item->satuanmaterial}}</td>
                                                 <td style="text-align: center;">Rp</td>
-                                                <td style="text-align: right;" style="color: green;">{{ number_format((float) $item->hargasatuan, 0, ',', '.') }},-</td>
+                                                <td style="text-align: right;">{{ number_format((float) $item->hargasatuan, 0, ',', '.') }},-</td>
                                             </tr>
                                             @endforeach
                                         </tbody>
