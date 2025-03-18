@@ -25,6 +25,7 @@
 					</div><!-- row -->
 				</div><!-- container -->
 			</div><!--item-->
+
 			<div class="item">
 				<div class="item-slider-bg"  style="background-image: url(assets/00_dokmasjaki/03_datajakon/petaindonesiabaru.png)"></div>
 				<div class="container">
@@ -39,7 +40,8 @@
 					</div><!-- row -->
 				</div><!-- container -->
 			</div><!--item-->
-			<div class="item">
+
+            <div class="item">
 				<div class="item-slider-bg"  style="background-image: url(assets/00_dokmasjaki/01_beranda/masjaki2.png)"></div>
 				<div class="container">
 					<div class="row">

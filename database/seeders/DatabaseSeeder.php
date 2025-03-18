@@ -91,6 +91,7 @@ use App\Models\agendapelatihan;
 use App\Models\subhargadiv1;
 use App\Models\subhargadiv1bahan;
 use App\Models\subhargadiv1peralatan;
+
 // hsp harga divisi 2
 use App\Models\hsppaket2;
 use App\Models\hspkodepekerjaan2;
@@ -155,6 +156,8 @@ use App\Models\subhargadiv9;
 use App\Models\subhargadiv9bahan;
 use App\Models\subhargadiv9peralatan;
 
+// -=============================
+use App\Models\headerberanda;
 
 
 // modelbaru
@@ -196,7 +199,21 @@ class DatabaseSeeder extends Seeder
         // Tukangterampil::factory(994)->create();
 
 
-// =============== CREATE QA PERTANYAAN
+// =============== DATABASE HEADER BERANDA
+headerberanda::create([
+    'judul'  => 'Sistem Informasi <br> Pembina Jasa Konstruksi DPUPR Kabupaten Blora',
+    'header'  => '00_beranda/00_tampilanmuka/jakon4.jpeg',
+]);
+
+headerberanda::create([
+    'judul'  => 'Sasarengan mBangun Blora Unggul dan <br> Berdaya Saing',
+    'header'  => '00_beranda/00_tampilanmuka/masjaki2.png',
+]);
+
+headerberanda::create([
+    'judul'  => 'Blora Mustika <br> Cacana Jaya Kerta Bhumi',
+    'header'  => '00_beranda/00_tampilanmuka/petaindonesiabaru.png',
+]);
 
 
 // =========================================================
