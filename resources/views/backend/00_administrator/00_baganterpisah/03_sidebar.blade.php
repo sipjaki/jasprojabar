@@ -8,6 +8,10 @@
             <!--begin::Brand Image-->
             <img
               src="/assets/icon/logokabupatenblora.png"
+              alt="Logo Kabupaten Blora"
+              class="brand-image opacity-75 shadow"
+            />
+            <img
               src="/assets/icon/logopupr.png"
               alt="Logo Kabupaten Blora"
               class="brand-image opacity-75 shadow"
