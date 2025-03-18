@@ -8244,6 +8244,11 @@ hspkonstruksiumum5::create([
     'hargasatuan' => '3829710.50',
 ]);
 
+
+
+//======================== ===================================================================================
+// AHSP KONSTRUKSI UMUM DIVISI 6 DAN DATA LAIN LAIN NYA
+
 // ============================================= LIST DAFTAR HARGA KONSTRUKSI UMUM DIVISI 6 ===========================
 hsppaket6::create([
     'id' => 1,
@@ -8278,9 +8283,10 @@ hsppaket6::create([
 hsppaket6::create([
     'id' => 6,
     'hspdivisi_id' => 6,
-    'hsppaket6' => '-',
+    'hsppaket6' => 'Valve',
 ]);
 
+// ================================================
 hspkodepekerjaan6::create([
     'id' => 1,
     'hsppaket6_id' => 1,
@@ -8330,116 +8336,599 @@ hspkodepekerjaan6::create([
     'namapekerjaan' => 'Pipa PPR (PolyPropylene Random)',
 ]);
 
+hspkodepekerjaan6::create([
+    'id' => 8,
+    'hsppaket6_id' => 4,
+    'kodepekerjaan' => '4',
+    'namapekerjaan' => 'Pipa BS (Black Steel)',
+]);
+
+hspkodepekerjaan6::create([
+    'id' => 9,
+    'hsppaket6_id' => 6,
+    'kodepekerjaan' => '1',
+    'namapekerjaan' => 'Gate valve',
+]);
+
+hspkodepekerjaan6::create([
+    'id' => 10,
+    'hsppaket6_id' => 6,
+    'kodepekerjaan' => '2',
+    'namapekerjaan' => 'Ball valve',
+]);
+
+hspkodepekerjaan6::create([
+    'id' => 11,
+    'hsppaket6_id' => 6,
+    'kodepekerjaan' => '3',
+    'namapekerjaan' => 'Check valve',
+]);
+
+hspkodepekerjaan6::create([
+    'id' => 12,
+    'hsppaket6_id' => 6,
+    'kodepekerjaan' => '11',
+    'namapekerjaan' => 'Water Meter',
+]);
+
+hspkodepekerjaan6::create([
+    'id' => 13,
+    'hsppaket6_id' => 6,
+    'kodepekerjaan' => '13',
+    'namapekerjaan' => 'Roof Drain',
+]);
+
+hspkodepekerjaan6::create([
+    'id' => 14,
+    'hsppaket6_id' => 6,
+    'kodepekerjaan' => '19',
+    'namapekerjaan' => 'Water Level Control (WLC) & pengkabelan',
+]);
+
+hspkodepekerjaan6::create([
+    'id' => 15,
+    'hsppaket6_id' => 6,
+    'kodepekerjaan' => '24',
+    'namapekerjaan' => 'Dop PVC',
+]);
+
+//======================== ===================================================================================
+// HSP PAKET DIVISI 6  HARGA MAS JAKI BLORA
+
 hspkonstruksiumum6::create([
+    'id' => 1,
     'hspdivisi_id' => 6,
     'hsppaket6_id' => 1,
     'hspkodepekerjaan6_id' => 1,
     'kode' => '7',
     'subhargadiv6_id' => 1,
+    'subhargadiv6bahan_id' => 1,
+    'subhargadiv6peralatan_id' => 1,
     'jenispekerjaan' => 'Pemasangan 1 buah Tangki Toren Kap. 0,7 m3',
     'satuanmaterial' => 'Buah',
     'hargasatuan' => '1781487.40',
 ]);
 
 hspkonstruksiumum6::create([
+    'id' => 2,
     'hspdivisi_id' => 6,
     'hsppaket6_id' => 1,
     'hspkodepekerjaan6_id' => 1,
     'kode' => '8',
     'subhargadiv6_id' => 2,
+    'subhargadiv6bahan_id' => 2,
+    'subhargadiv6peralatan_id' => 2,
     'jenispekerjaan' => 'Pemasangan 1 buah Tangki Toren Kap. 1,5 m3',
     'satuanmaterial' => 'Buah',
     'hargasatuan' => '1781487.40',
 ]);
 
 hspkonstruksiumum6::create([
+    'id' => 3,
     'hspdivisi_id' => 6,
     'hsppaket6_id' => 1,
     'hspkodepekerjaan6_id' => 1,
     'kode' => '10',
     'subhargadiv6_id' => 3,
+    'subhargadiv6bahan_id' => 3,
+    'subhargadiv6peralatan_id' => 3,
     'jenispekerjaan' => 'Pemasangan 1 buah Tangki Toren Kap. 3 m3',
     'satuanmaterial' => 'Buah',
     'hargasatuan' => '6334704.20',
 ]);
 
 hspkonstruksiumum6::create([
+    'id' => 4,
     'hspdivisi_id' => 6,
     'hsppaket6_id' => 1,
     'hspkodepekerjaan6_id' => 1,
     'kode' => '12',
     'subhargadiv6_id' => 4,
+    'subhargadiv6bahan_id' => 4,
+    'subhargadiv6peralatan_id' => 4,
     'jenispekerjaan' => 'Pemasangan 1 buah Tangki Toren Kap. 5 m3',
     'satuanmaterial' => 'Buah',
     'hargasatuan' => '11434304.20',
 ]);
 
 hspkonstruksiumum6::create([
+    'id' => 5,
     'hspdivisi_id' => 6,
     'hsppaket6_id' => 1,
     'hspkodepekerjaan6_id' => 2,
     'kode' => '3',
     'subhargadiv6_id' => 5,
+    'subhargadiv6bahan_id' => 5,
+    'subhargadiv6peralatan_id' => 5,
     'jenispekerjaan' => 'Pemasangan 1 Unit Pompa Booster 150 lpm; Vertical In Line –',
     'satuanmaterial' => 'Unit',
     'hargasatuan' => '58170080.10',
 ]);
 
 hspkonstruksiumum6::create([
+    'id' => 6,
     'hspdivisi_id' => 6,
     'hsppaket6_id' => 1,
     'hspkodepekerjaan6_id' => 2,
     'kode' => '4',
     'subhargadiv6_id' => 6,
+    'subhargadiv6bahan_id' => 6,
+    'subhargadiv6peralatan_id' => 6,
     'jenispekerjaan' => 'Pemasangan 1 Unit Pompa Jet 27 lpm',
     'satuanmaterial' => 'Unit',
     'hargasatuan' => '49861724.00',
 ]);
 
 hspkonstruksiumum6::create([
+    'id' => 7,
     'hspdivisi_id' => 6,
     'hsppaket6_id' => 1,
     'hspkodepekerjaan6_id' => 2,
     'kode' => '6',
     'subhargadiv6_id' => 7,
+    'subhargadiv6bahan_id' => 7,
+    'subhargadiv6peralatan_id' => 7,
     'jenispekerjaan' => 'Pemasangan 1 Unit Pompa Jet 100 lpm',
     'satuanmaterial' => 'Unit',
     'hargasatuan' => '4728724.00',
 ]);
 
 hspkonstruksiumum6::create([
+    'id' => 8,
     'hspdivisi_id' => 6,
     'hsppaket6_id' => 1,
     'hspkodepekerjaan6_id' => 2,
     'kode' => '8.a',
     'subhargadiv6_id' => 8,
+    'subhargadiv6bahan_id' => 8,
+    'subhargadiv6peralatan_id' => 8,
     'jenispekerjaan' => 'Pemasangan  1  Unit  Pompa  Sumbmersible ( Speed For Pump data = 10700 rpm, rateflow 5 m3/h, ratehead = 73 - 100 m  )',
     'satuanmaterial' => 'Unit',
     'hargasatuan' => '21030786.70',
 ]);
 
 hspkonstruksiumum6::create([
+    'id' => 9,
     'hspdivisi_id' => 6,
     'hsppaket6_id' => 2,
     'hspkodepekerjaan6_id' => 3,
     'kode' => '2',
     'subhargadiv6_id' => 9,
+    'subhargadiv6bahan_id' => 9,
+    'subhargadiv6peralatan_id' => 9,
     'jenispekerjaan' => 'Pemasangan 1 Unit Grease Trap Portable Stainless, Kap. 30 Liter',
     'satuanmaterial' => 'Unit',
     'hargasatuan' => '623877.10',
 ]);
 
 hspkonstruksiumum6::create([
+    'id' => 10,
     'hspdivisi_id' => 6,
     'hsppaket6_id' => 3,
     'hspkodepekerjaan6_id' => 4,
-    'kode' => null,
+    'kode' => 1,
     'subhargadiv6_id' => 10,
+    'subhargadiv6bahan_id' => 10,
+    'subhargadiv6peralatan_id' => 10,
     'jenispekerjaan' => 'Pemasangan 1 buah Bak Kontrol Pasangan Bata 30 cm x 30 cm Tinggi 35 cm dengan Tutup Beton',
     'satuanmaterial' => 'Buah',
     'hargasatuan' => '550029.70',
 ]);
 
+hspkonstruksiumum6::create([
+    'id' => 11,
+    'hspdivisi_id' => 6,
+    'hsppaket6_id' => 3,
+    'hspkodepekerjaan6_id' => 4,
+    'kode' => 2,
+    'subhargadiv6_id' => 11,
+    'subhargadiv6bahan_id' => 11,
+    'subhargadiv6peralatan_id' => 11,
+    'jenispekerjaan' => 'Pemasangan 1 buah Bak Kontrol Pasangan Bata 45 cm x 45 cm Tinggi 50 cm dengan Tutup Beton',
+    'satuanmaterial' => 'Buah',
+    'hargasatuan' => '770319.00',
+]);
+
+hspkonstruksiumum6::create([
+    'id' => 12,
+    'hspdivisi_id' => 6,
+    'hsppaket6_id' => 3,
+    'hspkodepekerjaan6_id' => 4,
+    'kode' => 3,
+    'subhargadiv6_id' => 12,
+    'subhargadiv6bahan_id' => 12,
+    'subhargadiv6peralatan_id' => 12,
+    'jenispekerjaan' => 'Pemasangan 1 buah Bak Kontrol Pasangan Bata 60 cm x 60 cm Tinggi 65 cm dengan Tutup Beton',
+    'satuanmaterial' => 'Buah',
+    'hargasatuan' => '935755.04',
+]);
+
+hspkonstruksiumum6::create([
+    'id' => 13,
+    'hspdivisi_id' => 6,
+    'hsppaket6_id' => 4,
+    'hspkodepekerjaan6_id' => 5,
+    'kode' => 1,
+    'subhargadiv6_id' => 13,
+    'subhargadiv6bahan_id' => 13,
+    'subhargadiv6peralatan_id' => 13,
+    'jenispekerjaan' => 'Pemasangan 1 m pipa PVC AW, Dia. 1/2" (15 mm)',
+    'satuanmaterial' => 'M1',
+    'hargasatuan' => '27141.40',
+]);
+
+hspkonstruksiumum6::create([
+    'id' => 14,
+    'hspdivisi_id' => 6,
+    'hsppaket6_id' => 4,
+    'hspkodepekerjaan6_id' => 5,
+    'kode' => 3,
+    'subhargadiv6_id' => 14,
+    'subhargadiv6bahan_id' => 14,
+    'subhargadiv6peralatan_id' => 14,
+    'jenispekerjaan' => 'Pemasangan 1 m pipa PVC AW, Dia. 1/2" (15 mm)',
+    'satuanmaterial' => 'M1',
+    'hargasatuan' => '46187.90',
+]);
+
+hspkonstruksiumum6::create([
+    'id' => 15,
+    'hspdivisi_id' => 6,
+    'hsppaket6_id' => 4,
+    'hspkodepekerjaan6_id' => 5,
+    'kode' => 5,
+    'subhargadiv6_id' => 15,
+    'subhargadiv6bahan_id' => 15,
+    'subhargadiv6peralatan_id' => 15,
+    'jenispekerjaan' => 'Pemasangan 1 m pipa PVC AW, Dia. 1-1/2" (40 mm)',
+    'satuanmaterial' => 'M1',
+    'hargasatuan' => '71588.00',
+]);
+
+hspkonstruksiumum6::create([
+    'id' => 16,
+    'hspdivisi_id' => 6,
+    'hsppaket6_id' => 4,
+    'hspkodepekerjaan6_id' => 5,
+    'kode' => 6,
+    'subhargadiv6_id' => 16,
+    'subhargadiv6bahan_id' => 16,
+    'subhargadiv6peralatan_id' => 16,
+    'jenispekerjaan' => 'Pemasangan 1 m pipa PVC AW, Dia. 2" (50 mm)',
+    'satuanmaterial' => 'M1',
+    'hargasatuan' => '82366.35',
+]);
+
+hspkonstruksiumum6::create([
+    'id' => 17,
+    'hspdivisi_id' => 6,
+    'hsppaket6_id' => 4,
+    'hspkodepekerjaan6_id' => 5,
+    'kode' => 8,
+    'subhargadiv6_id' => 17,
+    'subhargadiv6bahan_id' => 17,
+    'subhargadiv6peralatan_id' => 17,
+    'jenispekerjaan' => 'Pemasangan 1 m pipa PVC AW, Dia. 3" (80 mm)',
+    'satuanmaterial' => 'M1',
+    'hargasatuan' => '134786.30',
+]);
+
+hspkonstruksiumum6::create([
+    'id' => 18,
+    'hspdivisi_id' => 6,
+    'hsppaket6_id' => 4,
+    'hspkodepekerjaan6_id' => 5,
+    'kode' => 11,
+    'subhargadiv6_id' => 18,
+    'subhargadiv6bahan_id' => 18,
+    'subhargadiv6peralatan_id' => 18,
+    'jenispekerjaan' => 'Pemasangan 1 m pipa PVC AW, Dia. 6" (150 mm)',
+    'satuanmaterial' => 'M1',
+    'hargasatuan' => '463218.80',
+]);
+
+hspkonstruksiumum6::create([
+    'id' => 19,
+    'hspdivisi_id' => 6,
+    'hsppaket6_id' => 4,
+    'hspkodepekerjaan6_id' => 5,
+    'kode' => 12,
+    'subhargadiv6_id' => 19,
+    'subhargadiv6bahan_id' => 19,
+    'subhargadiv6peralatan_id' => 19,
+    'jenispekerjaan' => 'Pemasangan 1 m pipa PVC AW, Dia. 8" (200 mm)',
+    'satuanmaterial' => 'M1',
+    'hargasatuan' => '711183.00',
+]);
+
+hspkonstruksiumum6::create([
+    'id' => 20,
+    'hspdivisi_id' => 6,
+    'hsppaket6_id' => 4,
+    'hspkodepekerjaan6_id' => 5,
+    'kode' => 19,
+    'subhargadiv6_id' => 20,
+    'subhargadiv6bahan_id' => 20,
+    'subhargadiv6peralatan_id' => 20,
+    'jenispekerjaan' => 'Pemasangan 1 m pipa PVC D, Dia. 2" (50 mm)',
+    'satuanmaterial' => 'M1',
+    'hargasatuan' => '49270.10',
+]);
+
+hspkonstruksiumum6::create([
+    'id' => 21,
+    'hspdivisi_id' => 6,
+    'hsppaket6_id' => 4,
+    'hspkodepekerjaan6_id' => 5,
+    'kode' => 21,
+    'subhargadiv6_id' => 21,
+    'subhargadiv6bahan_id' => 21,
+    'subhargadiv6peralatan_id' => 21,
+    'jenispekerjaan' => 'Pemasangan 1 m pipa PVC D, Dia. 3" (80 mm)',
+    'satuanmaterial' => 'M1',
+    'hargasatuan' => '81752.55',
+]);
+
+hspkonstruksiumum6::create([
+    'id' => 22,
+    'hspdivisi_id' => 6,
+    'hsppaket6_id' => 4,
+    'hspkodepekerjaan6_id' => 5,
+    'kode' => 22,
+    'subhargadiv6_id' => 22,
+    'subhargadiv6bahan_id' => 22,
+    'subhargadiv6peralatan_id' => 22,
+    'jenispekerjaan' => 'Pemasangan 1 m pipa PVC D, Dia. 4" (100 mm)',
+    'satuanmaterial' => 'M1',
+    'hargasatuan' => '159415.30',
+]);
+
+hspkonstruksiumum6::create([
+    'id' => 23,
+    'hspdivisi_id' => 6,
+    'hsppaket6_id' => 4,
+    'hspkodepekerjaan6_id' => 6,
+    'kode' => 1,
+    'subhargadiv6_id' => 23,
+    'subhargadiv6bahan_id' => 23,
+    'subhargadiv6peralatan_id' => 23,
+    'jenispekerjaan' => 'Pemasangan 1 m Pipa Galvanis MED CLASS Dia. 1/2" (15 mm)',
+    'satuanmaterial' => 'M1',
+    'hargasatuan' => '32731.60',
+]);
+
+hspkonstruksiumum6::create([
+    'id' => 24,
+    'hspdivisi_id' => 6,
+    'hsppaket6_id' => 4,
+    'hspkodepekerjaan6_id' => 6,
+    'kode' => 5,
+    'subhargadiv6_id' => 24,
+    'subhargadiv6bahan_id' => 24,
+    'subhargadiv6peralatan_id' => 24,
+    'jenispekerjaan' => 'Pemasangan 1 m Pipa Galvanis MED CLASS, Dia. 1-1/2" (40 mm)',
+    'satuanmaterial' => 'M1',
+    'hargasatuan' => '70858.70',
+]);
+
+hspkonstruksiumum6::create([
+    'id' => 25,
+    'hspdivisi_id' => 6,
+    'hsppaket6_id' => 4,
+    'hspkodepekerjaan6_id' => 6,
+    'kode' => 6,
+    'subhargadiv6_id' => 25,
+    'subhargadiv6bahan_id' => 25,
+    'subhargadiv6peralatan_id' => 25,
+    'jenispekerjaan' => 'Pemasangan 1 m Pipa Galvanis MED CLASS, Dia. 2" (50 mm)',
+    'satuanmaterial' => 'M1',
+    'hargasatuan' => '108476.50',
+]);
+
+hspkonstruksiumum6::create([
+    'id' => 26,
+    'hspdivisi_id' => 6,
+    'hsppaket6_id' => 4,
+    'hspkodepekerjaan6_id' => 6,
+    'kode' => 7,
+    'subhargadiv6_id' => 26,
+    'subhargadiv6bahan_id' => 26,
+    'subhargadiv6peralatan_id' => 26,
+    'jenispekerjaan' => 'Pemasangan 1 m Pipa Galvanis MED CLASS, Dia. 2-1/2" (65 mm)',
+    'satuanmaterial' => 'M1',
+    'hargasatuan' => '136247.10',
+]);
+
+hspkonstruksiumum6::create([
+    'id' => 27,
+    'hspdivisi_id' => 6,
+    'hsppaket6_id' => 4,
+    'hspkodepekerjaan6_id' => 6,
+    'kode' => 8,
+    'subhargadiv6_id' => 27,
+    'subhargadiv6bahan_id' => 27,
+    'subhargadiv6peralatan_id' => 27,
+    'jenispekerjaan' => 'Pemasangan 1 m Pipa Galvanis MED CLASS, Dia. 3" (80 mm)',
+    'satuanmaterial' => 'M1',
+    'hargasatuan' => '226221.60',
+]);
+
+hspkonstruksiumum6::create([
+    'id' => 28,
+    'hspdivisi_id' => 6,
+    'hsppaket6_id' => 4,
+    'hspkodepekerjaan6_id' => 7,
+    'kode' => 1,
+    'subhargadiv6_id' => 28,
+    'subhargadiv6bahan_id' => 28,
+    'subhargadiv6peralatan_id' => 28,
+    'jenispekerjaan' => 'Pemasangan 1 m pipa PPR PN 10, Dia. 1/2" (15 mm)',
+    'satuanmaterial' => 'M1',
+    'hargasatuan' => '26712.68',
+]);
+
+hspkonstruksiumum6::create([
+    'id' => 29,
+    'hspdivisi_id' => 6,
+    'hsppaket6_id' => 4,
+    'hspkodepekerjaan6_id' => 7,
+    'kode' => 3,
+    'subhargadiv6_id' => 29,
+    'subhargadiv6bahan_id' => 29,
+    'subhargadiv6peralatan_id' => 29,
+    'jenispekerjaan' => 'Pemasangan 1 m pipa PPR PN 10, Dia. 1" (25 mm)',
+    'satuanmaterial' => 'M1',
+    'hargasatuan' => '56216.88',
+]);
+
+hspkonstruksiumum6::create([
+    'id' => 30,
+    'hspdivisi_id' => 6,
+    'hsppaket6_id' => 4,
+    'hspkodepekerjaan6_id' => 7,
+    'kode' => 5,
+    'subhargadiv6_id' => 30,
+    'subhargadiv6bahan_id' => 30,
+    'subhargadiv6peralatan_id' => 30,
+    'jenispekerjaan' => 'Pemasangan 1 m pipa PPR PN 10, Dia. 1-1/2", (40 mm)',
+    'satuanmaterial' => 'M1',
+    'hargasatuan' => '124191.65',
+]);
+
+hspkonstruksiumum6::create([
+    'id' => 31,
+    'hspdivisi_id' => 6,
+    'hsppaket6_id' => 4,
+    'hspkodepekerjaan6_id' => 7,
+    'kode' => 6,
+    'subhargadiv6_id' => 31,
+    'subhargadiv6bahan_id' => 31,
+    'subhargadiv6peralatan_id' => 31,
+    'jenispekerjaan' => 'Pemasangan 1 m pipa PPR PN 10, Dia. 2", (50 mm)',
+    'satuanmaterial' => 'M1',
+    'hargasatuan' => '188267.06',
+]);
+
+hspkonstruksiumum6::create([
+    'id' => 32,
+    'hspdivisi_id' => 6,
+    'hsppaket6_id' => 4,
+    'hspkodepekerjaan6_id' => 7,
+    'kode' => 8,
+    'subhargadiv6_id' => 32,
+    'subhargadiv6bahan_id' => 32,
+    'subhargadiv6peralatan_id' => 32,
+    'jenispekerjaan' => 'Pemasangan 1 m pipa PPR PN 10, Dia. 3", (80 mm)',
+    'satuanmaterial' => 'M1',
+    'hargasatuan' => '371361.93',
+]);
+
+hspkonstruksiumum6::create([
+    'id' => 33,
+    'hspdivisi_id' => 6,
+    'hsppaket6_id' => 4,
+    'hspkodepekerjaan6_id' => 7,
+    'kode' => 9,
+    'subhargadiv6_id' => 33,
+    'subhargadiv6bahan_id' => 33,
+    'subhargadiv6peralatan_id' => 33,
+    'jenispekerjaan' => 'Pemasangan 1 m pipa PPR PN 10, Dia. 4", (100 mm)',
+    'satuanmaterial' => 'M1',
+    'hargasatuan' => '545368.86',
+]);
+
+hspkonstruksiumum6::create([
+    'id' => 34,
+    'hspdivisi_id' => 6,
+    'hsppaket6_id' => 4,
+    'hspkodepekerjaan6_id' => 8,
+    'kode' => 1,
+    'subhargadiv6_id' => 34,
+    'subhargadiv6bahan_id' => 34,
+    'subhargadiv6peralatan_id' => 34,
+    'jenispekerjaan' => 'Pemasangan 1 m pipa BS MED CLASS Dia. 1/2" (15 mm)',
+    'satuanmaterial' => 'M1',
+    'hargasatuan' => '51538.85',
+]);
+
+hspkonstruksiumum6::create([
+    'id' => 35,
+    'hspdivisi_id' => 6,
+    'hsppaket6_id' => 4,
+    'hspkodepekerjaan6_id' => 8,
+    'kode' => 3,
+    'subhargadiv6_id' => 35,
+    'subhargadiv6bahan_id' => 35,
+    'subhargadiv6peralatan_id' => 35,
+    'jenispekerjaan' => 'Pemasangan 1 m pipa BS MED CLASS, Dia. 1" (25 mm)',
+    'satuanmaterial' => 'M1',
+    'hargasatuan' => '98994.50',
+]);
+
+hspkonstruksiumum6::create([
+    'id' => 36,
+    'hspdivisi_id' => 6,
+    'hsppaket6_id' => 4,
+    'hspkodepekerjaan6_id' => 8,
+    'kode' => 6,
+    'subhargadiv6_id' => 36,
+    'subhargadiv6bahan_id' => 36,
+    'subhargadiv6peralatan_id' => 36,
+    'jenispekerjaan' => 'Pemasangan 1 m pipa BS MED CLASS, Dia. 2" (50 mm)',
+    'satuanmaterial' => 'M1',
+    'hargasatuan' => '202446.75',
+]);
+
+hspkonstruksiumum6::create([
+    'id' => 37,
+    'hspdivisi_id' => 6,
+    'hsppaket6_id' => 4,
+    'hspkodepekerjaan6_id' => 8,
+    'kode' => 8,
+    'subhargadiv6_id' => 37,
+    'subhargadiv6bahan_id' => 37,
+    'subhargadiv6peralatan_id' => 37,
+    'jenispekerjaan' => 'Pemasangan 1 m pipa BS MED CLASS, Dia. 3" (80 mm)',
+    'satuanmaterial' => 'M1',
+    'hargasatuan' => '336939.35',
+]);
+
+hspkonstruksiumum6::create([
+    'id' => 38,
+    'hspdivisi_id' => 6,
+    'hsppaket6_id' => 4,
+    'hspkodepekerjaan6_id' => 8,
+    'kode' => 9,
+    'subhargadiv6_id' => 38,
+    'subhargadiv6bahan_id' => 38,
+    'subhargadiv6peralatan_id' => 38,
+    'jenispekerjaan' => 'Pemasangan 1 m pipa BS MED CLASS, Dia. 4" (100 mm)',
+    'satuanmaterial' => 'M1',
+    'hargasatuan' => '478289.17',
+]);
+
+
+//======================== ===================================================================================
 // ============================================= LIST DAFTAR HARGA KONSTRUKSI UMUM DIVISI 7 ===========================
 hsppaket7::create([
     'id' => 1,
@@ -8461,104 +8950,139 @@ hspkodepekerjaan7::create([
     'namapekerjaan' => 'Pemasangan Kanstin',
 ]);
 
+
+//======================== ===================================================================================
+// AHSP KONSTRUKSI UMUM DIVISI 7 DAN DATA LAIN LAIN NYA
+
 hspkonstruksiumum7::create([
+    'id' => 1,
     'hspdivisi_id' => 7,
     'hsppaket7_id' => 1,
     'hspkodepekerjaan7_id' => 1,
     'kode' => '1',
     'subhargadiv7_id' => 1,
+    'subhargadiv7bahan_id' => 1,
+    'subhargadiv7peralatan_id' => 1,
     'jenispekerjaan' => 'Pemasangan 1 m2 Paving block (Blok Beton) Natural Tebal 6 cm fc 20 MPa untuk Jalan Lingkungan (Jalan Lokal) secara manual',
     'satuanmaterial' => 'M2',
     'hargasatuan' => '140093.25',
 ]);
 
 hspkonstruksiumum7::create([
+    'id' => 2,
     'hspdivisi_id' => 7,
     'hsppaket7_id' => 1,
     'hspkodepekerjaan7_id' => 1,
     'kode' => '1.a',
     'subhargadiv7_id' => 2,
+    'subhargadiv7bahan_id' => 2,
+    'subhargadiv7peralatan_id' => 2,
     'jenispekerjaan' => 'Pemasangan 1 m2 Pengunci Topi Uskup Tebal 6 cm fc 20 MPa untuk Jalan Lingkungan (Jalan Lokal) secara manual',
     'satuanmaterial' => 'M2',
     'hargasatuan' => '193509.25',
 ]);
 
 hspkonstruksiumum7::create([
+    'id' => 3,
     'hspdivisi_id' => 7,
     'hsppaket7_id' => 1,
     'hspkodepekerjaan7_id' => 1,
     'kode' => '2',
     'subhargadiv7_id' => 3,
+    'subhargadiv7bahan_id' => 3,
+    'subhargadiv7peralatan_id' => 3,
     'jenispekerjaan' => 'Pemasangan 1 m2 Paving block (Blok Beton) Natural Tebal 6 cm 25 MPa untuk Jalan Akses/Penghubung (Jalan Kolektor) secara manual ',
     'satuanmaterial' => 'M2',
     'hargasatuan' => '142403.25',
 ]);
 
 hspkonstruksiumum7::create([
+    'id' => 4,
     'hspdivisi_id' => 7,
     'hsppaket7_id' => 1,
     'hspkodepekerjaan7_id' => 1,
     'kode' => '2.a',
     'subhargadiv7_id' => 4,
+    'subhargadiv7bahan_id' => 4,
+    'subhargadiv7peralatan_id' => 4,
     'jenispekerjaan' => 'Pemasangan 1 m2 Pengunci Topi Uskup Tebal 6 cm 25 MPa dan Pengunci Topi Uskup untuk Jalan Akses/Penghubung (Jalan Kolektor) secara manual ',
     'satuanmaterial' => 'M2',
     'hargasatuan' => '248509.25',
 ]);
 
 hspkonstruksiumum7::create([
+    'id' => 5,
     'hspdivisi_id' => 7,
     'hsppaket7_id' => 1,
     'hspkodepekerjaan7_id' => 1,
     'kode' => '3',
     'subhargadiv7_id' => 5,
+    'subhargadiv7bahan_id' => 5,
+    'subhargadiv7peralatan_id' => 5,
     'jenispekerjaan' => 'Pemasangan 1 m2 Paving block (Blok Beton) Natural Tebal 6 cm fc 20 MPa untuk Jalan Lingkungan (Jalan Lokal) secara semi mekanis',
     'satuanmaterial' => 'M2',
     'hargasatuan' => '144481.72',
 ]);
 
 hspkonstruksiumum7::create([
+    'id' => 6,
     'hspdivisi_id' => 7,
     'hsppaket7_id' => 1,
     'hspkodepekerjaan7_id' => 1,
     'kode' => '3.a',
     'subhargadiv7_id' => 6,
+    'subhargadiv7bahan_id' => 6,
+    'subhargadiv7peralatan_id' => 6,
     'jenispekerjaan' => 'Pemasangan 1 m2 Pengunci Topi Uskup Tebal 6 cm fc 20 MPa untuk Jalan Lingkungan (Jalan Lokal) secara semi mekanis',
     'satuanmaterial' => 'M2',
     'hargasatuan' => '197897.72',
 ]);
 
 hspkonstruksiumum7::create([
+    'id' => 7,
     'hspdivisi_id' => 7,
     'hsppaket7_id' => 1,
     'hspkodepekerjaan7_id' => 1,
     'kode' => '4',
     'subhargadiv7_id' => 7,
+    'subhargadiv7bahan_id' => 7,
+    'subhargadiv7peralatan_id' => 7,
     'jenispekerjaan' => 'Pemasangan 1 m2 Paving block (Blok Beton) Natural Tebal 6 cm 25 MPa untuk Jalan Akses/Penghubung (Jalan Kolektor) secara semi mekanis',
     'satuanmaterial' => 'M2',
     'hargasatuan' => '146791.72',
 ]);
 
 hspkonstruksiumum7::create([
+    'id' => 8,
     'hspdivisi_id' => 7,
     'hsppaket7_id' => 1,
     'hspkodepekerjaan7_id' => 1,
     'kode' => '4.a',
     'subhargadiv7_id' => 8,
+    'subhargadiv7bahan_id' => 8,
+    'subhargadiv7peralatan_id' => 8,
     'jenispekerjaan' => 'Pemasangan 1 m2 Pengunci Topi Uskup Tebal 6 cm fc 25 MPa untuk Jalan Akses/Penghubung (Jalan Kolektor) secara semi mekanis',
     'satuanmaterial' => 'M2',
     'hargasatuan' => '252897.72',
 ]);
 
 hspkonstruksiumum7::create([
+    'id' => 9,
     'hspdivisi_id' => 7,
     'hsppaket7_id' => 1,
     'hspkodepekerjaan7_id' => 2,
     'kode' => '1',
     'subhargadiv7_id' => 9,
+    'subhargadiv7bahan_id' => 9,
+    'subhargadiv7peralatan_id' => 9,
     'jenispekerjaan' => 'Pemasangan  1  m1  Kanstin,  tebal  10x18x40  cm  untuk  Jalan Lingkungan (Jalan Lokal)',
     'satuanmaterial' => 'M1',
     'hargasatuan' => '60570.37',
 ]);
+
+
+//======================== ===================================================================================
+// AHSP KONSTRUKSI UMUM DIVISI 8 DAN DATA LAIN LAIN NYA
 
 // ============================================= LIST DAFTAR HARGA KONSTRUKSI UMUM DIVISI 8 ===========================
 hsppaket8::create([
@@ -8581,138 +9105,177 @@ hspkodepekerjaan8::create([
 ]);
 
 hspkonstruksiumum8::create([
+    'id' => 1,
     'hspdivisi_id' => 8,
     'hsppaket8_id' => 2,
     'hspkodepekerjaan8_id' => 1,
     'kode' => '1',
     'subhargadiv8_id' => 1,
+    'subhargadiv8bahan_id' => 1,
+    'subhargadiv8peralatan_id' => 1,
     'jenispekerjaan' => '1 m’ Buis Beton 1/2 D 30 - 100 cm',
     'satuanmaterial' => 'M1',
     'hargasatuan' => '73291.41',
 ]);
 
 hspkonstruksiumum8::create([
+    'id' => 2,
     'hspdivisi_id' => 8,
     'hsppaket8_id' => 2,
     'hspkodepekerjaan8_id' => 1,
     'kode' => '2',
     'subhargadiv8_id' => 2,
+    'subhargadiv8bahan_id' => 2,
+    'subhargadiv8peralatan_id' => 2,
     'jenispekerjaan' => '1 m’ Buis Beton 1/2 D 40 - 100 cm',
     'satuanmaterial' => 'M1',
     'hargasatuan' => '95929.28',
 ]);
 
 hspkonstruksiumum8::create([
+    'id' => 3,
     'hspdivisi_id' => 8,
     'hsppaket8_id' => 2,
     'hspkodepekerjaan8_id' => 1,
     'kode' => '3',
     'subhargadiv8_id' => 3,
+    'subhargadiv8bahan_id' => 3,
+    'subhargadiv8peralatan_id' => 3,
     'jenispekerjaan' => '1 m’ Buis Beton 1/2 D 50 - 100 cm',
     'satuanmaterial' => 'M1',
     'hargasatuan' => '136723.65',
 ]);
 
 hspkonstruksiumum8::create([
+    'id' => 4,
     'hspdivisi_id' => 8,
     'hsppaket8_id' => 2,
     'hspkodepekerjaan8_id' => 1,
     'kode' => '4',
     'subhargadiv8_id' => 4,
+    'subhargadiv8bahan_id' => 4,
+    'subhargadiv8peralatan_id' => 4,
     'jenispekerjaan' => '1 m’ Buis Beton 1/2 D 60 - 100 cm',
     'satuanmaterial' => 'M1',
     'hargasatuan' => '204680.03',
 ]);
 
 hspkonstruksiumum8::create([
+    'id' => 5,
     'hspdivisi_id' => 8,
     'hsppaket8_id' => 2,
     'hspkodepekerjaan8_id' => 1,
     'kode' => '5',
     'subhargadiv8_id' => 5,
+    'subhargadiv8bahan_id' => 5,
+    'subhargadiv8peralatan_id' => 5,
     'jenispekerjaan' => '1 m’ Buis Beton 1/2 D 80 - 100 cm',
     'satuanmaterial' => 'M1',
     'hargasatuan' => '227324.33',
 ]);
 
 hspkonstruksiumum8::create([
+    'id' => 6,
     'hspdivisi_id' => 8,
     'hsppaket8_id' => 2,
     'hspkodepekerjaan8_id' => 1,
     'kode' => '6',
     'subhargadiv8_id' => 6,
+    'subhargadiv8bahan_id' => 6,
+    'subhargadiv8peralatan_id' => 6,
     'jenispekerjaan' => '1 m’ Buis Beton 1/2 D 100 - 100 cm',
     'satuanmaterial' => 'M1',
     'hargasatuan' => '248192.04',
 ]);
 
 hspkonstruksiumum8::create([
+    'id' => 7,
     'hspdivisi_id' => 8,
     'hsppaket8_id' => 2,
     'hspkodepekerjaan8_id' => 1,
     'kode' => '7',
     'subhargadiv8_id' => 7,
+    'subhargadiv8bahan_id' => 7,
+    'subhargadiv8peralatan_id' => 7,
     'jenispekerjaan' => '1 m’ Buis Beton D 30 - 100 cm',
     'satuanmaterial' => 'M1',
     'hargasatuan' => '139304.64',
 ]);
 
 hspkonstruksiumum8::create([
+    'id' => 8,
     'hspdivisi_id' => 8,
     'hsppaket8_id' => 2,
     'hspkodepekerjaan8_id' => 1,
     'kode' => '8',
     'subhargadiv8_id' => 8,
+    'subhargadiv8bahan_id' => 8,
+    'subhargadiv8peralatan_id' => 8,
     'jenispekerjaan' => '1 m’ Buis Beton D 40 - 100 cm',
     'satuanmaterial' => 'M1',
     'hargasatuan' => '196589.22',
 ]);
 
 hspkonstruksiumum8::create([
+    'id' => 9,
     'hspdivisi_id' => 8,
     'hsppaket8_id' => 2,
     'hspkodepekerjaan8_id' => 1,
     'kode' => '9',
     'subhargadiv8_id' => 9,
+    'subhargadiv8bahan_id' => 9,
+    'subhargadiv8peralatan_id' => 9,
     'jenispekerjaan' => '1 m’ Buis Beton D 50 - 100 cm',
     'satuanmaterial' => 'M1',
     'hargasatuan' => '287201.75',
 ]);
 
 hspkonstruksiumum8::create([
+    'id' => 10,
     'hspdivisi_id' => 8,
     'hsppaket8_id' => 2,
     'hspkodepekerjaan8_id' => 1,
     'kode' => '10',
     'subhargadiv8_id' => 10,
+    'subhargadiv8bahan_id' => 10,
+    'subhargadiv8peralatan_id' => 10,
     'jenispekerjaan' => '1 m’ Buis Beton D 60 - 100 cm',
     'satuanmaterial' => 'M1',
     'hargasatuan' => '381067.98',
 ]);
 
 hspkonstruksiumum8::create([
+    'id' => 11,
     'hspdivisi_id' => 8,
     'hsppaket8_id' => 2,
     'hspkodepekerjaan8_id' => 1,
     'kode' => '11',
     'subhargadiv8_id' => 11,
+    'subhargadiv8bahan_id' => 11,
+    'subhargadiv8peralatan_id' => 11,
     'jenispekerjaan' => '1 m’ Buis Beton D 80 - 100 cm',
     'satuanmaterial' => 'M1',
     'hargasatuan' => '405534.38',
 ]);
 
 hspkonstruksiumum8::create([
+    'id' => 12,
     'hspdivisi_id' => 8,
     'hsppaket8_id' => 2,
     'hspkodepekerjaan8_id' => 1,
     'kode' => '12',
     'subhargadiv8_id' => 12,
+    'subhargadiv8bahan_id' => 12,
+    'subhargadiv8peralatan_id' => 12,
     'jenispekerjaan' => '1 m’ Buis Beton D 100 - 100 cm',
     'satuanmaterial' => 'M1',
     'hargasatuan' => '485505.48',
 ]);
 
-// ============================================= LIST DAFTAR HARGA KONSTRUKSI UMUM DIVISI 9 ===========================
+
+//======================== ===================================================================================
+// AHSP KONSTRUKSI UMUM DIVISI 9 DAN DATA LAIN LAIN NYA
+
 hsppaket9::create([
     'id' => 1,
     'hspdivisi_id' => 9,
@@ -8737,6 +9300,7 @@ hsppaket9::create([
     'hsppaket9' => 'Aksesoris Pipa',
 ]);
 
+// ============================================= LIST DAFTAR HARGA KONSTRUKSI UMUM DIVISI 9 ===========================
 hspkodepekerjaan9::create([
     'id' => 1,
     'hsppaket9_id' => 1,
@@ -8765,210 +9329,270 @@ hspkodepekerjaan9::create([
     'namapekerjaan' => 'Pasangan Aksesoris Tee',
 ]);
 
+
+//======================== ===================================================================================
+// AHSP KONSTRUKSI UMUM DIVISI 9 DAN DATA LAIN LAIN NYA
 hspkonstruksiumum9::create([
+    'id' => 1,
     'hspdivisi_id' => 9,
     'hsppaket9_id' => 1,
     'hspkodepekerjaan9_id' => 1,
     'kode' => '1.a',
     'subhargadiv9_id' => 1,
+    'subhargadiv9bahan_id' => 1,
+    'subhargadiv9peralatan_id' => 1,
     'jenispekerjaan' => 'Pasangan 1 m Pipa PVC Ø 12,5 mm',
     'satuanmaterial' => 'M1',
     'hargasatuan' => '29354.60',
 ]);
 
 hspkonstruksiumum9::create([
+    'id' => 2,
     'hspdivisi_id' => 9,
     'hsppaket9_id' => 1,
     'hspkodepekerjaan9_id' => 1,
     'kode' => '1.b',
     'subhargadiv9_id' => 2,
+    'subhargadiv9bahan_id' => 2,
+    'subhargadiv9peralatan_id' => 2,
     'jenispekerjaan' => 'Pasangan 1 m Pipa PVC Ø 25 mm',
     'satuanmaterial' => 'M1',
     'hargasatuan' => '39254.60',
 ]);
 
 hspkonstruksiumum9::create([
+    'id' => 3,
     'hspdivisi_id' => 9,
     'hsppaket9_id' => 1,
     'hspkodepekerjaan9_id' => 1,
     'kode' => '1.c',
     'subhargadiv9_id' => 3,
+    'subhargadiv9bahan_id' => 3,
+    'subhargadiv9peralatan_id' => 3,
     'jenispekerjaan' => 'Pasangan 1 m Pipa PVC Ø 37,5 mm',
     'satuanmaterial' => 'M1',
     'hargasatuan' => '53004.60',
 ]);
 
 hspkonstruksiumum9::create([
+    'id' => 4,
     'hspdivisi_id' => 9,
     'hsppaket9_id' => 1,
     'hspkodepekerjaan9_id' => 1,
     'kode' => '1.d',
     'subhargadiv9_id' => 4,
+    'subhargadiv9bahan_id' => 4,
+    'subhargadiv9peralatan_id' => 4,
     'jenispekerjaan' => 'Pasangan 1 m Pipa PVC Ø 50 mm',
     'satuanmaterial' => 'M1',
     'hargasatuan' => '56854.60',
 ]);
 
 hspkonstruksiumum9::create([
+    'id' => 5,
     'hspdivisi_id' => 9,
     'hsppaket9_id' => 1,
     'hspkodepekerjaan9_id' => 1,
     'kode' => '1.e',
     'subhargadiv9_id' => 5,
+    'subhargadiv9bahan_id' => 5,
+    'subhargadiv9peralatan_id' => 5,
     'jenispekerjaan' => 'Pasangan 1 m Pipa PVC Ø 75 mm',
     'satuanmaterial' => 'M1',
     'hargasatuan' => '86004.60',
 ]);
 
 hspkonstruksiumum9::create([
+    'id' => 6,
     'hspdivisi_id' => 9,
     'hsppaket9_id' => 1,
     'hspkodepekerjaan9_id' => 1,
     'kode' => '2.a',
     'subhargadiv9_id' => 6,
+    'subhargadiv9bahan_id' => 6,
+    'subhargadiv9peralatan_id' => 6,
     'jenispekerjaan' => 'Pasangan 1 m Pipa PVC Ø 100 mm',
     'satuanmaterial' => 'M1',
     'hargasatuan' => '200973.30',
 ]);
 
 hspkonstruksiumum9::create([
+    'id' => 7,
     'hspdivisi_id' => 9,
     'hsppaket9_id' => 2,
     'hspkodepekerjaan9_id' => 2,
     'kode' => '1.a',
     'subhargadiv9_id' => 7,
+    'subhargadiv9bahan_id' => 7,
+    'subhargadiv9peralatan_id' => 7,
     'jenispekerjaan' => 'Pasangan 1 m Pipa Galvanis Ø 12,5 mm',
     'satuanmaterial' => 'M1',
     'hargasatuan' => '82788.57',
 ]);
 
 hspkonstruksiumum9::create([
+    'id' => 8,
     'hspdivisi_id' => 9,
     'hsppaket9_id' => 2,
     'hspkodepekerjaan9_id' => 2,
     'kode' => '1.c',
     'subhargadiv9_id' => 8,
+    'subhargadiv9bahan_id' => 8,
+    'subhargadiv9peralatan_id' => 8,
     'jenispekerjaan' => 'Pasangan 1 m Pipa Galvanis Ø 37,5 mm',
     'satuanmaterial' => 'M1',
     'hargasatuan' => '93055.23',
 ]);
 
 hspkonstruksiumum9::create([
+    'id' => 9,
     'hspdivisi_id' => 9,
     'hsppaket9_id' => 2,
     'hspkodepekerjaan9_id' => 2,
     'kode' => '1.d',
     'subhargadiv9_id' => 9,
+    'subhargadiv9bahan_id' => 9,
+    'subhargadiv9peralatan_id' => 9,
     'jenispekerjaan' => 'Pasangan 1 m Pipa Galvanis Ø 50 mm',
     'satuanmaterial' => 'M1',
     'hargasatuan' => '110655.23',
 ]);
 
 hspkonstruksiumum9::create([
+    'id' => 10,
     'hspdivisi_id' => 9,
     'hsppaket9_id' => 2,
     'hspkodepekerjaan9_id' => 2,
     'kode' => '1',
     'subhargadiv9_id' => 10,
+    'subhargadiv9bahan_id' => 10,
+    'subhargadiv9peralatan_id' => 10,
     'jenispekerjaan' => 'Pasangan 1 m Pipa Galvanis Ø 63 mm',
     'satuanmaterial' => 'M1',
     'hargasatuan' => '121838.57',
 ]);
 
 hspkonstruksiumum9::create([
+    'id' => 11,
     'hspdivisi_id' => 9,
     'hsppaket9_id' => 2,
     'hspkodepekerjaan9_id' => 2,
     'kode' => '1.e',
     'subhargadiv9_id' => 11,
+    'subhargadiv9bahan_id' => 11,
+    'subhargadiv9peralatan_id' => 11,
     'jenispekerjaan' => 'Pasangan 1 m Pipa Galvanis Ø 75 mm',
     'satuanmaterial' => 'M1',
     'hargasatuan' => '167121.90',
 ]);
 
 hspkonstruksiumum9::create([
+    'id' => 12,
     'hspdivisi_id' => 9,
     'hsppaket9_id' => 3,
     'hspkodepekerjaan9_id' => 3,
     'kode' => '1.a',
     'subhargadiv9_id' => 12,
+    'subhargadiv9bahan_id' => 12,
+    'subhargadiv9peralatan_id' => 12,
     'jenispekerjaan' => 'Pasangan 1 m Pipa HDPE Ø 12,5 mm',
     'satuanmaterial' => 'M1',
     'hargasatuan' => '21027.60',
 ]);
 
 hspkonstruksiumum9::create([
+    'id' => 13,
     'hspdivisi_id' => 9,
     'hsppaket9_id' => 3,
     'hspkodepekerjaan9_id' => 3,
     'kode' => '1.b',
     'subhargadiv9_id' => 13,
+    'subhargadiv9bahan_id' => 13,
+    'subhargadiv9peralatan_id' => 13,
     'jenispekerjaan' => 'Pasangan 1 m Pipa HDPE Ø 37,5 mm',
     'satuanmaterial' => 'M1',
     'hargasatuan' => '44677.60',
 ]);
 
 hspkonstruksiumum9::create([
+    'id' => 14,
     'hspdivisi_id' => 9,
     'hsppaket9_id' => 3,
     'hspkodepekerjaan9_id' => 3,
     'kode' => '1.c',
     'subhargadiv9_id' => 14,
+    'subhargadiv9bahan_id' => 14,
+    'subhargadiv9peralatan_id' => 14,
     'jenispekerjaan' => 'Pasangan 1 m Pipa HDPE Ø 50 mm',
     'satuanmaterial' => 'M1',
     'hargasatuan' => '53807.60',
 ]);
 
 hspkonstruksiumum9::create([
+    'id' => 15,
     'hspdivisi_id' => 9,
     'hsppaket9_id' => 3,
     'hspkodepekerjaan9_id' => 3,
     'kode' => '1.d',
     'subhargadiv9_id' => 15,
+    'subhargadiv9bahan_id' => 15,
+    'subhargadiv9peralatan_id' => 15,
     'jenispekerjaan' => 'Pasangan 1 m Pipa HDPE Ø 75 mm',
     'satuanmaterial' => 'M1',
     'hargasatuan' => '95827.60',
 ]);
 
 hspkonstruksiumum9::create([
+    'id' => 16,
     'hspdivisi_id' => 9,
     'hsppaket9_id' => 3,
     'hspkodepekerjaan9_id' => 3,
     'kode' => '2',
     'subhargadiv9_id' => 16,
+    'subhargadiv9bahan_id' => 16,
+    'subhargadiv9peralatan_id' => 16,
     'jenispekerjaan' => 'Pasangan 1 m Pipa HDPE Ø 100 mm',
     'satuanmaterial' => 'M1',
     'hargasatuan' => '137661.70',
 ]);
 
 hspkonstruksiumum9::create([
+    'id' => 17,
     'hspdivisi_id' => 9,
     'hsppaket9_id' => 3,
     'hspkodepekerjaan9_id' => 3,
     'kode' => '4',
     'subhargadiv9_id' => 17,
+    'subhargadiv9bahan_id' => 17,
+    'subhargadiv9peralatan_id' => 17,
     'jenispekerjaan' => 'Pasangan 1 m Pipa HDPE  Ø 150 mm',
     'satuanmaterial' => 'M1',
     'hargasatuan' => '277630.10',
 ]);
 
 hspkonstruksiumum9::create([
+    'id' => 18,
     'hspdivisi_id' => 9,
     'hsppaket9_id' => 7,
     'hspkodepekerjaan9_id' => 4,
     'kode' => '1.a',
     'subhargadiv9_id' => 18,
+    'subhargadiv9bahan_id' => 18,
+    'subhargadiv9peralatan_id' => 18,
     'jenispekerjaan' => 'Pasangan 1 Buah Tee galvanish Ø 12,5 mm',
     'satuanmaterial' => 'M1',
     'hargasatuan' => '51608.70',
 ]);
 
 hspkonstruksiumum9::create([
+    'id' => 19,
     'hspdivisi_id' => 9,
     'hsppaket9_id' => 7,
     'hspkodepekerjaan9_id' => 4,
     'kode' => '1.b',
     'subhargadiv9_id' => 19,
+    'subhargadiv9bahan_id' => 19,
+    'subhargadiv9peralatan_id' => 19,
     'jenispekerjaan' => 'Pasangan 1 Buah Valve socket Ø 12,5 mm',
     'satuanmaterial' => 'Buah',
     // 'satuanmaterial' => 'M1',
@@ -8976,125 +9600,162 @@ hspkonstruksiumum9::create([
 ]);
 
 hspkonstruksiumum9::create([
+    'id' => 20,
     'hspdivisi_id' => 9,
     'hsppaket9_id' => 7,
     'hspkodepekerjaan9_id' => 4,
     'kode' => '1.c',
     'subhargadiv9_id' => 20,
+    'subhargadiv9bahan_id' => 20,
+    'subhargadiv9peralatan_id' => 20,
     'jenispekerjaan' => 'Pasangan 1 Buah Clam sadle 2x 1,5 "',
     'satuanmaterial' => 'Buah',
     'hargasatuan' => '73608.70',
 ]);
 
 hspkonstruksiumum9::create([
+    'id' => 21,
     'hspdivisi_id' => 9,
     'hsppaket9_id' => 7,
     'hspkodepekerjaan9_id' => 4,
     'kode' => '1.d',
     'subhargadiv9_id' => 21,
+    'subhargadiv9bahan_id' => 21,
+    'subhargadiv9peralatan_id' => 21,
     'jenispekerjaan' => 'Pasangan 1 Buah Knee galvanish 0,5"',
     'satuanmaterial' => 'Buah',
     'hargasatuan' => '51608.70',
 ]);
 
 hspkonstruksiumum9::create([
+    'id' => 22,
     'hspdivisi_id' => 9,
     'hsppaket9_id' => 7,
     'hspkodepekerjaan9_id' => 4,
     'kode' => '1.e',
     'subhargadiv9_id' => 22,
+    'subhargadiv9bahan_id' => 22,
+    'subhargadiv9peralatan_id' => 22,
     'jenispekerjaan' => 'Pasangan 1 Buah Water moor kuningan 0,5"',
     'satuanmaterial' => 'Buah',
     'hargasatuan' => '54358.70',
 ]);
 
 hspkonstruksiumum9::create([
+    'id' => 23,
     'hspdivisi_id' => 9,
     'hsppaket9_id' => 7,
     'hspkodepekerjaan9_id' => 4,
     'kode' => '1.f',
     'subhargadiv9_id' => 23,
+    'subhargadiv9bahan_id' => 23,
+    'subhargadiv9peralatan_id' => 23,
     'jenispekerjaan' => 'Pasangan 1 Buah Double nippel galvanish 0,5"',
     'satuanmaterial' => 'Buah',
     'hargasatuan' => '51608.70',
 ]);
 
 hspkonstruksiumum9::create([
+    'id' => 24,
     'hspdivisi_id' => 9,
     'hsppaket9_id' => 7,
     'hspkodepekerjaan9_id' => 4,
     'kode' => '1.g',
     'subhargadiv9_id' => 24,
+    'subhargadiv9bahan_id' => 24,
+    'subhargadiv9peralatan_id' => 24,
     'jenispekerjaan' => 'Pasangan 1 Buah Fouket socket galvanish 0,5"',
     'satuanmaterial' => 'Buah',
     'hargasatuan' => '68108.70',
 ]);
 
 hspkonstruksiumum9::create([
+    'id' => 25,
     'hspdivisi_id' => 9,
     'hsppaket9_id' => 7,
     'hspkodepekerjaan9_id' => 4,
     'kode' => '1.h',
     'subhargadiv9_id' => 25,
+    'subhargadiv9bahan_id' => 25,
+    'subhargadiv9peralatan_id' => 25,
     'jenispekerjaan' => 'Pasangan 1 Buah Fouket socket galvanish 0,5"',
     'satuanmaterial' => 'Buah',
     'hargasatuan' => '57108.70',
 ]);
 
 hspkonstruksiumum9::create([
+    'id' => 26,
     'hspdivisi_id' => 9,
     'hsppaket9_id' => 7,
     'hspkodepekerjaan9_id' => 4,
     'kode' => '1.i',
     'subhargadiv9_id' => 26,
+    'subhargadiv9bahan_id' => 26,
+    'subhargadiv9peralatan_id' => 26,
     'jenispekerjaan' => 'Pasangan 1 Buah Fit kran kuningan 0,5"',
     'satuanmaterial' => 'Buah',
     'hargasatuan' => '51608.70',
 ]);
 
 hspkonstruksiumum9::create([
+    'id' => 27,
     'hspdivisi_id' => 9,
     'hsppaket9_id' => 7,
     'hspkodepekerjaan9_id' => 4,
     'kode' => '1.j',
     'subhargadiv9_id' => 27,
+    'subhargadiv9bahan_id' => 27,
+    'subhargadiv9peralatan_id' => 27,
     'jenispekerjaan' => 'Pasangan 1 Buah Bok meter air + Logo',
     'satuanmaterial' => 'Buah',
     'hargasatuan' => '194608.70',
 ]);
 
 hspkonstruksiumum9::create([
+    'id' => 28,
     'hspdivisi_id' => 9,
     'hsppaket9_id' => 7,
     'hspkodepekerjaan9_id' => 4,
     'kode' => '1.k',
     'subhargadiv9_id' => 28,
+    'subhargadiv9bahan_id' => 28,
+    'subhargadiv9peralatan_id' => 28,
     'jenispekerjaan' => 'Pasangan 1 Buah Katup searah kuningan 0,5"',
     'satuanmaterial' => 'Buah',
     'hargasatuan' => '111008.70',
 ]);
 
 hspkonstruksiumum9::create([
+    'id' => 29,
     'hspdivisi_id' => 9,
     'hsppaket9_id' => 7,
     'hspkodepekerjaan9_id' => 4,
     'kode' => '1.l',
     'subhargadiv9_id' => 29,
+    'subhargadiv9bahan_id' => 29,
+    'subhargadiv9peralatan_id' => 29,
     'jenispekerjaan' => 'Pasangan 1 Buah Plug kran kuningan 0,5"',
     'satuanmaterial' => 'Buah',
     'hargasatuan' => '117608.70',
 ]);
 
 hspkonstruksiumum9::create([
+    'id' => 30,
     'hspdivisi_id' => 9,
     'hsppaket9_id' => 7,
     'hspkodepekerjaan9_id' => 4,
     'kode' => '1.m',
     'subhargadiv9_id' => 30,
+    'subhargadiv9bahan_id' => 30,
+    'subhargadiv9peralatan_id' => 30,
     'jenispekerjaan' => 'Pasangan 1 Buah Fouket elbow galvanish 0,5"',
     'satuanmaterial' => 'Buah',
     'hargasatuan' => '51608.70',
 ]);
+
+
+
+// BATAS DATABASE AHSP
 
 paketstatuspekerjaan::create([
     'id' => 1,
