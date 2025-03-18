@@ -722,7 +722,7 @@
             <!--begin::Row-->
             <div class="row">
 
-              <div class="col-sm-6"><h3 class="mb-0">Selamat datang ! {{ Auth::user()->name }} di Dashboard {{ Auth::user()->statusadmin->statusadmin }}  Sistem Informasi Pembina Jasa Konstruksi Kab Blora</h3></div>
+              <div class="col-sm-6"><h3 class="mb-0">Selamat datang ! <span style="color: black; font-weight:800;" > {{ Auth::user()->name }}</span> di Dashboard <span style="color: black; font-weight:800;"> {{ Auth::user()->statusadmin->statusadmin }} </span>  Sistem Informasi Pembina Jasa Konstruksi Kab Blora</h3></div>
 
               <div class="col-sm-6">
                 <ol class="breadcrumb float-sm-end">
