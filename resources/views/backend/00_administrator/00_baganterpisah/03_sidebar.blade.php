@@ -64,29 +64,6 @@
                 </ul>
               </li>
 
-              <li class="nav-item">
-                <a href="#" class="nav-link">
-                  <i class="nav-icon bi bi-speedometer text-success"></i>
-                  <p style="color: white">
-                    Dashboard
-                    <i class="nav-arrow bi bi-chevron-right"></i>
-                  </p>
-                </a>
-                <ul class="nav nav-treeview" style="display: none;">  <!-- Tertutup secara default -->
-                  <li class="nav-item">
-                    <a href="/" target="_blank" class="nav-link">
-                      <i class="nav-icon bi bi-house-door text-warning"></i>
-                      <p style="color: white;">Halaman Web</p>
-                    </a>
-                  </li>
-                  <li class="nav-item">
-                    <a href="/dashboard" class="nav-link">
-                      <i class="nav-icon bi bi-person-lock text-warning"></i>
-                      <p style="color: white">Administrator</p>
-                    </a>
-                  </li>
-                </ul>
-              </li>
 
 
               <li class="nav-header" style="color: white;">BERANDA WEB</li>
