@@ -64,6 +64,31 @@
                 </ul>
               </li>
 
+              <li class="nav-item">
+                <a href="#" class="nav-link">
+                  <i class="nav-icon bi bi-speedometer text-success"></i>
+                  <p style="color: white">
+                    Dashboard
+                    <i class="nav-arrow bi bi-chevron-right"></i>
+                  </p>
+                </a>
+                <ul class="nav nav-treeview" style="display: none;">  <!-- Tertutup secara default -->
+                  <li class="nav-item">
+                    <a href="/" target="_blank" class="nav-link">
+                      <i class="nav-icon bi bi-house-door text-warning"></i>
+                      <p style="color: white;">Halaman Web</p>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="/dashboard" class="nav-link">
+                      <i class="nav-icon bi bi-person-lock text-warning"></i>
+                      <p style="color: white">Administrator</p>
+                    </a>
+                  </li>
+                </ul>
+              </li>
+
+
               <li class="nav-header" style="color: white;">BERANDA WEB</li>
 
               <li class="nav-item">
@@ -596,3 +621,19 @@
         <!--end::Sidebar Wrapper-->
       </aside>
       <!--end::Sidebar-->
+
+      <script>
+        // Toggle sub-menu saat item Dashboard diklik
+        $(".nav-item > a").click(function (e) {
+          // Pastikan kita hanya menampilkan sub-menu yang terkait dengan item yang diklik
+          var $this = $(this).next(".nav-treeview");
+
+          // Cek apakah sub-menu sudah terbuka
+          if ($this.is(":visible")) {
+            $this.slideUp(); // Tutup jika terbuka
+          } else {
+            $(".nav-treeview").slideUp(); // Tutup semua sub-menu lainnya
+            $this.slideDown(); // Buka sub-menu yang diklik
+          }
+        });
+      </script>
