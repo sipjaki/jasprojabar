@@ -183,12 +183,21 @@
                 <li class="user-footer">
                   {{-- <a href="#" class="btn btn-default btn-flat">Profile</a> --}}
                   {{-- <a href="/logout" class="btn btn-default btn-flat float-end">Logout</a> --}}
-                  <form action="{{ url('/logout') }}" method="POST" class="float-end">
+                  <form action="{{ url('/logout') }}" method="POST" class="float-end" style="display: inline-block;">
                     @csrf
-                    <button type="submit" class="btn btn-default btn-flat">
+                    <button type="submit" class="btn btn-default btn-flat logout-btn"
+                            style="background-color: #f8f9fa; color: #000; border: none; padding: 5px 15px; border-radius: 5px; transition: all 0.3s ease;">
                         <i class="bi bi-door-open"></i> Logout
                     </button>
                 </form>
+
+                <style>
+                    .logout-btn:hover {
+                        background-color: red;  /* Warna latar belakang merah saat hover */
+                        color: white;  /* Warna teks putih saat hover */
+                    }
+                </style>
+
 
 
                 </li>
