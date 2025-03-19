@@ -947,7 +947,7 @@
                         </p>
                         <p class="d-flex flex-column text-end">
                           <span class="fw-bold">
-                            <i class="bi bi-graph-up-arrow text-info"></i> {{ $salesRate }}%
+                            <i class="bi bi-graph-up-arrow text-info"></i> {{ $visitCount }}%
                           </span>
                           {{-- <span class="text-secondary">SALES RATE</span> --}}
                         </p>
