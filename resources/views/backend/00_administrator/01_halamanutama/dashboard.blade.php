@@ -662,6 +662,70 @@
                                 alt="Product 1"
                                 class="rounded-circle img-size-32 me-2"
                               />
+                              Satuan Harga Material
+                            </td>
+                            <td>----</td>
+
+                            <td>
+                                <a href="#" class="text-secondary"> <i class="bi bi-search"></i> </a>
+                            </td>
+                          </tr>
+
+                          <tr>
+                            <td>
+                              <img
+                                src="../../assets/icon/pupr.png"
+                                alt="Product 1"
+                                class="rounded-circle img-size-32 me-2"
+                              />
+                              Satuan Harga Upah Tenaga Kerja
+                            </td>
+                            <td>----</td>
+
+                            <td>
+                                <a href="#" class="text-secondary"> <i class="bi bi-search"></i> </a>
+                            </td>
+                          </tr>
+
+                          <tr>
+                            <td>
+                              <img
+                                src="../../assets/icon/pupr.png"
+                                alt="Product 1"
+                                class="rounded-circle img-size-32 me-2"
+                              />
+                              Satuan Harga Peralatan
+                            </td>
+                            <td>----</td>
+
+                            <td>
+                                <a href="#" class="text-secondary"> <i class="bi bi-search"></i> </a>
+                            </td>
+                          </tr>
+
+                          <tr>
+                            <td>
+                              <img
+                                src="../../assets/icon/pupr.png"
+                                alt="Product 1"
+                                class="rounded-circle img-size-32 me-2"
+                              />
+                              SHST Kabupaten Blora
+                            </td>
+                            <td>----</td>
+
+                            <td>
+                                <a href="#" class="text-secondary"> <i class="bi bi-search"></i> </a>
+                            </td>
+                          </tr>
+
+                          <tr>
+                            <td>
+                              <img
+                                src="../../assets/icon/pupr.png"
+                                alt="Product 1"
+                                class="rounded-circle img-size-32 me-2"
+                              />
                               Divisi I Persiapan Pekerjaan
                             </td>
                             <td>----</td>
