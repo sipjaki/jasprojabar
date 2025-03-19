@@ -173,25 +173,21 @@
                   />
                   <p>
                     {{ Auth::user()->name }}
-                    <small style="color: red;">{{ Auth::user()->statusadmin->statusadmin }}</small>
+                    <small style="color: navy;">{{ Auth::user()->statusadmin->statusadmin }}</small>
                   </p>
                 </li>
                 <!--end::User Image-->
                 <!--begin::Menu Body-->
-                <li class="user-body">
-                  <!--begin::Row-->
-                  <div class="row">
-                    <div class="col-4 text-center"><a href="#">Followers</a></div>
-                    <div class="col-4 text-center"><a href="#">Sales</a></div>
-                    <div class="col-4 text-center"><a href="#">Friends</a></div>
-                  </div>
-                  <!--end::Row-->
-                </li>
                 <!--end::Menu Body-->
                 <!--begin::Menu Footer-->
                 <li class="user-footer">
-                  <a href="#" class="btn btn-default btn-flat">Profile</a>
-                  <a href="#" class="btn btn-default btn-flat float-end">Sign out</a>
+                  {{-- <a href="#" class="btn btn-default btn-flat">Profile</a> --}}
+                  {{-- <a href="/logout" class="btn btn-default btn-flat float-end">Logout</a> --}}
+                  <form action="{{ url('/logout') }}" method="POST" class="float-end">
+                    @csrf
+                    <button type="submit" class="btn btn-default btn-flat">Logout</button>
+                </form>
+
                 </li>
                 <!--end::Menu Footer-->
               </ul>
