@@ -185,8 +185,11 @@
                   {{-- <a href="/logout" class="btn btn-default btn-flat float-end">Logout</a> --}}
                   <form action="{{ url('/logout') }}" method="POST" class="float-end">
                     @csrf
-                    <button type="submit" class="btn btn-default btn-flat">Logout</button>
+                    <button type="submit" class="btn btn-default btn-flat">
+                        <i class="bi bi-door-open"></i> Logout
+                    </button>
                 </form>
+
 
                 </li>
                 <!--end::Menu Footer-->
