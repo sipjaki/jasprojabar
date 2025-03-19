@@ -389,7 +389,7 @@
 <div class="row">
     <div class="col-12 col-sm-6 col-md-3">
       <div class="info-box">
-        <span class="info-box-icon text-bg-info shadow-sm"> <!-- Biru untuk Agenda Pelatihan -->
+        <span class="info-box-icon text-bg-success shadow-sm"> <!-- Biru untuk Agenda Pelatihan -->
           <i class="bi bi-calendar-event"></i> <!-- Ikon kalender untuk acara pelatihan -->
         </span>
         <div class="info-box-content">
@@ -407,7 +407,7 @@
 
     <div class="col-12 col-sm-6 col-md-3">
       <div class="info-box">
-        <span class="info-box-icon text-bg-warning shadow-sm"> <!-- Oranye untuk Peserta -->
+        <span class="info-box-icon text-bg-success shadow-sm"> <!-- Oranye untuk Peserta -->
           <i class="bi bi-person-lines-fill"></i> <!-- Ikon orang sekelompok untuk peserta -->
         </span>
         <div class="info-box-content">
@@ -437,7 +437,7 @@
 
     <div class="col-12 col-sm-6 col-md-3">
       <div class="info-box">
-        <span class="info-box-icon text-bg-info shadow-sm"> <!-- Biru untuk Peserta SKK -->
+        <span class="info-box-icon text-bg-success shadow-sm"> <!-- Biru untuk Peserta SKK -->
           <i class="bi bi-person-check-fill"></i> <!-- Ikon orang centang untuk peserta SKK -->
         </span>
         <div class="info-box-content">
