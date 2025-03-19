@@ -165,7 +165,7 @@
               </a>
               <ul class="dropdown-menu dropdown-menu-lg dropdown-menu-end">
                 <!--begin::User Image-->
-                <li class="user-header text-bg-secondary">
+                <li class="user-header text-bg-success">
                   <img
                     src="{{ asset('storage/' . Auth::user()->avatar) }}"
                     class="rounded-circle shadow"
