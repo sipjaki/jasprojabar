@@ -53,7 +53,7 @@
                       </thead>
                       <tbody>
 
-                        @foreach ( as )
+                        @foreach ($data as $item )
 
                         <tr class="align-middle">
                             <td>{{$loop->iterations}}</td>
