@@ -235,14 +235,7 @@
           <div class="container-fluid">
             <!--begin::Row-->
             <div class="row">
-                <div class="col-sm-6"><h3 class="mb-0">Dashboard v2</h3></div>
-                <div class="col-sm-6">
-                  <ol class="breadcrumb float-sm-end">
-                    <li class="breadcrumb-item"><a href="#">Home</a></li>
-                    <li class="breadcrumb-item active" aria-current="page">Dashboard v2</li>
-                  </ol>
-                </div>
-              </div>
+                              </div>
               <!--end::Row-->
             </div>
             <!--end::Container-->
@@ -253,7 +246,8 @@
               <!-- Info boxes -->
 
 {{-- atas  --}}
-              {{-- -------------------------------------------------------- --}}
+
+{{-- -------------------------------------------------------- --}}
               <div class="row">
                 <div class="col-12 col-sm-6 col-md-3">
                   <div class="info-box">
@@ -310,6 +304,75 @@
                     </span>
                     <div class="info-box-content">
                       <span class="info-box-text">BUJK Konstruksi Konsultasi</span>
+                      <span class="info-box-number">2,000</span>
+                    </div>
+                    <!-- /.info-box-content -->
+                  </div>
+                  <!-- /.info-box -->
+                </div>
+                <!-- /.col -->
+              </div>
+              <!-- /.row -->
+
+              {{-- -------------------------------------------------------- --}}
+
+{{-- -------------------------------------------------------- --}}
+              <div class="row">
+                <div class="col-12 col-sm-6 col-md-3">
+                  <div class="info-box">
+                    <span class="info-box-icon text-bg-info shadow-sm"> <!-- Biru muda untuk berita -->
+                      <i class="bi bi-newspaper"></i> <!-- Ikon koran -->
+                    </span>
+                    <div class="info-box-content">
+                      <span class="info-box-text">Asosiasi Konstruksi</span>
+                      <span class="info-box-number">
+                        10
+                        <small>%</small>
+                      </span>
+                    </div>
+                    <!-- /.info-box-content -->
+                  </div>
+                  <!-- /.info-box -->
+                </div>
+                <!-- /.col -->
+
+                <div class="col-12 col-sm-6 col-md-3">
+                  <div class="info-box">
+                    <span class="info-box-icon text-bg-warning shadow-sm"> <!-- Oranye untuk artikel -->
+                      <i class="bi bi-hand-thumbs-up-fill"></i>
+                    </span>
+                    <div class="info-box-content">
+                      <span class="info-box-text">TKK Binaan DPUPR</span>
+                      <span class="info-box-number">41,410</span>
+                    </div>
+                    <!-- /.info-box-content -->
+                  </div>
+                  <!-- /.info-box -->
+                </div>
+                <!-- /.col -->
+
+                <div class="col-12 col-sm-6 col-md-3">
+                  <div class="info-box">
+                    <span class="info-box-icon text-bg-success shadow-sm"> <!-- Hijau untuk konstruksi -->
+                      <i class="bi bi-hammer"></i> <!-- Ikon palu (konstruksi) -->
+                    </span>
+                    <div class="info-box-content">
+                      <span class="info-box-text">TKK Kabupaten Blora</span>
+                      <span class="info-box-number">760</span>
+                    </div>
+                    <!-- /.info-box-content -->
+                  </div>
+                  <!-- /.info-box -->
+                </div>
+                <!-- /.col -->
+
+                <div class="col-12 col-sm-6 col-md-3">
+                  <div class="info-box">
+                    <span class="info-box-icon text-bg-warning shadow-sm"> <!-- Kuning terang untuk konsultasi -->
+                      <i class="bi bi-person-lines-fill"></i> <!-- Ikon orang (konsultasi) -->
+                    </span>
+                    <div class="info-box-content">
+                      <span class="info-box-text">Profil Paket Pekerjaan</span>
                       <span class="info-box-number">2,000</span>
                     </div>
                     <!-- /.info-box-content -->
