@@ -13,6 +13,9 @@ return new class extends Migration
     {
         Schema::create('pagevisits', function (Blueprint $table) {
             $table->id();
+            $table->string('page_url')->unique();
+            $table->integer('visit_count')->default(0);
+            $table->softDeletes();
             $table->timestamps();
         });
     }

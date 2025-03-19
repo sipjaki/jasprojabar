@@ -878,6 +878,8 @@
                   </div>
                   <!-- /.card -->
                 </div>
+
+
                 <!-- /.col-md-6 -->
                 <div class="col-lg-6">
                   <div class="card mb-4">
@@ -912,7 +914,7 @@
                       </div>
                     </div>
                   </div>
-                  <!-- /.card -->
+
                   <div class="card">
                     <div class="card-header border-0">
                       <h3 class="card-title">Statistik Kunjungan Web Mas Jaki Blora</h3>
@@ -923,57 +925,29 @@
                     </div>
 
                     <div class="card-body">
-                      <div
-                        class="d-flex justify-content-between align-items-center border-bottom mb-3"
-                      >
+                      <div class="d-flex justify-content-between align-items-center border-bottom mb-3">
                         <p class="text-success fs-2">
-                          <svg
-                            height="32"
-                            fill="none"
-                            stroke="currentColor"
-                            stroke-width="1.5"
-                            viewBox="0 0 24 24"
-                            xmlns="http://www.w3.org/2000/svg"
-                            aria-hidden="true"
-                          >
-                            <path
-                              stroke-linecap="round"
-                              stroke-linejoin="round"
-                              d="M19.5 12c0-1.232-.046-2.453-.138-3.662a4.006 4.006 0 00-3.7-3.7 48.678 48.678 0 00-7.324 0 4.006 4.006 0 00-3.7 3.7c-.017.22-.032.441-.046.662M19.5 12l3-3m-3 3l-3-3m-12 3c0 1.232.046 2.453.138 3.662a4.006 4.006 0 003.7 3.7 48.656 48.656 0 007.324 0 4.006 4.006 0 003.7-3.7c.017-.22.032-.441.046-.662M4.5 12l3 3m-3-3l-3 3"
-                            ></path>
+                          <svg height="32" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 12c0-1.232-.046-2.453-.138-3.662a4.006 4.006 0 00-3.7-3.7 48.678 48.678 0 00-7.324 0 4.006 4.006 0 00-3.7 3.7c-.017.22-.032.441-.046.662M19.5 12l3-3m-3 3l-3-3m-12 3c0 1.232.046 2.453.138 3.662a4.006 4.006 0 003.7 3.7 48.656 48.656 0 007.324 0 4.006 4.006 0 003.7-3.7c.017-.22.032-.441.046-.662M4.5 12l3 3m-3-3l-3 3"></path>
                           </svg>
                         </p>
                         <p class="d-flex flex-column text-end">
                           <span class="fw-bold">
-                            <i class="bi bi-graph-up-arrow text-success"></i> 12%
+                            <i class="bi bi-graph-up-arrow text-success"></i> {{ $conversionRate }}%
                           </span>
                           {{-- <span class="text-secondary">CONVERSION RATE</span> --}}
                         </p>
                       </div>
                       <!-- /.d-flex -->
-                      <div
-                        class="d-flex justify-content-between align-items-center border-bottom mb-3"
-                      >
+                      <div class="d-flex justify-content-between align-items-center border-bottom mb-3">
                         <p class="text-info fs-2">
-                          <svg
-                            height="32"
-                            fill="none"
-                            stroke="currentColor"
-                            stroke-width="1.5"
-                            viewBox="0 0 24 24"
-                            xmlns="http://www.w3.org/2000/svg"
-                            aria-hidden="true"
-                          >
-                            <path
-                              stroke-linecap="round"
-                              stroke-linejoin="round"
-                              d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z"
-                            ></path>
+                          <svg height="32" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z"></path>
                           </svg>
                         </p>
                         <p class="d-flex flex-column text-end">
                           <span class="fw-bold">
-                            <i class="bi bi-graph-up-arrow text-info"></i> 0.8%
+                            <i class="bi bi-graph-up-arrow text-info"></i> {{ $salesRate }}%
                           </span>
                           {{-- <span class="text-secondary">SALES RATE</span> --}}
                         </p>
@@ -981,31 +955,21 @@
                       <!-- /.d-flex -->
                       <div class="d-flex justify-content-between align-items-center mb-0">
                         <p class="text-danger fs-2">
-                          <svg
-                            height="32"
-                            fill="none"
-                            stroke="currentColor"
-                            stroke-width="1.5"
-                            viewBox="0 0 24 24"
-                            xmlns="http://www.w3.org/2000/svg"
-                            aria-hidden="true"
-                          >
-                            <path
-                              stroke-linecap="round"
-                              stroke-linejoin="round"
-                              d="M18 18.72a9.094 9.094 0 003.741-.479 3 3 0 00-4.682-2.72m.94 3.198l.001.031c0 .225-.012.447-.037.666A11.944 11.944 0 0112 21c-2.17 0-4.207-.576-5.963-1.584A6.062 6.062 0 016 18.719m12 0a5.971 5.971 0 00-.941-3.197m0 0A5.995 5.995 0 0012 12.75a5.995 5.995 0 00-5.058 2.772m0 0a3 3 0 00-4.681 2.72 8.986 8.986 0 003.74.477m.94-3.197a5.971 5.971 0 00-.94 3.197M15 6.75a3 3 0 11-6 0 3 3 0 016 0zm6 3a2.25 2.25 0 11-4.5 0 2.25 2.25 0 014.5 0zm-13.5 0a2.25 2.25 0 11-4.5 0 2.25 2.25 0 014.5 0z"
-                            ></path>
+                          <svg height="32" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M18 18.72a9.094 9.094 0 003.741-.479 3 3 0 00-4.682-2.72m.94 3.198l.001.031c0 .225-.012.447-.037.666A11.944 11.944 0 0112 21c-2.17 0-4.207-.576-5.963-1.584A6.062 6.062 0 016 18.719m12 0a5.971 5.971 0 00-.941-3.197m0 0A5.995 5.995 0 0012 12.75a5.995 5.995 0 00-5.058 2.772m0 0a3 3 0 00-4.681 2.72 8.986 8.986 0 003.74.477m.94-3.197a5.971 5.971 0 00-.94 3.197M15 6.75a3 3 0 11-6 0 3 3 0 016 0zm6 3a2.25 2.25 0 11-4.5 0 2.25 2.25 0 014.5 0zm-13.5 0a2.25 2.25 0 11-4.5 0 2.25 2.25 0 014.5 0z"></path>
                           </svg>
                         </p>
                         <p class="d-flex flex-column text-end">
                           <span class="fw-bold">
-                            <i class="bi bi-graph-down-arrow text-danger"></i>
-                            1%
+                            <i class="bi bi-graph-down-arrow text-danger"></i> {{ $registrationRate }}%
                           </span>
                           {{-- <span class="text-secondary">REGISTRATION RATE</span> --}}
                         </p>
                       </div>
                       <!-- /.d-flex -->
+                    </div>
+                  </div>
+                        <!-- /.d-flex -->
                     </div>
                   </div>
                 </div>
