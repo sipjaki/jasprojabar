@@ -1,48 +1,33 @@
 <?php
 
-
 use App\Http\Controllers\AdminDashboardController;
 use App\Http\Controllers\DatajakonController;
 use App\Http\Controllers\FedashboardController;
 use App\Http\Controllers\AgendaskkController;
-use App\Http\Controllers\GiskbbController;
-use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\LoginController;
-use App\Http\Controllers\PelatihanController;
 use App\Http\Controllers\PeraturanController;
-use App\Http\Controllers\SkktenagakerjaController;
 use App\Http\Controllers\StrukturController;
-use App\Http\Controllers\UijkController;
 use App\Http\Controllers\AdministratorController;
-use App\Http\Controllers\BeritaController;
 use App\Http\Controllers\SettingmenuController;
-use App\Http\Controllers\TertibjakonController;
 use App\Http\Controllers\BujkkontraktorController;
 use App\Http\Controllers\BujkkonsultanController;
 use App\Http\Controllers\DatastatistikajakonbloraController;
 use App\Http\Controllers\SkktenagakerjabloraController;
-use App\Http\Controllers\ProfilpaketpekerjaanbloraController;
-use App\Http\Controllers\ProfilpaketpekerjaannontenderController;
-use App\Http\Controllers\ProfilpaketkonsultasiController;
-use App\Http\Controllers\ProfilpaketkonsultasinontenderController;
 use App\Http\Controllers\PembinaanController;
 use App\Http\Controllers\PengawasanbujkController;
 use App\Http\Controllers\KecelakaankerjamasjakiController;
 use App\Http\Controllers\TertibjasakonstruksiController;
 use App\Http\Controllers\RantaipasokbloraController;
 use App\Http\Controllers\TokobangunanbloraController;
-use App\Http\Controllers\UndangundangController;
 use App\Http\Controllers\ShstbloraController;
-use App\Http\Controllers\HspkonstruksiumumController;
 use App\Http\Controllers\SatuanhargamaterialController;
 use App\Http\Controllers\BeritajakonController;
 use App\Http\Controllers\KritikdansaranController;
 use App\Http\Controllers\AllskktenagakerjabloraController;
 use App\Http\Controllers\PaketpekerjaanmasjakiController;
+// MAS JAKI
 
 // atas
-use Database\Factories\DatajakonFactory;
-use Database\Factories\SkktenagakerjaFactory;
 use Illuminate\Support\Facades\Route;
 
 
@@ -59,24 +44,11 @@ use Illuminate\Support\Facades\Auth;
 |
 */
 
-// ------------------------- FRONTEND HALAMAN UTAMA SIPJAKI BANDUNG BARAT --------------------------
-
+// ------------------------- FRONTEND HALAMAN UTAMA MAS JAKI BLORA  --------------------------
+// ==========================================================================================================================================
+// ---------------------- BAGIAN 01 BERANDA HALAMAN DEPAN -----------------------//
+// ==========================================================================================================================================
 Route::get('/', [FedashboardController::class, 'index']);
-// Route::post('/qapertanyaanstore', [FedashboardController::class, 'createbarustorepertanyaan'])->middleware('auth')->name('create.storeqapertanyaanbaru');
-// Route::post('/qapertanyaanstorebaru', [FedashboardController::class, 'createstorepertanyaanpublik'])->middleware('auth')->name('createpertanyaanstorebaru');
-// Route::post('/qapertanyaanstorebaru', [AdministratorController::class, 'createstorepertanyaanpublik'])->name('createpertanyaanstorebaru');
-
-
-
-
-
-
-Route::get('/percobaankamera', function () {
-    // return view('welcome');
-    return view('percobaankamera', [
-        'title' => 'percobaan',
-    ]);
-});
 
 Route::get('/404', function () {
     // return view('welcome');
@@ -85,53 +57,154 @@ Route::get('/404', function () {
     ]);
 });
 
-Route::get('/bahan2', function () {
-    // return view('welcome');
-    return view('frontend.00_full.bahan2');
-});
+Route::get('/kritikdansaran', [KritikdansaranController::class, 'index']);
 
-// ---------------------- 01 PROFIL FRONTEND SIPJAKI KBB -----------------------//
-// -------- BAGIAN 1 ---------------------------------
+// ==========================================================================================================================================
+// ---------------------- BAGIAN 02 KELEMBAGAAN FRONTEND -----------------------//
+// ==========================================================================================================================================
+// ---------------------- MENU 1-----------------------------------------------------
 Route::get('/profil/struktur', [StrukturController::class, 'strukturdpuprkabblora']);
+// ___________________________________________________________________________________________________________________________________
 
-// =============================================================================================
-// -------- BAGIAN 2 ---------------------------------
+// ---------------------- MENU 2-----------------------------------------------------
 Route::get('/profil/rencanastrategis', [StrukturController::class, 'rencanastrategisdpuprkabblora']);
+// ___________________________________________________________________________________________________________________________________
 
-// =============================================================================================
-// -------- BAGIAN 3 ---------------------------------
+// ---------------------- MENU 2-----------------------------------------------------
 Route::get('/profil/tupoksi', [StrukturController::class, 'tupoksifekbb']);
+// ___________________________________________________________________________________________________________________________________
 
 
-// ------------------------- 02 BAGIAN BERITA SIPJAKI KBB --------------------------
-// -------- BAGIAN 1 TAMPILAN BERITA ---------------------------------
-Route::get('/berita', [FedashboardController::class, 'navbarberita']);
-Route::get('/portalberita/{judul}', [FedashboardController::class, 'portalberitashowByJudul']);
+// ==========================================================================================================================================
+// ---------------------- BAGIAN 03 BERITA FRONTEND -----------------------//
+// ==========================================================================================================================================
+// ---------------------- MENU PERATURAN -----------------------------------------------------
+// -------- BAGIAN 1 ---------------------------------
+Route::get('/peraturan/undangundang', [PeraturanController::class, 'feundangundang']);
+Route::get('/peraturan/undangundang/{judul}', [PeraturanController::class, 'undangundangshowByJudul']);
+// ___________________________________________________________________________________________________________________________________
 
-// -------- BAGIAN 2 KEGIATAN SERTIFIKASI SIPJAKI KABUPATEN BANDUNG BARAT ---------------------------------
-Route::get('/kegiatansertifikasi', [FedashboardController::class, 'kegiatansertifikasi']);
-Route::get('/kegiatansertifikasi/{judul_kegiatan}', [FedashboardController::class, 'kegiatansertifikasishowByJudul']);
-Route::get('/detailskegiatan/{jabatan}', [FedashboardController::class, 'detailskegiatanshowByJudul']);
+// -------- BAGIAN 2 ---------------------------------
+Route::get('/peraturan/pemerintah', [PeraturanController::class, 'fepemerintah']);
+Route::get('/peraturan/pemerintah/{judul}', [PeraturanController::class, 'pemerintahshowByJudul']);
+// ___________________________________________________________________________________________________________________________________
 
-// -------- BAGIAN 3 AGENDA SERTIFIKASI ---------------------------------
-Route::get('/feagendasertifikasi', [FedashboardController::class, 'feagendasertifikasipekerja']);
+// -------- BAGIAN 3 ---------------------------------
+Route::get('/peraturan/presiden', [PeraturanController::class, 'fepresiden']);
+Route::get('/peraturan/presiden/{judul}', [PeraturanController::class, 'presidenshowByJudul']);
+// ___________________________________________________________________________________________________________________________________
 
-// ---------------------- 03 DATA JAKON BUJK KONTRAKTOR-----------------------//
-// BUAT BARU UNTUK APLIKASI MAS JAKI DATA JAKON BLORA
+// -------- BAGIAN 4 ---------------------------------
+Route::get('/peraturan/menteri', [PeraturanController::class, 'fementeri']);
+Route::get('/peraturan/menteri/{judul}', [PeraturanController::class, 'fementerishowByJudul']);
+// ___________________________________________________________________________________________________________________________________
+
+// -------- BAGIAN 5 ---------------------------------
+Route::get('/peraturan/keputusanmenteri', [PeraturanController::class, 'feskmenteri']);
+Route::get('/peraturan/keputusanmenteri/{judul}', [PeraturanController::class, 'feskmenterishowByJudul']);
+// ___________________________________________________________________________________________________________________________________
+
+// -------- BAGIAN 6 ---------------------------------
+Route::get('/peraturan/suratedaranmenteri', [PeraturanController::class, 'suratedaranmenteri']);
+Route::get('/peraturan/suratedaranmenteri/{judul}', [PeraturanController::class, 'suratedaranmenterishowByJudul']);
+// ___________________________________________________________________________________________________________________________________
+
+// -------- BAGIAN 7 ---------------------------------
+Route::get('/peraturan/referensi', [PeraturanController::class, 'fereferensi']);
+Route::get('/peraturan/referensi/{judul}', [PeraturanController::class, 'referensishowByJudul']);
+// ___________________________________________________________________________________________________________________________________
+
+// -------- BAGIAN 8 ---------------------------------
+Route::get('/peraturan/daerah', [PeraturanController::class, 'feperdaerah']);
+Route::get('/peraturan/daerah/{judul}', [PeraturanController::class, 'feperdaerahshowByJudul']);
+// ___________________________________________________________________________________________________________________________________
+
+// -------- BAGIAN 9 ---------------------------------
+Route::get('/peraturan/peraturangubernur', [PeraturanController::class, 'feperaturangubernur']);
+Route::get('/peraturan/gubernur/{judul}', [PeraturanController::class, 'gubernurshowByJudul']);
+// ___________________________________________________________________________________________________________________________________
+
+// -------- BAGIAN 10 ---------------------------------
+Route::get('/peraturan/walikotadanbupati', [PeraturanController::class, 'feperbupatiwalikota']);
+Route::get('/peraturan/walikotadanbupati/{judul}', [PeraturanController::class, 'feperbupatiwalikotashowByJudul']);
+// ___________________________________________________________________________________________________________________________________
+
+// -------- BAGIAN 11 ---------------------------------
+Route::get('/peraturan/suratkeputusan', [PeraturanController::class, 'fesuratkeputusan']);
+Route::get('/peraturan/suratkeputusan/{judul}', [PeraturanController::class, 'fesuratkeputusanshowByJudul']);
+// ___________________________________________________________________________________________________________________________________
+
+// -------- STANDAR BIAYA UMUM ---------------------------------
+Route::get('/standarbiayaumummasjaki', [DatajakonController::class, 'newstandarbiayaumum']);
+Route::get('/standarbiayaumummasjaki/{judul}', [DatajakonController::class, 'standarbiayaumumshowbyjudul']);
+Route::get('/standarbiayaumumsbu1/{judul}', [DatajakonController::class, 'standarbiayaumumshowbyjudul1']);
+Route::get('/standarbiayaumumsbu2/{judul}', [DatajakonController::class, 'standarbiayaumumshowbyjudul2']);
+Route::get('/standarbiayaumumsbu3/{judul}', [DatajakonController::class, 'standarbiayaumumshowbyjudul3']);
+
+Route::get('/datajakon/fesbulampiran3', [DatajakonController::class, 'fesbulampiran3']);
+Route::get('/datajakon/fesbulampiran3/{judul}', [DatajakonController::class, 'fesbulampiran3showbyjudulfe']);
+
+Route::get('/datajakon/fesbulampiran2', [DatajakonController::class, 'fesbulampiran2']);
+Route::get('/datajakon/fesbulampiran2/{judul}', [DatajakonController::class, 'fesbulampiran2showbyjudulfe']);
+
+Route::get('/datajakon/fesbulampiran1', [DatajakonController::class, 'fesbulampiran1']);
+Route::get('/datajakon/fesbulampiran1/{judul}', [DatajakonController::class, 'fesbulampiran1showbyjudulfe']);
+// ___________________________________________________________________________________________________________________________________
+
+
+// ---------------------- MENU 2 BERITA JAKON -----------------------------------------------------
+Route::get('/beritajakon', [BeritajakonController::class, 'index']);
+Route::get('/beritajakon/{judulberita}', [BeritajakonController::class, 'showjudulberita']);
+// ___________________________________________________________________________________________________________________________________
+
+// ---------------------- MENU 3 ARTIKEL JAKON -----------------------------------------------------
+Route::get('/artikeljakon', [BeritajakonController::class, 'artikeljakon']);
+Route::get('/artikeljakon/{judul}', [BeritajakonController::class, 'artikeljakonshow']);
+// ___________________________________________________________________________________________________________________________________
+
+
+// ==========================================================================================================================================
+// ---------------------- BAGIAN 04 DATA JAKON  -----------------------//
+// ==========================================================================================================================================
+// ---------------------- MENU DATA BUJK KONTRAKTOR DAN KONSULTAN  -----------------------//
+// ==========================================================================================================================================
+
+// ---------------------- MENU 1 BUJK KONTRAKTOR -----------------------------------------------------
+Route::get('/datajakon/bujkkontraktor', [BujkkontraktorController::class, 'bujkkontraktor'])->name('bujkkontraktor');
+Route::get('/datajakon/bujkkontraktor/{namalengkap}', [BujkkontraktorController::class, 'bujkkontraktorshow']);
+// ___________________________________________________________________________________________________________________________________
+
+// ---------------------- MENU 2 BUJK KONSULTAN -----------------------------------------------------
+Route::get('/datajakon/bujkkonsultan', [BujkkonsultanController::class, 'bujkkonsultan']);
+Route::get('/datajakon/bujkkonsultan/{namalengkap}', [BujkkonsultanController::class, 'bujkkonsultanshow']);
+// ___________________________________________________________________________________________________________________________________
+
+// ---------------------- MENU 3 ASOSIASI MASJAKI  -----------------------------------------------------
 Route::get('/datajakon/bujk', [BujkkontraktorController::class, 'index']);
 Route::get('/datajakon/asosiasimasjaki', [BujkkontraktorController::class, 'asosiasimasjaki']);
 Route::get('/datajakon/asosiasikonstruksi/{namaasosiasi}', [BujkkontraktorController::class, 'asosiasikonstruksishow']);
 Route::get('/datajakon/asosiasikonsultan/{namaasosiasi}', [BujkkontraktorController::class, 'asosiasikonsultanshow']);
+// ___________________________________________________________________________________________________________________________________
 
-Route::get('/datajakon/bujkkontraktor', [BujkkontraktorController::class, 'bujkkontraktor'])->name('bujkkontraktor');
-Route::get('/datajakon/bujkkontraktor/{namalengkap}', [BujkkontraktorController::class, 'bujkkontraktorshow']);
-
-// BUAT BARU UNTUK APLIKASI MAS JAKI DATA JAKON BLORA BUJK KONSULTAN
-Route::get('/datajakon/bujkkonsultan', [BujkkonsultanController::class, 'bujkkonsultan']);
-Route::get('/datajakon/bujkkonsultan/{namalengkap}', [BujkkonsultanController::class, 'bujkkonsultanshow']);
-
-// BUAT BARU UNTUK APLIKASI MAS JAKI DATA JAKON DATA STATISTIKA
+// ---------------------- MENU 4 DATA STATISTIK BUJK   -----------------------------------------------------
 Route::get('/datajakon/statistikabujkblora', [DatastatistikajakonbloraController::class, 'databujk']);
+// ___________________________________________________________________________________________________________________________________
+
+// ---------------------- MENU DATA TENAGA KERJA KONSTRUKSI  -----------------------//
+// ==========================================================================================================================================
+
+// ---------------------- MENU 1 SKK TENAGA KERJA DPUPR  -----------------------------------------------------
+Route::get('/datajakon/skktenagakerja', [SkktenagakerjabloraController::class, 'index']);
+Route::get('/datajakon/skktenagakerjablora', [SkktenagakerjabloraController::class, 'listskktenagakerjablora']);
+Route::get('/datajakon/skktenagakerjablora/{nama}', [SkktenagakerjabloraController::class, 'listskktenagakerjablorashow']);
+// ___________________________________________________________________________________________________________________________________
+
+// ---------------------- MENU 2 SEMUA SKK TENAGA KERJA   -----------------------------------------------------
+Route::get('/datajakon/skktenagakerjabloralist', [SkktenagakerjabloraController::class, 'datalistskktenagakerjablora']);
+Route::get('/datajakon/skktenagakerjabloralist/{nama}', [SkktenagakerjabloraController::class, 'datalistskktenagakerjablorashow']);
+// ___________________________________________________________________________________________________________________________________
+
+// ---------------------- MENU 3 DATA STATISTIKA   -----------------------------------------------------
 Route::get('/datajakon/statistikaskktenagakerjablora', [DatastatistikajakonbloraController::class, 'statistikaskktenagakerjablora']);
 Route::get('/datajakon/statistikaskktenagakerjabloralist', [DatastatistikajakonbloraController::class, 'datastatistikaskktenagakerjablora']);
 
@@ -144,112 +217,118 @@ Route::get('/datajakon/statistikdatajenjang6', [DatastatistikajakonbloraControll
 Route::get('/datajakon/statistikdatajenjang7', [DatastatistikajakonbloraController::class, 'datajenjang7']);
 Route::get('/datajakon/statistikdatajenjang8', [DatastatistikajakonbloraController::class, 'datajenjang8']);
 Route::get('/datajakon/statistikdatajenjang9', [DatastatistikajakonbloraController::class, 'datajenjang9']);
+// ___________________________________________________________________________________________________________________________________
 
-// BUAT BARU UNTUK APLIKASI DATA SKK TENAGA KERJA BLORA
-Route::get('/datajakon/skktenagakerja', [SkktenagakerjabloraController::class, 'index']);
-Route::get('/datajakon/skktenagakerjablora', [SkktenagakerjabloraController::class, 'listskktenagakerjablora']);
-Route::get('/datajakon/skktenagakerjablora/{nama}', [SkktenagakerjabloraController::class, 'listskktenagakerjablorashow']);
+// ---------------------- MENU DATA PROFIL PAKET PEKERJAAN  -----------------------//
+// ==========================================================================================================================================
 
-Route::get('/datajakon/skktenagakerjabloralist', [SkktenagakerjabloraController::class, 'datalistskktenagakerjablora']);
-Route::get('/datajakon/skktenagakerjabloralist/{nama}', [SkktenagakerjabloraController::class, 'datalistskktenagakerjablorashow']);
-
-// BUAT BARU UNTUK APLIKASI PROFIL PAKET PEKERJAAN
-// Route::get('/datajakon/datapaketpekerjaanblora', [ProfilpaketpekerjaanbloraController::class, 'index']);
-// =--
+// ---------------------- MENU 1 PROFIL PAKET PEKERJAAN   -----------------------------------------------------
 Route::get('/datajakon/profilpaketpekerjaan', [PaketpekerjaanmasjakiController::class, 'paketpekerjaanmasjaki']);
 Route::get('/datajakon/profilpaketpekerjaan/{namapekerjaan}', [PaketpekerjaanmasjakiController::class, 'paketpekerjaanshow']);
-// =--
-// Route::get('/datajakon/paketpekerjaannontender', [ProfilpaketpekerjaannontenderController::class, 'paketpekerjaannontender']);
-// Route::get('/datajakon/paketpekerjaannontender/{namapekerjaan}', [ProfilpaketpekerjaannontenderController::class, 'paketpekerjaannontendershow']);
-// // =--
-// Route::get('/datajakon/paketkonsultasitender', [ProfilpaketkonsultasiController::class, 'paketkonsultasi']);
-// Route::get('/datajakon/paketkonsultasitender/{namapekerjaan}', [ProfilpaketkonsultasiController::class, 'paketkonsultasishow']);
-// // =--
-// Route::get('/datajakon/paketkonsultasinontender', [ProfilpaketkonsultasinontenderController::class, 'paketkonsultasinontender']);
-// Route::get('/datajakon/paketkonsultasinontender/{namapekerjaan}', [ProfilpaketkonsultasinontenderController::class, 'paketkonsultasinontendershow']);
+// ___________________________________________________________________________________________________________________________________
 
-// ---------------------- 05 DATA JAKON BUJK KONTRAKTOR-----------------------//
-// ------------- HALAMAN AGENDA PEMBINAAN MAS JAKI BLORA -----------------
+
+// ==========================================================================================================================================
+// ---------------------- BAGIAN 05 PEMBINAA  -----------------------//
+// ==========================================================================================================================================
+// ---------------------- MENU 1 AGENDA PELATIHAN  -----------------------------------------------------
 Route::get('/agendapembinaan', [PembinaanController::class, 'index']);
 Route::get('/agendapembinaan/{namakegiatan}', [PembinaanController::class, 'namakegiatandaftar']);
+// ___________________________________________________________________________________________________________________________________
+
+// ---------------------- MENU 2 DAFTAR PESERTA PELATIHAN  -----------------------------------------------------
 Route::get('/daftarpesertapelatihan', [PembinaanController::class, 'daftarpesertapelatihan']);
 Route::get('/daftarpesertapelatihans/{namakegiatan}', [PembinaanController::class, 'daftarpesertapelatihanshow']);
+// ___________________________________________________________________________________________________________________________________
 
-// ------------- HALAMAN AGENDA SKK MAS JAKI BLORA -----------------
+// ---------------------- MENU 3 DAFTAR SKK BIMBINGAN TEKNIS  -----------------------------------------------------
 Route::get('/agendaskk', [AgendaskkController::class, 'index']);
 Route::get('/agendaskk/{namakegiatan}', [AgendaskkController::class, 'daftaragendaskk']);
+// ___________________________________________________________________________________________________________________________________
+
+// ---------------------- MENU 4 DAFTAR PESERTA SKK -----------------------------------------------------
 Route::get('/daftarpesertaskk', [AgendaskkController::class, 'daftarpesertaskk']);
 Route::get('/daftarpesertaskks/{namakegiatan}', [AgendaskkController::class, 'daftarpesertaskkshow']);
+// _______ ALTERNATIF DATA YANG SUDAH DI BUATKAN ____________________________________________________________________________________________________________________________
+Route::get('/skktenagakerjablora', [AllskktenagakerjabloraController::class, 'index']);
+Route::get('/daftarskkblora/{nik}', [AllskktenagakerjabloraController::class, 'skktenagakerjablorashow']);
+// ___________________________________________________________________________________________________________________________________
 
-// ---------------------- 06 PENGAWASAN BUJK MAS JAKI -----------------------//
-// ------------- HALAMAN AGENDA PENGAWASAN BUJK -----------------
+// ==========================================================================================================================================
+// ---------------------- BAGIAN 06 PENGAWASAN  -----------------------//
+// ==========================================================================================================================================
+// ---------------------- MENU TERTIB JASA KONSTRUKSI  -----------------------//
+// ==========================================================================================================================================
+
+// ---------------------- MENU 1 TERTIB JAKON USAHA -----------------------------------------------------
+Route::get('/tertibjasakonstruksilist', [TertibjasakonstruksiController::class, 'tertibjasakonstruksilist']);
+Route::get('/tertibjasakonstruksilist/{namabadanusaha}', [TertibjasakonstruksiController::class, 'tertibjasakonstruksishow']);
+// ___________________________________________________________________________________________________________________________________
+
+// ---------------------- MENU 2 TERTIB JAKON PEMANFAATAN -----------------------------------------------------
+Route::get('/tertibjasakonstruksipemanfaatan', [TertibjasakonstruksiController::class, 'tertibjasakonstruksipemanfaatan']);
+Route::get('/tertibjasakonstruksipemanfaatan/{namabangunan}', [TertibjasakonstruksiController::class, 'tertibjasakonstruksipemanfaatanshow']);
+// ___________________________________________________________________________________________________________________________________
+
+// ---------------------- MENU 3 TERTIB JAKON PENYELENGGARAAN -----------------------------------------------------
+Route::get('/tertibjasakonstruksipenyelenggaraan', [TertibjasakonstruksiController::class, 'tertibjasakonstruksipenyelenggaraan']);
+Route::get('/tertibjasakonstruksipenyelenggaraan/{kegiatankonstruksi}', [TertibjasakonstruksiController::class, 'tertibjasakonstruksipenyelenggaraanshow']);
+// ___________________________________________________________________________________________________________________________________
+
+// ---------------------- MENU 4 DATA STATISTIKA JAKON BLORA  -----------------------------------------------------
+Route::get('/statistiktertibjakonblora', [DatastatistikajakonbloraController::class, 'tertibjakonblora']);
+// ___________________________________________________________________________________________________________________________________
+
+
+
+// ---------------------- MENU PENGAWASAN BUJK  -----------------------//
+// ==========================================================================================================================================
 Route::get('/pengawasanbujk', [PengawasanbujkController::class, 'index']);
 Route::get('/pengawasanbujkshow/{namaperusahaan}', [PengawasanbujkController::class, 'bujkpengwasanshowmasjaki']);
+// ___________________________________________________________________________________________________________________________________
 
-// ------------- HALAMAN AGENDA PENGAWASAN BUJK -----------------
+// ---------------------- MENU KECELAKAAN KERJA  -----------------------//
+// ==========================================================================================================================================
+
+// ---------------------- MENU 1 DATA KECELAKAAN KERJA -----------------------------------------------------
 Route::get('/kecelakaankerja', [KecelakaankerjamasjakiController::class, 'index']);
 Route::get('/kecelakaankerjalist', [KecelakaankerjamasjakiController::class, 'kecelakaankerjalist']);
 Route::get('/kecelakaankerjalist/{namapaketpekerjaan}', [KecelakaankerjamasjakiController::class, 'kecelakaankerjashow']);
+// ___________________________________________________________________________________________________________________________________
 
-// ------------- HALAMAN AGENDA TERTIB JASA KONSTRUKSI MAS JAKI -----------------
-Route::get('/tertibjasakonstruksi', [TertibjasakonstruksiController::class, 'index']);
+// ---------------------- MENU 2 DATA STATISTIKA KECELAKAAN KERJA -----------------------------------------------------
 
-// TERTIB USAHA JASA KONSTRUKSI MAS JAKI BLORA
-Route::get('/tertibjasakonstruksilist', [TertibjasakonstruksiController::class, 'tertibjasakonstruksilist']);
-Route::get('/tertibjasakonstruksilist/{namabadanusaha}', [TertibjasakonstruksiController::class, 'tertibjasakonstruksishow']);
-
-// Route::get('/tertibjasakonstruksiusaha/pu', [TertibjasakonstruksiController::class, 'tertibjasakonstruksiusahapu']);
-// Route::get('/tertibjasakonstruksiusaha/nonpu', [TertibjasakonstruksiController::class, 'tertibjasakonstruksiusahanonpu']);
-// Route::get('/tertibjasakonstruksiusaha/swasta', [TertibjasakonstruksiController::class, 'tertibjasakonstruksiusahaswasta']);
-
-// TERTIB PEMANFAATAN JASA KONSTRUKSI MAS JAKI BLORA
-Route::get('/tertibjasakonstruksipemanfaatan', [TertibjasakonstruksiController::class, 'tertibjasakonstruksipemanfaatan']);
-Route::get('/tertibjasakonstruksipemanfaatan/{namabangunan}', [TertibjasakonstruksiController::class, 'tertibjasakonstruksipemanfaatanshow']);
-
-// Route::get('/tertibjakonpemanfaatan/pu', [TertibjasakonstruksiController::class, 'tertibjasakonstruksipemanfaatanpu']);
-// Route::get('/tertibjakonpemanfaatan/nonpu', [TertibjasakonstruksiController::class, 'tertibjasakonstruksipemanfaatannonpu']);
-// Route::get('/tertibjakonpemanfaatan/swasta', [TertibjasakonstruksiController::class, 'tertibjasakonstruksipemanfaatanswasta']);
-
-// TERTIB PENYELENGGARAAN JASA KONSTRUKSI MAS JAKI BLORA
-Route::get('/tertibjasakonstruksipenyelenggaraan', [TertibjasakonstruksiController::class, 'tertibjasakonstruksipenyelenggaraan']);
-Route::get('/tertibjasakonstruksipenyelenggaraan/{kegiatankonstruksi}', [TertibjasakonstruksiController::class, 'tertibjasakonstruksipenyelenggaraanshow']);
-
-// Route::get('/tertibjakonpenyelenggaraan/pu', [TertibjasakonstruksiController::class, 'tertibjasakonstruksipenyelenggaraanpu']);
-// Route::get('/tertibjakonpenyelenggaraan/nonpu', [TertibjasakonstruksiController::class, 'tertibjasakonstruksipenyelenggaraannonpu']);
-// Route::get('/tertibjakonpenyelenggaraan/swasta', [TertibjasakonstruksiController::class, 'tertibjasakonstruksipenyelenggaraanswasta']);
-
-// DATA STATITIK TERTIB JAKON MAS JAKI BLORA
-// ==========================================================================================================
-Route::get('/statistiktertibjakonblora', [DatastatistikajakonbloraController::class, 'tertibjakonblora']);
-Route::get('/statistiktertibusahajakon', [DatastatistikajakonbloraController::class, 'statistiktertibusahajakon']);
-
-// DATA RANTAI PASOK MATERIAL BANGUNAN GEDUNG JAKON MAS JAKI BLORA
-// ==========================================================================================================
-Route::get('/rantaipasokmaterial', [RantaipasokbloraController::class, 'index']);
-Route::get('/rantaipasokmaterial/{distributor}', [RantaipasokbloraController::class, 'rantaipasokblorashow']);
-Route::get('/peralatankonstruksi', [RantaipasokbloraController::class, 'peralatankonstruksi']);
-Route::get('/peralatankonstruksi/{namabadanusaha}', [RantaipasokbloraController::class, 'peralatankonstruksishow']);
+// ___________________________________________________________________________________________________________________________________
 
 
-// DATA TOKO BANGUNAN KAB BLORA MAS JAKI BLORA
-// ==========================================================================================================
-Route::get('/tokobangunanblora', [TokobangunanbloraController::class, 'index']);
-Route::get('/tokobangunanblora/{kecamatanblora}', [TokobangunanbloraController::class, 'tokobangunanblorashow']);
-Route::get('/tokobangunanbloralist/{namatokobangunan}', [TokobangunanbloraController::class, 'tokobangunanbloralistdetails']);
+// ==========================================================================================================================================
+// ---------------------- BAGIAN 07 AHSP HARGA KONSTRUKSI   -----------------------//
+// ==========================================================================================================================================
 
-// ==========================================================================================================
-// Route::get('/tokobangunanblora', [TokobangunanbloraController::class, 'index']);
-// Route::get('/tokobangunanblora/{kecamatanblora}', [TokobangunanbloraController::class, 'tokobangunanblorashow']);
+// ---------------------- MENU AHSP KECIPTAKARYAAN  -----------------------//
+// ==========================================================================================================================================
+
+// ---------------------- MENU SATUAN HARGA DASAR  -----------------------//
+// ==========================================================================================================================================
 
 
-// AHSP HARGA SATUAN DASAR MATERIAL PERALATAN DAN BAHAN
-// ==============================================================================================================
+// ---------------------- MENU 1 SATUAN HARGA DASAR MATERIAL  -----------------------------------------------------
 Route::get('/satuanhargamaterial', [SatuanhargamaterialController::class, 'index']);
-Route::get('/satuanhargaupahtenaga', [SatuanhargamaterialController::class, 'satuanhargaupah']);
-Route::get('/satuanhargaperalatan', [SatuanhargamaterialController::class, 'satuanhargaperalatan']);
+// ___________________________________________________________________________________________________________________________________
 
-// AHSP HARGA SATUAN DASAR PERDIVISI
-// ==============================================================================================================
+// ---------------------- MENU 2 SATUAN HARGA DASAR UPAH TENAGA KERJA  -----------------------------------------------------
+Route::get('/satuanhargaupahtenaga', [SatuanhargamaterialController::class, 'satuanhargaupah']);
+// ___________________________________________________________________________________________________________________________________
+
+// ---------------------- MENU 3 SATUAN HARGA DASAR PERALATAN  -----------------------------------------------------
+Route::get('/satuanhargaperalatan', [SatuanhargamaterialController::class, 'satuanhargaperalatan']);
+// ___________________________________________________________________________________________________________________________________
+
+
+// ---------------------- HSP KONSTRUKSI UMUM  -----------------------//
+// ==========================================================================================================================================
+// ---------------------- MENU HSP DIVISI 1 SAMPAI 9 -----------------------------------------------------
+
 Route::get('/hspdivisi1', [SatuanhargamaterialController::class, 'hspdivisi1']);
 Route::get('/satuanhargadivisi1/{id}', [SatuanhargamaterialController::class, 'hspdivisi1show']);
 
@@ -276,169 +355,48 @@ Route::get('/satuanhargadivisi8/{id}', [SatuanhargamaterialController::class, 'h
 
 Route::get('/hspdivisi9', [SatuanhargamaterialController::class, 'hspdivisi9']);
 Route::get('/satuanhargadivisi9/{id}', [SatuanhargamaterialController::class, 'hspdivisi9show']);
+// ___________________________________________________________________________________________________________________________________
 
-
-
-// DATA SHST BLORA
-// ==========================================================================================================
-Route::get('/kritikdansaran', [KritikdansaranController::class, 'index']);
-// Route::get('/shstblora/{kecamatanblora}', [TokobangunanbloraController::class, 'tokobangunanblorashow']);
-// fort
-
-// DATA SHST BLORA
-// ==========================================================================================================
+// ---------------------- MENU SHST KAB BLORA  -----------------------//
+// ==========================================================================================================================================
 Route::get('/shstblora', [ShstbloraController::class, 'index']);
-// Route::get('/shstblora/{kecamatanblora}', [TokobangunanbloraController::class, 'tokobangunanblorashow']);
-
-// DATA HSP KONSTRUKSI UMUM
-// ==========================================================================================================
-// Route::get('/hspkonstruksiumum', [HspkonstruksiumumController::class, 'index']);
-// Route::get('/shstblora/{kecamatanblora}', [TokobangunanbloraController::class, 'tokobangunanblorashow']);
-
-// ==========================================================================================================
-Route::get('/beritajakon', [BeritajakonController::class, 'index']);
-Route::get('/beritajakon/{judulberita}', [BeritajakonController::class, 'showjudulberita']);
-Route::get('/artikeljakon', [BeritajakonController::class, 'artikeljakon']);
-Route::get('/artikeljakon/{judul}', [BeritajakonController::class, 'artikeljakonshow']);
-// Route::get('/shstblora/{kecamatanblora}', [TokobangunanbloraController::class, 'tokobangunanblorashow']);
-
-// ==========================================================================================================
-// ALL DATA PENDAFTARAN SKK TENAG AKERJA BLORA MAS JAKI
-Route::get('/skktenagakerjablora', [AllskktenagakerjabloraController::class, 'index']);
-Route::get('/daftarskkblora/{nik}', [AllskktenagakerjabloraController::class, 'skktenagakerjablorashow']);
-
-// fort
-// ------------- HALAMAN UNTUK DATA SERTIFIKASI TENAGA KERJA AHLI -----------------
-
-// -------- BAGIAN 01 PENGAWASAN DAN KETERTIBAN  ---------------------------------
-Route::get('/datajakon/pengawasan', [DatajakonController::class, 'pengawasan']);
-// Route::get('/jakonpengwasandanketertiban', [DatajakonController::class, 'fepengawasandanketertiban']);
-
-// -------- BAGIAN 02 DATA ASOSIASI PENGUSAHA  ---------------------------------
-Route::get('/datajakon/asosiasi', [DatajakonController::class, 'asosiasi']);
-Route::get('/datajakon/asosiasi/{nama_asosiasi}', [DatajakonController::class, 'asosiasishowfrontend']);
-
-// -------- BAGIAN 03 STANDAR BIAYA UMUM JASA KONSTRUKSI  ---------------------------------
-Route::get('/standarbiayaumummasjaki', [DatajakonController::class, 'newstandarbiayaumum']);
-Route::get('/standarbiayaumummasjaki/{judul}', [DatajakonController::class, 'standarbiayaumumshowbyjudul']);
-Route::get('/standarbiayaumumsbu1/{judul}', [DatajakonController::class, 'standarbiayaumumshowbyjudul1']);
-Route::get('/standarbiayaumumsbu2/{judul}', [DatajakonController::class, 'standarbiayaumumshowbyjudul2']);
-Route::get('/standarbiayaumumsbu3/{judul}', [DatajakonController::class, 'standarbiayaumumshowbyjudul3']);
-
-Route::get('/datajakon/fesbulampiran3', [DatajakonController::class, 'fesbulampiran3']);
-Route::get('/datajakon/fesbulampiran3/{judul}', [DatajakonController::class, 'fesbulampiran3showbyjudulfe']);
-
-Route::get('/datajakon/fesbulampiran2', [DatajakonController::class, 'fesbulampiran2']);
-Route::get('/datajakon/fesbulampiran2/{judul}', [DatajakonController::class, 'fesbulampiran2showbyjudulfe']);
-
-Route::get('/datajakon/fesbulampiran1', [DatajakonController::class, 'fesbulampiran1']);
-Route::get('/datajakon/fesbulampiran1/{judul}', [DatajakonController::class, 'fesbulampiran1showbyjudulfe']);
+// ___________________________________________________________________________________________________________________________________
 
 
-// -------- BAGIAN 04 PROGRESS PAKET PEKERJAAN ---------------------------------
-Route::get('/datajakon/paketpekerjaan', [DatajakonController::class, 'paketpekerjaan']);
+// ==========================================================================================================================================
+// ---------------------- BAGIAN 08 RANTAI PASOK   -----------------------//
+// ==========================================================================================================================================
+// ---------------------- MENU 1 RANTAI PASOK ASURANSI KONSTRUKSI  -----------------------------------------------------
+// BELUM DIBUAT
 
+// ___________________________________________________________________________________________________________________________________
 
-// ---------------------- 05 INFORMASI SPM -----------------------//
-// -------- BAGIAN 1 ---------------------------------
-Route::get('/spm/informasispm', function () {
-    // return view('welcome');
-    return view('frontend.05_spm.01_informasispm', [
-        'title' => 'Standar Penetapan Kemampuan'
-    ]);
-});
+// ---------------------- MENU 2 RANTAI PASOK MATERIAL BAHAN BANGUNAN  -----------------------------------------------------
+Route::get('/rantaipasokmaterial', [RantaipasokbloraController::class, 'index']);
+Route::get('/rantaipasokmaterial/{distributor}', [RantaipasokbloraController::class, 'rantaipasokblorashow']);
+// ___________________________________________________________________________________________________________________________________
 
-// ---------------------- 10 PELATIHAN -----------------------//
-// -------- BAGIAN 1 ---------------------------------
-Route::get('/pelatihan/kecelakaan', [PelatihanController::class, 'index']);
+// ---------------------- MENU 3 RANTAI PASOK PERALATAN  -----------------------------------------------------
+Route::get('/peralatankonstruksi', [RantaipasokbloraController::class, 'peralatankonstruksi']);
+Route::get('/peralatankonstruksi/{namabadanusaha}', [RantaipasokbloraController::class, 'peralatankonstruksishow']);
+// ___________________________________________________________________________________________________________________________________
 
-// ---------------------- 11 PERATURAN PERATURAN -----------------------//
-// -------- BAGIAN 1 ---------------------------------
-Route::get('/peraturan/undangundang', [PeraturanController::class, 'feundangundang']);
-Route::get('/peraturan/undangundang/{judul}', [PeraturanController::class, 'undangundangshowByJudul']);
-
-
-// -------- BAGIAN 2 ---------------------------------
-Route::get('/peraturan/pemerintah', [PeraturanController::class, 'fepemerintah']);
-Route::get('/peraturan/pemerintah/{judul}', [PeraturanController::class, 'pemerintahshowByJudul']);
-
-// -------- BAGIAN 3 ---------------------------------
-Route::get('/peraturan/presiden', [PeraturanController::class, 'fepresiden']);
-Route::get('/peraturan/presiden/{judul}', [PeraturanController::class, 'presidenshowByJudul']);
-
-// -------- BAGIAN 4 ---------------------------------
-Route::get('/peraturan/menteri', [PeraturanController::class, 'fementeri']);
-Route::get('/peraturan/menteri/{judul}', [PeraturanController::class, 'fementerishowByJudul']);
-
-// -------- BAGIAN 5 ---------------------------------
-Route::get('/peraturan/keputusanmenteri', [PeraturanController::class, 'feskmenteri']);
-Route::get('/peraturan/keputusanmenteri/{judul}', [PeraturanController::class, 'feskmenterishowByJudul']);
-
-// -------- BAGIAN 6 ---------------------------------
-Route::get('/peraturan/suratedaranmenteri', [PeraturanController::class, 'suratedaranmenteri']);
-Route::get('/peraturan/suratedaranmenteri/{judul}', [PeraturanController::class, 'suratedaranmenterishowByJudul']);
-
-// -------- BAGIAN 7 ---------------------------------
-Route::get('/peraturan/referensi', [PeraturanController::class, 'fereferensi']);
-Route::get('/peraturan/referensi/{judul}', [PeraturanController::class, 'referensishowByJudul']);
-
-// -------- BAGIAN 8 ---------------------------------
-Route::get('/peraturan/daerah', [PeraturanController::class, 'feperdaerah']);
-Route::get('/peraturan/daerah/{judul}', [PeraturanController::class, 'feperdaerahshowByJudul']);
-
-// -------- BAGIAN 9 ---------------------------------
-Route::get('/peraturan/peraturangubernur', [PeraturanController::class, 'feperaturangubernur']);
-Route::get('/peraturan/gubernur/{judul}', [PeraturanController::class, 'gubernurshowByJudul']);
-
-// -------- BAGIAN 10 ---------------------------------
-Route::get('/peraturan/walikotadanbupati', [PeraturanController::class, 'feperbupatiwalikota']);
-Route::get('/peraturan/walikotadanbupati/{judul}', [PeraturanController::class, 'feperbupatiwalikotashowByJudul']);
-
-// -------- BAGIAN 11 ---------------------------------
-Route::get('/peraturan/suratkeputusan', [PeraturanController::class, 'fesuratkeputusan']);
-Route::get('/peraturan/suratkeputusan/{judul}', [PeraturanController::class, 'fesuratkeputusanshowByJudul']);
-
+// ---------------------- MENU 4 RANTAI PASOK TOKO BANGUNAN   -----------------------------------------------------
+Route::get('/tokobangunanblora', [TokobangunanbloraController::class, 'index']);
+Route::get('/tokobangunanblora/{kecamatanblora}', [TokobangunanbloraController::class, 'tokobangunanblorashow']);
+Route::get('/tokobangunanbloralist/{namatokobangunan}', [TokobangunanbloraController::class, 'tokobangunanbloralistdetails']);
+// ___________________________________________________________________________________________________________________________________
 
 // ================================================================================================================================================
 // ================================================================================================================================================
-// APLIKASI SIPJAKI DINAS PUPR PEMERINTAH KABUPATEN BLORA PROVINSI JAWA TENGAH
-
-// BAGIAN 06
-// PENGAWASAN TERTIB JASA KONSTRUKSI
-Route::get('/blora/tertibjakon', [TertibjakonController::class, 'fetertibjakon']);
-Route::get('/blora/tertibjakon/{nama_perusahaan}', [TertibjakonController::class, 'fetertibjakonshowByBadanusaha']);
-// Route::get('/blora/tertibjakon/{nama_perusahaan}', [TertibjakonController::class, 'feskktenagakerjadokumentasishowByName']);
+// BACKEND MENU APLIKASI SIPJAKI DINAS PUPR PEMERINTAH KABUPATEN BLORA PROVINSI JAWA TENGAH
 
 
-
-
-
-
-
-// ================================================================================================================================================
-// ================================================================================================================================================
-// ================================================================================================================================================
 // ================================================================================================================================================
 
 Route::get('/dashboard', [AdminDashboardController::class, 'index'])->middleware('auth');
 
-// ------------------- BACKEND QA PERTANYAAN ---------------------------
-
-// KATEGORI ADMIN
-Route::get('/qapertanyaan', [AdministratorController::class, 'qapertanyaan'])->middleware('auth');
-Route::get('/qapertanyaancreate', [AdministratorController::class, 'createqapertanyaan'])->middleware('auth');
-Route::post('/qapertanyaanstore', [AdministratorController::class, 'createstoreqapertanyaan'])->name('create.qapertanyaan');
-Route::post('/qapertanyaan/{id}', [AdministratorController::class, 'deleteqapertanyaan'])
-->middleware('auth')
-->name('delete.qapertanyaan');
-
 // ------------------- BACKEND BAGIAN HIMBAUAN DINAS ---------------------------
-
-// KATEGORI HIMBAUAN DINAS
-Route::get('/himbauandinas', [AdministratorController::class, 'himbauandinas'])->middleware('auth');
-Route::get('/himbauandinas/{nama_lengkap}', [AdministratorController::class, 'himbauandinasshowbyname'])->middleware('auth');
-Route::get('/himbauandinas/update/{nama_lengkap}', [AdministratorController::class, 'updatehimbauandinas'])->middleware('auth')->name('updateshow.himbauandinas');
-Route::post('/himbauandinas/{nama_lengkap}', [AdministratorController::class, 'createupdatehimbauandinas'])->middleware('auth')->name('update.himbauandinas');
 
 // -------- BAGIAN 01 BACKEND PROFIL ---------------------------------
 Route::get('/struktur', [StrukturController::class, 'index'])->middleware('auth');
@@ -453,34 +411,6 @@ Route::get('/tupoksi', [StrukturController::class, 'tupoksi'])->middleware('auth
 Route::get('/tupoksi/update/{judul}', [StrukturController::class, 'updatetupoksi'])->middleware('auth')->name('update.tupoksi');
 Route::post('/tupoksi/{judul}', [StrukturController::class, 'createupdatetupoksi'])->middleware('auth')->name('updatestore.tupoksi');
 
-
-// -------- BAGIAN 03 BACKEND DATA JASA KONSTRUKSI BANGUNAN GEDUNG PUPR ---------------------------------
-
-// KETERTIBAN DAN PENGAWASAN
-// =-====================================================================================================
-Route::get('/pengawasandanketertiban', [DatajakonController::class, 'pengawasandanketertiban'])->middleware('auth');
-Route::get('/pengawasandanketertiban/{judul}', [DatajakonController::class, 'pengawasandanketertibanshowbyjudul'])->middleware('auth');
-Route::get('/pengawasandanketertiban/update/{judul}', [DatajakonController::class, 'updatepengawasandanketertiban'])->middleware('auth')->name('update.pengawasandanketertiban');
-Route::post('/pengawasandanketertiban/{judul}', [DatajakonController::class, 'createupdatepengawasandanketertiban'])->middleware('auth')->name('updatestore.pengawasandanketertiban');
-Route::get('/pengawasandanketertibancreate', [DatajakonController::class, 'createpengawasandanketertiban'])->middleware('auth');
-Route::post('/pengawasandanketertibanstore', [DatajakonController::class, 'createstorepengawasandanketertiban'])->middleware('auth')->name('create.pengawasandanketertiban');
-
-Route::post('/pengawasandanketertibandelete/{id}', [DatajakonController::class, 'deletepengawasandanketertiban'])
-->middleware('auth')
-->name('delete.pengawasandanketertiban');
-
-// --- ASOSIASI PENGUSAHA BACKEND JASA KONSTRUKSI ----------------------------
-Route::get('/asosiasipengusaha', [DatajakonController::class, 'asosiasipengusaha'])->middleware('auth');
-Route::get('/asosiasipengusaha/{nama_asosiasi}', [DatajakonController::class, 'asosiasipengusahashowbyjudul'])->middleware('auth');
-Route::get('/asosiasipengusaha/update/{nama_asosiasi}', [DatajakonController::class, 'updateasosiasipengusaha'])->middleware('auth')->name('update.asosiasipengusaha');
-Route::post('/asosiasipengusaha/{nama_asosiasi}', [DatajakonController::class, 'createupdateasosiasipengusaha'])->middleware('auth')->name('updatestore.newasosiasipengusaha');
-Route::get('/asosiasipengusahacreate', [DatajakonController::class, 'createasosiasipengusaha'])->middleware('auth');
-Route::post('/asosiasipengusahastore', [DatajakonController::class, 'createstoreasosiasipengusaha'])->middleware('auth')->name('create.asosiasipengusaha');
-
-Route::post('/asosiasipengusahadelete/{judul}', [DatajakonController::class, 'deleteasosiasipengusaha'])
-->middleware('auth')
-->name('delete.asosiasipengusaha');
-
 // ----------------------------------- STANDAR BIAYA UMUM
 Route::get('/standarbiayaumum', [StrukturController::class, 'standarbiayaumum'])->middleware('auth');
 Route::get('/standarbiayaumum/{judul}', [StrukturController::class, 'standarbiayaumumshowbyjudul'])->middleware('auth');
@@ -492,18 +422,6 @@ Route::post('/standarbiayaumumstore', [StrukturController::class, 'createstorest
 Route::post('/standarbiayaumumdelete/{judul}', [StrukturController::class, 'deletestandarbiayaumum'])
 ->middleware('auth')
 ->name('delete.standarbiayaumum');
-
-// ----------------------------------- PAKET PEKERJAAN ---------------------------------
-Route::get('/paketpekerjaan', [DatajakonController::class, 'bepaketpekerjaan'])->middleware('auth');
-Route::get('/paketpekerjaan/{instansi}', [DatajakonController::class, 'paketpekerjaanshowbyjudul'])->middleware('auth');
-Route::get('/paketpekerjaan/update/{instansi}', [DatajakonController::class, 'updatepaketpekerjaan'])->middleware('auth')->name('update.paketpekerjaan');
-Route::post('/paketpekerjaan/{instansi}', [DatajakonController::class, 'createupdatepaketpekerjaan'])->middleware('auth')->name('updatestore.paketpekerjaan');
-Route::get('/paketpekerjaancreate', [DatajakonController::class, 'createpaketpekerjaan'])->middleware('auth');
-Route::post('/paketpekerjaanstore', [DatajakonController::class, 'createstorepaketpekerjaan'])->middleware('auth')->name('create.paketpekerjaan');
-
-Route::post('/paketpekerjaandelete/{judul}', [DatajakonController::class, 'deletepaketpekerjaan'])
-->middleware('auth')
-->name('delete.paketpekerjaan');
 
 
 // SBU LAMPIRAN 1
@@ -518,13 +436,6 @@ Route::get('/sbulampiran2/{judul}', [StrukturController::class, 'sbulampiran2sho
 Route::get('/sbulampiran3', [StrukturController::class, 'sbulampiran3'])->middleware('auth');
 Route::get('/sbulampiran3/{judul}', [StrukturController::class, 'sbulampiran3showbyjudul'])->middleware('auth');
 
-
-// -------- BAGIAN 04 BACKEND ---------------------------------
-
-
-Route::post('/paketpekerjaandelete/{judul}', [DatajakonController::class, 'deletepaketpekerjaan'])
-->middleware('auth')
-->name('delete.paketpekerjaan');
 
 // -------- BAGIAN 14 BACKEND PERATURAN UNDANGUNDANG ---------------------------------
 Route::get('/peruud', [PeraturanController::class, 'undangundang'])->middleware('auth')->name('peruud.index');
@@ -553,9 +464,6 @@ Route::post('/permenteridelete/{judul}', [PeraturanController::class, 'deleterpe
 ->middleware('auth')
 ->name('peruud.deletepermenteri');
 
-// Route::get('/skktenagakerja/{nama}', [SkktenagakerjaController::class, 'showByName'])->name('skktenagakerja.show');
-// Route::get('/skktenagakerja/{nama}', [SkktenagakerjaController::class, 'showByName'])->name('skktenagakerja.show');
-
 // SURAT KEPUTUSAN MENTERI
 Route::get('/skmenteri', [PeraturanController::class, 'skmenteri'])->middleware('auth');
 Route::get('/skmenteri/{judul}', [PeraturanController::class, 'skmenterishowByJudul'])->middleware('auth');
@@ -577,9 +485,6 @@ Route::post('/suratedaranstore', [PeraturanController::class, 'createstoresurate
 Route::post('/suratedarandelete/{judul}', [PeraturanController::class, 'deletesuratedaran'])
 ->middleware('auth')
 ->name('peruud.deletesuratedaran');
-
-// Route::get('/skktenagakerja/{nama}', [SkktenagakerjaController::class, 'showByName'])->name('skktenagakerja.show');
-// Route::get('/skktenagakerja/{nama}', [SkktenagakerjaController::class, 'showByName'])->name('skktenagakerja.show');
 
 Route::get('/referensi', [PeraturanController::class, 'referensi'])->middleware('auth')->name('peruud.referensi');
 Route::get('/referensi/{judul}', [PeraturanController::class, 'updatereferensi'])->middleware('auth')->name('peruud.showreferensi');
@@ -641,10 +546,6 @@ Route::put('/administrator/{name}', [AdministratorController::class, 'createupda
 ->middleware('auth')
 ->name('update.dataadministrator');
 
-// Route::put('/administrator/{name}', [AdministratorController::class, 'createupdateadministrator'])->middleware('auth')->name('update.dataadministrator');
-// Route::post('/administrator/{name}', [AdministratorController::class, 'createupdateadministrator'])->middleware('auth')->name('update.dataadministrator');
-// Route::get('/keputusancreate', [PeraturanController::class, 'createkeputusan'])->middleware('auth');
-// Route::post('/keputusanstore', [PeraturanController::class, 'createstorekeputusan'])->middleware('auth')->name('peruud.createkeputusan');
 Route::post('/administrator/{name}', [AdministratorController::class, 'deleteadministrator'])
 ->middleware('auth')
 ->name('administrator.deleteadministrator');
@@ -670,109 +571,11 @@ Route::post('/settingstatusadmin/{id}', [SettingmenuController::class, 'deletest
 ->middleware('auth')
 ->name('delete.statusadmin');
 
-// 02 SETTINGS MENU PENGWASAN LOKASI KECAMATAN KOTA
-Route::get('/settingkecamatan', [SettingmenuController::class, 'settingkecamatan'])->middleware('auth');
-Route::get('/settingkecamatancreate', [SettingmenuController::class, 'createsettingkecamatan'])->middleware('auth');
-Route::post('/settingkecamatanstore', [SettingmenuController::class, 'createstoresettingkecamatan'])->middleware('auth')->name('create.settingkecamatan');
-Route::post('/settingkecamatan/{id}', [SettingmenuController::class, 'deletesettingkecamatan'])
-->middleware('auth')
-->name('delete.settingkecamatan');
-
-// 03 SETTINGS MENU QA SEBAGAI
-Route::get('/settingqasebagai', [SettingmenuController::class, 'settingqasebagai'])->middleware('auth');
-Route::get('/settingqasebagaicreate', [SettingmenuController::class, 'createsettingqasebagai'])->middleware('auth');
-Route::post('/settingqasebagaistore', [SettingmenuController::class, 'createstoresettingqasebagai'])->middleware('auth')->name('create.settingqasebagai');
-Route::post('/settingqasebagai/{id}', [SettingmenuController::class, 'deletesettingqasebagai'])
-->middleware('auth')
-->name('delete.settingqasebagai');
-
-// 04 SETTINGS MENU QA PERTANYAAN
-Route::get('/settingqapertanyaan', [SettingmenuController::class, 'settingqapertanyaan'])->middleware('auth');
-Route::get('/settingqapertanyaancreate', [SettingmenuController::class, 'createsettingqapertanyaan'])->middleware('auth');
-Route::post('/settingqapertanyaanstore', [SettingmenuController::class, 'createstoresettingqapertanyaan'])->middleware('auth')->name('create.settingqapertanyaan');
-Route::post('/settingqapertanyaan/{id}', [SettingmenuController::class, 'deletesettingqapertanyaan'])
-->middleware('auth')
-->name('delete.settingqapertanyaan');
-
-// 05 SETTINGS MENU METODE PENGADAAN
-Route::get('/settingmetodepengadaan', [SettingmenuController::class, 'settingmetodepengadaan'])->middleware('auth');
-Route::get('/settingmetodepengadaancreate', [SettingmenuController::class, 'createsettingmetodepengadaan'])->middleware('auth');
-Route::post('/settingmetodepengadaanstore', [SettingmenuController::class, 'createstoresettingmetodepengadaan'])->middleware('auth')->name('create.settingmetodepengadaan');
-Route::post('/settingmetodepengadaan/{id}', [SettingmenuController::class, 'deletesettingmetodepengadaan'])
-->middleware('auth')
-->name('delete.settingmetodepengadaan');
-
-// 06 SETTINGS MENU PENGAWASAN BANGUNAN GEDUNG
-Route::get('/settingpengawasanbangunangedung', [SettingmenuController::class, 'settingpengawasanbangunangedung'])->middleware('auth');
-Route::get('/settingpengawasanbangunangedungcreate', [SettingmenuController::class, 'createsettingpengawasanbangunangedung'])->middleware('auth');
-Route::post('/settingpengawasanbangunangedungstore', [SettingmenuController::class, 'createstoresettingpengawasanbangunangedung'])->middleware('auth')->name('create.settingpengawasanbangunangedung');
-Route::post('/settingpengawasanbangunangedung/{id}', [SettingmenuController::class, 'deletesettingpengawasanbangunangedung'])
-->middleware('auth')
-->name('delete.settingpengawasanbangunangedung');
-
-// 07 SETTINGS MENU PENGAWASAN STATUS
-Route::get('/settingpengawasanstatus', [SettingmenuController::class, 'settingpengawasanstatus'])->middleware('auth');
-Route::get('/settingpengawasanstatuscreate', [SettingmenuController::class, 'createsettingpengawasanstatus'])->middleware('auth');
-Route::post('/settingpengawasanstatusstore', [SettingmenuController::class, 'createstoresettingpengawasanstatus'])->middleware('auth')->name('create.settingpengawasanstatus');
-Route::post('/settingpengawasanstatus/{id}', [SettingmenuController::class, 'deletesettingpengawasanstatus'])
-->middleware('auth')
-->name('delete.settingpengawasanstatus');
-
-// 08 SETTINGS MENU PENGAWASAN TINDAKAN
-Route::get('/settingpengawasantindakan', [SettingmenuController::class, 'settingpengawasantindakan'])->middleware('auth');
-Route::get('/settingpengawasantindakancreate', [SettingmenuController::class, 'createsettingpengawasantindakan'])->middleware('auth');
-Route::post('/settingpengawasantindakanstore', [SettingmenuController::class, 'createstoresettingpengawasantindakan'])->middleware('auth')->name('create.settingpengawasantindakan');
-Route::post('/settingpengawasantindakan/{id}', [SettingmenuController::class, 'deletesettingpengawasantindakan'])
-->middleware('auth')
-->name('delete.settingpengawasantindakan');
-
-// 09 SETTINGS MENU AGENDA STATUS
-Route::get('/settingagendastatus', [SettingmenuController::class, 'settingagendastatus'])->middleware('auth');
-Route::get('/settingagendastatuscreate', [SettingmenuController::class, 'createsettingagendastatus'])->middleware('auth');
-Route::post('/settingagendastatusstore', [SettingmenuController::class, 'createstoresettingagendastatus'])->middleware('auth')->name('create.settingagendastatus');
-Route::post('/settingagendastatus/{id}', [SettingmenuController::class, 'deletesettingagendastatus'])
-->middleware('auth')
-->name('delete.settingagendastatus');
-
-// 10 SETTINGS MENU KETERAMPILAN PEKERJA
-Route::get('/settingketerampilanpekerja', [SettingmenuController::class, 'settingketerampilanpekerja'])->middleware('auth');
-Route::get('/settingketerampilanpekerjacreate', [SettingmenuController::class, 'createsettingketerampilanpekerja'])->middleware('auth');
-Route::post('/settingketerampilanpekerjastore', [SettingmenuController::class, 'createstoresettingketerampilanpekerja'])->middleware('auth')->name('create.settingketerampilanpekerja');
-Route::post('/settingketerampilanpekerja/{id}', [SettingmenuController::class, 'deletesettingketerampilanpekerja'])
-->middleware('auth')
-->name('delete.settingketerampilanpekerja');
-
-// 11 SETTINGS MENU TAHUN PILIHAN
-Route::get('/settingtahunpilihan', [SettingmenuController::class, 'settingtahunpilihan'])->middleware('auth');
-Route::get('/settingtahunpilihancreate', [SettingmenuController::class, 'createsettingtahunpilihan'])->middleware('auth');
-Route::post('/settingtahunpilihanstore', [SettingmenuController::class, 'createstoresettingtahunpilihan'])->middleware('auth')->name('create.settingtahunpilihan');
-Route::post('/settingtahunpilihan/{id}', [SettingmenuController::class, 'deletesettingtahunpilihan'])
-->middleware('auth')
-->name('delete.settingtahunpilihan');
-
-
-// Route::get('/$login', function () {
-//     // return view('welcome');
-//     return view('login.index',
-//         'title' => 'Halaman Login'
-//     ]);
-// });
 
 Route::get('/masuk', [LoginController::class, 'loginmasuk'])->name('login')->middleware('guest');
 Route::post('/login', [LoginController::class, 'authenticate']);
 Route::post('/logout', [LoginController::class, 'logout']);
 
-
-
-// Route::get('/dashboard', function () {
-//     return view('dashboard');
-// })->middleware(['auth', 'verified'])->name('dashboard');
-
-// Route::middleware('auth')->group(function () {
-//     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
-//     Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');
-//     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
-// });
 
 require __DIR__.'/auth.php';
 

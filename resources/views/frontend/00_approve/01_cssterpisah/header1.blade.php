@@ -292,6 +292,7 @@
 										<li><a href="/tertibjasakonstruksilist">Tertib Usaha Jakon</a></li>
 										<li><a href="/tertibjasakonstruksipemanfaatan">Tertib Pemanfaatan Jakon</a></li>
 										<li><a href="/tertibjasakonstruksipenyelenggaraan">Tertib Penyelenggaraan Jakon</a></li>
+										<li><a href="/statistiktertibjakonblora">Data Statistik Tertib Jakon</a></li>
                                     </ul><!-- list-unstyled -->
 								</li>
                                 <li><a href="/pengawasanbujk">Pengawasan BUJK</a></li>
