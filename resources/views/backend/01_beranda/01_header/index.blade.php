@@ -60,18 +60,35 @@
                                         </td>
                                         <td>
                                             <!-- Show Icon -->
-                                            <a href="/404" class="btn btn-sm btn-info" title="Show">
+                                            <a href="/404" class="btn-custom-show me-2" title="Show">
                                                 <i class="bi bi-eye"></i>
                                             </a>
                                             <!-- Update Icon -->
-                                            <a href="/404" class="btn btn-sm btn-warning" title="Update">
+                                            <a href="/404" class="btn-custom-update me-2" title="Update">
                                                 <i class="bi bi-pencil-square"></i>
                                             </a>
                                             <!-- Delete Icon -->
-                                            <a href="/404" class="btn btn-sm btn-danger" title="Delete">
+                                            <a href="/404" class="btn-custom-delete" title="Delete">
                                                 <i class="bi bi-trash"></i>
                                             </a>
+
+                                            <style>
+                                                /* Custom button styles */
+                                                .btn-custom-show, .btn-custom-update, .btn-custom-delete {
+                                                    transition: all 0.3s ease;
+                                                }
+
+                                                .btn-custom-show:hover, .btn-custom-update:hover, .btn-custom-delete:hover {
+                                                    background-color: white !important; /* Set background to white on hover */
+                                                    color: black !important; /* Set icon and text color to black */
+                                                }
+
+                                                .btn-custom-show:hover i, .btn-custom-update:hover i, .btn-custom-delete:hover i {
+                                                    color: black !important; /* Ensure the icon color changes to black */
+                                                }
+                                            </style>
                                         </td>
+
                                     </tr>
                                     @endforeach
                                 </tbody>
