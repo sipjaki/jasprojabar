@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\headerberanda;
 use App\Models\pagevisit;
 use Illuminate\Support\Facades\Auth;
 
@@ -37,11 +38,13 @@ class AdminDashboardController extends Controller
     public function header()
     {
 
+        $data = headerberanda::all();
         $user = Auth::user();
         // return view('backend.00_adminmasjaki.01_fiturterpisah.01_dashboard', [
         return view('backend.01_beranda.01_header.index', [
             'title' => 'Beranda | Header',
             'user' => $user,
+            'data' => $data,
         ]);
     }
 
