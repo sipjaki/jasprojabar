@@ -5,6 +5,9 @@ namespace App\Http\Controllers;
 use App\Models\headerberanda;
 use App\Models\pagevisit;
 use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\Storage;
+
+use Illuminate\Http\Request;
 
 
 class AdminDashboardController extends Controller
@@ -46,6 +49,27 @@ class AdminDashboardController extends Controller
             'user' => $user,
             'data' => $data,
         ]);
+    }
+
+    public function headerdelete($judul)
+    {
+        // Cari item berdasarkan judul
+        $entry = headerberanda::where('judul', $judul)->first();
+
+        if ($entry) {
+            // Jika ada file header yang terdaftar, hapus dari storage
+            if (Storage::disk('public')->exists($entry->header)) {
+                Storage::disk('public')->delete($entry->header);
+            }
+
+            // Hapus entri dari database
+            $entry->delete();
+
+            // Redirect atau memberi respons sesuai kebutuhan
+            return redirect()->route('your.redirect.route')->with('success', 'Data deleted successfully');
+        }
+
+        return redirect()->back()->with('error', 'Item not found');
     }
 
 

@@ -68,7 +68,7 @@
                                                 <i class="bi bi-pencil-square"></i>
                                             </a>
                                             <!-- Delete Icon -->
-                                            <a href="/404" class="btn btn-sm btn-danger" title="Delete">
+                                            <a href="/header/delete/{{ $item->judul }}" class="btn btn-sm btn-danger" title="Delete">
                                                 <i class="bi bi-trash"></i>
                                             </a>
 

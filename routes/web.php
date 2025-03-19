@@ -396,7 +396,7 @@ Route::get('/tokobangunanbloralist/{namatokobangunan}', [TokobangunanbloraContro
 // ---------------------- MENU 1 HEADER -----------------------------------------------------
 Route::get('/header', [AdminDashboardController::class, 'header'])->middleware('auth');
 Route::get('/header/update', [AdminDashboardController::class, 'headerupdate'])->middleware('auth');
-Route::get('/header/delete/{id}', [AdminDashboardController::class, 'headerdelete'])->middleware('auth');
+Route::get('/header/delete/{judul}', [AdminDashboardController::class, 'headerdelete'])->middleware('auth');
 // ___________________________________________________________________________________________________________________________________
 
 // ================================================================================================================================================
