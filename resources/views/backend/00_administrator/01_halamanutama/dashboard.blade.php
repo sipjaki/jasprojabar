@@ -524,6 +524,76 @@
 
               {{-- -------------------------------------------------------- --}}
 
+{{-- -------------------------------------------------------- --}}
+<div class="row">
+    <div class="col-12 col-sm-6 col-md-3">
+      <div class="info-box">
+        <span class="info-box-icon text-bg-success shadow-sm"> <!-- Hijau untuk Tertib Jakon Usaha -->
+          <i class="bi bi-briefcase"></i> <!-- Ikon tas kerja untuk usaha -->
+        </span>
+        <div class="info-box-content">
+          <span class="info-box-text">Asuransi Konstruksi</span>
+          <span class="info-box-number">
+            10
+            <small>%</small>
+          </span>
+        </div>
+        <!-- /.info-box-content -->
+      </div>
+      <!-- /.info-box -->
+    </div>
+    <!-- /.col -->
+
+    <div class="col-12 col-sm-6 col-md-3">
+      <div class="info-box">
+        <span class="info-box-icon text-bg-success shadow-sm"> <!-- Hijau untuk Tertib Jakon Pemanfaatan -->
+          <i class="bi bi-house-door"></i> <!-- Ikon rumah untuk pemanfaatan -->
+        </span>
+        <div class="info-box-content">
+          <span class="info-box-text">Material Bangunan/Supplier/ Bahan Bangunan</span>
+          <span class="info-box-number">41,410</span>
+        </div>
+        <!-- /.info-box-content -->
+      </div>
+      <!-- /.info-box -->
+    </div>
+    <!-- /.col -->
+
+    <div class="col-12 col-sm-6 col-md-3">
+      <div class="info-box">
+        <span class="info-box-icon text-bg-success shadow-sm"> <!-- Hijau untuk Tertib Jakon Penyelenggaraan -->
+          <i class="bi bi-gear"></i> <!-- Ikon roda gigi untuk penyelenggaraan -->
+        </span>
+        <div class="info-box-content">
+          <span class="info-box-text">Supplier Peralatan Konstruksi</span>
+          <span class="info-box-number">760</span>
+        </div>
+        <!-- /.info-box-content -->
+      </div>
+      <!-- /.info-box -->
+    </div>
+    <!-- /.col -->
+
+    <div class="col-12 col-sm-6 col-md-3">
+      <div class="info-box">
+        <span class="info-box-icon text-bg-success shadow-sm"> <!-- Hijau untuk Pengawasan BUJK -->
+          <i class="bi bi-eye"></i> <!-- Ikon mata untuk pengawasan -->
+        </span>
+        <div class="info-box-content">
+          <span class="info-box-text">Toko Bangunan Kab Blora</span>
+          <span class="info-box-number">2,000</span>
+        </div>
+        <!-- /.info-box-content -->
+      </div>
+      <!-- /.info-box -->
+    </div>
+    <!-- /.col -->
+  </div>
+  <!-- /.row -->
+
+
+              {{-- -------------------------------------------------------- --}}
+
               <!--begin::Row-->
             <div class="row">
               <!-- Start col -->
