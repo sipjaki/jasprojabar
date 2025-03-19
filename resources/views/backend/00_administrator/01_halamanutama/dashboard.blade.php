@@ -172,8 +172,8 @@
                     alt="User Image"
                   />
                   <p>
-                    Alexander Pierce - Web Developer
-                    <small>Member since Nov. 2023</small>
+                    {{ Auth::user()->name }}
+                    <small>{{ Auth::user()->statusadmin->statusadmin }}</small>
                   </p>
                 </li>
                 <!--end::User Image-->
