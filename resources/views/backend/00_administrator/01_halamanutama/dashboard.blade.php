@@ -157,7 +157,7 @@
             <li class="nav-item dropdown user-menu">
               <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">
                 <img
-                  src="{{ Auth::user()->avatar }}"
+                src="{{ asset('storage/' . Auth::user()->avatar) }}" alt="Avatar"
                   class="user-image rounded-circle shadow"
                   alt="User Image"
                 />
