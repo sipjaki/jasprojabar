@@ -822,7 +822,8 @@
                     <div class="card-body">
                       <div class="d-flex">
                         <p class="d-flex flex-column">
-                          <span class="fw-bold fs-5">453</span> <span>Sales Over Time</span>
+                          <span class="fw-bold fs-5">453</span>
+                          {{-- <span>Sales Over Time</span> --}}
                         </p>
                         <p class="ms-auto d-flex flex-column text-end">
                           <span class="text-success"> <i class="bi bi-arrow-up"></i> 33.1% </span>
@@ -873,7 +874,7 @@
                           <span class="fw-bold">
                             <i class="bi bi-graph-up-arrow text-success"></i> 12%
                           </span>
-                          <span class="text-secondary">CONVERSION RATE</span>
+                          {{-- <span class="text-secondary">CONVERSION RATE</span> --}}
                         </p>
                       </div>
                       <!-- /.d-flex -->
@@ -901,7 +902,7 @@
                           <span class="fw-bold">
                             <i class="bi bi-graph-up-arrow text-info"></i> 0.8%
                           </span>
-                          <span class="text-secondary">SALES RATE</span>
+                          {{-- <span class="text-secondary">SALES RATE</span> --}}
                         </p>
                       </div>
                       <!-- /.d-flex -->
@@ -928,7 +929,7 @@
                             <i class="bi bi-graph-down-arrow text-danger"></i>
                             1%
                           </span>
-                          <span class="text-secondary">REGISTRATION RATE</span>
+                          {{-- <span class="text-secondary">REGISTRATION RATE</span> --}}
                         </p>
                       </div>
                       <!-- /.d-flex -->
