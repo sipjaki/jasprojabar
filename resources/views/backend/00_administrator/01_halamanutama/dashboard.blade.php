@@ -295,6 +295,8 @@
                 </div>
                 <!-- /.col -->
               </div>
+              </div>
+            <div class="row">
                 <div class="col-12 col-sm-6 col-md-3">
                   <div class="info-box">
                     <span class="info-box-icon text-bg-primary shadow-sm">
@@ -357,6 +359,8 @@
                 </div>
                 <!-- /.col -->
               </div>
+              </div>
+            <div class="row">
                 <div class="col-12 col-sm-6 col-md-3">
                   <div class="info-box">
                     <span class="info-box-icon text-bg-primary shadow-sm">
@@ -419,6 +423,8 @@
                 </div>
                 <!-- /.col -->
               </div>
+              </div>
+            <div class="row">
                 <div class="col-12 col-sm-6 col-md-3">
                   <div class="info-box">
                     <span class="info-box-icon text-bg-primary shadow-sm">
@@ -481,7 +487,7 @@
                 </div>
                 <!-- /.col -->
               </div>
-        </div>
+              </div>
           <!--begin::Container-->
           <div class="container-fluid">
             <!--begin::Row-->
