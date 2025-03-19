@@ -58,6 +58,10 @@
                         <tr class="align-middle">
                             <td>{{ $loop->iteration }}</td>
                             <td>{{$item->judul}}</td>
+                            <td>
+                                <img src="{{ asset('storage/'.$item->foto) }}" alt="Image">
+                            </td>
+
                             {{-- <td>
                                 <div class="progress progress-xs">
                                     <div
