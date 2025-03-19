@@ -11,51 +11,28 @@
 	<section class="main-slider">
 
 		<div class="main-slider-swiper owl-carousel owl-theme">
-			<div class="item">
-				<div class="item-slider-bg"  style="background-image: url(assets/00_dokmasjaki/01_beranda/jakon4.jpeg)"></div>
-				<div class="container">
-					<div class="row">
-						<div class="col-md-12">
-							<div class="slider-content">
-								<div class="slider-tagline">Selamat Datang ! di </div>
-								<h4 class="section-title">Sistem Informasi <br> Pembina Jasa Konstruksi DPUPR Kabupaten Blora</h4>
-								{{-- <a href="index-2.html" class="btn btn-primary">Discover More</a> --}}
-							</div><!-- slider-content -->
-						</div><!-- col-md-12 -->
-					</div><!-- row -->
-				</div><!-- container -->
-			</div><!--item-->
 
-			<div class="item">
-				<div class="item-slider-bg"  style="background-image: url(assets/00_dokmasjaki/03_datajakon/petaindonesiabaru.png)"></div>
-				<div class="container">
-					<div class="row">
-						<div class="col-md-12">
-							<div class="slider-content">
-								{{-- <div class="slider-tagline">City Goverment Online Services</div> --}}
-								<h1 class="section-title">Sasarengan mBangun Blora Unggul dan <br>Berdaya Saing</h1>
-								{{-- <a href="index-2.html" class="btn btn-primary">Discover More</a> --}}
-							</div><!-- slider-content -->
-						</div><!-- col-md-12 -->
-					</div><!-- row -->
-				</div><!-- container -->
-			</div><!--item-->
+            @foreach ($dataheaderberanda as $item)
 
             <div class="item">
-				<div class="item-slider-bg"  style="background-image: url(assets/00_dokmasjaki/01_beranda/masjaki2.png)"></div>
-				<div class="container">
+
+                <div class="item-slider-bg" style="background-image: url('{{ asset('storage/' . $item->header) }}');"></div>
+
+                <div class="container">
 					<div class="row">
-						<div class="col-md-12">
-							<div class="slider-content">
-								{{-- <div class="slider-tagline">City Goverment Online Services</div> --}}
-								<h1 class="section-title">Blora Mustika<br>Cacana Jaya Kerta Bhumi</h1>
+                        <div class="col-md-12">
+                            <div class="slider-content">
+                                {{-- <div class="slider-tagline">Selamat Datang ! di </div> --}}
+								<h4 class="section-title">{{$item->judul}}</h4>
 								{{-- <a href="index-2.html" class="btn btn-primary">Discover More</a> --}}
 							</div><!-- slider-content -->
 						</div><!-- col-md-12 -->
 					</div><!-- row -->
 				</div><!-- container -->
 			</div><!--item-->
-		</div><!-- main-slider-swiper -->
+
+            @endforeach
+        </div><!-- main-slider-swiper -->
 
 	</section><!--main-slider-->
 

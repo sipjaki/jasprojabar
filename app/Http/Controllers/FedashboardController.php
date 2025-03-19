@@ -12,6 +12,7 @@ use App\Models\laporankegiatan;
 use App\Models\layanankami;
 use App\Models\pengawasanlokasi;
 use App\Models\artikeljakonmasjaki;
+use App\Models\headerberanda;
 use App\Models\qapertanyaan;
 use App\Models\qasebagai;
 use App\Models\qa;
@@ -27,6 +28,7 @@ class FedashboardController extends Controller
     {
         $data = beritajakon::orderBy('created_at', 'desc')->get(); //
         $dataartikel = artikeljakonmasjaki::orderBy('created_at', 'desc')->get(); //
+        $dataheaderberanda = headerberanda::orderBy('created_at', 'desc')->get(); //
 
 
         $user = Auth::user();
@@ -38,6 +40,7 @@ class FedashboardController extends Controller
             'title' => 'Mas Jaki DPUPR Blora | Sistem Informasi Pembina Jasa Konstruksi ',
             'data' => $data, // Mengirimkan data paginasi ke view
             'dataartikel' => $dataartikel, // Mengirimkan data paginasi ke view
+            'dataheaderberanda' => $dataheaderberanda, // Mengirimkan data paginasi ke view
             'user' => $user, // Mengirimkan data paginasi ke view
             // 'databerita' => $databerita, // Mengirimkan data paginasi ke view
         ]);
@@ -77,7 +80,6 @@ class FedashboardController extends Controller
 
 
         $data_berita = berita::all(); //
-        $data_layanankami = layanankami::all(); //
         $data = berita::where('judul', $judul)->firstOrFail();
 
         $databeritaagenda = beritaagenda::orderBy('created_at', 'desc')->get(); //
@@ -88,7 +90,6 @@ class FedashboardController extends Controller
             'data' => $data,
             'data_berita' => $data_berita,
             'dataagenda' => $databeritaagenda,
-            'data_layanankami' => $data_layanankami,
             'user' => $user,
             'title' => 'Portal Berita Sipjaki KBB',
         ]);
@@ -112,7 +113,6 @@ class FedashboardController extends Controller
     public function kegiatansertifikasi()
     {
         $data = berita::orderBy('created_at', 'desc')->get(); //
-        $data_layanankami = layanankami::all(); //
         $data_kegiatanjaskon = kegiatanjaskon::orderBy('created_at', 'desc')->get(); //
 
 
@@ -121,7 +121,6 @@ class FedashboardController extends Controller
         return view('frontend.02_berita.02_sertifikasi.index', [
             'title' => 'Kegiatan Sertifikasi oleh Pemerintah Kabupaten Blora',
             'data' => $data, // Mengirimkan data paginasi ke view
-            'data_layanankami' => $data_layanankami, // Mengirimkan data paginasi ke view
             'data_jaskon' => $data_kegiatanjaskon, // Mengirimkan data paginasi ke view
             'user' => $user, // Mengirimkan data paginasi ke view
         ]);
@@ -131,9 +130,6 @@ class FedashboardController extends Controller
     public function kegiatansertifikasishowByJudul($judul_kegiatan)
     {
         $data_berita = berita::first(); //
-        $data_layanankami = layanankami::all(); //
-        // $data_laporankegiatan = laporankegiatan::all(); //
-        // $data_kegiatanjaskon = kegiatanjaskon::where('judul_kegiatan', $judul_kegiatan)->firstOrFail();
 
         $kegiatanjaskon = kegiatanjaskon::where('judul_kegiatan', $judul_kegiatan)->first();
 
@@ -143,15 +139,13 @@ class FedashboardController extends Controller
         }
 
         // Menggunakan paginate() untuk pagination
-        $datalaporankegiatan = laporankegiatan::where('kegiatanjaskon_id', $kegiatanjaskon->id)->paginate(10);
+        // $datalaporankegiatan = laporankegiatan::where('kegiatanjaskon_id', $kegiatanjaskon->id)->paginate(10);
 
         $user = Auth::user();
 
         return view('frontend.02_berita.02_sertifikasi.show', [
             'data' => $kegiatanjaskon,
-            'data_kegiatanjaskon' => $datalaporankegiatan,
             'data_berita' => $data_berita,
-            'data_layanankami' => $data_layanankami,
             // 'data_laporankegiatan' => $data_laporankegiatan,
             'user' => $user,
                 'title' => 'Kegiatan Sertifikasi',
@@ -161,19 +155,12 @@ class FedashboardController extends Controller
     public function detailskegiatanshowByJudul($jabatan)
     {
         $data_berita = berita::first(); //
-        // $data_layanankami = layanankami::all(); //
-        $data_laporankegiatanall = laporankegiatan::all(); //
-        $data_laporankegiatan =laporankegiatan::where('jabatan', $jabatan)->firstOrFail(); //
-        // $data_kegiatanjaskon = kegiatanjaskon::where('judul_kegiatan', $judul_kegiatan)->firstOrFail();
-
         $user = Auth::user();
 
         return view('frontend.02_berita.02_sertifikasi.showdetails', [
             // 'data_kegiatanjaskon' => $data_kegiatanjaskon,
             'data_berita' => $data_berita,
             // 'data_layanankami' => $data_layanankami,
-            'data_laporankegiatan' => $data_laporankegiatan,
-            'data_laporankegiatanall' => $data_laporankegiatanall,
             'user' => $user,
                 'title' => 'Kegiatan Sertifikasi Para Pekerja',
         ]);
