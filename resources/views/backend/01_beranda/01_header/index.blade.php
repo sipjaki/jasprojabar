@@ -35,7 +35,58 @@
         <div class="container-fluid">
             <!--begin::Row-->
             <div class="row">
+              <div class="col-md-6">
+                <div class="card mb-4">
+                  <div class="card-header"><h3 class="card-title">Bordered Table</h3></div>
+                  <!-- /.card-header -->
+                  <div class="card-body">
+
+                  </div>
+                  <!-- /.card-body -->
+                  <div class="card-footer clearfix">
+                    <ul class="pagination pagination-sm m-0 float-end">
+                      <li class="page-item"><a class="page-link" href="#">&laquo;</a></li>
+                      <li class="page-item"><a class="page-link" href="#">1</a></li>
+                      <li class="page-item"><a class="page-link" href="#">2</a></li>
+                      <li class="page-item"><a class="page-link" href="#">3</a></li>
+                      <li class="page-item"><a class="page-link" href="#">&raquo;</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <!-- /.card -->
+                <div class="card mb-4">
+                  <div class="card-header">
+                    <h3 class="card-title">Condensed Full Width Table</h3>
+                  </div>
+                  <!-- /.card-header -->
+                  <div class="card-body p-0">
+
+                  </div>
+                  <!-- /.card-body -->
+                </div>
+                <!-- /.card -->
+              </div>
               <!-- /.col -->
+              <div class="col-md-6">
+                <div class="card mb-4">
+                  <div class="card-header">
+                    <h3 class="card-title">Simple Full Width Table</h3>
+                    <div class="card-tools">
+                      <ul class="pagination pagination-sm float-end">
+                        <li class="page-item"><a class="page-link" href="#">&laquo;</a></li>
+                        <li class="page-item"><a class="page-link" href="#">1</a></li>
+                        <li class="page-item"><a class="page-link" href="#">2</a></li>
+                        <li class="page-item"><a class="page-link" href="#">3</a></li>
+                        <li class="page-item"><a class="page-link" href="#">&raquo;</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <!-- /.card-header -->
+                  <div class="card-body p-0">
+
+                  </div>
+                  <!-- /.card-body -->
+                </div>
                 <!-- /.card -->
                 <div class="card mb-4">
                   <div class="card-header">
