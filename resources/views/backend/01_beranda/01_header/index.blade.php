@@ -34,29 +34,7 @@
 
         <div class="container-fluid">
             <!--begin::Row-->
-            <div class="row">
-              <div class="col-md-6">
-                <div class="card mb-4">
-                  <!-- /.card-body -->
-                </div>
-                <!-- /.card -->
-                <div class="card mb-4">
-                  <!-- /.card-header -->
-                  <!-- /.card-body -->
-                </div>
-                <!-- /.card -->
-              </div>
-              <!-- /.col -->
-              <div class="col-md-6">
-                <div class="card mb-4">
-
-                  </div>
-                  <!-- /.card-header -->
-                  <div class="card-body p-0">
-
-                  </div>
-                  <!-- /.card-body -->
-                </div>
+            <div class="row" style="margin-right: 10px; margin-left:10px;">
                 <!-- /.card -->
                 <div class="card mb-4">
                   <div class="card-header">
