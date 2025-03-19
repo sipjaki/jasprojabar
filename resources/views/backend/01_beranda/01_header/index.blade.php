@@ -56,7 +56,7 @@
                         @foreach ($data as $item )
 
                         <tr class="align-middle">
-                            <td>{{$loop->iterations}}</td>
+                            <td>{{ $loop->iteration }}</td>
                             <td>{{$item->judul}}</td>
                             {{-- <td>
                                 <div class="progress progress-xs">
