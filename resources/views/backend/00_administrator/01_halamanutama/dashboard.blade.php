@@ -458,8 +458,8 @@
 <div class="row">
     <div class="col-12 col-sm-6 col-md-3">
       <div class="info-box">
-        <span class="info-box-icon text-bg-success shadow-sm"> <!-- Biru untuk Agenda Pelatihan -->
-          <i class="bi bi-calendar-event"></i> <!-- Ikon kalender untuk acara pelatihan -->
+        <span class="info-box-icon text-bg-success shadow-sm"> <!-- Hijau untuk Tertib Jakon Usaha -->
+          <i class="bi bi-briefcase"></i> <!-- Ikon tas kerja untuk usaha -->
         </span>
         <div class="info-box-content">
           <span class="info-box-text">Tertib Jakon Usaha</span>
@@ -476,8 +476,8 @@
 
     <div class="col-12 col-sm-6 col-md-3">
       <div class="info-box">
-        <span class="info-box-icon text-bg-success shadow-sm"> <!-- Oranye untuk Peserta -->
-          <i class="bi bi-person-lines-fill"></i> <!-- Ikon orang sekelompok untuk peserta -->
+        <span class="info-box-icon text-bg-success shadow-sm"> <!-- Hijau untuk Tertib Jakon Pemanfaatan -->
+          <i class="bi bi-house-door"></i> <!-- Ikon rumah untuk pemanfaatan -->
         </span>
         <div class="info-box-content">
           <span class="info-box-text">Tertib Jakon Pemanfaatan</span>
@@ -491,11 +491,11 @@
 
     <div class="col-12 col-sm-6 col-md-3">
       <div class="info-box">
-        <span class="info-box-icon text-bg-success shadow-sm"> <!-- Hijau untuk Agenda SKK -->
-          <i class="bi bi-journal-check"></i> <!-- Ikon jurnal untuk agenda SKK -->
+        <span class="info-box-icon text-bg-success shadow-sm"> <!-- Hijau untuk Tertib Jakon Penyelenggaraan -->
+          <i class="bi bi-gear"></i> <!-- Ikon roda gigi untuk penyelenggaraan -->
         </span>
         <div class="info-box-content">
-          <span class="info-box-text">Tertib Jakon Penyelenggaraan </span>
+          <span class="info-box-text">Tertib Jakon Penyelenggaraan</span>
           <span class="info-box-number">760</span>
         </div>
         <!-- /.info-box-content -->
@@ -506,11 +506,11 @@
 
     <div class="col-12 col-sm-6 col-md-3">
       <div class="info-box">
-        <span class="info-box-icon text-bg-success shadow-sm"> <!-- Biru untuk Peserta SKK -->
-          <i class="bi bi-person-check-fill"></i> <!-- Ikon orang centang untuk peserta SKK -->
+        <span class="info-box-icon text-bg-success shadow-sm"> <!-- Hijau untuk Pengawasan BUJK -->
+          <i class="bi bi-eye"></i> <!-- Ikon mata untuk pengawasan -->
         </span>
         <div class="info-box-content">
-          <span class="info-box-text">Peserta SKK</span>
+          <span class="info-box-text">Pengawasan BUJK</span>
           <span class="info-box-number">2,000</span>
         </div>
         <!-- /.info-box-content -->
@@ -520,6 +520,7 @@
     <!-- /.col -->
   </div>
   <!-- /.row -->
+
 
               {{-- -------------------------------------------------------- --}}
 
