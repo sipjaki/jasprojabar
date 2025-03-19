@@ -59,7 +59,7 @@
                             <td>{{ $loop->iteration }}</td>
                             <td>{{$item->judul}}</td>
                             <td>
-                                <img src="{{ asset('storage/'.$item->foto) }}" alt="Image">
+                                <img src="{{ asset('storage/'. $item->header) }}" alt="Image">
                             </td>
 
                             {{-- <td>
