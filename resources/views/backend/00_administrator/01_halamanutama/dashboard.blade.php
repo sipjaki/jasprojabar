@@ -658,7 +658,7 @@
                           <tr>
                             <td>
                               <img
-                                src="../../assets/00_administrator/dist/assets/img/default-150x150.png"
+                                src="../../assets/icon/logopupr.png"
                                 alt="Product 1"
                                 class="rounded-circle img-size-32 me-2"
                               />
@@ -667,30 +667,32 @@
                             <td>----</td>
 
                             <td>
-                              <a href="#" class="text-secondary"> <i class="bi bi-search"></i> </a>
+                                <a href="#" class="text-secondary"> <i class="bi bi-search"></i> </a>
                             </td>
                           </tr>
 
                           <tr>
-                            <td>
-                              <img
-                                src="../../assets/00_administrator/dist/assets/img/default-150x150.png"
-                                alt="Product 1"
+                              <td>
+                                  <img
+                                  src="../../assets/icon/logopupr.png"
+                                  {{-- src="../../assets/00_administrator/dist/assets/img/default-150x150.png" --}}
+                                  alt="Product 1"
                                 class="rounded-circle img-size-32 me-2"
-                              />
-                              Divisi II Pekerjaan Struktur
+                                />
+                                Divisi II Pekerjaan Struktur
                             </td>
                             <td>----</td>
 
                             <td>
-                              <a href="#" class="text-secondary"> <i class="bi bi-search"></i> </a>
+                                <a href="#" class="text-secondary"> <i class="bi bi-search"></i> </a>
                             </td>
-                          </tr>
+                        </tr>
 
-                          <tr>
+                        <tr>
                             <td>
-                              <img
-                                src="../../assets/00_administrator/dist/assets/img/default-150x150.png"
+                                <img
+                                {{-- src="../../assets/00_administrator/dist/assets/img/default-150x150.png" --}}
+                                src="../../assets/icon/logopupr.png"
                                 alt="Product 1"
                                 class="rounded-circle img-size-32 me-2"
                               />
@@ -699,106 +701,113 @@
                             <td>----</td>
 
                             <td>
-                              <a href="#" class="text-secondary"> <i class="bi bi-search"></i> </a>
+                                <a href="#" class="text-secondary"> <i class="bi bi-search"></i> </a>
                             </td>
-                          </tr>
+                        </tr>
 
-                          <tr>
+                        <tr>
                             <td>
-                              <img
-                                src="../../assets/00_administrator/dist/assets/img/default-150x150.png"
+                                <img
+                                src="../../assets/icon/logopupr.png"
+                                {{-- src="../../assets/00_administrator/dist/assets/img/default-150x150.png" --}}
                                 alt="Product 1"
                                 class="rounded-circle img-size-32 me-2"
-                              />
+                                />
                               Divisi IV Pekerjaan Lansekap
                             </td>
                             <td>----</td>
 
                             <td>
-                              <a href="#" class="text-secondary"> <i class="bi bi-search"></i> </a>
+                                <a href="#" class="text-secondary"> <i class="bi bi-search"></i> </a>
                             </td>
-                          </tr>
+                        </tr>
 
-                          <tr>
+                        <tr>
                             <td>
-                              <img
-                                src="../../assets/00_administrator/dist/assets/img/default-150x150.png"
+                                <img
+                                src="../../assets/icon/logopupr.png"
+                                {{-- src="../../assets/00_administrator/dist/assets/img/default-150x150.png" --}}
                                 alt="Product 1"
                                 class="rounded-circle img-size-32 me-2"
-                              />
-                              Divisi V Pekerjaan Mekanikal & Elektrikal
+                                />
+                                Divisi V Pekerjaan Mekanikal & Elektrikal
                             </td>
                             <td>----</td>
 
                             <td>
-                              <a href="#" class="text-secondary"> <i class="bi bi-search"></i> </a>
+                                <a href="#" class="text-secondary"> <i class="bi bi-search"></i> </a>
                             </td>
-                          </tr>
+                        </tr>
 
-                          <tr>
+                        <tr>
                             <td>
-                              <img
-                                src="../../assets/00_administrator/dist/assets/img/default-150x150.png"
+                                <img
+                                src="../../assets/icon/logopupr.png"
+                                {{-- src="../../assets/00_administrator/dist/assets/img/default-150x150.png" --}}
                                 alt="Product 1"
                                 class="rounded-circle img-size-32 me-2"
-                              />
-                              Divisi VI Pekerjaan Plumbing
+                                />
+                                Divisi VI Pekerjaan Plumbing
                             </td>
                             <td>----</td>
 
                             <td>
-                              <a href="#" class="text-secondary"> <i class="bi bi-search"></i> </a>
+                                <a href="#" class="text-secondary"> <i class="bi bi-search"></i> </a>
                             </td>
-                          </tr>
+                        </tr>
 
-                          <tr>
+                        <tr>
                             <td>
-                              <img
-                                src="../../assets/00_administrator/dist/assets/img/default-150x150.png"
+                                <img
+                                src="../../assets/icon/logopupr.png"
+                                {{-- src="../../assets/00_administrator/dist/assets/img/default-150x150.png" --}}
                                 alt="Product 1"
                                 class="rounded-circle img-size-32 me-2"
-                              />
-                              Divisi VII Jalan Pada Permukiman
+                                />
+                                Divisi VII Jalan Pada Permukiman
                             </td>
                             <td>----</td>
 
                             <td>
-                              <a href="#" class="text-secondary"> <i class="bi bi-search"></i> </a>
+                                <a href="#" class="text-secondary"> <i class="bi bi-search"></i> </a>
                             </td>
-                          </tr>
+                        </tr>
 
-                          <tr>
+                        <tr>
                             <td>
-                              <img
-                                src="../../assets/00_administrator/dist/assets/img/default-150x150.png"
+                                <img
+                                src="../../assets/icon/logopupr.png"
+                                {{-- src="../../assets/00_administrator/dist/assets/img/default-150x150.png" --}}
                                 alt="Product 1"
                                 class="rounded-circle img-size-32 me-2"
-                              />
-                              Divisi VIII Drainase Jalan
+                                />
+                                Divisi VIII Drainase Jalan
                             </td>
                             <td>----</td>
 
                             <td>
-                              <a href="#" class="text-secondary"> <i class="bi bi-search"></i> </a>
+                                <a href="#" class="text-secondary"> <i class="bi bi-search"></i> </a>
                             </td>
-                          </tr>
+                        </tr>
 
-                          <tr>
+                        <tr>
                             <td>
-                              <img
-                                src="../../assets/00_administrator/dist/assets/img/default-150x150.png"
+                                <img
+                                src="../../assets/icon/logopupr.png"
+                                {{-- src="../../assets/00_administrator/dist/assets/img/default-150x150.png" --}}
                                 alt="Product 1"
                                 class="rounded-circle img-size-32 me-2"
-                              />
-                              Divisi IX Pekerjaan Pipa di Luar Bangunan Gedung
+                                />
+                                Divisi IX Pekerjaan Pipa di Luar Bangunan Gedung
                             </td>
                             <td>----</td>
 
                             <td>
-                              <a href="#" class="text-secondary"> <i class="bi bi-search"></i> </a>
+                                <a href="#" class="text-secondary"> <i class="bi bi-search"></i> </a>
                             </td>
-                          </tr>
+                        </tr>
 
+                        {{-- src="../../assets/icon/logopupr.png" --}}
 
                         </tbody>
                       </table>
