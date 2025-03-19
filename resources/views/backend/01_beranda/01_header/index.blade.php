@@ -82,9 +82,32 @@
                                                 <i class="bi bi-pencil-square"></i>
                                             </a>
                                             <!-- Delete Icon -->
-                                            <a href="/header/delete/{{ $item->judul }}" class="btn btn-sm btn-danger" title="Delete">
+                                            <!-- Tombol Delete -->
+                                            <a href="#" class="btn btn-sm btn-danger" title="Delete" data-bs-toggle="modal" data-bs-target="#deleteModal"
+                                            onclick="setDeleteUrl('{{ $item->judul }}')">
                                                 <i class="bi bi-trash"></i>
                                             </a>
+
+
+<!-- Modal Konfirmasi Hapus -->
+<div class="modal fade" id="deleteModal" tabindex="-1" aria-labelledby="deleteModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="deleteModalLabel">Konfirmasi Penghapusan</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>Apakah Anda akan menghapus data ini?</p>
+                <p id="itemName" class="font-weight-bold"></p> <!-- Menampilkan nama item atau detail -->
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Batal</button>
+                <a id="confirmDelete" href="" class="btn btn-danger">Hapus</a>
+            </div>
+        </div>
+    </div>
+</div>
 
                                             <style>
                                                 /* Hover effect */
