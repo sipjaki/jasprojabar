@@ -59,5 +59,9 @@
       integrity="sha256-+uGLJmmTKOqBr+2E6KDYs/NRsHxSkONXFHUL0fy2O/4="
       crossorigin="anonymous"
     />
+
+
+    <link rel="icon" href="/assets/icon/logokabupatenblora.png" type="image/x-icon">
+
   </head>
   <!--end::Head-->
