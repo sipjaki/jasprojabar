@@ -66,7 +66,7 @@ class AdminDashboardController extends Controller
             $entry->delete();
 
             // Redirect atau memberi respons sesuai kebutuhan
-            return redirect('/header')->with('success', 'Data deleted successfully');
+            return redirect('/header')->with('delete', 'Data deleted successfully');
 
         }
 

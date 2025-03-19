@@ -30,6 +30,20 @@
           <!--end::Container-->
         </div>
 
+        <!-- Menampilkan pesan sukses -->
+@if (session('delete'))
+<div class="alert alert-danger" role="alert">
+    {{ session('delete') }}
+</div>
+@endif
+
+<!-- Menampilkan pesan error -->
+@if (session('error'))
+<div class="alert alert-danger" role="alert">
+    {{ session('error') }}
+</div>
+@endif
+
         <div class="container-fluid">
             <!--begin::Row-->
             <div class="row" style="margin-right: 10px; margin-left:10px;">
