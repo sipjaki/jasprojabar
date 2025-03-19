@@ -658,7 +658,7 @@
                           <tr>
                             <td>
                               <img
-                                src="../../assets/icon/logopupr.png"
+                                src="../../assets/icon/pupr.png"
                                 alt="Product 1"
                                 class="rounded-circle img-size-32 me-2"
                               />
@@ -674,7 +674,7 @@
                           <tr>
                               <td>
                                   <img
-                                  src="../../assets/icon/logopupr.png"
+                                  src="../../assets/icon/pupr.png"
                                   {{-- src="../../assets/00_administrator/dist/assets/img/default-150x150.png" --}}
                                   alt="Product 1"
                                 class="rounded-circle img-size-32 me-2"
@@ -692,7 +692,7 @@
                             <td>
                                 <img
                                 {{-- src="../../assets/00_administrator/dist/assets/img/default-150x150.png" --}}
-                                src="../../assets/icon/logopupr.png"
+                                src="../../assets/icon/pupr.png"
                                 alt="Product 1"
                                 class="rounded-circle img-size-32 me-2"
                               />
@@ -708,7 +708,7 @@
                         <tr>
                             <td>
                                 <img
-                                src="../../assets/icon/logopupr.png"
+                                src="../../assets/icon/pupr.png"
                                 {{-- src="../../assets/00_administrator/dist/assets/img/default-150x150.png" --}}
                                 alt="Product 1"
                                 class="rounded-circle img-size-32 me-2"
@@ -725,7 +725,7 @@
                         <tr>
                             <td>
                                 <img
-                                src="../../assets/icon/logopupr.png"
+                                src="../../assets/icon/pupr.png"
                                 {{-- src="../../assets/00_administrator/dist/assets/img/default-150x150.png" --}}
                                 alt="Product 1"
                                 class="rounded-circle img-size-32 me-2"
@@ -742,7 +742,7 @@
                         <tr>
                             <td>
                                 <img
-                                src="../../assets/icon/logopupr.png"
+                                src="../../assets/icon/pupr.png"
                                 {{-- src="../../assets/00_administrator/dist/assets/img/default-150x150.png" --}}
                                 alt="Product 1"
                                 class="rounded-circle img-size-32 me-2"
