@@ -47,7 +47,7 @@
                                         <th style="width: 10px">No</th>
                                         <th style="width: 400px">Judul</th>
                                         <th style="width: 500px">Gambar/Foto</th>
-                                        <th style="width: 100px">Actions</th>
+                                        <th style="width: 150px" style="text-align: center;">Actions</th>
                                     </tr>
                                 </thead>
                                 <tbody>
