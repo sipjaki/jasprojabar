@@ -46,9 +46,9 @@
                       <thead>
                         <tr>
                           <th style="width: 10px">No</th>
-                          <th style="width: 200px">Judul</th>
-                          <th style="width: 400px">Gambar/Foto</th>
-                          <th style="width: 150px">Actions</th>
+                          <th style="width: 400px">Judul</th>
+                          <th style="width: 500px">Gambar/Foto</th>
+                          <th style="width: 100px">Actions</th>
                         </tr>
                       </thead>
                       <tbody>
@@ -57,9 +57,9 @@
 
                         <tr class="align-middle">
                             <td>{{ $loop->iteration }}</td>
-                            <td>{{$item->judul}}</td>
+                            <td>{{!!$item->judul!!}}</td>
                             <td>
-                                <img src="{{ asset('storage/'. $item->header) }}" alt="Image" width="100">
+                                <img src="{{ asset('storage/'. $item->header) }}" alt="Image" width="300">
                             </td>
 
                             {{-- <td>
