@@ -183,23 +183,12 @@
                 <li class="user-footer">
                   {{-- <a href="#" class="btn btn-default btn-flat">Profile</a> --}}
                   {{-- <a href="/logout" class="btn btn-default btn-flat float-end">Logout</a> --}}
-                  <div style="display: inline-block; padding: 5px 15px; border-radius: 5px; background-color: #f8f9fa;">
-                    <form action="{{ url('/logout') }}" method="POST" class="float-end">
-                        @csrf
-                        <button type="submit" class="btn btn-default btn-flat" style="background-color: #f8f9fa; color: #000; border: none; padding: 5px 15px; border-radius: 5px; transition: background-color 0.3s, color 0.3s;">
-                            <i class="bi bi-door-open"></i> Logout
-                        </button>
-                    </form>
-
-                    <!-- Inline Style for Hover Effect -->
-                    <style>
-                        .btn-flat:hover {
-                            background-color: red;  /* Warna latar belakang merah saat hover */
-                            color: white;  /* Warna teks putih saat hover */
-                        }
-                    </style>
-                </div>
-
+                  <form action="{{ url('/logout') }}" method="POST" class="float-end">
+                    @csrf
+                    <button type="submit" class="btn btn-default btn-flat">
+                        <i class="bi bi-door-open"></i> Logout
+                    </button>
+                </form>
 
 
                 </li>
@@ -932,6 +921,7 @@
                         <a href="#" class="btn btn-sm btn-tool"> <i class="bi bi-list"></i> </a>
                       </div>
                     </div>
+
                     <div class="card-body">
                       <div
                         class="d-flex justify-content-between align-items-center border-bottom mb-3"
