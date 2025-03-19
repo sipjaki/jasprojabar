@@ -252,7 +252,7 @@
             <div class="container-fluid">
               <!-- Info boxes -->
 
-
+{{-- atas  --}}
               {{-- -------------------------------------------------------- --}}
               <div class="row">
                 <div class="col-12 col-sm-6 col-md-3">
@@ -261,7 +261,7 @@
                       <i class="bi bi-gear-fill"></i>
                     </span>
                     <div class="info-box-content">
-                      <span class="info-box-text">CPU Traffic</span>
+                      <span class="info-box-text">Berita Jakon</span>
                       <span class="info-box-number">
                         10
                         <small>%</small>
@@ -278,7 +278,7 @@
                       <i class="bi bi-hand-thumbs-up-fill"></i>
                     </span>
                     <div class="info-box-content">
-                      <span class="info-box-text">Likes</span>
+                      <span class="info-box-text">Artikel Jakon</span>
                       <span class="info-box-number">41,410</span>
                     </div>
                     <!-- /.info-box-content -->
@@ -294,7 +294,7 @@
                       <i class="bi bi-cart-fill"></i>
                     </span>
                     <div class="info-box-content">
-                      <span class="info-box-text">Sales</span>
+                      <span class="info-box-text">BUJK Konstruksi</span>
                       <span class="info-box-number">760</span>
                     </div>
                     <!-- /.info-box-content -->
@@ -308,7 +308,7 @@
                       <i class="bi bi-people-fill"></i>
                     </span>
                     <div class="info-box-content">
-                      <span class="info-box-text">New Members</span>
+                      <span class="info-box-text">BUJK Konstruksi Konsultasi</span>
                       <span class="info-box-number">2,000</span>
                     </div>
                     <!-- /.info-box-content -->
@@ -328,7 +328,7 @@
                       <i class="bi bi-gear-fill"></i>
                     </span>
                     <div class="info-box-content">
-                      <span class="info-box-text">CPU Traffic</span>
+                      <span class="info-box-text">TKK Binaan DPUPR</span>
                       <span class="info-box-number">
                         10
                         <small>%</small>
@@ -345,7 +345,7 @@
                       <i class="bi bi-hand-thumbs-up-fill"></i>
                     </span>
                     <div class="info-box-content">
-                      <span class="info-box-text">Likes</span>
+                      <span class="info-box-text">TKK Seluruh Kab Blora</span>
                       <span class="info-box-number">41,410</span>
                     </div>
                     <!-- /.info-box-content -->
@@ -361,7 +361,7 @@
                       <i class="bi bi-cart-fill"></i>
                     </span>
                     <div class="info-box-content">
-                      <span class="info-box-text">Sales</span>
+                      <span class="info-box-text">Profil Paket Pekerjaan</span>
                       <span class="info-box-number">760</span>
                     </div>
                     <!-- /.info-box-content -->
@@ -375,7 +375,7 @@
                       <i class="bi bi-people-fill"></i>
                     </span>
                     <div class="info-box-content">
-                      <span class="info-box-text">New Members</span>
+                      <span class="info-box-text">Agenda Pelatihan</span>
                       <span class="info-box-number">2,000</span>
                     </div>
                     <!-- /.info-box-content -->
@@ -395,7 +395,7 @@
                       <i class="bi bi-gear-fill"></i>
                     </span>
                     <div class="info-box-content">
-                      <span class="info-box-text">CPU Traffic</span>
+                      <span class="info-box-text">Peserta Pelatihan</span>
                       <span class="info-box-number">
                         10
                         <small>%</small>
@@ -412,7 +412,7 @@
                       <i class="bi bi-hand-thumbs-up-fill"></i>
                     </span>
                     <div class="info-box-content">
-                      <span class="info-box-text">Likes</span>
+                      <span class="info-box-text">Agenda SKK</span>
                       <span class="info-box-number">41,410</span>
                     </div>
                     <!-- /.info-box-content -->
@@ -428,7 +428,7 @@
                       <i class="bi bi-cart-fill"></i>
                     </span>
                     <div class="info-box-content">
-                      <span class="info-box-text">Sales</span>
+                      <span class="info-box-text">Peserta SKK</span>
                       <span class="info-box-number">760</span>
                     </div>
                     <!-- /.info-box-content -->
@@ -442,7 +442,7 @@
                       <i class="bi bi-people-fill"></i>
                     </span>
                     <div class="info-box-content">
-                      <span class="info-box-text">New Members</span>
+                      <span class="info-box-text">Tertib Jakon Usaha</span>
                       <span class="info-box-number">2,000</span>
                     </div>
                     <!-- /.info-box-content -->
@@ -462,7 +462,7 @@
                       <i class="bi bi-gear-fill"></i>
                     </span>
                     <div class="info-box-content">
-                      <span class="info-box-text">CPU Traffic</span>
+                      <span class="info-box-text">Tertib Jakon Pemanfaatan</span>
                       <span class="info-box-number">
                         10
                         <small>%</small>
@@ -479,7 +479,7 @@
                       <i class="bi bi-hand-thumbs-up-fill"></i>
                     </span>
                     <div class="info-box-content">
-                      <span class="info-box-text">Likes</span>
+                      <span class="info-box-text">Tertib Jakon Penyelenggaraan</span>
                       <span class="info-box-number">41,410</span>
                     </div>
                     <!-- /.info-box-content -->
@@ -495,7 +495,7 @@
                       <i class="bi bi-cart-fill"></i>
                     </span>
                     <div class="info-box-content">
-                      <span class="info-box-text">Sales</span>
+                      <span class="info-box-text">Pengawasan BUJK</span>
                       <span class="info-box-number">760</span>
                     </div>
                     <!-- /.info-box-content -->
@@ -509,7 +509,7 @@
                       <i class="bi bi-people-fill"></i>
                     </span>
                     <div class="info-box-content">
-                      <span class="info-box-text">New Members</span>
+                      <span class="info-box-text">Kecelakaan Kerja</span>
                       <span class="info-box-number">2,000</span>
                     </div>
                     <!-- /.info-box-content -->
