@@ -44,21 +44,21 @@
                             <table class="table table-striped">
                                 <thead>
                                     <tr>
-                                        <th style="width: 10px">No</th>
-                                        <th style="width: 400px">Judul</th>
-                                        <th style="width: 500px">Gambar/Foto</th>
-                                        <th style="width: 150px" style="text-align: center;">Actions</th>
+                                        <th style="width: 10px; text-align:center;">No</th>
+                                        <th style="width: 400px; text-align:center;">Judul</th>
+                                        <th style="width: 500px; text-align:center;">Gambar/Foto</th>
+                                        <th style="width: 150px; text-align: center;">Actions</th>
                                     </tr>
                                 </thead>
                                 <tbody>
                                     @foreach ($data as $item )
                                     <tr class="align-middle">
-                                        <td>{{ $loop->iteration }}</td>
-                                        <td>{!! $item->judul !!}</td>
-                                        <td>
+                                        <td style="text-align: center;">{{ $loop->iteration }}</td>
+                                        <td style="text-align: left;">{!! $item->judul !!}</td>
+                                        <td style="text-align: center;">
                                             <img src="{{ asset('storage/'. $item->header) }}" alt="Image" width="300">
                                         </td>
-                                        <td>
+                                        <td style="text-align: center;">
                                             <!-- Show Icon -->
                                             <a href="/404" class="btn btn-sm btn-info me-2" title="Show">
                                                 <i class="bi bi-eye"></i>
