@@ -23,7 +23,8 @@
                         <div class="col-md-12">
                             <div class="slider-content">
                                 {{-- <div class="slider-tagline">Selamat Datang ! di </div> --}}
-								<h4 class="section-title">{{$item->judul}}</h4>
+								<h4 class="section-title">{!! $item->judul !!}</h4>
+
 								{{-- <a href="index-2.html" class="btn btn-primary">Discover More</a> --}}
 							</div><!-- slider-content -->
 						</div><!-- col-md-12 -->
