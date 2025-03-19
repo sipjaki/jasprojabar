@@ -608,7 +608,7 @@
                   <div class="card mb-4">
                     <div class="card-header border-0">
                       <div class="d-flex justify-content-between">
-                        <h3 class="card-title">Online Store Visitors</h3>
+                        <h3 class="card-title">Verifikasi Peserta</h3>
                         <a
                           href="javascript:void(0);"
                           class="link-primary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover"
@@ -639,7 +639,7 @@
                   <!-- /.card -->
                   <div class="card mb-4">
                     <div class="card-header border-0">
-                      <h3 class="card-title">Products</h3>
+                      <h3 class="card-title">AHSP Konstruksi Umum</h3>
                       <div class="card-tools">
                         <a href="#" class="btn btn-tool btn-sm"> <i class="bi bi-download"></i> </a>
                         <a href="#" class="btn btn-tool btn-sm"> <i class="bi bi-list"></i> </a>
@@ -659,7 +659,7 @@
                           <tr>
                             <td>
                               <img
-                                src="../../dist/assets/img/default-150x150.png"
+                                src="../../assets/00_administrator/dist/assets/img/default-150x150.png"
                                 alt="Product 1"
                                 class="rounded-circle img-size-32 me-2"
                               />
@@ -752,7 +752,7 @@
                   <div class="card mb-4">
                     <div class="card-header border-0">
                       <div class="d-flex justify-content-between">
-                        <h3 class="card-title">Sales</h3>
+                        <h3 class="card-title">Statistik Rantai Pasok</h3>
                         <a
                           href="javascript:void(0);"
                           class="link-primary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover"
@@ -763,7 +763,7 @@
                     <div class="card-body">
                       <div class="d-flex">
                         <p class="d-flex flex-column">
-                          <span class="fw-bold fs-5">$18,230.00</span> <span>Sales Over Time</span>
+                          <span class="fw-bold fs-5">453</span> <span>Sales Over Time</span>
                         </p>
                         <p class="ms-auto d-flex flex-column text-end">
                           <span class="text-success"> <i class="bi bi-arrow-up"></i> 33.1% </span>
@@ -783,7 +783,7 @@
                   <!-- /.card -->
                   <div class="card">
                     <div class="card-header border-0">
-                      <h3 class="card-title">Online Store Overview</h3>
+                      <h3 class="card-title">Statistik Kunjungan Web Mas Jaki Blora</h3>
                       <div class="card-tools">
                         <a href="#" class="btn btn-sm btn-tool"> <i class="bi bi-download"></i> </a>
                         <a href="#" class="btn btn-sm btn-tool"> <i class="bi bi-list"></i> </a>
