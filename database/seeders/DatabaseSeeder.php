@@ -221,7 +221,7 @@ headerberanda::create([
             'name'  => 'Sigit Septiadi',
             'username' => 'Sigit',
             'statusadmin_id' => '1',
-            'avatar' => 'user/avatar/foto1.png',
+            'avatar' => 'user/avatar/sigit.jpg',
             'email' => 'sigitseptiadi1@gmail.com',
             'password' => bcrypt('adminadmin123$$')
         ]);
@@ -230,7 +230,7 @@ headerberanda::create([
             'name'  => 'Budi Sudarsono',
             'username' => 'Sigitadmin',
             'statusadmin_id' => '2',
-            'avatar' => 'user/avatar/foto1.png',
+            'avatar' => 'user/avatar/sigit.jpg',
             'email' => 'sigitadmin@gmail.com',
             'password' => bcrypt('adminadmin123$$')
         ]);
@@ -239,7 +239,7 @@ headerberanda::create([
             'name'  => 'Rahmat Irianto',
             'username' => 'Sigitpekerja',
             'statusadmin_id' => '3',
-            'avatar' => 'user/avatar/foto1.png',
+            'avatar' => 'user/avatar/sigit.jpg',
             'email' => 'sigitpekerja@gmail.com',
             'password' => bcrypt('adminadmin123$$')
         ]);
@@ -248,7 +248,7 @@ headerberanda::create([
             'name'  => 'Sigit Septiadi',
             'username' => 'Sigitsupppabrik',
             'statusadmin_id' => '4',
-            'avatar' => 'user/avatar/foto1.png',
+            'avatar' => 'user/avatar/sigit.jpg',
             'email' => 'sigitsupp_pabrik@gmail.com',
             'password' => bcrypt('adminadmin123$$')
         ]);
@@ -257,7 +257,7 @@ headerberanda::create([
             'name'  => 'Sigit Septiadi',
             'username' => 'Sigitsupppabrik',
             'statusadmin_id' => '5',
-            'avatar' => 'user/avatar/foto1.png',
+            'avatar' => 'user/avatar/sigit.jpg',
             'email' => 'sigitsupp_peralatan@gmail.com',
             'password' => bcrypt('adminadmin123$$')
         ]);
@@ -266,7 +266,7 @@ headerberanda::create([
             'name'  => 'Sigit Septiadi',
             'username' => 'Sigitsupppabrik',
             'statusadmin_id' => '6',
-            'avatar' => 'user/avatar/foto1.png',
+            'avatar' => 'user/avatar/sigit.jpg',
             'email' => 'sigitsupp_tokobangunan@gmail.com',
             'password' => bcrypt('adminadmin123$$')
         ]);
@@ -275,7 +275,7 @@ headerberanda::create([
             'name'  => 'Sigit Septiadi',
             'username' => 'Sigitsupppabrik',
             'statusadmin_id' => '7',
-            'avatar' => 'user/avatar/foto1.png',
+            'avatar' => 'user/avatar/sigit.jpg',
             'email' => 'sigitlpspenerbit@gmail.com',
             'password' => bcrypt('adminadmin123$$')
         ]);
@@ -284,7 +284,7 @@ headerberanda::create([
             'name'  => 'Sigit Septiadi',
             'username' => 'Sigitsupppabrik',
             'statusadmin_id' => '8',
-            'avatar' => 'user/avatar/foto1.png',
+            'avatar' => 'user/avatar/sigit.jpg',
             'email' => 'sigitoperator@gmail.com',
             'password' => bcrypt('adminadmin123$$')
         ]);
@@ -293,7 +293,7 @@ headerberanda::create([
             'name'  => 'Sigit Septiadi',
             'username' => 'Sigitsupppabrik',
             'statusadmin_id' => '9',
-            'avatar' => 'user/avatar/foto1.png',
+            'avatar' => 'user/avatar/sigit.jpg',
             'email' => 'sigitdinas@gmail.com',
             'password' => bcrypt('adminadmin123$$')
         ]);
@@ -14532,63 +14532,6 @@ suratkeputusan::create([
 
             // ================= =====================================================================================
 
-
-// ===================== ===================== ===================== =====================
-            pelatihan::create([
-                'tahun'  => '2015',
-                'kasus' => '110285',
-                'created_at' => now(),
-                'updated_at' => now(),
-            ]);
-
-            pelatihan::create([
-                'tahun'  => '2016',
-                'kasus' => '101367',
-                'created_at' => now(),
-                'updated_at' => now(),
-            ]);
-
-            pelatihan::create([
-                'tahun'  => '2017',
-                'kasus' => '123040',
-                'created_at' => now(),
-                'updated_at' => now(),
-            ]);
-
-            pelatihan::create([
-                'tahun'  => '2018',
-                'kasus' => '173415',
-                'created_at' => now(),
-                'updated_at' => now(),
-            ]);
-
-            pelatihan::create([
-                'tahun'  => '2019',
-                'kasus' => '182835',
-                'created_at' => now(),
-                'updated_at' => now(),
-            ]);
-
-            pelatihan::create([
-                'tahun'  => '2020',
-                'kasus' => '221740',
-                'created_at' => now(),
-                'updated_at' => now(),
-            ]);
-
-            pelatihan::create([
-                'tahun'  => '2021',
-                'kasus' => '234270',
-                'created_at' => now(),
-                'updated_at' => now(),
-            ]);
-
-            pelatihan::create([
-                'tahun'  => '2022',
-                'kasus' => '265334',
-                'created_at' => now(),
-                'updated_at' => now(),
-            ]);
 
 
 
