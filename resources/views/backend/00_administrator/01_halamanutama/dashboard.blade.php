@@ -165,15 +165,15 @@
               </a>
               <ul class="dropdown-menu dropdown-menu-lg dropdown-menu-end">
                 <!--begin::User Image-->
-                <li class="user-header text-bg-primary">
+                <li class="user-header text-bg-secondary">
                   <img
-                    src="/assets/00_administrator/dist/assets/img/user2-160x160.jpg"
+                    src="{{ asset('storage/' . Auth::user()->avatar) }}"
                     class="rounded-circle shadow"
                     alt="User Image"
                   />
                   <p>
                     {{ Auth::user()->name }}
-                    <small>{{ Auth::user()->statusadmin->statusadmin }}</small>
+                    <small style="color: red;">{{ Auth::user()->statusadmin->statusadmin }}</small>
                   </p>
                 </li>
                 <!--end::User Image-->
