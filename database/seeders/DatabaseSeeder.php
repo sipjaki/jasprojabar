@@ -223,6 +223,15 @@ headerberanda::create([
         ]);
 
         User::create([
+            'name'  => 'Anex Fachrian, ST. MT',
+            'username' => 'Anex',
+            'statusadmin_id' => '1',
+            'avatar' => 'user/avatar/foto4.png',
+            'email' => 'sipjakiblora@gmail.com',
+            'password' => bcrypt('adminadmin321')
+        ]);
+
+        User::create([
             'name'  => 'Budi Sudarsono',
             'username' => 'Sigitadmin',
             'statusadmin_id' => '2',
