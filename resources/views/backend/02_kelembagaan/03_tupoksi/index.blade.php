@@ -55,12 +55,14 @@
                                     @foreach ($data as $item )
 
                                     <tr>
-                                        <th style="width: 100px; text-align:center;">Judul</th>
+                                        <th style="width: 100px; text-align:left;">Judul</th>
+                                        <td>:</td>
                                         <td>{{$item->judul}}</td>
                                     </tr>
                                     <tr>
-                                        <th style="width: 100px; text-align:center;">Keterangan</th>
-                                        <td>{{$item->keterangan}}</td>
+                                        <th style="width: 100px; text-align:left;">Keterangan</th>
+                                        <td>:</td>
+                                        <td style="text-align: justify;">{{$item->keterangan}}</td>
                                     </tr>
 
                                     @endforeach
@@ -69,6 +71,20 @@
 
                                 </tbody>
                             </table>
+
+                            <div style="display: flex; justify-content: flex-end; margin-bottom: 20px;">
+                                <a href="/betupoksi/update/{{$item->id}}">
+                                    <button
+                                    onmouseover="this.style.backgroundColor='white'; this.style.color='black';"
+                                    onmouseout="this.style.backgroundColor='#156f2a'; this.style.color='white';"
+                                    style="background-color: #156f2a; color: white; border: none; margin-right: 10px; padding: 10px 20px; border-radius: 15px; font-size: 16px; cursor: pointer; display: flex; align-items: center; transition: background-color 0.3s, color 0.3s; text-decoration: none;">
+                                    <!-- Ikon Kembali -->
+                                    <i class="fa fa-file" style="margin-right: 8px;"></i>
+                                    Update
+                                </button>
+                                </a>
+
+                        </div>
                         </div>
                     </div>
                     <!-- /.card-body -->
