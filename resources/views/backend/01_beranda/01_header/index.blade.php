@@ -99,7 +99,7 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>Apakah Anda akan menghapus data ini?</p>
+                <p>Apakah Anda akan menghapus data ini? {{ Auth::user()->name }} </p>
                 <p id="itemName" class="font-weight-bold"></p> <!-- Menampilkan nama item atau detail -->
             </div>
             <div class="modal-footer">
