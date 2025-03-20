@@ -55,71 +55,48 @@
 
 <body>
   <!-- Start your project here-->
-  <section>
-    <div class="container-fluid h-custom" style="margin-top:150px;">
-        <div class="row d-flex justify-content-center align-items-center">
-            <!-- Large screen layout: Image + Text on the left, Form on the right -->
-            <div class="col-12 col-md-6 d-flex justify-content-center align-items-center flex-column text-center text-md-left" style="gap: 15px;">
+  <section style="height: 100vh; display: flex; flex-direction: column; justify-content: space-between; align-items: center; overflow: hidden; margin: 0; padding: 0;">
+    <div class="container-fluid h-custom" style="height: 100vh; display: flex; flex-direction: column; justify-content: center; align-items: center;">
 
-                <!-- Images will resize based on screen size -->
+        <div class="row d-flex justify-content-center align-items-center w-100">
+            <!-- Logo dan Teks -->
+            <div class="col-12 col-md-6 d-flex flex-column text-center text-md-left align-items-center" style="gap: 15px;">
+
                 <div class="d-flex justify-content-center align-items-center mb-3">
                     <img src="/assets/icon/logokabupatenblora.png" class="img-fluid" alt="Logo Kabupaten Blora" width="125" loading="lazy">
                     <img src="/assets/icon/pupr.png" class="img-fluid" alt="Logo PUPR" width="125" loading="lazy">
                 </div>
 
-                <!-- Header text and description -->
-                <div class="header-text">
-                    <h1 class="header-title" style="font-family: 'Montserrat', sans-serif; font-size: 2.5rem; font-weight: bold;">
-                        <span class="header-title-white" style="font-weight: bold; font-style: italic; color: black;">MASJAKI</span>
-                        <span class="header-title-green" style="font-weight: bold; font-style: italic; color: #064420;">BLORA</span>
-                    </h1>
-                    <p class="header-description" style="font-family: 'Montserrat', sans-serif; font-size: 1rem; color: black; font-weight: bold;">
-                        Dinas Pekerjaan Umum Dan Penataan Ruang <br> Kabupaten Blora
-                    </p>
-                </div>
+                <h1 class="header-title" style="font-family: 'Montserrat', sans-serif; font-size: 2.5rem; font-weight: bold;">
+                    <span style="font-weight: bold; font-style: italic; color: black;">MASJAKI</span>
+                    <span style="font-weight: bold; font-style: italic; color: #064420;">BLORA</span>
+                </h1>
+                <p class="header-description" style="font-family: 'Montserrat', sans-serif; font-size: 1rem; color: black; font-weight: bold;">
+                    Dinas Pekerjaan Umum Dan Penataan Ruang <br> Kabupaten Blora
+                </p>
             </div>
 
-            <!-- Form login section (right side for large screens) -->
+            <!-- Form Login -->
             <div class="col-12 col-md-4">
                 <form action="/login" method="post">
                     @csrf
-
-                    <!-- Email input -->
                     <div class="mb-4">
-                        <input type="text" name="email" class="form-control rounded-full @error('email') is-invalid @enderror" id="email" placeholder="Email" value="{{ old('email') }}" style="padding: 10px 15px;" />
+                        <input type="text" name="email" class="form-control rounded-full" id="email" placeholder="Email" style="padding: 10px 15px;" />
                         <label class="form-label" for="email">Email address</label>
-                        @error('email')
-                            <div class="invalid-feedback">{{ $message }}</div>
-                        @enderror
                     </div>
 
-                    <!-- Password input -->
                     <div class="mb-3">
-                        <input type="password" name="password" class="form-control rounded-full @error('password') is-invalid @enderror" id="password" placeholder="Password" style="padding: 10px 15px;" />
+                        <input type="password" name="password" class="form-control rounded-full" id="password" placeholder="Password" style="padding: 10px 15px;" />
                         <label class="form-label" for="password">Password</label>
-                        @error('password')
-                            <div class="invalid-feedback">{{ $message }}</div>
-                        @enderror
                     </div>
 
-                    <!-- General login error message -->
-                    @if($errors->has('pesanlogin'))
-                        <div class="alert alert-danger mb-2">{{ $errors->first('pesanlogin') }}</div>
-                    @endif
-
-                    <!-- Submit Button -->
-                    <div class="text-center text-lg-start mt-4 pt-2">
-                       <!-- Login Button with Modern Icon -->
-                                <button
-                                type="submit"
-                                class="btn btn-dark btn-lg"
-                                style="background-color: #064420; color: white; padding-left: 2.5rem; padding-right: 2.5rem; border: none;"
-                                onmouseover="this.style.backgroundColor='white'; this.style.color='black';"
-                                onmouseout="this.style.backgroundColor='#064420'; this.style.color='white';"
-                                >
-                                <i class="fas fa-sign-in-alt me-2"></i> <!-- Font Awesome Login Icon -->
-                                Login
-                                </button>
+                    <div class="text-center mt-4 pt-2">
+                        <button type="submit" class="btn btn-dark btn-lg"
+                            style="background-color: #064420; color: white; padding: 10px 50px; border: none;"
+                            onmouseover="this.style.backgroundColor='white'; this.style.color='black';"
+                            onmouseout="this.style.backgroundColor='#064420'; this.style.color='white';">
+                            <i class="fas fa-sign-in-alt me-2"></i> Login
+                        </button>
 
                         <p class="small fw-bold mt-2 pt-1 mb-0">
                             Belum Punya Akun? <a href="/404" class="link-danger">Daftar</a>
@@ -131,8 +108,9 @@
     </div>
 
     <!-- Footer -->
-    <div class="d-flex flex-column text-center justify-content-center py-4 px-4 px-xl-5" style="background: rgb(3, 69, 3); display: flex; align-items: center; margin-top:150px;">
-        <div class="d-flex justify-content-center align-items-center" style="gap: 15px; margin-bottom: 5px;">
+    <div class="d-flex flex-column text-center justify-content-center py-3 px-4 w-100"
+         style="background: rgb(3, 69, 3); display: flex; align-items: center;">
+        <div class="d-flex justify-content-center align-items-center mb-2">
             <img src="/assets/icon/logokabupatenblora.png" class="img-fluid" alt="Logo Kabupaten Blora" width="20" loading="lazy">
             <img src="/assets/icon/pupr.png" class="img-fluid" alt="Logo PUPR" width="20" loading="lazy">
         </div>
