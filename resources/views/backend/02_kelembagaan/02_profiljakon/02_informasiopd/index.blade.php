@@ -53,7 +53,7 @@
 
                     <div class="col-md-12">
                         <!--begin::Quick Example-->
-                        <div class="card card-primary card-outline mb-12">
+                        <div class="card card-primary card-outline mb-10" style="text-align: center;">
                           <!--begin::Header-->
                           {{-- <div class="card-header"><div class="card-title">Quick Example</div></div> --}}
                           <!--end::Header-->
@@ -66,7 +66,7 @@
                               <div class="card-body">
                                   <div class="mb-3">
                                 <label class="form-label">Nama Organisasi Perangkat Daerah (OPD)</label>
-                                <input value="{{$item->namaopd}}"/>
+                                <input  class="form-control" value="{{$item->namaopd}}"/>
                                 <div class="form-text">
                                 </div>
                             </div>
