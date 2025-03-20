@@ -118,6 +118,7 @@
 
                     @include('backend.00_administrator.00_baganterpisah.07_paginations')
 
+                    <br><br>
 
 
                     <!-- Modal Konfirmasi Hapus -->

@@ -38,3 +38,16 @@
         </li>
     </ul>
 </div>
+
+
+<style>
+    /* Hover effect */
+    .btn-info:hover, .btn-warning:hover, .btn-danger:hover {
+        background-color: #fff !important; /* Keep the background white on hover */
+        color: black !important; /* Change text color to black on hover */
+    }
+
+    .btn-info:hover i, .btn-warning:hover i, .btn-danger:hover i {
+        color: black !important; /* Ensure the icon color changes to black */
+    }
+</style>
