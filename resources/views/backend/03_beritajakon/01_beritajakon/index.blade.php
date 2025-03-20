@@ -56,7 +56,7 @@
                                         <th style="width: 200px; text-align:center;">Penulis</th>
                                         <th style="width: 250px; text-align:center;">Judul Berita</th>
                                         <th style="width: 100px; text-align: center;">Tanggal</th>
-                                        <th style="width: 500px; text-align: center;">Isi Berita</th>
+                                        <th style="width: 600px; text-align: center;">Isi Berita</th>
                                         <th style="width: 300px; text-align: center;">Foto</th>
                                         <th style="width: 150px; text-align: center;">Aksi</th>
                                     </tr>
@@ -69,7 +69,7 @@
                                         <td style="text-align: left;">{!! $item->judulberita !!}</td>
                                         <td style="text-align: left;">{{ \Carbon\Carbon::parse($item->tanggal)->translatedFormat('l, d F Y') }}</td>
                                         <td style="width: 80%;">
-                                            <div style="word-wrap: break-word; white-space: normal; max-width: 300px;">
+                                            <div style="word-wrap: break-word; white-space: normal; max-width: 600px;">
                                                 {!! $item->keterangan !!}
                                             </div>
                                         </td>
