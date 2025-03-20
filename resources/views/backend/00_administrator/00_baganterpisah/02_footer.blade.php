@@ -1,5 +1,5 @@
 <!--begin::Footer-->
-<footer class="app-footer d-flex justify-content-center align-items-center" style="height: 100px;">
+<footer class="app-footer d-flex justify-content-center align-items-center">
     <!--begin::To the end-->
     <div class="float-end d-none d-sm-inline"></div>
     <!--end::To the end-->
