@@ -37,9 +37,9 @@
         @include('backend.00_administrator.00_baganterpisah.06_alert')
 
         {{-- ======================================================= --}}
-        <div class="container">
+        <div class="container" style="text-align: left; margin-bottom: 20px;">
             <a href="/beprofiljakon">
-                <div style="display: inline-block; margin-bottom: 20px;">
+                <div style="display: inline-block;">
                     <button
                         onmouseover="this.style.backgroundColor='white'; this.style.color='black';"
                         onmouseout="this.style.backgroundColor='navy'; this.style.color='white';"
