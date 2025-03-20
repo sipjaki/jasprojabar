@@ -20,39 +20,13 @@
 
             @foreach ($data as $item )
             <iframe src="{{ asset('storage/' . $item->peraturan) }}" width="100%" height="750" style="border: none; margin-bottom:25px;"></iframe>
-            @endforeach
-
-			{{-- <div class="portfolio-details-info">
-				<div class="portfolio-details-info-item">
-					<span>Category:</span>
-					<p>Business</p>
-				</div><!-- portfolio-details-info-item -->
-				<div class="portfolio-details-info-item">
-					<span>Department:</span>
-					<p>Finance and Economy</p>
-				</div><!-- portfolio-details-info-item -->
-				<div class="portfolio-details-info-item">
-					<span>Date:</span>
-					<p>20 October, 2022</p>
-				</div><!-- portfolio-details-info-item -->
-				<div class="portfolio-details-info-item">
-					<span>Location:</span>
-					<p>New York City</p>
-				</div><!-- portfolio-details-info-item -->
-				<div class="portfolio-details-info-item portfolio-details-info-socials">
-					<a href="#"><i class="fa-brands fa-twitter"></i></a>
-					<a href="#"><i class="fa-brands fa-facebook"></i></a>
-					<a href="#"><i class="fa-brands fa-pinterest-p"></i></a>
-					<a href="#"><i class="fa-brands fa-instagram"></i></a>
-				</div><!-- portfolio-details-info-socials -->
-			</div><!--/.portfolio-details-info--> --}}
 			<div class="portfolio-details-content">
-				<div class="portfolio-details-content-title">
-					<h3>Struktur Dinas Pekerjaan Umum dan Penataan Ruang Kabupaten Blora</h3>
+                <div class="portfolio-details-content-title">
+                    <h3>{{!! $item->judul !!}}</h3>
 				</div><!-- portfolio-details-content-title -->
 				<div class="portfolio-details-content-text">
-					<p style="text-align: justify" >
-                        Dinas Pekerjaan Umum dan Penataan Ruang (PUPR) Pemerintah Kabupaten Blora memiliki peran vital dalam pengelolaan infrastruktur dan penataan ruang yang mendukung pembangunan daerah. Dinas ini bertanggung jawab dalam merencanakan, melaksanakan, serta mengawasi pembangunan berbagai infrastruktur seperti jalan, jembatan, dan gedung, serta fasilitas publik lainnya. Selain itu, Dinas PUPR juga berperan dalam penataan ruang yang berfokus pada pengembangan wilayah yang terencana dan berkelanjutan. Struktur organisasi Dinas PUPR Kabupaten Blora dibangun dengan sistem yang terstruktur dan terorganisir guna memastikan efektivitas dalam pelaksanaan tugas-tugasnya.
+                    <p style="text-align: justify" >
+                {!! $item->keterangan !!}
                     </p>
 
                     <p style="text-align: justify">
@@ -61,6 +35,7 @@
                     </p >
                 </div><!-- portfolio-details-content-text -->
 			</div><!-- portfolio-details-content -->
+            @endforeach
 		</div><!-- container -->
 	</section><!-- portfolio-details -->
 
