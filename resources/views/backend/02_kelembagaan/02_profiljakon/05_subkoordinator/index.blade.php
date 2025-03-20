@@ -88,12 +88,14 @@
 
                                         <!-- Right Column (6/12) -->
 
-                                        <div class="mb-3">
-                                            <label class="form-label">Pangkat Golongan</label>
-                                            <input class="form-control" value="{{$item->pangkatgolongan}}" readonly/>
-                                        </div>
-
                                         <div class="col-md-6">
+
+
+                                            <div class="mb-3">
+                                                <label class="form-label">Pangkat Golongan</label>
+                                                <input class="form-control" value="{{$item->pangkatgolongan}}" readonly/>
+                                            </div>
+
                                             <div class="mb-3">
                                                 <label class="form-label">Jabatan</label>
                                                 <input class="form-control" value="{{$item->jabatan}}" readonly/>
