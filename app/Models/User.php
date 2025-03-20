@@ -62,7 +62,9 @@ class User extends Authenticatable
         return $this->hasMany(allskktenagakerjablora::class);
     }
 
-
-
+    public function beritajakon()
+    {
+        return $this->hasMany(beritajakon::class);
+    }
 
 }

@@ -13,4 +13,9 @@ class beritajakon extends Model
 
     protected $guarded = ['id'];
 
+    public function user()
+    {
+        return $this->belongsTo(user::class, 'user_id');
+    }
+
 }

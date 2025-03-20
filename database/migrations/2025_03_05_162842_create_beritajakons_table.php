@@ -13,6 +13,7 @@ return new class extends Migration
     {
         Schema::create('beritajakons', function (Blueprint $table) {
             $table->id();
+            $table->foreignId('user_id')->nullable();
             $table->string('judulberita')->nullable();
             $table->date('tanggal')->nullable();
             $table->text('keterangan')->nullable();
