@@ -183,7 +183,7 @@
               <li class="nav-item">
 
                     <li class="nav-item">
-                        <a href="/beberitajakon" class="nav-link">
+                        <a href="#" class="nav-link">
                             <!-- Ikon untuk Berita Jakon (Newspaper) -->
                             <i class="nav-icon bi bi-newspaper text-success"></i>
                             <p style="color: white">
@@ -196,7 +196,7 @@
                 <ul class="nav nav-treeview">
 
                     <li class="nav-item">
-                        <a href="/404" class="nav-link">
+                        <a href="/beberitajakon" class="nav-link">
                           <!-- Ikon untuk Berita Jakon -->
                           <i class="nav-icon bi bi-newspaper text-warning"></i>
                           <p style="color: white">Berita Jakon</p>
