@@ -49,72 +49,59 @@
                         <h2 style="color: black;" class="card-title">Halaman Pengaturan : {{$title}} </h2>
 
                     </div>
-                    <!-- /.card-header -->
-                    <div class="card-body p-0">
-                        <div class="table-responsive">
-                            <table class="table table-striped">
-                                <thead>
-                                    <tr>
-                                        <th style="width: 10px; text-align:center;">No</th>
-                                        <th style="width: 300px; text-align:center;">Judul</th>
-                                        {{-- <th style="width: 500px; text-align:center;">Berkas</th> --}}
-                                        <th style="width: 600px; text-align: center;">Keterangan</th>
-                                        <th style="width: 100px; text-align: center;">Perbarui Data</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    @foreach ($data as $item )
-                                    <tr class="align-middle">
-                                        <td style="text-align: center;">{{ $loop->iteration }}</td>
-                                        <td style="text-align: left;">{!! $item->judul !!}</td>
-                                        {{-- <td style="text-align: center;">
-                                            <object data="{{ asset('storage/' . $item->peraturan) }}" type="application/pdf" width="300" height="200">
-                                                <p>PDF cannot be displayed.</p>
-                                            </object>
-                                        </td> --}}
-                                        <td style="text-align: justify;">{!! $item->keterangan !!}</td>
-                                        <td style="text-align: center;">
-                                            <!-- Show Icon -->
-                                            {{-- <a href="/404" class="btn btn-sm btn-info me-2" title="Show">
-                                                <i class="bi bi-eye"></i>
-                                            </a> --}}
-                                            <!-- Update Icon -->
-                                            <a href="/beinformasiopd/update/{{$item->judul}}" class="btn btn-sm btn-warning me-2" title="Update">
-                                                <i class="bi bi-pencil-square"></i>
-                                            </a>
-                                            <!-- Delete Icon -->
-                                            <!-- Tombol Delete -->
-                                            {{-- <a href="javascript:void(0)" class="btn btn-sm btn-danger" title="Delete" data-bs-toggle="modal" data-bs-target="#deleteModal"
-                                            data-judul="{{ $item->id }}" onclick="setDeleteUrl(this)">
-                                            <i class="bi bi-trash"></i>
-                                        </a> --}}
 
 
-                                        @include('backend.00_administrator.00_baganterpisah.05_modalcarddelete')
-
-                                            <style>
-                                                /* Hover effect */
-                                                .btn-info:hover, .btn-warning:hover, .btn-danger:hover {
-                                                    background-color: #fff !important; /* Keep the background white on hover */
-                                                    color: black !important; /* Change text color to black on hover */
-                                                }
-
-                                                .btn-info:hover i, .btn-warning:hover i, .btn-danger:hover i {
-                                                    color: black !important; /* Ensure the icon color changes to black */
-                                                }
-                                            </style>
-                                        </td>
-
-                                    </tr>
-                                    @endforeach
-                                </tbody>
-                            </table>
+                    <div class="col-md-6">
+                        <!--begin::Quick Example-->
+                        <div class="card card-primary card-outline mb-4">
+                          <!--begin::Header-->
+                          <div class="card-header"><div class="card-title">Quick Example</div></div>
+                          <!--end::Header-->
+                          <!--begin::Form-->
+                          <form>
+                            <!--begin::Body-->
+                            <div class="card-body">
+                              <div class="mb-3">
+                                <label for="exampleInputEmail1" class="form-label">Email address</label>
+                                <input
+                                  type="email"
+                                  class="form-control"
+                                  id="exampleInputEmail1"
+                                  aria-describedby="emailHelp"
+                                />
+                                <div id="emailHelp" class="form-text">
+                                  We'll never share your email with anyone else.
+                                </div>
+                              </div>
+                              <div class="mb-3">
+                                <label for="exampleInputPassword1" class="form-label">Password</label>
+                                <input type="password" class="form-control" id="exampleInputPassword1" />
+                              </div>
+                              <div class="input-group mb-3">
+                                <input type="file" class="form-control" id="inputGroupFile02" />
+                                <label class="input-group-text" for="inputGroupFile02">Upload</label>
+                              </div>
+                              <div class="mb-3 form-check">
+                                <input type="checkbox" class="form-check-input" id="exampleCheck1" />
+                                <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                              </div>
+                            </div>
+                            <!--end::Body-->
+                            <!--begin::Footer-->
+                            <div class="card-footer">
+                              <button type="submit" class="btn btn-primary">Submit</button>
+                            </div>
+                            <!--end::Footer-->
+                          </form>
+                          <!--end::Form-->
                         </div>
-                    </div>
-                    <!-- /.card-body -->
+                        <!--end::Quick Example-->
+
+
                 </div>
                 <!-- /.card -->
             </div>
+
             <div style="display: flex; justify-content: flex-end; margin-bottom: 20px;">
                 <a href="/beprofiljakon">
                     <button
