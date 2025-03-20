@@ -56,16 +56,6 @@
                                         <th style="width: 10px; text-align:center;">No</th>
                                         <th style="width: 400px; text-align:center;">Judul</th>
                                         <th style="width: 500px; text-align:center;">Gambar/Foto</th>
-                                        <th style="width: 500px; text-align:center;">Gambar/Foto</th>
-                                        <th style="width: 500px; text-align:center;">Gambar/Foto</th>
-                                        <th style="width: 500px; text-align:center;">Gambar/Foto</th>
-                                        <th style="width: 500px; text-align:center;">Gambar/Foto</th>
-                                        <th style="width: 500px; text-align:center;">Gambar/Foto</th>
-                                        <th style="width: 500px; text-align:center;">Gambar/Foto</th>
-                                        <th style="width: 500px; text-align:center;">Gambar/Foto</th>
-                                        <th style="width: 500px; text-align:center;">Gambar/Foto</th>
-                                        <th style="width: 500px; text-align:center;">Gambar/Foto</th>
-                                        <th style="width: 500px; text-align:center;">Gambar/Foto</th>
                                         <th style="width: 150px; text-align: center;">Aksi</th>
                                     </tr>
                                 </thead>
@@ -74,27 +64,6 @@
                                     <tr class="align-middle">
                                         <td style="text-align: center;">{{ $loop->iteration }}</td>
                                         <td style="text-align: left;">{!! $item->judul !!}</td>
-                                        <td style="text-align: center;">
-                                            <img src="{{ asset('storage/'. $item->header) }}" alt="Image" width="300">
-                                        </td>
-                                        <td style="text-align: center;">
-                                            <img src="{{ asset('storage/'. $item->header) }}" alt="Image" width="300">
-                                        </td>
-                                        <td style="text-align: center;">
-                                            <img src="{{ asset('storage/'. $item->header) }}" alt="Image" width="300">
-                                        </td>
-                                        <td style="text-align: center;">
-                                            <img src="{{ asset('storage/'. $item->header) }}" alt="Image" width="300">
-                                        </td>
-                                        <td style="text-align: center;">
-                                            <img src="{{ asset('storage/'. $item->header) }}" alt="Image" width="300">
-                                        </td>
-                                        <td style="text-align: center;">
-                                            <img src="{{ asset('storage/'. $item->header) }}" alt="Image" width="300">
-                                        </td>
-                                        <td style="text-align: center;">
-                                            <img src="{{ asset('storage/'. $item->header) }}" alt="Image" width="300">
-                                        </td>
                                         <td style="text-align: center;">
                                             <img src="{{ asset('storage/'. $item->header) }}" alt="Image" width="300">
                                         </td>
