@@ -616,10 +616,10 @@ public function bejabatan()
     ]);
 }
 
-public function bejabatandelete($id)
+public function bejabatandelete($namalengkap)
 {
     // Cari item berdasarkan judul
-    $entry = profiljakonpersonil::where('id', $id)->first();
+    $entry = profiljakonpersonil::where('namalengkap', $namalengkap)->first();
 
     if ($entry) {
         // Jika ada file header yang terdaftar, hapus dari storage
