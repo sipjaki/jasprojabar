@@ -453,17 +453,20 @@
 					<a href="#"><i class="fa-brands fa-instagram"></i></a>
 				</div><!-- portfolio-details-info-socials -->
 			</div><!--/.portfolio-details-info--> --}}
-			<div class="portfolio-details-content">
-				<div class="portfolio-details-content-title">
-					<h3>Profil Jakon DPUPR Kabupaten BLora </h3>
-				</div><!-- portfolio-details-content-title -->
-				<div class="portfolio-details-content-text">
-					<p style="text-align: justify" >
-                        OPD yang menangani Bina Jasa Konstruksi di DPUPR Kab Blora setara dengan Eselon IV di bawah Bidang Bangunan Gedung. Pada Bidang Bangunan Gedung terdapat 2 Sub Koordinator yaitu Sub Koordinator Bangunan dan Lingkungan serta Sub Koordinator Bina Jasa Konstruksi. Hal tersebut tertuang dalam Peraturan Bupati No 66 Tahun 2021 Tentang Kedudukan, Susunan Organisasi, Tugas dan Fungsi, Serta Tata Kerja Dinas Pekerjaan Umum dan Penataan Ruang Kabupaten Blora. Sub Koordinator Bina Jasa Konstruksi mempunyai 4 Personil Jabatan Fungsional Bina Jasa Konstruksi
-                    </p>
+@foreach ($data as $item)
 
-                </div><!-- portfolio-details-content-text -->
-			</div><!-- portfolio-details-content -->
+
+<div class="portfolio-details-content">
+    <div class="portfolio-details-content-title">
+        <h3>{{$item->judul}}}</h3>
+    </div><!-- portfolio-details-content-title -->
+    <div class="portfolio-details-content-text">
+        <p style="text-align: justify" >
+            <h3>{{$item->keterangan}}}</h3>
+        </p>
+    </div><!-- portfolio-details-content-text -->
+</div><!-- portfolio-details-content -->
+@endforeach
 		</div><!-- container -->
 	</section><!-- portfolio-details -->
 
