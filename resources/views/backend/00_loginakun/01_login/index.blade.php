@@ -68,7 +68,7 @@
 
 <body>
   <!-- Start your project here-->
-  <section style="height: 100%;">
+  <section style="height: 125vh;">
     <div class="container-fluid h-custom">
         <div class="row d-flex justify-content-center align-items-center">
             <!-- Large screen layout: Image + Text on the left, Form on the right -->
