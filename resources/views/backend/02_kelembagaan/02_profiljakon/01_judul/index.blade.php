@@ -126,7 +126,7 @@
                         border: none;
                         margin-right: 10px;
                         padding: 10px 20px;
-                        border-radius: 5px;
+                        border-radius: 15px;
                         font-size: 16px;
                         cursor: pointer;
                         display: flex;
