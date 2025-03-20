@@ -9,20 +9,10 @@
   --dark: #151a30;
 }
 
-.alertku {
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  gap: 20px;
-  background-color: var(--background);
-}
-
 
 .alert {
   min-height: 67px;
-  width: 560px;
+  width: 100%;
   max-width: 90%;
   border-radius: 12px;
   padding: 16px 22px 17px 20px;
@@ -121,7 +111,7 @@
     </div> --}}
 
     @if (session('delete'))
-    <div class="alert alert-danger alert-dismissible fade show" role="alert">
+    <div class="alert alert-error alert-dismissible fade show" role="alert">
         <div class="icon__wrapper">
             <!-- Ikon menggunakan Material Design Icons -->
             <span class="mdi mdi-alert-outline"></span>
