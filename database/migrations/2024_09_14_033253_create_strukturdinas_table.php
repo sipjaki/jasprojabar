@@ -13,9 +13,9 @@ return new class extends Migration
     {
         Schema::create('strukturdinas', function (Blueprint $table) {
             $table->id();
-            $table->string('judul');
+            $table->text('judul');
             $table->string('peraturan');
-            $table->string('keterangan');
+            $table->text('keterangan');
             $table->softDeletes();
             $table->timestamps();
         });
