@@ -54,23 +54,17 @@
                                 <thead>
                                     <tr>
                                         <th style="width: 10px; text-align:center;">No</th>
-                                        <th style="width: 300px; text-align:center;">Judul</th>
-                                        <th style="width: 500px; text-align:center;">Berkas</th>
-                                        <th style="width: 600px; text-align: center;">Keterangan</th>
-                                        <th style="width: 100px; text-align: center;">Aksi</th>
+                                        <th style="width: 500px; text-align:center;">Jabatan</th>
+                                        <th style="width: 500px; text-align:center;">Nama Lengkap</th>
+                                        <th style="width: 200px; text-align: center;">Aksi</th>
                                     </tr>
                                 </thead>
                                 <tbody>
                                     @foreach ($data as $item )
                                     <tr class="align-middle">
                                         <td style="text-align: center;">{{ $loop->iteration }}</td>
-                                        <td style="text-align: left;">{!! $item->judul !!}</td>
-                                        <td style="text-align: center;">
-                                            <object data="{{ asset('storage/' . $item->peraturan) }}" type="application/pdf" width="300" height="200">
-                                                <p>PDF cannot be displayed.</p>
-                                            </object>
-                                        </td>
-                                        <td style="text-align: justify;">{!! $item->keterangan !!}</td>
+                                        <td style="text-align: left;">{!! $item->jabatan !!}</td>
+                                        <td style="text-align: justify;">{!! $item->namalengkap !!}</td>
                                         <td style="text-align: center;">
                                             <!-- Show Icon -->
                                             {{-- <a href="/404" class="btn btn-sm btn-info me-2" title="Show">
@@ -82,10 +76,10 @@
                                             </a>
                                             <!-- Delete Icon -->
                                             <!-- Tombol Delete -->
-                                            {{-- <a href="javascript:void(0)" class="btn btn-sm btn-danger" title="Delete" data-bs-toggle="modal" data-bs-target="#deleteModal"
-                                            data-judul="{{ $item->id }}" onclick="setDeleteUrl(this)">
+                                            <a href="javascript:void(0)" class="btn btn-sm btn-danger" title="Delete" data-bs-toggle="modal" data-bs-target="#deleteModal"
+                                            data-judul="{{ $item->namalengkap }}" onclick="setDeleteUrl(this)">
                                             <i class="bi bi-trash"></i>
-                                        </a> --}}
+                                        </a>
 
 
                                         @include('backend.00_administrator.00_baganterpisah.05_modalcarddelete')

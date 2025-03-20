@@ -445,6 +445,7 @@ Route::get('/besipjaki/update/{id}', [StrukturController::class, 'besipjakiupdat
 // ___________________________________________________________________________________________________________________________________
 Route::get('/bejabatan', [StrukturController::class, 'bejabatan'])->middleware('auth');
 Route::get('/bejabatan/update/{id}', [StrukturController::class, 'bejabatanupdate'])->middleware('auth');
+Route::delete('/bejabatan/delete/{judul}', [StrukturController::class, 'bejabatandelete'])->middleware('auth');
 // ___________________________________________________________________________________________________________________________________
 
 
