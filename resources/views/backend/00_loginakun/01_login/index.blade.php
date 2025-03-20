@@ -63,8 +63,8 @@
             <div class="col-12 col-md-6 d-flex flex-column text-center text-md-left align-items-center" style="gap: 15px;">
 
                 <div class="d-flex justify-content-center align-items-center mb-3">
-                    <img src="/assets/icon/logokabupatenblora.png" class="img-fluid" alt="Logo Kabupaten Blora" width="100" loading="lazy">
-                    <img src="/assets/icon/pupr.png" class="img-fluid" alt="Logo PUPR" width="100" loading="lazy">
+                    <img src="/assets/icon/logokabupatenblora.png" class="img-fluid" alt="Logo Kabupaten Blora" width="95" loading="lazy">
+                    <img src="/assets/icon/pupr.png" class="img-fluid" alt="Logo PUPR" width="95" loading="lazy">
                 </div>
 
                 <h1 class="header-title" style="font-family: 'Montserrat', sans-serif; font-size: 2.5rem; font-weight: bold;">
