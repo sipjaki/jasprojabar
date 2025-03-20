@@ -9,6 +9,17 @@
   --dark: #151a30;
 }
 
+.alertku {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  background-color: var(--background);
+}
+
+
 .alert {
   min-height: 67px;
   width: 560px;
@@ -71,9 +82,9 @@
 }
 </style>
 
-<div class="container" style="margin-right:10px; margin-left:10px;">
-{{--
-    <div class="alert alert-primary">
+<div class="container alertku" style="margin-right:10px; margin-left:10px;">
+
+    {{-- <div class="alert alert-primary">
         <div class="icon__wrapper">
             <span class="mdi mdi-alert-outline"></span>
         </div>
@@ -117,7 +128,7 @@
         </div>
         <p>{{ session('delete') }}</p>
         <!-- Tombol untuk menutup alert -->
-        <span class="mdi mdi-close close" data-bs-dismiss="alert" aria-label="Close"></span>
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
     </div>
 @endif
 
