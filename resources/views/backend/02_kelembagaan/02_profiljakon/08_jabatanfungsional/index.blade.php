@@ -81,8 +81,45 @@
                                             <i class="bi bi-trash"></i>
                                         </a>
 
+                                        <div class="modal fade" id="deleteModal" tabindex="-1" aria-labelledby="deleteModalLabel" aria-hidden="true">
+                                            <div class="modal-dialog">
+                                                <div class="modal-content">
+                                                    <div class="modal-header">
+                                                        <img src="/assets/icon/pupr.png" alt="" width="30" style="margin-right: 10px;">
+                                                        <h5 class="modal-title" id="deleteModalLabel">DPUPR Kabupaten Blora</h5>
+                                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                    </div>
+                                                    <div class="modal-body">
+                                                        <p>Apakah Anda Ingin Menghapus Data : <span id="itemName"></span>?</p>
+                                                    </div>
+                                                    <div class="modal-footer">
+                                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Batal</button>
+                                                        <form id="deleteForm" method="POST" action="">
+                                                            @csrf
+                                                            @method('DELETE') <!-- Menetapkan metode DELETE untuk penghapusan -->
+                                                            <button type="submit" class="btn btn-danger">Hapus</button>
+                                                        </form>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
 
-                                        @include('backend.00_administrator.00_baganterpisah.05_modalcarddelete')
+
+                                        <script>
+                                        function setDeleteUrl(button) {
+                                            // Ambil data judul dari elemen yang diklik
+                                            var namalengkap = button.getAttribute('data-judul');
+
+                                            // Perbarui teks di dalam modal dengan nama item
+                                            document.getElementById('itemName').innerText = namalengkap;
+
+                                            // Atur URL penghapusan
+                                            var deleteUrl = "/bejabatan/delete/" + encodeURIComponent(namalengkap);
+                                            document.getElementById('deleteForm').action = deleteUrl;
+                                        }
+
+
+                                        </script>
 
                                             <style>
                                                 /* Hover effect */
