@@ -1,9 +1,5 @@
 <style>
     /* Default height for small devices (mobile phones) */
-    .vh-custom {
-        height: 120vh; /* Full screen height */
-    }
-
     /* Adjust height for tablets and up (medium screens) */
     @media (min-width: 576px) {
         .vh-custom {
@@ -72,7 +68,7 @@
 
 <body>
   <!-- Start your project here-->
-  <section class="vh-custom">
+  <section style="height: 100%;">
     <div class="container-fluid h-custom">
         <div class="row d-flex justify-content-center align-items-center">
             <!-- Large screen layout: Image + Text on the left, Form on the right -->
