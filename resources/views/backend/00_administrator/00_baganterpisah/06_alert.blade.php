@@ -12,9 +12,9 @@
 
 .alert {
   min-height: 60px;
-  width: 80%;
-  max-width: 80%;
-  border-radius: 12px;
+  width: 100%;
+  max-width: 100%;
+  border-radius: 15px;
   padding: 16px 22px 17px 20px;
   display: flex;
   align-items: center;
@@ -35,8 +35,8 @@
   background: var(--error);
 }
 .alert .icon__wrapper {
-  height: 34px;
-  width: 34px;
+  height: 25px;
+  width: 25px;
   border-radius: 50%;
   background: rgba(255, 255, 255, 0.253);
   display: flex;
