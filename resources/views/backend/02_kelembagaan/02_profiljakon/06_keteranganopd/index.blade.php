@@ -68,7 +68,7 @@
                                         <div class="col-md-12">
                                             <div class="mb-3">
                                                 <label class="form-label">Informasi OPD</label>
-                                                <input class="form-control" value="{{$item->informasiopd}}" readonly/>
+                                                <textarea class="form-control" readonly>{{$item->informasiopd}}</textarea>
                                                 <div class="form-text"></div>
                                             </div>
 
