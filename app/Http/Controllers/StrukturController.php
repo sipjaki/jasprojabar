@@ -546,7 +546,7 @@ public function bekepaladinas()
     ]);
 }
 
-public function bekabid()
+public function bekabidbaru()
 {
     $data = profiljakonkabid::all(); // Menggunakan paginate() untuk pagination
 
