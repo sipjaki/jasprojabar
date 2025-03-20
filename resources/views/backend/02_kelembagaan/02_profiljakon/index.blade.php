@@ -27,6 +27,7 @@
           </div>
           <!--end::Container-->
         </div>
+        <br>
 
         <!-- Menampilkan pesan sukses -->
 
@@ -37,7 +38,7 @@
 
         {{-- ======================================================= --}}
 
-        <div class="container-fluid" style="margin: 25px 25px;">
+        <div class="container-fluid">
             <!--begin::Row-->
   <!-- =========================================================== -->
   {{-- <h5 class="mt-4 mb-2">Info Box With <code>bg-*</code></h5> --}}
@@ -57,8 +58,9 @@
                             <!-- /.info-box-content -->
                         </div>
                         <!-- /.info-box -->
-                    </div>
-                </a>
+                    </a>
+
+                </div>
                 <!-- /.col -->
             </div>
 
