@@ -1,20 +1,20 @@
 <style>
     /* Default height for small devices (mobile phones) */
     .vh-custom {
-        height: 125vh; /* Full screen height */
+        height: 200vh; /* Full screen height */
     }
 
     /* Adjust height for tablets and up (medium screens) */
     @media (min-width: 576px) {
         .vh-custom {
-            height: 85vh;
+            height: 80vh;
         }
     }
 
     /* Adjust height for laptops and large screens */
     @media (min-width: 992px) {
         .vh-custom {
-            height: 85vh;
+            height: 80vh;
         }
     }
 
@@ -149,7 +149,7 @@
 
     <!-- Footer -->
     <div class="d-flex flex-column text-center justify-content-center py-4 px-4 px-xl-5" style="background: rgb(3, 69, 3); display: flex; align-items: center;">
-        <div class="d-flex justify-content-center align-items-center" style="gap: 15px; margin-bottom: 10px;">
+        <div class="d-flex justify-content-center align-items-center" style="gap: 15px; margin-bottom: 5px;">
             <img src="/assets/icon/logokabupatenblora.png" class="img-fluid" alt="Logo Kabupaten Blora" width="20" loading="lazy">
             <img src="/assets/icon/pupr.png" class="img-fluid" alt="Logo PUPR" width="20" loading="lazy">
         </div>
