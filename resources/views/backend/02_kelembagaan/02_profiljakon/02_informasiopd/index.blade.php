@@ -51,7 +51,7 @@
                     </div>
 
 
-                    <div class="col-md-12">
+                    <div class="col-md-6">
                         <!--begin::Quick Example-->
                         <div class="card card-primary card-outline mb-6">
                             <!--begin::Header-->
@@ -65,18 +65,18 @@
                                 <!--begin::Body-->
                                 <div class="card-body">
                                     <div class="mb-3">
-                                        <label class="form-label">Nama Organisasi Perangkat Daerah (OPD)</label>
-                                        <input  class="form-control" value="{{$item->namaopd}}"/>
-                                        <div class="form-text">
-                                        </div>
+                                      <label class="form-label">Nama Organisasi Perangkat Daerah (OPD)</label>
+                                      <input  class="form-control" value="{{$item->namaopd}}"/>
+                                      <div class="form-text">
                                     </div>
+                                </div>
 
-                                    <div class="mb-3">
-                                        <label class="form-label">Alamat Organisasi Perangkat Daerah (OPD) </label>
-                                        <input class="form-control" value="{{$item->alamatopd}}" />
-                                    </div>
+                                <div class="mb-3">
+                                    <label class="form-label">Alamat Organisasi Perangkat Daerah (OPD) </label>
+                                    <input class="form-control" value="{{$item->alamatopd}}" />
+                                </div>
 
-                                    <div class="mb-3">
+                                <div class="mb-3">
                                     <label class="form-label">RT/RW </label>
                                     <input class="form-control" value="{{$item->rtrw}}" />
                                 </div>
@@ -91,20 +91,21 @@
                                     <input class="form-control" value="{{$item->kelurahan}}" />
                                 </div>
 
-                                <div class="mb-3">
-                                    <label class="form-label">Kecamatan</label>
-                                    <input class="form-control" value="{{$item->kecamatan}}" />
-                                </div>
-
-                                <div class="mb-3">
-                                    <label class="form-label">Kota</label>
-                                    <input class="form-control" value="{{$item->kota}}" />
-                                </div>
+                            <div class="mb-3">
+                                <label class="form-label">Kecamatan</label>
+                                <input class="form-control" value="{{$item->kecamatan}}" />
                             </div>
-                        </div>
+                </div>
+            </div>
 
-                        <div class="col-md-12">
-                        <div class="card card-primary card-outline mb-6">
+            <div class="col-md-6">
+                                <!--begin::Quick Example-->
+                <div class="card card-primary card-outline mb-6">
+
+                            <div class="mb-3">
+                                <label class="form-label">Kota</label>
+                                <input class="form-control" value="{{$item->kota}}" />
+                            </div>
 
                             <div class="mb-3">
                                 <label class="form-label">Provinsi</label>
@@ -130,8 +131,8 @@
                         </form>
                         <!--end::Form-->
                         @endforeach
-                    </div>
-                    <!--end::Quick Example-->
+                        </div>
+                        <!--end::Quick Example-->
 
 
                 </div>
