@@ -390,6 +390,9 @@ Route::get('/tokobangunanbloralist/{namatokobangunan}', [TokobangunanbloraContro
 // ================================================================================================================================================
 // ================================================================================================================================================
 // BACKEND MENU APLIKASI SIPJAKI DINAS PUPR PEMERINTAH KABUPATEN BLORA PROVINSI JAWA TENGAH
+// ================================================================================================================================================
+
+Route::get('/dashboard', [AdminDashboardController::class, 'index'])->middleware('auth');
 
 // ======================================= BERANDA WEB -------------------------------------------------------------
 // ---------------------- MENU 2 BERANDA  -----------------------------------------------------
@@ -401,9 +404,17 @@ Route::delete('/header/delete/{judul}', [AdminDashboardController::class, 'heade
 
 // ___________________________________________________________________________________________________________________________________
 
-// ================================================================================================================================================
 
-Route::get('/dashboard', [AdminDashboardController::class, 'index'])->middleware('auth');
+
+// ======================================= KELEMBAGAAN BACKEND -------------------------------------------------------------
+// ---------------------- MENU 1 STRUKTUR ORGANISASI  -----------------------------------------------------
+Route::get('/bestrukturdinas', [AdminDashboardController::class, 'strukturkedinasan'])->middleware('auth');
+// Route::get('/header/update', [AdminDashboardController::class, 'headerupdate'])->middleware('auth');
+// Route::delete('/header/delete/{judul}', [AdminDashboardController::class, 'headerdelete'])->middleware('auth');
+
+// ___________________________________________________________________________________________________________________________________
+
+
 
 // ------------------- BACKEND BAGIAN HIMBAUAN DINAS ---------------------------
 

@@ -19,12 +19,12 @@ use App\Models\tupoksi;
 
 class StrukturController extends Controller
 {
-    public function index()
+    public function strukturkedinasan()
     {
         $data= strukturdinas::all(); // Menggunakan paginate() untuk pagination
         $user = Auth::user();
 
-        return view('backend.01_struktur.01_kedinasan.index', [
+        return view('backend.02_kelembagaan.01_strukturkedinasan.index', [
             'title' => 'Struktur Kedinasan PUPR Kabupaten Blora Provinsi Jawa Tengah',
             'data' => $data, // Mengirimkan data paginasi ke view
             'user' => $user, // Mengirimkan data paginasi ke view
