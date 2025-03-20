@@ -64,7 +64,7 @@
                 <div class="card mb-4">
                     <div class="card-header">
                         <h2 style="color: black; font-weight:900;" class="card-title">Halaman Pengaturan : {{$title}} </h2>
-                        <div style="display: flex; justify-content: flex-end; margin-bottom: 20px;">
+                        <div style="display: flex; justify-content: flex-end; margin-bottom: 5px;">
                             <a href="/betupoksi/create">
                                 <button
                                 onmouseover="this.style.backgroundColor='white'; this.style.color='black';"
@@ -85,7 +85,7 @@
 <table class="table table-striped">
     <thead>
         <tr>
-            <th style="width: 50px; text-align:center;">No</th>
+            <th style="width: 100px; text-align:center;">No</th>
             <th style="width: 200px; text-align:center;">Penulis</th>
             <th style="width: 250px; text-align:center;">Judul Berita</th>
             <th style="width: 100px; text-align:center;">Tanggal</th>
