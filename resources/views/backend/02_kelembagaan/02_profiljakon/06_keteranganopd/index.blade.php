@@ -68,7 +68,7 @@
                                         <div class="col-md-12">
                                             <div class="mb-3">
                                                 <label class="form-label">Informasi OPD</label>
-                                                <div style="width: 100%; max-width: 600px; padding: 10px;">
+                                                <div style="max-width: 100%; padding: 10px;">
                                                     <textarea class="form-control" readonly style="font-size: 18px; width: 100%; height: 150px;">{{$item->informasiopd}}</textarea>
                                                 </div>
                                                 <div class="form-text"></div>
