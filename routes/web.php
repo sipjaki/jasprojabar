@@ -68,10 +68,6 @@ Route::get('/profil/struktur', [StrukturController::class, 'strukturdpuprkabblor
 
 // ---------------------- MENU 2-----------------------------------------------------
 Route::get('/profil/rencanastrategis', [StrukturController::class, 'rencanastrategisdpuprkabblora']);
-Route::get('/beprofiljakon', [StrukturController::class, 'beprofiljakon']);
-// ___________________________________________________________________________________________________________________________________
-Route::get('/beinformasiopd', [StrukturController::class, 'beinformasiopd']);
-// ___________________________________________________________________________________________________________________________________
 
 // ---------------------- MENU 2-----------------------------------------------------
 Route::get('/profil/tupoksi', [StrukturController::class, 'tupoksifekbb']);
@@ -414,6 +410,12 @@ Route::delete('/header/delete/{judul}', [AdminDashboardController::class, 'heade
 Route::get('/bestrukturdinas', [StrukturController::class, 'strukturkedinasan'])->middleware('auth');
 // Route::get('/header/update', [AdminDashboardController::class, 'headerupdate'])->middleware('auth');
 // Route::delete('/header/delete/{judul}', [AdminDashboardController::class, 'headerdelete'])->middleware('auth');
+
+// ___________________________________________________________________________________________________________________________________
+Route::get('/beprofiljakon', [StrukturController::class, 'beprofiljakon']);
+// ___________________________________________________________________________________________________________________________________
+Route::get('/beinformasiopd', [StrukturController::class, 'beinformasiopd']);
+// ___________________________________________________________________________________________________________________________________
 
 // ___________________________________________________________________________________________________________________________________
 

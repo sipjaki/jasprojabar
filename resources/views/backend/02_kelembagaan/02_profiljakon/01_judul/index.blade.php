@@ -38,9 +38,11 @@
 
         {{-- ======================================================= --}}
         <div class="container">
-            <a href="/profil/rencanastrategis">
+            <a href="/beprofiljakon">
                 <div style="display: inline-block;">
                     <button
+                        onmouseover="this.style.backgroundColor='white'; this.style.color='black';"
+                        onmouseout="this.style.backgroundColor='navy'; this.style.color='white';"
                         style="
                             background-color: navy;
                             color: white;
