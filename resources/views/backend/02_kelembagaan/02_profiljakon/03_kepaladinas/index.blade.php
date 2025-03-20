@@ -67,64 +67,46 @@
                                         <!-- Left Column (6/12) -->
                                         <div class="col-md-6">
                                             <div class="mb-3">
-                                                <label class="form-label">Nama Organisasi Perangkat Daerah (OPD)</label>
-                                                <input class="form-control" value="{{$item->namaopd}}" readonly/>
+                                                <label class="form-label">Nama Lengkap</label>
+                                                <input class="form-control" value="{{$item->namalengkap}}" readonly/>
                                                 <div class="form-text"></div>
                                             </div>
 
                                             <div class="mb-3">
-                                                <label class="form-label">Alamat Organisasi Perangkat Daerah (OPD) </label>
-                                                <input class="form-control" value="{{$item->alamatopd}} " readonly />
+                                                <label class="form-label">NIP </label>
+                                                <input class="form-control" value="{{$item->nip}} " readonly />
                                             </div>
 
                                             <div class="mb-3">
-                                                <label class="form-label">RT/RW </label>
-                                                <input class="form-control" value="{{$item->rtrw}}" readonly/>
+                                                <label class="form-label">Tempat Tanggal Lahir</label>
+                                                <input class="form-control" value="{{$item->ttl}}" readonly/>
                                             </div>
 
                                             <div class="mb-3">
-                                                <label class="form-label">Kode Pos</label>
-                                                <input class="form-control" value="{{$item->kodepos}}" readonly/>
+                                                <label class="form-label">Pangkat Golongan</label>
+                                                <input class="form-control" value="{{$item->pangkatgolongan}}" readonly/>
                                             </div>
 
-                                            <div class="mb-3">
-                                                <label class="form-label">Kelurahan</label>
-                                                <input class="form-control" value="{{$item->kelurahan}}" readonly/>
-                                            </div>
-
-                                            <div class="mb-3">
-                                                <label class="form-label">Kecamatan</label>
-                                                <input class="form-control" value="{{$item->kecamatan}}" readonly/>
-                                            </div>
                                         </div>
                                         <!-- End Left Column -->
 
                                         <!-- Right Column (6/12) -->
                                         <div class="col-md-6">
                                             <div class="mb-3">
-                                                <label class="form-label">Kota</label>
-                                                <input class="form-control" value="{{$item->kota}}" readonly/>
+                                                <label class="form-label">Jabatan</label>
+                                                <input class="form-control" value="{{$item->jabatan}}" readonly/>
                                             </div>
 
                                             <div class="mb-3">
-                                                <label class="form-label">Provinsi</label>
-                                                <input class="form-control" value="{{$item->provinsi}}" readonly/>
+                                                <label class="form-label">Perangkat Daerah</label>
+                                                <input class="form-control" value="{{$item->perangkatdaerah}}" readonly/>
                                             </div>
 
                                             <div class="mb-3">
-                                                <label class="form-label">Negara</label>
-                                                <input class="form-control" value="{{$item->negara}}" readonly/>
+                                                <label class="form-label">Pendidikan Terakhir</label>
+                                                <input class="form-control" value="{{$item->pendidikanterakhir}}" readonly/>
                                             </div>
 
-                                            <div class="mb-3">
-                                                <label class="form-label">Titik Geografis</label>
-                                                <input class="form-control" value="{{$item->posisigeografis}}" readonly/>
-                                            </div>
-
-                                            <div class="mb-3">
-                                                <label class="form-label">Tipe Dinas</label>
-                                                <input class="form-control" value="{{$item->tipedinas}}" readonly/>
-                                            </div>
                                         </div>
                                         <!-- End Right Column -->
 
