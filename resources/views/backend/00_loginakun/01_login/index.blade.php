@@ -1,5 +1,4 @@
 <style>
-<style>
   @media (max-width: 576px) {
     .header-title {
       font-size: 1.8rem; /* Smaller font size for smaller screens */
@@ -25,7 +24,6 @@
   }
 </style>
 
-</style>
 
 
 <!DOCTYPE html>
@@ -81,7 +79,7 @@
             </div>
 
             <!-- Form login section (right side for large screens) -->
-            <div class="col-12 col-md-6">
+            <div class="col-12 col-md-4">
                 <form action="/login" method="post">
                     @csrf
 
