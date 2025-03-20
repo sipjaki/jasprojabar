@@ -430,6 +430,10 @@ Route::get('/bekepaladinas/update/{namalengkap}', [StrukturController::class, 'b
 Route::get('/bekabid', [StrukturController::class, 'bekabidbaru']);
 Route::get('/bekabid/update/{namalengkap}', [StrukturController::class, 'bekabidshow']);
 // ___________________________________________________________________________________________________________________________________
+// ___________________________________________________________________________________________________________________________________
+Route::get('/besubbid', [StrukturController::class, 'besubbid']);
+Route::get('/besubbid/update/{namalengkap}', [StrukturController::class, 'besubbidupdate']);
+// ___________________________________________________________________________________________________________________________________
 
 
 
