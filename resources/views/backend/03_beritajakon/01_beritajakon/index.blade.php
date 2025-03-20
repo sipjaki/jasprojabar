@@ -68,9 +68,13 @@
                                         <td style="text-align: left;">{{$item->user->name}}</td>
                                         <td style="text-align: left;">{!! $item->judulberita !!}</td>
                                         <td style="text-align: left;">{{ \Carbon\Carbon::parse($item->tanggal)->translatedFormat('l, d F Y') }}</td>
-                                        <td style="text-align: left; width: 80%;">{!! $item->keterangan !!}</td>
+                                        <td style="width: 80%;">
+                                            <div style="word-wrap: break-word; white-space: normal; max-width: 300px;">
+                                                {!! $item->keterangan !!}
+                                            </div>
+                                        </td>
                                         <td style="text-align: center;">
-                                            <img src="{{ asset('storage/'. $item->foto) }}" alt="Image" width="300">
+                                            <img src="{{ asset('storage/'. $item->foto) }}" alt="Image" width="300" style="border-radius: 5px;">
                                         </td>
                                         <td style="text-align: center;">
                                             <a href="/404" class="btn btn-sm btn-info me-2" title="Show">
