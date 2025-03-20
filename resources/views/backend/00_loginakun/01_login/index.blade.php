@@ -1,24 +1,23 @@
 <style>
     /* Default height for small devices (mobile phones) */
     .vh-custom {
-        height: 100vh; /* Selalu penuh 1 layar tanpa scroll */
-        display: flex; /* Mengatur konten agar berada di tengah */
-        align-items: center;
-        justify-content: center;
+        height: 120vh; /* Full screen height */
     }
 
-    /* Pastikan tinggi tetap 100vh di semua ukuran layar */
+    /* Adjust height for tablets and up (medium screens) */
     @media (min-width: 576px) {
         .vh-custom {
-            height: 100vh;
+            height: 80vh;
         }
     }
 
+    /* Adjust height for laptops and large screens */
     @media (min-width: 992px) {
         .vh-custom {
-            height: 100vh;
+            height: 80vh;
         }
     }
+
     /* Responsive typography and spacing */
     @media (max-width: 576px) {
         .header-title {
