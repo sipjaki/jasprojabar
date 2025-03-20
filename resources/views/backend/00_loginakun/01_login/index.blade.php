@@ -1,49 +1,48 @@
 <style>
-
-       /* Default height for small devices (mobile phones) */
-       .vh-custom {
+    /* Default height for small devices (mobile phones) */
+    .vh-custom {
         height: 100vh; /* Full screen height */
     }
 
-    /* For tablets and up (medium screens) */
+    /* Adjust height for tablets and up (medium screens) */
     @media (min-width: 576px) {
         .vh-custom {
-            height: 80vh; /* Adjust for medium screens */
+            height: 80vh;
         }
     }
 
-    /* For laptops and large screens */
+    /* Adjust height for laptops and large screens */
     @media (min-width: 992px) {
         .vh-custom {
-            height: 75vh; /* Adjust for larger screens like laptops */
+            height: 75vh;
         }
     }
 
-  @media (max-width: 576px) {
-    .header-title {
-      font-size: 1.8rem; /* Smaller font size for smaller screens */
+    /* Responsive typography and spacing */
+    @media (max-width: 576px) {
+        .header-title {
+            font-size: 1.8rem; /* Adjusted font size */
+        }
+
+        .header-description {
+            font-size: 0.9rem;
+        }
+
+        .container-fluid {
+            padding: 20px;
+        }
     }
 
-    .header-description {
-      font-size: 0.9rem; /* Smaller description font size */
-    }
+    @media (max-width: 360px) {
+        .header-title {
+            font-size: 1.5rem;
+        }
 
-    .container-fluid {
-      padding: 20px; /* Padding around the container for smaller screens */
+        .header-description {
+            font-size: 0.8rem;
+        }
     }
-  }
-
-  @media (max-width: 360px) {
-    .header-title {
-      font-size: 1.5rem; /* Further decrease font size for very small screens */
-    }
-
-    .header-description {
-      font-size: 0.8rem; /* Further reduce the font size */
-    }
-  }
 </style>
-
 
 
 <!DOCTYPE html>
@@ -92,7 +91,7 @@
                         <span class="header-title-green" style="font-weight: bold; font-style: italic; color: #064420;">BLORA</span>
                     </h1>
                     <p class="header-description" style="font-family: 'Montserrat', sans-serif; font-size: 1rem; color: black; font-weight: bold;">
-                        Dinas Pekerjaan Umum Dan Penataan Ruang Kabupaten Blora
+                        Dinas Pekerjaan Umum Dan Penataan Ruang <br> Kabupaten Blora
                     </p>
                 </div>
             </div>
