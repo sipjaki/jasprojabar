@@ -53,7 +53,7 @@
 
                     <div class="col-md-12">
                         <!--begin::Quick Example-->
-                        <div class="card card-primary card-outline mb-10" style="text-align: center;">
+                        <div class="card card-primary card-outline mb-10">
                           <!--begin::Header-->
                           {{-- <div class="card-header"><div class="card-title">Quick Example</div></div> --}}
                           <!--end::Header-->
@@ -133,6 +133,7 @@
                 <!-- /.card -->
             </div>
 
+            <br><br>
             <div style="display: flex; justify-content: flex-end; margin-bottom: 20px;">
                 <a href="/beprofiljakon">
                     <button
