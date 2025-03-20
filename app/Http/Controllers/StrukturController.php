@@ -552,7 +552,7 @@ public function bekabid()
 
     $user = Auth::user();
 
-    return view('backend.02_kelembagaan.02_profiljakon.03_kabid.index', [
+    return view('backend.02_kelembagaan.02_profiljakon.04_kabid.index', [
         'title' => 'Profil Jakon Informasi Kepala Bidang Bangunan Gedung',
         'data' => $data, // Mengirimkan data paginasi ke view
         'user' => $user, // Mengirimkan data paginasi ke view
