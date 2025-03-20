@@ -5,13 +5,8 @@ namespace Database\Seeders;
 // use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 // namespace App\Models;
 
-use App\Models\agendastatus;
-use App\Models\Agendastatus as ModelsAgendastatus;
-use App\Models\asosiasipengusaha;
 use Illuminate\Database\Seeder;
-use Illuminate\Support\Facades\DB;
 use App\Models\User;
-use App\Models\Tukangterampil;
 use App\Models\peraturan;
 use App\Models\agendaskk;
 use App\Models\pesertapelatihan;
@@ -27,20 +22,17 @@ use App\Models\pergubernur;
 use App\Models\suratkeputusan;
 use App\Models\paketpekerjaanmasjaki;
 use App\Models\paketstatuspekerjaan;
-use App\Models\berita;
-use App\Models\pelatihan;
 use App\Models\renstra;
 use App\Models\sbulampiran1;
 use App\Models\sbulampiran2;
 use App\Models\sbulampiran3;
+
 // use App\Models\sertifikasiagenda;
 use App\Models\standarbiayaumum;
 use App\Models\statusadmin;
-use App\Models\statustertibjakon;
 use App\Models\strukturdinas;
 use App\Models\tahunpilihan;
 use App\Models\tupoksi;
-use App\Models\uijk;
 use App\Models\bujkkontraktor;
 use App\Models\bujkkontraktorsub;
 use App\Models\bujkkonsultan;
@@ -53,12 +45,8 @@ use App\Models\jenjang;
 use App\Models\lpspenerbit;
 use App\Models\skktenagakerjablora;
 use App\Models\skktenagakerjabloralist;
-use App\Models\asosiasiblora;
 use App\Models\asosiasimasjaki;
-use App\Models\profilpaketpekerjaanblora;
-use App\Models\profilpaketpekerjaannontender;
 use App\Models\prosespaket;
-use App\Models\prosespaketnontender;
 use App\Models\pengawasanbujk;
 use App\Models\kecelakaankerjamasjaki;
 use App\Models\penyediastatustertibjakon;
@@ -82,8 +70,16 @@ use App\Models\hspkodepekerjaan;
 use App\Models\hspkonstruksiumum;
 use App\Models\beritajakon;
 use App\Models\allskktenagakerjablora;
+use App\Models\profiljakonidentitasopd;
+use App\Models\profiljakonkepaladinas;
+use App\Models\profiljakonkabid;
+use App\Models\profiljakonsubkoordinator;
+use App\Models\profiljakoninformasi;
+use App\Models\profiljakonsipjaki;
+use App\Models\profiljakonpersonil;
 // use App\Models\artikeljakon;
 
+// atasan
 // hsp harga divisi 1
 use App\Models\artikeljakonmasjaki;
 use App\Models\kategoripelatihan;
@@ -357,24 +353,98 @@ strukturdinas::create([
     'deleted_at' => null, // Jika Anda menggunakan soft deletes
 ]);
 
-// strukturdinas::create([
-//     'judul' => 'Struktur Dinas Pekerjaan Umum Dan Penataan Ruang Pemerintah Kabupaten Blora',
-//     'peraturan' => 'struktur/01_dinas/STRUKTUR_DPUPR_KABUPATEN_BLORA.pdf',
-//     'created_at' => Carbon::now(),
-//     'updated_at' => Carbon::now(),
-//     'deleted_at' => null, // Jika Anda menggunakan soft deletes
-// ]);
-
-
 //======================== ===================================================================================
 renstra::create([
-    'judul' => 'Rencana Strategis Pemerintah Kabupaten Bandung Barat',
-    'peraturan' => '01_kelembagaan/02_renstra/RENSTRA_DPUPR_KAB_BLORA.pdf',
+    'judul' => 'Profil Jakon Dinas Pekerjaan Umum dan Penataan Ruang Kabupaten BLora Provinsi Jawa Tengah',
+    'keterangan' => 'OPD yang menangani Bina Jasa Konstruksi di DPUPR Kab Blora setara dengan Eselon IV di bawah Bidang Bangunan Gedung. Pada Bidang Bangunan Gedung terdapat 2 Sub Koordinator yaitu Sub Koordinator Bangunan dan Lingkungan serta Sub Koordinator Bina Jasa Konstruksi. Hal tersebut tertuang dalam Peraturan Bupati No 66 Tahun 2021 Tentang Kedudukan, Susunan Organisasi, Tugas dan Fungsi, Serta Tata Kerja Dinas Pekerjaan Umum dan Penataan Ruang Kabupaten Blora. Sub Koordinator Bina Jasa Konstruksi mempunyai 4 Personil Jabatan Fungsional Bina Jasa Konstruksi',
     'created_at' => Carbon::now(),
     'updated_at' => Carbon::now(),
     'deleted_at' => null, // Jika Anda menggunakan soft deletes
 ]);
 
+profiljakonidentitasopd::create([
+    'namaopd' => 'Dinas Pekerjaan Umum Dan Penataan Ruang Kabupaten Blora',
+    'alamatopd' => 'Jl. Nusantara No. 62',
+    'rtrw' => '',
+    'kodepos' => '58214',
+    'kelurahan' => 'Jetis',
+    'kecamatan' => 'Blora',
+    'kota' => 'Blora',
+    'provinsi' => 'Jawa Tengah',
+    'negara' => 'Indonesia',
+    'posisigeografis' => '-6.976853 Lintang, 111.410894 Bujur',
+    'tipedinas' => 'B',
+]);
+
+profiljakonkepaladinas::create([
+    'namalengkap' => 'Nidzamudin Al Hudaa, ST',
+    'nip' => null,
+    'ttl' => null,
+    'pangkatgolongan' => null,
+    'jabatan' => 'Plt. Kepala Dinas Pekerjaan Umum Dan Penataan Ruang Kabupaten Blora',
+    'perangkatdaerah' => 'Dinas Pekerjaan Umum Dan Penataan Ruang Kabupaten Blora',
+    'pendidikanterakhir' => 'Strata 1 (S1)',
+]);
+
+profiljakonkabid::create([
+    'namalengkap' => 'Mohamad Arif Hidayat, ST',
+    'nip' => null,
+    'ttl' => null,
+    'pangkatgolongan' => null,
+    'jabatan' => 'Kepala Bidang Bangunan Gedung Dinas Pekerjaan Umum Dan Penataan Ruang Kabupaten Blora',
+    'perangkatdaerah' => 'Dinas Pekerjaan Umum Dan Penataan Ruang Kabupaten Blora',
+    'pendidikanterakhir' => 'Strata 1 (S1)',
+]);
+
+profiljakonsubkoordinator::create([
+    'namalengkap' => '	Anex Fachrian ST, MT',
+    'nip' => null,
+    'ttl' => null,
+    'pangkatgolongan' => null,
+    'jabatan' => 'Subkoordinator Bina Jasa Konstruksi Dinas Pekerjaan Umum Dan Penataan Ruang Kabupaten Blora',
+    // 'perangkatdaerah' => 'Dinas Pekerjaan Umum Dan Penataan Ruang Kabupaten Blora',
+    'pendidikanterakhir' => 'Magister (S2)',
+]);
+
+profiljakoninformasi::create([
+    'informasiopd' => 'OPD yang menangani Bina Jasa Konstruksi di DPUPR Kabupaten Blora setara dengan eselon IV, dibawah Bidang Bangunan Gedung. Pada Bidang Bangunan Gedung terdapat dua subkoordinator yaitu Subkoordinator Bangunan dan Lingkungan serta Subkoordinator Bina Jasa Konstruksi, hal tersebut tertuang dalam Perbup Nomor 66 Tahun 2021 tentang Kedudukan, Susunan Organisasi, Tugas dan Fungsi Serta Tata Kerja Dinas Pekerjaan Umum dan Penataan Ruang Kabupaten Blora.',
+    'notelepon' => '(0296) 531004',
+    'instagram' => 'dpuprblora',
+    'tiktok' => 'bangunan.gedung.dpupr',
+    'email' => 'bid.bangunan.gedung.blora@gmail.com',
+]);
+
+profiljakonsipjaki::create([
+    'nomor' => '900/008.A/2024 tanggal 2 Januari 2024',
+    'operator1' => 'Miftahunnuril Anam, SE',
+    'operator2' => 'Muhammad Yusuf Zaqi Efendi, SE',
+    'operator3' => null,
+    'operator4' => null,
+]);
+
+profiljakonpersonil::create([
+    'jabatan' => 'Ahli Muda Bina Jasa Konstruksi',
+    'namalengkap' => 'Anex Fachrian, ST, MT',
+]);
+
+profiljakonpersonil::create([
+    'jabatan' => 'Ahli Pertama - Jasa Konstruksi',
+    'namalengkap' => 'Miftahunnuril Anam, SE',
+]);
+
+profiljakonpersonil::create([
+    'jabatan' => 'Ahli Pertama - Jasa Konstruksi',
+    'namalengkap' => 'Maretha Riantiarni, SE',
+]);
+
+profiljakonpersonil::create([
+    'jabatan' => 'Ahli Pertama - Jasa Konstruksi',
+    'namalengkap' => 'Yudha Prasetyowidadi, SE',
+]);
+
+
+
+// makan
 //======================== ===================================================================================
 tupoksi::create([
     'judul' => 'Tupoksi Program Dan Jasa Konstruksi DPUPR Kab Blora',
@@ -9680,9 +9750,6 @@ hspkonstruksiumum5::create([
     'hargasatuan' => '1364869.00',
 ]);
 
-
-// alifmodels
-
 //======================== ===================================================================================
 // AHSP KONSTRUKSI UMUM DIVISI 6 DAN DATA LAIN LAIN NYA
 
@@ -12127,8 +12194,6 @@ subhargadiv3::create([
 ]);
 
 
-
-// makan
 
 // profilpaketkonsultasinontender::create([
 //     'prosespaketkonsultasinontender_id' => 1,
