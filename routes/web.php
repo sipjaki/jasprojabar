@@ -411,6 +411,7 @@ Route::get('/bestrukturdinas', [StrukturController::class, 'strukturkedinasan'])
 // Route::get('/header/update', [AdminDashboardController::class, 'headerupdate'])->middleware('auth');
 // Route::delete('/header/delete/{judul}', [AdminDashboardController::class, 'headerdelete'])->middleware('auth');
 
+// ---------------------- MENU 2 PROFIL JASA KONSTRUKSI MAS JAKI   -----------------------------------------------------
 // ___________________________________________________________________________________________________________________________________
 Route::get('/beprofiljakon', [StrukturController::class, 'beprofiljakon'])->middleware('auth');
 // ___________________________________________________________________________________________________________________________________
@@ -448,6 +449,9 @@ Route::get('/bejabatan/update/{id}', [StrukturController::class, 'bejabatanupdat
 Route::delete('/bejabatan/delete/{namalengkap}', [StrukturController::class, 'bejabatandelete'])->middleware('auth');
 // ___________________________________________________________________________________________________________________________________
 
+// ---------------------- MENU 3 TUPOKSI PROGRAM MAS JAKI -----------------------------------------------------
+Route::get('/betupoksi', [StrukturController::class, 'betupoksi'])->middleware('auth');
+Route::get('/betupoksi/update/{id}', [StrukturController::class, 'betupoksiupdate'])->middleware('auth');
 
 
 // ------------------- BACKEND BAGIAN HIMBAUAN DINAS ---------------------------

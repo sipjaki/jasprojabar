@@ -624,7 +624,7 @@ public function bejabatandelete($namalengkap)
     if ($entry) {
         // Jika ada file header yang terdaftar, hapus dari storage
         // if (Storage::disk('public')->exists($entry->header)) {
-        //     Storage::disk('public')->delete($entry->header);
+            //     Storage::disk('public')->delete($entry->header);
         // }
 
         // Hapus entri dari database
@@ -636,6 +636,20 @@ public function bejabatandelete($namalengkap)
     }
 
     return redirect()->back()->with('error', 'Item not found');
+}
+
+public function betupoksi()
+{
+    $data = tupoksi::all(); // Menggunakan paginate() untuk pagination
+
+    $user = Auth::user();
+
+    return view('backend.02_kelembagaan.02_profiljakon.08_jabatanfungsional.index', [
+        'title' => 'Tupoksi Program dan Jasa Konstruksi ',
+        'data' => $data, // Mengirimkan data paginasi ke view
+        'user' => $user, // Mengirimkan data paginasi ke view
+
+    ]);
 }
 
 

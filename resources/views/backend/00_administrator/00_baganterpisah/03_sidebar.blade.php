@@ -140,7 +140,7 @@
                         </a>
                       </li>
                       <li class="nav-item">
-                        <a href="/404" class="nav-link">
+                        <a href="/betupoksi" class="nav-link">
                           <!-- Ikon untuk Sosial Media -->
                           <i class="nav-icon bi bi-facebook text-warning"></i> <!-- Bisa diganti dengan bi-twitter atau bi-instagram sesuai kebutuhan -->
                           <p style="color: white">Tupoksi Jakon</p>
