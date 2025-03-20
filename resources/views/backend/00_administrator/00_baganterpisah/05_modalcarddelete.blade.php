@@ -3,7 +3,8 @@
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="deleteModalLabel">Konfirmasi Penghapusan</h5>
+                <img src="/assets/icon/pupr.png" alt="" width="30">
+                <h5 class="modal-title" id="deleteModalLabel">DPUPR Kab Blora</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
