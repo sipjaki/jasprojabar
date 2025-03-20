@@ -1,28 +1,3 @@
-<style>
-/* Efek hover pada .info-box dengan class bg-success */
-.info-box.bg-success:hover {
-    background-color: white !important;  /* Ganti latar belakang menjadi putih */
-    color: black !important;  /* Ubah teks menjadi hitam */
-}
-
-/* Hover effect pada ikon di dalam .info-box */
-.info-box.bg-success:hover .info-box-icon img {
-    filter: brightness(0) invert(1);  /* Ubah ikon menjadi hitam */
-}
-
-/* Hover effect pada teks dalam .info-box-content */
-.info-box.bg-success:hover .info-box-content .info-box-text,
-.info-box.bg-success:hover .info-box-content .progress-description {
-    color: black !important;  /* Ubah teks menjadi hitam */
-}
-
-/* Hover effect pada progress bar */
-.info-box.bg-success:hover .progress-bar {
-    background-color: #28a745 !important;  /* Pastikan progress bar tetap hijau */
-}
-
-</style>
-
 @include('backend.00_administrator.00_baganterpisah.01_header')
 
 <!--begin::Body-->
@@ -72,17 +47,21 @@
             <div class="row">
                 <div class="col-md-3 col-sm-6 col-12">
                     <a href="/">
-                        <div class="info-box text-bg-success">
-                            <span class="info-box-icon"> <img src="/assets/icon/pupr.png" alt="" width="40"></i> </span>
+                        <div class="info-box bg-success"
+                             style="transition: background-color 0.3s, color 0.3s;"
+                             onmouseover="this.style.backgroundColor='white'; this.style.color='black'; this.querySelector('.info-box-text').style.color='black'; this.querySelector('.progress-description').style.color='black'; this.querySelector('.info-box-icon img').style.filter='brightness(0) invert(1)';"
+                             onmouseout="this.style.backgroundColor=''; this.style.color=''; this.querySelector('.info-box-text').style.color=''; this.querySelector('.progress-description').style.color=''; this.querySelector('.info-box-icon img').style.filter='';">
+                            <span class="info-box-icon">
+                                <img src="/assets/icon/pupr.png" alt="" width="40">
+                            </span>
                             <div class="info-box-content">
                                 <span class="info-box-text">Informasi OPD</span>
-                                {{-- <span class="info-box-number">41,410</span> --}}
-                                <div class="progress"><div class="progress-bar" style="width: 70%"></div></div>
+                                <div class="progress">
+                                    <div class="progress-bar" style="width: 70%"></div>
+                                </div>
                                 <span class="progress-description"> Pengaturan </span>
                             </div>
-                            <!-- /.info-box-content -->
                         </div>
-                        <!-- /.info-box -->
                     </a>
 
                 </div>
