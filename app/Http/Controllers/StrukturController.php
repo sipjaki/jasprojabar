@@ -574,6 +574,20 @@ public function besubbid()
     ]);
 }
 
+public function beinformasi()
+{
+    $data = profiljakoninformasi::all(); // Menggunakan paginate() untuk pagination
+
+    $user = Auth::user();
+
+    return view('backend.02_kelembagaan.02_profiljakon.06_keteranganopd.index', [
+        'title' => 'Profil Jakon Keterangan Organisasi Perangkat Daerah',
+        'data' => $data, // Mengirimkan data paginasi ke view
+        'user' => $user, // Mengirimkan data paginasi ke view
+
+    ]);
+}
+
 
 // MENU BACKEND PROFIL JAKON MAS JAKI
 
