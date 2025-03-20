@@ -65,14 +65,14 @@
                     <div class="card-header">
                         <h2 style="color: black; font-weight:900;" class="card-title">Halaman Pengaturan : {{$title}} </h2>
                         <div style="display: flex; justify-content: flex-end; margin-bottom: 20px;">
-                            <a href="/betupoksi/update/{{$item->id}}">
+                            <a href="/betupoksi/create">
                                 <button
                                 onmouseover="this.style.backgroundColor='white'; this.style.color='black';"
                                 onmouseout="this.style.backgroundColor='#156f2a'; this.style.color='white';"
                                 style="background-color: #156f2a; color: white; border: none; margin-right: 10px; padding: 10px 20px; border-radius: 15px; font-size: 16px; cursor: pointer; display: flex; align-items: center; transition: background-color 0.3s, color 0.3s; text-decoration: none;">
                                 <!-- Ikon Kembali -->
-                                <i class="fa fa-file" style="margin-right: 8px;"></i>
-                                Update
+                                <i class="fa fa-plus" style="margin-right: 8px;"></i>
+                                Create
                             </button>
                             </a>
 
