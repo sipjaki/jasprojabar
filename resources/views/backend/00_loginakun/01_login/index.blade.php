@@ -54,9 +54,9 @@
 <body>
   <!-- Start your project here-->
 
-  <section class="vh-80">
+  <section class="vh-75">
     <div class="container-fluid h-custom">
-        <div class="row d-flex justify-content-center align-items-center h-100">
+        <div class="row d-flex justify-content-center align-items-center h-75">
             <!-- Large screen layout: Image + Text on the left, Form on the right -->
             <div class="col-12 col-md-6 d-flex justify-content-center align-items-center flex-column text-center text-md-left" style="gap: 15px;">
 
