@@ -126,7 +126,7 @@
                 <ul class="nav nav-treeview">
 
                     <li class="nav-item">
-                        <a href="/404" class="nav-link">
+                        <a href="/bestrukturdinas" class="nav-link">
                           <!-- Ikon untuk Header -->
                           <i class="nav-icon bi bi-house-door text-warning"></i>
                           <p style="color:white">Struktur Organisasi</p>

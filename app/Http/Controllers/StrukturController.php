@@ -31,8 +31,6 @@ class StrukturController extends Controller
         ]);
     }
 
-
-                // -------------------- UPDATE DATA PERATURAN GUBERNUR JASA KONSTRUKSI ----------------------
                 public function updatestruktur($judul)
                 {
                     // Cari data undang-undang berdasarkan nilai 'judul'
