@@ -122,7 +122,7 @@
                     <!-- Button Section -->
                     <br><br>
                     <div style="display: flex; justify-content: flex-end; margin-bottom: 20px;">
-                        <a href="/beinfoopd/update/{{$item->namaopd}}">
+                        <a href="/bekepaladinas/update/{{$item->namalengkap}}">
                             <button
                             onmouseover="this.style.backgroundColor='white'; this.style.color='black';"
                             onmouseout="this.style.backgroundColor='#156f2a'; this.style.color='white';"

@@ -426,6 +426,10 @@ Route::get('/beinfoopd/update/{judul}', [StrukturController::class, 'beinfoopdup
 Route::get('/bekepaladinas', [StrukturController::class, 'bekepaladinas']);
 Route::get('/bekepaladinas/update/{namalengkap}', [StrukturController::class, 'bekepaladinasupdate']);
 // ___________________________________________________________________________________________________________________________________
+// ___________________________________________________________________________________________________________________________________
+Route::get('/bekabid', [StrukturController::class, 'bekabid']);
+Route::get('/bekabid/update/{namalengkap}', [StrukturController::class, 'bekabidshow']);
+// ___________________________________________________________________________________________________________________________________
 
 
 

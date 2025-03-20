@@ -546,6 +546,20 @@ public function bekepaladinas()
     ]);
 }
 
+public function bekabid()
+{
+    $data = profiljakonkabid::all(); // Menggunakan paginate() untuk pagination
+
+    $user = Auth::user();
+
+    return view('backend.02_kelembagaan.02_profiljakon.03_kabid.index', [
+        'title' => 'Profil Jakon Informasi Kepala Bidang Bangunan Gedung',
+        'data' => $data, // Mengirimkan data paginasi ke view
+        'user' => $user, // Mengirimkan data paginasi ke view
+
+    ]);
+}
+
 
 // MENU BACKEND PROFIL JAKON MAS JAKI
 
