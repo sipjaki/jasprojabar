@@ -68,8 +68,8 @@
 
 <body>
   <!-- Start your project here-->
-  <section style="height: 125vh;">
-    <div class="container-fluid h-custom">
+  <section style="height: 100vh; display: flex; align-items: center; justify-content: center; margin: 0; padding: 0; overflow: hidden; width: 100%;">
+    <div class="container-fluid h-custom" style="height: auto;">
         <div class="row d-flex justify-content-center align-items-center">
             <!-- Large screen layout: Image + Text on the left, Form on the right -->
             <div class="col-12 col-md-6 d-flex justify-content-center align-items-center flex-column text-center text-md-left" style="gap: 15px;">
