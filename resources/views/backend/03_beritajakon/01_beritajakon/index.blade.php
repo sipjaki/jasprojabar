@@ -43,7 +43,7 @@
                 <!-- /.card -->
                 <div class="card mb-4">
                     <div class="card-header">
-                        <h2 style="color: black;" class="card-title">Halaman Pengaturan : {{$title}} </h2>
+                        <h2 style="color: black; font-weight:900;" class="card-title">Halaman Pengaturan : {{$title}} </h2>
 
                     </div>
                     <!-- /.card-header -->
@@ -53,8 +53,11 @@
                                 <thead>
                                     <tr>
                                         <th style="width: 10px; text-align:center;">No</th>
-                                        <th style="width: 400px; text-align:center;">Judul</th>
-                                        <th style="width: 500px; text-align:center;">Gambar/Foto</th>
+                                        <th style="width: 400px; text-align:center;">Penulis</th>
+                                        <th style="width: 500px; text-align:center;">Judul Berita</th>
+                                        <th style="width: 150px; text-align: center;">Tanggal</th>
+                                        <th style="width: 150px; text-align: center;">isi Berita</th>
+                                        <th style="width: 150px; text-align: center;">Foto</th>
                                         <th style="width: 150px; text-align: center;">Aksi</th>
                                     </tr>
                                 </thead>
@@ -62,9 +65,12 @@
                                     @foreach ($data as $item )
                                     <tr class="align-middle">
                                         <td style="text-align: center;">{{ $loop->iteration }}</td>
-                                        <td style="text-align: left;">{!! $item->judul !!}</td>
+                                        <td style="text-align: left;">{{$item->user->name}}</td>
+                                        <td style="text-align: left;">{!! $item->judulberita !!}</td>
+                                        <td style="text-align: left;">{{ \Carbon\Carbon::parse($item->tanggal)->translatedFormat('l, d F Y') }}</td>
+                                        <td style="text-align: left; width: 80%;">{!! $item->isisberita !!}</td>
                                         <td style="text-align: center;">
-                                            <img src="{{ asset('storage/'. $item->header) }}" alt="Image" width="300">
+                                            <img src="{{ asset('storage/'. $item->foto) }}" alt="Image" width="300">
                                         </td>
                                         <td style="text-align: center;">
                                             <!-- Show Icon -->
@@ -78,12 +84,49 @@
                                             <!-- Delete Icon -->
                                             <!-- Tombol Delete -->
                                             <a href="javascript:void(0)" class="btn btn-sm btn-danger" title="Delete" data-bs-toggle="modal" data-bs-target="#deleteModal"
-                                            data-judul="{{ $item->judul }}" onclick="setDeleteUrl(this)">
+                                            data-judul="{{ $item->judulberita }}" onclick="setDeleteUrl(this)">
                                             <i class="bi bi-trash"></i>
                                         </a>
+<!-- Modal Konfirmasi Hapus -->
+                            <div class="modal fade" id="deleteModal" tabindex="-1" aria-labelledby="deleteModalLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <img src="/assets/icon/pupr.png" alt="" width="30" style="margin-right: 10px;">
+                                            <h5 class="modal-title" id="deleteModalLabel">DPUPR Kabupaten Blora</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <p>Apakah Anda Ingin Menghapus Data : <span id="itemName"></span>?</p>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Batal</button>
+                                            <form id="deleteForm" method="POST" action="">
+                                                @csrf
+                                                @method('DELETE') <!-- Menetapkan metode DELETE untuk penghapusan -->
+                                                <button type="submit" class="btn btn-danger">Hapus</button>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
 
 
-                                        @include('backend.00_administrator.00_baganterpisah.05_modalcarddelete')
+                            <script>
+                            function setDeleteUrl(button) {
+                                // Ambil data judul dari elemen yang diklik
+                                var judulberita = button.getAttribute('data-judul');
+
+                                // Perbarui teks di dalam modal dengan nama item
+                                document.getElementById('itemName').innerText = judulberita;
+
+                                // Atur URL penghapusan
+                                var deleteUrl = "/beberitajakon/delete/" + encodeURIComponent(judulberita);
+                                document.getElementById('deleteForm').action = deleteUrl;
+                            }
+
+
+                            </script>
 
                                             <style>
                                                 /* Hover effect */
