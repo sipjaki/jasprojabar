@@ -99,72 +99,76 @@
 
     <h4>I. IDENTITAS OPD</h4>
     <table>
+        @foreach ($dataidentitasopd as $item)
+
         <tr>
             <td>1.</td>
             <td>Nama OPD</td>
             <td>:</td>
-            <td>Dinas Pekerjaan Umum Dan Penataan Ruang Kabupaten Blora</td>
+            <td>{{$item->namaopd}}</td>
         </tr>
         <tr>
             <td>2.</td>
             <td>Alamat OPD</td>
             <td>:</td>
-            <td>Jl. Nusantara No. 62</td>
+            <td>{{$item->alamatopd}}</td>
         </tr>
         <tr>
             <td></td>
             <td>RT / RW</td>
             <td>:</td>
-            <td> - </td>
+            <td>{{$item->rtrw}}</td>
         </tr>
         <tr>
             <td></td>
             <td>Kode Pos</td>
             <td>:</td>
-            <td>58214</td>
+            <td>{{$item->kodepos}}</td>
         </tr>
         <tr>
             <td></td>
             <td>Kelurahan</td>
             <td>:</td>
-            <td>Jetis</td>
+            <td>{{$item->kelurahan}}</td>
         </tr>
         <tr>
             <td></td>
             <td>Kecamatan</td>
             <td>:</td>
-            <td>Blora</td>
+            <td>{{$item->kecamatan}}</td>
         </tr>
         <tr>
             <td></td>
             <td>Kota</td>
             <td>:</td>
-            <td>Blora</td>
+            <td>{{$item->kota}}</td>
         </tr>
         <tr>
             <td></td>
             <td>Provinsi</td>
             <td>:</td>
-            <td>Jawa Tengah</td>
+            <td>{{$item->provinsi}}</td>
         </tr>
         <tr>
             <td></td>
             <td>Negara</td>
             <td>:</td>
-            <td>Indonesia</td>
+            <td>{{$item->negara}}</td>
         </tr>
         <tr>
             <td>3.</td>
             <td>Posisi Geografis</td>
             <td>:</td>
-            <td>-6.976853 Lintang, 111.410894 Bujur</td>
+            <td>{{$item->posisigeografis}}</td>
         </tr>
         <tr>
             <td>4.</td>
             <td>Tipe Dinas</td>
             <td>:</td>
-            <td>B</td>
+            <td>{{$item->tipedinas}}</td>
         </tr>
+
+        @endforeach
     </table>
 
     <br>
@@ -173,229 +177,247 @@
 
     <h5>KEPALA DINAS</h5>
     <table>
+        @foreach ($datakepaladinas as $item)
+
         <tr>
             <td>1.</td>
             <td>Nama Lengkap</td>
             <td>:</td>
-            <td>NIDZAMUDIN AL HUDDA, ST</td>
+            <td>{{$item->namalengkap}}</td>
         </tr>
         <tr>
             <td>2.</td>
             <td>NIP</td>
             <td>:</td>
-            <td> - </td>
+            <td>{{$item->nip}}</td>
         </tr>
         <tr>
             <td>3.</td>
             <td>Tempat, Tanggal Lahir</td>
             <td>:</td>
-            <td> - </td>
+            <td>{{$item->ttl}}</td>
         </tr>
         <tr>
             <td>4.</td>
             <td>Pangkat / Golongan</td>
             <td>:</td>
-            <td> - </td>
+            <td>{{$item->pangkatgolongan}}</td>
         </tr>
         <tr>
             <td>5.</td>
             <td>Jabatan</td>
             <td>:</td>
-            <td>Plt. Kepala Dinas Pekerjaan Umum Dan Penataan Ruang Kabupaten Blora</td>
+            <td>{{$item->jabatan}}</td>
         </tr>
         <tr>
             <td>6.</td>
             <td>Perangkat Daerah</td>
             <td>:</td>
-            <td>Dinas Pekerjaan Umum Dan Penataan Ruang Kabupaten Blora</td>
+            <td>{{$item->perangkatdaerah}}</td>
         </tr>
         <tr>
             <td>7.</td>
             <td>Pendidikan Terakhir</td>
             <td>:</td>
-            <td>Strata 1 (S1)</td>
+            <td>{{$item->pendidikanterakhir}}</td>
         </tr>
+
+        @endforeach
     </table>
 
     <br>
 
     <h5>KEPALA BIDANG BANGUNAN GEDUNG</h5>
     <table>
+
+        @foreach ($datakabid as $item)
+
         <tr>
             <td>1.</td>
             <td>Nama Lengkap</td>
             <td>:</td>
-            <td>MOHAMAD ARIF HIDAYAT, ST</td>
+            <td>{{$item->namalengkap}}</td>
         </tr>
         <tr>
             <td>2.</td>
             <td>NIP</td>
             <td>:</td>
-            <td> - </td>
+            <td>{{$item->nip}}</td>
         </tr>
         <tr>
             <td>3.</td>
             <td>Tempat, Tanggal Lahir</td>
             <td>:</td>
-            <td> - </td>
+            <td>{{$item->ttl}}</td>
         </tr>
         <tr>
             <td>4.</td>
             <td>Pangkat / Golongan</td>
             <td>:</td>
-            <td> - </td>
+            <td>{{$item->pangkatgolongan}}</td>
         </tr>
         <tr>
             <td>5.</td>
             <td>Jabatan</td>
             <td>:</td>
-            <td>Kepala Bidang Bangunan Gedung Dinas Pekerjaan Umum Dan Penataan Ruang Kabupaten Blora</td>
+            <td>{{$item->pangkatgolongan}}</td>
         </tr>
         <tr>
             <td>6.</td>
             <td>Perangkat Daerah</td>
             <td>:</td>
-            <td>Dinas Pekerjaan Umum Dan Penataan Ruang Kabupaten Blora</td>
+            <td>{{$item->perangkatdaerah}}</td>
         </tr>
         <tr>
             <td>7.</td>
             <td>Pendidikan Terakhir</td>
             <td>:</td>
-            <td>Strata 1 (S1)</td>
+            <td>{{$item->pendidikanterakhir}}</td>
         </tr>
+        @endforeach
     </table>
 
     <br>
 
     <h5>SUBKOORDINATOR BINA JASA KONSTRUKSI</h5>
     <table>
+        @foreach ($datasubkoordinator as $item)
+
         <tr>
             <td>1.</td>
             <td>Nama Lengkap</td>
             <td>:</td>
-            <td>ANEX FACHRIAN ST, MT</td>
+            <td>{{$item->namalengkap}}</td>
         </tr>
         <tr>
             <td>2.</td>
             <td>NIP</td>
             <td>:</td>
-            <td> - </td>
+            <td>{{$item->nip}}</td>
         </tr>
         <tr>
             <td>3.</td>
             <td>Tempat, Tanggal Lahir</td>
             <td>:</td>
-            <td> - </td>
+            <td>{{$item->ttl}}</td>
         </tr>
         <tr>
             <td>4.</td>
             <td>Pangkat/Golongan</td>
             <td>:</td>
-            <td> - </td>
+            <td>{{$item->pangkatgolongan}}</td>
         </tr>
         <tr>
             <td>5.</td>
             <td>Jabatan</td>
             <td>:</td>
-            <td>Subkoordinator Bina Jasa Konstruksi Dinas Pekerjaan Umum Dan Penataan Ruang Kabupaten Blora </td>
+            <td>{{$item->jabatan}}</td>
         </tr>
         <tr>
             <td>6.</td>
             <td>Pendidikan Terakhir</td>
             <td>:</td>
-            <td>Magister (S2) </td>
+            <td>{{$item->pendidikanterakhir}}</td>
         </tr>
+        @endforeach
     </table>
     <br>
 
     <h4>III. OPD Jakon</h4>
     <table>
+        @foreach ($datainformasi as $item)
+
         <tr>
             <td></td>
-            <td>OPD yang menangani Bina Jasa Konstruksi di DPUPR Kabupaten Blora setara dengan eselon IV,
-                dibawah Bidang Bangunan Gedung. Pada Bidang Bangunan Gedung terdapat dua subkoordinator
-                yaitu Subkoordinator Bangunan dan Lingkungan serta Subkoordinator Bina Jasa Konstruksi,   hal
-                tersebut tertuang dalam Perbup Nomor 66 Tahun 2021 tentang Kedudukan, Susunan Organisasi,
-                Tugas dan Fungsi Serta Tata Kerja Dinas Pekerjaan Umum dan Penataan Ruang Kabupaten Blora.</td>
-            </tr>
-        </table>
-        <br>
+            <td>{!!$item->informasiopd!!}</td>
+        </tr>
+        @endforeach
+    </table>
+    <br>
 
     <h4>IV. Kontak OPD</h4>
     <table>
+        @foreach ($datainformasi as $item)
+
         <tr>
             <td>1</td>
             <td>Nomor Telepon</td>
             <td>:</td>
-            <td>(0296) 531004 </td>
+            <td>{{$item->notelepon}}</td>
         </tr>
         <tr>
             <td>2</td>
             <td>Instagram</td>
             <td>:</td>
-            <td>'@dpuprblora'</td>
+            <td>@{{$item->instagram}}</td>
         </tr>
         <tr>
             <td>3</td>
             <td>Tiktok</td>
             <td>:</td>
-            <td>'@bangunan.gedung.dpupr'</td>
+            <td>{{$item->tiktok}}</td>
+            {{-- <td>'@bangunan.gedung.dpupr'</td> --}}
         </tr>
+        <tr>
+            <td>3</td>
+            <td>Tiktok</td>
+            <td>:</td>
+            <td>{{$item->email}}</td>
+            {{-- <td>'@bangunan.gedung.dpupr'</td> --}}
+        </tr>
+        @endforeach
     </table>
 
-<br>
+    <br>
     <h4>V. SK SIPJAKI</h4>
     <table>
+        @foreach ($datasipjaki as $item)
         <tr>
             <td></td>
             <td>Nomor</td>
             <td>:</td>
-            <td>900/008.A/2024 tanggal 2 Januari 2024</td>
+            <td>{{$item->nomor}}</td>
         </tr>
         <tr>
             <td></td>
             <td>Nama Operator SIPJAKI</td>
             <td>:</td>
-            <td>Miftahunnuril Anam, SE </td>
+            <td>{{$item->operator1}}</td>
         </tr>
         <tr>
             <td></td>
-            <td></td>
+            <td>Nama Operator SIPJAKI</td>
             <td>:</td>
-            <td>Muhammad Yusuf Zaqi Efendi, SE</td>
+            <td>{{$item->operator2}}</td>
         </tr>
+        <tr>
+            <td></td>
+            <td>Nama Operator SIPJAKI</td>
+            <td>:</td>
+            <td>{{$item->operator3}}</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>Nama Operator SIPJAKI</td>
+            <td>:</td>
+            <td>{{$item->operator4}}</td>
+        </tr>
+        @endforeach
     </table>
 
-<br>
+    <br>
     <h4>VI. SK PERSONIL JABATAN FUNGSIONAL JASA KONSTRUKSI</h4>
     <table>
-        <tr>
-            <td>1</td>
-            <td>Ahli Muda Bina Jasa Konstruksi</td>
-            <td>:</td>
-            <td>Anex Fachrian, ST, MT</td>
-        </tr>
-        <tr>
-            <td>2</td>
-            <td>Ahli Pertama - Jasa Konstruksi</td>
-            <td>:</td>
-            <td>Miftahunnuril Anam, SE</td>
-        </tr>
+        @foreach ($datapersonil as $item)
 
         <tr>
-            <td>3</td>
-            <td>Ahli Pertama - Jasa Konstruksi</td>
+            <td>{{$loop->iteration}}</td>
+            <td>{{$item->jabatan}}</td>
             <td>:</td>
-            <td>Maretha Riantiarni, SE</td>
+            <td>{{$item->namalengkap}}</td>
         </tr>
 
-        <tr>
-            <td>4</td>
-            <td>Ahli Pertama - Jasa Konstruksi</td>
-            <td>:</td>
-            <td>Yudha Prasetyowidadi, SE</td>
-        </tr>
-
+        @endforeach
     </table>
 
 </div>

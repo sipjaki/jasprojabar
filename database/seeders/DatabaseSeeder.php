@@ -365,7 +365,7 @@ renstra::create([
 profiljakonidentitasopd::create([
     'namaopd' => 'Dinas Pekerjaan Umum Dan Penataan Ruang Kabupaten Blora',
     'alamatopd' => 'Jl. Nusantara No. 62',
-    'rtrw' => '',
+    'rtrw' => null,
     'kodepos' => '58214',
     'kelurahan' => 'Jetis',
     'kecamatan' => 'Blora',
