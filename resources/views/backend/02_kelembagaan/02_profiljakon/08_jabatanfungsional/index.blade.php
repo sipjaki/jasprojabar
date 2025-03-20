@@ -63,8 +63,8 @@
                                     @foreach ($data as $item )
                                     <tr class="align-middle">
                                         <td style="text-align: center;">{{ $loop->iteration }}</td>
-                                        <td style="text-align: left;">{!! $item->jabatan !!}</td>
-                                        <td style="text-align: justify;">{!! $item->namalengkap !!}</td>
+                                        <td style="text-align: center;">{!! $item->jabatan !!}</td>
+                                        <td style="text-align: center;">{!! $item->namalengkap !!}</td>
                                         <td style="text-align: center;">
                                             <!-- Show Icon -->
                                             {{-- <a href="/404" class="btn btn-sm btn-info me-2" title="Show">
