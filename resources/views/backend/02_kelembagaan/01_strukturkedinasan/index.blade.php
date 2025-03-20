@@ -69,7 +69,6 @@
                                                 <p>PDF cannot be displayed.</p>
                                             </object>
                                         </td>
-
                                         <td style="text-align: justify;">{!! $item->keterangan !!}</td>
                                         <td style="text-align: center;">
                                             <!-- Show Icon -->
