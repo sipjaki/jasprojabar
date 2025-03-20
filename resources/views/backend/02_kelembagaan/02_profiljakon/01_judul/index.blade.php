@@ -39,7 +39,6 @@
         {{-- ======================================================= --}}
 
             <!-- Menyertakan FontAwesome untuk ikon -->
-            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 
         <div class="container-fluid">
             <!--begin::Row-->
@@ -116,26 +115,27 @@
                 </div>
                 <!-- /.card -->
             </div>
+            <div style="display: flex; justify-content: flex-end; margin-bottom: 20px;">
+                <button
+                    onmouseover="this.style.backgroundColor='white'; this.style.color='black';"
+                    onmouseout="this.style.backgroundColor='navy'; this.style.color='white';"
+                    style="
+                        background-color: navy;
+                        color: white;
+                        border: none;
+                        padding: 10px 20px;
+                        border-radius: 5px;
+                        font-size: 16px;
+                        cursor: pointer;
+                        display: flex;
+                        align-items: center;
+                        transition: background-color 0.3s, color 0.3s;">
+                    <!-- Ikon Kembali -->
+                    <i class="fa fa-arrow-left" style="margin-right: 8px;"></i>
+                    Kembali
+                </button>
+            </div>
 
-            <button
-                        onmouseover="this.style.backgroundColor='white'; this.style.color='black';"
-                        onmouseout="this.style.backgroundColor='navy'; this.style.color='white';"
-                        style="
-                            background-color: navy;
-                            color: white;
-                            border: none;
-                            padding: 10px 20px;
-                            border-radius: 5px;
-                            font-size: 16px;
-                            cursor: pointer;
-                            display: flex;
-                            align-items: center;
-                            transition: background-color 0.3s, color 0.3s;">
-                        <!-- Ikon Kembali -->
-                        <i class="fa fa-arrow-left" style="margin-right: 8px;"></i>
-                        Kembali
-                    </button>
-            <!-- /.col -->
         </div>
         <!--end::Row-->
         </div>
