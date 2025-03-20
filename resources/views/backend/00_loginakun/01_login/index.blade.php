@@ -1,72 +1,30 @@
 <style>
-  /* Base styles for the content */
-  .divider:after,
-  .divider:before {
-    content: "";
-    flex: 1;
-    height: 1px;
-    background: #eee;
-  }
-
-  /* Custom height based on screen size */
-  .h-custom {
-    height: calc(100% - 73px);
-  }
-
-  /* Adjust the height of h-custom for smaller screens */
-  @media (max-width: 450px) {
-    .h-custom {
-      height: 100%;
-    }
-  }
-
-  /* Responsive font sizes for header and description */
+<style>
   @media (max-width: 576px) {
     .header-title {
-      font-size: 1.8rem; /* Smaller font size on small screens */
+      font-size: 1.8rem; /* Smaller font size for smaller screens */
     }
 
     .header-description {
-      font-size: 0.9rem; /* Adjust description font size */
+      font-size: 0.9rem; /* Smaller description font size */
+    }
+
+    .container-fluid {
+      padding: 20px; /* Padding around the container for smaller screens */
     }
   }
 
-  /* Further adjustments for very small screens (e.g., portrait phones) */
   @media (max-width: 360px) {
     .header-title {
-      font-size: 1.5rem; /* Even smaller font size */
+      font-size: 1.5rem; /* Further decrease font size for very small screens */
     }
 
     .header-description {
       font-size: 0.8rem; /* Further reduce the font size */
     }
-
-    .container-fluid {
-      padding: 10px; /* Add some padding to prevent edge clipping */
-    }
   }
+</style>
 
-  /* For medium-sized screens like tablets */
-  @media (min-width: 768px) {
-    .header-title {
-      font-size: 2.2rem; /* Increase font size for larger screens */
-    }
-
-    .header-description {
-      font-size: 1rem; /* Set description font size to a normal level */
-    }
-  }
-
-  /* For larger screens like desktop and laptops */
-  @media (min-width: 992px) {
-    .header-title {
-      font-size: 2.5rem; /* Larger font for desktops */
-    }
-
-    .header-description {
-      font-size: 1.1rem; /* Slightly larger description */
-    }
-  }
 </style>
 
 
@@ -103,17 +61,17 @@
     <div class="container-fluid h-custom">
         <div class="row d-flex justify-content-center align-items-center h-100">
           <!-- Adjusted column sizes for responsiveness -->
-          <div class="col-12 col-md-9 col-lg-6 col-xl-5 d-flex justify-content-center align-items-center" style="gap: 15px;">
+          <div class="col-12 col-md-9 col-lg-6 col-xl-5 d-flex flex-column justify-content-center align-items-center" style="gap: 15px;">
 
             <!-- Images that will resize according to screen size -->
-            <img src="/assets/icon/logokabupatenblora.png" class="img-fluid" alt="Logo Kabupaten Blora" width="125" loading="lazy">
-            <img src="/assets/icon/pupr.png" class="img-fluid" alt="Logo PUPR" width="125" loading="lazy">
+            <img src="/assets/icon/logokabupatenblora.png" class="img-fluid mb-3" alt="Logo Kabupaten Blora" width="125" loading="lazy">
+            <img src="/assets/icon/pupr.png" class="img-fluid mb-3" alt="Logo PUPR" width="125" loading="lazy">
 
             <!-- Header text and description -->
-            <div class="header-text" style="text-align: left; margin-bottom: 20px;">
+            <div class="header-text text-center">
               <h1 class="header-title" style="font-family: 'Montserrat', sans-serif; font-size: 2.5rem; font-weight: bold;">
-                <span class="header-title-white" style="font-weight: bold; font-style: italic; color: black; text-align:left;">MASJAKI</span>
-                <span class="header-title-green" style="font-weight: bold; font-style: italic; color: #064420; text-align:left;">BLORA</span>
+                <span class="header-title-white" style="font-weight: bold; font-style: italic; color: black;">MASJAKI</span>
+                <span class="header-title-green" style="font-weight: bold; font-style: italic; color: #064420;">BLORA</span>
               </h1>
               <p class="header-description" style="font-family: 'Montserrat', sans-serif; font-size: 1rem; color: black; font-weight: bold;">
                 Dinas Pekerjaan Umum Dan Penataan Ruang Kabupaten Blora
@@ -122,8 +80,6 @@
           </div>
         </div>
       </div>
-
-      <!-- Add Bootstrap 4 or 5 CSS link (you may include this in the <head> section of your HTML) -->
 
       <div class="col-md-8 col-lg-6 col-xl-4 offset-xl-1">
         <form action="/login" method="post">
