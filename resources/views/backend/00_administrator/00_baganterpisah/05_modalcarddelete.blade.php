@@ -7,13 +7,10 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>Apakah Anda akan menghapus data ini?</p>
-                <p id="itemName" class="font-weight-bold"></p> <!-- Menampilkan nama item atau detail -->
+                <p>Apakah Anda ingin menghapus data <span id="itemName"></span>?</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Batal</button>
-
-                <!-- Formulir Penghapusan -->
                 <form id="deleteForm" method="POST" action="">
                     @csrf
                     @method('DELETE') <!-- Menetapkan metode DELETE untuk penghapusan -->
@@ -26,12 +23,17 @@
 
 
 <script>
-    function setDeleteUrl(judul) {
-        // Menetapkan URL delete ke dalam form action
-        var deleteUrl = "/header/delete/" + judul;
-        document.getElementById('deleteForm').setAttribute('action', deleteUrl);
+function setDeleteUrl(button) {
+    // Ambil data judul dari elemen yang diklik
+    var judul = button.getAttribute('data-judul');
 
-        // Menampilkan nama item di modal
-        document.getElementById('itemName').innerText = "Judul: " + judul;
-    }
+    // Perbarui teks di dalam modal dengan nama item
+    document.getElementById('itemName').innerText = judul;
+
+    // Atur URL penghapusan
+    var deleteUrl = "/header/delete/" + encodeURIComponent(judul);
+    document.getElementById('deleteForm').action = deleteUrl;
+}
+
+
 </script>
