@@ -47,10 +47,10 @@
             <div class="row">
                 <div class="col-md-3 col-sm-6 col-12">
                     <a href="/">
-                        <div class="info-box bg-success"
-                             style="transition: background-color 0.3s, color 0.3s;"
-                             onmouseover="this.style.backgroundColor='white'; this.style.color='black'; this.querySelector('.info-box-text').style.color='black'; this.querySelector('.progress-description').style.color='black'; this.querySelector('.info-box-icon img').style.filter='brightness(0) invert(1)';"
-                             onmouseout="this.style.backgroundColor=''; this.style.color=''; this.querySelector('.info-box-text').style.color=''; this.querySelector('.progress-description').style.color=''; this.querySelector('.info-box-icon img').style.filter='';">
+                        <div class="info-box"
+                             style="transition: background-color 0.3s, color 0.3s; background-color: #28a745; color: white;"
+                             onmouseover="this.style.backgroundColor='#28a745'; this.style.color='black'; this.querySelector('.info-box-text').style.color='black'; this.querySelector('.progress-description').style.color='black'; this.querySelector('.info-box-icon img').style.filter='brightness(0) invert(1)';"
+                             onmouseout="this.style.backgroundColor='#28a745'; this.style.color='white'; this.querySelector('.info-box-text').style.color='white'; this.querySelector('.progress-description').style.color='white'; this.querySelector('.info-box-icon img').style.filter='';">
                             <span class="info-box-icon">
                                 <img src="/assets/icon/pupr.png" alt="" width="40">
                             </span>
