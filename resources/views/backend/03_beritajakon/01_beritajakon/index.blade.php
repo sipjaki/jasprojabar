@@ -73,7 +73,7 @@
 <table class="table table-striped">
     <thead>
         <tr>
-            <th style="width: 10px; text-align:center;">No</th>
+            <th style="width: 50px; text-align:center;">No</th>
             <th style="width: 200px; text-align:center;">Penulis</th>
             <th style="width: 250px; text-align:center;">Judul Berita</th>
             <th style="width: 100px; text-align:center;">Tanggal</th>
@@ -90,7 +90,7 @@
             <td style="text-align: left;">{!! $item->judulberita !!}</td>
             <td style="text-align: left;">{{ \Carbon\Carbon::parse($item->tanggal)->translatedFormat('l, d F Y') }}</td>
             <td>
-                <div class="isi-berita">
+                <div class="isi-berita" style="text-align: justify;">
                     {!! $item->keterangan !!}
                 </div>
             </td>
@@ -114,6 +114,21 @@
     </tbody>
 </table>
                         </div>
+                    </div>
+
+                    <div class="pagination-container" style="margin-top: 50px; display: flex; flex-direction: column; align-items: center;">
+                        <ul class="pagination-paginate" style="display: flex; padding-left: 0; list-style: none; margin-top: 10px;">
+                            <li class="page-item {{ $data->onFirstPage() ? 'disabled' : '' }}" style="margin-right: 5px;">
+                                <a class="page-link" href="{{ $data->previousPageUrl() }}">
+                                    <i class="fas fa-arrow-left" style="margin-right: 10px;"></i>Previous
+                                </a>
+                            </li>
+                            <li class="page-item {{ $data->hasMorePages() ? '' : 'disabled' }}" style="margin-right: 5px;">
+                                <a class="page-link" href="{{ $data->nextPageUrl() }}">
+                                    Next <i class="fas fa-arrow-right" style="margin-left: 10px;"></i>
+                                </a>
+                            </li>
+                        </ul>
                     </div>
 
                     <!-- Modal Konfirmasi Hapus -->

@@ -184,7 +184,7 @@ class BeritajakonController extends Controller
 
         public function beberitajakon()
         {
-            $data = beritajakon::all(); // Menggunakan paginate() untuk pagination
+            $data = beritajakon::paginate(5); // Menggunakan paginate() untuk pagination
             $user = Auth::user();
 
             return view('backend.03_beritajakon.01_beritajakon.index', [
