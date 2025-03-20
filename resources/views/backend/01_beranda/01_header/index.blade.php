@@ -94,6 +94,7 @@
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
+                <img src="/assets/icon/logokabupatenblora.png" alt="">
                 <h5 class="modal-title" id="deleteModalLabel">Konfirmasi Hapus Data</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
