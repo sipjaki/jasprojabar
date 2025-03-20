@@ -68,9 +68,9 @@
                                         </td>
                                         <td style="text-align: center;">
                                             <!-- Show Icon -->
-                                            <a href="/404" class="btn btn-sm btn-info me-2" title="Show">
+                                            {{-- <a href="/404" class="btn btn-sm btn-info me-2" title="Show">
                                                 <i class="bi bi-eye"></i>
-                                            </a>
+                                            </a> --}}
                                             <!-- Update Icon -->
                                             <a href="/404" class="btn btn-sm btn-warning me-2" title="Update">
                                                 <i class="bi bi-pencil-square"></i>
