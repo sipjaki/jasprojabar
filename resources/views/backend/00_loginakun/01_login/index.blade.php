@@ -63,8 +63,8 @@
             <div class="col-12 col-md-6 d-flex flex-column text-center text-md-left align-items-center" style="gap: 15px;">
 
                 <div class="d-flex justify-content-center align-items-center mb-3">
-                    <img src="/assets/icon/logokabupatenblora.png" class="img-fluid" alt="Logo Kabupaten Blora" width="125" loading="lazy">
-                    <img src="/assets/icon/pupr.png" class="img-fluid" alt="Logo PUPR" width="125" loading="lazy">
+                    <img src="/assets/icon/logokabupatenblora.png" class="img-fluid" alt="Logo Kabupaten Blora" width="100" loading="lazy">
+                    <img src="/assets/icon/pupr.png" class="img-fluid" alt="Logo PUPR" width="100" loading="lazy">
                 </div>
 
                 <h1 class="header-title" style="font-family: 'Montserrat', sans-serif; font-size: 2.5rem; font-weight: bold;">
@@ -95,7 +95,7 @@
                             style="background-color: #064420; color: white; padding: 10px 50px; border: none;"
                             onmouseover="this.style.backgroundColor='white'; this.style.color='black';"
                             onmouseout="this.style.backgroundColor='#064420'; this.style.color='white';">
-                            <i class="fas fa-sign-in-alt me-2"></i> Login
+                            <i class="fas fa-sign-in-alt me-2"></i> <span style="font-size:14px; text-transform:capitalize;">Login</span>
                         </button>
 
                         <p class="small fw-bold mt-2 pt-1 mb-0">
