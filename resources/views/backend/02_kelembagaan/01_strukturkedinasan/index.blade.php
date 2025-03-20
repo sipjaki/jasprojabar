@@ -20,9 +20,7 @@
             <!--begin::Row-->
             <div class="row">
 
-              <div class="col-sm-6"><h3 class="mb-0">Selamat datang ! <span style="color: black; font-weight:800;" > {{ Auth::user()->name }}</span> di Dashboard <span style="color: black; font-weight:800;"> {{ Auth::user()->statusadmin->statusadmin }} </span>  Sistem Informasi Pembina Jasa Konstruksi Kab Blora</h3></div>
-
-
+              <div class="col-sm-12"><h3 class="mb-0">Selamat datang ! <span style="color: black; font-weight:800;" > {{ Auth::user()->name }}</span> di Dashboard <span style="color: black; font-weight:800;"> {{ Auth::user()->statusadmin->statusadmin }} </span>  Sistem Informasi Pembina Jasa Konstruksi Kab Blora</h3></div>
 
             </div>
             <!--end::Row-->
@@ -45,7 +43,8 @@
                 <!-- /.card -->
                 <div class="card mb-4">
                     <div class="card-header">
-                        <h2 style="color: black;" class="card-title">Halaman Pengaturan : {{$title}}</h2>
+                        <h2 style="color: black;" class="card-title">Halaman Pengaturan : {{$title}} </h2>
+
                     </div>
                     <!-- /.card-header -->
                     <div class="card-body p-0">
@@ -55,8 +54,8 @@
                                     <tr>
                                         <th style="width: 10px; text-align:center;">No</th>
                                         <th style="width: 400px; text-align:center;">Judul</th>
-                                        <th style="width: 500px; text-align:center;">Gambar/Foto</th>
-                                        <th style="width: 150px; text-align: center;">Aksi</th>
+                                        <th style="width: 500px; text-align:center;">Berkas</th>
+                                        <th style="width: 300px; text-align: center;">Keterangan</th>
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -65,7 +64,7 @@
                                         <td style="text-align: center;">{{ $loop->iteration }}</td>
                                         <td style="text-align: left;">{!! $item->judul !!}</td>
                                         <td style="text-align: center;">
-                                            <img src="{{ asset('storage/'. $item->header) }}" alt="Image" width="300">
+                                            <img src="{{ asset('storage/'. $item->peraturan) }}" alt="Image" width="300">
                                         </td>
                                         <td style="text-align: center;">
                                             <!-- Show Icon -->
@@ -78,10 +77,10 @@
                                             </a>
                                             <!-- Delete Icon -->
                                             <!-- Tombol Delete -->
-                                            <a href="javascript:void(0)" class="btn btn-sm btn-danger" title="Delete" data-bs-toggle="modal" data-bs-target="#deleteModal"
-                                            data-judul="{{ $item->judul }}" onclick="setDeleteUrl(this)">
+                                            {{-- <a href="javascript:void(0)" class="btn btn-sm btn-danger" title="Delete" data-bs-toggle="modal" data-bs-target="#deleteModal"
+                                            data-judul="{{ $item->id }}" onclick="setDeleteUrl(this)">
                                             <i class="bi bi-trash"></i>
-                                        </a>
+                                        </a> --}}
 
 
                                         @include('backend.00_administrator.00_baganterpisah.05_modalcarddelete')

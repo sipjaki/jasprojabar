@@ -15,6 +15,7 @@ return new class extends Migration
             $table->id();
             $table->string('judul');
             $table->string('peraturan');
+            $table->string('keterangan');
             $table->softDeletes();
             $table->timestamps();
         });

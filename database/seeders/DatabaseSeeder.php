@@ -349,8 +349,9 @@ headerberanda::create([
 //======================== ===================================================================================
 //======================== ===================================================================================
 strukturdinas::create([
-    'judul' => 'Struktur Dinas Pekerjaan Umum Dan Penataan Ruang Pemerintah Kabupaten Blora',
+    'judul' => 'Struktur Organisasi Dinas Pekerjaan Umum Dan Penataan Ruang Pemerintah Kabupaten Blora',
     'peraturan' => '01_kelembagaan/01_dinas/Struktur_Organisasi_PUPR_Blora.pdf',
+    'keterangan' => 'Dinas Pekerjaan Umum dan Penataan Ruang (PUPR) Pemerintah Kabupaten Blora memiliki peran vital dalam pengelolaan infrastruktur dan penataan ruang yang mendukung pembangunan daerah. Dinas ini bertanggung jawab dalam merencanakan, melaksanakan, serta mengawasi pembangunan berbagai infrastruktur seperti jalan, jembatan, dan gedung, serta fasilitas publik lainnya. Selain itu, Dinas PUPR juga berperan dalam penataan ruang yang berfokus pada pengembangan wilayah yang terencana dan berkelanjutan. Struktur organisasi Dinas PUPR Kabupaten Blora dibangun dengan sistem yang terstruktur dan terorganisir guna memastikan efektivitas dalam pelaksanaan tugas-tugasnya.',
     'created_at' => Carbon::now(),
     'updated_at' => Carbon::now(),
     'deleted_at' => null, // Jika Anda menggunakan soft deletes
