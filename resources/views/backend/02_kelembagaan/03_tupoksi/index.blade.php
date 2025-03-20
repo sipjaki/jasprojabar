@@ -52,59 +52,21 @@
                         <div class="table-responsive">
                             <table class="table table-striped">
                                 <thead>
+                                    @foreach ($data as $item )
+
                                     <tr>
-                                        <th style="width: 10px; text-align:center;">No</th>
-                                        <th style="width: 300px; text-align:center;">Judul</th>
-                                        <th style="width: 500px; text-align:center;">Berkas</th>
-                                        <th style="width: 600px; text-align: center;">Keterangan</th>
-                                        <th style="width: 100px; text-align: center;">Aksi</th>
+                                        <th style="width: 100px; text-align:center;">Judul</th>
+                                        <td>{{$item->judul}}</td>
                                     </tr>
+                                    <tr>
+                                        <th style="width: 100px; text-align:center;">Keterangan</th>
+                                        <td>{{$item->keterangan}}</td>
+                                    </tr>
+
+                                    @endforeach
                                 </thead>
                                 <tbody>
-                                    @foreach ($data as $item )
-                                    <tr class="align-middle">
-                                        <td style="text-align: center;">{{ $loop->iteration }}</td>
-                                        <td style="text-align: left;">{!! $item->judul !!}</td>
-                                        <td style="text-align: center;">
-                                            <object data="{{ asset('storage/' . $item->peraturan) }}" type="application/pdf" width="300" height="200">
-                                                <p>PDF cannot be displayed.</p>
-                                            </object>
-                                        </td>
-                                        <td style="text-align: justify;">{!! $item->keterangan !!}</td>
-                                        <td style="text-align: center;">
-                                            <!-- Show Icon -->
-                                            {{-- <a href="/404" class="btn btn-sm btn-info me-2" title="Show">
-                                                <i class="bi bi-eye"></i>
-                                            </a> --}}
-                                            <!-- Update Icon -->
-                                            <a href="/404" class="btn btn-sm btn-warning me-2" title="Update">
-                                                <i class="bi bi-pencil-square"></i>
-                                            </a>
-                                            <!-- Delete Icon -->
-                                            <!-- Tombol Delete -->
-                                            {{-- <a href="javascript:void(0)" class="btn btn-sm btn-danger" title="Delete" data-bs-toggle="modal" data-bs-target="#deleteModal"
-                                            data-judul="{{ $item->id }}" onclick="setDeleteUrl(this)">
-                                            <i class="bi bi-trash"></i>
-                                        </a> --}}
 
-
-                                        @include('backend.00_administrator.00_baganterpisah.05_modalcarddelete')
-
-                                            <style>
-                                                /* Hover effect */
-                                                .btn-info:hover, .btn-warning:hover, .btn-danger:hover {
-                                                    background-color: #fff !important; /* Keep the background white on hover */
-                                                    color: black !important; /* Change text color to black on hover */
-                                                }
-
-                                                .btn-info:hover i, .btn-warning:hover i, .btn-danger:hover i {
-                                                    color: black !important; /* Ensure the icon color changes to black */
-                                                }
-                                            </style>
-                                        </td>
-
-                                    </tr>
-                                    @endforeach
                                 </tbody>
                             </table>
                         </div>
