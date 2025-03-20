@@ -408,7 +408,7 @@ Route::delete('/header/delete/{judul}', [AdminDashboardController::class, 'heade
 
 // ======================================= KELEMBAGAAN BACKEND -------------------------------------------------------------
 // ---------------------- MENU 1 STRUKTUR ORGANISASI  -----------------------------------------------------
-Route::get('/bestrukturdinas', [AdminDashboardController::class, 'strukturkedinasan'])->middleware('auth');
+Route::get('/bestrukturdinas', [StrukturController::class, 'strukturkedinasan'])->middleware('auth');
 // Route::get('/header/update', [AdminDashboardController::class, 'headerupdate'])->middleware('auth');
 // Route::delete('/header/delete/{judul}', [AdminDashboardController::class, 'headerdelete'])->middleware('auth');
 
