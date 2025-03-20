@@ -70,6 +70,8 @@ Route::get('/profil/struktur', [StrukturController::class, 'strukturdpuprkabblor
 Route::get('/profil/rencanastrategis', [StrukturController::class, 'rencanastrategisdpuprkabblora']);
 Route::get('/beprofiljakon', [StrukturController::class, 'beprofiljakon']);
 // ___________________________________________________________________________________________________________________________________
+Route::get('/beinformasiopd', [StrukturController::class, 'beinformasiopd']);
+// ___________________________________________________________________________________________________________________________________
 
 // ---------------------- MENU 2-----------------------------------------------------
 Route::get('/profil/tupoksi', [StrukturController::class, 'tupoksifekbb']);

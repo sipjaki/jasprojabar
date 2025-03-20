@@ -477,29 +477,43 @@ public function rencanastrategisdpuprkabblora()
 
 public function beprofiljakon()
 {
-    $data = renstra::all(); // Menggunakan paginate() untuk pagination
-    $dataidentitasopd = profiljakonidentitasopd::all(); // Menggunakan paginate() untuk pagination
-    $datakepaladinas = profiljakonkepaladinas::all(); // Menggunakan paginate() untuk pagination
-    $datakabid = profiljakonkabid::all(); // Menggunakan paginate() untuk pagination
-    $datasubkoordinator = profiljakonsubkoordinator::all(); // Menggunakan paginate() untuk pagination
-    $datainformasi = profiljakoninformasi::all(); // Menggunakan paginate() untuk pagination
-    $datasipjaki = profiljakonsipjaki::all(); // Menggunakan paginate() untuk pagination
-    $datapersonil = profiljakonpersonil::all(); // Menggunakan paginate() untuk pagination
+    // $data = renstra::all(); // Menggunakan paginate() untuk pagination
+    // $dataidentitasopd = profiljakonidentitasopd::all(); // Menggunakan paginate() untuk pagination
+    // $datakepaladinas = profiljakonkepaladinas::all(); // Menggunakan paginate() untuk pagination
+    // $datakabid = profiljakonkabid::all(); // Menggunakan paginate() untuk pagination
+    // $datasubkoordinator = profiljakonsubkoordinator::all(); // Menggunakan paginate() untuk pagination
+    // $datainformasi = profiljakoninformasi::all(); // Menggunakan paginate() untuk pagination
+    // $datasipjaki = profiljakonsipjaki::all(); // Menggunakan paginate() untuk pagination
+    // $datapersonil = profiljakonpersonil::all(); // Menggunakan paginate() untuk pagination
 
     $user = Auth::user();
 
     return view('backend.02_kelembagaan.02_profiljakon.index', [
         'title' => 'Profil Jakon DPUPR Kabupaten Blora',
-        'data' => $data, // Mengirimkan data paginasi ke view
+        // 'data' => $data, // Mengirimkan data paginasi ke view
         'user' => $user, // Mengirimkan data paginasi ke view
 
-        'dataidentitasopd' => $dataidentitasopd, // Mengirimkan data paginasi ke view
-        'datakepaladinas' => $datakepaladinas, // Mengirimkan data paginasi ke view
-        'datakabid' => $datakabid, // Mengirimkan data paginasi ke view
-        'datasubkoordinator' => $datasubkoordinator, // Mengirimkan data paginasi ke view
-        'datainformasi' => $datainformasi, // Mengirimkan data paginasi ke view
-        'datasipjaki' => $datasipjaki, // Mengirimkan data paginasi ke view
-        'datapersonil' => $datapersonil, // Mengirimkan data paginasi ke view
+        // 'dataidentitasopd' => $dataidentitasopd, // Mengirimkan data paginasi ke view
+        // 'datakepaladinas' => $datakepaladinas, // Mengirimkan data paginasi ke view
+        // 'datakabid' => $datakabid, // Mengirimkan data paginasi ke view
+        // 'datasubkoordinator' => $datasubkoordinator, // Mengirimkan data paginasi ke view
+        // 'datainformasi' => $datainformasi, // Mengirimkan data paginasi ke view
+        // 'datasipjaki' => $datasipjaki, // Mengirimkan data paginasi ke view
+        // 'datapersonil' => $datapersonil, // Mengirimkan data paginasi ke view
+
+    ]);
+}
+
+public function beinformasiopd()
+{
+    $data = renstra::all(); // Menggunakan paginate() untuk pagination
+
+    $user = Auth::user();
+
+    return view('backend.02_kelembagaan.02_profiljakon.01_judul.index', [
+        'title' => 'Profil Jakon Informasi OPD',
+        'data' => $data, // Mengirimkan data paginasi ke view
+        'user' => $user, // Mengirimkan data paginasi ke view
 
     ]);
 }
