@@ -55,7 +55,7 @@
 
 <body>
   <!-- Start your project here-->
-  <section style="margin-top: 400px;">
+  <section style="margin-top: 200px;">
     <div class="container-fluid h-custom">
         <div class="row d-flex justify-content-center align-items-center">
             <!-- Large screen layout: Image + Text on the left, Form on the right -->
