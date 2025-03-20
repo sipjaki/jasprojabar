@@ -108,9 +108,17 @@
 
                     <!-- Submit Button -->
                     <div class="text-center text-lg-start mt-4 pt-2">
-                        <button type="submit" class="btn btn-dark btn-lg" style="background-color: #064420; color: white; padding-left: 2.5rem; padding-right: 2.5rem; border: none;" onmouseover="this.style.backgroundColor='white'; this.style.color='black';" onmouseout="this.style.backgroundColor='#064420'; this.style.color='white';">
-                            Login
-                        </button>
+                       <!-- Login Button with Modern Icon -->
+                                <button
+                                type="submit"
+                                class="btn btn-dark btn-lg"
+                                style="background-color: #064420; color: white; padding-left: 2.5rem; padding-right: 2.5rem; border: none;"
+                                onmouseover="this.style.backgroundColor='white'; this.style.color='black';"
+                                onmouseout="this.style.backgroundColor='#064420'; this.style.color='white';"
+                                >
+                                <i class="fas fa-sign-in-alt me-2"></i> <!-- Font Awesome Login Icon -->
+                                Login
+                                </button>
 
                         <p class="small fw-bold mt-2 pt-1 mb-0">
                             Belum Punya Akun? <a href="/404" class="link-danger">Daftar</a>
