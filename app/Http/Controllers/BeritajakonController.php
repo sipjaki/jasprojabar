@@ -211,7 +211,7 @@ class BeritajakonController extends Controller
         $entry->delete();
 
         // Redirect atau memberi respons sesuai kebutuhan
-        return redirect('/bejabatan')->with('delete', 'Data Berhasil Di Hapus !');
+        return redirect('/beberitajakon')->with('delete', 'Data Berhasil Di Hapus !');
 
     }
 
