@@ -5,15 +5,15 @@
   --background: #222b45;
   --warning: #f2a600;
   --success: #12c99b;
-  --error: #e41749;
+  --error: #ca0e0e;
   --dark: #151a30;
 }
 
 
 .alert {
   min-height: 60px;
-  width: 100%;
-  max-width: 100%;
+  width: 80%;
+  max-width: 80%;
   border-radius: 12px;
   padding: 16px 22px 17px 20px;
   display: flex;
