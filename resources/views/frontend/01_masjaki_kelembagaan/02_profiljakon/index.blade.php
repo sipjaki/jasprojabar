@@ -458,11 +458,11 @@
 
 <div class="portfolio-details-content">
     <div class="portfolio-details-content-title">
-        <h3>{{$item->judul}}}</h3>
+        <h4>{{$item->judul}}</h3>
     </div><!-- portfolio-details-content-title -->
     <div class="portfolio-details-content-text">
         <p style="text-align: justify" >
-            <h3>{{$item->keterangan}}}</h3>
+            {{$item->keterangan}}
         </p>
     </div><!-- portfolio-details-content-text -->
 </div><!-- portfolio-details-content -->
