@@ -532,6 +532,20 @@ public function beinfoopd()
     ]);
 }
 
+public function bekepaladinas()
+{
+    $data = profiljakonkepaladinas::all(); // Menggunakan paginate() untuk pagination
+
+    $user = Auth::user();
+
+    return view('backend.02_kelembagaan.02_profiljakon.03_kepaladinas.index', [
+        'title' => 'Profil Jakon Informasi Kepala Dinas',
+        'data' => $data, // Mengirimkan data paginasi ke view
+        'user' => $user, // Mengirimkan data paginasi ke view
+
+    ]);
+}
+
 
 // MENU BACKEND PROFIL JAKON MAS JAKI
 
