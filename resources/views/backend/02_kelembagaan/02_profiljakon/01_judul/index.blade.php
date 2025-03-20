@@ -123,6 +123,7 @@
                         background-color: navy;
                         color: white;
                         border: none;
+                        margin-right: 10px;
                         padding: 10px 20px;
                         border-radius: 5px;
                         font-size: 16px;
