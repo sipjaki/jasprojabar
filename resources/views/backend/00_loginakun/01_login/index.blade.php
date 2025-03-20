@@ -1,18 +1,5 @@
 <style>
     /* Default height for small devices (mobile phones) */
-    /* Adjust height for tablets and up (medium screens) */
-    @media (min-width: 576px) {
-        .vh-custom {
-            height: 80vh;
-        }
-    }
-
-    /* Adjust height for laptops and large screens */
-    @media (min-width: 992px) {
-        .vh-custom {
-            height: 80vh;
-        }
-    }
 
     /* Responsive typography and spacing */
     @media (max-width: 576px) {
@@ -68,7 +55,7 @@
 
 <body>
   <!-- Start your project here-->
-  <section style="height: 200vh;">
+  <section style="margin-top: 400px;">
     <div class="container-fluid h-custom">
         <div class="row d-flex justify-content-center align-items-center">
             <!-- Large screen layout: Image + Text on the left, Form on the right -->
