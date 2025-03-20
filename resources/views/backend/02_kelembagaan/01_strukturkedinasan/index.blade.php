@@ -53,9 +53,9 @@
                                 <thead>
                                     <tr>
                                         <th style="width: 10px; text-align:center;">No</th>
-                                        <th style="width: 400px; text-align:center;">Judul</th>
+                                        <th style="width: 300px; text-align:center;">Judul</th>
                                         <th style="width: 500px; text-align:center;">Berkas</th>
-                                        <th style="width: 300px; text-align: center;">Keterangan</th>
+                                        <th style="width: 600px; text-align: center;">Keterangan</th>
                                         <th style="width: 100px; text-align: center;">Aksi</th>
                                     </tr>
                                 </thead>
