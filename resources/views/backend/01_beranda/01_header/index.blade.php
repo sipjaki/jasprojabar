@@ -20,9 +20,7 @@
             <!--begin::Row-->
             <div class="row">
 
-              <div class="col-sm-6"><h3 class="mb-0">Selamat datang ! <span style="color: black; font-weight:800;" > {{ Auth::user()->name }}</span> di Dashboard <span style="color: black; font-weight:800;"> {{ Auth::user()->statusadmin->statusadmin }} </span>  Sistem Informasi Pembina Jasa Konstruksi Kab Blora</h3></div>
-
-
+              <div class="col-sm-12"><h3 class="mb-0">Selamat datang ! <span style="color: black; font-weight:800;" > {{ Auth::user()->name }}</span> di Dashboard <span style="color: black; font-weight:800;"> {{ Auth::user()->statusadmin->statusadmin }} </span>  Sistem Informasi Pembina Jasa Konstruksi Kab Blora</h3></div>
 
             </div>
             <!--end::Row-->
@@ -45,7 +43,8 @@
                 <!-- /.card -->
                 <div class="card mb-4">
                     <div class="card-header">
-                        <h2 style="color: black;" class="card-title">Halaman Pengaturan : {{$title}}</h2>
+                        <h2 style="color: black;" class="card-title">Halaman Pengaturan : {{$title}} </h2>
+
                     </div>
                     <!-- /.card-header -->
                     <div class="card-body p-0">
