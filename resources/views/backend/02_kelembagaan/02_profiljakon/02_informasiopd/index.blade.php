@@ -50,8 +50,7 @@
 
                     </div>
 
-
-                    <div class="col-md-6">
+                    <div class="col-md-12">
                         <!--begin::Quick Example-->
                         <div class="card card-primary card-outline mb-6">
                             <!--begin::Header-->
@@ -64,105 +63,99 @@
                             <form>
                                 <!--begin::Body-->
                                 <div class="card-body">
-                                    <div class="mb-3">
-                                      <label class="form-label">Nama Organisasi Perangkat Daerah (OPD)</label>
-                                      <input  class="form-control" value="{{$item->namaopd}}"/>
-                                      <div class="form-text">
-                                    </div>
+                                    <div class="row">
+                                        <!-- Left Column (6/12) -->
+                                        <div class="col-md-6">
+                                            <div class="mb-3">
+                                                <label class="form-label">Nama Organisasi Perangkat Daerah (OPD)</label>
+                                                <input class="form-control" value="{{$item->namaopd}}"/>
+                                                <div class="form-text"></div>
+                                            </div>
+
+                                            <div class="mb-3">
+                                                <label class="form-label">Alamat Organisasi Perangkat Daerah (OPD) </label>
+                                                <input class="form-control" value="{{$item->alamatopd}}" />
+                                            </div>
+
+                                            <div class="mb-3">
+                                                <label class="form-label">RT/RW </label>
+                                                <input class="form-control" value="{{$item->rtrw}}" />
+                                            </div>
+
+                                            <div class="mb-3">
+                                                <label class="form-label">Kode Pos</label>
+                                                <input class="form-control" value="{{$item->kodepos}}" />
+                                            </div>
+
+                                            <div class="mb-3">
+                                                <label class="form-label">Kelurahan</label>
+                                                <input class="form-control" value="{{$item->kelurahan}}" />
+                                            </div>
+
+                                            <div class="mb-3">
+                                                <label class="form-label">Kecamatan</label>
+                                                <input class="form-control" value="{{$item->kecamatan}}" />
+                                            </div>
+                                        </div>
+                                        <!-- End Left Column -->
+
+                                        <!-- Right Column (6/12) -->
+                                        <div class="col-md-6">
+                                            <div class="mb-3">
+                                                <label class="form-label">Kota</label>
+                                                <input class="form-control" value="{{$item->kota}}" />
+                                            </div>
+
+                                            <div class="mb-3">
+                                                <label class="form-label">Provinsi</label>
+                                                <input class="form-control" value="{{$item->provinsi}}" />
+                                            </div>
+
+                                            <div class="mb-3">
+                                                <label class="form-label">Negara</label>
+                                                <input class="form-control" value="{{$item->negara}}" />
+                                            </div>
+
+                                            <div class="mb-3">
+                                                <label class="form-label">Titik Geografis</label>
+                                                <input class="form-control" value="{{$item->posisigeografis}}" />
+                                            </div>
+
+                                            <div class="mb-3">
+                                                <label class="form-label">Tipe Dinas</label>
+                                                <input class="form-control" value="{{$item->tipedinas}}" />
+                                            </div>
+                                        </div>
+                                        <!-- End Right Column -->
+
+                                    </div> <!-- end row -->
                                 </div>
-
-                                <div class="mb-3">
-                                    <label class="form-label">Alamat Organisasi Perangkat Daerah (OPD) </label>
-                                    <input class="form-control" value="{{$item->alamatopd}}" />
-                                </div>
-
-                                <div class="mb-3">
-                                    <label class="form-label">RT/RW </label>
-                                    <input class="form-control" value="{{$item->rtrw}}" />
-                                </div>
-
-                                <div class="mb-3">
-                                    <label class="form-label">Kode Pos</label>
-                                    <input class="form-control" value="{{$item->kodepos}}" />
-                                </div>
-
-                                <div class="mb-3">
-                                    <label class="form-label">Kelurahan</label>
-                                    <input class="form-control" value="{{$item->kelurahan}}" />
-                                </div>
-
-                            <div class="mb-3">
-                                <label class="form-label">Kecamatan</label>
-                                <input class="form-control" value="{{$item->kecamatan}}" />
-                            </div>
-                </div>
-            </div>
-
-            <div class="col-md-6">
-                                <!--begin::Quick Example-->
-                <div class="card card-primary card-outline mb-6">
-
-                            <div class="mb-3">
-                                <label class="form-label">Kota</label>
-                                <input class="form-control" value="{{$item->kota}}" />
-                            </div>
-
-                            <div class="mb-3">
-                                <label class="form-label">Provinsi</label>
-                                <input class="form-control" value="{{$item->provinsi}}" />
-                            </div>
-
-
-                            <div class="mb-3">
-                                <label class="form-label">Negara</label>
-                                <input class="form-control" value="{{$item->negara}}" />
-                            </div>
-
-                            <div class="mb-3">
-                                <label class="form-label">Titik Geografis</label>
-                                <input class="form-control" value="{{$item->posisigeografis}}" />
-                            </div>
-
-                            <div class="mb-3">
-                                <label class="form-label">Tipe Dinas</label>
-                                <input class="form-control" value="{{$item->tipedinas}}" />
-                            </div>
-
-                        </form>
-                        <!--end::Form-->
-                        @endforeach
+                            </form>
+                            @endforeach
+                            <!--end::Form-->
                         </div>
                         <!--end::Quick Example-->
 
+                    </div>
+                    <!-- /.card -->
+                    <!-- Button Section -->
+                    <br><br>
+                    <div style="display: flex; justify-content: flex-end; margin-bottom: 20px;">
+                        <a href="/beprofiljakon">
+                            <button
+                            onmouseover="this.style.backgroundColor='white'; this.style.color='black';"
+                            onmouseout="this.style.backgroundColor='navy'; this.style.color='white';"
+                            style="background-color: navy; color: white; border: none; margin-right: 10px; padding: 10px 20px; border-radius: 5px; font-size: 16px; cursor: pointer; display: flex; align-items: center; transition: background-color 0.3s, color 0.3s;">
+                            <!-- Ikon Kembali -->
+                            <i class="fa fa-arrow-left" style="margin-right: 8px;"></i>
+                            Kembali
+                            </button>
+                        </a>
+                    </div>
 
-                </div>
-                <!-- /.card -->
-            </div>
-
-            <br><br>
-            <div style="display: flex; justify-content: flex-end; margin-bottom: 20px;">
-                <a href="/beprofiljakon">
-                    <button
-                    onmouseover="this.style.backgroundColor='white'; this.style.color='black';"
-                    onmouseout="this.style.backgroundColor='navy'; this.style.color='white';"
-                    style="
-                        background-color: navy;
-                        color: white;
-                        border: none;
-                        margin-right: 10px;
-                        padding: 10px 20px;
-                        border-radius: 5px;
-                        font-size: 16px;
-                        cursor: pointer;
-                        display: flex;
-                        align-items: center;
-                        transition: background-color 0.3s, color 0.3s;">
-                    <!-- Ikon Kembali -->
-                    <i class="fa fa-arrow-left" style="margin-right: 8px;"></i>
-                    Kembali
-                </button>
-            </a>
-            </div>
+                    </div>
+                    <!--end::Row-->
+                    </div>
 
         </div>
         <!--end::Row-->
