@@ -53,32 +53,32 @@
 
                     <div class="col-md-12">
                         <!--begin::Quick Example-->
-                        <div class="card card-primary card-outline mb-10">
-                          <!--begin::Header-->
-                          {{-- <div class="card-header"><div class="card-title">Quick Example</div></div> --}}
-                          <!--end::Header-->
-                          <!--begin::Form-->
+                        <div class="card card-primary card-outline mb-6">
+                            <!--begin::Header-->
+                            {{-- <div class="card-header"><div class="card-title">Quick Example</div></div> --}}
+                            <!--end::Header-->
+                            <!--begin::Form-->
 
-                          @foreach ($data as $item)
+                            @foreach ($data as $item)
 
-                          <form>
-                              <!--begin::Body-->
-                              <div class="card-body">
+                            <form>
+                                <!--begin::Body-->
+                                <div class="card-body">
                                   <div class="mb-3">
-                                <label class="form-label">Nama Organisasi Perangkat Daerah (OPD)</label>
-                                <input  class="form-control" value="{{$item->namaopd}}"/>
-                                <div class="form-text">
+                                      <label class="form-label">Nama Organisasi Perangkat Daerah (OPD)</label>
+                                      <input  class="form-control" value="{{$item->namaopd}}"/>
+                                      <div class="form-text">
+                                    </div>
                                 </div>
-                            </div>
 
-                            <div class="mb-3">
-                                <label class="form-label">Alamat Organisasi Perangkat Daerah (OPD) </label>
-                                <input class="form-control" value="{{$item->alamatopd}}" />
-                            </div>
+                                <div class="mb-3">
+                                    <label class="form-label">Alamat Organisasi Perangkat Daerah (OPD) </label>
+                                    <input class="form-control" value="{{$item->alamatopd}}" />
+                                </div>
 
-                            <div class="mb-3">
-                                <label class="form-label">RT/RW </label>
-                                <input class="form-control" value="{{$item->rtrw}}" />
+                                <div class="mb-3">
+                                    <label class="form-label">RT/RW </label>
+                                    <input class="form-control" value="{{$item->rtrw}}" />
                             </div>
 
                             <div class="mb-3">
@@ -100,6 +100,9 @@
                                 <label class="form-label">Kota</label>
                                 <input class="form-control" value="{{$item->kota}}" />
                             </div>
+                    </div>
+
+                    <div class="card card-primary card-outline mb-6">
 
                             <div class="mb-3">
                                 <label class="form-label">Provinsi</label>
