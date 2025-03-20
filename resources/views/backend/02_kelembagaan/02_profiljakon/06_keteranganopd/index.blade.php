@@ -69,7 +69,7 @@
                                             <div class="mb-3">
                                                 <label class="form-label">Informasi OPD</label>
                                                 <div style="max-width: 100%; padding: 10px;">
-                                                    <textarea class="form-control" readonly style="font-size: 16px; width: 100%; height: 150px;">{{$item->informasiopd}}</textarea>
+                                                    <textarea class="form-control" readonly style="font-size: 16px; width: 100%; height: 150px; text-align:justify;">{{$item->informasiopd}}</textarea>
                                                 </div>
                                                 <div class="form-text"></div>
                                             </div>
