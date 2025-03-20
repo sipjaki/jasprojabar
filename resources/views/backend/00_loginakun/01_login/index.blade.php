@@ -1,20 +1,20 @@
 <style>
     /* Default height for small devices (mobile phones) */
     .vh-custom {
-        height: 100vh; /* Full screen height */
+        height: 125vh; /* Full screen height */
     }
 
     /* Adjust height for tablets and up (medium screens) */
     @media (min-width: 576px) {
         .vh-custom {
-            height: 80vh;
+            height: 85vh;
         }
     }
 
     /* Adjust height for laptops and large screens */
     @media (min-width: 992px) {
         .vh-custom {
-            height: 75vh;
+            height: 85vh;
         }
     }
 
