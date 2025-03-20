@@ -72,7 +72,7 @@
                     <span style="font-weight: bold; font-style: italic; color: #064420;">BLORA</span>
                 </h1>
                 <p class="header-description" style="font-family: 'Montserrat', sans-serif; font-size: 1rem; color: black; font-weight: bold;">
-                    Dinas Pekerjaan Umum Dan Penataan Ruang <br> Kabupaten Blora
+                    Dinas Pekerjaan Umum Dan Penataan Ruang Kabupaten Blora
                 </p>
             </div>
 
