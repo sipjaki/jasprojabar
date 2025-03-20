@@ -56,6 +56,7 @@
                                         <th style="width: 400px; text-align:center;">Judul</th>
                                         <th style="width: 500px; text-align:center;">Berkas</th>
                                         <th style="width: 300px; text-align: center;">Keterangan</th>
+                                        <th style="width: 100px; text-align: center;">Aksi</th>
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -64,8 +65,11 @@
                                         <td style="text-align: center;">{{ $loop->iteration }}</td>
                                         <td style="text-align: left;">{!! $item->judul !!}</td>
                                         <td style="text-align: center;">
-                                            <img src="{{ asset('storage/'. $item->peraturan) }}" alt="Image" width="300">
+                                            <object data="{{ asset('storage/' . $item->peraturan) }}" type="application/pdf" width="300" height="200">
+                                                <p>PDF cannot be displayed.</p>
+                                            </object>
                                         </td>
+
                                         <td style="text-align: center;">
                                             <!-- Show Icon -->
                                             {{-- <a href="/404" class="btn btn-sm btn-info me-2" title="Show">
