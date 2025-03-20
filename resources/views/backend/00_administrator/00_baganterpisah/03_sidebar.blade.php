@@ -1,3 +1,19 @@
+<style>
+    /* Efek hover saat menu utama di-hover */
+.nav-item > .nav-link:hover {
+    background-color: #ffd100 !important; /* Warna hover */
+    color: black !important; /* Warna teks saat hover */
+    transition: background-color 0.3s ease-in-out; /* Efek smooth */
+}
+
+/* Efek ketika menu utama aktif (dipilih/diklik) */
+.nav-item > .nav-link.active {
+    background-color: #ffd100 !important;
+    color: black !important;
+}
+
+</style>
+
 
       <!--begin::Sidebar-->
       <aside class="app-sidebar bg-body-secondary shadow" data-bs-theme="dark">
