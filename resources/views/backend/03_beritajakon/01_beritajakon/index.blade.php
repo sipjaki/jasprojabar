@@ -68,7 +68,7 @@
                                         <td style="text-align: left;">{{$item->user->name}}</td>
                                         <td style="text-align: left;">{!! $item->judulberita !!}</td>
                                         <td style="text-align: left;">{{ \Carbon\Carbon::parse($item->tanggal)->translatedFormat('l, d F Y') }}</td>
-                                        <td style="text-align: left; width: 80%;">{!! $item->isisberita !!}</td>
+                                        <td style="text-align: left; width: 80%;">{!! $item->keterangan !!}</td>
                                         <td style="text-align: center;">
                                             <img src="{{ asset('storage/'. $item->foto) }}" alt="Image" width="300">
                                         </td>
