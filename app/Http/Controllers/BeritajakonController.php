@@ -181,4 +181,22 @@ class BeritajakonController extends Controller
     }
 
 
+
+        public function beberitajakon()
+        {
+            $data = beritajakon::all(); // Menggunakan paginate() untuk pagination
+            $user = Auth::user();
+
+            return view('backend.03_beritajakon.01_beritajakon.index', [
+                'title' => 'Berita Jasa Konstruksi',
+                'data' => $data, // Mengirimkan data paginasi ke view
+                'user' => $user, // Mengirimkan data paginasi ke view
+
+            ]);
+        }
+
+
 }
+
+
+
