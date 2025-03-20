@@ -55,8 +55,8 @@
 
 <body>
   <!-- Start your project here-->
-  <section style="margin-top: 200px;">
-    <div class="container-fluid h-custom">
+  <section>
+    <div class="container-fluid h-custom" style="margin-top:150px;">
         <div class="row d-flex justify-content-center align-items-center">
             <!-- Large screen layout: Image + Text on the left, Form on the right -->
             <div class="col-12 col-md-6 d-flex justify-content-center align-items-center flex-column text-center text-md-left" style="gap: 15px;">
@@ -131,7 +131,7 @@
     </div>
 
     <!-- Footer -->
-    <div class="d-flex flex-column text-center justify-content-center py-4 px-4 px-xl-5" style="background: rgb(3, 69, 3); display: flex; align-items: center;">
+    <div class="d-flex flex-column text-center justify-content-center py-4 px-4 px-xl-5" style="background: rgb(3, 69, 3); display: flex; align-items: center; margin-top:150px;">
         <div class="d-flex justify-content-center align-items-center" style="gap: 15px; margin-bottom: 5px;">
             <img src="/assets/icon/logokabupatenblora.png" class="img-fluid" alt="Logo Kabupaten Blora" width="20" loading="lazy">
             <img src="/assets/icon/pupr.png" class="img-fluid" alt="Logo PUPR" width="20" loading="lazy">
