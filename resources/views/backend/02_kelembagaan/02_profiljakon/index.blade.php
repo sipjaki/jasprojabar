@@ -49,8 +49,8 @@
                     <a href="/">
                         <div class="info-box"
                              style="transition: background-color 0.3s, color 0.3s; background-color: #28a745; color: white;"
-                             onmouseover="this.style.backgroundColor='#28a745'; this.style.color='black'; this.querySelector('.info-box-text').style.color='black'; this.querySelector('.progress-description').style.color='black'; this.querySelector('.info-box-icon img').style.filter='brightness(0) invert(1)';"
-                             onmouseout="this.style.backgroundColor='#28a745'; this.style.color='white'; this.querySelector('.info-box-text').style.color='white'; this.querySelector('.progress-description').style.color='white'; this.querySelector('.info-box-icon img').style.filter='';">
+                             onmouseover="this.style.backgroundColor='#ffffff'; this.style.color='black'; this.querySelector('.info-box-text').style.color='black'; this.querySelector('.progress-description').style.color='black';"
+                             onmouseout="this.style.backgroundColor='#28a745'; this.style.color='white'; this.querySelector('.info-box-text').style.color='white'; this.querySelector('.progress-description').style.color='white';">
                             <span class="info-box-icon">
                                 <img src="/assets/icon/pupr.png" alt="" width="40">
                             </span>
