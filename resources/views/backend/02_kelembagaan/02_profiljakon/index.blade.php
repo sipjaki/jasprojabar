@@ -174,7 +174,7 @@
                                 <img src="/assets/icon/pupr.png" alt="" width="40">
                             </span>
                             <div class="info-box-content">
-                                <span class="info-box-text">Informasi OPD</span>
+                                <span class="info-box-text">Keterangan OPD</span>
                                 <div class="progress">
                                     <div class="progress-bar" style="width: 70%"></div>
                                 </div>
@@ -196,7 +196,7 @@
                                 <img src="/assets/icon/pupr.png" alt="" width="40">
                             </span>
                             <div class="info-box-content">
-                                <span class="info-box-text">Informasi Kepala Dinas</span>
+                                <span class="info-box-text">Operator SIPJAKI</span>
                                 <div class="progress">
                                     <div class="progress-bar" style="width: 70%"></div>
                                 </div>
@@ -218,7 +218,7 @@
                                 <img src="/assets/icon/pupr.png" alt="" width="40">
                             </span>
                             <div class="info-box-content">
-                                <span class="info-box-text">Informasi Kepala Bidang</span>
+                                <span class="info-box-text">Personil Jabatan Fungsional</span>
                                 <div class="progress">
                                     <div class="progress-bar" style="width: 70%"></div>
                                 </div>
