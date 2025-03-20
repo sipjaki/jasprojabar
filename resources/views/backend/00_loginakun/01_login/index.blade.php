@@ -1,6 +1,5 @@
 <style>
     /* Default height for small devices (mobile phones) */
-    /* Pastikan elemen utama selalu setinggi layar penuh */
     .vh-custom {
         height: 100vh; /* Selalu penuh 1 layar tanpa scroll */
         display: flex; /* Mengatur konten agar berada di tengah */
@@ -19,14 +18,6 @@
         .vh-custom {
             height: 100vh;
         }
-    }
-
-    /* Mencegah overflow jika ada padding atau margin berlebih */
-    body, html {
-        margin: 0;
-        padding: 0;
-        overflow: hidden; /* Mencegah scroll */
-        height: 100vh; /* Pastikan seluruh halaman sesuai layar */
     }
     /* Responsive typography and spacing */
     @media (max-width: 576px) {
