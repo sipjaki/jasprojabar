@@ -23,3 +23,15 @@
         </div>
     </div>
 </div>
+
+
+<script>
+    function setDeleteUrl(judul) {
+        // Menetapkan URL delete ke dalam form action
+        var deleteUrl = "/header/delete/" + judul;
+        document.getElementById('deleteForm').setAttribute('action', deleteUrl);
+
+        // Menampilkan nama item di modal
+        document.getElementById('itemName').innerText = "Judul: " + judul;
+    }
+</script>
