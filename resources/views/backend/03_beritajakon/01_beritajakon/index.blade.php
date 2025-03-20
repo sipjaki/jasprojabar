@@ -53,11 +53,11 @@
                                 <thead>
                                     <tr>
                                         <th style="width: 10px; text-align:center;">No</th>
-                                        <th style="width: 400px; text-align:center;">Penulis</th>
-                                        <th style="width: 500px; text-align:center;">Judul Berita</th>
-                                        <th style="width: 150px; text-align: center;">Tanggal</th>
-                                        <th style="width: 150px; text-align: center;">isi Berita</th>
-                                        <th style="width: 150px; text-align: center;">Foto</th>
+                                        <th style="width: 200px; text-align:center;">Penulis</th>
+                                        <th style="width: 250px; text-align:center;">Judul Berita</th>
+                                        <th style="width: 100px; text-align: center;">Tanggal</th>
+                                        <th style="width: 500px; text-align: center;">isi Berita</th>
+                                        <th style="width: 300px; text-align: center;">Foto</th>
                                         <th style="width: 150px; text-align: center;">Aksi</th>
                                     </tr>
                                 </thead>
