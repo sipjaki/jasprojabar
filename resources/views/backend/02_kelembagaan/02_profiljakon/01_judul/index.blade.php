@@ -39,7 +39,7 @@
         {{-- ======================================================= --}}
         <div class="container">
             <a href="/beprofiljakon">
-                <div style="display: inline-block;">
+                <div style="display: inline-block; margin-bottom: 20px;">
                     <button
                         onmouseover="this.style.backgroundColor='white'; this.style.color='black';"
                         onmouseout="this.style.backgroundColor='navy'; this.style.color='white';"
@@ -63,7 +63,6 @@
 
             <!-- Menyertakan FontAwesome untuk ikon -->
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-
         </div>
 
         <div class="container-fluid">
