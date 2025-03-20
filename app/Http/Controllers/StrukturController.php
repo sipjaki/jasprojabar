@@ -588,6 +588,20 @@ public function beinformasi()
     ]);
 }
 
+public function besipjaki()
+{
+    $data = profiljakonsipjaki::all(); // Menggunakan paginate() untuk pagination
+
+    $user = Auth::user();
+
+    return view('backend.02_kelembagaan.02_profiljakon.07_personilsipjaki.index', [
+        'title' => 'Profil Jakon Personil Operator Sipjaki',
+        'data' => $data, // Mengirimkan data paginasi ke view
+        'user' => $user, // Mengirimkan data paginasi ke view
+
+    ]);
+}
+
 
 // MENU BACKEND PROFIL JAKON MAS JAKI
 

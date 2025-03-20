@@ -412,31 +412,35 @@ Route::get('/bestrukturdinas', [StrukturController::class, 'strukturkedinasan'])
 // Route::delete('/header/delete/{judul}', [AdminDashboardController::class, 'headerdelete'])->middleware('auth');
 
 // ___________________________________________________________________________________________________________________________________
-Route::get('/beprofiljakon', [StrukturController::class, 'beprofiljakon']);
+Route::get('/beprofiljakon', [StrukturController::class, 'beprofiljakon'])->middleware('auth');
 // ___________________________________________________________________________________________________________________________________
 // ___________________________________________________________________________________________________________________________________
-Route::get('/beinformasiopd', [StrukturController::class, 'beinformasiopd']);
-Route::get('/beinformasiopd/update/{judul}', [StrukturController::class, 'beinformasiopdupdate']);
+Route::get('/beinformasiopd', [StrukturController::class, 'beinformasiopd'])->middleware('auth');
+Route::get('/beinformasiopd/update/{judul}', [StrukturController::class, 'beinformasiopdupdate'])->middleware('auth');
 // ___________________________________________________________________________________________________________________________________
 // ___________________________________________________________________________________________________________________________________
-Route::get('/beinfoopd', [StrukturController::class, 'beinfoopd']);
-Route::get('/beinfoopd/update/{judul}', [StrukturController::class, 'beinfoopdupdate']);
+Route::get('/beinfoopd', [StrukturController::class, 'beinfoopd'])->middleware('auth');
+Route::get('/beinfoopd/update/{judul}', [StrukturController::class, 'beinfoopdupdate'])->middleware('auth');
 // ___________________________________________________________________________________________________________________________________
 // ___________________________________________________________________________________________________________________________________
-Route::get('/bekepaladinas', [StrukturController::class, 'bekepaladinas']);
-Route::get('/bekepaladinas/update/{namalengkap}', [StrukturController::class, 'bekepaladinasupdate']);
+Route::get('/bekepaladinas', [StrukturController::class, 'bekepaladinas'])->middleware('auth');
+Route::get('/bekepaladinas/update/{namalengkap}', [StrukturController::class, 'bekepaladinasupdate'])->middleware('auth');
 // ___________________________________________________________________________________________________________________________________
 // ___________________________________________________________________________________________________________________________________
-Route::get('/bekabid', [StrukturController::class, 'bekabidbaru']);
-Route::get('/bekabid/update/{namalengkap}', [StrukturController::class, 'bekabidshow']);
+Route::get('/bekabid', [StrukturController::class, 'bekabidbaru'])->middleware('auth');
+Route::get('/bekabid/update/{namalengkap}', [StrukturController::class, 'bekabidshow'])->middleware('auth');
 // ___________________________________________________________________________________________________________________________________
 // ___________________________________________________________________________________________________________________________________
-Route::get('/besubbid', [StrukturController::class, 'besubbid']);
-Route::get('/besubbid/update/{namalengkap}', [StrukturController::class, 'besubbidupdate']);
+Route::get('/besubbid', [StrukturController::class, 'besubbid'])->middleware('auth');
+Route::get('/besubbid/update/{namalengkap}', [StrukturController::class, 'besubbidupdate'])->middleware('auth');
 // ___________________________________________________________________________________________________________________________________
 // ___________________________________________________________________________________________________________________________________
-Route::get('/beinformasi', [StrukturController::class, 'beinformasi']);
-Route::get('/beinformasi/update/{id}', [StrukturController::class, 'beinformasiupdate']);
+Route::get('/beinformasi', [StrukturController::class, 'beinformasi'])->middleware('auth');
+Route::get('/beinformasi/update/{id}', [StrukturController::class, 'beinformasiupdate'])->middleware('auth');
+// ___________________________________________________________________________________________________________________________________
+// ___________________________________________________________________________________________________________________________________
+Route::get('/besipjaki', [StrukturController::class, 'besipjaki'])->middleware('auth');
+Route::get('/besipjaki/update/{id}', [StrukturController::class, 'besipjakiupdate'])->middleware('auth');
 // ___________________________________________________________________________________________________________________________________
 
 
