@@ -138,6 +138,21 @@
                                     @endforeach
                                 </tbody>
                             </table>
+
+                            <div style="display: flex; justify-content: flex-end; margin-bottom: 20px;">
+
+                                <a href="/bejabatan">
+                                    <button
+                                    onmouseover="this.style.backgroundColor='white'; this.style.color='black';"
+                                    onmouseout="this.style.backgroundColor='navy'; this.style.color='white';"
+                                    style="background-color: navy; color: white; border: none; margin-right: 10px; padding: 10px 20px; border-radius: 15px; font-size: 16px; cursor: pointer; display: flex; align-items: center; transition: background-color 0.3s, color 0.3s; text-decoration: none;">
+                                    <!-- Ikon Kembali -->
+                                    <i class="fa fa-arrow-left" style="margin-right: 8px;"></i>
+                                    Kembali
+                                </button>
+                            </a>
+                        </div>
+
                         </div>
                     </div>
                     <!-- /.card-body -->
