@@ -13,8 +13,8 @@ return new class extends Migration
     {
         Schema::create('tupoksis', function (Blueprint $table) {
             $table->id();
-            $table->string('judul');
-            $table->string('peraturan');
+            $table->string('judul')->nullable();
+            $table->string('peraturan')->nullable();
             $table->softDeletes();
             $table->timestamps();
         });

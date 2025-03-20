@@ -14,6 +14,7 @@ return new class extends Migration
         Schema::create('strukturdinas', function (Blueprint $table) {
             $table->id();
             $table->text('judul')->nullable();
+            $table->string('peraturan')->nullable();
             $table->text('keterangan')->nullable();
             $table->softDeletes();
             $table->timestamps();
