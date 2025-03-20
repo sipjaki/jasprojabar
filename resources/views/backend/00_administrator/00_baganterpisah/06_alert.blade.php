@@ -11,9 +11,9 @@
 
 
 .alert {
-  min-height: 67px;
+  min-height: 60px;
   width: 100%;
-  max-width: 90%;
+  max-width: 100%;
   border-radius: 12px;
   padding: 16px 22px 17px 20px;
   display: flex;
@@ -72,7 +72,7 @@
 }
 </style>
 
-<div class="container alertku" style="margin-right:10px; margin-left:10px;">
+<div class="container alertku d-flex justify-content-center align-items-center" style="margin-right:10px; margin-left:10px;">
 
     {{-- <div class="alert alert-primary">
         <div class="icon__wrapper">
@@ -111,7 +111,7 @@
     </div> --}}
 
     @if (session('delete'))
-    <div class="alert alert-danger alert-dismissible fade show" role="alert">
+    <div class="alert alert-error alert-dismissible fade show" role="alert">
         <div class="icon__wrapper">
             <!-- Ikon menggunakan Font Awesome -->
             <span class="fas fa-bomb"></span>  <!-- Ikon dengan efek keren -->
