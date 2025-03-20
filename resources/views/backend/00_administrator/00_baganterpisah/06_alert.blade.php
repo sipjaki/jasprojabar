@@ -9,17 +9,6 @@
   --dark: #151a30;
 }
 
-body {
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  gap: 20px;
-  background-color: var(--background);
-}
-
-
 .alert {
   min-height: 67px;
   width: 560px;
