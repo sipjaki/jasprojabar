@@ -56,135 +56,93 @@
 <body>
   <!-- Start your project here-->
 
-
-<section class="vh-100">
+  <section class="vh-100">
     <div class="container-fluid h-custom">
         <div class="row d-flex justify-content-center align-items-center h-100">
-          <!-- Adjusted column sizes for responsiveness -->
-          <div class="col-12 col-md-9 col-lg-6 col-xl-5 d-flex flex-column justify-content-center align-items-center" style="gap: 15px;">
+            <!-- Large screen layout: Image + Text on the left, Form on the right -->
+            <div class="col-12 col-md-6 d-flex justify-content-center align-items-center flex-column text-center text-md-left" style="gap: 15px;">
 
-            <!-- Images that will resize according to screen size -->
-            <img src="/assets/icon/logokabupatenblora.png" class="img-fluid mb-3" alt="Logo Kabupaten Blora" width="125" loading="lazy">
-            <img src="/assets/icon/pupr.png" class="img-fluid mb-3" alt="Logo PUPR" width="125" loading="lazy">
-
-            <!-- Header text and description -->
-            <div class="header-text text-center">
-              <h1 class="header-title" style="font-family: 'Montserrat', sans-serif; font-size: 2.5rem; font-weight: bold;">
-                <span class="header-title-white" style="font-weight: bold; font-style: italic; color: black;">MASJAKI</span>
-                <span class="header-title-green" style="font-weight: bold; font-style: italic; color: #064420;">BLORA</span>
-              </h1>
-              <p class="header-description" style="font-family: 'Montserrat', sans-serif; font-size: 1rem; color: black; font-weight: bold;">
-                Dinas Pekerjaan Umum Dan Penataan Ruang Kabupaten Blora
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-md-8 col-lg-6 col-xl-4 offset-xl-1">
-        <form action="/login" method="post">
-            @csrf
-
-            <!-- Email input -->
-            <div class="mb-4">
-                <input
-                    type="text"
-                    style="width: 300px; text-align:left; padding: 10px 15px;"
-                    name="email"
-                    class="form-control rounded-full @error('email') is-invalid @enderror"
-                    id="email"
-                    placeholder="Email"
-                    value="{{ old('email') }}"
-                />
-                <label class="form-label" for="email">Email address</label>
-
-                @error('email')
-                    <div class="invalid-feedback">
-                        {{ $message }}
-                    </div>
-                @enderror
-            </div>
-
-            <!-- Password input -->
-            <div class="mb-3">
-                <input
-                    type="password"
-                    name="password"
-                    class="form-control rounded-full @error('password') is-invalid @enderror"
-                    id="password"
-                    placeholder="Password"
-                    style="width: 300px; text-align:left; padding: 10px 15px;"
-                />
-                <label class="form-label" for="password">Password</label>
-
-                @error('password')
-                    <div class="invalid-feedback">
-                        {{ $message }}
-                    </div>
-                @enderror
-            </div>
-
-            <!-- General login error message (if authentication failed) -->
-            @if($errors->has('pesanlogin'))
-                <div class="alert alert-danger mb-2">
-                    {{ $errors->first('pesanlogin') }}  <!-- Display the custom error message -->
+                <!-- Images will resize based on screen size -->
+                <div class="d-flex justify-content-center align-items-center mb-3">
+                    <img src="/assets/icon/logokabupatenblora.png" class="img-fluid" alt="Logo Kabupaten Blora" width="125" loading="lazy">
+                    <img src="/assets/icon/pupr.png" class="img-fluid" alt="Logo PUPR" width="125" loading="lazy">
                 </div>
-            @endif
 
-            <!-- Remember me and Forgot password -->
-            <div class="d-flex justify-content-between align-items-center">
-                <div class="form-check mb-0">
-                    <input class="form-check-input me-2" type="checkbox" value="" id="form2Example3" />
-                    <label class="form-check-label" for="form2Example3">
-                        Remember me
-                    </label>
+                <!-- Header text and description -->
+                <div class="header-text">
+                    <h1 class="header-title" style="font-family: 'Montserrat', sans-serif; font-size: 2.5rem; font-weight: bold;">
+                        <span class="header-title-white" style="font-weight: bold; font-style: italic; color: black;">MASJAKI</span>
+                        <span class="header-title-green" style="font-weight: bold; font-style: italic; color: #064420;">BLORA</span>
+                    </h1>
+                    <p class="header-description" style="font-family: 'Montserrat', sans-serif; font-size: 1rem; color: black; font-weight: bold;">
+                        Dinas Pekerjaan Umum Dan Penataan Ruang Kabupaten Blora
+                    </p>
                 </div>
             </div>
 
-            <!-- Submit Button -->
-            <div class="text-center text-lg-start mt-4 pt-2">
-                <button
-                    type="submit"
-                    class="btn btn-dark btn-lg"
-                    style="background-color: #064420; color: white; padding-left: 2.5rem; padding-right: 2.5rem; border: none;"
-                    onmouseover="this.style.backgroundColor='white'; this.style.color='black';"
-                    onmouseout="this.style.backgroundColor='#064420'; this.style.color='white';"
-                >
-                    Login
-                </button>
+            <!-- Form login section (right side for large screens) -->
+            <div class="col-12 col-md-6">
+                <form action="/login" method="post">
+                    @csrf
 
-                <p class="small fw-bold mt-2 pt-1 mb-0">
-                    Don't have an account?
-                    <a href="/404" class="link-danger">Register</a>
-                </p>
+                    <!-- Email input -->
+                    <div class="mb-4">
+                        <input type="text" name="email" class="form-control rounded-full @error('email') is-invalid @enderror" id="email" placeholder="Email" value="{{ old('email') }}" style="padding: 10px 15px;" />
+                        <label class="form-label" for="email">Email address</label>
+                        @error('email')
+                            <div class="invalid-feedback">{{ $message }}</div>
+                        @enderror
+                    </div>
+
+                    <!-- Password input -->
+                    <div class="mb-3">
+                        <input type="password" name="password" class="form-control rounded-full @error('password') is-invalid @enderror" id="password" placeholder="Password" style="padding: 10px 15px;" />
+                        <label class="form-label" for="password">Password</label>
+                        @error('password')
+                            <div class="invalid-feedback">{{ $message }}</div>
+                        @enderror
+                    </div>
+
+                    <!-- General login error message -->
+                    @if($errors->has('pesanlogin'))
+                        <div class="alert alert-danger mb-2">{{ $errors->first('pesanlogin') }}</div>
+                    @endif
+
+                    <!-- Remember me and Forgot password -->
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div class="form-check mb-0">
+                            <input class="form-check-input me-2" type="checkbox" value="" id="form2Example3" />
+                            <label class="form-check-label" for="form2Example3">Remember me</label>
+                        </div>
+                    </div>
+
+                    <!-- Submit Button -->
+                    <div class="text-center text-lg-start mt-4 pt-2">
+                        <button type="submit" class="btn btn-dark btn-lg" style="background-color: #064420; color: white; padding-left: 2.5rem; padding-right: 2.5rem; border: none;" onmouseover="this.style.backgroundColor='white'; this.style.color='black';" onmouseout="this.style.backgroundColor='#064420'; this.style.color='white';">
+                            Login
+                        </button>
+
+                        <p class="small fw-bold mt-2 pt-1 mb-0">
+                            Don't have an account? <a href="/404" class="link-danger">Register</a>
+                        </p>
+                    </div>
+                </form>
             </div>
-        </form>
-
-
-    </div>
-
         </div>
-      </div>
     </div>
 
-    <div class="d-flex flex-column text-center justify-content-center py-4 px-4 px-xl-5"
-    style="background: rgb(3, 69, 3); display: flex; align-items: center;">
+    <!-- Footer -->
+    <div class="d-flex flex-column text-center justify-content-center py-4 px-4 px-xl-5" style="background: rgb(3, 69, 3); display: flex; align-items: center;">
+        <div class="d-flex justify-content-center align-items-center" style="gap: 15px; margin-bottom: 10px;">
+            <img src="/assets/icon/logokabupatenblora.png" class="img-fluid" alt="Logo Kabupaten Blora" width="20" loading="lazy">
+            <img src="/assets/icon/pupr.png" class="img-fluid" alt="Logo PUPR" width="20" loading="lazy">
+        </div>
 
-   <!-- Logo -->
-   <div class="d-flex justify-content-center align-items-center" style="gap: 15px; margin-bottom: 10px;">
-       <img src="/assets/icon/logokabupatenblora.png" class="img-fluid" alt="Logo Kabupaten Blora" width="20" loading="lazy">
-       <img src="/assets/icon/pupr.png" class="img-fluid" alt="Logo PUPR" width="20" loading="lazy">
-   </div>
-
-   <!-- Copyright -->
-   <div class="text-white" style="font-size: 14px; font-weight: 400;">
-       © Dinas Pekerjaan Umum Dan Penataan Ruang Kabupaten Blora Provinsi Jawa Tengah
-   </div>
-
-</div>
-
+        <div class="text-white" style="font-size: 14px; font-weight: 400;">
+            © Dinas Pekerjaan Umum Dan Penataan Ruang Kabupaten Blora Provinsi Jawa Tengah
+        </div>
+    </div>
 </section>
-  <!-- End your project here-->
 
   <!-- MDB -->
   <script type="text/javascript" src="/assets/login/js/mdb.min.js"></script>
