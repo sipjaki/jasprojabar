@@ -560,6 +560,20 @@ public function bekabidbaru()
     ]);
 }
 
+public function besubbid()
+{
+    $data = profiljakonsubkoordinator::all(); // Menggunakan paginate() untuk pagination
+
+    $user = Auth::user();
+
+    return view('backend.02_kelembagaan.02_profiljakon.05_subkoordinator.index', [
+        'title' => 'Profil Jakon Informasi Sub Koordinator Bidang Bangunan Gedung',
+        'data' => $data, // Mengirimkan data paginasi ke view
+        'user' => $user, // Mengirimkan data paginasi ke view
+
+    ]);
+}
+
 
 // MENU BACKEND PROFIL JAKON MAS JAKI
 
