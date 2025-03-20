@@ -70,7 +70,7 @@
                                             </object>
                                         </td>
 
-                                        <td style="text-align: left;">{!! $item->keterangan !!}</td>
+                                        <td style="text-align: justify;">{!! $item->keterangan !!}</td>
                                         <td style="text-align: center;">
                                             <!-- Show Icon -->
                                             {{-- <a href="/404" class="btn btn-sm btn-info me-2" title="Show">
