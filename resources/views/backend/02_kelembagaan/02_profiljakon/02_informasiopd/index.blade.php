@@ -51,49 +51,80 @@
                     </div>
 
 
-                    <div class="col-md-6">
+                    <div class="col-md-12">
                         <!--begin::Quick Example-->
-                        <div class="card card-primary card-outline mb-4">
+                        <div class="card card-primary card-outline mb-12">
                           <!--begin::Header-->
-                          <div class="card-header"><div class="card-title">Quick Example</div></div>
+                          {{-- <div class="card-header"><div class="card-title">Quick Example</div></div> --}}
                           <!--end::Header-->
                           <!--begin::Form-->
+
+                          @foreach ($data as $item)
+
                           <form>
-                            <!--begin::Body-->
-                            <div class="card-body">
-                              <div class="mb-3">
-                                <label for="exampleInputEmail1" class="form-label">Email address</label>
-                                <input
-                                  type="email"
-                                  class="form-control"
-                                  id="exampleInputEmail1"
-                                  aria-describedby="emailHelp"
-                                />
-                                <div id="emailHelp" class="form-text">
-                                  We'll never share your email with anyone else.
+                              <!--begin::Body-->
+                              <div class="card-body">
+                                  <div class="mb-3">
+                                <label class="form-label">Nama Organisasi Perangkat Daerah (OPD)</label>
+                                <input value="{{$item->namaopd}}"/>
+                                <div class="form-text">
                                 </div>
-                              </div>
-                              <div class="mb-3">
-                                <label for="exampleInputPassword1" class="form-label">Password</label>
-                                <input type="password" class="form-control" id="exampleInputPassword1" />
-                              </div>
-                              <div class="input-group mb-3">
-                                <input type="file" class="form-control" id="inputGroupFile02" />
-                                <label class="input-group-text" for="inputGroupFile02">Upload</label>
-                              </div>
-                              <div class="mb-3 form-check">
-                                <input type="checkbox" class="form-check-input" id="exampleCheck1" />
-                                <label class="form-check-label" for="exampleCheck1">Check me out</label>
-                              </div>
                             </div>
-                            <!--end::Body-->
-                            <!--begin::Footer-->
-                            <div class="card-footer">
-                              <button type="submit" class="btn btn-primary">Submit</button>
+
+                            <div class="mb-3">
+                                <label class="form-label">Alamat Organisasi Perangkat Daerah (OPD) </label>
+                                <input class="form-control" value="{{$item->alamatopd}}" />
                             </div>
-                            <!--end::Footer-->
-                          </form>
-                          <!--end::Form-->
+
+                            <div class="mb-3">
+                                <label class="form-label">RT/RW </label>
+                                <input class="form-control" value="{{$item->rtrw}}" />
+                            </div>
+
+                            <div class="mb-3">
+                                <label class="form-label">Kode Pos</label>
+                                <input class="form-control" value="{{$item->kodepos}}" />
+                            </div>
+
+                            <div class="mb-3">
+                                <label class="form-label">Kelurahan</label>
+                                <input class="form-control" value="{{$item->kelurahan}}" />
+                            </div>
+
+                            <div class="mb-3">
+                                <label class="form-label">Kecamatan</label>
+                                <input class="form-control" value="{{$item->kecamatan}}" />
+                            </div>
+
+                            <div class="mb-3">
+                                <label class="form-label">Kota</label>
+                                <input class="form-control" value="{{$item->kota}}" />
+                            </div>
+
+                            <div class="mb-3">
+                                <label class="form-label">Provinsi</label>
+                                <input class="form-control" value="{{$item->provinsi}}" />
+                            </div>
+
+
+                            <div class="mb-3">
+                                <label class="form-label">Negara</label>
+                                <input class="form-control" value="{{$item->negara}}" />
+                            </div>
+
+                            <div class="mb-3">
+                                <label class="form-label">Titik Geografis</label>
+                                <input class="form-control" value="{{$item->posisigeografis}}" />
+                            </div>
+
+                            <div class="mb-3">
+                                <label class="form-label">Tipe Dinas</label>
+                                <input class="form-control" value="{{$item->tipedinas}}" />
+                            </div>
+
+                        </form>
+                        <!--end::Form-->
+                        @endforeach
                         </div>
                         <!--end::Quick Example-->
 
