@@ -1,3 +1,23 @@
+<style>
+       table {
+        table-layout: fixed;
+        width: 100%;
+    }
+
+    td {
+        padding: 10px;
+        vertical-align: top;
+        word-wrap: break-word;
+    }
+
+    .isi-berita {
+        max-width: 600px;
+        word-wrap: break-word;
+        white-space: normal;
+        overflow-wrap: break-word;
+    }
+</style>
+
 @include('backend.00_administrator.00_baganterpisah.01_header')
 
 <!--begin::Body-->
@@ -49,49 +69,50 @@
                     <!-- /.card-header -->
                     <div class="card-body p-0">
                         <div class="table-responsive" style="overflow-x: auto; white-space: nowrap;">
-                            <table class="table table-striped">
-                                <thead>
-                                    <tr>
-                                        <th style="width: 10px; text-align:center;">No</th>
-                                        <th style="width: 200px; text-align:center;">Penulis</th>
-                                        <th style="width: 250px; text-align:center;">Judul Berita</th>
-                                        <th style="width: 100px; text-align: center;">Tanggal</th>
-                                        <th style="width: 600px; text-align: center;">Isi Berita</th>
-                                        <th style="width: 300px; text-align: center;">Foto</th>
-                                        <th style="width: 150px; text-align: center;">Aksi</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    @foreach ($data as $item )
-                                    <tr class="align-middle">
-                                        <td style="text-align: center;">{{ $loop->iteration }}</td>
-                                        <td style="text-align: left;">{{$item->user->name}}</td>
-                                        <td style="text-align: left;">{!! $item->judulberita !!}</td>
-                                        <td style="text-align: left;">{{ \Carbon\Carbon::parse($item->tanggal)->translatedFormat('l, d F Y') }}</td>
-                                        <td style="width: 80%;">
-                                            <div style="word-wrap: break-word; white-space: normal; max-width: 600px;">
-                                                {!! $item->keterangan !!}
-                                            </div>
-                                        </td>
-                                        <td style="text-align: center;">
-                                            <img src="{{ asset('storage/'. $item->foto) }}" alt="Image" width="300" style="border-radius: 5px;">
-                                        </td>
-                                        <td style="text-align: center;">
-                                            <a href="/404" class="btn btn-sm btn-info me-2" title="Show">
-                                                <i class="bi bi-eye"></i>
-                                            </a>
-                                            <a href="/404" class="btn btn-sm btn-warning me-2" title="Update">
-                                                <i class="bi bi-pencil-square"></i>
-                                            </a>
-                                            <a href="javascript:void(0)" class="btn btn-sm btn-danger" title="Delete" data-bs-toggle="modal" data-bs-target="#deleteModal"
-                                            data-judul="{{ $item->judulberita }}" onclick="setDeleteUrl(this)">
-                                            <i class="bi bi-trash"></i>
-                                            </a>
-                                        </td>
-                                    </tr>
-                                    @endforeach
-                                </tbody>
-                            </table>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th style="width: 10px; text-align:center;">No</th>
+            <th style="width: 200px; text-align:center;">Penulis</th>
+            <th style="width: 250px; text-align:center;">Judul Berita</th>
+            <th style="width: 100px; text-align:center;">Tanggal</th>
+            <th style="width: 600px; text-align:center;">Isi Berita</th>
+            <th style="width: 300px; text-align:center;">Foto</th>
+            <th style="width: 150px; text-align:center;">Aksi</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach ($data as $item )
+        <tr class="align-middle">
+            <td style="text-align: center;">{{ $loop->iteration }}</td>
+            <td style="text-align: left;">{{$item->user->name}}</td>
+            <td style="text-align: left;">{!! $item->judulberita !!}</td>
+            <td style="text-align: left;">{{ \Carbon\Carbon::parse($item->tanggal)->translatedFormat('l, d F Y') }}</td>
+            <td>
+                <div class="isi-berita">
+                    {!! $item->keterangan !!}
+                </div>
+            </td>
+            <td style="text-align: center;">
+                <img src="{{ asset('storage/'. $item->foto) }}" alt="Image" width="300" style="border-radius: 5px;">
+            </td>
+            <td style="text-align: center;">
+                <a href="/404" class="btn btn-sm btn-info me-2" title="Show">
+                    <i class="bi bi-eye"></i>
+                </a>
+                <a href="/404" class="btn btn-sm btn-warning me-2" title="Update">
+                    <i class="bi bi-pencil-square"></i>
+                </a>
+                <a href="javascript:void(0)" class="btn btn-sm btn-danger" title="Delete" data-bs-toggle="modal" data-bs-target="#deleteModal"
+                   data-judul="{{ $item->judulberita }}" onclick="setDeleteUrl(this)">
+                   <i class="bi bi-trash"></i>
+                </a>
+            </td>
+        </tr>
+        @endforeach
+    </tbody>
+</table>
                         </div>
                     </div>
 
