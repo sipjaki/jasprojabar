@@ -68,6 +68,7 @@ Route::get('/profil/struktur', [StrukturController::class, 'strukturdpuprkabblor
 
 // ---------------------- MENU 2-----------------------------------------------------
 Route::get('/profil/rencanastrategis', [StrukturController::class, 'rencanastrategisdpuprkabblora']);
+Route::get('/beprofiljakon', [StrukturController::class, 'beprofiljakon']);
 // ___________________________________________________________________________________________________________________________________
 
 // ---------------------- MENU 2-----------------------------------------------------

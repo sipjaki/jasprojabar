@@ -133,7 +133,7 @@
                         </a>
                       </li>
                       <li class="nav-item">
-                        <a href="/404" class="nav-link">
+                        <a href="/beprofiljakon" class="nav-link">
                           <!-- Ikon untuk Informasi Kantor -->
                           <i class="nav-icon bi bi-building text-warning"></i>
                           <p style="color: white">Profil Jakon</p>
