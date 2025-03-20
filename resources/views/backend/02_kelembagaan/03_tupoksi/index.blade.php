@@ -44,7 +44,7 @@
                 <!-- /.card -->
                 <div class="card mb-4">
                     <div class="card-header">
-                        <h2 style="color: black;" class="card-title font-bold">Halaman Pengaturan : {{$title}} </h2>
+                        <h2 style="color: black; font-weight:900" class="card-title">Halaman Pengaturan : {{$title}} </h2>
 
                     </div>
                     <!-- /.card-header -->
