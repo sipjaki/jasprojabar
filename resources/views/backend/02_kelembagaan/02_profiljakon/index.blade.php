@@ -1,27 +1,24 @@
 <style>
-    /* Menambahkan hover effect */
-.info-box:hover {
+/* Menambahkan efek hover pada info-box */
+.info-box.bg-success:hover {
     background-color: white;  /* Mengubah latar belakang menjadi putih */
     color: black;  /* Mengubah warna teks menjadi hitam */
 }
 
 /* Menambahkan hover effect pada ikon di dalam info-box */
-.info-box:hover .info-box-icon {
+.info-box.bg-success:hover .info-box-icon {
     color: black;  /* Mengubah warna ikon menjadi hitam saat hover */
 }
 
-/* Menambahkan hover effect pada progress bar agar tetap terlihat dengan baik */
-.info-box:hover .progress-bar {
-    background-color: #28a745;  /* Mengubah warna progress bar saat hover (sesuaikan warna jika perlu) */
+/* Menambahkan hover effect pada progress bar */
+.info-box.bg-success:hover .progress-bar {
+    background-color: #28a745;  /* Menjaga warna progress bar tetap hijau */
 }
 
-/* Untuk memastikan teks di dalam info-box-content tetap hitam */
-.info-box:hover .info-box-content .info-box-text {
-    color: black;  /* Teks 'Informasi OPD' menjadi hitam saat hover */
-}
-
-.info-box:hover .info-box-content .progress-description {
-    color: black;  /* Teks 'Pengaturan' menjadi hitam saat hover */
+/* Mengubah teks di dalam info-box-content menjadi hitam saat hover */
+.info-box.bg-success:hover .info-box-content .info-box-text,
+.info-box.bg-success:hover .info-box-content .progress-description {
+    color: black;  /* Mengubah teks 'Informasi OPD' dan 'Pengaturan' menjadi hitam */
 }
 
 </style>
