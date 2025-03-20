@@ -68,33 +68,33 @@
                                         <div class="col-md-6">
                                             <div class="mb-3">
                                                 <label class="form-label">Nama Organisasi Perangkat Daerah (OPD)</label>
-                                                <input class="form-control" value="{{$item->namaopd}}"/>
+                                                <input class="form-control" value="{{$item->namaopd}}" readonly/>
                                                 <div class="form-text"></div>
                                             </div>
 
                                             <div class="mb-3">
                                                 <label class="form-label">Alamat Organisasi Perangkat Daerah (OPD) </label>
-                                                <input class="form-control" value="{{$item->alamatopd}}" />
+                                                <input class="form-control" value="{{$item->alamatopd}} " readonly />
                                             </div>
 
                                             <div class="mb-3">
                                                 <label class="form-label">RT/RW </label>
-                                                <input class="form-control" value="{{$item->rtrw}}" />
+                                                <input class="form-control" value="{{$item->rtrw}}" readonly/>
                                             </div>
 
                                             <div class="mb-3">
                                                 <label class="form-label">Kode Pos</label>
-                                                <input class="form-control" value="{{$item->kodepos}}" />
+                                                <input class="form-control" value="{{$item->kodepos}}" readonly/>
                                             </div>
 
                                             <div class="mb-3">
                                                 <label class="form-label">Kelurahan</label>
-                                                <input class="form-control" value="{{$item->kelurahan}}" />
+                                                <input class="form-control" value="{{$item->kelurahan}}" readonly/>
                                             </div>
 
                                             <div class="mb-3">
                                                 <label class="form-label">Kecamatan</label>
-                                                <input class="form-control" value="{{$item->kecamatan}}" />
+                                                <input class="form-control" value="{{$item->kecamatan}}" readonly/>
                                             </div>
                                         </div>
                                         <!-- End Left Column -->
@@ -103,27 +103,27 @@
                                         <div class="col-md-6">
                                             <div class="mb-3">
                                                 <label class="form-label">Kota</label>
-                                                <input class="form-control" value="{{$item->kota}}" />
+                                                <input class="form-control" value="{{$item->kota}}" readonly/>
                                             </div>
 
                                             <div class="mb-3">
                                                 <label class="form-label">Provinsi</label>
-                                                <input class="form-control" value="{{$item->provinsi}}" />
+                                                <input class="form-control" value="{{$item->provinsi}}" readonly/>
                                             </div>
 
                                             <div class="mb-3">
                                                 <label class="form-label">Negara</label>
-                                                <input class="form-control" value="{{$item->negara}}" />
+                                                <input class="form-control" value="{{$item->negara}}" readonly/>
                                             </div>
 
                                             <div class="mb-3">
                                                 <label class="form-label">Titik Geografis</label>
-                                                <input class="form-control" value="{{$item->posisigeografis}}" />
+                                                <input class="form-control" value="{{$item->posisigeografis}}" readonly/>
                                             </div>
 
                                             <div class="mb-3">
                                                 <label class="form-label">Tipe Dinas</label>
-                                                <input class="form-control" value="{{$item->tipedinas}}" />
+                                                <input class="form-control" value="{{$item->tipedinas}}" readonly/>
                                             </div>
                                         </div>
                                         <!-- End Right Column -->
