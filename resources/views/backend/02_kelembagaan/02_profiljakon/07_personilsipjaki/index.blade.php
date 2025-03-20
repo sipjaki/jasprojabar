@@ -67,7 +67,7 @@
                                         <!-- Left Column (6/12) -->
                                         <div class="col-md-12">
                                             <div class="mb-3">
-                                                <label class="form-label">Informasi OPD</label>
+                                                <label class="form-label">Nomor</label>
                                                 <div style="max-width: 100%; padding: 10px;">
                                                     <input class="form-control" readonly value="{{$item->nomor}}" />
                                                 </div>
