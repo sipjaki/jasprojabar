@@ -55,9 +55,9 @@
                                     <tr>
                                         <th style="width: 10px; text-align:center;">No</th>
                                         <th style="width: 300px; text-align:center;">Judul</th>
-                                        <th style="width: 500px; text-align:center;">Berkas</th>
+                                        {{-- <th style="width: 500px; text-align:center;">Berkas</th> --}}
                                         <th style="width: 600px; text-align: center;">Keterangan</th>
-                                        <th style="width: 100px; text-align: center;">Aksi</th>
+                                        <th style="width: 100px; text-align: center;">Perbarui Data</th>
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -65,11 +65,11 @@
                                     <tr class="align-middle">
                                         <td style="text-align: center;">{{ $loop->iteration }}</td>
                                         <td style="text-align: left;">{!! $item->judul !!}</td>
-                                        <td style="text-align: center;">
+                                        {{-- <td style="text-align: center;">
                                             <object data="{{ asset('storage/' . $item->peraturan) }}" type="application/pdf" width="300" height="200">
                                                 <p>PDF cannot be displayed.</p>
                                             </object>
-                                        </td>
+                                        </td> --}}
                                         <td style="text-align: justify;">{!! $item->keterangan !!}</td>
                                         <td style="text-align: center;">
                                             <!-- Show Icon -->
