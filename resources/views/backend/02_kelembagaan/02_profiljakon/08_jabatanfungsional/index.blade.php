@@ -141,7 +141,7 @@
 
                             <div style="display: flex; justify-content: flex-end; margin-bottom: 20px;">
 
-                                <a href="/bejabatan">
+                                <a href="/beprofiljakon">
                                     <button
                                     onmouseover="this.style.backgroundColor='white'; this.style.color='black';"
                                     onmouseout="this.style.backgroundColor='navy'; this.style.color='white';"
