@@ -1,4 +1,24 @@
 <style>
+
+       /* Default height for small devices (mobile phones) */
+       .vh-custom {
+        height: 100vh; /* Full screen height */
+    }
+
+    /* For tablets and up (medium screens) */
+    @media (min-width: 576px) {
+        .vh-custom {
+            height: 80vh; /* Adjust for medium screens */
+        }
+    }
+
+    /* For laptops and large screens */
+    @media (min-width: 992px) {
+        .vh-custom {
+            height: 75vh; /* Adjust for larger screens like laptops */
+        }
+    }
+
   @media (max-width: 576px) {
     .header-title {
       font-size: 1.8rem; /* Smaller font size for smaller screens */
@@ -53,8 +73,7 @@
 
 <body>
   <!-- Start your project here-->
-
-  <section class="vh-75">
+  <section class="vh-custom">
     <div class="container-fluid h-custom">
         <div class="row d-flex justify-content-center align-items-center h-75">
             <!-- Large screen layout: Image + Text on the left, Form on the right -->
