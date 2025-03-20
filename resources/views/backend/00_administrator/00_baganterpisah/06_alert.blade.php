@@ -111,10 +111,10 @@
     </div> --}}
 
     @if (session('delete'))
-    <div class="alert alert-error alert-dismissible fade show" role="alert">
+    <div class="alert alert-danger alert-dismissible fade show" role="alert">
         <div class="icon__wrapper">
-            <!-- Ikon menggunakan Material Design Icons -->
-            <span class="mdi mdi-alert-outline"></span>
+            <!-- Ikon menggunakan Font Awesome -->
+            <span class="fas fa-bomb"></span>  <!-- Ikon dengan efek keren -->
         </div>
         <p>{{ session('delete') }}</p>
         <!-- Tombol untuk menutup alert -->
