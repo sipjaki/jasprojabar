@@ -31,18 +31,13 @@
         </div>
 
         <!-- Menampilkan pesan sukses -->
-@if (session('delete'))
-<div class="alert alert-danger" role="alert">
-    {{ session('delete') }}
-</div>
-@endif
 
-<!-- Menampilkan pesan error -->
-@if (session('error'))
-<div class="alert alert-danger" role="alert">
-    {{ session('error') }}
-</div>
-@endif
+        {{-- ======================================================= --}}
+        {{-- ALERT --}}
+
+        @include('backend.00_administrator.00_baganterpisah.06_alert')
+
+        {{-- ======================================================= --}}
 
         <div class="container-fluid">
             <!--begin::Row-->
@@ -89,7 +84,7 @@
                                                 </a>
 
 
-@include('backend.00_administrator.00_baganterpisah.05_modalcarddelete')
+                                        @include('backend.00_administrator.00_baganterpisah.05_modalcarddelete')
 
                                             <style>
                                                 /* Hover effect */
