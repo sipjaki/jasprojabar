@@ -417,6 +417,8 @@ Route::get('/beprofiljakon', [StrukturController::class, 'beprofiljakon']);
 Route::get('/beinformasiopd', [StrukturController::class, 'beinformasiopd']);
 Route::get('/beinformasiopd/update/{judul}', [StrukturController::class, 'beinformasiopdupdate']);
 // ___________________________________________________________________________________________________________________________________
+Route::get('/beinfoopd', [StrukturController::class, 'beinfoopd']);
+Route::get('/beinfoopd/update/{judul}', [StrukturController::class, 'beinfoopdupdate']);
 
 // ___________________________________________________________________________________________________________________________________
 

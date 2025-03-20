@@ -518,6 +518,20 @@ public function beinformasiopd()
     ]);
 }
 
+public function beinfoopd()
+{
+    $data = profiljakonidentitasopd::all(); // Menggunakan paginate() untuk pagination
+
+    $user = Auth::user();
+
+    return view('backend.02_kelembagaan.02_profiljakon.02_informasiopd.index', [
+        'title' => 'Profil Jakon Informasi Keterangan OPD',
+        'data' => $data, // Mengirimkan data paginasi ke view
+        'user' => $user, // Mengirimkan data paginasi ke view
+
+    ]);
+}
+
 
 // MENU BACKEND PROFIL JAKON MAS JAKI
 
