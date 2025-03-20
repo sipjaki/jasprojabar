@@ -106,14 +106,6 @@
                         <div class="alert alert-danger mb-2">{{ $errors->first('pesanlogin') }}</div>
                     @endif
 
-                    <!-- Remember me and Forgot password -->
-                    <div class="d-flex justify-content-between align-items-center">
-                        <div class="form-check mb-0">
-                            <input class="form-check-input me-2" type="checkbox" value="" id="form2Example3" />
-                            <label class="form-check-label" for="form2Example3">Remember me</label>
-                        </div>
-                    </div>
-
                     <!-- Submit Button -->
                     <div class="text-center text-lg-start mt-4 pt-2">
                         <button type="submit" class="btn btn-dark btn-lg" style="background-color: #064420; color: white; padding-left: 2.5rem; padding-right: 2.5rem; border: none;" onmouseover="this.style.backgroundColor='white'; this.style.color='black';" onmouseout="this.style.backgroundColor='#064420'; this.style.color='white';">
@@ -121,7 +113,7 @@
                         </button>
 
                         <p class="small fw-bold mt-2 pt-1 mb-0">
-                            Don't have an account? <a href="/404" class="link-danger">Register</a>
+                            Belum Punya Akun? <a href="/404" class="link-danger">Daftar</a>
                         </p>
                     </div>
                 </form>
