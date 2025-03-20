@@ -52,7 +52,7 @@
                             <table class="table table-striped">
                                 <thead>
                                     <tr>
-                                        <th style="width: 10px; text-align:center;">No</th>
+                                        <th style="width: 100px; text-align:center;">No</th>
                                         <th style="width: 400px; text-align:center;">Judul</th>
                                         <th style="width: 500px; text-align:center;">Gambar/Foto</th>
                                         <th style="width: 150px; text-align: center;">Aksi</th>
