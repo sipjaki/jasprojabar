@@ -456,9 +456,9 @@ Route::get('/betupoksi/update/{id}', [StrukturController::class, 'betupoksiupdat
 // ======================================= BERITA JAKON BACKEND -------------------------------------------------------------
 // ---------------------- MENU 1 DAFTAR BERITA MAS JAKI JAKON   -----------------------------------------------------
 // ___________________________________________________________________________________________________________________________________
-Route::get('/beberitajakon', [StrukturController::class, 'beberitajakon'])->middleware('auth');
-Route::get('/beberitajakon/update/{judulberita}', [StrukturController::class, 'beberitajakonupdate'])->middleware('auth');
-Route::delete('/beberitajakon/delete/{id}', [StrukturController::class, 'beberitajakondelete'])->middleware('auth');
+Route::get('/beberitajakon', [BeritajakonController::class, 'beberitajakon'])->middleware('auth');
+Route::get('/beberitajakon/update/{judulberita}', [BeritajakonController::class, 'beberitajakonupdate'])->middleware('auth');
+Route::delete('/beberitajakon/delete/{id}', [BeritajakonController::class, 'beberitajakondelete'])->middleware('auth');
 // ___________________________________________________________________________________________________________________________________
 
 
