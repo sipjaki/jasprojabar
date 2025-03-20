@@ -38,10 +38,10 @@
 
         {{-- ======================================================= --}}
 
-        <div class="container-fluid">
+        <div class="container-fluid" style="margin: 50px 50px;">
             <!--begin::Row-->
   <!-- =========================================================== -->
-  <h5 class="mt-4 mb-2">Info Box With <code>bg-*</code></h5>
+  {{-- <h5 class="mt-4 mb-2">Info Box With <code>bg-*</code></h5> --}}
   <!--begin::Row-->
             <div class="row">
                 <div class="col-md-3 col-sm-6 col-12">
