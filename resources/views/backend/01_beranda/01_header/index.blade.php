@@ -78,8 +78,7 @@
                                             </a>
                                             <!-- Delete Icon -->
                                             <!-- Tombol Delete -->
-                                            <a href="javascript:void(0)" class="btn btn-sm btn-danger" title="Delete" data-bs-toggle="modal" data-bs-target="#deleteModal"
-                                                onclick="setDeleteUrl('{{ $item->judul }}')">
+                                            <a href="javascript:void(0)" class="btn btn-sm btn-danger" title="Delete" data-bs-toggle="modal" data-bs-target="#deleteModal">
                                                     <i class="bi bi-trash"></i>
                                                 </a>
 
