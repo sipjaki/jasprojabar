@@ -72,7 +72,7 @@
 </style>
 
 <div class="container" style="margin-right:10px; margin-left:10px;">
-
+{{--
     <div class="alert alert-primary">
         <div class="icon__wrapper">
             <span class="mdi mdi-alert-outline"></span>
@@ -107,7 +107,7 @@
         <p>You’ve assigned Owner of <a href="#">Button Component.</a></p>
         <span class="mdi mdi-open-in-new open"></span>
         <span class="mdi mdi-close close"></span>
-    </div>
+    </div> --}}
 
     @if (session('delete'))
     <div class="alert alert-danger alert-dismissible fade show" role="alert">
