@@ -37,6 +37,32 @@
         @include('backend.00_administrator.00_baganterpisah.06_alert')
 
         {{-- ======================================================= --}}
+        <div class="container">
+            <a href="/profil/rencanastrategis">
+                <div style="display: inline-block;">
+                    <button
+                        style="
+                            background-color: navy;
+                            color: white;
+                            border: none;
+                            padding: 10px 20px;
+                            border-radius: 5px;
+                            font-size: 16px;
+                            cursor: pointer;
+                            display: flex;
+                            align-items: center;
+                            transition: background-color 0.3s, color 0.3s;">
+                        <!-- Ikon Kembali -->
+                        <i class="fa fa-arrow-left" style="margin-right: 8px;"></i>
+                        Kembali
+                    </button>
+                </div>
+            </a>
+
+            <!-- Menyertakan FontAwesome untuk ikon -->
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+        </div>
 
         <div class="container-fluid">
             <!--begin::Row-->
