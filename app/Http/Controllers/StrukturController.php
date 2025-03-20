@@ -644,7 +644,7 @@ public function betupoksi()
 
     $user = Auth::user();
 
-    return view('backend.02_kelembagaan.02_profiljakon.08_jabatanfungsional.index', [
+    return view('backend.02_kelembagaan.03_tupoksi.index', [
         'title' => 'Tupoksi Program dan Jasa Konstruksi ',
         'data' => $data, // Mengirimkan data paginasi ke view
         'user' => $user, // Mengirimkan data paginasi ke view
