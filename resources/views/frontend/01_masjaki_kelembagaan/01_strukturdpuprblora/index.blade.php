@@ -22,7 +22,7 @@
             <iframe src="{{ asset('storage/' . $item->peraturan) }}" width="100%" height="750" style="border: none; margin-bottom:25px;"></iframe>
 			<div class="portfolio-details-content">
                 <div class="portfolio-details-content-title">
-                    <h3>{{!! $item->judul !!}}</h3>
+                    <h3>{!! $item->judul !!}</h3>
 				</div><!-- portfolio-details-content-title -->
 				<div class="portfolio-details-content-text">
                     <p style="text-align: justify" >
