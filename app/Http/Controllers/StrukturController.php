@@ -602,6 +602,20 @@ public function besipjaki()
     ]);
 }
 
+public function bejabatan()
+{
+    $data = profiljakonpersonil::all(); // Menggunakan paginate() untuk pagination
+
+    $user = Auth::user();
+
+    return view('backend.02_kelembagaan.02_profiljakon.08_jabatanfungsional.index', [
+        'title' => 'Profil Jakon Jabatan Fungsioanal Jasa Konstruksi',
+        'data' => $data, // Mengirimkan data paginasi ke view
+        'user' => $user, // Mengirimkan data paginasi ke view
+
+    ]);
+}
+
 
 // MENU BACKEND PROFIL JAKON MAS JAKI
 

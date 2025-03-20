@@ -442,6 +442,10 @@ Route::get('/beinformasi/update/{id}', [StrukturController::class, 'beinformasiu
 Route::get('/besipjaki', [StrukturController::class, 'besipjaki'])->middleware('auth');
 Route::get('/besipjaki/update/{id}', [StrukturController::class, 'besipjakiupdate'])->middleware('auth');
 // ___________________________________________________________________________________________________________________________________
+// ___________________________________________________________________________________________________________________________________
+Route::get('/bejabatan', [StrukturController::class, 'bejabatan'])->middleware('auth');
+Route::get('/bejabatan/update/{id}', [StrukturController::class, 'bejabatanupdate'])->middleware('auth');
+// ___________________________________________________________________________________________________________________________________
 
 
 
