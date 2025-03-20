@@ -1,17 +1,19 @@
-      <!--begin::Footer-->
-      <footer class="app-footer" style="justify-content: center; align-items:center;">
-        <!--begin::To the end-->
-        <div class="float-end d-none d-sm-inline"></div>
-        <!--end::To the end-->
-        <!--begin::Copyright-->
-        <strong>
-            <img src="/assets/icon/logokabupatenblora.png" alt="" width="20">
-            <img src="/assets/icon/pupr.png" alt="" width="20">
-          &copy; Dinas Pekerjaan Umum Dan Penataan Ruang Kabupaten Blora Provinsi Jawa Tengah &nbsp; | Built and Deployed By
-          <a href="https://wa.me/6281321455855" target="_blank" class="text-decoration-none" style="color: green">CV. Angkasa Raya Teknik</a>.
-        </strong>
-        <!--end::Copyright-->
-      </footer>
+<!--begin::Footer-->
+<footer class="app-footer d-flex justify-content-center align-items-center" style="height: 100px;">
+    <!--begin::To the end-->
+    <div class="float-end d-none d-sm-inline"></div>
+    <!--end::To the end-->
+    <!--begin::Copyright-->
+    <strong>
+        <img src="/assets/icon/logokabupatenblora.png" alt="" width="20">
+        <img src="/assets/icon/pupr.png" alt="" width="20">
+        &copy; Dinas Pekerjaan Umum Dan Penataan Ruang Kabupaten Blora Provinsi Jawa Tengah &nbsp; | Built and Deployed By
+        <a href="https://wa.me/6281321455855" target="_blank" class="text-decoration-none" style="color: green">CV. Angkasa Raya Teknik</a>.
+    </strong>
+    <!--end::Copyright-->
+</footer>
+<!--end::Footer-->
+
       <!--end::Footer-->
     </div>
     <!--end::App Wrapper-->
