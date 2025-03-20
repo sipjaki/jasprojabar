@@ -131,7 +131,6 @@
                                     </div> <!-- end row -->
                                 </div>
                             </form>
-                            @endforeach
                             <!--end::Form-->
                         </div>
                         <!--end::Quick Example-->
@@ -141,6 +140,16 @@
                     <!-- Button Section -->
                     <br><br>
                     <div style="display: flex; justify-content: flex-end; margin-bottom: 20px;">
+                        <a href="/beinfoopd/update/{{$item->namaopd}}">
+                            <button
+                            onmouseover="this.style.backgroundColor='white'; this.style.color='black';"
+                            onmouseout="this.style.backgroundColor='#ffd100'; this.style.color='white';"
+                            style="background-color: #ffd100; color: white; border: none; margin-right: 10px; padding: 10px 20px; border-radius: 5px; font-size: 16px; cursor: pointer; display: flex; align-items: center; transition: background-color 0.3s, color 0.3s;">
+                            <!-- Ikon Kembali -->
+                            <i class="fa fa-arrow-left" style="margin-right: 8px;"></i>
+                            Update
+                        </button>
+                        </a>
                         <a href="/beprofiljakon">
                             <button
                             onmouseover="this.style.backgroundColor='white'; this.style.color='black';"
@@ -149,10 +158,11 @@
                             <!-- Ikon Kembali -->
                             <i class="fa fa-arrow-left" style="margin-right: 8px;"></i>
                             Kembali
-                            </button>
-                        </a>
-                    </div>
+                        </button>
+                    </a>
+                </div>
 
+                @endforeach
                     </div>
                     <!--end::Row-->
                     </div>
