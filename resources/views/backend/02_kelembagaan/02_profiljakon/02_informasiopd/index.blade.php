@@ -64,45 +64,47 @@
                             <form>
                                 <!--begin::Body-->
                                 <div class="card-body">
-                                  <div class="mb-3">
-                                      <label class="form-label">Nama Organisasi Perangkat Daerah (OPD)</label>
-                                      <input  class="form-control" value="{{$item->namaopd}}"/>
-                                      <div class="form-text">
+                                    <div class="mb-3">
+                                        <label class="form-label">Nama Organisasi Perangkat Daerah (OPD)</label>
+                                        <input  class="form-control" value="{{$item->namaopd}}"/>
+                                        <div class="form-text">
+                                        </div>
                                     </div>
-                                </div>
 
-                                <div class="mb-3">
-                                    <label class="form-label">Alamat Organisasi Perangkat Daerah (OPD) </label>
-                                    <input class="form-control" value="{{$item->alamatopd}}" />
-                                </div>
+                                    <div class="mb-3">
+                                        <label class="form-label">Alamat Organisasi Perangkat Daerah (OPD) </label>
+                                        <input class="form-control" value="{{$item->alamatopd}}" />
+                                    </div>
 
-                                <div class="mb-3">
+                                    <div class="mb-3">
                                     <label class="form-label">RT/RW </label>
                                     <input class="form-control" value="{{$item->rtrw}}" />
-                            </div>
+                                </div>
 
-                            <div class="mb-3">
-                                <label class="form-label">Kode Pos</label>
-                                <input class="form-control" value="{{$item->kodepos}}" />
-                            </div>
+                                <div class="mb-3">
+                                    <label class="form-label">Kode Pos</label>
+                                    <input class="form-control" value="{{$item->kodepos}}" />
+                                </div>
 
-                            <div class="mb-3">
-                                <label class="form-label">Kelurahan</label>
-                                <input class="form-control" value="{{$item->kelurahan}}" />
-                            </div>
+                                <div class="mb-3">
+                                    <label class="form-label">Kelurahan</label>
+                                    <input class="form-control" value="{{$item->kelurahan}}" />
+                                </div>
 
-                            <div class="mb-3">
-                                <label class="form-label">Kecamatan</label>
-                                <input class="form-control" value="{{$item->kecamatan}}" />
-                            </div>
+                                <div class="mb-3">
+                                    <label class="form-label">Kecamatan</label>
+                                    <input class="form-control" value="{{$item->kecamatan}}" />
+                                </div>
 
-                            <div class="mb-3">
-                                <label class="form-label">Kota</label>
-                                <input class="form-control" value="{{$item->kota}}" />
+                                <div class="mb-3">
+                                    <label class="form-label">Kota</label>
+                                    <input class="form-control" value="{{$item->kota}}" />
+                                </div>
                             </div>
-                    </div>
+                        </div>
 
-                    <div class="card card-primary card-outline mb-6">
+                        <div class="col-md-12">
+                        <div class="card card-primary card-outline mb-6">
 
                             <div class="mb-3">
                                 <label class="form-label">Provinsi</label>
@@ -128,8 +130,8 @@
                         </form>
                         <!--end::Form-->
                         @endforeach
-                        </div>
-                        <!--end::Quick Example-->
+                    </div>
+                    <!--end::Quick Example-->
 
 
                 </div>
