@@ -105,17 +105,17 @@
          <td style="text-align: left;">{{ $item->judul }}</td>
          <td style="text-align: left;">{{ \Carbon\Carbon::parse($item->tanggal)->translatedFormat('l, d F Y') }}</td>
 
-         <td style="text-align: center; margin: 0px 2px;">
+         <td style="text-align: center; margin: 0px 1px;">
              <img src="{{ asset('storage/'. $item->foto1) }}" alt="Image" width="300" style="border-radius: 15px;">
          </td>
-         <td style="text-align: center; margin: 0px 2px;">
+         <td style="text-align: center; margin: 0px 1px;">
              <img src="{{ asset('storage/'. $item->foto2) }}" alt="Image" width="300" style="border-radius: 15px;">
          </td>
-         <td style="text-align: center; margin: 0px 2px;">
+         <td style="text-align: center; margin: 0px 1px;">
              <img src="{{ asset('storage/'. $item->foto3) }}" alt="Image" width="300" style="border-radius: 15px;">
          </td>
 
-         <td style="text-align: center; margin: 0px 2px;">
+         <td style="text-align: center; margin: 0px 1px;">
             <object data="{{ asset('storage/' . $item->berkas) }}" type="application/pdf" width="300" height="200">
                 <p>PDF cannot be displayed.</p>
             </object>
