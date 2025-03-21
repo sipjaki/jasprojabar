@@ -163,7 +163,8 @@
                 <i class="bi bi-trash"></i>
              </a>
          </td>
-     </tr>
+
+        </tr>
 
      @endforeach
  </tbody>
@@ -204,7 +205,7 @@
                  function setDeleteUrl(button) {
                      var namalengkap = button.getAttribute('data-judul');
                      document.getElementById('itemName').innerText = namalengkap;
-                     var deleteUrl = "/beberitajakon/delete/" + encodeURIComponent(namalengkap);
+                     var deleteUrl = "/bebujkkonstruksi/delete/" + encodeURIComponent(namalengkap);
                      document.getElementById('deleteForm').action = deleteUrl;
                  }
                  </script>

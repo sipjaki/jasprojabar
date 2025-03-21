@@ -221,10 +221,10 @@ public function bebujkkonstruksi()
 }
 
 
-public function beartikeljakondelete($id)
+public function bebujkkonstruksidelete($namalengkap)
 {
 // Cari item berdasarkan judul
-$entry = bujkkontraktor::where('id', $id)->first();
+$entry = bujkkontraktor::where('namalengkap', $namalengkap)->first();
 
 if ($entry) {
 // Jika ada file header yang terdaftar, hapus dari storage
