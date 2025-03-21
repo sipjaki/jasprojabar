@@ -49,54 +49,109 @@
                     <!-- /.card-header -->
                     <div class="card-body p-0">
                         <div class="table-responsive">
-                            <div style="overflow-x: auto; white-space: nowrap;">
-                                <table class="table table-striped">
-                                    <thead>
-                                        <tr>
-                                            <th style="width: 10px; text-align:center;">No</th>
-                                            <th style="width: 300px; text-align:center;">Nama Pengurus</th>
-                                            <th style="width: 300px; text-align:center;">Sub Klasifikasi Layanan</th>
-                                            <th style="width: 100px; text-align:center;">Kode</th>
-                                            <th style="width: 200px; text-align:center;">Kualifikasi</th>
-                                            <th style="width: 200px; text-align:center;">Penerbit</th>
-                                            <th style="width: 100px; text-align:center;">Tanggal Terbit</th>
-                                            <th style="width: 100px; text-align:center;">Masa Berlaku</th>
-                                            <th style="width: 200px; text-align:center;">Nama PSJK</th>
-                                            <th style="width: 300px; text-align:center;">Sub Klasifikasi Badan Usaha</th>
-                                            <th style="width: 200px; text-align: center;">Aksi</th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        @foreach ($data as $item)
-                                        <tr class="align-middle">
-                                            <td style="text-align: center;">{{ $loop->iteration }}</td>
-                                            <td style="text-align: center;">{{ $data->nama_pengurus }}</td>
-                                            <td style="text-align: center;">{{ $data->sub_klasifikasi_layanan }}</td>
-                                            <td style="text-align: center;">{{ $data->kode }}</td>
-                                            <td style="text-align: center;">{{ $data->kualifikasi }}</td>
-                                            <td style="text-align: center;">{{ $data->penerbit }}</td>
-                                            <td style="text-align: center;">{{ $data->tanggal_terbit }}</td>
-                                            <td style="text-align: center;">{{ $data->masa_berlaku }}</td>
-                                            <td style="text-align: center;">{{ $data->nama_psjk }}</td>
-                                            <td style="text-align: center;">{{ $data->sub_kualifikasi_bu }}</td>
-                                            <td style="text-align: center;">
-                                                <a href="/404" class="btn btn-sm btn-info me-2" title="Show">
-                                                    <i class="bi bi-eye"></i>
-                                                </a>
-                                                <a href="/404" class="btn btn-sm btn-warning me-2" title="Update">
-                                                    <i class="bi bi-pencil-square"></i>
-                                                </a>
-                                                <a href="javascript:void(0)" class="btn btn-sm btn-danger" title="Delete"
-                                                   data-bs-toggle="modal" data-bs-target="#deleteModal"
-                                                   data-judul="{{ $data->nama_pengurus }}" onclick="setDeleteUrl(this)">
-                                                    <i class="bi bi-trash"></i>
-                                                </a>
-                                            </td>
-                                        </tr>
+                            <table class="table table-striped">
+                                <thead>
+                                    <tr>
+                                        <th style="width: 10px; text-align:center;">No</th>
+                                        <th style="width: 300px; text-align:center;">Nama Pengurus</th>
+                                        <th style="width: 300px; text-align:center;">Sub Klasifikasi Layanan</th>
+                                        <th style="width: 100px; text-align:center;">Kode</th>
+                                        <th style="width: 200px; text-align:center;">Kualifikasi</th>
+                                        <th style="width: 200px; text-align:center;">Penerbit</th>
+                                        <th style="width: 100px; text-align:center;">Tanggal Terbit</th>
+                                        <th style="width: 100px; text-align:center;">Masa Berlaku</th>
+                                        <th style="width: 200px; text-align:center;">Nama PSJK</th>
+                                        <th style="width: 300px; text-align:center;">Sub Klasifikasi Badan Usaha</th>
+                                        <th style="width: 200px; text-align: center;">Aksi</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                @foreach ($data as $item )
+                                    <tr class="align-middle">
+                                        <td style="text-align: center;">{{ $loop->iteration }}</td>
+                                        <td style="text-align: center;">{{ $data->nama_pengurus }}</td>
+                                        <td style="text-align: center;">{{ $data->sub_klasifikasi_layanan }}</td>
+                                        <td style="text-align: center;">{{ $data->kode }}</td>
+                                        <td style="text-align: center;">{{ $data->kualifikasi }}</td>
+                                        <td style="text-align: center;">{{ $data->penerbit }}</td>
+                                        <td style="text-align: center;">{{ $data->tanggal_terbit }}</td>
+                                        <td style="text-align: center;">{{ $data->masa_berlaku }}</td>
+                                        <td style="text-align: center;">{{ $data->nama_psjk }}</td>
+                                        <td style="text-align: center;">{{ $data->sub_kualifikasi_bu }}</td>
+                                        <td style="text-align: center;">
+                                            <!-- Show Icon -->
+                                         <a href="/404" class="btn btn-sm btn-info me-2" title="Show">
+                                                <i class="bi bi-eye"></i>
+                                            </a>
+                                            <!-- Update Icon -->
+                                            <a href="/404" class="btn btn-sm btn-warning me-2" title="Update">
+                                                <i class="bi bi-pencil-square"></i>
+                                            </a>
+                                            <!-- Delete Icon -->
+                                            <!-- Tombol Delete -->
+                                            <a href="javascript:void(0)" class="btn btn-sm btn-danger" title="Delete" data-bs-toggle="modal" data-bs-target="#deleteModal"
+                                            data-judul="{{ $data->nama_pengurus }}" onclick="setDeleteUrl(this)">
+                                            <i class="bi bi-trash"></i>
+                                        </a>
+
+                                        <div class="modal fade" id="deleteModal" tabindex="-1" aria-labelledby="deleteModalLabel" aria-hidden="true">
+                                            <div class="modal-dialog">
+                                                <div class="modal-content">
+                                                    <div class="modal-header">
+                                                        <img src="/assets/icon/pupr.png" alt="" width="30" style="margin-right: 10px;">
+                                                        <h5 class="modal-title" id="deleteModalLabel">DPUPR Kabupaten Blora</h5>
+                                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                    </div>
+                                                    <div class="modal-body">
+                                                        <p>Apakah Anda Ingin Menghapus Data : <span id="itemName"></span>?</p>
+                                                    </div>
+                                                    <div class="modal-footer">
+                                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Batal</button>
+                                                        <form id="deleteForm" method="POST" action="">
+                                                            @csrf
+                                                            @method('DELETE') <!-- Menetapkan metode DELETE untuk penghapusan -->
+                                                            <button type="submit" class="btn btn-danger">Hapus</button>
+                                                        </form>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+
+                                        <script>
+                                        function setDeleteUrl(button) {
+                                            // Ambil data judul dari elemen yang diklik
+                                            var namalengkap = button.getAttribute('data-judul');
+
+                                            // Perbarui teks di dalam modal dengan nama item
+                                            document.getElementById('itemName').innerText = namalengkap;
+
+                                            // Atur URL penghapusan
+                                            var deleteUrl = "/bejabatan/delete/" + encodeURIComponent(namalengkap);
+                                            document.getElementById('deleteForm').action = deleteUrl;
+                                        }
+
+
+                                        </script>
+
+                                            <style>
+                                                /* Hover effect */
+                                                .btn-info:hover, .btn-warning:hover, .btn-danger:hover {
+                                                    background-color: #fff !important; /* Keep the background white on hover */
+                                                    color: black !important; /* Change text color to black on hover */
+                                                }
+
+                                                .btn-info:hover i, .btn-warning:hover i, .btn-danger:hover i {
+                                                    color: black !important; /* Ensure the icon color changes to black */
+                                                }
+                                            </style>
+                                        </td>
+
+                                    </tr>
                                         @endforeach
-                                    </tbody>
-                                </table>
-                            </div>
+
+                                </tbody>
+                            </table>
 
                             <div style="display: flex; justify-content: flex-end; margin-bottom: 20px;">
 
