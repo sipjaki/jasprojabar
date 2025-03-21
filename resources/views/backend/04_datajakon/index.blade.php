@@ -47,7 +47,7 @@
             <div class="row">
 
                 <div class="col-md-3 col-sm-6 col-12">
-                    <a href="/beinformasiopd">
+                    <a href="/404">
                         <div class="info-box"
                              style="transition: background-color 0.3s, color 0.3s; background-color: #156f2a; color: white;"
                              onmouseover="this.style.backgroundColor='#ffffff'; this.style.color='black'; this.querySelector('.info-box-text').style.color='black'; this.querySelector('.progress-description').style.color='black';"
@@ -56,7 +56,7 @@
                                 <img src="/assets/icon/pupr.png" alt="" width="40">
                             </span>
                             <div class="info-box-content">
-                                <span class="info-box-text">Informasi Judul OPD</span>
+                                <span class="info-box-text">BUJK Konstruksi</span>
                                 <div class="progress">
                                     <div class="progress-bar" style="width: 70%"></div>
                                 </div>
@@ -69,7 +69,7 @@
                 <!-- /.col -->
 
                 <div class="col-md-3 col-sm-6 col-12">
-                    <a href="/beinfoopd">
+                    <a href="/404">
                         <div class="info-box"
                              style="transition: background-color 0.3s, color 0.3s; background-color: #156f2a; color: white;"
                              onmouseover="this.style.backgroundColor='#ffffff'; this.style.color='black'; this.querySelector('.info-box-text').style.color='black'; this.querySelector('.progress-description').style.color='black';"
@@ -78,7 +78,7 @@
                                 <img src="/assets/icon/pupr.png" alt="" width="40">
                             </span>
                             <div class="info-box-content">
-                                <span class="info-box-text">Informasi OPD</span>
+                                <span class="info-box-text">BUJK Konsultasi Konstruksi</span>
                                 <div class="progress">
                                     <div class="progress-bar" style="width: 70%"></div>
                                 </div>
@@ -91,7 +91,7 @@
                 <!-- /.col -->
 
                 <div class="col-md-3 col-sm-6 col-12">
-                    <a href="/bekepaladinas">
+                    <a href="/404">
                         <div class="info-box"
                              style="transition: background-color 0.3s, color 0.3s; background-color: #156f2a; color: white;"
                              onmouseover="this.style.backgroundColor='#ffffff'; this.style.color='black'; this.querySelector('.info-box-text').style.color='black'; this.querySelector('.progress-description').style.color='black';"
@@ -100,7 +100,29 @@
                                 <img src="/assets/icon/pupr.png" alt="" width="40">
                             </span>
                             <div class="info-box-content">
-                                <span class="info-box-text">Informasi Kepala Dinas</span>
+                                <span class="info-box-text">Asosiasi Jasa Konstruksi</span>
+                                <div class="progress">
+                                    <div class="progress-bar" style="width: 70%"></div>
+                                </div>
+                                <span class="progress-description"> Pengaturan </span>
+                            </div>
+                        </div>
+                    </a>
+
+                </div>
+                <!-- /.col -->
+
+                <div class="col-md-3 col-sm-6 col-12">
+                    <a href="/404">
+                        <div class="info-box"
+                             style="transition: background-color 0.3s, color 0.3s; background-color: #156f2a; color: white;"
+                             onmouseover="this.style.backgroundColor='#ffffff'; this.style.color='black'; this.querySelector('.info-box-text').style.color='black'; this.querySelector('.progress-description').style.color='black';"
+                             onmouseout="this.style.backgroundColor='#156f2a'; this.style.color='white'; this.querySelector('.info-box-text').style.color='white'; this.querySelector('.progress-description').style.color='white';">
+                            <span class="info-box-icon">
+                                <img src="/assets/icon/pupr.png" alt="" width="40">
+                            </span>
+                            <div class="info-box-content">
+                                <span class="info-box-text">Data Statistik BUJK</span>
                                 <div class="progress">
                                     <div class="progress-bar" style="width: 70%"></div>
                                 </div>
