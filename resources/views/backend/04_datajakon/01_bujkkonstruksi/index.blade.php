@@ -94,7 +94,7 @@
                  <!-- /.card-header -->
                  <div class="card-header">
                     <div style="
-                    margin-bottom:5px;
+                    margin-bottom:10px;
                     font-weight: 900;
                     font-size: 16px;
                     text-align: center;
