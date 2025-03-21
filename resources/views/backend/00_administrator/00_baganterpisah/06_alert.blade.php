@@ -121,7 +121,6 @@
     @endif --}}
 
     <!-- Modal Alert -->
-    @if (session('delete'))
     <div class="modal fade" id="alertModal" tabindex="-1" aria-labelledby="alertModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered">
             <div class="modal-content text-center" style="border-radius: 12px;">
@@ -129,7 +128,7 @@
                     <h5 class="modal-title fw-bold" id="alertTitle">Notifikasi</h5>
                 </div>
                 <div class="modal-body">
-                    <p class="fw-semibold text-dark" id="alertMessage">{{ session('delete') }}</p>
+                    <p class="fw-semibold text-dark" id="alertMessage"></p>
                 </div>
                 <div class="modal-footer border-0 d-flex justify-content-center">
                     <button type="button" class="btn btn-primary px-4" data-bs-dismiss="modal">OK</button>
@@ -137,21 +136,28 @@
             </div>
         </div>
     </div>
-    @endif
 
-<script>
-function showAlertModal(title, message) {
-    document.getElementById('alertTitle').innerText = title;
-    document.getElementById('alertMessage').innerText = message;
+    <script>
+    function setDeleteUrl(button) {
+        var namalengkap = button.getAttribute('data-judul');
+        document.getElementById('itemName').innerText = namalengkap;
+        var deleteUrl = "/bebujkkonstruksi/delete/" + encodeURIComponent(namalengkap);
+        document.getElementById('deleteForm').action = deleteUrl;
+    }
 
-    var alertModal = new bootstrap.Modal(document.getElementById('alertModal'));
-    alertModal.show();
-}
+    function showAlertModal(title, message) {
+        document.getElementById('alertTitle').innerText = title;
+        document.getElementById('alertMessage').innerText = message;
 
-// Contoh Pemakaian:
-// showAlertModal("Berhasil!", "Data telah dihapus.");
-// showAlertModal("Gagal!", "Terjadi kesalahan saat menghapus data.");
-</script>
+        var alertModal = new bootstrap.Modal(document.getElementById('alertModal'));
+        alertModal.show();
+    }
 
-
+    // Cek session dari Laravel untuk menampilkan alert modal otomatis
+    document.addEventListener("DOMContentLoaded", function() {
+        @if (session('delete'))
+            showAlertModal("Peringatan!", "{{ session('delete') }}");
+        @endif
+    });
+    </script>
 </div>
