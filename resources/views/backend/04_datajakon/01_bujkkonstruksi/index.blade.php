@@ -105,13 +105,13 @@
      @foreach ($data as $item )
      <tr class="align-middle">
          <td style="text-align: center;">{{ $loop->iteration }}</td>
-         <td style="text-align: left;">{{$item->asosiasimasjaki->namaasosiasi}}</td>
+         <td style="text-align: center;">{{$item->asosiasimasjaki->namaasosiasi}}</td>
          <td style="text-align: left;">{{$item->namalengkap}}</td>
          <td style="text-align: left;">{{$item->alamat}}</td>
-         <td style="text-align: left;">{{$item->no_telepon}}</td>
-         <td style="text-align: left;">{{$item->nib}}</td>
-         <td style="text-align: left;">{{$item->pju}}</td>
-         <td style="text-align: left;">{{$item->no_akte}}</td>
+         <td style="text-align: center;">{{$item->no_telepon}}</td>
+         {{-- <td style="text-align: left;">{{$item->nib}}</td> --}}
+         {{-- <td style="text-align: left;">{{$item->pju}}</td> --}}
+         {{-- <td style="text-align: left;">{{$item->no_akte}}</td> --}}
          <td style="text-align: left;">{{ \Carbon\Carbon::parse($item->tanggal)->translatedFormat('l, d F Y') }}</td>
          <td style="text-align: left;">{{$item->nama_notaris}}</td>
          <td style="text-align: left;">{{$item->no_pengesahan}}</td>
