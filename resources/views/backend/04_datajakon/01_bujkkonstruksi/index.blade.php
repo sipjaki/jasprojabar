@@ -96,7 +96,7 @@
          <th style="width: 150px; text-align:center;">No Akte</th>
          <th style="width: 250px; text-align:center;">Tanggal</th>
          <th style="width: 300px; text-align:center;">Notaris</th>
-         <th style="width: 300px; text-align:center;">Pengesahan</th>
+         <th style="width: 150px; text-align:center;">Pengesahan</th>
          <th style="width: 200px; text-align:center;">Sub Klasifikasi</th>
          <th style="width: 200px; text-align:center;">Aksi</th>
      </tr>
