@@ -205,5 +205,44 @@ public function bebujkjakon()
     ]);
 }
 
+// MENU 1 BUJK KONSTRUKSI
+
+public function bebujkkonstruksi()
+{
+    $data = bujkkontraktor::paginate(15); // Menggunakan paginate() untuk pagination
+    $user = Auth::user();
+
+    return view('backend.04_datajakon.01_bujkkonstruksi.index', [
+        'title' => 'Data BUJK Konstruksi',
+        'data' => $data, // Mengirimkan data paginasi ke view
+        'user' => $user, // Mengirimkan data paginasi ke view
+
+    ]);
+}
+
+
+public function beartikeljakondelete($id)
+{
+// Cari item berdasarkan judul
+$entry = bujkkontraktor::where('id', $id)->first();
+
+if ($entry) {
+// Jika ada file header yang terdaftar, hapus dari storage
+// if (Storage::disk('public')->exists($entry->header)) {
+    //     Storage::disk('public')->delete($entry->header);
+// }
+
+// Hapus entri dari database
+$entry->delete();
+
+// Redirect atau memberi respons sesuai kebutuhan
+return redirect('/bebujkkonstruksi')->with('delete', 'Data Berhasil Di Hapus !');
+
+}
+
+return redirect()->back()->with('error', 'Item not found');
+}
+
+
 
 }

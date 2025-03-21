@@ -473,13 +473,15 @@ Route::delete('/beartikeljakon/delete/{judulberita}', [BeritajakonController::cl
 
 
 // ======================================= DATA JAKON BACKEND -------------------------------------------------------------
-// ---------------------- MENU 1 BUJK KONSTRUKSI   -----------------------------------------------------
+// ---------------------- MENU 01 BUJK KONSTRUKSI   -----------------------------------------------------
 // ___________________________________________________________________________________________________________________________________
 Route::get('/bebujkjakon', [BujkkontraktorController::class, 'bebujkjakon'])->middleware('auth');
-// Route::get('/bebujkjakon', [BeritajakonController::class, 'beberitajakon'])->middleware('auth');
-// Route::get('/beberitajakon/create', [BeritajakonController::class, 'beberitajakoncreate'])->middleware('auth');
-// Route::get('/beberitajakon/update/{judulberita}', [BeritajakonController::class, 'beberitajakonupdate'])->middleware('auth');
-Route::delete('/bebujkjakon/delete/{judulberita}', [BeritajakonController::class, 'beberitajakondelete'])->middleware('auth');
+// ___________________________________________________________________________________________________________________________________
+
+// ---------------------- MENU 1 BUJK KONSTRUKSI   -----------------------------------------------------
+// ___________________________________________________________________________________________________________________________________
+Route::get('/bebujkkonstruksi', [BujkkontraktorController::class, 'bebujkkonstruksi'])->middleware('auth');
+Route::delete('/bebujkkonstruksi/delete/{judulberita}', [BeritajakonController::class, 'bebujkkonstruksidelete'])->middleware('auth');
 // ___________________________________________________________________________________________________________________________________
 
 
