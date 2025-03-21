@@ -70,15 +70,15 @@
                                         @foreach ($data as $item)
                                         <tr class="align-middle">
                                             <td style="text-align: center;">{{ $loop->iteration }}</td>
-                                            {{-- <td style="text-align: center;">{{ $item->nama_pengurus }}</td> --}}
-                                            <td style="text-align: center;">{{ $item->sub_klasifikasi_layanan }}</td>
-                                            <td style="text-align: center;">{{ $item->kode }}</td>
-                                            <td style="text-align: center;">{{ $item->kualifikasi }}</td>
-                                            <td style="text-align: center;">{{ $item->penerbit }}</td>
-                                            <td style="text-align: center;">{{ $item->tanggal_terbit }}</td>
-                                            <td style="text-align: center;">{{ $item->masa_berlaku }}</td>
-                                            <td style="text-align: center;">{{ $item->nama_psjk }}</td>
-                                            <td style="text-align: center;">{{ $item->sub_kualifikasi_bu }}</td>
+                                            <td style="text-align: center;">{{ $data->nama_pengurus }}</td>
+                                            <td style="text-align: center;">{{ $data->sub_klasifikasi_layanan }}</td>
+                                            <td style="text-align: center;">{{ $data->kode }}</td>
+                                            <td style="text-align: center;">{{ $data->kualifikasi }}</td>
+                                            <td style="text-align: center;">{{ $data->penerbit }}</td>
+                                            <td style="text-align: center;">{{ $data->tanggal_terbit }}</td>
+                                            <td style="text-align: center;">{{ $data->masa_berlaku }}</td>
+                                            <td style="text-align: center;">{{ $data->nama_psjk }}</td>
+                                            <td style="text-align: center;">{{ $data->sub_kualifikasi_bu }}</td>
                                             <td style="text-align: center;">
                                                 <a href="/404" class="btn btn-sm btn-info me-2" title="Show">
                                                     <i class="bi bi-eye"></i>
@@ -88,7 +88,7 @@
                                                 </a>
                                                 <a href="javascript:void(0)" class="btn btn-sm btn-danger" title="Delete"
                                                    data-bs-toggle="modal" data-bs-target="#deleteModal"
-                                                   data-judul="{{ $item->nama_pengurus }}" onclick="setDeleteUrl(this)">
+                                                   data-judul="{{ $data->nama_pengurus }}" onclick="setDeleteUrl(this)">
                                                     <i class="bi bi-trash"></i>
                                                 </a>
                                             </td>
