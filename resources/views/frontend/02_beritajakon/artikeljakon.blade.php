@@ -29,7 +29,7 @@
         z-index: 10;"
         >
 			<div class="row">
-				<div class="col-lg-8">
+				<div class="col-lg-12">
 
                     @foreach ($data->skip(0)->take(1) as $item)
                     <div class="news-details-box-image">
