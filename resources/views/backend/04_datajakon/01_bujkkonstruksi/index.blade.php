@@ -116,31 +116,19 @@
          <td style="text-align: center;">{{ \Carbon\Carbon::parse($item->tanggal)->translatedFormat('l, d F Y') }}</td>
          <td style="text-align: left;">{{$item->nama_notaris}}</td>
          <td style="text-align: left;">{{$item->no_pengesahan}}</td>
-
-         <td style="text-align: center;">
-
-            {{-- <a href="{{ url('/bebujkkonstruksi/show/' . $item->bujkkontraktorsub->nama_pengurus) }}"
-                class="btn btn-sm"
-                style="background-color: navy; color: white; transition: 0.3s; border: 1px solid navy;"
-                title="Lihat"
-                onmouseover="this.style.backgroundColor='white'; this.style.color='black !important'; this.style.border='1px solid black';"
-                onmouseout="this.style.backgroundColor='navy'; this.style.color='white !important'; this.style.border='1px solid navy';">
-                Lihat
-             </a> --}}
-
-             <a href="/bebujkkonstruksi/show/' . {{$item->bujkkontraktorsub->nama_pengurus}}">
+         <td style="text-align: center; vertical-align: middle;">
+            <a href="{{ url('/bebujkkonstruksi/show/' . $item->bujkkontraktorsub->nama_pengurus) }}" style="text-decoration: none;">
                 <button
-                onmouseover="this.style.backgroundColor='white'; this.style.color='black';"
-                onmouseout="this.style.backgroundColor='navy'; this.style.color='white';"
-                style="background-color: navy; color: white; border: none; margin-right: 10px; padding: 5px 20px; border-radius: 15px; font-size: 14px; cursor: pointer; display: flex; align-items: center; transition: background-color 0.3s, color 0.3s; text-decoration: none;">
-                <!-- Ikon Kembali -->
-                Lihat
-            </button>
+                    onmouseover="this.style.backgroundColor='white'; this.style.color='black';"
+                    onmouseout="this.style.backgroundColor='navy'; this.style.color='white';"
+                    style="background-color: navy; color: white; border: none; padding: 8px 20px;
+                           border-radius: 15px; font-size: 14px; cursor: pointer;
+                           display: flex; align-items: center; justify-content: center;
+                           transition: background-color 0.3s, color 0.3s;">
+                    <i class="bi bi-eye" style="margin-right: 5px;"></i> Lihat
+                </button>
             </a>
-
-
-
-         </td>
+        </td>
 
          <td style="text-align: center;">
              <a href="/404" class="btn btn-sm btn-info me-2" title="Show">
