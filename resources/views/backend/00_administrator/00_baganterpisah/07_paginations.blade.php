@@ -14,10 +14,10 @@
 
     <div class="custom-pagination-info"
         style="color: white; font-weight: 600; font-size: 18px; text-align: center;">
-        📊 Data Ke <span style="color: #16A34A;">{{ $data->firstItem() }}</span>
-        Sampai <span style="color: #16A34A;">{{ $data->lastItem() }}</span>
-        Dari <span style="color: #16A34A;">{{ $data->total() }}</span> Jumlah
-        <span style="color: #16A34A;">{{$title}}</span>
+        📊 Data Ke <span style="color: black;">{{ $data->firstItem() }}</span>
+        Sampai <span style="color: black;">{{ $data->lastItem() }}</span>
+        Dari <span style="color: black;">{{ $data->total() }}</span> Jumlah
+        <span style="color: black;">{{$title}}</span>
     </div>
 </div>
 
