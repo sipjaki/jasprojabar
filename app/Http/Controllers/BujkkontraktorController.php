@@ -293,14 +293,14 @@ public function bebujkkonstruksiklasifikasi($nama_pengurus)
     }
 
     // Ambil data dari bujkkontraktor berdasarkan sub-layanan
-    $databujkkontraktor = bujkkontraktor::where('bujkkontraktorsub_id', $datasublayanan->id)->get([
+    $dataallsublayanan = bujkkontraktor::where('bujkkontraktorsub_id', $datasublayanan->id)->get([
         'id', 'nama_pengurus', 'sub_klasifikasi_layanan', 'kode', 'kualifikasi',
         'penerbit', 'tanggal_terbit', 'masa_berlaku', 'nama_psjk', 'sub_kualifikasi_bu'
     ]);
 
     return view('backend.04_datajakon.01_bujkkonstruksi.showklasifikasi', [
         'title' => 'Data Klasifikasi Layanan',
-        'data' => $databujkkontraktor,
+        'data' => $dataallsublayanan,
         'user' => Auth::user()
     ]);
 }
