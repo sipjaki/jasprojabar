@@ -58,8 +58,6 @@
                             <!--end::Header-->
                             <!--begin::Form-->
 
-                            @foreach ($data as $item)
-
                             <form>
                                 <!--begin::Body-->
                                 <div class="card-body">
@@ -67,24 +65,24 @@
                                         <!-- Left Column (6/12) -->
                                         <div class="col-md-6">
                                             <div class="mb-3">
-                                                <label class="form-label">Nama Lengkap</label>
-                                                <input class="form-control" value="{{$item->namalengkap}}" readonly/>
+                                                <label class="form-label">Nama Asosiasi</label>
+                                                <input class="form-control" value="{{$data->asosiasimasjaki->namaasosiasi}}" readonly/>
                                                 <div class="form-text"></div>
                                             </div>
 
                                             <div class="mb-3">
-                                                <label class="form-label">NIP </label>
-                                                <input class="form-control" value="{{$item->nip}} " readonly />
+                                                <label class="form-label">Badan Usaha Jasa Konstruksi </label>
+                                                <input class="form-control" value="{{$data->namalengkap}} " readonly />
                                             </div>
 
                                             <div class="mb-3">
-                                                <label class="form-label">Tempat Tanggal Lahir</label>
-                                                <input class="form-control" value="{{$item->ttl}}" readonly/>
+                                                <label class="form-label">Alamat</label>
+                                                <input class="form-control" value="{{$data->alamat}}" readonly/>
                                             </div>
 
                                             <div class="mb-3">
-                                                <label class="form-label">Pangkat Golongan</label>
-                                                <input class="form-control" value="{{$item->pangkatgolongan}}" readonly/>
+                                                <label class="form-label">No Telepon</label>
+                                                <input class="form-control" value="{{$data->no_telepon}}" readonly/>
                                             </div>
 
                                         </div>
@@ -93,18 +91,38 @@
                                         <!-- Right Column (6/12) -->
                                         <div class="col-md-6">
                                             <div class="mb-3">
-                                                <label class="form-label">Jabatan</label>
-                                                <input class="form-control" value="{{$item->jabatan}}" readonly/>
+                                                <label class="form-label">Email</label>
+                                                <input class="form-control" value="{{$data->email}}" readonly/>
                                             </div>
 
                                             <div class="mb-3">
-                                                <label class="form-label">Perangkat Daerah</label>
-                                                <input class="form-control" value="{{$item->perangkatdaerah}}" readonly/>
+                                                <label class="form-label">Nomor Induk Berusaha</label>
+                                                <input class="form-control" value="{{$data->nomorindukberusaha}}" readonly/>
                                             </div>
 
                                             <div class="mb-3">
-                                                <label class="form-label">Pendidikan Terakhir</label>
-                                                <input class="form-control" value="{{$item->pendidikanterakhir}}" readonly/>
+                                                <label class="form-label">Penanggung Jawab Umum</label>
+                                                <input class="form-control" value="{{$data->pju}}" readonly/>
+                                            </div>
+
+                                            <div class="mb-3">
+                                                <label class="form-label">No Akte</label>
+                                                <input class="form-control" value="{{$data->no_akte}}" readonly/>
+                                            </div>
+
+                                            <div class="mb-3">
+                                                <label class="form-label">Tanggal Terbit</label>
+                                                <input class="form-control" value="{{$data->tanggal}}" readonly/>
+                                            </div>
+
+                                            <div class="mb-3">
+                                                <label class="form-label">Notaris</label>
+                                                <input class="form-control" value="{{$data->nama_notaris}}" readonly/>
+                                            </div>
+
+                                            <div class="mb-3">
+                                                <label class="form-label">Pengesahan</label>
+                                                <input class="form-control" value="{{$data->no_pengesahan}}" readonly/>
                                             </div>
 
                                         </div>
@@ -144,7 +162,6 @@
                     </a>
                 </div>
 
-                @endforeach
                     </div>
                     <!--end::Row-->
                     </div>
