@@ -327,10 +327,10 @@ return redirect()->back()->with('error', 'Item not found');
 }
 
 
-public function bebujkkonstruksiklasifikasidelete($nama_pengurus)
+public function bebujkkonstruksiklasifikasidelete($id)
 {
 // Cari item berdasarkan judul
-$entry = bujkkontraktorsub::where('nama_pengurus', $nama_pengurus)->first();
+$entry = bujkkontraktorsub::where('id', $id)->first();
 
 if ($entry) {
 // Jika ada file header yang terdaftar, hapus dari storage
