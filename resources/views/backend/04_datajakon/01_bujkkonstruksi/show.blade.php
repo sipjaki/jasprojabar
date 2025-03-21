@@ -46,7 +46,12 @@
                 <!-- /.card -->
                 <div class="card mb-4">
                     <div class="card-header">
-                        <h2 style="color: black;" class="card-title">Data Show : {{$title}} </h2>
+                        <h2 style="color: black;" class="card-title">Data Show : <button class="btn btn-success" style="background-color: #1d643b; border-color: #1d643b; font-weight: bold;"
+                            onmouseover="this.style.backgroundColor='#ffffff'; this.style.color='#000000'; this.style.borderColor='#1d643b';"
+                            onmouseout="this.style.backgroundColor='#1d643b'; this.style.color='#ffffff'; this.style.borderColor='#1d643b';">
+                            {{ $data->namalengkap }}
+                        </button>
+                        </h2>
 
                     </div>
 
