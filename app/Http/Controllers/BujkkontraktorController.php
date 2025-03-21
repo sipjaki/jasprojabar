@@ -240,11 +240,11 @@ public function bebujkkonstruksi(Request $request)
               ->orWhere('nama_notaris', 'LIKE', "%{$search}%")
               ->orWhere('no_pengesahan', 'LIKE', "%{$search}%")
               ->orWhereHas('bujkkontraktorsub', function ($q) use ($search) {
-                  $q->where('namapengurus', 'LIKE', "%{$search}%");
-              })
-              ->orWhereHas('asosiasimasjaki', function ($q) use ($search) {
-                  $q->where('namaasosiasi', 'LIKE', "%{$search}%");
-              });
+                $q->where('nama_pengurus', 'LIKE', "%{$search}%");
+            })
+            ->orWhereHas('asosiasimasjaki', function ($q) use ($search) {
+                $q->where('namaasosiasi', 'LIKE', "%{$search}%");
+            });
     }
 
     $data = $query->paginate($perPage);
