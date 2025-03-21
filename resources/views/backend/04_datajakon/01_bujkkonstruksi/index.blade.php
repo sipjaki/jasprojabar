@@ -63,6 +63,23 @@
              <!-- /.card -->
              <div class="card mb-4">
                  <div class="card-header">
+                     <h2 style="color: black; font-weight:900;" class="card-title">Setting Database</h2>
+                     <div style="display: flex; justify-content: flex-end; margin-bottom: 5px;">
+                         <a href="/404">
+                             <button
+                             onmouseover="this.style.backgroundColor='white'; this.style.color='black';"
+                             onmouseout="this.style.backgroundColor='#018f94'; this.style.color='white';"
+                             style="background-color: #018f94; color: white; border: none; margin-right: 10px; padding: 10px 20px; border-radius: 15px; font-size: 16px; cursor: pointer; display: flex; align-items: center; transition: background-color 0.3s, color 0.3s; text-decoration: none;">
+                             <!-- Ikon Kembali -->
+                             <i class="fa fa-database" style="margin-right: 8px;"></i>
+                             Settings Asosiasi
+                         </button>
+                         </a>
+
+                     </div>
+                 </div>
+                 <!-- /.card-header -->
+                 <div class="card-header">
                      <h2 style="color: black; font-weight:900;" class="card-title">Halaman Pengaturan : {{$title}} </h2>
                      <div style="display: flex; justify-content: flex-end; margin-bottom: 5px;">
                          <a href="/bebujkjakon">
