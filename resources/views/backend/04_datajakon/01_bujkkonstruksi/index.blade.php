@@ -86,6 +86,29 @@
                             <input type="search" id="searchInput" placeholder="Cari Badan Usaha ...." onkeyup="searchTable()" style="border: 1px solid #ccc; padding: 10px 20px; font-size: 14px; border-radius: 10px; width: 300px;">
                             <i class="fas fa-search" style="position: absolute; right: 10px; top: 50%; transform: translateY(-50%); font-size: 16px; color: #888;"></i>
                         </div>
+                        <script>
+                            function updateEntries() {
+                                let selectedValue = document.getElementById("entries").value;
+                                let url = new URL(window.location.href);
+                                url.searchParams.set("perPage", selectedValue);
+                                window.location.href = url.toString();
+                            }
+                            function searchTable() {
+                            let input = document.getElementById("searchInput").value;
+
+                            fetch(`/bebujkkonstruksi?search=${input}`)
+                                .then(response => response.text())
+                                .then(html => {
+                                    let parser = new DOMParser();
+                                    let doc = parser.parseFromString(html, "text/html");
+                                    let newTableBody = doc.querySelector("#tableBody").innerHTML;
+                                    document.querySelector("#tableBody").innerHTML = newTableBody;
+                                })
+                                .catch(error => console.error("Error fetching search results:", error));
+                        }
+
+                                </script>
+
                         <a href="/bebujkjakon">
                              <button
                              onmouseover="this.style.backgroundColor='white'; this.style.color='black';"
@@ -248,51 +271,3 @@
 
    @include('backend.00_administrator.00_baganterpisah.02_footer')
 
-   <script>
-    function updateEntries() {
-        let selectedValue = document.getElementById("entries").value;
-        let url = new URL(window.location.href);
-        url.searchParams.set("perPage", selectedValue);
-        window.location.href = url.toString();
-    }
-//                             function filterByYear() {
-//     let selectedYear = document.getElementById("yearFilter").value;
-
-//     fetch(`/datajakon/bujkkontraktor?year=${selectedYear}`)
-//         .then(response => {
-//             if (!response.ok) {
-//                 throw new Error(`HTTP error! Status: ${response.status}`);
-//             }
-//             return response.text();
-//         })
-//         .then(html => {
-//             let parser = new DOMParser();
-//             let doc = parser.parseFromString(html, "text/html");
-//             let newTableBody = doc.querySelector("#tableBody");
-//             let currentTableBody = document.querySelector("#tableBody");
-
-//             if (newTableBody && currentTableBody) {
-//                 currentTableBody.innerHTML = newTableBody.innerHTML;
-//             } else {
-//                 console.error("Element #tableBody not found in response or current document.");
-//             }
-//         })
-//         .catch(error => console.error("Error fetching filtered results:", error));
-// }
-
-
-    function searchTable() {
-    let input = document.getElementById("searchInput").value;
-
-    fetch(`/bebujkkonstruksi?search=${input}`)
-        .then(response => response.text())
-        .then(html => {
-            let parser = new DOMParser();
-            let doc = parser.parseFromString(html, "text/html");
-            let newTableBody = doc.querySelector("#tableBody").innerHTML;
-            document.querySelector("#tableBody").innerHTML = newTableBody;
-        })
-        .catch(error => console.error("Error fetching search results:", error));
-}
-
-        </script>
