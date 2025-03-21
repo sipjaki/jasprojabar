@@ -209,7 +209,7 @@ public function bebujkjakon()
 
 public function bebujkkonstruksi()
 {
-    $data = bujkkontraktor::paginate(5); // Menggunakan paginate() untuk pagination
+    $data = bujkkontraktor::paginate(15); // Menggunakan paginate() untuk pagination
     $user = Auth::user();
 
     return view('backend.04_datajakon.01_bujkkonstruksi.index', [
