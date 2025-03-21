@@ -287,9 +287,19 @@ public function bebujkkonstruksiklasifikasi($nama_pengurus)
 {
     $bujkkontraktorsub = bujkkontraktorsub::where('nama_pengurus', $nama_pengurus)->first();
 
+    if (!$bujkkontraktorsub) {
+        return abort(404, 'Data sub-klasifikasi tidak ditemukan');
+    }
+
+    // Ambil data dari bujkkontraktor berdasarkan sub-layanan
+    $databujk = bujkkontraktor::where('bujkkontraktorsub_id', $bujkkontraktorsub->id)->get([
+        'id', 'namalengkap',
+    ]);
+
     return view('backend.04_datajakon.01_bujkkonstruksi.showklasifikasi', [
         'title' => 'Data Klasifikasi Layanan',
         'data' => $bujkkontraktorsub,
+        'subdata' => $databujk,
         'user' => Auth::user()
     ]);
 }
