@@ -124,6 +124,7 @@
 										<div class="sidebar-post-title">
 											<h5><a href="/artikeljakon/{{$item->judul}}">{{$item->judul}}</a></h5>
 										</div><!-- sidebar-post-title -->
+                                        <p>{{$item->user->name}}</p>
 									</div><!-- sidebar-meta -->
 								</div><!-- sidebar-recent-post-content -->
 							</div><!-- sidebar-recent-post -->

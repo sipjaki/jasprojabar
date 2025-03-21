@@ -11878,6 +11878,7 @@ beritajakon::create([
 //======================== ===================================================================================
 // DATA ARTIKEL JAKON MAS JAKI
 artikeljakonmasjaki::create([
+    'user_id' => '3',
     'judul' => 'Mengenal Sistem Informasi Jasa Konstruksi: Manfaat dan Implementasinya',
     'foto1' => '00_beranda/02_artikeljakon/artikeljakon.jpg',
     'foto2' => '00_beranda/02_artikeljakon/artikeljakon.jpg',
@@ -11888,6 +11889,7 @@ artikeljakonmasjaki::create([
 ]);
 
 artikeljakonmasjaki::create([
+    'user_id' => '3',
     'judul' => 'Digitalisasi Manajemen Proyek: Peran Sistem Informasi dalam Jasa Konstruksi',
     'foto1' => '00_beranda/02_artikeljakon/artikeljakon.jpg',
     'foto2' => '00_beranda/02_artikeljakon/artikeljakon.jpg',
@@ -11898,6 +11900,7 @@ artikeljakonmasjaki::create([
 ]);
 
 artikeljakonmasjaki::create([
+    'user_id' => '3',
     'judul' => 'Panduan Memilih Sistem Informasi yang Tepat untuk Perusahaan Konstruksi',
     'foto1' => '00_beranda/02_artikeljakon/artikeljakon.jpg',
     'foto2' => '00_beranda/02_artikeljakon/artikeljakon.jpg',
@@ -11908,6 +11911,7 @@ artikeljakonmasjaki::create([
 ]);
 
 artikeljakonmasjaki::create([
+    'user_id' => '3',
     'judul' => 'Keamanan Data dalam Sistem Informasi Jasa Konstruksi: Tantangan dan Solusi',
     'foto1' => '00_beranda/02_artikeljakon/artikeljakon.jpg',
     'foto2' => '00_beranda/02_artikeljakon/artikeljakon.jpg',
@@ -11918,6 +11922,7 @@ artikeljakonmasjaki::create([
 ]);
 
 artikeljakonmasjaki::create([
+    'user_id' => '3',
     'judul' => 'Meningkatkan Produktivitas Konstruksi dengan Sistem Manajemen Informasi',
     'foto1' => '00_beranda/02_artikeljakon/artikeljakon.jpg',
     'foto2' => '00_beranda/02_artikeljakon/artikeljakon.jpg',
@@ -11928,6 +11933,7 @@ artikeljakonmasjaki::create([
 ]);
 
 artikeljakonmasjaki::create([
+    'user_id' => '3',
     'judul' => 'Tren Digital dalam Industri Konstruksi: Integrasi BIM dan Sistem Informasi',
     'foto1' => '00_beranda/02_artikeljakon/artikeljakon.jpg',
     'foto2' => '00_beranda/02_artikeljakon/artikeljakon.jpg',
@@ -11938,6 +11944,7 @@ artikeljakonmasjaki::create([
 ]);
 
 artikeljakonmasjaki::create([
+    'user_id' => '3',
     'judul' => 'Regulasi dan Standar dalam Sistem Informasi Jasa Konstruksi di Indonesia',
     'foto1' => '00_beranda/02_artikeljakon/artikeljakon.jpg',
     'foto2' => '00_beranda/02_artikeljakon/artikeljakon.jpg',
@@ -11948,6 +11955,7 @@ artikeljakonmasjaki::create([
 ]);
 
 artikeljakonmasjaki::create([
+    'user_id' => '3',
     'judul' => 'Strategi Implementasi Sistem Informasi untuk Optimalisasi Pengelolaan Proyek Konstruksi',
     'foto1' => '00_beranda/02_artikeljakon/artikeljakon.jpg',
     'foto2' => '00_beranda/02_artikeljakon/artikeljakon.jpg',

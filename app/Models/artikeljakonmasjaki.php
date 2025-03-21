@@ -23,4 +23,9 @@ class artikeljakonmasjaki extends Model
         return $this->belongsTo(jenjangpendidikan::class);
     }
 
+    public function user()
+    {
+        return $this->belongsTo(user::class, 'user_id');
+    }
+
 }

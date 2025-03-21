@@ -67,4 +67,9 @@ class User extends Authenticatable
         return $this->hasMany(beritajakon::class);
     }
 
+    public function artikeljakonmasjaki()
+    {
+        return $this->hasMany(artikeljakonmasjaki::class);
+    }
+
 }

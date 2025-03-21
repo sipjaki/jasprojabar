@@ -13,6 +13,7 @@ return new class extends Migration
     {
         Schema::create('artikeljakonmasjakis', function (Blueprint $table) {
             $table->id();
+            $table->foreignId('user_id')->nullable();
             $table->string('judul')->nullable();
             $table->date('tanggal')->nullable();
             $table->string('foto1')->nullable();
