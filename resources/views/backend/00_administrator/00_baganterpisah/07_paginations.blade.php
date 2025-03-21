@@ -3,11 +3,17 @@
 
     <!-- Box Informasi Pagination -->
     <div class="custom-pagination-info-box"
-        style="padding: 10px; border: 1px solid black; background-color: #f9f9f9; border-radius: 5px; margin-bottom: 10px;">
-        <div class="custom-pagination-info" style="color: black; font-weight: 500; font-size: 18px;">
-            Data Ke {{ $data->firstItem() }} Sampai {{ $data->lastItem() }} Dari {{ $data->total() }} Jumlah {{$title}}
-        </div>
+    style="padding: 12px 20px; border-radius: 8px; margin-bottom: 15px;
+           background-color: #14532D; border: 1px solid #16A34A; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+           display: flex; align-items: center; justify-content: center;">
+    <div class="custom-pagination-info"
+        style="color: white; font-weight: 600; font-size: 18px; text-align: center;">
+        📊 Data Ke <span style="color: #16A34A;">{{ $data->firstItem() }}</span>
+        Sampai <span style="color: #16A34A;">{{ $data->lastItem() }}</span>
+        Dari <span style="color: #16A34A;">{{ $data->total() }}</span> Jumlah
+        <span style="color: #16A34A;">{{$title}}</span>
     </div>
+</div>
 
     <!-- Navigasi Pagination -->
     <ul class="custom-pagination-paginate"
