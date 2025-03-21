@@ -44,7 +44,22 @@
                 <!-- /.card -->
                 <div class="card mb-4">
                     <div class="card-header">
-                        <h2 style="color: black;" class="card-title">Data Sub Klasifikasi Layanan : {{$subdata->namalengkap}} </h2>
+                        <div style="
+                    margin-bottom:10px;
+                    font-weight: 900;
+                    font-size: 16px;
+                    text-align: center;
+                    background: linear-gradient(135deg, #166534, #22C55E);
+                    color: white;
+                    padding: 10px 25px;
+                    border-radius: 10px;
+                    display: inline-block;
+                    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+                    width: 100%;
+                ">
+                    📌 View Sub Data Klasifikasi Layanan : {{$subdata->namalengkap}}
+                </div>
+
                     </div>
                     <!-- /.card-header -->
                     <div class="card-body p-0">
