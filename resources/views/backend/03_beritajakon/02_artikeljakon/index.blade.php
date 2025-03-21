@@ -98,7 +98,7 @@
      @foreach ($data as $item )
      <tr class="align-middle">
          <td style="text-align: center;">{{ $loop->iteration }}</td>
-         <td style="text-align: left;">{{$item->user->name}}</td>
+         {{-- <td style="text-align: left;">{{$item->user->name}}</td> --}}
          <td style="text-align: left;">{!! $item->judulberita !!}</td>
          <td style="text-align: left;">{{ \Carbon\Carbon::parse($item->tanggal)->translatedFormat('l, d F Y') }}</td>
          <td>
