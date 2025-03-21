@@ -93,11 +93,11 @@
          <th style="width: 150px; text-align:center;">Email</th>
          <th style="width: 150px; text-align:center;">NIB</th>
          <th style="width: 200px; text-align:center;">PJU</th>
-         <th style="width: 250px; text-align:center;">No Akte</th>
+         <th style="width: 150px; text-align:center;">No Akte</th>
          <th style="width: 250px; text-align:center;">Tanggal</th>
          <th style="width: 300px; text-align:center;">Notaris</th>
          <th style="width: 300px; text-align:center;">Pengesahan</th>
-         <th style="width: 300px; text-align:center;">Sub Klasifikasi</th>
+         <th style="width: 200px; text-align:center;">Sub Klasifikasi</th>
          <th style="width: 200px; text-align:center;">Aksi</th>
      </tr>
  </thead>
@@ -109,13 +109,27 @@
          <td style="text-align: left;">{{$item->namalengkap}}</td>
          <td style="text-align: left;">{{$item->alamat}}</td>
          <td style="text-align: center;">{{$item->no_telepon}}</td>
-         <td style="text-align: center;">{{$item->email}}</td>
-         <td style="text-align: left;">{{$item->nomorindukberusaha}}</td>
+         <td style="text-align: left;">{{$item->email}}</td>
+         <td style="text-align: center;">{{$item->nomorindukberusaha}}</td>
          <td style="text-align: left;">{{$item->pju}}</td>
-         <td style="text-align: left;">{{$item->no_akte}}</td>
-         <td style="text-align: left;">{{ \Carbon\Carbon::parse($item->tanggal)->translatedFormat('l, d F Y') }}</td>
+         <td style="text-align: center;">{{$item->no_akte}}</td>
+         <td style="text-align: center;">{{ \Carbon\Carbon::parse($item->tanggal)->translatedFormat('l, d F Y') }}</td>
          <td style="text-align: left;">{{$item->nama_notaris}}</td>
          <td style="text-align: left;">{{$item->no_pengesahan}}</td>
+
+         <td style="text-align: center;">
+
+            <a href="{{ url('/bebujkkonstruksi/show/' . $item->bujkkontraktorsub->nama_pengurus) }}"
+                class="btn btn-sm text-white"
+                style="background-color: navy; transition: 0.3s; border: 1px solid navy;"
+                title="Lihat"
+                onmouseover="this.style.backgroundColor='white'; this.style.color='black'; this.style.border='1px solid black';"
+                onmouseout="this.style.backgroundColor='navy'; this.style.color='white'; this.style.border='1px solid navy';">
+                 <i class="bi bi-eye"></i> Lihat
+             </a>
+
+
+         </td>
 
          <td style="text-align: center;">
              <a href="/404" class="btn btn-sm btn-info me-2" title="Show">
