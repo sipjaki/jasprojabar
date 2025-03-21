@@ -281,6 +281,36 @@ return view('backend.04_datajakon.01_bujkkonstruksi.show', [
 ]);
 }
 
+
+// DATA SHOW SUB KLASIFIKASI LAYANAN
+public function bebujkkonstruksiklasifikasi($nama_pengurus)
+{
+    $databujkkontraktor = bujkkontraktor::where('nama_pengurus', $nama_pengurus)->first();
+
+    if (!$databujkkontraktor) {
+        // Tangani jika kegiatan tidak ditemukan
+        return redirect()->back()->with('error', 'Kegiatan tidak ditemukan.');
+    }
+
+    // Menggunakan paginate() untuk pagination
+    $subdata = bujkkontraktorsub::where('bujkkontraktor_id', $databujkkontraktor->id)->paginate(50);
+
+      // Menghitung nomor urut mulai
+        $start = ($subdata->currentPage() - 1) * $subdata->perPage() + 1;
+
+
+// Ambil data user saat ini
+$user = Auth::user();
+
+return view('backend.04_datajakon.01_bujkkonstruksi.showklasifikasi', [
+    'title' => 'Data Klasifikasi Layanan',
+    'data' => $databujkkontraktor,
+    'subData' => $subdata,  // Jika Anda ingin mengirimkan data sub kontraktor juga
+    'user' => $user,
+    'start' => $start,
+]);
+}
+
 public function bebujkkonstruksidelete($namalengkap)
 {
 // Cari item berdasarkan judul
@@ -306,3 +336,5 @@ return redirect()->back()->with('error', 'Item not found');
 
 
 }
+
+
