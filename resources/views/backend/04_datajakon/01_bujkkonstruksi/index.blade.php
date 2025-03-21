@@ -116,16 +116,17 @@
          <td style="text-align: center;">{{ \Carbon\Carbon::parse($item->tanggal)->translatedFormat('l, d F Y') }}</td>
          <td style="text-align: left;">{{$item->nama_notaris}}</td>
          <td style="text-align: left;">{{$item->no_pengesahan}}</td>
-         <td style="text-align: center; vertical-align: middle;">
+
+             <td style="text-align: center; vertical-align: middle; width: 100%;">
             <a href="{{ url('/bebujkkonstruksi/show/' . $item->bujkkontraktorsub->nama_pengurus) }}" style="text-decoration: none;">
                 <button
                     onmouseover="this.style.backgroundColor='white'; this.style.color='black';"
                     onmouseout="this.style.backgroundColor='navy'; this.style.color='white';"
-                    style="background-color: navy; color: white; border: none; padding: 8px 20px;
+                    style="background-color: navy; color: white; border: none; padding: 10px 25px;
                            border-radius: 15px; font-size: 14px; cursor: pointer;
                            display: flex; align-items: center; justify-content: center;
                            transition: background-color 0.3s, color 0.3s;">
-                    <i class="bi bi-eye" style="margin-right: 5px;"></i> Lihat
+                    <i class="bi bi-eye" style="margin-right: 8px;"></i> Lihat
                 </button>
             </a>
         </td>
