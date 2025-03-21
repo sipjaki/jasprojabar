@@ -70,7 +70,7 @@
                                         @foreach ($data as $item)
                                         <tr class="align-middle">
                                             <td style="text-align: center;">{{ $loop->iteration }}</td>
-                                            <td style="text-align: center;">{{ $item->nama_pengurus }}</td>
+                                            {{-- <td style="text-align: center;">{{ $item->nama_pengurus }}</td> --}}
                                             <td style="text-align: center;">{{ $item->sub_klasifikasi_layanan }}</td>
                                             <td style="text-align: center;">{{ $item->kode }}</td>
                                             <td style="text-align: center;">{{ $item->kualifikasi }}</td>
