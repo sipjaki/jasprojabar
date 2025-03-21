@@ -143,7 +143,7 @@
          <td style="text-align: left;">{{$item->nama_notaris}}</td>
          <td style="text-align: left;">{{$item->no_pengesahan}}</td>
 
-             <td style="text-align: center; vertical-align: middle; width: 100%;">
+             <td style="text-align: center; vertical-align: middle; width: 100%; align-items:center;">
             <a href="{{ url('/bebujkkonstruksi/show/' . $item->bujkkontraktorsub->nama_pengurus) }}" style="text-decoration: none;">
                 <button
                     onmouseover="this.style.backgroundColor='white'; this.style.color='black';"
