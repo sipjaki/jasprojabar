@@ -136,6 +136,7 @@
     </div>
 </div>
 
+
 <script>
 function showAlertModal(title, message) {
     document.getElementById('alertTitle').innerText = title;
@@ -144,6 +145,13 @@ function showAlertModal(title, message) {
     var alertModal = new bootstrap.Modal(document.getElementById('alertModal'));
     alertModal.show();
 }
+
+document.addEventListener("DOMContentLoaded", function() {
+        @if (session('alert'))
+            showAlertModal("{{ session('alert')['title'] }}", "{{ session('alert')['message'] }}");
+        @endif
+    });
+
 </script>
 
 </div>
