@@ -44,7 +44,7 @@
                 <!-- /.card -->
                 <div class="card mb-4">
                     <div class="card-header">
-                        <h2 style="color: black;" class="card-title">Halaman Pengaturan : {{$title}} </h2>
+                        <h2 style="color: black;" class="card-title">Data Sub Klasifikasi Layanan : {{$subdata->namalengkap}} </h2>
 
                     </div>
                     <!-- /.card-header -->
@@ -54,22 +54,36 @@
                                 <thead>
                                     <tr>
                                         <th style="width: 10px; text-align:center;">No</th>
-                                        <th style="width: 500px; text-align:center;">Jabatan</th>
-                                        <th style="width: 500px; text-align:center;">Nama Lengkap</th>
+                                        <th style="width: 300px; text-align:center;">Nama Pengurus</th>
+                                        <th style="width: 300px; text-align:center;">Sub Klasifikasi Layanan</th>
+                                        <th style="width: 100px; text-align:center;">Kode</th>
+                                        <th style="width: 200px; text-align:center;">Kualifikasi</th>
+                                        <th style="width: 200px; text-align:center;">Penerbit</th>
+                                        <th style="width: 100px; text-align:center;">Tanggal Terbit</th>
+                                        <th style="width: 100px; text-align:center;">Masa Berlaku</th>
+                                        <th style="width: 200px; text-align:center;">Nama PSJK</th>
+                                        <th style="width: 300px; text-align:center;">Sub Klasifikasi Badan Usaha</th>
                                         <th style="width: 200px; text-align: center;">Aksi</th>
                                     </tr>
                                 </thead>
                                 <tbody>
-                                    @foreach ($data as $item )
+
                                     <tr class="align-middle">
                                         <td style="text-align: center;">{{ $loop->iteration }}</td>
-                                        <td style="text-align: center;">{!! $item->jabatan !!}</td>
-                                        <td style="text-align: center;">{!! $item->namalengkap !!}</td>
+                                        <td style="text-align: center;">{{ $data->nama_pengurus }}</td>
+                                        <td style="text-align: center;">{{ $data->sub_klasifikasi_layanan }}</td>
+                                        <td style="text-align: center;">{{ $data->kode }}</td>
+                                        <td style="text-align: center;">{{ $data->kualifikasi }}</td>
+                                        <td style="text-align: center;">{{ $data->penerbit }}</td>
+                                        <td style="text-align: center;">{{ $data->tanggal_terbit }}</td>
+                                        <td style="text-align: center;">{{ $data->masa_berlaku }}</td>
+                                        <td style="text-align: center;">{{ $data->nama_psjk }}</td>
+                                        <td style="text-align: center;">{{ $data->sub_kualifikasi_bu }}</td>
                                         <td style="text-align: center;">
                                             <!-- Show Icon -->
-                                            {{-- <a href="/404" class="btn btn-sm btn-info me-2" title="Show">
+                                         <a href="/404" class="btn btn-sm btn-info me-2" title="Show">
                                                 <i class="bi bi-eye"></i>
-                                            </a> --}}
+                                            </a>
                                             <!-- Update Icon -->
                                             <a href="/404" class="btn btn-sm btn-warning me-2" title="Update">
                                                 <i class="bi bi-pencil-square"></i>
@@ -77,7 +91,7 @@
                                             <!-- Delete Icon -->
                                             <!-- Tombol Delete -->
                                             <a href="javascript:void(0)" class="btn btn-sm btn-danger" title="Delete" data-bs-toggle="modal" data-bs-target="#deleteModal"
-                                            data-judul="{{ $item->namalengkap }}" onclick="setDeleteUrl(this)">
+                                            data-judul="{{ $data->nama_pengurus }}" onclick="setDeleteUrl(this)">
                                             <i class="bi bi-trash"></i>
                                         </a>
 
@@ -135,7 +149,7 @@
                                         </td>
 
                                     </tr>
-                                    @endforeach
+
                                 </tbody>
                             </table>
 
