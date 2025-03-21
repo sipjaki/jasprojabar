@@ -224,7 +224,7 @@ public function bebujkjakon()
 
 public function bebujkkonstruksi(Request $request)
 {
-    $perPage = $request->input('perPage', 10);
+    $perPage = $request->input('perPage', 15);
     $search = $request->input('search');
 
     $query = bujkkontraktor::query();
