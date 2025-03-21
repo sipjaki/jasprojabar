@@ -45,7 +45,6 @@
                 <div class="card mb-4">
                     <div class="card-header">
                         <h2 style="color: black;" class="card-title">Data Sub Klasifikasi Layanan : {{$subdata->namalengkap}} </h2>
-
                     </div>
                     <!-- /.card-header -->
                     <div class="card-body p-0">
