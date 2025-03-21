@@ -112,37 +112,47 @@
                                             </div>
                                         </div>
                                         <!-- End Left Column -->
+<!-- Right Column (6/12) -->
+<div class="col-md-6">
 
-                                        <!-- Right Column (6/12) -->
-                                        <div class="col-md-6">
+    <div class="mb-3">
+        <label class="form-label">
+            <i class="bi bi-person-badge-fill" style="margin-right: 8px; color: navy;"></i>Penanggung Jawab Umum
+        </label>
+        <input class="form-control" value="{{$data->pju}}" readonly/>
+    </div>
 
-                                            <div class="mb-3">
-                                                <label class="form-label">Penanggung Jawab Umum</label>
-                                                <input class="form-control" value="{{$data->pju}}" readonly/>
-                                            </div>
+    <div class="mb-3">
+        <label class="form-label">
+            <i class="bi bi-file-earmark-text-fill" style="margin-right: 8px; color: navy;"></i>No Akte
+        </label>
+        <input class="form-control" value="{{$data->no_akte}}" readonly/>
+    </div>
 
-                                            <div class="mb-3">
-                                                <label class="form-label">No Akte</label>
-                                                <input class="form-control" value="{{$data->no_akte}}" readonly/>
-                                            </div>
+    <div class="mb-3">
+        <label class="form-label">
+            <i class="bi bi-calendar-event-fill" style="margin-right: 8px; color: navy;"></i>Tanggal Terbit
+        </label>
+        <input class="form-control" value="{{ \Carbon\Carbon::parse($data->tanggal)->translatedFormat('d F Y') }}" readonly/>
+    </div>
 
-                                            <div class="mb-3">
-                                                <label class="form-label">Tanggal Terbit</label>
-                                                <input class="form-control" value="{{ \Carbon\Carbon::parse($data->tanggal)->translatedFormat('d F Y') }}" readonly/>
-                                            </div>
+    <div class="mb-3">
+        <label class="form-label">
+            <i class="bi bi-person-vcard-fill" style="margin-right: 8px; color: navy;"></i>Notaris
+        </label>
+        <input class="form-control" value="{{$data->nama_notaris}}" readonly/>
+    </div>
 
-                                            <div class="mb-3">
-                                                <label class="form-label">Notaris</label>
-                                                <input class="form-control" value="{{$data->nama_notaris}}" readonly/>
-                                            </div>
+    <div class="mb-3">
+        <label class="form-label">
+            <i class="bi bi-check-circle-fill" style="margin-right: 8px; color: navy;"></i>Pengesahan
+        </label>
+        <input class="form-control" value="{{$data->no_pengesahan}}" readonly/>
+    </div>
 
-                                            <div class="mb-3">
-                                                <label class="form-label">Pengesahan</label>
-                                                <input class="form-control" value="{{$data->no_pengesahan}}" readonly/>
-                                            </div>
+</div>
+<!-- End Right Column -->
 
-                                        </div>
-                                        <!-- End Right Column -->
 
                                     </div> <!-- end row -->
                                 </div>
