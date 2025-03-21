@@ -90,15 +90,17 @@
                                                 <input class="form-control" value="{{$data->email}}" readonly/>
                                             </div>
 
+                                            <div class="mb-3">
+                                                <label class="form-label">Nomor Induk Berusaha</label>
+                                                <input class="form-control" value="{{$data->nomorindukberusaha}}" readonly/>
+                                            </div>
+
+
                                         </div>
                                         <!-- End Left Column -->
 
                                         <!-- Right Column (6/12) -->
                                         <div class="col-md-6">
-                                            <div class="mb-3">
-                                                <label class="form-label">Nomor Induk Berusaha</label>
-                                                <input class="form-control" value="{{$data->nomorindukberusaha}}" readonly/>
-                                            </div>
 
                                             <div class="mb-3">
                                                 <label class="form-label">Penanggung Jawab Umum</label>
