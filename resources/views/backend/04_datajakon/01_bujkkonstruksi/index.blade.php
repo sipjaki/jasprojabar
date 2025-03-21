@@ -85,7 +85,7 @@
 <table class="table table-striped">
  <thead>
      <tr>
-         <th style="width: 50px; text-align:center;">No</th>
+         <th style="width: 75px; text-align:center;">No</th>
          <th style="width: 200px; text-align:center;">Asosiasi</th>
          <th style="width: 250px; text-align:center;">Badan Usaha</th>
          <th style="width: 250px; text-align:center;">Alamat</th>
