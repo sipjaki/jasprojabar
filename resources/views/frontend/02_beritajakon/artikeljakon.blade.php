@@ -36,9 +36,6 @@
                     <div class="news-details-box-image">
                         <div class="news-details-box-image-inner" style="display: flex; gap: 5px; flex-wrap: wrap;">
                             <img src="{{ asset('storage/' . $item->foto1) }}" class="img-fluid" alt="img-193" style="width: calc(33.33% - 5px); object-fit: cover;">
-                            <img src="{{ asset('storage/' . $item->foto1) }}" class="img-fluid" alt="img-193" style="width: calc(33.33% - 5px); object-fit: cover;">
-                            <img src="{{ asset('storage/' . $item->foto1) }}" class="img-fluid" alt="img-193" style="width: calc(33.33% - 5px); object-fit: cover;">
-
                             <a href="#" class="news-details-box-date">
                                 {{ \Carbon\Carbon::parse($item->tanggal)->translatedFormat('l, d F Y') }}
                             </a>
@@ -47,18 +44,14 @@
 
                     <br><br>
                     <div class="news-details-content-box" style="margin-left: 25px;">
-						<h4>{{$item->judul}}</h4>
+                        <h4>{{$item->judul}}</h4>
                         <br>
+                        <p style="text-align: justify;">
+                            {{$item->keterangan}}
+                        </p>
 
-                        {{-- <div style="display: inline-block;">
-                            <a href="#" target="_blank" class="btn btn-danger"
-                               style="background-color: navy; color: white; border: none; transition: 0.3s; padding:10px 20px; border-radius:15px;"
-                               onmouseover="this.style.backgroundColor='white'; this.style.color='black'; this.style.border='1px solid black';"
-                               onmouseout="this.style.backgroundColor='navy'; this.style.color='white'; this.style.border='none';">
-                                <i class="fa fa-file-pdf" style="margin-right:5px;"></i> Download PDF
-                            </a>
-                        </div> --}}
-
+                        <img src="{{ asset('storage/' . $item->foto2) }}" class="img-fluid" alt="img-193" style="width: calc(33.33% - 5px); object-fit: cover;">
+                        <img src="{{ asset('storage/' . $item->foto3) }}" class="img-fluid" alt="img-193" style="width: calc(33.33% - 5px); object-fit: cover;">
 
                     </div><!-- /.news-details-content-box -->
 

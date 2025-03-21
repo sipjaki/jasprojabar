@@ -11877,7 +11877,6 @@ beritajakon::create([
 
 //======================== ===================================================================================
 // DATA ARTIKEL JAKON MAS JAKI
-
 artikeljakonmasjaki::create([
     'judul' => 'Mengenal Sistem Informasi Jasa Konstruksi: Manfaat dan Implementasinya',
     'foto1' => '00_beranda/02_artikeljakon/artikeljakon.jpg',
@@ -11885,15 +11884,7 @@ artikeljakonmasjaki::create([
     'foto3' => '00_beranda/02_artikeljakon/artikeljakon.jpg',
     'berkas' => '00_beranda/02_artikeljakon/artikeljakon.pdf',
     'tanggal' => null,
-]);
-
-artikeljakonmasjaki::create([
-    'judul' => 'Mengenal Sistem Informasi Jasa Konstruksi: Manfaat dan Implementasinya',
-    'foto1' => '00_beranda/02_artikeljakon/artikeljakon.jpg',
-    'foto2' => '00_beranda/02_artikeljakon/artikeljakon.jpg',
-    'foto3' => '00_beranda/02_artikeljakon/artikeljakon.jpg',
-    'berkas' => '00_beranda/02_artikeljakon/artikeljakon.pdf',
-    'tanggal' => null,
+    'keterangan' => 'Artikel ini membahas manfaat dan implementasi sistem informasi dalam industri jasa konstruksi.',
 ]);
 
 artikeljakonmasjaki::create([
@@ -11903,6 +11894,7 @@ artikeljakonmasjaki::create([
     'foto3' => '00_beranda/02_artikeljakon/artikeljakon.jpg',
     'berkas' => '00_beranda/02_artikeljakon/artikeljakon.pdf',
     'tanggal' => null,
+    'keterangan' => 'Artikel ini mengulas bagaimana digitalisasi membantu manajemen proyek konstruksi melalui sistem informasi.',
 ]);
 
 artikeljakonmasjaki::create([
@@ -11912,6 +11904,7 @@ artikeljakonmasjaki::create([
     'foto3' => '00_beranda/02_artikeljakon/artikeljakon.jpg',
     'berkas' => '00_beranda/02_artikeljakon/artikeljakon.pdf',
     'tanggal' => null,
+    'keterangan' => 'Panduan ini memberikan tips dalam memilih sistem informasi yang sesuai untuk perusahaan konstruksi.',
 ]);
 
 artikeljakonmasjaki::create([
@@ -11921,6 +11914,7 @@ artikeljakonmasjaki::create([
     'foto3' => '00_beranda/02_artikeljakon/artikeljakon.jpg',
     'berkas' => '00_beranda/02_artikeljakon/artikeljakon.pdf',
     'tanggal' => null,
+    'keterangan' => 'Artikel ini membahas tantangan serta solusi dalam menjaga keamanan data pada sistem informasi jasa konstruksi.',
 ]);
 
 artikeljakonmasjaki::create([
@@ -11930,6 +11924,7 @@ artikeljakonmasjaki::create([
     'foto3' => '00_beranda/02_artikeljakon/artikeljakon.jpg',
     'berkas' => '00_beranda/02_artikeljakon/artikeljakon.pdf',
     'tanggal' => null,
+    'keterangan' => 'Artikel ini menjelaskan bagaimana sistem manajemen informasi dapat meningkatkan produktivitas dalam konstruksi.',
 ]);
 
 artikeljakonmasjaki::create([
@@ -11939,6 +11934,7 @@ artikeljakonmasjaki::create([
     'foto3' => '00_beranda/02_artikeljakon/artikeljakon.jpg',
     'berkas' => '00_beranda/02_artikeljakon/artikeljakon.pdf',
     'tanggal' => null,
+    'keterangan' => 'Artikel ini mengupas tren digital dalam konstruksi, termasuk integrasi Building Information Modeling (BIM).',
 ]);
 
 artikeljakonmasjaki::create([
@@ -11948,6 +11944,7 @@ artikeljakonmasjaki::create([
     'foto3' => '00_beranda/02_artikeljakon/artikeljakon.jpg',
     'berkas' => '00_beranda/02_artikeljakon/artikeljakon.pdf',
     'tanggal' => null,
+    'keterangan' => 'Artikel ini membahas regulasi serta standar dalam penggunaan sistem informasi jasa konstruksi di Indonesia.',
 ]);
 
 artikeljakonmasjaki::create([
@@ -11957,6 +11954,7 @@ artikeljakonmasjaki::create([
     'foto3' => '00_beranda/02_artikeljakon/artikeljakon.jpg',
     'berkas' => '00_beranda/02_artikeljakon/artikeljakon.pdf',
     'tanggal' => null,
+    'keterangan' => 'Artikel ini membahas strategi penerapan sistem informasi guna mengoptimalkan pengelolaan proyek konstruksi.',
 ]);
 
 // ARIS AKHIR

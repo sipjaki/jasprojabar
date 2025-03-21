@@ -19,6 +19,7 @@ return new class extends Migration
             $table->string('foto2')->nullable();
             $table->string('foto3')->nullable();
             $table->string('berkas')->nullable();
+            $table->text('keterangan')->nullable();
             $table->softDeletes();
             $table->timestamps();
         });
