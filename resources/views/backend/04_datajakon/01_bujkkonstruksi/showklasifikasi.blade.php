@@ -48,7 +48,7 @@
                     </div>
                     <!-- /.card-header -->
                     <div class="card-body p-0">
-                        <div class="table-responsive">
+                        <div class="table-responsive" style="overflow-x: auto; white-space: nowrap;">
                             <table class="table table-striped">
                                 <thead>
                                     <tr>
