@@ -65,11 +65,11 @@
                  <div class="card-header">
                     <div style="
                     font-weight: 900;
-                    font-size: 24px;
+                    font-size: 16px;
                     text-align: center;
                     background: linear-gradient(135deg, #1E40AF, #3B82F6);
                     color: white;
-                    padding: 12px 20px;
+                    padding: 8px 10px;
                     border-radius: 10px;
                     display: inline-block;
                     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
@@ -95,11 +95,11 @@
                  <div class="card-header">
                     <div style="
                     font-weight: 900;
-                    font-size: 22px;
+                    font-size: 16px;
                     text-align: center;
                     background: linear-gradient(135deg, #1E40AF, #3B82F6);
                     color: white;
-                    padding: 15px 25px;
+                    padding: 10px 25px;
                     border-radius: 10px;
                     display: inline-block;
                     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
