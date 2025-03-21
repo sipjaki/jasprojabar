@@ -86,28 +86,36 @@
  <thead>
      <tr>
          <th style="width: 100px; text-align:center;">No</th>
-         <th style="width: 200px; text-align:center;">Penulis</th>
-         <th style="width: 250px; text-align:center;">Judul Berita</th>
-         <th style="width: 100px; text-align:center;">Tanggal</th>
-         <th style="width: 600px; text-align:center;">Isi Berita</th>
-         <th style="width: 300px; text-align:center;">Foto</th>
-         <th style="width: 225px; text-align:center;">Aksi</th>
+         <th style="width: 200px; text-align:center;">Asosiasi</th>
+         <th style="width: 250px; text-align:center;">Badan Usaha</th>
+         <th style="width: 250px; text-align:center;">Alamat</th>
+         <th style="width: 125px; text-align:center;">No Telepon</th>
+         <th style="width: 150px; text-align:center;">Email</th>
+         <th style="width: 150px; text-align:center;">NIB</th>
+         <th style="width: 200px; text-align:center;">PJU</th>
+         <th style="width: 250px; text-align:center;">No Akte</th>
+         <th style="width: 250px; text-align:center;">Tanggal</th>
+         <th style="width: 300px; text-align:center;">Notaris</th>
+         <th style="width: 300px; text-align:center;">Pengesahan</th>
+         <th style="width: 300px; text-align:center;">Sub Klasifikasi</th>
+         <th style="width: 200px; text-align:center;">Aksi</th>
      </tr>
  </thead>
  <tbody>
      @foreach ($data as $item )
      <tr class="align-middle">
          <td style="text-align: center;">{{ $loop->iteration }}</td>
-         <td style="text-align: left;">{!! $item->judulberita !!}</td>
+         <td style="text-align: left;">{{$item->asosiasimasjaki->asosiasimasjaki}}</td>
+         <td style="text-align: left;">{{$item->namalengkap}}</td>
+         <td style="text-align: left;">{{$item->alamat}}</td>
+         <td style="text-align: left;">{{$item->no_telepon}}</td>
+         <td style="text-align: left;">{{$item->nib}}</td>
+         <td style="text-align: left;">{{$item->pju}}</td>
+         <td style="text-align: left;">{{$item->no_akte}}</td>
          <td style="text-align: left;">{{ \Carbon\Carbon::parse($item->tanggal)->translatedFormat('l, d F Y') }}</td>
-         <td>
-             <div class="isi-berita" style="text-align: justify;">
-                 {!! $item->keterangan !!}
-             </div>
-         </td>
-         <td style="text-align: center;">
-             <img src="{{ asset('storage/'. $item->foto) }}" alt="Image" width="300" style="border-radius: 15px;">
-         </td>
+         <td style="text-align: left;">{{$item->nama_notaris}}</td>
+         <td style="text-align: left;">{{$item->no_pengesahan}}</td>
+
          <td style="text-align: center;">
              <a href="/404" class="btn btn-sm btn-info me-2" title="Show">
                  <i class="bi bi-eye"></i>
@@ -116,7 +124,7 @@
                  <i class="bi bi-pencil-square"></i>
              </a>
              <a href="javascript:void(0)" class="btn btn-sm btn-danger" title="Delete" data-bs-toggle="modal" data-bs-target="#deleteModal"
-                data-judul="{{ $item->judulberita }}" onclick="setDeleteUrl(this)">
+                data-judul="{{ $item->namalengkap }}" onclick="setDeleteUrl(this)">
                 <i class="bi bi-trash"></i>
              </a>
          </td>
@@ -158,9 +166,9 @@
 
                  <script>
                  function setDeleteUrl(button) {
-                     var judulberita = button.getAttribute('data-judul');
-                     document.getElementById('itemName').innerText = judulberita;
-                     var deleteUrl = "/beberitajakon/delete/" + encodeURIComponent(judulberita);
+                     var namalengkap = button.getAttribute('data-judul');
+                     document.getElementById('itemName').innerText = namalengkap;
+                     var deleteUrl = "/beberitajakon/delete/" + encodeURIComponent(namalengkap);
                      document.getElementById('deleteForm').action = deleteUrl;
                  }
                  </script>
