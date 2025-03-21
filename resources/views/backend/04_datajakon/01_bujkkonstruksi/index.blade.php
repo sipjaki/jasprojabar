@@ -119,14 +119,25 @@
 
          <td style="text-align: center;">
 
-            <a href="{{ url('/bebujkkonstruksi/show/' . $item->bujkkontraktorsub->nama_pengurus) }}"
+            {{-- <a href="{{ url('/bebujkkonstruksi/show/' . $item->bujkkontraktorsub->nama_pengurus) }}"
                 class="btn btn-sm"
                 style="background-color: navy; color: white; transition: 0.3s; border: 1px solid navy;"
                 title="Lihat"
                 onmouseover="this.style.backgroundColor='white'; this.style.color='black !important'; this.style.border='1px solid black';"
                 onmouseout="this.style.backgroundColor='navy'; this.style.color='white !important'; this.style.border='1px solid navy';">
                 Lihat
-             </a>
+             </a> --}}
+
+             <a href="/bebujkkonstruksi/show/' . {{$item->bujkkontraktorsub->nama_pengurus}}">
+                <button
+                onmouseover="this.style.backgroundColor='white'; this.style.color='black';"
+                onmouseout="this.style.backgroundColor='navy'; this.style.color='white';"
+                style="background-color: navy; color: white; border: none; margin-right: 10px; padding: 10px 20px; border-radius: 15px; font-size: 16px; cursor: pointer; display: flex; align-items: center; transition: background-color 0.3s, color 0.3s; text-decoration: none;">
+                <!-- Ikon Kembali -->
+                <i class="fa fa-plus" style="margin-right: 8px;"></i>
+                Lihat
+            </button>
+            </a>
 
 
 
