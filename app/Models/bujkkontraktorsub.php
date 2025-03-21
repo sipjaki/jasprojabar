@@ -15,7 +15,7 @@ class bujkkontraktorsub extends Model
 
     public function bujkkontraktor()
     {
-        return $this->hasMany(bujkkontraktor::class);
+        return $this->hasMany(bujkkontraktor::class, 'bujkkontraktor_id');
     }
 
 }
