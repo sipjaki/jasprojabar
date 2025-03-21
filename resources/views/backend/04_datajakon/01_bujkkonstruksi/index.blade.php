@@ -94,6 +94,7 @@
                  <!-- /.card-header -->
                  <div class="card-header">
                     <div style="
+                    margin-bottom:5px;
                     font-weight: 900;
                     font-size: 16px;
                     text-align: center;
@@ -105,7 +106,7 @@
                     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
                     width: 100%;
                 ">
-                    📌 Halaman Pengaturan: {{$title}}
+                    📌 Halaman : {{$title}}
                 </div>
 
                      <div style="display: flex; justify-content: flex-end; margin-bottom: 5px;">
