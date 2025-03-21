@@ -68,8 +68,8 @@
                          <a href="/404">
                              <button
                              onmouseover="this.style.backgroundColor='white'; this.style.color='black';"
-                             onmouseout="this.style.backgroundColor='#018f94'; this.style.color='white';"
-                             style="background-color: #018f94; color: white; border: none; margin-right: 10px; padding: 10px 20px; border-radius: 15px; font-size: 16px; cursor: pointer; display: flex; align-items: center; transition: background-color 0.3s, color 0.3s; text-decoration: none;">
+                             onmouseout="this.style.backgroundColor='#1E40AF'; this.style.color='white';"
+                             style="background-color: #1E40AF; color: white; border: none; margin-right: 10px; padding: 10px 20px; border-radius: 15px; font-size: 16px; cursor: pointer; display: flex; align-items: center; transition: background-color 0.3s, color 0.3s; text-decoration: none;">
                              <!-- Ikon Kembali -->
                              <i class="fa fa-database" style="margin-right: 8px;"></i>
                              Asosiasi
@@ -85,8 +85,8 @@
                          <a href="/bebujkjakon">
                              <button
                              onmouseover="this.style.backgroundColor='white'; this.style.color='black';"
-                             onmouseout="this.style.backgroundColor='#373635'; this.style.color='white';"
-                             style="background-color: #373635; color: white; border: none; margin-right: 10px; padding: 10px 20px; border-radius: 15px; font-size: 16px; cursor: pointer; display: flex; align-items: center; transition: background-color 0.3s, color 0.3s; text-decoration: none;">
+                             onmouseout="this.style.backgroundColor='#374151'; this.style.color='white';"
+                             style="background-color: #374151; color: white; border: none; margin-right: 10px; padding: 10px 20px; border-radius: 15px; font-size: 16px; cursor: pointer; display: flex; align-items: center; transition: background-color 0.3s, color 0.3s; text-decoration: none;">
                              <!-- Ikon Kembali -->
                              <i class="fa fa-arrow-left" style="margin-right: 8px;"></i> Kembali
 
@@ -95,8 +95,8 @@
                          <a href="/404">
                              <button
                              onmouseover="this.style.backgroundColor='white'; this.style.color='black';"
-                             onmouseout="this.style.backgroundColor='#156f2a'; this.style.color='white';"
-                             style="background-color: #156f2a; color: white; border: none; margin-right: 10px; padding: 10px 20px; border-radius: 15px; font-size: 16px; cursor: pointer; display: flex; align-items: center; transition: background-color 0.3s, color 0.3s; text-decoration: none;">
+                             onmouseout="this.style.backgroundColor='#166534'; this.style.color='white';"
+                             style="background-color: #166534; color: white; border: none; margin-right: 10px; padding: 10px 20px; border-radius: 15px; font-size: 16px; cursor: pointer; display: flex; align-items: center; transition: background-color 0.3s, color 0.3s; text-decoration: none;">
                              <!-- Ikon Kembali -->
                              <i class="fa fa-plus" style="margin-right: 8px;"></i>
                              Create
