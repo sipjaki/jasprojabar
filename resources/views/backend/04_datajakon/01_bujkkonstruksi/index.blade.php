@@ -89,8 +89,8 @@
          <th style="width: 200px; text-align:center;">Asosiasi</th>
          <th style="width: 250px; text-align:center;">Badan Usaha</th>
          <th style="width: 250px; text-align:center;">Alamat</th>
-         <th style="width: 125px; text-align:center;">No Telepon</th>
-         <th style="width: 150px; text-align:center;">Email</th>
+         <th style="width: 200px; text-align:center;">No Telepon</th>
+         <th style="width: 250px; text-align:center;">Email</th>
          <th style="width: 150px; text-align:center;">NIB</th>
          <th style="width: 200px; text-align:center;">PJU</th>
          <th style="width: 150px; text-align:center;">No Akte</th>
