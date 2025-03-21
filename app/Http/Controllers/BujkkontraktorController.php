@@ -221,6 +221,21 @@ public function bebujkkonstruksi()
 }
 
 
+// BUJKKONTRAKTOR SHOW
+
+public function bebujkkonstruksishow($namalengkap)
+{
+    $databujkkontraktor = bujkkontraktor::where('namalengkap', $namalengkap)->first();
+// Ambil data user saat ini
+    $user = Auth::user();
+
+return view('backend.04_datajakon.01_bujkkonstruksi.show', [
+    'title' => 'Data Bujk Konstruksi',
+    'data' => $databujkkontraktor,
+]);
+}
+
+
 public function bebujkkonstruksidelete($namalengkap)
 {
 // Cari item berdasarkan judul
