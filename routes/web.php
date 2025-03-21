@@ -485,6 +485,7 @@ Route::get('/bebujkkonstruksi/show/{namalengkap}', [BujkkontraktorController::cl
 Route::get('/bebujkkonstruksi/showsubklasifikasi/{nama_pengurus}', [BujkkontraktorController::class, 'bebujkkonstruksiklasifikasi'])->middleware('auth');
 
 Route::delete('/bebujkkonstruksi/delete/{namalengkap}', [BujkkontraktorController::class, 'bebujkkonstruksidelete'])->middleware('auth');
+Route::delete('/bebujkkonstruksiklasifikasi/delete/{nama_pengurus}', [BujkkontraktorController::class, 'bebujkkonstruksiklasifikasidelete'])->middleware('auth');
 // ___________________________________________________________________________________________________________________________________
 
 

@@ -120,10 +120,10 @@
                                         <td style="text-align: center;">{{ $data->sub_kualifikasi_bu }}</td>
                                         <td style="text-align: center;">
                                             <!-- Show Icon -->
-                                         <a href="/404" class="btn btn-sm btn-info me-2" title="Show">
+                                         {{-- <a href="/404" class="btn btn-sm btn-info me-2" title="Show">
                                                 <i class="bi bi-eye"></i>
                                             </a>
-                                            <!-- Update Icon -->
+                                            <!-- Update Icon --> --}}
                                             <a href="/404" class="btn btn-sm btn-warning me-2" title="Update">
                                                 <i class="bi bi-pencil-square"></i>
                                             </a>
@@ -161,13 +161,13 @@
                                         <script>
                                         function setDeleteUrl(button) {
                                             // Ambil data judul dari elemen yang diklik
-                                            var namalengkap = button.getAttribute('data-judul');
+                                            var nama_pengurus = button.getAttribute('data-judul');
 
                                             // Perbarui teks di dalam modal dengan nama item
-                                            document.getElementById('itemName').innerText = namalengkap;
+                                            document.getElementById('itemName').innerText = nama_pengurus;
 
                                             // Atur URL penghapusan
-                                            var deleteUrl = "/bejabatan/delete/" + encodeURIComponent(namalengkap);
+                                            var deleteUrl = "/bebujkkonstruksiklasifikasi/delete/" + encodeURIComponent(nama_pengurus);
                                             document.getElementById('deleteForm').action = deleteUrl;
                                         }
 
