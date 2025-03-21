@@ -45,7 +45,7 @@
                         </div>
                     </div>
 
-                    <br><br>
+                    <br>
                     <div class="news-details-content-box" style="margin-left: 25px;">
                         <h4 style="text-align: justify;">{{$item->judul}}</h4>
                         <br>
@@ -53,6 +53,7 @@
                             {{$item->keterangan}}
                         </p>
 
+                        <br>
                         <div class="row">
                             <div class="col-md-6">
                                 <img src="{{ asset('storage/' . $item->foto2) }}" class="img-fluid" alt="img-193" style="width: 100%; object-fit: cover;">
