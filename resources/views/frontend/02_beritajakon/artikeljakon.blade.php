@@ -49,9 +49,9 @@
                     <div class="news-details-content-box" style="margin-left: 25px;">
                         <h4 style="text-align: justify;">{{$item->judul}}</h4>
                         <br>
-                        <h4 style="text-align: justify;">
+                        <h5 style="text-align: justify;">
                             {{$item->keterangan}}
-                        </h4>
+                        </h5>
 
                         <br>
                         <div class="row">
