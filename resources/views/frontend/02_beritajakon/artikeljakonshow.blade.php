@@ -32,51 +32,63 @@
 				<div class="col-lg-8">
 
                     {{-- @foreach ($data->skip(0)->take(1) as $item) --}}
-
                     <div class="news-details-box-image">
-                        <div class="news-details-box-image-inner" style="display: flex; gap: 5px; flex-wrap: wrap;">
-                            <img src="{{ asset('storage/' . $data->foto1) }}" class="img-fluid" alt="img-193" style="width: calc(33.33% - 5px); object-fit: cover;">
-                            <img src="{{ asset('storage/' . $data->foto2) }}" class="img-fluid" alt="img-193" style="width: calc(33.33% - 5px); object-fit: cover;">
-                            <img src="{{ asset('storage/' . $data->foto3) }}" class="img-fluid" alt="img-193" style="width: calc(33.33% - 5px); object-fit: cover;">
-
-                            <a href="#" class="news-details-box-date">
-                                {{ \Carbon\Carbon::parse($data->tanggal)->translatedFormat('l, d F Y') }}
-                            </a>
+                        <div class="news-details-box-image-inner row">
+                            <div class="col-md-12">
+                                <img src="{{ asset('storage/' . $item->foto1) }}" class="img-fluid" alt="img-193" style="width: 100%; object-fit: cover;">
+                            </div>
+                            <div class="col-md-8 d-flex align-items-center justify-content-center">
+                                <a href="#" class="news-details-box-date">
+                                    {{ \Carbon\Carbon::parse($item->tanggal)->translatedFormat('l, d F Y') }}
+                                </a>
+                            </div>
                         </div>
                     </div>
 
                     <br><br>
+
                     <div class="news-details-content-box" style="margin-left: 25px;">
-						<h4>{{$data->judul}}</h4>
+                        <h4 style="text-align: justify;">{{$item->judul}}</h4>
                         <br>
+                        <h5 style="text-align: justify;">
+                            {{$item->keterangan}}
+                        </h5>
 
-
-
-                        <div style="display: inline-block;">
-                            <button id="sertifikat-btn" class="badge"
-                               style="background-color: navy; color: white; border: none; transition: 0.3s; padding:10px 20px; font-size: 16px; border-radius:15px;"
-                               onmouseover="this.style.backgroundColor='white'; this.style.color='black'; this.style.border='1px solid black';"
-                               onmouseout="this.style.backgroundColor='navy'; this.style.color='white'; this.style.border='none';">
-                                <i class="fas fa-download" style="margin-right:5px;"></i> Download .pdf
-                            </button>
+                        <br>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <img src="{{ asset('storage/' . $item->foto2) }}" class="img-fluid" alt="img-193" style="width: 100%; object-fit: cover;">
+                            </div>
+                            <div class="col-md-6">
+                                <img src="{{ asset('storage/' . $item->foto3) }}" class="img-fluid" alt="img-193" style="width: 100%; object-fit: cover;">
+                            </div>
                         </div>
-
-                <script>
-                    document.getElementById('sertifikat-btn').addEventListener('click', function() {
-                        const fileUrl = "{{ asset('storage/' . $data->berkas) }}"; // URL file yang ingin diunduh
-                        const a = document.createElement('a');
-                        a.href = fileUrl;
-                        a.download = ''; // Nama file tidak perlu diisi, karena browser akan menggunakan nama dari URL
-                        document.body.appendChild(a);
-                        a.click();
-                        document.body.removeChild(a);
-                    });
-                    </script>
-
-
-
-
                     </div><!-- /.news-details-content-box -->
+
+                    <div style="display: inline-block;">
+                        <button id="sertifikat-btn" class="badge"
+                           style="background-color: navy; color: white; border: none; transition: 0.3s; padding:10px 20px; font-size: 16px; border-radius:15px;"
+                           onmouseover="this.style.backgroundColor='white'; this.style.color='black'; this.style.border='1px solid black';"
+                           onmouseout="this.style.backgroundColor='navy'; this.style.color='white'; this.style.border='none';">
+                            <i class="fas fa-download" style="margin-right:5px;"></i> Download .pdf
+                        </button>
+                    </div>
+
+            <script>
+                document.getElementById('sertifikat-btn').addEventListener('click', function() {
+                    const fileUrl = "{{ asset('storage/' . $data->berkas) }}"; // URL file yang ingin diunduh
+                    const a = document.createElement('a');
+                    a.href = fileUrl;
+                    a.download = ''; // Nama file tidak perlu diisi, karena browser akan menggunakan nama dari URL
+                    document.body.appendChild(a);
+                    a.click();
+                    document.body.removeChild(a);
+                });
+                </script>
+
+
+
+
 
                     {{-- @endforeach --}}
 
