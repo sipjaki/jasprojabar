@@ -120,13 +120,14 @@
          <td style="text-align: center;">
 
             <a href="{{ url('/bebujkkonstruksi/show/' . $item->bujkkontraktorsub->nama_pengurus) }}"
-                class="btn btn-sm text-white"
-                style="background-color: navy; transition: 0.3s; border: 1px solid navy;"
+                class="btn btn-sm"
+                style="background-color: navy; color: white; transition: 0.3s; border: 1px solid navy;"
                 title="Lihat"
-                onmouseover="this.style.backgroundColor='white'; this.style.color='black'; this.style.border='1px solid black';"
-                onmouseout="this.style.backgroundColor='navy'; this.style.color='white'; this.style.border='1px solid navy';">
-                 <i class="bi bi-eye"></i> Lihat
+                onmouseover="this.style.backgroundColor='white'; this.style.color='black !important'; this.style.border='1px solid black';"
+                onmouseout="this.style.backgroundColor='navy'; this.style.color='white !important'; this.style.border='1px solid navy';">
+                Lihat
              </a>
+
 
 
          </td>

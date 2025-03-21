@@ -481,6 +481,7 @@ Route::get('/bebujkjakon', [BujkkontraktorController::class, 'bebujkjakon'])->mi
 // ---------------------- MENU 1 BUJK KONSTRUKSI   -----------------------------------------------------
 // ___________________________________________________________________________________________________________________________________
 Route::get('/bebujkkonstruksi', [BujkkontraktorController::class, 'bebujkkonstruksi'])->middleware('auth');
+Route::get('/bebujkkonstruksi/show/{{}}', [BujkkontraktorController::class, 'bebujkkonstruksi'])->middleware('auth');
 Route::delete('/bebujkkonstruksi/delete/{judulberita}', [BeritajakonController::class, 'bebujkkonstruksidelete'])->middleware('auth');
 // ___________________________________________________________________________________________________________________________________
 
