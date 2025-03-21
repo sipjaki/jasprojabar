@@ -58,7 +58,7 @@
                             <!--end::Header-->
                             <!--begin::Form-->
 
-                            @foreach ($data as $item)
+                            @foreach ($subdata as $item)
 
                             <form>
                                 <!--begin::Body-->
