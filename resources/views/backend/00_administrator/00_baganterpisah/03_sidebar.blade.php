@@ -203,7 +203,7 @@
                         </a>
                       </li>
                       <li class="nav-item">
-                        <a href="/404" class="nav-link">
+                        <a href="/beartikeljakon" class="nav-link">
                           <!-- Ikon untuk Artikel Jakon -->
                           <i class="nav-icon bi bi-journal-text text-warning"></i>
                           <p style="color: white">Artikel Jakon</p>

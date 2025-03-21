@@ -218,6 +218,48 @@ class BeritajakonController extends Controller
     return redirect()->back()->with('error', 'Item not found');
     }
 
+
+
+
+    // ======================================================================================
+    // ARTIKEL JAKON MAS JAKI
+
+        public function beartikeljakon()
+        {
+            $data = artikeljakonmasjaki::paginate(5); // Menggunakan paginate() untuk pagination
+            $user = Auth::user();
+
+            return view('backend.03_beritajakon.02_artikeljakon.index', [
+                'title' => 'Artikel Jasa Konstruksi',
+                'data' => $data, // Mengirimkan data paginasi ke view
+                'user' => $user, // Mengirimkan data paginasi ke view
+
+            ]);
+        }
+
+
+        public function beartikeljakondelete($judul)
+{
+    // Cari item berdasarkan judul
+    $entry = artikeljakonmasjaki::where('judul', $judul)->first();
+
+    if ($entry) {
+        // Jika ada file header yang terdaftar, hapus dari storage
+        // if (Storage::disk('public')->exists($entry->header)) {
+            //     Storage::disk('public')->delete($entry->header);
+        // }
+
+        // Hapus entri dari database
+        $entry->delete();
+
+        // Redirect atau memberi respons sesuai kebutuhan
+        return redirect('/beartikeljakon')->with('delete', 'Data Berhasil Di Hapus !');
+
+    }
+
+    return redirect()->back()->with('error', 'Item not found');
+    }
+
 }
 
 

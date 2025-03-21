@@ -65,6 +65,7 @@
                         </div>
 
                         <br>
+
                     <div style="display: inline-block;">
                         <button id="sertifikat-btn" class="badge"
                            style="background-color: navy; color: white; border: none; transition: 0.3s; padding:15px 20px; font-size: 16px; border-radius:5px;"
