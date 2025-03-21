@@ -37,7 +37,7 @@
                             <div class="col-md-8">
                                 <img src="{{ asset('storage/' . $item->foto1) }}" class="img-fluid" alt="img-193" style="width: 100%; object-fit: cover;">
                             </div>
-                            <div class="col-md-4 d-flex align-items-center justify-content-center">
+                            <div class="col-md-8 d-flex align-items-center justify-content-center">
                                 <a href="#" class="news-details-box-date">
                                     {{ \Carbon\Carbon::parse($item->tanggal)->translatedFormat('l, d F Y') }}
                                 </a>
@@ -54,10 +54,10 @@
                         </p>
 
                         <div class="row">
-                            <div class="col-md-4">
+                            <div class="col-md-6">
                                 <img src="{{ asset('storage/' . $item->foto2) }}" class="img-fluid" alt="img-193" style="width: 100%; object-fit: cover;">
                             </div>
-                            <div class="col-md-4">
+                            <div class="col-md-6">
                                 <img src="{{ asset('storage/' . $item->foto3) }}" class="img-fluid" alt="img-193" style="width: 100%; object-fit: cover;">
                             </div>
                         </div>
