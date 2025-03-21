@@ -98,7 +98,7 @@
                     font-weight: 900;
                     font-size: 16px;
                     text-align: center;
-                    background: linear-gradient(135deg, #1E40AF, #3B82F6);
+                    background: linear-gradient(135deg, #166534, #22C55E);
                     color: white;
                     padding: 10px 25px;
                     border-radius: 10px;
