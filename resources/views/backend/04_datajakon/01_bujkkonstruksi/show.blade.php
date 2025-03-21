@@ -46,7 +46,7 @@
                 <!-- /.card -->
                 <div class="card mb-4">
                     <div class="card-header">
-                        <h2 style="color: black;" class="card-title">Halaman Pengaturan : {{$title}} </h2>
+                        <h2 style="color: black;" class="card-title">Data Show : {{$title}} </h2>
 
                     </div>
 
