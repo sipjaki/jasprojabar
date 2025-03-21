@@ -285,18 +285,17 @@ return view('backend.04_datajakon.01_bujkkonstruksi.show', [
 // DATA SHOW SUB KLASIFIKASI LAYANAN
 public function bebujkkonstruksiklasifikasi($nama_pengurus)
 {
-    $databujkkontraktor = bujkkontraktor::where('nama_pengurus', $nama_pengurus)->first();
+    $datasublayanan = bujkkontraktorsub::where('nama_pengurus', $nama_pengurus)->first();
 
-    if (!$databujkkontraktor) {
-        // Tangani jika kegiatan tidak ditemukan
-        return redirect()->back()->with('error', 'Kegiatan tidak ditemukan.');
+    // Jika asosiasi tidak ditemukan, tampilkan 404
+    if (!$datasublayanan) {
+        return abort(404, 'Asosiasi tidak ditemukan');
     }
 
-    // Menggunakan paginate() untuk pagination
-    $subdata = bujkkontraktorsub::where('bujkkontraktor_id', $databujkkontraktor->id)->paginate(50);
-
-      // Menghitung nomor urut mulai
-        $start = ($subdata->currentPage() - 1) * $subdata->perPage() + 1;
+    $user = Auth::user();
+        // Ambil semua data dari tabel bujkkontraktor berdasarkan asosiasi_id
+        $databujkkontraktor = bujkkontraktor::where('bujkkontraktorsub_id', $datasublayanan->id)->get(['id', 'nama_pengurus', 'sub_klasifikasi_layanan', 'kode', 'kualifikasi', 'penerbit', 'tanggal_terbit', 'masa_berlaku', 'nama_psjk', 'sub_kualifikasi_bu']);
+        // $databujkkontraktorpaginate = bu::where('asosiasimasjaki_id', $asosiasi->id)->paginate(10);
 
 
 // Ambil data user saat ini
@@ -305,10 +304,10 @@ $user = Auth::user();
 return view('backend.04_datajakon.01_bujkkonstruksi.showklasifikasi', [
     'title' => 'Data Klasifikasi Layanan',
     'data' => $databujkkontraktor,
-    'subData' => $subdata,  // Jika Anda ingin mengirimkan data sub kontraktor juga
-    'user' => $user,
-    'start' => $start,
-]);
+    'user' => $user
+        ]);
+
+
 }
 
 public function bebujkkonstruksidelete($namalengkap)
