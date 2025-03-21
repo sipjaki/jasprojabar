@@ -47,7 +47,7 @@
 
                     <br><br>
                     <div class="news-details-content-box" style="margin-left: 25px;">
-                        <h4>{{$item->judul}}</h4>
+                        <h4 style="text-align: justify;">{{$item->judul}}</h4>
                         <br>
                         <p style="text-align: justify;">
                             {{$item->keterangan}}
