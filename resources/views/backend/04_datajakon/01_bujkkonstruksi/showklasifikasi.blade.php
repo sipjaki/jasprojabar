@@ -130,7 +130,7 @@
                                             <!-- Delete Icon -->
                                             <!-- Tombol Delete -->
                                             <a href="javascript:void(0)" class="btn btn-sm btn-danger" title="Delete" data-bs-toggle="modal" data-bs-target="#deleteModal"
-                                            data-judul="{{ $data->nama_pengurus }}" onclick="setDeleteUrl(this)">
+                                            data-judul="{{ $data->id }}" onclick="setDeleteUrl(this)">
                                             <i class="bi bi-trash"></i>
                                         </a>
 
@@ -161,13 +161,13 @@
                                         <script>
                                         function setDeleteUrl(button) {
                                             // Ambil data judul dari elemen yang diklik
-                                            var nama_pengurus = button.getAttribute('data-judul');
+                                            var id = button.getAttribute('data-judul');
 
                                             // Perbarui teks di dalam modal dengan nama item
-                                            document.getElementById('itemName').innerText = nama_pengurus;
+                                            document.getElementById('itemName').innerText = id;
 
                                             // Atur URL penghapusan
-                                            var deleteUrl = "/bebujkkonstruksiklasifikasi/delete/" + encodeURIComponent(nama_pengurus);
+                                            var deleteUrl = "/bebujkkonstruksiklasifikasi/delete/" + encodeURIComponent(id);
                                             document.getElementById('deleteForm').action = deleteUrl;
                                         }
 
