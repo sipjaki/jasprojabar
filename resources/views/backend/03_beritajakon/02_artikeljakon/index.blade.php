@@ -104,11 +104,6 @@
          <td style="text-align: left;">{{$item->user->name}}</td>
          <td style="text-align: left;">{{ $item->judul }}</td>
          <td style="text-align: left;">{{ \Carbon\Carbon::parse($item->tanggal)->translatedFormat('l, d F Y') }}</td>
-         <td>
-             <div class="isi-berita" style="text-align: justify;">
-                 {!! $item->keterangan !!}
-             </div>
-         </td>
 
          <td style="text-align: center;">
              <img src="{{ asset('storage/'. $item->foto1) }}" alt="Image" width="300" style="border-radius: 15px;">
@@ -119,6 +114,19 @@
          <td style="text-align: center;">
              <img src="{{ asset('storage/'. $item->foto3) }}" alt="Image" width="300" style="border-radius: 15px;">
          </td>
+
+         <td style="text-align: center;">
+            <object data="{{ asset('storage/' . $item->berkas) }}" type="application/pdf" width="300" height="200">
+                <p>PDF cannot be displayed.</p>
+            </object>
+        </td>
+
+         <td>
+            <div class="isi-berita" style="text-align: justify;">
+                {!! $item->keterangan !!}
+            </div>
+        </td>
+
 
          <td style="text-align: center;">
              <a href="/404" class="btn btn-sm btn-info me-2" title="Show">
