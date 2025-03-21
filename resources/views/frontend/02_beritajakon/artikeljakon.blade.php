@@ -29,12 +29,12 @@
         z-index: 10;"
         >
 			<div class="row">
-				<div class="col-lg-12">
+				<div class="col-lg-8">
 
                     @foreach ($data->skip(0)->take(1) as $item)
                     <div class="news-details-box-image">
                         <div class="news-details-box-image-inner row">
-                            <div class="col-md-8">
+                            <div class="col-md-12">
                                 <img src="{{ asset('storage/' . $item->foto1) }}" class="img-fluid" alt="img-193" style="width: 100%; object-fit: cover;">
                             </div>
                             <div class="col-md-8 d-flex align-items-center justify-content-center">
