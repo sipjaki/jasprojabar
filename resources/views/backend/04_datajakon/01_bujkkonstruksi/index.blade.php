@@ -63,7 +63,20 @@
              <!-- /.card -->
              <div class="card mb-4">
                  <div class="card-header">
-                     <h2 style="color: black; font-weight:900;" class="card-title">Setting Database</h2>
+                    <div style="
+                    font-weight: 900;
+                    font-size: 24px;
+                    text-align: center;
+                    background: linear-gradient(135deg, #1E40AF, #3B82F6);
+                    color: white;
+                    padding: 12px 20px;
+                    border-radius: 10px;
+                    display: inline-block;
+                    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+                ">
+                    ⚙️ Setting Database
+                </div>
+
                      <div style="display: flex; justify-content: flex-end; margin-bottom: 5px;">
                          <a href="/404">
                              <button
@@ -80,7 +93,21 @@
                  </div>
                  <!-- /.card-header -->
                  <div class="card-header">
-                     <h2 style="color: black; font-weight:900;" class="card-title">Halaman Pengaturan : {{$title}} </h2>
+                    <div style="
+                    font-weight: 900;
+                    font-size: 22px;
+                    text-align: center;
+                    background: linear-gradient(135deg, #1E40AF, #3B82F6);
+                    color: white;
+                    padding: 15px 25px;
+                    border-radius: 10px;
+                    display: inline-block;
+                    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+                    width: 100%;
+                ">
+                    📌 Halaman Pengaturan: {{$title}}
+                </div>
+
                      <div style="display: flex; justify-content: flex-end; margin-bottom: 5px;">
                         <div style="position: relative; display: inline-block; margin-right:10px;">
                             <input type="search" id="searchInput" placeholder="Cari Badan Usaha ...." onkeyup="searchTable()" style="border: 1px solid #ccc; padding: 10px 20px; font-size: 14px; border-radius: 10px; width: 300px;">
