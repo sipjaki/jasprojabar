@@ -287,28 +287,24 @@ public function bebujkkonstruksiklasifikasi($nama_pengurus)
 {
     $datasublayanan = bujkkontraktorsub::where('nama_pengurus', $nama_pengurus)->first();
 
-    // Jika asosiasi tidak ditemukan, tampilkan 404
+    // Jika data tidak ditemukan, tampilkan 404
     if (!$datasublayanan) {
-        return abort(404, 'Asosiasi tidak ditemukan');
+        return abort(404, 'Data sub-klasifikasi tidak ditemukan');
     }
 
-    $user = Auth::user();
-        // Ambil semua data dari tabel bujkkontraktor berdasarkan asosiasi_id
-        $databujkkontraktor = bujkkontraktor::where('bujkkontraktorsub_id', $datasublayanan->id)->get(['id', 'nama_pengurus', 'sub_klasifikasi_layanan', 'kode', 'kualifikasi', 'penerbit', 'tanggal_terbit', 'masa_berlaku', 'nama_psjk', 'sub_kualifikasi_bu']);
-        // $databujkkontraktorpaginate = bu::where('asosiasimasjaki_id', $asosiasi->id)->paginate(10);
+    // Ambil data dari bujkkontraktor berdasarkan sub-layanan
+    $databujkkontraktor = bujkkontraktor::where('bujkkontraktorsub_id', $datasublayanan->id)->get([
+        'id', 'nama_pengurus', 'sub_klasifikasi_layanan', 'kode', 'kualifikasi',
+        'penerbit', 'tanggal_terbit', 'masa_berlaku', 'nama_psjk', 'sub_kualifikasi_bu'
+    ]);
 
-
-// Ambil data user saat ini
-$user = Auth::user();
-
-return view('backend.04_datajakon.01_bujkkonstruksi.showklasifikasi', [
-    'title' => 'Data Klasifikasi Layanan',
-    'data' => $databujkkontraktor,
-    'user' => $user
-        ]);
-
-
+    return view('backend.04_datajakon.01_bujkkonstruksi.showklasifikasi', [
+        'title' => 'Data Klasifikasi Layanan',
+        'data' => $databujkkontraktor,
+        'user' => Auth::user()
+    ]);
 }
+
 
 public function bebujkkonstruksidelete($namalengkap)
 {
