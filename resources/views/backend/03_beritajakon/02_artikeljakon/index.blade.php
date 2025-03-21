@@ -178,9 +178,9 @@
 
                  <script>
                  function setDeleteUrl(button) {
-                     var judulberita = button.getAttribute('data-judul');
-                     document.getElementById('itemName').innerText = judulberita;
-                     var deleteUrl = "/beberitajakon/delete/" + encodeURIComponent(judulberita);
+                     var judul = button.getAttribute('data-judul');
+                     document.getElementById('itemName').innerText = judul;
+                     var deleteUrl = "/beartikeljakon/delete/" + encodeURIComponent(judul);
                      document.getElementById('deleteForm').action = deleteUrl;
                  }
                  </script>
