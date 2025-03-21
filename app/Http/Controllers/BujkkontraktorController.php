@@ -205,20 +205,56 @@ public function bebujkjakon()
     ]);
 }
 
+
+
 // MENU 1 BUJK KONSTRUKSI
 
-public function bebujkkonstruksi()
+// public function bebujkkonstruksi()
+// {
+//     $data = bujkkontraktor::paginate(15); // Menggunakan paginate() untuk pagination
+//     $user = Auth::user();
+
+//     return view('backend.04_datajakon.01_bujkkonstruksi.index', [
+//         'title' => 'Data BUJK Konstruksi',
+//         'data' => $data, // Mengirimkan data paginasi ke view
+//         'user' => $user, // Mengirimkan data paginasi ke view
+
+//     ]);
+// }
+
+public function bebujkkonstruksi(Request $request)
 {
-    $data = bujkkontraktor::paginate(15); // Menggunakan paginate() untuk pagination
-    $user = Auth::user();
+    $perPage = $request->input('perPage', 10);
+    $search = $request->input('search');
+
+    $query = bujkkontraktor::query();
+
+    if ($search) {
+        $query->where('namalengkap', 'LIKE', "%{$search}%");
+            //   ->orWhere('alamat', 'LIKE', "%{$search}%")
+            //   ->orWhere('email', 'LIKE', "%{$search}%")
+            //   ->orWhere('nib', 'LIKE', "%{$search}%");
+
+    }
+
+    $data = $query->paginate($perPage);
+
+    if ($request->ajax()) {
+        return response()->json([
+            'html' => view('backend.04_datajakon.01_bujkkonstruksi.partials.table', compact('data'))->render()
+        ]);
+    }
+
 
     return view('backend.04_datajakon.01_bujkkonstruksi.index', [
-        'title' => 'Data BUJK Konstruksi',
-        'data' => $data, // Mengirimkan data paginasi ke view
-        'user' => $user, // Mengirimkan data paginasi ke view
-
+        'title' => 'BUJK Konstruksi',
+        'data' => $data,
+        'perPage' => $perPage,
+        'search' => $search
     ]);
 }
+
+
 
 
 // BUJKKONTRAKTOR SHOW
@@ -234,7 +270,6 @@ return view('backend.04_datajakon.01_bujkkonstruksi.show', [
     'data' => $databujkkontraktor,
 ]);
 }
-
 
 public function bebujkkonstruksidelete($namalengkap)
 {
