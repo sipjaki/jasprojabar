@@ -190,6 +190,20 @@ public function asosiasikonsultanshow($namaasosiasi)
        ]);
     }
 
+// ------------------------------------------------------------------------------------------
+// MENU BACKEND BUJK KONSTRUKSI DAN KONSULTASI
+
+public function bebujkjakon()
+{
+
+    $user = Auth::user();
+
+    return view('backend.04_datajakon.index', [
+        'title' => 'Data BUJK Konstruksi dan Konsultasi Konstruksi ',
+        // 'data' => $data, // Mengirimkan data paginasi ke view
+        'user' => $user, // Mengirimkan data paginasi ke view
+    ]);
+}
 
 
 }

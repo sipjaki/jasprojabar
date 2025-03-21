@@ -453,6 +453,7 @@ Route::delete('/bejabatan/delete/{namalengkap}', [StrukturController::class, 'be
 Route::get('/betupoksi', [StrukturController::class, 'betupoksi'])->middleware('auth');
 Route::get('/betupoksi/update/{id}', [StrukturController::class, 'betupoksiupdate'])->middleware('auth');
 
+
 // ======================================= BERITA JAKON BACKEND -------------------------------------------------------------
 // ---------------------- MENU 1 DAFTAR BERITA MAS JAKI JAKON   -----------------------------------------------------
 // ___________________________________________________________________________________________________________________________________
@@ -468,6 +469,17 @@ Route::get('/beartikeljakon', [BeritajakonController::class, 'beartikeljakon'])-
 // Route::get('/beberitajakon/create', [BeritajakonController::class, 'beberitajakoncreate'])->middleware('auth');
 // Route::get('/beberitajakon/update/{judulberita}', [BeritajakonController::class, 'beberitajakonupdate'])->middleware('auth');
 Route::delete('/beartikeljakon/delete/{judulberita}', [BeritajakonController::class, 'beartikeljakondelete'])->middleware('auth');
+// ___________________________________________________________________________________________________________________________________
+
+
+// ======================================= DATA JAKON BACKEND -------------------------------------------------------------
+// ---------------------- MENU 1 BUJK KONSTRUKSI   -----------------------------------------------------
+// ___________________________________________________________________________________________________________________________________
+Route::get('/bebujkjakon', [BujkkontraktorController::class, 'bebujkjakon'])->middleware('auth');
+// Route::get('/bebujkjakon', [BeritajakonController::class, 'beberitajakon'])->middleware('auth');
+// Route::get('/beberitajakon/create', [BeritajakonController::class, 'beberitajakoncreate'])->middleware('auth');
+// Route::get('/beberitajakon/update/{judulberita}', [BeritajakonController::class, 'beberitajakonupdate'])->middleware('auth');
+Route::delete('/bebujkjakon/delete/{judulberita}', [BeritajakonController::class, 'beberitajakondelete'])->middleware('auth');
 // ___________________________________________________________________________________________________________________________________
 
 
