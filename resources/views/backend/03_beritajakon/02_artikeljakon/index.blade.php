@@ -89,8 +89,11 @@
          <th style="width: 200px; text-align:center;">Penulis</th>
          <th style="width: 250px; text-align:center;">Judul Berita</th>
          <th style="width: 100px; text-align:center;">Tanggal</th>
-         <th style="width: 600px; text-align:center;">Isi Berita</th>
-         <th style="width: 300px; text-align:center;">Foto</th>
+         <th style="width: 300px; text-align:center;">Foto Header</th>
+         <th style="width: 300px; text-align:center;">Foto Isi 1</th>
+         <th style="width: 300px; text-align:center;">Foto Isi 2</th>
+         <th style="width: 300px; text-align:center;">Berkas</th>
+         <th style="width: 300px; text-align:center;">Keterangan</th>
          <th style="width: 225px; text-align:center;">Aksi</th>
      </tr>
  </thead>
@@ -99,16 +102,24 @@
      <tr class="align-middle">
          <td style="text-align: center;">{{ $loop->iteration }}</td>
          <td style="text-align: left;">{{$item->user->name}}</td>
-         <td style="text-align: left;">{!! $item->judulberita !!}</td>
+         <td style="text-align: left;">{{ $item->judul }}</td>
          <td style="text-align: left;">{{ \Carbon\Carbon::parse($item->tanggal)->translatedFormat('l, d F Y') }}</td>
          <td>
              <div class="isi-berita" style="text-align: justify;">
                  {!! $item->keterangan !!}
              </div>
          </td>
+
          <td style="text-align: center;">
-             <img src="{{ asset('storage/'. $item->foto) }}" alt="Image" width="300" style="border-radius: 15px;">
+             <img src="{{ asset('storage/'. $item->foto1) }}" alt="Image" width="300" style="border-radius: 15px;">
          </td>
+         <td style="text-align: center;">
+             <img src="{{ asset('storage/'. $item->foto2) }}" alt="Image" width="300" style="border-radius: 15px;">
+         </td>
+         <td style="text-align: center;">
+             <img src="{{ asset('storage/'. $item->foto3) }}" alt="Image" width="300" style="border-radius: 15px;">
+         </td>
+
          <td style="text-align: center;">
              <a href="/404" class="btn btn-sm btn-info me-2" title="Show">
                  <i class="bi bi-eye"></i>
@@ -117,7 +128,7 @@
                  <i class="bi bi-pencil-square"></i>
              </a>
              <a href="javascript:void(0)" class="btn btn-sm btn-danger" title="Delete" data-bs-toggle="modal" data-bs-target="#deleteModal"
-                data-judul="{{ $item->judulberita }}" onclick="setDeleteUrl(this)">
+                data-judul="{{ $item->judul }}" onclick="setDeleteUrl(this)">
                 <i class="bi bi-trash"></i>
              </a>
          </td>
