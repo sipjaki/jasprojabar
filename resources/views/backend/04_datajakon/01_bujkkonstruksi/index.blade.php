@@ -65,10 +65,6 @@
                  <div class="card-header">
                      <h2 style="color: black; font-weight:900;" class="card-title">Setting Database</h2>
                      <div style="display: flex; justify-content: flex-end; margin-bottom: 5px;">
-                        <div style="position: relative; display: inline-block; margin-right:10px;">
-                            <input type="search" id="searchInput" placeholder="Cari Badan Usaha ...." onkeyup="searchTable()" style="border: 1px solid #ccc; padding: 10px 20px; font-size: 14px; border-radius: 10px; width: 300px;">
-                            <i class="fas fa-search" style="position: absolute; right: 10px; top: 50%; transform: translateY(-50%); font-size: 16px; color: #888;"></i>
-                        </div>
                          <a href="/404">
                              <button
                              onmouseover="this.style.backgroundColor='white'; this.style.color='black';"
@@ -86,7 +82,11 @@
                  <div class="card-header">
                      <h2 style="color: black; font-weight:900;" class="card-title">Halaman Pengaturan : {{$title}} </h2>
                      <div style="display: flex; justify-content: flex-end; margin-bottom: 5px;">
-                         <a href="/bebujkjakon">
+                        <div style="position: relative; display: inline-block; margin-right:10px;">
+                            <input type="search" id="searchInput" placeholder="Cari Badan Usaha ...." onkeyup="searchTable()" style="border: 1px solid #ccc; padding: 10px 20px; font-size: 14px; border-radius: 10px; width: 300px;">
+                            <i class="fas fa-search" style="position: absolute; right: 10px; top: 50%; transform: translateY(-50%); font-size: 16px; color: #888;"></i>
+                        </div>
+                        <a href="/bebujkjakon">
                              <button
                              onmouseover="this.style.backgroundColor='white'; this.style.color='black';"
                              onmouseout="this.style.backgroundColor='#374151'; this.style.color='white';"
