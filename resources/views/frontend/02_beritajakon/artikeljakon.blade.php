@@ -32,13 +32,16 @@
 				<div class="col-lg-8">
 
                     @foreach ($data->skip(0)->take(1) as $item)
-
                     <div class="news-details-box-image">
-                        <div class="news-details-box-image-inner" style="display: flex; gap: 5px; flex-wrap: wrap;">
-                            <img src="{{ asset('storage/' . $item->foto1) }}" class="img-fluid" alt="img-193" style="width: calc(33.33% - 5px); object-fit: cover;">
-                            <a href="#" class="news-details-box-date">
-                                {{ \Carbon\Carbon::parse($item->tanggal)->translatedFormat('l, d F Y') }}
-                            </a>
+                        <div class="news-details-box-image-inner row">
+                            <div class="col-md-8">
+                                <img src="{{ asset('storage/' . $item->foto1) }}" class="img-fluid" alt="img-193" style="width: 100%; object-fit: cover;">
+                            </div>
+                            <div class="col-md-4 d-flex align-items-center justify-content-center">
+                                <a href="#" class="news-details-box-date">
+                                    {{ \Carbon\Carbon::parse($item->tanggal)->translatedFormat('l, d F Y') }}
+                                </a>
+                            </div>
                         </div>
                     </div>
 
@@ -50,9 +53,14 @@
                             {{$item->keterangan}}
                         </p>
 
-                        <img src="{{ asset('storage/' . $item->foto2) }}" class="img-fluid" alt="img-193" style="width: calc(33.33% - 5px); object-fit: cover;">
-                        <img src="{{ asset('storage/' . $item->foto3) }}" class="img-fluid" alt="img-193" style="width: calc(33.33% - 5px); object-fit: cover;">
-
+                        <div class="row">
+                            <div class="col-md-4">
+                                <img src="{{ asset('storage/' . $item->foto2) }}" class="img-fluid" alt="img-193" style="width: 100%; object-fit: cover;">
+                            </div>
+                            <div class="col-md-4">
+                                <img src="{{ asset('storage/' . $item->foto3) }}" class="img-fluid" alt="img-193" style="width: 100%; object-fit: cover;">
+                            </div>
+                        </div>
                     </div><!-- /.news-details-content-box -->
 
                     @endforeach
