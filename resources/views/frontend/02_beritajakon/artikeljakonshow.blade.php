@@ -63,7 +63,7 @@
                                 <img src="{{ asset('storage/' . $data->foto3) }}" class="img-fluid" alt="img-193" style="width: 100%; object-fit: cover;">
                             </div>
                         </div>
-                    </div><!-- /.news-details-content-box -->
+
 
                     <div style="display: inline-block;">
                         <button id="sertifikat-btn" class="badge"
@@ -73,6 +73,9 @@
                             <i class="fas fa-download" style="margin-right:5px;"></i> Download .pdf
                         </button>
                     </div>
+
+                    </div><!-- /.news-details-content-box -->
+
 
             <script>
                 document.getElementById('sertifikat-btn').addEventListener('click', function() {
