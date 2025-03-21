@@ -221,7 +221,6 @@ public function bebujkjakon()
 
 //     ]);
 // }
-
 public function bebujkkonstruksi(Request $request)
 {
     $perPage = $request->input('perPage', 15);
@@ -231,24 +230,21 @@ public function bebujkkonstruksi(Request $request)
 
     if ($search) {
         $query->where('namalengkap', 'LIKE', "%{$search}%")
-          ->orWhere('alamat', 'LIKE', "%{$search}%")
-          ->orWhere('no_telepon', 'LIKE', "%{$search}%")
-          ->orWhere('email', 'LIKE', "%{$search}%")
-          ->orWhere('nomorindukberusaha', 'LIKE', "%{$search}%")
-          ->orWhere('pju', 'LIKE', "%{$search}%")
-          ->orWhere('no_akte', 'LIKE', "%{$search}%")
-          ->orWhere('tanggal', 'LIKE', "%{$search}%")
-          ->orWhere('nama_notaris', 'LIKE', "%{$search}%")
-          ->orWhere('no_pengesahan', 'LIKE', "%{$search}%")
-        ->orWhereHas('bujkkontraktorsub', function ($q) use ($search) {
-            $q->where('namapengurus', 'LIKE', "%{$search}%"); // 'jabatankerja' = nama kolom di tabel jabatankerja
-        })
-        ->orWhereHas('asosiasimasjaki', function ($q) use ($search) {
-            $q->where('namaasosiasi', 'LIKE', "%{$search}%"); // 'jabatankerja' = nama kolom di tabel jabatankerja
-        });
-            //   ->orWhere('email', 'LIKE', "%{$search}%")
-            //   ->orWhere('nib', 'LIKE', "%{$search}%");
-
+              ->orWhere('alamat', 'LIKE', "%{$search}%")
+              ->orWhere('no_telepon', 'LIKE', "%{$search}%")
+              ->orWhere('email', 'LIKE', "%{$search}%")
+              ->orWhere('nomorindukberusaha', 'LIKE', "%{$search}%")
+              ->orWhere('pju', 'LIKE', "%{$search}%")
+              ->orWhere('no_akte', 'LIKE', "%{$search}%")
+              ->orWhere('tanggal', 'LIKE', "%{$search}%")
+              ->orWhere('nama_notaris', 'LIKE', "%{$search}%")
+              ->orWhere('no_pengesahan', 'LIKE', "%{$search}%")
+              ->orWhereHas('bujkkontraktorsub', function ($q) use ($search) {
+                  $q->where('namapengurus', 'LIKE', "%{$search}%");
+              })
+              ->orWhereHas('asosiasimasjaki', function ($q) use ($search) {
+                  $q->where('namaasosiasi', 'LIKE', "%{$search}%");
+              });
     }
 
     $data = $query->paginate($perPage);
@@ -259,7 +255,6 @@ public function bebujkkonstruksi(Request $request)
         ]);
     }
 
-
     return view('backend.04_datajakon.01_bujkkonstruksi.index', [
         'title' => 'BUJK Konstruksi',
         'data' => $data,
@@ -267,6 +262,7 @@ public function bebujkkonstruksi(Request $request)
         'search' => $search
     ]);
 }
+
 
 
 
