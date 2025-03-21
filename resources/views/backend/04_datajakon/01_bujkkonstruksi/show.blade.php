@@ -85,16 +85,16 @@
                                                 <input class="form-control" value="{{$data->no_telepon}}" readonly/>
                                             </div>
 
-                                        </div>
-                                        <!-- End Left Column -->
-
-                                        <!-- Right Column (6/12) -->
-                                        <div class="col-md-6">
                                             <div class="mb-3">
                                                 <label class="form-label">Email</label>
                                                 <input class="form-control" value="{{$data->email}}" readonly/>
                                             </div>
 
+                                        </div>
+                                        <!-- End Left Column -->
+
+                                        <!-- Right Column (6/12) -->
+                                        <div class="col-md-6">
                                             <div class="mb-3">
                                                 <label class="form-label">Nomor Induk Berusaha</label>
                                                 <input class="form-control" value="{{$data->nomorindukberusaha}}" readonly/>
@@ -112,7 +112,7 @@
 
                                             <div class="mb-3">
                                                 <label class="form-label">Tanggal Terbit</label>
-                                                <input class="form-control" value="{{$data->tanggal}}" readonly/>
+                                                <input class="form-control" value="{{ \Carbon\Carbon::parse($data->tanggal)->translatedFormat('d F Y') }}" readonly/>
                                             </div>
 
                                             <div class="mb-3">
