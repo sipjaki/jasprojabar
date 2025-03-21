@@ -11884,7 +11884,7 @@ artikeljakonmasjaki::create([
     'foto3' => '00_beranda/02_artikeljakon/artikeljakon.jpg',
     'berkas' => '00_beranda/02_artikeljakon/artikeljakon.pdf',
     'tanggal' => null,
-    'keterangan' => 'Artikel ini membahas manfaat dan implementasi sistem informasi dalam industri jasa konstruksi.',
+    'keterangan' => 'Sistem informasi dalam jasa konstruksi memberikan berbagai manfaat, termasuk peningkatan efisiensi, transparansi, serta pengelolaan proyek yang lebih baik. Artikel ini membahas bagaimana implementasi sistem ini dapat membantu industri konstruksi berkembang lebih optimal.',
 ]);
 
 artikeljakonmasjaki::create([
@@ -11894,7 +11894,7 @@ artikeljakonmasjaki::create([
     'foto3' => '00_beranda/02_artikeljakon/artikeljakon.jpg',
     'berkas' => '00_beranda/02_artikeljakon/artikeljakon.pdf',
     'tanggal' => null,
-    'keterangan' => 'Artikel ini mengulas bagaimana digitalisasi membantu manajemen proyek konstruksi melalui sistem informasi.',
+    'keterangan' => 'Dalam era digital, manajemen proyek konstruksi semakin bergantung pada sistem informasi untuk meningkatkan efisiensi, akurasi data, dan pengambilan keputusan yang lebih baik. Artikel ini mengulas berbagai manfaat digitalisasi dalam pengelolaan proyek.',
 ]);
 
 artikeljakonmasjaki::create([
@@ -11904,7 +11904,7 @@ artikeljakonmasjaki::create([
     'foto3' => '00_beranda/02_artikeljakon/artikeljakon.jpg',
     'berkas' => '00_beranda/02_artikeljakon/artikeljakon.pdf',
     'tanggal' => null,
-    'keterangan' => 'Panduan ini memberikan tips dalam memilih sistem informasi yang sesuai untuk perusahaan konstruksi.',
+    'keterangan' => 'Pemilihan sistem informasi yang tepat sangat penting bagi perusahaan konstruksi agar operasional berjalan lebih efektif dan efisien. Artikel ini memberikan panduan dalam menentukan sistem yang sesuai dengan kebutuhan perusahaan.',
 ]);
 
 artikeljakonmasjaki::create([
@@ -11914,7 +11914,7 @@ artikeljakonmasjaki::create([
     'foto3' => '00_beranda/02_artikeljakon/artikeljakon.jpg',
     'berkas' => '00_beranda/02_artikeljakon/artikeljakon.pdf',
     'tanggal' => null,
-    'keterangan' => 'Artikel ini membahas tantangan serta solusi dalam menjaga keamanan data pada sistem informasi jasa konstruksi.',
+    'keterangan' => 'Keamanan data dalam sistem informasi jasa konstruksi menjadi tantangan utama di era digital. Artikel ini membahas berbagai risiko keamanan dan solusi untuk melindungi data dari ancaman siber serta kebocoran informasi.',
 ]);
 
 artikeljakonmasjaki::create([
@@ -11924,7 +11924,7 @@ artikeljakonmasjaki::create([
     'foto3' => '00_beranda/02_artikeljakon/artikeljakon.jpg',
     'berkas' => '00_beranda/02_artikeljakon/artikeljakon.pdf',
     'tanggal' => null,
-    'keterangan' => 'Artikel ini menjelaskan bagaimana sistem manajemen informasi dapat meningkatkan produktivitas dalam konstruksi.',
+    'keterangan' => 'Penggunaan sistem manajemen informasi dalam industri konstruksi dapat meningkatkan produktivitas, mempercepat proses kerja, dan mengurangi kesalahan manusia. Artikel ini mengulas bagaimana teknologi ini membantu sektor konstruksi berkembang lebih baik.',
 ]);
 
 artikeljakonmasjaki::create([
@@ -11934,7 +11934,7 @@ artikeljakonmasjaki::create([
     'foto3' => '00_beranda/02_artikeljakon/artikeljakon.jpg',
     'berkas' => '00_beranda/02_artikeljakon/artikeljakon.pdf',
     'tanggal' => null,
-    'keterangan' => 'Artikel ini mengupas tren digital dalam konstruksi, termasuk integrasi Building Information Modeling (BIM).',
+    'keterangan' => 'Integrasi Building Information Modeling (BIM) dengan sistem informasi membuka peluang baru dalam industri konstruksi. Artikel ini membahas tren digitalisasi dan bagaimana teknologi ini mengoptimalkan proses pembangunan.',
 ]);
 
 artikeljakonmasjaki::create([
@@ -11944,7 +11944,7 @@ artikeljakonmasjaki::create([
     'foto3' => '00_beranda/02_artikeljakon/artikeljakon.jpg',
     'berkas' => '00_beranda/02_artikeljakon/artikeljakon.pdf',
     'tanggal' => null,
-    'keterangan' => 'Artikel ini membahas regulasi serta standar dalam penggunaan sistem informasi jasa konstruksi di Indonesia.',
+    'keterangan' => 'Di Indonesia, penggunaan sistem informasi jasa konstruksi harus mematuhi regulasi dan standar yang telah ditetapkan. Artikel ini mengulas aturan yang berlaku serta pentingnya kepatuhan dalam implementasi sistem tersebut.',
 ]);
 
 artikeljakonmasjaki::create([
@@ -11954,7 +11954,7 @@ artikeljakonmasjaki::create([
     'foto3' => '00_beranda/02_artikeljakon/artikeljakon.jpg',
     'berkas' => '00_beranda/02_artikeljakon/artikeljakon.pdf',
     'tanggal' => null,
-    'keterangan' => 'Artikel ini membahas strategi penerapan sistem informasi guna mengoptimalkan pengelolaan proyek konstruksi.',
+    'keterangan' => 'Implementasi sistem informasi dalam pengelolaan proyek konstruksi dapat meningkatkan efisiensi, mengurangi biaya, dan mempercepat penyelesaian proyek. Artikel ini membahas strategi terbaik dalam penerapannya.',
 ]);
 
 // ARIS AKHIR
