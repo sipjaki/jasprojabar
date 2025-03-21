@@ -1254,3 +1254,13 @@ sidebarItems.forEach(item => {
 });
 
             </script>
+
+
+
+{{-- -------------------------- warna piliha  --}}
+
+Create	Hijau Tua	#166534	Warna hijau yang deep dan profesional
+Update	Hijau Medium	#22C55E	Masih hijau, tapi lebih fresh
+Delete	Merah Gelap	#DC2626	Kontras dengan hijau, biar tegas
+Database	Biru Navy	#1E40AF	Biar terkesan stabil & profesional
+Kembali	Abu-Abu Tua	#374151	Netral, biar nggak menarik perhatian berlebih
