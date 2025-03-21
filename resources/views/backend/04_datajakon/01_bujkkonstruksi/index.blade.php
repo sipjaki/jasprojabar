@@ -72,7 +72,7 @@
                              style="background-color: #018f94; color: white; border: none; margin-right: 10px; padding: 10px 20px; border-radius: 15px; font-size: 16px; cursor: pointer; display: flex; align-items: center; transition: background-color 0.3s, color 0.3s; text-decoration: none;">
                              <!-- Ikon Kembali -->
                              <i class="fa fa-database" style="margin-right: 8px;"></i>
-                             Settings Asosiasi
+                             Asosiasi
                          </button>
                          </a>
 
