@@ -110,16 +110,48 @@
         <span class="mdi mdi-close close"></span>
     </div> --}}
 
-    @if (session('delete'))
+    {{-- @if (session('delete'))
     <div class="alert alert-error alert-dismissible fade show" role="alert">
         <div class="icon__wrapper">
-            <!-- Ikon menggunakan Font Awesome -->
             <span class="fas fa-bomb"></span>  <!-- Ikon dengan efek keren -->
         </div>
         <p>{{ session('delete') }}</p>
-        <!-- Tombol untuk menutup alert -->
         <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
     </div>
-@endif
+    @endif --}}
+
+    <!-- Modal Alert -->
+    @if (session('delete'))
+    <div class="modal fade" id="alertModal" tabindex="-1" aria-labelledby="alertModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content text-center" style="border-radius: 12px;">
+                <div class="modal-header border-0 d-flex justify-content-center">
+                    <h5 class="modal-title fw-bold" id="alertTitle">Notifikasi</h5>
+                </div>
+                <div class="modal-body">
+                    <p class="fw-semibold text-dark" id="alertMessage">{{ session('delete') }}</p>
+                </div>
+                <div class="modal-footer border-0 d-flex justify-content-center">
+                    <button type="button" class="btn btn-primary px-4" data-bs-dismiss="modal">OK</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    @endif
+
+<script>
+function showAlertModal(title, message) {
+    document.getElementById('alertTitle').innerText = title;
+    document.getElementById('alertMessage').innerText = message;
+
+    var alertModal = new bootstrap.Modal(document.getElementById('alertModal'));
+    alertModal.show();
+}
+
+// Contoh Pemakaian:
+// showAlertModal("Berhasil!", "Data telah dihapus.");
+// showAlertModal("Gagal!", "Terjadi kesalahan saat menghapus data.");
+</script>
+
 
 </div>
