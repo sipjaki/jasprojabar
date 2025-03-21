@@ -35,11 +35,11 @@
                     <div class="news-details-box-image">
                         <div class="news-details-box-image-inner row">
                             <div class="col-md-12">
-                                <img src="{{ asset('storage/' . $item->foto1) }}" class="img-fluid" alt="img-193" style="width: 100%; object-fit: cover;">
+                                <img src="{{ asset('storage/' . $data->foto1) }}" class="img-fluid" alt="img-193" style="width: 100%; object-fit: cover;">
                             </div>
                             <div class="col-md-8 d-flex align-items-center justify-content-center">
                                 <a href="#" class="news-details-box-date">
-                                    {{ \Carbon\Carbon::parse($item->tanggal)->translatedFormat('l, d F Y') }}
+                                    {{ \Carbon\Carbon::parse($data->tanggal)->translatedFormat('l, d F Y') }}
                                 </a>
                             </div>
                         </div>
@@ -48,19 +48,19 @@
                     <br><br>
 
                     <div class="news-details-content-box" style="margin-left: 25px;">
-                        <h4 style="text-align: justify;">{{$item->judul}}</h4>
+                        <h4 style="text-align: justify;">{{$data->judul}}</h4>
                         <br>
                         <h5 style="text-align: justify;">
-                            {{$item->keterangan}}
+                            {{$data->keterangan}}
                         </h5>
 
                         <br>
                         <div class="row">
                             <div class="col-md-6">
-                                <img src="{{ asset('storage/' . $item->foto2) }}" class="img-fluid" alt="img-193" style="width: 100%; object-fit: cover;">
+                                <img src="{{ asset('storage/' . $data->foto2) }}" class="img-fluid" alt="img-193" style="width: 100%; object-fit: cover;">
                             </div>
                             <div class="col-md-6">
-                                <img src="{{ asset('storage/' . $item->foto3) }}" class="img-fluid" alt="img-193" style="width: 100%; object-fit: cover;">
+                                <img src="{{ asset('storage/' . $data->foto3) }}" class="img-fluid" alt="img-193" style="width: 100%; object-fit: cover;">
                             </div>
                         </div>
                     </div><!-- /.news-details-content-box -->
