@@ -70,32 +70,44 @@
                                         <!-- Left Column (6/12) -->
                                         <div class="col-md-6">
                                             <div class="mb-3">
-                                                <label class="form-label"><i class="bi bi-people-fill" style="margin-right: 8px;"></i>Nama Asosiasi</label>
+                                                <label class="form-label">
+                                                    <i class="bi bi-people-fill" style="margin-right: 8px; color: navy;"></i>Nama Asosiasi
+                                                </label>
                                                 <input class="form-control" value="{{$data->asosiasimasjaki->namaasosiasi}}" readonly/>
                                             </div>
 
                                             <div class="mb-3">
-                                                <label class="form-label"><i class="bi bi-building" style="margin-right: 8px;"></i>Badan Usaha Jasa Konstruksi</label>
+                                                <label class="form-label">
+                                                    <i class="bi bi-building" style="margin-right: 8px; color: navy;"></i>Badan Usaha Jasa Konstruksi
+                                                </label>
                                                 <input class="form-control" value="{{$data->namalengkap}}" readonly />
                                             </div>
 
                                             <div class="mb-3">
-                                                <label class="form-label"><i class="bi bi-geo-alt-fill" style="margin-right: 8px;"></i>Alamat</label>
+                                                <label class="form-label">
+                                                    <i class="bi bi-geo-alt-fill" style="margin-right: 8px; color: navy;"></i>Alamat
+                                                </label>
                                                 <input class="form-control" value="{{$data->alamat}}" readonly/>
                                             </div>
 
                                             <div class="mb-3">
-                                                <label class="form-label"><i class="bi bi-telephone-fill" style="margin-right: 8px;"></i>No Telepon</label>
+                                                <label class="form-label">
+                                                    <i class="bi bi-telephone-fill" style="margin-right: 8px; color: navy;"></i>No Telepon
+                                                </label>
                                                 <input class="form-control" value="{{$data->no_telepon}}" readonly/>
                                             </div>
 
                                             <div class="mb-3">
-                                                <label class="form-label"><i class="bi bi-envelope-fill" style="margin-right: 8px;"></i>Email</label>
+                                                <label class="form-label">
+                                                    <i class="bi bi-envelope-fill" style="margin-right: 8px; color: navy;"></i>Email
+                                                </label>
                                                 <input class="form-control" value="{{$data->email}}" readonly/>
                                             </div>
 
                                             <div class="mb-3">
-                                                <label class="form-label"><i class="bi bi-card-checklist" style="margin-right: 8px;"></i>Nomor Induk Berusaha</label>
+                                                <label class="form-label">
+                                                    <i class="bi bi-card-checklist" style="margin-right: 8px; color: navy;"></i>Nomor Induk Berusaha
+                                                </label>
                                                 <input class="form-control" value="{{$data->nomorindukberusaha}}" readonly/>
                                             </div>
                                         </div>
