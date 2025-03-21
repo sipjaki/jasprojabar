@@ -66,7 +66,7 @@
                                     </tr>
                                 </thead>
                                 <tbody>
-
+                                @foreach ($data as $item )
                                     <tr class="align-middle">
                                         <td style="text-align: center;">{{ $loop->iteration }}</td>
                                         <td style="text-align: center;">{{ $data->nama_pengurus }}</td>
@@ -148,6 +148,7 @@
                                         </td>
 
                                     </tr>
+                                        @endforeach
 
                                 </tbody>
                             </table>
