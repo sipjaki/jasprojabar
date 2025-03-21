@@ -5,7 +5,13 @@
     <div class="custom-pagination-info-box"
     style="padding: 12px 20px; border-radius: 8px; margin-bottom: 15px;
            background-color: #14532D; border: 1px solid #16A34A; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-           display: flex; align-items: center; justify-content: center;">
+           display: flex; align-items: center; justify-content: center;
+           transition: all 0.3s ease-in-out;"
+    onmouseover="this.style.backgroundColor='white'; this.style.color='#14532D';
+                 this.querySelector('.custom-pagination-info').style.color='#14532D';"
+    onmouseout="this.style.backgroundColor='#14532D'; this.style.color='white';
+                 this.querySelector('.custom-pagination-info').style.color='white';">
+
     <div class="custom-pagination-info"
         style="color: white; font-weight: 600; font-size: 18px; text-align: center;">
         📊 Data Ke <span style="color: #16A34A;">{{ $data->firstItem() }}</span>
