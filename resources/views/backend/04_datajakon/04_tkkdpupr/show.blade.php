@@ -71,42 +71,42 @@
                                         <div class="col-md-6">
                                             <div class="mb-3">
                                                 <label class="form-label">
-                                                    <i class="bi bi-people-fill" style="margin-right: 8px; color: navy;"></i>Nama Lengkap
+                                                    <i class="bi bi-person-fill" style="margin-right: 8px; color: navy;"></i>Nama Lengkap
                                                 </label>
                                                 <input class="form-control" value="{{$data->nama}}" readonly/>
                                             </div>
 
                                             <div class="mb-3">
                                                 <label class="form-label">
-                                                    <i class="bi bi-building" style="margin-right: 8px; color: navy;"></i>Alamat
+                                                    <i class="bi bi-geo-alt-fill" style="margin-right: 8px; color: navy;"></i>Alamat
                                                 </label>
                                                 <input class="form-control" value="{{$data->alamat}}" readonly />
                                             </div>
 
                                             <div class="mb-3">
                                                 <label class="form-label">
-                                                    <i class="bi bi-geo-alt-fill" style="margin-right: 8px; color: navy;"></i>Tahun Lulus
+                                                    <i class="bi bi-calendar-check" style="margin-right: 8px; color: navy;"></i>Tahun Lulus
                                                 </label>
                                                 <input class="form-control" value="{{$data->tahunlulus}}" readonly/>
                                             </div>
 
                                             <div class="mb-3">
                                                 <label class="form-label">
-                                                    <i class="bi bi-telephone-fill" style="margin-right: 8px; color: navy;"></i>Univeritas/Sekolah/Instansi
+                                                    <i class="bi bi-mortarboard-fill" style="margin-right: 8px; color: navy;"></i>Universitas/Sekolah/Instansi
                                                 </label>
                                                 <input class="form-control" value="{{$data->namasekolah->namasekolah}}" readonly/>
                                             </div>
 
                                             <div class="mb-3">
                                                 <label class="form-label">
-                                                    <i class="bi bi-envelope-fill" style="margin-right: 8px; color: navy;"></i>Jenjang Pendidikan
+                                                    <i class="bi bi-award-fill" style="margin-right: 8px; color: navy;"></i>Jenjang Pendidikan
                                                 </label>
                                                 <input class="form-control" value="{{$data->jenjangpendidikan->jenjangpendidikan}}" readonly/>
                                             </div>
 
                                             <div class="mb-3">
                                                 <label class="form-label">
-                                                    <i class="bi bi-card-checklist" style="margin-right: 8px; color: navy;"></i>Jabatan Kerja
+                                                    <i class="bi bi-briefcase-fill" style="margin-right: 8px; color: navy;"></i>Jabatan Kerja
                                                 </label>
                                                 <input class="form-control" value="{{$data->jabatankerja->jabatankerja}}" readonly/>
                                             </div>
@@ -114,52 +114,48 @@
                                         <!-- End Left Column -->
                                         <!-- Right Column (6/12) -->
                                         <div class="col-md-6">
-
                                             <div class="mb-3">
                                                 <label class="form-label">
-                                                    <i class="bi bi-person-badge-fill" style="margin-right: 8px; color: navy;"></i>Jenjang
+                                                    <i class="bi bi-award-fill" style="margin-right: 8px; color: navy;"></i>Jenjang
                                                 </label>
                                                 <input class="form-control" value="{{$data->jenjang->jenjang}}" readonly/>
                                             </div>
 
                                             <div class="mb-3">
                                                 <label class="form-label">
-                                                    <i class="bi bi-file-earmark-text-fill" style="margin-right: 8px; color: navy;"></i>LPS Penerbit
+                                                    <i class="bi bi-building-fill" style="margin-right: 8px; color: navy;"></i>LPS Penerbit
                                                 </label>
                                                 <input class="form-control" value="{{$data->lpspenerbit->lpspenerbit}}" readonly/>
                                             </div>
 
                                             <div class="mb-3">
                                                 <label class="form-label">
-                                                    <i class="bi bi-file-earmark-text-fill" style="margin-right: 8px; color: navy;"></i>Jurusan
+                                                    <i class="bi bi-book-fill" style="margin-right: 8px; color: navy;"></i>Jurusan
                                                 </label>
                                                 <input class="form-control" value="{{$data->jurusan->jurusan}}" readonly/>
                                             </div>
 
                                             <div class="mb-3">
                                                 <label class="form-label">
-                                                    <i class="bi bi-calendar-event-fill" style="margin-right: 8px; color: navy;"></i>Tanggal Terbit
+                                                    <i class="bi bi-calendar-check-fill" style="margin-right: 8px; color: navy;"></i>Tanggal Terbit
                                                 </label>
                                                 <input class="form-control" value="{{ \Carbon\Carbon::parse($data->tanggalterbit)->translatedFormat('d F Y') }}" readonly/>
                                             </div>
 
                                             <div class="mb-3">
                                                 <label class="form-label">
-                                                    <i class="bi bi-calendar-event-fill" style="margin-right: 8px; color: navy;"></i>Tanggal Habis
+                                                    <i class="bi bi-calendar-x-fill" style="margin-right: 8px; color: navy;"></i>Tanggal Habis
                                                 </label>
                                                 <input class="form-control" value="{{ \Carbon\Carbon::parse($data->tanggalhabis)->translatedFormat('d F Y') }}" readonly/>
                                             </div>
 
                                             <div class="mb-3">
                                                 <label class="form-label">
-                                                    <i class="bi bi-person-vcard-fill" style="margin-right: 8px; color: navy;"></i>Status Terbit
+                                                    <i class="bi bi-shield-check" style="margin-right: 8px; color: navy;"></i>Status Terbit
                                                 </label>
                                                 <input class="form-control" value="{{$data->statusterbit}}" readonly/>
                                             </div>
-
                                         </div>
-                                        <!-- End Right Column -->
-
 
                                     </div> <!-- end row -->
                                 </div>
