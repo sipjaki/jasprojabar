@@ -109,15 +109,19 @@
                                 @foreach ($subdata as $item )
                                     <tr class="align-middle">
                                         <td style="text-align: center;">{{ $loop->iteration }}</td>
-                                        <td style="text-align: center;">{{ $item->nama_pengurus }}</td>
-                                        <td style="text-align: center;">{{ $item->sub_klasifikasi_layanan }}</td>
+                                        <td style="text-align: left;">{{ $item->nama_pengurus }}</td>
+                                        <td style="text-align: left;">{{ $item->sub_klasifikasi_layanan }}</td>
                                         <td style="text-align: center;">{{ $item->kode }}</td>
                                         <td style="text-align: center;">{{ $item->kualifikasi }}</td>
-                                        <td style="text-align: center;">{{ $item->penerbit }}</td>
-                                        <td style="text-align: center;">{{ $item->tanggal_terbit }}</td>
-                                        <td style="text-align: center;">{{ $item->masa_berlaku }}</td>
-                                        <td style="text-align: center;">{{ $item->nama_psjk }}</td>
-                                        <td style="text-align: center;">{{ $item->sub_kualifikasi_bu }}</td>
+                                        <td style="text-align: left;">{{ $item->penerbit }}</td>
+                                        <td style="text-align: center;">
+                                            {{ \Carbon\Carbon::parse($item->tanggal_terbit)->translatedFormat('d F Y') }}
+                                        </td>
+                                        <td style="text-align: center;">
+                                            {{ \Carbon\Carbon::parse($item->masa_berlaku)->translatedFormat('d F Y') }}
+                                        </td>
+                                               <td style="text-align: left;">{{ $item->nama_psjk }}</td>
+                                        <td style="text-align: left;">{{ $item->sub_kualifikasi_bu }}</td>
                                         <td style="text-align: center;">
                                             <!-- Show Icon -->
                                          {{-- <a href="/404" class="btn btn-sm btn-info me-2" title="Show">
