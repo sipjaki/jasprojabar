@@ -78,6 +78,18 @@
                 </div>
 
                      <div style="display: flex; justify-content: flex-end; margin-bottom: 5px;">
+
+                        <a href="/404">
+                             <button
+                             onmouseover="this.style.backgroundColor='white'; this.style.color='black';"
+                             onmouseout="this.style.backgroundColor='#166534'; this.style.color='white';"
+                             style="background-color: #166534; color: white; border: none; margin-right: 10px; padding: 10px 20px; border-radius: 15px; font-size: 16px; cursor: pointer; display: flex; align-items: center; transition: background-color 0.3s, color 0.3s; text-decoration: none;">
+                             <!-- Ikon Kembali -->
+                             <i class="fa fa-database" style="margin-right: 8px;"></i>
+                             Universitas/Sekolah/Instansi
+                         </button>
+                         </a>
+
                          <a href="/404">
                              <button
                              onmouseover="this.style.backgroundColor='white'; this.style.color='black';"
@@ -85,7 +97,51 @@
                              style="background-color: #166534; color: white; border: none; margin-right: 10px; padding: 10px 20px; border-radius: 15px; font-size: 16px; cursor: pointer; display: flex; align-items: center; transition: background-color 0.3s, color 0.3s; text-decoration: none;">
                              <!-- Ikon Kembali -->
                              <i class="fa fa-database" style="margin-right: 8px;"></i>
-                             Asosiasi
+                             Jenjang Pendidikan
+                         </button>
+                         </a>
+
+                         <a href="/404">
+                             <button
+                             onmouseover="this.style.backgroundColor='white'; this.style.color='black';"
+                             onmouseout="this.style.backgroundColor='#166534'; this.style.color='white';"
+                             style="background-color: #166534; color: white; border: none; margin-right: 10px; padding: 10px 20px; border-radius: 15px; font-size: 16px; cursor: pointer; display: flex; align-items: center; transition: background-color 0.3s, color 0.3s; text-decoration: none;">
+                             <!-- Ikon Kembali -->
+                             <i class="fa fa-database" style="margin-right: 8px;"></i>
+                             Jabatan Kerja
+                         </button>
+                         </a>
+
+                         <a href="/404">
+                             <button
+                             onmouseover="this.style.backgroundColor='white'; this.style.color='black';"
+                             onmouseout="this.style.backgroundColor='#166534'; this.style.color='white';"
+                             style="background-color: #166534; color: white; border: none; margin-right: 10px; padding: 10px 20px; border-radius: 15px; font-size: 16px; cursor: pointer; display: flex; align-items: center; transition: background-color 0.3s, color 0.3s; text-decoration: none;">
+                             <!-- Ikon Kembali -->
+                             <i class="fa fa-database" style="margin-right: 8px;"></i>
+                             Jenjang
+                         </button>
+                         </a>
+
+                         <a href="/404">
+                             <button
+                             onmouseover="this.style.backgroundColor='white'; this.style.color='black';"
+                             onmouseout="this.style.backgroundColor='#166534'; this.style.color='white';"
+                             style="background-color: #166534; color: white; border: none; margin-right: 10px; padding: 10px 20px; border-radius: 15px; font-size: 16px; cursor: pointer; display: flex; align-items: center; transition: background-color 0.3s, color 0.3s; text-decoration: none;">
+                             <!-- Ikon Kembali -->
+                             <i class="fa fa-database" style="margin-right: 8px;"></i>
+                             LPS Penerbit
+                         </button>
+                         </a>
+
+                         <a href="/404">
+                             <button
+                             onmouseover="this.style.backgroundColor='white'; this.style.color='black';"
+                             onmouseout="this.style.backgroundColor='#166534'; this.style.color='white';"
+                             style="background-color: #166534; color: white; border: none; margin-right: 10px; padding: 10px 20px; border-radius: 15px; font-size: 16px; cursor: pointer; display: flex; align-items: center; transition: background-color 0.3s, color 0.3s; text-decoration: none;">
+                             <!-- Ikon Kembali -->
+                             <i class="fa fa-database" style="margin-right: 8px;"></i>
+                             Jurusan
                          </button>
                          </a>
 
@@ -178,7 +234,7 @@
          <th style="width: 100px; text-align:center;">Jenjang</th>
          <th style="width: 400px; text-align:center;">LPS Penerbit</th>
          <th style="width: 200px; text-align:center;">Jurusan</th>
-         <th style="width: 100px; text-align:center;">Tanggal Terbit</th>
+         <th style="width: 200px; text-align:center;">Tanggal Terbit</th>
          <th style="width: 200px; text-align:center;">Tanggal Habis</th>
          <th style="width: 200px; text-align:center;">Status Terbit</th>
          <th style="width: 200px; text-align:center;">Aksi</th>
