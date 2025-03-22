@@ -339,11 +339,13 @@ if ($entry) {
 // }
 
 // Hapus entri dari database
+
+$parentId = $entry->bujkkontraktor_id; // Sesuaikan dengan nama kolom di database
 $entry->delete();
 
-// Redirect atau memberi respons sesuai kebutuhan
-return redirect()->route('bebujkkonstruksi.showsubklasifikasi', ['id' => $id])
-    ->with('delete', 'Data Berhasil Di Hapus !');
+return redirect()->route('bebujkkonstruksi.showsubklasifikasi', ['id' => $parentId])
+    ->with('delete', 'Data Berhasil Dihapus!');
+
 }
 
 return redirect()->back()->with('error', 'Item not found');
