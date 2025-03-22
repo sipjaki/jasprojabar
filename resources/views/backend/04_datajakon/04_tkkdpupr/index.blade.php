@@ -253,13 +253,32 @@
          <td style="text-align: center;">{{ \Carbon\Carbon::parse($item->tanggalterbit)->translatedFormat('l, d F Y') }}</td>
          <td style="text-align: center;">{{ \Carbon\Carbon::parse($item->tanggalhabis)->translatedFormat('l, d F Y') }}</td>
 
-<td style="text-align: center;">
-    @if(\Carbon\Carbon::now()->greaterThan(\Carbon\Carbon::parse($item->tanggalhabis)))
-        <button class="btn btn-danger btn-sm">TIDAK BERLAKU</button>
-    @else
-        <button class="btn btn-success btn-sm">BERLAKU</button>
-    @endif
-</td>
+         <td style="text-align: center;">
+            <button id="status-{{ $item->id }}" class="btn btn-sm"></button>
+        </td>
+
+        <script>
+            function updateStatus() {
+                let now = new Date().getTime();
+                let tanggalHabis = new Date("{{ \Carbon\Carbon::parse($item->tanggalhabis)->format('Y-m-d H:i:s') }}").getTime();
+                let statusButton = document.getElementById("status-{{ $item->id }}");
+
+                if (now > tanggalHabis) {
+                    statusButton.innerText = "TIDAK BERLAKU";
+                    statusButton.className = "btn btn-danger btn-sm";
+                } else {
+                    statusButton.innerText = "BERLAKU";
+                    statusButton.className = "btn btn-success btn-sm";
+                }
+            }
+
+            // Jalankan pertama kali saat halaman dimuat
+            updateStatus();
+
+            // Update setiap 1 detik untuk realtime
+            setInterval(updateStatus, 1000);
+        </script>
+
          <td style="text-align: center;">{{$item->statusterbit}}</td>
 
          <td style="text-align: center; vertical-align: middle;">
