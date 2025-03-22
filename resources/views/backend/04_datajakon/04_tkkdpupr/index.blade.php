@@ -169,18 +169,18 @@
  <thead>
      <tr>
          <th style="width: 75px; text-align:center;">No</th>
-         <th style="width: 200px; text-align:center;">Nama Lengkap</th>
-         <th style="width: 250px; text-align:center;">Alamat </th>
-         <th style="width: 250px; text-align:center;">Tahun Lulus</th>
-         <th style="width: 200px; text-align:center;">Universitas/Sekolah/Instansi</th>
-         <th style="width: 250px; text-align:center;">Pendidikan</th>
-         <th style="width: 150px; text-align:center;">Jabatan Kerja</th>
-         <th style="width: 200px; text-align:center;">Jenjang</th>
-         <th style="width: 150px; text-align:center;">LPS Penerbit</th>
-         <th style="width: 250px; text-align:center;">Jurusan</th>
-         <th style="width: 300px; text-align:center;">Tanggal Terbit</th>
-         <th style="width: 300px; text-align:center;">Tanggal Habis</th>
-         <th style="width: 120px; text-align:center;">Status Terbit</th>
+         <th style="width: 400px; text-align:center;">Nama Lengkap</th>
+         <th style="width: 400px; text-align:center;">Alamat </th>
+         <th style="width: 100px; text-align:center;">Tahun Lulus</th>
+         <th style="width: 400px; text-align:center;">Universitas/Sekolah/Instansi</th>
+         <th style="width: 100px; text-align:center;">Pendidikan</th>
+         <th style="width: 400px; text-align:center;">Jabatan Kerja</th>
+         <th style="width: 100px; text-align:center;">Jenjang</th>
+         <th style="width: 400px; text-align:center;">LPS Penerbit</th>
+         <th style="width: 200px; text-align:center;">Jurusan</th>
+         <th style="width: 100px; text-align:center;">Tanggal Terbit</th>
+         <th style="width: 100px; text-align:center;">Tanggal Habis</th>
+         <th style="width: 100px; text-align:center;">Status Terbit</th>
          <th style="width: 200px; text-align:center;">Aksi</th>
      </tr>
  </thead>
