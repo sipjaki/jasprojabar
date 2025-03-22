@@ -506,8 +506,9 @@ Route::delete('/beasosiasi/delete/{id}', [BujkkontraktorController::class, 'beas
 // ___________________________________________________________________________________________________________________________________
 
 
-// ________________________________________________________________________________________________________________
 // ---------------------- MENU 02 DATA SKK TENAGA KERJA DISELENGGARAKAN DPUPR KABUPATEN BLORA -----------------------------------------------------
+// ________________________________________________________________________________________________________________
+// ---------------------- MENU 1 DATA SKK TENAGA KERJA DISELENGGARAKAN DPUPR KABUPATEN BLORA -----------------------------------------------------
 // ___________________________________________________________________________________________________________________________________
 Route::get('/beskkdpupr', [SkktenagakerjabloraController::class, 'beskkdpupr'])->middleware('auth');
 Route::get('/beskkdpupr/show/{nama}', [SkktenagakerjabloraController::class, 'beskkdpuprshow'])->middleware('auth');
@@ -516,11 +517,11 @@ Route::delete('/beskkdpupr/delete/{nama}', [SkktenagakerjabloraController::class
 
 
 // ________________________________________________________________________________________________________________
-// ---------------------- MENU 03 DATA SEMUA SKK TENAGA KERJA KABUPATEN BLORA -----------------------------------------------------
+// ---------------------- MENU 2 DATA SEMUA SKK TENAGA KERJA KABUPATEN BLORA -----------------------------------------------------
 // ___________________________________________________________________________________________________________________________________
-Route::get('/beskkdpupr', [SkktenagakerjabloraController::class, 'beskkdpupr'])->middleware('auth');
-Route::get('/beskkdpupr/show/{nama}', [SkktenagakerjabloraController::class, 'beskkdpuprshow'])->middleware('auth');
-Route::delete('/beskkdpupr/delete/{nama}', [SkktenagakerjabloraController::class, 'beskkdpuprdelete'])->middleware('auth');
+Route::get('/beskkall', [SkktenagakerjabloraController::class, 'beskkall'])->middleware('auth');
+Route::get('/beskkall/show/{nama}', [SkktenagakerjabloraController::class, 'beskkallshow'])->middleware('auth');
+Route::delete('/beskkall/delete/{nama}', [SkktenagakerjabloraController::class, 'beskkalldelete'])->middleware('auth');
 // ___________________________________________________________________________________________________________________________________
 
 
