@@ -151,9 +151,9 @@ public function beskkdpupr(Request $request)
                 $q->where('lpspenerbit', 'LIKE', "%{$search}%");
             })
 
-            ->orWhereHas('asosiasimasjaki', function ($q) use ($search) {
-                $q->where('namaasosiasi', 'LIKE', "%{$search}%");
-            })
+            // ->orWhereHas('asosiasimasjaki', function ($q) use ($search) {
+            //     $q->where('namaasosiasi', 'LIKE', "%{$search}%");
+            // })
 
               ->orWhereHas('jurusan', function ($q) use ($search) {
                 $q->where('jurusan', 'LIKE', "%{$search}%");
@@ -345,9 +345,9 @@ return redirect()->back()->with('error', 'Item not found');
                         $q->where('lpspenerbit', 'LIKE', "%{$search}%");
                     })
 
-                    ->orWhereHas('asosiasimasjaki', function ($q) use ($search) {
-                        $q->where('namaasosiasi', 'LIKE', "%{$search}%");
-                    })
+                    // ->orWhereHas('asosiasimasjaki', function ($q) use ($search) {
+                    //     $q->where('namaasosiasi', 'LIKE', "%{$search}%");
+                    // })
 
                     ->orWhereHas('jurusan', function ($q) use ($search) {
                         $q->where('jurusan', 'LIKE', "%{$search}%");
