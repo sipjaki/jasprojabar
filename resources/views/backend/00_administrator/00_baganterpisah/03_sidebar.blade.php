@@ -263,12 +263,12 @@
                   </li>
 
                   <!-- Profil Paket Pekerjaan Konstruksi -->
-                  <li class="nav-item">
+                  {{-- <li class="nav-item">
                     <a href="/404" class="nav-link">
                       <i class="nav-icon bi bi-bar-chart-line text-warning"></i> <!-- Ikon untuk Data Statistik -->
                       <p style="color: white">Data Statistik</p>
                     </a>
-                  </li>
+                  </li> --}}
 
 
                 </ul>
