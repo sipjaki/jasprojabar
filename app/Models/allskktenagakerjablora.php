@@ -39,4 +39,10 @@ class allskktenagakerjablora extends Model
     }
 
 
+        public function asosiasimasjaki()
+        {
+            return $this->hasMany(asosiasimasjaki::class);
+        }
+
+
 }

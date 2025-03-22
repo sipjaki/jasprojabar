@@ -18,6 +18,11 @@ class asosiasimasjaki extends Model
         return $this->hasMany(skktenagakerjabloralist::class, 'asosiasimasjaki_id');
     }
 
+    public function skktenagakerjablora()
+    {
+        return $this->hasMany(skktenagakerjablora::class, 'asosiasimasjaki_id');
+    }
+
     public function bujkkontraktor()
     {
         return $this->hasMany(bujkkontraktor::class, 'asosiasimasjaki_id');
