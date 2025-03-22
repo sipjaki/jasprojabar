@@ -126,7 +126,7 @@
                                                 <label class="form-label">
                                                     <i class="bi bi-file-earmark-text-fill" style="margin-right: 8px; color: navy;"></i>LPS Penerbit
                                                 </label>
-                                                <input class="form-control" value="{{$data->lsppenerbit->lpspenerbit}}" readonly/>
+                                                <input class="form-control" value="{{$data->lpspenerbit->lpspenerbit}}" readonly/>
                                             </div>
 
                                             <div class="mb-3">
