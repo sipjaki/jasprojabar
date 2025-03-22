@@ -217,6 +217,7 @@
          <th style="width: 400px; text-align:center;">Nama Lengkap</th>
          <th style="width: 400px; text-align:center;">Alamat </th>
          <th style="width: 100px; text-align:center;">Tahun Lulus</th>
+         <th style="width: 300px; text-align:center;">Asosiasi</th>
          <th style="width: 400px; text-align:center;">Universitas/Sekolah/Instansi</th>
          <th style="width: 100px; text-align:center;">Pendidikan</th>
          <th style="width: 400px; text-align:center;">Jabatan Kerja</th>
@@ -236,7 +237,10 @@
          <td style="text-align: left;">{{$item->nama}}</td>
          <td style="text-align: left;">{{$item->alamat}}</td>
          <td style="text-align: center;">{{$item->tahunlulus}}</td>
-         <td style="text-align: left;">{{$item->namasekolah->namasekolah}}</td>
+         <td style="text-align: center;">
+            {{ $item->asosiasimasjaki ? $item->asosiasimasjaki->namaasosiasi : 'Data asosiasi belum diupdate' }}
+        </td>
+        <td style="text-align: left;">{{$item->namasekolah->namasekolah}}</td>
          <td style="text-align: center;">{{$item->jenjangpendidikan->jenjangpendidikan}}</td>
          <td style="text-align: left;">{{$item->jabatankerja->jabatankerja}}</td>
          <td style="text-align: center;">{{$item->jenjang->jenjang}}</td>
