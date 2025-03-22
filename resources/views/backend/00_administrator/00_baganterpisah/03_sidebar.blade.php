@@ -248,7 +248,7 @@
 
                   <!-- Tenaga Kerja Konstruksi (Duplicate) -->
                   <li class="nav-item">
-                    <a href="/404" class="nav-link">
+                    <a href="/beallskk" class="nav-link">
                       <i class="nav-icon bi bi-person-workspace text-warning"></i> <!-- Ikon untuk Tenaga Kerja Konstruksi -->
                       <p style="color: white">Semua TKK</p>
                     </a>
