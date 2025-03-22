@@ -190,7 +190,7 @@
          <td style="text-align: center;">{{ $loop->iteration }}</td>
          <td style="text-align: left;">{{$item->nama}}</td>
          <td style="text-align: left;">{{$item->alamat}}</td>
-         <td style="text-align: left;">{{$item->tahunlulus}}</td>
+         <td style="text-align: center;">{{$item->tahunlulus}}</td>
          <td style="text-align: left;">{{$item->namasekolah->namasekolah}}</td>
          <td style="text-align: center;">{{$item->jenjangpendidikan->jenjangpendidikan}}</td>
          <td style="text-align: left;">{{$item->jabatankerja->jabatankerja}}</td>
