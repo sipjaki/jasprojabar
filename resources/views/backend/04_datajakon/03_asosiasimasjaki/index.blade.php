@@ -110,7 +110,7 @@
                                 </script>
 
 
-                        <a href="/beasosiasi">
+                        {{-- <a href="/beasosiasi">
                              <button
                              onmouseover="this.style.backgroundColor='white'; this.style.color='black';"
                              onmouseout="this.style.backgroundColor='#374151'; this.style.color='white';"
@@ -119,7 +119,7 @@
                              <i class="fa fa-arrow-left" style="margin-right: 8px;"></i> Kembali
 
                          </button>
-                         </a>
+                         </a> --}}
                          <a href="/404">
                              <button
                              onmouseover="this.style.backgroundColor='white'; this.style.color='black';"
@@ -150,12 +150,12 @@
          <td style="text-align: center;">{{ $loop->iteration }}</td>
          <td style="text-align: center;">{{$item->namaasosiasi}}</td>
          <td style="text-align: center; vertical-align: middle;">
-             <a href="/beasosiasi/show/{{$item->namaasosiasi}}" class="btn btn-sm btn-info me-2" title="Show">
+             {{-- <a href="/beasosiasi/show/{{$item->namaasosiasi}}" class="btn btn-sm btn-info me-2" title="Show">
                  <i class="bi bi-eye"></i>
-             </a>
-             <a href="/404" class="btn btn-sm btn-warning me-2" title="Update">
+             </a> --}}
+             {{-- <a href="/404" class="btn btn-sm btn-warning me-2" title="Update">
                  <i class="bi bi-pencil-square"></i>
-             </a>
+             </a> --}}
              <a href="javascript:void(0)" class="btn btn-sm btn-danger" title="Delete"
                    data-bs-toggle="modal" data-bs-target="#deleteModal"
                    data-judul="{{ $item->namaasosiasi }}"
