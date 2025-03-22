@@ -244,7 +244,6 @@
                 <button class="btn btn-danger btn-sm">Data Asosiasi Belum  Di Update</button>
             @endif
         </td>
-
         <td style="text-align: left;">{{$item->namasekolah->namasekolah}}</td>
          <td style="text-align: center;">{{$item->jenjangpendidikan->jenjangpendidikan}}</td>
          <td style="text-align: left;">{{$item->jabatankerja->jabatankerja}}</td>
@@ -253,6 +252,14 @@
          <td style="text-align: left;">{{$item->jurusan->jurusan}}</td>
          <td style="text-align: center;">{{ \Carbon\Carbon::parse($item->tanggalterbit)->translatedFormat('l, d F Y') }}</td>
          <td style="text-align: center;">{{ \Carbon\Carbon::parse($item->tanggalhabis)->translatedFormat('l, d F Y') }}</td>
+
+<td style="text-align: center;">
+    @if(\Carbon\Carbon::now()->greaterThan(\Carbon\Carbon::parse($item->tanggalhabis)))
+        <button class="btn btn-danger btn-sm">TIDAK BERLAKU</button>
+    @else
+        <button class="btn btn-success btn-sm">BERLAKU</button>
+    @endif
+</td>
          <td style="text-align: center;">{{$item->statusterbit}}</td>
 
          <td style="text-align: center; vertical-align: middle;">
