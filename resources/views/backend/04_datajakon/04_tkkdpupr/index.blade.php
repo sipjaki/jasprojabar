@@ -241,7 +241,7 @@
             @if($item->asosiasimasjaki)
                 {{ $item->asosiasimasjaki->namaasosiasi }}
             @else
-                <button class="btn btn-danger btn-sm">Data asosiasi belum diupdate</button>
+                <button class="btn btn-danger btn-sm">Data Asosiasi Belum  Di Update</button>
             @endif
         </td>
 
