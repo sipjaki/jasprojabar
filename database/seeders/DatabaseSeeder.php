@@ -476,6 +476,7 @@ tupoksi::create([
 // MAS JAKI DATA JASA KONSTRUKSI
 //======================== ===================================================================================
 bujkkontraktor::create([
+    'id' => 1, // Ganti dengan ID yang sesuai
     'bujkkontraktorsub_id' => 1, // Ganti dengan ID yang sesuai
     'asosiasimasjaki_id' => 1, // Ganti dengan ID yang sesuai
     'namalengkap' => 'Mandra Kanta Unggul',
@@ -574,6 +575,7 @@ bujkkontraktorsub::create([
 // ---------------
 
 bujkkontraktor::create([
+    'id' => 2, // Ganti dengan ID yang sesuai
     'bujkkontraktorsub_id' => 2, // Ganti dengan ID yang sesuai
     'asosiasimasjaki_id' => 1, // Ganti dengan ID yang sesuai
     'namalengkap' => 'Ramai Jaya Bumi',
@@ -932,6 +934,7 @@ bujkkontraktorsub ::create([
 
 // ----------------------------
 bujkkontraktor::create([
+    'id' => 3, // Ganti dengan ID yang sesuai
     'bujkkontraktorsub_id' => 3, // Ganti dengan ID yang sesuai
     'asosiasimasjaki_id' => 1, // Ganti dengan ID yang sesuai
     'namalengkap' => 'TRIBAKTI BINTANG SEJAHTERA',
@@ -1029,6 +1032,7 @@ bujkkontraktorsub ::create([
 
 // ----------------------------
 bujkkontraktor::create([
+    'id' => 4, // Ganti dengan ID yang sesuai
     'bujkkontraktorsub_id' => 4, // Ganti dengan ID yang sesuai
     'asosiasimasjaki_id' => 1, // Ganti dengan ID yang sesuai
     'namalengkap' => 'DIZA PERMATA HATI',
@@ -1202,6 +1206,7 @@ bujkkontraktorsub ::create([
 
 // ---- DATA 5 -----------------
 bujkkontraktor::create([
+    'id' => 5, // Ganti dengan ID yang sesuai
     'bujkkontraktorsub_id' => 5, // Ganti dengan ID yang sesuai
     'asosiasimasjaki_id' => 1, // Ganti dengan ID yang sesuai
     'namalengkap' => 'TUNGGAL GUNA KARYA',
@@ -1363,6 +1368,7 @@ bujkkontraktorsub ::create([
 
 // ---- DATA 6 -----------------
 bujkkontraktor::create([
+    'id' => 6, // Ganti dengan ID yang sesuai
     'bujkkontraktorsub_id' => 6, // Ganti dengan ID yang sesuai
     'asosiasimasjaki_id' => 1, // Ganti dengan ID yang sesuai
     'namalengkap' => 'TRI GRAHA MEGAH JAYA',
@@ -1523,6 +1529,7 @@ bujkkontraktorsub ::create([
 
 // ---- DATA 7 BUJK KONTRAKTOR -----------------
 bujkkontraktor::create([
+    'id' => 7, // Ganti dengan ID yang sesuai
     'bujkkontraktorsub_id' => 7, // Ganti dengan ID yang sesuai
     'asosiasimasjaki_id' => 1, // Ganti dengan ID yang sesuai
     'namalengkap' => 'BERKAH HPL MANDIRI',
@@ -1605,6 +1612,7 @@ bujkkontraktorsub ::create([
 
 // ---- DATA 8 BUJK KONTRAKTOR -----------------
 bujkkontraktor::create([
+    'id' => 8, // Ganti dengan ID yang sesuai
     'bujkkontraktorsub_id' => 8, // Ganti dengan ID yang sesuai
     'asosiasimasjaki_id' => 1, // Ganti dengan ID yang sesuai
     'namalengkap' => 'KARYA DWI PUTRI',
@@ -1739,6 +1747,7 @@ bujkkontraktorsub ::create([
 
 // ---- DATA 9 BUJK KONTRAKTOR -----------------
 bujkkontraktor::create([
+    'id' => 9, // Ganti dengan ID yang sesuai
     'bujkkontraktorsub_id' => 9, // Ganti dengan ID yang sesuai
     'asosiasimasjaki_id' => 1, // Ganti dengan ID yang sesuai
     'namalengkap' => 'CV. DHA YASA MULIA',
@@ -1795,6 +1804,7 @@ bujkkontraktorsub ::create([
 
 // ---- DATA 10 BUJK KONTRAKTOR -----------------
 bujkkontraktor::create([
+    'id' => 10, // Ganti dengan ID yang sesuai
     'bujkkontraktorsub_id' => 10, // Ganti dengan ID yang sesuai
     'asosiasimasjaki_id' => 1, // Ganti dengan ID yang sesuai
     'namalengkap' => 'RASI SINAR RAYA',
@@ -1808,38 +1818,6 @@ bujkkontraktor::create([
     'nama_notaris' => 'ELIZABETH ESTININGSIH, S.H.',
     'no_pengesahan' => '72/CV/2018/PN.BLA',
     // 'tahunpilihan_id' => 4,
-]);
-// ---- DATA 10 BUJK KONTRAKTOR -----------------
-bujkkontraktor::create([
-    'bujkkontraktorsub_id' => 10, // Ganti dengan ID yang sesuai
-    'asosiasimasjaki_id' => 1, // Ganti dengan ID yang sesuai
-    'namalengkap' => 'RASI SINAR RAYA',
-    'alamat' => 'DK. KALISANGKU, Desa/Kelurahan Gempolrejo, Kec. Tunjungan, Kab. Blora, Provinsi Jawa Tengah',
-    'no_telepon' => '085218340935',
-    'email' => 'rasinaraya@yahoo.com',
-    'nomorindukberusaha' => '9120202322819',
-    'pju' => 'WIJI LESTIYOWATI',
-    'no_akte' => null,
-    'tanggal' => '2018-06-06',
-    'nama_notaris' => 'ELIZABETH ESTININGSIH, S.H.',
-    'no_pengesahan' => '72/CV/2018/PN.BLA',
-    // 'tahunpilihan_id' => 3,
-]);
-// ---- DATA 10 BUJK KONTRAKTOR -----------------
-bujkkontraktor::create([
-    'bujkkontraktorsub_id' => 10, // Ganti dengan ID yang sesuai
-    'asosiasimasjaki_id' => 1, // Ganti dengan ID yang sesuai
-    'namalengkap' => 'RASI SINAR RAYA',
-    'alamat' => 'DK. KALISANGKU, Desa/Kelurahan Gempolrejo, Kec. Tunjungan, Kab. Blora, Provinsi Jawa Tengah',
-    'no_telepon' => '085218340935',
-    'email' => 'rasinaraya@yahoo.com',
-    'nomorindukberusaha' => '9120202322819',
-    'pju' => 'WIJI LESTIYOWATI',
-    'no_akte' => null,
-    'tanggal' => '2018-06-06',
-    'nama_notaris' => 'ELIZABETH ESTININGSIH, S.H.',
-    'no_pengesahan' => '72/CV/2018/PN.BLA',
-    // 'tahunpilihan_id' => 2,
 ]);
 
 bujkkontraktorsub ::create([
