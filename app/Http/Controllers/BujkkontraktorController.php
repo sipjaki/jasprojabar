@@ -283,9 +283,9 @@ return view('backend.04_datajakon.01_bujkkonstruksi.show', [
 
 
 // DATA SHOW SUB KLASIFIKASI LAYANAN
-public function bebujkkonstruksiklasifikasi($nama_pengurus)
+public function bebujkkonstruksiklasifikasi($id)
 {
-    $bujkkontraktorsub = bujkkontraktorsub::where('nama_pengurus', $nama_pengurus)->first();
+    $bujkkontraktorsub = bujkkontraktorsub::where('id', $id)->first();
 
     if (!$bujkkontraktorsub) {
         return abort(404, 'Data sub-klasifikasi tidak ditemukan');
