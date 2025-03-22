@@ -80,7 +80,75 @@ class BujkkontraktorController extends Controller
         ]);
     }
 
+    // MENU BACKEND JASA KONSTRUKSI
+    // ------------------------------------------------------------------------------------------------
+            public function beasosiasi(Request $request)
+        {
+            $perPage = $request->input('perPage', 15);
+            $search = $request->input('search');
 
+            $query = asosiasimasjaki::query();
+
+            if ($search) {
+                $query->where('namaasosiasi', 'LIKE', "%{$search}%");
+
+            }
+
+            $data = $query->paginate($perPage);
+
+            if ($request->ajax()) {
+                return response()->json([
+                    'html' => view('backend.04_datajakon.03_asosiasimasjaki.partials.table', compact('data'))->render()
+                ]);
+            }
+
+            return view('backend.04_datajakon.03_asosiasimasjaki.index', [
+                'title' => 'Asosiasi Mas Jaki Blora',
+                'data' => $data,
+                'perPage' => $perPage,
+                'search' => $search
+            ]);
+        }
+
+        // BACKEND ASOSIASI SHOW
+
+        public function beasosiasishow($namaasosiasi)
+        {
+            $datasosiasi = asosiasimasjaki::where('namaasosiasi', $namaasosiasi)->first();
+        // Ambil data user saat ini
+            $user = Auth::user();
+
+        return view('backend.04_datajakon.01_bujkkonstruksi.show', [
+            'title' => 'Data Asosiasi Mas Jaki',
+            'data' => $datasosiasi,
+        ]);
+        }
+
+        public function beasosiasidelete($namaasosiasi)
+            {
+            // Cari item berdasarkan judul
+            $entry = asosiasimasjaki::where('namaasosiasi', $namaasosiasi)->first();
+
+            if ($entry) {
+            // Jika ada file header yang terdaftar, hapus dari storage
+            // if (Storage::disk('public')->exists($entry->header)) {
+                //     Storage::disk('public')->delete($entry->header);
+            // }
+
+            // Hapus entri dari database
+            $entry->delete();
+
+            // Redirect atau memberi respons sesuai kebutuhan
+            return redirect('/beasosiasi')->with('delete', 'Data Berhasil Di Hapus !');
+
+            }
+
+            return redirect()->back()->with('error', 'Item not found');
+            }
+
+
+
+// HALAMAN FRONTEND MENU BUJK KONTRAKTOR
     public function bujkkontraktor(Request $request)
 {
     $perPage = $request->input('perPage', 10);

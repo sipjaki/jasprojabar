@@ -498,6 +498,13 @@ Route::delete('/bebujkkonsultan/delete/{namalengkap}', [BujkkonsultanController:
 Route::delete('/bebujkkonsultanklasifikasi/delete/{id}', [BujkkonsultanController::class, 'bebujkkonsultanshowklasifikasidelete'])->middleware('auth');
 // ___________________________________________________________________________________________________________________________________
 
+// ---------------------- MENU 3 DATA ASOSIASI JASA KONSTRUKSI   -----------------------------------------------------
+// ___________________________________________________________________________________________________________________________________
+Route::get('/beasosiasi', [BujkkontraktorController::class, 'beasosiasi'])->middleware('auth');
+Route::get('/beasosiasi/show/{namaasosiasi}', [BujkkontraktorController::class, 'beasosiasishow'])->middleware('auth');
+Route::delete('/beasosiasi/delete/{id}', [BujkkontraktorController::class, 'beasosiasidelete'])->middleware('auth');
+// ___________________________________________________________________________________________________________________________________
+
 
 
 
