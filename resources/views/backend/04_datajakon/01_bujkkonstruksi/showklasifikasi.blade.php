@@ -57,7 +57,7 @@
                     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
                     width: 100%;
                 ">
-                    📌 View Sub Data Klasifikasi Layanan : {{$subdata->namalengkap}}
+                    📌 View Sub Data Klasifikasi Layanan : {{$data->namalengkap}}
                 </div>
 
 
@@ -106,7 +106,7 @@
                                     </tr>
                                 </thead>
                                 <tbody>
-                                @foreach ($data as $item )
+                                @foreach ($subdata as $item )
                                     <tr class="align-middle">
                                         <td style="text-align: center;">{{ $loop->iteration }}</td>
                                         <td style="text-align: center;">{{ $item->nama_pengurus }}</td>
