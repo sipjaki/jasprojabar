@@ -283,7 +283,7 @@
          <td style="text-align: center;">{{$item->statusterbit}}</td>
 
          <td style="text-align: center; vertical-align: middle;">
-             <a href="/beskkdpupr/show/{{$item->nama}}" class="btn btn-sm btn-info me-2" title="Show">
+             <a href="/beskkallblora/show/{{$item->nama}}" class="btn btn-sm btn-info me-2" title="Show">
                  <i class="bi bi-eye"></i>
              </a>
              <a href="/404" class="btn btn-sm btn-warning me-2" title="Update">

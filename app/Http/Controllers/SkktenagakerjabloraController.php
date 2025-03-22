@@ -374,13 +374,13 @@ return redirect()->back()->with('error', 'Item not found');
 
     public function beskkallshow($nama)
     {
-            $dataskkdpupr = skktenagakerjabloralist::where('nama', $nama)->first();
+            $dataallskkblora = skktenagakerjabloralist::where('nama', $nama)->first();
         // Ambil data user saat ini
             $user = Auth::user();
 
         return view('backend.04_datajakon.05_alltkkblora.show', [
             'title' => 'Data TKK Di Selenggarakan DPUPR Kab Blora',
-            'data' => $dataskkdpupr,
+            'data' => $dataallskkblora,
         ]);
     }
 
