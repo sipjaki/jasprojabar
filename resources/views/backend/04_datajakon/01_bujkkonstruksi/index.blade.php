@@ -125,7 +125,7 @@
                             function searchTable() {
                             let input = document.getElementById("searchInput").value;
 
-                            fetch(`/beskkdpupr?search=${input}`)
+                            fetch(`/bebujkkonstruksi?search=${input}`)
                                 .then(response => response.text())
                                 .then(html => {
                                     let parser = new DOMParser();
@@ -139,7 +139,7 @@
                                 </script>
 
 
-                        {{-- <a href="/bebujkjakon">
+                        <a href="/bebujkjakon">
                              <button
                              onmouseover="this.style.backgroundColor='white'; this.style.color='black';"
                              onmouseout="this.style.backgroundColor='#374151'; this.style.color='white';"
@@ -148,7 +148,7 @@
                              <i class="fa fa-arrow-left" style="margin-right: 8px;"></i> Kembali
 
                          </button>
-                         </a> --}}
+                         </a>
                          <a href="/404">
                              <button
                              onmouseover="this.style.backgroundColor='white'; this.style.color='black';"
@@ -169,18 +169,18 @@
  <thead>
      <tr>
          <th style="width: 75px; text-align:center;">No</th>
-         <th style="width: 200px; text-align:center; background:white; color:black;">Nama Lengkap</th>
+         <th style="width: 200px; text-align:center; background:white; color:black;">Asosiasi</th>
+         <th style="width: 250px; text-align:center;">Badan Usaha</th>
          <th style="width: 250px; text-align:center;">Alamat</th>
-         <th style="width: 250px; text-align:center;">Tahun Lulus</th>
-         <th style="width: 200px; text-align:center;">Sekolah/Universitas/Instansi</th>
-         <th style="width: 250px; text-align:center;">Pendidikan</th>
-         <th style="width: 150px; text-align:center;">Jabatan Kerja</th>
-         <th style="width: 200px; text-align:center;">Jenjang</th>
-         <th style="width: 150px; text-align:center;">LPS Penerbit</th>
-         <th style="width: 250px; text-align:center;">Jurusan</th>
-         <th style="width: 300px; text-align:center;">Tanggal Terbit</th>
-         <th style="width: 300px; text-align:center;">Tanggal Habis</th>
-         <th style="width: 120px; text-align:center;">Status Terbit</th>
+         <th style="width: 200px; text-align:center;">No Telepon</th>
+         <th style="width: 250px; text-align:center;">Email</th>
+         <th style="width: 150px; text-align:center;">NIB</th>
+         <th style="width: 200px; text-align:center;">PJU</th>
+         <th style="width: 150px; text-align:center;">No Akte</th>
+         <th style="width: 250px; text-align:center;">Tanggal</th>
+         <th style="width: 300px; text-align:center;">Notaris</th>
+         <th style="width: 300px; text-align:center;">Pengesahan</th>
+         <th style="width: 120px; text-align:center;">Sub Klasifikasi</th>
          <th style="width: 200px; text-align:center;">Aksi</th>
      </tr>
  </thead>
@@ -188,20 +188,34 @@
      @foreach ($data as $item )
      <tr class="align-middle">
          <td style="text-align: center;">{{ $loop->iteration }}</td>
-         <td style="text-align: center;">{{$item->nama}}</td>
+         <td style="text-align: center;">{{$item->asosiasimasjaki?->namaasosiasi}}</td>
+         <td style="text-align: left;">{{$item->namalengkap}}</td>
          <td style="text-align: left;">{{$item->alamat}}</td>
-         <td style="text-align: left;">{{$item->tahunlulus}}</td>
-         <td style="text-align: center;">{{$item->namasekolah->namasekolah}}</td>
-         <td style="text-align: left;">{{$item->jenjangpendidikan->jenjangpendidikan}}</td>
-         <td style="text-align: center;">{{$item->jenjang->jenjang}}</td>
-         <td style="text-align: left;">{{$item->lpspenerbit->lpspenerbit}}</td>
-         <td style="text-align: center;">{{$item->jurusan->jurusan}}</td>
-         <td style="text-align: center;">{{ \Carbon\Carbon::parse($item->tanggalterbit)->translatedFormat('l, d F Y') }}</td>
-         <td style="text-align: center;">{{ \Carbon\Carbon::parse($item->tanggalhabis)->translatedFormat('l, d F Y') }}</td>
-         <td style="text-align: left;">{{$item->statusterbit}}</td>
+         <td style="text-align: center;">{{$item->no_telepon}}</td>
+         <td style="text-align: left;">{{$item->email}}</td>
+         <td style="text-align: center;">{{$item->nomorindukberusaha}}</td>
+         <td style="text-align: left;">{{$item->pju}}</td>
+         <td style="text-align: center;">{{$item->no_akte}}</td>
+         <td style="text-align: center;">{{ \Carbon\Carbon::parse($item->tanggal)->translatedFormat('l, d F Y') }}</td>
+         <td style="text-align: left;">{{$item->nama_notaris}}</td>
+         <td style="text-align: left;">{{$item->no_pengesahan}}</td>
+
+             <td style="text-align: center; vertical-align: middle; width: 100%; align-items:center;">
+                <a href="{{ url('/bebujkkonstruksi/showsubklasifikasi/' . $item->namalengkap) }}" style="text-decoration: none;">
+                <button
+                    onmouseover="this.style.backgroundColor='white'; this.style.color='black';"
+                    onmouseout="this.style.backgroundColor='	#6B7280'; this.style.color='white';"
+                    style="background-color:#6B7280; color: white; border: none; padding: 10px 25px;
+                           border-radius: 15px; font-size: 14px; cursor: pointer;
+                           display: flex; align-items: center; justify-content: center;
+                           transition: background-color 0.3s, color 0.3s;">
+                    Lihat
+                </button>
+            </a>
+        </td>
 
          <td style="text-align: center; vertical-align: middle;">
-             <a href="/bebujkkonstruksi/show/{{$item->nama}}" class="btn btn-sm btn-info me-2" title="Show">
+             <a href="/bebujkkonstruksi/show/{{$item->namalengkap}}" class="btn btn-sm btn-info me-2" title="Show">
                  <i class="bi bi-eye"></i>
              </a>
              <a href="/404" class="btn btn-sm btn-warning me-2" title="Update">
@@ -209,7 +223,7 @@
              </a>
              <a href="javascript:void(0)" class="btn btn-sm btn-danger" title="Delete"
                    data-bs-toggle="modal" data-bs-target="#deleteModal"
-                   data-judul="{{ $item->nama }}"
+                   data-judul="{{ $item->namalengkap }}"
                    onclick="setDeleteUrl(this)">
                     <i class="bi bi-trash"></i>
             </a>
@@ -254,9 +268,9 @@
 
                  <script>
                  function setDeleteUrl(button) {
-                     var nama = button.getAttribute('data-judul');
-                     document.getElementById('itemName').innerText = nama;
-                     var deleteUrl = "/beskkdpupr/delete/" + encodeURIComponent(nama);
+                     var namalengkap = button.getAttribute('data-judul');
+                     document.getElementById('itemName').innerText = namalengkap;
+                     var deleteUrl = "/bebujkkonstruksi/delete/" + encodeURIComponent(namalengkap);
                      document.getElementById('deleteForm').action = deleteUrl;
                  }
                  </script>
