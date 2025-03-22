@@ -58,8 +58,8 @@
         <script>
             function updateStatus() {
                 let now = new Date().getTime();
-                let tanggalHabis = new Date("{{ \Carbon\Carbon::parse($item->tanggalhabis)->format('Y-m-d H:i:s') }}").getTime();
-                let statusButton = document.getElementById("status-{{ $item->id }}");
+                let tanggalHabis = new Date("{{ \Carbon\Carbon::parse($data->tanggalhabis)->format('Y-m-d H:i:s') }}").getTime();
+                let statusButton = document.getElementById("status-{{ $data->id }}");
 
                 if (now > tanggalHabis) {
                     statusButton.innerText = "TIDAK BERLAKU";
