@@ -188,15 +188,15 @@
      @foreach ($data as $item )
      <tr class="align-middle">
          <td style="text-align: center;">{{ $loop->iteration }}</td>
-         <td style="text-align: center;">{{$item->nama}}</td>
+         <td style="text-align: left;">{{$item->nama}}</td>
          <td style="text-align: left;">{{$item->alamat}}</td>
          <td style="text-align: left;">{{$item->tahunlulus}}</td>
-         <td style="text-align: center;">{{$item->namasekolah->namasekolah}}</td>
-         <td style="text-align: left;">{{$item->jenjangpendidikan->jenjangpendidikan}}</td>
-         <td style="text-align: center;">{{$item->jabatankerja->jabatankerja}}</td>
+         <td style="text-align: left;">{{$item->namasekolah->namasekolah}}</td>
+         <td style="text-align: center;">{{$item->jenjangpendidikan->jenjangpendidikan}}</td>
+         <td style="text-align: left;">{{$item->jabatankerja->jabatankerja}}</td>
          <td style="text-align: left;">{{$item->jenjang->jenjang}}</td>
-         <td style="text-align: center;">{{$item->lpspenerbit->lpspenerbit}}</td>
-         <td style="text-align: center;">{{$item->jurusan->jurusan}}</td>
+         <td style="text-align: left;">{{$item->lpspenerbit->lpspenerbit}}</td>
+         <td style="text-align: left;">{{$item->jurusan->jurusan}}</td>
          <td style="text-align: center;">{{ \Carbon\Carbon::parse($item->tanggalterbit)->translatedFormat('l, d F Y') }}</td>
          <td style="text-align: center;">{{ \Carbon\Carbon::parse($item->tanggalhabis)->translatedFormat('l, d F Y') }}</td>
          <td style="text-align: left;">{{$item->statusterbit}}</td>
