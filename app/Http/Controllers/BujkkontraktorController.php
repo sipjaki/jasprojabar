@@ -342,7 +342,7 @@ if ($entry) {
 $entry->delete();
 
 // Redirect atau memberi respons sesuai kebutuhan
-return redirect('/bebujkkonstruksi/showsubklasifikasi/{nama_pengurus}')->with('delete', 'Data Berhasil Di Hapus !');
+return redirect('/bebujkkonstruksi/showsubklasifikasi/{id}')->with('delete', 'Data Berhasil Di Hapus !');
 
 }
 
