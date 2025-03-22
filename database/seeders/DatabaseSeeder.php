@@ -1901,6 +1901,7 @@ bujkkontraktorsub ::create([
 // DATA BUJK KONSULTAN MAS JAKI APLIKASI
 //======================== ===================================================================================
 bujkkonsultan::create([
+    'id' => 1, // Ganti dengan ID yang sesuai
     'bujkkonsultansub_id' => 1, // Ganti dengan ID yang sesuai
     'asosiasimasjaki_id' => 1,
     'namalengkap' => 'Tiara Energi',
@@ -1971,6 +1972,7 @@ bujkkonsultansub::create([
 //======================== ===================================================================================
 // DATA 2 BUJK KONSULTAN
 bujkkonsultan::create([
+    'id' => 2, // Ganti dengan ID yang sesuai
     'bujkkonsultansub_id' => 2, // Ganti dengan ID yang sesuai
     'asosiasimasjaki_id' => 5,
     'namalengkap' => 'KARYA INTI KONSULTAN',
@@ -2015,6 +2017,7 @@ bujkkonsultansub::create([
 //======================== ===================================================================================
 // DATA 3 BUJK KONSULTAN
 bujkkonsultan::create([
+    'id' => 3, // Ganti dengan ID yang sesuai
     'bujkkonsultansub_id' => 3, // Ganti dengan ID yang sesuai
     'asosiasimasjaki_id' => 4,
     'namalengkap' => 'BEGAWAN ABIYOSO',
@@ -2047,6 +2050,7 @@ bujkkonsultansub::create([
 //======================== ===================================================================================
 // DATA 4 BUJK KONSULTAN
 bujkkonsultan::create([
+    'id' => 4, // Ganti dengan ID yang sesuai
     'bujkkonsultansub_id' => 4, // Ganti dengan ID yang sesuai
     'asosiasimasjaki_id' => 2,
     'namalengkap' => 'GRAHACIPTA PERKASA',
@@ -2104,6 +2108,7 @@ bujkkonsultansub::create([
 //======================== ===================================================================================
 // DATA 5 BUJK KONSULTAN
 bujkkonsultan::create([
+    'id' => 5, // Ganti dengan ID yang sesuai
     'bujkkonsultansub_id' => 5, // Ganti dengan ID yang sesuai
     'asosiasimasjaki_id' => 3,
     'namalengkap' => 'BEKONS',
@@ -2156,7 +2161,6 @@ bujkkonsultansub::create([
     'nama_psjk' => 'LARTO KUNDARTO, ST',
     'sub_kualifikasi_bu' => 'Jasa Rekayasa Pekerjaan Teknik Sipil Sumber Daya Air'
 ]);
-
 
 
 
