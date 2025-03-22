@@ -493,7 +493,6 @@ bujkkontraktor::create([
 ]);
 
 // -----------------------
-
 bujkkontraktorsub ::create([
     'bujkkontraktor_id' => 1, // Ganti dengan ID yang sesuai
     'nama_pengurus' => 'Muhammad Abdul Rozak',
