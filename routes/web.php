@@ -515,6 +515,15 @@ Route::delete('/beskkdpupr/delete/{nama}', [SkktenagakerjabloraController::class
 // ___________________________________________________________________________________________________________________________________
 
 
+// ________________________________________________________________________________________________________________
+// ---------------------- MENU 03 DATA SEMUA SKK TENAGA KERJA KABUPATEN BLORA -----------------------------------------------------
+// ___________________________________________________________________________________________________________________________________
+Route::get('/beskkdpupr', [SkktenagakerjabloraController::class, 'beskkdpupr'])->middleware('auth');
+Route::get('/beskkdpupr/show/{nama}', [SkktenagakerjabloraController::class, 'beskkdpuprshow'])->middleware('auth');
+Route::delete('/beskkdpupr/delete/{nama}', [SkktenagakerjabloraController::class, 'beskkdpuprdelete'])->middleware('auth');
+// ___________________________________________________________________________________________________________________________________
+
+
 
 
 
