@@ -179,8 +179,8 @@
          <th style="width: 400px; text-align:center;">LPS Penerbit</th>
          <th style="width: 200px; text-align:center;">Jurusan</th>
          <th style="width: 100px; text-align:center;">Tanggal Terbit</th>
-         <th style="width: 100px; text-align:center;">Tanggal Habis</th>
-         <th style="width: 100px; text-align:center;">Status Terbit</th>
+         <th style="width: 200px; text-align:center;">Tanggal Habis</th>
+         <th style="width: 200px; text-align:center;">Status Terbit</th>
          <th style="width: 200px; text-align:center;">Aksi</th>
      </tr>
  </thead>
@@ -199,7 +199,7 @@
          <td style="text-align: left;">{{$item->jurusan->jurusan}}</td>
          <td style="text-align: center;">{{ \Carbon\Carbon::parse($item->tanggalterbit)->translatedFormat('l, d F Y') }}</td>
          <td style="text-align: center;">{{ \Carbon\Carbon::parse($item->tanggalhabis)->translatedFormat('l, d F Y') }}</td>
-         <td style="text-align: left;">{{$item->statusterbit}}</td>
+         <td style="text-align: center;">{{$item->statusterbit}}</td>
 
          <td style="text-align: center; vertical-align: middle;">
              <a href="/beskkdpupr/show/{{$item->nama}}" class="btn btn-sm btn-info me-2" title="Show">
