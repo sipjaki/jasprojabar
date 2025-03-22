@@ -96,7 +96,7 @@
                             function searchTable() {
                             let input = document.getElementById("searchInput").value;
 
-                            fetch(`/bebujkkonsultan?search=${input}`)
+                            fetch(`/beasosiasi?search=${input}`)
                                 .then(response => response.text())
                                 .then(html => {
                                     let parser = new DOMParser();
