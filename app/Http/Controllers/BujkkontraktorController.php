@@ -342,8 +342,8 @@ if ($entry) {
 $entry->delete();
 
 // Redirect atau memberi respons sesuai kebutuhan
-return redirect('/bebujkkonstruksi/showsubklasifikasi/{id}')->with('delete', 'Data Berhasil Di Hapus !');
-
+return redirect()->route('bebujkkonstruksi.showsubklasifikasi', ['id' => $id])
+    ->with('delete', 'Data Berhasil Di Hapus !');
 }
 
 return redirect()->back()->with('error', 'Item not found');
