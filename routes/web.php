@@ -519,9 +519,9 @@ Route::delete('/beskkdpupr/delete/{nama}', [SkktenagakerjabloraController::class
 // ________________________________________________________________________________________________________________
 // ---------------------- MENU 2 DATA SEMUA SKK TENAGA KERJA KABUPATEN BLORA -----------------------------------------------------
 // ___________________________________________________________________________________________________________________________________
-Route::get('/beskkall', [SkktenagakerjabloraController::class, 'beskkall'])->middleware('auth');
-Route::get('/beskkall/show/{nama}', [SkktenagakerjabloraController::class, 'beskkallshow'])->middleware('auth');
-Route::delete('/beskkall/delete/{nama}', [SkktenagakerjabloraController::class, 'beskkalldelete'])->middleware('auth');
+Route::get('/beskkallblora', [SkktenagakerjabloraController::class, 'beskkall'])->middleware('auth');
+Route::get('/beskkallblora/show/{nama}', [SkktenagakerjabloraController::class, 'beskkallshow'])->middleware('auth');
+Route::delete('/beskkallblora/delete/{nama}', [SkktenagakerjabloraController::class, 'beskkalldelete'])->middleware('auth');
 // ___________________________________________________________________________________________________________________________________
 
 
