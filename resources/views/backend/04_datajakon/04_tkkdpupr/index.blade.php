@@ -226,6 +226,7 @@
          <th style="width: 200px; text-align:center;">Jurusan</th>
          <th style="width: 200px; text-align:center;">Tanggal Terbit</th>
          <th style="width: 200px; text-align:center;">Tanggal Habis</th>
+         <th style="width: 200px; text-align:center;">Masa Berlaku</th>
          <th style="width: 200px; text-align:center;">Status Terbit</th>
          <th style="width: 200px; text-align:center;">Aksi</th>
      </tr>
