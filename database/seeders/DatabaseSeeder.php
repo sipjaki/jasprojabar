@@ -13281,7 +13281,7 @@ skktenagakerjablora::create([
     'lpspenerbit_id' => 1,
     'asosiasimasjaki_id' => null,
     'tanggalterbit' => '2024-03-11',
-    'tanggalhabis' => '2029-03-10',
+    'tanggalhabis' => '2024-03-10',
     'statusterbit' => 'TERBIT',
 ]);
 
