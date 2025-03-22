@@ -506,6 +506,15 @@ Route::delete('/beasosiasi/delete/{id}', [BujkkontraktorController::class, 'beas
 // ___________________________________________________________________________________________________________________________________
 
 
+// ________________________________________________________________________________________________________________
+// ---------------------- MENU 02 DATA SKK TENAGA KERJA DISELENGGARAKAN DPUPR KABUPATEN BLORA -----------------------------------------------------
+// ___________________________________________________________________________________________________________________________________
+Route::get('/beskkdpupr', [BujkkontraktorController::class, 'beskkdpupr'])->middleware('auth');
+Route::get('/beskkdpupr/show/{namaasosiasi}', [BujkkontraktorController::class, 'beskkdpuprshow'])->middleware('auth');
+Route::delete('/beskkdpupr/delete/{id}', [BujkkontraktorController::class, 'beskkdpuprdelete'])->middleware('auth');
+// ___________________________________________________________________________________________________________________________________
+
+
 
 
 

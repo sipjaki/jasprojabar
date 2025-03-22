@@ -13,15 +13,17 @@ return new class extends Migration
     {
         Schema::create('skktenagakerjabloras', function (Blueprint $table) {
             $table->id();
-            $table->string('nama')->nullable();
-            $table->text('alamat')->nullable();
+            // -----------------------------------------------------------------------
             $table->foreignId('namasekolah_id')->nullable();
             $table->foreignId('jenjangpendidikan_id')->nullable();
-            $table->foreignId('jurusan_id')->nullable();
-            $table->string('tahunlulus')->nullable();
             $table->foreignId('jabatankerja_id')->nullable();
             $table->foreignId('jenjang_id')->nullable();
             $table->foreignId('lpspenerbit_id')->nullable();
+            $table->foreignId('jurusan_id')->nullable();
+            // ==================================================================================
+            $table->string('nama')->nullable();
+            $table->text('alamat')->nullable();
+            $table->year('tahunlulus')->nullable();
             $table->date('tanggalterbit')->nullable();
             $table->date('tanggalhabis')->nullable();
             $table->enum('statusterbit', ['TERBIT', 'DALAM PROSES']);
