@@ -215,7 +215,7 @@
         </td>
 
          <td style="text-align: center; vertical-align: middle;">
-             <a href="/bebujkkonstruksi/show/{{$item->namalengkap}}" class="btn btn-sm btn-info me-2" title="Show">
+             <a href="/bebujkkonsultan/show/{{$item->namalengkap}}" class="btn btn-sm btn-info me-2" title="Show">
                  <i class="bi bi-eye"></i>
              </a>
              <a href="/404" class="btn btn-sm btn-warning me-2" title="Update">
@@ -270,7 +270,7 @@
                  function setDeleteUrl(button) {
                      var namalengkap = button.getAttribute('data-judul');
                      document.getElementById('itemName').innerText = namalengkap;
-                     var deleteUrl = "/bebujkkonstruksi/delete/" + encodeURIComponent(namalengkap);
+                     var deleteUrl = "/bebujkkonsultan/delete/" + encodeURIComponent(namalengkap);
                      document.getElementById('deleteForm').action = deleteUrl;
                  }
                  </script>
