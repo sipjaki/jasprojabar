@@ -19,7 +19,7 @@ return new class extends Migration
             $table->text('alamat')->nullable();
             $table->string('no_telepon')->nullable();
             $table->string('email')->nullable();
-            $table->string('nib')->nullable();
+            $table->string('nomorindukberusaha')->nullable();
             $table->string('pju')->nullable();
             $table->string('no_akte')->nullable();
             $table->date('tanggal')->nullable();
