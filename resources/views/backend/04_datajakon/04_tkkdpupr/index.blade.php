@@ -238,8 +238,13 @@
          <td style="text-align: left;">{{$item->alamat}}</td>
          <td style="text-align: center;">{{$item->tahunlulus}}</td>
          <td style="text-align: center;">
-            {{ $item->asosiasimasjaki ? $item->asosiasimasjaki->namaasosiasi : 'Data asosiasi belum diupdate' }}
+            @if($item->asosiasimasjaki)
+                {{ $item->asosiasimasjaki->namaasosiasi }}
+            @else
+                <button class="btn btn-danger btn-sm">Data asosiasi belum diupdate</button>
+            @endif
         </td>
+
         <td style="text-align: left;">{{$item->namasekolah->namasekolah}}</td>
          <td style="text-align: center;">{{$item->jenjangpendidikan->jenjangpendidikan}}</td>
          <td style="text-align: left;">{{$item->jabatankerja->jabatankerja}}</td>
