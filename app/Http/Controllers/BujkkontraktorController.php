@@ -285,20 +285,19 @@ return view('backend.04_datajakon.01_bujkkonstruksi.show', [
 // DATA SHOW SUB KLASIFIKASI LAYANAN
 public function bebujkkonstruksiklasifikasi($namalengkap)
 {
-    $datasublayanan = bujkkontraktorsub::where('namalengkap', $namalengkap)->first();
+    $databujk = bujkkontraktor::where('namalengkap', $namalengkap)->first();
 
-    if (!$datasublayanan) {
+    if (!$databujk) {
         return abort(404, 'Data sub-klasifikasi tidak ditemukan');
     }
 
-    // Ambil data dari bujkkontraktor berdasarkan sub-layanan
-    $databujk = bujkkontraktor::where('bujkkontraktorsub_id', $datasublayanan->id)
-    ->first(['id', 'namalengkap']);
+        // Menggunakan paginate() untuk pagination
+        $datasublayanan = bujkkontraktorsub::where('bujkkontraktor_id', $databujk->id)->paginate(50);
 
     return view('backend.04_datajakon.01_bujkkonstruksi.showklasifikasi', [
         'title' => 'Data Klasifikasi Layanan',
-        'data' => $datasublayanan,
-        'subdata' => $databujk,
+        'subdata' => $datasublayanan,
+        'data' => $databujk,
         'user' => Auth::user()
     ]);
 }
