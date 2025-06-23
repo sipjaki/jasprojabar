@@ -23,7 +23,7 @@ class FedashboardController extends Controller
         // return view('frontend.00_full.index', [
         // return view('frontend.abgblora.00_beranda.01_beranda', [
         return view('frontend.android.01_halamanutama.index', [
-            'title' => 'Abg Blora Bangunan Gedung',
+            'title' => 'JasPro | Jabar Assesment For Province',
         ]);
     }
 

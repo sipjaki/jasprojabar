@@ -7,112 +7,106 @@
 {{-- ---------------------------------------------------------------------- --}}
 
 @include('backend.00_administrator.00_baganterpisah.04_navbar')
-@include('frontend.android.00_fiturmenu.06_alert')
 {{-- ---------------------------------------------------------------------- --}}
 
       @include('backend.00_administrator.00_baganterpisah.03_sidebar')
 
       <!--begin::App Main-->
-      <main class="app-main">
+      <main class="app-main"
+         style="
+    background: linear-gradient(to bottom, #7de3f1, #ffffff);
+    margin: 0;
+    padding: 0;
+    position: relative;
+    left: 0;
+  ">
         <!--begin::App Content Header-->
         <div class="app-content-header">
           <!--begin::Container-->
           <div class="container-fluid">
             <!--begin::Row-->
-           @include('backend.00_administrator.00_baganterpisah.10_selamatdatang')
+            <div class="row">
+
+                    @include('backend.00_administrator.00_baganterpisah.10_selamatdatang')
+
+              {{-- <div class="col-sm-12"><h3 class="mb-0">Selamat datang ! <span style="color: black; font-weight:800;" > {{ Auth::user()->name }}</span> di Dashboard <span style="color: black; font-weight:800;"> {{ Auth::user()->statusadmin->statusadmin }} </span>  Sistem Informasi Pembina Jasa Konstruksi Kab Blora</h3></div> --}}
+
+            </div>
             <!--end::Row-->
           </div>
           <!--end::Container-->
         </div>
-        <!--end::App Content Header-->
-        <!--begin::App Content-->
-        <div class="app-content">
-          <!--begin::Container-->
-          <div class="container-fluid">
+        <br>
+
+        <!-- Menampilkan pesan sukses -->
+
+        {{-- ======================================================= --}}
+        {{-- ALERT --}}
+
+        @include('backend.00_administrator.00_baganterpisah.06_alert')
+
+        {{-- ======================================================= --}}
+
+        <div class="container-fluid">
             <!--begin::Row-->
-            <div class="row">
-                              </div>
-              <!--end::Row-->
-            </div>
-            <!--end::Container-->
-          </div>
-          <div class="app-content">
-            <!--begin::Container-->
-            <div class="container-fluid">
+  <!-- =========================================================== -->
+  {{-- <h5 class="mt-4 mb-2">Info Box With <code>bg-*</code></h5> --}}
+  <!--begin::Row-->
 
-                @can('konsultanbantek')
 
-{{-- atas  --}}
-<!-- Load Google Charts -->
 <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
 <script type="text/javascript">
   google.charts.load("current", { packages: ["corechart"] });
   google.charts.setOnLoadCallback(drawCharts);
 
   function drawCharts() {
-    // Data Pie Chart
-    var dataPie = google.visualization.arrayToDataTable([
-      ['Dinas', 'Jumlah Permohonan'],
-      @foreach($dataChart as $row)
-        ['{{ $row["nama"] }}', {{ $row["jumlah"] }}],
-      @endforeach
-    ]);
+    // Header data array: kolom nama instansi, jumlah, dan style (warna)
+    var dataArray = [
+      ['Instansi', 'Jumlah Permohonan', { role: 'style' }]
+    ];
 
-    // Data Bar Chart
-    var dataBar = google.visualization.arrayToDataTable([
-      ['Dinas', 'Jumlah Permohonan', { role: 'style' }],
-      @foreach($dataChart as $index => $row)
-        ['{{ $row["nama"] }}', {{ $row["jumlah"] }}, '{{ ['#006400','#FFD700','#001f3f','#FFA500','#8A2BE2','#00BFFF','#DC143C','#20B2AA'][$index % 8] }}'],
-      @endforeach
-    ]);
+    // Loop PHP ke JS (inject data dari $jumlahPerInstansi)
+    @foreach($jumlahPerInstansi as $item)
+      var color = '#001f3f'; // default warna navy
+      @if(strtolower($item->instansi) === 'dinas')
+        color = '#006400'; // hijau
+      @elseif(strtolower($item->instansi) === 'proposal')
+        color = '#FFD700'; // emas
+      @endif
 
-    // Pie Chart Options
+      dataArray.push(['{{ $item->instansi }}', {{ $item->total }}, color]);
+    @endforeach
+
+    // Data untuk PieChart (tidak perlu style kolom)
+    var dataPie = google.visualization.arrayToDataTable(
+      dataArray.map(function(row, idx) {
+        return (idx === 0) ? [row[0], row[1]] : [row[0], row[1]];
+      })
+    );
+
+    // Data untuk BarChart (pakai style kolom)
+    var dataBar = google.visualization.arrayToDataTable(dataArray);
+
     var pieOptions = {
-      title: 'Persentase Permohonan Berdasarkan Dinas',
+      title: 'Persentase Permohonan',
       is3D: true,
       backgroundColor: 'transparent',
-      titleTextStyle: {
-        color: 'white',
-        fontSize: 16,
-        bold: true
-      },
-      legend: {
-        textStyle: {
-          color: 'white',
-          fontSize: 12
-        }
-      },
-      chartArea: {
-        width: '90%',
-        height: '75%'
-      }
+      colors: ['#006400', '#FFD700', '#001f3f', '#FFA500'],
+      titleTextStyle: { color: '#001f3f', fontSize: 16, bold: true },
+      legend: { textStyle: { color: '#001f3f', fontSize: 12 } },
+      chartArea: { width: '90%', height: '75%' }
     };
 
-    // Bar Chart Options
     var barOptions = {
-      title: 'Jumlah Permohonan Per Dinas',
+      title: 'Jumlah Permohonan',
       backgroundColor: 'transparent',
-      titleTextStyle: {
-        color: 'white',
-        fontSize: 16,
-        bold: true
-      },
+      titleTextStyle: { color: '#001f3f', fontSize: 16, bold: true },
       legend: { position: 'none' },
-      chartArea: {
-        width: '70%',
-        height: '70%'
-      },
-      hAxis: {
-        title: 'Jumlah Permohonan',
-        titleTextStyle: { color: 'white' },
-        textStyle: { color: 'white' }
-      },
-      vAxis: {
-        textStyle: { color: 'white' }
-      }
+      chartArea: { width: '65%', height: '70%' },
+      hAxis: { title: 'Jumlah Permohonan', titleTextStyle: { color: '#001f3f' }, textStyle: { color: '#001f3f' } },
+      vAxis: { textStyle: { color: '#001f3f' } }
     };
 
-    // Draw the charts
     var pieChart = new google.visualization.PieChart(document.getElementById('piechart'));
     var barChart = new google.visualization.ColumnChart(document.getElementById('barchart'));
 
@@ -121,243 +115,114 @@
   }
 </script>
 
-<!-- Chart Layout -->
 <style>
   .chart-container {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
     flex-wrap: wrap;
-    gap: 20px;
-    margin-top: -20px;
+    margin-top: -80px;
   }
 
   .chart-box {
     flex: 1;
-    min-width: 400px;
-    max-width: 48%;
-    height: 500px;
-    background-color: transparent;
+    min-width: 450px;
+    max-width: 50%;
+    height: 400px;
+    padding: 10px;
+    box-sizing: border-box;
   }
 
   svg {
     filter: drop-shadow(0 0 6px rgba(0, 0, 0, 0.1));
   }
-
-  @media (max-width: 768px) {
-    .chart-box {
-      max-width: 100%;
-      height: 400px;
-    }
-  }
 </style>
 
-<!-- HTML Chart Container -->
-<div class="chart-container" style="margin-top:5px; margin-bottom:20px;">
-  <div class="chart-box" id="piechart"></div>
-  <div class="chart-box" id="barchart"></div>
+<div class="chart-container">
+  <div id="piechart" class="chart-box"></div>
+  <div id="barchart" class="chart-box"></div>
 </div>
 
 
-<div class="row">
-    @php
-        $boxes = [
-            ['title' => 'BANTUAN ASISTENSI PERENCANAAN', 'jumlah' => $jumlahdataasistensi1],
-            // Tambahan lainnya jika diperlukan
-        ];
-    @endphp
+<div class="container" style="margin-top: -50px;">
+    <div class="d-flex justify-content-between flex-wrap gap-3">
 
-    @foreach ($boxes as $index => $box)
-        <div class="col-12 col-sm-6 col-md-3 mb-4" data-aos="zoom-out" data-aos-delay="{{ $index * 100 }}">
-            <a href="/beakunkonsultanasistensi" class="text-decoration-none">
-                <div class="info-box shadow-lg rounded-3 p-4 transition-custom" style="background: #000080; color: white;">
-                    <span class="info-box-icon d-flex justify-content-center align-items-center p-3 shadow-sm rounded" style="background-color: #ffd100; width: 60px; height: 60px;">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" class="bi bi-file-earmark-text" viewBox="0 0 16 16">
-                            <path fill="green" d="M14 4V14a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v2h-2V2H4v12h8V6h2z"/>
-                        </svg>
-                    </span>
-                    <div class="info-box-content mt-3 text-center" style="font-family: 'Poppins', sans-serif;">
-                        <span class="info-box-text" style="color: white; font-size: 14px;">{{ $box['title'] }}</span>
-                        <span class="info-box-number fw-bold" style="font-size: 16px;">{{ $box['jumlah'] }} Permohonan</span>
-                    </div>
-                </div>
-            </a>
-        </div>
-    @endforeach
-</div>
-
-@endcan
-
-@can('dinas')
-
-<div class="container">
-
-
-    <div class="stats-grid">
-        <div class="stat-card">
-            <div class="stat-number"> {{
-        ($jumlahdatadinas1 ?? 0) +
-        ($jumlahdatadinas2 ?? 0) +
-        ($jumlahdatadinas3 ?? 0) +
-        ($jumlahdatadinas4 ?? 0) +
-        ($jumlahdatadinas5 ?? 0) +
-        ($jumlahdatadinas6 ?? 0) +
-        ($jumlahdatadinas7 ?? 0) +
-        ($jumlahdatadinas8 ?? 0)
-    }}</div>
-            <div class="stat-label">Total Permohonan</div>
-            <div class="stat-change positive">Permohonan</div>
-        </div>
-        <div class="stat-card">
-            {{-- <div class="stat-number">{{ $datajumlahdinas_dikembalikan['jumlahdatadinas_dikembalikan1'] }}</div> --}}
-           {{-- <div class="stat-number">{{ $jumlahdatadinas_dikembalikan1 ?? 0 }}</div> --}}
-         <div class="stat-number">
-    {{
-        ($jumlahdatadinas_dikembalikan1 ?? 0) +
-        ($jumlahdatadinas_dikembalikan2 ?? 0) +
-        ($jumlahdatadinas_dikembalikan3 ?? 0) +
-        ($jumlahdatadinas_dikembalikan4 ?? 0) +
-        ($jumlahdatadinas_dikembalikan5 ?? 0) +
-        ($jumlahdatadinas_dikembalikan6 ?? 0) +
-        ($jumlahdatadinas_dikembalikan7 ?? 0) +
-        ($jumlahdatadinas_dikembalikan8 ?? 0)
-    }}
-</div>
-
-
-            <div class="stat-label">Dikembalikan</div>
-            <div class="stat-change positive">Permohonan</div>
-        </div>
-        <div class="stat-card">
+        <!-- Jumlah Permohonan -->
+        <div class="stat-card text-center">
             <div class="stat-number">
-    {{
-        ($jumlahdatadinas_selesai1 ?? 0) +
-        ($jumlahdatadinas_selesai2 ?? 0) +
-        ($jumlahdatadinas_selesai3 ?? 0) +
-        ($jumlahdatadinas_selesai4 ?? 0) +
-        ($jumlahdatadinas_selesai5 ?? 0) +
-        ($jumlahdatadinas_selesai6 ?? 0) +
-        ($jumlahdatadinas_selesai7 ?? 0) +
-        ($jumlahdatadinas_selesai8 ?? 0)
-    }}
-</div>
-            {{-- <div class="stat-number">17</div> --}}
-            <div class="stat-label">Pengolahan Data</div>
-                <div class="stat-change positive">Permohonan Sedang Di Kaji</div>
+                {{ $datajumlahbantuanhibah ?? 0 }}
             </div>
-            <div class="stat-card">
-            <div class="stat-number">
-    {{
-        ($jumlahdatadinas_terbit1 ?? 0) +
-        ($jumlahdatadinas_terbit2 ?? 0) +
-        ($jumlahdatadinas_terbit3 ?? 0) +
-        ($jumlahdatadinas_terbit4 ?? 0) +
-        ($jumlahdatadinas_terbit5 ?? 0) +
-        ($jumlahdatadinas_terbit6 ?? 0) +
-        ($jumlahdatadinas_terbit7 ?? 0) +
-        ($jumlahdatadinas_terbit8 ?? 0)
-    }}
+            <div class="stat-label" style="color: navy;">
+                <i class="bi bi-file-earmark-text" style="margin-right: 6px;"></i> Permohonan
+            </div>
+        </div>
+
+        <!-- Permohonan Dikembalikan -->
+     <div class="stat-card text-center">
+    <div class="stat-number">
+        {{ $datajumlahbantuanhibah_dikembalikan ?? 0 }}
+    </div>
+    <div class="stat-label" style="color: navy;">
+        <i class="bi bi-clipboard-check" style="margin-right: 6px;"></i> Berkas Survey <br> Pengajuan Proposal
+    </div>
 </div>
-                {{-- <div class="stat-number">1.345</div> --}}
-                <div class="stat-label">Berkas Bantek Terbit</div>
-                <div class="stat-change positive">Surat Terbit</div>
+
+
+        <!-- Dokumentasi Lapangan -->
+        <div class="stat-card text-center">
+            <div class="stat-number">
+                {{ $datajumlahdok_lapangan ?? 0 }}
+            </div>
+            <div class="stat-label" style="color: navy;">
+                <i class="bi bi-camera" style="margin-right: 6px;"></i> Dokumentasi <br> Lapangan
+            </div>
+        </div>
+
+        <!-- SK Terbit -->
+        <div class="stat-card text-center">
+            <div class="stat-number">
+                {{ $datajumlahsk_terbit ?? 0 }}
+            </div>
+            <div class="stat-label" style="color: navy;">
+                <i class="bi bi-file-earmark-medical" style="margin-right: 6px;"></i> SK Terbit <br> Hibah Bangunan
+            </div>
+        </div>
+
+        <!-- Permohonan Selesai -->
+        <div class="stat-card text-center">
+            <div class="stat-number">
+                {{ $datajumlahsk_selesai ?? 0 }}
+            </div>
+            <div class="stat-label" style="color: navy;">
+                <i class="bi bi-check2-circle" style="margin-right: 6px;"></i> Selesai
             </div>
         </div>
 
     </div>
-
-<div class="row">
-    @php
-        $boxes = [
-            ['title' => 'BANTUAN ASISTENSI PERENCANAAN', 'jumlah' => $jumlahdatadinas1],
-            ['title' => 'PENELITI KONTRAK', 'jumlah' => $jumlahdatadinas2],
-            ['title' => 'PERHITUNGAN PENYUSUTAN', 'jumlah' => $jumlahdatadinas3],
-            ['title' => 'PERHITUNGAN TINGKAT KERUSAKAN', 'jumlah' => $jumlahdatadinas4],
-            ['title' => 'PERHITUNGAN BIAYA PEMELIHARAAN BGN', 'jumlah' => $jumlahdatadinas5],
-            ['title' => 'BIAYA KONSTRUKSI PEMBANGUNAN BGN', 'jumlah' => $jumlahdatadinas6],
-            ['title' => 'PENGELOLA TEKNIS', 'jumlah' => $jumlahdatadinas7],
-            ['title' => 'PENDAMPINGAN SERAH TERIMA PEKERJAAN', 'jumlah' => $jumlahdatadinas8],
-            ['title' => 'PERMINTAAN PERSONIL TIM TEKNIS', 'jumlah' => $jumlahdatadinas9],
-        ];
-    @endphp
-
-    @foreach ($boxes as $index => $box)
-        <div class="col-12 col-sm-6 col-md-3 mb-4" data-aos="zoom-out" data-aos-delay="{{ $index * 100 }}">
-            <div class="info-box shadow-lg rounded-3 p-4 transition-custom" style="background: #000080; color: white;">
-                <span class="info-box-icon d-flex justify-content-center align-items-center p-3 shadow-sm rounded" style="background-color: #ffd100; width: 60px; height: 60px;">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" class="bi bi-file-earmark-text" viewBox="0 0 16 16">
-                        <path fill="green" d="M14 4V14a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v2h-2V2H4v12h8V6h2z"/>
-                    </svg>
-                </span>
-                <div class="info-box-content mt-3 text-center" style="font-family: 'Poppins', sans-serif;">
-                    <span class="info-box-text" style="color: white; font-size: 14px;">{{ $box['title'] }}</span>
-                    <span class="info-box-number fw-bold" style="font-size: 16px;">{{ $box['jumlah'] }} Permohonan</span>
-                </div>
-            </div>
-        </div>
-    @endforeach
 </div>
-@endcan
-
-@can('pemohonbantek')
-<div class="row">
-    @php
-        $boxes = [
-            ['title' => 'BANTUAN ASISTENSI PERENCANAAN', 'jumlah' => $jumlahdata1],
-            ['title' => 'PENELITI KONTRAK', 'jumlah' => $jumlahdata2],
-            ['title' => 'PERHITUNGAN PENYUSUTAN', 'jumlah' => $jumlahdata3],
-            ['title' => 'PERHITUNGAN TINGKAT KERUSAKAN', 'jumlah' => $jumlahdata4],
-            ['title' => 'PERHITUNGAN BIAYA PEMELIHARAAN BGN', 'jumlah' => $jumlahdata5],
-            ['title' => 'BIAYA KONSTRUKSI PEMBANGUNAN BGN', 'jumlah' => $jumlahdata6],
-            ['title' => 'PENGELOLA TEKNIS', 'jumlah' => $jumlahdata7],
-            ['title' => 'PENDAMPINGAN SERAH TERIMA PEKERJAAN', 'jumlah' => $jumlahdata8],
-            ['title' => 'PERMINTAAN PERSONIL TIM TEKNIS', 'jumlah' => $jumlahdata9],
-        ];
-    @endphp
-
-    @foreach ($boxes as $index => $box)
-        <div class="col-12 col-sm-6 col-md-3 mb-4" data-aos="zoom-out" data-aos-delay="{{ $index * 100 }}">
-            <div class="info-box shadow-lg rounded-3 p-4 transition-custom" style="background: #000080; color: white;">
-                <span class="info-box-icon d-flex justify-content-center align-items-center p-3 shadow-sm rounded" style="background-color: #ffd100; width: 60px; height: 60px;">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" class="bi bi-file-earmark-text" viewBox="0 0 16 16">
-                        <path fill="green" d="M14 4V14a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v2h-2V2H4v12h8V6h2z"/>
-                    </svg>
-                </span>
-                <div class="info-box-content mt-3 text-center" style="font-family: 'Poppins', sans-serif;">
-                    <span class="info-box-text" style="color: white; font-size: 14px;">{{ $box['title'] }}</span>
-                    <span class="info-box-number fw-bold" style="font-size: 16px;">{{ $box['jumlah'] }} Permohonan</span>
-                </div>
-            </div>
-        </div>
-    @endforeach
-</div>
-@endcan
 
 <style>
-    .transition-custom {
-        transition: all 0.3s ease-in-out;
-    }
+    .stat-card {
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    min-width: 150px;
+    flex-grow: 1;
+}
 
-    .info-box:hover {
-        background-color: white !important;
-        color: #000080 !important;
-        transform: translateY(-10px);
-        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
-    }
+.stat-number {
+    font-size: 28px;
+    font-weight: bold;
+    color: #2c3e50;
+}
 
-    .info-box:hover .info-box-text,
-    .info-box:hover .info-box-number {
-        color: #000080 !important;
-    }
+.stat-label {
+    font-size: 14px;
+    margin-top: 8px;
+}
+
 </style>
-
-<script>
-    AOS.init({
-        duration: 800,
-        once: true
-    });
-</script>
-
 <style>
         * {
             margin: 0;
@@ -436,15 +301,25 @@
             box-shadow: 0 20px 40px rgba(0,0,0,0.2);
         }
 
-        .stat-number {
-            font-size: 3rem;
-            font-weight: 700;
-            margin-bottom: 10px;
-            background: linear-gradient(45deg, #60a5fa, #a78bfa);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            background-clip: text;
-        }
+.stat-number {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: #020075;
+    display: inline-block;
+    animation: zoomInOut 3s ease-in-out infinite;
+}
+
+@keyframes zoomInOut {
+    0%, 100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+    50% {
+        transform: scale(1.2);
+        opacity: 0.8;
+    }
+}
 
         .stat-label {
             font-size: 1.1rem;
@@ -644,340 +519,26 @@
             }
         }
     </style>
-</head>
-<body>
 
-    @can('superadmin')
 
-    <div class="container">
+                <!-- /.col -->
 
-        <div class="stats-grid">
-            <div class="stat-card">
-                <div class="stat-number">3</div>
-                <div class="stat-label">Akun Pemohon</div>
-                <div class="stat-change positive">+12.5%</div>
-            </div>
-            <div class="stat-card">
-                <div class="stat-number">23</div>
-                <div class="stat-label">Akun Dinas</div>
-                <div class="stat-change positive">+8.2%</div>
-            </div>
-            <div class="stat-card">
-                <div class="stat-number">17</div>
-                <div class="stat-label">Akun Konsultan</div>
-                <div class="stat-change positive">2.1%</div>
-            </div>
-            <div class="stat-card">
-                <div class="stat-number">1.345</div>
-                <div class="stat-label">Permohonan</div>
-                <div class="stat-change positive">+1.8%</div>
-            </div>
-        </div>
-
-        <div class="charts-section">
-            <div class="chart-container">
-                <h3 class="chart-title">Statistik</h3>
-               <div class="bar-chart" style="display: flex; align-items: flex-end; gap: 10px; height: 200px;">
-    <div class="bar" style="height: 60%;" data-value="60" title="Jan"></div>
-    <div class="bar" style="height: 80%;" data-value="80" title="Feb"></div>
-    <div class="bar" style="height: 45%;" data-value="45" title="Mar"></div>
-    <div class="bar" style="height: 90%;" data-value="90" title="Apr"></div>
-    <div class="bar" style="height: 75%;" data-value="75" title="Mei"></div>
-    <div class="bar" style="height: 100%;" data-value="100" title="Jun"></div>
-    <div class="bar" style="height: 50%;" data-value="50" title="Jul"></div>
-    <div class="bar" style="height: 70%;" data-value="70" title="Agu"></div>
-    <div class="bar" style="height: 65%;" data-value="65" title="Sep"></div>
-    <div class="bar" style="height: 85%;" data-value="85" title="Okt"></div>
-    <div class="bar" style="height: 55%;" data-value="55" title="Nov"></div>
-    <div class="bar" style="height: 95%;" data-value="95" title="Des"></div>
-</div>
 
             </div>
 
-            <div class="chart-container">
-    <h5 class="chart-title">Jumlah Berkas Permohonan </h5>
-    <div class="legend">
-        <div class="legend-item">
-            <div class="legend-color" style="background: #00087c;"></div>
-            <span>Berkas PBG SLF</span>
+  {{-- ================================================================================== --}}
+            <!-- /.col -->
         </div>
-        <div class="legend-item">
-            <div class="legend-color" style="background: #a78bfa;"></div>
-            <span>Berkas KRK</span>
+        <!--end::Row-->
         </div>
-        <div class="legend-item">
-            <div class="legend-color" style="background: #34d399;"></div>
-            <span>Berkas Bantek</span>
-        </div>
-        <div class="legend-item">
-            <div class="legend-color" style="background: #fbbf24;"></div>
-            <span>Berkas Penilik</span>
-        </div>
-        <div class="legend-item">
-            <div class="legend-color" style="background: #f472b6;"></div>
-            <span>Berkas MBR</span>
-        </div>
-        <div class="legend-item">
-            <div class="legend-color" style="background: #60a5fa;"></div>
-            <span>Berkas Hibah Bangunan</span>
-        </div>
-        <div class="legend-item">
-            <div class="legend-color" style="background: #10b981;"></div>
-            <span>Berkas Bantuan</span>
-        </div>
-    </div>
-</div>
-
-        </div>
-
-    </div>
-
-    <script>
-        // Add some interactivity
-        document.addEventListener('DOMContentLoaded', function() {
-            // Animate progress bars on load
-            const progressBars = document.querySelectorAll('.progress-fill');
-            progressBars.forEach(bar => {
-                const width = bar.style.width;
-                bar.style.width = '0%';
-                setTimeout(() => {
-                    bar.style.width = width;
-                }, 500);
-            });
-
-            // Add hover effects to stat cards
-            const statCards = document.querySelectorAll('.stat-card');
-            statCards.forEach(card => {
-                card.addEventListener('mouseenter', function() {
-                    this.style.transform = 'translateY(-5px) scale(1.02)';
-                });
-                card.addEventListener('mouseleave', function() {
-                    this.style.transform = 'translateY(0) scale(1)';
-                });
-            });
-        });
-    </script>
-
-<div class="row">
-
-    <div class="col-12 col-sm-6 col-md-3">
-      <div class="info-box shadow-lg rounded-3 p-4" style="background: #000080; color: white; transition: all 0.3s ease;">
-        <span class="info-box-icon d-flex justify-content-center align-items-center p-3 shadow-sm rounded" style="background-color: #ffd100; width: 60px; height: 60px;">
-          <!-- SVG icon for PBG/SLF -->
-          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="green" class="bi bi-file-earmark-text" viewBox="0 0 16 16">
-            <path d="M14 4V14a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v2h-2V2H4v12h8V6h2z"/>
-          </svg>
-        </span>
-        <div class="info-box-content mt-3 text-center" style="font-family: 'Poppins', sans-serif;">
-          <span class="info-box-text" style="color: white;">PBG/SLF</span>
-          <span class="info-box-number fw-bold" style="font-size: 16px;">10 Permohonan</span>
-        </div>
-      </div>
-    </div>
-
-    <div class="col-12 col-sm-6 col-md-3">
-      <div class="info-box shadow-lg rounded-3 p-4" style="background: #000080; color: white; transition: all 0.3s ease;">
-        <span class="info-box-icon d-flex justify-content-center align-items-center p-3 shadow-sm rounded" style="background-color: #ffd100; width: 60px; height: 60px;">
-          <!-- SVG icon for Tracking -->
-          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="green" class="bi bi-box-arrow-right" viewBox="0 0 16 16">
-            <path d="M14 7l-5 5-5-5h3V2h4v5h3z"/>
-          </svg>
-        </span>
-        <div class="info-box-content mt-3 text-center" style="font-family: 'Poppins', sans-serif;">
-          <span class="info-box-text" style="color:white;">Tracking</span>
-          <span class="info-box-number fw-bold" style="font-size: 16px;">234 Permohonan</span>
-        </div>
-      </div>
-    </div>
-
-    <div class="col-12 col-sm-6 col-md-3">
-      <div class="info-box shadow-lg rounded-3 p-4" style="background: #000080; color: white; transition: all 0.3s ease;">
-        <span class="info-box-icon d-flex justify-content-center align-items-center p-3 shadow-sm rounded" style="background-color: #ffd100; width: 60px; height: 60px;">
-          <!-- SVG icon for Pendataan -->
-          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="green" class="bi bi-clipboard-data" viewBox="0 0 16 16">
-            <path d="M3 0a1 1 0 0 1 1 1v14a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V1a1 1 0 0 1 1-1h1zm10 0a1 1 0 0 1 1 1v14a1 1 0 0 1-1 1h-1a1 1 0 0 1-1-1V1a1 1 0 0 1 1-1h1zM7 3h2v10H7V3z"/>
-          </svg>
-        </span>
-        <div class="info-box-content mt-3 text-center" style="font-family: 'Poppins', sans-serif;">
-          <span class="info-box-text" style="color: white;">Pendataan</span>
-          <span class="info-box-number fw-bold" style="font-size: 16px;">760 Bangunan</span>
-        </div>
-      </div>
-    </div>
-    <div class="col-12 col-sm-6 col-md-3">
-        <div class="info-box shadow-lg rounded-3 p-4" style="background: #000080; color: white; transition: all 0.3s ease;">
-          <span class="info-box-icon d-flex justify-content-center align-items-center p-3 shadow-sm rounded" style="background-color: #ffd100; width: 60px; height: 60px;">
-            <!-- SVG icon for Surat (Mail) -->
-            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="green" viewBox="0 0 16 16">
-              <path d="M0 2.5A1.5 1.5 0 0 1 1.5 1h13A1.5 1.5 0 0 1 16 2.5v11A1.5 1.5 0 0 1 14.5 15h-13A1.5 1.5 0 0 1 0 13.5V2.5zM1 2v11h14V2H1zm7 3.5L12 7H4l5-1.5z"/>
-            </svg>
-          </span>
-          <div class="info-box-content mt-3 text-center" style="font-family: 'Poppins', sans-serif;">
-            <span class="info-box-text" style="color: white;">Bantek</span>
-            <span class="info-box-number fw-bold" style="font-size: 16px;">345 Permohonan</span>
-          </div>
-        </div>
-      </div>
-
-
-  </div>
-
-  <style>
-    .info-box:hover {
-      background-color: white !important;
-      color: #000080 !important;
-      transform: translateY(-10px);
-      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-    }
-    .info-box-icon svg {
-      fill: green; /* Green color for SVG icons */
-    }
-    .info-box-text, .info-box-number {
-      color: white;
-    }
-    .info-box:hover .info-box-text,
-    .info-box:hover .info-box-number {
-      color: #000080 !important;
-    }
-  </style>
-
-              {{-- -------------------------------------------------------- --}}
-
-{{-- -------------------------------------------------------- --}}
-<div class="row">
-
-    <div class="col-12 col-sm-6 col-md-3">
-      <div class="info-box shadow-lg rounded-3 p-4" style="background: #000080; color: white; transition: all 0.3s ease;">
-        <span class="info-box-icon d-flex justify-content-center align-items-center p-3 shadow-sm rounded" style="background-color: #ffd100; width: 60px; height: 60px;">
-          <!-- SVG icon for Sosialisasi -->
-          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="green" class="bi bi-megaphone" viewBox="0 0 16 16">
-            <path d="M8 0a1 1 0 0 1 1 1v6.1l2.5-.5a1 1 0 0 1 1 1.3l-3 7a1 1 0 0 1-1.8 0l-3-7a1 1 0 0 1 1-1.3L7 7.1V1a1 1 0 0 1 1-1zM8 9.5l1 2.3 1-2.3V1H7v8.5l1-2.3z"/>
-          </svg>
-        </span>
-        <div class="info-box-content mt-3 text-center" style="font-family: 'Poppins', sans-serif;">
-          <span class="info-box-text" style="color: white;">Sosialisasi</span>
-          <span class="info-box-number fw-bold" style="font-size: 16px;">50 Permohonan</span>
-        </div>
-      </div>
-    </div>
-
-    <div class="col-12 col-sm-6 col-md-3">
-      <div class="info-box shadow-lg rounded-3 p-4" style="background: #000080; color: white; transition: all 0.3s ease;">
-        <span class="info-box-icon d-flex justify-content-center align-items-center p-3 shadow-sm rounded" style="background-color: #ffd100; width: 60px; height: 60px;">
-          <!-- SVG icon for kRK -->
-          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="green" class="bi bi-clipboard-check" viewBox="0 0 16 16">
-            <path d="M12.146 5.854a.5.5 0 0 0-.707 0L8 9.293 5.854 7.146a.5.5 0 1 0-.708.707l2.5 2.5a.5.5 0 0 0 .708 0l4-4a.5.5 0 0 0 0-.707z"/>
-            <path d="M3 2.5A1.5 1.5 0 0 1 4.5 1h7A1.5 1.5 0 0 1 13 2.5v11A1.5 1.5 0 0 1 11.5 15h-7A1.5 1.5 0 0 1 3 13.5V2.5zM4 2v11h8V2H4z"/>
-          </svg>
-        </span>
-        <div class="info-box-content mt-3 text-center" style="font-family: 'Poppins', sans-serif;">
-          <span class="info-box-text" style="color:white;">kRK</span>
-          <span class="info-box-number fw-bold" style="font-size: 16px;">100 Permohonan</span>
-        </div>
-      </div>
-    </div>
-
-    <div class="col-12 col-sm-6 col-md-3">
-      <div class="info-box shadow-lg rounded-3 p-4" style="background: #000080; color: white; transition: all 0.3s ease;">
-        <span class="info-box-icon d-flex justify-content-center align-items-center p-3 shadow-sm rounded" style="background-color: #ffd100; width: 60px; height: 60px;">
-          <!-- SVG icon for Penilik -->
-          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="green" class="bi bi-person-circle" viewBox="0 0 16 16">
-            <path d="M8 0a8 8 0 1 0 8 8A8 8 0 0 0 8 0zm0 1a7 7 0 1 1-7 7A7 7 0 0 1 8 1zm0 5a2 2 0 1 1-2 2 2 2 0 0 1 2-2zm0 4a5 5 0 0 0-5 5h10a5 5 0 0 0-5-5z"/>
-          </svg>
-        </span>
-        <div class="info-box-content mt-3 text-center" style="font-family: 'Poppins', sans-serif;">
-          <span class="info-box-text" style="color: white;">Penilik</span>
-          <span class="info-box-number fw-bold" style="font-size: 16px;">450 Penilaian</span>
-        </div>
-      </div>
-    </div>
-
-    <div class="col-12 col-sm-6 col-md-3">
-      <div class="info-box shadow-lg rounded-3 p-4" style="background: #000080; color: white; transition: all 0.3s ease;">
-        <span class="info-box-icon d-flex justify-content-center align-items-center p-3 shadow-sm rounded" style="background-color: #ffd100; width: 60px; height: 60px;">
-          <!-- SVG icon for MBR Bangunan -->
-          <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="green" viewBox="0 0 16 16">
-            <path d="M7 0h2v16H7V0zM0 6h2v8H0V6zm14 0h2v8h-2V6z"/>
-          </svg>
-        </span>
-        <div class="info-box-content mt-3 text-center" style="font-family: 'Poppins', sans-serif;">
-          <span class="info-box-text" style="color: white;">MBR Bangunan</span>
-          <span class="info-box-number fw-bold" style="font-size: 16px;">200 Bangunan</span>
-        </div>
-      </div>
-    </div>
-
-</div>
-
-              {{-- -------------------------------------------------------- --}}
-
-{{-- -------------------------------------------------------- --}}
-<div class="row">
-
-    <div class="col-12 col-sm-6 col-md-3">
-      <div class="info-box shadow-lg rounded-3 p-4" style="background: #000080; color: white; transition: all 0.3s ease;">
-        <span class="info-box-icon d-flex justify-content-center align-items-center p-3 shadow-sm rounded" style="background-color: #ffd100; width: 60px; height: 60px;">
-          <!-- SVG icon for Bantuan Gambar -->
-          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="green" class="bi bi-image" viewBox="0 0 16 16">
-            <path d="M3 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H3zm0 1h10a1 1 0 0 1 1 1v10H2V2a1 1 0 0 1 1-1zm1 3h8a1 1 0 0 1 1 1v6a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V5a1 1 0 0 1 1-1z"/>
-          </svg>
-        </span>
-        <div class="info-box-content mt-3 text-center" style="font-family: 'Poppins', sans-serif;">
-          <span class="info-box-text" style="color: white;">Bantuan Gambar</span>
-          <span class="info-box-number fw-bold" style="font-size: 16px;">120 Permohonan</span>
-        </div>
-      </div>
-    </div>
-
-    <div class="col-12 col-sm-6 col-md-3">
-      <div class="info-box shadow-lg rounded-3 p-4" style="background: #000080; color: white; transition: all 0.3s ease;">
-        <span class="info-box-icon d-flex justify-content-center align-items-center p-3 shadow-sm rounded" style="background-color: #ffd100; width: 60px; height: 60px;">
-          <!-- SVG icon for Hibah Bangunan -->
-          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="green" class="bi bi-house-door" viewBox="0 0 16 16">
-            <path d="M7 3V0h2v3h5v8H4V3h3z"/>
-            <path d="M7 9v6h2V9H7z"/>
-          </svg>
-        </span>
-        <div class="info-box-content mt-3 text-center" style="font-family: 'Poppins', sans-serif;">
-          <span class="info-box-text" style="color: white;">Hibah Bangunan</span>
-          <span class="info-box-number fw-bold" style="font-size: 16px;">85 Permohonan</span>
-        </div>
-      </div>
-    </div>
-
-    <div class="col-12 col-sm-6 col-md-3">
-      <div class="info-box shadow-lg rounded-3 p-4" style="background: #000080; color: white; transition: all 0.3s ease;">
-        <span class="info-box-icon d-flex justify-content-center align-items-center p-3 shadow-sm rounded" style="background-color: #ffd100; width: 60px; height: 60px;">
-          <!-- SVG icon for SPPD -->
-          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="green" class="bi bi-file-earmark" viewBox="0 0 16 16">
-            <path d="M14 4V14a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v2h-2V2H4v12h8V6h2z"/>
-          </svg>
-        </span>
-        <div class="info-box-content mt-3 text-center" style="font-family: 'Poppins', sans-serif;">
-          <span class="info-box-text" style="color: white;">SPPD</span>
-          <span class="info-box-number fw-bold" style="font-size: 16px;">300 Permohonan</span>
-        </div>
-      </div>
-    </div>
-
-</div>
-@endcan
-              {{-- -------------------------------------------------------- --}}
-
-
-
-              {{-- -------------------------------------------------------- --}}
-
-              <!--begin::Row-->
-
-          </div>
-          <!--end::Container-->
-        </div>
-        <!--end::App Content-->
-
+                  <!--end::Container-->
+        <!--end::App Content Header-->
+        <!--begin::App Content-->
           <!--end::App Content-->
       </main>
       <!--end::App Main-->
+    </div>
+    </div>
 
 
       @include('backend.00_administrator.00_baganterpisah.02_footer')

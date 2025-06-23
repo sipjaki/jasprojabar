@@ -11,7 +11,7 @@
               <img src="/assets/android/icons/back.svg" alt="icon">
             </div>
           </a>
-           <p class="font-semibold text-lg leading-[28px] text-white text-center">ABG Bangunan Gedung <span class="tracking-[2%]"><br>DPUPR Kabupaten Blora</span></p>
+           <p class="font-semibold text-lg leading-[28px] text-white text-center">Badan Kepegawaian Daerah<span class="tracking-[2%]"><br>Pemerintah Provinsi Jawa Barat</span></p>
         <div class="dummy-spacer w-[42px] h-[42px] flex shrink-0">
         </div>
       </div>

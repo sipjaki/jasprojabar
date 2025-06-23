@@ -5,10 +5,11 @@
     <!--end::To the end-->
     <!--begin::Copyright-->
     <strong>
-        <img src="/assets/icon/logokabupatenblora.png" alt="" width="20">
-        <img src="/assets/icon/pupr.png" alt="" width="20">
-        &copy; Dinas Pekerjaan Umum Dan Penataan Ruang Kabupaten Blora Provinsi Jawa Tengah &nbsp; 2025 | Built and Deployed By
-        <a href="https://wa.me/6281321455855" target="_blank" class="text-decoration-none" style="color: green"> CV. Angkasa Raya Teknik</a>.
+        <img src="/assets/android/iconmenu/logojabarpng.png" alt="" width="20">
+        <img src="/assets/android/iconmenu/bkdjabarpng.png" alt="" width="20">
+        &copy; Badan Kepegawaian Daerah Pemerintah Provinsi Jawa Barat &nbsp; 2025
+        {{-- <br>| Built and Deployed By --}}
+        {{-- <a href="https://wa.me/6281321455855" target="_blank" class="text-decoration-none" style="color: green"> CV. Angkasa Raya Teknik</a>. --}}
     </strong>
     <!--end::Copyright-->
 </footer>

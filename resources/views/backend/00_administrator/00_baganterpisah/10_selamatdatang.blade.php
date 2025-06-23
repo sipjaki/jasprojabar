@@ -10,7 +10,7 @@
                 <span style="color: orange; font-weight: 800;">
                     {{ Auth::user()->statusadmin->status }}
                 </span>
-                ABG Blora Bangunan Gedung Kabupaten Blora
+                Badan Kepegawaian Daerah Provinsi Jawa Barat
             </h6>
         </marquee>
     </div>

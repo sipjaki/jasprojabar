@@ -44,7 +44,7 @@
 
 @can('superadmin')
 
-<li class="nav-item bungkushilang">
+{{-- <li class="nav-item bungkushilang">
   <a class="nav-link" href="#">
     <span class="nav-icon-wrapper">
       <i class="bi bi-building-check"></i>
@@ -171,7 +171,7 @@
       <span class="badge bg-danger">34</span>
     </span>
   </a>
-</li>
+</li> --}}
 
 @endcan
 

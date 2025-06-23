@@ -275,19 +275,20 @@
           <a href="./index.html" class="brand-link">
             <!--begin::Brand Image-->
             <img
-              src="/assets/abgblora/logo/logokabupatenblora.png"
+              src="/assets/android/iconmenu/logojabarpng.png"
               alt="Logo Kabupaten Blora"
               class="brand-image opacity-75 shadow"
               style="margin-right:5px;"
             />
             <img
-              src="/assets/icon/pupr.png"
+              src="/assets/android/iconmenu/bkdjabarpng.png"
               alt="Logo Kabupaten Blora"
               class="brand-image opacity-75 shadow"
+              {{-- width="100px;" --}}
             />
             <!--end::Brand Image-->
             <!--begin::Brand Text-->
-            <span class="brand-text fw-light">ABG Blora</span>
+            <span class="brand-text fw-light">BKD Jabar</span>
             <!--end::Brand Text-->
           </a>
           <!--end::Brand Link-->
@@ -315,14 +316,14 @@
 
     <ul class="nav nav-treeview" style="margin-left: 15px;">
         <!-- Halaman Web -->
-        <li class="nav-item">
+        {{-- <li class="nav-item">
             <a href="/web" target="_blank" class="nav-link" style="display: flex; align-items: center; padding: 0.5rem 1rem 0.5rem 2rem;">
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ffffff" viewBox="0 0 16 16" style="flex-shrink: 0;">
                     <path d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0zM4.285 12.433A6.987 6.987 0 0 1 1.528 8.25H4.07c.083 1.658.66 3.162 1.573 4.183l-.358.316zM8 14.5a6.486 6.486 0 0 1-2.22-.383c1.136-1.194 1.852-2.854 1.992-4.617h2.456c-.14 1.763-.856 3.423-1.992 4.617A6.486 6.486 0 0 1 8 14.5zm5.715-2.067A6.987 6.987 0 0 1 14.472 8.25H11.93c-.083 1.658-.66 3.162-1.573 4.183l.358.316zM8 1.5a6.486 6.486 0 0 1 2.22.383c-1.136 1.194-1.852 2.854-1.992 4.617H5.772c.14-1.763.856-3.423 1.992-4.617A6.486 6.486 0 0 1 8 1.5z"/>
                 </svg>
                 <p style="color: white; margin-left: 8px;">Halaman Web</p>
             </a>
-        </li>
+        </li> --}}
 
         <!-- Versi Android -->
         <li class="nav-item">
@@ -710,13 +711,13 @@
 
             @can('superadmin')
             <li class="nav-header" style="color: white;">MAIN MENU</li>
-            <li class="nav-item">
+            {{-- <li class="nav-item">
 
-              <a href="#" class="nav-link">
+              <a href="#" class="nav-link"> --}}
     <!-- Ganti SVG dengan Bootstrap Icon -->
-    <i class="bi bi-building nav-icon" style="color: white; font-size: 16px;"></i>
+    {{-- <i class="bi bi-building nav-icon" style="color: white; font-size: 16px;"></i> --}}
 
-    <p style="color: white; margin-left: 8px;">
+    {{-- <p style="color: white; margin-left: 8px;">
         PBG/SLF
         <i class="nav-arrow bi bi-chevron-right" style="margin-left: auto;"></i>
     </p>
@@ -747,10 +748,10 @@
 
 </ul>
 
-            </li>
+            </li> --}}
 
             <!-- Tracking PBG -->
-            <li class="nav-item">
+            {{-- <li class="nav-item">
              <a href="#" class="nav-link">
     <i class="bi bi-search nav-icon" style="color: white;"></i>
     <p style="color: white; margin-left: 8px; display: flex; align-items: center; justify-content: space-between; width: 100%;">
@@ -824,18 +825,18 @@
     </li>
 </ul>
 
-            </li>
+            </li> --}}
 
             <!-- Bantek -->
-            <li class="nav-item">
+            {{-- <li class="nav-item">
              <a href="#" class="nav-link">
     <i class="bi bi-tools nav-icon" style="color: white; font-size: 16px;"></i>
     <p style="color: white; margin-left: 8px;">
         Bantek
         <i class="nav-arrow bi bi-chevron-right" style="margin-left: auto;"></i>
     </p>
-</a>
-
+</a> --}}
+{{--
 <ul class="nav nav-treeview" style="margin-left: 15px;">
     <li class="nav-item">
         <a href="/404" class="nav-link">
@@ -856,20 +857,20 @@
         </a>
     </li>
 </ul>
-            </li>
+            </li> --}}
 
             {{-- =====================================  --}}
          <!-- Sosialisasi -->
 <!-- Sosialisasi -->
-<li class="nav-item">
+{{-- <li class="nav-item">
    <a href="#" class="nav-link" style="display: flex; align-items: center;">
     <i class="bi bi-megaphone nav-icon" style="color: white; font-size: 16px; flex-shrink: 0;"></i>
     <p style="color: white; margin: 0 0 0 8px; flex-grow: 1;">Sosialisasi</p>
     <i class="nav-arrow bi bi-chevron-right" style="color: white; margin-left: auto;"></i>
-</a>
+</a> --}}
 
 
-<ul class="nav nav-treeview" style="margin-left: 15px;">
+{{-- <ul class="nav nav-treeview" style="margin-left: 15px;">
    <li class="nav-item">
       <a href="/404" class="nav-link" style="display: flex; align-items: center;">
           <i class="bi bi-calendar-event nav-icon" style="color: white; font-size: 16px; flex-shrink: 0;"></i>
@@ -884,10 +885,10 @@
    </li>
 </ul>
 
-</li>
+</li> --}}
 
 <!-- KRK -->
-<li class="nav-item">
+{{-- <li class="nav-item">
     <a href="#" class="nav-link" style="display: flex; align-items: center;">
     <i class="bi bi-journal-text nav-icon" style="color: white; font-size: 16px; flex-shrink: 0;"></i>
     <p style="color: white; margin: 0 0 0 8px; flex-grow: 1;">KRK</p>
@@ -909,24 +910,24 @@
     </li>
 </ul>
 
-</li>
+</li> --}}
 
 <!-- Penilik Bangunan Gedung -->
-<li class="nav-item">
+{{-- <li class="nav-item">
     <a href="#" class="nav-link" style="display: flex; align-items: center;">
     <i class="bi bi-person-circle nav-icon" style="color: white; font-size: 16px; flex-shrink: 0;"></i>
     <p style="color: white; margin: 0 0 0 8px; flex-grow: 1;">Penilik</p>
     <i class="nav-arrow bi bi-chevron-right" style="color: white; margin-left: auto;"></i>
-</a>
+</a> --}}
 
-    <ul class="nav nav-treeview" style="margin-left: 15px;">
+    {{-- <ul class="nav nav-treeview" style="margin-left: 15px;"> --}}
     {{-- <li class="nav-item">
         <a href="/404" class="nav-link" style="display: flex; align-items: center;">
             <i class="bi bi-person-badge nav-icon" style="color: white; font-size: 16px; flex-shrink: 0;"></i>
             <p style="color: white; margin: 0 0 0 8px;">Informasi Umum</p>
         </a>
     </li> --}}
-    <li class="nav-item">
+    {{-- <li class="nav-item">
         <a href="/404" class="nav-link" style="display: flex; align-items: center;">
             <i class="bi bi-folder2-open nav-icon" style="color: white; font-size: 16px; flex-shrink: 0;"></i>
             <p style="color: white; margin: 0 0 0 8px;">Jumlah Inspeksi</p>
@@ -948,9 +949,9 @@
     </li>
 </ul>
 
-</li>
+</li> --}}
 <!-- MBG Gambar -->
-<li class="nav-item">
+{{-- <li class="nav-item">
     <a href="#" class="nav-link" style="display: flex; align-items: center; padding: 0.5rem 1rem;">
     <i class="bi bi-file-text nav-icon" style="color: white; font-size: 16px; flex-shrink: 0;"></i>
     <p style="color: white; margin: 0 0 0 8px; flex-grow: 1;">MBR Gambar</p>
@@ -972,10 +973,10 @@
         </a>
     </li>
 </ul>
-</li>
+</li> --}}
 
 <!-- Bantuan Gambar -->
-<li class="nav-item">
+{{-- <li class="nav-item">
   <a href="#" class="nav-link" style="display: flex; align-items: center; padding: 0.5rem 1rem;">
     <i class="bi bi-info-circle nav-icon" style="color: white; font-size: 16px; flex-shrink: 0;"></i>
     <p style="color: white; margin: 0 0 0 8px; flex-grow: 1;">Bantuan Gambar</p>
@@ -996,14 +997,14 @@
     </li>
 </ul>
 
-
-</li>
+ --}}
+{{-- </li> --}}
 
 <!-- Hibah Bangunan -->
 <li class="nav-item">
   <a href="#" class="nav-link" style="display: flex; align-items: center; padding: 0.5rem 1rem;">
     <i class="bi bi-building nav-icon" style="color: white; font-size: 16px; flex-shrink: 0;"></i>
-    <p style="color: white; margin: 0 0 0 8px; flex-grow: 1;">Hibah Bangunan</p>
+    <p style="color: white; margin: 0 0 0 8px; flex-grow: 1;">Data Assesment</p>
     <i class="nav-arrow bi bi-chevron-right" style="margin-left: auto; color: white;"></i>
 </a>
 
@@ -1037,7 +1038,7 @@
 </li>
 
     <li class="nav-header" style="color: white;">Pengaturan Data </li>
-            <li class="nav-item">
+            {{-- <li class="nav-item">
 
               <a href="#" class="nav-link">
     <!-- Ganti SVG dengan Bootstrap Icon -->
@@ -1065,7 +1066,7 @@
         </a>
     </li>
 
-</ul>
+</ul> --}}
 
             </li>
 
@@ -1118,29 +1119,29 @@
     </a>
 </li>
 
-<li class="nav-item">
+{{-- <li class="nav-item">
     <a href="/404" class="nav-link">
         <i class="bi bi-person-workspace nav-icon" style="color: white;"></i>
         <p style="color: white; margin-left: 8px;">Konsultan Abg</p>
     </a>
-</li>
+</li> --}}
 
 
 </ul>
 
             </li>
 
-            <li class="nav-item">
+            {{-- <li class="nav-item"> --}}
 
-              <a href="#" class="nav-link">
+              {{-- <a href="#" class="nav-link"> --}}
     <!-- Ganti SVG dengan Bootstrap Icon -->
-    <i class="bi bi-building nav-icon" style="color: white; font-size: 16px;"></i>
+    {{-- <i class="bi bi-building nav-icon" style="color: white; font-size: 16px;"></i> --}}
 
-    <p style="color: white; margin-left: 8px;">
+    {{-- <p style="color: white; margin-left: 8px;">
         Data ABG Blora
         <i class="nav-arrow bi bi-chevron-right" style="margin-left: auto;"></i>
-    </p>
-</a>
+    </p> --}}
+{{-- </a> --}}
 
                 <ul class="nav nav-treeview" style="margin-left: 15px;">
 <li class="nav-item">
