@@ -190,6 +190,7 @@
       max-width: 25%;
       font-size: 1rem;
       font-weight: 500;
+      margin-top: -100px;
       backdrop-filter: blur(4px);
       z-index: 2;
       margin-top: 150px;
@@ -292,13 +293,19 @@
 
       </div>
 
-<div class="footer-text" style="font-family: 'Poppins', sans-serif; font-size: 12px;;">
-  <img src="/assets/abgblora/logo/logokabupatenblora.png" alt="Logo Kabupaten Blora" width="35">
-  <img src="/assets/abgblora/logo/pupr.png" alt="Logo PUPR" width="35">
+<div class="footer-text" style="
+    font-family: 'Poppins', sans-serif !important;
+    font-size: 12px !important;
+    background-color: transparent !important;
+    text-align: center;
+    color: #4a4a4a;
+    padding: 12px 0;
+">
+  <img src="/assets/android/iconmenu/logojabarpng.png" alt="Logo Jabar" width="35" style="margin-right: 8px;">
+  <img src="/assets/android/iconmenu/bkdjabarpng.png" alt="Logo BKD" width="35">
   <br>
-  ABG Blora Bangunan Gedung <br>
-  Dinas Pekerjaan Umum Dan Penataan Ruang <br>
-  Kabupaten Blora Provinsi Jawa Tengah
+  <span style="font-weight: 600; color:white;">Badan Kepegawaian Daerah</span> <br>
+  <span style="font-weight: 600; color:white;">Pemerintah Provinsi Jawa Barat</span>
 </div>
     </body>
     </html>
