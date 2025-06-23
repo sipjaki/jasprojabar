@@ -48,11 +48,11 @@
                       <th class="px-4 py-3 border">Nomor Permohonan</th>
                       <th class="px-4 py-3 border">Tanggal Permohonan</th>
                       <th class="px-4 py-3 border">Instansi</th>
-                      <th class="px-4 py-3 border">Inti Proposal</th>
+                      {{-- <th class="px-4 py-3 border">Inti Proposal</th>
                       <th class="px-4 py-3 border">Narahubung</th>
                       <th class="px-4 py-3 border">Kontak Person</th>
                       <th class="px-4 py-3 border">Provinsi</th>
-                      <th class="px-4 py-3 border">Kabupaten</th>
+                      <th class="px-4 py-3 border">Kabupaten</th> --}}
                       <th class="px-4 py-3 border">Kuota Peserta</th>
                     </tr>
                   </thead>
@@ -63,11 +63,11 @@
                         <td class="px-4 py-2 border">{{ $item->nomorproposal ?? '-' }}</td>
                         <td class="px-4 py-2 border">{{ $item->tanggalproposal ? \Carbon\Carbon::parse($item->tanggalproposal)->format('d/m/Y') : '-' }}</td>
                         <td class="px-4 py-2 border">{{ $item->instansi ?? '-' }}</td>
-                        <td class="px-4 py-2 border">{{ $item->intiproposal ?? '-' }}</td>
+                        {{-- <td class="px-4 py-2 border">{{ $item->intiproposal ?? '-' }}</td>
                         <td class="px-4 py-2 border">{{ $item->narahubung ?? '-' }}</td>
                         <td class="px-4 py-2 border">{{ $item->kontakperson ?? '-' }}</td>
                         <td class="px-4 py-2 border">{{ $item->provinsi ?? '-' }}</td>
-                        <td class="px-4 py-2 border">{{ $item->kabupaten ?? '-' }}</td>
+                        <td class="px-4 py-2 border">{{ $item->kabupaten ?? '-' }}</td> --}}
                         <td class="px-4 py-2 border text-center">{{ $item->kuotapeserta ?? '-' }}</td>
                       </tr>
                     @empty
