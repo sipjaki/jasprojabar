@@ -585,6 +585,10 @@ Route::get('/bedatadasarpenilik/{id}', [PenilikbangunanController::class, 'bedat
 Route::get('/bedatapeniliksurvey/{id}', [PenilikbangunanController::class, 'bedatapeniliksurvey'])->middleware('auth')->name('bedatapeniliksurvey.show');
 
 // MENU 10 BACKEND DANA BANTUAN HIBAH
+Route::get('/datafasilitator', [BantuanhibahbgController::class, 'datafasilitator'])->name('datafasilitator.index');
+Route::get('/tambahfasilitator', [BantuanhibahbgController::class, 'tambahfasilitator'])->middleware('auth')->name('tambahfasilitator.create');
+Route::post('/tambahfasilitatornew', [BantuanhibahbgController::class, 'tambahfasilitatornew'])->middleware('auth')->name('f');
+
 
 Route::get('/datanewhibah', [BantuanhibahbgController::class, 'hibahdokcreate'])->middleware('auth')->name('hibahdok.create');
 Route::post('/datanewhibahnew', [BantuanhibahbgController::class, 'datanewhibahnew'])->middleware('auth')->name('dokhibahnew.create');
@@ -620,6 +624,7 @@ Route::put('/valberkashibah4/{id}', [BantuanhibahbgController::class, 'valberkas
 Route::get('/bestatistikhibah', [BantuanhibahbgController::class, 'bestatistikhibah']);
 
 Route::delete('/dokbebanhibahdelete/{id}', [BantuanhibahbgController::class, 'dokbebanhibahdelete'])->middleware('auth')->name('delete.dokbebanhibahdelete');
+Route::delete('/deletefasilitator/{id}', [BantuanhibahbgController::class, 'deletefasilitator'])->middleware('auth')->name('delete.deletefasilitator');
 
 // Route::get('/bekrkusahaperbaikan/{id}', [KrkController::class, 'bekrkusahaperbaikan'])->middleware('auth')->name('bekrkusahaperbaikan.perbaikan');
 

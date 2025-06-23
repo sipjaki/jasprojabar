@@ -129,7 +129,7 @@ th {
                     font-weight: 900;
                     font-size: 16px;
                     text-align: center;
-                    background: linear-gradient(135deg, #000080, #000080);
+                    background: linear-gradient(135deg, #066d06, #066d06);
                     color: white;
                     padding: 10px 25px;
                     border-radius: 10px;
@@ -193,7 +193,7 @@ th {
 <button class="button-lolos" type="button"
     onclick="location.href='/dokberkashibah/{{ $subdata->id }}';"
     style="cursor: pointer; margin-left:10px; color:black;">
-    <i class="bi bi-file-earmark-plus" style="margin-right: 5px;"></i> Upload Berkas Survey
+    <i class="bi bi-file-earmark-plus" style="margin-right: 5px;"></i> Tambahkan Fasilitator
 </button>
 
 <a href="{{ url('/dataallhibahbangunan') }}" class="button-validasinew" style="cursor: pointer; color:black; margin-left:5px; display: inline-flex; align-items: center; text-decoration: none;">
@@ -235,14 +235,14 @@ th {
     <table id="tabelSuratbantuanteknis" class="table zebra-table" style="min-width: 900px;">
                 <thead>
                                   <tr>
-   <th style="background-color: #ADD8E6;">No</th>
+   <th style="background-color: #ADD8E6; width:40px;" >No</th>
 {{-- <th style="background-color: #ADD8E6; width:75px;"><i class="bi bi-journal-text"></i> Kegiatan</th> --}}
-<th style="background-color: #ADD8E6; width:400px;"><i class="bi bi-journal-text"></i> Surat Tugas Penunjukan</th>
-<th style="background-color: #ADD8E6; width:400px;"><i class="bi bi-journal-text"></i> SK Tim Evaluasi</th>
+<th style="background-color: #ADD8E6; width:400px; text-align:left;"><i class="bi bi-journal-text"></i> Nama Fasilitator</th>
+{{-- <th style="background-color: #ADD8E6; width:400px;"><i class="bi bi-journal-text"></i> SK Tim Evaluasi</th>
 <th style="background-color: #ADD8E6; width:400px;"><i class="bi bi-journal-text"></i> Berita Acara</th>
 <th style="background-color: #ADD8E6; width:400px;"><i class="bi bi-image"></i> Rekomendasi Penetapan</th>
 <th style="background-color: #ADD8E6; width:400px;"><i class="bi bi-image"></i> Surat TAPD</th>
-<th style="background-color: #ADD8E6; width:400px;"><i class="bi bi-image"></i> Berkas lainnya </th>
+<th style="background-color: #ADD8E6; width:400px;"><i class="bi bi-image"></i> Berkas lainnya </th> --}}
 @canany(['superadmin', 'admin'])
 <th style="background-color: #ADD8E6; width:150px;"><i class="bi bi-tools"></i> Aksi</th>
 @endcanany
@@ -255,150 +255,8 @@ th {
     <tr>
         <td>{{ $loop->iteration }}</td>
 
-<td style="vertical-align: top; padding: 10px;">
-    @if ($item->berkas1 && file_exists(public_path('storage/' . $item->berkas1)))
-        <div style="border: 1px solid #ccc; border-radius: 6px; overflow: hidden;">
-            <iframe src="{{ asset('storage/' . $item->berkas1) }}" style="width: 100%; height: 250px; border: none;" loading="lazy"></iframe>
-        </div>
-        <div class="text-center mt-2">
-            <a href="{{ asset('storage/' . $item->berkas1) }}" download class="btn btn-sm btn-primary">
-                <i class="bi bi-download"></i> Download Berkas 1
-            </a>
-        </div>
-    @elseif ($item->berkas1)
-        <div style="border: 1px solid #ccc; border-radius: 6px; overflow: hidden;">
-            <iframe src="{{ asset($item->berkas1) }}" style="width: 100%; height: 250px; border: none;" loading="lazy"></iframe>
-        </div>
-        <div class="text-center mt-2">
-            <a href="{{ asset($item->berkas1) }}" download class="btn btn-sm btn-primary">
-                <i class="bi bi-download"></i> Download Berkas 1
-            </a>
-        </div>
-    @else
-        <p class="text-muted text-center" style="font-size: 12px;">Tidak Ada Berkas Dukung 1</p>
-    @endif
-</td>
-
-
-<td style="vertical-align: top; padding: 10px;">
-    @if ($item->berkas2 && file_exists(public_path('storage/' . $item->berkas2)))
-        <div style="border: 1px solid #ccc; border-radius: 6px; overflow: hidden;">
-            <iframe src="{{ asset('storage/' . $item->berkas2) }}" style="width: 100%; height: 250px; border: none;" loading="lazy"></iframe>
-        </div>
-        <div class="text-center mt-2">
-            <a href="{{ asset('storage/' . $item->berkas2) }}" download class="btn btn-sm btn-primary">
-                <i class="bi bi-download"></i> Download Berkas 2
-            </a>
-        </div>
-    @elseif ($item->berkas2)
-        <div style="border: 1px solid #ccc; border-radius: 6px; overflow: hidden;">
-            <iframe src="{{ asset($item->berkas2) }}" style="width: 100%; height: 250px; border: none;" loading="lazy"></iframe>
-        </div>
-        <div class="text-center mt-2">
-            <a href="{{ asset($item->berkas2) }}" download class="btn btn-sm btn-primary">
-                <i class="bi bi-download"></i> Download Berkas 2
-            </a>
-        </div>
-    @else
-        <p class="text-muted text-center" style="font-size: 12px;">Tidak Ada Berkas Dukung 2</p>
-    @endif
-</td>
-
-
-<td style="vertical-align: top; padding: 10px;">
-    @if ($item->berkas3 && file_exists(public_path('storage/' . $item->berkas3)))
-        <div style="border: 1px solid #ccc; border-radius: 6px; overflow: hidden;">
-            <iframe src="{{ asset('storage/' . $item->berkas3) }}" style="width: 100%; height: 250px; border: none;" loading="lazy"></iframe>
-        </div>
-        <div class="text-center mt-2">
-            <a href="{{ asset('storage/' . $item->berkas3) }}" download class="btn btn-sm btn-primary">
-                <i class="bi bi-download"></i> Download Berkas 3
-            </a>
-        </div>
-    @elseif ($item->berkas3)
-        <div style="border: 1px solid #ccc; border-radius: 6px; overflow: hidden;">
-            <iframe src="{{ asset($item->berkas3) }}" style="width: 100%; height: 250px; border: none;" loading="lazy"></iframe>
-        </div>
-        <div class="text-center mt-2">
-            <a href="{{ asset($item->berkas3) }}" download class="btn btn-sm btn-primary">
-                <i class="bi bi-download"></i> Download Berkas 3
-            </a>
-        </div>
-    @else
-        <p class="text-muted text-center" style="font-size: 12px;">Tidak Ada Berkas Dukung 3</p>
-    @endif
-</td>
-
-<td style="vertical-align: top; padding: 10px;">
-    @if ($item->berkas4 && file_exists(public_path('storage/' . $item->berkas4)))
-        <div style="border: 1px solid #ccc; border-radius: 6px; overflow: hidden;">
-            <iframe src="{{ asset('storage/' . $item->berkas4) }}" style="width: 100%; height: 250px; border: none;" loading="lazy"></iframe>
-        </div>
-        <div class="text-center mt-2">
-            <a href="{{ asset('storage/' . $item->berkas4) }}" download class="btn btn-sm btn-primary">
-                <i class="bi bi-download"></i> Download Berkas 4
-            </a>
-        </div>
-    @elseif ($item->berkas4)
-        <div style="border: 1px solid #ccc; border-radius: 6px; overflow: hidden;">
-            <iframe src="{{ asset($item->berkas4) }}" style="width: 100%; height: 250px; border: none;" loading="lazy"></iframe>
-        </div>
-        <div class="text-center mt-2">
-            <a href="{{ asset($item->berkas4) }}" download class="btn btn-sm btn-primary">
-                <i class="bi bi-download"></i> Download Berkas 4
-            </a>
-        </div>
-    @else
-        <p class="text-muted text-center" style="font-size: 12px;">Tidak Ada Berkas Dukung 4</p>
-    @endif
-</td>
-
-<td style="vertical-align: top; padding: 10px;">
-    @if ($item->berkas5 && file_exists(public_path('storage/' . $item->berkas5)))
-        <div style="border: 1px solid #ccc; border-radius: 6px; overflow: hidden;">
-            <iframe src="{{ asset('storage/' . $item->berkas5) }}" style="width: 100%; height: 250px; border: none;" loading="lazy"></iframe>
-        </div>
-        <div class="text-center mt-2">
-            <a href="{{ asset('storage/' . $item->berkas5) }}" download class="btn btn-sm btn-primary">
-                <i class="bi bi-download"></i> Download Berkas 5
-            </a>
-        </div>
-    @elseif ($item->berkas5)
-        <div style="border: 1px solid #ccc; border-radius: 6px; overflow: hidden;">
-            <iframe src="{{ asset($item->berkas5) }}" style="width: 100%; height: 250px; border: none;" loading="lazy"></iframe>
-        </div>
-        <div class="text-center mt-2">
-            <a href="{{ asset($item->berkas5) }}" download class="btn btn-sm btn-primary">
-                <i class="bi bi-download"></i> Download Berkas 5
-            </a>
-        </div>
-    @else
-        <p class="text-muted text-center" style="font-size: 12px;">Tidak Ada Berkas Dukung 5</p>
-    @endif
-</td>
-
-<td style="vertical-align: top; padding: 10px;">
-    @if ($item->berkas6 && file_exists(public_path('storage/' . $item->berkas6)))
-        <div style="border: 1px solid #ccc; border-radius: 6px; overflow: hidden;">
-            <iframe src="{{ asset('storage/' . $item->berkas6) }}" style="width: 100%; height: 250px; border: none;" loading="lazy"></iframe>
-        </div>
-        <div class="text-center mt-2">
-            <a href="{{ asset('storage/' . $item->berkas6) }}" download class="btn btn-sm btn-primary">
-                <i class="bi bi-download"></i> Download Berkas 6
-            </a>
-        </div>
-    @elseif ($item->berkas6)
-        <div style="border: 1px solid #ccc; border-radius: 6px; overflow: hidden;">
-            <iframe src="{{ asset($item->berkas6) }}" style="width: 100%; height: 250px; border: none;" loading="lazy"></iframe>
-        </div>
-        <div class="text-center mt-2">
-            <a href="{{ asset($item->berkas6) }}" download class="btn btn-sm btn-primary">
-                <i class="bi bi-download"></i> Download Berkas 6
-            </a>
-        </div>
-    @else
-        <p class="text-muted text-center" style="font-size: 12px;">Tidak Ada Berkas Dukung 6</p>
-    @endif
+<td style="vertical-align: top; padding: 10px; text-align:left;">
+    {{$item->namafasilitator->namafasilitator}}
 </td>
 
 @canany(['superadmin', 'admin'])
@@ -476,7 +334,7 @@ th {
                          <div class="modal-content">
                              <div class="modal-header">
                                  <img src="/assets/icon/pupr.png" alt="" width="30" style="margin-right: 10px;">
-                                 <h5 class="modal-title" id="deleteModalLabel">DPUPR Kabupaten Blora</h5>
+                                 <h5 class="modal-title" id="deleteModalLabel">BKD Provinsi Jawa Barat</h5>
                                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                              </div>
                              <div class="modal-body">

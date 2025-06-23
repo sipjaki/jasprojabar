@@ -77,7 +77,7 @@
         align-items: center;
         text-decoration: none;
         transition: color 0.3s;
-        background: linear-gradient(120deg, #86bae7, white, #86bae7);
+        background: linear-gradient(120deg, #b0e7b0, white, #b0e7b0);
         background-size: 200% auto;
         animation: gradientMove 7s linear infinite;
     }

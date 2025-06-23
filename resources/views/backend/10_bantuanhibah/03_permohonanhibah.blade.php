@@ -246,17 +246,17 @@ th {
     const checkpointData = [
         {
             id: 1,
-            name: 'Berkas Dokumen Masuk',
+            name: 'Permohonan Masuk',
             status: 'completed',
             time: '<?php echo isset($data->created_at) ? $data->created_at : date("Y-m-d H:i:s") ?>',
             message: ''
         },
         {
             id: 2,
-            name: 'Dokumentasi Berkas Dukung',
+            name: 'Fasilitator',
             status: 'pending',
             time: '<?php echo isset($data->validasiberkas1_time) ? $data->validasiberkas1_time : "" ?>',
-            message: 'Menunggu Berkas Survey'
+            message: 'Menunggu Admin'
         },
         {
             id: 3,
@@ -267,17 +267,17 @@ th {
         },
         {
             id: 4,
-            name: 'SK Bupati',
+            name: 'Berita Acara Assesment',
             status: 'pending',
             time: '<?php echo isset($data->validasiberkas3_time) ? $data->validasiberkas3_time : "" ?>',
-            message: 'Penerbitan SK'
+            message: 'Upload'
         },
         {
             id: 5,
             name: 'Status',
             status: 'pending',
             time: '<?php echo isset($data->validasiberkas4_time) ? $data->validasiberkas4_time : "" ?>',
-            message: 'Menunggu SK'
+            message: 'Belum Selesai'
         }
     ];
 
@@ -308,10 +308,10 @@ th {
         // Step 4: Verifikasi Data berdasarkan validasiberkas3
         if ('<?php echo isset($data->verifikasi3) ? $data->verifikasi3 : "" ?>' === 'sudah') {
             checkpointData[3].status = 'completed';
-            checkpointData[3].message = 'SK Terbit';
+            checkpointData[3].message = 'Berita Acara Terbit';
         } else if ('<?php echo isset($data->verifikasi3) ? $data->verifikasi3 : "" ?>' === 'belum') {
             checkpointData[3].status = 'rejected';
-            checkpointData[3].message = 'SK Tidak Terbit !';
+            checkpointData[3].message = 'Berita Acara Tidak di terbitkan !';
         }
 
         // Step 5: Penerbitan Berkas berdasarkan validasiberkas4
@@ -320,7 +320,7 @@ th {
             checkpointData[4].message = 'Selesai';
         } else if ('<?php echo isset($data->verifikasi4) ? $data->verifikasi4 : "" ?>' === 'belum') {
             checkpointData[4].status = 'rejected';
-            checkpointData[4].message = 'Berkas Di Tolak!';
+            checkpointData[4].message = 'Permohonan di Tolak!';
         }
     }
 
@@ -609,26 +609,25 @@ th {
 <hr>
     <br>
 
-    <h5 style="color: navy; font-weight:800; font-size:16px;">I. INFORMASI PENGAJUAN PROPOSAL BANTUAN HIBAH BANGUNAN GEDUNG</h4>
-
+    <h5 style="color: #066d06; font-weight:800; font-size:16px;">I. INFORMASI PENGAJUAN PERMOHONAN ASSESMENT </h4>
 
 <div class="table-responsive">
     <table class="zebra-table table-striped" style="font-size:16px; width: 100%">
 <tr>
     <td style="text-align: center;">1</td>
-    <td style="text-align: left;"><i class="bi bi-person" style="margin-right:6px;"></i> Admin DPUPR</td>
+    <td style="text-align: left;"><i class="bi bi-person" style="margin-right:6px;"></i> Admin BKD Jabar</td>
     <td style="text-align: center;">:</td>
     <td style="text-align: left;">{{ $data->user->name ?? '-' }}</td>
 </tr>
 <tr>
     <td style="text-align: center;">2</td>
-    <td style="text-align: left;"><i class="bi bi-file-text" style="margin-right:6px;"></i> Nomor Proposal</td>
+    <td style="text-align: left;"><i class="bi bi-file-text" style="margin-right:6px;"></i> Nomor Permohonan</td>
     <td style="text-align: center;">:</td>
     <td style="text-align: left;">{{ !empty($data->nomorproposal) ? $data->nomorproposal : '-' }}</td>
 </tr>
 <tr>
     <td style="text-align: center;">3</td>
-    <td style="text-align: left;"><i class="bi bi-calendar" style="margin-right:6px;"></i> Tanggal Proposal</td>
+    <td style="text-align: left;"><i class="bi bi-calendar" style="margin-right:6px;"></i> Tanggal Permohonan</td>
     <td style="text-align: center;">:</td>
     <td style="text-align: left;">{{ !empty($data->tanggalproposal) ? $data->tanggalproposal : '-' }}</td>
 </tr>
@@ -656,6 +655,24 @@ th {
     <td style="text-align: center;">:</td>
     <td style="text-align: left;">{{ !empty($data->kontakperson) ? $data->kontakperson : '-' }}</td>
 </tr>
+<tr>
+    <td style="text-align: center;">8</td>
+    <td style="text-align: left;"><i class="bi bi-phone" style="margin-right:6px;"></i> Provinsi</td>
+    <td style="text-align: center;">:</td>
+    <td style="text-align: left;">{{ !empty($data->provinsi) ? $data->provinsi : '-' }}</td>
+</tr>
+<tr>
+    <td style="text-align: center;">9</td>
+    <td style="text-align: left;"><i class="bi bi-phone" style="margin-right:6px;"></i> Kota/Kabupaten</td>
+    <td style="text-align: center;">:</td>
+    <td style="text-align: left;">{{ !empty($data->kabupaten) ? $data->kabupaten : '-' }}</td>
+</tr>
+<tr>
+    <td style="text-align: center;">9</td>
+    <td style="text-align: left;"><i class="bi bi-phone" style="margin-right:6px;"></i> Kuota Peserta</td>
+    <td style="text-align: center;">:</td>
+    <td style="text-align: left;">{{ !empty($data->kuotapeserta) ? $data->kuotapeserta : '-' }}</td>
+</tr>
 
 </table>
 
@@ -663,13 +680,13 @@ th {
 
 <br>
 
-    <h5 style="color: navy; font-weight:800; font-size:16px;">II. BERKAS PROPOSAL </h4>
+    <h5 style="color: #066d06; font-weight:800; font-size:16px;">II. BERKAS SURAT PERMOHONAN </h4>
     {{-- <h5>KEPALA DINAS</h5> --}}
     <div class="table-responsive">
     <table class="zebra-table table-striped">
         <tr>
     <td style="text-align: center; font-size:16px;">
-    <i class="bi bi-person-vcard" style="margin-right:6px;"></i> PROPOSAL PENGAJUAN HIBAH BANGUNAN
+    <i class="bi bi-person-vcard" style="margin-right:6px;"></i> SURAT PERMOHONAN ASSESMENT
 </td>
 
 </tr>

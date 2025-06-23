@@ -136,7 +136,7 @@ th {
                     font-weight: 900;
                     font-size: 16px;
                     text-align: center;
-                    background: linear-gradient(135deg, #000080, #000080);
+                    background: linear-gradient(135deg, #066d06, #066d06);
                     color: white;
                     padding: 10px 25px;
                     border-radius: 10px;
@@ -205,7 +205,7 @@ th {
 <div class="col-md-6">
     <div class="mb-3">
         <label class="form-label" for="nomorproposal">
-            <i class="bi bi-file-text" style="margin-right: 8px; color: navy;"></i> Nomor Proposal
+            <i class="bi bi-file-text" style="margin-right: 8px; color: navy;"></i> Nomor Permohonan Assesment
         </label>
         <input
             type="text"
@@ -226,7 +226,7 @@ th {
 <div class="col-md-6">
     <div class="mb-3">
         <label class="form-label" for="tanggalproposal">
-            <i class="bi bi-calendar" style="margin-right: 8px; color: navy;"></i> Tanggal Proposal
+            <i class="bi bi-calendar" style="margin-right: 8px; color: navy;"></i> Tanggal Permohonan Assesment
         </label>
         <input
             type="date"
@@ -246,7 +246,7 @@ th {
 <div class="col-12">
     <div class="mb-3">
         <label class="form-label" for="intiproposal">
-            <i class="bi bi-journal-text" style="margin-right: 8px; color: navy;"></i> Perihal/ Isi Proposal Hibah
+            <i class="bi bi-journal-text" style="margin-right: 8px; color: navy;"></i> Perihal/ Isi Kegiatan Assesment
         </label>
         <textarea
             id="intiproposal"
@@ -335,133 +335,35 @@ th {
 </div>
 
 <div class="text-center">
-    <hr class="my-4" style="border-top: 2px dashed #0d6efd; width: 60%; margin: auto;">
-    <h5 style="color: #0d6efd; font-weight: bold; margin-top: 5px; font-size:16px;">
+    <hr class="my-4" style="border-top: 2px dashed #066d06; width: 60%; margin: auto;">
+    <h5 style="color: #066d06; font-weight: bold; margin-top: 5px; font-size:16px;">
         <i class="bi bi-upload" style="margin-right: 6px;"></i>
-        Upload Pengajuan Proposal Hibah Bangunan Gedung
+        Silahkan Pilih Fasilitator Assesment
     </h5>
     <hr class="my-4" style="border-top: 2px dashed #0d6efd; width: 60%; margin: auto;">
 </div>
 <div class="row">
-  <div class="col-md-6">
-    <div class="mb-3">
-      <label class="form-label" for="berkas1">
-        <i class="bi bi-file-earmark-pdf" style="color: darkred; margin-right: 8px;"></i> Upload Surat Tugas Penunjukan Tim Evaluasi Hibah
-      </label>
-      <input type="file" id="berkas1" name="berkas1" accept="application/pdf"
-        class="form-control @error('berkas1') is-invalid @enderror"
-        onchange="previewPDF(event, 'previewContainerBerkas1', 'iframeBerkas1', 'msgBerkas1')" />
-      @error('berkas1')<div class="invalid-feedback">{{ $message }}</div>@enderror
-
-      <div class="mt-3" id="previewContainerBerkas1" style="display: none;">
-        <label class="fw-bold">Surat Tugas Penunjukan Tim Evaluasi Hibah</label>
-        <iframe id="iframeBerkas1" src="" style="width: 100%; height: 400px; border: 1px solid #ccc; border-radius: 6px;"></iframe>
-      </div>
-      <div id="msgBerkas1" class="mt-3" style="color: grey; font-style: italic;">
-        Belum Upload Berkas, Silahkan Upload Surat Tugas Penunjukan Tim Evaluasi Hibah.
-      </div>
-    </div>
-  </div>
 
   <div class="col-md-6">
-    <div class="mb-3">
-      <label class="form-label" for="berkas2">
-        <i class="bi bi-file-earmark-pdf" style="color: darkred; margin-right: 8px;"></i> Upload SK Tim Evaluasi Hibah
-      </label>
-      <input type="file" id="berkas2" name="berkas2" accept="application/pdf"
-        class="form-control @error('berkas2') is-invalid @enderror"
-        onchange="previewPDF(event, 'previewContainerBerkas2', 'iframeBerkas2', 'msgBerkas2')" />
-      @error('berkas2')<div class="invalid-feedback">{{ $message }}</div>@enderror
-
-      <div class="mt-3" id="previewContainerBerkas2" style="display: none;">
-        <label class="fw-bold">SK Tim Evaluasi Hibah</label>
-        <iframe id="iframeBerkas2" src="" style="width: 100%; height: 400px; border: 1px solid #ccc; border-radius: 6px;"></iframe>
-      </div>
-      <div id="msgBerkas2" class="mt-3" style="color: grey; font-style: italic;">
-        Belum Upload Berkas, Silahkan Upload SK Tim Evaluasi Hibah.
-      </div>
-    </div>
+<div class="col-md-6">
+  <div class="mb-3">
+    <label class="form-label" for="namafasilitator_id">
+      <i class="bi bi-person-badge" style="color: navy; margin-right: 8px;"></i> Pilih Fasilitator Assesment
+    </label>
+    <select id="namafasilitator_id" name="namafasilitator_id" class="form-select @error('namafasilitator_id') is-invalid @enderror">
+      <option value="">-- Pilih Fasilitator --</option>
+      @foreach($fasilitator as $item)
+        <option value="{{ $item->id }}" {{ old('namafasilitator_id') == $item->id ? 'selected' : '' }}>
+          {{ $item->namafasilitator ?? 'Fasilitator #' . $item->id }}
+        </option>
+      @endforeach
+    </select>
+    @error('namafasilitator_id')
+      <div class="invalid-feedback">{{ $message }}</div>
+    @enderror
   </div>
+</div>
 
-  <div class="col-md-6">
-    <div class="mb-3">
-      <label class="form-label" for="berkas3">
-        <i class="bi bi-file-earmark-pdf" style="color: darkred; margin-right: 8px;"></i> Upload Berita Acara Hasil Evaluasi & Pengkajian
-      </label>
-      <input type="file" id="berkas3" name="berkas3" accept="application/pdf"
-        class="form-control @error('berkas3') is-invalid @enderror"
-        onchange="previewPDF(event, 'previewContainerBerkas3', 'iframeBerkas3', 'msgBerkas3')" />
-      @error('berkas3')<div class="invalid-feedback">{{ $message }}</div>@enderror
-
-      <div class="mt-3" id="previewContainerBerkas3" style="display: none;">
-        <label class="fw-bold">Berita Acara Hasil Evaluasi & Pengkajian</label>
-        <iframe id="iframeBerkas3" src="" style="width: 100%; height: 400px; border: 1px solid #ccc; border-radius: 6px;"></iframe>
-      </div>
-      <div id="msgBerkas3" class="mt-3" style="color: grey; font-style: italic;">
-        Belum Upload Berkas, Silahkan Upload Berita Acara Hasil Evaluasi & Pengkajian.
-      </div>
-    </div>
-  </div>
-
-  <div class="col-md-6">
-    <div class="mb-3">
-      <label class="form-label" for="berkas4">
-        <i class="bi bi-file-earmark-pdf" style="color: darkred; margin-right: 8px;"></i> Upload Rekomendasi Penetapan Penerima Hibah
-      </label>
-      <input type="file" id="berkas4" name="berkas4" accept="application/pdf"
-        class="form-control @error('berkas4') is-invalid @enderror"
-        onchange="previewPDF(event, 'previewContainerBerkas4', 'iframeBerkas4', 'msgBerkas4')" />
-      @error('berkas4')<div class="invalid-feedback">{{ $message }}</div>@enderror
-
-      <div class="mt-3" id="previewContainerBerkas4" style="display: none;">
-        <label class="fw-bold">Rekomendasi Penetapan Penerima Hibah</label>
-        <iframe id="iframeBerkas4" src="" style="width: 100%; height: 400px; border: 1px solid #ccc; border-radius: 6px;"></iframe>
-      </div>
-      <div id="msgBerkas4" class="mt-3" style="color: grey; font-style: italic;">
-        Belum Upload Berkas, Silahkan upload Berkas Rekomendasi Penetapan Penerima Hibah.
-      </div>
-    </div>
-  </div>
-
-  <div class="col-md-6">
-    <div class="mb-3">
-      <label class="form-label" for="berkas5">
-        <i class="bi bi-file-earmark-pdf" style="color: darkred; margin-right: 8px;"></i> Upload Surat Kepada TAPD
-      </label>
-      <input type="file" id="berkas5" name="berkas5" accept="application/pdf"
-        class="form-control @error('berkas5') is-invalid @enderror"
-        onchange="previewPDF(event, 'previewContainerBerkas5', 'iframeBerkas5', 'msgBerkas5')" />
-      @error('berkas5')<div class="invalid-feedback">{{ $message }}</div>@enderror
-
-      <div class="mt-3" id="previewContainerBerkas5" style="display: none;">
-        <label class="fw-bold">Surat Kepada TAPD</label>
-        <iframe id="iframeBerkas5" src="" style="width: 100%; height: 400px; border: 1px solid #ccc; border-radius: 6px;"></iframe>
-      </div>
-      <div id="msgBerkas5" class="mt-3" style="color: grey; font-style: italic;">
-        Belum Upload Berkas, Silahkan Upload Surat Kepada TAPD.
-      </div>
-    </div>
-  </div>
-
-  <div class="col-md-6">
-    <div class="mb-3">
-      <label class="form-label" for="berkas6">
-        <i class="bi bi-file-earmark-pdf" style="color: darkred; margin-right: 8px;"></i> Upload Berkas Pendukung Lainnya
-      </label>
-      <input type="file" id="berkas6" name="berkas6" accept="application/pdf"
-        class="form-control @error('berkas6') is-invalid @enderror"
-        onchange="previewPDF(event, 'previewContainerBerkas6', 'iframeBerkas6', 'msgBerkas6')" />
-      @error('berkas6')<div class="invalid-feedback">{{ $message }}</div>@enderror
-
-      <div class="mt-3" id="previewContainerBerkas6" style="display: none;">
-        <label class="fw-bold">Berkas Pendukung Lainnya</label>
-        <iframe id="iframeBerkas6" src="" style="width: 100%; height: 400px; border: 1px solid #ccc; border-radius: 6px;"></iframe>
-      </div>
-      <div id="msgBerkas6" class="mt-3" style="color: grey; font-style: italic;">
-        Silahkan Upload Berkas Pendukung lainnya
-      </div>
-    </div>
-  </div>
 </div>
 
 
@@ -506,7 +408,7 @@ function previewPDF(event, containerId, iframeId, messageId) {
                                 <div id="confirmModal" style="display: none; position: fixed; inset: 0; background-color: rgba(0, 0, 0, 0.5); z-index: 1000; justify-content: center; align-items: center;">
                                     <div style="background: white; padding: 24px 30px; border-radius: 12px; max-width: 400px; width: 90%; text-align: center; box-shadow: 0 10px 25px rgba(0,0,0,0.2);">
                                       <p style="font-size: 16px; font-weight: 600; margin-bottom: 20px;">
-                                        Apakah Anda ingin upload berkas berkas pengajuan hibah ini ?
+                                        Apakah Anda ingin menambahkan fasilitator?
                                     </p>
 
                                       <!-- Tombol -->

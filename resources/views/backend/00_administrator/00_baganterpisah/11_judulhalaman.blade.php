@@ -3,7 +3,7 @@
     font-weight: 900;
     font-size: 16px;
     text-align: center;
-    background: linear-gradient(135deg, #000080, #000080);
+    background: linear-gradient(135deg, #066d06, #066d06);
     color: white;
     padding: 10px 25px;
     border-radius: 10px;

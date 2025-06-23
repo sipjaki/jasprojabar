@@ -30,12 +30,14 @@ use App\Models\profiltanahbangunangedung;
 use App\Models\kedinasan;
 use App\Models\kodelokasibangunangedung;
 use App\Models\databangunangedung;
+use App\Models\fasilitatorasses;
 use App\Models\jenispengajuanbantek;
 use App\Models\kepemilikanbangunangedung;
 use App\Models\krkhunian;
 use App\Models\krkkeagamaan;
 use App\Models\krksosbud;
 use App\Models\krkusaha;
+use App\Models\namafasilitator;
 // use App\Models\paketpekerjaan;
 use Database\Factories\SkktenagakerjaFactory;
 // use Carbon\Carbon;
@@ -90,6 +92,16 @@ class DatabaseSeeder extends Seeder
             'avatar' => 'assets/abgblora/logo/iconabgblora.png',
             'email' => 'bkdjabar001@gmail.com',
             'password' => bcrypt('adminadmin123$$')
+        ]);
+
+        namafasilitator::create([
+            'id'  => 1,
+            'namafasilitator'  => 'Mas Prima',
+            // 'username' => 'BKD',
+            // 'statusadmin_id' => '1',
+            // 'avatar' => 'assets/abgblora/logo/iconabgblora.png',
+            // 'email' => 'bkdjabar001@gmail.com',
+            // 'password' => bcrypt('adminadmin123$$')
         ]);
 
         jenispengajuanbantek::create([

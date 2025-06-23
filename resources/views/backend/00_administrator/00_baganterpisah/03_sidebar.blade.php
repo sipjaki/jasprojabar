@@ -1018,7 +1018,7 @@
     <li class="nav-item">
     <a href="/bestatistikhibah" class="nav-link" style="display: flex; align-items: center;">
         <i class="bi bi-bar-chart-line nav-icon" style="color: white; font-size: 16px; flex-shrink: 0;"></i>
-        <p style="color: white; margin: 0 0 0 8px;">Statistik Pemohon</p>
+        <p style="color: white; margin: 0 0 0 8px;">Statistik Permohonan</p>
     </a>
 </li>
 <li class="nav-item">
@@ -1031,6 +1031,12 @@
     <a href="/dataallhibahbangunan" class="nav-link" style="display: flex; align-items: center;">
         <i class="bi bi-folder2-open nav-icon" style="color: white; font-size: 16px; flex-shrink: 0;"></i>
         <p style="color: white; margin: 0 0 0 8px;">Data Pengajuan</p>
+    </a>
+</li>
+<li class="nav-item">
+    <a href="/datafasilitator" class="nav-link" style="display: flex; align-items: center;">
+        <i class="bi bi-folder2-open nav-icon" style="color: white; font-size: 16px; flex-shrink: 0;"></i>
+        <p style="color: white; margin: 0 0 0 8px;">Daftar Fasilitator</p>
     </a>
 </li>
 

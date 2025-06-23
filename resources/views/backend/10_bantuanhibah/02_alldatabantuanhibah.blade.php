@@ -11,7 +11,7 @@
 }
 
 .zebra-table th {
-    background-color: #ADD8E6; /* biru muda */
+    background-color: #4bfa45; /* biru muda */
     color: black;
     text-align: center;
     padding: 8px 12px;
@@ -136,7 +136,7 @@ th {
                     font-weight: 900;
                     font-size: 16px;
                     text-align: center;
-                    background: linear-gradient(135deg, #000080, #000080);
+                    background: linear-gradient(135deg, #066d06, #066d06);
                     color: white;
                     padding: 10px 25px;
                     border-radius: 10px;
@@ -195,17 +195,30 @@ th {
                             <thead>
                                 <tr>
                                     <th style="background-color: #ADD8E6;">No</th>
-                                 <th style="background-color: #ADD8E6;"><i class="bi bi-person"></i> Admin DPUPR</th>
-<th style="background-color: #ADD8E6;"><i class="bi bi-file-text"></i> Nomor Proposal</th>
-<th style="background-color: #ADD8E6;"><i class="bi bi-calendar"></i> Tanggal Proposal</th>
+                                 <th style="background-color: #ADD8E6;"><i class="bi bi-person"></i> Admin BKD Jabar</th>
+<th style="background-color: #ADD8E6;"><i class="bi bi-file-text"></i> Nomor Permohonan</th>
+<th style="background-color: #ADD8E6;"><i class="bi bi-calendar"></i> Tanggal Permohonan </th>
 <th style="background-color: #ADD8E6;"><i class="bi bi-building"></i> Instansi</th>
 {{-- <th style="background-color: #ADD8E6;"><i class="bi bi-journal-text"></i> Inti Proposal</th> --}}
 <th style="background-color: #ADD8E6;"><i class="bi bi-telephone"></i> Narahubung</th>
-<th style="background-color: #ADD8E6;"><i class="bi bi-phone"></i> Kontak Person</th>
+
+<th style="background-color: #ADD8E6;">
+  <i class="bi bi-person-lines-fill"></i> Kontak Person
+</th>
+<th style="background-color: #ADD8E6;">
+  <i class="bi bi-geo-alt-fill"></i> Provinsi
+</th>
+<th style="background-color: #ADD8E6;">
+  <i class="bi bi-building"></i> Kabupaten
+</th>
+<th style="background-color: #ADD8E6;">
+  <i class="bi bi-people-fill"></i> Kuota Peserta
+</th>
+
 
                                     <th style="background-color: #ADD8E6;"><i class="fas fa-building"></i> Lihat Permohonan</th>
 
-                                    <th style="background-color: #ADD8E6;"><i class="fas fa-tasks"></i> Dokumentasi Berkas Survey</th>
+                                    <th style="background-color: #ADD8E6;"><i class="fas fa-tasks"></i> Fasilitator</th>
                                     <th style="background-color: #ADD8E6;"><i class="fas fa-tasks"></i> Dok Lapangan</th>
                                     {{-- <th style="background-color: #ADD8E6;"><i class="fas fa-tasks"></i> Status Cek Lapangan</th> --}}
 <th style="background-color: #ADD8E6;">
@@ -216,10 +229,10 @@ th {
     <i class="fas fa-database" style="margin-right: 6px;"></i> Status Olah Data
 </th> --}}
                              <th style="background-color: #ADD8E6;">
-    <i class="fas fa-database" style="margin-right: 6px;"></i> SK Bupati
+    <i class="fas fa-database" style="margin-right: 6px;"></i> Berita Acara
 </th>
                              <th style="background-color: #ADD8E6;">
-    <i class="fas fa-database" style="margin-right: 6px;"></i> Status SK
+    <i class="fas fa-database" style="margin-right: 6px;"></i> Status Berita Acara
 </th>
        <th style="background-color: #ADD8E6;">Status Akhir</th>
        <th style="background-color: #ADD8E6;">Aksi</th>
@@ -237,6 +250,9 @@ th {
 {{-- <td style="text-align: left;">{{ !empty($item->intiproposal) ? $item->intiproposal : '-' }}</td> --}}
 <td style="text-align: left;">{{ !empty($item->narahubung) ? $item->narahubung : '-' }}</td>
 <td style="text-align: left;">{{ !empty($item->kontakperson) ? $item->kontakperson : '-' }}</td>
+<td style="text-align: left;">{{ !empty($item->provinsi) ? $item->provinsi : '-' }}</td>
+<td style="text-align: left;">{{ !empty($item->kabupaten) ? $item->kabupaten : '-' }}</td>
+<td style="text-align: left;">{{ !empty($item->kuotapeserta) ? $item->kuotapeserta : '-' }}</td>
 
                                        <td style="text-align: center;">
                 <a href="{{ route('banhibahpermohonan.show', $item->id) }}"
@@ -280,7 +296,7 @@ th {
                     style="margin-right:10px; text-decoration: none; border-radius: 15px; padding: 8px 16px; background-color: #6c757d; color: white; border: none; transition: background-color 0.3s, color 0.3s;"
                     onmouseover="this.style.backgroundColor='#ffffff'; this.style.color='#6c757d'; this.style.border='1px solid #6c757d';"
                     onmouseout="this.style.backgroundColor='#6c757d'; this.style.color='white'; this.style.border='none';">
-                    <i class="fas fa-eye" style="margin-right: 5px;"></i> Berkas Survey
+                    <i class="fas fa-eye" style="margin-right: 5px;"></i> Pilih Fasilitator
                 </a>
 
 
@@ -307,7 +323,7 @@ th {
 <!-- Modal Konfirmasi -->
 <div id="confirmModal" style="display: none; position: fixed; inset: 0; background-color: rgba(0,0,0,0.5); z-index: 1000; justify-content: center; align-items: center;">
     <div style="background: white; padding: 24px; border-radius: 12px; width: 90%; max-width: 400px; text-align: center;">
-        <p style="font-size: 16px; font-weight: 600;">Apakah berkas sudah lengkap ?</p>
+        <p style="font-size: 16px; font-weight: 600;">Apakah fasilitator sudah di pilih ?</p>
 
         <form id="validasiForm" method="POST">
             @csrf
@@ -334,7 +350,7 @@ th {
     onmouseover="this.style.backgroundColor='white'; this.style.color='black';"
     onmouseout="this.style.backgroundColor='#0400ff'; this.style.color='white';"
 >
-    <i class="bi bi-x-circle" style="margin-right: 6px;"></i> Tidak Lengkap
+    <i class="bi bi-x-circle" style="margin-right: 6px;"></i> Di Batalkan !
 </button>
 
         </form>
@@ -403,7 +419,7 @@ th {
 <!-- Modal Verifikasi2 -->
 <div id="confirmModalVerifikasi2" style="display: none; position: fixed; inset: 0; background-color: rgba(0,0,0,0.5); z-index: 1001; justify-content: center; align-items: center;">
   <div style="background: white; padding: 24px; border-radius: 12px; width: 90%; max-width: 400px; text-align: center;">
-    <p style="font-size: 16px; font-weight: 600;">Apakah status verifikasi sudah sesuai?</p>
+    <p style="font-size: 16px; font-weight: 600;">Apakah dokumentasi lapangan <br> sudah selesai?</p>
 
     <form id="verifikasi2Form" method="POST">
       @csrf
@@ -562,7 +578,7 @@ th {
         style="text-decoration: none; border-radius: 15px; padding: 8px 16px; background-color: #10B981; color: white; border: none; transition: background-color 0.3s, color 0.3s;"
         onmouseover="this.style.backgroundColor='#ffffff'; this.style.color='#10B981'; this.style.border='1px solid #10B981';"
         onmouseout="this.style.backgroundColor='#10B981'; this.style.color='white'; this.style.border='none';">
-        <i class="bi bi-folder" style="margin-right: 5px;"></i> Upload SK Bupati
+        <i class="bi bi-folder" style="margin-right: 5px;"></i> Upload Berita Acara
     </a>
 
     </div>
@@ -808,8 +824,8 @@ th {
                      <div class="modal-dialog">
                          <div class="modal-content">
                              <div class="modal-header">
-                                 <img src="/assets/icon/pupr.png" alt="" width="30" style="margin-right: 10px;">
-                                 <h5 class="modal-title" id="deleteModalLabel">DPUPR Kabupaten Blora</h5>
+                                 <img src="/assets/android/iconmenu/logojabarpng.png" alt="" width="30" style="margin-right: 10px;">
+                                 <h5 class="modal-title" id="deleteModalLabel">BKD Provinsi Jawa Barat</h5>
                                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                              </div>
                              <div class="modal-body">

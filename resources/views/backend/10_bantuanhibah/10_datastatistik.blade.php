@@ -163,7 +163,7 @@
         {{ $datajumlahbantuanhibah_dikembalikan ?? 0 }}
     </div>
     <div class="stat-label" style="color: navy;">
-        <i class="bi bi-clipboard-check" style="margin-right: 6px;"></i> Berkas Survey <br> Pengajuan Proposal
+        <i class="bi bi-clipboard-check" style="margin-right: 6px;"></i> Surat Tugas Fasilitator
     </div>
 </div>
 
@@ -174,7 +174,7 @@
                 {{ $datajumlahdok_lapangan ?? 0 }}
             </div>
             <div class="stat-label" style="color: navy;">
-                <i class="bi bi-camera" style="margin-right: 6px;"></i> Dokumentasi <br> Lapangan
+                <i class="bi bi-camera" style="margin-right: 6px;"></i> Dok Lapangan
             </div>
         </div>
 
@@ -184,7 +184,7 @@
                 {{ $datajumlahsk_terbit ?? 0 }}
             </div>
             <div class="stat-label" style="color: navy;">
-                <i class="bi bi-file-earmark-medical" style="margin-right: 6px;"></i> SK Terbit <br> Hibah Bangunan
+                <i class="bi bi-file-earmark-medical" style="margin-right: 6px;"></i> Berita Acara Terbit
             </div>
         </div>
 

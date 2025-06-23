@@ -6,6 +6,8 @@ use App\Models\banhibahberkas;
 use App\Models\banhibahlapangan;
 use App\Models\banhibahskbupati;
 use App\Models\bantuanhibahbg;
+use App\Models\fasilitatorasses;
+use App\Models\namafasilitator;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 
@@ -21,7 +23,7 @@ class BantuanhibahbgController extends Controller
 
     // Kirim data ke view tanpa ambil dari database bantuanhibahbg
     return view('backend.10_bantuanhibah.01_createhibah', [
-        'title' => 'Form Pengajuan Bantuan Hibah Baru',
+        'title' => 'Form Pengajuan Assement',
         'user' => $user
     ]);
 }
@@ -36,9 +38,15 @@ public function datanewhibahnew(Request $request)
         'intiproposal' => 'required|string',
         'narahubung' => 'required|string|max:255',
         'kontakperson' => 'required|string|max:255',
+        'provinsi' => 'required|string|max:255',
+        'kabupaten' => 'required|string|max:255',
+        'kuotapeserta' => 'required|string|max:255',
         'user_id' => 'required|string',
         'dokumenproposal' => 'nullable|file|mimes:pdf,doc,docx|max:15360', // 15MB in kilobytes
     ], [
+        'nomorproposal.required' => 'Nomor proposal wajib diisi.',
+        'provinsi.required' => 'Provinsi wajib diisi.',
+        'kabupaten.required' => 'Kabupaten wajib diisi.',
         'nomorproposal.required' => 'Nomor proposal wajib diisi.',
         'nomorproposal.max' => 'Nomor proposal tidak boleh lebih dari 255 karakter.',
 
@@ -93,12 +101,15 @@ public function datanewhibahnew(Request $request)
         'intiproposal' => $validated['intiproposal'],
         'narahubung' => $validated['narahubung'],
         'kontakperson' => $validated['kontakperson'],
+        'provinsi' => $validated['provinsi'],
+        'kabupaten' => $validated['kabupaten'],
+        'kuotapeserta' => $validated['kuotapeserta'],
         'user_id' => $validated['user_id'],
         'dokumenproposal' => $dokumenPath,
     ]);
 
 
-    session()->flash('create', 'Pengajuan Hibah Bangunan Berhasil!');
+    session()->flash('create', 'Pengajuan Data Assesment Berhasil!');
     return redirect()->route('dataallhibahbangunan.index');
 
 }
@@ -138,7 +149,7 @@ public function dataallhibahbangunan(Request $request)
     $subdata1 = banhibahberkas::whereIn('bantuanhibahbg_id', $berkashibahIds)->get();
 
     return view('backend.10_bantuanhibah.02_alldatabantuanhibah', [
-        'title' => 'Permohonan Hibah Bangunan Gedung',
+        'title' => 'Daftar Permohonan Assesment',
         'data' => $berkashibah,
         'subdata' => $subdata1,
         'user' => $user,
@@ -155,7 +166,7 @@ public function dataallhibahbangunan(Request $request)
 
     // Tampilkan ke view dengan key-value
     return view('backend.10_bantuanhibah.03_permohonanhibah', [
-        'title' => 'Informasi Proposal Bantuan Hibah Bangunan Gedung',
+        'title' => 'Informasi Permohonan Assesment',
         'data' => $data,
         'user' => $user
     ]);
@@ -193,10 +204,10 @@ public function valhibahbantuan1(Request $request, $id)
     }
 
         // Menggunakan paginate() untuk pagination
-        $dataceklapangan = banhibahberkas::where('bantuanhibahbg_id', $databantuanteknis->id)->paginate(50);
+        $dataceklapangan = fasilitatorasses::where('bantuanhibahbg_id', $databantuanteknis->id)->paginate(50);
 
     return view('backend.10_bantuanhibah.04_berkasdukungsurvey', [
-        'title' => 'Dokumen Berkas Dukung Hasil Survey',
+        'title' => 'Pemilihan Fasilitator Assesment',
         'data' => $dataceklapangan,
         'subdata' => $databantuanteknis,
         'user' => Auth::user()
@@ -208,6 +219,7 @@ public function dokberkashibah($id)
 {
     // Ambil data bantuan teknis berdasarkan ID
     $databantuanteknis = bantuanhibahbg::find($id);
+    $fasilitator = namafasilitator::all();
 
     if (!$databantuanteknis) {
         return abort(404, 'Data bantuan teknis tidak ditemukan');
@@ -215,8 +227,9 @@ public function dokberkashibah($id)
 
     // Kirim data ke view form pembuatan dokumentasi cek lapangan
     return view('backend.10_bantuanhibah.05_uploadberkassurvey', [
-        'title' => 'Upload Berkas Survey Hibah Bangunan Gedung ',
+        'title' => 'Pilih Nama Fasilitator Assesment ',
         'data' => $databantuanteknis,
+        'fasilitator' => $fasilitator,
         'user' => Auth::user()
     ]);
 
@@ -228,46 +241,37 @@ public function dokberkashibahcreatenew(Request $request)
     // Validasi input
     $validated = $request->validate([
         'bantuanhibahbg_id' => 'required|string',
-        'berkas1' => 'nullable|file|mimes:pdf|max:10048',
-        'berkas2' => 'nullable|file|mimes:pdf|max:10048',
-        'berkas3' => 'nullable|file|mimes:pdf|max:10048',
-        'berkas4' => 'nullable|file|mimes:pdf|max:10048',
-        'berkas5' => 'nullable|file|mimes:pdf|max:10048',
-        'berkas6' => 'nullable|file|mimes:pdf|max:10048',
+        'namafasilitator_id' => 'required|string',
+        // 'namalengkap' => 'nullable|file|mimes:pdf|max:10048',
+        // 'berkas2' => 'nullable|file|mimes:pdf|max:10048',
+        // 'berkas3' => 'nullable|file|mimes:pdf|max:10048',
+        // 'berkas4' => 'nullable|file|mimes:pdf|max:10048',
+        // 'berkas5' => 'nullable|file|mimes:pdf|max:10048',
+        // 'berkas6' => 'nullable|file|mimes:pdf|max:10048',
     ], [
-        'bantuanhibahbg_id.required' => 'KRK Usaha wajib dipilih.',
-        'berkas1.mimes' => 'Berkas 1 harus berupa file PDF.',
-        'berkas2.mimes' => 'Berkas 2 harus berupa file PDF.',
-        'berkas3.mimes' => 'Berkas 3 harus berupa file PDF.',
-        'berkas4.mimes' => 'Berkas 4 harus berupa file PDF.',
-        'berkas5.mimes' => 'Berkas 5 harus berupa file PDF.',
-        'berkas6.mimes' => 'Berkas 6 harus berupa file PDF.',
+        'bantuanhibahbg_id.required' => 'Wajib dipilih.',
+        'namafasilitator_id.required' => 'Wajib dipilih.',
+        // 'berkas1.mimes' => 'Berkas 1 harus berupa file PDF.',
+        // 'berkas2.mimes' => 'Berkas 2 harus berupa file PDF.',
+        // 'berkas3.mimes' => 'Berkas 3 harus berupa file PDF.',
+        // 'berkas4.mimes' => 'Berkas 4 harus berupa file PDF.',
+        // 'berkas5.mimes' => 'Berkas 5 harus berupa file PDF.',
+        // 'berkas6.mimes' => 'Berkas 6 harus berupa file PDF.',
     ]);
 
-    // Fungsi untuk simpan file
-    function simpanBerkas($request, $field, $folder)
-    {
-        if ($request->hasFile($field)) {
-            $file = $request->file($field);
-            $filename = time() . "_{$field}." . $file->getClientOriginalExtension();
-            $file->move(public_path($folder), $filename);
-            return $folder . '/' . $filename;
-        }
-        return null;
-    }
-
     // Simpan ke model banhibahberkas
-    $data = new banhibahberkas();
+    $data = new fasilitatorasses();
     $data->bantuanhibahbg_id = $validated['bantuanhibahbg_id'];
-    $data->berkas1 = simpanBerkas($request, 'berkas1', '10_bantuanhibah/02_berkasdukung/01_simpan');
-    $data->berkas2 = simpanBerkas($request, 'berkas2', '10_bantuanhibah/02_berkasdukung/02_simpan');
-    $data->berkas3 = simpanBerkas($request, 'berkas3', '10_bantuanhibah/02_berkasdukung/03_simpan');
-    $data->berkas4 = simpanBerkas($request, 'berkas4', '10_bantuanhibah/02_berkasdukung/04_simpan');
-    $data->berkas5 = simpanBerkas($request, 'berkas5', '10_bantuanhibah/02_berkasdukung/05_simpan');
-    $data->berkas6 = simpanBerkas($request, 'berkas6', '10_bantuanhibah/02_berkasdukung/06_simpan');
+    $data->namafasilitator_id = $validated['namafasilitator_id'];
+    // $data->berkas1 = simpanBerkas($request, 'berkas1', '10_bantuanhibah/02_berkasdukung/01_simpan');
+    // $data->berkas2 = simpanBerkas($request, 'berkas2', '10_bantuanhibah/02_berkasdukung/02_simpan');
+    // $data->berkas3 = simpanBerkas($request, 'berkas3', '10_bantuanhibah/02_berkasdukung/03_simpan');
+    // $data->berkas4 = simpanBerkas($request, 'berkas4', '10_bantuanhibah/02_berkasdukung/04_simpan');
+    // $data->berkas5 = simpanBerkas($request, 'berkas5', '10_bantuanhibah/02_berkasdukung/05_simpan');
+    // $data->berkas6 = simpanBerkas($request, 'berkas6', '10_bantuanhibah/02_berkasdukung/06_simpan');
     $data->save();
 
-    session()->flash('create', 'Data berkas pendukung berhasil disimpan!');
+    session()->flash('create', 'Fasilitator Berhasil di Buat!');
     return redirect()->route('dokhibahbantuanberkas.show', ['id' => $validated['bantuanhibahbg_id']]);
 }
 
@@ -275,7 +279,7 @@ public function dokberkashibahcreatenew(Request $request)
 public function dokberkashibahcreatedelete($id)
 {
     // Cari entri berdasarkan ID
-    $entry = banhibahberkas::where('id', $id)->first();
+    $entry = fasilitatorasses::where('id', $id)->first();
 
     if ($entry) {
         // Simpan dulu lapangan_id sebelum entri dihapus
@@ -311,7 +315,7 @@ public function doklapbanhibah($id)
         $dataceklapangan = banhibahlapangan::where('bantuanhibahbg_id', $databantuanteknis->id)->paginate(50);
 
     return view('backend.10_bantuanhibah.06_doklapanganhibah', [
-        'title' => 'Dokumentasi Cek Lapangan Hibah Bangunan',
+        'title' => 'Dokumentasi Cek Lapangan Assesment Provinsi Jawa Barat',
         'subdata' => $dataceklapangan,
         'data' => $databantuanteknis,
         'user' => Auth::user()
@@ -329,7 +333,7 @@ public function doklapbanhibahcreate($id)
 
     // Kirim data ke view form pembuatan dokumentasi cek lapangan
     return view('backend.10_bantuanhibah.07_uploadfotohibah', [
-        'title' => 'Form Dokumentasi Foto Cek Lapangan Bantuan Hibah ',
+        'title' => 'Form Dokumentasi Assesment Provinsi Jawa Barat ',
         'data' => $databantuanteknis,
         'user' => Auth::user()
     ]);
@@ -457,7 +461,7 @@ public function doklapbanhibahcreatenewdelete($id)
         $dataceklapangan = banhibahskbupati::where('bantuanhibahbg_id', $databantuanteknis->id)->paginate(50);
 
     return view('backend.10_bantuanhibah.08_dokskbupati', [
-        'title' => 'Berkas SK Bupati Bantuan Hibah Bangunan Gedung',
+        'title' => 'Berkas Berita Acara Assesment BKD Provinsi Jawa Barat',
         'data' => $dataceklapangan,
         'subdata' => $databantuanteknis,
         'user' => Auth::user()
@@ -476,7 +480,7 @@ public function dokuploadhibahskcreate($id)
 
     // Kirim data ke view form pembuatan dokumentasi cek lapangan
     return view('backend.10_bantuanhibah.09_uploadskbupati', [
-        'title' => 'Upload SK Bupati Hibah Bangunan Gedung ',
+        'title' => 'Upload Berita Acara Assesement Provinsi Jawa Barat ',
         'data' => $databantuanteknis,
         'user' => Auth::user()
     ]);
@@ -668,6 +672,119 @@ public function bestatistikhibah()
 }
 
 
+
+
+public function datafasilitator(Request $request)
+{
+    $user = Auth::user();
+    $search = $request->input('search');
+    $perPage = $request->input('perPage', 15);
+
+    // Query dasar
+    $query = namafasilitator::query();
+
+    // Filter pencarian jika ada input 'search'
+    if ($search) {
+        $query->where(function ($q) use ($search) {
+            $q->where('namafasilitator', 'like', "%{$search}%")
+            //   ->orWhere('tanggalproposal', 'like', "%{$search}%")
+            //   ->orWhere('instansi', 'like', "%{$search}%")
+            //   ->orWhere('intiproposal', 'like', "%{$search}%")
+            //   ->orWhere('narahubung', 'like', "%{$search}%")
+            //   ->orWhere('kontakperson', 'like', "%{$search}%")
+              ->orWhereHas('user', function ($sub) use ($search) {
+                  $sub->where('name', 'like', "%{$search}%")
+                      ->orWhere('email', 'like', "%{$search}%");
+              });
+        });
+    }
+
+    // Ambil data utama paginasi
+    $berkashibah = $query->latest()->paginate($perPage)->appends($request->all());
+
+      $berkashibahIds = $berkashibah->pluck('id');
+
+    // Ambil data sub dari relasi krkusahasurat
+    // $subdata1 = namafasilitator::whereIn('bantuanhibahbg_id', $berkashibahIds)->get();
+
+    return view('backend.10_bantuanhibah.01_namafasilitator', [
+        'title' => 'Daftar Nama Fasilitator',
+        'data' => $berkashibah,
+        // 'subdata' => $subdata1,
+        'user' => $user,
+    ]);
+}
+
+
+public function deletefasilitator($id)
+{
+    // Cari entri berdasarkan ID
+    $entry = namafasilitator::find($id);
+
+    if ($entry) {
+        // Hapus file jika ada (jika menyimpan file)
+        // if (Storage::disk('public')->exists($entry->header)) {
+        //     Storage::disk('public')->delete($entry->header);
+        // }
+
+        // Hapus data dari database
+        $entry->delete();
+
+        // Redirect ke halaman index krkusaha
+        return redirect()->route('datafasilitator.index')->with('delete', 'Data berhasil dihapus!');
+    }
+
+    // Jika tidak ditemukan
+    return redirect()->back()->with('error', 'Data tidak ditemukan.');
+}
+
+
+public function tambahfasilitator()
+
+{
+  $user = Auth::user();
+    // Ambil data bantuan teknis berdasarkan ID
+    // $databantuanteknis = bantuanhibahbg::find($id);
+    // $fasilitator = namafasilitator::all();
+
+    // if (!$databantuanteknis) {
+    //     return abort(404, 'Data bantuan teknis tidak ditemukan');
+    // }
+
+    // Kirim data ke view form pembuatan dokumentasi cek lapangan
+    return view('backend.10_bantuanhibah.12_tambahfasilitator', [
+        'title' => 'Tambahkan Fasilitator ',
+        // 'data' => $databantuanteknis,
+        // 'fasilitator' => $fasilitator,
+        'user' => Auth::user()
+    ]);
+
+}
+
+
+public function tambahfasilitatornew(Request $request)
+{
+    // Validasi input
+    $validated = $request->validate([
+        'namafasilitator' => 'required|string',
+    ], [
+        'namafasilitator.required' => 'Wajib di isi !.',
+    ]);
+
+    // Simpan ke model banhibahberkas
+    $data = new namafasilitator();
+    $data->namafasilitator = $validated['namafasilitator'];
+    // $data->berkas1 = simpanBerkas($request, 'berkas1', '10_bantuanhibah/02_berkasdukung/01_simpan');
+    // $data->berkas2 = simpanBerkas($request, 'berkas2', '10_bantuanhibah/02_berkasdukung/02_simpan');
+    // $data->berkas3 = simpanBerkas($request, 'berkas3', '10_bantuanhibah/02_berkasdukung/03_simpan');
+    // $data->berkas4 = simpanBerkas($request, 'berkas4', '10_bantuanhibah/02_berkasdukung/04_simpan');
+    // $data->berkas5 = simpanBerkas($request, 'berkas5', '10_bantuanhibah/02_berkasdukung/05_simpan');
+    // $data->berkas6 = simpanBerkas($request, 'berkas6', '10_bantuanhibah/02_berkasdukung/06_simpan');
+    $data->save();
+
+    session()->flash('create', 'Fasilitator Berhasil di tambahkan!');
+    return redirect()->route('datafasilitator.index');
+}
 
 
 

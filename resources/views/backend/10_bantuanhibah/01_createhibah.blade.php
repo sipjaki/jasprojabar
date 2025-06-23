@@ -136,7 +136,7 @@ th {
                     font-weight: 900;
                     font-size: 16px;
                     text-align: center;
-                    background: linear-gradient(135deg, #000080, #000080);
+                    background: linear-gradient(135deg, #066d06, #066d06);
                     color: white;
                     padding: 10px 25px;
                     border-radius: 10px;
@@ -203,7 +203,7 @@ th {
 <div class="col-md-6">
     <div class="mb-3">
         <label class="form-label" for="nomorproposal">
-            <i class="bi bi-file-text" style="margin-right: 8px; color: navy;"></i> Nomor Proposal
+            <i class="bi bi-file-text" style="margin-right: 8px; color: navy;"></i> Nomor Permohonan Assesment
         </label>
         <input
             type="text"
@@ -211,7 +211,7 @@ th {
             name="nomorproposal"
             value="{{ old('nomorproposal', $data->nomorproposal ?? '') }}"
             class="form-control @error('nomorproposal') is-invalid @enderror"
-            placeholder="Masukkan nomor proposal"
+            placeholder="Masukkan Nomor Surat Permohonan"
         />
         @error('nomorproposal')
             <div class="invalid-feedback">{{ $message }}</div>
@@ -222,7 +222,7 @@ th {
 <div class="col-md-6">
     <div class="mb-3">
         <label class="form-label" for="tanggalproposal">
-            <i class="bi bi-calendar" style="margin-right: 8px; color: navy;"></i> Tanggal Proposal
+            <i class="bi bi-calendar" style="margin-right: 8px; color: navy;"></i> Tanggal Permohonan
         </label>
         <input
             type="date"
@@ -248,7 +248,7 @@ th {
         name="instansi"
         value="{{ old('instansi', $data->instansi ?? '') }}"
         class="form-control @error('instansi') is-invalid @enderror"
-        placeholder="Masukkan nama instansi"
+        placeholder="Masukkan Nama Instansi"
         />
         @error('instansi')
         <div class="invalid-feedback">{{ $message }}</div>
@@ -259,7 +259,7 @@ th {
 <div class="col-md-6">
 <div class="mb-3">
     <label class="form-label" for="namauser">
-        <i class="bi bi-person-badge" style="margin-right: 8px; color: navy;"></i> Pengunduh Proposal
+        <i class="bi bi-person-badge" style="margin-right: 8px; color: navy;"></i> Pengunduh Assesment
     </label>
     <input
         type="text"
@@ -272,17 +272,77 @@ th {
 </div>
 
 </div>
+{{-- ----------------------------------- --}}
+
+
+<div class="col-md-6">
+    <div class="mb-3">
+        <label class="form-label" for="provinsi">
+            <i class="bi bi-building" style="margin-right: 8px; color: navy;"></i> Provinsi
+        </label>
+        <input
+        type="text"
+        id="provinsi"
+        name="provinsi"
+        value="{{ old('provinsi', $data->provinsi ?? '') }}"
+        class="form-control @error('provinsi') is-invalid @enderror"
+        placeholder="Masukkan Provinsi"
+        />
+        @error('provinsi')
+        <div class="invalid-feedback">{{ $message }}</div>
+        @enderror
+    </div>
+</div>
+
+<div class="col-md-6">
+    <div class="mb-3">
+        <label class="form-label" for="kabupaten">
+            <i class="bi bi-building" style="margin-right: 8px; color: navy;"></i> Kota/Kabupaten
+        </label>
+        <input
+        type="text"
+        id="kabupaten"
+        name="kabupaten"
+        value="{{ old('kabupaten', $data->kabupaten ?? '') }}"
+        class="form-control @error('kabupaten') is-invalid @enderror"
+        placeholder="Masukkan Kota/Kabupaten"
+        />
+        @error('kabupaten')
+        <div class="invalid-feedback">{{ $message }}</div>
+        @enderror
+    </div>
+</div>
+
+<div class="col-md-6">
+    <div class="mb-3">
+        <label class="form-label" for="kuotapeserta">
+            <i class="bi bi-building" style="margin-right: 8px; color: navy;"></i> Jumlah Peserta Assesment
+        </label>
+        <input
+        type="number"
+        id="kuotapeserta"
+        name="kuotapeserta"
+        value="{{ old('kuotapeserta', $data->kuotapeserta ?? '') }}"
+        class="form-control @error('kuotapeserta') is-invalid @enderror"
+        placeholder="Masukkan Kuota Peserta"
+        />
+        @error('kuotapeserta')
+        <div class="invalid-feedback">{{ $message }}</div>
+        @enderror
+    </div>
+</div>
+
 <div class="col-12">
     <div class="mb-3">
         <label class="form-label" for="intiproposal">
-            <i class="bi bi-journal-text" style="margin-right: 8px; color: navy;"></i> Perihal/ Isi Proposal Hibah
+            <i class="bi bi-journal-text" style="margin-right: 8px; color: navy;"></i> Perihal/ Isi Kegiatan Assesment
         </label>
         <textarea
             id="intiproposal"
             name="intiproposal"
             rows="4"
             class="form-control @error('intiproposal') is-invalid @enderror"
-            placeholder="Jelaskan inti proposal"
+            placeholder="Jelaskan maksud kegiatan"
         >{{ old('intiproposal', $data->intiproposal ?? '') }}</textarea>
         @error('intiproposal')
             <div class="invalid-feedback">{{ $message }}</div>
@@ -293,7 +353,7 @@ th {
 <div class="col-md-6">
     <div class="mb-3">
         <label class="form-label" for="narahubung">
-            <i class="bi bi-person-lines-fill" style="margin-right: 8px; color: navy;"></i> Narahubung
+            <i class="bi bi-person-lines-fill" style="margin-right: 8px; color: navy;"></i> Narahubung Yang Mengajukan
         </label>
         <input
             type="text"
@@ -358,10 +418,10 @@ th {
 </div>
 
 <div class="text-center">
-    <hr class="my-4" style="border-top: 2px dashed #0d6efd; width: 60%; margin: auto;">
-    <h5 style="color: #0d6efd; font-weight: bold; margin-top: 5px; font-size:16px;">
+    <hr class="my-4" style="border-top: 2px dashed #066d06; width: 60%; margin: auto;">
+    <h5 style="color: #066d06; font-weight: bold; margin-top: 5px; font-size:16px;">
         <i class="bi bi-upload" style="margin-right: 6px;"></i>
-        Upload Pengajuan Proposal Hibah Bangunan Gedung
+        Upload Permohonan Assesment
     </h5>
     <hr class="my-4" style="border-top: 2px dashed #0d6efd; width: 60%; margin: auto;">
 </div>
@@ -369,7 +429,7 @@ th {
 <div class="col-md-6">
 <div class="mb-3">
     <label class="form-label" for="dokumenproposal">
-        <i class="bi bi-file-earmark-pdf" style="color: darkred; margin-right: 8px;"></i> Upload Berkas Proposal Hibah Bangunan
+        <i class="bi bi-file-earmark-pdf" style="color: darkred; margin-right: 8px;"></i> Upload Surat Permohonan Assesment
     </label>
     <input type="file" id="dokumenproposal" name="dokumenproposal" accept="application/pdf"
         class="form-control @error('dokumenproposal') is-invalid @enderror"
@@ -377,13 +437,13 @@ th {
     @error('dokumenproposal')<div class="invalid-feedback">{{ $message }}</div>@enderror
 
     <div class="mt-3" id="previewContainerProposal" style="{{ isset($data->dokumenproposal) ? '' : 'display: none;' }}">
-        <label class="fw-bold">Berkas Proposal Hibah Bangunan Gedung </label>
+        <label class="fw-bold">Surat Permohonan Assesment </label>
         <iframe id="iframeProposal" src="{{ isset($data->dokumenproposal) ? asset($data->dokumenproposal) : '' }}"
             style="width: 100%; height: 400px; border: 1px solid #ccc; border-radius: 6px;"></iframe>
     </div>
     <div id="msgProposal" class="mt-3"
         style="color: grey; font-style: italic; {{ isset($data->dokumenproposal) ? 'display:none;' : '' }}">
-        Belum Upload Berkas. Silahkan upload berkas Proposal Pengajuan Hibah Bangunan.
+        Belum Upload Berkas. Silahkan upload surat permohonan assesment.
     </div>
 </div>
 
@@ -432,7 +492,7 @@ function previewPDF(event, containerId, iframeId, messageId) {
                                 <div id="confirmModal" style="display: none; position: fixed; inset: 0; background-color: rgba(0, 0, 0, 0.5); z-index: 1000; justify-content: center; align-items: center;">
                                     <div style="background: white; padding: 24px 30px; border-radius: 12px; max-width: 400px; width: 90%; text-align: center; box-shadow: 0 10px 25px rgba(0,0,0,0.2);">
                                       <p style="font-size: 16px; font-weight: 600; margin-bottom: 20px;">
-                                        Apakah Anda ingin membuat pengajuan hibah bangunan ?
+                                        Apakah Anda ingin membuat permohonan assesment ?
                                     </p>
 
                                       <!-- Tombol -->

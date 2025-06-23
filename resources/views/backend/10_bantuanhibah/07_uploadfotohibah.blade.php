@@ -136,7 +136,7 @@ th {
                     font-weight: 900;
                     font-size: 16px;
                     text-align: center;
-                    background: linear-gradient(135deg, #000080, #000080);
+                    background: linear-gradient(135deg, #066d06, #066d06);
                     color: white;
                     padding: 10px 25px;
                     border-radius: 10px;
@@ -270,10 +270,10 @@ th {
 </div>
 
 <div class="text-center">
-    <hr class="my-4" style="border-top: 2px dashed #0d6efd; width: 60%; margin: auto;">
-    <h5 style="color: #0d6efd; font-weight: bold; margin-top: 5px; font-size:16px;">
+    <hr class="my-4" style="border-top: 2px dashed #066d06; width: 60%; margin: auto;">
+    <h5 style="color: #066d06; font-weight: bold; margin-top: 5px; font-size:16px;">
         <i class="bi bi-upload" style="margin-right: 6px;"></i>
-        Upload Foto Dokumentasi Lapangan Hibah Bangunan
+        Upload Foto Dokumentasi Hasil Assesment BKD Provinsi Jawa Barat
     </h5>
     <hr class="my-4" style="border-top: 2px dashed #0d6efd; width: 60%; margin: auto;">
 </div>

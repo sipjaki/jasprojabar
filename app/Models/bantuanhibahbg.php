@@ -33,4 +33,9 @@ class bantuanhibahbg extends Model
         return $this->belongsTo(banhibahskbupati::class, 'banhibahskbupati_id');
     }
 
+    public function fasilitatorasses()
+    {
+        return $this->belongsTo(fasilitatorasses::class, 'fasilitatorasses_id');
+    }
+
 }

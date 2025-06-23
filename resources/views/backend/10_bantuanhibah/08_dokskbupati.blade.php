@@ -129,7 +129,7 @@ th {
                     font-weight: 900;
                     font-size: 16px;
                     text-align: center;
-                    background: linear-gradient(135deg, #000080, #000080);
+                    background: linear-gradient(135deg, #066d06, #066d06);
                     color: white;
                     padding: 10px 25px;
                     border-radius: 10px;
@@ -193,7 +193,7 @@ th {
 <button class="button-lolos" type="button"
     onclick="location.href='/dokuploadhibahskcreate/{{ $subdata->id }}';"
     style="cursor: pointer; margin-left:10px; color:black;">
-    <i class="bi bi-file-earmark-plus" style="margin-right: 5px;"></i> Upload SK Bupati
+    <i class="bi bi-file-earmark-plus" style="margin-right: 5px;"></i> Upload Berita Acara
 </button>
 
 <a href="{{ url('/dataallhibahbangunan') }}" class="button-validasinew" style="cursor: pointer; color:black; margin-left:5px; display: inline-flex; align-items: center; text-decoration: none;">
@@ -237,8 +237,8 @@ th {
                                   <tr>
    <th style="background-color: #ADD8E6; width:50px;">No</th>
 {{-- <th style="background-color: #ADD8E6; width:75px;"><i class="bi bi-journal-text"></i> Kegiatan</th> --}}
-<th style="background-color: #ADD8E6; width:400px;"><i class="bi bi-journal-text"></i> Nota Dinas Pengajuan Hibah</th>
-<th style="background-color: #ADD8E6; width:400px;"><i class="bi bi-journal-text"></i> SK Bupati Penetapan Penerima Hibah</th>
+<th style="background-color: #ADD8E6; width:400px;"><i class="bi bi-journal-text"></i> Berita Acara 1</th>
+<th style="background-color: #ADD8E6; width:400px;"><i class="bi bi-journal-text"></i> Berkas lainnya </th>
 {{-- <th style="background-color: #ADD8E6; width:400px;"><i class="bi bi-journal-text"></i> Berita Acara</th>
 <th style="background-color: #ADD8E6; width:400px;"><i class="bi bi-image"></i> Rekomendasi Penetapan</th>
 <th style="background-color: #ADD8E6; width:400px;"><i class="bi bi-image"></i> Surat TAPD</th>
@@ -305,7 +305,7 @@ th {
 </td>
 
 
-<td style="vertical-align: top; padding: 10px;">
+{{-- <td style="vertical-align: top; padding: 10px;">
     @if ($item->berkas3 && file_exists(public_path('storage/' . $item->berkas3)))
         <div style="border: 1px solid #ccc; border-radius: 6px; overflow: hidden;">
             <iframe src="{{ asset('storage/' . $item->berkas3) }}" style="width: 100%; height: 250px; border: none;" loading="lazy"></iframe>
@@ -399,7 +399,7 @@ th {
     @else
         <p class="text-muted text-center" style="font-size: 12px;">Tidak Ada Berkas Dukung 6</p>
     @endif
-</td>
+</td> --}}
 
 @canany(['superadmin', 'admin'])
 

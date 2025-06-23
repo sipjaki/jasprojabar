@@ -20,6 +20,7 @@ return new class extends Migration
             $table->foreignId('banhibahberkas_id')->nullable();
             $table->foreignId('banhibahlapangan_id')->nullable();
             $table->foreignId('banhibahskbupati_id')->nullable();
+            $table->foreignId('fasilitatorasses_id')->nullable();
             $table->foreignId('user_id')->nullable();
 
             // Data proposal
@@ -29,6 +30,10 @@ return new class extends Migration
             $table->text('intiproposal')->nullable();
             $table->string('narahubung')->nullable();
             $table->string('kontakperson')->nullable();
+            $table->string('provinsi')->nullable();
+            $table->string('kabupaten')->nullable();
+            $table->string('kuotapeserta')->nullable();
+            // $table->string('kecamatan')->nullable();
             $table->string('dokumenproposal')->nullable(); // Simpan path file
 
             // Status verifikasi

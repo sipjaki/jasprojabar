@@ -136,7 +136,7 @@ th {
                     font-weight: 900;
                     font-size: 16px;
                     text-align: center;
-                    background: linear-gradient(135deg, #000080, #000080);
+                    background: linear-gradient(135deg, #066d06, #066d06);
                     color: white;
                     padding: 10px 25px;
                     border-radius: 10px;
@@ -335,10 +335,10 @@ th {
 </div>
 
 <div class="text-center">
-    <hr class="my-4" style="border-top: 2px dashed #0d6efd; width: 60%; margin: auto;">
-    <h5 style="color: #0d6efd; font-weight: bold; margin-top: 5px; font-size:16px;">
+    <hr class="my-4" style="border-top: 2px dashed #066d06; width: 60%; margin: auto;">
+    <h5 style="color: #066d06; font-weight: bold; margin-top: 5px; font-size:16px;">
         <i class="bi bi-upload" style="margin-right: 6px;"></i>
-        Upload SK Bupati Hibah Bangunan Gedung Kabupaten Blora
+        Upload Berkas Berita Acara Assesment Provinsi Jawa Barat
     </h5>
     <hr class="my-4" style="border-top: 2px dashed #0d6efd; width: 60%; margin: auto;">
 </div>
@@ -346,7 +346,7 @@ th {
   <div class="col-md-6">
     <div class="mb-3">
       <label class="form-label" for="berkas1">
-        <i class="bi bi-file-earmark-pdf" style="color: darkred; margin-right: 8px;"></i> Upload Nota Dinas Pengajuan Hibah
+        <i class="bi bi-file-earmark-pdf" style="color: darkred; margin-right: 8px;"></i> Upload Berkas Berita Acara Assesment
       </label>
       <input type="file" id="berkas1" name="berkas1" accept="application/pdf"
         class="form-control @error('berkas1') is-invalid @enderror"
@@ -354,11 +354,11 @@ th {
       @error('berkas1')<div class="invalid-feedback">{{ $message }}</div>@enderror
 
       <div class="mt-3" id="previewContainerBerkas1" style="display: none;">
-        <label class="fw-bold">Surat Nota Dinas Pengajuan Hibah</label>
+        <label class="fw-bold">Berkas Berita Acara Assesment</label>
         <iframe id="iframeBerkas1" src="" style="width: 100%; height: 400px; border: 1px solid #ccc; border-radius: 6px;"></iframe>
       </div>
       <div id="msgBerkas1" class="mt-3" style="color: grey; font-style: italic;">
-        Belum Upload Berkas, Silahkan Upload Nota Dinas Pengajuan Hibah.
+        Belum Upload Berkas, Silahkan Upload Berkas Berita Acara Assesment.
       </div>
     </div>
   </div>
@@ -366,7 +366,7 @@ th {
   <div class="col-md-6">
     <div class="mb-3">
       <label class="form-label" for="berkas2">
-        <i class="bi bi-file-earmark-pdf" style="color: darkred; margin-right: 8px;"></i> Upload SK Bupati Penetapan Penerima Hibah
+        <i class="bi bi-file-earmark-pdf" style="color: darkred; margin-right: 8px;"></i> Upload Berkas Lainnya
       </label>
       <input type="file" id="berkas2" name="berkas2" accept="application/pdf"
         class="form-control @error('berkas2') is-invalid @enderror"
@@ -374,11 +374,11 @@ th {
       @error('berkas2')<div class="invalid-feedback">{{ $message }}</div>@enderror
 
       <div class="mt-3" id="previewContainerBerkas2" style="display: none;">
-        <label class="fw-bold">SK SK Bupati Penetapan Penerima Hibah</label>
+        <label class="fw-bold">Berkas Dukung lainnya </label>
         <iframe id="iframeBerkas2" src="" style="width: 100%; height: 400px; border: 1px solid #ccc; border-radius: 6px;"></iframe>
       </div>
       <div id="msgBerkas2" class="mt-3" style="color: grey; font-style: italic;">
-        Belum Upload Berkas, Silahkan Upload SK Bupati Penetapan Penerima Hibah.
+        Belum Upload Berkas, Silahkan Upload Berkas dukung lainnya .
       </div>
     </div>
   </div>
@@ -506,7 +506,7 @@ function previewPDF(event, containerId, iframeId, messageId) {
                                 <div id="confirmModal" style="display: none; position: fixed; inset: 0; background-color: rgba(0, 0, 0, 0.5); z-index: 1000; justify-content: center; align-items: center;">
                                     <div style="background: white; padding: 24px 30px; border-radius: 12px; max-width: 400px; width: 90%; text-align: center; box-shadow: 0 10px 25px rgba(0,0,0,0.2);">
                                       <p style="font-size: 16px; font-weight: 600; margin-bottom: 20px;">
-                                        Apakah Anda ingin upload SK Bupati untuk pengajuan ini ?
+                                        Apakah Anda ingin upload berita acara hasil assesment ?
                                     </p>
 
                                       <!-- Tombol -->

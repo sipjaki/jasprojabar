@@ -140,8 +140,8 @@
 <div class="modal-verify-alert">
     <div class="modal-box">
         <button type="button" class="btnalert-view" onclick="this.closest('.modal-verify-alert').style.display='none';">&times;</button>
-        <img src="/assets/abgblora/logo/pupr.png" alt="Logo" class="logo-animate-bounce">
-        <p style="color:black;">Dinas Pekerjaan Umum Dan Penataan Ruang <br> Kabupaten Blora Provinsi Jawa Tengah</p>
+        <img src="/assets/android/iconmenu/logojabarpng.png" alt="Logo" class="logo-animate-bounce">
+        <p style="color:black;">Badan Kepegawaian Daerah <br> Pemerintah Provinsi Jawa Barat</p>
         <div class="success-text">Berhasil !</div>
         {{-- <a href="/dashboard"><span>Silahkan Klik Untuk Mengetahui Informasi Berkas Anda</span></a> --}}
         <br>
@@ -190,8 +190,8 @@
 <div class="modal-verify-alert">
     <div class="modal-box">
         <button type="button" class="btnalert-view" onclick="this.closest('.modal-verify-alert').style.display='none';">&times;</button>
-        <img src="/assets/abgblora/logo/pupr.png" alt="Logo" class="logo-animate-bounce">
-        <p style="color:black;">Dinas Pekerjaan Umum Dan Penataan Ruang <br> Kabupaten Blora Provinsi Jawa Tengah</p>
+        <img src="/assets/android/iconmenu/logojabarpng.png" alt="Logo" class="logo-animate-bounce">
+        <p style="color:black;">Badan Kepegawaian Daerah <br> Pemerintah Provinsi Jawa Barat</p>
         <div style="font-size: 36px; color: red; font-weight: bold; margin: 20px 0;">Delete Berhasil !</div>
         <button class="button-delete">{{ session('delete') }}</button>
     </div>
