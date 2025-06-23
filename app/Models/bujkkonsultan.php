@@ -13,20 +13,9 @@ class bujkkonsultan extends Model
 
     protected $guarded = ['id'];
 
-    public function bujkkonsultansub()
+    public function user()
     {
-        return $this->belongsTo(bujkkonsultansub::class);
+        return $this->belongsTo(User::class, 'user_id');
     }
-
-    public function asosiasimasjaki()
-    {
-        return $this->belongsTo(asosiasimasjaki::class);
-    }
-
-    public function tahunpilihan()
-    {
-        return $this->belongsTo(tahunpilihan::class);
-    }
-
 
 }

@@ -13,7 +13,7 @@ return new class extends Migration
     {
         Schema::create('statusadmins', function (Blueprint $table) {
             $table->id();
-            $table->string('statusadmin');
+            $table->string('status');
             $table->softDeletes();
             $table->timestamps();
         });

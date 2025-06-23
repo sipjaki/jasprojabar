@@ -13,14 +13,38 @@ class kecamatanblora extends Model
 
     protected $guarded = ['id'];
 
-    public function peralatankonstruksi()
+    public function krk()
     {
-        return $this->hasMany(peralatankonstruksi::class);
+        return $this->hasMany(krk::class);
     }
 
-    public function tokobangunanblora()
+    public function krkusaha()
     {
-        return $this->hasMany(tokobangunanblora::class);
+        return $this->hasMany(krkusaha::class);
     }
 
+    public function krkhunian()
+    {
+        return $this->hasMany(krkhunian::class);
+    }
+
+    public function krkkeagamaan()
+    {
+        return $this->hasMany(krkkeagamaan::class);
+    }
+
+    public function kelurahandesa()
+    {
+        return $this->belongsTo(kelurahandesa::class);
+    }
+
+    public function bantuanteknis()
+    {
+        return $this->hasMany(bantuanteknis::class);
+    }
+
+    public function penilikbangunan()
+    {
+        return $this->hasMany(penilikbangunan::class);
+    }
 }
