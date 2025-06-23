@@ -590,9 +590,9 @@ Route::get('/tambahfasilitator', [BantuanhibahbgController::class, 'tambahfasili
 Route::post('/tambahfasilitatornew', [BantuanhibahbgController::class, 'tambahfasilitatornew'])->middleware('auth')->name('f');
 
 
-Route::get('/datanewhibah', [BantuanhibahbgController::class, 'hibahdokcreate'])->middleware('auth')->name('hibahdok.create');
+Route::get('/datanewassesment', [BantuanhibahbgController::class, 'hibahdokcreate'])->middleware('auth')->name('hibahdok.create');
 Route::post('/datanewhibahnew', [BantuanhibahbgController::class, 'datanewhibahnew'])->middleware('auth')->name('dokhibahnew.create');
-Route::get('/dataallhibahbangunan', [BantuanhibahbgController::class, 'dataallhibahbangunan'])->name('dataallhibahbangunan.index');
+Route::get('/dataallassesment', [BantuanhibahbgController::class, 'dataallhibahbangunan'])->name('dataallhibahbangunan.index');
 Route::get('/banhibahpermohonan/{id}', [BantuanhibahbgController::class, 'banhibahpermohonan'])->middleware('auth')->name('banhibahpermohonan.show');
 
 Route::put('/valhibahbantuan1/{id}', [BantuanhibahbgController::class, 'valhibahbantuan1'])->name('valhibahbantuan1.update');
@@ -621,7 +621,7 @@ Route::delete('/dokuploadhibahskcrdelete/{id}', [BantuanhibahbgController::class
 Route::put('/valberkashibah3/{id}', [BantuanhibahbgController::class, 'valberkashibah3'])->name('valberkashibah3.update');
 Route::put('/valberkashibah4/{id}', [BantuanhibahbgController::class, 'valberkashibah4'])->name('valberkashibah4.update');
 // saat ini
-Route::get('/bestatistikhibah', [BantuanhibahbgController::class, 'bestatistikhibah']);
+Route::get('/bestatistikassesment', [BantuanhibahbgController::class, 'bestatistikhibah']);
 
 Route::delete('/dokbebanhibahdelete/{id}', [BantuanhibahbgController::class, 'dokbebanhibahdelete'])->middleware('auth')->name('delete.dokbebanhibahdelete');
 Route::delete('/deletefasilitator/{id}', [BantuanhibahbgController::class, 'deletefasilitator'])->middleware('auth')->name('delete.deletefasilitator');
@@ -633,7 +633,7 @@ Route::delete('/deletefasilitator/{id}', [BantuanhibahbgController::class, 'dele
 // ================================================================================================================================================
 
 // Route::get('/dashboard', [AdminDashboardController::class, 'index'])->middleware('auth');
-Route::get('/dashboard', [AdminDashboardController::class, 'index']);
+Route::get('/dashboard', [AdminDashboardController::class, 'index'])->middleware('auth');
 
 // ------------------- BACKEND QA PERTANYAAN ---------------------------
 

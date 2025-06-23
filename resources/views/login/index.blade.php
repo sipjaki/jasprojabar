@@ -234,7 +234,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
       <title>Silahkan Login !</title>
-      <link rel="icon" href="/assets/abgblora/logo/logokabupatenblora.png" type="image/x-icon">
+      <link rel="icon" href="/assets/android/iconmenu/logojabarpng.png" type="image/x-icon">
 
     </head>
     <body>
@@ -243,10 +243,10 @@
 
       <div class="login-container">
         <div class="logo-section">
-            <img src="/assets/abgblora/logo/iconabgblora.png" alt="Kabupaten Blora" style="width: 80%;" />
+            <img src="/assets/android/iconmenu/logojabarpng.png" alt="Kabupaten Blora" style="width: 80%;" />
           </div>
               <div class="container">
-            <h4 class="title" style="font-family: 'Poppins', sans-serif; text-align: center;">Sign in to ABG Blora</h4>
+            <h4 class="title" style="font-family: 'Poppins', sans-serif; text-align: center;">Sign in to JASPRO <br> Jabar Assesment For Province</h4>
           </div>
 
           <div style="font-family: 'Poppins', sans-serif;">
@@ -283,9 +283,9 @@
 
                 <button type="submit" class="btn-login" style="font-size: 16px;">Login</button>
 
-                <div class="footer-links" style="display: flex; justify-content: flex-end;">
+                {{-- <div class="footer-links" style="display: flex; justify-content: flex-end;">
                     <a href="/daftar">Register Here?</a>
-                </div>
+                </div> --}}
             </form>
         </div>
 

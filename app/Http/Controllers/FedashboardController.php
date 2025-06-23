@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\bantuanhibahbg;
 use Illuminate\Http\Request;
 
 use App\Models\bgkartuinventarisbangunan;
@@ -45,12 +46,14 @@ class FedashboardController extends Controller
     {
 
         $user = Auth::user();
+        $data = bantuanhibahbg::all();
         // return view('/404', [
         // return view('frontend.00_full.index', [
         return view('frontend.android.02_pbg.index', [
         // return view('frontend.android.01_halamanutama.index', [
-            'title' => 'Menu PBG/SLF Bangunan Gedung ',
+            'title' => 'Informasi Pengajuan Assessment',
             'user' => $user,
+            'data' => $data,
         ]);
     }
 
