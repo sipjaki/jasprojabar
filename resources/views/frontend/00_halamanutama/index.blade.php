@@ -30,12 +30,12 @@
                         <div class="tgmenu__wrap">
                             <nav class="tgmenu__nav">
                                 <div class="logo">
-                                    <a href="index.html"><img src="assets/img/logo/logo.svg" alt="Logo"></a>
+                                    <a href="#"><img src="/assets/gambar/logo1.png" alt="Logo"></a>
                                 </div>
                                 <div class="tgmenu__navbar-wrap tgmenu__main-menu d-none d-lg-flex">
                                     <ul class="navigation">
-                                        <li class="active menu-item-has-children tg-mega-menu-has-children"><a href="#">Home</a>
-                                            <div class="tg-mega-menu-wrap">
+                                        <li class="active tg-mega-menu-has-children"><a href="#">Home</a>
+                                            {{-- <div class="tg-mega-menu-wrap">
                                                 <div class="row row-cols-1 row-cols-lg-6 row-cols-xl-6">
                                                     <div class="col">
                                                         <div class="mega-menu-item">
@@ -158,22 +158,11 @@
                                                         </div>
                                                     </div>
                                                 </div>
-                                            </div>
+                                            </div> --}}
                                         </li>
-                                        <li class="menu-item-has-children"><a href="#">Pages</a>
-                                            <ul class="sub-menu">
-                                                <li><a href="about.html">About Us</a></li>
-                                                <li><a href="team.html">Team page</a></li>
-                                                <li><a href="team-details.html">Team Details</a></li>
-                                                <li class="menu-item-has-children"><a href="shop.html">Shop</a>
-                                                    <ul class="sub-menu">
-                                                        <li><a href="shop.html">Shop Page</a></li>
-                                                        <li><a href="shop-details.html">Shop Details</a></li>
-                                                        <li><a href="cart.html">Cart Page</a></li>
-                                                        <li><a href="check-out.html">Checkout Page</a></li>
-                                                        <li><a href="error.html">Error Page</a></li>
-                                                    </ul>
-                                                </li>
+                                        {{-- <li class="menu-item-has-children"><a href="#">Transaksi</a> --}}
+                                        <li><a href="#">Transaksi</a>
+                                            {{-- <ul class="sub-menu">
                                                 <li><a href="pricing.html">Pricing Page</a></li>
                                                 <li><a href="blog.html">Blog post</a></li>
                                                 <li><a href="blog-details.html">Blog post Details</a></li>
@@ -182,19 +171,20 @@
                                                 <li><a href="login.html">Login Page</a></li>
                                                 <li><a href="register.html">Register Page</a></li>
                                                 <li><a href="reset.html">Reset Page</a></li>
-                                            </ul>
+                                            </ul> --}}
                                         </li>
-                                        <li class="menu-item-has-children"><a href="#">Services</a>
-                                            <ul class="sub-menu">
+                                        {{-- <li class="menu-item-has-children"><a href="#">Dashboard</a> --}}
+                                        <li><a href="#">Dashboard</a>
+                                            {{-- <ul class="sub-menu">
                                                 <li><a href="services.html">Our Services</a></li>
                                                 <li><a href="services-details.html">Services Details One</a></li>
                                                 <li><a href="services-details-2.html">Services Details Two</a></li>
                                                 <li><a href="services-details-3.html">Services Details Three</a></li>
                                                 <li><a href="services-details-4.html">Services Details Four</a></li>
                                                 <li><a href="services-details-5.html">Services Details Five</a></li>
-                                            </ul>
+                                            </ul> --}}
                                         </li>
-                                        <li class="menu-item-has-children"><a href="#">Portfolio</a>
+                                        {{-- <li class="menu-item-has-children"><a href="#">Portfolio</a>
                                             <ul class="sub-menu">
                                                 <li><a href="project.html">Portfolio Page</a></li>
                                                 <li><a href="project-details.html">Portfolio Details One</a></li>
@@ -203,14 +193,14 @@
                                                 <li><a href="project-details-4.html">Portfolio Details Four</a></li>
                                                 <li><a href="project-details-5.html">Portfolio Details Five</a></li>
                                             </ul>
-                                        </li>
+                                        </li> --}}
                                         <li><a href="contact.html">Contact</a></li>
                                     </ul>
                                 </div>
                                 <div class="tgmenu__action tgmenu__action-two">
                                     <ul class="list-wrap">
                                         <li class="header-btn header-btn-two">
-                                            <a href="contact.html" class="tg-btn">Sing Up</a>
+                                            <a href="/login" class="tg-btn">Sing Up</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -268,15 +258,15 @@
                     <div class="col-lg-6 col-md-10 order-0 order-lg-2">
                         <div class="banner__img-two">
                             <div class="main-img">
-                                <img src="assets/img/banner/h2_hero_img.jpg" alt="img">
+                                <img src="/assets/gambar/gambar1.png" alt="img">
                             </div>
                             <div class="business-growth-box" data-aos="fade-left" data-aos-delay="400">
                                 <div class="icon">
                                     <i class="flaticon-investment"></i>
                                 </div>
                                 <div class="content">
-                                    <h4 class="title">Business Growth</h4>
-                                    <h3 class="count">98%</h3>
+                                    <h4 class="title">Transaksi</h4>
+                                    <h3 class="count">1.025</h3>
                                 </div>
                             </div>
                             <div class="shape-wrap">
@@ -290,12 +280,12 @@
                     </div>
                     <div class="col-lg-6">
                         <div class="banner__content-two">
-                            <h2 class="title" data-aos="fade-up" data-aos-delay="0">Effective digital marketing Can drives business results</h2>
-                            <p data-aos="fade-up" data-aos-delay="300">Agilos helps you to convert your data into a strategic asset hernd get top-notch business insights.</p>
-                            <form action="#" class="banner__form" data-aos="fade-up" data-aos-delay="500">
+                            <h2 class="title" data-aos="fade-up" data-aos-delay="0">Tenaang, Rekapinaja</h2>
+                            <p data-aos="fade-up" data-aos-delay="300">Keuangan Rapi, Pikiran Happy <br> ...Karena Setiap Rupiah Punya Cerita</p>
+                            {{-- <form action="#" class="banner__form" data-aos="fade-up" data-aos-delay="500">
                                 <input type="email" placeholder="your e-mail address">
                                 <button type="submit" class="tg-btn">Get Started <img src="assets/img/icons/right_arrow.svg" alt="" class="injectable"></button>
-                            </form>
+                            </form> --}}
                         </div>
                     </div>
 
