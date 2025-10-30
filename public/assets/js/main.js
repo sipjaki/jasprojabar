@@ -1,532 +1,984 @@
-    "use strict";
+(function ($) {
+	"use strict";
 
 
-    /*--
-        preloader
-    -----------------------------------*/
-     $(window).on('load', function(event) {
-        $('#preloader').delay(500).fadeOut(500);
-    });
+/*===========================================
+	=            Windows Load          =
+=============================================*/
+$(window).on('load', function () {
+    preloader();
+    wowAnimation();
+    aosAnimation();
+});
 
-    /*--
-        Header Sticky
-    -----------------------------------*/
 
-    window.onscroll = function () {
-        const left = document.getElementById("header");
+/*===========================================
+	=            Preloader          =
+=============================================*/
+function preloader() {
+	$('.preloader').delay(0).fadeOut();
+};
 
-        if (left.scrollTop > 50 || self.pageYOffset > 50) {
-            left.classList.add("sticky")
-        } else {
-            left.classList.remove("sticky");
-        }
-    }    
 
-    
-    /*--
-        Menu parent Element Icon
-    -----------------------------------*/
-    const $subMenu = document.querySelectorAll('.sub-menu');
-    $subMenu.forEach(function (subMenu) {
-        const menuExpand = document.createElement('span')
-        menuExpand.classList.add('menu-icon')
-        // menuExpand.innerHTML = '+'
-        subMenu.parentElement.insertBefore(menuExpand, subMenu)
-        if (subMenu.classList.contains('mega-menu')) {
-            subMenu.classList.remove('mega-menu')
-            subMenu.querySelectorAll('ul').forEach(function (ul) {
-                ul.classList.add('sub-menu')
-                const menuExpand = document.createElement('span')
-                menuExpand.classList.add('menu-icon')
-                menuExpand.innerHTML = '+'
-                ul.parentElement.insertBefore(menuExpand, ul)
-            })
-        }
-    })
+/*===========================================
+	=    		Mobile Menu			      =
+=============================================*/
+//SubMenu Dropdown Toggle
+if ($('.tgmenu__wrap li.menu-item-has-children ul').length) {
+	$('.tgmenu__wrap .navigation li.menu-item-has-children').append('<div class="dropdown-btn"><span class="plus-line"></span></div>');
+}
 
-    /*--
-        Search Js
-    -----------------------------------*/
-	var $searchWrap = $('.search-wrap');
-	var $navSearch = $('.search-btn');
-	var $searchClose = $('#search-close');
+//Mobile Nav Hide Show
+if ($('.tgmobile__menu').length) {
 
-	$('.search-btn').on('click', function (e) {
-		e.preventDefault();
-		$searchWrap.animate({ opacity: 'toggle' }, 500);
-		$navSearch.add($searchClose).addClass("open");
+	var mobileMenuContent = $('.tgmenu__wrap .tgmenu__main-menu').html();
+	$('.tgmobile__menu .tgmobile__menu-box .tgmobile__menu-outer').append(mobileMenuContent);
+
+	//Dropdown Button
+	$('.tgmobile__menu li.menu-item-has-children .dropdown-btn').on('click', function () {
+		$(this).toggleClass('open');
+		$(this).prev('ul, .tg-mega-menu-wrap').slideToggle(300);
+	});
+	//Menu Toggle Btn
+	$('.mobile-nav-toggler').on('click', function () {
+		$('body').addClass('mobile-menu-visible');
 	});
 
-	$('.search-close').on('click', function (e) {
-		e.preventDefault();
-		$searchWrap.animate({ opacity: 'toggle' }, 500);
-		$navSearch.add($searchClose).removeClass("open");
+	//Menu Toggle Btn
+	$('.tgmobile__menu-backdrop, .tgmobile__menu .close-btn').on('click', function () {
+		$('body').removeClass('mobile-menu-visible');
 	});
+};
 
-	function closeSearch() {
-		$searchWrap.fadeOut(200);
-		$navSearch.add($searchClose).removeClass("open");
+
+/*===========================================
+	=     Menu sticky & Scroll to top      =
+=============================================*/
+$(window).on('scroll', function () {
+	var scroll = $(window).scrollTop();
+	if (scroll < 245) {
+		$("#sticky-header").removeClass("sticky-menu");
+		$('.scroll-to-target').removeClass('open');
+        $("#header-fixed-height").removeClass("active-height");
+
+	} else {
+		$("#sticky-header").addClass("sticky-menu");
+		$('.scroll-to-target').addClass('open');
+        $("#header-fixed-height").addClass("active-height");
 	}
-
-	$(document.body).on('click', function (e) {
-		closeSearch();
-	});
-
-	$(".search-btn, .main-search-input").on('click', function (e) {
-		e.stopPropagation();
-	});
-
-        
-    /*--
-        Mobile Menu 
-    -----------------------------------*/
-
-    /* Get Sibling */
-    const getSiblings = function (elem) {
-        const siblings = []
-        let sibling = elem.parentNode.firstChild
-        while (sibling) {
-            if (sibling.nodeType === 1 && sibling !== elem) {
-                siblings.push(sibling)
-            }
-            sibling = sibling.nextSibling
-        }
-        return siblings
-    }
-
-    /* Slide Up */
-    const slideUp = (target, time) => {
-        const duration = time ? time : 500;
-        target.style.transitionProperty = 'height, margin, padding'
-        target.style.transitionDuration = duration + 'ms'
-        target.style.boxSizing = 'border-box'
-        target.style.height = target.offsetHeight + 'px'
-        target.offsetHeight
-        target.style.overflow = 'hidden'
-        target.style.height = 0
-        window.setTimeout(() => {
-            target.style.display = 'none'
-            target.style.removeProperty('height')
-            target.style.removeProperty('overflow')
-            target.style.removeProperty('transition-duration')
-            target.style.removeProperty('transition-property')
-        }, duration)
-    }
-
-    /* Slide Down */
-    const slideDown = (target, time) => {
-        const duration = time ? time : 500;
-        target.style.removeProperty('display')
-        let display = window.getComputedStyle(target).display
-        if (display === 'none') display = 'block'
-        target.style.display = display
-        const height = target.offsetHeight
-        target.style.overflow = 'hidden'
-        target.style.height = 0
-        target.offsetHeight
-        target.style.boxSizing = 'border-box'
-        target.style.transitionProperty = 'height, margin, padding'
-        target.style.transitionDuration = duration + 'ms'
-        target.style.height = height + 'px'
-        window.setTimeout(() => {
-            target.style.removeProperty('height')
-            target.style.removeProperty('overflow')
-            target.style.removeProperty('transition-duration')
-            target.style.removeProperty('transition-property')
-        }, duration)
-    }
-
-    /* Slide Toggle */
-    const slideToggle = (target, time) => {
-        const duration = time ? time : 500;
-        if (window.getComputedStyle(target).display === 'none') {
-            return slideDown(target, duration)
-        } else {
-            return slideUp(target, duration)
-        }
-    }
+});
 
 
-    /*--
-		Offcanvas/Collapseable Menu 
-	-----------------------------------*/
-    const offCanvasMenu = function (selector) {
+/*===========================================
+	=           Scroll Up  	         =
+=============================================*/
+if ($('.scroll-to-target').length) {
+  $(".scroll-to-target").on('click', function () {
+    var target = $(this).attr('data-target');
+    // animate
+    $('html, body').animate({
+      scrollTop: $(target).offset().top
+    }, 0);
 
-        const $offCanvasNav = document.querySelector(selector),
-            $subMenu = $offCanvasNav.querySelectorAll('.sub-menu');
-        $subMenu.forEach(function (subMenu) {
-            const menuExpand = document.createElement('span')
-            menuExpand.classList.add('menu-expand')
-            // menuExpand.innerHTML = '+'
-            subMenu.parentElement.insertBefore(menuExpand, subMenu)
-            if (subMenu.classList.contains('mega-menu')) {
-                subMenu.classList.remove('mega-menu')
-                subMenu.querySelectorAll('ul').forEach(function (ul) {
-                    ul.classList.add('sub-menu')
-                    const menuExpand = document.createElement('span')
-                    menuExpand.classList.add('menu-expand')
-                    menuExpand.innerHTML = '+'
-                    ul.parentElement.insertBefore(menuExpand, ul)
-                })
-            }
-        })
+  });
+}
 
-        $offCanvasNav.querySelectorAll('.menu-expand').forEach(function (item) {
-            item.addEventListener('click', function (e) {
-                e.preventDefault()
-                const parent = this.parentElement
-                if (parent.classList.contains('active')) {
-                    parent.classList.remove('active');
-                    parent.querySelectorAll('.sub-menu').forEach(function (subMenu) {
-                        subMenu.parentElement.classList.remove('active');
-                        slideUp(subMenu)
-                    })
-                } else {
-                    parent.classList.add('active');
-                    slideDown(this.nextElementSibling)
-                    getSiblings(parent).forEach(function (item) {
-                        item.classList.remove('active')
-                        item.querySelectorAll('.sub-menu').forEach(function (subMenu) {
-                            subMenu.parentElement.classList.remove('active');
-                            slideUp(subMenu)
-                        })
-                    })
-                }
-            })
-        })
-    }
-    offCanvasMenu('.offcanvas-menu');
 
-  /*--
-    magnificPopup video view 
-  -----------------------------------*/	
-	$('.popup-video').magnificPopup({
-		type: 'iframe'
-	});
+/*===========================================
+	=          Data Background    =
+=============================================*/
+$("[data-background]").each(function () {
+	$(this).css("background-image", "url(" + $(this).attr("data-background") + ")")
+});
 
-  /*--    
-      Counter Up
-  -----------------------------------*/  
+$("[data-bg-color]").each(function () {
+	$(this).css("background-color", $(this).attr("data-bg-color"));
+});
 
-    $('.counter').counterUp({
-        delay: 10,
-        time: 1500,
-    });
 
-  /*--    
-      Progress Bar
-  -----------------------------------*/  
+/*=============================================
+	=            Header Search            =
+=============================================*/
+$(".search-open-btn").on("click", function () {
+    $(".search__popup").addClass("search-opened");
+    $(".search-popup-overlay").addClass("search-popup-overlay-open");
+});
+$(".search-close-btn").on("click", function () {
+    $(".search__popup").removeClass("search-opened");
+    $(".search-popup-overlay").removeClass("search-popup-overlay-open");
+});
 
-    if($('.progress-line').length) {
-        $('.progress-line').appear(function(){
-            var el = $(this);
-            var percent = el.data('width');
-            $(el).css('width', percent+'%');
-        }, {accY: 0});
-    }
- 
-    /*--
-        Case Study Active
-	-----------------------------------*/
-    var swiper = new Swiper('.case-study-active', {
-        slidesPerView: 2,
-        spaceBetween: 30,
-        centeredSlides: true,
-        loop: true,        
-        grabCursor: true,
-        navigation: {
-            nextEl: '.case-study-active .swiper-button-next',
-            prevEl: '.case-study-active .swiper-button-prev',
+/*=============================================
+=     Offcanvas Menu      =
+=============================================*/
+$(".menu-tigger").on("click", function () {
+	$(".offCanvas__info, .offCanvas__overly").addClass("active");
+	return false;
+});
+$(".menu-close, .offCanvas__overly").on("click", function () {
+	$(".offCanvas__info, .offCanvas__overly").removeClass("active");
+});
+
+/*=============================================
+	=        Slider Active		      =
+=============================================*/
+var sliderSwiper = new Swiper('.slider-active', {
+    spaceBetween: 0,
+    effect: "fade",
+    loop: true,
+    autoplay: {
+        delay: 6000,
+    },
+    navigation: {
+        nextEl: ".slider-button-next",
+        prevEl: ".slider-button-prev"
+    },
+});
+
+
+/*=============================================
+	=        Slider Active		      =
+=============================================*/
+var sliderTwoSwiper = new Swiper('.slider-active-two', {
+    spaceBetween: 0,
+    effect: "fade",
+    loop: true,
+    autoplay: {
+        delay: 8000,
+    },
+    pagination: {
+      el: '.slider__pagination',
+      clickable: true,
+    },
+});
+
+
+/*=============================================
+	=        Slider Active		      =
+=============================================*/
+var sliderTwoSwiper = new Swiper('.slider-active-three', {
+    spaceBetween: 0,
+    effect: "fade",
+    loop: true,
+    autoplay: {
+        delay: 8000,
+    },
+});
+
+/*=============================================
+	=        Slider Active		      =
+=============================================*/
+var sliderSwiper = new Swiper('.slider-active-four', {
+    spaceBetween: 0,
+    effect: "fade",
+    loop: true,
+    autoplay: {
+        delay: 6000,
+    },
+    navigation: {
+        nextEl: ".slider-button-next",
+        prevEl: ".slider-button-prev"
+    },
+});
+
+
+/*=============================================
+	=        Slider Active		      =
+=============================================*/
+var sliderSwiper = new Swiper('.slider-active-five', {
+    spaceBetween: 0,
+    effect: "fade",
+    loop: true,
+    autoplay: {
+        delay: 8000,
+    },
+    navigation: {
+        nextEl: ".slider-button-next",
+        prevEl: ".slider-button-prev"
+    },
+});
+
+
+
+/*=============================================
+	=        Brand Active		      =
+=============================================*/
+var brandSwiper = new Swiper('.brand-active', {
+    // Optional parameters
+    slidesPerView: 5,
+    spaceBetween: 24,
+    loop: true,
+    breakpoints: {
+        '1500': {
+            slidesPerView: 6,
         },
-        breakpoints: {
-            0: {
-              slidesPerView: 1,
-            },
-            992: {
-              slidesPerView: 2,
-            },
-          },
-    });
-
-    /*--    
-        Brand Active
-    -----------------------------------*/
-    var swiper = new Swiper(".brand-active .swiper-container", {
-        slidesPerView: 5,
-        spaceBetween: 30,
-        loop: true,
-        breakpoints: {
-          0: {
-            slidesPerView: 1,
-          },
-          576: {
-            slidesPerView: 2,
-            spaceBetween: 20,
-          },
-          768: {
-            slidesPerView: 3,
-          },
-          992: {
+        '1200': {
             slidesPerView: 5,
-          },
         },
-    });
-
-    /*--
-        Team Active
-	-----------------------------------*/
-    var swiper = new Swiper('.team-active', {
-        slidesPerView: 3,
-        spaceBetween: 30,
-        loop: true,
-        pagination: {
-            el: ".team-active .swiper-pagination",
-            clickable: true,
+        '992': {
+            slidesPerView: 4,
         },
-        breakpoints: {
-          0: {
-            slidesPerView: 1,
-          },
-          576: {
-            slidesPerView: 1,
-          },
-          768: {
-            slidesPerView: 2,
-          },
-          992: {
+        '768': {
             slidesPerView: 3,
-          }
-        }
-    });
-
-    /*--
-        Service-2 Active
-	-----------------------------------*/
-    var swiper = new Swiper('.service-2-active', {
-        slidesPerView: 3,
-        spaceBetween: 30,
-        loop: true,
-        pagination: {
-            el: ".service-2-active .swiper-pagination",
-            clickable: true,
         },
-        breakpoints: {
-          0: {
-            slidesPerView: 1,
-          },
-          576: {
-            slidesPerView: 1,
-          },
-          768: {
-            slidesPerView: 2,
-          },
-          992: {
+        '576': {
             slidesPerView: 3,
-          }
-        }
-    });
-
-    /*--
-        Service-3 Active
-	-----------------------------------*/
-    var swiper = new Swiper('.service-3-active', {
-        slidesPerView: 3,
-        spaceBetween: 30,
-        loop: true,
-        pagination: {
-            el: ".service-3-active .swiper-pagination",
-            clickable: true,
         },
-        breakpoints: {
-          0: {
-            slidesPerView: 1,
-          },
-          576: {
-            slidesPerView: 1,
-          },
-          768: {
+        '0': {
             slidesPerView: 2,
-          },
-          992: {
+        },
+    },
+});
+
+
+/*=============================================
+	=        Brand Active Two	      =
+=============================================*/
+var brandSwiper = new Swiper('.brand-active-two', {
+    // Optional parameters
+    slidesPerView: 4,
+    spaceBetween: 24,
+    loop: true,
+    breakpoints: {
+        '1500': {
+            slidesPerView: 4,
+        },
+        '1200': {
+            slidesPerView: 4,
+        },
+        '992': {
+            slidesPerView: 4,
+        },
+        '768': {
             slidesPerView: 3,
-          }
-        }
-    });
-
-    /*--
-        Testimonial Active
-	-----------------------------------*/
-    var swiper = new Swiper('.testimonial-active', {
-        slidesPerView: 2,
-        spaceBetween: 30,
-        loop: true,
-        pagination: {
-            el: ".testimonial-active .swiper-pagination",
-            clickable: true,
         },
-        navigation: {
-            nextEl: '.testimonial-active .swiper-button-next',
-            prevEl: '.testimonial-active .swiper-button-prev',
-        },
-        breakpoints: {
-          0: {
-            slidesPerView: 1,
-          },
-          576: {
-            slidesPerView: 1,
-          },
-          768: {
-            slidesPerView: 2,
-          },
-          992: {
-            slidesPerView: 2,
-          }
-        }
-    });
-
-    /*--
-        Testimonial-2 Active
-	-----------------------------------*/
-    var swiper = new Swiper('.testimonial-2-active', {
-        slidesPerView: 1,
-        spaceBetween: 30,
-        loop: true,        
-        pagination: {
-            el: ".testimonial-2-active .swiper-pagination",
-            clickable: true,
-        },
-    });
-
-    /*--
-        Service Active
-	-----------------------------------*/
-    var swiper = new Swiper('.service-2-active', {
-        slidesPerView: 3,
-        spaceBetween: 30,
-        loop: true,
-        pagination: {
-            el: ".service-2-active .swiper-pagination",
-            clickable: true,
-        },
-        breakpoints: {
-          0: {
-            slidesPerView: 1,
-          },
-          576: {
-            slidesPerView: 1,
-          },
-          768: {
-            slidesPerView: 2,
-          },
-          992: {
+        '576': {
             slidesPerView: 3,
-          }
-        }
-    });
-
-    /*--
-        Testimonial-3 Active
-	-----------------------------------*/
-    var swiper = new Swiper('.testimonial-3-active', {
-        slidesPerView: 1,
-        spaceBetween: 30,
-        loop: true,        
-        pagination: {
-            el: ".testimonial-3-active .swiper-pagination",
-            clickable: true,
         },
-    });
-
-    /*--
-        Testimonial-4 Active
-	-----------------------------------*/
-    var swiper = new Swiper('.testimonial-4-active', {
-        slidesPerView: 1,
-        spaceBetween: 20,
-        loop: true, 
-        navigation: {
-          nextEl: '.testimonial-4-active .swiper-button-next',
-          prevEl: '.testimonial-4-active .swiper-button-prev',
-        },
-    });
-
-    /*--
-        Testimonial-7 Active
-	-----------------------------------*/
-    var swiper = new Swiper('.testimonial-7-active', {
-        slidesPerView: 3,
-        spaceBetween: 20,
-        centeredSlides: true,
-        loop: true,
-        pagination: {
-          el: ".testimonial-7-active .swiper-pagination",
-          clickable: true,
-        },
-        breakpoints: {
-          0: {
-            slidesPerView: 1,
-          },
-          576: {
-            slidesPerView: 1,
-          },
-          768: {
+        '0': {
             slidesPerView: 2,
-            centeredSlides: false,
-          },
-          992: {
+        },
+    },
+});
+
+
+/*=============================================
+	=        Services Active		      =
+=============================================*/
+var servicesSwiper = new Swiper('.services-active', {
+    // Optional parameters
+    slidesPerView: 4,
+    spaceBetween: 24,
+    loop: true,
+    autoplay: {
+        delay: 6000,
+    },
+    breakpoints: {
+        '1500': {
+            slidesPerView: 4,
+        },
+        '1200': {
+            slidesPerView: 4,
+        },
+        '992': {
+            slidesPerView: 4,
+        },
+        '768': {
             slidesPerView: 3,
-          }
-        }
+        },
+        '576': {
+            slidesPerView: 2,
+        },
+        '0': {
+            slidesPerView: 1,
+        },
+    },
+});
+
+
+/*=============================================
+	=        Services Active		      =
+=============================================*/
+var servicesSwiper = new Swiper('.services-active-two', {
+    // Optional parameters
+    slidesPerView: 4,
+    spaceBetween: 24,
+    loop: true,
+    autoplay: {
+        delay: 6000,
+    },
+    breakpoints: {
+        '1500': {
+            slidesPerView: 4,
+        },
+        '1200': {
+            slidesPerView: 3,
+        },
+        '992': {
+            slidesPerView: 3,
+        },
+        '768': {
+            slidesPerView: 2,
+        },
+        '576': {
+            slidesPerView: 1.5,
+        },
+        '0': {
+            slidesPerView: 1,
+        },
+    },
+    pagination: {
+      el: '.services__pagination',
+      clickable: true,
+    },
+});
+
+
+/*=============================================
+	=        Services Active		      =
+=============================================*/
+var servicesSwiper = new Swiper('.services-active-three', {
+    // Optional parameters
+    slidesPerView: 4,
+    spaceBetween: 24,
+    loop: true,
+    autoplay: {
+        delay: 6000,
+    },
+    breakpoints: {
+        '1500': {
+            slidesPerView: 4,
+        },
+        '1200': {
+            slidesPerView: 4,
+        },
+        '992': {
+            slidesPerView: 3,
+        },
+        '768': {
+            slidesPerView: 2,
+        },
+        '576': {
+            slidesPerView: 1.5,
+        },
+        '0': {
+            slidesPerView: 1,
+        },
+    },
+});
+
+
+/*=============================================
+	=        Project Active		      =
+=============================================*/
+var projectSwiper = new Swiper('.project-active', {
+    // Optional parameters
+    slidesPerView: 3,
+    spaceBetween: 24,
+    loop: true,
+    centeredSlides: true,
+    breakpoints: {
+        '1500': {
+            slidesPerView: 3,
+        },
+        '1200': {
+            slidesPerView: 3,
+        },
+        '992': {
+            slidesPerView: 2,
+        },
+        '768': {
+            slidesPerView: 1.5,
+        },
+        '576': {
+            slidesPerView: 1.3,
+        },
+        '0': {
+            slidesPerView: 1,
+        },
+    },
+    navigation: {
+        nextEl: ".project-button-next",
+        prevEl: ".project-button-prev"
+    },
+});
+
+
+/*=============================================
+	=        Project Active		      =
+=============================================*/
+var projectTwoSwiper = new Swiper('.project-active-two', {
+    // Optional parameters
+    slidesPerView: 4,
+    spaceBetween: 24,
+    loop: true,
+    breakpoints: {
+        '1500': {
+            slidesPerView: 4,
+        },
+        '1200': {
+            slidesPerView: 4,
+        },
+        '992': {
+            slidesPerView: 3,
+        },
+        '768': {
+            slidesPerView: 2,
+        },
+        '576': {
+            slidesPerView: 1,
+        },
+        '0': {
+            slidesPerView: 1,
+        },
+    },
+    navigation: {
+        nextEl: ".project-button-next",
+        prevEl: ".project-button-prev"
+    },
+});
+
+
+
+/*=============================================
+	=        Project Active		      =
+=============================================*/
+var projectTwoSwiper = new Swiper('.project-active-three', {
+    // Optional parameters
+    slidesPerView: 3,
+    spaceBetween: 24,
+    centeredSlides: true,
+    loop: true,
+    breakpoints: {
+        '1500': {
+            slidesPerView: 3,
+        },
+        '1200': {
+            slidesPerView: 3,
+        },
+        '992': {
+            slidesPerView: 2.5,
+        },
+        '768': {
+            slidesPerView: 2,
+        },
+        '576': {
+            slidesPerView: 1,
+        },
+        '0': {
+            slidesPerView: 1,
+        },
+    },
+    pagination: {
+      el: '.project__pagination',
+      clickable: true,
+    },
+});
+
+
+/*=============================================
+	=        Project Active		      =
+=============================================*/
+var projectTwoSwiper = new Swiper('.project-active-four', {
+    // Optional parameters
+    slidesPerView: 4,
+    spaceBetween: 24,
+    loop: true,
+    autoplay: {
+        delay: 6000,
+    },
+    breakpoints: {
+        '1500': {
+            slidesPerView: 4,
+        },
+        '1200': {
+            slidesPerView: 4,
+        },
+        '992': {
+            slidesPerView: 4,
+        },
+        '768': {
+            slidesPerView: 3,
+        },
+        '576': {
+            slidesPerView: 1.5,
+        },
+        '0': {
+            slidesPerView: 1,
+        },
+    },
+});
+
+
+/*=============================================
+	=        Project Active		      =
+=============================================*/
+var projectSwiper = new Swiper('.project-active-five', {
+    // Optional parameters
+    slidesPerView: 3,
+    spaceBetween: 24,
+    loop: true,
+    centeredSlides: true,
+    breakpoints: {
+        '1500': {
+            slidesPerView: 3,
+        },
+        '1200': {
+            slidesPerView: 3,
+        },
+        '992': {
+            slidesPerView: 2.3,
+        },
+        '768': {
+            slidesPerView: 1.5,
+        },
+        '576': {
+            slidesPerView: 1.3,
+        },
+        '0': {
+            slidesPerView: 1,
+        },
+    },
+    navigation: {
+        nextEl: ".project-button-next",
+        prevEl: ".project-button-prev"
+    },
+});
+
+
+/*=============================================
+	=        Project Active		      =
+=============================================*/
+var projectSwiper = new Swiper('.project-active-six', {
+    // Optional parameters
+    slidesPerView: 3,
+    spaceBetween: 24,
+    loop: true,
+    breakpoints: {
+        '1500': {
+            slidesPerView: 4,
+        },
+        '1200': {
+            slidesPerView: 4,
+        },
+        '992': {
+            slidesPerView: 3,
+        },
+        '768': {
+            slidesPerView: 2,
+        },
+        '576': {
+            slidesPerView: 1,
+        },
+        '0': {
+            slidesPerView: 1,
+        },
+    },
+});
+
+
+/*=============================================
+	=        Project Active		      =
+=============================================*/
+var projectSwiper = new Swiper('.project-active-seven', {
+    // Optional parameters
+    slidesPerView: 3,
+    spaceBetween: 24,
+    loop: true,
+    breakpoints: {
+        '1500': {
+            slidesPerView: 3,
+        },
+        '1200': {
+            slidesPerView: 3,
+        },
+        '992': {
+            slidesPerView: 3,
+        },
+        '768': {
+            slidesPerView: 2,
+        },
+        '576': {
+            slidesPerView: 1,
+        },
+        '0': {
+            slidesPerView: 1,
+        },
+    },
+    navigation: {
+        nextEl: ".project-button-next",
+        prevEl: ".project-button-prev"
+    },
+});
+
+/*=============================================
+	=          testimonial active              =
+=============================================*/
+var swiper = new Swiper(".testimonial__nav", {
+    spaceBetween: 0,
+    slidesPerView: 4,
+});
+var swiper2 = new Swiper(".testimonial-active", {
+    spaceBetween: 0,
+    loop: true,
+    autoplay: {
+        delay: 6000,
+    },
+    thumbs: {
+        swiper: swiper,
+    },
+    // And if we need scrollbar
+    navigation: {
+        nextEl: ".testimonial-button-next",
+        prevEl: ".testimonial-button-prev"
+    },
+});
+
+
+
+/*=============================================
+	=        testimonial Active		      =
+=============================================*/
+var testimonialSwiper = new Swiper('.testimonial-active-two', {
+    // Optional parameters
+    slidesPerView: 3,
+    spaceBetween: 24,
+    loop: true,
+    autoplay: {
+        delay: 6000,
+    },
+    breakpoints: {
+        '1500': {
+            slidesPerView: 3,
+        },
+        '1200': {
+            slidesPerView: 3,
+        },
+        '992': {
+            slidesPerView: 2,
+        },
+        '768': {
+            slidesPerView: 2,
+        },
+        '576': {
+            slidesPerView: 1,
+        },
+        '0': {
+            slidesPerView: 1,
+        },
+    },
+    navigation: {
+        nextEl: ".testimonial-button-next",
+        prevEl: ".testimonial-button-prev"
+    },
+});
+
+
+/*=============================================
+	=        testimonial Active		      =
+=============================================*/
+var testimonialSwiper = new Swiper('.testimonial-active-three', {
+    // Optional parameters
+    slidesPerView: 3,
+    spaceBetween: 24,
+    loop: true,
+    breakpoints: {
+        '1500': {
+            slidesPerView: 3,
+        },
+        '1200': {
+            slidesPerView: 3,
+        },
+        '992': {
+            slidesPerView: 2,
+        },
+        '768': {
+            slidesPerView: 2,
+        },
+        '576': {
+            slidesPerView: 1,
+        },
+        '0': {
+            slidesPerView: 1,
+        },
+    },
+    navigation: {
+        nextEl: ".testimonial-button-next",
+        prevEl: ".testimonial-button-prev"
+    },
+});
+
+
+/*=============================================
+	=        testimonial Active		      =
+=============================================*/
+var testimonialSwiper = new Swiper('.testimonial-active-four', {
+    // Optional parameters
+    slidesPerView: 2,
+    spaceBetween: 24,
+    loop: true,
+    breakpoints: {
+        '1500': {
+            slidesPerView: 2,
+        },
+        '1200': {
+            slidesPerView: 2,
+        },
+        '992': {
+            slidesPerView: 2,
+        },
+        '768': {
+            slidesPerView: 2,
+        },
+        '576': {
+            slidesPerView: 1,
+        },
+        '0': {
+            slidesPerView: 1,
+        },
+    },
+    navigation: {
+        nextEl: ".testimonial-button-next",
+        prevEl: ".testimonial-button-prev"
+    },
+});
+
+
+/*=============================================
+	=        testimonial Active		      =
+=============================================*/
+var testimonialSwiper = new Swiper('.testimonial-active-five', {
+    // Optional parameters
+    direction: 'vertical',
+    slidesPerView: 2,
+    spaceBetween: 24,
+    loop: true,
+    breakpoints: {
+        '1500': {
+            slidesPerView: 2,
+        },
+        '1200': {
+            slidesPerView: 2,
+        },
+        '992': {
+            slidesPerView: 2,
+        },
+        '768': {
+            slidesPerView: 2,
+        },
+        '576': {
+            slidesPerView: 1,
+        },
+        '0': {
+            slidesPerView: 1,
+        },
+    },
+    navigation: {
+        nextEl: ".testimonial-button-next",
+        prevEl: ".testimonial-button-prev"
+    },
+});
+
+
+/*=============================================
+	=        testimonial Active		      =
+=============================================*/
+// var testimonialSwiper = new Swiper('.testimonial-active-five', {
+//     // Optional parameters
+//     spaceBetween: 10,
+//     loop: true,
+//     direction: 'vertical',
+//     autoHeight: true,
+//     watchSlidesProgress: true,
+//     watchSlidesVisibility: true,
+//     mousewheel: true,
+//     slidesPerView: 'auto',
+//     navigation: {
+//         nextEl: ".testimonial-button-next",
+//         prevEl: ".testimonial-button-prev"
+//     },
+// });
+
+
+/*=============================================
+	=        Shop Active		      =
+=============================================*/
+var shopSwiper = new Swiper('.shop-active', {
+    // Optional parameters
+    slidesPerView: 4,
+    spaceBetween: 24,
+    loop: true,
+    breakpoints: {
+        '1500': {
+            slidesPerView: 4,
+        },
+        '1200': {
+            slidesPerView: 4,
+        },
+        '992': {
+            slidesPerView: 3,
+        },
+        '768': {
+            slidesPerView: 2,
+        },
+        '576': {
+            slidesPerView: 2,
+        },
+        '0': {
+            slidesPerView: 1,
+        },
+    },
+    navigation: {
+        nextEl: ".shop-button-next",
+        prevEl: ".shop-button-prev"
+    },
+});
+
+
+/*===========================================
+      =       Coupon Active    =
+=============================================*/
+$('#coupon-element').on('click', function () {
+    $('.coupon__code-form').slideToggle(500);
+    return false
+});
+
+/*=============================================
+	=    		pricing Active  	       =
+=============================================*/
+$(".pricing-tab-switcher, .tab-btn").on("click", function () {
+	$(".pricing-tab-switcher, .tab-btn").toggleClass("active"),
+	$(".pricing__tab").toggleClass("seleceted"),
+	$(".pricing__price").toggleClass("change-subs-duration");
+});
+
+/*=============================================
+	=        Team Social Active 	       =
+=============================================*/
+$('.social-toggle-icon').on('click', function () {
+	$(this).parent().find('ul').slideToggle(400);
+	$(this).find('i').toggleClass('fa-times');
+	return false;
+});
+
+
+/*===========================================
+	=    		 Cart Active  	         =
+=============================================*/
+$(".cart-plus-minus").append('<div class="dec qtybutton">-</div><div class="inc qtybutton">+</div>');
+$(".qtybutton").on("click", function () {
+	var $button = $(this);
+	var oldValue = $button.parent().find("input").val();
+	if ($button.text() == "+") {
+		var newVal = parseFloat(oldValue) + 1;
+	} else {
+		// Don't allow decrementing below zero
+		if (oldValue > 0) {
+			var newVal = parseFloat(oldValue) - 1;
+		} else {
+			newVal = 0;
+		}
+	}
+	$button.parent().find("input").val(newVal);
+});
+
+
+/*-------------------------------------
+Intersection Observer
+-------------------------------------*/
+if (!!window.IntersectionObserver) {
+let observer = new IntersectionObserver((entries, observer) => {
+	entries.forEach(entry => {
+	if (entry.isIntersecting) {
+		entry.target.classList.add("active-animation");
+		//entry.target.src = entry.target.dataset.src;
+		observer.unobserve(entry.target);
+	}
+	});
+}, {
+	rootMargin: "0px 0px -100px 0px"
+});
+document.querySelectorAll('.has-animation').forEach(block => {
+	observer.observe(block)
+});
+} else {
+document.querySelectorAll('.has-animation').forEach(block => {
+	block.classList.remove('has-animation')
+});
+}
+
+
+/*===========================================
+=         Marquee Active         =
+=============================================*/
+if ($(".marquee_mode").length) {
+    $('.marquee_mode').marquee({
+        speed: 50,
+        gap: 0,
+        delayBeforeStart: 0,
+        direction: 'left',
+        duplicated: true,
+        pauseOnHover: true,
+        startVisible:true,
     });
-
-     /*--
-        Service-6 Active
-	-----------------------------------*/
-    var swiper = new Swiper('.service-6-active', {
-      slidesPerView: 3,
-      spaceBetween: 30,
-      loop: true,
-      pagination: {
-          el: ".service-6-active .swiper-pagination",
-          clickable: true,
-      },
-      breakpoints: {
-        0: {
-          slidesPerView: 1,
-        },
-        576: {
-          slidesPerView: 2,
-        },
-        768: {
-          slidesPerView: 2,
-        },
-        992: {
-          slidesPerView: 3,
-        }
-      }
-  });
-
-  /*--
-        Testimonial-8 Active
-    -----------------------------------*/
-    var swiper = new Swiper('.testimonial-8-active', {
-      slidesPerView: 1,
-      spaceBetween: 30,
-      loop: true,  
-      pagination: {
-        el: ".testimonial-8-active .swiper-pagination",
-        clickable: true,
-      },      
-  });
-
-    /*--
-        AOS
-    -----------------------------------*/   
-    AOS.init({
-        duration: 1200,
-        once: true,
-    });
+}
 
 
 
+/*===========================================
+      =       Odometer Active    =
+=============================================*/
+$('.odometer').appear(function (e) {
+	var odo = $(".odometer");
+	odo.each(function () {
+		var countNumber = $(this).attr("data-count");
+		$(this).html(countNumber);
+	});
+});
 
+
+/*===========================================
+	=        Magnific Popup    =
+=============================================*/
+$('.popup-image').magnificPopup({
+	type: 'image',
+	gallery: {
+		enabled: true
+	}
+});
+
+/* magnificPopup video view */
+$('.popup-video').magnificPopup({
+	type: 'iframe'
+});
+
+
+/*===========================================
+	=        Wow Active      =
+=============================================*/
+function wowAnimation() {
+	var wow = new WOW({
+		boxClass: 'wow',
+		animateClass: 'animated',
+		offset: 0,
+		mobile: false,
+		live: true
+	});
+	wow.init();
+}
+
+
+/*===========================================
+	=           Aos Active       =
+=============================================*/
+function aosAnimation() {
+	AOS.init({
+		duration: 700,
+		mirror: true,
+		once: true,
+		disable: 'mobile',
+	});
+}
+
+
+})(jQuery);
