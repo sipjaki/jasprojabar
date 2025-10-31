@@ -22,16 +22,24 @@ use Illuminate\Support\Facades\Auth;
 // ------------------------- FRONTEND HALAMAN UTAMA ABG BLORA BANGUNAN GEDUNG --------------------------
 
 Route::get('/', [DashboardController::class, 'index']);
-Route::get('/masuk', [LoginController::class, 'index']);
-Route::get('/daftar', [LoginController::class, 'showRegisterForm']);
+Route::get('/masuk', [LoginController::class, 'index'])->name('login.index');
+Route::post('/masuk', [LoginController::class, 'masuksistem'])->name('loginmasuk');
+// Route::get('/login', [LoginController::class, 'index'])->name('login.index');
 
-Route::middleware('auth')->group(function () {
-    Route::post('/masuk', [LoginController::class, 'authenticate'])->name('login.authenticate');
-});
+// // 🟢 Proses login (POST)
+// Route::post('/login', [LoginController::class, 'masuksistem'])->name('loginmasuk');
+
+// 🔒 Logout (butuh user sudah login)
+Route::post('/logout', [LoginController::class, 'logout'])->middleware('auth')->name('logout');
+
+// 🔒 Contoh halaman dashboard
+Route::get('/dashboard', function () {
+    return view('dashboard');
+})->middleware('auth')->name('dashboard');
 
 Route::post('/register/store', [LoginController::class, 'register'])->name('register.store');
 
-Route::post('/dashboard', [DashboardController::class, 'dashboard'])->middleware('auth')->name('dashboardadmin');
+Route::get('/dashboard', [DashboardController::class, 'dashboard'])->middleware('auth')->name('dashboardadmin');
 
 // MENU 02 PERMOHONAN KRK USAHA
 // Route::get('/permohonankrkusaha', [KrkController::class, 'permohonankrkusaha'])->name('permohonan.krkusaha');

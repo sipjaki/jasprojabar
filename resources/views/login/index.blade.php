@@ -1,4 +1,32 @@
-@include('frontend.00_fiturmenu.01_header')
+
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Silahkan Login !</title>
+    <meta name="description" content="Rekapin Aja">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.png">
+    <!-- Place favicon.ico in the root directory -->
+
+    <!-- CSS here -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/animate.min.css">
+    <link rel="stylesheet" href="assets/css/magnific-popup.css">
+    <link rel="stylesheet" href="assets/css/fontawesome-all.min.css">
+    <link rel="stylesheet" href="assets/css/tg-flaticon.css">
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="assets/css/default.css">
+    <link rel="stylesheet" href="assets/css/default-icons.css">
+    <link rel="stylesheet" href="assets/css/odometer.css">
+    <link rel="stylesheet" href="assets/css/aos.css">
+    <link rel="stylesheet" href="assets/css/tg-cursor.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+</head>
+
 <body>
 
     <!-- preloader -->
@@ -43,7 +71,7 @@
                                 <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a>
                             </div> --}}
                             {{-- <span class="divider">or</span> --}}
-                          <form action="{{ route('login.authenticate') }}" method="POST" class="login__form">
+    <form action="{{ route('loginmasuk') }}" method="POST" class="login__form">
     @csrf
 
     <div class="form__grp">
@@ -66,7 +94,7 @@
 
     <div class="account__check">
         <div class="account__check-forgot">
-            <a href="reset.html">Lupa Password ?</a>
+            <a href="#">Lupa Password?</a>
         </div>
     </div>
 
@@ -75,6 +103,8 @@
         <img src="assets/img/icons/right_arrow.svg" alt="" class="injectable">
     </button>
 </form>
+
+
 
                             <div class="account__switch">
                                 <p>Belum Punya Akun ?<a href="/daftar">Silahkan Daftar </a></p>

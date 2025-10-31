@@ -65,8 +65,9 @@ class LoginController extends Controller
         // dd('Berhasil Masuk Iqlima');
     // }
 // =========================
-public function authenticate(Request $request)
+public function masuksistem(Request $request)
 {
+    // ✅ Validasi input
     $request->validate([
         'email' => 'required|email',
         'password' => 'required',
@@ -76,14 +77,27 @@ public function authenticate(Request $request)
         'password.required' => 'Password harus diisi.',
     ]);
 
-    if (!Auth::attempt($request->only('email', 'password'))) {
+    // ✅ Cek user manual
+    $user = User::where('email', $request->email)->first();
+
+    // ✅ Pesan custom 100%
+    if (!$user) {
         return back()
             ->withInput()
-            ->withErrors(['loginError' => 'Email atau password Anda salah!']);
+            ->withErrors(['loginError' => 'Email tidak ditemukan!']);
     }
 
+    if (!Hash::check($request->password, $user->password)) {
+        return back()
+            ->withInput()
+            ->withErrors(['loginError' => 'Password Anda salah!']);
+    }
+
+    // ✅ Login manual tanpa Auth::attempt()
+    Auth::login($user);
     $request->session()->regenerate();
-    return redirect()->intended(route('dashboard'));
+
+    return redirect()->intended('/dashboard');
 }
 
     public function logout(Request $request)
@@ -174,7 +188,7 @@ public function authenticate(Request $request)
     $user->avatar = 'assets/gambar/avatar.png'; // avatar default
     $user->save();
 
-    return redirect('/login')->with('success', 'Akun berhasil dibuat. Silakan login.');
+    return redirect('/masuk')->with('success', 'Akun berhasil dibuat. Silakan login.');
 }
 
 
