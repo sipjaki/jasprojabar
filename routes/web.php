@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\LoginController;
+use GuzzleHttp\Middleware;
 use Illuminate\Support\Facades\Route;
 
 
@@ -24,9 +25,13 @@ Route::get('/', [DashboardController::class, 'index']);
 Route::get('/masuk', [LoginController::class, 'index']);
 Route::get('/daftar', [LoginController::class, 'showRegisterForm']);
 
+Route::middleware('auth')->group(function () {
+    Route::post('/masuk', [LoginController::class, 'authenticate'])->name('login.authenticate');
+});
+
 Route::post('/register/store', [LoginController::class, 'register'])->name('register.store');
 
-// Route::get('/web', [DashboardController::class, 'web']);
+Route::post('/dashboard', [DashboardController::class, 'dashboard'])->middleware('auth')->name('dashboardadmin');
 
 // MENU 02 PERMOHONAN KRK USAHA
 // Route::get('/permohonankrkusaha', [KrkController::class, 'permohonankrkusaha'])->name('permohonan.krkusaha');

@@ -83,9 +83,8 @@ public function authenticate(Request $request)
     }
 
     $request->session()->regenerate();
-    return redirect()->intended('/dashboard');
+    return redirect()->intended(route('dashboard'));
 }
-
 
     public function logout(Request $request)
     {

@@ -43,24 +43,39 @@
                                 <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a>
                             </div> --}}
                             {{-- <span class="divider">or</span> --}}
-                            <form action="#" class="login__form">
-                                <div class="form__grp">
-                                    <input type="email" placeholder="Your email">
-                                </div>
-                                <div class="form__grp">
-                                    <input type="password" placeholder="Password">
-                                </div>
-                                <div class="account__check">
-                                    {{-- <div class="account__check-remember">
-                                        <input type="checkbox" class="form-check-input" value="" id="terms-check">
-                                        <label for="terms-check" class="form-check-label">Remember me</label>
-                                    </div> --}}
-                                    <div class="account__check-forgot">
-                                        <a href="reset.html">Lupa Password ?</a>
-                                    </div>
-                                </div>
-                                <button type="submit" class="tg-btn tg-btn-three">Log in <img src="assets/img/icons/right_arrow.svg" alt="" class="injectable"></button>
-                            </form>
+                          <form action="{{ route('login.authenticate') }}" method="POST" class="login__form">
+    @csrf
+
+    <div class="form__grp">
+        <input type="email" name="email" placeholder="Masukkan Email" value="{{ old('email') }}" required>
+        @error('email')
+            <small style="color:red;">{{ $message }}</small>
+        @enderror
+    </div>
+
+    <div class="form__grp">
+        <input type="password" name="password" placeholder="Masukkan Password" required>
+        @error('password')
+            <small style="color:red;">{{ $message }}</small>
+        @enderror
+    </div>
+
+    @error('loginError')
+        <div style="color:red; margin-bottom:10px;">{{ $message }}</div>
+    @enderror
+
+    <div class="account__check">
+        <div class="account__check-forgot">
+            <a href="reset.html">Lupa Password ?</a>
+        </div>
+    </div>
+
+    <button type="submit" class="tg-btn tg-btn-three">
+        Log in
+        <img src="assets/img/icons/right_arrow.svg" alt="" class="injectable">
+    </button>
+</form>
+
                             <div class="account__switch">
                                 <p>Belum Punya Akun ?<a href="/daftar">Silahkan Daftar </a></p>
                             </div>

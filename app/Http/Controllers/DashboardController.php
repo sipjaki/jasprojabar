@@ -15,4 +15,12 @@ class DashboardController extends Controller
             'title' => 'Tenang, Rekapinaja',
         ]);
     }
+
+    public function dashboard()
+    {
+        //
+        return view('backendrekapin.01_halamanutama',[
+            'title' => 'Tenang, Rekapinaja',
+        ]);
+    }
 }
