@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title>{{$title}}</title>
-    <meta name="description" content="Beeko -  Business Consulting HTML Template">
+    <meta name="description" content="Rekapin Aja ">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link rel="shortcut icon" type="image/x-icon" href="/assets/gambar/logo2.png">
