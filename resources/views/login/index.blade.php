@@ -1,311 +1,102 @@
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+@include('frontend.00_fiturmenu.01_header')
+<body>
 
-<style>
-    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;500;600&display=swap');
-
-    :root {
-      --primary: #000080;
-      --accent: #ffd100;
-    }
-
-    html, body {
-      height: 100%;
-      margin: 0;
-      font-family: 'Inter', sans-serif;
-      background: linear-gradient(45deg, #000428, #004e92);
-      overflow-x: hidden;
-    }
-
-    .architect-grid {
-      position: fixed;
-      width: 100vw;
-      height: 100vh;
-      background:
-        linear-gradient(90deg, rgba(255,255,255,0.05) 1px, transparent 1px),
-        linear-gradient(180deg, rgba(255,255,255,0.05) 1px, transparent 1px);
-      background-size: 30px 30px;
-      animation: gridMove 40s linear infinite;
-    }
-
-    @keyframes gridMove {
-      0% { background-position: 0 0; }
-      100% { background-position: 1000px 1000px; }
-    }
-
-    .login-container {
-      position: relative;
-      max-width: 450px;
-      padding: 3rem;
-      background: rgba(255, 255, 255, 0.95);
-      border-radius: 20px;
-      box-shadow: 0 10px 40px rgba(0,0,0,0.2);
-      backdrop-filter: blur(10px);
-      transform-style: preserve-3d;
-      transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-      margin: 5vh auto;
-      border: 1px solid rgba(255,255,255,0.3);
-      z-index: 2;
-    }
-
-    .login-container::before {
-      content: '';
-      position: absolute;
-      inset: -2px;
-      background: linear-gradient(45deg, var(--primary), var(--accent), var(--primary));
-      z-index: -1;
-      border-radius: 22px;
-      animation: borderGlow 6s ease-in-out infinite;
-      filter: blur(20px);
-      opacity: 0.6;
-      background-size: 400% 400%;
-    }
-
-    @keyframes borderGlow {
-      0%, 100% { background-position: 0% 50%; }
-      50% { background-position: 100% 50%; }
-    }
-
-    .logo-section {
-      display: flex;
-      justify-content: center;
-      gap: 2rem;
-      margin-bottom: 2.5rem;
-    }
-
-    .logo-section img {
-      width: 80px;
-      height: 80px;
-      object-fit: contain;
-      filter: drop-shadow(0 2px 4px rgba(0,0,0,0.1));
-      transition: transform 0.4s ease;
-    }
-
-    .logo-section img:hover {
-      transform: scale(1.1);
-    }
-
-    h1.title {
-      text-align: center;
-      color: var(--primary);
-      font-size: 2rem;
-      margin-bottom: 2rem;
-      font-weight: 600;
-      text-shadow: 0 2px 4px rgba(0,0,0,0.1);
-    }
-
-    .input-group {
-      position: relative;
-      margin-bottom: 1.5rem;
-    }
-
-    .input-group input {
-      width: 100%;
-      padding: 1rem;
-      border: 2px solid #e0e0e0;
-      border-radius: 10px;
-      font-size: 1rem;
-      transition: all 0.3s ease;
-      background: rgba(255,255,255,0.9);
-    }
-
-    .input-group input:focus {
-      border-color: var(--primary);
-      box-shadow: 0 0 15px rgba(0,0,128,0.1);
-      outline: none;
-    }
-
-    .input-group i {
-      position: absolute;
-      right: 15px;
-      top: 50%;
-      transform: translateY(-50%);
-      color: #666;
-    }
-
-    .btn-login {
-      width: 100%;
-      padding: 1rem;
-      background: linear-gradient(45deg, var(--primary), #1a237e);
-      border: none;
-      border-radius: 10px;
-      color: white;
-      font-size: 1.1rem;
-      font-weight: 600;
-      cursor: pointer;
-      transition: all 0.3s ease;
-      margin-top: 1rem;
-    }
-
-    .btn-login:hover {
-      transform: translateY(-3px) scale(1.02);
-      box-shadow: 0 5px 15px rgba(241, 239, 239, 0.3);
-    }
-
-    .footer-links {
-      display: flex;
-      justify-content: space-between;
-      margin-top: 1.5rem;
-      font-size: 0.9rem;
-    }
-
-    .footer-links a {
-      color: var(--primary);
-      text-decoration: none;
-      transition: color 0.3s ease;
-    }
-
-    .footer-links a:hover {
-      color: var(--accent);
-    }
-
-    @media (max-width: 576px) {
-      .login-container {
-        margin: 2rem;
-        padding: 2rem;
-      }
-
-      .logo-section img {
-        width: 60px;
-        height: 60px;
-      }
-
-      h1.title {
-        font-size: 1.5rem;
-      }
-
-      .footer-text {
-        font-size: 0.8rem;
-        padding: 1rem;
-      }
-    }
-
-    .footer-text {
-      text-align: center;
-      color: white;
-      background-color: rgba(0, 0, 0, 0.4);
-      border: 2px solid black;
-      border-radius: 10px;
-      padding: 1rem 1.5rem;
-      margin: 3rem auto 1rem auto;
-      max-width: 25%;
-      font-size: 1rem;
-      font-weight: 500;
-      margin-top: -100px;
-      backdrop-filter: blur(4px);
-      z-index: 2;
-      margin-top: 150px;
-    }
-    .footer-text {
-  max-width: 100%; /* default untuk mobile */
-}
-
-@media (min-width: 768px) {
-  .footer-text {
-    max-width: 90%;
-  }
-}
-
-@media (min-width: 992px) {
-  .footer-text {
-    max-width: 60%;
-  }
-}
-
-@media (min-width: 1200px) {
-  .footer-text {
-    max-width: 25%;
-  }
-}
-
-
-    .skyscraper {
-      position: fixed;
-      bottom: 0;
-      height: 30vh;
-      width: 100%;
-      background: linear-gradient(to top, rgba(0,0,0,0.1), transparent);
-      z-index: -1;
-    }
-    </style>
-
-    <!DOCTYPE html>
-    <html lang="en">
-    <head>
-      <meta charset="UTF-8" />
-      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
-      <title>Silahkan Login !</title>
-      <link rel="icon" href="/assets/android/iconmenu/logojabarpng.png" type="image/x-icon">
-
-    </head>
-    <body>
-      <div class="architect-grid"></div>
-      <div class="skyscraper"></div>
-
-      <div class="login-container">
-        <div class="logo-section">
-            <img src="/assets/android/iconmenu/logojabarpng.png" alt="Kabupaten Blora" style="width: 80%;" />
-          </div>
-              <div class="container">
-            <h4 class="title" style="font-family: 'Poppins', sans-serif; text-align: center;">Sign in to JASPRO <br> Jabar Assesment For Province</h4>
-          </div>
-
-          <div style="font-family: 'Poppins', sans-serif;">
-            <style>
-                input::placeholder {
-                    font-family: 'Poppins', sans-serif;
-                }
-            </style>
-
-            <form action="/login" method="POST">
-                @csrf
-
-                @if ($errors->has('loginError'))
-                    <div class="error-message" style="color: red;">
-                        {{ $errors->first('loginError') }}
-                    </div>
-                @endif
-
-                <div class="input-group">
-                    <input type="text" name="email" placeholder="Email" value="{{ old('email') }}" required />
-                    <i class="fas fa-user"></i>
-                    @error('email')
-                        <div class="invalid-feedback" style="color: red;">{{ $message }}</div>
-                    @enderror
-                </div>
-
-                <div class="input-group">
-                    <input type="password" name="password" placeholder="Password" required />
-                    <i class="fas fa-lock"></i>
-                    @error('password')
-                        <div class="invalid-feedback" style="color: red;">{{ $message }}</div>
-                    @enderror
-                </div>
-
-                <button type="submit" class="btn-login" style="font-size: 16px;">Login</button>
-
-                {{-- <div class="footer-links" style="display: flex; justify-content: flex-end;">
-                    <a href="/daftar">Register Here?</a>
-                </div> --}}
-            </form>
+    <!-- preloader -->
+    <div class="preloader">
+        <div class="preloader-inner">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
         </div>
+    </div>
+    <!-- preloader-end -->
+
+    <!-- Scroll-top -->
+    <button class="scroll__top scroll-to-target" data-target="html">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+    <!-- Scroll-top-end-->
+
+    <!-- main-area -->
+    <main class="main-area fix">
 
 
-      </div>
+        <!-- login-area -->
+        <section class="login__area">
+            <div class="container-fluid p-0">
+                <div class="row gx-0">
+                    <div class="col-md-6">
+                        <div class="login__left-side" data-background="assets/gambar/halamanlogin.jpg">
+                            <a href="#"><img src="assets/gambar/logo1.png" alt="logo"></a>
+                                <div class="login__left-content">
+                                    <p>“Rekapinaja membantu saya mencatat keuangan harian dengan mudah dan rapi. Sekarang semua pengeluaran bisa saya kontrol tanpa ribet.”</p>
+                                    <h4 class="title">Rekapinaja - Pencatatan Keuangan</h4>
+                                </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="login__form-wrap">
+                            <h2 class="title">Masuk/Daftar </h2>
+                            {{-- <div class="login__form-social">
+                                <a href="https://github.com/" target="_blank"><i class="fab fa-github"></i></a>
+                                <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a>
+                            </div> --}}
+                            {{-- <span class="divider">or</span> --}}
+                            <form action="#" class="login__form">
+                                <div class="form__grp">
+                                    <input type="email" placeholder="Your email">
+                                </div>
+                                <div class="form__grp">
+                                    <input type="password" placeholder="Password">
+                                </div>
+                                <div class="account__check">
+                                    {{-- <div class="account__check-remember">
+                                        <input type="checkbox" class="form-check-input" value="" id="terms-check">
+                                        <label for="terms-check" class="form-check-label">Remember me</label>
+                                    </div> --}}
+                                    <div class="account__check-forgot">
+                                        <a href="reset.html">Lupa Password ?</a>
+                                    </div>
+                                </div>
+                                <button type="submit" class="tg-btn tg-btn-three">Log in <img src="assets/img/icons/right_arrow.svg" alt="" class="injectable"></button>
+                            </form>
+                            <div class="account__switch">
+                                <p>Belum Punya Akun ?<a href="register.html">Silahkan Daftar </a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- login-area-end -->
 
-<div class="footer-text" style="
-    font-family: 'Poppins', sans-serif !important;
-    font-size: 12px !important;
-    background-color: transparent !important;
-    text-align: center;
-    color: #4a4a4a;
-    padding: 12px 0;
-">
-  <img src="/assets/android/iconmenu/logojabarpng.png" alt="Logo Jabar" width="35" style="margin-right: 8px;">
-  <img src="/assets/android/iconmenu/bkdjabarpng.png" alt="Logo BKD" width="35">
-  <br>
-  <span style="font-weight: 600; color:white;">Badan Kepegawaian Daerah</span> <br>
-  <span style="font-weight: 600; color:white;">Pemerintah Provinsi Jawa Barat</span>
-</div>
-    </body>
-    </html>
+
+    </main>
+    <!-- main-area-end -->
+
+
+
+
+
+    <!-- JS here -->
+    <script src="assets/js/vendor/jquery-3.6.0.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/jquery.magnific-popup.min.js"></script>
+    <script src="assets/js/jquery.odometer.min.js"></script>
+    <script src="assets/js/jquery.appear.js"></script>
+    <script src="assets/js/swiper-bundle.min.js"></script>
+    <script src="assets/js/jquery.parallaxScroll.min.js"></script>
+    <script src="assets/js/jquery.marquee.min.js"></script>
+    <script src="assets/js/tg-cursor.min.js"></script>
+    <script src="assets/js/ajax-form.js"></script>
+    <script src="assets/js/svg-inject.min.js"></script>
+    <script src="assets/js/wow.min.js"></script>
+    <script src="assets/js/aos.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script>
+        SVGInject(document.querySelectorAll("img.injectable"));
+    </script>
+</body>
+
+</html>

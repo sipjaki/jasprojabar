@@ -168,7 +168,7 @@
                                                 <li><a href="blog-details.html">Blog post Details</a></li>
                                                 <li><a href="career.html">Career Page</a></li>
                                                 <li><a href="career-details.html">Career Details</a></li>
-                                                <li><a href="login.html">Login Page</a></li>
+                                                <li><a href="masuk.html">masuk Page</a></li>
                                                 <li><a href="register.html">Register Page</a></li>
                                                 <li><a href="reset.html">Reset Page</a></li>
                                             </ul> --}}
@@ -200,7 +200,7 @@
                                 <div class="tgmenu__action tgmenu__action-two">
                                     <ul class="list-wrap">
                                         <li class="header-btn header-btn-two">
-                                            <a href="/login" class="tg-btn">Masuk/Daftar ?</a>
+                                            <a href="/masuk" class="tg-btn">Masuk/Daftar ?</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -319,7 +319,7 @@
                 <h4 class="title"><a href="#">Paket Gratis</a></h4>
                 <p style="text-align: justify;">Nikmati fitur dasar Rekapinaja untuk mencatat keuangan pribadi atau usaha kecil tanpa biaya. Cocok buat kamu yang baru mulai belajar kelola keuangan!</p>
                     <h5 class="price mt-2">Rp 0 <small>/selamanya</small></h5>
-                <a href="/login" target="_blank" class="tg-btn tg-btn-two">
+                <a href="/masuk" target="_blank" class="tg-btn tg-btn-two">
                     Mulai Sekarang
                     <img src="assets/img/icons/right_arrow.svg" alt="" class="injectable">
                 </a>
@@ -337,7 +337,7 @@
                 <h4 class="title"><a href="#">Paket Bulanan</a></h4>
                 <p style="text-align: justify;">Akses penuh semua fitur premium Rekapinaja hanya dengan biaya hemat setiap bulan. Catatan keuangan jadi makin rapi dan otomatis.</p>
                 <h5 class="price mt-2">Rp 55.000 <small>/bulan</small></h5>
-                <a href="/login" target="_blank" class="tg-btn tg-btn-two">
+                <a href="/masuk" target="_blank" class="tg-btn tg-btn-two">
                     Langganan Sekarang
                     <img src="assets/img/icons/right_arrow.svg" alt="" class="injectable">
                 </a>
@@ -355,7 +355,7 @@
                 <h4 class="title"><a href="#">Paket Tahunan</a></h4>
                 <p style="text-align: justify;">Langganan setahun penuh lebih hemat! Nikmati semua fitur premium Rekapinaja dan dukungan penuh untuk pencatatan keuangan bisnis kamu.</p>
                 <h5 class="price mt-2">Rp 525.000 <small>/tahun</small></h5>
-                <a href="/login" target="_blank" class="tg-btn tg-btn-two">
+                <a href="/masuk" target="_blank" class="tg-btn tg-btn-two">
                     Pilih Paket Ini
                     <img src="assets/img/icons/right_arrow.svg" alt="" class="injectable">
                 </a>

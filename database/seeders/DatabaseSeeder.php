@@ -71,7 +71,7 @@ class DatabaseSeeder extends Seeder
             'statusadmin_id' => '1',
             'avatar' => 'assets/abgblora/logo/iconabgblora.png',
             'email' => 'sigitseptiadi1@gmail.com',
-            'password' => bcrypt('adminadmin123$$')
+            'password' => bcrypt('adminadmin')
         ]);
 
         User::create([

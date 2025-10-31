@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\DashboardController;
+use App\Http\Controllers\LoginController;
 use Illuminate\Support\Facades\Route;
 
 
@@ -20,6 +21,7 @@ use Illuminate\Support\Facades\Auth;
 // ------------------------- FRONTEND HALAMAN UTAMA ABG BLORA BANGUNAN GEDUNG --------------------------
 
 Route::get('/', [DashboardController::class, 'index']);
+Route::get('/masuk', [LoginController::class, 'index']);
 // Route::get('/web', [DashboardController::class, 'web']);
 
 // MENU 02 PERMOHONAN KRK USAHA
