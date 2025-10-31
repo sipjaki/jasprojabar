@@ -47,44 +47,14 @@ class User extends Authenticatable
         return $this->belongsTo(statusadmin::class);
     }
 
-    public function krkusaha()
+    public function refferal()
     {
-        return $this->hasMany(krkusaha::class);
+        return $this->belongsTo(User::class, 'refferal_id');
     }
 
-    public function krkhunian()
+    public function users()
     {
-        return $this->hasMany(krkhunian::class);
-    }
-
-    public function krkkeagamaan()
-    {
-        return $this->hasMany(krkkeagamaan::class);
-    }
-
-    public function bantuanteknis()
-    {
-        return $this->hasMany(bantuanteknis::class);
-    }
-
-    public function asistensibantek()
-    {
-        return $this->hasMany(asistensibantek::class);
-    }
-
-    public function bujkkonsultan()
-    {
-        return $this->hasMany(bujkkonsultan::class);
-    }
-
-    public function bantuanhibahbg()
-    {
-        return $this->hasMany(bantuanhibahbg::class);
-    }
-
-    public function penilikbangunan()
-    {
-        return $this->hasMany(penilikbangunan::class);
+        return $this->hasMany(User::class, 'refferal_id');
     }
 
 }

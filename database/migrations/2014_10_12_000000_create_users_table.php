@@ -14,6 +14,7 @@ return new class extends Migration
         Schema::create('users', function (Blueprint $table) {
             $table->id();
             $table->foreignId('statusadmin_id')->nullable()->index();
+            $table->foreignId('refferal_id')->nullable();
             $table->string('name')->nullable();
             $table->string('username')->nullable();
             $table->text('phone_number')->nullable();

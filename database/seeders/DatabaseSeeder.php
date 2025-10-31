@@ -96,34 +96,6 @@ class DatabaseSeeder extends Seeder
             'status' => 'admin',
         ]);
 
-        statusadmin::create([
-            'id'  => 3,
-            'status' => 'pemohon',
-        ]);
-
-        statusadmin::create([
-            'id'  => 4,
-            'status' => 'konsultanbantek',
-        ]);
-
-        // statusadmin::create([
-        //     'id'  => 5,
-        //     'status' => 'konsultanbangunan',
-        // ]);
-
-        statusadmin::create([
-            'id'  => 6,
-            'status' => 'dinas',
-        ]);
-
-        statusadmin::create([
-            'id'  => 7,
-            'status' => 'pemohonbantek',
-        ]);
-
-
-        // AKUN USERS ---------
-
 
 
 
