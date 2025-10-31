@@ -194,7 +194,7 @@
                                                 <li><a href="project-details-5.html">Portfolio Details Five</a></li>
                                             </ul>
                                         </li> --}}
-                                        <li><a href="contact.html">Contact</a></li>
+                                        <li><a href="#">Kontak Kami</a></li>
                                     </ul>
                                 </div>
                                 <div class="tgmenu__action tgmenu__action-two">
@@ -217,18 +217,18 @@
             <nav class="tgmobile__menu-box">
                 <div class="close-btn"><i class="tg-flaticon-close-1"></i></div>
                 <div class="nav-logo">
-                    <a href="index.html"><img src="assets/img/logo/logo.svg" alt="Logo"></a>
+                    <a href="index.html"><img src="assets/gambar/logo1.png" alt="Logo"></a>
                 </div>
-                <div class="tgmobile__search">
+                {{-- <div class="tgmobile__search">
                     <form action="#">
                         <input type="text" placeholder="Search here...">
                         <button><i class="fas fa-search"></i></button>
                     </form>
-                </div>
+                </div> --}}
                 <div class="tgmobile__menu-outer">
                     <!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header-->
                 </div>
-                <div class="social-links">
+                {{-- <div class="social-links">
                     <ul class="list-wrap">
                         <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
                         <li><a href="#"><i class="fab fa-twitter"></i></a></li>
@@ -236,7 +236,7 @@
                         <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
                         <li><a href="#"><i class="fab fa-youtube"></i></a></li>
                     </ul>
-                </div>
+                </div> --}}
             </nav>
         </div>
         <div class="tgmobile__menu-backdrop"></div>
