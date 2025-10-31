@@ -62,7 +62,7 @@
                                 <button type="submit" class="tg-btn tg-btn-three">Log in <img src="assets/img/icons/right_arrow.svg" alt="" class="injectable"></button>
                             </form>
                             <div class="account__switch">
-                                <p>Belum Punya Akun ?<a href="register.html">Silahkan Daftar </a></p>
+                                <p>Belum Punya Akun ?<a href="/daftar">Silahkan Daftar </a></p>
                             </div>
                         </div>
                     </div>

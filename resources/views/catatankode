@@ -1,4 +1,7 @@
-     <div style="margin-top: 10px;">
+kode ssh : ssh -p 65002 u906408191@145.79.14.180
+password : Adminadmin123$$
+
+<div style="margin-top: 10px;">
                                                                                                             @if($item->tandatangan && $item->tandatangan && $item->tandatangan && file_exists(public_path('storage/' . $item->tandatangan)))
                                                                                                                 <!-- Menampilkan gambar dari storage -->
                                                                                                                 <img src="{{ asset('storage/' . $item->tandatangan) }}" alt="Gambar Peraturan" style="width: 100%; max-height: 100px; object-fit: contain;" loading="lazy">

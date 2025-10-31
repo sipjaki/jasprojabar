@@ -318,7 +318,7 @@
             <h2 class="price">Rp0<span>/selamanya</span></h2>
           </div>
           <div class="pricing__button">
-            <a href="#!" class="tg-btn">Gunakan Sekarang <img src="assets/img/icons/right_arrow.svg" alt=""></a>
+            <a href="/masuk" class="tg-btn">Gunakan Sekarang <img src="assets/img/icons/right_arrow.svg" alt=""></a>
           </div>
           <div class="pricing__list">
             <h5 class="pricing__list-title">Fitur:</h5>
@@ -343,7 +343,7 @@
             <h2 class="price">Rp55.000<span>/bulan</span></h2>
           </div>
           <div class="pricing__button">
-            <a href="#!" class="tg-btn">Mulai Sekarang <img src="assets/img/icons/right_arrow.svg" alt=""></a>
+            <a href="/masuk" class="tg-btn">Mulai Sekarang <img src="assets/img/icons/right_arrow.svg" alt=""></a>
           </div>
           <div class="pricing__list">
             <h5 class="pricing__list-title">Fitur:</h5>
@@ -368,7 +368,7 @@
             <h2 class="price">Rp450.000<span>/tahun</span></h2>
           </div>
           <div class="pricing__button">
-            <a href="#!" class="tg-btn">Langganan Sekarang <img src="assets/img/icons/right_arrow.svg" alt=""></a>
+            <a href="/masuk" class="tg-btn">Langganan Sekarang <img src="assets/img/icons/right_arrow.svg" alt=""></a>
           </div>
           <div class="pricing__list">
             <h5 class="pricing__list-title">Fitur:</h5>

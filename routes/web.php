@@ -22,6 +22,10 @@ use Illuminate\Support\Facades\Auth;
 
 Route::get('/', [DashboardController::class, 'index']);
 Route::get('/masuk', [LoginController::class, 'index']);
+Route::get('/daftar', [LoginController::class, 'showRegisterForm']);
+
+Route::post('/register', [LoginController::class, 'register'])->name('register.store');
+
 // Route::get('/web', [DashboardController::class, 'web']);
 
 // MENU 02 PERMOHONAN KRK USAHA

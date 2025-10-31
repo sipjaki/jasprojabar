@@ -93,7 +93,7 @@ class DatabaseSeeder extends Seeder
 
         statusadmin::create([
             'id'  => 2,
-            'status' => 'admin',
+            'status' => 'pengguna',
         ]);
 
 
