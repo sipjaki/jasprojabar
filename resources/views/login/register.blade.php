@@ -27,8 +27,8 @@
             <div class="container-fluid p-0">
                 <div class="row gx-0">
                     <div class="col-md-6">
-                        <div class="login__left-side" data-background="assets/img/bg/register.webp">
-                            <a href="index.html"><img src="assets/img/logo/w_logo.svg" alt="logo"></a>
+                        <div class="login__left-side" data-background="assets/gambar/halamanlogin.jpg">
+                            <a href="index.html"><img src="assets/gambar/logo1.png" alt="logo"></a>
                             <div class="login__left-content">
                                 <p>“This software simplifies the website building process, making it a breeze to manage our online presence.”</p>
                                 <h4 class="title">David Handerson</h4>
@@ -47,21 +47,21 @@
                            <form action="{{ route('register.store') }}" method="POST" class="login__form">
     @csrf
     <div class="form__grp">
-        <input type="text" name="username" placeholder="Masukkan Username" value="{{ old('username') }}" required>
+        <input type="text" name="username" placeholder="Username" value="{{ old('username') }}" required>
         @error('username')
             <small style="color:red;">{{ $message }}</small>
         @enderror
     </div>
 
     <div class="form__grp">
-        <input type="email" name="email" placeholder="Masukkan Email" value="{{ old('email') }}" required>
+        <input type="email" name="email" placeholder="Email" value="{{ old('email') }}" required>
         @error('email')
             <small style="color:red;">{{ $message }}</small>
         @enderror
     </div>
 
     <div class="form__grp">
-        <input type="password" name="password" placeholder="Masukkan Password" required>
+        <input type="password" name="password" placeholder="Password" required>
         @error('password')
             <small style="color:red;">{{ $message }}</small>
         @enderror
@@ -71,7 +71,7 @@
         <div class="account__check-remember">
             <input type="checkbox" class="form-check-input" id="terms-check" required>
             <label for="terms-check" class="form-check-label">
-                Saya menyetujui <a href="contact.html">syarat & ketentuan</a>
+                Saya menyetujui <a href="#">syarat & ketentuan</a>
             </label>
         </div>
     </div>
@@ -83,7 +83,7 @@
 </form>
 
                             <div class="account__switch">
-                                <p>Remember your password? <a href="login.html">Sign in</a></p>
+                                <p>Sudah Punya Akun ? <a href="/masuk">Silahkan Masuk</a></p>
                             </div>
                         </div>
                     </div>
