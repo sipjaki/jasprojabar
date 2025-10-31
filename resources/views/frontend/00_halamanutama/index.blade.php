@@ -295,82 +295,96 @@
         <!-- banner-area-end -->
 
         <!-- services-area -->
-        <section class="services__area section-py-130">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-lg-10">
-                       <div class="section__title text-center mb-40">
-                        <span class="sub-title">Paket Langganan Rekapinaja</span>
-                        <h2 class="title">Solusi Cerdas <br> untuk Catatan Keuanganmu</h2>
-                        <p>Kelola keuangan lebih mudah dan rapi dengan berbagai paket langganan Rekapinaja. Pilih paket sesuai kebutuhan bisnismu — praktis, efisien, dan hemat waktu!</p>
-                    </div>
-
-                    </div>
-                </div>
-
-             <div class="row gutter-y-30 justify-content-center">
-    <!-- Paket Gratis -->
-    <div class="col-lg-4 col-md-6">
-        <div class="services__item-two">
-            <div class="services__icon-two">
-                <i class="flaticon-report"></i>
-            </div>
-            <div class="services__content-two">
-                <h4 class="title"><a href="#">Paket Gratis</a></h4>
-                <p style="text-align: justify;">Nikmati fitur dasar Rekapinaja untuk mencatat keuangan pribadi atau usaha kecil tanpa biaya. Cocok buat kamu yang baru mulai belajar kelola keuangan!</p>
-                    <h5 class="price mt-2">Rp 0 <small>/selamanya</small></h5>
-                <a href="/masuk" target="_blank" class="tg-btn tg-btn-two">
-                    Mulai Sekarang
-                    <img src="assets/img/icons/right_arrow.svg" alt="" class="injectable">
-                </a>
-            </div>
+<section class="pricing__area section-py-130">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-6">
+        <div class="section__title text-center mb-30">
+          <h2 class="title">Pilih Paket Rekapinaja</h2>
+          <p>Catat dan kelola keuanganmu sesuai kebutuhan — mulai dari gratis hingga fitur lengkap profesional.</p>
         </div>
+      </div>
     </div>
 
-    <!-- Paket Bulanan -->
-    <div class="col-lg-4 col-md-6">
-        <div class="services__item-two">
-            <div class="services__icon-two">
-                <i class="flaticon-report"></i>
-            </div>
-            <div class="services__content-two">
-                <h4 class="title"><a href="#">Paket Bulanan</a></h4>
-                <p style="text-align: justify;">Akses penuh semua fitur premium Rekapinaja hanya dengan biaya hemat setiap bulan. Catatan keuangan jadi makin rapi dan otomatis.</p>
-                <h5 class="price mt-2">Rp 55.000 <small>/bulan</small></h5>
-                <a href="/masuk" target="_blank" class="tg-btn tg-btn-two">
-                    Langganan Sekarang
-                    <img src="assets/img/icons/right_arrow.svg" alt="" class="injectable">
-                </a>
-            </div>
+    <div class="row justify-content-center gutter-y-30">
+      <!-- Paket Gratis -->
+      <div class="col-lg-4 col-md-6">
+        <div class="pricing__box">
+          <div class="pricing__top">
+            <h5 class="title">Paket Gratis</h5>
+            <p>Cocok untuk pengguna baru dengan akses terbatas untuk mencoba fitur dasar Rekapinaja.</p>
+          </div>
+          <div class="pricing__price">
+            <h2 class="price">Rp0<span>/selamanya</span></h2>
+          </div>
+          <div class="pricing__button">
+            <a href="#!" class="tg-btn">Gunakan Sekarang <img src="assets/img/icons/right_arrow.svg" alt=""></a>
+          </div>
+          <div class="pricing__list">
+            <h5 class="pricing__list-title">Fitur:</h5>
+            <ul class="list-wrap">
+              <li>✔️ Pemasukan & Pengeluaran</li>
+              <li>✔️ Transaksi Harian</li>
+              <li>✔️ Laporan Bulanan Sederhana</li>
+              <li>❌ Dashboard Keuangan</li>
+            </ul>
+          </div>
         </div>
-    </div>
+      </div>
 
-    <!-- Paket Tahunan -->
-    <div class="col-lg-4 col-md-6">
-        <div class="services__item-two">
-            <div class="services__icon-two">
-                <i class="flaticon-report"></i>
-            </div>
-            <div class="services__content-two">
-                <h4 class="title"><a href="#">Paket Tahunan</a></h4>
-                <p style="text-align: justify;">Langganan setahun penuh lebih hemat! Nikmati semua fitur premium Rekapinaja dan dukungan penuh untuk pencatatan keuangan bisnis kamu.</p>
-                <h5 class="price mt-2">Rp 525.000 <small>/tahun</small></h5>
-                <a href="/masuk" target="_blank" class="tg-btn tg-btn-two">
-                    Pilih Paket Ini
-                    <img src="assets/img/icons/right_arrow.svg" alt="" class="injectable">
-                </a>
-            </div>
+      <!-- Paket Bulanan -->
+      <div class="col-lg-4 col-md-6">
+        <div class="pricing__box active">
+          <div class="pricing__top">
+            <h5 class="title">Paket Pro Bulanan</h5>
+            <p>Untuk kamu yang ingin akses penuh fitur Rekapinaja dengan biaya terjangkau.</p>
+          </div>
+          <div class="pricing__price">
+            <h2 class="price">Rp55.000<span>/bulan</span></h2>
+          </div>
+          <div class="pricing__button">
+            <a href="#!" class="tg-btn">Mulai Sekarang <img src="assets/img/icons/right_arrow.svg" alt=""></a>
+          </div>
+          <div class="pricing__list">
+            <h5 class="pricing__list-title">Fitur:</h5>
+            <ul class="list-wrap">
+              <li>✔️ Semua fitur</li>
+              <li>✔️ Transaksi Tak Terbatas</li>
+              <li>✔️ Ekspor Laporan </li>
+              <li>✔️ Backup Data Otomatis</li>
+            </ul>
+          </div>
         </div>
+      </div>
+
+      <!-- Paket Tahunan -->
+      <div class="col-lg-4 col-md-6">
+        <div class="pricing__box">
+          <div class="pricing__top">
+            <h5 class="title">Paket Pro Tahunan</h5>
+            <p>Hemat lebih banyak dengan paket tahunan — semua fitur Pro tanpa batas waktu.</p>
+          </div>
+          <div class="pricing__price">
+            <h2 class="price">Rp450.000<span>/tahun</span></h2>
+          </div>
+          <div class="pricing__button">
+            <a href="#!" class="tg-btn">Langganan Sekarang <img src="assets/img/icons/right_arrow.svg" alt=""></a>
+          </div>
+          <div class="pricing__list">
+            <h5 class="pricing__list-title">Fitur:</h5>
+            <ul class="list-wrap">
+              <li>✔️ Semua Fitur</li>
+              <li>✔️ Prioritas Dukungan Teknis</li>
+              <li>✔️ Statistik & Grafik Keuangan</li>
+              <li>✔️ Akses Premium</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
     </div>
-</div>
-
-                {{-- <div class="services__bottom-content text-center mt-50">
-                    <p>Discover Our Financial Services. <a href="services.html">Explore All Services</a></p>
-                </div> --}}
-            </div>
-        </section>
-        <!-- services-area-end -->
-
+  </div>
+</section>
 
         <!-- cta-area -->
         <section class="cta__area-two">
