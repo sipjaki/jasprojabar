@@ -10,7 +10,7 @@
                             </div>
                             <div class="footer__contact">
                                 <ul class="list-wrap">
-                                    <li><i class="flaticon-placeholder"></i>Sydney Harbour Circular City of Sydney,Australia.</li>
+                                    <li><i class="flaticon-placeholder"></i>Villa Pad .</li>
                                     <li><i class="flaticon-telephone"></i><a href="tel:0123456789">+123 888 9999</a></li>
                                     <li><i class="flaticon-envelope"></i><a href="mailto:info@beeko.com">info@beeko.com</a></li>
                                 </ul>
@@ -98,12 +98,6 @@
         </div>
     </footer>
     <!-- footer-area-end -->
-
-
-
-
-
-
 
     <!-- JS here -->
     <script src="assets/js/vendor/jquery-3.6.0.min.js"></script>
