@@ -10,7 +10,7 @@
                                 </div>
                                 <div class="tgmenu__navbar-wrap tgmenu__main-menu d-none d-lg-flex">
                                     <ul class="navigation">
-                                        <li class="active tg-mega-menu-has-children"><a href="#">Home</a>
+                                        <li class="active tg-mega-menu-has-children"><a href="/">Beranda</a>
                                             {{-- <div class="tg-mega-menu-wrap">
                                                 <div class="row row-cols-1 row-cols-lg-6 row-cols-xl-6">
                                                     <div class="col">
@@ -137,7 +137,7 @@
                                             </div> --}}
                                         </li>
                                         {{-- <li class="menu-item-has-children"><a href="#">Transaksi</a> --}}
-                                        <li><a href="#">Transaksi</a>
+                                        <li><a href="/transaksi">Transaksi</a>
                                             {{-- <ul class="sub-menu">
                                                 <li><a href="pricing.html">Pricing Page</a></li>
                                                 <li><a href="blog.html">Blog post</a></li>
@@ -150,7 +150,7 @@
                                             </ul> --}}
                                         </li>
                                         {{-- <li class="menu-item-has-children"><a href="#">Dashboard</a> --}}
-                                        <li><a href="#">Dashboard</a>
+                                        <li><a href="/dashboard">Dashboard</a>
                                             {{-- <ul class="sub-menu">
                                                 <li><a href="services.html">Our Services</a></li>
                                                 <li><a href="services-details.html">Services Details One</a></li>

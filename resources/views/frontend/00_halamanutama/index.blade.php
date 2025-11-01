@@ -212,5 +212,6 @@
     </main>
     <!-- main-area-end -->
 
+    @include('frontend.00_fiturmenu.06_cookies')
     @include('frontend.00_fiturmenu.02_footer')
 

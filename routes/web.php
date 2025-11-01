@@ -24,6 +24,7 @@ use Illuminate\Support\Facades\Auth;
 Route::get('/', [DashboardController::class, 'index']);
 Route::get('/masuk', [LoginController::class, 'index'])->name('login.index');
 Route::post('/masuk', [LoginController::class, 'masuksistem'])->name('loginmasuk');
+Route::get('/daftar', [LoginController::class, 'showRegisterForm'])->name('register.form');
 // Route::get('/login', [LoginController::class, 'index'])->name('login.index');
 
 // // 🟢 Proses login (POST)

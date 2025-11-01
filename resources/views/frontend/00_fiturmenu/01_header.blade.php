@@ -24,4 +24,5 @@
     <link rel="stylesheet" href="assets/css/aos.css">
     <link rel="stylesheet" href="assets/css/tg-cursor.css">
     <link rel="stylesheet" href="assets/css/main.css">
+    @include('frontend.00_fiturmenu.05_alert')
 </head>
