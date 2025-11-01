@@ -32,12 +32,14 @@ use App\Models\kodelokasibangunangedung;
 use App\Models\databangunangedung;
 use App\Models\fasilitatorasses;
 use App\Models\jenispengajuanbantek;
+use App\Models\jenistransaksi;
 use App\Models\kepemilikanbangunangedung;
 use App\Models\krkhunian;
 use App\Models\krkkeagamaan;
 use App\Models\krksosbud;
 use App\Models\krkusaha;
 use App\Models\namafasilitator;
+use App\Models\subtransaksi;
 // use App\Models\paketpekerjaan;
 use Database\Factories\SkktenagakerjaFactory;
 // use Carbon\Carbon;
@@ -83,6 +85,24 @@ class DatabaseSeeder extends Seeder
             'email' => 'ganet.suryo@gmail.com',
             'password' => bcrypt('rekapin111888')
         ]);
+
+subtransaksi::create([
+    'akunpengguna_id'   => 1,
+    'transaksi_id'   => 1,
+    'jenistransaksi_id'   => 1,
+    'tanggal_transaksi' => now(),
+]);
+
+jenistransaksi::create([
+    'id'   => 1,
+    'jenistransaksi'   => 'Pemasukan',
+]);
+
+jenistransaksi::create([
+    'id'   => 2,
+    'jenistransaksi'   => 'Pengeluaran',
+]);
+
 
         // MENU KEDINASAN
 

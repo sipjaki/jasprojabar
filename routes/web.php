@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\LoginController;
+use App\Http\Controllers\SubtransaksiController;
 use GuzzleHttp\Middleware;
 use Illuminate\Support\Facades\Route;
 
@@ -40,7 +41,14 @@ Route::get('/dashboard', function () {
 
 Route::post('/register/store', [LoginController::class, 'register'])->name('register.store');
 
+// HALAMAN DASHBOARD
 Route::get('/dashboard', [DashboardController::class, 'dashboard'])->middleware('auth')->name('dashboardadmin');
+Route::get('/transaksi', [DashboardController::class, 'transaksi'])->middleware('auth')->name('dashboardtransaksi');
+Route::delete('/deletesubtransaksi/{id}', [DashboardController::class, 'deletesubtransaksi'])->name('transaksi.destroy');
+Route::get('/detailtransaksi/{id}', [DashboardController::class, 'showtransaksi'])->name('transaksi.show');
+
+Route::get('/tambahtransaksi', [SubtransaksiController::class, 'tambahtransaksi'])->name('transaksi.create');
+Route::get('/tambahtransaksistrore', [SubtransaksiController::class, 'tambahtransaksi'])->name('transaksi.store');
 
 // MENU 02 PERMOHONAN KRK USAHA
 // Route::get('/permohonankrkusaha', [KrkController::class, 'permohonankrkusaha'])->name('permohonan.krkusaha');
@@ -49,7 +57,6 @@ Route::get('/dashboard', [DashboardController::class, 'dashboard'])->middleware(
 // Route::get('/permohonanpengesahanusaha/{id}', [KrkController::class, 'permohonanpengesahanusaha'])->name('permohonan.pengesahanusaha');
 // Route::post('/permohonanpengesahanusahacreate/{id}', [KrkController::class, 'permohonanpengesahanusahacreate'])->name('permohonan.pengesahanusahacreate');
 // Route::get('/permohonanpengesahanusahaber/{id}', [KrkController::class, 'permohonanpengesahanusahaber'])->name('permohonan.permohonanpengesahanusahaber');
-// Route::delete('/krkusahasuratdelete/{id}', [KrkController::class, 'destroykrkusahasurat'])->name('krkusahasurat.destroy');
 
 // // DAFTAR SURAT PERMOHONAN BERKAS 1
 // Route::get('/bebantuanteknisassistensi', [BantuanteknisController::class, 'bebantuanteknisassistensi'])->middleware('auth')->name('bebantuanteknisassistensiindex');

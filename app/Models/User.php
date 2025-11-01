@@ -57,4 +57,9 @@ class User extends Authenticatable
         return $this->hasMany(User::class, 'refferal_id');
     }
 
+    public function subtransaksi()
+    {
+        return $this->hasMany(subtransaksi::class);
+    }
+
 }

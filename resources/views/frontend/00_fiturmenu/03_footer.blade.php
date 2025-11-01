@@ -1,4 +1,30 @@
+<!-- footer-area -->
+    <footer class="footer__area-two fix">
+        <div class="container">
+            {{-- <div class="footer__top-two">
 
+            </div> --}}
+            <div class="footer__bottom-two">
+                <div class="row align-items-center">
+                    <div class="col-md-6">
+                        <div class="copyright__content-two">
+                            <p>Rekapinaja | Catatan Keuangan UMKM <br> Deploy and Build By CV. Angkasa Raya Teknik © 2025</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="footer__social footer__social-two">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer__shape-wrap-two">
+            <img src="assets/img/images/h2_footer_shape01.svg" alt="shape">
+            <img src="assets/img/images/h2_footer_shape02.svg" alt="shape">
+            <img src="assets/img/images/h2_footer_shape03.svg" alt="shape">
+        </div>
+    </footer>
 
 
 
